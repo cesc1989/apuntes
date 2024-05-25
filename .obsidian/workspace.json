@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7431272b5faac400",
+        "id": "f32772750cb90e7f",
         "type": "tabs",
         "children": [
           {
-            "id": "b3b507802c229bb5",
+            "id": "370c0893b3f2f7ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rsync",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +147,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b3b507802c229bb5",
+  "active": "370c0893b3f2f7ca",
   "lastOpenFiles": [
+    "Hogar/Destinos.md",
+    "Hogar/Contrato_MetLife.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_01_-_Coshi_Notes.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/La_Idealización_del_Código_-_Apuntes_de_artículos.md",
+    "README~.md",
     "README.md",
     "Canvas/prueba.canvas",
     "Untitled.md",
@@ -171,13 +178,6 @@
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
-    "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
-    "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
-    "DevAsPros/Poffer_Syncer/Plan_Ciclo_3.md",
-    "DevAsPros/Poffer_Syncer/Plan_General_Inicial_de_Poffer_Syncer.md",
-    "DevAsPros/Intrati/Cómo_Funciona_la_Creación_de_Sala_en_el_Proyecto_e.md",
-    "DevAsPros/Intrati/Flujo_de_Aplicación_Quickstart_de_Integración_con.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker",
