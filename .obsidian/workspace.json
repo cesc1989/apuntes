@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f32772750cb90e7f",
+        "id": "c445eb2eeb78b66a",
         "type": "tabs",
         "children": [
           {
-            "id": "370c0893b3f2f7ca",
+            "id": "0495fed1d56c8740",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
-                "mode": "preview",
+                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
+                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
+                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md"
+                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md"
               }
             }
           }
@@ -147,8 +147,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "370c0893b3f2f7ca",
+  "active": "0495fed1d56c8740",
   "lastOpenFiles": [
+    "Hogar/Registro_Civil_de_Defunción_Panzon.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "Hogar/Destinos.md",
     "Hogar/Contrato_MetLife.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
@@ -176,8 +178,6 @@
     "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#3.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker",
