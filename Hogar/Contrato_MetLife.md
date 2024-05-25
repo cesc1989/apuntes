@@ -1,25 +1,6 @@
 # Contrato MetLife
 Está en mi correo personal y mi cuenta de Dropbox personal.
 
-Primer Seguro: **Póliza reajustable de accidentes personales individual**
-No. de Póliza: **1629954**
-Plan de Seguro: **AP SALUD PESOS**
-Valor Asegurado: **$85,096,037**
-Inicio: **19/08/2020**
-Fin: **19/08/2020**
-Prima anual: **$777,800**
-Período de Espera: **90 días**
-Nota: El valor de la prima (pago mensual) cambia cada año del contrato.
-
-Segundo Seguro: **Póliza reajustable de seguro de vida individual**
-**Página 16 del contrato.**
-No. de Póliza: **5733503**
-Plan de Seguro:  **VI ENTERA A EDAD 50 AÑOS PESOS**
-Valor Asegurado: **$96,558,569**
-Inicio: **19/08/2020**
-Fin: **19/08/2039**
-Prima mensual: **$346,100**
-
 # Notas sobre Póliza de Accidentes Personales Enfermedades Graves
 
 QUE AL ASEGURADO SE LE DIAGNOSTIQUE, IMPREVISTAMENTE ALGUNA DE LAS ENFERMEDADES GRAVES QUE FIGUREN COMO ASEGURABLES, **DESCRITAS EN LA CONDICIÓN 4 DE LA PRESENTE PÓLIZA:**

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+                "file": "Hogar/Contrato_MetLife.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+                "file": "Hogar/Contrato_MetLife.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+                "file": "Hogar/Contrato_MetLife.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md"
+                "file": "Hogar/Contrato_MetLife.md"
               }
             }
           }
@@ -150,9 +150,9 @@
   "active": "0495fed1d56c8740",
   "lastOpenFiles": [
     "Hogar/Registro_Civil_de_Defunción_Panzon.md",
-    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "Hogar/Destinos.md",
     "Hogar/Contrato_MetLife.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_01_-_Coshi_Notes.md",
