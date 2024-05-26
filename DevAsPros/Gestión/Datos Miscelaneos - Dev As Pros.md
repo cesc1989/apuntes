@@ -5,11 +5,9 @@
 Número de Matricula Mercantil: **693253**
 NIT: **901.146.981-6**
 
-
 ## Otros
 
 Verde: #68b42e
-
 
 ## Definición Mercado/Segmento Objetivo
 
