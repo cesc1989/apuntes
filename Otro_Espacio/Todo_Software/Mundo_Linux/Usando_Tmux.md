@@ -15,7 +15,6 @@ Cuando se arranca tmux, los comandos son ejecutados normalmente. Para llamar la 
 
     ctrl + B
 
-
 ## Soltando y uniendo sesiones
 
 Con el comando
@@ -37,6 +36,7 @@ Listar sesiones
 
 
 ## Nueva ventana
+
     ctrl + B y C
 
 crea una nueva ventana. en una sesión unida.
@@ -66,20 +66,18 @@ Divide la ventana en dos panales. Uno debajo del otro.
 ![división vertical poner una debajo de la otra](https://paper-attachments.dropboxusercontent.com/s_06C6E8229A7B5654990A5B2569FF5ADE75430F0FF49E6E207E95E3875472E57F_1709938521017_vertical.png)
 
 
-
 ## Moverse entre Ventanas
+
     ctrl + b y 0-9
 
 Donde 0 a 9 es el número de la ventana que se muestra en la barra de estado:
 
 ![](https://paper-attachments.dropboxusercontent.com/s_06C6E8229A7B5654990A5B2569FF5ADE75430F0FF49E6E207E95E3875472E57F_1709938387526_imagen.png)
 
-
 También se puede usar:
 
 - ctrl + B y p: previous
 - ctrl + B y n: next
-
 
 ## Moverse entre Panales
 
@@ -101,3 +99,15 @@ Con el comando
 
 se cierra el panel actual
 
+# Actualizando tmux mediante Homebrew en Macos
+
+Resulta que tuve que ejecutar una actualización con Homebrew y actualizó tmux de paso. Tenía una sesión abierta y cuando quise volver a ejecutar tmux en otra terminal pasaba algo como:
+
+```
+$ tmux
+[exited]
+```
+
+Ese error pasa porque haber tenido la sesión abierta. La solución fue cerrar la sesión activa y se pudo volver a lanzar tmux.
+
+Visto en [Unix & Linux](https://unix.stackexchange.com/a/458367/47620).

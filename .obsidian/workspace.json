@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9c61c65b8340e151",
+        "id": "11a1468739baec5d",
         "type": "tabs",
         "children": [
           {
-            "id": "608d3e7b3317a81c",
+            "id": "8d6d1b0b8ba32ff0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "608d3e7b3317a81c",
+  "active": "8d6d1b0b8ba32ff0",
   "lastOpenFiles": [
-    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace",
     "Luna",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
