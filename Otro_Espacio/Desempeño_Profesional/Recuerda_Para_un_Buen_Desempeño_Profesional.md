@@ -1,9 +1,10 @@
 # Recuerda: Para un Buen Desempeño Profesional
+
 Primera Versión: 11/05/2019
 Segunda Versión: 18/04/2020
 Tercera Versión: 20/04/2023
 
-- Actualización: 19/09/2023
+Actualización: 19/09/2023
 
 Lo publiqué [en el blog](https://otroespacioblog.wordpress.com/2020/08/08/sugerencias-para-un-buen-desempeno-como-desarrollador-de-software-profesional/).
 
@@ -24,6 +25,7 @@ Ejemplo:
 Al hablar con Ryan, es mejor decirle que ya revisé el código y por eso recurro a preguntarle. De esa forma me evito que me responda diciendo que vaya a revisar el código.
 
 # Solicita Tiempo y Espacio para Estimar
+
 - Tiempo para pruebas manuales y/o automáticas (3hrs)
 - Tiempo para hacer el commit y pull request (30min)
 - Tiempo para despliegue (30min)
@@ -31,19 +33,21 @@ Al hablar con Ryan, es mejor decirle que ya revisé el código y por eso recurro
 - Tiempo para mantenimiento y mejoras (4hrs)
 - Usar **puntos de esfuerzo en vez de horas**
 - No dar estimaciones *muy optimistas*
-    - Ver apuntes [libro de estimación de software](https://docs.google.com/document/d/1V2TypYW1GvUwYlymqHaVZ8YMM3GCF6BWnagsrhbiDTw/edit)
-    - Ver notas [+Estimación, Estimación, Estimación](https://paper.dropbox.com/doc/Estimacion-Estimacion-Estimacion-nuPQ1zh5DKEoedtamCGPE)
+  - Ver apuntes [libro de estimación de software](https://docs.google.com/document/d/1V2TypYW1GvUwYlymqHaVZ8YMM3GCF6BWnagsrhbiDTw/edit)
+  - Ver notas [+Estimación, Estimación, Estimación](https://paper.dropbox.com/doc/Estimacion-Estimacion-Estimacion-nuPQ1zh5DKEoedtamCGPE)
+
 # Apropiarse del Proyecto
 
 Lo que creo que me faltó en Gases del Caribe.
-
 
 - Liderar sin miedo
 - Apropiarte del proyecto en ambos frentes (backend y frontend)
 - Brindas apoyo al Project Management y/o Product Owner
 - Recuerda tu forma de trabajar en Bucket y Lupita
 - Recuerda como trabajaba en Dev As Pros (Avanzza, Feed & Fit)
+
 # Proponer en Todos los Aspectos
+
 - Mejoras en código y refactors
 - Implementar *code reviews*
 - Implementar *pair programming*
