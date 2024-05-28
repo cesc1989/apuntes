@@ -1,5 +1,7 @@
 {
   "defaultViewMode": "preview",
   "livePreview": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "attachmentFolderPath": "./attachments",
+  "alwaysUpdateLinks": true
 }
