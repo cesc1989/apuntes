@@ -41,9 +41,11 @@ The background job that runs the GDrive upload runs in the default queue. Run th
 
 Tenemos esto en `app/marketplace/config/base.py`
 
-    ACCOUNT_JSON: SimpleNamespace = SimpleNamespace(
-      ONBOARDING = [base64.b64decode(os.environ.get(f"GOOGLE_SA_DOCUMENT_AGENT_{i}", "")).decode() for i in range(1, 20)]
-    )
+```python
+ACCOUNT_JSON: SimpleNamespace = SimpleNamespace(
+    ONBOARDING = [base64.b64decode(os.environ.get(f"GOOGLE_SA_DOCUMENT_AGENT_{i}", "")).decode() for i in range(1, 20)]
+)
+```
 
 [Aquí comentan](https://stackoverflow.com/questions/56277661/is-it-possible-to-store-a-json-file-to-an-env-variable-with-dotenv) que se puede generar un JSON dump del contenido json y luego hacer un parse al cargarla desde la variable de entorno pero no me sirve por el código anterior. En esa configuración **se está es haciendo un decodeo de un base64**.
 
@@ -58,6 +60,7 @@ Si trato de encodear usando [base64](https://docs.python.org/3/library/base64.ht
     >>> s='{}'
     >>> encoded = base64.b64encode(s)
     >>> TypeError: a bytes-like object is required, not 'str'
+
 ## Avance
 
 Usé [esta web](https://www.base64encode.org/) para encodear a base64 el JSON del service account y pude configurar así la variable de entorno `GOOGLE_SA_DOCUMENT_AGENT_1`.
@@ -78,4 +81,18 @@ Y para decodear:
     base64.b64decode(result).decode()
 
 pero manda el JSON con los doble backslash. Hay que parsearlo.
+
+# Hacer petición al endpoint desde Postman
+
+El respectivo endpoint para hacer la carga desde S3 a Google Drive necesita un token que se específica de esta forma:
+
+```python
+@onboarding_api.route("/onboarding/upload", methods=["POST"])
+@auth.requires_onboarding_token
+```
+
+Dicho token lo configuro así en Postman
+```
+Authorization:Token TOKEN
+```
 
