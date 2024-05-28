@@ -111,3 +111,19 @@ $ tmux
 Ese error pasa porque haber tenido la sesión abierta. La solución fue cerrar la sesión activa y se pudo volver a lanzar tmux.
 
 Visto en [Unix & Linux](https://unix.stackexchange.com/a/458367/47620).
+
+# Scroll y copiar texto
+
+En tmux el scroll normal de la terminal no va a funcionar. Hay que ejecutar una combinación de teclas.
+
+Con esta combinación se pasa a modo navegación.
+
+```
+C-B [
+```
+
+En este modo se puede hacer scroll vertical y copiar texto.
+
+> [!info] Copiar texto en modo navegación
+> 
+> Si se tienen dos paneles de modo horizontal (uno al lado del otro) al copiar texto la selección toma el contenido de ambos lados.
