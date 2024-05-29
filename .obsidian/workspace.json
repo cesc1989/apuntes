@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4e87cebdd0f83a91",
+        "id": "6c13ec770caa69f0",
         "type": "tabs",
         "children": [
           {
-            "id": "87a7d21c8ffe24df",
+            "id": "cf442685cbcc53c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md"
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "87a7d21c8ffe24df",
+  "active": "cf442685cbcc53c2",
   "lastOpenFiles": [
-    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240528111318.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",

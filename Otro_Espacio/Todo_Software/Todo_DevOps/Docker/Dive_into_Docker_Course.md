@@ -47,19 +47,22 @@ A docker image is a stack of one or more layers. Each layer can be seen as a sel
 A docker repository contains one or more docker images. Docker images are tagged for referencing defined versions.
 
 ## docker image commands annotations
+
 > Remember: you can see help of every command with the `--help` option.
 > 
 > There are commands and management commands. Normally, you'd use **management** commands alongside **commands**. Some are shortcuts.
 
 When you define a Dockerfile you can create an image based on its content using:
+```bash
+docker image build -t [NAME:TAG] PATH
+docker image build -t bucket_api:1.0 .
+```
 
-    docker image build -t [NAME:TAG] PATH
-    docker image build -t bucket_api:1.0 .
-
-Build with env vars
-
-    docker image build -t [NAME:TAG] --build-arg ENV=VALUE -f Dockerfile PATH
-    docker image build -t pruebados --build-arg SIDEKIQ_LICENSE_KEY=e3ce75e8:cad5332e -f Dockerfile .
+Build with env vars:
+```bash
+docker image build -t [NAME:TAG] --build-arg ENV=VALUE -f Dockerfile PATH
+docker image build -t pruebados --build-arg SIDEKIQ_LICENSE_KEY=xxxxx:bbbbb -f Dockerfile .
+```
 
 That image can be uploaded to the Docker registry. But remember to tag it with the namespace format for the Docker Hub:
 
@@ -75,8 +78,8 @@ You can see a list of all images with `docker images` command; a list of all run
 
 
 ## `docker container` commands annotations
-> Taken from Dive into Docker course
 
+> Taken from Dive into Docker course
 
     docker container run [OPTIONS] IMAGE
     docker container run -it -p 5000:5000 -e FLASK_APP=app.py web1
