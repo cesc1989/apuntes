@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3e8b02ca4fdece9f",
+        "id": "d4f3837ee620e719",
         "type": "tabs",
         "children": [
           {
-            "id": "c5bcb5c0e40af239",
+            "id": "63725e27b7195a85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
+                "file": "DevAsPros/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tmux",
+                "query": "scrol",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
+                "file": "DevAsPros/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
+                "file": "DevAsPros/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md"
+                "file": "DevAsPros/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md"
               }
             }
           }
@@ -147,10 +148,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c5bcb5c0e40af239",
+  "active": "63725e27b7195a85",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
