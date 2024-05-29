@@ -17,6 +17,7 @@ La solución fue fijar ambas gemas, en el Gemfile, a la versión que decía que 
 
     gem 'base64', '0.1.1'
     gem 'stringio', '3.0.1'
+
 # Passenger que muestre errores en Prod
 
 Cuando estaba fallando, solo salía una página de error que no decía mucho. Para facilitar, uno puede cambiar el modo de passenger en el archivo de Nginx para que salgan los errores. Pero eso debe deshacerse.
@@ -55,15 +56,16 @@ Según este trino, y también comentarios de Jason Swett y otros, es mejor desac
 
 Así quedó el archivo `config/environments/test.rb`:
 
-    Rails.application.configure do
-      # (otras configuraciones)
-      
-      if ENV['RAILS_LOG'].blank?
-        config.logger = Logger.new(nil)
-        config.log_level = :fatal
-      end
-    end
-
+```ruby
+Rails.application.configure do
+  # (otras configuraciones)
+  
+  if ENV['RAILS_LOG'].blank?
+    config.logger = Logger.new(nil)
+    config.log_level = :fatal
+  end
+end
+```
 
 # Optimizando SQLite3
 
@@ -76,7 +78,7 @@ En Dev, no sé bien qué pasó.
 
 En prod, tuvo que ver configurar `force_ssl = true`.
 
-Más detalles en [+Devise no cierra sesión [Coshi Notes]](https://paper.dropbox.com/doc/Devise-no-cierra-sesion-Coshi-Notes-g01bLci5HvL9WzXlBAKgy) 
+Más detalles en [[Devise_no_cierra_sesión_[Coshi_Notes]]]
 
 
 # Capybara y Rails System Tests
@@ -115,25 +117,30 @@ Lo subí a la versión 6.1. Dejarlo en versiones anteriores mostraba varios DEPR
 **Configuración de Helpers de pruebas de Devise**
 Para tener ayuda con las pruebas de cosas de Devise
 
-    # spec/support/devise_testing_helpers.rb
-    
-    RSpec.configure do |config|
-      config.include Devise::Test::IntegrationHelpers, type: :system
-    end
+```ruby
+# spec/support/devise_testing_helpers.rb
+
+RSpec.configure do |config|
+  config.include Devise::Test::IntegrationHelpers, type: :system
+end
+```
+
 
 **Configuración de Capybara**
 
-    # spec/support/capybara_setup.rb
-    
-    RSpec.configure do |config|
-      config.before(:each, type: :system) do
-        driven_by :rack_test, screen_size: [1440, 800]
-      end
-    
-      config.before(:each, type: :system, js: true) do
-        driven_by :selenium_chrome_headless, screen_size: [1440, 800]
-      end
-    end
+```ruby
+# spec/support/capybara_setup.rb
+
+RSpec.configure do |config|
+  config.before(:each, type: :system) do
+    driven_by :rack_test, screen_size: [1440, 800]
+  end
+
+  config.before(:each, type: :system, js: true) do
+    driven_by :selenium_chrome_headless, screen_size: [1440, 800]
+  end
+end
+```
 
 La opción `screen_size: [1440, 800]` es clave porque sino el navegador de las pruebas de sistema se abre como en tamaño móvil y ahí los elementos del sidebar están ocultos.
 
