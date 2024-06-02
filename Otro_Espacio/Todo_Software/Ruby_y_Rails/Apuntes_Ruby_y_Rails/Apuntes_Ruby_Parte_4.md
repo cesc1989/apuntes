@@ -1,51 +1,56 @@
-# Apuntes Ruby. Parte 4
+# Apuntes Ruby Parte 4
 
 # Enumerable#each_with_object no mezcla hash vacío
 
 Con un código como este:
 
-    error_events.each_with_object({}) do |error, memo|
-      memo.merge(
-        dashboard_id: dashboard.id,
-        user_id: dashboard.provider_id,
-        provider_kind: dashboard.provider_kind,
-        patient_id: error.extras['patient_id'],
-        chart_id: error.extras['chart_id'],
-        poc_id: error.extras['poc_id'],
-        timestamp: error.date,
-        error_location: error.extras['context']
-      )
-    end
+```ruby
+error_events.each_with_object({}) do |error, memo|
+  memo.merge(
+    dashboard_id: dashboard.id,
+    user_id: dashboard.provider_id,
+    provider_kind: dashboard.provider_kind,
+    patient_id: error.extras['patient_id'],
+    chart_id: error.extras['chart_id'],
+    poc_id: error.extras['poc_id'],
+    timestamp: error.date,
+    error_location: error.extras['context']
+  )
+end
+```
 
 En cada iteración `memo` quedará vacío.
 
 Para que `memo` sea un hash al final hay que ir asignando las llaves y valores con la otra sintaxis:
 
-    error_events.each_with_object({}) do |error, memo|
-      memo[:dashboard_id] = dashboard.id
-      memo[:user_id] = dashboard.provider_id
-      memo[:provider_kind] = dashboard.provider_kind
-      memo[:patient_id] = error.extras['patient_id']
-      memo[:chart_id] = error.extras['chart_id']
-      memo[:poc_id] = error.extras['poc_id']
-      memo[:timestamp] = error.date
-      memo[:error_location] = error.extras['context']
-      memo[:provider_email] = error.provider_email
-    end
+```ruby
+error_events.each_with_object({}) do |error, memo|
+  memo[:dashboard_id] = dashboard.id
+  memo[:user_id] = dashboard.provider_id
+  memo[:provider_kind] = dashboard.provider_kind
+  memo[:patient_id] = error.extras['patient_id']
+  memo[:chart_id] = error.extras['chart_id']
+  memo[:poc_id] = error.extras['poc_id']
+  memo[:timestamp] = error.date
+  memo[:error_location] = error.extras['context']
+  memo[:provider_email] = error.provider_email
+end
+```
 
 **ATENCIÓN**
 Parece que fue error mío. Hice esto en [replit](https://replit.com/@cesc89/eachwithobjecthashmerge#main.rb) y funcionó:
 
-    r = ['a', 'b', 'c'].each_with_object({}).map do |letter, memo|
-      memo.merge(letter => 'mundo')
-    end
-    
-    pp r
-    
-    => [{"a"=>"mundo"}, {"b"=>"mundo"}, {"c"=>"mundo"}]
+```ruby
+r = ['a', 'b', 'c'].each_with_object({}).map do |letter, memo|
+  memo.merge(letter => 'mundo')
+end
+
+pp r
+
+=> [{"a"=>"mundo"}, {"b"=>"mundo"}, {"c"=>"mundo"}]
+```
 
 🤔 
-
 
 # Obtener un porcentaje de 100% al sumar porcentajes de un mismo grupo
 
@@ -72,11 +77,13 @@ En un caso, teníamos este grupo de datos donde cada elemento del arreglo es un 
 
 Para resolverlo tuve que limitare el redondeo a dos caracteres:
 
-    def percentage(value, total)
-      return 0 if total.zero?
-    
-      (value * 100).fdiv(total).round(2)
-    end
+```ruby
+def percentage(value, total)
+  return 0 if total.zero?
+
+  (value * 100).fdiv(total).round(2)
+end
+```
 
 Y se soluciona el problema en gran parte aunque en ocasiones las sumas pueden dar mayor a 100% al tener en cuenta los decimales.
 
@@ -123,6 +130,7 @@ pero fallaba por culpa de nokogiri.
 
 
 ## Error instalar gema nokogiri Macbook M1
+
     Fetching nokogiri 1.10.1
     Installing nokogiri 1.10.1 with native extensions
     Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
@@ -166,15 +174,17 @@ Todo esto tal vez fue confusión mía, sin embargo, aquí lo expongo.
 
 Tenía este código en Provider Portal para exportar unos datos
 
-    data = Dashboard.fully_loaded.map do |dashboard|
-      dashboard.emails.each_with_object({}) do |email, memo|
-        # vars
-        memo[:emails] = email
-        memo[:dashboard_id] = dashboard.id
-        
-        # more attributes
-      end
-    end
+```ruby
+data = Dashboard.fully_loaded.map do |dashboard|
+  dashboard.emails.each_with_object({}) do |email, memo|
+    # vars
+    memo[:emails] = email
+    memo[:dashboard_id] = dashboard.id
+    
+    # more attributes
+  end
+end
+```
 
 El problema con este código era que para un conjunto de datos con esta forma
 
@@ -191,12 +201,14 @@ Veamos.
 
 Con este código
 
-    r = Dashboard.fully_loaded.map do |dashboard|
-      r1 = dashboard.emails.each_with_object({}) do |email, memo|
-        memo[:emails] = email
-      end
-      pp r1
-    end
+```ruby
+r = Dashboard.fully_loaded.map do |dashboard|
+  r1 = dashboard.emails.each_with_object({}) do |email, memo|
+    memo[:emails] = email
+  end
+  pp r1
+end
+```
 
 Obtendría
 
@@ -212,24 +224,26 @@ Struct es más veloz que OpenStruct aunque menos flexible. Ya sé cómo hacer mo
 
 Si quisiera replicar una estructura como esta
 
-    Class Aws::Athena::Types::GetQueryResultsOutput
-      result_set = Class Aws::Athena::Types::ResultSet
-        rows = [
-          [0] Class Aws::Athena::Types::Row
-            data = [
-              [0] Class Aws::Athena::Types::Datum
-                var_char_value = 'physician_name',
-              [1] Class Aws::Athena::Types::Datum
-                var_char_value = 'physician_group'
-            ]
-          [1] Class Aws::Athena::Types::Row
-            data = [
-              [0] Class Aws::Athena::Types::Datum
-                var_char_value = '',
-              [1] Class Aws::Athena::Types::Datum
-                var_char_value = ''
-            ]
+```ruby
+Class Aws::Athena::Types::GetQueryResultsOutput
+  result_set = Class Aws::Athena::Types::ResultSet
+    rows = [
+      [0] Class Aws::Athena::Types::Row
+        data = [
+          [0] Class Aws::Athena::Types::Datum
+            var_char_value = 'physician_name',
+          [1] Class Aws::Athena::Types::Datum
+            var_char_value = 'physician_group'
         ]
+      [1] Class Aws::Athena::Types::Row
+        data = [
+          [0] Class Aws::Athena::Types::Datum
+            var_char_value = '',
+          [1] Class Aws::Athena::Types::Datum
+            var_char_value = ''
+        ]
+    ]
+```
 
 Donde el objetivo es poder replicar hasta la clase ResultSet, podría hacerlo así con Struct
 
@@ -305,6 +319,7 @@ Finalmente, con lo que comparten [este artículo](https://www.jessesquires.com/b
 Fuente: [monoRails](https://monorails.substack.com/p/ruby-tap-vs-yield_self).
 
 ## tap
+
 > tap() method yields self to the block and returns self
 
 Pasa la instancia al bloque y se retorna así misma.
@@ -315,32 +330,36 @@ Pasa la instancia al bloque y se retorna así misma.
 
 **Ejemplos**
 
-    new_product = Product.new.tap do |product|
-      product.name = "iphone11"
-      product.description = "iphone11 description"
-    end
-    
-    new_product.name
-    => "iphone11"
+```ruby
+new_product = Product.new.tap do |product|
+  product.name = "iphone11"
+  product.description = "iphone11 description"
+end
+
+new_product.name
+=> "iphone11"
+```
 
 En este caso, en el bloque se modifica el objeto y se retorna modificado.
 
-
 > Recuerda: `tap` siempre devolverá el objeto sobre el cual se realiza la operación. Si se necesita el resultado de la operación, `tap` no sirve para esto.
+
 ## yield_self
+
 > yield_self() method passes self to the block and returns the result of it.
 
 Similar a `tap` pero en lugar de devolver la instancia, devuelve el resultado.
 
 **Ejemplos**
 
-    new_product = Product.new.yield_self do |product|
-       product.name = "iphone11"
-       product.description = "iphone11 description"
-    end
-    
-    => "iphone11 description"
+```ruby
+new_product = Product.new.yield_self do |product|
+  product.name = "iphone11"
+  product.description = "iphone11 description"
+end
 
+=> "iphone11 description"
+```
 
 ## En resumen
 
