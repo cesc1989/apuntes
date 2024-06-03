@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39b07f7c40be4e1f",
+        "id": "192e314a9cbe5c6b",
         "type": "tabs",
         "children": [
           {
-            "id": "64a51eacb268cad4",
+            "id": "f91117d6006ef494",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 347.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -81,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -144,13 +141,23 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "f91117d6006ef494",
   "lastOpenFiles": [
+    "Otro_Espacio/Separa Facturación de Características.md",
+    "Otro_Espacio/attachments/entitlement_system.png",
+    "Otro_Espacio/attachments/entitlements_and_billing.png",
+    "Otro_Espacio/attachments",
+    "Otro_Espacio/La Eficiencia es el Enemigo.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Writing_Well_-_Julian_Shapiro.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Notas_Curso_de_Engineering_Management.md",
+    "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
+    "Otro_Espacio/Riffing_on_Rails_y_Super_Menú.md",
+    "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
+    "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Staff_Engineering/StaffEng_Stories_-_Apuntes.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Staff_Engineering/Staff_Eng_Guides_-_Apuntes.md",
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/JavaScript_Enlaces_y_Temas_Importantes.md",
-    "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Canvas/Ruby.canvas",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_2.md",
@@ -165,14 +172,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Lies_of_Object_Oriented_Programming_-_Avdi_Grimm.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
-    "DevAsPros/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
-    "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240528111318.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments",
@@ -184,7 +183,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails"
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails"
   ]
 }
