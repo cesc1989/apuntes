@@ -20,8 +20,7 @@
 
 ## jQuery
 
-
-> Does jQuery chain stop if element not found? -> [https://www.sitepoint.com/community/t/does-jquery-chain-stop-if-element-not-found/25508](https://slack-redir.net/link?url=https%3A%2F%2Fwww.sitepoint.com%2Fcommunity%2Ft%2Fdoes-jquery-chain-stop-if-element-not-found%2F25508&v=3)
+> Does jQuery chain stop if element not found? -> [Site Point](https://www.sitepoint.com/community/t/does-jquery-chain-stop-if-element-not-found/25508)
 
 La respuesta es que jQuery cuando no encuentra un elemento en el DOM, igual devuelve un objeto jQuery por lo cual no se levantan errores pero las siguientes funciones que quieran hacer algo sobre ese objeto simplemente van a pasar de largo.
 
@@ -36,6 +35,6 @@ La respuesta es que jQuery cuando no encuentra un elemento en el DOM, igual devu
 - JSON server(luce fiable y corre local) → https://github.com/typicode/json-server
 - Imagen docker para JSON-server → https://github.com/clue/docker-json-server
 - Sheety, un servicio que te permite convertir una hoja de cálculo de Google en una API gratis y al instante → https://www.genbeta.com/desarrollo/sheety-servicio-que-te-permite-convertir-hoja-calculo-google-api-gratis-instante
-- MirageJS [https://miragejs.com/docs/getting-started/overview/](https://slack-redir.net/link?url=https%3A%2F%2Fmiragejs.com%2Fdocs%2Fgetting-started%2Foverview%2F&v=3)
+- [MirageJS](https://miragejs.com/docs/getting-started/overview)
 
 

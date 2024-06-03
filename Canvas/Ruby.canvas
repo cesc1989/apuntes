@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"2e1ed2a236b64fd5","type":"file","file":"Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md","x":-960,"y":-1400,"width":400,"height":400},
+		{"id":"75d2be339b1cf51a","type":"file","file":"Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_1.md","x":-1040,"y":-600,"width":400,"height":400},
+		{"id":"23c1a3e6316b9b67","type":"file","file":"Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_2.md","x":-520,"y":-600,"width":400,"height":400},
+		{"id":"a6a7ba4e0edef564","type":"file","file":"Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_3.md","x":-1040,"y":-80,"width":400,"height":400},
+		{"id":"2fdd2c3d5a4560d9","type":"file","file":"Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md","x":-520,"y":-80,"width":400,"height":400},
+		{"id":"6241b3470972e2dc","type":"file","file":"Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md","x":0,"y":-600,"width":400,"height":400},
+		{"id":"e7b7743b9ed2ed0b","type":"file","file":"Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md","x":-400,"y":-1400,"width":400,"height":400},
+		{"id":"b2c0954020d87e28","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_y_Libros/Notas_“Confident_Ruby”_de_Avdi_Grimm.md","x":200,"y":-1400,"width":400,"height":400},
+		{"id":"06a209e1a046f39b","x":-520,"y":-780,"width":385,"height":120,"color":"3","type":"text","text":"Este necesita actualizarse para sacar contenido de la lista de enlaces."}
+	],
+	"edges":[
+		{"id":"4dfae96e473940e1","fromNode":"06a209e1a046f39b","fromSide":"bottom","toNode":"23c1a3e6316b9b67","toSide":"top"}
+	]
+}

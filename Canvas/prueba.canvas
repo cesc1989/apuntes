@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"efe4fa31c582ee50","type":"text","text":"haber que tale esto","x":-500,"y":-280,"width":250,"height":60},
-		{"id":"5814d087e6da2fa5","type":"file","file":"Diario/2024-05-25.md","x":-60,"y":-420,"width":400,"height":400}
-	],
-	"edges":[
-		{"id":"543bd6a8554b46a5","fromNode":"efe4fa31c582ee50","fromSide":"right","toNode":"5814d087e6da2fa5","toSide":"left"}
-	]
-}

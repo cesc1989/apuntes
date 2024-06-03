@@ -149,9 +149,8 @@ Ejemplo:
 - [Stack Overflow](https://stackoverflow.com/questions/415403/whats-the-difference-between-bashrc-bash-profile-and-environment)
 - [Serverfault](https://serverfault.com/questions/261802/what-are-the-functional-differences-between-profile-bash-profile-and-bashrc)
 - [Super user](https://superuser.com/questions/789448/choosing-between-bashrc-profile-bash-profile-etc)
-- [Nota en Slack](https://slack-files.com/T2Q0CG0T1-FLP2YJ9BL-d0519b9241)
 
-También ver [+¿Qué Diferencia hay entre .bashrc, .bash_profile y .environment?](https://paper.dropbox.com/doc/Que-Diferencia-hay-entre-.bashrc-.bash_profile-y-.environment-ZyDNcm8S7TtahogM3r4OA) 
+También ver [[¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y]]
 
 
 ## Problema de transferencia a USB que se queda en el 99% por mucho tiempo

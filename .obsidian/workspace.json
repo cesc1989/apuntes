@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d3013298ea40a4ae",
+        "id": "39b07f7c40be4e1f",
         "type": "tabs",
         "children": [
           {
-            "id": "9af95922bd3b3d56",
+            "id": "64a51eacb268cad4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "capybara",
+                "query": "slack",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "file": "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "file": "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md"
+                "file": "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md"
               }
             }
           }
@@ -148,10 +144,20 @@
       "random-note:Open random note": false
     }
   },
-  "active": "9af95922bd3b3d56",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Staff_Engineering/StaffEng_Stories_-_Apuntes.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Staff_Engineering/Staff_Eng_Guides_-_Apuntes.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/JavaScript_Enlaces_y_Temas_Importantes.md",
+    "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Canvas/Ruby.canvas",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_2.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
+    "README.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_11_-_Archivos_-_Coshi_Notes.md",
@@ -171,18 +177,8 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Pasted image 20240528111028.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
     "Luna/Marketplace",
     "Luna",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Nombrar_bien_las_cosas_y_su_importancia.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios_gran.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Haciendo_rebase_de_Omega_a_rama_de_trabajo.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_VS_Code.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "Canvas/prueba.canvas",
     "Canvas",
     "Diario",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",

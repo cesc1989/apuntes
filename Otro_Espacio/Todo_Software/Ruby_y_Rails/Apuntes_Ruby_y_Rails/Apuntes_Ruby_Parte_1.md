@@ -1,5 +1,9 @@
 # Apuntes Ruby. Parte 1
 
+## Otros Apuntes de Ruby
+
+- [[Apuntes_Ruby_Parte_2]]
+
 ## Sobre la diferencia entre los métodos de String `tr` vs `gsub`
 
 Según esta respuesta en [Stack Overflow](https://stackoverflow.com/questions/26749065/what-is-the-difference-between-tr-and-gsub#26750460).

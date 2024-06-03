@@ -1,3 +1,5 @@
+# Apuntes Ruby Parte 5
+
 # Probando Enumerable#partition
 
 La documentación dice que sirve para devolver un array de arrays, donde cada array contenga los elementos que cumplan con la condición del bloque.
