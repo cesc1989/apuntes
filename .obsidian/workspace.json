@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "192e314a9cbe5c6b",
+        "id": "033a56abc412827b",
         "type": "tabs",
         "children": [
           {
-            "id": "f91117d6006ef494",
+            "id": "f4f9405f840d9522",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "slack",
+                "query": "brack",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md"
+              }
             }
           }
         ],
@@ -141,8 +150,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f91117d6006ef494",
+  "active": "f4f9405f840d9522",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Otro_Espacio/Separa Facturación de Características.md",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
@@ -171,7 +182,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240528111318.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments",

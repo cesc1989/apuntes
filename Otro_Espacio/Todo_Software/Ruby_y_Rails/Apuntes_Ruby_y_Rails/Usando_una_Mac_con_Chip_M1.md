@@ -85,7 +85,7 @@ Solución vista en [Github Issue](https://github.com/sass/sassc-ruby/issues/222#
 
 # Bracketed Paste mode
 
-Ahora cada vez que pego algo en la terminal, se agregan unos caracteres adicionales:
+Cada vez que pego algo en la terminal se agregan unos caracteres adicionales:
 
     $ 00~rake db:hoos_and_koos:run_all01~
 
@@ -93,11 +93,24 @@ Que fastidio. Según se ve en algunos posts es la locura pero no veo porque.
 
 Para desactivarlo en Bash no hay una variable que se pueda colocar en algún archivo.
 
-Sin embargo, con esta instrucción se puede desactivar. La agregué a mis dotfiles en el archivo .prompt
+Sin embargo, con esta instrucción se puede desactivar. La agregué a mis dotfiles en el archivo `.prompt`
 
     printf '\e[?2004l'
 
-Parece funcionar.
+para que funcione hay que cargar el archivo `.prompt` en el archivo `.bashrc` y asegurarme que se cargue después de cargar los dotfiles.
+
+Así:
+
+```bash
+export REDIS_URL=redis://localhost:6379
+
+if [ -f "$HOME/.bash_profile" ]; then
+  . "$HOME/.bash_profile"
+fi
+
+# Include personal dotfiles prompt_git function into subshells.
+[ -f "$HOME/projects/dotfiles/system/.prompt" ] && source $HOME/projects/dotfiles/system/.prompt
+```
 
 Enlaces:
 
