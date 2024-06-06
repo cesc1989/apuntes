@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "033a56abc412827b",
+        "id": "1502229f5b6febac",
         "type": "tabs",
         "children": [
           {
-            "id": "f4f9405f840d9522",
+            "id": "35fe32da16af0ab0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+                "file": "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
                 "mode": "source",
                 "source": true
               }
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5,
-    "collapsed": true
+    "width": 347.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -87,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+                "file": "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+                "file": "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md"
+                "file": "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md"
               }
             }
           }
@@ -150,8 +148,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f4f9405f840d9522",
+  "active": "35fe32da16af0ab0",
   "lastOpenFiles": [
+    "Otro_Espacio/attachments/rename_caps_to_f18.png",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Otro_Espacio/Separa Facturación de Características.md",
@@ -179,9 +180,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_11_-_Archivos_-_Coshi_Notes.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240528111318.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments",
