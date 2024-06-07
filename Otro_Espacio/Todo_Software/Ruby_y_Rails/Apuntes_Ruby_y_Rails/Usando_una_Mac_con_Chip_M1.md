@@ -174,15 +174,17 @@ Y luego agregué al PATH desde mis dotfiles:
     export PATH="$(pyenv root)/shims:${PATH}"
 
 
-# Teclado externo logitech no reconoce teclas < y >
+# Teclado externo Logitech no reconoce teclas < y >
 
-Pues resulta que no podía usar esas teclas aunque usará el layout Latin America o Spanish Legacy.
+Pues resulta que no podía usar las teclas menor que y mayor que aunque usará el layout Latin America o Spanish Legacy.
 
 También probé Karabiner pero no funcionó. Lo que sí sirvió fue usar [este repo](https://github.com/neosergio/Latam-Keyboard) y sus configuraciones.
 
 El comando final es:
 
-    git clone https://github.com/neosergio/Latam-Keyboard.git && cd Latam-Keyboard && cp -v Latam*.* ~/Library/Keyboard\ Layouts/
+```
+git clone https://github.com/neosergio/Latam-Keyboard.git && cd Latam-Keyboard && cp -v Latam*.* ~/Library/Keyboard\ Layouts/
+```
 
 Selecciono el idioma de “Otras” fuentes en el “Input Sources” y al fin funcionan esas teclas con el teclado externo.
 
@@ -191,10 +193,11 @@ Selecciono el idioma de “Otras” fuentes en el “Input Sources” y al fin f
 
 Con el teclado del macbook toca invertir los idiomas porque al teclear la tecla en cuestión queda invertida:
  
-
-    < = |
+```
+< = |
     
-    > = °
+> = °
+```
 
 Pero mientras use el teclado externo estaremos bien con ese idioma.
 
