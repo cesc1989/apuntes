@@ -113,3 +113,15 @@ También se pueda lograr lo mismo con `tail -r` pero no parece no hay soporte pa
 
 Fuente: [Stack Overflow](https://stackoverflow.com/questions/742466/how-can-i-reverse-the-order-of-lines-in-a-file).
 
+# Herramientas y utilidades que compartió DHH mediante Omakub
+
+Bacano que se haya puesto a probar Linux. Debido a que se puso en esas supe de la existencia de Zellij y vaya que está bacano. Estas son algunas de las herramientas o software incluidos en [Omakub](https://omakub.org/):
+
+- [Pinta](https://www.pinta-project.com/): edición de imágenes
+- [Flameshot](https://flameshot.org/): para captura de pantalla
+	- Se ve mucho mejor que los por defecto en macos y Linux Mint
+- [eza](https://github.com/eza-community/eza?tab=readme-ov-file): un `ls` más poderoso y moderno
+- [ripgrep](https://github.com/BurntSushi/ripgrep): reemplazo de `grep`
+- [zoxide](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file): alternativa moderna de `cd`
+
+Hay que revisarlas y probarlas.
