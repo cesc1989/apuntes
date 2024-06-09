@@ -23,36 +23,35 @@ Agregar repositorio apt no-interactivo:
 
 # Argumentos en funciones Bash
 
-Como explican en [Stack Overflow](https://stackoverflow.com/a/23585994/1407371):
+Como explican en [Stack Overflow](https://stackoverflow.com/a/23585994/1407371)
 
-> In bash function, arguments are referenced by position rather than name. Positions are in the range of `$1..$n`
+> Bash functions work like shell commands and expect arguments to be passed to them in the same way one might pass an option to a shell command (...) _function arguments_ in Bash are treated as _positional parameters_ (`$1, $2..$9, ${10}, ${11}`),
 
 Así se define:
+
 ```bash
 function function_name {
    command...
 }
 ```
 
-Así se invoca
+Así se podría invocar con varios parémtros
+
 ```bash
 function_name "$arg1" "$arg2"
 ```
 
-## Enlaces
+**Enlaces**
 
 - Passing parameters to a Bash function [Ver](https://stackoverflow.com/questions/6212219/passing-parameters-to-a-bash-function)
--  Named arguments:
-	- [Unix & Linux](https://unix.stackexchange.com/a/129401/47620)
-	- [getopts](https://unix.stackexchange.com/a/129401/47620)
-- Named arguments [without and with getops](https://stackoverflow.com/a/14203146/1407371)
 - Optional arguments:
 	- [SO](https://stackoverflow.com/questions/9332802/how-to-write-a-bash-script-that-takes-optional-input-arguments)
 	- [Shell parameter expansion](https://www.gnu.org/software/bash/manual/bashref.html#Shell-Parameter-Expansion)
 	- [Example code](https://stackoverflow.com/a/33419280/1407371)
 
+## Usar getopts para Named Arguments
 
-## Ejemplo de cómo usar getopts
+Named arguments [Unix & Linux](https://unix.stackexchange.com/a/129401/47620)
 
 ```bash
 function namedWithGetOps () {
@@ -75,10 +74,120 @@ namedWithGetOps -p primero -s segundo
 ```
 
 Sintaxis:
-
 1. `getopts OPTSTRING VARNAME [ARGS...]`
 2. Indicate var receives an argument following its name by a colon: `s:`
 3. A colon at the beginning of the options string silents error reporting: `:p`
+
+> Nota que los parámetros son de una sola letra.
+
+**Enlaces**
+
+## Named arguments sin getops
+
+De esta otra forma se puede tener palabras en lugar de letras para los nombres de los argumentos.
+
+Visto en [Stack Overflow](https://stackoverflow.com/a/14203146/1407371).
+
+### Bash Space-Separated (e.g., `--option argument`)
+
+Argumento separado por espacio en blanco.
+
+```bash
+#!/bin/bash
+
+POSITIONAL_ARGS=()
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -e|--extension)
+      EXTENSION="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    -s|--searchpath)
+      SEARCHPATH="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    --default)
+      DEFAULT=YES
+      shift # past argument
+      ;;
+    -*|--*)
+      echo "Unknown option $1"
+      exit 1
+      ;;
+    *)
+      POSITIONAL_ARGS+=("$1") # save positional arg
+      shift # past argument
+      ;;
+  esac
+done
+
+set -- "${POSITIONAL_ARGS[@]}" # restore positional parameters
+
+echo "FILE EXTENSION  = ${EXTENSION}"
+echo "SEARCH PATH     = ${SEARCHPATH}"
+echo "DEFAULT         = ${DEFAULT}"
+echo "Number files in SEARCH PATH with EXTENSION:" $(ls -1 "${SEARCHPATH}"/*."${EXTENSION}" | wc -l)
+
+if [[ -n $1 ]]; then
+    echo "Last line of file specified as non-opt/last argument:"
+    tail -1 "$1"
+fi
+```
+
+Se invoca de esta forma:
+```bash
+/tmp/demo-space-separated.sh -e conf -s /etc /etc/hosts
+```
+
+### Bash Equals-Separated (e.g., `--option=argument`)
+
+Argumento separado por signo de igual.
+
+```bash
+#!/bin/bash
+
+for i in "$@"; do
+  case $i in
+    -e=*|--extension=*)
+      EXTENSION="${i#*=}"
+      shift # past argument=value
+      ;;
+    -s=*|--searchpath=*)
+      SEARCHPATH="${i#*=}"
+      shift # past argument=value
+      ;;
+    --default)
+      DEFAULT=YES
+      shift # past argument with no value
+      ;;
+    -*|--*)
+      echo "Unknown option $i"
+      exit 1
+      ;;
+    *)
+      ;;
+  esac
+done
+
+echo "FILE EXTENSION  = ${EXTENSION}"
+echo "SEARCH PATH     = ${SEARCHPATH}"
+echo "DEFAULT         = ${DEFAULT}"
+echo "Number files in SEARCH PATH with EXTENSION:" $(ls -1 "${SEARCHPATH}"/*."${EXTENSION}" | wc -l)
+
+if [[ -n $1 ]]; then
+    echo "Last line of file specified as non-opt/last argument:"
+    tail -1 $1
+fi
+```
+
+Y se invoca así:
+
+```bash
+/tmp/demo-equals-separated.sh -e=conf -s=/etc /etc/hosts
+```
 
 
 # Limpieza en Linux Mint
@@ -93,10 +202,8 @@ Para desinstalarlo:
 
     sudo dpkg -P atom
 
-
 - Limpiar `/var/cache`: [Ask Ubuntu](https://askubuntu.com/a/367619/167553)
 - Cómo desinstalar JDownloader 2: [Ask Ubuntu](https://askubuntu.com/questions/393181/how-to-uninstall-jdownloader-2-beta)
-
 
 # Correr programa en modo dettached
 
@@ -118,6 +225,10 @@ En este [issue](https://github.com/linuxmint/nemo/issues/964) hay más informaci
 
 **Resumen**
 Cuando se transfieran archivos grandes, tener paciencia cuando se "detenga" en el 99%.
+
+## Actualización 2024
+
+En una unidad SSD esto no pasa. Parece ser problema meramente de HDD.
 
 # Enlaces que faltan por volver apuntes
 
@@ -143,7 +254,6 @@ Cuando se transfieran archivos grandes, tener paciencia cuando se "detenga" en e
 - Install latest nodejs version in Ubuntu 14.04: [SO](http://stackoverflow.com/questions/34974535/install-latest-nodejs-version-in-ubuntu-14-04)
 - Cómo desinstalar Ruby que viene por defecto en el sistema: [installation.co](http://installion.co.uk/ubuntu/xenial/main/r/ruby/uninstall/index.html) - [SO](https://stackoverflow.com/questions/3957730/how-can-i-uninstall-ruby-on-ubuntu)
 - Algunos campos de texto pierden el foco al presionar la tecla CTRL: [la respuesta es desactivar mostrar el cursor al presionar CTRL del sistema](https://support.mozilla.org/es/questions/1191486) - [Como hacerlo en Ask Ubuntu](https://askubuntu.com/questions/230102/how-do-i-turn-off-show-mouse-when-i-press-ctrl)
-
 
 ## Cosas de Linux en General
 
