@@ -31,3 +31,27 @@ RUN set -ex \
          openssl \
          yarn
 ```
+
+# Error objc69365: +NSNumber initialize al consultar en rails console
+
+Cuando hacía alguna consulta en la consola de Rails me daba este error:
+
+```
+objc[69365]: +[NSNumber initialize] may have been in progress in another thread when fork() was called.
+objc[69365]: +[NSNumber initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+```
+
+y me sacaba de la consola.
+
+La solución que encontré de momento es desactivar spring mediante variable:
+
+```
+export DISABLE_SPRING=true
+
+rcon
+
+[1] pry(main)> Account.first
+  Account Load (814.9ms)  SELECT "accounts".* FROM "accounts" ORDER BY "accounts"."id" ASC LIMIT $1  [["LIMIT", 1]]
+```
+
+Visto en [Stack Overflow](https://stackoverflow.com/a/68910843/1407371).

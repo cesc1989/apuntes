@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "76c7d00ccfc39da9",
+            "id": "cf3ab1d4d6ae8105",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
                 "mode": "source",
                 "source": true
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hammer",
+                "query": "NSNumber",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md"
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md"
               }
             }
           }
@@ -175,11 +175,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "76c7d00ccfc39da9",
+  "active": "cf3ab1d4d6ae8105",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
-    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Luna/Comandos y Configuración de Kubectl.md",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Cómo_soluciono_un_Kernel_Panic_en_Ubuntu.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
