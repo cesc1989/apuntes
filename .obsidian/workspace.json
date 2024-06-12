@@ -20,8 +20,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "8b7720cd6b6a2392",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "76c7d00ccfc39da9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -50,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "karabiner",
+                "query": "hammer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Comandos y Configuración de Kubectl.md"
               }
             }
           }
@@ -148,13 +175,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "76c7d00ccfc39da9",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+    "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Cómo_soluciono_un_Kernel_Panic_en_Ubuntu.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Cómo_soluciono_un_Kernel_Panic_en_Ubuntu.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/ChkDsk_stuck_at_particular_or_hangs_at_some_Stag.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Fix_Minimal_BASH_like_line_editing_is_supported_GR.md",
@@ -167,7 +196,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
-    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
@@ -179,7 +207,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Writing_Well_-_Julian_Shapiro.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Notas_Curso_de_Engineering_Management.md",
     "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
-    "Otro_Espacio/Riffing_on_Rails_y_Super_Menú.md",
     "Canvas/Ruby.canvas",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240528111318.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
