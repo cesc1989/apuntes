@@ -84,3 +84,51 @@ Enlace a los docs: https://ruby-doc.org/3.2.2/Enumerable.html#method-i-partition
 
 Enlace al replit: https://replit.com/@cesc89/EnumerablePartition?v=1
 
+# ¿Por qué es mejor anidar módulos en Ruby?
+
+Esto es del artículo -> https://thoughtbot.com/blog/why-you-should-nest-modules-in-ruby
+
+Normalmente hay dos opciones para escribir módulos en Ruby:
+
+En línea:
+```ruby
+class SectionBuilder::V3::ExpansionPanel; end
+```
+
+Anidada/Nested
+```ruby
+module SectionBuilder
+  module V3
+    class ExpansionPanel
+    end
+  end
+end
+```
+
+El artículo explica que es mejor anidar los módulos hará que Ruby sea más preciso al intentar buscar una clase anidada.
+
+El caso del artículo me recuerda cuando en algunos proyectos me tocaba escribir algo como:
+```ruby
+::MyClass.new
+```
+
+para poder encontrar la clase fuera del anidamiento de módulos.
+
+Da este ejemplo:
+```ruby
+module Admin
+  class Nested
+    def self.nesting = Module.nesting
+  end
+end
+
+class Admin::Inline
+  def self.nesting = Module.nesting
+end
+
+Admin::Nested.nesting #=> [Admin::Nested, Admin]
+Admin::Inline.nesting #=> [Admin::Inline]
+```
+
+> ruby is aware that the Admin::Nested constant is defined within an Admin namespace. Whereas with the inline class, ruby considers the Admin::Inline class to just be on its own.
+
