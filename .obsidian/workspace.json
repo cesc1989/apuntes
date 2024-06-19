@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "311f123dc7ca0096",
+            "id": "77c07b2d148c7a38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "mode": "source",
                 "source": true
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NSNumber",
+                "query": "kubectl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md"
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
               }
             }
           }
@@ -175,16 +175,18 @@
       "random-note:Open random note": false
     }
   },
-  "active": "311f123dc7ca0096",
+  "active": "77c07b2d148c7a38",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
     "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Design_Documents_-_Apuntes.md",
     "Otro_Espacio/Separa Facturación de Características.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes Ruby on Rails Parte 4.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Cómo_soluciono_un_Kernel_Panic_en_Ubuntu.md",
@@ -200,10 +202,8 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Particionando_en_SSD_y_HDD_para_archivos_para_Linu.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
     "Otro_Espacio/attachments",
