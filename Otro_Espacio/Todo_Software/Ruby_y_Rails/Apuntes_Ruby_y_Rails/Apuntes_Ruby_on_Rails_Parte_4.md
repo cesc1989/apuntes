@@ -153,3 +153,40 @@ end
 ## Conclusión
 
 Está bien bacano esto en Ruby. Pattern matching es una de las cosas chéveres de Elixir y me parece bacano que esté disponible en Ruby.
+
+# Error aws-sdk-core/ini_parser.rb:28
+
+Quería ejecutar unas rake tasks que se conectan con AWS Athena y me salía este error:
+```bash
+$ be rake request_execution:request_all
+rake aborted!
+NoMethodError: undefined method `[]' for nil:NilClass
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core/ini_parser.rb:28:in `block in ini_parse'
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core/ini_parser.rb:13:in `each'
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core/ini_parser.rb:13:in `inject'
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core/ini_parser.rb:13:in `ini_parse'
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core/shared_config.rb:420:in `load_credentials_file'
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core/shared_config.rb:60:in `initialize'
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core.rb:128:in `new'
+/Users/francisco/.gem/ruby/3.0.2/gems/aws-sdk-core-3.181.0/lib/aws-sdk-core.rb:128:in `shared_config'
+```
+
+Pensé que sería algo de las credenciales pero no fue así. Probé revisando los archivos .env pero tampoco funcionó. Lo que me dio una pista fue [este issue](https://github.com/aws/aws-sdk-ruby/issues/837) donde dice que el sdk de AWS no estaba leyendo bien el archivo `~/.aws/credentials`.
+
+Así se veía el archivo:
+```
+[default]
+    aws_access_key_id = KEY
+    aws_secret_access_key = SECRET
+```
+
+Al cambiarlo a esta forma:
+```
+[default]
+aws_access_key_id = KEY
+aws_secret_access_key = SECRET
+```
+
+Pude ejecutar normalmente todo.
+
+¿raro?
