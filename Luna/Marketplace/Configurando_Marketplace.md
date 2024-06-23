@@ -127,7 +127,8 @@ Al modificar variables de entorno u otra cosa, es clave correr los comando en es
     
     . /Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD/bin/activate
 
-**Usando Pipenv**
+### Usando Pipenv
+
 Luego de ejecutar `pipenv install` para instalar los paquetes del Pipfile, dice esto:
 
     $ pipenv install --dev --skip-lock
