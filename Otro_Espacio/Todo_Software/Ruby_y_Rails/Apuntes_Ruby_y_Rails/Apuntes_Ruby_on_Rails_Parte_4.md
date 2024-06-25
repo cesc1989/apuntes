@@ -190,3 +190,32 @@ aws_secret_access_key = SECRET
 Pude ejecutar normalmente todo.
 
 ¿raro?
+
+# Comparando Fechas en Ruby y Rails
+
+Quería comprobar si una fecha estaba en un rango de fechas.
+
+Ejemplo del rango:
+```ruby
+(initial_visit_date - 7.days)..initial_visit_date
+```
+
+Puedo saber si una fecha X está dentro de ese rango con dos métodos:
+- `Range#cover?` -> https://ruby-doc.org/core-3.1.0/Range.html#method-i-cover-3F
+- `Comparable#between?` -> https://ruby-doc.org/core-3.0.0/Comparable.html#method-i-between-3F
+
+Ejemplo con `cover?`
+```ruby
+seven_day_limit.cover?(patient_last_login_to_app)
+```
+
+Arrojará `true` si la fecha está dentro del rango.
+
+Ejemplo con `between?`
+```ruby
+patient_last_login_to_app.between?(initial_visit_date - 7.days, initial_visit_date)
+```
+
+Este método se puede usar porque la clase Date incluye al módulo Comparable.
+
+Encontré sobre estos dos métodos en [Stack Overflow](https://stackoverflow.com/questions/4521921/how-to-know-if-todays-date-is-in-a-date-range).

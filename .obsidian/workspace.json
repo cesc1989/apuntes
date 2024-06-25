@@ -36,17 +36,15 @@
             }
           },
           {
-            "id": "bde91cec9f3597ab",
+            "id": "2a2e18d18fd2dd2c",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "mode": "source",
                 "source": true
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -79,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sublime",
+                "query": "dates",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md"
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
               }
             }
           }
@@ -177,15 +175,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "bde91cec9f3597ab",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
