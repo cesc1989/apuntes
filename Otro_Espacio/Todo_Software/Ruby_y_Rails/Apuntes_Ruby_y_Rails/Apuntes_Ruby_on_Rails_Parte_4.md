@@ -219,3 +219,67 @@ patient_last_login_to_app.between?(initial_visit_date - 7.days, initial_visit_da
 Este método se puede usar porque la clase Date incluye al módulo Comparable.
 
 Encontré sobre estos dos métodos en [Stack Overflow](https://stackoverflow.com/questions/4521921/how-to-know-if-todays-date-is-in-a-date-range).
+
+# Pruebas en rspec para envío de emails
+
+Quería probar que un correo saliera. El mailer se ejecuta así:
+
+```ruby
+PatientMailer.updated_exercise_program(patient, self).deliver_later
+```
+
+Y en las pruebas tenía algo como:
+
+```ruby
+deliveries = ActionMailer::Base.deliveries
+
+expect(deliveries.count).not_to eq(0)
+expect(deliveries.count).to eq(2)
+expect(deliveries.last.to.first).to include("@random.com")
+expect(deliveries.last.body.to_s).to include("evw")
+```
+
+Pero fallaban porque  con `deliver_later` el correo se envía desde segundo plano.
+
+Entonces intenté algo como esto que vi en otro archivo:
+```ruby
+RSpec.describe ExerciseProgram, type: :model do
+	expect(ActionMailer::MailDeliveryJob).to have_been_enqueued.with(
+	  "PatientMailer",
+	  "updated_exercise_program",
+	  "deliver_now",
+	  args: [program.patient, program]
+	)
+end
+```
+
+pero fallaba con este error:
+```
+StandardError:
+  To use ActiveJob matchers set `ActiveJob::Base.queue_adapter = :test`
+```
+
+¿por qué en el test que encontré si servía?
+
+```ruby
+RSpec.describe "Send something" do
+	expect(ActionMailer::MailDeliveryJob).to have_been_enqueued.with(
+		"PatientMailer",
+		"patient_dashboard_app_download",
+		"deliver_now",
+		args: [patient, "12345", "https://link.com/apps"]
+	)
+end
+```
+
+## Conclusión
+
+Encontré recomendaciones similares en Stack Overflow.
+
+Una recomienda pruebas unitarias al mailer y otra a la integración pero en este caso quería hacer integración y no funcionó sino cambiando el método `deliver_later` a `deliver_now`.
+
+**Enlaces**
+
+- [How to test ActionMailer deliver_later with rspec](https://stackoverflow.com/questions/27647749/how-to-test-actionmailer-deliver-later-with-rspec)
+- [How to check what is queued in ActiveJob using Rspec](https://stackoverflow.com/questions/26274954/how-to-check-what-is-queued-in-activejob-using-rspec)
+
