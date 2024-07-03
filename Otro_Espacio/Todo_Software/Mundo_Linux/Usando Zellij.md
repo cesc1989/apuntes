@@ -91,3 +91,16 @@ Aquí pongo algunos enlaces relacionados pero que no competen con la configuraci
 
 - Artículo en Dev donde puedo ver un alias para arrancar Zellij https://dev.to/pietrangelo/helix-and-zellij-34km
 - Página de screencastas oficiales https://zellij.dev/screencasts/
+
+# Otras cosas
+
+Me pasó que los paneles de un tab estaban sincronizados. Al escribir en uno se reflejaba lo mismo en todos.
+
+Encontré que Zellij tiene una [opción](https://github.com/zellij-org/zellij/discussions/1271) para eso a través del [atajo](https://github.com/zellij-org/zellij/blob/main/zellij-utils/assets/config/default.kdl#L56) de teclado:
+```
+CTRL + T -> S
+```
+
+![[Pasted image 20240702213153.png]]
+
+Al hacer la misma combinación se desactiva.

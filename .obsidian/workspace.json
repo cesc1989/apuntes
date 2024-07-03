@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "bb5f64ae25074119",
+            "id": "f4c9b77646970529",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md"
               }
             }
           }
@@ -175,14 +175,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "bb5f64ae25074119",
+  "active": "f4c9b77646970529",
   "lastOpenFiles": [
-    "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "Luna/Comandos y Configuración de Kubectl.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
@@ -202,7 +203,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/ChkDsk_stuck_at_particular_or_hangs_at_some_Stag.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Fix_Minimal_BASH_like_line_editing_is_supported_GR.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/HDD_en_Caddy_problemas_y_alternativas.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
