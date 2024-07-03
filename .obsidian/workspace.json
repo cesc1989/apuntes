@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "f4c9b77646970529",
+            "id": "2b3928ae29ffa960",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
-                "mode": "preview",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mailer",
+                "query": "aws clie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md"
+                "file": "Luna/Comandos y Configuración de Kubectl.md"
               }
             }
           }
@@ -175,22 +175,24 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f4c9b77646970529",
+  "active": "2b3928ae29ffa960",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
@@ -202,7 +204,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/ChkDsk_stuck_at_particular_or_hangs_at_some_Stag.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Estado_Actual_Discos_Duros_y_USBs.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Fix_Minimal_BASH_like_line_editing_is_supported_GR.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
