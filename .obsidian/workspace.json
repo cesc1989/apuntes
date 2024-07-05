@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
                 "mode": "source",
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md"
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md"
               }
             }
           }
@@ -177,8 +177,11 @@
   },
   "active": "726f1b6dfa0d9e2f",
   "lastOpenFiles": [
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+    "Luna/Backend/attachments/Pasted image 20240704234741.png",
+    "Luna/Backend/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
-    "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
@@ -203,8 +206,6 @@
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Cómo_soluciono_un_Kernel_Panic_en_Ubuntu.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/ChkDsk_stuck_at_particular_or_hangs_at_some_Stag.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
@@ -219,7 +220,6 @@
     "Canvas",
     "Diario",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Docker"
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching"
   ]
 }
