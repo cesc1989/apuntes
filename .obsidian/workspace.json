@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "2b3928ae29ffa960",
+            "id": "726f1b6dfa0d9e2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "mode": "source",
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md"
+                "file": "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md"
               }
             }
           }
@@ -175,12 +175,14 @@
       "random-note:Open random note": false
     }
   },
-  "active": "2b3928ae29ffa960",
+  "active": "726f1b6dfa0d9e2f",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
+    "Luna/Backend/Upgrade Rails to version 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend",
     "Luna/Comandos y Configuración de Kubectl.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Luna/Marketplace/Configurando_Marketplace.md",
@@ -203,7 +205,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/ChkDsk_stuck_at_particular_or_hangs_at_some_Stag.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
@@ -219,7 +220,6 @@
     "Diario",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Docker",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails"
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Docker"
   ]
 }
