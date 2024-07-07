@@ -34,21 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "726f1b6dfa0d9e2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aws clie",
+                "query": "tag:#to_h",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,12 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -175,13 +163,16 @@
       "random-note:Open random note": false
     }
   },
-  "active": "726f1b6dfa0d9e2f",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+    "DevAsPros/Intrati/Plan_Divulgación_de_Intrati.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/attachments",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
     "Luna/Backend",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
@@ -204,8 +195,6 @@
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Design_Documents_-_Apuntes.md",
     "Otro_Espacio/Separa Facturación de Características.md",
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Cómo_soluciono_un_Kernel_Panic_en_Ubuntu.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",

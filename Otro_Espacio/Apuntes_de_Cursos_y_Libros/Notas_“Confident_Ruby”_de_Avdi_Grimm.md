@@ -108,7 +108,7 @@ Por ejemplo:
 En vez de asumir que algún valor de ingreso o método es de algún tipo principal como String, Integer, Array o Hash, mejor deberíamos asegurarnos que sean de ese tipo haciendo una conversión explícita.
 
 
->  We need an Integer? Use #to_i or #to_int! We need a String? Use #to_s or #to_str! If we need a Hash and we're using Ruby 2.0, send #to_h!
+>  We need an Integer? Use `to_i` or `to_int!` We need a String? Use `to_s` or `to_str!` If we need a Hash and we're using Ruby 2.0, send  `to_h!`
 
 
 ## Reject unworkable values with preconditions

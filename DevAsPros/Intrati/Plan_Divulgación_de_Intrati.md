@@ -32,9 +32,11 @@
     - Perfil Personal
 - Mi perfil de LinkedIn
 - Historia en WhatsApp
+
 ## Otros Medios
+
 - Publicar en Product Hunt
-- Publicar en Hashnode [#ShowHashNode](https://hashnode.com/feed/showhashnode)
+- Publicar en Hashnode [ShowHashNode](https://hashnode.com/feed/showhashnode)
 - Discord de Ember
 - Colombia Dev
 
