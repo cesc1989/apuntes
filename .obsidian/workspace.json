@@ -24,15 +24,13 @@
           {
             "id": "8b7720cd6b6a2392",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
+                "mode": "source",
                 "source": true
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,12 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,29 +161,33 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "8b7720cd6b6a2392",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Usando_Zellij.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.example.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.files.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
+    "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile_y.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "DevAsPros/Intrati/Plan_Divulgación_de_Intrati.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/attachments",
     "Luna/Backend",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
@@ -194,14 +196,12 @@
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Design_Documents_-_Apuntes.md",
     "Otro_Espacio/Separa Facturación de Características.md",
-    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
     "Otro_Espacio/attachments",
     "Canvas/Ruby.canvas",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240528111318.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Pasted image 20240528111028.png",
     "Luna/Marketplace",
