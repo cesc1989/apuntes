@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "28ba2d46c1f75011",
+            "id": "6817d13c0b5d849a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md"
               }
             }
           }
@@ -161,41 +161,42 @@
       "random-note:Open random note": false
     }
   },
-  "active": "28ba2d46c1f75011",
+  "active": "6817d13c0b5d849a",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/Pasted image 20240709145511.png",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
+    "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
+    "DevAsPros/Coshi_Notes/Editores_de_Texto_Rico_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
-    "Usando_Zellij.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.example.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.files.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
-    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
-    "DevAsPros/Intrati/Plan_Divulgación_de_Intrati.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/attachments",
     "Luna/Backend",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
-    "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
-    "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
@@ -208,7 +209,6 @@
     "Luna",
     "Canvas",
     "Diario",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching"
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track"
   ]
 }
