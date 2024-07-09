@@ -283,3 +283,70 @@ Una recomienda pruebas unitarias al mailer y otra a la integración pero en este
 - [How to test ActionMailer deliver_later with rspec](https://stackoverflow.com/questions/27647749/how-to-test-actionmailer-deliver-later-with-rspec)
 - [How to check what is queued in ActiveJob using Rspec](https://stackoverflow.com/questions/26274954/how-to-check-what-is-queued-in-activejob-using-rspec)
 
+
+# Strong Parameters elimina valores nulos de parámetro que es un Array
+
+Tenemos configurado una nueva API de PSR para que reciba un array de valores. Así luce un JSON:
+
+```json
+{
+  component_id: act.id.to_s,
+  field_name: 'aggravating_activities',
+  value: ["Hola", 10, false]
+}
+```
+
+A esta estructura le encontramos un problema cuando se manda de esta forma:
+
+```json
+{
+  component_id: act.id.to_s,
+  field_name: 'aggravating_activities',
+  value: [nil, nil, false]
+}
+```
+
+Cuando se envía así, Strong Parameters de Rails limpia el array `value` dejándolo de esta forma:
+
+```
+value: [false]
+```
+
+Según leí en [este](https://github.com/rails/rails/issues/13766) y este [otro issue](https://github.com/rails/rails/issues/13420), es un tema de seguridad de Rails desde hace muchos años. Así que esa estructura la puedo usar desactivando la configuración de [deep_munge](https://github.com/imanel/rails/commit/060c91cd59ab86583a8f2f52142960d3433f62f5) o verificar el array en pasos intermedios para dejarlo como lo espero.
+
+## Soluciones
+
+Le pregunté a ChatGPT y me sugirió una solución agregando un middleware para evitar que se pierdan los nil.
+
+```ruby
+config.middleware.insert_before ActionDispatch::ParamsParser, Middleware::KeepNilValues
+```
+
+No me interesa tanto ir por ahí.
+
+También se puede desactivar pero queda expuesto a posibles vulnerabilidades. Se desactiva así:
+
+```ruby
+config.action_dispatch.perform_deep_munge = false
+```
+
+## Otros Detalles
+
+En [este PR de 2014](https://github.com/rails/rails/pull/16924) se actualiza deep_munge para que un Array de nulos se convierta en un array vacío.
+
+```ruby
+ary = [nil, nil, nil]
+# => []
+```
+
+En la sección de Seguridad de las [guías de Rails](https://edgeguides.rubyonrails.org/security.html#unsafe-query-generation) se detalla las formas en que los parámetros son limpiados por deep_munge si llevan valores nulos.
+
+Esta es la tabla presente en dicha sección de las guías.
+
+| JSON                              | Parameters               |
+|-----------------------------------|--------------------------|
+| `{ "person": null }`              | `{ :person => nil }`     |
+| `{ "person": [] }`                | `{ :person => [] }`     |
+| `{ "person": [null] }`            | `{ :person => [] }`     |
+| `{ "person": [null, null, ...] }` | `{ :person => [] }`     |
+| `{ "person": ["foo", null] }`     | `{ :person => ["foo"] }` |
