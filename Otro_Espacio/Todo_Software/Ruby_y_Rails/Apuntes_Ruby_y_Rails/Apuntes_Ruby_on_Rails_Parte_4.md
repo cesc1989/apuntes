@@ -332,6 +332,8 @@ config.action_dispatch.perform_deep_munge = false
 
 ## Otros Detalles
 
+Esto ya lo había descubierto pero en el mundo de las pruebas en [[Apuntes_Testing_en_Ruby_y_Rails_Parte_2]]
+
 En [este PR de 2014](https://github.com/rails/rails/pull/16924) se actualiza deep_munge para que un Array de nulos se convierta en un array vacío.
 
 ```ruby

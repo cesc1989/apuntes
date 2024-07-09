@@ -6,22 +6,28 @@ O enviando valores booleanos envueltos en string.
 
 En vez de enviar:
 
-    {
-      boolean_field: true
-    }
+```ruby
+{
+  boolean_field: true
+}
+```
 
 Envía:
 
-    {
-      boolean_field: "true"
-    }
+```ruby
+{
+  boolean_field: "true"
+}
+```
 
 En esta prueba en provider portal
 
-    post(
-      "#{base_api_url}/plans_of_care",
-      params: { data: { physician_ids: [] } }
-    )
+```ruby
+post(
+  "#{base_api_url}/plans_of_care",
+  params: { data: { physician_ids: [] } }
+)
+```
 
 Necesitaba mandar el array vacío. Sin embargo, RSpec decide enviarlo como un array con una cadena vacía:
 
@@ -38,32 +44,37 @@ Encuentro, [según este issue](https://github.com/rspec/rspec-rails/issues/2021)
 
 Acá encuentro [la forma de solucionarlo](https://stackoverflow.com/a/44704018/1407371).
 
-    post(
-      "#{base_api_url}/plans_of_care",
-      params: { data: { physician_ids: [] } },
-      as: :json
-    )
+```ruby
+post(
+  "#{base_api_url}/plans_of_care",
+  params: { data: { physician_ids: [] } },
+  as: :json
+)
+```
 
 También sirve para que RSpec envíe el tipo de dato como es. Ejemplo:
 
-    before do
-      post(
-        url,
-        params: { 
-          form: {  type_name: 'odi', delete_existing_answers: false }
-        }
-      )
-    end
+```ruby
+before do
+  post(
+	url,
+	params: { 
+	  form: {  type_name: 'odi', delete_existing_answers: false }
+	}
+  )
+end
+```
 
 Enviará `delete_existing_answers` como `"``false``"` y no como un boolean. Para que llegue como boolean, debe ser así la petición:
 
-    before do
-      post(
-        url,
-        params: {
-          form: { type_name: 'odi', delete_existing_answers: false }
-        },
-        as: :json
-      )
-    end
-
+```ruby
+before do
+  post(
+	url,
+	params: {
+	  form: { type_name: 'odi', delete_existing_answers: false }
+	},
+	as: :json
+  )
+end
+```

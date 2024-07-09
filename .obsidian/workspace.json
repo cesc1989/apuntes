@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "c4461b80b77f0b2a",
+            "id": "28ba2d46c1f75011",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -161,10 +161,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c4461b80b77f0b2a",
+  "active": "28ba2d46c1f75011",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Usando_Zellij.md",
@@ -184,7 +187,6 @@
     "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#7.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
@@ -194,8 +196,6 @@
     "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Design_Documents_-_Apuntes.md",
-    "Otro_Espacio/Separa Facturación de Características.md",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
     "Otro_Espacio/attachments/entitlement_system.png",
     "Otro_Espacio/attachments/entitlements_and_billing.png",
