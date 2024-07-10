@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "6817d13c0b5d849a",
+            "id": "9d8f8b1a668248b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
                 "mode": "preview",
                 "source": true
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#to_h",
+                "query": "conserv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md"
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md"
               }
             }
           }
@@ -161,8 +162,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "6817d13c0b5d849a",
+  "active": "9d8f8b1a668248b2",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Upgrade to Ruby 3.1.0.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/Pasted image 20240709145511.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
@@ -179,7 +183,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
     "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
@@ -189,7 +192,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.example.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.files.png",
@@ -204,7 +206,6 @@
     "Canvas/Ruby.canvas",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240528111318.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Pasted image 20240528111028.png",
     "Luna/Marketplace",
     "Luna",
     "Canvas",
