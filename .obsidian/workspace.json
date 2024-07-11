@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "911af60b59bcc325",
+            "id": "0e5ae51762a97b9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
-                "mode": "preview",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conserv",
+                "query": "rubocop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md"
+                "file": "Luna/Comandos y Configuración de Kubectl.md"
               }
             }
           }
@@ -161,9 +162,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "911af60b59bcc325",
+  "active": "0e5ae51762a97b9a",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
     "Luna/Backend/Upgrade to Ruby 3.1.0.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/Pasted image 20240709145511.png",
@@ -190,7 +192,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.example.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.files.png",

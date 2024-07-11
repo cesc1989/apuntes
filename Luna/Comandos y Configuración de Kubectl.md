@@ -33,3 +33,48 @@ Y para ingresar al pod
 ```
 kubectl exec -it -n POD_NAME ID -- bash
 ```
+
+## Tocó sin Luna CLI
+
+Se instaló ahora por Brew
+
+```
+brew install kubectl
+brew install kubectx
+```
+
+Ahora se ejecutan unos comandos para configurar el archivo `~/.kube/config`.
+
+NOTA: fíjate que la carpeta sea `.kube`. Antes había configurado manualmente otra carpeta.
+
+```bash
+aws eks update-kubeconfig --region us-west-2 --name alpha-primary-v3 --profile alpha
+
+aws eks update-kubeconfig --region us-west-2 --name omega-primary-v3 --profile omega
+```
+
+Finalmente, con el comando `kubectx` se elige el cluster y luego sí se puede pasar a los comandos para elegir un namespace y el pod al cual iniciar sesión.
+
+```bash
+# gets namespaces
+kubectl get ns
+
+# gets pods within a namespace
+kubectl get po -n [NAMESPACE-NAME]
+
+# starts a session inside of an application pod
+kubectl exec -it -n [NAMESPACE-NAME] [POD-NAME] -- sh
+
+# streams logs from application, alternatively, without the `-f` to see logs up until that point
+kubectl logs -n [NAMESPACE-NAME] [POD-NAME] -f
+```
+
+# Ejemplos para Ingresar a un Pod
+
+```bash
+kubectl get ns
+
+kubectl get po -n patient-forms-backend
+
+kubectl exec -it -n patient-forms-backend patient-forms-backend-[ID] -- sh
+```
