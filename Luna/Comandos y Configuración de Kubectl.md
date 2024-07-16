@@ -69,7 +69,11 @@ kubectl exec -it -n [NAMESPACE-NAME] [POD-NAME] -- sh
 kubectl logs -n [NAMESPACE-NAME] [POD-NAME] -f
 ```
 
-# Ejemplos para Ingresar a un Pod
+# Ejemplos de Comandos
+
+Para listar e ingresar a los pods.
+
+## Patient Self Report
 
 ```bash
 kubectl get ns
@@ -77,4 +81,15 @@ kubectl get ns
 kubectl get po -n patient-forms-backend
 
 kubectl exec -it -n patient-forms-backend patient-forms-backend-[ID] -- sh
+```
+
+
+## Edge
+
+```bash
+kubectl get ns
+
+kubectl get po -n backend
+
+kubectl exec -it -n backend backend-[ID] -- sh
 ```
