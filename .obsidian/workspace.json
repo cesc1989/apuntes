@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
-                "mode": "source",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md"
+                "file": "Luna/Comandos y Configuración de Kubectl.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "b3868d5f2118e1c0",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Clinical_Dashboard/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Migración_a_Rails_6.md",

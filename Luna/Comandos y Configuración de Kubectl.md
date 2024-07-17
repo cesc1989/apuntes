@@ -93,3 +93,13 @@ kubectl get po -n backend
 
 kubectl exec -it -n backend backend-[ID] -- sh
 ```
+
+## Clinical Dashboard
+
+```bash
+kubectl get ns
+
+kubectl get po -n physician-portal
+
+kubectl exec -it -n physician-portal physician-portal-[ID] -- sh
+```
