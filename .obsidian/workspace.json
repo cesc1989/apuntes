@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md"
+                "file": "Luna/Comandos y Configuración de Kubectl.md"
               }
             }
           }
@@ -163,10 +163,11 @@
   },
   "active": "dbeca255f3f4adc6",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Migración_a_Rails_6.md",
     "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
@@ -198,7 +199,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/Pasted image 20240709145511.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.example.png",
@@ -208,7 +208,6 @@
     "Luna/Backend/attachments",
     "Luna/Backend",
     "Otro_Espacio/attachments/rename_caps_to_f18.png",
-    "Otro_Espacio/attachments/entitlement_system.png",
     "Canvas/Ruby.canvas"
   ]
 }
