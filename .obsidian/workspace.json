@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md"
+                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md"
               }
             }
           }
@@ -163,11 +163,11 @@
   },
   "active": "dbeca255f3f4adc6",
   "lastOpenFiles": [
+    "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Migración_a_Rails_6.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",

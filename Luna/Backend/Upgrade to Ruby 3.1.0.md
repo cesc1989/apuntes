@@ -45,7 +45,7 @@ Found [this issue](https://github.com/travisjeffery/timecop/issues/372) describi
 
 There were [some PRs](https://github.com/travisjeffery/timecop/pull/279) about it but it is not clearly stated that version fixes it but it does after trying in the CI.
 
-## Rubocop error
+## Rubocop errors
 
 This one:
 ```
@@ -57,3 +57,27 @@ Error: RuboCop found unknown Ruby version 3.1 in `.ruby-version`.
 ```
 
 This can be fixed by upgrading Rubocop to version 1.14.0. This is the minimum version where Ruby 3.1.0 is supported. See [code](https://github.com/rubocop/rubocop/blob/v1.14.0/lib/rubocop/target_ruby.rb#L7).
+
+### An error occurred while Layout/BlockAlignment cop was inspecting
+
+This appeared for all of the files in the project:
+```
+An error occurred while Layout/BlockAlignment cop was inspecting /application/spec/workers/worker_inheritance_spec.rb:6:0.
+An error occurred while Layout/BlockAlignment cop was inspecting /application/spec/workers/workout_notification_worker_spec.rb:3:0.
+An error occurred while Layout/BlockAlignment cop was inspecting /application/spec/workers/workouts_reminder_worker_spec.rb:3:0.
+Errors are usually caused by RuboCop bugs.
+Please, report your problems to RuboCop's issue tracker.
+https://github.com/rubocop/rubocop/issues
+
+Mention the following information in the issue report:
+1.14.0 (using Parser 3.3.3.0, rubocop-ast 1.31.3, running on ruby 3.1.0 x86_64-linux-musl)
+```
+
+but only seems to happen in Linux and the cops still passed.
+```
+4127 files inspected, no offenses detected
+```
+
+According to [this comment](https://github.com/rubocop/rubocop/issues/10599#issuecomment-1116276917) it's fixed on version 1.28.2
+
+And it does :D
