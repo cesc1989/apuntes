@@ -17,6 +17,7 @@ gem 'net-smtp', require: false
 ```
 
 Note: depending on other gems and what libraries are used, you might need to also install:
+
 - net-imap
 - net-pop
 - net-sftp
@@ -27,6 +28,49 @@ From [reddit](https://www.reddit.com/r/ruby/comments/1d7xn3q/comment/l72dpa3/):
 > Main reason is that it is easier to maintain and update the csv library as a gem when it is not part of the standard library. Ruby is released once a year with significant updates and a handful of patch releases. Removing the gems from being bundled with ruby, allows them to be updated/patched seperately and also does not warrant a ruby update when a major security problem is found in the gem.
 >
 > They already did that over the last year with things like the `net-*` libraries (ssh, smtp, etc)
+
+## Missing net/pop
+
+Got this error in Argocd instead of the CI:
+```
+core_ext/kernel_require.rb:27:in `require': cannot load such file -- net/pop (LoadError)
+```
+
+As mentioned before, looks like all these gems are required by the Mail gem.
+
+Solution? Add gem net-pop:
+```ruby
+gem "net-pop", require: false
+```
+
+## Missing net/imap
+
+Got this error in Argocd instead of the CI:
+```
+core_ext/kernel_require.rb:27:in `require': cannot load such file -- net/imap (LoadError)
+```
+
+As mentioned before, looks like all these gems are required by the Mail gem.
+
+Solution? Add gem net-imap:
+```ruby
+gem "net-imap", require: false
+```
+
+## What's the deal with the net-* gems?
+
+In [this Stack Overflow](https://stackoverflow.com/a/70500221/1407371) answer the OP mentions that upgrading the mail gem to version 2.8.0 would fix it. Look at this project's version:
+
+```
+$ cat Gemfile.lock | grep mail
+    actionmailbox (6.1.6)
+      mail (>= 2.7.1)
+    actionmailer (6.1.6)
+      mail (~> 2.5, >= 2.5.4)
+    mail (2.7.1)
+```
+
+It's not using the stated version and it's why the error happens for all net-* gems. So there are two options: add the gems individually or upgrade the mail gem (conservatively).
 
 ## Timecop error
 

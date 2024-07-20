@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -164,6 +164,9 @@
   "active": "dbeca255f3f4adc6",
   "lastOpenFiles": [
     "Luna/Comandos y Configuración de Kubectl.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/Upgrade to Ruby 3.1.0.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Migración_a_Rails_7.md",
@@ -176,10 +179,7 @@
     "Luna/Patient_Self_Report/attachments/patient.profile.forms.png",
     "Luna/Patient_Self_Report/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/Upgrade to Ruby 3.1.0.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/Exercises_via_Web",
     "Luna/Backend/Escalations",
     "Luna/Backend/Communication_Preferences",
