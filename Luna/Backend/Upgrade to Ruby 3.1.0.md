@@ -1,6 +1,6 @@
 # Upgrade to Ruby 3.1.0
 
-# Errors Found and Solutions
+# Errors and Solutions
 
 ## Missing net/smtp
 
@@ -125,3 +125,47 @@ but only seems to happen in Linux and the cops still passed.
 According to [this comment](https://github.com/rubocop/rubocop/issues/10599#issuecomment-1116276917) it's fixed on version 1.28.2
 
 And it does :D
+
+## Shoulda-matchers at master@3e9d69b is not yet checked out
+
+This is only happens in Argo. This is the error:
+```
+/usr/local/bundle/gems/bundler-2.4.22/lib/bundler/source/git.rb:221:in `rescue in load_spec_files': https://github.com/thoughtbot/shoulda-matchers (at master@3e9d69b) is not yet checked out. Run `bundle install` first. (Bundler::GitError)
+```
+
+When looking at the Gemfile I see shoulda-matchers is installed this way:
+```ruby
+gem "shoulda-matchers", git: "https://github.com/thoughtbot/shoulda-matchers", branch: "master"
+```
+
+However, in the repo the "master" branch is "main" and (as of today, 20th July, 2024) it is:
+> This branch is 110 commits behind main.
+
+There's two options here. Figure out the version master was left at or change the branch to main.
+
+In the file `lib/shoulda/matchers/version.rb` I could [see](https://github.com/thoughtbot/shoulda-matchers/blob/master/lib/shoulda/matchers/version.rb) the version to be 5.0.0
+```ruby
+module Shoulda
+  module Matchers
+    # @private
+    VERSION = '5.0.0'.freeze
+  end
+end
+```
+
+This can also be verified by looking at the Gemfile.lock file:
+```
+GIT
+  remote: https://github.com/thoughtbot/shoulda-matchers
+  revision: 3e9d69ba7b6cc37251deb08f1a8866c97cf2bc0c
+  branch: master
+  specs:
+    shoulda-matchers (5.0.0)
+      activesupport (>= 5.2.0)
+```
+
+So, let's change it to point to version instead.
+
+> As a note, I checked the git history and last time a commit affected the should-matchers installation was at 2019-11-21 and prior to that time it was still pointing to master branch.
+>
+> Looks like at the time it was ok to have it pointing to master but then it happen that people wanted "master" to be renamed to other thing because of the implication of a master-slave.

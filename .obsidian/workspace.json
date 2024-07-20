@@ -32,9 +32,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "9a0e3bbb436d9246",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md",
+                "file": "Luna/Comandos y Configuración de Kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade to Ruby 3.1.0.md"
+                "file": "Luna/Comandos y Configuración de Kubectl.md"
               }
             }
           }
@@ -161,12 +173,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "dbeca255f3f4adc6",
+  "active": "9a0e3bbb436d9246",
   "lastOpenFiles": [
+    "Luna/Backend/Upgrade to Ruby 3.1.0.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/Upgrade to Ruby 3.1.0.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Migración_a_Rails_7.md",
