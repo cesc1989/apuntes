@@ -1,6 +1,7 @@
 # Migración a Rails 7
 
 # Pasos
+
 1. Asegurarse de incrementar el nivel de *coverage* de la suite de pruebas
 2. Estar en la versión de Ruby 2.7.1
 3. Estar en la versión de Rails 6.1.4
@@ -17,3 +18,13 @@
 # Docs Relacionados
 
 En Provider Portal → [[Errores_al_intentar_migrar_a_Rails_7]]
+
+# Comandos
+
+## Docker Image
+
+Comando para genera Docker image que necesita ENVs de Sidekiq
+
+```bash
+docker image build -t pruebados --build-arg SIDEKIQ_LICENSE_KEY=xxxxx:bbbbb -f Dockerfile .
+```

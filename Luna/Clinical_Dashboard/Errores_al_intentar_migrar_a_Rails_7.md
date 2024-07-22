@@ -1,4 +1,4 @@
-# Errores al intentar migrar a Rails 7
+# Errores al intentar migrar a Rails 7 (con Webpacker)
 
 Cómo hacer la migración → [[Migración_a_Rails_7]]
 
