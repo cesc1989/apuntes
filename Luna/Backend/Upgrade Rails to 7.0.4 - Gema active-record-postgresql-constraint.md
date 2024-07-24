@@ -16,6 +16,8 @@ Edge actualmente está en:
 	- 6.1.7.1
 	- 6.1.7.2
 	- 6.1.7.3
+	- ...
+	- 6.1.7.8 (4 de Junio, 2024)
 
 **Ruby 3.0.6**
 - Objetivo: 3.1.0
