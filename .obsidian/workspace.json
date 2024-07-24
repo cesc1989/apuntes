@@ -22,19 +22,7 @@
             }
           },
           {
-            "id": "2be7278704672030",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "91cc47d2e9531be4",
+            "id": "e1f13dedd2657b95",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,20 +161,20 @@
       "random-note:Open random note": false
     }
   },
-  "active": "91cc47d2e9531be4",
+  "active": "e1f13dedd2657b95",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Luna/Clinical_Dashboard/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Clinical_Dashboard/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Migración_a_Rails_6.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/Upgrade to Ruby 3.1.0.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Marketplace/S3_to_GDrive_Set_up_-_Marketplace.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
