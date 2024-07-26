@@ -41,14 +41,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Migración_a_Rails_6.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_y_Libros/On Opening Essays, Conference Talks.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_y_Libros/On Opening Essays, Conference Talks.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_y_Libros/On Opening Essays, Conference Talks.md"
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md"
               }
             }
           }
@@ -175,10 +175,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "50b5cfc1fbb39b1e",
+  "active": "16761df7aa59633b",
   "lastOpenFiles": [
-    "Luna/Migración_a_Rails_6.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
+    "Luna/Migración_a_Rails_6.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/On Opening Essays, Conference Talks.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
@@ -205,8 +208,6 @@
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Migración_a_Rails_7.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
-    "Luna/Backend/Upgrade to Ruby 3.1.0.md",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Patient_Self_Report/attachments/patient.profile.forms.png",
