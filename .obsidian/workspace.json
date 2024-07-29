@@ -41,8 +41,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md"
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -177,8 +177,10 @@
   },
   "active": "16761df7aa59633b",
   "lastOpenFiles": [
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+    "Luna/Backend/attachments/Pasted image 20240729105042.png",
+    "Luna/Migración_a_Rails_7.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
     "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Migración_a_Rails_6.md",
@@ -206,8 +208,6 @@
     "Luna/Clinical_Dashboard/Lecciones",
     "Luna/Clinical_Dashboard/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Migración_a_Rails_7.md",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Patient_Self_Report/attachments/patient.profile.forms.png",
