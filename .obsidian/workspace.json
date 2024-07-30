@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md"
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -187,10 +187,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "16761df7aa59633b",
+  "active": "7d8000f46892000f",
   "lastOpenFiles": [
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Clinical_Dashboard/Lecciones/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Backend/attachments/Pasted image 20240729105042.png",

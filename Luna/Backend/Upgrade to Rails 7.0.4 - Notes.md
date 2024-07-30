@@ -157,7 +157,40 @@ So, because Gemfile depends on rails = 7.0.1,
 
 This gem is also forked.
 
+The issue here is that bundler is not pulling latest commit from the fork. In the fork these are the last commits:
+
+- Merge pull request #2 from lunacare/afh-rails (2022)
+- Merge pull request #1 from lunacare/afh-where (2021)
+
+But when opening the gem in the installation folder it only shows the first commit:
+```bash
+in ~/.gem/ruby/3.1.0/bundler/gems/active_record-postgres-constraints-ff0622005ad4 on master [!]
+$ glone -5
+ff06220 (grafted, HEAD -> master) Merge pull request #1 from lunacare/afh-where
+```
+
+Why? Don't know but solve by pointing it to the commit instead of the branch:
+
+```diff
+-gem "active_record-postgres-constraints", github: "lunacare/active_record-postgres-constraints", branch: "master"
++gem "active_record-postgres-constraints", github: "lunacare/active_record-postgres-constraints", ref: "8427886"
+```
+
+That way bundler downloaded the actual latest changes and I saw it reflected in the gems folder by seeing two different versions of the gem:
+```bash
+~/.gem/ruby/3.1.0/bundler/gems
+$ ll
+total 0
+Jul 30 15:24 active_record-postgres-constraints-842788678eba
+Jul  9 17:55 active_record-postgres-constraints-ff0622005ad4
+```
+
+Bundler docs about git as source -> https://bundler.io/guides/git.html
+
+
 # CI Errors
+
+## Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError)
 
 Got this error when building the release image in the CI:
 ```bash
@@ -189,3 +222,101 @@ Got this error when building the release image in the CI:
 ```
 
 This was already seen at [[Upgrade Ruby to 3.1.0]] the fix is to use Rails 7.0.1
+
+## undefined method reference for ActiveSupport::Dependencies:Module
+
+This is a Devise related error.
+
+```bash
+NoMethodError: undefined method `reference' for ActiveSupport::Dependencies:Module
+
+    ActiveSupport::Dependencies.reference(arg)
+                               ^^^^^^^^^^
+/usr/local/bundle/gems/devise-4.7.3/lib/devise.rb:321:in `ref'
+/usr/local/bundle/gems/devise-4.7.3/lib/devise.rb:340:in `mailer='
+/usr/local/bundle/gems/devise-4.7.3/lib/devise.rb:342:in `<module:Devise>'
+/usr/local/bundle/gems/devise-4.7.3/lib/devise.rb:11:in `<main>'
+/usr/local/bundle/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/usr/local/bundle/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/usr/local/bundle/gems/bundler-2.4.22/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+/usr/local/bundle/gems/bundler-2.4.22/lib/bundler/runtime.rb:55:in `each'
+/usr/local/bundle/gems/bundler-2.4.22/lib/bundler/runtime.rb:55:in `block in require'
+/usr/local/bundle/gems/bundler-2.4.22/lib/bundler/runtime.rb:44:in `each'
+/usr/local/bundle/gems/bundler-2.4.22/lib/bundler/runtime.rb:44:in `require'
+/usr/local/bundle/gems/bundler-2.4.22/lib/bundler.rb:187:in `require'
+/app/config/application.rb:9:in `<main>'
+```
+
+Solution is to upgrade Devise to [version 4.8.1](https://github.com/heartcombo/devise/pull/5357#issuecomment-995863195)
+
+## NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class
+
+New error:
+```bash
+rails aborted!
+NoMethodError: undefined method `use_yaml_unsafe_load=' for ActiveRecord::Base:Class
+/app/config/environment.rb:7:in `<main>'
+```
+
+The CI threw this error when building for rails 7.0.1. Updated it to Rails 7.0.4.
+
+## Error with class being loaded in config/database.yml
+
+This is error:
+```bash
+NameError: Cannot load database configuration:
+uninitialized constant Runtime
+Did you mean?  RuntimeError
+/app/config/database.yml:4:in `<main>'
+/app/config/environment.rb:7:in `<main>'
+```
+
+Also happens when running tests locally:
+```bash
+An error occurred while loading rails_helper.
+Failure/Error: require File.expand_path("../../config/environment", __FILE__)
+
+NameError:
+  Cannot load database configuration:
+  uninitialized constant Runtime
+  Did you mean?  RuntimeError
+# ./config/database.yml:4:in `<main>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:48:in `render'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:22:in `parse'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:18:in `parse'
+# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/application/configuration.rb:335:in `database_configuration'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/railtie.rb:266:in `block (2 levels) in <class:Railtie>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:95:in `class_eval'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:95:in `block in execute_hook'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:85:in `with_execution_control'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:90:in `execute_hook'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:60:in `block in on_load'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:59:in `each'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:59:in `on_load'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/railtie.rb:262:in `block in <class:Railtie>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:32:in `instance_exec'
+# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:32:in `run'
+# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:60:in `run_initializers'
+# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/application.rb:372:in `initialize!'
+# ./config/environment.rb:7:in `<top (required)>'
+# ./spec/rails_helper.rb:8:in `require'
+# ./spec/rails_helper.rb:8:in `<top (required)>'
+```
+
+The issue is because in the file `config/database.yml` the class Runtime is being loaded:
+```yml
+defaults: &defaults
+  adapter: postgresql
+  variables:
+    <% if Runtime.rails_server? %>
+```
+
+Is this related to the `use_yaml_unsafe_load` method used in application.rb?
+```ruby
+module LunaApi
+  class Application < Rails::Application
+    config.active_record.use_yaml_unsafe_load = true
+  end
+end
+```
