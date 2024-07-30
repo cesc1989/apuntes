@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "16761df7aa59633b",
+            "id": "7d8000f46892000f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,9 +46,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "16761df7aa59633b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proyectos aprender",
+                "query": "Rails Engine",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md"
+                "file": "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md"
               }
             }
           }
@@ -177,11 +189,13 @@
   },
   "active": "16761df7aa59633b",
   "lastOpenFiles": [
+    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
+    "Luna/Clinical_Dashboard/Lecciones/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Backend/attachments/Pasted image 20240729105042.png",
     "Luna/Migración_a_Rails_7.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Migración_a_Rails_6.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/On Opening Essays, Conference Talks.md",
@@ -199,11 +213,9 @@
     "Luna/Clinical_Dashboard/Lecciones/Migrando_a_Ruby_3_-_Provider_Portal.md",
     "Luna/Clinical_Dashboard/Lecciones/Lecciones_Luna_Dashboard.md",
     "Luna/Clinical_Dashboard/Lecciones/Errores_Webpacker.md",
-    "Luna/Clinical_Dashboard/Lecciones/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Clinical_Dashboard/Lecciones/Error_de_node-gyp_y_node-sass_en_Docker_con_Python.md",
     "Luna/Clinical_Dashboard/Lecciones/Detalle_con_Webpacker_y_el_ENV.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
-    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
     "Luna/Clinical_Dashboard/Lecciones",
     "Luna/Clinical_Dashboard/Errores_al_intentar_migrar_a_Rails_7.md",
@@ -222,7 +234,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/Pasted image 20240709145511.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.example.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Canvas/Ruby.canvas"
   ]
 }

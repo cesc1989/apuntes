@@ -126,3 +126,66 @@ So, because Gemfile depends on audited >= 0
 
 I'd need to point to [version 5.1.0](https://github.com/collectiveidea/audited/blob/v5.1.0/audited.gemspec) but in the backend repo this gem was forked and it's fixed to an old version.
 
+Changed it to point to the source instead of the fork.
+
+## Gem paranoia mismatch
+
+```
+Could not find compatible versions
+
+Because paranoia >= 2.4.3, < 2.5.0 depends on activerecord >= 4.0, < 6.2
+  and rails >= 7.0.0, < 7.0.1 depends on activerecord = 7.0.0,
+  paranoia >= 2.4.3, < 2.5.0 is incompatible with rails >= 7.0.0, < 7.0.1.
+So, because Gemfile depends on paranoia = 2.4.3
+  and Gemfile depends on rails = 7.0.0,
+  version solving has failed.
+```
+
+Update it to [version 2.5.0](https://github.com/rubysherpas/paranoia/blob/v2.5.0/paranoia.gemspec).
+
+## Gem active_record-postgres-constraints mismatch
+
+```
+Could not find compatible versions
+
+Because every version of active_record-postgres-constraints depends on rails >= 5.0, <= 7.0
+  and Gemfile depends on active_record-postgres-constraints >= 0,
+  rails >= 5.0, <= 7.0 is required.
+So, because Gemfile depends on rails = 7.0.1,
+  version solving has failed.
+```
+
+This gem is also forked.
+
+# CI Errors
+
+Got this error when building the release image in the CI:
+```bash
+/usr/local/bundle/gems/railties-7.0.0/lib/rails/railtie.rb:246:in `initialize': Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError)
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/railtie.rb:184:in `new'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/railtie.rb:184:in `instance'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/railtie.rb:223:in `method_missing'
+	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/descendants_tracker.rb:90:in `descendants'
+	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/callbacks.rb:923:in `block in define_callbacks'
+	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/callbacks.rb:920:in `each'
+	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/callbacks.rb:920:in `define_callbacks'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/engine.rb:427:in `<class:Engine>'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/engine.rb:349:in `<module:Rails>'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/engine.rb:11:in `<top (required)>'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/application.rb:11:in `require'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/application.rb:11:in `<top (required)>'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails.rb:13:in `require'
+	from /usr/local/bundle/gems/railties-7.0.0/lib/rails.rb:13:in `<top (required)>'
+	from /app/lib/lunacare/environment.rb:3:in `require'
+	from /app/lib/lunacare/environment.rb:3:in `<top (required)>'
+	from /app/lib/lunacare.rb:3:in `require_relative'
+	from /app/lib/lunacare.rb:3:in `<top (required)>'
+	from /app/config/luna.rb:3:in `require_relative'
+	from /app/config/luna.rb:3:in `<top (required)>'
+	from /app/config/boot.rb:5:in `require_relative'
+	from /app/config/boot.rb:5:in `<top (required)>'
+	from bin/rails:4:in `require_relative'
+	from bin/rails:4:in `<main>'
+```
+
+This was already seen at [[Upgrade Ruby to 3.1.0]] the fix is to use Rails 7.0.1
