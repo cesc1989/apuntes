@@ -17,3 +17,10 @@ Esta debería servir para alpha y omega.
 ```
 {app="therapist-credentialing-backend"} != `path=/okcomputer/all.json` != `schema_migrations` != `SELECT "questions".* FROM "questions"` != `UPDATE "answers" SET "content"` != `SELECT "therapists".* FROM "therapists"` != `HTTP Origin header` != `INSERT INTO "answers"`
 ```
+
+## Patient Self Report
+
+Query que limpia bastante ruido de consultas de tablas que normalmente no sirven para debuggear algo:
+```
+{app="patient-self-report"} != `SELECT "questions".* FROM "questions"` != `HTTP Origin header` != `Can't verify CSRF token authenticity.` != `Answer Pluck` != `Answer Count` != `Form Load` != `Answer Load` != `Question Pluck` != `PainSpot Pluck`
+```
