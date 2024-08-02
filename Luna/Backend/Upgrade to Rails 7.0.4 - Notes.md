@@ -320,3 +320,112 @@ module LunaApi
   end
 end
 ```
+
+Probably it is but fixed by loading this class in `config/application.rb`
+```ruby
+require_relative "../app/lib/runtime"
+```
+
+#  undefined method connection_config' for ActiveRecord::Base:Class
+
+Getting this:
+```
+NoMethodError:
+  undefined method `connection_config' for ActiveRecord::Base:Class
+  Did you mean?  connection_db_config
+                 connection_pool
+                 connection_class
+                 connection_class=
+                 connection_class?
+```
+
+By reading in [Stack Overflow](https://stackoverflow.com/questions/65459059/connection-config-deprecated-warning-with-rspec-after-migrating-to-rails-6-1) looks like this error comes from an outdated gem. In this case the trace points to `active_record-postgres-constraints`:
+
+```
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/dynamic_matchers.rb:22:in `method_missing'
+# /Users/francisco/.gem/ruby/3.1.0/bundler/gems/active_record-postgres-constraints-842788678eba/lib/active_record/postgres/constraints/railtie.rb:30:in `pg?'
+# /Users/francisco/.gem/ruby/3.1.0/bundler/gems/active_record-postgres-constraints-842788678eba/lib/active_record/postgres/constraints/railtie.rb:13:in `block (2 levels) in <class:Railtie>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:95:in `class_eval'
+```
+
+And when inspecting the forked repo I can see the error:
+```ruby
+def pg?
+  config = ActiveRecord::Base.connection_config
+```
+
+Decided to test by opening the downloaded gem and doing a local edit:
+```ruby
+if defined?(::Rails::Railtie)
+  module ActiveRecord
+    module Postgres
+      module Constraints
+        class Railtie < ::Rails::Railtie
+          # (...)
+
+          def pg?
+            config = ActiveRecord::Base.connection_db_config
+            return true if config && config[:adapter].in?(%w[postgresql postgis])
+
+			# (...)
+            false
+          end
+        end
+      end
+    end
+  end
+end
+```
+
+But got this error:
+```
+NoMethodError:
+  undefined method `[]' for #<ActiveRecord::DatabaseConfigurations::HashConfig:0x00000001089cb9a0 @env_name="test", @name="primary", @configuration_hash={:adapter=>"postgresql", :variables=>{"statement_timeout"=>0}, :template=>"template0", :host=>"localhost", :username=>"francisco", :password=>nil, :database=>"luna_api_test", :min_messages=>"warning"}>
+
+              return true if config && config[:adapter].in?(%w[postgresql postgis])
+```
+
+When inspecting the instance in the error:
+```ruby
+<ActiveRecord::DatabaseConfigurations::HashConfig:0x00000001089cb9a0
+@env_name="test",
+@name="primary",
+@configuration_hash={
+	:adapter=>"postgresql",
+	:variables=>{"statement_timeout"=>0},
+	:template=>"template0",
+	:host=>"localhost",
+	:username=>"francisco",
+	:password=>nil,
+	:database=>"luna_api_test",
+	:min_messages=>"warning"
+}>
+```
+
+Now it needs to access the hash by accessing an method of the instance:
+```ruby
+config = ActiveRecord::Base.connection_db_config
+return true if config && config.configuration_hash[:adapter].in?(%w[postgresql postgis])
+```
+
+
+#  uninitialized constant EmailLogHubspot
+
+In config/initializers/action_mailer:
+```ruby
+ActionMailer::Base.register_observer(EmailLogHubspot)
+```
+
+but it's causing this error:
+```bash
+NameError:
+  uninitialized constant EmailLogHubspot
+
+  ActionMailer::Base.register_observer(EmailLogHubspot)
+                                       ^^^^^^^^^^^^^^^
+# ./config/initializers/action_mailer.rb:3:in `<top (required)>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `load'
+# /Users/francisco/.gem/ruby/3.1.0/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `load'
+```
+
+Do I need to also require it?

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grafana_Queries.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "mode": "source",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Grafana_Queries.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Grafana_Queries.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grafana_Queries.md"
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "a0c10006a2376bab",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Grafana_Queries.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/On Opening Essays, Conference Talks.md",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Migración_a_Rails_6.md",
