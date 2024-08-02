@@ -1,5 +1,9 @@
 # Upgrade to Rails 7.0.4 from 6.1.7 - Notes
 
+[RailsDiff](https://railsdiff.org/6.1.7/7.0.4) shows multiple changes but due to how custom Edge is I don't consider good to apply them to this codebase.
+
+Also, after running `bundle exec rails app:update` I left everything untouched because this app has a lot of years running and there's a lot of things that are better left untouched.
+
 ## Updated to 6.1.7
 
 Edge sits at Rails 6.1.6. First step to take it to version 7.0.4 was to updated it to latest minor patch/security patch. After updating it to 6.1.7 got this error in ALL tests.
@@ -429,3 +433,24 @@ NameError:
 ```
 
 Do I need to also require it?
+
+Fixed it by wrapping the initializer into some custom Rails code
+```ruby
+Rails.application.config.after_initialize do
+  ActionMailer::Base.register_observer(EmailLogHubspot)
+end
+```
+
+As [explained here](https://guides.rubyonrails.org/v7.0/autoloading_and_reloading_constants.html#autoloading-when-the-application-boots) and mentioned [here](https://stackoverflow.com/a/73463696/1407371) by Xavier Noira.
+
+# Zeitwerk
+
+I had to wrap lots of code in initializers folder with this block:
+```ruby
+Rails.application.config.after_initialize do
+end
+```
+
+Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
+> This is unrelated to Zeitwerk, autoloading from initializers was just wrong conceptually regardless of the autoloader.
+
