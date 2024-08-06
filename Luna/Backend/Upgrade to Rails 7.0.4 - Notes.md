@@ -415,12 +415,12 @@ return true if config && config.configuration_hash[:adapter].in?(%w[postgresql p
 
 #  uninitialized constant EmailLogHubspot
 
-In config/initializers/action_mailer:
+This code in `config/initializers/action_mailer`:
 ```ruby
 ActionMailer::Base.register_observer(EmailLogHubspot)
 ```
 
-but it's causing this error:
+causes this error:
 ```bash
 NameError:
   uninitialized constant EmailLogHubspot
@@ -432,16 +432,54 @@ NameError:
 # /Users/francisco/.gem/ruby/3.1.0/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `load'
 ```
 
-Do I need to also require it?
+when doing the Zeitwerk check command
+```
+bundle exec rails zeitwerk:check
+```
 
-Fixed it by wrapping the initializer into some custom Rails code
+This is fixed it by wrapping the initializer in this custom Rails code:
 ```ruby
 Rails.application.config.after_initialize do
   ActionMailer::Base.register_observer(EmailLogHubspot)
 end
 ```
 
+In the next section I'll try to explain above `after_initialize` block.
+
+## Autoload and Reloadable Code
+
 As [explained here](https://guides.rubyonrails.org/v7.0/autoloading_and_reloading_constants.html#autoloading-when-the-application-boots) and mentioned [here](https://stackoverflow.com/a/73463696/1407371) by Xavier Noira.
+
+The Autoloading and Reloading Constants guides say:
+> While booting, applications can autoload from the autoload once paths (...)
+>
+> However, ==you cannot autoload from the autoload paths== (...). This applies to code in `config/initializers` as well as application or engines initializers.
+
+It also explains the why:
+> Why? **Initializers only run once, when the application boots**. If you reboot the server, they run again in a new process, but ==reloading does not reboot the server, and initializers don't run again==.
+
+Code in the `config/initializers` only loads when the Rails app boots.
+
+To autoload code in this folder when the app boots and reload, you need to use the `to_prepare` block:
+```ruby
+# config/initializers/api_gateway_setup.rb
+Rails.application.config.to_prepare do
+  ApiGateway.endpoint = "https://example.com" # CORRECT
+end
+```
+
+This callback might run twice.
+
+To make code in the initializers folder load only on boot, use this other callback instead:
+```ruby
+Rails.application.config.after_initialize do
+  ActionMailer::Base.register_observer(EmailLogHubspot)
+end
+```
+
+The guides make it clear that:
+> Reloadable classes and modules can be autoloaded in `after_initialize` blocks too. These run on boot, *but do not run again on reload*.
+
 
 # Zeitwerk
 
@@ -452,5 +490,4 @@ end
 ```
 
 Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
-> This is unrelated to Zeitwerk, autoloading from initializers was just wrong conceptually regardless of the autoloader.
-
+> This is unrelated to Zeitwerk, ==autoloading from initializers was just wrong conceptually regardless of the autoloader==.
