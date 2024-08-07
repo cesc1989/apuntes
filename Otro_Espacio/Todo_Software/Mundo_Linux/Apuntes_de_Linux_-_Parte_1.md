@@ -334,6 +334,30 @@ Ahí pasan dos cosas. Una es la bandera `-o` es que para que curl de la salida a
 
 El comando igual funcionaría sin esto pero creo que a veces lo ponen para más claridad.
 
+# Configuraciones para ssh
+
+- config para ssh más brevinol: [Nerderati](http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)
+- Configurar archivo `~/.ssh/config` para que cargue las llaves configuradas en el mismo: [Super User](https://superuser.com/questions/325662/how-to-make-ssh-agent-automatically-add-the-key-on-demand#1114257) - [Ask Ubuntu](https://askubuntu.com/a/853578/167553)
+
+
+# ¿Cuál es el comando de Sublime desde Terminal?
+
+Respuesta en [Ask Ubuntu](https://askubuntu.com/questions/524812/run-sublime-text-3-and-check-version#524815).
+
+El comando es `subl`. Ejemplos:
+
+```bash
+$ which subl
+
+/usr/local/bin/subl
+```
+
+```bash
+$ subl --version
+
+Sublime Text Build 4169
+```
+
 
 # Enlaces que faltan por volver apuntes
 
@@ -345,7 +369,6 @@ El comando igual funcionaría sin esto pero creo que a veces lo ponen para más 
 - [Parameter Expansion detailed](https://unix.stackexchange.com/a/122848/47620) - [More on Stack Overflow](https://stackoverflow.com/questions/2013547/assigning-default-values-to-shell-variables-with-a-single-command-in-bash)
 - Continue command: [SO](https://stackoverflow.com/questions/7316107/bash-continuation-lines) - [NixCraft](https://www.cyberciti.biz/faq/howto-ask-bash-that-line-command-script-continues-next-line/)
 
-- Comando de Sublime Text en línea de comandos: [Ask Ubuntu](https://askubuntu.com/questions/524812/run-sublime-text-3-and-check-version#524815)
 
 - El comando `command`: [command](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/command.html) *"The command utility shall cause the shell to treat the arguments as a simple command"*
 - qué es `$@` en scrips de Bash: [SO](https://stackoverflow.com/questions/9994295/what-does-mean-in-a-shell-script)
@@ -359,18 +382,17 @@ El comando igual funcionaría sin esto pero creo que a veces lo ponen para más 
 - Cron Tasks linux: [crontab](http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples) - [Cron job](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job)
 - nginx: `emerg could not build the server_names_hash, you should increase either server_names_hash_max_size: 256 or server_names_hash_bucket_size: 64` [ver solución](https://serverfault.com/questions/419847/nginx-setting-server-names-hash-max-size-and-server-names-hash-bucket-size)
 - Al truncar un archivo el disco puede no tener espacio porque el proceso aún está usando el archivo: [Superuser](https://superuser.com/a/738698/372807)
-- config para ssh más brevinol: [Nerderati](http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)
+
 - unix wildcard [double asterisk](http://stackoverflow.com/questions/3529997/unix-wildcard-selectors-asterisks)
 - [service restart vs service reload](https://askubuntu.com/questions/105200/what-is-the-difference-between-service-restart-and-service-reload)
 - `truncate` para limpiar archivos: [Linux DIE](https://linux.die.net/man/1/truncate) - [Unix & Linux](https://unix.stackexchange.com/a/88810/47620)
 - `diff` and `cmp` commands: [Use](https://stackoverflow.com/questions/3611846/bash-using-the-result-of-a-diff-in-a-if-statement) diff in if statement
 - USB no se montaban automáticamente: [Borrar](https://superuser.com/a/788454/372807) `[/etc/mtab.fuselock](https://superuser.com/a/788454/372807)` [y reiniciar](https://superuser.com/a/788454/372807) - [Linux Format Foro](https://www.linuxformat.com/forums/viewtopic.php?p=109844)
-- [Explain Shell](https://explainshell.com/)
-- Aliases para comandos: [How to geek](https://www.howtogeek.com/73768/how-to-use-aliases-to-customize-ubuntu-commands/)
+
 - Listar servicios de sistema: [service --status-all](https://stackoverflow.com/questions/18721149/check-if-a-particular-service-is-running-on-ubuntu)
-- Agrandar espacio de disco de máquina Vagrant: [Ask Ubuntu](https://askubuntu.com/questions/317338/how-can-i-increase-disk-size-on-a-vagrant-vm)
+
 - Atajo de linux mint para capturar pantalla con área seleccionada y mandarla al portapapeles no funca bien: [la solución es presionar rápidamente SHIFT y luego PRINT mientras se presiona CTRL](https://github.com/linuxmint/Cinnamon/issues/5634#issuecomment-244530211)
 - Configurar shortcuts en Linux Mint [Ask Ubuntu](https://askubuntu.com/questions/170163/how-do-i-set-a-shortcut-to-screenshot-a-selected-area)
 - Para arreglar problema de llaves GPG invalidas al actualizar software, prueba añadiendo de nuevo la llave indicada en el proceso de instalación(a lo mejor ya se venció) - [Ver caso Yarn](https://github.com/yarnpkg/yarn/issues/4453#issuecomment-329463752)
-- Configurar archivo `~/.ssh/config` para que cargue las llaves configuradas en el mismo: [Super User](https://superuser.com/questions/325662/how-to-make-ssh-agent-automatically-add-the-key-on-demand#1114257) - [Ask Ubuntu](https://askubuntu.com/a/853578/167553)
+
 - Sobre [bluetooth en Linux Mint](https://maslinux.es/como-configurar-bluetooth-en-gnulinux/). [rfkill](https://linux.die.net/man/1/rfkill) me sirvió para saber que el bluetooth estaba bloqueado
