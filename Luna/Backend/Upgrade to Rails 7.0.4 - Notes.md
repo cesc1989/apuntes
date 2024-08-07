@@ -491,3 +491,55 @@ end
 
 Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
 > This is unrelated to Zeitwerk, ==autoloading from initializers was just wrong conceptually regardless of the autoloader==.
+
+# Running tests errors
+
+Got this when running some random specs:
+```bash
+ActiveRecord::ConnectionNotEstablished:
+       No connection pool for 'ActiveRecord::Base' found.
+     # /Users/francisco/.gem/ruby/3.1.0/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/webmock-3.18.1/lib/webmock/rspec.rb:37:in `block (2 levels) in <top (required)>'
+```
+
+It traces to the gems webmock and rspec-retry but it seems they're innocent.
+
+Finding a solution was difficult but what I tried and let me move on was adding this line to `spec/rails_helper.rb`
+```ruby
+ActiveRecord::Base.establish_connection
+```
+
+Added it here:
+```ruby
+# Checks for pending migrations and applies them before tests are run.
+# If you are not using ActiveRecord, you can remove this line.
+begin
+  ActiveRecord::Migration.maintain_test_schema!
+  ActiveRecord::Base.establish_connection
+rescue ActiveRecord::PendingMigrationError => e
+  puts e.to_s.strip
+  exit 1
+end
+```
+
+but now I get
+```bash
+Failure/Error: ActiveRecord::Base.establish_connection
+
+ActiveRecord::AdapterNotSpecified:
+  The `test` database is not configured for the `test` environment.
+
+    Available database configurations are:
+
+
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/database_configurations.rb:177:in `resolve_symbol_connection'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/database_configurations.rb:127:in `resolve'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_handling.rb:353:in `resolve_config_for_connection'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_handling.rb:51:in `establish_connection'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:250:in `establish_connection'
+# ./spec/rails_helper.rb:50:in `<top (required)>'
+```

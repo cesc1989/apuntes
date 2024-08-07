@@ -228,37 +228,136 @@ Cuando se transfieran archivos grandes, tener paciencia cuando se "detenga" en e
 
 ## Actualización 2024
 
-En una unidad SSD esto no pasa. Parece ser problema meramente de HDD.
+En una unidad SSD esto no pasa. Parece ser problema meramente de HDD. Lo veo luego de ponerle el SSD al portátil Thinkpad y al pasar archivos a la USB o a los discos no se queda pegado en el 99%.
+
+# ¿Diferencia entre Bash y sh?
+
+Respuesta en [ask ubuntu](http://askubuntu.com/questions/141928/what-is-difference-between-bin-sh-and-bin-bash).
+
+Bash y sh son shells de comandos. Bash es un predecesor de sh más moderno y con más características.
+
+sh -> [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell). Corre en `/bin/sh`.
+
+Bash -> [Bourne again shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)). Corre en `/bin/bash`.
+
+Hoy en día, cuando se ve algo como `/bin/sh` suele ser un enlace simbólico que apunta a la shell de sistema.
+
+# ¿Qué son las columnas del comando `ls -l`?
+
+Respuestas en [Unix Exchange](https://unix.stackexchange.com/questions/103114/what-do-the-fields-in-ls-al-output-mean#103118)
+
+Para el ejemplo de la pregunta en el enlace que da esta salida:
+```bash
+-rwxrw-r--    1    root   root 2048    Jan 13 07:11 afile.exe
+```
+
+`-rwxrw-r--` son permisos de archivo. Así:
+```bash
+-rwx # user
+xr- # group
+r-- # other
+```
+
+El primer carácter es un guión si el elemento es un archivo y es `d` si es un directorio.
+
+`1` número de enlaces _hard_. **¿Qué son estos?**
+
+`root` dueño del archivo.
+
+`root` grupo (de sistema) del archivo.
+
+`2048` peso del archivo en bytes.
+
+`Jan 13 07:11` fecha de última modificación.
+
+`afile.exe` nombre del archivo o directorio (si lo fuera)
+
+# ¿Qué hace `/dev/null` en un script en bash?
+
+Respuesta en [ask ubuntu](http://askubuntu.com/questions/514748/what-does-dev-null-mean-in-a-shell-script).
+
+El OP pregunta por estos dos comandos:
+```
+cat /dev/null > /var/log/messages
+cat /dev/null > /var/log/wtmp
+```
+
+En ese caso `/dev/null` es un [mecanismo que envía nada al archivo objetivo](https://askubuntu.com/a/514763/167553). Y aquí está la distinción entre enviar texto usando `>` o `>>`.
+
+Donde al enviar texto con el operador `>` se indica que se eliminen los contenidos del archivo y luego se agregue el nuevo texto. En cambio con `>>` se agregan los nuevos contenidos al archivo sin borrar nada.
+
+Por lo tanto:
+```
+cat /dev/null > /var/log/messages
+```
+
+Es una forma de limpiar el archivo. El archivo se limpia de esta forma porque si se borra con el comando `rm`, se pueden perder permisos.
+
+En otra [respuesta](https://askubuntu.com/a/823708/167553) dicen que:
+> /dev/null is like a black hole. Writes made to the /dev/null are discarded
+
+Se usa para vaciar archivos. Otras formas de vaciar archivos son:
+```
+> /var/log/messages
+ 
+truncate  -s  0  /var/log/messages
+cp  /dev/null  /var/log/messages
+```
+
+# Vainas de cURL
+
+## ¿Qué es el `bash -` al final de algunos comandos curl?
+
+ Respuesta en [Ask Ubuntu](https://askubuntu.com/questions/703397/what-does-the-in-bash-mean).
+
+Ejemplo:
+```bash
+curl --silent --location https://rpm.nodesource.com/setup | bash -
+```
+
+> the `-` is saying that there are **no more options**.
+
+Si hubiera más palabras luego de `| bash` se tratarían como el nombre del archivo a ejecutar. En este caso se agrega el guión para indicarle a bash que no hay más argumentos.
+
+Al final es lo mismo, en este caso, que no poner el guión.
+
+## ¿Qué es la bandera `-o-` en comandos curl?
+
+Respuesta en [Stack Overflow](https://stackoverflow.com/questions/40509660/unclear-curl-command-o).
+
+Ejemplo, al instalar NVM:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+```
+
+Ahí pasan dos cosas. Una es la bandera `-o` es que para que curl de la salida a un archivo y la otra cosa es el guión `-`. Al usarse juntos `-o-` se está diciendo a curl que la salida de esa ejecución la mandé al `stdout` para que así la tome `| bash` como su entrada (`stdin`).
+
+El comando igual funcionaría sin esto pero creo que a veces lo ponen para más claridad.
+
 
 # Enlaces que faltan por volver apuntes
 
 ## Bash Scripting
 
-- /dev/null [ask ubuntu](http://askubuntu.com/questions/514748/what-does-dev-null-mean-in-a-shell-script)
-- bash vs sh [ask ubuntu](http://askubuntu.com/questions/141928/what-is-difference-between-bin-sh-and-bin-bash)
 - Move hidden files with mv command: [ask ubuntu](https://askubuntu.com/questions/259383/how-can-i-get-mv-or-the-wildcard-to-move-hidden-files)
 - Format or interpolate date: [SO - 1](https://stackoverflow.com/questions/23655580/in-bash-how-do-i-interpolate-in-a-string) - [SO - 2](https://stackoverflow.com/questions/1401482/yyyy-mm-dd-format-date-in-shell-script). Also `$(date +%F %T)`
 - Assign command output to variable in bash: [Unix & Linux](https://unix.stackexchange.com/questions/16024/how-can-i-assign-the-output-of-a-command-to-a-shell-variable) - [Command substitution](http://tldp.org/LDP/abs/html/commandsub.html)
 - [Parameter Expansion detailed](https://unix.stackexchange.com/a/122848/47620) - [More on Stack Overflow](https://stackoverflow.com/questions/2013547/assigning-default-values-to-shell-variables-with-a-single-command-in-bash)
 - Continue command: [SO](https://stackoverflow.com/questions/7316107/bash-continuation-lines) - [NixCraft](https://www.cyberciti.biz/faq/howto-ask-bash-that-line-command-script-continues-next-line/)
-- [Explanation of](https://unix.stackexchange.com/questions/103114/what-do-the-fields-in-ls-al-output-mean#103118) `[ls -l](https://unix.stackexchange.com/questions/103114/what-do-the-fields-in-ls-al-output-mean#103118)` [command](https://unix.stackexchange.com/questions/103114/what-do-the-fields-in-ls-al-output-mean#103118)
+
 - Comando de Sublime Text en línea de comandos: [Ask Ubuntu](https://askubuntu.com/questions/524812/run-sublime-text-3-and-check-version#524815)
-- explicación a comandos, sobre todo `curl` donde al final le pasan el resultado a bash pero bash lo sigue un guión: `curl ... | bash -`: [Ask Ubuntu](https://askubuntu.com/questions/703397/what-does-the-in-bash-mean)
-- explicación de bandera `-o-` del comando *curl*: [Stack Overflow](https://stackoverflow.com/questions/40509660/unclear-curl-command-o)
+
 - El comando `command`: [command](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/command.html) *"The command utility shall cause the shell to treat the arguments as a simple command"*
 - qué es `$@` en scrips de Bash: [SO](https://stackoverflow.com/questions/9994295/what-does-mean-in-a-shell-script)
 
 ## Cosas de Ubuntu
 
-- `[nodejs](https://chrislea.com/2014/07/09/joining-forces-nodesource/)` [PPA repo is not anymore Chris Lea](https://chrislea.com/2014/07/09/joining-forces-nodesource/)
-- Install latest nodejs version in Ubuntu 14.04: [SO](http://stackoverflow.com/questions/34974535/install-latest-nodejs-version-in-ubuntu-14-04)
-- Cómo desinstalar Ruby que viene por defecto en el sistema: [installation.co](http://installion.co.uk/ubuntu/xenial/main/r/ruby/uninstall/index.html) - [SO](https://stackoverflow.com/questions/3957730/how-can-i-uninstall-ruby-on-ubuntu)
 - Algunos campos de texto pierden el foco al presionar la tecla CTRL: [la respuesta es desactivar mostrar el cursor al presionar CTRL del sistema](https://support.mozilla.org/es/questions/1191486) - [Como hacerlo en Ask Ubuntu](https://askubuntu.com/questions/230102/how-do-i-turn-off-show-mouse-when-i-press-ctrl)
 
 ## Cosas de Linux en General
 
 - Cron Tasks linux: [crontab](http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples) - [Cron job](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job)
-- nginx: emerg could not build the server_names_hash, you should increase either server_names_hash_max_size: 256 or server_names_hash_bucket_size: 64 [ver solución]](https://serverfault.com/questions/419847/nginx-setting-server-names-hash-max-size-and-server-names-hash-bucket-size)
+- nginx: `emerg could not build the server_names_hash, you should increase either server_names_hash_max_size: 256 or server_names_hash_bucket_size: 64` [ver solución](https://serverfault.com/questions/419847/nginx-setting-server-names-hash-max-size-and-server-names-hash-bucket-size)
 - Al truncar un archivo el disco puede no tener espacio porque el proceso aún está usando el archivo: [Superuser](https://superuser.com/a/738698/372807)
 - config para ssh más brevinol: [Nerderati](http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)
 - unix wildcard [double asterisk](http://stackoverflow.com/questions/3529997/unix-wildcard-selectors-asterisks)

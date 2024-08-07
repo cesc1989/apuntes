@@ -220,3 +220,4 @@ En el archivo schema.rb hay seis resultados que usan la sintaxis de la gema. Si 
 ### Preguntas
 
 - Q: ¿Puedo hacer el upgrade de Rails sin quitar la gema?
+- R: Sí pero depende. **PENDIENTE DE PROFUNDIZAR**
