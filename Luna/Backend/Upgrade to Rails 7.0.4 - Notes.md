@@ -492,9 +492,9 @@ end
 Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
 > This is unrelated to Zeitwerk, ==autoloading from initializers was just wrong conceptually regardless of the autoloader==.
 
-# Running tests errors
+# Database configuration Errors
 
-Got this when running some random specs:
+Got this when running specs:
 ```bash
 ActiveRecord::ConnectionNotEstablished:
        No connection pool for 'ActiveRecord::Base' found.
@@ -543,6 +543,25 @@ ActiveRecord::AdapterNotSpecified:
 # /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:250:in `establish_connection'
 # ./spec/rails_helper.rb:50:in `<top (required)>'
 ```
+
+Another error that I think might be related is this one I get after running `rails db:test:prepare`:
+```bash
+rails aborted!
+NoMethodError: undefined method `flat_map' for nil:NilClass
+
+        db_configs = configs.flat_map do |env_name, config|
+                            ^^^^^^^^^
+
+Tasks: TOP => db:test:prepare => db:load_config
+```
+
+Get the same connection pool in dev rails console:
+```bash
+pry(main)> ActiveRecord::Base.connection.tables
+ActiveRecord::ConnectionNotEstablished: No connection pool for 'ActiveRecord::Base' found.
+```
+
+
 
 # Rails assets:precompile
 
