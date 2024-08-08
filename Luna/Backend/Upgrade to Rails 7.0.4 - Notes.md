@@ -543,3 +543,26 @@ ActiveRecord::AdapterNotSpecified:
 # /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:250:in `establish_connection'
 # ./spec/rails_helper.rb:50:in `<top (required)>'
 ```
+
+# Rails assets:precompile
+
+Got this error in the CI and local env:
+```bash
+$ RAILS_ENV=production be rails assets:precompile --trace
+
+rails aborted!
+NoMethodError: private method `warn' called for nil:NilClass
+
+        ::Rails.logger.warn "Application uninitialized: Try calling YourApp::Application.initialize!"
+                      ^^^^^
+/Users/francisco/.gem/ruby/3.1.0/gems/sprockets-rails-3.5.1/lib/sprockets/railtie.rb:185:in `build_environment'
+/Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/railtie.rb:226:in `public_send'
+/Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/railtie.rb:226:in `method_missing'
+/Users/francisco/.gem/ruby/3.1.0/gems/sprockets-rails-3.5.1/lib/sprockets/rails/task.rb:20:in `environment'
+```
+
+The solution was to add this line in `config/application.rb`:
+```ruby
+Rails.logger ||= Logger.new(STDOUT)
+```
+
