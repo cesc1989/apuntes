@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Image Magick and Alpine.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/Image Magick and Alpine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/Image Magick and Alpine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md"
+                "file": "Luna/Backend/Image Magick and Alpine.md"
               }
             }
           }
@@ -163,9 +163,11 @@
   },
   "active": "86664cf483e8fcb1",
   "lastOpenFiles": [
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
@@ -197,7 +199,6 @@
     "Luna/Clinical_Dashboard/Lecciones/Webpacker_not_reading_from_process_env_in_Producti.md",
     "Luna/Clinical_Dashboard/Lecciones/Migrando_de_Webpacker_4_a_Webpacker_5_a_Shakapacke.md",
     "Luna/Clinical_Dashboard/Lecciones/Migrando_a_Ruby_3_-_Provider_Portal.md",
-    "Luna/Clinical_Dashboard/Lecciones/Lecciones_Luna_Dashboard.md",
     "Luna/Clinical_Dashboard/Lecciones",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
