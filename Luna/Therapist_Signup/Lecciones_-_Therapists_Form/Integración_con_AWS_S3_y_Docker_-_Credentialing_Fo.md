@@ -51,8 +51,7 @@ Para impedir que la excepción apareciera tocó desactivar las dos de nombre:
 2. *Block public access to buckets and objects granted through any access control lists (ACLs)*
 
 O como se ve en la imagen:
-
-![](https://paper-attachments.dropbox.com/s_16A9CDEB38084EFA334F08398BAF6201C5F52FDAA839C4A74391544796D1B497_1564785010127_image.png)
+![[s3.bucket.access.png]]
 
 # Clases y Métodos de Ruby/Rails Descubiertos en la Integración
 

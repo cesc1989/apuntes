@@ -1,11 +1,14 @@
 # Caso Generación de PDF: WKHTMLTOPDF y Docker
+
 Mientras estaba en entorno de desarrollo/local, la generación de los archivos PDF con `wkhtmltopdf` funcionaba normal porque la dependencia está instalada mediante la gema `wkhtmltopdf-binary` y a su vez las dependencias del software están instaladas en macOS.
 
 ## Lista de Issues
+
 - [Works in prod but not dev:](https://github.com/mileszs/wicked_pdf/issues/753) `[Error: PDF could not be generated! Command Error:](https://github.com/mileszs/wicked_pdf/issues/753)`
 - [not working in production server](https://github.com/mileszs/wicked_pdf/issues/743)
 - [doesn't work on Alpine](https://github.com/zakird/wkhtmltopdf_binary_gem/issues/53)
 - [sh: wkhtmltopdf: not found](https://github.com/wkhtmltopdf/wkhtmltopdf/issues/3739)
+
 ## Situación En Staging
 
 Una vez pasamos a *staging* y cómo estos entornos están bajo una configuración con Docker la cosa se complica.
@@ -167,7 +170,7 @@ Luego de solventar la solución de que `wkhtmltopdf` no funcionara, quedó otro 
 
 Solo se veían los campos de texto que están el HTML y salían vacíos.
 
-![Así se veía el PDF sin texto.](https://paper-attachments.dropbox.com/s_B6E366886E4C25E7A0D182775FF953F3C6023C0BA1ACA3CB59C0FE02B6EFD37F_1572380490417_image.png)
+![[pdf.vacio.png]]
 
 
 Al final, para resolver el detalle había que instalar varias dependencias faltantes que necesita `wkhtmltopdf` que no vienen en Docker Alpine:
