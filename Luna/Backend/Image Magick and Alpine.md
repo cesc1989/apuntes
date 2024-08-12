@@ -13,7 +13,7 @@ In general, the whole combination of Image Magick, Ruby and Alpine was like this
 	- Alpine 3.14
 	- Image Magick 7.0.11
 
-After migrating Edge to Ruby 3.1.0, with Alpine 3.14 (the maximum version supporting that Ruby version), Image Magick was downgraded to the same version as in Patient Self Report.
+After migrating Edge to Ruby 3.1.0, with Alpine 3.14, Image Magick was downgraded to the same version as in Patient Self Report.
 
 To date, these are the combination of docker images for Ruby 3.1.0 with Alpine:
 - 3.1.0-alpine3.15
@@ -21,3 +21,9 @@ To date, these are the combination of docker images for Ruby 3.1.0 with Alpine:
 - 3.1.0-alpine
 
 Se here https://hub.docker.com/_/ruby/tags?page=&page_size=&ordering=&name=3.1.0-alpine
+
+## What's the deal with this combination?
+
+The thing is that the minimum version of Alpine with support for WKHTMLPDF is 3.14.
+
+In Alpine packages website only [3.14](https://pkgs.alpinelinux.org/packages?name=wkhtmltopdf&branch=v3.14&repo=&arch=&maintainer=) lists results for this software.

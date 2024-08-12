@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "86664cf483e8fcb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Image Magick and Alpine.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 344.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Image Magick and Alpine.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Image Magick and Alpine.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Image Magick and Alpine.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,54 +148,53 @@
       "random-note:Open random note": false
     }
   },
-  "active": "86664cf483e8fcb1",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Backend/Image Magick and Alpine.md",
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_Hubspot_-_Lecciones.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/How_to_verify_and_make_sure_files_were_properly_up.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/How_to_list_files_per_condition_in_S3_Bucket.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_WKHTMLTOPDF_y_Docker.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_Límites_de_WKHTMLTOPDF.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_CombinePDF_y_WickedPDF.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_#2.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Docker_Build_para_Credentialing_Frontend.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Error_de_ImageMagick_en_Ubuntu_18_04.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Dockerización_de_Rails_App.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Crear_Varias_Propiedades_de_Hubspot_desde_el_API.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments/properties-permissions.png",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/untitled folder",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
+    "Luna/Clinical_Dashboard/Lecciones/Lecciones_Luna_Dashboard.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form",
+    "Luna/Clinical_Dashboard/Lecciones/Migrando_a_Ruby_3_-_Provider_Portal.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/untitled folder",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Descubriendo_Rails_a_Fondo.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Cómo_Crear_Email_Templates_en_Rails.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Dockerizar_Ruby_on_Rails_app.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221306.png",
-    "Luna/Backend/Portal User Verification.md",
     "Luna/Backend/Exercises_via_Web/attachments/Pasted image 20240802153201.png",
     "Luna/Backend/Exercises_via_Web/attachments",
-    "Luna/Migración_a_Rails_7.md",
-    "Luna/Grafana_Queries.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/On Opening Essays, Conference Talks.md",
-    "Luna/Migración_a_Rails_6.md",
-    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
-    "Luna/Clinical_Dashboard/Lecciones/Errores_al_intentar_migrar_a_Rails_7.md",
     "Luna/Backend/attachments/Pasted image 20240729105042.png",
-    "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Rails_Proyectos_ver_y_aprender.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
-    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
-    "Luna/Clinical_Dashboard/Lecciones/Webpacker_not_reading_from_process_env_in_Producti.md",
-    "Luna/Clinical_Dashboard/Lecciones/Migrando_de_Webpacker_4_a_Webpacker_5_a_Shakapacke.md",
-    "Luna/Clinical_Dashboard/Lecciones/Migrando_a_Ruby_3_-_Provider_Portal.md",
     "Luna/Clinical_Dashboard/Lecciones",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Patient_Self_Report/attachments/patient.profile.forms.png",
-    "Luna/Patient_Self_Report/attachments",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
-    "Luna/Backend/Exercises_via_Web",
-    "Luna/Backend/Escalations",
-    "Luna/Backend/Communication_Preferences",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/Pasted image 20240709145511.png",
     "Canvas/Ruby.canvas"
   ]
 }
