@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "a0b1babcaa1025e1",
+            "id": "7b78d3b3a6a41ebf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md"
+                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md"
               }
             }
           }
@@ -161,8 +161,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "a0b1babcaa1025e1",
+  "active": "7b78d3b3a6a41ebf",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/How_to_verify_and_make_sure_files_were_properly_up.md",
@@ -175,13 +178,11 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_CombinePDF_y_WickedPDF.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_#2.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_Hubspot_-_Lecciones.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Docker_Build_para_Credentialing_Frontend.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
@@ -208,7 +209,6 @@
     "Luna/Backend/attachments/Pasted image 20240729105042.png",
     "Luna/Patient_Self_Report/attachments/forms.center.png",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
-    "Luna/Patient_Self_Report/attachments/patient.profile.forms.png",
     "Canvas/Ruby.canvas"
   ]
 }
