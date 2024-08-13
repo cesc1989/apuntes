@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NSNumber",
+                "query": "worktree",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 344.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -149,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,8 +165,9 @@
   },
   "active": "7b78d3b3a6a41ebf",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
@@ -197,7 +200,6 @@
     "Luna/Clinical_Dashboard/Lecciones/Lecciones_Luna_Dashboard.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form",
-    "Luna/Clinical_Dashboard/Lecciones/Migrando_a_Ruby_3_-_Provider_Portal.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/untitled folder",
