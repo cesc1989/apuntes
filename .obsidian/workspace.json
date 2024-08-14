@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "7b78d3b3a6a41ebf",
+            "id": "d831bf52bc23e899",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "mode": "preview",
                 "source": true
               }
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5,
-    "collapsed": true
+    "width": 344.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md"
+                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -150,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,11 +161,16 @@
       "random-note:Open random note": false
     }
   },
-  "active": "7b78d3b3a6a41ebf",
+  "active": "d831bf52bc23e899",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+    "Luna/Therapist_Signup/Apuntes_Savon_y_SOAP_en_Ruby.md",
+    "Luna/Backend/Apuntes_Ruby_on_Rails.md",
+    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
@@ -190,14 +193,9 @@
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Error_de_ImageMagick_en_Ubuntu_18_04.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Dockerización_de_Rails_App.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Crear_Varias_Propiedades_de_Hubspot_desde_el_API.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments/properties-permissions.png",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/untitled folder",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
-    "Luna/Clinical_Dashboard/Lecciones/Lecciones_Luna_Dashboard.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",

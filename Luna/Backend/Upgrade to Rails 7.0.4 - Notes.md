@@ -412,8 +412,7 @@ config = ActiveRecord::Base.connection_db_config
 return true if config && config.configuration_hash[:adapter].in?(%w[postgresql postgis])
 ```
 
-
-#  uninitialized constant EmailLogHubspot
+# uninitialized constant EmailLogHubspot
 
 This code in `config/initializers/action_mailer`:
 ```ruby
@@ -561,8 +560,6 @@ pry(main)> ActiveRecord::Base.connection.tables
 ActiveRecord::ConnectionNotEstablished: No connection pool for 'ActiveRecord::Base' found.
 ```
 
-
-
 # Rails assets:precompile
 
 Got this error in the CI and local env:
@@ -585,3 +582,29 @@ The solution was to add this line in `config/application.rb`:
 Rails.logger ||= Logger.new(STDOUT)
 ```
 
+Another error was:
+```bash
+Compiling...
+Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+error Command "webpack" not found.
+```
+
+The solution that worked so far was [Michael Hoste](https://github.com/rails/rails/issues/43906#issuecomment-1099992310) suggests:
+```ruby
+# lib/tasks/yarn.rake
+
+Rake::Task["assets:precompile"].enhance ["yarn:install"]
+```
+
+# Error with rubocop gems
+
+This error:
+```
+Downloading rubocop-rails-2.15.2 revealed dependencies not in the API or the lockfile (rubocop (< 2.0, >= 1.7.0)). Running `bundle update rubocop-rails` should fix the problem.
+```
+
+Ran the command suggested in the error and it downgraded some gems. Looks like something 
+change some time ago when doing other commands.
