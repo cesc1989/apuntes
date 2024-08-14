@@ -1,6 +1,7 @@
 # Temas de Git
 
 # Autocompletar comandos con aliases de shell
+
 - [How do I get bash completion to work with aliases?](https://stackoverflow.com/questions/342969/how-do-i-get-bash-completion-to-work-with-aliases)
 - [Git branch bash autocomplete *with aliases* (add to .bash_profile)](https://gist.github.com/JuggoPop/10706934)
 - [How can I get bash to perform tab-completion for my aliases?](https://superuser.com/questions/436314/how-can-i-get-bash-to-perform-tab-completion-for-my-aliases)
@@ -95,9 +96,7 @@ Se copia todo el contenido generado y se lleva a GitHub (sección de configuraci
 
 ![](https://paper-attachments.dropbox.com/s_F1CE871F7ED9A72D4681536E321A7DE52CDD5D8E87B5BE57118EB75C8D763D34_1593205882019_image.png)
 
-
 Ver → https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key
-
 
 # Cómo Remover llaves gpg existentes
 
@@ -124,6 +123,7 @@ Ver:
 
 - [Remember GPG password when signing git commits](https://stackoverflow.com/questions/36847431/remember-gpg-password-when-signing-git-commits)
 - [Gist sobre todo este asunto](https://gist.github.com/ankurk91/c4f0e23d76ef868b139f3c28bde057fc#make-gpg-remember-your-passphrase-tricky)
+
 # Condicionales en el gitconfig
 
 Ver [Conditionally setting your gitconfig](https://utf9k.net/blog/conditional-gitconfig/) y [Can gitconfig options be set conditionally?](https://stackoverflow.com/questions/14754762/can-gitconfig-options-be-set-conditionally)
@@ -133,6 +133,7 @@ También acá [Conditional git profile configuration](https://dev.to/tastefulelk
 El cual según el comentario que puse, me sirvió mucho.
 
 # Gitsieate
+
 ## Cómo funciona git reset?
 
 [git reset explicado](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
@@ -183,6 +184,7 @@ Según el autor:
 Visto en esta [otra respuesta](https://stackoverflow.com/a/1338756/1407371).
 
 # Flujo de trabajo en Git: cuando un PR está pendiente y quiero seguir trabajando en la siguiente historia
+
 > I'm working on a project and I submitted my first pull request and while I'm waiting I want to continue on working on my project building up from what I worked on the merge that's still pending on
 
 La respuesta es amplia. Ver en [Stack Overflow](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr).
@@ -248,3 +250,28 @@ En el artículo se explica una forma de tratar de trabajar con los worktrees par
 
 La verdad eso me parece más embolatado así que no lo pienso revisar a fondo.
 
+# Restaurar un archivo cambiado en un commit muy viejo
+
+Pasó que se había modificado el archivo `db/schema.rb` en un commit muy viejo y no solo podía hacer git reset para restaurarlo. Entonces, ¿cómo podía devolverlo a ese estado anterior?
+
+Se logra con el comando `git restore` (de git 2.23 en adelante).
+
+```bash
+git restore --source 1046ebfc4 db/schema.rb
+```
+
+[Este comentario](https://stackoverflow.com/a/57676529/1407371) menciona la forma con `git restore`.
+
+donde a la bandera `--source` se le pasa el hash del commit al cual queremos devolver el archivo.
+
+También se puede hacer lo mismo con `git checkout`:
+```bash
+git checkout c5f567~1 -- file1/to/restore file2/to/restore
+```
+
+Esta es la [forma antigua](https://stackoverflow.com/a/215731/1407371) que funciona en toda versión de git.
+
+En nuestro caso sería así:
+```bash
+git checkout 1046ebfc4 -- db/schema.rb
+```
