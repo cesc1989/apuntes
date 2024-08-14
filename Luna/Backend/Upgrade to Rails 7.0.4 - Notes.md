@@ -227,7 +227,7 @@ Got this error when building the release image in the CI:
 
 This was already seen at [[Upgrade Ruby to 3.1.0]] the fix is to use Rails 7.0.1
 
-## undefined method reference for ActiveSupport::Dependencies:Module
+## 👉🏽 undefined method reference for ActiveSupport::Dependencies:Module 👈🏽
 
 This is a Devise related error.
 
@@ -560,6 +560,9 @@ pry(main)> ActiveRecord::Base.connection.tables
 ActiveRecord::ConnectionNotEstablished: No connection pool for 'ActiveRecord::Base' found.
 ```
 
+**Update**
+I wasn't able to fix this or find a solution that would help me move forward. I asked team mates for help and one of them used my branch, run the `rails app:update` command and somehow got a working version. I've continued my work using that branch. There's still errors. Looks like in my branch I was digging deeper into a rabbit hole.
+
 # Rails assets:precompile
 
 Got this error in the CI and local env:
@@ -608,3 +611,24 @@ Downloading rubocop-rails-2.15.2 revealed dependencies not in the API or the loc
 
 Ran the command suggested in the error and it downgraded some gems. Looks like something 
 change some time ago when doing other commands.
+
+# undefined method silence for Logger
+
+This error pop up in the CI for lots of tests.
+```
+NoMethodError:
+	undefined method `silence' for #<Logger:0x00007f82ed94f6c0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f82ed94f300 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f82ed94ef68 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<IO:<STDOUT>>, @binmode=false, @mon_data=#<Monitor:0x00007f82ed94ee50>, @mon_data_owner_object_id=23660>, @level_override={}>
+
+logger.silence do
+```
+
+Turns out it's related to the gem `activerecord-session_store` when it's updated to version 2.0 and up. In this case it's on 2.1.0
+
+In [this issue](https://github.com/rails/activerecord-session_store/issues/176) they discussed this error and also provided a fix.
+
+The fix is to put this line:
+```ruby
+Rails.logger.class.include ActiveSupport::LoggerSilence
+```
+
+Somwhere? I put it in `config/application.rb`. In [this comment](https://github.com/rails/activerecord-session_store/issues/176#issuecomment-797665880), Swanson suggests to add it in `config/initializers/session_store.rb`.

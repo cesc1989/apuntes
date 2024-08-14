@@ -18,5 +18,5 @@ Haml-lint puede tomar como [fuente de configuraciones](https://github.com/sds/ha
 El comando de haml-lint se corre así:
 ```
 bundle exec haml-lint app/views/**/*.haml
-``
+```
 
