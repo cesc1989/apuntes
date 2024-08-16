@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "1df3731accbd19ca",
+            "id": "3984d49fa29caadd",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -63,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rspec json",
+                "query": "estimados",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +82,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md"
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md"
               }
             }
           }
@@ -162,9 +163,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1df3731accbd19ca",
+  "active": "3984d49fa29caadd",
   "lastOpenFiles": [
+    "Luna/Backend/Usando Flipper.md",
+    "Luna/Backend/Apuntes_Ruby_on_Rails.md",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/Portal User Verification.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
     "Luna/Usando_Ngrok.md",
     "Luna/Patient_Self_Report/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
     "Usando_Ngrok.md",
@@ -185,12 +192,6 @@
     "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
-    "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
-    "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/Portal User Verification.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/pdf.vacio.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments",
