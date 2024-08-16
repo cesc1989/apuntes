@@ -167,7 +167,7 @@ Cuando hay asociaciones la respuesta JSON es similar a esta:
 
 La documentación dice que hay objetos estándar de Hubspot como Contacts, Companies, Deals, etc. También se pueden crear objetos custom para representar otro tipo de datos.
 
-Para trabajar con custom objects hay que usar la versión 3 de la API.
+==Para trabajar con custom objects hay que usar la versión 3 de la API==.
 
 Todas estas peticiones llevan la siguiente cabecera enviando el private token para hacer peticiones a la API de Hubspot:
 
@@ -175,10 +175,13 @@ Todas estas peticiones llevan la siguiente cabecera enviando el private token pa
 Authorization:Bearer [TOKEN]
 ```
 
+## Permisos para usar la API de Objects
+
 Para trabajar con la API de Custom Objects, el token necesita alguno de estos scopes:
 
 - crm.objects.custom.read
 - crm.schemas.custom.read
+- crm.objects.custom.write
 
 ## Listar custom objects
 
@@ -349,7 +352,7 @@ La respuesta es:
 }
 ```
 
-Ahora la pregunta es, ¿con qué endpoint obtengo detalles del ID que devuelve `results: []`?
+Ahora la pregunta es, ==¿con qué endpoint obtengo detalles del ID que devuelve `results: []`?==
 
 ## Detalle de Objeto Custom
 
@@ -384,6 +387,70 @@ responde con:
 }
 ```
 
+Por defecto, devuelve una lista corta de propiedades. Para que devuelva otras hay que pasarle una lista a la petición en el query param:
+```
+GET https://api.hubapi.com/crm/v3/objects/:objectType/:objectId?properties=background_check_status
+```
+
+responde con:
+```json
+{
+  "id": "14462501441",
+  "properties": {
+      "background_check_status": "Finding/Under Review",
+      "hs_createdate": "2024-08-09T15:56:18.886Z",
+      "hs_lastmodifieddate": "2024-08-13T21:10:17.567Z",
+      "hs_object_id": "14462501441"
+  },
+  "createdAt": "2024-08-09T15:56:18.886Z",
+  "updatedAt": "2024-08-13T21:10:17.567Z",
+  "archived": false
+}
+```
+
+# Actualizando Propiedades de un Objeto Custom
+
+Usar este endpoint:
+```
+PATCH https://api.hubapi.com/crm/v3/objects/:objectType/:objectId
+```
+
+Ejemplo de petición:
+```
+PATCH https://api.hubapi.com/crm/v3/objects/2-30931773/14462501441
+
+Payload
+
+{
+  "properties": {
+    "bachelor_s_degree_school_name": "Hola Mundo Cachon"
+  }
+}
+```
+
+Y responde con:
+```json
+{
+  "id": "14462501441",
+  "properties": {
+    "bachelor_s_degree_school_name": "Hola Mundo Cachon",
+    "hs_created_by_user_id": "7007108",
+    "hs_createdate": "2024-08-09T15:56:18.886Z",
+    "hs_lastmodifieddate": "2024-08-16T04:46:56.541Z",
+    "hs_object_id": "14462501441",
+    "hs_object_source": "CRM_UI",
+    "hs_object_source_id": "userId:7007108",
+    "hs_object_source_label": "CRM_UI",
+    "hs_object_source_user_id": "7007108",
+    "hs_updated_by_user_id": "8338164"
+  },
+  "createdAt": "2024-08-09T15:56:18.886Z",
+  "updatedAt": "2024-08-16T04:46:56.541Z",
+  "archived": false
+}
+```
+
+Devuelve la propiedad actualizada junto a otras extra.
 
 # Enlaces y Documentación
 
