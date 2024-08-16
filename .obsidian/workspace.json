@@ -22,17 +22,15 @@
             }
           },
           {
-            "id": "3984d49fa29caadd",
+            "id": "41681899d44e944d",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
                 "mode": "preview",
                 "source": true
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md"
+                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md"
               }
             }
           }
@@ -163,20 +161,23 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3984d49fa29caadd",
+  "active": "41681899d44e944d",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
+    "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
+    "Otro_Espacio/La Eficiencia es el Enemigo.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
     "Luna/Backend/Usando Flipper.md",
     "Luna/Backend/Apuntes_Ruby_on_Rails.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Portal User Verification.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
     "Luna/Usando_Ngrok.md",
     "Luna/Patient_Self_Report/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
     "Usando_Ngrok.md",
     "Luna/Patient_Self_Report/Migrando_a_Ruby_3_1_0_con_wkhtmltopdf.md",
-    "Luna/Therapist_Signup/Hubspot_Contact_Association_Labels.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Testing_RSpec_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_SQL_-_Luna_Patients.md",
@@ -189,9 +190,6 @@
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Query_SQL_para_hallar_answers_con_mal_texto_de_la.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
     "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Todos los Atajos de Teclado de Sublime Text.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/pdf.vacio.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments",

@@ -304,7 +304,7 @@ retornó este error:
 
 La forma correcta no es usando la propiedad `name` del objeto custom sino su propiedad `objectTypeId`.
 
-Respuesta ejemplo de objetos custom:
+Respuesta ejemplo de schema de objetos custom:
 ```json
 {
 	"results": [

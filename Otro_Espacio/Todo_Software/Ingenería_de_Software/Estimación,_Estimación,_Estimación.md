@@ -1,20 +1,22 @@
 # Estimación, Estimación, Estimación
+
 TL;DR(Muy largo; No leí)
 
-Las estimaciones no son para tomarse como última palabra, firmadas en sangre, un juicio final. Deben ser vistas como una guía para conocer el rumbo de un proyecto.
+Las estimaciones no son para tomarse como última palabra, firmadas en sangre, un juicio final. **Deben ser vistas como una guía para conocer el rumbo de un proyecto**.
 
-Deben ser creadas en entornos donde haya suficiente información para realizarlas, con el suficiente espacio y análisis para intentar sacar a luz los imprevistos(que siempre los habrá).
+Deben ser creadas en entornos donde haya suficiente información para realizarlas, con el suficiente espacio y análisis para intentar sacar a luz los imprevistos (que siempre los habrá).
 
 Aceptar la incertidumbre que existe al crear software. Todos los involucrados deben saber que existe y aceptarla. Cuando esto ocurre saldrán soluciones para abordar los problemas a encontrar al desarrollar un software.
 
 Cuando se aceptan las estimaciones como algo concreto, que no está expuesto a factores externos que afecten el normal de desarrollo todos salen perjudicados. **Pero quien más sale perjudicado es el desarrollador**:
 
-
 - Cliente frustrado porque no se entregó X a tiempo que se dijo
 - Jefe frustrado porque no se están cumpliendo los tiempos y el cliente demuestra el descontento
 - Gestor de proyectos frustrado porque no le están cumpliendo los tiempos y el jefe y el cliente le demuestran su descontento
 - Desarrollador cansado de trabajar horas extras, tener que enfocarse en cantidad y no en calidad, gestor de proyectos y jefe encima demostrando el descontento al no estimar bien ni cumplir lo indicado.
+
 ## Lista de artículos
+
 - [Why Asking Software Developers for Time Estimates Is a Terrible Idea and How to Bypass It](https://www.romenrg.com/blog/2015/09/28/why-asking-developers-for-time-estimates-in-software-projects-is-a-terrible-idea-and-how-to-bypass-it-with-scrum/)
 - [Coding, Fast and Slow: Developers and the Psychology of Overconfidence](http://blog.hut8labs.com/coding-fast-and-slow.html)
 - [No Deadlines For You! Software Dev Without Estimates, Specs or Other Lies](http://blog.hut8labs.com/no-deadlines-for-you.html)
@@ -30,7 +32,9 @@ Cuando se aceptan las estimaciones como algo concreto, que no está expuesto a f
 - [Planning is Guessing](https://m.signalvnoise.com/planning-is-guessing/)
 - [Artículo y comentarios: How do you estimate time required for assigned task?](https://dev.to/imben1109/how-do-you-estimate-time-required-for-assigned-task-57md)
 - [No ETAs](https://inessential.com/2019/10/28/no_etas)
+
 # Resumen General
+
 ## Coding, Fast and Slow: Developers and the Psychology of Overconfidence
 
 Artículo: http://blog.hut8labs.com/coding-fast-and-slow.html
