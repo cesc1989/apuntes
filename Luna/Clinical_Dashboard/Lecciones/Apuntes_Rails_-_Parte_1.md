@@ -70,45 +70,49 @@ Buscando, encontré [DuckRails](https://github.com/iridakos/duckrails/wiki/Setup
 ## Error de RSpec mandando string vacíos en vez de nil
 
 En esta prueba
-
-    post(
-      "#{base_api_url}/plans_of_care",
-      params: { data: { physician_ids: [] } }
-    )
+```ruby
+post(
+  "#{base_api_url}/plans_of_care",
+  params: { data: { physician_ids: [] } }
+)
+```
 
 necesitaba mandar el array cómo está, vacío. Sin embargo, RSpec decide enviarlo como un array con una cadena vacía:
 
-    (byebug) ids
-    [""]
+```ruby
+(byebug) ids
+[""]
+```
 
 Encuentro, [según este issue](https://github.com/rspec/rspec-rails/issues/2021), que es un error más de Rails que de RSpec y acá encuentro [la forma de solucionarlo](https://stackoverflow.com/a/44704018/1407371).
-
-
-    post(
-      "#{base_api_url}/plans_of_care",
-      params: { data: { physician_ids: [] } },
-      as: :json
-    )
+```ruby
+post(
+  "#{base_api_url}/plans_of_care",
+  params: { data: { physician_ids: [] } },
+  as: :json
+)
+```
 
 También sirve para que RSpec envíe el tipo de dato como es. Ejemplo:
+```ruby
+before do
+  post(
+	url,
+	params: { form: { type_name: 'odi', delete_existing_answers: false } }
+  )
+end
+```
 
-    before do
-      post(
-        url,
-        params: { form: { type_name: 'odi', delete_existing_answers: false } }
-      )
-    end
-
-Enviará `delete_existing_answers` como `"``false``"` y no como un boolean. Para que llegue como boolean, debe ser así la petición:
-
-    before do
-      post(
-        url,
-        params: { form: { type_name: 'odi', delete_existing_answers: false } },
-        as: :json
-      )
-    end
-
+Enviará `delete_existing_answers` como `"false"` y no como un boolean. Para que llegue como boolean, debe ser así la petición:
+```ruby
+before do
+  post(
+	url,
+	params: { form: { type_name: 'odi', delete_existing_answers: false } },
+	as: :json
+  )
+end
+```
 
 ## Decodificar un JWT cuyo tiempo expiró
 
