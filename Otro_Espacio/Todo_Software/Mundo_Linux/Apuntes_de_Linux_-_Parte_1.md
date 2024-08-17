@@ -358,20 +358,66 @@ $ subl --version
 Sublime Text Build 4169
 ```
 
+# Comando `command`
+
+El comando `command` http://pubs.opengroup.org/onlinepubs/9699919799/utilities/command.html
+> The command utility shall cause the shell to treat the arguments as a simple command
+
+He visto en tutoriales de instalación u otros usar este comando. Más que nada lo vi para identificar el path del ejecutable de algún programa.
+```bash
+$ command -v subl
+
+/usr/local/bin/subl
+```
+
+¿Qué es lo que hace? Esto dice los docs:
+> Write a string to standard output that indicates the pathname or command that will be used by the shell
+
+# ¿Qué es `$@` en scrips de Bash?
+
+En [Stack Overflow](https://stackoverflow.com/questions/9994295/what-does-mean-in-a-shell-script)
+
+Explicado en [esta respuesta](https://stackoverflow.com/a/9995322/1407371):
+> `$@` is nearly the same as `$*`, both meaning "all command line arguments". They are often used to (...) pass all arguments to another program (thus forming a wrapper around that other program).
+
+Ejemplo. Este script `./someScript.sh foo bar` then `$@` will be equal to `foo bar`. Dentro del script se puede referenciar usando `$@`.
+
+```bash
+# super_script.sh
+
+umbrella_corp_options "$@"
+```
+
+A la función/comando `umbrella_corp_options` se le pasa la lista de parámetros, cada uno encerrado en comillas.
+
+# Mover archivos ocultos con el comando mv
+
+En [Ask Ubuntu](https://askubuntu.com/questions/259383/how-can-i-get-mv-or-the-wildcard-to-move-hidden-files)
+
+Esta [respuesta](https://askubuntu.com/a/259386/167553) dice que se logra así:
+```bash
+shopt -s dotglob
+mv /tmp/home/rcook/* /home/rcook/
+```
+
+Otra forma, más sencilla al parecer, sería:
+```bash
+mv a/{.*,*} b/
+```
+
+¿Qué hacen las llaves? Esa es la sintaxis de _brace expansion_. Así lo explica la [misma respuesta](https://askubuntu.com/a/1332761/167553). Esto es una forma de generar un rango de valores.
+
+Sin la _brace expansion_ el comando sería así:
+```bash
+mv a/.* b/
+mv a/* b/
+```
 
 # Enlaces que faltan por volver apuntes
 
 ## Bash Scripting
 
-- Move hidden files with mv command: [ask ubuntu](https://askubuntu.com/questions/259383/how-can-i-get-mv-or-the-wildcard-to-move-hidden-files)
-- Format or interpolate date: [SO - 1](https://stackoverflow.com/questions/23655580/in-bash-how-do-i-interpolate-in-a-string) - [SO - 2](https://stackoverflow.com/questions/1401482/yyyy-mm-dd-format-date-in-shell-script). Also `$(date +%F %T)`
-- Assign command output to variable in bash: [Unix & Linux](https://unix.stackexchange.com/questions/16024/how-can-i-assign-the-output-of-a-command-to-a-shell-variable) - [Command substitution](http://tldp.org/LDP/abs/html/commandsub.html)
 - [Parameter Expansion detailed](https://unix.stackexchange.com/a/122848/47620) - [More on Stack Overflow](https://stackoverflow.com/questions/2013547/assigning-default-values-to-shell-variables-with-a-single-command-in-bash)
-- Continue command: [SO](https://stackoverflow.com/questions/7316107/bash-continuation-lines) - [NixCraft](https://www.cyberciti.biz/faq/howto-ask-bash-that-line-command-script-continues-next-line/)
-
-
-- El comando `command`: [command](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/command.html) *"The command utility shall cause the shell to treat the arguments as a simple command"*
-- qué es `$@` en scrips de Bash: [SO](https://stackoverflow.com/questions/9994295/what-does-mean-in-a-shell-script)
 
 ## Cosas de Ubuntu
 
@@ -382,17 +428,13 @@ Sublime Text Build 4169
 - Cron Tasks linux: [crontab](http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples) - [Cron job](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job)
 - nginx: `emerg could not build the server_names_hash, you should increase either server_names_hash_max_size: 256 or server_names_hash_bucket_size: 64` [ver solución](https://serverfault.com/questions/419847/nginx-setting-server-names-hash-max-size-and-server-names-hash-bucket-size)
 - Al truncar un archivo el disco puede no tener espacio porque el proceso aún está usando el archivo: [Superuser](https://superuser.com/a/738698/372807)
-
 - unix wildcard [double asterisk](http://stackoverflow.com/questions/3529997/unix-wildcard-selectors-asterisks)
 - [service restart vs service reload](https://askubuntu.com/questions/105200/what-is-the-difference-between-service-restart-and-service-reload)
 - `truncate` para limpiar archivos: [Linux DIE](https://linux.die.net/man/1/truncate) - [Unix & Linux](https://unix.stackexchange.com/a/88810/47620)
 - `diff` and `cmp` commands: [Use](https://stackoverflow.com/questions/3611846/bash-using-the-result-of-a-diff-in-a-if-statement) diff in if statement
 - USB no se montaban automáticamente: [Borrar](https://superuser.com/a/788454/372807) `[/etc/mtab.fuselock](https://superuser.com/a/788454/372807)` [y reiniciar](https://superuser.com/a/788454/372807) - [Linux Format Foro](https://www.linuxformat.com/forums/viewtopic.php?p=109844)
-
 - Listar servicios de sistema: [service --status-all](https://stackoverflow.com/questions/18721149/check-if-a-particular-service-is-running-on-ubuntu)
-
 - Atajo de linux mint para capturar pantalla con área seleccionada y mandarla al portapapeles no funca bien: [la solución es presionar rápidamente SHIFT y luego PRINT mientras se presiona CTRL](https://github.com/linuxmint/Cinnamon/issues/5634#issuecomment-244530211)
 - Configurar shortcuts en Linux Mint [Ask Ubuntu](https://askubuntu.com/questions/170163/how-do-i-set-a-shortcut-to-screenshot-a-selected-area)
 - Para arreglar problema de llaves GPG invalidas al actualizar software, prueba añadiendo de nuevo la llave indicada en el proceso de instalación(a lo mejor ya se venció) - [Ver caso Yarn](https://github.com/yarnpkg/yarn/issues/4453#issuecomment-329463752)
-
 - Sobre [bluetooth en Linux Mint](https://maslinux.es/como-configurar-bluetooth-en-gnulinux/). [rfkill](https://linux.die.net/man/1/rfkill) me sirvió para saber que el bluetooth estaba bloqueado

@@ -51,40 +51,41 @@ Instalación:
     apt-get install silversearcher-ag
 
 Uso:
+```bash
+ag 'form_submitted'
 
-    ag 'form_submitted'
-    
-    app/models/therapist.rb
-    5:  scope :form_submitted, -> { where(form_completed: true).where.not(form_completed_at: nil) }
-    56:  def form_submitted?
-    73:    return if form_submitted?
-    
-    app/controllers/api/base_api_controller.rb
-    18:      return unless therapist.form_submitted?
-    47:      return if therapist.form_submitted?
-    
-    app/views/therapists/index.html.erb
-    19:          <%= therapist.form_submitted? %>
-    
-    app/services/hubspot_resync_service.rb
-    29:    if @therapist.form_submitted? && !form_status_manually_edited?
-    
-    app/services/hubspot_contact_service.rb
-    57:    if @therapist.form_submitted?
-    
-    spec/requests/api/mini/therapists_spec.rb
-    28:      let(:therapist) { FactoryBot.create(:therapist_with_main_form_completed, :mini_form_submitted) }
-    
-    spec/factories/therapists.rb
-    126:    trait :mini_form_submitted do
-    
-    lib/tasks/003_sync_therapists_info_to_hubspot.rake
-    46:            Rails.logger.info("Did #{therapist.email} submitted form? #{therapist.form_submitted?}")
-    48:            service.new(therapist: therapist).submit_form if therapist.form_submitted?
-    
-    lib/tasks/005_create_pdf_packets.rake
-    7:      therapists = Therapist.form_submitted.where(registered_from: state)
-    9:      therapists = Therapist.form_submitted
+app/models/therapist.rb
+5:  scope :form_submitted, -> { where(form_completed: true).where.not(form_completed_at: nil) }
+56:  def form_submitted?
+73:    return if form_submitted?
+
+app/controllers/api/base_api_controller.rb
+18:      return unless therapist.form_submitted?
+47:      return if therapist.form_submitted?
+
+app/views/therapists/index.html.erb
+19:          <%= therapist.form_submitted? %>
+
+app/services/hubspot_resync_service.rb
+29:    if @therapist.form_submitted? && !form_status_manually_edited?
+
+app/services/hubspot_contact_service.rb
+57:    if @therapist.form_submitted?
+
+spec/requests/api/mini/therapists_spec.rb
+28:      let(:therapist) { FactoryBot.create(:therapist_with_main_form_completed, :mini_form_submitted) }
+
+spec/factories/therapists.rb
+126:    trait :mini_form_submitted do
+
+lib/tasks/003_sync_therapists_info_to_hubspot.rake
+46:            Rails.logger.info("Did #{therapist.email} submitted form? #{therapist.form_submitted?}")
+48:            service.new(therapist: therapist).submit_form if therapist.form_submitted?
+
+lib/tasks/005_create_pdf_packets.rake
+7:      therapists = Therapist.form_submitted.where(registered_from: state)
+9:      therapists = Therapist.form_submitted
+```
 
 Y cómo el texto no le hace justicia, una captura:
 
