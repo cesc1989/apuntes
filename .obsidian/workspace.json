@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "1e483d1a15f2d73e",
+            "id": "c1894dedce48cf4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md"
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md"
               }
             }
           }
@@ -161,8 +161,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1e483d1a15f2d73e",
+  "active": "c1894dedce48cf4a",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Recursividad_en_Elixir.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
@@ -185,10 +190,6 @@
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_SQL_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Rails_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Linux_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Herramientas_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Frontend_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/pdf.vacio.png",
@@ -201,7 +202,6 @@
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/untitled folder",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221306.png",
