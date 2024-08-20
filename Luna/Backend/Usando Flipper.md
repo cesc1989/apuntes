@@ -13,6 +13,13 @@ If you need to disable the feature flag, you can simply run:
 Flipper.disable(:feature_flag)
 ```
 
+Example:
+```ruby
+Flipper.enable(:patient_forms_v3_url)
+Flipper.disable(:patient_forms_v3_url)
+```
+
+
 ## Links
 
 - Flipper in [GitHub](https://github.com/flippercloud/flipper)
