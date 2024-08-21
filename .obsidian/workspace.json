@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "8d0d527d6b62ff7d",
+            "id": "718154a1575e0b88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Usando Flipper.md",
+                "file": "Luna/Grafana_Queries.md",
                 "mode": "preview",
                 "source": true
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flipper",
+                "query": "hamme",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Usando Flipper.md",
+                "file": "Luna/Grafana_Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Usando Flipper.md",
+                "file": "Luna/Grafana_Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Usando Flipper.md"
+                "file": "Luna/Grafana_Queries.md"
               }
             }
           }
@@ -162,11 +161,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8d0d527d6b62ff7d",
+  "active": "718154a1575e0b88",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Usando Flipper.md",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Usando_Ngrok.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
@@ -179,7 +180,6 @@
     "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
     "Otro_Espacio/La Eficiencia es el Enemigo.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
-    "Luna/Backend/Usando Flipper.md",
     "Luna/Backend/Apuntes_Ruby_on_Rails.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Portal User Verification.md",
@@ -190,7 +190,6 @@
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Testing_RSpec_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_SQL_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/pdf.vacio.png",
