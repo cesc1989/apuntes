@@ -289,18 +289,6 @@ NameError:
 # /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:22:in `parse'
 # /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:18:in `parse'
 # /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/application/configuration.rb:335:in `database_configuration'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/railtie.rb:266:in `block (2 levels) in <class:Railtie>'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:95:in `class_eval'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:95:in `block in execute_hook'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:85:in `with_execution_control'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:90:in `execute_hook'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:60:in `block in on_load'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:59:in `each'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:59:in `on_load'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/railtie.rb:262:in `block in <class:Railtie>'
-# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:32:in `instance_exec'
-# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:32:in `run'
-# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:61:in `block in run_initializers'
 # /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:60:in `run_initializers'
 # /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/application.rb:372:in `initialize!'
 # ./config/environment.rb:7:in `<top (required)>'
@@ -672,7 +660,7 @@ Related to gem [batch-loader](https://github.com/exAspArk/batch-loader). There's
 
 Test run this appears `pruebas ./spec/models/chart_spec.rb:105`.
 
-```
+```bash
 Failure/Error: audit.audited_changes["state"]&.last == "signed"
 
      NoMethodError:
@@ -723,13 +711,6 @@ NoMethodError:
 # /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:7:in `define'
 # ./spec/factories/document_tags.rb:3:in `<top (required)>'
 # /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:20:in `load'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:20:in `block (2 levels) in find_definitions'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:19:in `each'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:19:in `block in find_definitions'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:15:in `each'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:15:in `find_definitions'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot_rails-6.4.3/lib/factory_bot_rails/railtie.rb:24:in `block in <class:Railtie>'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:92:in `block in execute_hook'
 ```
 
 This is solved by updating [stateful_enum](https://github.com/amatsuda/stateful_enum) gem to 0.7.0
