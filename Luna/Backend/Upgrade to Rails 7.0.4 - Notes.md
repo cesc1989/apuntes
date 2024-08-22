@@ -718,21 +718,106 @@ Test run this error appears: `pruebas ./spec/requests/graphql/mutations/scheduli
 Failure/Error: association.target = records
 
      NoMethodError:
-       undefined method `new_record?' for []:Array
+       undefined method new_record? for []:Array
 
            __sync!.public_send(method_name, *args, **opts, &block)
                   ^^^^^^^^^^^^
-     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:73:in `public_send'
-     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:73:in `method_missing'
-     # ./app/lib/active_record_extensions/query_methods/with_load_methods.rb:10:in `load_many'
-     # ./app/graphql/types/appointment.rb:203:in `block (2 levels) in care_plan'
-     # ./app/graphql/types/appointment.rb:197:in `each'
-     # ./app/graphql/types/appointment.rb:197:in `block in care_plan'
-     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:92:in `__ensure_batched'
-     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:53:in `__sync'
-     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader/graphql.rb:63:in `sync'
-     # /Users/francisco/.gem/ruby/3.1.0/gems/graphql-2.3.0/lib/graphql/schema.rb:1361:in `public_send'
-     # /Users/francisco/.gem/ruby/3.1.0/gems/graphql-2.3.0/lib/graphql/schema.rb:1361:in `sync_lazy'
+
+     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:73:in public_send
+     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:73:in method_missing
+     #   ./app/lib/active_record_extensions/query_methods/with_load_methods.rb:10:in load_many
+     # ./app/graphql/types/appointment.rb:203:in block (2 levels) in care_plan
+     # ./app/graphql/types/appointment.rb:197:in each
+     # ./app/graphql/types/appointment.rb:197:in block in care_plan
 ```
 
 Related to gem [batch-loader](https://github.com/exAspArk/batch-loader). There's a [fork](https://github.com/lunacare/batch-loader) in use and it's very outdated.
+
+The stack trace points us to batch-loader gem but the error can be traced to previous steps.
+
+It starts here:
+```ruby
+# app/graphql/types/care_plan.rb:604
+
+BatchLoader::GraphQL.for(object).batch do |care_plans, loader|
+  # (...)
+
+  care_plans.each do |care_plan|
+    appointments = Appointment.lazy_group(care_plan.id, :episode_id, ordering: { scheduled_date: :asc })
+    exercise_program = ExerciseProgram.lazy(care_plan.id, :episode_id)
+
+    care_plan
+      .load_many(appointments, :appointments)
+      .load_one(exercise_program, :exercise_program)
+  end
+
+  # (...)
+end
+```
+
+and then the trace leads us to `/app/lib/active_record_extensions/query_methods/with_load_methods.rb:10:in load_many`:
+
+```ruby
+module ActiveRecordExtensions
+  module QueryMethods
+    module WithLoadMethods
+      def load_many(records, association_name)
+        association = self.association(association_name)
+        association.loaded!
+        association.target = records
+        records.each { |record| association.set_inverse_instance(record) }
+        self
+      end
+
+      def load_one(record, association_name)
+        # (...)
+      end
+    end
+  end
+end
+```
+
+Notice the start of the error:
+```
+Failure/Error: association.target = records
+```
+
+and the same code in the `load_many` method:
+```ruby
+#(...)
+association.target = records
+#(...)
+```
+
+This is the output of `records` and `association` in the main branch that's on Rails 6:
+```bash
+$ pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106
+
+"Array"
+:patients
+
+"Array"
+:care_plans
+
+"Array"
+:waitlist_entries
+```
+
+And in the Rails 7 upgrade work branch:
+```bash
+"Array"
+:patients
+
+"Array"
+:care_plans
+
+"Array"
+:waitlist_entries
+```
+
+What's the difference? What's causing the:
+```
+undefined method `new_record?' for []:Array
+```
+
+It looks like the error is indeed something in batch-loader gem. Now the thing is to be able to identify the error in the stack trace.
