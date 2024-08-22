@@ -482,6 +482,12 @@ The guides make it clear that:
 
 # Zeitwerk
 
+Commands to check everything is in order:
+```bash
+bundle exec rails runner 'p Rails.autoloaders.zeitwerk_enabled?'
+bundle exec rails zeitwerk:check
+```
+
 I had to wrap lots of code in initializers folder with this block:
 ```ruby
 Rails.application.config.after_initialize do
@@ -632,3 +638,98 @@ Rails.logger.class.include ActiveSupport::LoggerSilence
 ```
 
 Somwhere? I put it in `config/application.rb`. In [this comment](https://github.com/rails/activerecord-session_store/issues/176#issuecomment-797665880), Swanson suggests to add it in `config/initializers/session_store.rb`.
+
+# Test runs errors
+
+## undefined method new_record? for []:Array
+
+Test run this error appears: `pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106`.
+
+```bash
+Failure/Error: association.target = records
+
+     NoMethodError:
+       undefined method `new_record?' for []:Array
+
+           __sync!.public_send(method_name, *args, **opts, &block)
+                  ^^^^^^^^^^^^
+     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:73:in `public_send'
+     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:73:in `method_missing'
+     # ./app/lib/active_record_extensions/query_methods/with_load_methods.rb:10:in `load_many'
+     # ./app/graphql/types/appointment.rb:203:in `block (2 levels) in care_plan'
+     # ./app/graphql/types/appointment.rb:197:in `each'
+     # ./app/graphql/types/appointment.rb:197:in `block in care_plan'
+     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:92:in `__ensure_batched'
+     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader.rb:53:in `__sync'
+     # /Users/francisco/.gem/ruby/3.1.0/bundler/gems/batch-loader-350767424460/lib/batch_loader/graphql.rb:63:in `sync'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/graphql-2.3.0/lib/graphql/schema.rb:1361:in `public_send'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/graphql-2.3.0/lib/graphql/schema.rb:1361:in `sync_lazy'
+```
+
+Related to gem [batch-loader](https://github.com/exAspArk/batch-loader). There's a [fork](https://github.com/lunacare/batch-loader) in use and it's very outdated.
+
+## undefined method last for 0:Integer in audited_changes method call
+
+Test run this appears `pruebas ./spec/models/chart_spec.rb:105`.
+
+```
+Failure/Error: audit.audited_changes["state"]&.last == "signed"
+
+     NoMethodError:
+       undefined method `last' for 0:Integer
+
+                                     audit.audited_changes["state"]&.last == "signed"
+                                                                   ^^^^^^
+     # ./app/models/chart.rb:611:in `block in set_signature_date'
+     # ./app/models/chart.rb:609:in `set_signature_date'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:61:in `call'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:61:in `block (3 levels) in initialize'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:59:in `block (2 levels) in initialize'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:71:in `block (2 levels) in initialize'
+     # ./spec/models/chart_spec.rb:109:in `block (3 levels) in <top (required)>'
+```
+
+So we have two things:
+
+1. the error happens in the calle to `audited_changes`
+	1. The gem audited it's the version 5.1.0
+	2. After updating to version 5.7.0, this error still happens
+2. The strack trace points to gem `stateful_enum`
+	1. This gem is on the latest version: 0.7.0
+
+However, in omega branch stateful_enum is not on version 0.7.0 but on 0.6.0. After changing the version back to 0.6.0 the error goes away... But another one creeps out.
+
+Gems mentioned:
+- [stateful_enum](https://github.com/amatsuda/stateful_enum)
+- [audited](https://github.com/collectiveidea/audited)
+
+## undefined method user_scopes for DocumentTag:Class
+
+```bash
+An error occurred while loading rails_helper.
+Failure/Error:
+  DocumentTag.user_scopes.each_key do |scope|
+    trait "for_#{scope}".to_sym do
+      user_scope { scope }
+    end
+  end
+
+NoMethodError:
+  undefined method `user_scopes' for DocumentTag:Class
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/dynamic_matchers.rb:22:in `method_missing'
+# ./spec/factories/document_tags.rb:11:in `block in <top (required)>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:37:in `instance_eval'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:37:in `run'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:7:in `define'
+# ./spec/factories/document_tags.rb:3:in `<top (required)>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:20:in `load'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:20:in `block (2 levels) in find_definitions'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:19:in `each'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:19:in `block in find_definitions'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:15:in `each'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:15:in `find_definitions'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot_rails-6.4.3/lib/factory_bot_rails/railtie.rb:24:in `block in <class:Railtie>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:92:in `block in execute_hook'
+```
+
+This is solved by updating [stateful_enum](https://github.com/amatsuda/stateful_enum) gem to 0.7.0
