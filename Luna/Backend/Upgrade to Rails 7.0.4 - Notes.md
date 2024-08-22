@@ -470,11 +470,14 @@ The guides make it clear that:
 
 # Zeitwerk
 
-Commands to check everything is in order:
+## Commands to check everything is in order
+
 ```bash
 bundle exec rails runner 'p Rails.autoloaders.zeitwerk_enabled?'
 bundle exec rails zeitwerk:check
 ```
+
+## Wrap initializers in callback
 
 I had to wrap lots of code in initializers folder with this block:
 ```ruby
@@ -629,6 +632,84 @@ Somwhere? I put it in `config/application.rb`. In [this comment](https://github.
 
 # Test runs errors
 
+## undefined method user_scopes for DocumentTag:Class
+
+```bash
+An error occurred while loading rails_helper.
+Failure/Error:
+  DocumentTag.user_scopes.each_key do |scope|
+    trait "for_#{scope}".to_sym do
+      user_scope { scope }
+    end
+  end
+
+NoMethodError:
+  undefined method `user_scopes' for DocumentTag:Class
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/dynamic_matchers.rb:22:in `method_missing'
+# ./spec/factories/document_tags.rb:11:in `block in <top (required)>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:37:in `instance_eval'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:37:in `run'
+# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:7:in `define'
+```
+
+This is solved by updating [stateful_enum](https://github.com/amatsuda/stateful_enum) gem to 0.7.0
+
+## undefined method last for 0:Integer in audited_changes method call
+
+Test run this appears `pruebas ./spec/models/chart_spec.rb:105`.
+
+```bash
+Failure/Error: audit.audited_changes["state"]&.last == "signed"
+
+     NoMethodError:
+       undefined method `last' for 0:Integer
+
+                                     audit.audited_changes["state"]&.last == "signed"
+                                                                   ^^^^^^
+     # ./app/models/chart.rb:611:in `block in set_signature_date'
+     # ./app/models/chart.rb:609:in `set_signature_date'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:61:in `call'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:61:in `block (3 levels) in initialize'
+```
+
+So we have two things:
+
+1. the error happens in the calle to `audited_changes`
+	1. The gem audited it's the version 5.1.0
+	2. After updating to version 5.7.0, this error still happens
+2. The stack trace points to gem `stateful_enum`
+	1. This gem is on the latest version: 0.7.0
+
+However, in omega branch stateful_enum is not on version 0.7.0 but on 0.6.0. ~~After changing the version back to 0.6.0 the error goes away... But another one creeps out~~.
+
+Turns out the previous error happening in stateful_enum 0.6.0 gets fixed by updating the gem to version 0.7.0.
+
+I created a replication app, setup a similar model with the same enum and after installing stateful_enum gem got the error about `undefined method user_scopes for DocumentTag:Class`. Once updated to latest version the error got away.
+
+Now, I have to replicate the model that leads to _this_ error to see if it also happens because of this gem.
+
+Gems mentioned
+- [stateful_enum](https://github.com/amatsuda/stateful_enum)
+- [audited](https://github.com/collectiveidea/audited)
+
+### Solution
+
+The error was present in the audited gem. The project uses a forked version that was left in the version 4.9.0. Turns out, this code:
+```ruby
+audit.audited_changes["state"]&.last == "signed"
+```
+
+depends on audited storing enum values as strings instead of the underlying values (in this case, integers).
+
+Also turns out [they changed the way audited stores enum values](https://github.com/collectiveidea/audited?tab=readme-ov-file#enum-storage) from version 4.10.
+> In 4.10, the default behavior for enums changed from storing the value synthesized by Rails to the value stored in the DB. You can restore the previous behavior by setting the store_synthesized_enums configuration value:
+
+The fix was to add this line to the audit initializer:
+```ruby
+Audited.store_synthesized_enums = true
+```
+
+
 ## undefined method new_record? for []:Array
 
 Test run this error appears: `pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106`.
@@ -655,62 +736,3 @@ Failure/Error: association.target = records
 ```
 
 Related to gem [batch-loader](https://github.com/exAspArk/batch-loader). There's a [fork](https://github.com/lunacare/batch-loader) in use and it's very outdated.
-
-## undefined method last for 0:Integer in audited_changes method call
-
-Test run this appears `pruebas ./spec/models/chart_spec.rb:105`.
-
-```bash
-Failure/Error: audit.audited_changes["state"]&.last == "signed"
-
-     NoMethodError:
-       undefined method `last' for 0:Integer
-
-                                     audit.audited_changes["state"]&.last == "signed"
-                                                                   ^^^^^^
-     # ./app/models/chart.rb:611:in `block in set_signature_date'
-     # ./app/models/chart.rb:609:in `set_signature_date'
-     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:61:in `call'
-     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:61:in `block (3 levels) in initialize'
-     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:59:in `block (2 levels) in initialize'
-     # /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/machine.rb:71:in `block (2 levels) in initialize'
-     # ./spec/models/chart_spec.rb:109:in `block (3 levels) in <top (required)>'
-```
-
-So we have two things:
-
-1. the error happens in the calle to `audited_changes`
-	1. The gem audited it's the version 5.1.0
-	2. After updating to version 5.7.0, this error still happens
-2. The strack trace points to gem `stateful_enum`
-	1. This gem is on the latest version: 0.7.0
-
-However, in omega branch stateful_enum is not on version 0.7.0 but on 0.6.0. After changing the version back to 0.6.0 the error goes away... But another one creeps out.
-
-Gems mentioned:
-- [stateful_enum](https://github.com/amatsuda/stateful_enum)
-- [audited](https://github.com/collectiveidea/audited)
-
-## undefined method user_scopes for DocumentTag:Class
-
-```bash
-An error occurred while loading rails_helper.
-Failure/Error:
-  DocumentTag.user_scopes.each_key do |scope|
-    trait "for_#{scope}".to_sym do
-      user_scope { scope }
-    end
-  end
-
-NoMethodError:
-  undefined method `user_scopes' for DocumentTag:Class
-# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/dynamic_matchers.rb:22:in `method_missing'
-# ./spec/factories/document_tags.rb:11:in `block in <top (required)>'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:37:in `instance_eval'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:37:in `run'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/syntax/default.rb:7:in `define'
-# ./spec/factories/document_tags.rb:3:in `<top (required)>'
-# /Users/francisco/.gem/ruby/3.1.0/gems/factory_bot-6.4.6/lib/factory_bot/find_definitions.rb:20:in `load'
-```
-
-This is solved by updating [stateful_enum](https://github.com/amatsuda/stateful_enum) gem to 0.7.0
