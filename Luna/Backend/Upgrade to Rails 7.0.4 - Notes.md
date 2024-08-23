@@ -865,3 +865,28 @@ Change the setting to false in the file `config/initializers/new_framework_defau
 ```ruby
 Rails.application.config.active_support.use_rfc4122_namespaced_uuids = false
 ```
+
+
+## undefined method as_user for "Audited::Audit":String
+
+```bash
+Failure/Error:
+       Audited.audit_class.as_user(system_user.id) do
+         last_audit.undo
+       end
+
+     NoMethodError:
+       undefined method as_user for "Audited::Audit":String
+
+             Audited.audit_class.as_user(system_user.id) do
+                                ^^^^^^^^
+     # ./app/workers/discharge_inactive_care_plan_worker.rb:25:in `perform'
+     # ./spec/workers/discharge_inactive_care_plan_worker_spec.rb:51:in `block (4 levels) in <top (required)>'
+```
+
+Related issue reports:
+
+- [Uninitialized Constant when defining an audit_class in the initializer](https://github.com/collectiveidea/audited/issues/608)
+- [Use string class name and constantize](https://github.com/collectiveidea/audited/pull/609)
+
+The fix is to update audited to 5.2.0.
