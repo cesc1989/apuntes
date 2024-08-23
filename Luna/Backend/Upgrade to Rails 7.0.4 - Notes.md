@@ -821,3 +821,47 @@ undefined method `new_record?' for []:Array
 ```
 
 It looks like the error is indeed something in batch-loader gem. Now the thing is to be able to identify the error in the stack trace.
+
+## Only UUIDs are valid namespace identifiers
+
+This is for AWS SNS tests.
+
+```bash
+Failure/Error: Digest::UUID.uuid_v5(ENV.fetch("AWS_SNS_APP_#{platform.upcase}_#{app_type.upcase}"), device_token)
+
+     ArgumentError:
+       Only UUIDs are valid namespace identifiers
+     Shared Example Group: "a Providers::AWS::SNS::PlatformEndpoints" called from ./spec/lib/notifications/providers/aws/sns/platform_endpoints/ios_therapist_spec.rb:4
+     # ./spec/support/aws_sns_stubbed_methods.rb:136:in `mock_arn_token'
+     # ./spec/support/aws_sns_stubbed_methods.rb:42:in `block (2 levels) in <module:StubbedMethods>'
+     # ./spec/support/shared_examples/provider_aws_sns_platform_endpoint_shared_examples.rb:192:in `block (5 levels) in <top (required)>'
+```
+
+The mock is this:
+```ruby
+def mock_arn_token(device_token)
+  Digest::UUID.uuid_v5(ENV.fetch("AWS_SNS_APP_#{platform.upcase}_#{app_type.upcase}"), device_token)
+end
+```
+
+Is this about the `Digest::UUID` library? Looks to be an error with this library
+```ruby
+namespace = "arn:aws:sns:fake-region:1234657890:app/APNS/test-ios-therapist"
+Digest::UUID.uuid_v5(namespace, "aaaaaaa")
+
+ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/core_ext/digest/uuid.rb:64:in `pack_uuid_namespace':
+
+Only UUIDs are valid namespace identifiers (ArgumentError)
+```
+
+Found this is a new config for Rails 7. See in the docs -> https://guides.rubyonrails.org/v7.0/configuring.html#config-active-support-use-rfc4122-namespaced-uuids
+
+Found the clue via these issue reports:
+
+- [Namespaced UUIDs are not generated correctly when the namespace ID provided is the string representation of a UUID](https://github.com/rails/rails/issues/37681)
+- [Rails New Framework Default Documentation is Inadequate](https://github.com/rails/rails/issues/50238#issuecomment-1841562696)
+
+Change the setting to false in the file `config/initializers/new_framework_defaults_7_0.rb`:
+```ruby
+Rails.application.config.active_support.use_rfc4122_namespaced_uuids = false
+```
