@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "718154a1575e0b88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,35 +148,44 @@
       "random-note:Open random note": false
     }
   },
-  "active": "718154a1575e0b88",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/Glue_Crawler_re-adding_columns_as_col0,_col1,_col2.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/bad.column.names.png",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.table.properties.png",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/created.table.crawler.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/Creating_New_Tables_in_Glue.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/creating.table.athena.png",
+    "Luna/Clinical_Dashboard/AWS_Athena/Create_Glue_Tables_via_Ruby_SDK.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/Create_Glue_Tables_via_AWS_CLI.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Production_Queries.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Get_Query_Results_Subclassing_Structure.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/Athena_Synching_Flow.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/athena.syncing.flow.png",
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments",
+    "Luna/Clinical_Dashboard/AWS_Athena/untitled folder",
+    "Luna/Clinical_Dashboard/AWS_Athena/Athena_SerDe_Library_Options.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/Athena_Databases,_Tables,_S3_Buckets,_and_Syncing.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/About_Athena_Table_Properties.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/About_Adding_New_Fields_to_the_Athena_Sync_in_Pati.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/Create_Athena_Named_Queries_via_AWS_CLI.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Rate_Limit_Replication.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Named_Queries_Subclassing_Structure.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Integration_Design.md",
+    "Luna/Clinical_Dashboard/AWS_Athena",
     "Luna/Backend/Usando Flipper.md",
     "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Grafana_Queries.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Usando_Ngrok.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Recursividad_en_Elixir.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
-    "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
-    "Otro_Espacio/La Eficiencia es el Enemigo.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
-    "Luna/Backend/Apuntes_Ruby_on_Rails.md",
-    "Luna/Backend/Image Magick and Alpine.md",
-    "Luna/Backend/Portal User Verification.md",
-    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
-    "Luna/Patient_Self_Report/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
-    "Usando_Ngrok.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/pdf.vacio.png",
@@ -199,16 +195,6 @@
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/untitled folder",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221711.png",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221306.png",
-    "Luna/Backend/Exercises_via_Web/attachments/Pasted image 20240802153201.png",
-    "Luna/Backend/attachments/Pasted image 20240729105042.png",
-    "Luna/Patient_Self_Report/attachments/forms.center.png",
-    "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Canvas/Ruby.canvas"
   ]
 }
