@@ -890,3 +890,27 @@ Related issue reports:
 - [Use string class name and constantize](https://github.com/collectiveidea/audited/pull/609)
 
 The fix is to update audited to 5.2.0.
+
+## Rails 7.0 ignores default format
+
+A setting like:
+```ruby
+# config/initializers/date_time.rb
+
+Date::DATE_FORMATS[:default] = '%d/%m/%Y'
+```
+
+Working in Rails 6 would be ignored in Rails 7.0. As per the [release notes](https://github.com/rails/rails/blob/de7c495209811f8f918fa9f915e64df61a6080c1/guides/source/7_0_release_notes.md#deprecations-8):
+
+> Deprecate passing a format to #to_s in favor of #to_fs in Array, Range, Date, DateTime, Time, BigDecimal, Float and, Integer.
+>
+> This deprecation is to allow Rails application to take advantage of a Ruby 3.1 optimization that makes interpolation of some types of objects faster.
+>
+> New applications will not have the #to_s method overridden on those classes, existing applications can use config.active_support.disable_to_s_conversion.
+
+The ideal fix is to find all places where dates are interpolated and send the `to_fs(:default)` message like this:
+```ruby
+"must be on or after #{latest_effective_until.to_fs(:default)},"
+```
+
+In [Stack Overflow](https://stackoverflow.com/questions/71177165/rails-ignores-the-default-date-format-after-upgrading-from-6-1-to-7-0).
