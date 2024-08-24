@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "684c07872c75ecfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md"
               }
             }
           }
@@ -148,15 +161,21 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "684c07872c75ecfe",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Migración_a_Rails_6.md",
+    "Luna/Migración_a_Rails_7.md",
+    "Canvas/Ruby.canvas",
+    "Diario/2024-05-25.md",
     "Luna/Clinical_Dashboard/AWS_Athena/Glue_Crawler_re-adding_columns_as_col0,_col1,_col2.md",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/bad.column.names.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.table.properties.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/created.table.crawler.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/AWS_Athena/Creating_New_Tables_in_Glue.md",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/creating.table.athena.png",
     "Luna/Clinical_Dashboard/AWS_Athena/Create_Glue_Tables_via_Ruby_SDK.md",
@@ -181,10 +200,6 @@
     "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Grafana_Queries.md",
-    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Usando_Ngrok.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
@@ -194,7 +209,6 @@
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments/properties-permissions.png",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/untitled folder",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form",
-    "Canvas/Ruby.canvas"
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form"
   ]
 }

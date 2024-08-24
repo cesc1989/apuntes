@@ -45,3 +45,86 @@ No me dice mucho eso por ahora.
  (...) the repo (or repository) is a mapping to a data store. (...) normally the repo maps to an actual database.
 
 The database is the component that actually stores the data; the repo is the application’s gateway to the data inside the database. Your repo will translate what you’d like from the database into “database speak” through a defined public interface.
+
+# Umbrella Applications
+
+> Although simple applications are typically structured in this way, you’ll be creating multiple applications—one for the business logic you’ve been working on and one for your Phoenix application. But you’ll also create another skeleton application to tie them together. This kind of pattern is called an umbrella application. The top-level umbrella application will contain the subapplications that contain the logic
+
+Son una forma de agrupar un conjunto de aplicaciones que corresponden al mismo dominio. Por ejemplo, una Umbrella App podría estar compuesta de sub aplicaciones con diferentes responsabilidades:
+
+- Una app tipo shell
+- Una API / Web
+- Un cliente que es una interfaz con otros sistema y se invoca en los proyectos anteriores
+
+Así se ve crear una app umbrella:
+```bash
+$ mix new --umbrella auction_umbrella
+* creating README.md
+* creating .formatter.exs
+* creating .gitignore
+* creating mix.exs
+* creating apps
+* creating config
+* creating config/config.exs
+
+Your umbrella project was created successfully.
+Inside your project, you will find an apps/ directory
+where you can create and host many apps:
+
+    cd auction_umbrella
+    cd apps
+    mix new my_app
+
+Commands like "mix compile" and "mix test" when executed
+in the umbrella project root will automatically run
+for each application in the apps/ directory.
+```
+
+# Archivos .ex vs .exs
+
+Los archivos .ex son para ser compilados.
+
+Los archivos .exs son para ser interpretados.
+
+# application en mix.exs
+
+Este código:
+```ruby
+# Run "mix help compile.app" to learn about applications.
+  def application do
+    [
+      extra_applications: [:logger],
+      mod: {Auction.Application, []}
+    ]
+  end
+```
+
+> it’s what tells the compiler that you’d like to generate an .app file for your application. (...) "An .app file is a file containing Erlang terms that defines your application. Mix automatically generates this file based on your mix.exs configuration."
+
+> An Elixir application compiles down to Erlang code, which will run on the BEAM virtual machine, and the application function provides additional instructions to the compiler about how to compile Erlang code.
+
+# Comandos Mix
+
+`mix compile`: para compilar un proyecto Mix.
+
+`iex -S mix`: para usar en la consola de Elixir un proyecto Mix.
+
+`mix hex.search [nombre_paquete]`: para buscar paquetes en el registro Hex.
+
+`mix deps.get`: para instalar las dependencias listadas en el archivo `mix.exs`.
+
+`mix deps.clean [nombre_paquete]`: para limpiar los rastros dejados por paquetes sacados del proyecto Mix.
+
+# ¿son las umbrella apps la forma de hacer proyectos en Elixir?
+
+Siento un poco confusa y enredada la forma de configurar este proyecto de aprendizaje usando esta forma de Umbrella App. Crea las apps aquí, configura una cosa a nivel umbrella. ¿Por qué?
+
+Parece que es la forma en que el autor prefiere las coas:
+
+> This is where having strong boundaries between your interface (like a Phoenix web application) and your business logic has huge benefits.
+> 
+> As long as your business logic provides a public interface you can use to get the information you’re after, you can let it take care of where it keeps the data and how it gets it.
+>
+>  ==You want your web interface to be as naive as possible about the inner workings of the business logic==.
+
+Tengo que averiguar esto.
