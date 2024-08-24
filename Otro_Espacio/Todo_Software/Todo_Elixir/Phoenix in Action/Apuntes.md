@@ -115,7 +115,7 @@ Este código:
 
 `mix deps.clean [nombre_paquete]`: para limpiar los rastros dejados por paquetes sacados del proyecto Mix.
 
-# ¿son las umbrella apps la forma de hacer proyectos en Elixir?
+# ¿Son las umbrella apps la forma de hacer proyectos en Elixir?
 
 Siento un poco confusa y enredada la forma de configurar este proyecto de aprendizaje usando esta forma de Umbrella App. Crea las apps aquí, configura una cosa a nivel umbrella. ¿Por qué?
 
@@ -128,3 +128,8 @@ Parece que es la forma en que el autor prefiere las coas:
 >  ==You want your web interface to be as naive as possible about the inner workings of the business logic==.
 
 Tengo que averiguar esto.
+
+Enlaces:
+
+- [Why would you ever use an umbrella app instead of just a regular app?](https://www.reddit.com/r/elixir/comments/sjxyis/why_would_you_ever_use_an_umbrella_app_instead_of/)
+- [Using an Elixir Umbrella](https://8thlight.com/insights/using-an-elixir-umbrella)
