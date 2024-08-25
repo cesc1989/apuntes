@@ -110,3 +110,51 @@ $ mix ecto.migrate
 
 14:57:37.996 [info] == Migrated 20240824195538 in 0.0s
 ```
+
+# Ecto Changesets
+
+Al parecer, en Ecto, actualizar no es tan simple como en Active Record. Para poder actualizar un registro en la base de datos hay que pasarle un `Ecto.Changeset` a `Ecto.Repo.update/2`.
+
+Un `Ecto.Changeset` permite llevar cuenta de los cambios en un struct y además:
+
+- validar datos de los cambios
+- castear valores en los cambios
+- definir restricciones (constraints) en los cambios
+
+> A changeset allows you to verify that the data going into your database is valid.
+
+Así que en vez de macros como en ActiveRecord, acá hay que escribir una función donde se ejecutan las validaciones.
+
+```ruby
+def changeset(item, params \\ %{}) do
+    item
+    |> cast(params, [:title, :description, :ends_at])
+    |> validate_required(:title)
+    |> validate_length(:title, min: 3)
+    |> validate_length(:description, max: 200)
+    |> validate_change(:ends_at, &validate/2)
+end
+```
+
+Y así se ve cuando se prueba:
+```bash
+iex(7)> |> Auction.Item.changeset(
+...(7)>   %{
+...(7)>     title: "Prueba extensa",
+...(7)>     description: "Soy una buena descripción descrita.",
+...(7)>     ends_at: ~N[2024-12-25 00:00:00]
+...(7)>   }
+...(7)> )
+#Ecto.Changeset<
+  action: nil,
+  changes: %{
+    description: "Soy una buena descripción descrita.",
+    title: "Prueba extensa",
+    ends_at: ~U[2024-12-25 00:00:00Z]
+  },
+  errors: [],
+  data: #Auction.Item<>,
+  valid?: true,
+  ...
+>
+```
