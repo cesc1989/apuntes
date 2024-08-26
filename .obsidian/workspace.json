@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "69bb51289e92fee7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hamme",
+                "query": "7e6fe728-a2f8-4e75-9935-cf2384999385",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+                "file": "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+                "file": "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md"
+                "file": "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md"
               }
             }
           }
@@ -161,11 +148,23 @@
       "random-note:Open random note": false
     }
   },
-  "active": "69bb51289e92fee7",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
+    "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
+    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
+    "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
+    "Luna/Clinical_Dashboard/Body_Parts_Calculation_Logic.md",
+    "Luna/Clinical_Dashboard/Link_Generation_and_Specific_Dashboards.md",
+    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
+    "Luna/Clinical_Dashboard/attachments/patients.table.png",
+    "Luna/Clinical_Dashboard/attachments/age.distribution.png",
+    "Luna/Clinical_Dashboard/attachments/total.patients.png",
+    "Luna/Clinical_Dashboard/attachments",
+    "Luna/Clinical_Dashboard/untitled folder",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Migración_a_Rails_6.md",
     "Luna/Migración_a_Rails_7.md",
     "Canvas/Ruby.canvas",
@@ -192,23 +191,11 @@
     "Luna/Clinical_Dashboard/AWS_Athena/About_Adding_New_Fields_to_the_Athena_Sync_in_Pati.md",
     "Luna/Clinical_Dashboard/AWS_Athena/Create_Athena_Named_Queries_via_AWS_CLI.md",
     "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Rate_Limit_Replication.md",
-    "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Named_Queries_Subclassing_Structure.md",
-    "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Integration_Design.md",
     "Luna/Clinical_Dashboard/AWS_Athena",
-    "Luna/Backend/Usando Flipper.md",
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Luna/Backend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/Upgrade to Ruby 3.1.0 - Notes.md",
-    "Luna/Grafana_Queries.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/s3.bucket.access.png",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments/pdf.vacio.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/untitled folder",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments/properties-permissions.png",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/untitled folder",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form"
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/attachments"
   ]
 }
