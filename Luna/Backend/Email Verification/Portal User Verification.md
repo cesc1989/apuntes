@@ -34,7 +34,7 @@ Files in requesting links from Clinical Dashboard
 
 ## Flow for sending / resending link
 
-A UserCommunicationMethod instance receives the `send_verification!` or the  `resend_verification!` messages
+A `UserCommunicationMethod` instance receives the `send_verification!` or the  `resend_verification!` messages.
 
 ```ruby
 # Admin::EmailVerificationLinksController
@@ -58,7 +58,34 @@ def resend_verification!(communication_method)
 end
 ```
 
+This class have methods to generate the verification code, send/resend the link, and execute the worker.
+
+The verification code assignation updates the `verification_code` field:
+```ruby
+def assign_verification_code!(communication_method)
+  communication_method.update!(verification_code: SecureRandom.urlsafe_base64(16))
+end
+```
+
 Finally, the worker `UserCommunicationMethods::EmailVerificationMailer` triggers the mailer class.
+
+In the mailer, the URL is encoded with the UCM id and verification_code:
+```ruby
+# EmailVerificationMailer
+Rails.application.routes.url_helpers.verify_email_url(
+    UserCommunicationMethods::Email.encode_url_token(communication_method),
+
+# Email
+def encode_url_token(communication_method)
+	Base64.urlsafe_encode64(
+	  {
+		id: communication_method.id,
+		code: communication_method.verification_code
+	  }.to_json
+	)
+end
+```
+
 
 Notice this:
 ```ruby
@@ -176,6 +203,13 @@ end
 
 ## UserCommunicationMethod
 
+Model:
+```ruby
+class UserCommunicationMethod < ApplicationRecord
+  belongs_to :user, polymorphic: true
+end
+```
+
 Schema:
 ```ruby
 create_table "user_communication_methods", id: :uuid, default: -> { "uuid_generate_v4()" }, force: :cascade do |t|
@@ -215,6 +249,11 @@ To complete the rule:
 I can use the `verification_attempts` field. Anytime an email reminder is sent this number increases. So once it reaches to 4 it means we emailed them four times already.
 
 # For Milestone 2: Resend from Landing Page
+
+This milestone needs to add two different buttons depending on the outcome of the email verification:
+
+- happy path: link to clinical dashboard
+- sad path: link to request verification email
 
 The "Send verification email" button in the edit view of a Physician holds a link like this:
 
@@ -302,4 +341,27 @@ And this is the `email_address` instance:
   :created_at => Thu, 24 Feb 2022 11:08:33.343832000 PST -08:00,
   :updated_at => Fri, 02 Aug 2024 14:13:06.182742000 PDT -07:00
 }
+```
+
+
+# For Milestone 2: Generate portal link after verification
+
+This milestone adds a link to a clinical dashboard after the user successfully verifies their email.
+
+Facts:
+- Only classes that include PortalProviderEntity are: Clinic, Physician, PhysicianGroup, and Practice
+	- These classes can do `send_portal_access_link(provider_email)`
+- There's no link between UserCommunicationMethod and Clinic, PhysicianGroup, and Practice
+	- There's a connection between this class and Physician, though
+- In the final verification page a UserCommunicationMethod ID is available
+	- With this ID we can find the instance and it's user
+		- This user could be a Physician or a ShadowUser
+
+When `ucm.user` is a physician we can send the `send_portal_access_link` method. Else we should send the message to the user's `parent` association.
+```ruby
+UserCommunicationMethod.find("faaa748c-76ae-4ce1-a954-46275315fdd7").user.respond_to?(:send_portal_access_link)
+=> false
+
+UserCommunicationMethod.find("faaa748c-76ae-4ce1-a954-46275315fdd7").user.parent.respond_to?(:send_portal_access_link)
+=> true
 ```
