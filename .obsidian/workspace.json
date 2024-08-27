@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "f3fe2b18700ad7a3",
+            "id": "b72dbdacd902572f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
-                "mode": "source",
+                "file": "Luna/Backend/Email Verification/Portal User Verification.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
+                "file": "Luna/Backend/Email Verification/Portal User Verification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
+                "file": "Luna/Backend/Email Verification/Portal User Verification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md"
+                "file": "Luna/Backend/Email Verification/Portal User Verification.md"
               }
             }
           }
@@ -161,12 +161,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f3fe2b18700ad7a3",
+  "active": "b72dbdacd902572f",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
+    "Luna/Backend/Email Verification/Portal User Verification.md",
+    "Luna/Backend/Email Verification",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/Portal User Verification.md",
     "Luna/Backend/Usando Flipper.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
@@ -200,15 +203,12 @@
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/created.table.crawler.png",
     "Luna/Clinical_Dashboard/AWS_Athena/Creating_New_Tables_in_Glue.md",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/creating.table.athena.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/Create_Glue_Tables_via_Ruby_SDK.md",
-    "Luna/Clinical_Dashboard/AWS_Athena/Create_Glue_Tables_via_AWS_CLI.md",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/athena.syncing.flow.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments",
     "Luna/Clinical_Dashboard/AWS_Athena/untitled folder",
     "Luna/Clinical_Dashboard/AWS_Athena",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/untitled folder"
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments"
   ]
 }
