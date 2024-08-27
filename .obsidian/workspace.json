@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Email Verification/Portal User Verification.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -163,6 +163,10 @@
   },
   "active": "b72dbdacd902572f",
   "lastOpenFiles": [
+    "Luna/Backend/Email Verification/attachments/201.resend.recipient.png",
+    "Luna/Backend/Email Verification/attachments/200.send.verification.email.png",
+    "Luna/Backend/Email Verification/attachments",
+    "Luna/Backend/Email Verification/untitled folder",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
     "Luna/Backend/Email Verification/Portal User Verification.md",
@@ -201,14 +205,10 @@
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/bad.column.names.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.table.properties.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/created.table.crawler.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/Creating_New_Tables_in_Glue.md",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/creating.table.athena.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/athena.syncing.flow.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments",
     "Luna/Clinical_Dashboard/AWS_Athena/untitled folder",
     "Luna/Clinical_Dashboard/AWS_Athena",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/attachments"
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action"
   ]
 }
