@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "2e1fd56808dc4bc1",
+            "id": "bc3628220318adf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+                "file": "Luna/Backend/Exploring ActiveRecord Associations.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+                "file": "Luna/Backend/Exploring ActiveRecord Associations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+                "file": "Luna/Backend/Exploring ActiveRecord Associations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md"
+                "file": "Luna/Backend/Exploring ActiveRecord Associations.md"
               }
             }
           }
@@ -161,12 +161,14 @@
       "random-note:Open random note": false
     }
   },
-  "active": "2e1fd56808dc4bc1",
+  "active": "bc3628220318adf0",
   "lastOpenFiles": [
-    "Luna/Backend/Configurando_Backend_Edge_en_Mac_M1.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Apuntes_Rails_-_Edge_#1.md",
+    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/Exploring ActiveRecord Associations.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+    "Luna/Backend/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Luna/Backend/Apuntes_Rails_-_Edge_#1.md",
     "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "Luna/Backend/attachments/luxe-portal-export.png",
     "Luna/Backend/attachments/Pasted image 20240729105042.png",
@@ -192,14 +194,12 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Backend/Usando Flipper.md",
     "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Query_para_Encontrar_Registros_Faltantes_entre_Dos.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging",
     "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
     "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
-    "Luna/Clinical_Dashboard/Body_Parts_Calculation_Logic.md",
     "Luna/Clinical_Dashboard/attachments/patients.table.png",
     "Luna/Clinical_Dashboard/attachments/age.distribution.png",
     "Luna/Clinical_Dashboard/attachments/total.patients.png",
