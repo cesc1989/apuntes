@@ -248,6 +248,20 @@ To complete the rule:
 
 I can use the `verification_attempts` field. Anytime an email reminder is sent this number increases. So once it reaches to 4 it means we emailed them four times already.
 
+## Weekly email for three weeks
+
+This will be only sent to recipients that haven't verified their email and haven't opted out of the verification process. This opt-out flag is found in Hubspot via the property `portal_email_cadence`.
+
+This property is a dropdown and has these values:
+- Weekly
+- Monthly
+- Quarterly
+- Opt-out
+
+> The internal value of these labels is the same, downcased.
+
+
+
 # For Milestone 2: Resend from Landing Page
 
 This milestone needs to add two different buttons depending on the outcome of the email verification:
@@ -343,6 +357,16 @@ And this is the `email_address` instance:
 }
 ```
 
+So, in order to add a link to resend the verification email we'd need to do something like this in `EmailVerificationsController`:
+```ruby
+ucm = UserCommunicationMethod.find(ID)
+
+@resend_url = admin_email_verification_link_path(ucm)
+```
+
+However, the path will need to be in a new controller because that one needs authentication as a Luxe admin. **We're going to need to add a new endpoint to trigger this and use a different auth method** because this is a stateless page.
+
+We don't need to do nothing in the controller but in the view in the else case in `app/views/user_communication_methods/email_verifications/new.html.haml`.
 
 # For Milestone 2: Generate portal link after verification
 
