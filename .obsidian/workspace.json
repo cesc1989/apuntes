@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "2e1fd56808dc4bc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md"
               }
             }
           }
@@ -148,14 +161,25 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "2e1fd56808dc4bc1",
   "lastOpenFiles": [
+    "Luna/Backend/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+    "Luna/Backend/Apuntes_Rails_-_Edge_#1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
+    "Luna/Backend/attachments/luxe-portal-export.png",
+    "Luna/Backend/attachments/Pasted image 20240729105042.png",
+    "Luna/Backend/attachments/Pasted image 20240704234741.png",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/Configurando_Grimoire.md",
+    "Luna/Backend/Apuntes_Ruby_on_Rails_Parte_2.md",
+    "Luna/Backend/Plans of Care",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients Bad Request to Hubspot.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
     "Luna/Clinical_Dashboard/Unseen Patients",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Email Verification/Portal User Verification.md",
     "Luna/Backend/Email Verification/attachments/201.resend.recipient.png",
     "Luna/Backend/Email Verification/attachments/200.send.verification.email.png",
@@ -176,26 +200,15 @@
     "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
     "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
     "Luna/Clinical_Dashboard/Body_Parts_Calculation_Logic.md",
-    "Luna/Clinical_Dashboard/Link_Generation_and_Specific_Dashboards.md",
-    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Clinical_Dashboard/attachments/patients.table.png",
     "Luna/Clinical_Dashboard/attachments/age.distribution.png",
     "Luna/Clinical_Dashboard/attachments/total.patients.png",
     "Luna/Clinical_Dashboard/attachments",
     "Luna/Clinical_Dashboard/untitled folder",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Luna/Migración_a_Rails_6.md",
-    "Luna/Migración_a_Rails_7.md",
     "Canvas/Ruby.canvas",
-    "Diario/2024-05-25.md",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/bad.column.names.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.table.properties.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/created.table.crawler.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments",
-    "Luna/Clinical_Dashboard/AWS_Athena/untitled folder",
-    "Luna/Clinical_Dashboard/AWS_Athena"
+    "Luna/Clinical_Dashboard/AWS_Athena/untitled folder"
   ]
 }

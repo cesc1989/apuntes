@@ -3,5 +3,6 @@
   "livePreview": false,
   "showInlineTitle": false,
   "attachmentFolderPath": "./attachments",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "autoPairMarkdown": false
 }

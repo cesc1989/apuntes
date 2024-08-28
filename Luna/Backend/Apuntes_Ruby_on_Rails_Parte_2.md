@@ -1,4 +1,4 @@
-# Apuntes Ruby on Rails - Parte 1
+# Apuntes Ruby on Rails - Parte 2
 
 # Vistas y HTML
 
