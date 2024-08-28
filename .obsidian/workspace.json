@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "b72dbdacd902572f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Email Verification/Portal User Verification.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Portal User Verification.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Portal User Verification.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Portal User Verification.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,15 +148,20 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b72dbdacd902572f",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients Bad Request to Hubspot.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
+    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
+    "Luna/Clinical_Dashboard/Unseen Patients",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Email Verification/Portal User Verification.md",
     "Luna/Backend/Email Verification/attachments/201.resend.recipient.png",
     "Luna/Backend/Email Verification/attachments/200.send.verification.email.png",
     "Luna/Backend/Email Verification/attachments",
     "Luna/Backend/Email Verification/untitled folder",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
-    "Luna/Backend/Email Verification/Portal User Verification.md",
     "Luna/Backend/Email Verification",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
@@ -180,10 +172,8 @@
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Query_para_Encontrar_Registros_Faltantes_entre_Dos.md",
-    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging",
     "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
-    "Luna/Clinical_Dashboard/Unseen Patients Bad Request to Hubspot.md",
     "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
     "Luna/Clinical_Dashboard/Body_Parts_Calculation_Logic.md",
     "Luna/Clinical_Dashboard/Link_Generation_and_Specific_Dashboards.md",
@@ -199,16 +189,13 @@
     "Luna/Migración_a_Rails_7.md",
     "Canvas/Ruby.canvas",
     "Diario/2024-05-25.md",
-    "Luna/Clinical_Dashboard/AWS_Athena/Glue_Crawler_re-adding_columns_as_col0,_col1,_col2.md",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/bad.column.names.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.table.properties.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/created.table.crawler.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/creating.table.athena.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments",
     "Luna/Clinical_Dashboard/AWS_Athena/untitled folder",
-    "Luna/Clinical_Dashboard/AWS_Athena",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action"
+    "Luna/Clinical_Dashboard/AWS_Athena"
   ]
 }
