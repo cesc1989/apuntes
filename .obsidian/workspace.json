@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "bc3628220318adf0",
+            "id": "a779f55805d51353",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations.md",
+                "file": "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations.md",
+                "file": "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations.md",
+                "file": "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations.md"
+                "file": "Luna/Therapist_Signup/Immunization Questions and DB Fields.md"
               }
             }
           }
@@ -161,11 +161,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "a779f55805d51353",
   "lastOpenFiles": [
+    "Luna/Backend/Exploring ActiveRecord Associations.md",
+    "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
     "Luna/Backend/Lecciones",
     "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Luna/Backend/Exploring ActiveRecord Associations.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
@@ -208,7 +209,6 @@
     "Canvas/Ruby.canvas",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments",
-    "Luna/Clinical_Dashboard/AWS_Athena/untitled folder"
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments"
   ]
 }
