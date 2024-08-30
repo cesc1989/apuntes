@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "43bbe77ab08018c4",
+            "id": "82c68de5bc7901a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NSNumber initialize]",
+                "query": "zellij",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,12 +161,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "43bbe77ab08018c4",
+  "active": "82c68de5bc7901a6",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Luna/Backend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
-    "Luna/Backend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/Lecciones",
     "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
@@ -200,7 +201,6 @@
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Query_para_Encontrar_Registros_Faltantes_entre_Dos.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging",
-    "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
     "Luna/Clinical_Dashboard/attachments/patients.table.png",
     "Luna/Clinical_Dashboard/attachments/age.distribution.png",
     "Luna/Clinical_Dashboard/attachments/total.patients.png",

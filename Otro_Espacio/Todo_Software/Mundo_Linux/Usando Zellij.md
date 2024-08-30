@@ -104,3 +104,13 @@ CTRL + T -> S
 ![[Pasted image 20240702213153.png]]
 
 Al hacer la misma combinación se desactiva.
+
+## Crear nuevo panel hacia la derecha o hacía abajo
+
+Por defecto, el panel se crea en modo horizontal. Para crearlo vertical hay que indicar la dirección usando la letra R. Con D se crea hacía abajo:
+
+```
+CTRL & P + R => a la derecha
+
+CTRL & P + D => hacia abajo
+```
