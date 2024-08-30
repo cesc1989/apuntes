@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "82c68de5bc7901a6",
+            "id": "3e2631b873f1ca5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations for AppBlend.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations for AppBlend.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations for AppBlend.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Exploring ActiveRecord Associations for AppBlend.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -161,23 +161,28 @@
       "random-note:Open random note": false
     }
   },
-  "active": "82c68de5bc7901a6",
+  "active": "3e2631b873f1ca5c",
   "lastOpenFiles": [
+    "Luna/Backend/Usando Flipper.md",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
+    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Upgrade to Ruby 3.1.0 - Notes.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
-    "Luna/Backend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
     "Luna/Backend/Lecciones",
-    "Luna/Backend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_#1.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "Luna/Backend/attachments/luxe-portal-export.png",
     "Luna/Backend/attachments/Pasted image 20240729105042.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
-    "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Lecciones/Configurando_Grimoire.md",
     "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Luna/Backend/Plans of Care",
@@ -196,10 +201,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/Usando Flipper.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/Query_para_Encontrar_Registros_Faltantes_entre_Dos.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging",
     "Luna/Clinical_Dashboard/attachments/patients.table.png",
     "Luna/Clinical_Dashboard/attachments/age.distribution.png",
@@ -208,7 +209,6 @@
     "Luna/Clinical_Dashboard/untitled folder",
     "Canvas/Ruby.canvas",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments"
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png"
   ]
 }

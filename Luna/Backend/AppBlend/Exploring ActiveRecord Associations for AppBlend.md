@@ -155,3 +155,15 @@ nil
 ```
 
 which obviously fails because Ruby `Array` does not implements `new_record?` instance method.
+
+## Fixed
+
+Added a guard clause in the `method_missing` definition:
+
+```diff
+   def method_missing(method_name, *args, **opts, &block)
++    return unless __sync!.respond_to?(method_name)
++
+     __sync!.public_send(method_name, *args, **opts, &block)
+   end
+```
