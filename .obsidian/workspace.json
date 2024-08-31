@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md"
               }
             }
           }
@@ -163,11 +163,12 @@
   },
   "active": "3e2631b873f1ca5c",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/Usando Flipper.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Upgrade to Ruby 3.1.0 - Notes.md",
@@ -200,7 +201,6 @@
     "Luna/Backend/Email Verification",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging",
     "Luna/Clinical_Dashboard/attachments/patients.table.png",
     "Luna/Clinical_Dashboard/attachments/age.distribution.png",
