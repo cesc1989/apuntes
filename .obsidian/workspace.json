@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "42c1434db72f00e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,13 +148,14 @@
       "random-note:Open random note": false
     }
   },
-  "active": "42c1434db72f00e6",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
+    "Canvas/GraphQL.canvas",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
@@ -194,7 +182,6 @@
     "Luna/Backend/Lecciones/Configurando_Grimoire.md",
     "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Luna/Backend/Plans of Care",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients Bad Request to Hubspot.md",
     "Luna/Clinical_Dashboard/Unseen Patients",
     "Luna/Backend/Email Verification/attachments/201.resend.recipient.png",
     "Luna/Backend/Email Verification/attachments/200.send.verification.email.png",

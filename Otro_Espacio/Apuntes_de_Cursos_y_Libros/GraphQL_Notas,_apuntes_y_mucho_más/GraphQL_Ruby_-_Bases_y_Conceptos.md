@@ -1,5 +1,12 @@
 # GraphQL Ruby - Bases y Conceptos
-Enlaces
+
+Documentos relacionados
+
+- [[GraphQL_-_Arquitectura]]
+- [[GraphQL_Ruby_-_En_detalle]]
+- [[No me gusta de GraphQL]]
+
+# Enlaces
 
 - Curso Introductorio https://www.howtographql.com/graphql-ruby/0-introduction/
 - GraphQL Ruby gem http://graphql-ruby.org/
