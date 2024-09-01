@@ -10,6 +10,12 @@ Una enorme cantidad de archivos de tipos. Peor cuando esos archivos de tipos van
 
 Hay unas pruebas donde toca escribir toda la query en un HEREDOC enorme. Eso no se ve en APIs REST.
 
+Aparte de los Heredocs enormes que contienen toda la query graphql, también muchos examples de rspec de muchísimas líneas. Cosas locas que no veo normalmente en las pruebas de endpoints REST.
+
+![[large.spec.for.graphql.png]]
+
+No sé si en otras aplicaciones de mayor tamaño que no usen GraphQL se vean cosas así pero esto que veo no me parece bueno.
+
 ## Resolvers que hacen mil y una cosas
 
 Resolvers enormes.

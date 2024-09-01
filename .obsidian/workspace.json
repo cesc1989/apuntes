@@ -150,12 +150,14 @@
   },
   "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Canvas/GraphQL.canvas",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/large.spec.for.graphql.png",
+    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Canvas/GraphQL.canvas",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
@@ -193,9 +195,7 @@
     "Luna/Clinical_Dashboard/attachments/age.distribution.png",
     "Luna/Clinical_Dashboard/attachments/total.patients.png",
     "Luna/Clinical_Dashboard/attachments",
-    "Luna/Clinical_Dashboard/untitled folder",
     "Canvas/Ruby.canvas",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png",
-    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.corrected.columns.png"
+    "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png"
   ]
 }
