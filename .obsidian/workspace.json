@@ -22,19 +22,31 @@
             }
           },
           {
-            "id": "f8e503b057a3604f",
+            "id": "07eee11f38caf5a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ac725e0f3e750f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,10 +173,28 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f8e503b057a3604f",
+  "active": "ac725e0f3e750f0a",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#4.md",
+    "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#3.md",
+    "DevAsPros/Avanzza/Lecciones_Sprint_31_-_AVZ_-_Devise.md",
+    "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
+    "DevAsPros/Coshi_Notes/Editores_de_Texto_Rico_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
+    "DevAsPros/Definición_de_Dev_As_Pros/Playbooks_para_Inspiración.md",
+    "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Philip_Morgan.md",
+    "DevAsPros/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
+    "DevAsPros/Definición_de_Dev_As_Pros/Definición_de_Mercado_Objetivo.md",
+    "DevAsPros/Definición_de_Dev_As_Pros/Cómo_Elegir_el_Mercado_para_Posicionarse.md",
+    "DevAsPros/Definición_de_Dev_As_Pros/¿Cuántos_Competidores_y_Prospectos_Debería_Tener.md",
+    "DevAsPros/Etom/Redifinir_el_Proyecto_en_tiempo_de_COVID-19.md",
+    "DevAsPros/Feed_&_Fit/Lecciones_Sprint_22_-_F&F.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Gaming_Frog/Lecciones_y_Aprendizajes_#1.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
@@ -172,24 +202,6 @@
     "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/AWS_Taming_the_Mamoth.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "README.md",
-    "Ocio_Juegos_y_otros/Escritos/Escrito_#7_-_LR.md",
-    "Ocio_Juegos_y_otros/Escritos/Escrito_#6_-_Ma.md",
-    "Ocio_Juegos_y_otros/Escritos/Escrito_#5_-_FC.md",
-    "Ocio_Juegos_y_otros/Escritos/Escrito_#4_-_BJ.md",
-    "Ocio_Juegos_y_otros/Escritos/Escrito_#3_-_FU.md",
-    "Ocio_Juegos_y_otros/Escritos/Escrito_#2_-_AA.md",
-    "Ocio_Juegos_y_otros/Escritos/Escrito_#1_-_AA.md",
-    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
-    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
-    "Otro_Espacio/Todo_Software/Mundo_JavaScript/JavaScript_Enlaces_y_Temas_Importantes.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Particionando_en_SSD_y_HDD_para_archivos_para_Linu.md",
-    "Otro_Espacio/Todo_Software/Open_Source_Contributions/Sobre_limpiar_HTML_que_viene_por_fuera_de_la_aplic.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/large.spec.for.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments",
     "Canvas/GraphQL.canvas",
