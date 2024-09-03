@@ -4,5 +4,7 @@
   "showInlineTitle": false,
   "attachmentFolderPath": "./attachments",
   "alwaysUpdateLinks": true,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "foldIndent": false,
+  "tabSize": 2
 }
