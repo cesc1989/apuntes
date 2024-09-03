@@ -22,31 +22,19 @@
             }
           },
           {
-            "id": "1d0889c45a0f186f",
+            "id": "f8e503b057a3604f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "94720486f50292de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
+                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md"
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md"
               }
             }
           }
@@ -173,39 +161,40 @@
       "random-note:Open random note": false
     }
   },
-  "active": "94720486f50292de",
+  "active": "f8e503b057a3604f",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/AWS_Taming_the_Mamoth.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
+    "README.md",
+    "Ocio_Juegos_y_otros/Escritos/Escrito_#7_-_LR.md",
+    "Ocio_Juegos_y_otros/Escritos/Escrito_#6_-_Ma.md",
+    "Ocio_Juegos_y_otros/Escritos/Escrito_#5_-_FC.md",
+    "Ocio_Juegos_y_otros/Escritos/Escrito_#4_-_BJ.md",
+    "Ocio_Juegos_y_otros/Escritos/Escrito_#3_-_FU.md",
+    "Ocio_Juegos_y_otros/Escritos/Escrito_#2_-_AA.md",
+    "Ocio_Juegos_y_otros/Escritos/Escrito_#1_-_AA.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/JavaScript_Enlaces_y_Temas_Importantes.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Particionando_en_SSD_y_HDD_para_archivos_para_Linu.md",
+    "Otro_Espacio/Todo_Software/Open_Source_Contributions/Sobre_limpiar_HTML_que_viene_por_fuera_de_la_aplic.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/large.spec.for.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments",
     "Canvas/GraphQL.canvas",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Luna/Backend/Usando Flipper.md",
-    "Luna/Backend/Image Magick and Alpine.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
-    "Luna/Backend/AppBlend/Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Backend/AppBlend",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
-    "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
     "Luna/Backend/Lecciones",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
-    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_#1.md",
     "Luna/Backend/attachments/luxe-portal-export.png",
     "Luna/Backend/attachments/Pasted image 20240729105042.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
@@ -220,7 +209,6 @@
     "Luna/Clinical_Dashboard/attachments/patients.table.png",
     "Luna/Clinical_Dashboard/attachments/age.distribution.png",
     "Luna/Clinical_Dashboard/attachments/total.patients.png",
-    "Luna/Clinical_Dashboard/attachments",
     "Canvas/Ruby.canvas",
     "Luna/Clinical_Dashboard/AWS_Athena/attachments/glue.classifier.png"
   ]
