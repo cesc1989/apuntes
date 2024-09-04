@@ -7,7 +7,8 @@ Para poder encontrar a los contactos relacionados toca usar la API de búsqueda.
 ## Importante
 
 - Docs de la API https://developers.hubspot.com/docs/api/crm/search
-- Hay que definir un valor para el parámetro `limit`
+- Hay que definir un valor para el parámetro `limit`.
+	- Máximo puede ser 200.
 - Al usar el operador para filtros `IN`, la lista de valores deben ser en minúsculas
 - En los filtros:
 	- Para aplicar una lógica `AND` hay que definir varias condiciones en el operador `filters`
