@@ -403,14 +403,31 @@ Lo he visto pasar en Luna, Patient Forms, cuando en el frontend copian los texto
 > Returns the receiver if it’s present otherwise returns nil. object.
 
 Sirve para resolver un problema muy común:
-
-    object.present? ? object : nil
+```ruby
+object.present? ? object : nil
+```
 
 Al usar `#presence` se reduce a:
-
-    object.presence
+```ruby
+object.presence
+```
 
 Este [artículo](https://dev.to/edwardloveall/the-rails-presence-method-3h46) tiene buenos ejemplos.
+
+Algunos ejemplos.
+
+En vez de esto:
+```ruby
+state   = params[:state]   if params[:state].present?
+country = params[:country] if params[:country].present?
+region  = state || country || 'US'
+```
+
+Mejor:
+```ruby
+params[:state].presence || params[:country].presence || 'US'
+```
+
 
 ## Específica la versión de Rails a usar en la CLI
 
