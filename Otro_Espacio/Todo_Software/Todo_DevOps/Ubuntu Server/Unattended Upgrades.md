@@ -1,4 +1,4 @@
-# Unattended Updates in Ubuntu Server
+# Unattended Upgrades in Ubuntu Server
 
 Quiero configurar Unattended Upgrades para el servidor de DevAsPros.
 
@@ -58,16 +58,127 @@ Unattended-Upgrade::Mail "";
 Para indicar que se reinicie el servidor por si mismo se cambia:
 ```
 Unattended-Upgrade::Automatic-Reboot "true";
-Unattended-Upgrade::Automatic-Reboot-Time "19:00"; // Optional
+
+Unattended-Upgrade::Automatic-Reboot-Time "06:00"; // 06am UTC is 01am UTC-05
 ```
 
-> Para que el reinicio funcione se necesita el paquete **update-notifier-common**.
+> Para que el reinicio funcione se necesita el paquete `update-notifier-common`.
 
 ## Envío de Correos
 
 En [el gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70#email-notification-configuration) hay instrucciones pero no pude instalar el software `heirloom-mailx`.
 
-Hay que buscar una forma actual.
+Eso de `heirloom-mailx` como que no existe. Entonces [encontré](https://vernon.wenberg.net/linux/set-up-unattended-upgrades-on-ubuntu-20-04/) que se configura `mailx` así:
+```
+sudo apt install bsd-mailx
+```
+
+Que instala todo esto:
+```
+The following additional packages will be installed:
+  liblockfile-bin liblockfile1 postfix ssl-cert
+Suggested packages:
+  procmail postfix-mysql postfix-pgsql postfix-ldap postfix-pcre postfix-lmdb postfix-sqlite sasl2-bin | dovecot-common resolvconf postfix-cdb postfix-doc openssl-blacklist
+The following NEW packages will be installed:
+  bsd-mailx liblockfile-bin liblockfile1 postfix ssl-cert
+```
+
+
+### Configuración de Postfix con Gmail
+
+Encontré una guía en [Linode](https://www.linode.com/docs/guides/configure-postfix-to-send-mail-using-gmail-and-google-workspace-on-debian-or-ubuntu/).
+
+En este archivo: `/etc/postfix/main.cf`
+```
+myhostname = devaspros.com
+```
+
+> Probé así pero no sé si eso funciona.
+
+> NOTA: Las guías de Linode dicen que ellos pueden bloquear los puertos de correo para cuentas nuevas. No sé si la mía esté en ese bloqueo.
+
+Abre o crea este archivo: `/etc/postfix/sasl/sasl_passwd`
+
+Y agrega las credenciales de la cuenta de Gmail:
+```
+[smtp.gmail.com]:587 cuenta@gmail.com:clave
+```
+
+Luego lanzamos este comando para que se genere un hash db para Postfix:
+```
+sudo postmap /etc/postfix/sasl/sasl_passwd
+```
+
+Finalmente, aseguramos este archivo porque es texto plano:
+```
+sudo chown root:root /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
+
+sudo chmod 0600 /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
+```
+
+Para terminar la configuración, abrimos de nuevo `/etc/postfix/main.cf` y añadimos estas líneas:
+```
+relayhost = [smtp.gmail.com]:587
+
+# Enable SASL authentication
+smtp_sasl_auth_enable = yes
+
+# Disallow methods that allow anonymous authentication
+smtp_sasl_security_options = noanonymous
+
+# Location of sasl_passwd
+smtp_sasl_password_maps = hash:/etc/postfix/sasl/sasl_passwd
+
+# Enable STARTTLS encryption
+smtp_tls_security_level = encrypt
+
+# Location of CA certificates
+smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
+```
+
+> NOTA: `smtp_tls_security_level` puede estar duplicada así que quita las anteriores.
+
+Reinicia Postfix para que tome las configuraciones:
+```
+sudo systemctl restart postfix
+```
+
+### Probar Envío de Correo desde el Servidor
+
+Se prueba con el comando `sendmail`:
+```
+sendmail frajaquico@gmail.com
+From: devaspros@gmail.com
+Subject: Prueba Servidor
+Correo de prueba desde el servidor
+.
+```
+
+Se escribe la primera línea y se presiona enter. No pasa nada. Hay que seguir escribiendo el resto de líneas. El punto + enter envía el correo y sale del editor.
+
+Verifica en los logs que el correo esté saliendo:
+```
+sudo tail -f /var/log/syslog
+```
+
+Pero estoy viendo esto:
+```
+Sep  4 23:49:54 localhost kernel: [36276332.471271] [UFW BLOCK] IN=eth0 OUT= MAC=f2:3c:93:9d:4c:60:fe:ff:ff:ff:ff:ff:08:00 SRC=110.183.54.49 DST=139.144.196.192 LEN=40 TOS=0x00 PREC=0x00 TTL=41 ID=31503 PROTO=TCP SPT=40646 DPT=23 WINDOW=36054 RES=0x00 SYN URGP=0 
+Sep  4 23:50:04 localhost kernel: [36276342.373403] [UFW BLOCK] IN=eth0 OUT= MAC=f2:3c:93:9d:4c:60:fe:ff:ff:ff:ff:ff:08:00 SRC=162.216.150.232 DST=139.144.196.192 LEN=44 TOS=0x00 PREC=0x60 TTL=241 ID=54321 PROTO=TCP SPT=53048 DPT=40007 WINDOW=65535 RES=0x00 SYN URGP=0 
+Sep  4 23:50:11 localhost kernel: [36276349.825829] [UFW BLOCK] IN=eth0 OUT= MAC=f2:3c:93:9d:4c:60:fe:ff:ff:ff:ff:ff:08:00 SRC=206.168.34.168 DST=139.144.196.192 LEN=60 TOS=0x00 PREC=0x00 TTL=44 ID=54552 PROTO=TCP SPT=42868 DPT=81 WINDOW=42340 RES=0x00 SYN URGP=0 
+
+Sep  4 23:50:12 localhost postfix/smtp[26400]: connect to smtp.gmail.com[2607:f8b0:4004:c08::6d]:587: Connection timed out
+
+Sep  4 23:50:33 localhost kernel: [36276371.390790] [UFW BLOCK] IN=eth0 OUT= MAC=f2:3c:93:9d:4c:60:fe:ff:ff:ff:ff:ff:08:00 SRC=83.222.190.66 DST=139.144.196.192 LEN=40 TOS=0x00 PREC=0x00 TTL=231 ID=21340 PROTO=TCP SPT=41225 DPT=2158 WINDOW=1024 RES=0x00 SYN URGP=0 
+
+Sep  4 23:50:42 localhost postfix/smtp[26400]: connect to smtp.gmail.com[172.253.63.109]:587: Connection timed out
+
+Sep  4 23:50:42 localhost postfix/smtp[26400]: 3449C23E79: to=<frajaquico@gmail.com>, relay=none, delay=79, delays=19/0.01/60/0, dsn=4.4.1, status=deferred (connect to smtp.gmail.com[172.253.63.109]:587: Connection timed out)
+
+Sep  4 23:50:44 localhost kernel: [36276382.866615] [UFW BLOCK] IN=eth0 OUT= MAC=f2:3c:93:9d:4c:60:fe:ff:ff:ff:ff:ff:08:00 SRC=92.63.197.192 DST=139.144.196.192 LEN=44 TOS=0x00 PREC=0x00 TTL=238 ID=54116 PROTO=TCP SPT=53012 DPT=31127 WINDOW=1025 RES=0x00 SYN URGP=0
+```
+
+Voy a probar a pedir en soporte que me habiliten el puerto 587.
 
 # Probando Configuración de unattended-upgrades
 
