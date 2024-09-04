@@ -22,31 +22,19 @@
             }
           },
           {
-            "id": "07eee11f38caf5a1",
+            "id": "e1f62dc0fa6c612d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ac725e0f3e750f0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md"
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md"
               }
             }
           }
@@ -173,9 +161,16 @@
       "random-note:Open random note": false
     }
   },
-  "active": "ac725e0f3e750f0a",
+  "active": "e1f62dc0fa6c612d",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients Bad Request to Hubspot.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#4.md",
     "DevAsPros/Avanzza/Lecciones_y_Aprendizajes_#3.md",
     "DevAsPros/Avanzza/Lecciones_Sprint_31_-_AVZ_-_Devise.md",
@@ -190,18 +185,11 @@
     "DevAsPros/Definición_de_Dev_As_Pros/¿Cuántos_Competidores_y_Prospectos_Debería_Tener.md",
     "DevAsPros/Etom/Redifinir_el_Proyecto_en_tiempo_de_COVID-19.md",
     "DevAsPros/Feed_&_Fit/Lecciones_Sprint_22_-_F&F.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "DevAsPros/Gaming_Frog/Lecciones_y_Aprendizajes_#1.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/unattended updates.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/AWS_Taming_the_Mamoth.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/large.spec.for.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments",
     "Canvas/GraphQL.canvas",
