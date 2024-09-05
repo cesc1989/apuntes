@@ -12,8 +12,9 @@ Los groupName son:
 
 Con este llamado a la API se pueden crear en grupo. [Documentación](https://developers.hubspot.com/docs/api/crm/properties).
 
-    curl --request POST \
-      --url 'https://api.hubapi.com/crm/v3/properties/contact/batch/create' \
+```bash
+   curl --request POST \
+     --url 'https://api.hubapi.com/crm/v3/properties/contact/batch/create' \
       --header 'authorization: Bearer TOKEN' \
       --header 'content-type: application/json' \
       --data '{
@@ -31,6 +32,7 @@ Con este llamado a la API se pueden crear en grupo. [Documentación](https://dev
         }
       ]
     }'
+```
 
 Para campos tipo fecha usar
 

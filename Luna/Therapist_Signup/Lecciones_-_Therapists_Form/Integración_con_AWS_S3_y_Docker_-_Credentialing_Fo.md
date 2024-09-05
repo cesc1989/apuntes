@@ -220,7 +220,6 @@ Según [Computer Hope](https://www.computerhope.com/jargon/f/file-descriptor.htm
 > A **file descriptor** is a number that uniquely identifies an open file in a computer's operating system. It describes a data resource, and how that resource may be accessed.
 > 
 > When a process makes a successful request to open a file, the kernel returns a file descriptor which points to an entry in the kernel's **global file table**. The file table entry contains information such as the [inode](https://www.computerhope.com/jargon/i/inode.htm) of the file, byte [offset](https://www.computerhope.com/jargon/o/offset.htm), and the access restrictions for that data stream(read-only, write-only, etc.).
-![File descriptor diagram](https://www.computerhope.com/jargon/f/file-descriptor.jpg)
 
 
 En [Stack Overflow](https://stackoverflow.com/questions/10922045/where-does-ruby-keep-track-of-its-open-file-descriptors) encuentro que Ruby mantiene información de los descriptores de archivos en el `ObjectSpace`.

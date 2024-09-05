@@ -1,4 +1,5 @@
 # Copiando Archivos a/desde S3 mediante CLI
+
 Para el proyecto Therapist Signup, los archivos PDF de los *agreements* están en un bucket en AWS S3. Para simplificar todo, accedo mediante CLI para revisar, descargar o subir los archivos.
 
 Primero, podemos listar archivos así:
@@ -49,7 +50,7 @@ Si necesito borrar archivos en grupo, sería así:
 aws s3 rm s3://luna-alpha-workloads-therapist-signup-agreement-pdfs/ --exclude "*_agreement.pdf" --recursive
 ```
 
-> Documentación del [comando rm](https://docs.aws.amazon.com/cli/latest/reference/s3/rm.html). Sobre los filtros [exclude](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html#use-of-exclude-and-include-filters)[,](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html#use-of-exclude-and-include-filters) [include](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html#use-of-exclude-and-include-filters).
+> Documentación del [comando rm](https://docs.aws.amazon.com/cli/latest/reference/s3/rm.html). Sobre los filtros [exclude e include](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html#use-of-exclude-and-include-filters).
 
 
 ## Bonus Track: renombrar varios archivos mediante bash
