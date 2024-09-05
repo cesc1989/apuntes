@@ -3,8 +3,12 @@
 Quiero configurar Unattended Upgrades para el servidor de DevAsPros.
 
 Algunos datos:
-
 - Ubuntu 20.04.6 LTS
+- Software involucrado:
+	- unattended-upgrades
+	- update-notifier-common
+	- bsd-mailx
+		- Instala Postfix para usar Mailx
 
 # Pasos y Comandos
 
@@ -36,17 +40,32 @@ El primero indica la frecuencia en que unattended-upgrades hará lo suyo: descar
 
 El segundo hará cosas más de cuidado como qué tipo de cosas a instalar (seguridad, por ejemplo), enviar emails y activar el reiniciado automático.
 
-La configuración de la frecuencia que describo en el [gist](`/etc/apt/apt.conf.d/50unattended-upgrades`) y en [backend stuff](https://github.com/cesc1989/backendstuff/blob/master/configurators/unattended-upgrades/20auto-upgrades) es la misma que seguí para el servidor de DevAsPros:
+La configuración de la frecuencia que describo en el [gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70) y en [backend stuff](https://github.com/cesc1989/backendstuff/blob/master/configurators/unattended-upgrades/20auto-upgrades) es la misma que seguí para el servidor de DevAsPros:
 ```
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
-APT::Periodic::Unattended-Upgrade "3";
-APT::Periodic::AutocleanInterval "9";
+APT::Periodic::Unattended-Upgrade "1";
+APT::Periodic::AutocleanInterval "7";
 ```
 
 Donde cada número indica la frecuencia en días para que el servidor haga lo suyo.
 
-## Reinicio Automático
+### Explicación de las opciones
+
+- `APT::Periodic::Update-Package-Lists "1"`
+	- Actualiza la lista de paquetes a diario. **Este es importante** para que siempre que se vayan a hacer las actualizaciones, se usen las fuentes más recientes.
+- `APT::Periodic::Download-Upgradeable-Packages "1"`
+	- Descarga las actualizaciones a diario. Así no tienen que descargarse todas al tiempo.
+- `APT::Periodic::Unattended-Upgrade "1"`
+	- Ejecuta las actualizaciones a diario.
+- `APT::Periodic::AutocleanInterval "7"`
+	- Limpia la cache de paquetes cada 7 días.
+
+Para el servidor de DevAsPros, inicialmente había configurado `APT::Periodic::Unattended-Upgrade "1"` para cada 3 días pero decidí cambiarlo a diario para seguir el principio de "fail fast". Si va a salir algo mal en este proceso, quiero verlo ya y resolverlo pronto.
+
+Así también me acostumbro a lidiar con esta configuración y la entiendo a fondo.
+
+## Reinicio Automático del Servidor
 
 Para que el servidor se reinicie de manera automática y envíe correos sobre el estado de las actualizaciones hay que cambiar algunos ajustes en `/etc/apt/apt.conf.d/50unattended-upgrades`.
 
@@ -83,7 +102,6 @@ The following NEW packages will be installed:
   bsd-mailx liblockfile-bin liblockfile1 postfix ssl-cert
 ```
 
-
 ### Configuración de Postfix con Gmail
 
 Encontré una guía en [Linode](https://www.linode.com/docs/guides/configure-postfix-to-send-mail-using-gmail-and-google-workspace-on-debian-or-ubuntu/).
@@ -94,8 +112,8 @@ myhostname = devaspros.com
 ```
 
 > Probé así pero no sé si eso funciona.
-
-> NOTA: Las guías de Linode dicen que ellos pueden bloquear los puertos de correo para cuentas nuevas. No sé si la mía esté en ese bloqueo.
+>
+> NOTA: Las guías de Linode dicen que ellos pueden bloquear los puertos de correo para cuentas nuevas.
 
 Abre o crea este archivo: `/etc/postfix/sasl/sasl_passwd`
 
@@ -178,7 +196,9 @@ Sep  4 23:50:42 localhost postfix/smtp[26400]: 3449C23E79: to=<frajaquico@gmail.
 Sep  4 23:50:44 localhost kernel: [36276382.866615] [UFW BLOCK] IN=eth0 OUT= MAC=f2:3c:93:9d:4c:60:fe:ff:ff:ff:ff:ff:08:00 SRC=92.63.197.192 DST=139.144.196.192 LEN=44 TOS=0x00 PREC=0x00 TTL=238 ID=54116 PROTO=TCP SPT=53012 DPT=31127 WINDOW=1025 RES=0x00 SYN URGP=0
 ```
 
-Voy a probar a pedir en soporte que me habiliten el puerto 587.
+Voy a pedir en soporte que me habiliten el puerto 587.
+
+
 
 # Probando Configuración de unattended-upgrades
 
@@ -223,6 +243,110 @@ No /usr/bin/mail or /usr/sbin/sendmail, can not send mail. You probably want to 
 
 > Nota: me dice que instale `mailx`
 
+# Ejecución de Unattended-upgrades
+
+Luego de que cambiara todo a un día e inicié sesión en el servidor vi algunas cosas.
+
+## No se reinició el servidor
+
+Tal vez fue cosa de la hora. Hoy, 5 de Septiembre, el servidor aún pedía reiniciada:
+```
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+4 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '22.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+You have mail.
+Last login: Thu Sep  5 02:22:25 2024 from 191.110.58.7
+```
+
+### Comprobar el uptime del servidor para saber si se reinició
+
+Existe el comando `uptime` para saber si el tiempo que lleva arriba el servidor.
+
+```
+$ uptime
+12:06:29 up 420 days,  9:03,  1 user,  load average: 0.10, 0.08, 0.03
+```
+
+Más sobre este comando en [este artículo](https://linuxhandbook.com/uptime-command/).
+
+## Mensaje You have mail
+
+Noté ese mensaje. ¿Cómo reviso dicho correo? Lo puedo hacer de varias formas.
+
+La más directa es uno de estos comandos:
+```
+sudo cat /var/spool/mail/root
+
+sudo cat /var/spool/mail/ubuntu
+```
+
+En mí caso, debo usar el segundo comando para el usuario "ubuntu". Puedo ver algunas cosas
+```
+This is the mail system at host devaspros.com.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<frajaquico@gmail.com>: connect to smtp.gmail.com[172.253.63.108]:587:
+    Connection timed out
+
+--0DB8D23E73.1725491958/devaspros.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+(...)
+
+Final-Recipient: rfc822; frajaquico@gmail.com
+Original-Recipient: rfc822;frajaquico@gmail.com
+Action: delayed
+Status: 4.4.1
+Diagnostic-Code: X-Postfix; connect to smtp.gmail.com[172.253.63.108]:587:
+    Connection timed out
+```
+
+¿Será algo del bloqueo de puertos de Linode?
+
+> Puedo también ver la lista con el [comando](https://superuser.com/questions/306163/what-is-the-you-have-new-mail-message-in-linux-unix) `mail` y luego presionando el número del correo de la lista.
+
+## Comprobando que se esté ejecutando unattended-upgrades
+
+¿Cómo sé si está corriendo y haciendo su trabajo? Hay un par de formas.
+
+Tail al log
+```
+sudo tail -n 30 /var/log/unattended-upgrades/unattended-upgrades.log
+
+2024-09-05 06:04:33,422 INFO Starting unattended upgrades script
+2024-09-05 06:04:33,425 INFO Allowed origins are: o=Ubuntu,a=focal, o=Ubuntu,a=focal-security, o=UbuntuESMApps,a=focal-apps-security, o=UbuntuESM,a=focal-infra-security
+2024-09-05 06:04:33,425 INFO Initial blacklist: 
+2024-09-05 06:04:33,425 INFO Initial whitelist (not strict): 
+2024-09-05 06:04:35,315 INFO Packages that will be upgraded: apparmor libapparmor1 python3-twisted python3-twisted-bin
+2024-09-05 06:04:35,316 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2024-09-05 06:04:49,080 INFO All upgrades installed
+2024-09-05 06:04:49,671 WARNING Found /var/run/reboot-required, rebooting
+2024-09-05 06:04:49,689 WARNING Shutdown msg: b"Shutdown scheduled for Fri 2024-09-06 06:00:00 UTC, use 'shutdown -c' to cancel."
+```
+
+Mira la hora: 06:04:49 en UTC. O sea que sí se ejecutó a la 1am. Pero no se reinició?
+
+No lo hizo. La reiniciada quedó programada para el día Viernes 6 de Septiembre:
+```
+WARNING Shutdown msg: b"Shutdown scheduled for Fri 2024-09-06 06:00:00 UTC
+```
+
+O sea que mañana (hoy es Jueves, 5 de Septiembre), deberá reiniciarse el servidor.
+
+En esta [pregunta](https://askubuntu.com/questions/934807/unattended-upgrades-status) hay más detalles.
 
 # Revisando Configuración y Servicios
 
@@ -288,3 +412,5 @@ Sep 01 15:48:11 localhost sidekiq[4038621]: 2024-09-01T15:48:11.102Z pid=4038621
 Sep 01 15:48:11 localhost sidekiq[4038621]: 2024-09-01T15:48:11.102Z pid=4038621 tid=2ewf5 INFO: Scheduling recurring_expenditures {"class"=>"RecurringExpendituresWorker", "cron"=>"0 0 1 * *", "queue"=>"default"}
 Sep 01 15:48:11 localhost sidekiq[4038621]: 2024-09-01T15:48:11.114Z pid=4038621 tid=2ewf5 INFO: Schedules Loaded
 ```
+
+## Estado de Mega CMD
