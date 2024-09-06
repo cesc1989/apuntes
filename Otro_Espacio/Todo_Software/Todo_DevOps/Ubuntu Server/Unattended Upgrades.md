@@ -348,6 +348,93 @@ O sea que mañana (hoy es Jueves, 5 de Septiembre), deberá reiniciarse el servi
 
 En esta [pregunta](https://askubuntu.com/questions/934807/unattended-upgrades-status) hay más detalles.
 
+## Servidor reinició exitosamente
+
+Así como decía el mensaje que estaba programada la reiniciada, así pasó y Nginx y Sidekiq quedaron corriendo sin problemas.
+
+### Revisión de Nginx luego de reinicio
+
+Me llamó la atención que no aparecían el proceso de Cash Flow:
+```
+ubuntu@localhost:~$ sudo service nginx status
+[sudo] password for ubuntu: 
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2024-09-06 06:01:25 UTC; 8h ago
+       Docs: man:nginx(8)
+   Main PID: 694 (nginx)
+      Tasks: 31 (limit: 1124)
+     Memory: 234.0M
+     CGroup: /system.slice/nginx.service
+             ├─  629 Passenger watchdog
+             ├─  671 Passenger core
+             ├─  694 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+             ├─  701 nginx: worker process
+             └─10968 Passenger RubyApp: /home/ubuntu/coshinotes/app (production)
+
+Sep 06 06:01:24 localhost systemd[1]: Starting A high performance web server and a reverse proxy server...
+Sep 06 06:01:25 localhost systemd[1]: Started A high performance web server and a reverse proxy server.
+```
+
+Sin embargo, al ir al sitio web y revisar de nuevo, sí aparecieron. Como que estaban dormidos:
+```
+ubuntu@localhost:~$ sudo service nginx status
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2024-09-06 14:26:40 UTC; 27s ago
+       Docs: man:nginx(8)
+    Process: 17914 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 17915 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 17930 (nginx)
+      Tasks: 53 (limit: 1124)
+     Memory: 436.8M
+     CGroup: /system.slice/nginx.service
+             ├─17916 Passenger watchdog
+             ├─17920 Passenger core
+             ├─17930 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+             ├─17936 nginx: worker process
+             ├─17945 Passenger AppPreloader: /home/ubuntu/cashflow/app
+             ├─17996 Passenger RubyApp: /home/ubuntu/cashflow/app (production)
+             ├─18018 Passenger AppPreloader: /home/ubuntu/coshinotes/app
+             ├─18073 Passenger RubyApp: /home/ubuntu/coshinotes/app (production)
+             └─18097 Passenger RubyApp: /home/ubuntu/coshinotes/app (production)
+```
+
+
+### Revisión de Sidekiq luego de reinicio
+
+Sidekiq parecía estar todo en orden. Supongo porque lo tengo montado con Systemd.
+```
+ubuntu@localhost:~$ systemctl --user status sidekiq.service
+● sidekiq.service - sidekiq
+     Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2024-09-06 14:24:44 UTC; 1min 12s ago
+   Main PID: 17432 (bundle)
+     CGroup: /user.slice/user-1000.slice/user@1000.service/sidekiq.service
+             └─17432 sidekiq 6.5.12 app [0 of 1 busy]
+
+Sep 06 14:24:44 localhost systemd[17425]: Started sidekiq.
+Sep 06 14:24:47 localhost sidekiq[17432]: 2024-09-06T14:24:47.720Z pid=17432 tid=19g INFO: Booting Sidekiq 6.5.12 with Sidekiq::RedisConnection::RedisAdapter options {:url=>nil}
+Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.934Z pid=17432 tid=19g INFO: Booted Rails 7.0.4 application in production environment
+Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.935Z pid=17432 tid=19g INFO: Running in ruby 3.1.0p0 (2021-12-25 revision fb4df44d16) [x86_64-linux]
+Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.935Z pid=17432 tid=19g INFO: See LICENSE and the LGPL-3.0 for licensing details.
+Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.935Z pid=17432 tid=19g INFO: Upgrade to Sidekiq Pro for more features and support: https://sidekiq.org
+Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.937Z pid=17432 tid=19g INFO: Loading Schedule
+Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.937Z pid=17432 tid=19g INFO: Scheduling recurring_expenditures {"class"=>"RecurringExpendituresWorker", "cron"=>"0 0 1 * *", "queue"=>"default"}
+Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.946Z pid=17432 tid=19g INFO: Schedules Loaded
+```
+
+### Uptime
+
+Finalmente, el uptime cambió a apenas un par de horas:
+```
+ubuntu@localhost:~$ uptime
+ 14:31:23 up  8:30,  1 user,  load average: 0.00, 0.01, 0.00
+```
+
+### Revisión de Mega CMD luego de reinicio
+
+
 # Revisando Configuración y Servicios
 
 ## Estado de nginx
