@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md"
               }
             }
           }
@@ -148,10 +148,32 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_comparing_Therapists_S3_files_vs_Magic.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Mitigate_File-Upload_Issues.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/from.s3.to.drive.png",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/FileUploadProcess.png",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Upload_Flow_Steps_and_States.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/05.failed.png",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/04.success.png",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/03.selected.file.png",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/02.missing.png",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/01.pristine.png",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/untitled folder",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Conversion_to_Supported_Formats.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Types_for_Existing_Uploaded_Files.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Plan_to_Determine_File_Size_Limits.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/S3_Files_-_Inspection.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/GDrive_Files_-_Inspection.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
@@ -164,39 +186,16 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_WKHTMLTOPDF_y_Docker.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_Límites_de_WKHTMLTOPDF.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_CombinePDF_y_WickedPDF.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_#2.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
-    "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
-    "Luna/Therapist_Signup/Diccionario_de_opciones_para_campos_de_vacunas_en.md",
-    "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
-    "Luna/Therapist_Signup/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
-    "Luna/Therapist_Signup/Therapist_Signup_Enabled_States.md",
     "Luna/Therapist_Signup/attachments/personal.info.zip.png",
     "Luna/Therapist_Signup/attachments/personal.info.png",
     "Luna/Therapist_Signup/attachments/reg.treazip.png",
-    "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
-    "Luna/Therapist_Signup/attachments/Therapists.png",
     "Luna/Therapist_Signup/attachments",
     "Luna/Therapist_Signup/untitled folder",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
     "Luna/Therapist_Signup/Attestation Form",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server",
-    "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/large.spec.for.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments",
     "Canvas/GraphQL.canvas",
     "Luna/Backend/AppBlend",
-    "Luna/Backend/Lecciones",
-    "Luna/Backend/attachments/luxe-portal-export.png",
-    "Luna/Backend/attachments/Pasted image 20240729105042.png",
-    "Luna/Backend/attachments/Pasted image 20240704234741.png",
-    "Luna/Backend/Plans of Care",
-    "Luna/Clinical_Dashboard/Unseen Patients",
-    "Luna/Backend/Email Verification/attachments/201.resend.recipient.png",
-    "Luna/Backend/Email Verification/attachments/200.send.verification.email.png",
-    "Luna/Backend/Email Verification/attachments",
     "Canvas/Ruby.canvas"
   ]
 }
