@@ -1,5 +1,10 @@
 # Detalles
 
+Algunos enlaces:
+
+- [Pasar de Rails 6.1 a 7.0](https://guides.rubyonrails.org/v7.0/upgrading_ruby_on_rails.html#upgrading-from-rails-6-1-to-rails-7-0)
+- [Página de versiones de Rails en GitHub](https://github.com/rails/rails/tags)
+
 Edge actualmente está en **Rails 6.1.6**
 
 - Objetivo: **7.0.4**
@@ -21,21 +26,21 @@ Edge actualmente está en **Rails 6.1.6**
 	- 7.0.3 (May 9, 2022) - [Release page](https://github.com/rails/rails/releases/tag/v7.0.3)
 	- 7.0.4 (Sep 9, 2022) - [Release page](https://github.com/rails/rails/releases/tag/v7.0.4)
 
-[Página de versiones de Rails en GitHub](https://github.com/rails/rails/tags)
-
-## Cambios Clave en Versión 7.0.0
+# Cambios Clave en Versión 7.0.0
 
 Ver [Release page](https://github.com/rails/rails/releases/tag/v7.0.0)
 
-### Active Support
+## Active Support
 
 Deprecate passing a format to `#to_s` in favor of `#to_formatted_s` in `Array`, `Range`, `Date`, `DateTime`, `Time`,  
 `BigDecimal`, `Float` and, `Integer`.
 
-### Railtie
+## Railtie
 
 The setter `config.autoloader=` has been deleted. `zeitwerk` is the only  
 available autoloading mode.
+
+---
 
 During initialization, you cannot autoload reloadable classes or modules  
 like application models, unless they are wrapped in a `to_prepare` block.  
@@ -44,11 +49,14 @@ railties initializers.
 
 > Please check the [autoloading  guide](https://guides.rubyonrails.org/v7.0/autoloading_and_reloading_constants.html#autoloading-when-the-application-boots) for details.
 
+---
+
 Fix compatibility with `psych >= 4`.
 
 > Starting in Psych 4.0.0 `YAML.load` behaves like `YAML.safe_load`. To preserve compatibility  `Rails.application.config_for` now uses `YAML.unsafe_load` if available.
 
-## Completo
+
+# Completo ✅
 
 [Página de versiones de Ruby](https://www.ruby-lang.org/en/downloads/releases/)
 
