@@ -1,24 +1,5 @@
 # Upgrade Rails to 7.0.4 - Rails.env.local?
 
-## Particularidades
-
-Edge actualmente está en:
-
-**Rails 6.1.6**
-- Objetivo: 7.0.4
-- Las versiones que le siguen:
-	- 6.1.6.1
-	- 6.1.7
-	- 6.1.7.1
-	- 6.1.7.2
-	- 6.1.7.3
-
-**Ruby 3.0.6**
-- Objetivo: 3.1.0
-- Las versiones que le siguen: 
-	- 3.0.7
-	- 3.1.0
-
 # Rails.env.local? en Rails 7.1
 
 Edge tiene su propia definición que está en `lib/lunacare/environment.rb`:

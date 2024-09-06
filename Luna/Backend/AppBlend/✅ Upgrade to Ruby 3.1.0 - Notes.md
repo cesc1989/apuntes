@@ -1,4 +1,4 @@
-# Upgrade to Ruby 3.1.0 - Notes
+# ✅ Upgrade to Ruby 3.1.0 - Notes
 
 # Errors and Solutions
 
