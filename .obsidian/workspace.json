@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -148,8 +148,18 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
+    "Luna/Clinical_Dashboard/attachments/09.request.portal.link.png",
+    "Luna/Clinical_Dashboard/attachments/06.opened.chart.png",
+    "Luna/Clinical_Dashboard/attachments/05.opening.care.plan.png",
+    "Luna/Clinical_Dashboard/attachments/04.signing.poc.png",
+    "Luna/Clinical_Dashboard/attachments/03.request.png",
+    "Luna/Clinical_Dashboard/attachments/02.sessions.modal.png",
+    "Luna/Clinical_Dashboard/attachments/01.opening.charts.modal.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_comparing_Therapists_S3_files_vs_Magic.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Mitigate_File-Upload_Issues.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
@@ -157,19 +167,13 @@
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/FileUploadProcess.png",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Upload_Flow_Steps_and_States.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/05.failed.png",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/04.success.png",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/03.selected.file.png",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/02.missing.png",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/01.pristine.png",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/untitled folder",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Conversion_to_Supported_Formats.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Types_for_Existing_Uploaded_Files.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Plan_to_Determine_File_Size_Limits.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/S3_Files_-_Inspection.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/GDrive_Files_-_Inspection.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
@@ -185,10 +189,6 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/How_to_list_files_per_condition_in_S3_Bucket.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_WKHTMLTOPDF_y_Docker.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_Límites_de_WKHTMLTOPDF.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_CombinePDF_y_WickedPDF.md",
-    "Luna/Therapist_Signup/attachments/personal.info.zip.png",
-    "Luna/Therapist_Signup/attachments/personal.info.png",
-    "Luna/Therapist_Signup/attachments/reg.treazip.png",
     "Luna/Therapist_Signup/attachments",
     "Luna/Therapist_Signup/untitled folder",
     "Luna/Therapist_Signup/Attestation Form",

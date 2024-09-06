@@ -24,8 +24,7 @@ String in database: *opened_charts_modal*
 
 Triggered at
 
-![](https://paper-attachments.dropboxusercontent.com/s_DC5F13FAACF6782A96CC094C90E74E372559962D2D58F9B9215990D5069D54EC_1675195576900_Screen+Shot+2023-01-31+at+3.03.30+PM.png)
-
+![[01.opening.charts.modal.png]]
 
 JSON payload:
 
@@ -49,7 +48,6 @@ JSON payload:
 ```
 
 
-
 ## 2) Opening Sessions Modal
 
 Key: *opened_sessions_modal*
@@ -57,8 +55,7 @@ String in database: *opened_sessions_modal*
 
 Triggered at
 
-![](https://paper-attachments.dropboxusercontent.com/s_DC5F13FAACF6782A96CC094C90E74E372559962D2D58F9B9215990D5069D54EC_1675195721560_02.sessions.modal.png)
-
+![[02.sessions.modal.png]]
 
 JSON payload:
 
@@ -89,8 +86,7 @@ String in database: *requested_patient_data_download*
 
 Triggered at
 
-![](https://paper-attachments.dropboxusercontent.com/s_DC5F13FAACF6782A96CC094C90E74E372559962D2D58F9B9215990D5069D54EC_1675196657637_03.request.png)
-
+![[03.request.png]]
 
 JSON Payload
 
@@ -119,8 +115,7 @@ String in database: *signed_poc*
 
 Triggered at
 
-![](https://paper-attachments.dropboxusercontent.com/s_DC5F13FAACF6782A96CC094C90E74E372559962D2D58F9B9215990D5069D54EC_1675196832044_04.signing.poc.png)
-
+![[04.signing.poc.png]]
 
 JSON Payload
 
@@ -153,7 +148,7 @@ String in database: *plan_of_care_click*
 
 Triggered at
 
-![](https://paper-attachments.dropboxusercontent.com/s_DC5F13FAACF6782A96CC094C90E74E372559962D2D58F9B9215990D5069D54EC_1675195983111_Screen+Shot+2023-01-31+at+3.11.48+PM.png)
+![[05.opening.care.plan.png]]
 
 JSON Payload
 
@@ -184,8 +179,7 @@ String in database: *patient_chart*
 
 Triggered at
 
-![](https://paper-attachments.dropboxusercontent.com/s_DC5F13FAACF6782A96CC094C90E74E372559962D2D58F9B9215990D5069D54EC_1675196467177_opened.chart.png)
-
+![[06.opened.chart.png]]
 
 JSON Payload
 
@@ -263,8 +257,7 @@ String in database: *requested_new_link*
 
 Triggered at:
 
-![](https://paper-attachments.dropboxusercontent.com/s_DC5F13FAACF6782A96CC094C90E74E372559962D2D58F9B9215990D5069D54EC_1675197476130_Screen+Shot+2023-01-31+at+3.37.23+PM.png)
-
+![[09.request.portal.link.png]]
 
 Payload
 
