@@ -433,7 +433,7 @@ end
 
 In the next section I'll try to explain above `after_initialize` block.
 
-## Autoload and Reloadable Code
+# About Autoload and Reloadable Code
 
 As [explained here](https://guides.rubyonrails.org/v7.0/autoloading_and_reloading_constants.html#autoloading-when-the-application-boots) and mentioned [here](https://stackoverflow.com/a/73463696/1407371) by Xavier Noira.
 
@@ -557,7 +557,8 @@ pry(main)> ActiveRecord::Base.connection.tables
 ActiveRecord::ConnectionNotEstablished: No connection pool for 'ActiveRecord::Base' found.
 ```
 
-**Update**
+## Update: unresolved -> changed to a different branch
+
 I wasn't able to fix this or find a solution that would help me move forward. I asked team mates for help and one of them used my branch, run the `rails app:update` command and somehow got a working version. I've continued my work using that branch. There's still errors. Looks like in my branch I was digging deeper into a rabbit hole.
 
 # Rails assets:precompile
@@ -709,7 +710,6 @@ The fix was to add this line to the audit initializer:
 Audited.store_synthesized_enums = true
 ```
 
-
 ## undefined method new_record? for []:Array
 
 Test run this error appears: `pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106`.
@@ -822,6 +822,8 @@ undefined method `new_record?' for []:Array
 
 It looks like the error is indeed something in batch-loader gem. Now the thing is to be able to identify the error in the stack trace.
 
+### Fixed
+
 Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[Exploring ActiveRecord Associations for AppBlend]]
 
 ## Only UUIDs are valid namespace identifiers
@@ -867,7 +869,6 @@ Change the setting to false in the file `config/initializers/new_framework_defau
 ```ruby
 Rails.application.config.active_support.use_rfc4122_namespaced_uuids = false
 ```
-
 
 ## undefined method as_user for "Audited::Audit":String
 
@@ -916,3 +917,4 @@ The ideal fix is to find all places where dates are interpolated and send the `t
 ```
 
 In [Stack Overflow](https://stackoverflow.com/questions/71177165/rails-ignores-the-default-date-format-after-upgrading-from-6-1-to-7-0).
+
