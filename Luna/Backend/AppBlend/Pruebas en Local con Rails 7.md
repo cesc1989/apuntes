@@ -1,4 +1,4 @@
-# class variable @@silencer of ActiveSupport::Logger is overtaken by Logger
+# Error: class variable @@silencer of ActiveSupport::Logger is overtaken by Logger
 
 Lancé el servidor Rails en local y cuando abrí la página admin dio error 500:
 ```bash
@@ -49,4 +49,25 @@ Una vez activo esa configuración para entorno pruebas, dejan de fallar:
 # config/environments/test.rb
 
 Rails.logger.class.include ActiveSupport::LoggerSilence
+```
+
+# Error: partial con triple extensión no se encontraba
+
+Al partial: `app/views/images/_HiOutlineExternalLink.svg.html.erb` me tocó cambiarle las extensiones quitando la `svg`. Por alguna razón, no se encontraba con la triple extensión.
+
+En la vista también tuve que actualizar la referencia:
+```diff
+# app/admin/customers/patients.rb
+
+- controller.render_to_string(partial: "images/HiOutlineExternalLink.svg")
++ controller.render_to_string(partial: "images/HiOutlineExternalLink")
+```
+
+# Error: undefined method service_url for ActiveStorage attachment
+
+Explota en esto:
+```ruby
+# app/models/concerns/attachment_methods.rb
+if Rails.application.config.active_storage.service == :amazon
+	public_send(attachment_association_name).service_url
 ```
