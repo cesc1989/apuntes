@@ -36,31 +36,31 @@
             }
           },
           {
-            "id": "50aab7b4c7eed75e",
+            "id": "a74c8a8456d79769",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "4974a193d184a629",
+            "id": "e52346127e530a30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "working tree",
+                "query": "teclado",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -187,20 +187,24 @@
       "random-note:Open random note": false
     }
   },
-  "active": "4974a193d184a629",
+  "active": "a74c8a8456d79769",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Haciendo_rebase_de_Omega_a_rama_de_trabajo.md",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "DevAsPros/Cash_Flow/attachments/gasto.explore.png",
     "DevAsPros/Cash_Flow/attachments",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
@@ -222,12 +226,8 @@
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/from.s3.to.drive.png",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/FileUploadProcess.png",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Upload_Flow_Steps_and_States.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments/05.failed.png",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/untitled folder",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Conversion_to_Supported_Formats.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Types_for_Existing_Uploaded_Files.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues",
     "Luna/Therapist_Signup/attachments",
