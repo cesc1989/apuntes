@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "61a1efc336f0ecb3",
+            "id": "ac5a22fc7d821c64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
-                "mode": "preview",
+                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
+                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
+                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md"
+                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md"
               }
             }
           }
@@ -175,15 +175,16 @@
       "random-note:Open random note": false
     }
   },
-  "active": "61a1efc336f0ecb3",
+  "active": "ac5a22fc7d821c64",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Haciendo_rebase_de_Omega_a_rama_de_trabajo.md",
@@ -198,7 +199,6 @@
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
     "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",

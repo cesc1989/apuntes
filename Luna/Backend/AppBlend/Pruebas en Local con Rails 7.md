@@ -51,7 +51,11 @@ Una vez activo esa configuración para entorno pruebas, dejan de fallar:
 Rails.logger.class.include ActiveSupport::LoggerSilence
 ```
 
+Funciona en local y en el CI.
+
 # ✅ Error: partial con triple extensión no se encontraba
+
+Navegando en Customers -> Patients
 
 Al partial: `app/views/images/_HiOutlineExternalLink.svg.html.erb` me tocó cambiarle las extensiones quitando la `svg`. Por alguna razón, no se encontraba con la triple extensión.
 
@@ -65,9 +69,48 @@ En la vista también tuve que actualizar la referencia:
 
 # Error: undefined method service_url for ActiveStorage attachment
 
+Navegando Files -> Incoming Faxes
+
 Explota en esto:
 ```ruby
 # app/models/concerns/attachment_methods.rb
 if Rails.application.config.active_storage.service == :amazon
 	public_send(attachment_association_name).service_url
 ```
+
+# Error: undefined method gsub for nil:NilClass
+
+Navegando Clinical -> Plans of Care
+
+```
+undefined method `gsub' for nil:NilClass
+
+        str = str.gsub '\n', "\n"
+                 ^^^^^
+
+app/services/plans_of_care/plan_of_care_fax_pdf_service.rb:46:in `initialize'
+app/models/plan_of_care.rb:312:in `new'
+app/models/plan_of_care.rb:312:in `invalid_pdf_template?'
+app/admin/clinical/plans_of_care.rb:244:in `block (3 levels) in <main>'
+app/admin/clinical/plans_of_care.rb:236:in `block (2 levels) in <main>'
+```
+
+# Error: nil ID for rails url
+
+Navegando Clinical -> Protocol Escalations
+
+```
+No route matches {:action=>"show", :controller=>"admin/patients", :id=>nil}, missing required keys: [:id]
+
+    column "Patient" do |escalation|
+      patient = escalation.patient
+      url = admin_patient_path(patient)
+      link_to(patient.name, url, target: :_blank, rel: :noopener)
+    end
+    column "Physician" do |escalation|
+
+app/admin/clinical/protocol_escalations.rb:41:in `block (3 levels) in <main>'
+app/admin/clinical/protocol_escalations.rb:39:in `block (2 levels) in <main>'
+```
+
+En Alpha no ocurre. ¿Por qué si el backup es de Alpha?
