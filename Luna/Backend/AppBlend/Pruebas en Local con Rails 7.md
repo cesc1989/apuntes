@@ -1,4 +1,4 @@
-# Error: class variable @@silencer of ActiveSupport::Logger is overtaken by Logger
+# ✅ Error: class variable @@silencer of ActiveSupport::Logger is overtaken by Logger
 
 Lancé el servidor Rails en local y cuando abrí la página admin dio error 500:
 ```bash
@@ -51,7 +51,7 @@ Una vez activo esa configuración para entorno pruebas, dejan de fallar:
 Rails.logger.class.include ActiveSupport::LoggerSilence
 ```
 
-# Error: partial con triple extensión no se encontraba
+# ✅ Error: partial con triple extensión no se encontraba
 
 Al partial: `app/views/images/_HiOutlineExternalLink.svg.html.erb` me tocó cambiarle las extensiones quitando la `svg`. Por alguna razón, no se encontraba con la triple extensión.
 
