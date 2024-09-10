@@ -28,7 +28,7 @@ Considering CI is all green now. Do the following:
 - With a successful QA and an approved PR do the release at midnight or very early in the morning.
 	- Note: Do not do the release on a Friday.
 
-## Option B
+## ⭐️ Option B ⭐️
 
 *tl;dr: there's no end date on sight. Step back and apply updates in small, one after the other, updates.*
 
@@ -42,9 +42,9 @@ Finally, it's also possible to bring some changes from the current work branch t
 
 ### List of Rails 6.x versions before Rails 7.0.4
 
-1. 6.1.6.1
-2. 6.1.7
-3. 6.1.7.8
+1. 6.1.6.1 - See [[002 - Important Updates per Changelogs#6.1.6.1]]
+2. 6.1.7 - See [[002 - Important Updates per Changelogs#6.1.7]]
+3. 6.1.7.8 - See [[002 - Important Updates per Changelogs#6.1.7.8]]
 
 ### List of possible items from the current branch to integrate individually
 

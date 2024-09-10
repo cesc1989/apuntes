@@ -78,6 +78,13 @@ if Rails.application.config.active_storage.service == :amazon
 	public_send(attachment_association_name).service_url
 ```
 
+Esto es una cosa por error de método depreciado:
+```
+DEPRECATION WARNING: service_url is deprecated and will be removed from Rails 7.0 (use url instead) (called from block in expose_attachment_url_for at /Users/francisco/projects/luna-project/backend/app/models/concerns/attachment_methods.rb:14)
+```
+
+Lo que no entiendo es porque no me salió nada al buscar en Internet.
+
 # Error: undefined method gsub for nil:NilClass
 
 Navegando Clinical -> Plans of Care

@@ -488,7 +488,7 @@ end
 Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
 > This is unrelated to Zeitwerk, ==autoloading from initializers was just wrong conceptually regardless of the autoloader==.
 
-# Database configuration Errors
+# 🚫 Database configuration Errors (Ignore)
 
 Got this when running specs:
 ```bash
@@ -822,7 +822,7 @@ undefined method `new_record?' for []:Array
 
 It looks like the error is indeed something in batch-loader gem. Now the thing is to be able to identify the error in the stack trace.
 
-### Fixed
+### Fixed 🎉
 
 Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[Exploring ActiveRecord Associations for AppBlend]]
 

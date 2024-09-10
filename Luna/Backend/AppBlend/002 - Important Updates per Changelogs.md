@@ -84,7 +84,7 @@ See https://github.com/rails/rails/releases/tag/v7.0.0
 
 **Railtie**
 
-- [x] The setter `config.autoloader=` has been deleted. `zeitwerk` is the only  
+- [ ] The setter `config.autoloader=` has been deleted. `zeitwerk` is the only  
 available autoloading mode.
 
 ---
