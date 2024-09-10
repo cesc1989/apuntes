@@ -206,6 +206,8 @@ En realidad, la mejor forma es con la llave SSH así que esto no lo recomendarí
 
 Ver [artículo](https://morgan.cugerone.com/blog/how-to-use-git-worktree-and-in-a-clean-way/). Tengo resaltados en Omnivore.
 
+> Otra fuente en [Dev](https://dev.to/yankee/practical-guide-to-git-worktree-58o0)
+
 Los git worktree son una forma de poder trabajar en distintas ramas de un mismo proyecto git. Esta es una alternativa a git stash.
 
 En git stash guardo los cambios de manera temporal y luego me paso de rama. Ejemplo:
