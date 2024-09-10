@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "619349833a5ff55a",
+            "id": "dabec73e11cf790d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,8 +94,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md"
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md"
               }
             }
           }
@@ -176,9 +175,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "619349833a5ff55a",
+  "active": "dabec73e11cf790d",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
@@ -186,9 +189,6 @@
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
@@ -205,7 +205,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
-    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
     "Luna/Clinical_Dashboard/attachments/09.request.portal.link.png",
     "Luna/Clinical_Dashboard/attachments/06.opened.chart.png",
     "Luna/Clinical_Dashboard/attachments/05.opening.care.plan.png",

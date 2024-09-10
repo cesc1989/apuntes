@@ -1,7 +1,5 @@
 # Unseen Patients hs_lead_status Label - Internal Values Table
 
-O también: Unseen Patients
-
 | Label                                                                         | Internal value                                      |
 | ----------------------------------------------------------------------------- | --------------------------------------------------- |
 | Patient - Suspect                                                             | Patient - Suspect                                   |
@@ -35,3 +33,12 @@ O también: Unseen Patients
 - Unsupported condition
 - Other
 
+# Lead Status per Physicians
+
+| Label                                                                         | Internal value                                      |
+| ----------------------------------------------------------------------------- | --------------------------------------------------- |
+| Physician - Suspect                                                           | Physician - Suspect                                 |
+| Physician - Ortho/Sports/Pain/Neuro/Spine                                     | Physician - Ortho                  |
+| Physician - Internist/Family/Geriatric                                        | Physician - Internist                 |
+| Physician - Other/ObGyn/Pediatrics/Podiatrist/Rheum                           | Physician - Other         |
+| Physician - Disqualified                                                      | Physician - Disqualified                |
