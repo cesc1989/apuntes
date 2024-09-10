@@ -162,6 +162,8 @@ Why I say this? Because when I access the authorization via direct methods, I ca
 
 ### Batch Loader in Rails 6.1
 
+**Update**: Reason, apparently, found at [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
+
 This is the output of exploring the instances when they reach batch-loader method_missing method:
 ```
 Veamos que es method_name: authorizations
@@ -277,7 +279,3 @@ Notice how at any point it is sending a `method_name` being `new_record?` Which 
 NoMethodError:
        undefined method `new_record?' for [#<PayerAuthorization>]:Array
 ```
-
-### Update
-
-Reason, apparently, found at [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
