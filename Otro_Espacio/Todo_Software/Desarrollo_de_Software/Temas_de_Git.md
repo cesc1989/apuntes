@@ -209,40 +209,51 @@ Ver [artículo](https://morgan.cugerone.com/blog/how-to-use-git-worktree-and-in-
 Los git worktree son una forma de poder trabajar en distintas ramas de un mismo proyecto git. Esta es una alternativa a git stash.
 
 En git stash guardo los cambios de manera temporal y luego me paso de rama. Ejemplo:
-
-    git stash
-    git checkout hotfix
+```bash
+git stash
+git checkout hotfix
+```
 
 Con un git worktree, se crea una nueva carpeta a partir de la rama que se especifique. Un ejemplo previo:
+```bash
+~/projects/devaspros/coshinotes
 
-    ~/projects/devaspros/coshinotes
-    
-    # después de crear worktree
-    
-    ~/projects/devaspros/coshinotes
-    ~/projects/devaspros/hotfix
+# después de crear worktree
 
-donde la carpeta “hotfix” sigue siendo parte del mismo proyecto git que está en “coshinotes”.
+~/projects/devaspros/coshinotes
+~/projects/devaspros/hotfix
+```
 
-Para crear un worktree nuevo, desde la carpeta donde regularmente se trabaj:
+donde la carpeta “hotfix” sigue siendo parte del mismo proyecto git que está en “coshinotes” pero está cargando el código en una nueva rama diferente a main.
 
-    git worktree add ../hotfix main
+Para crear un worktree nuevo, desde la carpeta donde regularmente se trabaja:
+```bash
+git worktree add ../hotfix
+```
+
+En esta forma se crea una carpeta y una nueva rama de nombre `hotfix`.
+
+Si la rama ya existe, se puede crear el worktree así:
+```bash
+git worktree add ../hotfix nuevas_cosas
+```
 
 Donde:
 
 - `../hotfix` es la carpeta a crear
     - nota que se crea por fuera de la carpeta actual
-- `main` es la rama de la cual desprender la rama
+- `nuevas_cosas` es la rama de la cual desprender el worktree
 
 Todo el trabajo que se haga en el worktree será independiente de la rama que esté en la carpeta “coshinotes”. Se puede hacer commit, push y eventualmente borrar la rama. Con todo listo podemos volver a la carpeta inicial y borrar el worktree.
 
-
-    git worktree remove hotfix
+```bash
+git worktree remove hotfix
+```
 
 El worktree crea la carpeta en base a su nombre. Así se pueden ver los worktress:
-
-    git worktree list
-
+```bash
+git worktree list
+```
 
 ## Organizar worktrees
 

@@ -34,9 +34,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "619349833a5ff55a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md"
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md"
               }
             }
           }
@@ -163,14 +176,14 @@
       "random-note:Open random note": false
     }
   },
-  "active": "91144184d0a8362e",
+  "active": "619349833a5ff55a",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
