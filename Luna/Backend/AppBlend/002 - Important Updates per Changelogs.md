@@ -1,3 +1,11 @@
+# Rails Upgrade Process
+
+Important context:
+
+> When changing Rails versions, it's best to move slowly, one minor version at a time, in order to make good use of the deprecation warnings. Rails version numbers are in the form Major.Minor.Patch. Major and Minor versions are allowed to make changes to the public API, so this may cause errors in your application. Patch versions only include bug fixes, and don't change any public API.
+
+Read more -> https://guides.rubyonrails.org/v7.0/upgrading_ruby_on_rails.html
+
 # Rails 6.1.x
 
 ## 6.1.6.1
