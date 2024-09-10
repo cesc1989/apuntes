@@ -1,14 +1,14 @@
-# Upgrade to Rails 7.0.4 from 6.1.7 - Notes
+# Upgrade to Rails 7.0.4 from 6.1.6 - Notes
 
 [RailsDiff](https://railsdiff.org/6.1.7/7.0.4) shows multiple changes but due to how custom Edge is I don't consider good to apply them to this codebase.
 
 Also, after running `bundle exec rails app:update` I left everything untouched because this app has a lot of years running and there's a lot of things that are better left untouched.
 
-## Updated to 6.1.7 ✅
+## Updated to 6.1.6.1 ✅
 
-Edge sits at Rails 6.1.6. First step to take it to version 7.0.4 was to updated it to latest minor patch/security patch. After updating it to 6.1.7 got this error in ALL tests.
+Edge sits at Rails 6.1.6. First step to take it to version 7.0.4 was to updated it to latest minor patch/security patch. After updating it to 6.1.6.1 got this error in ALL tests.
 
-### Psych::DisallowedClass
+### Psych::DisallowedClass ✅
 
 ```bash
 Psych::DisallowedClass:
@@ -54,7 +54,8 @@ The explanation to why this happens is in [this Discuss post](https://discuss.ru
 
 The summary is that the second option above is insecure and the first one is the way to go.
 
-## Gem devise_token_auth mismatch
+
+## Gem devise_token_auth mismatch ✅
 
 Current version 1.2.0 supports rails version until 6.2.0
 
@@ -70,7 +71,7 @@ So, because Gemfile depends on rails = 7.0.0,
 
 Changed it to version 1.2.1 which is the [minimum version](https://github.com/lynndylanhurley/devise_token_auth/blob/v1.2.1/devise_token_auth.gemspec#L25) requiring Rails < 7.1
 
-## Gem lol_dba mismatch
+## Gem lol_dba mismatch ✅
 
 Same as above with this gem:
 ```
@@ -160,7 +161,7 @@ So, because Gemfile depends on rails = 7.0.1,
   version solving has failed.
 ```
 
-This gem is also forked.
+> This gem is also forked.
 
 The issue here is that bundler is not pulling latest commit from the fork. In the fork these are the last commits:
 

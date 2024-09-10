@@ -67,7 +67,7 @@ En la vista también tuve que actualizar la referencia:
 + controller.render_to_string(partial: "images/HiOutlineExternalLink")
 ```
 
-# Error: undefined method service_url for ActiveStorage attachment
+# ✅ Error: undefined method service_url for ActiveStorage attachment
 
 Navegando Files -> Incoming Faxes
 
@@ -85,6 +85,8 @@ DEPRECATION WARNING: service_url is deprecated and will be removed from Rails 7.
 
 Lo que no entiendo es porque no me salió nada al buscar en Internet.
 
+**Arreglado**: en PR independiente.
+
 # Error: undefined method gsub for nil:NilClass
 
 Navegando Clinical -> Plans of Care
@@ -101,6 +103,8 @@ app/models/plan_of_care.rb:312:in `invalid_pdf_template?'
 app/admin/clinical/plans_of_care.rb:244:in `block (3 levels) in <main>'
 app/admin/clinical/plans_of_care.rb:236:in `block (2 levels) in <main>'
 ```
+
+Esto parece solo ser en local porque me faltan variables de entorno.
 
 # Error: nil ID for rails url
 

@@ -14,7 +14,7 @@ See https://github.com/rails/rails/releases/tag/v6.1.6.1
 
 **Active Record**
 
-- [ ] Change ActiveRecord::Coders::YAMLColumn default to safe_load.
+- [x] Change ActiveRecord::Coders::YAMLColumn default to safe_load.
 
 ## 6.1.7
 
