@@ -22,11 +22,11 @@ See https://github.com/rails/rails/releases/tag/v6.1.7
 
 **Active Record**
 
-- [ ] Symbol is allowed by default for YAML columns.
+- [x] Symbol is allowed by default for YAML columns.
 
 ---
 
-- [ ] Fix `ActiveRecord::Store` to serialize as a regular Hash
+- [x] Fix `ActiveRecord::Store` to serialize as a regular Hash
 
 Previously it would serialize as an `ActiveSupport::HashWithIndifferentAccess`  
 which is wasteful and cause problem with YAML safe_load.

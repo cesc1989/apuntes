@@ -1,4 +1,4 @@
-# ✅ Error: class variable @@silencer of ActiveSupport::Logger is overtaken by Logger
+# Error: class variable @@silencer of ActiveSupport::Logger is overtaken by Logger
 
 Lancé el servidor Rails en local y cuando abrí la página admin dio error 500:
 ```bash
@@ -53,7 +53,7 @@ Rails.logger.class.include ActiveSupport::LoggerSilence
 
 Funciona en local y en el CI.
 
-# ✅ Error: partial con triple extensión no se encontraba
+# Error: partial con triple extensión no se encontraba
 
 Navegando en Customers -> Patients
 

@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "05943fc6037f7336",
+            "id": "022c27c7b82275e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "mode": "preview",
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -175,31 +175,33 @@
       "random-note:Open random note": false
     }
   },
-  "active": "05943fc6037f7336",
+  "active": "022c27c7b82275e7",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
+    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
+    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/attachments/005 - QA Plan.md",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",
     "Luna/Backend/AppBlend/attachments/as.queues.purge.png",
     "Luna/Backend/AppBlend/attachments/as.queues.analysis.png",
     "Luna/Backend/AppBlend/attachments",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
-    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/Email Verification/Portal User Verification.md",
-    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Haciendo_rebase_de_Omega_a_rama_de_trabajo.md",
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
@@ -207,14 +209,12 @@
     "DevAsPros/Cash_Flow/attachments/gasto.explore.png",
     "DevAsPros/Cash_Flow/attachments",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Luna/Clinical_Dashboard/attachments/09.request.portal.link.png",
     "Luna/Clinical_Dashboard/attachments/06.opened.chart.png",
     "Luna/Clinical_Dashboard/attachments/05.opening.care.plan.png",
     "Luna/Clinical_Dashboard/attachments/04.signing.poc.png",
     "Luna/Clinical_Dashboard/attachments/03.request.png",
     "Luna/Clinical_Dashboard/attachments/02.sessions.modal.png",
-    "Luna/Clinical_Dashboard/attachments/01.opening.charts.modal.png",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/untitled folder",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection",

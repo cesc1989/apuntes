@@ -59,7 +59,7 @@ I found that there's no defined value in the enum when the record value is zero.
 
 In [this issue](https://github.com/rails/rails/issues/52074) someone asked this same problem and the explanation is that Rails now expects enum values to match DB values.
 
-## Error with PayerAuthorization and BatchLoader
+## ✅ Error with PayerAuthorization and BatchLoader
 
 Association: Episode -> PayerAuthorizations (aliased Authorizations).
 
@@ -160,7 +160,7 @@ Why I say this? Because when I access the authorization via direct methods, I ca
 #<ActiveRecord::Relation [#<PayerAuthorization id: "b771918c-e16d-4f9e-ab6d-a91d2c38280b", visit_amount: 2, authorization_number: "FAHXSJNMCE", effective_until: "2019-04-14", reauthorization_visit_number: 1, required_gap_in_days: 5, request_status: "granted", episode_id: "1879956f-a8c1-49e2-bebc-d0f436a861e9", created_at: "2018-10-14 11:00:00.000000000 +0000", updated_at: "2018-10-14 11:00:00.000000000 +0000", deleted_at: nil, submitted_at: "2018-10-14">]>
 ```
 
-### Batch Loader in Rails 6.1
+### Batch Loader in Rails 6.1 👍🏽
 
 **Update**: Reason, apparently, found at [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
 
@@ -211,67 +211,6 @@ Veamos que es sync: Episode
 Veamos que es method_name: latest_reauthorization_visit_number
 "Tiene Latest reauth: 1"
 Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-Veamos que es sync: Episode
-Veamos que es method_name: total_expected_visits
-Veamos que es sync: Episode
-Veamos que es method_name: authorizations
-"este eppisode tiene 1 auths"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-"Tiene Latest reauth: 1"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-Veamos que es sync: Episode
-Veamos que es method_name: load_many
-Veamos que es sync: Array
-Veamos que es method_name: each
-Veamos que es sync: Episode
-Veamos que es method_name: present?
-Veamos que es sync: Episode
-Veamos que es method_name: load_many
-Veamos que es sync: Array
-Veamos que es method_name: each
-Veamos que es sync: Episode
-Veamos que es method_name: present?
-Veamos que es sync: Episode
-Veamos que es method_name: load_many
-Veamos que es sync: Array
-Veamos que es method_name: each
-Veamos que es sync: Episode
-Veamos que es method_name: present?
-Veamos que es sync: Episode
-Veamos que es method_name: authorizations
-"este eppisode tiene 1 auths"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-"Tiene Latest reauth: 1"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-Veamos que es sync: Episode
-Veamos que es method_name: should_trigger_reauthorization?
-Veamos que es sync: Array
-Veamos que es method_name: each
-Veamos que es sync: Episode
-Veamos que es method_name: total_expected_visits
-Veamos que es sync: Episode
-Veamos que es method_name: authorizations
-"este eppisode tiene 1 auths"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-"Tiene Latest reauth: 1"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-Veamos que es sync: Episode
-Veamos que es method_name: total_expected_visits
-Veamos que es sync: Episode
-Veamos que es method_name: authorizations
-"este eppisode tiene 1 auths"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
-"Tiene Latest reauth: 1"
-Veamos que es sync: Episode
-Veamos que es method_name: latest_reauthorization_visit_number
 ```
 
 Notice how at any point it is sending a `method_name` being `new_record?` Which is the reason it fails in Rails 7.0.4:
