@@ -8,7 +8,7 @@ Read more -> https://guides.rubyonrails.org/v7.0/upgrading_ruby_on_rails.html
 
 # Rails 6.1.x
 
-## 6.1.6.1
+## 6.1.6.1 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.6.1
 
@@ -16,7 +16,7 @@ See https://github.com/rails/rails/releases/tag/v6.1.6.1
 
 - [x] Change ActiveRecord::Coders::YAMLColumn default to safe_load.
 
-## 6.1.7
+## 6.1.7 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7
 
