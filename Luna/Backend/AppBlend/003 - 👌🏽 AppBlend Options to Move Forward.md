@@ -34,9 +34,9 @@ Finally, it's also possible to bring some changes from the current work branch t
 	- audited
 	- devise
 	- devise_token_auth -> ✅
-	- paranoia
+	- paranoia -> ✅
 	- psych
-	- stateful_enum
+	- stateful_enum -> ✅
 	- factory_bot_rails
 	- lol_dba -> ✅
 - Activate Zeitweirk mode

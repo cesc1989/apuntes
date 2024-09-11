@@ -46,6 +46,10 @@ ProviderPortalEmailSendingWorker.perform_async("618d2473-9d4c-4db4-9a91-741964a9
 
 ## Test GraphQL queries
 
+¿Cómo hago esto?
+
+
+
 ## Misc Tests
 
 acts-as-taggable-on 9.0.0
