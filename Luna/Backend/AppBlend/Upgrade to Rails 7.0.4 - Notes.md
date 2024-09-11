@@ -134,7 +134,7 @@ I'd need to point to [version 5.1.0](https://github.com/collectiveidea/audited/b
 
 Changed it to point to the source instead of the fork.
 
-## Gem paranoia mismatch
+## Gem paranoia mismatch ✅
 
 ```
 Could not find compatible versions
@@ -565,7 +565,7 @@ Turns out it's better in `config/environments/test.rb` as per [[Pruebas en Local
 
 # Test runs errors
 
-## undefined method user_scopes for DocumentTag:Class
+## undefined method user_scopes for DocumentTag:Class ✅
 
 ```bash
 An error occurred while loading rails_helper.
