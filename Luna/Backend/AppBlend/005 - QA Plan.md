@@ -45,3 +45,58 @@ ProviderPortalEmailSendingWorker.perform_async("618d2473-9d4c-4db4-9a91-741964a9
 ```
 
 ## Test GraphQL queries
+
+## Misc Tests
+
+acts-as-taggable-on 9.0.0
+
+```ruby
+e1 = Exercise.first
+
+e1.body_part_list.add("Guapo")
+e1.save
+
+ap e1.body_part_list
+
+e1.body_part_list.remove("Guapo")
+e1.save
+
+ap e1.body_part_list
+```
+
+paranoia 2.5.0
+
+```ruby
+i1 = Insurance.first
+i1.deleted_at
+
+i1.destroy
+
+Insurance.with_deleted
+Insurance.with_deleted.count
+
+Insurance.only_deleted.count
+```
+
+stateful_enum 0.7.0
+
+```ruby
+Appointment.stateful_enum
+app1 = Appointment.first
+
+app1.stateful_enum
+
+
+[11] pry(main)> app1.state
+=> "no_show"
+[12] pry(main)> app1.can_finish?
+=> false
+[13] pry(main)> app1.uncancel
+=> false
+[14] pry(main)> app1.uncancel!
+RuntimeError: Invalid transition
+
+
+app2 = Appointment.order("RANDOM()").first
+app2.uncancel
+```
