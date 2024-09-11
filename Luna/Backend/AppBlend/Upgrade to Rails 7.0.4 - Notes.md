@@ -97,11 +97,11 @@ The source contains the following gems matching 'lol_dba':
 
 And it's right. That version is not [available in rubygems](https://rubygems.org/gems/lol_dba/versions):
 
-![[Pasted image 20240729105042.png]]
+![[lol_dba_versions.png]]
 
 Changed it to version 2.4.0
 
-## Gem acts-as-taggable-on mismatch
+## Gem acts-as-taggable-on mismatch ✅
 
 ```
 Could not find compatible versions
@@ -147,7 +147,7 @@ So, because Gemfile depends on paranoia = 2.4.3
   version solving has failed.
 ```
 
-Update it to [version 2.5.0](https://github.com/rubysherpas/paranoia/blob/v2.5.0/paranoia.gemspec).
+Update it to [version 2.5.0](https://github.com/rubysherpas/paranoia/blob/v2.5.0/paranoia.gemspec#L27) - [Release](https://github.com/rubysherpas/paranoia/releases/tag/v2.5.0)
 
 ## Gem active_record-postgres-constraints mismatch
 
@@ -264,7 +264,7 @@ NoMethodError: undefined method `use_yaml_unsafe_load=' for ActiveRecord::Base:C
 /app/config/environment.rb:7:in `<main>'
 ```
 
-The CI threw this error when building for rails 7.0.1. Updated it to Rails 7.0.4.
+The CI threw this error when building for rails 7.0.1. ==Fixed by updating to Rails 7.0.4==.
 
 ## Error with class being loaded in config/database.yml
 
@@ -542,10 +542,10 @@ change some time ago when doing other commands.
 
 # undefined method silence for Logger
 
-This error pop up in the CI for lots of tests.
-```
+This error pop up in the CI for lots of tests:
+```bash
 NoMethodError:
-	undefined method `silence' for #<Logger:0x00007f82ed94f6c0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f82ed94f300 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f82ed94ef68 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<IO:<STDOUT>>, @binmode=false, @mon_data=#<Monitor:0x00007f82ed94ee50>, @mon_data_owner_object_id=23660>, @level_override={}>
+	undefined method silence for #<Logger:0x00007f82ed94f6c0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f82ed94f300 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f82ed94ef68 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<IO:<STDOUT>>, @binmode=false, @mon_data=#<Monitor:0x00007f82ed94ee50>, @mon_data_owner_object_id=23660>, @level_override={}>
 
 logger.silence do
 ```
@@ -559,7 +559,9 @@ The fix is to put this line:
 Rails.logger.class.include ActiveSupport::LoggerSilence
 ```
 
-Somwhere? I put it in `config/application.rb`. In [this comment](https://github.com/rails/activerecord-session_store/issues/176#issuecomment-797665880), Swanson suggests to add it in `config/initializers/session_store.rb`.
+Where? I put it in `config/application.rb`. In [this comment](https://github.com/rails/activerecord-session_store/issues/176#issuecomment-797665880), Swanson suggests to add it in `config/initializers/session_store.rb`.
+
+Turns out it's better in `config/environments/test.rb` as per [[Pruebas en Local con Rails 7#Pruebas que se rompen sin la configuración de LoggerSilence]]
 
 # Test runs errors
 
