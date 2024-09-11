@@ -640,7 +640,7 @@ The fix was to add this line to the audit initializer:
 Audited.store_synthesized_enums = true
 ```
 
-## undefined method new_record? for []:Array
+## undefined method new_record? for []:Array ✅
 
 Test run this error appears: `pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106`.
 

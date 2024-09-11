@@ -34,21 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "022c27c7b82275e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md"
+                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md"
               }
             }
           }
@@ -175,14 +163,14 @@
       "random-note:Open random note": false
     }
   },
-  "active": "022c27c7b82275e7",
+  "active": "91144184d0a8362e",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
+    "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
