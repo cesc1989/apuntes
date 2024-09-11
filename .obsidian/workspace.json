@@ -34,9 +34,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "2eca804081823dac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md"
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md"
               }
             }
           }
@@ -163,10 +175,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "91144184d0a8362e",
+  "active": "2eca804081823dac",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/AppBlend/Upgrade Rails to 7.0.4 - Rails.env.local?.md",
@@ -178,7 +190,7 @@
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/003 - AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
-    "Luna/Backend/AppBlend/attachments/005 - QA Plan.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",
     "Luna/Backend/AppBlend/attachments/as.queues.purge.png",
     "Luna/Backend/AppBlend/attachments/as.queues.analysis.png",
