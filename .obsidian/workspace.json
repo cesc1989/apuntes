@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zed",
+                "query": "fugit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -148,8 +148,20 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_09_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_11_-_Archivos_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_12_-_Seguridad_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
+    "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
+    "DevAsPros/Coshi_Notes/Editores_de_Texto_Rico_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
+    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
+    "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
     "DevAsPros/Shopify/Guía_y_Enlaces_para_empezar_según_qué_se_quiera_ha.md",
     "DevAsPros/Shopify/Apuntes_Shopify_Development_Fundamentals.md",
     "DevAsPros/Shopify/Apuntes_Configuración_Tienda.md",
@@ -164,18 +176,6 @@
     "DevAsPros/NSAC/Cómo_Enviar_emails_con_Sidekiq,_ActionMailer_y_Mai.md",
     "DevAsPros/NSAC/Cómo_Agregar_Vistas_Dummy.md",
     "DevAsPros/Lupita/Lecciones_Rails_-_Lupita.md",
-    "DevAsPros/Lupita/Lecciones_Generales_-_Lupita.md",
-    "DevAsPros/Intrati/WebRTC_y_Cómo_Montar_Proyectos_con_esta_Tecnología.md",
-    "DevAsPros/Intrati/Visión_y_Propuesta_de_Valor_de_Intrati.md",
-    "DevAsPros/Intrati/Primera_Llamada_No_de_Prueba.md",
-    "DevAsPros/Intrati/Plan_Divulgación_de_Intrati.md",
-    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
-    "DevAsPros/Gaming_Frog/Lecciones_y_Aprendizajes_#1.md",
-    "DevAsPros/Feed_&_Fit/Lecciones_Último_Sprint_-_F&F.md",
-    "DevAsPros/Etom/Redifinir_el_Proyecto_en_tiempo_de_COVID-19.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",

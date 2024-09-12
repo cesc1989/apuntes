@@ -26,14 +26,15 @@ Al final quedé con dos extensiones para captura de imágenes:
 
 El primero es para soportar pegar y arrastra. El segundo para la carga desde el explorador.
 
-De este [gist](https://gist.github.com/fdrissi/ef51cc8cf995115148923d1ee12f72fe) saqué practicamente toda la base para lo que hice.
+De este [gist](https://gist.github.com/fdrissi/ef51cc8cf995115148923d1ee12f72fe) saqué prácticamente toda la base para lo que hice.
 
 
 ## La Implementación
 
 Agregué tres funciones adicionales al controlador `rich-editor`:
 
-    fileFromExplorer(event) {
+```javascript
+  fileFromExplorer(event) {
       if (!event?.target?.files?.[0]) return
     
       this.uploadFile(event.target.files[0])
@@ -55,12 +56,15 @@ Agregué tres funciones adicionales al controlador `rich-editor`:
     
       this.fileExplorerTarget.click()
     }
+```
 
 La función  `fileFromExplorer` se encarga de capturar la imagen seleccionada.
 
 La imagen está en la lista `files` de `event.target`:
 
-    event.target.files[0]
+```javascript
+event.target.files[0]
+```
 
 
 > Nota como se reusa `this.uploadFile` la cual es la función que se hizo para el módulo `dropImage`.
@@ -69,7 +73,9 @@ La otra función es `addImageToEditor(imageUrl)`. Esta es la que, cuando hay una
 
 La clave es tener acceso al editor:
 
-    this.element.editor.chain().focus().setImage({ src: imageUrl }).run()
+```javascript
+this.element.editor.chain().focus().setImage({ src: imageUrl }).run()
+```
 
 **Un poco de detalles:**
 
@@ -80,18 +86,19 @@ La clave es tener acceso al editor:
 
 De último pero no menos importante es la función `launchFileExplorer(event)`. Esta es ejecutada por el botón que tiene el ícono de adjunto. Se abre el explorador mediante un input file oculto:
 
-    # El botón
-    <button class="btn btn-outline-secondary" data-action="rich-editor#launchFileExplorer" title="Adjuntar imagen">
-      <i class="fas fa-paperclip"></i>
-    </button>
-    
-    # El campo oculto
-    <input
-        type="file"
-        id="file_explorer"
-        class="d-none"
-        accept="image/png, image/jpeg"
-        data-rich-editor-target="fileExplorer"
-        data-action="rich-editor#fileFromExplorer"
-      />
+```html
+# El botón
+<button class="btn btn-outline-secondary" data-action="rich-editor#launchFileExplorer" title="Adjuntar imagen">
+	<i class="fas fa-paperclip"></i>
+</button>
 
+# El campo oculto
+<input
+	type="file"
+	id="file_explorer"
+	class="d-none"
+	accept="image/png, image/jpeg"
+	data-rich-editor-target="fileExplorer"
+	data-action="rich-editor#fileFromExplorer"
+/>
+```
