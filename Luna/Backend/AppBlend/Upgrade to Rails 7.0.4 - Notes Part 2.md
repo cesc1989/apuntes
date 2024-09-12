@@ -2,9 +2,7 @@
 
 This is a continuation of [[Upgrade to Rails 7.0.4 - Notes]]
 
-# Test Errors
-
-## Unsafe redirect to "https://www.getluna.com", pass allow_other_host: true to redirect anyway
+# Unsafe redirect to "https://www.getluna.com", pass allow_other_host: true to redirect anyway
 
 Error:
 ```
@@ -24,7 +22,7 @@ redirect_to("https://www.getluna.com", allow_other_host: true)
 
 About: https://blog.saeloun.com/2022/02/08/rails-7-raise-unsafe-redirect-error/
 
-## Value not defined un Enum raises ActiveRecord::NotNullViolation with null constraint
+# Value not defined un Enum raises ActiveRecord::NotNullViolation with null constraint
 
 Ran this and got this error:
 ```bash
@@ -59,7 +57,7 @@ I found that there's no defined value in the enum when the record value is zero.
 
 In [this issue](https://github.com/rails/rails/issues/52074) someone asked this same problem and the explanation is that Rails now expects enum values to match DB values.
 
-## ✅ Error with PayerAuthorization and BatchLoader
+# ✅ Error with PayerAuthorization and BatchLoader
 
 Association: Episode -> PayerAuthorizations (aliased Authorizations).
 

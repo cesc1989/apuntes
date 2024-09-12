@@ -4,11 +4,11 @@
 
 Also, after running `bundle exec rails app:update` I left everything untouched because this app has a lot of years running and there's a lot of things that are better left untouched.
 
-## Updated to 6.1.6.1 ✅
+# Updated to 6.1.6.1 ✅
 
 Edge sits at Rails 6.1.6. First step to take it to version 7.0.4 was to updated it to latest minor patch/security patch. After updating it to 6.1.6.1 got this error in ALL tests.
 
-### Psych::DisallowedClass ✅
+## Psych::DisallowedClass ✅
 
 ```bash
 Psych::DisallowedClass:
@@ -149,7 +149,7 @@ So, because Gemfile depends on paranoia = 2.4.3
 
 Update it to [version 2.5.0](https://github.com/rubysherpas/paranoia/blob/v2.5.0/paranoia.gemspec#L27) - [Release](https://github.com/rubysherpas/paranoia/releases/tag/v2.5.0)
 
-## Gem active_record-postgres-constraints mismatch
+## Gem active_record-postgres-constraints mismatch ✅
 
 ```
 Could not find compatible versions
@@ -194,9 +194,8 @@ Jul  9 17:55 active_record-postgres-constraints-ff0622005ad4
 Bundler docs about git as source -> https://bundler.io/guides/git.html
 
 
-# CI Errors
 
-## Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError)
+# Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError)
 
 Got this error when building the release image in the CI:
 ```bash
@@ -229,7 +228,7 @@ Got this error when building the release image in the CI:
 
 This was already seen at [[Upgrade Ruby to 3.1.0]] ==the fix is to use Rails 7.0.1==.
 
-## 👉🏽 undefined method reference for ActiveSupport::Dependencies:Module 👈🏽
+# 👉🏽 undefined method reference for ActiveSupport::Dependencies:Module 👈🏽 - devise
 
 This is a Devise related error.
 
@@ -255,7 +254,7 @@ NoMethodError: undefined method reference for ActiveSupport::Dependencies:Module
 
 Solution is to upgrade Devise to [version 4.8.1](https://github.com/heartcombo/devise/pull/5357#issuecomment-995863195)
 
-## NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class
+# NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class
 
 New error:
 ```bash
@@ -266,7 +265,7 @@ NoMethodError: undefined method `use_yaml_unsafe_load=' for ActiveRecord::Base:C
 
 The CI threw this error when building for rails 7.0.1. ==Fixed by updating to Rails 7.0.4==.
 
-## Error with class being loaded in config/database.yml
+# Error with class being loaded in config/database.yml
 
 This is error:
 ```bash
@@ -320,7 +319,7 @@ Probably it is but fixed by loading this class in `config/application.rb`
 require_relative "../app/lib/runtime"
 ```
 
-#  undefined method connection_config' for ActiveRecord::Base:Class
+#  undefined method connection_config' for ActiveRecord::Base:Class ✅ - gema active_record-postgres-constraints
 
 Getting this:
 ```
@@ -563,9 +562,7 @@ Where? I put it in `config/application.rb`. In [this comment](https://github.com
 
 Turns out it's better in `config/environments/test.rb` as per [[Pruebas en Local con Rails 7#Pruebas que se rompen sin la configuración de LoggerSilence]]
 
-# Test runs errors
-
-## undefined method user_scopes for DocumentTag:Class ✅
+# undefined method user_scopes for DocumentTag:Class ✅
 
 ```bash
 An error occurred while loading rails_helper.
@@ -586,6 +583,8 @@ NoMethodError:
 ```
 
 This is solved by updating [stateful_enum](https://github.com/amatsuda/stateful_enum) gem to 0.7.0
+
+# Audited gem issues
 
 ## undefined method last for 0:Integer in audited_changes method call
 
@@ -625,7 +624,7 @@ Gems mentioned
 - [stateful_enum](https://github.com/amatsuda/stateful_enum)
 - [audited](https://github.com/collectiveidea/audited)
 
-### Solution
+**Solution**
 
 The error was present in the audited gem. The project uses a forked version that was left in the version 4.9.0. Turns out, this code:
 ```ruby
@@ -642,7 +641,31 @@ The fix was to add this line to the audit initializer:
 Audited.store_synthesized_enums = true
 ```
 
-## undefined method new_record? for []:Array ✅
+## undefined method as_user for "Audited::Audit":String
+
+```bash
+Failure/Error:
+       Audited.audit_class.as_user(system_user.id) do
+         last_audit.undo
+       end
+
+     NoMethodError:
+       undefined method as_user for "Audited::Audit":String
+
+             Audited.audit_class.as_user(system_user.id) do
+                                ^^^^^^^^
+     # ./app/workers/discharge_inactive_care_plan_worker.rb:25:in `perform'
+     # ./spec/workers/discharge_inactive_care_plan_worker_spec.rb:51:in `block (4 levels) in <top (required)>'
+```
+
+Related issue reports:
+
+- [Uninitialized Constant when defining an audit_class in the initializer](https://github.com/collectiveidea/audited/issues/608)
+- [Use string class name and constantize](https://github.com/collectiveidea/audited/pull/609)
+
+The fix is to update audited to 5.2.0.
+
+# undefined method new_record? for []:Array - batch-loader & has_many_inversing
 
 Test run this error appears: `pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106`.
 
@@ -721,32 +744,6 @@ association.target = records
 #(...)
 ```
 
-This is the output of `records` and `association` in the main branch that's on Rails 6:
-```bash
-$ pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106
-
-"Array"
-:patients
-
-"Array"
-:care_plans
-
-"Array"
-:waitlist_entries
-```
-
-And in the Rails 7 upgrade work branch:
-```bash
-"Array"
-:patients
-
-"Array"
-:care_plans
-
-"Array"
-:waitlist_entries
-```
-
 What's the difference? What's causing the:
 ```
 undefined method `new_record?' for []:Array
@@ -754,11 +751,11 @@ undefined method `new_record?' for []:Array
 
 It looks like the error is indeed something in batch-loader gem. Now the thing is to be able to identify the error in the stack trace.
 
-### Fixed 🎉
+**Fixed 🎉**
 
 Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[Exploring ActiveRecord Associations for AppBlend]]
 
-## Only UUIDs are valid namespace identifiers
+# Only UUIDs are valid namespace identifiers
 
 This is for AWS SNS tests.
 
@@ -802,31 +799,7 @@ Change the setting to false in the file `config/initializers/new_framework_defau
 Rails.application.config.active_support.use_rfc4122_namespaced_uuids = false
 ```
 
-## undefined method as_user for "Audited::Audit":String
-
-```bash
-Failure/Error:
-       Audited.audit_class.as_user(system_user.id) do
-         last_audit.undo
-       end
-
-     NoMethodError:
-       undefined method as_user for "Audited::Audit":String
-
-             Audited.audit_class.as_user(system_user.id) do
-                                ^^^^^^^^
-     # ./app/workers/discharge_inactive_care_plan_worker.rb:25:in `perform'
-     # ./spec/workers/discharge_inactive_care_plan_worker_spec.rb:51:in `block (4 levels) in <top (required)>'
-```
-
-Related issue reports:
-
-- [Uninitialized Constant when defining an audit_class in the initializer](https://github.com/collectiveidea/audited/issues/608)
-- [Use string class name and constantize](https://github.com/collectiveidea/audited/pull/609)
-
-The fix is to update audited to 5.2.0.
-
-## Rails 7.0 ignores default format
+# Rails 7.0 ignores default format for Date and Time
 
 A setting like:
 ```ruby
