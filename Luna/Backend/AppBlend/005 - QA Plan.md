@@ -6,7 +6,10 @@ Este plan contempla navegar y usar Luxe, probar integración entre servicios int
 
 - Actions Menu
 	- [ ] Browse all sections
-	- [ ] Create a deduction
+	- Assist
+		- [ ] Create a deduction
+	- Benefit Verifications
+		-  [ ]  Filter by any attribute
 - Patients / Profile
 	- [ ] Search patient
 	- [ ] Create care plan for patient
@@ -17,7 +20,9 @@ Este plan contempla navegar y usar Luxe, probar integración entre servicios int
 	- [ ] Visit Incoming faxes
 - Clinical menu
 	- [ ] Go to Auto charts section
+		- [ ] View auto chart detail
 	- [ ] Go to Plans of Care section
+		- [ ] View plan of care detail
 - Clinics / Profile
 	- [ ] Add new portal recipient
 	- [ ] Verify email for Clinical Dashboard
@@ -25,7 +30,9 @@ Este plan contempla navegar y usar Luxe, probar integración entre servicios int
 - Appointments / Detail
 	- [ ] Visit appointment detail
 - Exercise Programs
-	- [ ] Complete exercises in LE-W
+	- [ ] View detail of an exercise program
+		- [ ] Complete exercises in LE-W. Checklist method
+		- [ ] Check recent workout, checklist, shows in the list
 
 
 ## Trigger background jobs manually
