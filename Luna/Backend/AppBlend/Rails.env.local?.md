@@ -1,5 +1,3 @@
-# Upgrade Rails to 7.0.4 - Rails.env.local?
-
 # Rails.env.local? en Rails 7.1
 
 Edge tiene su propia definición que está en `lib/lunacare/environment.rb`:

@@ -1,4 +1,4 @@
-# Upgrade Rails to 7.0.4 - Gema active-record-postgresql-constraint
+# Gema active-record-postgresql-constraint
 
 Necesito actualizar este proyecto a **Rails 7.0.4 desde la versión 6.1.6**. Hay algunos puntos clave antes de poder hacer la migración. Debo entender las implicaciones de algunas gemas, qué código _custom_ podría tener con Rails 7 y con Ruby 3.1 para poder hacer la actualización.
 
