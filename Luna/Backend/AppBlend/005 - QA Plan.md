@@ -41,14 +41,26 @@ Wilted Tree Reminder Worker
 - [ ] Trigger worker
 - [ ] Check wilted email was received
 
+```
+WiltedTreeExercisesViaWebReminderWorker.perform_async([1])
+```
+
 Clinical Dashboard Send Link Worker
 
 Workers:
 ```
-WiltedTreeExercisesViaWebReminderWorker.perform_async([1])
-
 # Para practice Action On-Demand
 ProviderPortalEmailSendingWorker.perform_async("618d2473-9d4c-4db4-9a91-741964a9d791")
+```
+
+
+Athena Clinical Dashboard data workers
+- [ ] Athena Provider Portal Physician Group
+- [ ] Athena Provider Portal Practices
+
+```
+Athena::ProviderPortalPhysicianGroupWriterWorker.perform_async
+Athena::ProviderPortalPartnerClinicWriterWorker.perform_async
 ```
 
 ## Test GraphQL queries
