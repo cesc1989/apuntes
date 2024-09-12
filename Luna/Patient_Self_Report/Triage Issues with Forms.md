@@ -85,3 +85,9 @@ En la grabación se ven varias cosas:
 	- Nota que antes el paciente tuvo un care plan en estado _auto discharged_
 
 ¿Qué falló aquí? Necesito los enlaces de los Intake Forms y del Progress.
+
+Intake 2024-08-16 [view](https://forms.getluna.com/patients/0cde0395-f774-43c3-9e10-f6c8c565164b/summary/09c79dbb-fb63-426d-a303-76fd47730abe)
+
+Intake 2024-08-19 [view](https://forms.getluna.com/patients/0cde0395-f774-43c3-9e10-f6c8c565164b/summary/ed189d1e-6f6f-483d-9340-5ed8922471c3)
+
+Progress 2024-08-31 [view](https://forms.getluna.com/patients/0cde0395-f774-43c3-9e10-f6c8c565164b/summary/bfa9d6e4-4813-4ad6-9dcf-5f84d10625b7)

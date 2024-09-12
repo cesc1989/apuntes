@@ -9,7 +9,9 @@ Para poder encontrar a los contactos relacionados toca usar la API de búsqueda.
 - Docs de la API https://developers.hubspot.com/docs/api/crm/search
 - Hay que definir un valor para el parámetro `limit`.
 	- Máximo puede ser 200.
-- Al usar el operador para filtros `IN`, la lista de valores deben ser en minúsculas
+- El operador para filtros `IN` tiene dos cosas clave si se usa:
+	- Si la propiedad que se busca es tipo string, la lista de valores deben ser en minúsculas
+	- Si la propiedad que se busca _no_ es tipo string, hay indicar los valores de manera exacta.
 - En los filtros:
 	- Para aplicar una lógica `AND` hay que definir varias condiciones en el operador `filters`
 	- Para aplicar una lógica `OR` hay que definir varios `filters` en en un `filterGroup`
@@ -92,7 +94,7 @@ Respuesta:
 
 En el Admin Dashboard, se puede filtrar por varios Practices o Clinics. Esto significa que se puede buscar para varios proveedores diferentes. Para evitar tener que armar varios groups de `filterGroups` (además de que tiene una limitante), sale mejor usar el operador `IN`.
 
-Nota que los valores están en minúsculas.
+La propiedad es `powered_by_luna_code` la cual es tipo string así que los valores están en minúsculas.
 
 ```json
 {
@@ -121,6 +123,62 @@ Nota que los valores están en minúsculas.
           "values": [
             "ucl",
             "acs"
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+Cuando se busca para una propiedad que es de tipo Lista, ejemplo, `hs_lead_status`, hay que pasar los valores exactos en la lista:
+```json
+{
+  "limit": 100,
+  "properties": [
+    "firstname",
+    "lastname",
+    "email",
+    "date_of_birth",
+    "createdate",
+    "hs_lead_status",
+    "lead_source",
+    "powered_by_luna_code"
+  ],
+  "filterGroups": [
+    {
+      "filters": [
+        {
+          "propertyName": "lead_source",
+          "operator": "EQ",
+          "value": "Powered by Luna"
+        },
+        {
+          "propertyName": "powered_by_luna_code",
+          "operator": "IN",
+          "values": [
+            "eve"
+          ]
+        },
+        {
+          "propertyName": "hs_lead_status",
+          "operator": "IN",
+          "values": [
+            "Patient - Suspect",
+            "Patient - Qualified: Ready to book",
+            "Patient - Qualified: Booked in Luxe",
+            "Patient - Qualified: No therapist available",
+            "Patient - Unqualified: Not ready yet",
+            "Patient - Qualified: Future surgery",
+            "Patient - Unqualified: Already been / being treated",
+            "Patient - Unqualified: Bad contact info",
+            "Patient - Unqualified: Not interested in home PT",
+            "Patient - Unqualified: Doesn’t want to pay",
+            "Patient - Unqualified: Immobilized / Home health",
+            "Patient - Unqualified: Not able to connect",
+            "Patient - Unqualified: Out of area",
+            "Patient - Unqualified: Unsupported Condition",
+            "Patient - Unqualified: Other"
           ]
         }
       ]
