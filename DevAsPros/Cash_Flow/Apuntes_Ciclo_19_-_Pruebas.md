@@ -15,3 +15,13 @@ end
 ```
 
 Y así queda mejor representado el sentido de la prueba.
+
+# Contar elementos con capybara
+
+Quiero saber cuántos elementos de cierto selector cargan con capybara. Se puede hacer así
+
+```ruby
+expect(page).to have_selector("tr", count: 2)
+```
+
+Visto en Stack Overflow: https://stackoverflow.com/a/17033067/1407371

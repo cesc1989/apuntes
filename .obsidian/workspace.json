@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "8d89bf877beab8b7",
+            "id": "61684451d1c330d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md"
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md"
               }
             }
           }
@@ -161,14 +161,24 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8d89bf877beab8b7",
+  "active": "61684451d1c330d0",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Rails.env.local?.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime Text - Atajos de Teclado.md",
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_VS_Code.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
@@ -181,20 +191,10 @@
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",
     "Luna/Backend/AppBlend/attachments/as.queues.purge.png",
     "Luna/Backend/AppBlend/attachments/as.queues.analysis.png",
     "Luna/Backend/AppBlend/attachments",
-    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Backend/Email Verification/Portal User Verification.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "DevAsPros/Cash_Flow/attachments/gasto.explore.png",
     "DevAsPros/Cash_Flow/attachments",
     "Luna/Clinical_Dashboard/attachments/09.request.portal.link.png",
