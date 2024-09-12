@@ -87,7 +87,7 @@ Lo que no entiendo es porque no me salió nada al buscar en Internet.
 
 **Arreglado**: en PR independiente.
 
-# Error: undefined method gsub for nil:NilClass
+# ⚠️ Error: undefined method gsub for nil:NilClass
 
 Navegando Clinical -> Plans of Care
 
@@ -106,7 +106,7 @@ app/admin/clinical/plans_of_care.rb:236:in `block (2 levels) in <main>'
 
 Esto parece solo ser en local porque me faltan variables de entorno.
 
-# Error: nil ID for rails url
+# ⚠️ Error: nil ID for rails url
 
 Navegando Clinical -> Protocol Escalations
 
