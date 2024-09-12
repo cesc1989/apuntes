@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "61684451d1c330d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+                "file": "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+                "file": "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md"
+                "file": "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md"
               }
             }
           }
@@ -161,36 +148,36 @@
       "random-note:Open random note": false
     }
   },
-  "active": "61684451d1c330d0",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "DevAsPros/Shopify/Guía_y_Enlaces_para_empezar_según_qué_se_quiera_ha.md",
+    "DevAsPros/Shopify/Apuntes_Shopify_Development_Fundamentals.md",
+    "DevAsPros/Shopify/Apuntes_Configuración_Tienda.md",
+    "DevAsPros/Poffer_Syncer/Plan_General_Inicial_de_Poffer_Syncer.md",
+    "DevAsPros/Poffer_Syncer/Plan_Ciclo_4.md",
+    "DevAsPros/Poffer_Syncer/Plan_Ciclo_3.md",
+    "DevAsPros/Poffer_Syncer/Plan_Ciclo_1.md",
+    "DevAsPros/Poffer_Syncer/Notas_API_de_Autenticación_de_Pocket.md",
+    "DevAsPros/Poffer_Syncer/Notas_API_de_Autenticación_de_Hootsuite.md",
+    "DevAsPros/Poffer_Syncer/Cómo_usar_las_gemas.md",
+    "DevAsPros/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md",
+    "DevAsPros/NSAC/Cómo_Enviar_emails_con_Sidekiq,_ActionMailer_y_Mai.md",
+    "DevAsPros/NSAC/Cómo_Agregar_Vistas_Dummy.md",
+    "DevAsPros/Lupita/Lecciones_Rails_-_Lupita.md",
+    "DevAsPros/Lupita/Lecciones_Generales_-_Lupita.md",
+    "DevAsPros/Intrati/WebRTC_y_Cómo_Montar_Proyectos_con_esta_Tecnología.md",
+    "DevAsPros/Intrati/Visión_y_Propuesta_de_Valor_de_Intrati.md",
+    "DevAsPros/Intrati/Primera_Llamada_No_de_Prueba.md",
+    "DevAsPros/Intrati/Plan_Divulgación_de_Intrati.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+    "DevAsPros/Gaming_Frog/Lecciones_y_Aprendizajes_#1.md",
+    "DevAsPros/Feed_&_Fit/Lecciones_Último_Sprint_-_F&F.md",
+    "DevAsPros/Etom/Redifinir_el_Proyecto_en_tiempo_de_COVID-19.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
-    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/AppBlend/Rails.env.local?.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime Text - Atajos de Teclado.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_VS_Code.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
-    "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
-    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
-    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",
     "Luna/Backend/AppBlend/attachments/as.queues.purge.png",
     "Luna/Backend/AppBlend/attachments/as.queues.analysis.png",
