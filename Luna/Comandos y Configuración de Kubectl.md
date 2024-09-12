@@ -73,7 +73,7 @@ kubectl logs -n [NAMESPACE-NAME] [POD-NAME] -f
 
 Para listar e ingresar a los pods.
 
-## Patient Self Report
+## Patient Self Report (backend)
 
 ```bash
 kubectl get ns
@@ -82,7 +82,6 @@ kubectl get po -n patient-forms-backend
 
 kubectl exec -it -n patient-forms-backend patient-forms-backend-[ID] -- sh
 ```
-
 
 ## Edge
 
@@ -102,4 +101,24 @@ kubectl get ns
 kubectl get po -n physician-portal
 
 kubectl exec -it -n physician-portal physician-portal-[ID] -- sh
+```
+
+## Therapist Signup (backend)
+
+```bash
+kubectl get ns
+
+kubectl get po -n therapist-credentialing-backend
+
+kubectl exec -it -n therapist-credentialing-backend therapist-credentialing-backend-[ID] -- sh
+```
+
+## Marketplace
+
+```bash
+kubectl get ns
+
+kubectl get po -n marketplace
+
+kubectl exec -it -n marketplace marketplace-[ID] -- sh
 ```
