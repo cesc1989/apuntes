@@ -13,9 +13,10 @@ Caught my eye:
 		- This gave me trouble with batch loader [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
 
 And Anthony wants me to understand these:
-- [`config.active_storage.queues.analysis`](https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-queues-analysis): `nil`
-- [`config.active_storage.queues.purge`](https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-queues-purge): `nil`
-- [`config.active_storage.track_variants`](https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-track-variants): `true`
+
+- [`config.active_storage.queues.analysis`](https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-queues-analysis)
+- [`config.active_storage.queues.purge`](https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-queues-purge)
+- [`config.active_storage.track_variants`](https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-track-variants)
 
 # What is config.active_storage.queues.analysis?
 
@@ -23,14 +24,32 @@ See https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-q
 
 ![[as.queues.analysis.png]]
 
+Once `config.load_defaults 7.0`, I have to setup:
+
+```ruby
+config.active_storage.queues.analysis = :active_storage_analysis
+```
+
 # What is config.active_storage.queues.purge?
 
 See https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-queues-purge
 
 ![[as.queues.purge.png]]
 
+Once `config.load_defaults 7.0`, I have to setup:
+
+```ruby
+config.active_storage.queues.purge = :active_storage_purge
+```
+
 # What is config.active_storage.track_variants?
 
 See https://guides.rubyonrails.org/v7.0/configuring.html#config-active-storage-track-variants
 
 ![[as.track_variants.png]]
+
+Once `config.load_defaults 7.0`, I have to setup:
+
+```ruby
+config.active_storage.track_variants = false
+```

@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "a4387f98d4d77df2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md"
               }
             }
           }
@@ -148,10 +161,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "a4387f98d4d77df2",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_09_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_11_-_Archivos_-_Coshi_Notes.md",
@@ -173,9 +189,6 @@
     "DevAsPros/Poffer_Syncer/Notas_API_de_Autenticación_de_Hootsuite.md",
     "DevAsPros/Poffer_Syncer/Cómo_usar_las_gemas.md",
     "DevAsPros/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md",
-    "DevAsPros/NSAC/Cómo_Enviar_emails_con_Sidekiq,_ActionMailer_y_Mai.md",
-    "DevAsPros/NSAC/Cómo_Agregar_Vistas_Dummy.md",
-    "DevAsPros/Lupita/Lecciones_Rails_-_Lupita.md",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",

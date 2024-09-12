@@ -24,7 +24,7 @@ Finally, it's also possible to bring some changes from the current work branch t
 
 1. 6.1.6.1 - See [[002 - Important Updates per Changelogs#6.1.6.1]] -> ✅
 2. 6.1.7 - See [[002 - Important Updates per Changelogs#6.1.7]] -> ✅
-3. 6.1.7.8 - See [[002 - Important Updates per Changelogs#6.1.7.8]]
+3. 6.1.7.8 - See [[002 - Important Updates per Changelogs#6.1.7.8]] -> ✅
 
 ### List of possible items from the current branch to integrate individually
 

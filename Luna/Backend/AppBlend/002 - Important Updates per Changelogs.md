@@ -4,7 +4,7 @@
 >
 > Read more -> https://guides.rubyonrails.org/v7.0/upgrading_ruby_on_rails.html
 
-# Rails 6.1.x
+# Rails 6.1.x ✅
 
 ## 6.1.6.1 ✅
 
@@ -29,49 +29,49 @@ See https://github.com/rails/rails/releases/tag/v6.1.7
 Previously it would serialize as an `ActiveSupport::HashWithIndifferentAccess`  
 which is wasteful and cause problem with YAML safe_load.
 
-## 6.1.7.1
+## 6.1.7.1 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7
 
 Security Fixes.
 
-## 6.1.7.2
+## 6.1.7.2 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7.2
 
 Nothing to do.
 
-## 6.1.7.3
+## 6.1.7.3 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7.3
 
 Security fixes.
 
-## 6.1.7.4
+## 6.1.7.4 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7.4
 
 Security fixes.
 
-## 6.1.7.5
+## 6.1.7.5 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7.5
 
 Security fixes.
 
-## 6.1.7.6
+## 6.1.7.6 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7.6
 
 No changes.
 
-## 6.1.7.7
+## 6.1.7.7 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7.7
 
 No significant changes.
 
-## 6.1.7.8
+## 6.1.7.8 ✅
 
 See https://github.com/rails/rails/releases/tag/v6.1.7.8
 
@@ -107,3 +107,8 @@ railties initializers.
 - [ ] Fix compatibility with `psych >= 4`.
 
 > Starting in Psych 4.0.0 `YAML.load` behaves like `YAML.safe_load`. To preserve compatibility  `Rails.application.config_for` now uses `YAML.unsafe_load` if available.
+
+
+## 7.0.4
+
+See https://github.com/rails/rails/releases/tag/v7.0.4
