@@ -33,7 +33,7 @@ Eso no lo he visto nunca en APIs REST.
 
 Esto https://graphql.pro/ y cuesta 900 usd/año. O esto https://graphql.pro/enterprise que cuesta 1900 usd/año. ¡¿Qué?!
 
-O sea, no existe REST Pro o REST Enterprise.
+O sea, no existe REST Pro o REST Enterprise. O no lo conozco.
 
 Características clave de GraphQL Ent:
 - rate limiting
@@ -41,3 +41,14 @@ Características clave de GraphQL Ent:
 - server-side caching
 	- Rails lo ofrece por defecto?
 	- Cache estándar???
+
+## Poca seguridad
+
+![[no.security.graphql.png]]
+
+Lo de dice Carlson Gross:
+
+![[client.untrusted.png]]
+
+Tweet: https://twitter.com/htmx_org/status/1834140812797522209
+
