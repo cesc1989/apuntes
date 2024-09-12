@@ -11,12 +11,13 @@
 |7| Patient - Unqualified: Already being treated / Trying to reach another clinic| Patient - Unqualified: Already been / being treated |
 |8| Patient - Unqualified: Bad contact info / Wrong number                       | Patient - Unqualified: Bad contact info             |
 |9| Patient - Unqualified: Not currently interested                              | Patient - Unqualified: Not interested in home PT    |
-|10| Patient - Unqualified: Doesn’t want to pay                                  | Patient - Unqualified: Doesn’t want to pay          |
-|11| Patient - Unqualified: Home health                                          | Patient - Unqualified: Immobilized / Home health    |
-|12| Patient - Unqualified: Not able to connect                                  | Patient - Unqualified: Not able to connect          |
-|13| Patient - Unqualified: Out of area                                          | Patient - Unqualified: Out of area                  |
-|14| Patient - Unqualified: Unsupported Condition                                | Patient - Unqualified: Unsupported Condition        |
-|15| Patient - Unqualified: Other                                                | Patient - Unqualified: Other                        |
+|10|| Patient - Unqualified: Not currently interested|
+|11| Patient - Unqualified: Doesn’t want to pay                                  | Patient - Unqualified: Doesn’t want to pay          |
+|12| Patient - Unqualified: Home health                                          | Patient - Unqualified: Immobilized / Home health    |
+|13| Patient - Unqualified: Not able to connect                                  | Patient - Unqualified: Not able to connect          |
+|14| Patient - Unqualified: Out of area                                          | Patient - Unqualified: Out of area                  |
+|15| Patient - Unqualified: Unsupported Condition                                | Patient - Unqualified: Unsupported Condition        |
+|16| Patient - Unqualified: Other                                                | Patient - Unqualified: Other                        |
 
 # Categories for the Dropdown
 
