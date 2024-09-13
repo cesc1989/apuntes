@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "33cb006730bd7d20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md"
               }
             }
           }
@@ -148,11 +161,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "33cb006730bd7d20",
   "lastOpenFiles": [
+    "Luna/Backend/Email Verification/Portal User Verification.md",
+    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
@@ -179,8 +194,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221306.png",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_09_-_Coshi_Notes.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",
