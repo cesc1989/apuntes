@@ -48,3 +48,5 @@ Para poder navegar entre diferentes pestañas sin abrir el modal ese raro. Prime
 ```
 
 Y ya se puede cambiar entre pestañas presionando `ctrl` + `tab` para ir a la siguiente a la derecha. Y para ir hacía la izquierda `ctrl` + `shift` + `tab`.
+
+Visto aquí: https://github.com/zed-industries/zed/discussions/6903
