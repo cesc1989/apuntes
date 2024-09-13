@@ -195,7 +195,7 @@ Bundler docs about git as source -> https://bundler.io/guides/git.html
 
 
 
-# Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError)
+# Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError) - Rails 7.0.0 Error
 
 Got this error when building the release image in the CI:
 ```bash
@@ -254,7 +254,7 @@ NoMethodError: undefined method reference for ActiveSupport::Dependencies:Module
 
 Solution is to upgrade Devise to [version 4.8.1](https://github.com/heartcombo/devise/pull/5357#issuecomment-995863195)
 
-# NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class
+# NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class - Rails 7.0.1 Error
 
 New error:
 ```bash
