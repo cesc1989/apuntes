@@ -116,7 +116,7 @@ So, because Gemfile depends on acts-as-taggable-on ~> 7
 
 Had to changed it to [version 9.0.0](https://github.com/mbleigh/acts-as-taggable-on/blob/v9.0.0/acts-as-taggable-on.gemspec#L25).
 
-## Gem audited mismatch
+## Gem audited mismatch ✅
 
 This sound very bad:
 ```
@@ -204,26 +204,6 @@ Got this error when building the release image in the CI:
 	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/railtie.rb:184:in `instance'
 	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/railtie.rb:223:in `method_missing'
 	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/descendants_tracker.rb:90:in `descendants'
-	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/callbacks.rb:923:in `block in define_callbacks'
-	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/callbacks.rb:920:in `each'
-	from /usr/local/bundle/gems/activesupport-7.0.0/lib/active_support/callbacks.rb:920:in `define_callbacks'
-	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/engine.rb:427:in `<class:Engine>'
-	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/engine.rb:349:in `<module:Rails>'
-	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/engine.rb:11:in `<top (required)>'
-	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/application.rb:11:in `require'
-	from /usr/local/bundle/gems/railties-7.0.0/lib/rails/application.rb:11:in `<top (required)>'
-	from /usr/local/bundle/gems/railties-7.0.0/lib/rails.rb:13:in `require'
-	from /usr/local/bundle/gems/railties-7.0.0/lib/rails.rb:13:in `<top (required)>'
-	from /app/lib/lunacare/environment.rb:3:in `require'
-	from /app/lib/lunacare/environment.rb:3:in `<top (required)>'
-	from /app/lib/lunacare.rb:3:in `require_relative'
-	from /app/lib/lunacare.rb:3:in `<top (required)>'
-	from /app/config/luna.rb:3:in `require_relative'
-	from /app/config/luna.rb:3:in `<top (required)>'
-	from /app/config/boot.rb:5:in `require_relative'
-	from /app/config/boot.rb:5:in `<top (required)>'
-	from bin/rails:4:in `require_relative'
-	from bin/rails:4:in `<main>'
 ```
 
 This was already seen at [[Upgrade Ruby to 3.1.0]] ==the fix is to use Rails 7.0.1==.
@@ -495,9 +475,9 @@ NoMethodError:
 
 This is solved by updating [stateful_enum](https://github.com/amatsuda/stateful_enum) gem to 0.7.0
 
-# Audited gem issues
+# Audited gem issues ✅
 
-## undefined method last for 0:Integer in audited_changes method call
+## undefined method last for 0:Integer in audited_changes method call ✅
 
 Test run this appears `pruebas ./spec/models/chart_spec.rb:105`.
 
@@ -552,7 +532,7 @@ The fix was to add this line to the audit initializer:
 Audited.store_synthesized_enums = true
 ```
 
-## undefined method as_user for "Audited::Audit":String
+## undefined method as_user for "Audited::Audit":String ✅
 
 ```bash
 Failure/Error:

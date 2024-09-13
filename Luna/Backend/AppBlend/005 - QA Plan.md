@@ -126,6 +126,7 @@ app2.uncancel
 
 audited 5.2.0
 
+Therapist
 ```ruby
 t1 = Therapist.order("RANDOM()").first
 t1.audits
@@ -134,4 +135,15 @@ t1.audits.first.audited_changes
 t1.update(accepting_new_patients: "open_to_new_patients")
 
 t1.accepting_new_patients_changed_at
+```
+
+Appointment
+```ruby
+a1 = Appointment.order("RANDOM()").first
+a1.audits
+a1.audits.first.audited_changes
+
+a1.rating_altered?
+a1.update(rate_value: 4)
+a1.rating_altered?
 ```

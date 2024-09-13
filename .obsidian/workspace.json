@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "d25bced3e93405eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/005 - QA Plan.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,13 +148,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "d25bced3e93405eb",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
+    "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
     "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
@@ -177,13 +168,11 @@
     "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
     "Luna/Patient_Self_Report/Triage Issues with Forms.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
@@ -192,8 +181,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221306.png",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_09_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_11_-_Archivos_-_Coshi_Notes.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_12_-_Seguridad_-_Coshi_Notes.md",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",
