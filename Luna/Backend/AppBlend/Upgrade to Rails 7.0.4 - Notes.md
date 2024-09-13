@@ -228,7 +228,7 @@ Got this error when building the release image in the CI:
 
 This was already seen at [[Upgrade Ruby to 3.1.0]] ==the fix is to use Rails 7.0.1==.
 
-# 👉🏽 undefined method reference for ActiveSupport::Dependencies:Module 👈🏽 - devise
+# 👉🏽 undefined method reference for ActiveSupport::Dependencies:Module 👈🏽 - devise gem
 
 This is a Devise related error.
 
@@ -473,7 +473,7 @@ Where? I put it in `config/application.rb`. In [this comment](https://github.com
 
 Turns out it's better in `config/environments/test.rb` as per [[Pruebas en Local con Rails 7#Pruebas que se rompen sin la configuración de LoggerSilence]]
 
-# undefined method user_scopes for DocumentTag:Class ✅
+# undefined method user_scopes for DocumentTag:Class ✅  - stateful_enum gem
 
 ```bash
 An error occurred while loading rails_helper.
