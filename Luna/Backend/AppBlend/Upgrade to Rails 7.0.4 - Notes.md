@@ -820,7 +820,6 @@ Rails.application.config.after_initialize do
 end
 ```
 
-In the next section I'll try to explain above `after_initialize` block.
 
 # Happened but can be ignored
 

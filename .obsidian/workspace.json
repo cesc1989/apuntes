@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "37f66f599c2cbb8a",
+            "id": "d25bced3e93405eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
-                "mode": "preview",
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/006 - Settings for config defaults.md"
+                "file": "Luna/Backend/AppBlend/005 - QA Plan.md"
               }
             }
           }
@@ -161,22 +161,23 @@
       "random-note:Open random note": false
     }
   },
-  "active": "37f66f599c2cbb8a",
+  "active": "d25bced3e93405eb",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
+    "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
+    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
     "Luna/Backend/AppBlend/Rails.env.local?.md",
     "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
@@ -193,7 +194,6 @@
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_11_-_Archivos_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_12_-_Seguridad_-_Coshi_Notes.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",

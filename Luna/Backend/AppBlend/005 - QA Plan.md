@@ -123,3 +123,15 @@ RuntimeError: Invalid transition
 app2 = Appointment.order("RANDOM()").first
 app2.uncancel
 ```
+
+audited 5.2.0
+
+```ruby
+t1 = Therapist.order("RANDOM()").first
+t1.audits
+t1.audits.first.audited_changes
+
+t1.update(accepting_new_patients: "open_to_new_patients")
+
+t1.accepting_new_patients_changed_at
+```
