@@ -28,3 +28,23 @@ Pero no me convence del todo así que pondré por aquí los atajos de teclado pa
 `CMD` + `D`: duplica el cursor. Como en Sublime Text.
 
 `CMD` + `Shift` + `K`: elimina la línea donde está el cursor.
+
+## Modificando los Keymaps
+
+Para poder navegar entre diferentes pestañas sin abrir el modal ese raro. Primero:
+
+`CMD` + `k`, `CMD` + `S` para abrir el archivo `~/.config/zed/keymap.json`. En ese archivo ponemos esto:
+
+```json
+[
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-tab": "pane::ActivateNextItem",
+      "ctrl-shift-tab": "pane::ActivatePrevItem"
+    }
+  }
+]
+```
+
+Y ya se puede cambiar entre pestañas presionando `ctrl` + `tab` para ir a la siguiente a la derecha. Y para ir hacía la izquierda `ctrl` + `shift` + `tab`.

@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Swap Primary Methods flow.md"
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "33cb006730bd7d20",
   "lastOpenFiles": [
-    "Luna/Backend/Email Verification/Portal User Verification.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+    "Luna/Backend/Email Verification/Portal User Verification.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",

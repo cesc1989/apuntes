@@ -28,8 +28,10 @@ rescue *ERRORS => e
 end
 ```
 
-With the two different landing pages by bringing the conditional from the view:
+With the two different landing pages, by bringing the conditional from the view:
 ```ruby
+# email_verifications/new.html.erb
+
 if @communication_method&.verified?
   # verified
 elsif @communication_method&.verification_code != @code || @communication_method&.expired_verification_code?
@@ -55,4 +57,4 @@ def new
 end
 ```
 
-Would this work?
+Would this work? No. The redirect or render will finish the action leaving the final part unexecuted. For it to work, I'd need to call the `swap_primary_methods` in every conditional so that it gets executed wherever it falls.
