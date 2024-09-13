@@ -401,95 +401,6 @@ config = ActiveRecord::Base.connection_db_config
 return true if config && config.configuration_hash[:adapter].in?(%w[postgresql postgis])
 ```
 
-# uninitialized constant EmailLogHubspot (zeitwerk)
-
-This code in `config/initializers/action_mailer`:
-```ruby
-ActionMailer::Base.register_observer(EmailLogHubspot)
-```
-
-causes this error:
-```bash
-NameError:
-  uninitialized constant EmailLogHubspot
-
-  ActionMailer::Base.register_observer(EmailLogHubspot)
-                                       ^^^^^^^^^^^^^^^
-# ./config/initializers/action_mailer.rb:3:in `<top (required)>'
-# /Users/francisco/.gem/ruby/3.1.0/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `load'
-# /Users/francisco/.gem/ruby/3.1.0/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `load'
-```
-
-when doing the Zeitwerk check command
-```
-bundle exec rails zeitwerk:check
-```
-
-This is fixed it by wrapping the initializer in this custom Rails code:
-```ruby
-Rails.application.config.after_initialize do
-  ActionMailer::Base.register_observer(EmailLogHubspot)
-end
-```
-
-In the next section I'll try to explain above `after_initialize` block.
-
-# About Autoload and Reloadable Code
-
-As [explained here](https://guides.rubyonrails.org/v7.0/autoloading_and_reloading_constants.html#autoloading-when-the-application-boots) and mentioned [here](https://stackoverflow.com/a/73463696/1407371) by Xavier Noira.
-
-The Autoloading and Reloading Constants guides say:
-> While booting, applications can autoload from the autoload once paths (...)
->
-> However, ==you cannot autoload from the autoload paths== (...). This applies to code in `config/initializers` as well as application or engines initializers.
-
-It also explains the why:
-> Why? **Initializers only run once, when the application boots**. If you reboot the server, they run again in a new process, but ==reloading does not reboot the server, and initializers don't run again==.
-
-Code in the `config/initializers` only loads when the Rails app boots.
-
-To autoload code in this folder when the app boots and reload, you need to use the `to_prepare` block:
-```ruby
-# config/initializers/api_gateway_setup.rb
-Rails.application.config.to_prepare do
-  ApiGateway.endpoint = "https://example.com" # CORRECT
-end
-```
-
-This callback might run twice.
-
-To make code in the initializers folder load only on boot, use this other callback instead:
-```ruby
-Rails.application.config.after_initialize do
-  ActionMailer::Base.register_observer(EmailLogHubspot)
-end
-```
-
-The guides make it clear that:
-> Reloadable classes and modules can be autoloaded in `after_initialize` blocks too. These run on boot, *but do not run again on reload*.
-
-
-# Zeitwerk
-
-## Commands to check everything is in order
-
-```bash
-bundle exec rails runner 'p Rails.autoloaders.zeitwerk_enabled?'
-bundle exec rails zeitwerk:check
-```
-
-## Wrap initializers in callback
-
-I had to wrap lots of code in initializers folder with this block:
-```ruby
-Rails.application.config.after_initialize do
-end
-```
-
-Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
-> This is unrelated to Zeitwerk, ==autoloading from initializers was just wrong conceptually regardless of the autoloader==.
-
-
 # Rails assets:precompile
 
 Got this error in the CI and local env:
@@ -822,6 +733,94 @@ The ideal fix is to find all places where dates are interpolated and send the `t
 ```
 
 In [Stack Overflow](https://stackoverflow.com/questions/71177165/rails-ignores-the-default-date-format-after-upgrading-from-6-1-to-7-0).
+
+# Zeitwerk
+
+## About Autoload and Reloadable Code
+
+As [explained here](https://guides.rubyonrails.org/v7.0/autoloading_and_reloading_constants.html#autoloading-when-the-application-boots) and mentioned [here](https://stackoverflow.com/a/73463696/1407371) by Xavier Noira.
+
+The Autoloading and Reloading Constants guides say:
+> While booting, applications can autoload from the autoload once paths (...)
+>
+> However, ==you cannot autoload from the autoload paths== (...). This applies to code in `config/initializers` as well as application or engines initializers.
+
+It also explains the why:
+> Why? **Initializers only run once, when the application boots**. If you reboot the server, they run again in a new process, but ==reloading does not reboot the server, and initializers don't run again==.
+
+Code in the `config/initializers` only loads when the Rails app boots.
+
+To autoload code in this folder when the app boots and reload, you need to use the `to_prepare` block:
+```ruby
+# config/initializers/api_gateway_setup.rb
+Rails.application.config.to_prepare do
+  ApiGateway.endpoint = "https://example.com" # CORRECT
+end
+```
+
+This callback might run twice.
+
+To make code in the initializers folder load only on boot, use this other callback instead:
+```ruby
+Rails.application.config.after_initialize do
+  ActionMailer::Base.register_observer(EmailLogHubspot)
+end
+```
+
+The guides make it clear that:
+> Reloadable classes and modules can be autoloaded in `after_initialize` blocks too. These run on boot, *but do not run again on reload*.
+
+
+## Commands to check everything is in order
+
+```bash
+bundle exec rails runner 'p Rails.autoloaders.zeitwerk_enabled?'
+bundle exec rails zeitwerk:check
+```
+
+## Wrap initializers in callback
+
+I had to wrap lots of code in initializers folder with this block:
+```ruby
+Rails.application.config.after_initialize do
+end
+```
+
+Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
+> This is unrelated to Zeitwerk, ==autoloading from initializers was just wrong conceptually regardless of the autoloader==.
+
+## uninitialized constant EmailLogHubspot (zeitwerk)
+
+This code in `config/initializers/action_mailer`:
+```ruby
+ActionMailer::Base.register_observer(EmailLogHubspot)
+```
+
+causes this error:
+```bash
+NameError:
+  uninitialized constant EmailLogHubspot
+
+  ActionMailer::Base.register_observer(EmailLogHubspot)
+                                       ^^^^^^^^^^^^^^^
+# ./config/initializers/action_mailer.rb:3:in `<top (required)>'
+# /Users/francisco/.gem/ruby/3.1.0/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `load'
+# /Users/francisco/.gem/ruby/3.1.0/gems/bootsnap-1.10.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `load'
+```
+
+when doing the Zeitwerk check command
+```
+bundle exec rails zeitwerk:check
+```
+
+This is fixed it by wrapping the initializer in this custom Rails code:
+```ruby
+Rails.application.config.after_initialize do
+  ActionMailer::Base.register_observer(EmailLogHubspot)
+end
+```
+
+In the next section I'll try to explain above `after_initialize` block.
 
 # Happened but can be ignored
 
