@@ -57,4 +57,6 @@ def new
 end
 ```
 
-Would this work? No. The redirect or render will finish the action leaving the final part unexecuted. For it to work, I'd need to call the `swap_primary_methods` in every conditional so that it gets executed wherever it falls.
+Would this work? ~~No. The redirect or render will finish the action leaving the final part unexecuted. For it to work, I'd need to call the `swap_primary_methods` in every conditional so that it gets executed wherever it falls.~~
+
+It should work. Did a test in a test application and it executed the code in the end always.
