@@ -1,4 +1,4 @@
-# Swap Primary Methods flow in EmailVerificationsController
+# Swap Primary Methods flow in EmailVerificationsController - 🟢
 
 > [!INFO]
 > Commit where all of the EmailVerification stuff was added
