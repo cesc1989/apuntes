@@ -208,7 +208,7 @@ Got this error when building the release image in the CI:
 
 This was already seen at [[Upgrade Ruby to 3.1.0]] ==the fix is to use Rails 7.0.1==.
 
-# 👉🏽 undefined method reference for ActiveSupport::Dependencies:Module 👈🏽 - devise gem
+# 👉🏽 undefined method reference for ActiveSupport::Dependencies:Module 👈🏽 - devise gem ✅
 
 This is a Devise related error.
 

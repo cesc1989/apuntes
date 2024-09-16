@@ -8,11 +8,15 @@ Estoy probando este editor por que tiene dos cosas que me gustan mucho y en Subl
 
 Pero no me convence del todo así que pondré por aquí los atajos de teclado para poder refrescar.
 
+Página con todos las combinaciones de teclas.
+
 # En Macos
 
 ## Generales
 
 `CMD` + `R`: Muestra/Oculta panel derecho
+
+`CMD` + `Shift` + `E`: Activa el panel de exploración de proyecto.
 
 ## Edición de Texto
 
@@ -28,6 +32,16 @@ Pero no me convence del todo así que pondré por aquí los atajos de teclado pa
 `CMD` + `D`: duplica el cursor. Como en Sublime Text.
 
 `CMD` + `Shift` + `K`: elimina la línea donde está el cursor.
+
+## Navegando clases y símbolos
+
+Para abrir una clase referenciada desde otra, hay que poner el cursor sobre el nombre de la clase y luego:
+
+`CMD` + `Click` para que se abra la clase en un nuevo editor.
+
+También funciona para constantes.
+
+`CMD` + `T`: Para encontrar símbolos.
 
 ## Modificando los Keymaps
 
