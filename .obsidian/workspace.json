@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "062967fa9364aad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,12 +148,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "062967fa9364aad8",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians Bad Request to Hubspot.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",

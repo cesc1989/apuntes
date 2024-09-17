@@ -1,5 +1,9 @@
 # Unseen Patients for PBLs - Notes and Findings
 
+This work was completed using the [[Hubspot Search API]].
+
+---
+
 PBL = Powered by Luna Partners = Clinics, Practices.
 
 # Hubspot Properties

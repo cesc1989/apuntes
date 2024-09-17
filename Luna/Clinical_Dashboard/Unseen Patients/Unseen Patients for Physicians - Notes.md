@@ -1,5 +1,13 @@
 # Unseen Patients for Physicians - Notes
 
+Relacionado:
+
+- [[Unseen_Patients_for_PBLs_-_Notes_and_Findings]]
+- [[Unseen Patients for Physicians Bad Request to Hubspot]]
+- [[Unseen_Patients_hs_lead_status_Label_-_Internal_Va]]
+
+---
+
 Parece que cuando hice este trabajo no tome ningún tipo de apuntes en ningún lado (????) y ahora que debo hacer una actualización no tengo forma de recordar nada. Entonces aquí voy a describir todo el flujo para tener un punto de partida cada que toque trabajar en esta característica.
 
 # Clases Involucradas
