@@ -364,9 +364,9 @@ ucm = UserCommunicationMethod.find(ID)
 @resend_url = admin_email_verification_link_path(ucm)
 ```
 
-However, the path will need to be in a new controller because that one needs authentication as a Luxe admin. **We're going to need to add a new endpoint to trigger this and use a different auth method** because this is a stateless page.
+However, ==the path will need to be in a new controller because that one needs authentication as a Luxe admin==. **We're going to need to add a new endpoint to trigger this and use a different auth method** because this is a stateless page.
 
-We don't need to do nothing in the controller but in the view in the else case in `app/views/user_communication_methods/email_verifications/new.html.haml`.
+We don't need to do nothing in the controller but in the view in the else case in `app/views/user_communication_methods/email_verifications/new.html.erb`.
 
 # For Milestone 2: Generate portal link after verification
 

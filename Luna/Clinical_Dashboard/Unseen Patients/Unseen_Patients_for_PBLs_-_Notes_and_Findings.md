@@ -51,7 +51,7 @@ Some patients are linked to clinics but not to practices. Usually, these patient
 
 Multiple clinics are not linked to Practices. Usually, these clinics are named Luna Care, Inc.
 
-# Backend Tasks
+# Backend Tasks ✅
 
 - Actualizar query `PROD_Normalized_Partners_All_Time` para que devuelva el `code`.
     - Actualiza la query para que use un prefijo `prat` en vez de `cli`.
@@ -63,6 +63,6 @@ Multiple clinics are not linked to Practices. Usually, these clinics are named L
 - Usar el `code` enviado por frontend para hacer la búsqueda en Hubspot.
     - Aquí ya no es con asociación sino buscando en una propiedad: ¿qué endpoint sería?
 
-# Frontend Tasks
-- Enviar el `code` en las peticiones para filtrar los datos.
+# Frontend Tasks ✅
 
+- Enviar el `code` en las peticiones para filtrar los datos.

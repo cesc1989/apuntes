@@ -1,6 +1,9 @@
-# Bad Request error when requesting Unseen Patients from Hubspot
+# Bad Request error when requesting Unseen Patients for Physicians
 
-This is the error in Sentry
+> [!INFO]
+> This is for the Unseen Patients for Physicians feature.
+
+This is the error in Sentry:
 ```
 <HTTP::Response/1.1 
   400 Bad Request {

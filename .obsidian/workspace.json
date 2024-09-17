@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "65c9114376c1cc6f",
+            "id": "062967fa9364aad8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
                 "mode": "preview",
                 "source": true
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nsnum",
+                "query": "batch/read",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md"
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md"
               }
             }
           }
@@ -161,34 +161,34 @@
       "random-note:Open random note": false
     }
   },
-  "active": "65c9114376c1cc6f",
+  "active": "062967fa9364aad8",
   "lastOpenFiles": [
-    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
-    "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
-    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_#1.md",
-    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_.md",
-    "Luna/Backend/Email Verification/Portal Email Verification.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
-    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians Bad Request to Hubspot.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
-    "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
+    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
+    "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
+    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
+    "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
+    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
+    "Luna/Clinical_Dashboard/AWS_Athena/About_Adding_New_Fields_to_the_Athena_Sync_in_Pati.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
+    "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Crear_Varias_Propiedades_de_Hubspot_desde_el_API.md",
+    "Luna/Therapist_Signup/Therapist_Signup_Enabled_States.md",
+    "Luna/Therapist_Signup/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
+    "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
+    "Luna/Therapist_Signup/Diccionario_de_opciones_para_campos_de_vacunas_en.md",
+    "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
+    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_#1.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/AppBlend/005 - QA Plan.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
-    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
-    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
-    "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",

@@ -1,6 +1,6 @@
 # Hubspot Search API - Notas
 
-Esta es la API a usar para completar la funcionalidad de Unseen Patients for PBLs. Ya que los providers no tienen un hubspot_id ni están asociados a contacts de la forma en que sí lo están los physicians, toca es usar otras propiedades para buscar esos contactos.
+**Esta es la API a usar para completar la funcionalidad de Unseen Patients for PBLs**. Ya que los providers no tienen un hubspot_id ni están asociados a contacts de la forma en que sí lo están los physicians, toca es usar otras propiedades para buscar esos contactos.
 
 Para poder encontrar a los contactos relacionados toca usar la API de búsqueda. Esta API tiene algunas diferencias clave con respecto a otras. Veamos.
 
