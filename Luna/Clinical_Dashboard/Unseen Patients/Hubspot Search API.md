@@ -186,3 +186,80 @@ Cuando se busca para una propiedad que es de tipo Lista, ejemplo, `hs_lead_statu
   ]
 }
 ```
+
+## Paginando Resultados
+
+Cuando hay más de la cantidad de registros indicados en la propiedad `limit`, el API devolverá un objeto `paging`:
+```json
+{
+  "total": 251,
+  "results":[...],
+  "paging": {
+    "next": {
+      "after": "200"
+    }
+  }
+}
+```
+
+Para obtener los siguientes resultados hay que hacer la misma petición pero pasando el valor que haya en `after` a la propiedad `after` en la petición:
+```json
+{
+  "limit": 200,
+  "properties": [
+    "firstname",
+    "lastname",
+    "email",
+    "date_of_birth",
+    "createdate",
+    "hs_lead_status",
+    "lead_source",
+    "powered_by_luna_code"
+  ],
+  "after": 200,
+  "filterGroups": [
+    {
+      "filters": [
+        {
+          "propertyName": "lead_source",
+          "operator": "EQ",
+          "value": "Powered by Luna"
+        },
+        {
+          "propertyName": "powered_by_luna_code",
+          "operator": "IN",
+          "values": [
+            "eve"
+          ]
+        },
+        {
+          "propertyName": "createdate",
+          "operator": "GTE",
+          "value": "1718668800000"
+        },
+        {
+          "propertyName": "hs_lead_status",
+          "operator": "IN",
+          "values": [
+            "Patient - Suspect",
+            "Patient - Qualified: Ready to book",
+            "Patient - Qualified: No therapist available",
+            "Patient - Unqualified: Not ready yet",
+            "Patient - Qualified: Future surgery",
+            "Patient - Unqualified: Already been / being treated",
+            "Patient - Unqualified: Bad contact info",
+            "Patient - Unqualified: Not interested in home PT",
+            "Patient - Unqualified: Not currently interested",
+            "Patient - Unqualified: Doesn’t want to pay",
+            "Patient - Unqualified: Immobilized / Home health",
+            "Patient - Unqualified: Not able to connect",
+            "Patient - Unqualified: Out of area",
+            "Patient - Unqualified: Unsupported Condition",
+            "Patient - Unqualified: Other"
+          ]
+        }
+      ]
+    }
+  ]
+}
+```

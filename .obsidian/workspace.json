@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "efee9b5b0437395e",
+            "id": "65c9114376c1cc6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
+                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
                 "mode": "preview",
                 "source": true
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "graphql",
+                "query": "nsnum",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
+                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
+                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md"
+                "file": "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md"
               }
             }
           }
@@ -161,34 +161,34 @@
       "random-note:Open random note": false
     }
   },
-  "active": "efee9b5b0437395e",
+  "active": "65c9114376c1cc6f",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
-    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
+    "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
+    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_#1.md",
+    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_.md",
+    "Luna/Backend/Email Verification/Portal Email Verification.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
+    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
-    "Luna/Backend/Email Verification/Portal User Verification.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/✅ Upgrade to Ruby 3.1.0 - Notes.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
-    "Luna/Backend/AppBlend/Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Patient_Self_Report/Triage Issues with Forms.md",
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",

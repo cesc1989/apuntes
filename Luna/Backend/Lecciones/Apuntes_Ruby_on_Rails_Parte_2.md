@@ -21,3 +21,21 @@ El comando de haml-lint se corre así:
 bundle exec haml-lint app/views/**/*.haml
 ```
 
+# Rutas
+
+Al declarar una ruta de esta forma:
+```ruby
+get "verify_email/:base64_token/failure" => "user_communication_methods/email_verifications#failure"
+```
+
+para poder usarla en el controlador, por ejemplo:
+```ruby
+redirect_to verify_email_failure_path(base64_token: params.require(:base64_token))
+```
+
+hay que definir la ruta pasado la opción `as:`, de esta forma:
+```ruby
+get "verify_email/:base64_token/failure" => "user_communication_methods/email_verifications#failure", as: "verify_email_failure"
+```
+
+De lo contrario la ruta no se podrá usar ya que esa sintaxis de ruta por string no genera los helpers.

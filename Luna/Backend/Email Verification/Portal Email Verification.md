@@ -32,7 +32,7 @@ Files in requesting links from Clinical Dashboard
 
 - ProviderPortalService
 
-## Flow for sending / resending link
+## ⭐️ Flow for sending / resending link ⭐️
 
 A `UserCommunicationMethod` instance receives the `send_verification!` or the  `resend_verification!` messages.
 
