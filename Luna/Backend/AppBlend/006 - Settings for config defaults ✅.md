@@ -1,4 +1,4 @@
-# Settings to Apply for load_defaults
+# Settings to Apply for load_defaults ✅
 
 In order to activate `config.load_defaults("7")` these configs need to be set:
 

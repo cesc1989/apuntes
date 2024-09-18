@@ -195,7 +195,7 @@ Bundler docs about git as source -> https://bundler.io/guides/git.html
 
 
 
-# Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError) - Rails 7.0.0 Error
+# Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError) - Rails 7.0.0 Error ✅
 
 Got this error when building the release image in the CI:
 ```bash
@@ -234,7 +234,7 @@ NoMethodError: undefined method reference for ActiveSupport::Dependencies:Module
 
 Solution is to upgrade Devise to [version 4.8.1](https://github.com/heartcombo/devise/pull/5357#issuecomment-995863195)
 
-# NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class - Rails 7.0.1 Error
+# NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class - Rails 7.0.1 Error # ✅
 
 New error:
 ```bash
@@ -245,7 +245,21 @@ NoMethodError: undefined method `use_yaml_unsafe_load=' for ActiveRecord::Base:C
 
 The CI threw this error when building for rails 7.0.1. ==Fixed by updating to Rails 7.0.4==.
 
-# Error with class being loaded in config/database.yml
+Also got this error when running the `rails app:update` command:
+```bash
+    conflict  bin/setup
+Overwrite /Users/francisco/projects/luna-project/backend/bin/setup? (enter "h" for help) [Ynaqdhm] n
+        skip  bin/setup
+       rails  active_storage:update
+rails aborted!
+NoMethodError: undefined method `use_yaml_unsafe_load=' for ActiveRecord::Base:Class
+/Users/francisco/projects/luna-project/backend/config/environment.rb:7:in `<main>'
+Tasks: TOP => active_storage:update => environment
+(See full trace by running task with --trace)
+```
+
+
+# Error with class being loaded in config/database.yml ✅
 
 This is error:
 ```bash
@@ -266,15 +280,6 @@ NameError:
   uninitialized constant Runtime
   Did you mean?  RuntimeError
 # ./config/database.yml:4:in `<main>'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:48:in `render'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:22:in `parse'
-# /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/configuration_file.rb:18:in `parse'
-# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/application/configuration.rb:335:in `database_configuration'
-# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/initializable.rb:60:in `run_initializers'
-# /Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/application.rb:372:in `initialize!'
-# ./config/environment.rb:7:in `<top (required)>'
-# ./spec/rails_helper.rb:8:in `require'
-# ./spec/rails_helper.rb:8:in `<top (required)>'
 ```
 
 The issue is because in the file `config/database.yml` the class Runtime is being loaded:
@@ -403,7 +408,9 @@ The solution was to add this line in `config/application.rb`:
 Rails.logger ||= Logger.new(STDOUT)
 ```
 
-Another error was:
+## webpack not found ✅
+
+Also caught in the CI:
 ```bash
 Compiling...
 Compilation failed:
@@ -430,7 +437,7 @@ Downloading rubocop-rails-2.15.2 revealed dependencies not in the API or the loc
 Ran the command suggested in the error and it downgraded some gems. Looks like something 
 change some time ago when doing other commands.
 
-# undefined method silence for Logger
+# undefined method silence for Logger ✅
 
 This error pop up in the CI for lots of tests:
 ```bash
@@ -556,7 +563,7 @@ Related issue reports:
 
 The fix is to update audited to 5.2.0.
 
-# undefined method new_record? for []:Array - batch-loader & has_many_inversing
+# undefined method new_record? for []:Array - batch-loader & has_many_inversing # ✅
 
 Test run this error appears: `pruebas ./spec/requests/graphql/mutations/scheduling/bulk_add_appointment_spec.rb:106`.
 
@@ -646,7 +653,7 @@ It looks like the error is indeed something in batch-loader gem. Now the thing i
 
 Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[Exploring ActiveRecord Associations for AppBlend]]
 
-# Only UUIDs are valid namespace identifiers
+# Only UUIDs are valid namespace identifiers # ✅
 
 This is for AWS SNS tests.
 
@@ -690,7 +697,7 @@ Change the setting to false in the file `config/initializers/new_framework_defau
 Rails.application.config.active_support.use_rfc4122_namespaced_uuids = false
 ```
 
-# Rails 7.0 ignores default format for Date and Time
+# Rails 7.0 ignores default format for Date and Time # ✅
 
 A setting like:
 ```ruby

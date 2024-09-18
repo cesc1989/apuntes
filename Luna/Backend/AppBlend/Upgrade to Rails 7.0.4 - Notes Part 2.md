@@ -22,7 +22,7 @@ redirect_to("https://www.getluna.com", allow_other_host: true)
 
 About: https://blog.saeloun.com/2022/02/08/rails-7-raise-unsafe-redirect-error/
 
-# Value not defined un Enum raises ActiveRecord::NotNullViolation with null constraint
+# Value not defined un Enum raises ActiveRecord::NotNullViolation with null constraint ✅
 
 Ran this and got this error:
 ```bash
@@ -57,7 +57,9 @@ I found that there's no defined value in the enum when the record value is zero.
 
 In [this issue](https://github.com/rails/rails/issues/52074) someone asked this same problem and the explanation is that Rails now expects enum values to match DB values.
 
-# ✅ Error with PayerAuthorization and BatchLoader
+Fixed by setting the default enum value in the factory of patient serviceability check.
+
+# Error with PayerAuthorization and BatchLoader ✅
 
 Association: Episode -> PayerAuthorizations (aliased Authorizations).
 
@@ -160,7 +162,7 @@ Why I say this? Because when I access the authorization via direct methods, I ca
 
 ### Batch Loader in Rails 6.1 👍🏽
 
-**Update**: Reason, apparently, found at [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
+**Update**: Reason, found at [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
 
 This is the output of exploring the instances when they reach batch-loader method_missing method:
 ```
@@ -216,3 +218,33 @@ Notice how at any point it is sending a `method_name` being `new_record?` Which 
 NoMethodError:
        undefined method `new_record?' for [#<PayerAuthorization>]:Array
 ```
+
+# undefined method has_key? for nil:NilClass encrypted_attributes ✅
+
+Got this one after running `bundle exec rails app:update` and when checking Zeitwerk was ok:
+```bash
+$ bundle exec rails zeitwerk:check --trace
+** Invoke zeitwerk:check (first_time)
+** Invoke environment (first_time)
+** Execute environment
+rails aborted!
+NoMethodError: undefined method `has_key?' for nil:NilClass
+
+    encrypted_attributes.has_key?(attribute.to_sym)
+                        ^^^^^^^^^
+/Users/francisco/.gem/ruby/3.1.0/gems/attr_encrypted-3.1.0/lib/attr_encrypted.rb:224:in `attr_encrypted?'
+/Users/francisco/.gem/ruby/3.1.0/gems/devise-two-factor-4.0.2/lib/devise_two_factor/models/two_factor_authenticatable.rb:17:in `block in <module:TwoFactorAuthenticatable>'
+/Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/concern.rb:136:in `class_eval'
+/Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.0.4/lib/active_support/concern.rb:136:in `append_features'
+/Users/francisco/.gem/ruby/3.1.0/gems/devise-4.8.1/lib/devise/models.rb:105:in `include'
+/Users/francisco/.gem/ruby/3.1.0/gems/devise-4.8.1/lib/devise/models.rb:105:in `block (2 levels) in devise'
+```
+
+> Why didn't this show in my previous work branch?
+
+The fix is to update devise-two-factor gem to 4.1.1.
+
+Found mention of this error in these links:
+
+- https://github.com/attr-encrypted/attr_encrypted/issues/423
+- https://github.com/attr-encrypted/attr_encrypted/pull/434

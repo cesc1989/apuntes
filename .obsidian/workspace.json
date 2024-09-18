@@ -22,12 +22,26 @@
             }
           },
           {
-            "id": "0c0b0e4ebf63496d",
+            "id": "fc1fc9a6882de608",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "cb7a6b4f0d90a8fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -63,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "batch/read",
+                "query": "sublime merge",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md"
               }
             }
           }
@@ -161,18 +175,26 @@
       "random-note:Open random note": false
     }
   },
-  "active": "0c0b0e4ebf63496d",
+  "active": "fc1fc9a6882de608",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/AppBlend/Upgrade to Ruby 3.1.0 - Notes ✅.md",
+    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
+    "Luna/Migración_a_Rails_7.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
+    "Luna/Migración_a_Rails_6.md",
+    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.patients.to.pbls.png",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.physician.to.patient.png",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
     "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
@@ -183,14 +205,7 @@
     "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
     "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians Bad Request to Hubspot.md",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
-    "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
-    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
-    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
-    "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
@@ -199,7 +214,6 @@
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
     "Luna/Backend/AppBlend/attachments/as.track_variants.png",
-    "Luna/Backend/AppBlend/attachments/as.queues.purge.png",
     "Luna/Backend/AppBlend/attachments",
     "DevAsPros/Cash_Flow/attachments",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments",
