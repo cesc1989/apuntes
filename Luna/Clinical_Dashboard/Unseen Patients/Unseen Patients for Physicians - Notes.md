@@ -69,6 +69,8 @@ Esta clase hace una petición al endpoint:
 crm/v4/objects/:fromobjectType/:objectid/associations/:toObjectType
 ```
 
+> Este endpoint hace parte de la [Associations API](https://developers.hubspot.com/docs/api/crm/associations).
+
 Donde:
 
 - `:fromobjectType` y `:toObjectType` son igual a `contact`

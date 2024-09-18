@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "98d20884fcd24c08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md"
               }
             }
           }
@@ -148,14 +161,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "98d20884fcd24c08",
   "lastOpenFiles": [
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians Bad Request to Hubspot.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
     "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
@@ -175,7 +189,6 @@
     "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
     "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_#1.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
