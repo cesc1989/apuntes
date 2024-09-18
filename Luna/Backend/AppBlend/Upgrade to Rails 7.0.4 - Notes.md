@@ -758,7 +758,7 @@ bundle exec rails runner 'p Rails.autoloaders.zeitwerk_enabled?'
 bundle exec rails zeitwerk:check
 ```
 
-## Wrap initializers in callback
+## Wrap initializers in callback ✅
 
 I had to wrap lots of code in initializers folder with this block:
 ```ruby
@@ -769,7 +769,7 @@ end
 Because Zeitwerk changed the way code is loaded and as [Xavier Noira said](https://stackoverflow.com/a/73463720/1407371):
 > This is unrelated to Zeitwerk, ==autoloading from initializers was just wrong conceptually regardless of the autoloader==.
 
-## uninitialized constant EmailLogHubspot (zeitwerk)
+## uninitialized constant EmailLogHubspot (zeitwerk) ✅
 
 This code in `config/initializers/action_mailer`:
 ```ruby

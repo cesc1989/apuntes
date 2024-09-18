@@ -6,7 +6,7 @@ Tanto success como failure. Aquí listo los pasos para generar un token bueno pa
 
 Necesitamos una instancia de `UserCommunicationMethod` de tipo Email. A esta le asignamos un código de verificación:
 ```ruby
-ucm = UserCommunicationMethod.email.first
+ucm = UserCommunicationMethod.email.order("RANDOM()").first
 ucm.update!(verification_code: SecureRandom.urlsafe_base64(16))
 ```
 
