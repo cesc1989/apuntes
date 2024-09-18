@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "2b8e9e9c61ea2e28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,12 +148,22 @@
       "random-note:Open random note": false
     }
   },
-  "active": "2b8e9e9c61ea2e28",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Backend/AppBlend/006 - Settings for config defaults.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
+    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
+    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes.md",
+    "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
@@ -179,16 +176,6 @@
     "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Clinical_Dashboard/AWS_Athena/About_Adding_New_Fields_to_the_Athena_Sync_in_Pati.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Crear_Varias_Propiedades_de_Hubspot_desde_el_API.md",
-    "Luna/Therapist_Signup/Therapist_Signup_Enabled_States.md",
-    "Luna/Therapist_Signup/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
-    "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
-    "Luna/Therapist_Signup/Diccionario_de_opciones_para_campos_de_vacunas_en.md",
-    "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
