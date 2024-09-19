@@ -79,7 +79,7 @@ Security fixes.
 
 # Rails 7.0.x
 
-## 7.0.0
+## 7.0.0 ✅
 
 See https://github.com/rails/rails/releases/tag/v7.0.0
 
