@@ -90,12 +90,12 @@ See https://github.com/rails/rails/releases/tag/v7.0.0
 
 **Railtie**
 
-- [ ] The setter `config.autoloader=` has been deleted. `zeitwerk` is the only  
+- [x] The setter `config.autoloader=` has been deleted. `zeitwerk` is the only  
 available autoloading mode.
 
 ---
 
-- [ ] During initialization, you cannot autoload reloadable classes or modules  
+- [x] During initialization, you cannot autoload reloadable classes or modules  
 like application models, unless they are wrapped in a `to_prepare` block.  
 For example, from `config/initializers/*`, or in application, engines, or  
 railties initializers.
@@ -104,7 +104,7 @@ railties initializers.
 
 ---
 
-- [ ] Fix compatibility with `psych >= 4`.
+- [x] Fix compatibility with `psych >= 4`.
 
 > Starting in Psych 4.0.0 `YAML.load` behaves like `YAML.safe_load`. To preserve compatibility  `Rails.application.config_for` now uses `YAML.unsafe_load` if available.
 

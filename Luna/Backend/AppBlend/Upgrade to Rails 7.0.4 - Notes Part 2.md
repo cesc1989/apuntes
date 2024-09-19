@@ -2,7 +2,7 @@
 
 This is a continuation of [[Upgrade to Rails 7.0.4 - Notes]]
 
-# Unsafe redirect to "https://www.getluna.com", pass allow_other_host: true to redirect anyway
+# Unsafe redirect to "https://www.getluna.com", pass allow_other_host: true to redirect anyway ✅
 
 Error:
 ```
