@@ -1,4 +1,4 @@
-# Upgrade to Rails 7.0.4 from 6.1.6 - Notes
+# Upgrade to Rails 7.0.4 from 6.1.6 - Notes ✅
 
 [RailsDiff](https://railsdiff.org/6.1.7/7.0.4) shows multiple changes but due to how custom Edge is I don't consider good to apply them to this codebase.
 
@@ -234,7 +234,7 @@ NoMethodError: undefined method reference for ActiveSupport::Dependencies:Module
 
 Solution is to upgrade Devise to [version 4.8.1](https://github.com/heartcombo/devise/pull/5357#issuecomment-995863195)
 
-# NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class - Rails 7.0.1 Error # ✅
+# NoMethodError: undefined method use_yaml_unsafe_load=' for ActiveRecord::Base:Class - Rails 7.0.1 Error ✅
 
 New error:
 ```bash

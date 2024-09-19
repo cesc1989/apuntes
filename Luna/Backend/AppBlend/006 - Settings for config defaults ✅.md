@@ -17,7 +17,7 @@ end
 See:
 
 - has_many_inversing [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
-- use_rfc4122_namespaced_uuids [[Upgrade to Rails 7.0.4 - Notes#Only UUIDs are valid namespace identifiers]]
+- use_rfc4122_namespaced_uuids [[Upgrade to Rails 7.0.4 - Notes ✅#Only UUIDs are valid namespace identifiers]]
 - queues.analysis [[004 - AppBlend What Changes in Config Defaults#What is config.active_storage.queues.analysis?]]
 - queues.purge [[004 - AppBlend What Changes in Config Defaults#What is config.active_storage.queues.purge?]]
 - track_variants [[004 - AppBlend What Changes in Config Defaults#What is config.active_storage.track_variants?]]

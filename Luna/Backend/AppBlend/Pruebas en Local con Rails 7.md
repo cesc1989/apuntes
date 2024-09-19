@@ -1,4 +1,4 @@
-# Error: class variable @@silencer of ActiveSupport::Logger is overtaken by Logger
+# Error: class variable @@silencer of ActiveSupport::Logger is overtaken by Logger ✅
 
 Lancé el servidor Rails en local y cuando abrí la página admin dio error 500:
 ```bash
@@ -18,7 +18,7 @@ Parece ser un error en la gema `activerecord-session_store` según comentario en
 
 Se menciona causa y [fix que se mezcló](https://github.com/rails/activerecord-session_store/pull/159) a master pero no hay release. A pesar de que apunto a la rama master en el Gemfile sigue dando el error.
 
-Este error está relacionado con este fix que hice antes para poder hacer el build en el CI [[Upgrade to Rails 7.0.4 - Notes#undefined method silence for Logger]]
+Este error está relacionado con este fix que hice antes para poder hacer el build en el CI [[Upgrade to Rails 7.0.4 - Notes ✅#undefined method silence for Logger]]
 
 Tengo esto:
 ```ruby
@@ -29,7 +29,7 @@ Rails.logger.class.include ActiveSupport::LoggerSilence
 
 Una vez comentado el servidor arranca debidamente.
 
-## Pruebas que se rompen sin la configuración de LoggerSilence
+## Pruebas que se rompen sin la configuración de LoggerSilence ✅
 
 Estas son algunas de las pruebas:
 ```
@@ -87,7 +87,7 @@ Lo que no entiendo es porque no me salió nada al buscar en Internet.
 
 **Arreglado**: en PR independiente.
 
-# ⚠️ Error: undefined method gsub for nil:NilClass
+# Error: undefined method gsub for nil:NilClass ❗️
 
 Navegando Clinical -> Plans of Care
 
@@ -106,7 +106,7 @@ app/admin/clinical/plans_of_care.rb:236:in `block (2 levels) in <main>'
 
 Esto parece solo ser en local porque me faltan variables de entorno.
 
-# ⚠️ Error: nil ID for rails url
+# Error: nil ID for rails url ❗️
 
 Navegando Clinical -> Protocol Escalations
 
