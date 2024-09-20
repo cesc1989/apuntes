@@ -8,7 +8,7 @@ Algunos enlaces:
 Edge actualmente está en **Rails 6.1.6**
 
 - Objetivo: **7.0.4**
-- Versiones que siguen de la 6.x.x
+- Versiones que siguen de la 6.x.x ✅
 	- 6.1.6.1 (Jul 12, 2022) - [Release page](https://github.com/rails/rails/releases/tag/v6.1.6.1)
 	- 6.1.7 (Sep 9, 2022) - [Release page](https://github.com/rails/rails/releases/tag/v6.1.7)
 	- 6.1.7.1 (Jan 17, 2023) - [Release page](https://github.com/rails/rails/releases/tag/v6.1.7.1)

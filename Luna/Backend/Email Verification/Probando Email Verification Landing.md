@@ -71,6 +71,14 @@ Entonces podemos intentar buscar un UCM que tenga un correo conocido:
 ucm = UserCommunicationMethod.email.where(value: "francisco.quintero@ideaware.co").first
 ```
 
+```ruby
+ucm = UserCommunicationMethod.where("value LIKE '%francisco.quintero%'")
+
+UserCommunicationMethod.find_by(value: "francisco.quintero+lunaindianapolis@ideaware.co").update(verification_status: "unverified")
+
+ucm = UserCommunicationMethod.find_by(value: "francisco.quintero+lunaindianapolis@ideaware.co")
+```
+
 Ya con este podemos probar hacer una URL verificable:
 ```ruby
 Rails.application.routes.url_helpers.verify_email_url(
@@ -79,4 +87,10 @@ Rails.application.routes.url_helpers.verify_email_url(
 	protocol: Luna.env_protocol,
 	port: ENV["APPLICATION_PORT"]
 )
+```
+
+# Query en Grafana para ver si el worker se movió
+
+```
+{app="backend-sidekiq-worker"} |= `EmailVerificationWorker`
 ```
