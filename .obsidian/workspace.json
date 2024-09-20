@@ -28,15 +28,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
-                "mode": "preview",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+                "mode": "source",
                 "source": true
               },
               "pinned": true
             }
+          },
+          {
+            "id": "503959ede428a3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sublime merge",
+                "query": "presence",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md"
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md"
               }
             }
           }
@@ -163,38 +175,39 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b60ba29015405568",
+  "active": "503959ede428a3c0",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
-    "Luna/Backend/AppBlend/Pruebas en Local con Rails 7.md",
+    "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
+    "Luna/Backend/AppBlend/Rails.env.local?.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
+    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/attachments/ar.legacy_connection_handling.png",
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
+    "Luna/Backend/Email Verification/Pruebas en Local - Email Verification Landing.md",
     "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Backend/Reviewers",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2 ✅.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/Upgrade to Ruby 3.1.0 - Notes ✅.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
     "Luna/Migración_a_Rails_7.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
     "Luna/Migración_a_Rails_6.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.patients.to.pbls.png",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Hubspot Search API.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_for_PBLs_-_Notes_and_Findings.md",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.physician.to.patient.png",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen_Patients_hs_lead_status_Label_-_Internal_Va.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
@@ -202,7 +215,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221306.png",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
     "Luna/Backend/attachments/Pasted image 20240704234741.png",
-    "Luna/Backend/AppBlend/attachments/as.track_variants.png",
     "Luna/Backend/AppBlend/attachments",
     "DevAsPros/Cash_Flow/attachments",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments",

@@ -61,3 +61,22 @@ Rails.application.routes.url_helpers.verify_email_url(
 
 # => "http://localhost:3000/verify_email/eyJpZCI6ImRkNTRiNDYzLWU2YTYtNGYxNC04ODVlLTU1MzVmY2M4YjVkMCIsImNvZGUiOiJ0aTU5a3JlVzdsYVpuelRGbHZJVTRnIn0="
 ```
+
+# Pruebas en Alfa
+
+Se necesita saber que el correo de verificación llegue a un correo que podamos abrir.
+
+Entonces podemos intentar buscar un UCM que tenga un correo conocido:
+```ruby
+ucm = UserCommunicationMethod.email.where(value: "francisco.quintero@ideaware.co").first
+```
+
+Ya con este podemos probar hacer una URL verificable:
+```ruby
+Rails.application.routes.url_helpers.verify_email_url(
+	UserCommunicationMethods::Email.encode_url_token(ucm),
+	host: ENV.fetch("ROOT_URL"),
+	protocol: Luna.env_protocol,
+	port: ENV["APPLICATION_PORT"]
+)
+```

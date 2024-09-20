@@ -83,9 +83,13 @@ Security fixes.
 
 See https://github.com/rails/rails/releases/tag/v7.0.0
 
+**Active Record**
+
+- [x] Deprecate `legacy_connection_handling`.
+
 **Active Support**
 
-- [ ] Deprecate passing a format to `#to_s` in favor of `#to_formatted_s` in `Array`, `Range`, `Date`, `DateTime`, `Time`,  
+- [x] Deprecate passing a format to `#to_s` in favor of `#to_formatted_s` in `Array`, `Range`, `Date`, `DateTime`, `Time`,  
 `BigDecimal`, `Float` and, `Integer`.
 
 **Railtie**

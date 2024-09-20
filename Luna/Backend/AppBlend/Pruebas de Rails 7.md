@@ -53,7 +53,7 @@ Rails.logger.class.include ActiveSupport::LoggerSilence
 
 Funciona en local y en el CI.
 
-# Error: partial con triple extensión no se encontraba
+# Error: partial con triple extensión no se encontraba ✅
 
 Navegando en Customers -> Patients
 
@@ -67,7 +67,7 @@ En la vista también tuve que actualizar la referencia:
 + controller.render_to_string(partial: "images/HiOutlineExternalLink")
 ```
 
-# ✅ Error: undefined method service_url for ActiveStorage attachment
+# Error: undefined method service_url for ActiveStorage attachment ✅
 
 Navegando Files -> Incoming Faxes
 
@@ -124,4 +124,15 @@ app/admin/clinical/protocol_escalations.rb:41:in `block (3 levels) in <main>'
 app/admin/clinical/protocol_escalations.rb:39:in `block (2 levels) in <main>'
 ```
 
-En Alpha no ocurre. ¿Por qué si el backup es de Alpha?
+En Alpha no ocurre. ¿Por qué si el backup es de Alpha? Porque tiene que ver con Rails 7.
+
+# while_preventing_writes is only available on the connection_handler with legacy_connection_handling
+
+El Error:
+```
+NotImplementedError
+
+while_preventing_writes is only available on the connection_handler with legacy_connection_handling
+```
+
+Se da en workers.
