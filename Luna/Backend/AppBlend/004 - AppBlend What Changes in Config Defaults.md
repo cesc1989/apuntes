@@ -74,4 +74,4 @@ Looks like it needs to be turned on because in Rails 7 `legacy_connection_handli
 
 When Edge was in Rails 6.1.7.8, `config.load_defaults` was set to 6.0 so `legacy_connection_handling` was true. However, once I changed `config.load_defaults` to 7.0 it was set to false. Thus the error indicated below.
 
-Pending confirmation: If not enabled, it produces the error [[Pruebas de Rails 7#while_preventing_writes is only available on the connection_handler with legacy_connection_handling]]
+If not enabled, it produces the error [[Pruebas de Rails 7#while_preventing_writes is only available on the connection_handler with legacy_connection_handling]]

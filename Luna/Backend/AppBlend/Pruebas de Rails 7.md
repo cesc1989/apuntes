@@ -106,7 +106,7 @@ app/admin/clinical/plans_of_care.rb:236:in `block (2 levels) in <main>'
 
 Esto parece solo ser en local porque me faltan variables de entorno.
 
-# Error: nil ID for rails url ❗️
+# Error: nil ID for rails url
 
 Navegando Clinical -> Protocol Escalations
 
@@ -124,9 +124,9 @@ app/admin/clinical/protocol_escalations.rb:41:in `block (3 levels) in <main>'
 app/admin/clinical/protocol_escalations.rb:39:in `block (2 levels) in <main>'
 ```
 
-En Alpha no ocurre. ¿Por qué si el backup es de Alpha? Porque tiene que ver con Rails 7.
+¿por qué pasa en Rails 7?
 
-# while_preventing_writes is only available on the connection_handler with legacy_connection_handling
+# while_preventing_writes is only available on the connection_handler with legacy_connection_handling ✅
 
 El Error:
 ```
@@ -135,4 +135,4 @@ NotImplementedError
 while_preventing_writes is only available on the connection_handler with legacy_connection_handling
 ```
 
-Se da en workers.
+Se da en workers. Se arregla seteando en true `legacy_connection_handling` en application.rb. Ver [[004 - AppBlend What Changes in Config Defaults#What is config.active_record.legacy_connection_handling?]]

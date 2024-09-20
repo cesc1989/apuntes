@@ -10,6 +10,7 @@ module LunaApi
 		config.active_storage.queues.analysis = :active_storage_analysis
 		config.active_storage.queues.purge = :active_storage_purge
 		config.active_storage.track_variants = false
+		config.active_record.legacy_connection_handling = true
 	end
 end
 ```
