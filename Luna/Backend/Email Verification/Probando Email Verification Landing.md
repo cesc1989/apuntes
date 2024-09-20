@@ -77,6 +77,8 @@ ucm = UserCommunicationMethod.where("value LIKE '%francisco.quintero%'")
 UserCommunicationMethod.find_by(value: "francisco.quintero+lunaindianapolis@ideaware.co").update(verification_status: "unverified")
 
 ucm = UserCommunicationMethod.find_by(value: "francisco.quintero+lunaindianapolis@ideaware.co")
+
+ucm.resend_verification!
 ```
 
 Ya con este podemos probar hacer una URL verificable:

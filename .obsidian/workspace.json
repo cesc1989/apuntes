@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "f7e9c70b0e8620d6",
+            "id": "094c598036950cb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "presence",
+                "query": "matar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,9 +175,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f7e9c70b0e8620d6",
+  "active": "094c598036950cb2",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Dockerizar_Ruby_on_Rails_app.md",
     "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
     "Luna/Backend/AppBlend/Rails.env.local?.md",
@@ -190,12 +192,10 @@
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
     "Luna/Backend/AppBlend/attachments/ar.legacy_connection_handling.png",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Backend/Reviewers",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
