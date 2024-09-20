@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "2824d08e8cda6235",
+            "id": "3dc036ba281c5ed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md"
+                "file": "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md"
               }
             }
           }
@@ -175,7 +175,7 @@
       "random-note:Open random note": false
     }
   },
-  "active": "2824d08e8cda6235",
+  "active": "3dc036ba281c5ed1",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",

@@ -39,3 +39,10 @@ get "verify_email/:base64_token/failure" => "user_communication_methods/email_ve
 ```
 
 De lo contrario la ruta no se podrá usar ya que esa sintaxis de ruta por string no genera los helpers.
+
+# Matar servidor Rails en puerto 3000
+
+Así:
+```bash
+kill -9 $(lsof -i tcp:3000 -t)
+```
