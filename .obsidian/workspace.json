@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "094c598036950cb2",
+            "id": "6ea1f226be14674f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification.md",
                 "mode": "preview",
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md"
+                "file": "Luna/Backend/Email Verification/Portal Email Verification.md"
               }
             }
           }
@@ -175,11 +175,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "094c598036950cb2",
+  "active": "6ea1f226be14674f",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
-    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Dockerizar_Ruby_on_Rails_app.md",
     "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
     "Luna/Backend/AppBlend/Rails.env.local?.md",

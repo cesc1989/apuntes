@@ -86,7 +86,6 @@ def encode_url_token(communication_method)
 end
 ```
 
-
 Notice this:
 ```ruby
 communication_method.update!(
@@ -104,7 +103,7 @@ In alpha, it is only valid for 72 hours. In Omega it depends if there's custom s
 
 ## Manual and automated tests
 
-To verify changes to the landing page at `app/views/user_communication_methods/email_verifications/new.html.haml` I can manually test them by opening the page at `localhost:3000/email_verification/SOMETKKEN`. Comment out the conditionals to see the different paths.
+To verify changes to the landing page at `app/views/user_communication_methods/email_verifications/new.html.haml` I can manually test them by opening the page at `localhost:3000/email_verification/SOMETOKEN`. Comment out the conditionals to see the different paths.
 
 Or automated tests at `spec/mailers/user_communication_methods/email_verification_mailer_spec.rb` for the mailer sent.
 
@@ -226,41 +225,8 @@ create_table "user_communication_methods", id: :uuid, default: -> { "uuid_genera
     t.integer "verification_attempts", default: 0, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-
-    t.index ["user_type", "user_id", "kind", "value"], name: "idx_user_communication_methods_kind_val_uniq", unique: true
-    t.index ["user_type", "user_id", "kind"], name: "idx_user_communication_methods_primary_kind_uniq", unique: true, where: "(primary_method = true)"
   end
 ```
-
-
-# For Milestone 3: Automate Email Reminder
-
-This worker should run once a week. Probably early on mondays.
-
-The worker should query `user_communication_methods` records where:
-
-- `kind` is 0 ("email")
-- `verified_at` is null and `verification_status` is 0 ("unverified")
-- `verification_attempts` < 4
-
-To complete the rule:
-> and then every 7 days (once per week) for 3 weeks
-
-I can use the `verification_attempts` field. Anytime an email reminder is sent this number increases. So once it reaches to 4 it means we emailed them four times already.
-
-## Weekly email for three weeks
-
-This will be only sent to recipients that haven't verified their email and haven't opted out of the verification process. This opt-out flag is found in Hubspot via the property `portal_email_cadence`.
-
-This property is a dropdown and has these values:
-- Weekly
-- Monthly
-- Quarterly
-- Opt-out
-
-> The internal value of these labels is the same, downcased.
-
-
 
 # For Milestone 2: Resend from Landing Page
 
@@ -373,10 +339,10 @@ We don't need to do nothing in the controller but in the view in the else case i
 This milestone adds a link to a clinical dashboard after the user successfully verifies their email.
 
 Facts:
-- Only classes that include PortalProviderEntity are: Clinic, Physician, PhysicianGroup, and Practice
+- The only classes that include PortalProviderEntity are: Clinic, Physician, PhysicianGroup, and Practice
 	- These classes can do `send_portal_access_link(provider_email)`
-- There's no link between UserCommunicationMethod and Clinic, PhysicianGroup, and Practice
-	- There's a connection between this class and Physician, though
+- There's no link between `UserCommunicationMethod` and `Clinic`, `PhysicianGroup`, and `Practice`
+	- There's a connection between this class and `Physician`, though
 - In the final verification page a UserCommunicationMethod ID is available
 	- With this ID we can find the instance and it's user
 		- This user could be a Physician or a ShadowUser
@@ -389,3 +355,30 @@ UserCommunicationMethod.find("faaa748c-76ae-4ce1-a954-46275315fdd7").user.respon
 UserCommunicationMethod.find("faaa748c-76ae-4ce1-a954-46275315fdd7").user.parent.respond_to?(:send_portal_access_link)
 => true
 ```
+
+# For Milestone 3: Automate Email Reminder
+
+This worker should run once a week. Probably early on mondays.
+
+The worker should query `user_communication_methods` records where:
+
+- `kind` is 0 ("email")
+- `verified_at` is null and `verification_status` is 0 ("unverified")
+- `verification_attempts` < 4
+
+To complete the rule:
+> and then every 7 days (once per week) for 3 weeks
+
+I can use the `verification_attempts` field. Anytime an email reminder is sent this number increases. So once it reaches to 4 it means we emailed them four times already.
+
+## Weekly email for three weeks
+
+This will be only sent to recipients that haven't verified their email and haven't opted out of the verification process. This opt-out flag is found in Hubspot via the property `portal_email_cadence`.
+
+This property is a dropdown and has these values:
+- Weekly
+- Monthly
+- Quarterly
+- Opt-out
+
+> The internal value of these labels is the same, downcased.
