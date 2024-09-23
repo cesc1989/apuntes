@@ -136,3 +136,24 @@ while_preventing_writes is only available on the connection_handler with legacy_
 ```
 
 Se da en workers. Se arregla seteando en true `legacy_connection_handling` en application.rb. Ver [[004 - AppBlend What Changes in Config Defaults#What is config.active_record.legacy_connection_handling?]]
+
+# Timeout en Auto Charts
+
+Al ir a la página en alpha da time out y en local se queda cargando Accounts
+
+![[auto.charts.timeout.rails7.png]]
+
+Se está quedando en esta parte:
+```ruby
+# app/models/concerns/profile.rb:9
+
+included do
+    belongs_to :account
+    delegate :name, to: :account # AQUI
+    delegate :first_name, to: :account
+end
+```
+
+¿Qué carga antes de llegar a esta parte?
+
+Lo más raro es que a pesar de que dio el timeout de la sesión de Luxe, se reinició la sesión y navegué otra página, siguió haciendo su ejecución de Accounts!?

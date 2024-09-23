@@ -228,7 +228,7 @@ create_table "user_communication_methods", id: :uuid, default: -> { "uuid_genera
   end
 ```
 
-# For Milestone 2: Resend from Landing Page
+# For Milestone 2: Resend from Landing Page 🟡
 
 This milestone needs to add two different buttons depending on the outcome of the email verification:
 
@@ -334,18 +334,18 @@ However, ==the path will need to be in a new controller because that one needs a
 
 We don't need to do nothing in the controller but in the view in the else case in `app/views/user_communication_methods/email_verifications/new.html.erb`.
 
-# For Milestone 2: Generate portal link after verification
+# For Milestone 2: Generate portal link after verification 🟡
 
 This milestone adds a link to a clinical dashboard after the user successfully verifies their email.
 
 Facts:
-- The only classes that include PortalProviderEntity are: Clinic, Physician, PhysicianGroup, and Practice
+- The only classes that include `PortalProviderEntity` are: Clinic, Physician, PhysicianGroup, and Practice
 	- These classes can do `send_portal_access_link(provider_email)`
 - There's no link between `UserCommunicationMethod` and `Clinic`, `PhysicianGroup`, and `Practice`
 	- There's a connection between this class and `Physician`, though
 - In the final verification page a UserCommunicationMethod ID is available
 	- With this ID we can find the instance and it's user
-		- This user could be a Physician or a ShadowUser
+		- This user could be a ==Physician or a ShadowUser==.
 
 When `ucm.user` is a physician we can send the `send_portal_access_link` method. Else we should send the message to the user's `parent` association.
 ```ruby
@@ -355,6 +355,8 @@ UserCommunicationMethod.find("faaa748c-76ae-4ce1-a954-46275315fdd7").user.respon
 UserCommunicationMethod.find("faaa748c-76ae-4ce1-a954-46275315fdd7").user.parent.respond_to?(:send_portal_access_link)
 => true
 ```
+
+See more details for Ad Hoc link generation at [[Edge to Dashboard Link Generation]]
 
 # For Milestone 3: Automate Email Reminder
 

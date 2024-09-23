@@ -43,7 +43,7 @@ end
 Entonces:
 
 ```ruby
-bad_ucm = UserCommunicationMethod.email.order("RANDOM()").first
+bad_ucm = UserCommunicationMethod.email.order("RANDOM()").where(verification_status: "unverified").first
 bad_ucm.update!(
   verification_code: "holahola",
   verification_code_expires_at: 5.days.ago
@@ -90,6 +90,23 @@ Rails.application.routes.url_helpers.verify_email_url(
 	port: ENV["APPLICATION_PORT"]
 )
 ```
+
+## Encontrando UCM para un Physician o ShadowUser
+
+Esto para poder probar la generación de un link de CD.
+
+```ruby
+ucm = UserCommunicationMethod.email.find_by(user_type: "Physician", verification_status: "unverified")
+ucm.update(verification_status: "unverified", verification_code_expires_at: nil)
+
+Rails.application.routes.url_helpers.verify_email_url(
+	UserCommunicationMethods::Email.encode_url_token(ucm),
+	host: ENV.fetch("ROOT_URL"),
+	protocol: Luna.env_protocol,
+	port: ENV["APPLICATION_PORT"]
+)
+```
+
 
 # Query en Grafana para ver si el worker se movió
 
