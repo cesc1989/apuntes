@@ -25,3 +25,22 @@ Starting MailCatcher v0.10.0
 ```
 
 Y accede en `http://127.0.0.1:1080`.
+
+## Probar Envío de Solicitud de Verificación de Correo
+
+Hay que encontrar un UserCommunicationMethod que se pueda verificar:
+```ruby
+bad_ucm = UserCommunicationMethod.email.order("RANDOM()").where(verification_status: "unverified").first bad_ucm.update!( verification_code: "holahola", verification_code_expires_at: 5.days.ago )
+```
+
+Luego precargarmos el Mailer:
+```ruby
+mailer = UserCommunicationMethods::EmailVerificationMailer.with(communication_method: bad_ucm, duration_hours: 12)
+```
+
+Finalmente, hacemos el envío:
+```ruby
+mailer.verification_email.deliver_now
+```
+
+Recargamos la página en Mailcatcher y debería salir el correo.
