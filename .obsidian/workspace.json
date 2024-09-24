@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "ff6073289944fa7c",
+            "id": "5cd1d6eacfede495",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
                 "mode": "preview",
                 "source": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md"
               }
             }
           }
@@ -175,13 +175,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "ff6073289944fa7c",
+  "active": "5cd1d6eacfede495",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Luna/Backend/Email Verification/Portal Email Verification.md",
@@ -203,9 +205,7 @@
     "Luna/Backend/AppBlend/attachments/ar.legacy_connection_handling.png",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
-    "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Backend/Reviewers",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.patients.to.pbls.png",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.physician.to.patient.png",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments",
