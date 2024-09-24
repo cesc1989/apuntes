@@ -352,3 +352,72 @@ Esta es la tabla presente en dicha sección de las guías.
 | `{ "person": [null] }`            | `{ :person => [] }`     |
 | `{ "person": [null, null, ...] }` | `{ :person => [] }`     |
 | `{ "person": ["foo", null] }`     | `{ :person => ["foo"] }` |
+
+# Error de gema PG al desinstalar PostgreSQL - Homebrew
+
+Quería instalar PostgreSQL version 16 y ya tenía la 14 instalada. Así que seguí los pasos normales de instalar y desinstalar. Cuando intenté volver a configurar el proyecto Patient Self Report me encontré con este error:
+
+```bash
+$ rails db:setup
+Calling `DidYouMean::SPELL_CHECKERS.merge!(error_name => spell_checker)' has been deprecated. Please call `DidYouMean.correct_error(error_name, spell_checker)' instead.
+rails aborted!
+LoadError: dlopen(/Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg_ext.bundle, 0x0009): Library not loaded: /opt/homebrew/opt/postgresql@14/lib/postgresql@14/libpq.5.dylib
+  Referenced from: <F948A258-B067-3468-89EA-C8EC5FD77B77> /Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg_ext.bundle
+  Reason: tried: '/opt/homebrew/opt/postgresql@14/lib/postgresql@14/libpq.5.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/postgresql@14/lib/postgresql@14/libpq.5.dylib' (no such file), '/opt/homebrew/opt/postgresql@14/lib/postgresql@14/libpq.5.dylib' (no such file), '/usr/local/lib/libpq.5.dylib' (no such file), '/usr/lib/libpq.5.dylib' (no such file, not in dyld cache) - /Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg_ext.bundle
+/Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg.rb:49:in `require'
+/Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg.rb:49:in `block in <module:PG>'
+/Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg.rb:37:in `block in <module:PG>'
+/Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg.rb:42:in `<module:PG>'
+/Users/francisco/.gem/ruby/3.1.0/gems/pg-1.5.3/lib/pg.rb:6:in `<top (required)>'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.2.33/lib/bundler/runtime.rb:60:in `require'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.2.33/lib/bundler/runtime.rb:60:in `block (2 levels) in require'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.2.33/lib/bundler/runtime.rb:55:in `each'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.2.33/lib/bundler/runtime.rb:55:in `block in require'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.2.33/lib/bundler/runtime.rb:44:in `each'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.2.33/lib/bundler/runtime.rb:44:in `require'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.2.33/lib/bundler.rb:175:in `require'
+/Users/francisco/projects/luna-project/patient-forms-backend/config/application.rb:17:in `<top (required)>'
+/Users/francisco/projects/luna-project/patient-forms-backend/Rakefile:4:in `require_relative'
+/Users/francisco/projects/luna-project/patient-forms-backend/Rakefile:4:in `<top (required)>'
+/Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/commands/rake/rake_command.rb:20:in `block in perform'
+/Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/commands/rake/rake_command.rb:18:in `perform'
+/Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/command.rb:51:in `invoke'
+/Users/francisco/.gem/ruby/3.1.0/gems/railties-7.0.4/lib/rails/commands.rb:18:in `<top (required)>'
+bin/rails:4:in `require'
+bin/rails:4:in `<main>'
+(See full trace by running task with --trace)
+```
+
+Al instalar la gema PG con bundle install como que quedó ligada a la versión de Postgres 14. Para corregir tuve que desinstalarla del sistema:
+```bash
+$ gem list pg
+
+*** LOCAL GEMS ***
+
+pg (1.5.4, 1.5.3, 1.3.0, 1.2.3, 0.21.0)
+
+$ gem uninstall pg
+
+Select gem to uninstall:
+ 1. pg-0.21.0
+ 2. pg-1.2.3
+ 3. pg-1.3.0
+ 4. pg-1.5.3
+ 5. pg-1.5.4
+ 6. All versions
+> 6
+Successfully uninstalled pg-0.21.0
+Successfully uninstalled pg-1.2.3
+Successfully uninstalled pg-1.3.0
+Successfully uninstalled pg-1.5.3
+```
+
+Y volver a hacer bundle install:
+```
+$ bi
+
+Fetching pg 1.5.3
+Installing pg 1.5.3 with native extensions
+Bundle complete! 49 Gemfile dependencies, 155 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+```

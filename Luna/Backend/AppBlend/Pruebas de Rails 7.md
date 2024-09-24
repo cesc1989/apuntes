@@ -104,13 +104,15 @@ app/admin/clinical/plans_of_care.rb:244:in `block (3 levels) in <main>'
 app/admin/clinical/plans_of_care.rb:236:in `block (2 levels) in <main>'
 ```
 
-Esto parece solo ser en local porque me faltan variables de entorno.
+Esto parece solo ser en local porque me faltan variables de entorno de servicios de Google.
 
 # Error: nil ID for rails url
 
 Navegando Clinical -> Protocol Escalations
 
-```
+```ruby
+Showing _/Users/francisco/.gem/ruby/3.1.0/gems/activeadmin-2.14.0/app/views/active_admin/resource/index.html.arb_ where line **#3** raised:
+
 No route matches {:action=>"show", :controller=>"admin/patients", :id=>nil}, missing required keys: [:id]
 
     column "Patient" do |escalation|
@@ -124,7 +126,7 @@ app/admin/clinical/protocol_escalations.rb:41:in `block (3 levels) in <main>'
 app/admin/clinical/protocol_escalations.rb:39:in `block (2 levels) in <main>'
 ```
 
-¿por qué pasa en Rails 7?
+¿por qué pasa en Rails 7? ¿Es esto de ActiveAdmin?
 
 # while_preventing_writes is only available on the connection_handler with legacy_connection_handling ✅
 
@@ -143,7 +145,7 @@ Al ir a la página en alpha da time out y en local se queda cargando Accounts
 
 ![[auto.charts.timeout.rails7.png]]
 
-Se está quedando en esta parte:
+Se está quedando pegado en esta parte:
 ```ruby
 # app/models/concerns/profile.rb:9
 
@@ -154,6 +156,10 @@ included do
 end
 ```
 
-¿Qué carga antes de llegar a esta parte?
+Pero no es nada raro. Solo está cargando datos y en Rails 6 y en Alpha también pasa.
 
-Lo más raro es que a pesar de que dio el timeout de la sesión de Luxe, se reinició la sesión y navegué otra página, siguió haciendo su ejecución de Accounts!?
+> Lo más raro es que a pesar de que dio el timeout de la sesión de Luxe, se reinició la sesión y navegué otra página, siguió haciendo su ejecución de Accounts!?
+
+# Timeout en Patient Duplicates
+
+Me pasó en alpha cuando probé. No me pasó en local??
