@@ -160,6 +160,8 @@ Pero no es nada raro. Solo está cargando datos y en Rails 6 y en Alpha también
 
 > Lo más raro es que a pesar de que dio el timeout de la sesión de Luxe, se reinició la sesión y navegué otra página, siguió haciendo su ejecución de Accounts!?
 
+La razón es que ==la conexión a la base de datos en el RDS es MUY lenta==. **Hice un dump local y todo carga muchísimo más rápido**.
+
 # Timeout en Patient Duplicates
 
 Me pasó en alpha cuando probé. No me pasó en local??
