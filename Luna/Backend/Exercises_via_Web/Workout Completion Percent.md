@@ -2,7 +2,7 @@
 
 ## Workout Schema
 
-![[Pasted image 20240802153201.png]]
+![[workout.table.png]]
 
 The important field here is `exercise_times`. It is a hash that collects details about each exercise the patient performs.
 
