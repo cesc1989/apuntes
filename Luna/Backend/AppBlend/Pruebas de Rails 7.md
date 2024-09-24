@@ -128,6 +128,19 @@ app/admin/clinical/protocol_escalations.rb:39:in `block (2 levels) in <main>'
 
 ¿por qué pasa en Rails 7? ¿Es esto de ActiveAdmin?
 
+Algo que aún no descubro qué es cambió en Rails 7 y entonces ya no se puede acceder a la instancia de Patient del ProtocolEscalation. Tocó hacer esto:
+```ruby
+column "Patient" do |escalation|
+	escalation.reload
+	patient = escalation.patient
+
+	url = admin_patient_path(patient)
+	link_to(patient.name, url, target: :_blank, rel: :noopener)
+end
+```
+
+Buscaré información para tratar de entender por qué y si es necesario dejar eso así.
+
 # while_preventing_writes is only available on the connection_handler with legacy_connection_handling ✅
 
 El Error:
