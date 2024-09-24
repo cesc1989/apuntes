@@ -34,9 +34,23 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "1bf25c92446d7ea3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md"
+                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md"
               }
             }
           }
@@ -163,11 +177,24 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b60ba29015405568",
+  "active": "1bf25c92446d7ea3",
   "lastOpenFiles": [
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notes.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Logic_for_PatientDownloadAppSmsWorker.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_ER_Diagram.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
+    "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Table.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_QA_Results.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Logic_&&_Files.md",
+    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Discovery.md",
+    "Luna/Backend/Exercises_via_Web/Technical_Plan_Update_Exercise_Completion_Logic.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Otro_Espacio/CheatSheets/bash/multiple_aws.md",
     "Otro_Espacio/CheatSheets/bash/commands.md",
     "Otro_Espacio/CheatSheets/bash/README.md",
@@ -178,10 +205,6 @@
     "README.md",
     "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
     "basics.md",
-    "Otro_Espacio/CheatSheets/mysql/README.md",
-    "Otro_Espacio/CheatSheets/git/README.md",
-    "Otro_Espacio/CheatSheets/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
     "Otro_Espacio/CheatSheets/postgresql/utilities",
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands",
@@ -192,15 +215,6 @@
     "Otro_Espacio/CheatSheets/postgresql",
     "Otro_Espacio/CheatSheets/mysql",
     "Otro_Espacio/CheatSheets/git",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
-    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
-    "Luna/Backend/Email Verification/Portal Email Verification.md",
     "Luna/Backend/AppBlend/attachments/auto.charts.timeout.rails7.png",
     "Luna/Backend/AppBlend/attachments/ar.legacy_connection_handling.png",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.patients.to.pbls.png",
