@@ -34,33 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "3601a620ac5e2e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "14b8bdb64ccc530e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md"
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md"
               }
             }
           }
@@ -187,32 +163,32 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3601a620ac5e2e0a",
+  "active": "b60ba29015405568",
   "lastOpenFiles": [
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+    "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
+    "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
+    "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
+    "Luna/Backend/Escalations/attachments/12.alpha.san.francisco.png",
+    "Luna/Backend/Escalations/attachments/11.third.attempt.in.alpha.png",
+    "Luna/Backend/Escalations/attachments/10.third.attempt.fix.inspect.png",
+    "Luna/Backend/Escalations/attachments/09.third.attempt.query.results.png",
+    "Luna/Backend/Escalations/attachments/08.second.fix.tooltip.png",
+    "Luna/Backend/Escalations/attachments/07.second.fix.alpha.png",
+    "Luna/Backend/Escalations/attachments/06.second.fix.query.results.png",
+    "Luna/Backend/Escalations/attachments/05.first.fix.png",
+    "Luna/Backend/Escalations/attachments/04.query.results.png",
+    "Luna/Backend/Escalations/attachments/03.check.in.luxe.png",
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_Parte_1.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
     "Otro_Espacio/CheatSheets/postgresql/README.md",
-    "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
-    "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Luna/Backend/Communication_Preferences/[Comms]_Entidades_para_Pruebas.md",
     "Luna/Backend/Communication_Preferences/[Comms]_¿Dónde_se_crean_las_Comms_Iniciales.md",
-    "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
-    "Luna/Backend/Escalations/attachments/total.query.count.after.fix.png",
-    "Luna/Backend/Escalations/attachments/s_DCB6B290350A1C74289956396BF2E93B762B84B171440273C916E64030D0B127_1710349487808_Screenshot+2024-03-13+at+12.04.09+PM.png",
-    "Luna/Backend/Escalations/attachments/111.nodups.alpha.png",
-    "Luna/Backend/Escalations/attachments/s_DCB6B290350A1C74289956396BF2E93B762B84B171440273C916E64030D0B127_1710349388884_111.nodups.alpha.png",
-    "Luna/Backend/Escalations/attachments/112.dups.alpha.png",
-    "Luna/Backend/Escalations/attachments/s_DCB6B290350A1C74289956396BF2E93B762B84B171440273C916E64030D0B127_1710349299442_112.dups.alpha.png",
-    "Luna/Backend/Escalations/attachments/110.dups.alpha.png",
-    "Luna/Backend/Escalations/attachments/s_DCB6B290350A1C74289956396BF2E93B762B84B171440273C916E64030D0B127_1710348775896_110.dups.alpha.png",
-    "Luna/Backend/Escalations/attachments/003.patient.escalations.png",
-    "Luna/Backend/Escalations/attachments/s_36B507517C234B5B785D2BC99AD52D89F7077FA2BC583059FE816D85DC34BD55_1708725184609_003.patient.escalations.png",
     "Luna/Backend/Escalations/attachments",
     "Luna/Backend/Escalations/untitled folder",
     "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_QA_Results.md",
@@ -226,7 +202,6 @@
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_ER_Diagram.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Discovery.md",
     "Otro_Espacio/CheatSheets/postgresql/utilities",
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands",
