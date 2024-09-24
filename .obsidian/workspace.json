@@ -34,21 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5cd1d6eacfede495",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md"
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md"
               }
             }
           }
@@ -175,11 +163,37 @@
       "random-note:Open random note": false
     }
   },
-  "active": "5cd1d6eacfede495",
+  "active": "b60ba29015405568",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
+    "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Otro_Espacio/CheatSheets/bash/multiple_aws.md",
+    "Otro_Espacio/CheatSheets/bash/commands.md",
+    "Otro_Espacio/CheatSheets/bash/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/README.md",
+    "README.md",
+    "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
+    "basics.md",
+    "Otro_Espacio/CheatSheets/mysql/README.md",
+    "Otro_Espacio/CheatSheets/git/README.md",
+    "Otro_Espacio/CheatSheets/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/utilities",
+    "Otro_Espacio/CheatSheets/postgresql/troubleshooting",
+    "Otro_Espacio/CheatSheets/postgresql/terminal-commands",
+    "Otro_Espacio/CheatSheets/postgresql/queries",
+    "Otro_Espacio/CheatSheets/postgresql/psql-commands",
+    "Otro_Espacio/CheatSheets/postgresql/basics",
+    "Otro_Espacio/CheatSheets/postgresql/advanced",
+    "Otro_Espacio/CheatSheets/postgresql",
+    "Otro_Espacio/CheatSheets/mysql",
+    "Otro_Espacio/CheatSheets/git",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
@@ -187,42 +201,16 @@
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Luna/Backend/Email Verification/Portal Email Verification.md",
-    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Backend/AppBlend/attachments/auto.charts.timeout.rails7.png",
-    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Dockerizar_Ruby_on_Rails_app.md",
-    "Luna/Backend/AppBlend/Trying Audited 5.2.0.md",
-    "Luna/Backend/AppBlend/Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
-    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/005 - QA Plan.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
     "Luna/Backend/AppBlend/attachments/ar.legacy_connection_handling.png",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
-    "Luna/Backend/Reviewers",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.patients.to.pbls.png",
     "Luna/Clinical_Dashboard/Unseen Patients/attachments/associate.physician.to.patient.png",
-    "Luna/Clinical_Dashboard/Unseen Patients/attachments",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/client.untrusted.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/GraphQL_Notas,_apuntes_y_mucho_más/attachments/no.security.graphql.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_y_Libros/attachments/Pasted image 20240724221306.png",
     "Luna/Backend/AppBlend/attachments/lol_dba_versions.png",
-    "Luna/Backend/AppBlend/attachments",
-    "DevAsPros/Cash_Flow/attachments",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/attachments",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/untitled folder",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues",
-    "Luna/Therapist_Signup/attachments",
-    "Luna/Therapist_Signup/untitled folder",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

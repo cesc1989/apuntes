@@ -21,6 +21,7 @@ Uso Obsidian para escribir en local y sincronizo mediante Git.
 		- Apuntes de Ruby on Rails
 		- Apuntes de Dev Ops (Docker, Ubuntu Server, AWS)
 		- Apuntes de Elixir
+	- Cheat Sheets
 - Entre otras muchas cosas más como:
 	- Atajos de Sublime Text
 	- Notas de lecturas de Internet
