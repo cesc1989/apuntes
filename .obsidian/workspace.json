@@ -34,20 +34,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "1bf25c92446d7ea3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true
-            }
           }
         ],
         "currentTab": 1
@@ -180,6 +166,7 @@
   "active": "b60ba29015405568",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
     "Otro_Espacio/CheatSheets/postgresql/README.md",
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
@@ -214,7 +201,6 @@
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Discovery.md",
     "Luna/Backend/Exercises_via_Web/Technical_Plan_Update_Exercise_Completion_Logic.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
     "Otro_Espacio/CheatSheets/bash/multiple_aws.md",
     "Otro_Espacio/CheatSheets/postgresql/utilities",
