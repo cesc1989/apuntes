@@ -1,4 +1,4 @@
-# Apuntes Rails - Edge #1
+# Apuntes Rails - Edge Parte 1
 
 # Error al instalar puma 6.3.1
 
@@ -105,6 +105,25 @@ PKG_CONFIG_PATH="$(brew --prefix openssl)/lib/pkgconfig" gem install eventmachin
 
 Encontré en el [issue de eventmachine](https://github.com/eventmachine/eventmachine/issues/981) esta alternativa pero no funcionó:
 
-```
+```bash
 gem install eventmachine -- --with-openssl-dir=$(brew --prefix openssl@1.1)
+```
+
+## Actualización: 24 Septiembre 2024
+
+El comando:
+```bash
+gem install eventmachine -- --with-openssl-dir=$(brew --prefix openssl@1.1)
+```
+
+funcionó esta vez y ahora sí pude completar la instalación:
+```bash
+$ gem install mailcatcher --no-document
+Successfully installed daemons-1.4.1
+Building native extensions. This could take a while...
+Successfully installed thin-1.8.2
+Successfully installed sinatra-3.2.0
+Successfully installed faye-websocket-0.11.3
+Successfully installed mailcatcher-0.10.0
+5 gems installed
 ```

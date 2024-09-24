@@ -1,4 +1,4 @@
-# User Email Verification
+# User Email Verification - Genera Info
 
 This verification is done for access to Clinical Dashboard and Patient Escalations.
 

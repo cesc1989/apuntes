@@ -139,7 +139,7 @@ while_preventing_writes is only available on the connection_handler with legacy_
 
 Se da en workers. Se arregla seteando en true `legacy_connection_handling` en application.rb. Ver [[004 - AppBlend What Changes in Config Defaults#What is config.active_record.legacy_connection_handling?]]
 
-# Timeout en Auto Charts
+# Timeout en Auto Charts ✅
 
 Al ir a la página en alpha da time out y en local se queda cargando Accounts
 
@@ -162,6 +162,6 @@ Pero no es nada raro. Solo está cargando datos y en Rails 6 y en Alpha también
 
 La razón es que ==la conexión a la base de datos en el RDS es MUY lenta==. **Hice un dump local y todo carga muchísimo más rápido**.
 
-# Timeout en Patient Duplicates
+# Timeout en Patient Duplicates ✅
 
 Me pasó en alpha cuando probé. No me pasó en local??
