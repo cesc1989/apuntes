@@ -2,7 +2,7 @@
 
 Tanto success como failure. Aquí listo los pasos para generar un token bueno para poder probar esta característica.
 
-## Generar token bueno y Verificación Ok
+## Generar token bueno y Verificación Ok 😎
 
 Necesitamos una instancia de `UserCommunicationMethod` de tipo Email. A esta le asignamos un código de verificación:
 ```ruby
@@ -18,13 +18,11 @@ Rails.application.routes.url_helpers.verify_email_url(
 	protocol: Luna.env_protocol,
 	port: ENV["APPLICATION_PORT"]
 )
-
-# => "http://localhost:3000/verify_email/eyJpZCI6IjAwMDA3MTQ5LTViNTAtNGQ0Mi05MDBlLTFlYmFjYTQxZDA1NiIsImNvZGUiOiJMQzJVMnR5OTdLQmt0Uk9RUUxPTjZBIn0="
 ```
 
 Con esa URL ya se puede probar abrir enlace verificable o no.
 
-## Token malo y Fallo en verificación
+## Token malo y Fallo en verificación 😭
 
 Para que la verificación no se dé hay que usar un UCM que:
 
@@ -58,8 +56,6 @@ Rails.application.routes.url_helpers.verify_email_url(
 	protocol: Luna.env_protocol,
 	port: ENV["APPLICATION_PORT"]
 )
-
-# => "http://localhost:3000/verify_email/eyJpZCI6ImRkNTRiNDYzLWU2YTYtNGYxNC04ODVlLTU1MzVmY2M4YjVkMCIsImNvZGUiOiJ0aTU5a3JlVzdsYVpuelRGbHZJVTRnIn0="
 ```
 
 # Pruebas en Alfa
@@ -91,7 +87,7 @@ Rails.application.routes.url_helpers.verify_email_url(
 )
 ```
 
-## Encontrando UCM para un Physician o ShadowUser
+## Encontrando UCM para un Physician o ShadowUser 🧐
 
 Esto para poder probar la generación de un link de CD.
 
@@ -108,7 +104,7 @@ Rails.application.routes.url_helpers.verify_email_url(
 ```
 
 
-# Query en Grafana para ver si el worker se movió
+# Query en Grafana para ver si el worker se movió 📜
 
 ```
 {app="backend-sidekiq-worker"} |= `EmailVerificationWorker`

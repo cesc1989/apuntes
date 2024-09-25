@@ -356,6 +356,9 @@ UserCommunicationMethod.find("faaa748c-76ae-4ce1-a954-46275315fdd7").user.parent
 => true
 ```
 
+> [!INFO]
+> The `parent` method is defined in `ShadowUser` class as described in the ShadowUser section above.
+
 See more details for Ad Hoc link generation at [[Edge to Dashboard Link Generation]]
 
 # For Milestone 3: Automate Email Reminder

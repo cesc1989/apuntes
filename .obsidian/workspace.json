@@ -20,35 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "b60ba29015405568",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1c5cca2fe064bdac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -175,14 +148,28 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1c5cca2fe064bdac",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
+    "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/005 - QA Plan.md",
+    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "README.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/attachments/dbevaer.setup.png",
     "Luna/dbevaer.setup.png",
     "Luna/attachments",
     "Luna/untitled folder",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
-    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/AWS_Single_Sign-On_-_Apuntes.md",
     "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
     "Luna/Troubleshooting/attachments/104.mbp.intel.espacio.png",
@@ -199,25 +186,11 @@
     "Luna/Troubleshooting/Cómo_Acceder_al_Contenedor_Donde_está_desplegada_l.md",
     "Luna/Troubleshooting",
     "Luna/Backend/Crear dump y resturar en local.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Descubriendo_Rails_a_Fondo.md",
-    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
-    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
-    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_Parte_1.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "Luna/Backend/Exercises_via_Web/attachments/07.sms.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/06.email.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/05.email.test.png",
-    "Luna/Backend/Exercises_via_Web/attachments/04.email.test.png",
     "Luna/Backend/Escalations/attachments",
     "Luna/Backend/Escalations/untitled folder",
     "Otro_Espacio/CheatSheets/postgresql/utilities",
