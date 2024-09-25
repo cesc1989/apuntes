@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "af9168efc3176e53",
+            "id": "806d06556d9cb4a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Crear dump y resturar en local.md",
-                "mode": "preview",
+                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -77,10 +77,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "m1",
+                "query": "install aws cli",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Crear dump y resturar en local.md",
+                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Crear dump y resturar en local.md",
+                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Crear dump y resturar en local.md"
+                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md"
               }
             }
           }
@@ -175,16 +175,29 @@
       "random-note:Open random note": false
     }
   },
-  "active": "af9168efc3176e53",
+  "active": "806d06556d9cb4a3",
   "lastOpenFiles": [
+    "Luna/Troubleshooting/attachments/104.mbp.intel.espacio.png",
+    "Luna/Troubleshooting/attachments/103.change.terminal.config.png",
+    "Luna/Troubleshooting/attachments/102.intel.mbp.low.storage.png",
+    "Luna/Troubleshooting/attachments/101.mbp.intel.disk.issue.png",
+    "Luna/Troubleshooting/attachments",
+    "Luna/Troubleshooting/untitled folder",
+    "Luna/Troubleshooting/101.mbp.intel.disk.issue.png",
+    "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
+    "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
+    "Luna/Troubleshooting/Install_Uninstall_aws_cli_in_MacOS.md",
+    "Luna/Troubleshooting/Marketing_Site_Production_Server_Apache_Extensions.md",
+    "Luna/Troubleshooting/Cómo_Acceder_al_Contenedor_Donde_está_desplegada_l.md",
+    "Luna/Troubleshooting",
     "Luna/Backend/Crear dump y resturar en local.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Descubriendo_Rails_a_Fondo.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
@@ -197,22 +210,12 @@
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
-    "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
-    "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
-    "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_QA_Results.md",
     "Luna/Backend/Exercises_via_Web/attachments/07.sms.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/06.email.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/05.email.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/04.email.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/03.sms.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/02.sms.test.png",
-    "Luna/Backend/Exercises_via_Web/attachments/01.email.test.png",
-    "Luna/Backend/Exercises_via_Web/[EvW]_ER_Diagram.md",
-    "Luna/Backend/Exercises_via_Web/attachments/evw.erd.diagram.png",
-    "Luna/Backend/Escalations/attachments/12.alpha.san.francisco.png",
-    "Luna/Backend/Escalations/attachments/11.third.attempt.in.alpha.png",
     "Luna/Backend/Escalations/attachments",
     "Luna/Backend/Escalations/untitled folder",
     "Otro_Espacio/CheatSheets/postgresql/utilities",
@@ -220,9 +223,6 @@
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands",
     "Otro_Espacio/CheatSheets/postgresql/queries",
     "Otro_Espacio/CheatSheets/postgresql/psql-commands",
-    "Otro_Espacio/CheatSheets/postgresql/basics",
-    "Otro_Espacio/CheatSheets/postgresql/advanced",
-    "Otro_Espacio/CheatSheets/postgresql",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
