@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "8a9ec2c0074dd568",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md"
               }
             }
           }
@@ -148,20 +161,21 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "8a9ec2c0074dd568",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Rails.env.local?.md",
+    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/AppBlend/Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/005 - QA Plan.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/004 - AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "README.md",
@@ -187,7 +201,6 @@
     "Luna/Troubleshooting",
     "Luna/Backend/Crear dump y resturar en local.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
     "Luna/Backend/Exercises_via_Web/attachments/07.sms.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/06.email.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/05.email.test.png",
