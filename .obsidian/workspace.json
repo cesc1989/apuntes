@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "806d06556d9cb4a3",
+            "id": "1c5cca2fe064bdac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
-                "mode": "source",
+                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
+                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
+                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md"
+                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md"
               }
             }
           }
@@ -175,8 +175,16 @@
       "random-note:Open random note": false
     }
   },
-  "active": "806d06556d9cb4a3",
+  "active": "1c5cca2fe064bdac",
   "lastOpenFiles": [
+    "Luna/attachments/dbevaer.setup.png",
+    "Luna/dbevaer.setup.png",
+    "Luna/attachments",
+    "Luna/untitled folder",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+    "Luna/AWS_Single_Sign-On_-_Apuntes.md",
+    "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
     "Luna/Troubleshooting/attachments/104.mbp.intel.espacio.png",
     "Luna/Troubleshooting/attachments/103.change.terminal.config.png",
     "Luna/Troubleshooting/attachments/102.intel.mbp.low.storage.png",
@@ -185,8 +193,6 @@
     "Luna/Troubleshooting/untitled folder",
     "Luna/Troubleshooting/101.mbp.intel.disk.issue.png",
     "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
-    "Luna/Troubleshooting/Caso_Espacio_de_Disco_luego_de_“dormir”_el_MBP.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
     "Luna/Troubleshooting/Install_Uninstall_aws_cli_in_MacOS.md",
     "Luna/Troubleshooting/Marketing_Site_Production_Server_Apache_Extensions.md",
@@ -208,21 +214,15 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/Exercises_via_Web/attachments/07.sms.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/06.email.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/05.email.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/04.email.test.png",
-    "Luna/Backend/Exercises_via_Web/attachments/03.sms.test.png",
-    "Luna/Backend/Exercises_via_Web/attachments/02.sms.test.png",
     "Luna/Backend/Escalations/attachments",
     "Luna/Backend/Escalations/untitled folder",
     "Otro_Espacio/CheatSheets/postgresql/utilities",
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands",
-    "Otro_Espacio/CheatSheets/postgresql/queries",
-    "Otro_Espacio/CheatSheets/postgresql/psql-commands",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
