@@ -141,6 +141,13 @@ end
 
 Buscaré información para tratar de entender por qué y si es necesario dejar eso así.
 
+Issues posiblemente relacionados:
+
+- [has_one through not available on unpersisted instances](https://github.com/rails/rails/issues/33155)
+- [has_one :through associations ignore preloaded records](https://github.com/rails/rails/issues/51817)
+	- PR (opened) for this bug [[Fix #51817] Allow Preloaded has_one :through Associations to be Accessed Without Additional Database Queries](https://github.com/rails/rails/pull/52060)
+
+
 # while_preventing_writes is only available on the connection_handler with legacy_connection_handling ✅
 
 El Error:

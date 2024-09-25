@@ -34,21 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "24759e488131e5c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md"
               }
             }
           }
@@ -175,8 +163,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "24759e488131e5c9",
+  "active": "b60ba29015405568",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
@@ -210,7 +199,6 @@
     "Luna/Backend/Exercises_via_Web/[EvW]_ER_Diagram.md",
     "Luna/Backend/Exercises_via_Web/attachments/evw.erd.diagram.png",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
-    "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
     "Luna/Backend/Escalations/attachments/12.alpha.san.francisco.png",
     "Luna/Backend/Escalations/attachments/11.third.attempt.in.alpha.png",
     "Luna/Backend/Escalations/attachments",
