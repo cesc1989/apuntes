@@ -34,9 +34,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "24759e488131e5c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "m1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7.md"
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
               }
             }
           }
@@ -163,10 +175,26 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b60ba29015405568",
+  "active": "24759e488131e5c9",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Descubriendo_Rails_a_Fondo.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_Parte_1.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_14_-_Litesearch.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
     "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
     "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
@@ -183,26 +211,10 @@
     "Luna/Backend/Exercises_via_Web/attachments/evw.erd.diagram.png",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Table.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Logic_&&_Files.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notes.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Logic_for_PatientDownloadAppSmsWorker.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Discovery.md",
     "Luna/Backend/Escalations/attachments/12.alpha.san.francisco.png",
     "Luna/Backend/Escalations/attachments/11.third.attempt.in.alpha.png",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Luna/Backend/Lecciones/Apuntes_Rails_-_Edge_Parte_1.md",
-    "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/README.md",
-    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
-    "Luna/Backend/Communication_Preferences/[Comms]_Entidades_para_Pruebas.md",
-    "Luna/Backend/Communication_Preferences/[Comms]_¿Dónde_se_crean_las_Comms_Iniciales.md",
     "Luna/Backend/Escalations/attachments",
     "Luna/Backend/Escalations/untitled folder",
-    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
     "Otro_Espacio/CheatSheets/postgresql/utilities",
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands",

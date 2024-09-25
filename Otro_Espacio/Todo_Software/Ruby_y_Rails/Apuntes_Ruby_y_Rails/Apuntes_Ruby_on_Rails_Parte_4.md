@@ -421,3 +421,129 @@ Installing pg 1.5.3 with native extensions
 Bundle complete! 49 Gemfile dependencies, 155 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```
+
+# Creando app rails de reproducción
+
+Se puede crear aplicaciones rails de un solo archivo para reproducir cosas que pasan en el framework sin crear una aplicación nueva. Por ejemplo, para probar cosas de gemas yo me hice una app de prueba a partir de Puntapie. Eso es muy lento para casos más puntuales.
+
+En el repo de Rails [hay plantillas](https://github.com/rails/rails/tree/main/guides/bug_report_templates) de esto para las diferentes subgems de Rails.
+
+Aquí tuve una dificultad con la instalación de la gema sqlite3.
+
+## Instalando sqlite3 para rails repro app
+
+Cuando tuve la parte del gemfile así:
+```ruby
+gemfile(true) do
+  source "https://rubygems.org"
+
+  gem "rails", "7.0.4"
+  gem "sqlite3"
+end
+```
+
+Arrojaba este error cuando ejecutaba `ruby nested_has_one_rails7.rb`:
+```bash
+$ ruby nested_has_one_rails7.rb 
+Fetching gem metadata from https://rubygems.org/...........
+Resolving dependencies...
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.4.22/lib/bundler/rubygems_integration.rb:280:in `block (2 levels) in replace_gem': Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? can't activate sqlite3 (~> 1.4), already activated sqlite3-2.1.0-arm64-darwin. Make sure all dependencies are added to Gemfile. (LoadError)
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `<top (required)>'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:268:in `require'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:268:in `resolve_pool_config'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:129:in `establish_connection'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_handling.rb:52:in `establish_connection'
+	from nested_has_one_rails7.rb:15:in `<main>'
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.4.22/lib/bundler/rubygems_integration.rb:280:in `block (2 levels) in replace_gem': can't activate sqlite3 (~> 1.4), already activated sqlite3-2.1.0-arm64-darwin. Make sure all dependencies are added to Gemfile. (Gem::LoadError)
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `<top (required)>'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:268:in `require'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:268:in `resolve_pool_config'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:129:in `establish_connection'
+	from /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.0.4/lib/active_record/connection_handling.rb:52:in `establish_connection'
+	from nested_has_one_rails7.rb:15:in `<main>'
+```
+
+Encontré en un [issue](https://github.com/rails/rails/issues/35153#issuecomment-460455573) que la solución podría estar en algo como:
+```ruby
+gemfile(true) do
+  source "https://rubygems.org"
+
+  gem "rails", "7.0.4"
+  gem "sqlite3", "`~> 1.3.6`"
+end
+```
+
+Sin embargo, eso también me daba error:
+```bash
+$ ruby nested_has_one_rails7.rb 
+Fetching gem metadata from https://rubygems.org/...........
+Resolving dependencies...
+Fetching sqlite3 1.3.13
+Installing sqlite3 1.3.13 with native extensions
+/Users/francisco/.gem/ruby/3.1.0/gems/bundler-2.4.22/lib/bundler/installer/parallel_installer.rb:164:in `handle_error': Gem::Ext::BuildError: ERROR: Failed to build gem native extension. (Bundler::InstallError)
+\e[0m
+    current directory: /Users/francisco/.gem/ruby/3.1.0/gems/sqlite3-1.3.13/ext/sqlite3
+/Users/francisco/.rubies/ruby-3.1.0/bin/ruby -I /Users/francisco/.rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20240924-38634-bp0p3o.rb extconf.rb
+checking for sqlite3.h... yes
+checking for pthread_create() in -lpthread... yes
+checking for sqlite3_libversion_number() in -lsqlite3... yes
+checking for rb_proc_arity()... yes
+checking for rb_integer_pack()... yes
+checking for sqlite3_initialize()... yes
+checking for sqlite3_backup_init()... yes
+checking for sqlite3_column_database_name()... yes
+checking for sqlite3_enable_load_extension()... no
+checking for sqlite3_load_extension()... no
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_int64 in sqlite3.h... yes
+checking for sqlite3_uint64 in sqlite3.h... yes
+creating Makefile
+```
+
+Intenté instalar así pero tampoco funcionó:
+```bash
+$ gem install sqlite3 -v 1.3.13 -- --disable-march-tune-native
+Building native extensions with: '--disable-march-tune-native'
+This could take a while...
+ERROR:  Error installing sqlite3:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Users/francisco/.gem/ruby/3.1.0/gems/sqlite3-1.3.13/ext/sqlite3
+/Users/francisco/.rubies/ruby-3.1.0/bin/ruby -I /Users/francisco/.rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20240924-39089-i27n0h.rb extconf.rb --disable-march-tune-native
+checking for sqlite3.h... yes
+checking for pthread_create() in -lpthread... yes
+checking for sqlite3_libversion_number() in -lsqlite3... yes
+checking for rb_proc_arity()... yes
+checking for rb_integer_pack()... yes
+checking for sqlite3_initialize()... yes
+checking for sqlite3_backup_init()... yes
+checking for sqlite3_column_database_name()... yes
+checking for sqlite3_enable_load_extension()... no
+checking for sqlite3_load_extension()... no
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_int64 in sqlite3.h... yes
+checking for sqlite3_uint64 in sqlite3.h... yes
+creating Makefile
+```
+
+Finalmente, opté por usar una versión ya instalada en el sistema:
+```bash
+$ gem list sqlite3
+
+*** LOCAL GEMS ***
+
+sqlite3 (2.1.0 arm64-darwin, 1.7.0 arm64-darwin, 1.6.7 arm64-darwin, 1.6.3 arm64-darwin)
+```
+
+```ruby
+gemfile(true) do
+  source "https://rubygems.org"
+
+  gem "rails", "7.0.4"
+  gem "sqlite3", "1.7.0"
+end
+```
+
+No logré dar con la solución.
