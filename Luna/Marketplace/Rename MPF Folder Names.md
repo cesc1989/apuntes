@@ -5,6 +5,18 @@
 This script does not have a batch version so that we can review each range independently:
 
 ```bash
+# 2022 - Enero -> Marzo
+python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2022-01-01 --end 2022-03-31
+
+# 2022 - Abril -> Junio
+python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2022-04-01 --end 2022-06-30
+
+# 2022 - Julio -> Septiembre
+python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2022-07-01 --end 2022-09-30
+
+# 2022 - Octubre -> Diciembre
+python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2022-10-01 --end 2022-12-31
+
 # 2023 - Enero -> Marzo
 python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2023-01-01 --end 2023-03-31
 
@@ -23,6 +35,6 @@ python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2
 # 2024 - Abril -> Junio
 python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2024-04-01 --end 2024-06-30
 
-# 2024
+# 2024 - Julio -> Septiembre
 python -m marketplace.commands.google_drive change-gdrive-folder-names --start 2024-07-01 --end 2024-09-30
 ```
