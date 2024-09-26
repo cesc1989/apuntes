@@ -1,4 +1,4 @@
-# S3 to GDrive Set up - Marketplace
+# S3 to GDrive Set up
 
 # Working on Onboarding GDrive Upload
 

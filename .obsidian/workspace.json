@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c36966bb04e71aba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Marketplace/Configurando_Marketplace.md"
               }
             }
           }
@@ -148,12 +161,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "c36966bb04e71aba",
   "lastOpenFiles": [
+    "Luna/Marketplace/S3_to_GDrive_Set_up.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Diario/2024-05-25.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merger/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merger",
@@ -162,7 +178,6 @@
     "Luna/Backend/AppBlend/Rails.env.local?.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4.md",
     "Luna/Backend/AppBlend/Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/005 - QA Plan.md",
@@ -186,8 +201,6 @@
     "Luna/Troubleshooting/attachments",
     "Luna/Troubleshooting/untitled folder",
     "Luna/Troubleshooting/101.mbp.intel.disk.issue.png",
-    "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
     "Luna/Troubleshooting",
     "Luna/Backend/Exercises_via_Web/attachments/07.sms.test.png",
     "Luna/Backend/Exercises_via_Web/attachments/06.email.test.png",
