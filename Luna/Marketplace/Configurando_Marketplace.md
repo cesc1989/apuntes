@@ -66,12 +66,30 @@ $ cat .python-version
 ## Pipenv
 
 **Importante**: Creo que fue importante este paso antes de instalar
+
+> [!INFO]
+> Así es como se crea el virtualenv
+
 ```bash
 pipenv --python $(pyenv which python3.11)
+
 Loading .env environment variables...
+Warning: the environment variable LANG is not set!
+We recommend setting this in ~/.profile (or equivalent) for proper expected behavior.
+Creating a virtualenv for this project...
+Pipfile: /Users/francisco/projects/luna-project/marketplace/Pipfile
+Using /Users/francisco/.pyenv/versions/3.11.7/bin/python3.11 (3.11.7) to create virtualenv...
+⠙ Creating virtual environment...created virtual environment CPython3.11.7.final.0-64 in 901ms
+  creator CPython3Posix(dest=/Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/francisco/Library/Application Support/virtualenv)
+    added seed packages: pip==23.2.1, setuptools==68.2.0, wheel==0.41.2
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+✔ Successfully created virtual environment!
+Virtualenv location: /Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD
 ```
 
-Al modificar variables de entorno u otra cosa, es clave **correr los comando en este orden antes de entrar en el ambiente virtual**:
+Al modificar variables de entorno u otra cosa es clave **correr los comando en este orden antes de entrar en el ambiente virtual**:
 ```bash
 $ pipenv --python $(pyenv which python3.11)
 Loading .env environment variables...
@@ -151,11 +169,22 @@ For more details, please visit https://support.apple.com/kb/HT208050.
  . /Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD/bin/activate
 ```
 
+### Otros comandos de pipenv
+
+```bash
+# Show the path of the virtual environment (directory)
+pipenv --venv
+
+# Remove the local virtual environment with the whole installed packages
+pipenv --rm
+```
+
 ## pip3
 
 Para instalar una versión específico de una librería en pip3 toca así:
-
-    $ pip3 install flask==2.3.3
+```bash
+pip3 install flask==2.3.3
+```
 
 Ejemplo:
 ```bash
