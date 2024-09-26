@@ -165,7 +165,7 @@ Installing collected packages: flask
 Successfully installed flask-2.3.3
 ```
 
-# Paso a paso para poder ejecutar lanzar un servidor flask
+# Lanzar un servidor flask
 
 Primero necesitamos generar una BD backup en alpha para usarla:
 ```bash
