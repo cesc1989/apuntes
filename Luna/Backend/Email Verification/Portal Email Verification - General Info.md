@@ -228,7 +228,7 @@ create_table "user_communication_methods", id: :uuid, default: -> { "uuid_genera
   end
 ```
 
-# For Milestone 2: Resend from Landing Page 🟡
+# For Milestone 2: Resend from Landing Page ✅
 
 This milestone needs to add two different buttons depending on the outcome of the email verification:
 
@@ -334,7 +334,7 @@ However, ==the path will need to be in a new controller because that one needs a
 
 We don't need to do nothing in the controller but in the view in the else case in `app/views/user_communication_methods/email_verifications/new.html.erb`.
 
-# For Milestone 2: Generate portal link after verification 🟡
+# For Milestone 2: Generate portal link after verification ✅
 
 This milestone adds a link to a clinical dashboard after the user successfully verifies their email.
 
