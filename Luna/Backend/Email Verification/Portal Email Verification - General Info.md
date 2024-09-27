@@ -386,4 +386,54 @@ This property is a dropdown and has these values:
 - Quarterly
 - Opt-out
 
-> The internal value of these labels is the same, downcased.
+> The internal value of these labels is the same, *downcased*.
+
+# Creando UserCommunicationMethod en las Pruebas: ShadowUser o Account?
+
+Resulta que UserCommunicationMethod define una asociación polimorfica con User. Este User puede ser:
+
+- Physician
+- ShadowUser
+- Account
+
+El modelo Account está reservado para instancias de Patient y Therapist. Para evitar enviar correos a pacientes/therapists, tocaba excluirlos. ¿Cómo los excluyo? Así:
+```ruby
+recipients = UserCommunicationMethod.where(
+	kind: "email",
+	verified_at: nil,
+	verification_status: "unverified",
+	verification_attempts: 0..4,
+	user_type: ["Physician", "ShadowUser"]
+)
+```
+
+Pero en las pruebas toca ser más preciso con las instancias que se crean. En las pruebas ahora necesitaba pasarle como User al ucm un ShadowUser. Tuve que hacer así:
+```ruby
+physician = create(:physician)
+physician_user = create(:shadow_user, :portal_email_recipient, parent: physician)
+
+clinic = create(:clinic)
+clinic_user = create(:shadow_user, :portal_email_recipient, parent: clinic)
+
+verified = create(:user_communication_method, :verified, user: physician_user)
+unverified = create(:user_communication_method, user: clinic_user)
+```
+
+Un ShadowUser tiene un parent que puede ser:
+
+- Practice
+- Physician
+- PhysicianGroup
+- Clinice
+
+# Reintentos de los Workers de Sidekiq
+
+Por defecto, ningún worker se reintenta. Así está configurado en ApplicationWorker:
+```ruby
+class ApplicationWorker
+  include Sidekiq::Worker
+
+  sidekiq_options retry: false
+```
+
+Así que no tengo que hacer nada más para el mailer de las 72 horas en caso de que falle pues el usuario recibiría un correo el siguiente Lunes.

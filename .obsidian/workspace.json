@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "8c256dcc3b2f8607",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md"
               }
             }
           }
@@ -148,8 +161,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "8c256dcc3b2f8607",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Explorando_calculo_del_total_expected_visits_range.md",
@@ -165,7 +179,6 @@
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/Marketplace/attachments",
     "Luna/Marketplace/untitled folder",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
