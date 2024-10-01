@@ -1,4 +1,4 @@
-# Apuntes Rails - Edge Parte 1
+# Apuntes Ruby on Rails - Parte 1
 
 # Error al instalar puma 6.3.1
 
@@ -48,7 +48,7 @@ bundle install --redownload
 ```
 
 
-# [BUG] Segmentation fault at - Rails Console
+# (BUG) Segmentation fault at - Rails Console
 
 Cuando intento hacer cualquier operación en la consola de rails, obtengo este error bien hp:
 ```ruby
@@ -126,4 +126,73 @@ Successfully installed sinatra-3.2.0
 Successfully installed faye-websocket-0.11.3
 Successfully installed mailcatcher-0.10.0
 5 gems installed
+```
+
+# Vistas y HTML
+
+Vi que en el archivo `active_admin_logged_out.html.haml` se usaba el método `render_or_call_method_or_proc_on` así:
+
+```ruby
+%title= [@page_title, render_or_call_method_or_proc_on(self, ActiveAdmin.application.site_title)].compact.join(" | ")
+```
+
+Llama la atención que hace eso. La documentación está aquí -> https://www.rubydoc.info/gems/activeadmin-rails/MethodOrProcHelper:render_or_call_method_or_proc_on
+
+## Rubocop y Haml-lint
+
+Este proyecto tiene configurado rubocop y haml-lint como linters. Rubocop se encarga de archivos meramente Ruby y haml-lint las vistas escritas en Haml.
+
+Haml-lint puede tomar como [fuente de configuraciones](https://github.com/sds/haml-lint/blob/main/lib/haml_lint/linter/README.md#rubocop) lo que se define en `.rubocop.yml` así que si se necesita excluir algo para que no revise los archivo .haml, hay que cambiar la configuración en el archivo de rubocop.
+
+El comando de haml-lint se corre así:
+```bash
+bundle exec haml-lint app/views/**/*.haml
+```
+
+# Rutas
+
+Al declarar una ruta de esta forma:
+```ruby
+get "verify_email/:base64_token/failure" => "user_communication_methods/email_verifications#failure"
+```
+
+para poder usarla en el controlador, por ejemplo:
+```ruby
+redirect_to verify_email_failure_path(base64_token: params.require(:base64_token))
+```
+
+hay que definir la ruta pasado la opción `as:`, de esta forma:
+```ruby
+get "verify_email/:base64_token/failure" => "user_communication_methods/email_verifications#failure", as: "verify_email_failure"
+```
+
+De lo contrario la ruta no se podrá usar ya que esa sintaxis de ruta por string no genera los helpers.
+
+# Matar servidor Rails en puerto 3000
+
+Así:
+```bash
+kill -9 $(lsof -i tcp:3000 -t)
+```
+
+# Asociación con scope usando enum
+
+Vi esto en el concern `PortalProviderEntity`:
+```ruby
+has_many :portal_email_recipients,
+	 -> { portal_email_recipient }, as: :parent, class_name: "ShadowUser"
+```
+
+y esto en el modelo `Physician`:
+```ruby
+has_many :escalation_email_recipients,
+    -> { escalation_email_recipient }, as: :parent, class_name: "ShadowUser"
+```
+
+No entendía que es el valor referenciado en la lambda. De dónde salía. La conclusión es que eso es el valor del enum que está definido en el modelo `ShadowUser`:
+```ruby
+enum kind: {
+	portal_email_recipient: 0,
+	escalation_email_recipient: 1
+}
 ```
