@@ -458,7 +458,7 @@ Rails.logger.class.include ActiveSupport::LoggerSilence
 
 Where? I put it in `config/application.rb`. In [this comment](https://github.com/rails/activerecord-session_store/issues/176#issuecomment-797665880), Swanson suggests to add it in `config/initializers/session_store.rb`.
 
-Turns out it's better in `config/environments/test.rb` as per [[Pruebas de Rails 7#Pruebas que se rompen sin la configuración de LoggerSilence]]
+Turns out it's better in `config/environments/test.rb` as per [[Pruebas de Rails 7 ✅#Pruebas que se rompen sin la configuración de LoggerSilence]]
 
 # undefined method user_scopes for DocumentTag:Class ✅  - stateful_enum gem
 
@@ -651,7 +651,7 @@ It looks like the error is indeed something in batch-loader gem. Now the thing i
 
 **Fixed 🎉**
 
-Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[Exploring ActiveRecord Associations for AppBlend]]
+Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[007 - ✅ Exploring ActiveRecord Associations for AppBlend]]
 
 # Only UUIDs are valid namespace identifiers # ✅
 

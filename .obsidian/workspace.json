@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "78b0b3dd7ba58be7",
+            "id": "8ed4c7a1dfad9493",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md"
+                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md"
               }
             }
           }
@@ -159,13 +159,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78b0b3dd7ba58be7",
+  "active": "8ed4c7a1dfad9493",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
+    "Luna/Backend/AppBlend/005 - QA Plan ✅.md",
+    "Luna/Backend/AppBlend/008 - ✅ Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Trying Audited 5.2.0 ✅.md",
+    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4 ✅.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merger/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
@@ -176,21 +188,9 @@
     "Luna/Marketplace/Understanding_Visit_Plan_export_to_Tableau.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up.md",
     "Luna/Marketplace/Navegando_creación_de_intake_form.md",
-    "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
-    "Luna/Marketplace/Explorando_calculo_del_total_expected_visits_range.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Marketplace/Visit_Plans_data_to_Athena.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/Marketplace/attachments",
     "Luna/Marketplace/untitled folder",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merger",
     "Luna/attachments/dbevaer.setup.png",
     "Luna/dbevaer.setup.png",

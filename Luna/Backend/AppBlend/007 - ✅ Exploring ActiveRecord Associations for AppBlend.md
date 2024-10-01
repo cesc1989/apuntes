@@ -1,7 +1,7 @@
 # Exploring ActiveRecord Associations for AppBlend
 
 > [!INFO]
-> The correct fix for this is in [[Browsing Batch Loader in Rails 7.0.4]]
+> The correct fix for this is in [[Browsing Batch Loader in Rails 7.0.4 ✅]]
 >
 > What's in this document is good but not the final fix.
 

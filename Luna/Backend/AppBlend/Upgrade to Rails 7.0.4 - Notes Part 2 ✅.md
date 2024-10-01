@@ -150,7 +150,7 @@ authorizations.to_a.select(&:granted?)
 
 In this way I get zero authorizations and it changes the output of the tests.
 
-**Something is going on in the batch-loader gem**. I did some changes regarding this gem at [[Exploring ActiveRecord Associations for AppBlend]] but looks like it's not enough.
+**Something is going on in the batch-loader gem**. I did some changes regarding this gem at [[007 - ✅ Exploring ActiveRecord Associations for AppBlend]] but looks like it's not enough.
 
 Why I say this? Because when I access the authorization via direct methods, I can see it exists and is created as described in the tests:
 ```ruby
@@ -162,7 +162,7 @@ Why I say this? Because when I access the authorization via direct methods, I ca
 
 ### Batch Loader in Rails 6.1 👍🏽
 
-**Update**: Reason, found at [[Browsing Batch Loader in Rails 7.0.4#A workaround // fix]]
+**Update**: Reason, found at [[Browsing Batch Loader in Rails 7.0.4 ✅#A workaround // fix]]
 
 This is the output of exploring the instances when they reach batch-loader method_missing method:
 ```
