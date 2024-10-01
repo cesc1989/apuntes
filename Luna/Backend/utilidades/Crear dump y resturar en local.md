@@ -28,3 +28,5 @@ psql luna_api_development --host localhost --username francisco < ~/Downloads/du
 
 > [!WARNING]
 > La base de datos objetivo debe estar recién creada. Si ya existe, hay que borrarla y recrearla.
+> 
+> La puedes crear con `createdb [NAME]`

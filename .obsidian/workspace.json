@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "8ed4c7a1dfad9493",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -159,35 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ed4c7a1dfad9493",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+    "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
+    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4 ✅.md",
+    "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Marketplace/S3_to_GDrive_Set_up.md",
+    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Marketplace/Rename MPF Folder Names.md",
+    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/005 - QA Plan ✅.md",
     "Luna/Backend/AppBlend/008 - ✅ Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Trying Audited 5.2.0 ✅.md",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4 ✅.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merger/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
-    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
-    "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/utilidades",
-    "Luna/Marketplace/Rename MPF Folder Names.md",
-    "Luna/Marketplace/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
-    "Luna/Marketplace/MPF_Issues_and_Replication.md",
-    "Luna/Marketplace/Understanding_Visit_Plan_export_to_Tableau.md",
-    "Luna/Marketplace/S3_to_GDrive_Set_up.md",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/Marketplace/attachments",
     "Luna/Marketplace/untitled folder",
