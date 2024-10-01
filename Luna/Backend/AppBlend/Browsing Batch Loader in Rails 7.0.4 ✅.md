@@ -1,6 +1,6 @@
 # Browsing Batch Loader with debugger steps
 
-Trying to understand [[Upgrade to Rails 7.0.4 - Notes Part 2 ✅#Error with PayerAuthorization and BatchLoader]]
+Trying to understand [[Upgrade to Rails 7.0.4 - Notes Part 2#Error with PayerAuthorization and BatchLoader]]
 
 I decided to debug from batch-loader gem:
 ```ruby

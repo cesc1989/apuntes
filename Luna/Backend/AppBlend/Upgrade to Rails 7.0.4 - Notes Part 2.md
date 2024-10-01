@@ -248,3 +248,27 @@ Found mention of this error in these links:
 
 - https://github.com/attr-encrypted/attr_encrypted/issues/423
 - https://github.com/attr-encrypted/attr_encrypted/pull/434
+
+# Incompatible marshal file format
+
+Error:
+```ruby
+TypeError
+
+incompatible marshal file format (can't be read)
+	format version 4.8 required; 0.4 given
+```
+
+Caught in this line:
+```ruby
+Rails.cache.fetch("#{cache_key_with_version}/total_expected_visits", expires_in: 24.hours, skip_nil: true) do
+```
+
+In [this Stack Overflow](https://stackoverflow.com/questions/23629879/incompatible-marshal-file-format-cant-be-read-format-version-4-8-required-0) answers suggest it might be a cache problem when changing Rails versions.
+
+Possible fixes:
+
+- bundle exec rake assets:clean then bundle exec rake assets:precompile
+- change the secret key base to invalidate all sessions
+
+In the Sentry report the Rails gems version were on the current version 6.1.7.8.

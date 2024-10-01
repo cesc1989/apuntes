@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "8ed4c7a1dfad9493",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
@@ -187,7 +188,6 @@
     "Luna/Marketplace/MPF_Issues_and_Replication.md",
     "Luna/Marketplace/Understanding_Visit_Plan_export_to_Tableau.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up.md",
-    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/Marketplace/attachments",
     "Luna/Marketplace/untitled folder",
