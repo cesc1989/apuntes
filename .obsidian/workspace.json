@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md"
               }
             }
           }
@@ -161,11 +161,11 @@
   },
   "active": "8ed4c7a1dfad9493",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/005 - QA Plan ✅.md",
     "Luna/Backend/AppBlend/008 - ✅ Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",

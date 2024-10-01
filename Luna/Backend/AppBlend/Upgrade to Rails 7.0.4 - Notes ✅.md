@@ -649,7 +649,7 @@ undefined method `new_record?' for []:Array
 
 It looks like the error is indeed something in batch-loader gem. Now the thing is to be able to identify the error in the stack trace.
 
-**Fixed 🎉**
+## Fixed 🎉
 
 Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[007 - ✅ Exploring ActiveRecord Associations for AppBlend]]
 
