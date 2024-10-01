@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "ec2b15b4fa50a687",
+            "id": "78b0b3dd7ba58be7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md"
+                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md"
               }
             }
           }
@@ -159,11 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec2b15b4fa50a687",
+  "active": "78b0b3dd7ba58be7",
   "lastOpenFiles": [
-    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+    "Luna/Backend/Email Verification/Incident - Email Blast.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Lecciones/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/utilidades",
@@ -181,16 +184,13 @@
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/Marketplace/attachments",
     "Luna/Marketplace/untitled folder",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merger",
     "Luna/attachments/dbevaer.setup.png",
     "Luna/dbevaer.setup.png",
