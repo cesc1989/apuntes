@@ -44,3 +44,9 @@ mailer.verification_email.deliver_now
 ```
 
 Recargamos la página en Mailcatcher y debería salir el correo.
+
+## Probar Weekly Reminder
+
+```ruby
+UserCommunicationMethods::WeeklyEmailVerificationReminderWorker.perform_in(5)
+```

@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md",
-                "mode": "source",
+                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md",
+                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md",
+                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md"
+                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "78b0b3dd7ba58be7",
   "lastOpenFiles": [
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
