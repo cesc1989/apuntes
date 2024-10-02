@@ -32,6 +32,18 @@ Once `config.load_defaults 7.0`, I have to setup:
 config.active_record.automatic_scope_inversing = false
 ```
 
+## What is config.active_support.use_rfc4122_namespaced_uuids?
+
+See https://guides.rubyonrails.org/v7.0/configuring.html#config-active-support-use-rfc4122-namespaced-uuids
+
+![[actsupp.use_rfc4122.png]]
+
+Once `config.load_defaults 7.0`, I have to setup:
+
+```ruby
+config.active_support.use_rfc4122_namespaced_uuids = false
+```
+
 # Target Version 6.1
 
 ## What is config.active_record.legacy_connection_handling?

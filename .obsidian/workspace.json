@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "8935af228f5eb354",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md"
               }
             }
           }
@@ -146,18 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "8935af228f5eb354",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4 ✅.md",
     "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
@@ -173,7 +187,6 @@
     "Luna/Backend/AppBlend/008 - ✅ Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/Trying Audited 5.2.0 ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merger/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Luna/Backend/Email Verification/Incident - Email Blast.md",
     "Luna/Backend/utilidades",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/Marketplace/attachments",
