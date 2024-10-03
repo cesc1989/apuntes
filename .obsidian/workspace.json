@@ -32,21 +32,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "6973421f9b02a886",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md"
+                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md"
               }
             }
           }
@@ -171,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6973421f9b02a886",
+  "active": "53e9b494f229a59c",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",

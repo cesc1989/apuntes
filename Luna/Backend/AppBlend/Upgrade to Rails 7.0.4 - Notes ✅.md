@@ -723,7 +723,8 @@ In [Stack Overflow](https://stackoverflow.com/questions/71177165/rails-ignores-t
 
 ## Disabling this does not bring back the functionality 🟡
 
-It's a bug fixed in Rails 7.0.7. See [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_support.disable_to_s_conversion?]]
+> [!info]
+> It's a bug fixed in Rails 7.0.7. See [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_support.disable_to_s_conversion?]]
 
 Even when disabled, this does not work as in Rails 6. As mentioned in [this answer](https://stackoverflow.com/a/71328079/1407371).
 
