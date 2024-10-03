@@ -217,7 +217,7 @@ sudo unattended-upgrade -v -d
 
 Así me fue cuando probé:
 ```bash
-ubuntu@localhost:~$ sudo unattended-upgrade -v -d
+sudo unattended-upgrade -v -d
 [sudo] password for ubuntu: 
 Running on the development release
 Starting unattended upgrades script
@@ -291,8 +291,8 @@ Last login: Thu Sep  5 02:22:25 2024 from 191.110.58.7
 
 Existe el comando `uptime` para saber si el tiempo que lleva arriba el servidor.
 
-```
-$ uptime
+```bash
+uptime
 12:06:29 up 420 days,  9:03,  1 user,  load average: 0.10, 0.08, 0.03
 ```
 
@@ -343,7 +343,7 @@ Diagnostic-Code: X-Postfix; connect to smtp.gmail.com[172.253.63.108]:587:
 ¿Cómo sé si está corriendo y haciendo su trabajo? Hay un par de formas.
 
 Tail al log
-```
+```bash
 sudo tail -n 30 /var/log/unattended-upgrades/unattended-upgrades.log
 
 2024-09-05 06:04:33,422 INFO Starting unattended upgrades script
@@ -372,7 +372,8 @@ En esta [pregunta](https://askubuntu.com/questions/934807/unattended-upgrades-st
 
 Con el comando `systemctl status unattended-upgrades` se puede saber el estado del servicio. Ejemplo:
 ```bash
-ubuntu@localhost:~$ systemctl status unattended-upgrades
+systemctl status unattended-upgrades
+
 ● unattended-upgrades.service - Unattended Upgrades Shutdown
      Loaded: loaded (/lib/systemd/system/unattended-upgrades.service; enabled; vendor preset: enabled)
      Active: active (running) since Thu 2024-09-19 06:00:44 UTC; 1 weeks 6 days ago
@@ -394,8 +395,9 @@ Así como decía el mensaje que estaba programada la reiniciada, así pasó y Ng
 ### Revisión de Nginx luego de reinicio
 
 Me llamó la atención que no aparecían el proceso de Cash Flow:
-```
-ubuntu@localhost:~$ sudo service nginx status
+```bash
+sudo service nginx status
+
 [sudo] password for ubuntu: 
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
@@ -416,8 +418,8 @@ Sep 06 06:01:25 localhost systemd[1]: Started A high performance web server and 
 ```
 
 Sin embargo, al ir al sitio web y revisar de nuevo, sí aparecieron. Como que estaban dormidos:
-```
-ubuntu@localhost:~$ sudo service nginx status
+```bash
+sudo service nginx status
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
      Active: active (running) since Fri 2024-09-06 14:26:40 UTC; 27s ago
@@ -443,8 +445,8 @@ ubuntu@localhost:~$ sudo service nginx status
 ### Revisión de Sidekiq luego de reinicio
 
 Sidekiq parecía estar todo en orden. Supongo porque lo tengo montado con Systemd.
-```
-ubuntu@localhost:~$ systemctl --user status sidekiq.service
+```bash
+systemctl --user status sidekiq.service
 ● sidekiq.service - sidekiq
      Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
      Active: active (running) since Fri 2024-09-06 14:24:44 UTC; 1min 12s ago
@@ -466,8 +468,8 @@ Sep 06 14:24:48 localhost sidekiq[17432]: 2024-09-06T14:24:48.946Z pid=17432 tid
 ### Uptime
 
 Finalmente, el uptime cambió a apenas un par de horas:
-```
-ubuntu@localhost:~$ uptime
+```bash
+uptime
  14:31:23 up  8:30,  1 user,  load average: 0.00, 0.01, 0.00
 ```
 
@@ -479,13 +481,14 @@ ubuntu@localhost:~$ uptime
 ## Estado de nginx
 
 Con el comando:
-```
+```bash
 sudo service nginx status
 ```
 
 Resultado:
-```
-ubuntu@localhost:~$ sudo service nginx status
+```bash
+sudo service nginx status
+
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
      Active: active (running) since Sun 2024-09-01 15:48:08 UTC; 2 days ago
@@ -514,13 +517,14 @@ Sep 01 15:48:08 localhost systemd[1]: Started A high performance web server and 
 ## Estado de Sidekiq
 
 Con el comando:
-```
+```bash
 systemctl --user status sidekiq.service
 ```
 
 Resultado:
-```
-ubuntu@localhost:~$ systemctl --user status sidekiq.service
+```bash
+systemctl --user status sidekiq.service
+
 ● sidekiq.service - sidekiq
      Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
      Active: active (running) since Sun 2024-09-01 15:48:08 UTC; 2 days ago
