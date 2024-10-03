@@ -1,27 +1,27 @@
-# Plan de QA para probar todo el sistema
+# Plan de QA para probar el sistema
 
 Este plan contempla navegar y usar Luxe, probar integración entre servicios internos, completar ejercicios en la web, disparar background jobs y probar queries de GraphQL.
 
 ## Browse and interact in Luxe
 
 - Actions Menu
-	- [ ] Browse all sections
+	- [x] Browse all sections
 	- Assist
-		- [ ] Create a deduction
+		- [x] Create a deduction
 	- Benefit Verifications
-		-  [ ]  Filter by any attribute
+		-  [x]  Filter by any attribute
 - Patients / Profile
-	- [ ] Search patient
+	- [x] Search patient
 	- [ ] Create care plan for patient
 	- [ ] Check Document is attached after completing Intake Form
 - Files menu
-	- [ ] Open Document shares
-		- [ ] Mark one as read
-	- [ ] Visit Incoming faxes
+	- [x] Open Document shares
+		- [x] Mark one as read
+	- [x] Visit Incoming faxes
 - Clinical menu
-	- [ ] Go to Auto charts section
-		- [ ] View auto chart detail
-	- [ ] Go to Plans of Care section
+	- [x] Go to Auto charts section
+		- [x] View auto chart detail
+	- [x] Go to Plans of Care section
 		- [ ] View plan of care detail
 - Clinics / Profile
 	- [ ] Add new portal recipient
@@ -30,7 +30,7 @@ Este plan contempla navegar y usar Luxe, probar integración entre servicios int
 - Appointments / Detail
 	- [ ] Visit appointment detail
 - Exercise Programs
-	- [ ] View detail of an exercise program
+	- [x] View detail of an exercise program
 		- [ ] Complete exercises in LE-W. Checklist method
 		- [ ] Check recent workout, checklist, shows in the list
 

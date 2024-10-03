@@ -653,7 +653,7 @@ It looks like the error is indeed something in batch-loader gem. Now the thing i
 
 Finally, fixed this by setting a guard clause in the `method_missing` in batch-loader. See [[007 - ✅ Exploring ActiveRecord Associations for AppBlend]]
 
-# Only UUIDs are valid namespace identifiers # ✅
+# Only UUIDs are valid namespace identifiers ✅
 
 This is for AWS SNS tests.
 
@@ -697,7 +697,7 @@ Change the setting to false in the file `config/initializers/new_framework_defau
 Rails.application.config.active_support.use_rfc4122_namespaced_uuids = false
 ```
 
-# Rails 7.0 ignores default format for Date and Time # ✅
+# Rails 7.0 ignores default format for Date and Time ✅
 
 A setting like:
 ```ruby
@@ -708,11 +708,11 @@ Date::DATE_FORMATS[:default] = '%d/%m/%Y'
 
 Working in Rails 6 would be ignored in Rails 7.0. As per the [release notes](https://github.com/rails/rails/blob/de7c495209811f8f918fa9f915e64df61a6080c1/guides/source/7_0_release_notes.md#deprecations-8):
 
-> Deprecate passing a format to #to_s in favor of #to_fs in Array, Range, Date, DateTime, Time, BigDecimal, Float and, Integer.
+> Deprecate passing a format to `to_s` in favor of `to_fs` in Array, Range, Date, DateTime, Time, BigDecimal, Float and, Integer.
 >
 > This deprecation is to allow Rails application to take advantage of a Ruby 3.1 optimization that makes interpolation of some types of objects faster.
 >
-> New applications will not have the #to_s method overridden on those classes, existing applications can use config.active_support.disable_to_s_conversion.
+> New applications will not have the `to_s` method overridden on those classes, existing applications can use `config.active_support.disable_to_s_conversion`.
 
 The ideal fix is to find all places where dates are interpolated and send the `to_fs(:default)` message like this:
 ```ruby
@@ -720,6 +720,14 @@ The ideal fix is to find all places where dates are interpolated and send the `t
 ```
 
 In [Stack Overflow](https://stackoverflow.com/questions/71177165/rails-ignores-the-default-date-format-after-upgrading-from-6-1-to-7-0).
+
+## Disabling this does not bring back the functionality 🟡
+
+It's a bug fixed in Rails 7.0.7. See [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_support.disable_to_s_conversion?]]
+
+Even when disabled, this does not work as in Rails 6. As mentioned in [this answer](https://stackoverflow.com/a/71328079/1407371).
+
+The solution is to find all places to replace `to_s` with `to_fs` or monkey patch Date class.
 
 # Zeitwerk
 

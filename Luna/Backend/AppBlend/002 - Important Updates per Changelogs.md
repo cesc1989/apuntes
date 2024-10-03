@@ -112,7 +112,18 @@ railties initializers.
 
 > Starting in Psych 4.0.0 `YAML.load` behaves like `YAML.safe_load`. To preserve compatibility  `Rails.application.config_for` now uses `YAML.unsafe_load` if available.
 
-
-## 7.0.4
+## 7.0.4 ✅
 
 See https://github.com/rails/rails/releases/tag/v7.0.4
+
+## 7.0.5 ✅
+
+See https://github.com/rails/rails/releases/tag/v7.0.5
+
+- [x] Fix incorrectly preloading through association records when middle association has been loaded.
+
+## 7.0.7
+
+See https://github.com/rails/rails/releases/tag/v7.0.7
+
+- [ ] Fix `to_s` with no arguments not respecting custom `:default` formats

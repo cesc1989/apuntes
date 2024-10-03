@@ -44,6 +44,21 @@ Once `config.load_defaults 7.0`, I have to setup:
 config.active_support.use_rfc4122_namespaced_uuids = false
 ```
 
+## What is config.active_support.disable_to_s_conversion?
+
+See https://guides.rubyonrails.org/v7.0/configuring.html#config-active-support-disable-to-s-conversion
+
+![[actsupp.disable_to_s.png]]
+
+Once `config.load_defaults 7.0`, I have to setup:
+
+```ruby
+config.active_support.disable_to_s_conversion = false
+```
+
+> [!bug]
+> Disabling this setting only works from Rails 7.0.7 as [reported here](https://github.com/rails/rails/issues/48545) and [fixed here](https://github.com/rails/rails/pull/48555).
+
 # Target Version 6.1
 
 ## What is config.active_record.legacy_connection_handling?

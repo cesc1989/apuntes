@@ -147,6 +147,10 @@ Issues posiblemente relacionados:
 - [has_one :through associations ignore preloaded records](https://github.com/rails/rails/issues/51817)
 	- PR (opened) for this bug [[Fix #51817] Allow Preloaded has_one :through Associations to be Accessed Without Additional Database Queries](https://github.com/rails/rails/pull/52060)
 
+## Fixed 🎉
+
+Este problema se arregla en Rails 7.0.5. Es un problema con [asociaciones intermedias precargadas](https://github.com/rails/rails/issues/45822). Arreglado en este [pr](https://github.com/rails/rails/pull/46579).
+
 
 # while_preventing_writes is only available on the connection_handler with legacy_connection_handling ✅
 
