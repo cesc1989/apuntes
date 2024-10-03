@@ -40,25 +40,13 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f224e738902d9d57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md"
+                "file": "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md"
               }
             }
           }
@@ -183,13 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f224e738902d9d57",
+  "active": "6973421f9b02a886",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
-    "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
     "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",

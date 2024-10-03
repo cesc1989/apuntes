@@ -122,8 +122,8 @@ See https://github.com/rails/rails/releases/tag/v7.0.5
 
 - [x] Fix incorrectly preloading through association records when middle association has been loaded.
 
-## 7.0.7
+## 7.0.7 ✅
 
 See https://github.com/rails/rails/releases/tag/v7.0.7
 
-- [ ] Fix `to_s` with no arguments not respecting custom `:default` formats
+- [x] Fix `to_s` with no arguments not respecting custom `:default` formats
