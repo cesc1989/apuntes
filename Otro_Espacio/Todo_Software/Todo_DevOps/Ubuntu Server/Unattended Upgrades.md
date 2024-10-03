@@ -69,11 +69,6 @@ Así también me acostumbro a lidiar con esta configuración y la entiendo a fon
 
 Para que el servidor se reinicie de manera automática y envíe correos sobre el estado de las actualizaciones hay que cambiar algunos ajustes en `/etc/apt/apt.conf.d/50unattended-upgrades`.
 
-Para indicar a qué correo enviar mensajes se cambia esta configuración:
-```
-Unattended-Upgrade::Mail "";
-```
-
 Para indicar que se reinicie el servidor por si mismo se cambia:
 ```
 Unattended-Upgrade::Automatic-Reboot "true";
@@ -84,6 +79,11 @@ Unattended-Upgrade::Automatic-Reboot-Time "06:00"; // 06am UTC is 01am UTC-05
 > Para que el reinicio funcione se necesita el paquete `update-notifier-common`.
 
 ## Envío de Correos
+
+Para indicar a qué correo enviar mensajes se cambia esta configuración:
+```
+Unattended-Upgrade::Mail "";
+```
 
 En [el gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70#email-notification-configuration) hay instrucciones pero no pude instalar el software `heirloom-mailx`.
 
@@ -203,17 +203,20 @@ Voy a pedir en soporte que me habiliten el puerto 587.
 # Probando Configuración de unattended-upgrades
 
 Se prueba con este comando:
-```
+```bash
 sudo unattended-upgrade -v -d --dry-run
 ```
 
+> [!info]
+> The next command will automatically check and install available upgrades based on the configuration settings.
+
 Y se puede ejecutar manualmente con este otro:
-```
+```bash
 sudo unattended-upgrade -v -d
 ```
 
 Así me fue cuando probé:
-```
+```bash
 ubuntu@localhost:~$ sudo unattended-upgrade -v -d
 [sudo] password for ubuntu: 
 Running on the development release
@@ -242,6 +245,23 @@ No /usr/bin/mail or /usr/sbin/sendmail, can not send mail. You probably want to 
 ```
 
 > Nota: me dice que instale `mailx`
+
+## Programa Ejecución diaria con un cron
+
+El comando `sudo unattended-upgrade -v -d` ejecutará el servicio enseguida y programara una actualización y reiniciada (si se configuró). Sin embargo, para que unattended-upgrades se ejecute a diario hay que ponerlo a correr en un cron.
+
+Para configurar abrir el crontab:
+```bash
+sudo crontab -e
+```
+
+Y agregar:
+```bash
+0 2 * * * sudo /usr/bin/unattended-upgrade -v
+```
+
+> [!info]
+> Este cron se ejecutará a las 2am utc.
 
 # Ejecución de Unattended-upgrades
 
@@ -347,6 +367,25 @@ WARNING Shutdown msg: b"Shutdown scheduled for Fri 2024-09-06 06:00:00 UTC
 O sea que mañana (hoy es Jueves, 5 de Septiembre), deberá reiniciarse el servidor.
 
 En esta [pregunta](https://askubuntu.com/questions/934807/unattended-upgrades-status) hay más detalles.
+
+## Estado del Servicio
+
+Con el comando `systemctl status unattended-upgrades` se puede saber el estado del servicio. Ejemplo:
+```bash
+ubuntu@localhost:~$ systemctl status unattended-upgrades
+● unattended-upgrades.service - Unattended Upgrades Shutdown
+     Loaded: loaded (/lib/systemd/system/unattended-upgrades.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2024-09-19 06:00:44 UTC; 1 weeks 6 days ago
+       Docs: man:unattended-upgrade(8)
+   Main PID: 608 (unattended-upgr)
+      Tasks: 2 (limit: 1124)
+     Memory: 252.0K
+     CGroup: /system.slice/unattended-upgrades.service
+             └─608 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+
+Warning: some journal files were not opened due to insufficient permissions.
+```
+
 
 ## Servidor reinició exitosamente
 
