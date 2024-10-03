@@ -1,4 +1,4 @@
-# Upgrade to Rails 7.0.4 from 6.1.6 - Notes ✅
+# Upgrade to Rails 7.0.? Notes ✅
 
 [RailsDiff](https://railsdiff.org/6.1.7/7.0.4) shows multiple changes but due to how custom Edge is I don't consider good to apply them to this codebase.
 

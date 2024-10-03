@@ -18,7 +18,7 @@ Parece ser un error en la gema `activerecord-session_store` según comentario en
 
 Se menciona causa y [fix que se mezcló](https://github.com/rails/activerecord-session_store/pull/159) a master pero no hay release. A pesar de que apunto a la rama master en el Gemfile sigue dando el error.
 
-Este error está relacionado con este fix que hice antes para poder hacer el build en el CI [[Upgrade to Rails 7.0.4 - Notes ✅#undefined method silence for Logger]]
+Este error está relacionado con este fix que hice antes para poder hacer el build en el CI [[Upgrade to Rails 7.0.x Notes ✅#undefined method silence for Logger]]
 
 Tengo esto:
 ```ruby

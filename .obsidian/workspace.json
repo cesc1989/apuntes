@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "53e9b494f229a59c",
+            "id": "6d361bce4df09289",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md"
+                "file": "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md"
               }
             }
           }
@@ -159,28 +159,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53e9b494f229a59c",
+  "active": "6d361bce4df09289",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes ✅.md",
+    "Luna/Backend/AppBlend/005 - QA Plan ✅.md",
+    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
+    "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/008 - ✅ Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.x Notes 2.md",
+    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.x Notes ✅.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.4 - Notes Part 2.md",
     "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
     "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Marketplace/Navegando_creación_de_intake_form.md",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merger/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/005 - QA Plan ✅.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
-    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
     "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4 ✅.md",
-    "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Marketplace/S3_to_GDrive_Set_up.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
