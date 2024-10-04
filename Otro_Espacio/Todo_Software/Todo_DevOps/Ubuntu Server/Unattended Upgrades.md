@@ -435,9 +435,36 @@ Resultado:
 Warning: some journal files were not opened due to insufficient permissions.
 ```
 
-## Servidor reinició exitosamente
+## Reinicio del servidor
 
-Así como decía el mensaje que estaba programada el reinicio, pues pasó, y Nginx y Sidekiq quedaron corriendo sin problemas.
+Aclaraciones:
+
+- El servidor no se reiniciará automáticamente cada vez que haya actualizaciones.
+  - incluso si el reinicio automático está configurado.
+- El reinicio solo se activará cuando las actualizaciones incluyen un **kernel update**
+
+> [!info]
+> 
+> Ubuntu gestiona esto mediante la detección de archivos como `/var/run/reboot-required`. Cuando este archivo está presente tras una actualización, indica que se necesita un reinicio. Si tienes el reinicio automático activado, el sistema se reiniciará solo en este caso.
+> 
+> -- [ChatGPT](https://chatgpt.com/share/67000f3d-9170-800d-bdb4-717d2c124c5e)
+
+La mejor forma de revisar las reiniciadas es con el comando `last reboot`:
+```bash
+last reboot
+```
+
+Ejemplo:
+```bash
+$ last reboot
+reboot   system boot  6.10.2-x86_64-li Thu Sep 19 06:00   still running
+reboot   system boot  6.10.2-x86_64-li Fri Sep 13 06:01 - 06:00 (5+23:58)
+reboot   system boot  6.10.2-x86_64-li Fri Sep  6 06:01 - 06:00 (6+23:58)
+reboot   system boot  6.2.9-x86_64-lin Thu Jul 13 03:03 - 06:00 (421+02:56)
+reboot   system boot  5.4.0-150-generi Thu Jul 13 02:49 - 02:57  (00:07)
+```
+
+La última reiniciada que fue necesaria fue la de la primera vez que configuré este paquete. Y dice que aún está corriendo ese kernel.
 
 ### Revisión de Nginx luego de reinicio
 
