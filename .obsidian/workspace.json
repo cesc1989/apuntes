@@ -22,24 +22,12 @@
             }
           },
           {
-            "id": "60069d17d63d13a3",
+            "id": "a39b993fd47a0091",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3ac09ca72917b8b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md"
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md"
               }
             }
           }
@@ -171,38 +159,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60069d17d63d13a3",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/006 - Settings for config defaults ✅.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Email Verification/Incident - Email Blast.md",
+    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Marketplace/MPF",
     "Luna/Marketplace/Visit Plans",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
-    "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Luna/Backend/AppBlend/005 - QA Plan ✅.md",
-    "Luna/Backend/AppBlend/006 - Settings for config defaults ✅.md",
-    "Luna/Backend/AppBlend/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
-    "Luna/Backend/AppBlend/008 - ✅ Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.x Notes 2.md",
-    "Luna/Backend/AppBlend/Upgrade to Rails 7.0.x Notes ✅.md",
-    "Luna/Backend/AppBlend/Pruebas de Rails 7 ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/008 - ✅ Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
-    "Luna/Backend/AppBlend/Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Luna/Marketplace/Navegando_creación_de_intake_form.md",
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merger/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
-    "Luna/Backend/AppBlend/Browsing Batch Loader in Rails 7.0.4 ✅.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
     "Luna/Backend/utilidades",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/Marketplace/attachments",
@@ -217,7 +206,6 @@
     "Luna/Troubleshooting/attachments/102.intel.mbp.low.storage.png",
     "Luna/Troubleshooting/attachments/101.mbp.intel.disk.issue.png",
     "Luna/Troubleshooting/attachments",
-    "Luna/Troubleshooting/untitled folder",
     "Luna/Troubleshooting/101.mbp.intel.disk.issue.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
