@@ -342,10 +342,13 @@ Diagnostic-Code: X-Postfix; connect to smtp.gmail.com[172.253.63.108]:587:
 
 ¿Cómo sé si está corriendo y haciendo su trabajo? Hay un par de formas.
 
-Tail al log
+Tail al log:
 ```bash
 sudo tail -n 30 /var/log/unattended-upgrades/unattended-upgrades.log
+```
 
+Ejemplo:
+```bash
 2024-09-05 06:04:33,422 INFO Starting unattended upgrades script
 2024-09-05 06:04:33,425 INFO Allowed origins are: o=Ubuntu,a=focal, o=Ubuntu,a=focal-security, o=UbuntuESMApps,a=focal-apps-security, o=UbuntuESM,a=focal-infra-security
 2024-09-05 06:04:33,425 INFO Initial blacklist: 

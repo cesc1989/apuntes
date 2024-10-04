@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "1626c9228e69193b",
+            "id": "60069d17d63d13a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,9 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1626c9228e69193b",
+  "active": "60069d17d63d13a3",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
@@ -169,7 +170,6 @@
     "Luna/Marketplace/Visit Plans",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/001 - Detalles para AppBlend.md",
