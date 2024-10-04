@@ -14,20 +14,20 @@ Algunos datos:
 
 Hay varias guías pero esto que tengo en [un gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70) sigue siendo válido y se resume en lo que tengo en [backend stuff](https://github.com/cesc1989/backendstuff/tree/master/configurators/unattended-upgrades).
 
-## Configuración Inicial
+# Configuración Inicial
 
 Actualiza la lista de paquetes (fuentes) e instala:
-```
+```bash
 sudo apt update && sudo apt upgrade
 ```
 
 Instala el paquete unattended-upgrades (normalmente ya está instalado):
-```
+```bash
 sudo apt-get install -y unattended-upgrades
 ```
 
 Activa la configuración (selecciona Yes):
-```
+```bash
 sudo dpkg-reconfigure unattended-upgrades
 ```
 
@@ -40,8 +40,8 @@ El primero indica la frecuencia en que unattended-upgrades hará lo suyo: descar
 
 El segundo hará cosas más de cuidado como qué tipo de cosas a instalar (seguridad, por ejemplo), enviar emails y activar el reiniciado automático.
 
-La configuración de la frecuencia que describo en el [gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70) y en [backend stuff](https://github.com/cesc1989/backendstuff/blob/master/configurators/unattended-upgrades/20auto-upgrades) es la misma que seguí para el servidor de DevAsPros:
-```
+La configuración de la frecuencia que describo en el [gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70) y en [backend stuff](https://github.com/cesc1989/backendstuff/blob/master/configurators/unattended-upgrades/20auto-upgrades) la usé como para el servidor de DevAsPros:
+```bash
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
 APT::Periodic::Unattended-Upgrade "1";
@@ -50,7 +50,7 @@ APT::Periodic::AutocleanInterval "7";
 
 Donde cada número indica la frecuencia en días para que el servidor haga lo suyo.
 
-### Explicación de las opciones
+## Explicación de las opciones
 
 - `APT::Periodic::Update-Package-Lists "1"`
 	- Actualiza la lista de paquetes a diario. **Este es importante** para que siempre que se vayan a hacer las actualizaciones, se usen las fuentes más recientes.
@@ -61,16 +61,16 @@ Donde cada número indica la frecuencia en días para que el servidor haga lo su
 - `APT::Periodic::AutocleanInterval "7"`
 	- Limpia la cache de paquetes cada 7 días.
 
-Para el servidor de DevAsPros, inicialmente había configurado `APT::Periodic::Unattended-Upgrade "1"` para cada 3 días pero decidí cambiarlo a diario para seguir el principio de "fail fast". Si va a salir algo mal en este proceso, quiero verlo ya y resolverlo pronto.
+Para el servidor de DevAsPros, inicialmente había configurado `APT::Periodic::Unattended-Upgrade "1"` para cada 3 días pero decidí cambiarlo a diario para seguir el principio de "fail fast". ==Si va a salir algo mal en este proceso, quiero verlo ya y resolverlo pronto==.
 
 Así también me acostumbro a lidiar con esta configuración y la entiendo a fondo.
 
-## Reinicio Automático del Servidor
+# Reinicio Automático del Servidor
 
 Para que el servidor se reinicie de manera automática y envíe correos sobre el estado de las actualizaciones hay que cambiar algunos ajustes en `/etc/apt/apt.conf.d/50unattended-upgrades`.
 
 Para indicar que se reinicie el servidor por si mismo se cambia:
-```
+```bash
 Unattended-Upgrade::Automatic-Reboot "true";
 
 Unattended-Upgrade::Automatic-Reboot-Time "06:00"; // 06am UTC is 01am UTC-05
@@ -78,22 +78,22 @@ Unattended-Upgrade::Automatic-Reboot-Time "06:00"; // 06am UTC is 01am UTC-05
 
 > Para que el reinicio funcione se necesita el paquete `update-notifier-common`.
 
-## Envío de Correos
+# Envío de Correos
 
 Para indicar a qué correo enviar mensajes se cambia esta configuración:
-```
+```bash
 Unattended-Upgrade::Mail "";
 ```
 
 En [el gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70#email-notification-configuration) hay instrucciones pero no pude instalar el software `heirloom-mailx`.
 
 Eso de `heirloom-mailx` como que no existe. Entonces [encontré](https://vernon.wenberg.net/linux/set-up-unattended-upgrades-on-ubuntu-20-04/) que se configura `mailx` así:
-```
+```bash
 sudo apt install bsd-mailx
 ```
 
 Que instala todo esto:
-```
+```bash
 The following additional packages will be installed:
   liblockfile-bin liblockfile1 postfix ssl-cert
 Suggested packages:
@@ -102,12 +102,12 @@ The following NEW packages will be installed:
   bsd-mailx liblockfile-bin liblockfile1 postfix ssl-cert
 ```
 
-### Configuración de Postfix con Gmail
+## Configuración de Postfix con Gmail
 
 Encontré una guía en [Linode](https://www.linode.com/docs/guides/configure-postfix-to-send-mail-using-gmail-and-google-workspace-on-debian-or-ubuntu/).
 
 En este archivo: `/etc/postfix/main.cf`
-```
+```bash
 myhostname = devaspros.com
 ```
 
@@ -118,24 +118,24 @@ myhostname = devaspros.com
 Abre o crea este archivo: `/etc/postfix/sasl/sasl_passwd`
 
 Y agrega las credenciales de la cuenta de Gmail:
-```
+```bash
 [smtp.gmail.com]:587 cuenta@gmail.com:clave
 ```
 
 Luego lanzamos este comando para que se genere un hash db para Postfix:
-```
+```bash
 sudo postmap /etc/postfix/sasl/sasl_passwd
 ```
 
 Finalmente, aseguramos este archivo porque es texto plano:
-```
+```bash
 sudo chown root:root /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
 
 sudo chmod 0600 /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
 ```
 
 Para terminar la configuración, abrimos de nuevo `/etc/postfix/main.cf` y añadimos estas líneas:
-```
+```bash
 relayhost = [smtp.gmail.com]:587
 
 # Enable SASL authentication
@@ -157,14 +157,14 @@ smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
 > NOTA: `smtp_tls_security_level` puede estar duplicada así que quita las anteriores.
 
 Reinicia Postfix para que tome las configuraciones:
-```
+```bash
 sudo systemctl restart postfix
 ```
 
-### Probar Envío de Correo desde el Servidor
+## Probar Envío de Correo desde el Servidor
 
 Se prueba con el comando `sendmail`:
-```
+```bash
 sendmail frajaquico@gmail.com
 From: devaspros@gmail.com
 Subject: Prueba Servidor
@@ -175,7 +175,7 @@ Correo de prueba desde el servidor
 Se escribe la primera línea y se presiona enter. No pasa nada. Hay que seguir escribiendo el resto de líneas. El punto + enter envía el correo y sale del editor.
 
 Verifica en los logs que el correo esté saliendo:
-```
+```bash
 sudo tail -f /var/log/syslog
 ```
 
@@ -197,8 +197,6 @@ Sep  4 23:50:44 localhost kernel: [36276382.866615] [UFW BLOCK] IN=eth0 OUT= MAC
 ```
 
 Voy a pedir en soporte que me habiliten el puerto 587.
-
-
 
 # Probando Configuración de unattended-upgrades
 
@@ -246,7 +244,7 @@ No /usr/bin/mail or /usr/sbin/sendmail, can not send mail. You probably want to 
 
 > Nota: me dice que instale `mailx`
 
-## Programa Ejecución diaria con un cron
+# Programa Ejecución diaria con un cron
 
 El comando `sudo unattended-upgrade -v -d` ejecutará el servicio enseguida y programara una actualización y reiniciada (si se configuró). Sin embargo, para que unattended-upgrades se ejecute a diario hay que ponerlo a correr en un cron.
 
@@ -261,7 +259,44 @@ Y agregar:
 ```
 
 > [!info]
-> Este cron se ejecutará a las 2am utc.
+> Este cron se ejecutará a las 2am UTC. Es decir 9pm UTC -05
+
+Para revisar si el cron está corriendo puedo mirar los logs:
+```bash
+sudo tail -n 100 /var/log/unattended-upgrades/unattended-upgrades.log
+```
+
+Resultados:
+```bash
+2024-10-01 06:57:57,393 INFO Starting unattended upgrades script
+2024-10-01 06:57:57,394 INFO Allowed origins are: o=Ubuntu,a=focal, o=Ubuntu,a=focal-security, o=UbuntuESMApps,a=focal-apps-security, o=UbuntuESM,a=focal-infra-security
+2024-10-01 06:57:57,394 INFO Initial blacklist: 
+2024-10-01 06:57:57,394 INFO Initial whitelist (not strict): 
+2024-10-01 06:57:58,798 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2024-10-02 06:06:46,795 INFO Starting unattended upgrades script
+2024-10-02 06:06:46,796 INFO Allowed origins are: o=Ubuntu,a=focal, o=Ubuntu,a=focal-security, o=UbuntuESMApps,a=focal-apps-security, o=UbuntuESM,a=focal-infra-security
+2024-10-02 06:06:46,796 INFO Initial blacklist: 
+2024-10-02 06:06:46,796 INFO Initial whitelist (not strict): 
+2024-10-02 06:06:48,765 INFO Packages that will be upgraded: vim vim-common vim-runtime vim-tiny xxd
+2024-10-02 06:06:48,765 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2024-10-02 06:06:56,781 INFO All upgrades installed
+2024-10-03 06:37:05,840 INFO Starting unattended upgrades script
+2024-10-03 06:37:05,841 INFO Allowed origins are: o=Ubuntu,a=focal, o=Ubuntu,a=focal-security, o=UbuntuESMApps,a=focal-apps-security, o=UbuntuESM,a=focal-infra-security
+2024-10-03 06:37:05,841 INFO Initial blacklist: 
+2024-10-03 06:37:05,841 INFO Initial whitelist (not strict): 
+2024-10-03 06:37:06,870 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2024-10-04 02:00:01,933 INFO Starting unattended upgrades script
+2024-10-04 02:00:01,933 INFO Allowed origins are: o=Ubuntu,a=focal, o=Ubuntu,a=focal-security, o=UbuntuESMApps,a=focal-apps-security, o=UbuntuESM,a=focal-infra-security
+2024-10-04 02:00:01,934 INFO Initial blacklist: 
+2024-10-04 02:00:01,934 INFO Initial whitelist (not strict): 
+2024-10-04 02:00:02,886 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2024-10-04 06:22:17,561 INFO Starting unattended upgrades script
+2024-10-04 06:22:17,562 INFO Allowed origins are: o=Ubuntu,a=focal, o=Ubuntu,a=focal-security, o=UbuntuESMApps,a=focal-apps-security, o=UbuntuESM,a=focal-infra-security
+2024-10-04 06:22:17,562 INFO Initial blacklist: 
+2024-10-04 06:22:17,562 INFO Initial whitelist (not strict): 
+2024-10-04 06:22:18,392 INFO No packages found that can be upgraded unattended and no pending auto-removals
+```
+
 
 # Ejecución de Unattended-upgrades
 
@@ -270,7 +305,7 @@ Luego de que cambiara todo a un día e inicié sesión en el servidor vi algunas
 ## No se reinició el servidor
 
 Tal vez fue cosa de la hora. Hoy, 5 de Septiembre, el servidor aún pedía reiniciada:
-```
+```bash
 Expanded Security Maintenance for Applications is not enabled.
 
 0 updates can be applied immediately.
@@ -287,7 +322,7 @@ You have mail.
 Last login: Thu Sep  5 02:22:25 2024 from 191.110.58.7
 ```
 
-### Comprobar el uptime del servidor para saber si se reinició
+## Comprobar el uptime del servidor para saber si se reinició
 
 Existe el comando `uptime` para saber si el tiempo que lleva arriba el servidor.
 
@@ -298,19 +333,19 @@ uptime
 
 Más sobre este comando en [este artículo](https://linuxhandbook.com/uptime-command/).
 
-## Mensaje You have mail
+## Mensaje "You have mail"
 
 Noté ese mensaje. ¿Cómo reviso dicho correo? Lo puedo hacer de varias formas.
 
 La más directa es uno de estos comandos:
-```
+```bash
 sudo cat /var/spool/mail/root
 
 sudo cat /var/spool/mail/ubuntu
 ```
 
 En mí caso, debo usar el segundo comando para el usuario "ubuntu". Puedo ver algunas cosas
-```
+```bash
 This is the mail system at host devaspros.com.
 
 Enclosed is the mail delivery report that you requested.
@@ -338,13 +373,13 @@ Diagnostic-Code: X-Postfix; connect to smtp.gmail.com[172.253.63.108]:587:
 
 > Puedo también ver la lista con el [comando](https://superuser.com/questions/306163/what-is-the-you-have-new-mail-message-in-linux-unix) `mail` y luego presionando el número del correo de la lista.
 
-## Comprobando que se esté ejecutando unattended-upgrades
+# Comprobando que se esté ejecutando unattended-upgrades
 
 ¿Cómo sé si está corriendo y haciendo su trabajo? Hay un par de formas.
 
 Tail al log:
 ```bash
-sudo tail -n 30 /var/log/unattended-upgrades/unattended-upgrades.log
+sudo tail -n 50 /var/log/unattended-upgrades/unattended-upgrades.log
 ```
 
 Ejemplo:
@@ -363,7 +398,7 @@ Ejemplo:
 Mira la hora: 06:04:49 en UTC. O sea que sí se ejecutó a la 1am. Pero no se reinició?
 
 No lo hizo. La reiniciada quedó programada para el día Viernes 6 de Septiembre:
-```
+```bash
 WARNING Shutdown msg: b"Shutdown scheduled for Fri 2024-09-06 06:00:00 UTC
 ```
 
@@ -390,10 +425,9 @@ systemctl status unattended-upgrades
 Warning: some journal files were not opened due to insufficient permissions.
 ```
 
-
 ## Servidor reinició exitosamente
 
-Así como decía el mensaje que estaba programada la reiniciada, así pasó y Nginx y Sidekiq quedaron corriendo sin problemas.
+Así como decía el mensaje que estaba programada el reinicio, pues pasó, y Nginx y Sidekiq quedaron corriendo sin problemas.
 
 ### Revisión de Nginx luego de reinicio
 
@@ -444,7 +478,6 @@ sudo service nginx status
              └─18097 Passenger RubyApp: /home/ubuntu/coshinotes/app (production)
 ```
 
-
 ### Revisión de Sidekiq luego de reinicio
 
 Sidekiq parecía estar todo en orden. Supongo porque lo tengo montado con Systemd.
@@ -478,6 +511,7 @@ uptime
 
 ### Revisión de Mega CMD luego de reinicio
 
+_Pendiente_
 
 # Revisando Configuración y Servicios
 
@@ -547,3 +581,5 @@ Sep 01 15:48:11 localhost sidekiq[4038621]: 2024-09-01T15:48:11.114Z pid=4038621
 ```
 
 ## Estado de Mega CMD
+
+_Pendiente_
