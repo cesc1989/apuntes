@@ -12,7 +12,12 @@ Algunos datos:
 
 # Pasos y Comandos
 
-Hay varias guías pero esto que tengo en [un gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70) sigue siendo válido y se resume en lo que tengo en [backend stuff](https://github.com/cesc1989/backendstuff/tree/master/configurators/unattended-upgrades).
+Como punto de partida uso esto que tengo en [un gist](https://gist.github.com/cesc1989/b4c685b6ca41f777949780c9729a3b70). Se resume en lo que tengo en [backend stuff](https://github.com/cesc1989/backendstuff/tree/master/configurators/unattended-upgrades).
+
+## Tutoriales
+
+- [How to Configure Unattended Upgrades on Ubuntu 24.04, 22.04 or 20.04](https://linuxcapable.com/how-to-configure-unattended-upgrades-on-ubuntu-linux/)
+- [Set Up Automatic Security Update (Unattended Upgrades) on Ubuntu](https://www.linuxbabe.com/ubuntu/automatic-security-update-unattended-upgrades-ubuntu)
 
 # Configuración Inicial
 
@@ -408,10 +413,15 @@ En esta [pregunta](https://askubuntu.com/questions/934807/unattended-upgrades-st
 
 ## Estado del Servicio
 
-Con el comando `systemctl status unattended-upgrades` se puede saber el estado del servicio. Ejemplo:
+Con el comando `systemctl status unattended-upgrades` se puede saber el estado del servicio.
+
+Comando:
 ```bash
 systemctl status unattended-upgrades
+```
 
+Resultado:
+```bash
 ● unattended-upgrades.service - Unattended Upgrades Shutdown
      Loaded: loaded (/lib/systemd/system/unattended-upgrades.service; enabled; vendor preset: enabled)
      Active: active (running) since Thu 2024-09-19 06:00:44 UTC; 1 weeks 6 days ago
