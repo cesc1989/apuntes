@@ -22,12 +22,26 @@
             }
           },
           {
-            "id": "d15065d77bfc258d",
+            "id": "8af096a20690308a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "aa7279b8b7686af1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+                "file": "Luna/Grafana_Queries.md",
                 "mode": "preview",
                 "source": true
               }
@@ -63,10 +77,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crontab",
+                "query": "app=marketplace",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
               }
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md"
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md"
               }
             }
           }
@@ -159,9 +173,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d15065d77bfc258d",
+  "active": "8af096a20690308a",
   "lastOpenFiles": [
+    "Luna/Grafana_Queries.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Luna/AWS_Single_Sign-On_-_Apuntes.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
+    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/006 - Settings for config defaults ✅.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
@@ -169,12 +194,8 @@
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
@@ -183,14 +204,7 @@
     "Luna/Marketplace/Visit Plans",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/008 - ✅ Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
     "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
     "Luna/Backend/utilidades",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",

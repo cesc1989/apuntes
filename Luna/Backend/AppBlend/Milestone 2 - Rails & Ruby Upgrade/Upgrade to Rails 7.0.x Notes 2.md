@@ -272,3 +272,105 @@ Possible fixes:
 - change the secret key base to invalidate all sessions
 
 In the Sentry report the Rails gems version were on the current version 6.1.7.8.
+
+# ActionView::Template::Error
+
+Este error:
+```ruby
+undefined method episode_path for #<ActionView::Base:0x00000000254ba8>
+
+              target.public_send(method, *args)
+                    ^^^^^^^^^^^^
+Did you mean?  paid_path
+```
+
+Pasa en esta parte:
+```ruby
+    <%= f.inputs "Insurance Details" do %>
+```
+
+Lo cual no tiene mucho sentido así que debe ser algo de Rails 7. Así se ve el stack trace en sentry:
+```
+Crashed in non-app: actionpack (7.0.7) lib/action_dispatch/routing/polymorphic_routes.rb in public_send
+
+app/views/admin/care_plans/_form.html.erb at line 36
+
+<%= f.inputs "Insurance Details" do %>
+
+Called from: actionview (7.0.7) lib/action_view/helpers/capture_helper.rb in block in capture
+
+app/views/admin/care_plans/_form.html.erb at line 15
+
+<%= semantic_form_for [:admin, @care_plan], url: @care_plan.new_record? ? admin_care_plans_path : admin_care_plan_path(@care_plan) do |f| %>
+```
+
+**Enlaces**
+- Relacionado: [Problems with URL generation](https://github.com/rails/rails/issues/45331)
+
+## Contexto en las vistas
+
+Los reportes de Sentry indican estas rutas.
+
+En local:
+```
+http://localhost:3000/admin/care_plans/becc35e0-bd3b-4f35-858c-f0acd27f2415/edit
+```
+
+En Alpha:
+```
+https://luxe.alpha.getluna.com/admin/care_plans/700d95a1-8163-4c39-92e3-35ead33b8e82/edit
+```
+
+En Omega:
+```
+https://luxe.getluna.com/admin/care_plans/1532a394-0eae-459f-989d-a41cd17494b0/edit
+```
+
+Se llega desde el perfil del paciente. Cuando paciente tiene Care Plan, aparecen los botones:
+- Create New Care Plan
+- Edit Care Plan
+- Edit Authorizations
+
+Al clicar el segundo enlace llegamos a la pantalla donde se genera el error.
+
+### ¿Dónde se definen la ruta?
+
+Ruta: `edit_admin_care_plan_path`.
+
+En el admin Patient, se renderiza el partial recent_care_plan:
+```ruby
+if patient.episodes.any?
+          render partial: "recent_care_plan", locals: {
+            patient: patient,
+            recent_care_plan: patient.recent_care_plan,
+            recent_draft_care_plan: patient.recent_draft_care_plan
+          }
+```
+
+Dicho partial tiene los enlaces a los botones:
+```ruby
+<%= link_to "Edit Care Plan", edit_admin_care_plan_path(recent_care_plan), class: "admin_btn" %>
+```
+
+## Error con best_in_place?
+
+Esta gema https://github.com/bernat/best_in_place
+
+En local, el stack trace me lleva hasta esta línea:
+```ruby
+<%= best_in_place Episode.maybe_draft.find(f.object.id), :billing_notes, as: :textarea, url: f.options[:url] %>
+```
+
+Así se ve el trace:
+```
+actionpack (7.0.7) lib/action_dispatch/routing/polymorphic_routes.rb:280:in public_send
+
+actionpack (7.0.7) lib/action_dispatch/routing/polymorphic_routes.rb:280:in handle_model_call
+
+actionview (7.0.7) lib/action_view/routing_url_for.rb:119:in url_for
+
+best_in_place (88eb3052623a) lib/best_in_place/helper.rb:51:in best_in_place
+app/views/admin/care_plans/_form.html.erb:134 <== AQUI
+```
+
+Eso tendría más sentido.
