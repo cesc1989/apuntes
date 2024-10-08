@@ -73,3 +73,4 @@ For example, all incoming model files will live at `app/models/patient_self_repo
 
 ## Replace Service calls with Ruby classes invocations
 
+In Edge, 
