@@ -547,3 +547,40 @@ end
 ```
 
 No logré dar con la solución.
+
+# Mejor usar sintaxis de bloque con Rails Logger
+
+De este artículo: https://willj.net/posts/you-should-use-the-rails-logger-block-syntax/
+
+Dice que es mejor usar la sintaxis de bloque cuando se quiera escribir al Logger de Rails para mejor el consumo de memoria de Ruby.
+
+## Resumen
+
+> Passing strings to the Rails logger methods (eg. Rails.logger.info(…)) **causes unnecessary object allocations**, and if you’re calling methods to generate data for your log messages then it can cause unnecessary CPU work too.
+
+## Why this happens
+
+> When we call `Rails.logger.debug` with a string, say `"Hello #{name}, here's some #{generated_data}!"`, the string is created as an object, including any interpolation that is required which may include methods that are called to retrieve or generate the data which also allocates objects.
+
+```ruby
+# Set the log level
+> Rails.logger.level = :info
+=> :info
+
+# Do the logging
+> stats = AllocationStats.trace {
+	Rails.logger.debug { "Processed API request to \
+      host #{somehost} for user #{user.name} (#{user.id}): status: #{request_status} \
+      user_details: #{user.to_json}" }
+}
+=> [#<AllocationStats::Allocation:0x000000015489ffa8 @object=#<Proc:0x000000015471ea58 /Users/will/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/broadcas...
+
+# Get an allocation count, source paths shortened for brevity
+> puts stats.allocations.group_by(:sourcefile, :sourceline, :class).to_text
+                  sourcefile                          sourceline  class  count
+----------------------------------------------------  ----------  -----
+acti7.1.3.4/lib/active_support/broadcast_logger.rb        231     Proc    2
+(irb)                                                      51     Array   1
+```
+
+> This works because when you pass a block to the logger method (debug in this case) the block will only be called if the log level is currently being logged.
