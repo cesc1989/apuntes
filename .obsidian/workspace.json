@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "8af096a20690308a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "b7d8529d1b59dda5",
             "type": "leaf",
             "state": {
@@ -48,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,13 +161,16 @@
   },
   "active": "b7d8529d1b59dda5",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Action View Form Buiilder.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "Luna/Grafana_Queries.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/AWS_Single_Sign-On_-_Apuntes.md",
@@ -201,7 +190,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
     "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF",
     "Luna/Marketplace/Visit Plans",
     "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
@@ -214,12 +202,10 @@
     "Luna/attachments/dbevaer.setup.png",
     "Luna/dbevaer.setup.png",
     "Luna/attachments",
-    "Luna/untitled folder",
     "Luna/Troubleshooting/attachments/104.mbp.intel.espacio.png",
     "Luna/Troubleshooting/attachments/103.change.terminal.config.png",
     "Luna/Troubleshooting/attachments/102.intel.mbp.low.storage.png",
     "Luna/Troubleshooting/attachments/101.mbp.intel.disk.issue.png",
-    "Luna/Troubleshooting/attachments",
     "Luna/Troubleshooting/101.mbp.intel.disk.issue.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"

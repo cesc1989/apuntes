@@ -82,7 +82,34 @@ Same approach will be followed in the tests folder, i.e for model specs `spec/mo
 
 ## Replace Service calls with Ruby classes invocations
 
-In Edge, 
+In Edge, there are multiple Ruby classes that make requests to Patient Self Report endpoints. Once the latter is merged into the former we want to change that to be Ruby classes calls.
+
+To do this causing minimum changes possible in Edge, leave Edge classes that communicate to PSR as they are now. Instead, add an intermediate class to acts as a "controller" and returns whatever Edge's classes expect to receive.
+
+By doing this, what changes in Edge is replacing HTTP requests with a Ruby method call. For instance, let's see `PatientFormsService` method `all_patient_forms(patient_id)`. After PSR is completely merged, it should look like this:
+```diff
+class PatientFormsService
+  attr_accessor :params
+
+  def all_patient_forms(patient_id)
+    return [] unless patient_self_report_service_enabled?
+
+-   result = self.class.get(
+-     "/v2/backend/all-patient-forms",
+-     body: { patient_id: patient_id }.to_json
+-   )
++   result = self.class.get(:all_patient_forms, patient_id: patient_id)
+
+    raise PatientFormsServiceError, result.inspect unless result.success?
+
+    JSON.parse(result.body, symbolize_names: true)[:forms]
+  end
+end
+```
 
 
-Do not alter Edge's calls to PSR but put a controller in between
+# Attachments
+
+## Patient Self Report ERD Diagram
+
+![[005 - guardian name.png]]
