@@ -1,8 +1,8 @@
 # 001 - Merge Patient Self Report into Edge
 
-This document details the plan to merge the Patient Self Report backend into Edge. It's divided in two milestones: Database merge and Code merge.
+This document details the plan to merge the Patient Self Report backend into Edge. It's divided in two milestones: Database Merge and Code Merge.
 
-# Patient Self Report Database Merge
+# Database Merge
 
 The Patient Self Report database consists of 15 tables:
 - aggravating_activities
@@ -53,9 +53,9 @@ These are the action items to complete this milestone.
 - Query Edge Alpha db
 - Replicate in Omega
 
-# Patient Self Report Code Merge & Services Adaptation
+# Code Merge
 
-After the Patient Self Report database is migrated to Edge, we can start moving code. This is the proposed order to do this:
+After the Patient Self Report database is migrated to Edge, we can start moving code in. This is the proposed order to do so:
 
 - models
 - routes
@@ -75,11 +75,19 @@ This order considers classes that are needed for others to work and goes up to l
 
 To create clear boundaries between existing Ruby classes and facilitate working in this satellite app I think it's best to keep these incoming classes in a unique folder to act as a namespace.
 
-For example, all incoming model files will live at `app/models/patient_self_report/*.rb`. By doing this we make it clear that everything under the namespace belongs to the Patient Self Report domain and will provide a clear path forward whenever anyone would need to work on this app.
+For example, all incoming model files will live at `app/models/patient_self_report/*.rb`.
 
-> Edge is a large codebase with many Ruby classes scattered in multiple places. For some parts of the project related files might be difficult to find or reason about as group. An example of this is the Protocol Escalation models. The only way to make sense of them is by looking at the schema and build the associations.
+By doing this we make it clear that everything under the namespace belongs to the Patient Self Report domain by just taking a glance. Namespacing provides a clear path forward whenever someyone would need to work on this app.
 
-Same approach will be followed in the tests folder, i.e for model specs `spec/models/patient_self_report/*_spec.rb`. This have the benefit of a) be able to run all test suite for the Patient Self Report satellite app once inside Edge `rspec spec/models/patient_self_report/`; b) get a glance of all tests involved in this domain.
+> Edge is a large codebase with many Ruby classes scattered in multiple places. For some parts of the project related files might be difficult to find or reason about as a group. An example of this is the Protocol Escalation models. To make sense of them one needs to look at the schema, wire associations, and understand subtleties in the models.
+
+Same namespacing approach will be followed in the tests folder, i.e for model specs `spec/models/patient_self_report/*_spec.rb`.
+
+This presents the benefit of a) be able to run all test suite for the Patient Self Report satellite app once inside Edge `rspec spec/models/patient_self_report/`; b) get a glance of all tests involved in this domain. Further helping understand what is all about.
+
+**IMPORTANT**
+
+Considering we're merging three backends into Edge (forms, dashboard, and credentialing), it makes more sense to namespace them to simplify the merge itself and set order and organization of closely related code.
 
 ## Replace Service calls with Ruby classes invocations
 
@@ -108,6 +116,17 @@ class PatientFormsService
 end
 ```
 
+Before doing this, I have to identify all places in Edge making requests to Patient Self Report endpoints and all places in Patient Self Report doing requests to Edge.
+
+## Execution Plan
+
+- Identify all places where intercommunication takes place.
+- Migrate ActiveRecord models and specs.
+- Integrate in Alpha to play with Patient Self Report models in a rails console
+	- If any model needs a resource outside of the models folder, skip it in tests (`xit`) and take notice to go back to tests when introduced the missing link
+- With CI green merge to Omega
+- Repeat for the next element in the adaptation list before
+- When all components of PSR are present in Edge do the Edge-to-PSR call swap in code
 
 # Attachments
 
