@@ -77,7 +77,7 @@ See https://github.com/rails/rails/releases/tag/v6.1.7.8
 
 Security fixes.
 
-# Rails 7.0.x
+# Rails 7.0.x ✅
 
 ## 7.0.0 ✅
 

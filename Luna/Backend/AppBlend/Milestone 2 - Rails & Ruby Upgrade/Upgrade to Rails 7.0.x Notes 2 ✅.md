@@ -1,4 +1,4 @@
-# Upgrade to Rails 7.0.x Notes 2
+# Upgrade to Rails 7.0.x Notes 2 ✅
 
 This is a continuation of [[Upgrade to Rails 7.0.x Notes ✅]]
 
@@ -273,7 +273,7 @@ Possible fixes:
 
 In the Sentry report the Rails gems version were on the current version 6.1.7.8.
 
-# ActionView::Template::Error
+# ActionView::Template::Error ✅
 
 Este error:
 ```ruby
