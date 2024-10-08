@@ -374,3 +374,99 @@ app/views/admin/care_plans/_form.html.erb:134 <== AQUI
 ```
 
 Eso tendría más sentido.
+
+Comenté esa línea y subí a alfa. No explota la página de edición de Care Plan. Es en esta parte donde se usa esa gema pero puede ser la construcción de la URL.
+
+`best_in_place` se carga en estas páginas:
+
+En `app/views/admin/care_plans/_form.html.erb`. Línea 134.
+
+Definición:
+```ruby
+<%= best_in_place Episode.maybe_draft.find(f.object.id), :billing_notes, as: :textarea, url: f.options[:url] %>
+```
+
+En `app/admin/customers/patients.rb`. Línea 1193.
+
+Definición:
+```ruby
+row :billing_notes do |care_plan|
+	best_in_place care_plan, :billing_notes, as: :textarea, url: admin_care_plan_path(care_plan)
+end
+```
+
+En `app/admin/episodes.rb`. Línea 236.
+
+En esta no da error. Care Plan [show](http://localhost:3000/admin/care_plans/da175c34-9c95-4e13-9860-f77feb22aad9) local.
+
+Definición:
+```ruby
+row :billing_notes do |care_plan|
+	best_in_place care_plan, :billing_notes, as: :textarea, url: admin_care_plan_path(care_plan)
+end
+```
+
+En `app/admin/payer_management/care_plans.rb`. Línea 358.
+
+En esta no da error. [Listado](http://localhost:3000/admin/care_plan_route_reviews).
+
+Definición:
+```ruby
+column :billing_notes do |care_plan|
+	best_in_place care_plan, :billing_notes, as: :textarea, url: admin_care_plan_path(care_plan)
+end
+```
+
+## El Problema es f.options[:url] de Formtastic
+
+Cuando estamos en Rails 6.1.7.8:
+```ruby
+<%= f.options.inspect %>
+
+{
+  :url=>"/admin/care_plans/da175c34-9c95-4e13-9860-f77feb22aad9",
+  :builder=>Formtastic::FormBuilder,
+  :html=> {
+    :class=>"formtastic care_plan_form",
+    :id=>"edit_care_plan_form_da175c34-9c95-4e13-9860-f77feb22aad9",
+    :method=>:patch,
+    :novalidate=>false,
+    :authenticity_token=>nil
+  },
+  :custom_namespace=>nil
+}
+```
+
+Si buscamos la URL:
+```ruby
+<%= f.options[:url].inspect %>
+
+"/admin/care_plans/da175c34-9c95-4e13-9860-f77feb22aad9"
+```
+
+Cuando se está en Rails 7.0.7:
+
+```ruby
+<%= f.options.inspect %>
+
+{
+  :allow_method_names_outside_object=>false,
+  :skip_default_ids=>false,
+  :builder=>Formtastic::FormBuilder,
+  :html=> {
+    :class=>"formtastic care_plan_form",
+    :id=>"edit_care_plan_form_da175c34-9c95-4e13-9860-f77feb22aad9",
+    :novalidate=>false
+  },
+  :custom_namespace=>nil,
+  :local=>true
+}
+```
+
+
+```ruby
+<%= f.options[:url].inspect %>
+
+nil
+```
+
