@@ -121,6 +121,8 @@ Before doing this, I have to identify all places in Edge making requests to Pati
 ## Execution Plan
 
 - Identify all places where intercommunication takes place.
+- Level up Rails version
+	- Currently sits at 7.0.4
 - Migrate ActiveRecord models and specs.
 - Integrate in Alpha to play with Patient Self Report models in a rails console
 	- If any model needs a resource outside of the models folder, skip it in tests (`xit`) and take notice to go back to tests when introduced the missing link
