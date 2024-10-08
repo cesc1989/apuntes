@@ -417,7 +417,7 @@ column :billing_notes do |care_plan|
 end
 ```
 
-## El Problema es f.options[:url] de Formtastic
+## El Problema es f.options[:url] de Formtastic/FormBuilder
 
 Cuando estamos en Rails 6.1.7.8:
 ```ruby
@@ -469,4 +469,3 @@ Cuando se está en Rails 7.0.7:
 
 nil
 ```
-
