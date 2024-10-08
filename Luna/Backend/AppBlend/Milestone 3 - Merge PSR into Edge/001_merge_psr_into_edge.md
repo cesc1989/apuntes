@@ -1,11 +1,8 @@
 # 001 - Merge Patient Self Report into Edge
 
-This document details the plan to merge the Patient Self Report backend into Edge. It's divided in two main blocks: Database merge and Code merge.
+This document details the plan to merge the Patient Self Report backend into Edge. It's divided in two milestones: Database merge and Code merge.
 
 # Patient Self Report Database Merge
-
-To do:
-- Diagram both models. Individually and altogether??
 
 The Patient Self Report database consists of 15 tables:
 - aggravating_activities
@@ -25,11 +22,11 @@ The Patient Self Report database consists of 15 tables:
 - settings
 - surgeries
 
-Before migrating these tables the `outbox` table have to be deleted and adapt the `patients` table so that it does not clash with Edge's `patients`table.
+Before migrating these tables the `outbox` table has to be deleted and the `patients` table adapted so it does not clash with Edge's `patients`table.
 
 ## PSR `patients` vs Edge `patients` Tables
 
-Although similar in name they do not share the same information. PSR `patients` table needs to be migrated with modifications. I see two ways to do this:
+Although similar in name, these two tables do not share the same information. PSR `patients` table needs to be migrated with modifications. I see two ways to do this:
 
 A) create a new table `patient_form_details` that will only hold the fields that are unique to the Patient Self Report `patients` table:
 
@@ -37,7 +34,9 @@ A) create a new table `patient_form_details` that will only hold the fields that
 - signature
 - accept_terms_and_conditions
 
-B) bring Patient Self Report `patients` table as is but prefix it, i.e `psr_patients`. 
+Any part of the Patient Self Report domain needing other patient information would grab it by going to the patient's account record.
+
+B) bring Patient Self Report `patients` table as is but prefix it, i.e `psr_patients`. If choosing this way, it'd be good to also prefix all PSR tables with a defined prefix such as in the example before.
 
 Either option would be link to Edge `patients` via the `internal_id` column present in PSR `patients` table.
 
@@ -47,6 +46,7 @@ These are the action items to complete this milestone.
 
 - Delete `outbox` table from Patient Self Report database
 - Decide how to integrate the PSR `patients` table
+	- Depending on the option there'll be prerequisite work
 - Have query do the LR from PSR into Edge in Alpha
 - Create new migrations in Edge to use the PSR tables
 	- using the `if_not_exists` option in the migration
@@ -67,12 +67,13 @@ After the Patient Self Report database is migrated to Edge, we can start moving 
 - views & uploaders
 	- install `wkhtmltopdf` software and gems
 - workers, helpers, exceptions
+- rake tasks, documentation
 
 This order considers classes that are needed for others to work and goes up to less needed.
 
 ## Namespace
 
-To create clear boundaries between Ruby classes and facilitate working in this satellite app I think it's best to keep this incoming classes in a unique folder to act as a namespace.
+To create clear boundaries between existing Ruby classes and facilitate working in this satellite app I think it's best to keep these incoming classes in a unique folder to act as a namespace.
 
 For example, all incoming model files will live at `app/models/patient_self_report/*.rb`. By doing this we make it clear that everything under the namespace belongs to the Patient Self Report domain and will provide a clear path forward whenever anyone would need to work on this app.
 
