@@ -7,7 +7,7 @@
 
 # Completo
 
-## Ruby ✅
+## Ruby 3.1.0 ✅
 
 [Página de versiones de Ruby](https://www.ruby-lang.org/en/downloads/releases/)
 
@@ -20,7 +20,7 @@ En Ruby: **Ruby 3.0.6**
 	- 3.0.7
 	- 3.1.0
 
-## Rails ✅
+## Rails 7.0.7 ✅
 
 Edge actualmente está en **Rails 6.1.6**
 

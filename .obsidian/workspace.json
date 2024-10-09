@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
-                "mode": "preview",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md"
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md"
               }
             }
           }
@@ -161,9 +161,9 @@
   },
   "active": "20e9321b2fd83af9",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
     "DevAsPros/Intrati/Aprendizaje_Migrando_a_EmberJS.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
