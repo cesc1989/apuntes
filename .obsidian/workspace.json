@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "20e9321b2fd83af9",
+            "id": "9c0a3ddcb8e318da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
-                "mode": "source",
+                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md"
+                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md"
               }
             }
           }
@@ -159,15 +159,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20e9321b2fd83af9",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
+    "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
+    "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Batch Loader in Rails 7.0.4 ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Action View Form Buiilder.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/008 - ✅ Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/006 - Settings for config defaults ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
     "DevAsPros/Intrati/Aprendizaje_Migrando_a_EmberJS.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
     "Luna/Aprendizajes de los Lanzamientos.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
@@ -175,22 +188,9 @@
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Action View Form Buiilder.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Batch Loader in Rails 7.0.4 ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2 ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Luna/Grafana_Queries.md",
-    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/AWS_Single_Sign-On_-_Apuntes.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
     "Luna/Marketplace/MPF",
     "Luna/Marketplace/Visit Plans",
@@ -206,7 +206,6 @@
     "Luna/Troubleshooting/attachments/104.mbp.intel.espacio.png",
     "Luna/Troubleshooting/attachments/103.change.terminal.config.png",
     "Luna/Troubleshooting/attachments/102.intel.mbp.low.storage.png",
-    "Luna/Troubleshooting/attachments/101.mbp.intel.disk.issue.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

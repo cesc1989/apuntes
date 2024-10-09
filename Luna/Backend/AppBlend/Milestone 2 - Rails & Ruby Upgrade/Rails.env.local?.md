@@ -16,18 +16,3 @@ Add `Rails.env.local?` shorthand for `Rails.env.development? || Rails.env.test?
 ```
 
 Para la actualización a Rails 7.0.4 no debería afectar tener esta clase personalizada porque no habría conflicto.
-
-# Compatibilidad entre Rails y Ruby
-
-Encontré [esta tabla](https://www.fastruby.io/blog/ruby/rails/versions/compatibility-table.html), actualizada a fecha de **24 de Abril de 2024**, sobre la compatibilidad entre versiones de Rails y de Ruby.
-
-![[Pasted image 20240704234741.png]]
-
-Conclusiones:
-- Puedo subir a Rails 7.0.4 y a Ruby 3.1.0
-
-Notas:
-
-Aquí [mencionan](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#ruby-versions) primero subir la versión de Ruby y luego la de Rails
-
-> It's a good idea to upgrade Ruby and Rails separately. Upgrade to the latest Ruby you can first, and then upgrade Rails.
