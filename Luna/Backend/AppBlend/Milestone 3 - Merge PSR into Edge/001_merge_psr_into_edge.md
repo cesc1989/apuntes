@@ -72,9 +72,11 @@ Then, update the Edge's Docker image (with Infra team help) to install `wkhtmlto
 
 Continue by adding the intermediate classes that will be used in Edge once PSR is copied in. The goal is that these classes produce the same output as the endpoints they will replace.
 
-Next is to identify all places that need a feature flag to control the switch between the current Patient Self Report service and the one that'll live in Edge. Setup appropriate flags in Edge.
+Next is to identify all places that need a feature flag to control the switch between the current Patient Self Report service and the one that'll live in Edge.
 
 Finally, copying all Patient Self Report code in corresponding folders in Edge repository. After the copy is completed, both PSR version (source and Edge) should be working and producing same outputs when tested.
+
+> Before merging to Omega, setup feature flags in corresponding places.
 
 ## Namespace
 
