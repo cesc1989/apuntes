@@ -4,7 +4,7 @@ Ryan wants this upgrade to fix performance issues.
 
 ## Start with Rails 7.0.8.4
 
-Let's start with this version to get closest to 7.1
+Let's start with this version to get closest to 7.1.0
 
 ## Rails 7.1.4 or 7.2?
 
