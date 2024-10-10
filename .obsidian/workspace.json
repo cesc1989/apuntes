@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "9c0a3ddcb8e318da",
+            "id": "fb4df24e88feff9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md"
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md"
               }
             }
           }
@@ -159,12 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "fb4df24e88feff9a",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
+    "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
-    "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Batch Loader in Rails 7.0.4 ✅.md",
@@ -176,8 +178,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
     "DevAsPros/Intrati/Aprendizaje_Migrando_a_EmberJS.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
