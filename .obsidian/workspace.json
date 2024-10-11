@@ -22,19 +22,20 @@
             }
           },
           {
-            "id": "bd20b84c8f1fad64",
+            "id": "774bb938523667ab",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -159,11 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd20b84c8f1fad64",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Particionando_en_SSD_y_HDD_para_archivos_para_Linu.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
@@ -182,13 +189,7 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
-    "DevAsPros/Intrati/Aprendizaje_Migrando_a_EmberJS.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
-    "Luna/Aprendizajes de los Lanzamientos.md",
-    "Luna/Backend/Email Verification/Incident - Email Blast.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
-    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",

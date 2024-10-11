@@ -80,7 +80,11 @@ Sintaxis:
 
 > Nota que los parámetros son de una sola letra.
 
-**Enlaces**
+### Actualización: 11 de Octubre 2024
+
+Usar `getopts` en funciones que se cargan en dotfiles puede no funcionar o hacer cosas raras.
+
+Me tocó, con la ayuda gpt, hacer validaciones manuales y descartar `getopts`. Parecer ser que es mejor usar `getopts` en funciones que viven en archivos ejecutables.
 
 ## Named arguments sin getops
 

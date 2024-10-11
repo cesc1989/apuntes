@@ -230,3 +230,7 @@ way more workers than reasonable.
 There is unfortunately no reliable way to detect how many cores an application  
 can realistically use, and even then, assuming the application should use  
 all the machine resources is often wrong.
+
+# Changes in 7.2.0 through 7.2.1
+
+## 7.2.0
