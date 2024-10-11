@@ -234,3 +234,63 @@ all the machine resources is often wrong.
 # Changes in 7.2.0 through 7.2.1
 
 ## 7.2.0
+
+**Active Support**
+
+Remove deprecated `#to_default_s` from `Array`, `Date`, `DateTime` and `Time`.
+
+---
+
+Remove deprecated `config.active_support.use_rfc4122_namespaced_uuids`.
+
+---
+
+Remove deprecated `config.active_support.disable_to_s_conversion`.
+
+---
+
+Remove deprecated support for `config.active_support.cache_format_version = 6.1`.
+
+---
+
+Use logical core count instead of physical core count to determine the  
+default number of workers when parallelizing tests.
+
+---
+
+**Active Record**
+
+Strict loading using `:n_plus_one_only` does not eagerly load child associations.
+
+With this change, child associations are no longer eagerly loaded, to  
+match intended behavior and to prevent non-deterministic order issues caused  
+by calling methods like `first` or `last`. As `first` and `last` don't cause  
+an N+1 by themselves, calling child associations will no longer raise.
+
+---
+
+When using a `DATABASE_URL`, allow for a configuration to map the protocol in the URL to a specific database  
+adapter. This allows decoupling the adapter the application chooses to use from the database connection details  
+set in the deployment environment.
+
+**Action View**
+
+Deprecate passing `nil` as value for the `model:` argument to the `form_with` method.
+
+**Action Pack**
+
+Add rate limiting API.
+
+---
+
+Add `racc` as a dependency since it will become a bundled gem in Ruby 3.4.0
+
+**Railties**
+
+Rails console now indicates application name and the current Rails environment
+
+## 7.2.1
+
+**Active Record**
+
+Allow to eager load nested nil associations.
