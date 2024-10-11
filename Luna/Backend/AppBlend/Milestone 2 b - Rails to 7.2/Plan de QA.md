@@ -13,7 +13,7 @@
 - Patients / Profile
 	- [x] Search patient
 	- [x] Create care plan for patient
-	- [ ] Check Document is attached after completing Intake Form
+	- [x] Check Document is attached after completing Intake Form
 	- [x] Go to Edit Care Plan from Patient profile
 - Files menu
 	- [x] Open Document shares
@@ -27,7 +27,7 @@
 - Clinics / Profile
 	- [x] Add new portal recipient
 	- [x] Verify email for Clinical Dashboard
-	- [ ] Send Clinical Dashboard email
+	- [x] Send Clinical Dashboard email
 - Appointments / Detail
 	- [x] Visit appointment detail
 - Exercise Programs
