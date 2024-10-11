@@ -1,6 +1,6 @@
 # Upgrade Edge to 7.0.8.4
 
-# ActionView::MissingTemplate in Admin::PatientDuplicates#compare
+# ActionView::MissingTemplate in Admin::PatientDuplicates#compare ✅
 
 En Patient Duplicates al clicar "Compare & Resolve".
 
