@@ -20,23 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "774bb938523667ab",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -161,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "774bb938523667ab",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade Edge to Rails 7.2.md",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
