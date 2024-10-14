@@ -53,3 +53,32 @@ Appointment Load (0.1ms)  SELECT "appointments".* FROM "appointments" WHERE "app
 ```
 
 Visto en [Stack Overlow](https://stackoverflow.com/questions/6118779/how-to-change-default-timezone-for-active-record-in-rails).
+
+## Usar Time en vez de DateTime cuando la hora importe
+
+Había registros para la fecha 23 de Octubre pero no se mostraban en el calendario de día. No se mostraban por esto:
+```bash
+Appointment Load (0.1ms)  SELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = ? AND "appointments"."scheduled_at" BETWEEN ? AND ?  [["user_id", 1], ["scheduled_at", "2024-10-22 19:00:00"], ["scheduled_at", "2024-10-23 18:59:59.999999"]]
+```
+
+Había un desfase de tiempo a pesar de usar `DateTime.current`.
+
+La solución se dio al pasar a usar la clase Time:
+```bash
+Appointment Load (0.1ms)  SELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = ? AND "appointments"."scheduled_at" BETWEEN ? AND ?  [["user_id", 1], ["scheduled_at", "2024-10-23 00:00:00"], ["scheduled_at", "2024-10-23 23:59:59.999999"]]
+```
+
+¿Cuál es la diferencia? A Time le importa más la precisión de la hora.
+
+```ruby
+DateTime.current
+=> Mon, 14 Oct 2024 15:49:32 -0500
+
+Time.current
+=> Mon, 14 Oct 2024 15:49:35.946805000 -05 -05:00
+```
+
+Las guías de Rails me dieron la pista.
+
+- [Time.parse](https://rails.rubystyle.guide/#time-parse)
+- [all_X](https://rails.rubystyle.guide/#date-time-range)
