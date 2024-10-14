@@ -27,3 +27,29 @@ end
 ```
 
 Visto en [Stack Overflow](https://stackoverflow.com/a/22799064/1407371).
+
+## Configura zona horaria
+
+Ya tenía esta configuración la cual funciona:
+```ruby
+config.time_zone = "America/Bogota"
+```
+
+Sin embargo, en las queries en la bd se veía que estaba usando UTC:
+```bash
+Appointment Load (0.1ms)  SELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = ? AND "appointments"."scheduled_at" BETWEEN ? AND ?  [["user_id", 1], ["scheduled_at", "2024-10-01 05:00:00"], ["scheduled_at", "2024-11-01 04:59:59.999999"]]
+```
+
+Estaba haciendo un rango entre inicio y fin de mes pero las horas no correspondían.
+
+Toca hacer esto en application.rb
+```ruby
+config.active_record.default_timezone = :local
+```
+
+Para que la BD use la timezone que se quiere:
+```bash
+Appointment Load (0.1ms)  SELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = ? AND "appointments"."scheduled_at" BETWEEN ? AND ?  [["user_id", 1], ["scheduled_at", "2024-10-14 00:00:00"], ["scheduled_at", "2024-10-20 23:59:59.999999"]]
+```
+
+Visto en [Stack Overlow](https://stackoverflow.com/questions/6118779/how-to-change-default-timezone-for-active-record-in-rails).
