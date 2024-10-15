@@ -20,33 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6a38def8b527b8b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "404bd8894b576218",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               }
             }
           }
@@ -171,15 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "404bd8894b576218",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments/schema.no.precision.in.timestamps.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "DevAsPros/SuperAgenda",
@@ -218,7 +193,6 @@
     "Luna/dbevaer.setup.png",
     "Luna/Troubleshooting/attachments/104.mbp.intel.espacio.png",
     "Luna/Troubleshooting/attachments/103.change.terminal.config.png",
-    "Luna/Troubleshooting/attachments/102.intel.mbp.low.storage.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
