@@ -4,7 +4,7 @@
 
 En Patient Duplicates al clicar "Compare & Resolve".
 
-```
+```bash
 Showing /Users/francisco/projects/luna-project/backend/app/views/admin/patient_duplicates_report/compare.html.erb where line #26 raised:
 
 Missing partial admin/patient_duplicates/_patient_information, active_admin/resource/_patient_information, active_admin/base/_patient_information, inherited_resources/base/_patient_information, application/_patient_information with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :arb, :haml]}.
@@ -52,3 +52,42 @@ Puede ser porque hay muchos partials en el sistema con el mismo nombre:
 ```
 Missing partial admin/patient_duplicates/_patient_information, active_admin/resource/_patient_information, active_admin/base/_patient_information, inherited_resources/base/_patient_information, application/_patient_information
 ```
+
+# Cambios de precision: 6/nil en schema para campos datetime
+
+## Contexto
+
+Desde Rails 6.0, a los campos datetime de los timestamps (created_at, updated_at) se les imprime el valor para precision en el schema:
+```ruby
+t.datetime "created_at", precision: nil, null: false
+t.datetime "updated_at", precision: nil, null: false
+```
+
+> [!INFO]
+> Este es [el commit](https://github.com/rails/rails/commit/57015cdfa2083351f64a82f7566965172a41efcb) donde se configura el precision para los timestamps.
+> 
+> Y este es el [changelog](https://github.com/rails/rails/blob/6-0-stable/activerecord/CHANGELOG.md) de la versión 6.x.x
+
+Cuando hice el upgrade a Rails 7.0.7, muchos de estos campos quedaron mostrando el precision en el schema:
+```diff
+- t.datetime "created_at", null: false
++ t.datetime "created_at", precision: nil, null: false
+```
+
+Sin embargo, ahora que estoy haciendo el upgrade a Rails 7.0.8.4, en el schema a varios timestamps se le está quitando el precision:
+```diff
+-    t.datetime "created_at", precision: 6, null: false
+-    t.datetime "updated_at", precision: 6, null: false
++    t.datetime "created_at", null: false
++    t.datetime "updated_at", null: false
+```
+
+¿Por qué pasa esto?
+
+## Conclusiones
+
+Esta [respuesta en Stack Overflow](https://stackoverflow.com/a/71482301/1407371) explica toda la historia de este cambio.
+
+La conclusión es que desde Rails 7.0.2 ya no debe reflejarse el valor de precisión para los timestamps en el schema porque se maneja de manera interna. Así [lo comentan](https://github.com/rails/rails/issues/44571#issuecomment-1059295012) en issue donde se ve esta situación:
+
+![[schema.no.precision.in.timestamps.png]]
