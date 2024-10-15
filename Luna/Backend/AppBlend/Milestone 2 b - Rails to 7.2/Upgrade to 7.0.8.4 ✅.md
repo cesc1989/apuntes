@@ -53,7 +53,7 @@ Puede ser porque hay muchos partials en el sistema con el mismo nombre:
 Missing partial admin/patient_duplicates/_patient_information, active_admin/resource/_patient_information, active_admin/base/_patient_information, inherited_resources/base/_patient_information, application/_patient_information
 ```
 
-# Cambios de precision: 6/nil en schema para campos datetime
+# Cambios de precision: 6/nil en schema para campos datetime ✅
 
 ## Contexto
 
