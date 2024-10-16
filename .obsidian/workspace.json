@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "f6d58ebdb7a52dcf",
+            "id": "5168abe3a116343c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Misc Info.md",
+                "file": "Luna/Playbook del Triage📙.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Misc Info.md",
+                "file": "Luna/Playbook del Triage📙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Email Verification/Misc Info.md",
+                "file": "Luna/Playbook del Triage📙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Misc Info.md"
+                "file": "Luna/Playbook del Triage📙.md"
               }
             }
           }
@@ -159,15 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6d58ebdb7a52dcf",
+  "active": "5168abe3a116343c",
   "lastOpenFiles": [
+    "Luna/Usando_Ngrok.md",
+    "Luna/Playbook del Triage📙.md",
+    "Luna/Migración_a_Rails_6.md",
+    "Luna/Migración_a_Rails_7.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+    "Luna/Backend/Email Verification/Misc Info.md",
     "Luna/Backend/Email Verification/attachments/02.escalation.recipients.emoji.png",
     "Luna/Backend/Email Verification/attachments/01.portal.recipients.emoji.png",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Misc Info.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
@@ -184,13 +192,6 @@
     "Luna/Backend/Reviewers/Info Básica.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Particionando_en_SSD_y_HDD_para_archivos_para_Linu.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
@@ -206,7 +207,6 @@
     "Luna/Marketplace/attachments",
     "Luna/attachments/dbevaer.setup.png",
     "Luna/dbevaer.setup.png",
-    "Luna/Troubleshooting/attachments/104.mbp.intel.espacio.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
