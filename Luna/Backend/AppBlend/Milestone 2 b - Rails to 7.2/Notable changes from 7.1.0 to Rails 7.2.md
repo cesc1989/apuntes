@@ -2,6 +2,9 @@
 
 Ryan wants this upgrade to fix performance issues.
 
+> [!Info]
+> Upgrading From 7.0 to 7.1 https://guides.rubyonrails.org/v7.1/upgrading_ruby_on_rails.html#upgrading-from-rails-7-0-to-rails-7-1
+
 ## Start with Rails 7.0.8.4
 
 Let's start with this version to get closest to 7.1.0

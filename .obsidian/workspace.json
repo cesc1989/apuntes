@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "f92c77cebd86343c",
+            "id": "4b51bd7d55270bc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Notas sobre Logical Replication.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Notas sobre Logical Replication.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Notas sobre Logical Replication.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Notas sobre Logical Replication.md"
+                "file": "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md"
               }
             }
           }
@@ -159,12 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f92c77cebd86343c",
+  "active": "4b51bd7d55270bc4",
   "lastOpenFiles": [
-    "Luna/Backend/attachments/02.lr.example.target.png",
-    "Luna/Backend/attachments/01.lr.example.source.png",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
+    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
+    "Luna/Backend/attachments/02.lr.example.target.png",
+    "Luna/Backend/attachments/01.lr.example.source.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La_Idealización_del_Código_-_Apuntes_de_artículos.md",
@@ -174,8 +179,6 @@
     "Luna/Migración_a_Rails_6.md",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Misc Info.md",
@@ -183,9 +186,7 @@
     "Luna/Backend/Email Verification/attachments/01.portal.recipients.emoji.png",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments/schema.no.precision.in.timestamps.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
@@ -206,7 +207,6 @@
     "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
     "Luna/Backend/utilidades",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
-    "Luna/attachments/dbevaer.setup.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
