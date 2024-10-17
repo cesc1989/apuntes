@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "c21ede7864f18e42",
+            "id": "f92c77cebd86343c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
+                "file": "Luna/Backend/Notas sobre Logical Replication.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
+                "file": "Luna/Backend/Notas sobre Logical Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
+                "file": "Luna/Backend/Notas sobre Logical Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md"
+                "file": "Luna/Backend/Notas sobre Logical Replication.md"
               }
             }
           }
@@ -159,11 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c21ede7864f18e42",
+  "active": "f92c77cebd86343c",
   "lastOpenFiles": [
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
+    "Luna/Backend/attachments/02.lr.example.target.png",
+    "Luna/Backend/attachments/01.lr.example.source.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La_Idealización_del_Código_-_Apuntes_de_artículos.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
     "Luna/Playbook del Triage📙.md",
@@ -191,8 +194,6 @@
     "DevAsPros/SuperAgenda",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
-    "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
@@ -206,7 +207,6 @@
     "Luna/Backend/utilidades",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Luna/attachments/dbevaer.setup.png",
-    "Luna/dbevaer.setup.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
