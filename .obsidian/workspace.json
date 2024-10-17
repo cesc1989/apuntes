@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "5168abe3a116343c",
+            "id": "3b9b9f02924ddc24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Playbook del Triage📙.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Playbook del Triage📙.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Playbook del Triage📙.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Playbook del Triage📙.md"
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md"
               }
             }
           }
@@ -159,14 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5168abe3a116343c",
+  "active": "3b9b9f02924ddc24",
   "lastOpenFiles": [
-    "Luna/Usando_Ngrok.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La_Idealización_del_Código_-_Apuntes_de_artículos.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Playbook del Triage📙.md",
+    "Luna/Usando_Ngrok.md",
     "Luna/Migración_a_Rails_6.md",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/Image Magick and Alpine.md",
@@ -190,8 +193,6 @@
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Reviewers/Info Básica.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando_Tmux.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
@@ -204,7 +205,6 @@
     "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
     "Luna/Backend/utilidades",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
-    "Luna/Marketplace/attachments",
     "Luna/attachments/dbevaer.setup.png",
     "Luna/dbevaer.setup.png",
     "Canvas/GraphQL.canvas",
