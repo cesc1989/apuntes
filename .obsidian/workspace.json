@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+                "file": "Luna/Backend/Notas sobre Logical Replication.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "002 Migraciones de Forms en Edge"
+              "title": "Notas sobre Logical Replication"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+                "file": "Luna/Backend/Notas sobre Logical Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 002 Migraciones de Forms en Edge"
+              "title": "Backlinks for Notas sobre Logical Replication"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+                "file": "Luna/Backend/Notas sobre Logical Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 002 Migraciones de Forms en Edge"
+              "title": "Outgoing links from Notas sobre Logical Replication"
             }
           },
           {
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md"
+                "file": "Luna/Backend/Notas sobre Logical Replication.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 Migraciones de Forms en Edge"
+              "title": "Outline of Notas sobre Logical Replication"
             }
           }
         ],
@@ -179,8 +179,8 @@
   },
   "active": "e53eba5cc79385f8",
   "lastOpenFiles": [
-    "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
