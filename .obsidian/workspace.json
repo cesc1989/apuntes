@@ -18,7 +18,9 @@
                 "mode": "preview",
                 "source": true
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Apuntes_de_Linux_-_Parte_1"
             }
           }
         ]
@@ -41,7 +43,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -56,7 +60,9 @@
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -64,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -95,7 +103,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Apuntes_de_Linux_-_Parte_1"
             }
           },
           {
@@ -107,7 +117,9 @@
                 "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Apuntes_de_Linux_-_Parte_1"
             }
           },
           {
@@ -118,7 +130,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -128,7 +142,9 @@
               "type": "outline",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
             }
           }
         ],
@@ -136,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,16 +164,17 @@
   },
   "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
-    "Otro_Espacio/Todo_Software/Self Hosting",
     "Luna/Backend/Notas sobre Logical Replication.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
+    "conflict-files-obsidian-git.md",
+    "Otro_Espacio/Todo_Software/Self Hosting",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
@@ -178,7 +194,6 @@
     "Luna/Migración_a_Rails_6.md",
     "Luna/Migración_a_Rails_7.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Email Verification/attachments/02.escalation.recipients.emoji.png",
     "Luna/Backend/Email Verification/attachments/01.portal.recipients.emoji.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments/schema.no.precision.in.timestamps.png",
