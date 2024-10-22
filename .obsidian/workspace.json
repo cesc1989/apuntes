@@ -18,9 +18,7 @@
                 "mode": "preview",
                 "source": true
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Apuntes_de_Linux_-_Parte_1"
+              "pinned": true
             }
           },
           {
@@ -29,12 +27,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
                 "mode": "preview",
                 "source": true
-              },
-              "icon": "lucide-file",
-              "title": "002 Migraciones de Forms en Edge"
+              }
             }
           }
         ],
@@ -58,9 +54,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -75,9 +69,7 @@
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -85,9 +77,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -110,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,9 +108,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 002 Migraciones de Forms en Edge"
+              }
             }
           },
           {
@@ -129,12 +117,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 002 Migraciones de Forms en Edge"
+              }
             }
           },
           {
@@ -145,9 +131,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -156,10 +140,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 002 Migraciones de Forms en Edge"
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md"
+              }
             }
           }
         ],
@@ -167,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,8 +162,10 @@
   },
   "active": "e53eba5cc79385f8",
   "lastOpenFiles": [
-    "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
+    "Otro_Espacio/Todo_Software/Self Hosting",
+    "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
@@ -207,7 +192,6 @@
     "Luna/Migración_a_Rails_7.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Backend/Image Magick and Alpine.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/attachments/02.escalation.recipients.emoji.png",
     "Luna/Backend/Email Verification/attachments/01.portal.recipients.emoji.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments/schema.no.precision.in.timestamps.png",
@@ -223,7 +207,6 @@
     "Luna/Marketplace/Visit Plans",
     "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
     "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
-    "Luna/Backend/utilidades",
     "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
