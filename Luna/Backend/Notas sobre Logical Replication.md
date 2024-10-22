@@ -49,3 +49,5 @@ Grimoire - Target table
 - Ninguna columna en T tiene valores por defecto
 - Todos los nombres coinciden: tabla, campos, tipos de datos
 - Orden de las columnas coincide. Esto es un plus.
+
+Etiquetas: #logical_replication
