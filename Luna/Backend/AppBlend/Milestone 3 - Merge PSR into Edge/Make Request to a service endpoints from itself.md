@@ -3,7 +3,7 @@
 Is it possible to make HTTP requests to a Rails backend from itself?
 
 Let's take this endpoint from Patient Self Report:
-```
+```json
 POST {{BASE_URL}}/patient_forms
 
 {

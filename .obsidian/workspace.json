@@ -24,35 +24,21 @@
             }
           },
           {
-            "id": "fd3f13601b4a220d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "09c377518198a362",
+            "id": "fe5ca69ed49fb157",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_21_-_Correos"
+              "title": "Rename Patients table"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Apuntes_Ciclo_21_-_Correos"
+              "title": "Backlinks for Rename Patients table"
             }
           },
           {
@@ -143,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Apuntes_Ciclo_21_-_Correos"
+              "title": "Outgoing links from Rename Patients table"
             }
           },
           {
@@ -170,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_21_-_Correos"
+              "title": "Outline of Rename Patients table"
             }
           }
         ],
@@ -191,16 +177,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09c377518198a362",
+  "active": "fe5ca69ed49fb157",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
+    "Untitled.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Luna/Backend/attachments/01.lr.example.source.png",
@@ -224,8 +212,6 @@
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments/schema.no.precision.in.timestamps.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "DevAsPros/SuperAgenda",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
