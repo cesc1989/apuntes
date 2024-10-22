@@ -35,6 +35,8 @@ Habrá error porque ese método devuelve un Hash con acceso indeferente. Toca us
 
 # Crear tabla en migración solo si no existe
 
+#rails_migrations #if_not_exists
+
 En SQL existe la sentencia `if not exists` para crear tablas si estas no existen en la base de datos. En rails también tenemos eso al crear tablas en migraciones.
 
 Me pasó en Provider Portal que en alpha había unas tablas que no había ni en Omega ni en local. La forma correcta de proceder en este caso al crear la migración era hacerlas con algo como ese `if not exists`.

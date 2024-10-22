@@ -26,7 +26,7 @@ Lo descrito a continuación aplica a bases de datos PostgreSQL, generalmente.
 - Todas las columnas deben ser nuleables
 	- Excepto la llave primaria
 - Todas las llaves foráneas deben ser agregadas
-- Todos los índices en S no deben existir en T
+- Los índices en S *no deben existir en T*
 	- Excepción de la llave primaria
 	- Los índices se pueden recrear después que se configuré LR
 

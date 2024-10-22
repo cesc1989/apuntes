@@ -24,17 +24,31 @@
             }
           },
           {
-            "id": "fe5ca69ed49fb157",
+            "id": "e53eba5cc79385f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
+                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Rename Patients table"
+              "title": "Apuntes_Rails_-_Parte_2"
+            }
+          },
+          {
+            "id": "d04c69c4a06669b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Notas sobre Logical Replication.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Notas sobre Logical Replication"
             }
           }
         ],
@@ -69,10 +83,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lsp",
-                "matchingCase": false,
+                "query": "if _not_exist",
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
               },
@@ -110,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
+                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rename Patients table"
+              "title": "Backlinks for Apuntes_Rails_-_Parte_2"
             }
           },
           {
@@ -129,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
+                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rename Patients table"
+              "title": "Outgoing links from Apuntes_Rails_-_Parte_2"
             }
           },
           {
@@ -156,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md"
+                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Rename Patients table"
+              "title": "Outline of Apuntes_Rails_-_Parte_2"
             }
           }
         ],
@@ -177,11 +191,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe5ca69ed49fb157",
+  "active": "e53eba5cc79385f8",
   "lastOpenFiles": [
+    "Luna/Backend/Notas sobre Logical Replication.md",
+    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Untitled.md",
@@ -189,7 +205,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Luna/Backend/attachments/01.lr.example.source.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
@@ -211,7 +226,6 @@
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Plan de QA.md",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments/schema.no.precision.in.timestamps.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "DevAsPros/SuperAgenda",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
