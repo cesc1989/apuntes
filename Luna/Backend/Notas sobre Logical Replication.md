@@ -50,4 +50,11 @@ Grimoire - Target table
 - Todos los nombres coinciden: tabla, campos, tipos de datos
 - Orden de las columnas coincide. Esto es un plus.
 
+> [!Important]
+> Las llaves foráneas en T deben llevar la restricción `ON DELETE SET NULL`
+> 
+> En migraciones de llave foránea en Rails se setea así:
+> 
+> `add_foreign_key "lessons", "students", on_delete: :nullify`
+
 Etiquetas: #logical_replication

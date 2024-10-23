@@ -20,3 +20,34 @@ En el proyecto patient forms backend, el estado actual de la tabla forms se logr
 > Y esta es la primera migración que escribí yo para Luna
 > 
 > `db/migrate/20190520192548_add_persist_draft_until_to_form.rb`
+
+## Extra
+
+Migraciones variadas en Rails.
+
+Para agregar llave foránea:
+```ruby
+add_foreign_key :forms, :form_types
+```
+
+Para agregar llave foránea con columna diferente:
+```ruby
+add_foreign_key :forms, :psr_patients, column: :patient_id
+```
+
+Llave foránea con restricciones:
+```ruby
+add_foreign_key :forms, :form_types, column: :form_type_id, on_delete: :nullify
+```
+
+Para quitar llave foránea:
+```ruby
+remove_foreign_key :forms, :form_types
+```
+
+Enlaces:
+
+- [add_foreign_key](https://apidock.com/rails/ActiveRecord/ConnectionAdapters/SchemaStatements/add_foreign_key)
+- [remove_foreign_key](https://apidock.com/rails/v7.1.3.2/ActiveRecord/ConnectionAdapters/SchemaStatements/remove_foreign_key)
+
+Etiquetas: #rails_migrations 
