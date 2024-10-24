@@ -1,4 +1,6 @@
-# Navegando creación de intake_form
+# Navegando creación de Intake Form
+
+Relacionado: [[Intake_Form_and_Progress_Form_creation_flow]]
 
 No me queda claro si todo se crea a partir de la tarea programada en `rq_scheduler.py`
 ```python
