@@ -1,6 +1,6 @@
 # Upgrade a Rails 7.0.8.4
 
-## Error de OpenStruct por WickedPDF
+## Error de OpenStruct por WickedPDF ✅
 
 Este error cuando corría las pruebas:
 ```bash
