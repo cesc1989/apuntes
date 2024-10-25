@@ -1,6 +1,6 @@
 # Rename Patients table to psr_patients
 
-I'm putting this doc to leave record of how awesome Rails is. I was preparing myself to write several migrations to update indexes and foreign keys after renaming the table but turns out Rails understands it all and did all those changes for me.
+I'm putting this doc to leave record of how awesome Rails is. I was preparing myself to write several migrations to update indexes and foreign keys after renaming the table but **turns out Rails understands it all and did all those changes for me**.
 
 Evidence:
 ```bash

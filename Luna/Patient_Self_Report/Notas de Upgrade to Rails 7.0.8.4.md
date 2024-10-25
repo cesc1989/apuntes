@@ -1,4 +1,4 @@
-# Upgrade a Rails 7.0.8.4
+# Notas de Upgrade a Rails 7.0.8.4
 
 ## Error de OpenStruct por WickedPDF ✅
 
