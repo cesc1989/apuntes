@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Installing WKHTMLTOPDF in Edge"
+              "title": "Buscando un Lector de Artículos"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md"
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Installing WKHTMLTOPDF in Edge"
+              "title": "Outline of Buscando un Lector de Artículos"
             }
           }
         ],
@@ -179,8 +179,12 @@
   },
   "active": "42614475b7ae7717",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.pikapod.png",
+    "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.code.highlight.png",
+    "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
     "Luna/Patient_Self_Report/Notas de Upgrade to Rails 7.0.8.4.md",
@@ -204,8 +208,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Untitled.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Luna/Backend/attachments/01.lr.example.source.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
@@ -221,10 +223,8 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
     "Luna/Marketplace/MPF",
-    "Luna/Marketplace/Visit Plans",
     "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
     "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
-    "Luna/Marketplace/attachments/visitplan.flow.2.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
