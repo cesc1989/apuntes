@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Buscando un Lector de Artículos"
+              "title": "Buscando un Lector de Artículos (Read it Later)"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos.md"
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Buscando un Lector de Artículos"
+              "title": "Outline of Buscando un Lector de Artículos (Read it Later)"
             }
           }
         ],
@@ -179,11 +179,14 @@
   },
   "active": "42614475b7ae7717",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
+    "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
+    "Otro_Espacio/Todo_Software/Self Hosting/attachments/21.wallabag.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.pikapod.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.code.highlight.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
-    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
@@ -218,13 +221,10 @@
     "DevAsPros/SuperAgenda",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
     "Luna/Marketplace/MPF",
-    "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
-    "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
