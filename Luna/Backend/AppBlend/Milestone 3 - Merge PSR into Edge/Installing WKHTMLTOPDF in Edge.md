@@ -108,9 +108,26 @@ It's the same as in PSR.
 
 ## Continue Fonts installation
 
-So, let's try installing the list used in Patient Self Report.
-
-
+So, let's try installing the combined list of `-dev` and runtime deps used in Patient Self Report:
+```bash
+RUN set -ex \
+    && apk add --no-cache \
+		wkhtmltopdf \
+		fontconfig-dev \
+		freetype-dev \
+		libx11-dev \
+		libxext-dev \
+		libxrender-dev \
+		libxrender \
+		libxext \
+		gcompat \
+		fontconfig \
+		freetype \
+		ttf-dejavu \
+		ttf-droid \
+		ttf-freefont \
+		ttf-liberation \
+```
 
 ---
 
