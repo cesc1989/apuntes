@@ -24,35 +24,21 @@
             }
           },
           {
-            "id": "b6363ab92242f2a0",
+            "id": "202c05e58d4c4936",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_de_Docker_-_Parte_1"
-            }
-          },
-          {
-            "id": "25b70f3f0b44276a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Installing WKHTMLTOPDF in Edge"
+              "title": "Buscando un Lector de Artículos (Read it Later)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md"
+                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Installing WKHTMLTOPDF in Edge"
+              "title": "Outline of Buscando un Lector de Artículos (Read it Later)"
             }
           }
         ],
@@ -191,12 +177,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25b70f3f0b44276a",
+  "active": "202c05e58d4c4936",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
-    "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "README.md",
+    "Luna/Patient_Self_Report/Notas de Upgrade to Rails 7.0.8.4.md",
+    "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
@@ -207,7 +196,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
-    "Luna/Patient_Self_Report/Notas de Upgrade to Rails 7.0.8.4.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Luna/Backend/⚠️ Image Magick and Alpine ⚠️.md",
@@ -224,8 +212,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Untitled.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Luna/Backend/attachments/01.lr.example.source.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
