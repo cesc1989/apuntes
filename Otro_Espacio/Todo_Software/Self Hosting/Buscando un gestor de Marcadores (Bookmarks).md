@@ -2,6 +2,12 @@
 
 ## Conclusiones
 
+> [!info]
+> Creo que seguiré usando Raindrop. Si no aparece nada que cumpla las características, me haré con una cuenta si es el caso.
+
+Dado que Linkding no tiene soporte de carpetas/sub carpetas, ==es un no==. Su UI es muy bonita y simple pero tengo demasiados marcadores agrupados en diferentes carpetas. Las etiquetas no servirán para eso.
+
+Por su parte, Linkwarden sí tiene carpetas anidadas pero el export lo hace a JSON (no me gusta nada eso) y hay que pagar lo mismo que pagaría por Raindrop. ==No me veo usando Linkwarden==.
 
 
 # Las Alternativas
@@ -27,8 +33,9 @@ La oferta de Raindrop está muy bien pero **no es lo que yo busco en este tipo d
 
 Creo que en este orden busco:
 
-1. Guardar enlaces: solo necesito el mínimo de información como título, url, etiquetas.
-2. Organizar marcadores en carpetas: que se puedan anidar en varios niveles.
+1. **Guardar solo enlaces**: solo necesito el mínimo de información como título, url, etiquetas.
+2. **Organizar marcadores en carpetas**: que se puedan anidar en varios niveles.
+3. **Que exporte a HTML Netscape**: el export total debe ser en un archivo HTML Netscape. Nada de JSON o CSV.
 
 Lo demás es añadidura. Creo que de los plus el más deseable es la posibilidad de archivar el contenido del sitio web enlazado. Pasa mucho que tengo marcadores viejisimos y cuando los voy a abrir el sitio ya murió y con él la información.
 
