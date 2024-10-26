@@ -72,5 +72,5 @@ Este sí tiene carpetas anidadas pero la UI me parece más cargada que en Linkdi
 > [!warning]
 > El export total de datos lo hace en un archivo JSON.
 > Esto no es muy deseable. Hay una [petición en los issues](https://github.com/linkwarden/linkwarden/issues/587) pero a la fecha (Oct. 2024) no hay implementación.
-> .
+>
 > Como workaround, un usuario creó un [script para convertir](https://gist.github.com/arnavpraneet/9798d6f2d33913a544dddbbc90f3df2e) el JSON a HTML Netscape.
