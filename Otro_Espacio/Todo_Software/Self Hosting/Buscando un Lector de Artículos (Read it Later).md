@@ -1,5 +1,18 @@
 # Buscando un Lector de Artículos (Read it Later)
 
+## Conclusiones
+
+No estoy del todo convencido en pasarme a Readeck o a Wallabag por las limitaciones para resaltar en móvil. Sin embargo, en Omnivore el resalto en móvil también funciona algo chueco a veces.
+
+Muchas veces me encuentro leyendo en el móvil porque es una forma de pasar el tiempo antes de dormir o cuando estoy haciendo nada.
+
+Las versiones de escritorio funcionan muy bien pero normalmente cuando estoy en el computador no leo muchos artículos. Lo hago más bien esporádicamente.
+
+> [!note]
+> Así que bien creo que seguiré probando todas las opciones.
+
+# Las Alternativas
+
 Antes para leer artículos al estilo _Read it Later_ usaba Pocket. Hoy en día, uso más Omnivore. ¿Por qué? Los resaltos y las anotaciones. En Pocket hay que pagar y me parece muy caro para la forma en que funciona (es un poco torpe en ocasiones). Por su parte Omnivore funciona mucho mejor pero de vez en cuando (porque está en desarrollo) también funciona de manera incorrecta.
 
 Ahora que ando en el mundo del self hosting, veo que hay varias alternativas. He probado [Readeck](https://readeck.org/en/) y [Wallabag](https://wallabag.org/). A continuación, mis comentarios sobre ambos servicios para que no se me olvide esta experiencia y también para decidirme por cual seguir usando.
@@ -74,13 +87,3 @@ Las anotaciones en la web funcionan como anotación + resalto. Se pueden crear a
 > Las discusiones más recientes sobre Anotaciones son de hace varios años ([2019](https://github.com/wallabag/wallabag/issues/3839) y [2021](https://github.com/wallabag/wallabag/issues/5484)) y parece que el sistema actual es el que será por mucho.
 
 En en el navegador Firefox en móvil funciona con truco como expliqué en el warning arriba en este documento..
-
-# Conclusiones
-
-No estoy del todo convencido en pasarme a Readeck o a Wallabag por las limitaciones para resaltar en móvil. Sin embargo, en Omnivore el resalto en móvil también funciona algo chueco a veces.
-
-Muchas veces me encuentro leyendo en el móvil porque es una forma de pasar el tiempo antes de dormir o cuando estoy haciendo nada.
-
-Las versiones de escritorio funcionan muy bien pero normalmente cuando estoy en el computador no leo muchos artículos. Lo hago más bien esporádicamente.
-
-Así que bien creo que seguiré probando todas las opciones.
