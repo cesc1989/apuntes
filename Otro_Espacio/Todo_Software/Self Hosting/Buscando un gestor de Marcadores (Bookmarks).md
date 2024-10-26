@@ -39,8 +39,9 @@ Poder archivar ese contenido sería invaluable para mí.
 
 ## ¿Qué alternativas he encontrado?
 
-- Linkwarden -> https://github.com/linkwarden/linkwarden
-- Linkding -> https://linkding.link/
+- [Linkwarden](https://github.com/linkwarden/linkwarden)
+- [Linkding](https://linkding.link/)
+
 
 
 # Linkding
@@ -58,3 +59,11 @@ Linkding lo puedo probar y usar en Pikapods. Sin embargo, hay una pega, Linkding
 Así que si quiero usar este programa tendría que encontrar la forma de organizar usando las etíquetas.
 
 # Linkwarden
+
+> [!info]
+> Sitio web: https://linkwarden.app/
+> Escrito en TypeScript (NextJS + Tailwind). Repo -> https://github.com/linkwarden/linkwarden
+
+Linkwarden también es self hosted pero no hay oferta de este programa en Pikapods. Si quiero usarlo me toca es la prueba de 14 días.
+
+De resto, la oferta es ecónomica: 150K COP al año su servicio en la nube. El cual me parece bien si quisiera usarlo.
