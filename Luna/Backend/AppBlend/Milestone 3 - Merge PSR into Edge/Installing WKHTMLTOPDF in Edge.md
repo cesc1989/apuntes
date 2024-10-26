@@ -129,6 +129,43 @@ RUN set -ex \
 		ttf-liberation \
 ```
 
+Still returns an error:
+```
+/usr/src/app # wkhtmltopdf http://google.com google.pdf
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Loading page (1/2)
+Error compiling builtin:                                     ] 30%
+Fatal error compiling builtin function 'apply': Segmentation fault (core dumped)
+/usr/src/app # exit
+```
+
+> [!important]
+> this same error is returned in alpha pods for Patient Self Report and Therapist Signup.
+
+PSR:
+```
+$ alpha_service_pod forms 5d869bbbbf-bz6jp
+/usr/src/app # wkhtmltopdf http://google.com google.pdf
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Loading page (1/2)
+Error compiling builtin:                                     ] 30%
+Fatal error compiling builtin function 'apply': Segmentation fault (core dumped)
+/usr/src/app # which wkhtmltopdf
+/usr/bin/wkhtmltopdf
+```
+
+TS:
+```
+$ alpha_service_pod therapists 797d8d5fdb-42mkr
+/usr/src/app # /usr/bin/wkhtmltopdf --version
+wkhtmltopdf 0.12.6
+/usr/src/app # /usr/bin/wkhtmltopdf http://google.com google.pdf
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Loading page (1/2)
+Error compiling builtin:                                     ] 30%
+Fatal error compiling builtin function 'apply': Segmentation fault (core dumped)
+```
+
 ---
 
 Etiquetas: #wkhtmltopdf #alpine
