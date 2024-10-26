@@ -68,6 +68,20 @@ ttf-freefont
 ttf-liberation
 ```
 
+And these are the `-dev` version deps:
+```
+git libxml2-dev libxslt-dev fontconfig-dev freetype-dev libx11-dev libxext-dev libxrender-dev
+```
+
+Where the wkhtmltopdf should be
+```bash
+fontconfig-dev # matching fontconfig
+freetype-dev   # matching freetype
+libx11-dev     # matching  ???
+libxext-dev    # matching libxext
+libxrender-dev # matching libxrender
+```
+
 For Docker image ruby:3.0.2-alpine3.14
 
 This is the list of deps used to install wkhtmltopdf in Therapist Signup:
@@ -85,4 +99,19 @@ ttf-liberation
 ttf-ubuntu-font-family
 ```
 
+and this is the `-dev` list used in Therapist Signup:
+```
+git libxml2-dev libxslt-dev fontconfig-dev freetype-dev libx11-dev libxext-dev libxrender-dev
+```
+
+It's the same as in PSR.
+
+## Continue Fonts installation
+
 So, let's try installing the list used in Patient Self Report.
+
+
+
+---
+
+Etiquetas: #wkhtmltopdf #alpine
