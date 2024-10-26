@@ -64,6 +64,13 @@ Así que si quiero usar este programa tendría que encontrar la forma de organiz
 > Sitio web: https://linkwarden.app/
 > Escrito en TypeScript (NextJS + Tailwind). Repo -> https://github.com/linkwarden/linkwarden
 
-Linkwarden también es self hosted pero no hay oferta de este programa en Pikapods. Si quiero usarlo me toca es la prueba de 14 días.
+> [!note]
+> Linkwarden también es self hosted pero no hay oferta de este programa en Pikapods. Si quiero usarlo me toca en su nube que ofrece prueba de 14 días y luego son 150K/año.
 
-De resto, la oferta es ecónomica: 150K COP al año su servicio en la nube. El cual me parece bien si quisiera usarlo.
+Este sí tiene carpetas anidadas pero la UI me parece más cargada que en Linkding. De resto, bien. Pude importar los marcadores del export que generó Raindop (o sea que hay buena compatibilidad entre servicios).
+
+> [!warning]
+> El export total de datos lo hace en un archivo JSON.
+> Esto no es muy deseable. Hay una [petición en los issues](https://github.com/linkwarden/linkwarden/issues/587) pero a la fecha (Oct. 2024) no hay implementación.
+> .
+> Como workaround, un usuario creó un [script para convertir](https://gist.github.com/arnavpraneet/9798d6f2d33913a544dddbbc90f3df2e) el JSON a HTML Netscape.
