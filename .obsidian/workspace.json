@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -193,8 +193,9 @@
   },
   "active": "84cf11742af1161c",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
@@ -207,7 +208,6 @@
     "README.md",
     "Luna/Patient_Self_Report/Notas de Upgrade to Rails 7.0.8.4.md",
     "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
