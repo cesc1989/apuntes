@@ -86,3 +86,14 @@ end
 Visto en este sitio -> https://ploegert.gitbook.io/til/programmy/rails/find-or-create-a-record-with-factory-bot
 
 Documentación sobre este callback -> https://thoughtbot.github.io/factory_bot/ref/build-and-create.html#initialize_with
+
+## Generar ID de llave primaria manualmente
+
+Continuando el caso anterior, resulta que al crear el `patient_form_detail` hay que ponerle su ID de forma manual así:
+```ruby
+manual_id = SecureRandom.random_number(1 << 63)
+create_patient_form_detail(id: manual_id, internal_id: internal_id)
+```
+
+> [!warning]
+> **Pregunta**: ¿El método de asociación no agrega el ID?
