@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "d1d9fe2a9ca89821",
+            "id": "a0c91db26d572b14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade"
+              "title": "003 - Rutas y Namespaces"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade"
+              "title": "Outline of 003 - Rutas y Namespaces"
             }
           }
         ],
@@ -177,12 +177,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1d9fe2a9ca89821",
+  "active": "a0c91db26d572b14",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/51.linkding.ui.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/50.raindrop.bookmarks.and.annotations.png",
@@ -213,7 +214,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
     "conflict-files-obsidian-git.md",
     "Otro_Espacio/Todo_Software/Self Hosting",
-    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Luna/Backend/attachments/01.lr.example.source.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
