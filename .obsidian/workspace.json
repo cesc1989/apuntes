@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "b7027c7bc49ee718",
+            "id": "e3935a0ee2604cd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
+                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Buscando un gestor de Marcadores (Bookmarks)"
+              "title": "Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wkhtmltopdf",
+                "query": "ruby install m1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md"
+                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Buscando un gestor de Marcadores (Bookmarks)"
+              "title": "Outline of Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade"
             }
           }
         ],
@@ -177,14 +177,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7027c7bc49ee718",
+  "active": "e3935a0ee2604cd0",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/51.linkding.ui.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/50.raindrop.bookmarks.and.annotations.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "README.md",
     "Luna/Patient_Self_Report/Notas de Upgrade to Rails 7.0.8.4.md",
     "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
@@ -212,7 +214,6 @@
     "conflict-files-obsidian-git.md",
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Luna/Backend/attachments/01.lr.example.source.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
