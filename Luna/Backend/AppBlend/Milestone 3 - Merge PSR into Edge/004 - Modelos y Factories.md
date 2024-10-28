@@ -63,3 +63,25 @@ Pero esto a su vez genera problemas al intentar correr múltiples pruebas si no 
 
 > [!Note]
 > En Grimoire pasa igual. La tabla clinic_payer [no tiene secuencia](https://github.com/lunacare/grimoire/blob/omega/priv/repo/migrations/20240120105000_unpk_clinic_payers.exs#L90) en el ID.
+
+La solución es una mezcla de definir el `id` en una secuencia y usar el callback `initialize_with`.
+
+Ejemplo para `OptionChoice`:
+```ruby
+# frozen_string_literal: true
+
+FactoryBot.define do
+  factory :option_choice, class: "PatientSelfReport::OptionChoice" do
+    question
+
+    sequence(:id) { |n| n }
+    sequence(:label) { |n| "Mild #{n}" }
+    value { 2 }
+
+    initialize_with { PatientSelfReport::OptionChoice.find_or_create_by(id: id) }
+  end
+end
+```
+
+Visto en este sitio -> https://ploegert.gitbook.io/til/programmy/rails/find-or-create-a-record-with-factory-bot
+
