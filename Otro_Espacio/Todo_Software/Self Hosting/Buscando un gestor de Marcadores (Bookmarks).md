@@ -2,7 +2,7 @@
 
 ## Conclusiones
 
-> [!info]
+> [!Important]
 > Creo que seguiré usando Raindrop. Si no aparece nada que cumpla las características, me haré con una cuenta si es el caso.
 
 Dado que Linkding no tiene soporte de carpetas/sub carpetas, ==es un no==. Su UI es muy bonita y simple pero tengo demasiados marcadores agrupados en diferentes carpetas. Las etiquetas no servirán para eso.
@@ -41,7 +41,7 @@ Lo demás es añadidura. Creo que de los plus el más deseable es la posibilidad
 
 Poder archivar ese contenido sería invaluable para mí.
 
-> [!info]
+> [!Important]
 > Archivar es una característica de Raindrop en su versión Pro.
 
 ## ¿Qué alternativas he encontrado?
@@ -53,7 +53,7 @@ Poder archivar ese contenido sería invaluable para mí.
 
 # Linkding
 
-> [!info]
+> [!Note]
 > Sitio web: https://linkding.link/
 > Escrito en Python (Django + Svelte para la UI). Repo -> https://github.com/sissbruecker/linkding
 
@@ -67,11 +67,11 @@ Así que si quiero usar este programa tendría que encontrar la forma de organiz
 
 # Linkwarden
 
-> [!info]
+> [!Note]
 > Sitio web: https://linkwarden.app/
 > Escrito en TypeScript (NextJS + Tailwind). Repo -> https://github.com/linkwarden/linkwarden
 
-> [!note]
+> [!Important]
 > Linkwarden también es self hosted pero no hay oferta de este programa en Pikapods. Si quiero usarlo me toca en su nube que ofrece prueba de 14 días y luego son 150K/año.
 
 Este sí tiene carpetas anidadas pero la UI me parece más cargada que en Linkding. De resto, bien. Pude importar los marcadores del export que generó Raindop (o sea que hay buena compatibilidad entre servicios).
