@@ -26,7 +26,7 @@ Ahora que ando en el mundo del self hosting, veo que hay varias alternativas. He
 > 
 > En Readeck, en móvil no se puede resaltar a menos qué se cambie a "Modo escritorio" y luego volver a cambiar a web móvil. Ahí funciona el resaltar pero una vez recargue la página o abra una nueva pestaña deja de funcionar.
 
-> [!info]
+> [!important]
 > Ambos programas los probé usando Pikapods.
 
 > [!important]
@@ -34,7 +34,7 @@ Ahora que ando en el mundo del self hosting, veo que hay varias alternativas. He
 
 # Readeck
 
-> [!info]
+> [!note]
 > Sitio web: https://readeck.org/en/
 > Escrita en Go (Stimulus + Turbo para la UI). Repo -> https://codeberg.org/readeck/readeck
 
@@ -64,7 +64,7 @@ También tiene algo bacano que es un menú de enlaces externos. Estos son todos 
 
 # Wallabag
 
-> [!info]
+> [!note]
 > Escrita en PHP (Symfony). Repo -> https://github.com/wallabag/wallabag
 
 La UI me parece bastante simple, sin embargo, el lector de artículos es muchísimo mejor que en otras alternativas que he probado en cuanto a mostrar código.
