@@ -1,6 +1,6 @@
 # Apuntes Ciclo 16: Upgrades de Ruby y de Rails
 
-## Error de openssl
+# Error de openssl
 
 Si intento instalar ruby 3.2.0 o 3.2.5:
 ```
@@ -23,7 +23,7 @@ Finalmente, la solución a este lío fue actualizar `ruby-install` con brew:
 brew upgrade ruby-install
 ```
 
-### ¿Cómo listar paquetes instalados con Homebrew?
+# ¿Cómo listar paquetes instalados con Homebrew?
 
 Con el comando `brew list` o `brew list --cask`.
 
@@ -51,3 +51,21 @@ chruby			ghostscript		icu4c			libb2			libpq			libxslt			nss			pixman			re2			uri
 ==> Casks
 libreoffice	ngrok		wkhtmltopdf
 ```
+
+# Instalar ruby-install como root y como usuario
+
+En Cash Cloud, configuré el script para que instale ruby-install [como root](https://github.com/devaspros/cashflow_cloud/blob/main/scripts/001_install_deps.sh#L46-L50). En ese caso, la versión de Ruby instalada queda en la ubicación `/opt/rubies`:
+
+```bash
+which ruby
+/opt/rubies/ruby-3.1.0/bin/ruby
+```
+
+Sin embargo, la versión que instalé como usuario de sistema (`ubuntu`) quedó instalada en otra ubicación:
+```bash
+ubuntu@localhost:~$ chruby 3.2.5
+ubuntu@localhost:~$ which ruby
+/home/ubuntu/.rubies/ruby-3.2.5/bin/ruby
+```
+
+Para tener en cuenta.
