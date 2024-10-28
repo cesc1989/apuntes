@@ -54,6 +54,11 @@ libreoffice	ngrok		wkhtmltopdf
 
 # Instalar ruby-install como root y como usuario
 
+> [!Info]
+> La documentación de ruby-install es clara sobre esto:
+>
+> *Supports installing into `/opt/rubies/` for root and `~/.rubies/` for users by default.*
+
 En Cash Cloud, configuré el script para que instale ruby-install [como root](https://github.com/devaspros/cashflow_cloud/blob/main/scripts/001_install_deps.sh#L46-L50). En ese caso, la versión de Ruby instalada queda en la ubicación `/opt/rubies`:
 
 ```bash
