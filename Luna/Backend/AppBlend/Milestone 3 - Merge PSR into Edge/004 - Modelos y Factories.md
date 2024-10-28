@@ -85,3 +85,4 @@ end
 
 Visto en este sitio -> https://ploegert.gitbook.io/til/programmy/rails/find-or-create-a-record-with-factory-bot
 
+Documentación sobre este callback -> https://thoughtbot.github.io/factory_bot/ref/build-and-create.html#initialize_with
