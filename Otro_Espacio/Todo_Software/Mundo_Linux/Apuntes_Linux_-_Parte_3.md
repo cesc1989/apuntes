@@ -7,6 +7,7 @@
 Recursos:
 
 - [How can I find all files containing a specific text (string) on Linux?](https://stackoverflow.com/questions/16956810/how-can-i-find-all-files-containing-a-specific-text-string-on-linux)
+
 ## Solución: usando grep
 
 Así explican en esta respuesta
@@ -38,7 +39,6 @@ For directories it's possible to exclude one or more directories using the `--ex
 ## Solución mega bacana: instala The Silver Searcher
 
 The Silver Searcher https://github.com/ggreer/the_silver_searcher
-
 
 > A code searching tool similar to `ack`, with a focus on speed.
 
@@ -89,8 +89,7 @@ lib/tasks/005_create_pdf_packets.rake
 
 Y cómo el texto no le hace justicia, una captura:
 
-![](https://paper-attachments.dropboxusercontent.com/s_47EC6AA6B80BBC219CDA2D94AF7673323A6B07A2CA20F1784E7CD8ABD5C41B94_1698421265077_imagen.png)
-
+![[silver.searcher.png]]
 
 Está buenísimo.
 
@@ -126,3 +125,10 @@ Bacano que se haya puesto a probar Linux. Debido a que se puso en esas supe de l
 - [zoxide](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file): alternativa moderna de `cd`
 
 Hay que revisarlas y probarlas.
+
+# Cómo copiar carpeta desde terminal
+
+El comando `cp` solo no puede copiar la carpeta contenedora. Hay que usar `cp -r`. Ejemplo:
+```bash
+cp -r ../patient-forms-backend/spec/forms ./spec/forms/patient_self_report/
+```

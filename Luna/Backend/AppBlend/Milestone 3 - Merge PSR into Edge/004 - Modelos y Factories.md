@@ -97,3 +97,110 @@ create_patient_form_detail(id: manual_id, internal_id: internal_id)
 
 > [!warning]
 > **Pregunta**: ¿El método de asociación no agrega el ID?
+
+# Configurando Recursos Nested por la limitante de Logical Replication
+
+> [!important]
+> Este problema también se da por la falta de la secuencia en la llave primaria debido a que se quitó para poder configurar la Logical Replication.
+
+Ha habido dos casos y creo que serán cada vez más frecuentes.
+
+## En PatientForm
+
+Así está originalmente este código para configurar un form nuevo a crear junto con un nuevo paciente:
+```ruby
+  def setup_form_attrs
+    return if @forms_attributes.blank?
+
+    attrs = @forms_attributes&.first&.merge!(progress_type: Form::ONBOARDING_PROGRESS)
+    @patient.forms.clear if @patient.new_record?
+    @patient.forms_attributes = [attrs]
+  end
+```
+
+Es sencillo. Se asigna un array de atributos de uno o más `Form` al método `forms_attributes`.
+
+Sin embargo, con el problema de que no hay secuencia y toca controlar la creación de los IDs, tocó cambiarlo así:
+```ruby
+    def setup_form_attrs
+      return if @forms_attributes.blank?
+
+      @patient.forms.clear if @patient.new_record?
+
+      # This way diverts from the original approach because otherwise would think the assignment is to update the form.
+      # What we need is to build new records.
+      @forms_attributes.each do |form_attrs|
+        manual_id = SecureRandom.random_number(1 << 63)
+        form_attrs.merge!(id: manual_id, patient_id: @patient_id, progress_type: PatientSelfReport::Form::ONBOARDING_PROGRESS)
+
+        @patient.forms.build(form_attrs)
+      end
+    end
+```
+
+Y toca así porque mediante `@patient.forms.build` es la forma en que logramos decirle a Rails que el registro es nuevo. De lo contrario (usando `forms_attributes`) si hay algún ID, Rails creerá que se trata de una operación `update`.
+
+En el caso de la operación Update tiraría el error de que no puede encontrar un registro para otro registro.
+
+Este es un ejemplo para otro caso similar:
+```bash
+Failure/Error: @intake_form.medications_attributes = prepare_medications_attributes
+
+     ActiveRecord::RecordNotFound:
+       Couldn't find PatientSelfReport::Medication with ID=1 for PatientSelfReport::IntakeForm with ID=5085303943573520300
+```
+
+## En IntakeFormBuilder
+
+En esta clase, también hay creación anidada de recursos. Para el caso de medications la cosa luce así originalmente:
+```ruby
+def build
+	@intake_form.attributes = prepare_intake_attributes
+	@intake_form.medications_attributes = prepare_medications_attributes
+	@intake_form.surgeries_attributes = prepare_surgeries_attributes
+	@intake_form
+end
+
+private
+
+def prepare_medications_attributes
+	return [] unless @medications
+
+	meds = @medications.map do |med|
+		next if med[:name].nil?
+
+		med
+	end
+
+	meds.compact
+end
+```
+
+Pero ahora en Edge tocó cambiarlo así:
+```ruby
+def build
+	@intake_form_id = SecureRandom.random_number(1 << 63)
+	@intake_form.attributes = prepare_intake_attributes.merge(id: @intake_form_id)
+	prepare_medications_attributes
+	@intake_form.surgeries_attributes = prepare_surgeries_attributes
+
+	@intake_form
+end
+
+private
+
+def prepare_medications_attributes
+	return [] unless @medications
+
+	meds = @medications.map do |med|
+		next if med[:name].nil?
+
+		manual_id = SecureRandom.random_number(1 << 63)
+		med.merge(id: manual_id)
+	end
+
+	@intake_form.medications.build(meds.compact)
+end
+```
+
+Por los mismos motivos que en el caso de `PatientForm`. Rails creerá que se trata de un update si no se asigna mediante el método de asociación `@intake_form.medications.build`.
