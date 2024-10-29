@@ -54,7 +54,6 @@ The explanation to why this happens is in [this Discuss post](https://discuss.ru
 
 The summary is that the second option above is insecure and the first one is the way to go.
 
-
 ## Gem devise_token_auth mismatch ✅
 
 Current version 1.2.0 supports rails version until 6.2.0
@@ -193,8 +192,6 @@ Jul  9 17:55 active_record-postgres-constraints-ff0622005ad4
 
 Bundler docs about git as source -> https://bundler.io/guides/git.html
 
-
-
 # Rails::Engine is abstract, you cannot instantiate it directly. (RuntimeError) - Rails 7.0.0 Error ✅
 
 Got this error when building the release image in the CI:
@@ -257,7 +254,6 @@ NoMethodError: undefined method `use_yaml_unsafe_load=' for ActiveRecord::Base:C
 Tasks: TOP => active_storage:update => environment
 (See full trace by running task with --trace)
 ```
-
 
 # Error with class being loaded in config/database.yml ✅
 
@@ -766,8 +762,9 @@ end
 The guides make it clear that:
 > Reloadable classes and modules can be autoloaded in `after_initialize` blocks too. These run on boot, *but do not run again on reload*.
 
-
 ## Commands to check everything is in order
+
+Tags: #zeitwerk_commands
 
 ```bash
 bundle exec rails runner 'p Rails.autoloaders.zeitwerk_enabled?'
