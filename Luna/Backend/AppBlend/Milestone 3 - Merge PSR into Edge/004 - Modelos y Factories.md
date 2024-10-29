@@ -105,6 +105,9 @@ create_patient_form_detail(id: manual_id, internal_id: internal_id)
 
 Ha habido dos casos y creo que serán cada vez más frecuentes.
 
+> [!note]
+> Se pudo mejorar le manejo de esto, de manera global, usando un Concern que genere el ID de los modelos. Más abajo la implementación.
+
 ## En PatientForm
 
 Así está originalmente este código para configurar un form nuevo a crear junto con un nuevo paciente:
@@ -204,3 +207,32 @@ end
 ```
 
 Por los mismos motivos que en el caso de `PatientForm`. Rails creerá que se trata de un update si no se asigna mediante el método de asociación `@intake_form.medications.build`.
+
+# Concern para generar el primary key de los modelos 🎉
+
+Por recomendación de Alexis, configuré un concern que se encarga de asignar el ID a los modelos de Patient Self Report:
+```ruby
+# frozen_string_literal: true
+
+# PatientSelfReport tables were all LRed without the default value for the
+# primery key. Generate one while LR is enabled or else we'd get not-null constraint errors.
+module PatientSelfReportPrimaryKey
+  extend ActiveSupport::Concern
+
+  included do
+    before_create :generate_unique_bigint_id
+  end
+
+  private
+
+  def generate_unique_bigint_id
+    return if self.id.present?
+
+    begin
+      self.id = SecureRandom.random_number(1 << 63)
+    end while self.class.exists?(id: self.id)
+  end
+end
+```
+
+De esta forma me ahorro tener que andar haciendo tantos cambios y generar el ID para cada registro en cada parte.
