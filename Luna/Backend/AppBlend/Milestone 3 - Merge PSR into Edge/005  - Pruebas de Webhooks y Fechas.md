@@ -113,3 +113,71 @@ Y se fueron los mensajes de depreciación.
 
 > [!important]
 > Esto funciona pero tengo que probarlo con todas las pruebas en general y el sistema en general.
+
+
+# Fecha fijada en Octubre 2018 causa problemas con fecha alterando el orden de los registros
+
+Esta configuración en `rails_helper`:
+```ruby
+Rails.application.config.time_zone = "Pacific Time (US & Canada)"
+Timecop.freeze(DateTime.parse("2018-10-14T11:00:00 +0000"))
+```
+
+Hace que todas las fechas queden en ese día con la misma hora, minutos y segundos.
+
+Esto hace que el orden por `created_at` quede anulado.
+
+## Ejemplos
+
+En la prueba para `api/v2/form_status/form_status_is_urgent_spec.rb` así se veían las fechas a comparar:
+```ruby
+(byebug) DateTime.parse(next_appt)
+Mon, 15 Oct 2018 00:00:00 +0000
+
+(byebug) acceptable_remaining_time_minutes.from_now
+Mon, 15 Oct 2018 11:00:00.000000000 UTC +00:00
+```
+
+Entonces la prueba fallaba. Para poder arreglarlo tocó agregarle horas a una de las fechas:
+```ruby
+let(:next_appointment) { Time.zone.today + 72.hours }
+```
+
+También pasaba en `api/v3/forms/aggravating_activities_spec.rb`. Aquí, en la prueba `it "lists all three aggravating_activities"` contaba con traer las aggravating activities en orden de creación pero no pasa porque todas tienen la misma fecha y hora:
+```ruby
+[
+    [0] #<PatientSelfReport::AggravatingActivity:0x0000000114858990> {
+                :id => 1,
+           :form_id => 1,
+              :name => "Activity1",
+        :created_at => Sun, 14 Oct 2018 11:00:00.000000000 UTC +00:00,
+        :updated_at => Sun, 14 Oct 2018 11:00:00.000000000 UTC +00:00,
+    },
+    [1] #<PatientSelfReport::AggravatingActivity:0x0000000114853af8> {
+                :id => 2,
+           :form_id => 1,
+              :name => "Activity2",
+        :created_at => Sun, 14 Oct 2018 11:00:00.000000000 UTC +00:00,
+        :updated_at => Sun, 14 Oct 2018 11:00:00.000000000 UTC +00:00,
+    },
+    [2] #<PatientSelfReport::AggravatingActivity:0x00000001148531c0> {
+                :id => 3,
+           :form_id => 1,
+              :name => "Activity3",
+        :created_at => Sun, 14 Oct 2018 11:00:00.000000000 UTC +00:00,
+        :updated_at => Sun, 14 Oct 2018 11:00:00.000000000 UTC +00:00,
+    }
+]
+F
+```
+
+Me tocó hacer esto:
+```diff
+- form = FactoryBot.create(:form, :with_aggravating_activities)
++ form = FactoryBot.create(:form)
++ activity_1 = FactoryBot.create(:aggravating_activity, form: form, created_at: Time.zone.now)
++ activity_2 = FactoryBot.create(:aggravating_activity, form: form, created_at: Time.zone.now + 2.hours)
++ activity_3 = FactoryBot.create(:aggravating_activity, form: form, created_at: Time.zone.now + 3.hours)
+```
+
+para poder controlar la hora de cada una.
