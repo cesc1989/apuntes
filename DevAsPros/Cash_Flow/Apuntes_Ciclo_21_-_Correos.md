@@ -69,3 +69,48 @@ Eso sí:
 ```
 email
 ```
+
+# Actualización a Rails 7.1.4
+
+Todo bien excepto al correr las pruebas hay errores y varios mensajes de DEPRECATION.
+
+## DeprecatedConstantAccessor.deprecate_constant without a deprecator is deprecated
+
+```
+DEPRECATION WARNING: DeprecatedConstantAccessor.deprecate_constant without a deprecator is deprecated (called from <top (required)> at /Users/francisco/projects/devaspros-projects/cashflow/config/application.rb:19)
+
+DEPRECATION WARNING: DeprecatedConstantAccessor.deprecate_constant without a deprecator is deprecated (called from <top (required)> at /Users/francisco/projects/devaspros-projects/cashflow/config/application.rb:19)
+```
+
+==Este se resuelve al actualizar Devise a la versión 4.9.3== -> https://github.com/heartcombo/devise/blob/v4.9.3/CHANGELOG.md#493---2023-10-11
+
+## TestFixtures.fixture_path= is deprecated
+
+Otro mensaje de depreciación es este:
+```
+DEPRECATION WARNING: TestFixtures.fixture_path= is deprecated and will be removed in Rails 7.2. Use .fixture_paths= instead. (called from <top (required)> at /Users/francisco/projects/devaspros-projects/cashflow/spec/components/base_income_component_spec.rb:7)
+
+DEPRECATION WARNING: TestFixtures.fixture_path= is deprecated and will be removed in Rails 7.2. Use .fixture_paths= instead. (called from <top (required)> at /Users/francisco/projects/devaspros-projects/cashflow/spec/components/total_month_expenditure_component_spec.rb:7)
+```
+
+Este se resuelve al actualizar rspec-rails a la versión 6.0.2 -> https://github.com/rspec/rspec-rails/pull/2664#issuecomment-1534253592
+
+# Fechas y Rangos
+
+Es mejor usar `Time.zone.now` a `DateTime.current` para rangos de fecha. Usando `Time` se tiene en cuenta el timestamp de los registros y así se incluye todo.
+
+Mucho más práctico usar:
+```ruby
+date.all_day
+date.all_week
+date.all_month
+date.all_quarter
+date.all_year
+```
+
+A crear un rango manualmente:
+```ruby
+[Date.current.beginning_of_month..Date.current.end_of_month]
+```
+
+Visto en https://rails.rubystyle.guide/#date-time-range
