@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "2ceb99838f06c0d7",
+            "id": "64bbacfad8957a22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Upgrade to Rails 7.0.x Notes ✅"
+              "title": "004 - 👌🏽 AppBlend What Changes in Config Defaults"
             }
           },
           {
@@ -193,6 +193,15 @@
   },
   "active": "c7affe6a4ed5ca20",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Action View Form Buiilder.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/006 - Settings for config defaults ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/008 - ✅ Body for Pull Request and Commit.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Installing WKHTMLTOPDF in Edge.md",
@@ -200,7 +209,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/silver.searcher.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
@@ -221,14 +229,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.code.highlight.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
-    "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Luna/Backend/⚠️ Image Magick and Alpine ⚠️.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
-    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
