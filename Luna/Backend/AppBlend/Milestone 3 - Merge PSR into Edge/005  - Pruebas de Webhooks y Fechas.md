@@ -59,6 +59,9 @@ end
 
 # El mensaje de deprecation de `Date#to_s` el formato por defecto (`:default`) 🗓️
 
+> [!Note]
+> Esto ya lo vi cuando estaba actualizando Edge a Rails 7 en [[Upgrade to Rails 7.0.x Notes ✅#Rails 7.0 ignores default format for Date and Time ✅]]
+
 En los initializers está el archivo `date_time.rb` con esto:
 ```ruby
 # frozen_string_literal: true
@@ -115,7 +118,7 @@ Y se fueron los mensajes de depreciación.
 > Esto funciona pero tengo que probarlo con todas las pruebas en general y el sistema en general.
 
 
-# Fecha fijada en Octubre 2018 causa problemas con fecha alterando el orden de los registros
+# ⚠️ Fecha fijada en Octubre 2018 causa problemas con fecha alterando el orden de los registros ⚠️
 
 Esta configuración en `rails_helper`:
 ```ruby

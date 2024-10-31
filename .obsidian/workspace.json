@@ -29,6 +29,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Upgrade to Rails 7.0.x Notes ✅"
+            }
+          },
+          {
+            "id": "c7affe6a4ed5ca20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
                 "mode": "preview",
                 "source": true
@@ -38,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zeitwerk_commands",
+                "query": "rspec focus",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Upgrade to Rails 7.0.x Notes ✅"
+              "title": "Backlinks for 005  - Pruebas de Webhooks y Fechas"
             }
           },
           {
@@ -177,7 +191,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ceb99838f06c0d7",
+  "active": "c7affe6a4ed5ca20",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
@@ -218,9 +232,9 @@
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Luna/Backend/attachments/02.lr.example.target.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments",
     "DevAsPros/SuperAgenda",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
