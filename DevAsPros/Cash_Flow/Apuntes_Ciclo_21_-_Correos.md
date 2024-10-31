@@ -114,3 +114,21 @@ A crear un rango manualmente:
 ```
 
 Visto en https://rails.rubystyle.guide/#date-time-range
+
+# Arreglo correcto para gemas por defecto de Ruby
+
+Etiquetas: #passenger
+
+Las gemas base64 y stringio tienen versiones por defecto en Ruby. Si se instala una versión diferente passenger explota y el log dice algo sobre que la versión activada tiene conflicto con la versión de Ruby.
+
+Entonces toca forzar en el Gemfile o ver qué se hace.
+
+La solución correcta, cuando se usa Passenger como app server es poner esto en el archivo nginx.conf:
+```
+passenger_preload_bundler on;
+```
+
+Según la [documentación](https://www.phusionpassenger.com/docs/references/config_reference/nginx/#passenger_preload_bundler):
+> If this option is turned on, Ruby will be instructed to load the bundler gem before loading your application. This can help with gem version conflicts due to order-of require issues.
+
+Lo encontré en [este hilo](https://www.reddit.com/r/rails/comments/18105z2/ruby_on_rails_phusion_passenger_error/). El mismo Chris Oliver comenta la solución.
