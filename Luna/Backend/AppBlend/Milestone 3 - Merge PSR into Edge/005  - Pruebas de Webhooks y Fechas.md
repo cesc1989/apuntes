@@ -184,3 +184,21 @@ Me tocó hacer esto:
 ```
 
 para poder controlar la hora de cada una.
+
+# Caso JavaScript BigInt: agrega digitos adicionales
+
+Etiquetas: #javascript #bigint
+
+Al probar guardar un form desde la UI ocurría que en el payload de la petición se agregaban dígitos adicionales al ID de medication o surgery:
+```ruby
+# Original
+[1120861213391190272, 9021913502528152935, 3791503591677988816]
+
+# Modified by JS
+1120861213391190300
+9021913502528153000
+3791503591677989000
+```
+
+Nota el 300, 3000 y 9000 al final. Al parecer esto es un caso de limitaciones de JavaScript, según comentan en [este issue](https://github.com/josdejong/jsoneditor/issues/231#issuecomment-148649072):
+> this is a limitation in the Number format of JavaScript, which has a precision of about 16 digits.
