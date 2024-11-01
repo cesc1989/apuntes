@@ -24,35 +24,21 @@
             }
           },
           {
-            "id": "c7affe6a4ed5ca20",
+            "id": "db96a62e8efa37ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "005  - Pruebas de Webhooks y Fechas"
-            }
-          },
-          {
-            "id": "0ae2716d090dd85d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_21_-_Correos"
+              "title": "006 - QA Plan"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Apuntes_Ciclo_21_-_Correos"
+              "title": "Backlinks for 006 - QA Plan"
             }
           },
           {
@@ -143,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Apuntes_Ciclo_21_-_Correos"
+              "title": "Outgoing links from 006 - QA Plan"
             }
           },
           {
@@ -170,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_21_-_Correos"
+              "title": "Outline of 006 - QA Plan"
             }
           }
         ],
@@ -191,14 +177,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ae2716d090dd85d",
+  "active": "db96a62e8efa37ce",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Action View Form Buiilder.md",
@@ -221,8 +209,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/51.linkding.ui.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/50.raindrop.bookmarks.and.annotations.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
-    "README.md",
-    "Luna/Patient_Self_Report/Notas de Upgrade to Rails 7.0.8.4.md",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/21.wallabag.extractor.png",
