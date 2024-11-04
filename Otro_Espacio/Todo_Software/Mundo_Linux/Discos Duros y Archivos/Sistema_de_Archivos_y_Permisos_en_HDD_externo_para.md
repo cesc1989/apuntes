@@ -1,4 +1,5 @@
 # Sistema de Archivos y Permisos en HDD externo para Plex
+
 Sobre el format de archivo: https://www.reddit.com/r/PleX/comments/gewrgk/hard_drive_format_for_plex_servers/
 
 Si el servidor Plex va a correr en Windows, el formato de archivos debe ser NTFS.

@@ -1,4 +1,5 @@
 # Fix Minimal BASH like line editing is supported GRUB Error In Linux
+
 The other day when I [installed Elementary OS in dual boot with Windows](http://itsfoss.com/guide-install-elementary-os-luna/), I encountered a Grub error at the reboot time. I was presented with command line with error message:
 **Minimal BASH like line editing is supported. For the first word, TAB lists possible command completions. anywhere else TAB lists possible device or file completions.**
 

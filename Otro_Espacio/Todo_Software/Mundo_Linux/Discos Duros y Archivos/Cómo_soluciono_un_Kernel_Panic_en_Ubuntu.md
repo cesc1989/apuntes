@@ -1,5 +1,7 @@
 # ¿Cómo soluciono un Kernel Panic en Ubuntu?
+
 [ubuntuperonista.blogspot.com.co](http://ubuntuperonista.blogspot.com.co)
+
 Frente a la conmoción que presentaron los intentos disolventes del antipueblo, el general Juan Perón pronunció por Cadena Nacional de Radiodifusión un enérgico discurso donde enseñó cómo reparar un Kernel Panic en Ubuntu.
 
 ¡Trabajadores!

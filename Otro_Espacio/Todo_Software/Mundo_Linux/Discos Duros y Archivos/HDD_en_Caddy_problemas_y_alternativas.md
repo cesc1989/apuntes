@@ -1,13 +1,13 @@
 # HDD en Caddy: problemas y alternativas
-Este documento es una continuación de [+Particionando en SSD y HDD para archivos para Linux Mint](https://paper.dropbox.com/doc/Particionando-en-SSD-y-HDD-para-archivos-para-Linux-Mint-l5uZV1gksUkj6i49fQsOt) 
+Este documento es una continuación de [[Particionando_en_SSD_y_HDD_para_archivos_para_Linu]]
 
 # Contexto
 
 Al PC Lenovo le compré una unidad SSD de 240GB. También compré un caddy para poner el antiguo HDD de 1TB en el caddy y quitar la unidad óptica. De esta forma el equipo quedaría con esta configuración:
 
-
 - Disco principal: SSD 240GB
 - Disco secundario: HDD 1TB (mediante caddy en unidad óptica)
+
 # Problemas
 
 Una vez completa la instalación del SSD como disco principal, ajustar el HDD en el Caddy y ponerlo en el lugar respectivo, me di a la tarea de instalar Linux Mint 21.3 en el SSD.
@@ -28,6 +28,7 @@ Al buscar y preguntar a ChatGPT identifiqué estas posibles causas:
 
 - Caddy no funcional
 - Mala configuración de la BIOS
+
 ## Caddy no funcional
 
 Esta es la causa más común. Si la unidad óptica funcionaba y el disco funcionaba en su antigua posición, es más probable que el caddy esté defectuoso.
@@ -42,7 +43,6 @@ Probé conectar el disco mediante cable SATA-USB y funcionó. Pude formatearlo y
 **¿Qué queda por probar?**
 
 - Conectar el disco mediante cubierta SATA-USB
-
 
 ## Mala configuración de la BIOS
 
