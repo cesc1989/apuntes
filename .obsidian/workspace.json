@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows/How_to_cancel_ChkDsk_in_Windows_8_10.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of How_to_cancel_ChkDsk_in_Windows_8_10"
+              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
             }
           }
         ],
@@ -162,13 +162,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows/How_to_cancel_ChkDsk_in_Windows_8_10.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/HDD_en_Caddy_problemas_y_alternativas.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows/How_to_cancel_ChkDsk_in_Windows_8_10.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_en_SSD_y_HDD_para_archivos_para_Linu.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
@@ -186,11 +192,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7 ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Action View Form Buiilder.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/silver.searcher.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/51.linkding.ui.png",
