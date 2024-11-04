@@ -24,13 +24,13 @@
             }
           },
           {
-            "id": "29e7e4b458d14920",
+            "id": "2daceecf26e57d6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -177,11 +177,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29e7e4b458d14920",
+  "active": "2daceecf26e57d6d",
   "lastOpenFiles": [
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
+    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
