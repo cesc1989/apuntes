@@ -118,7 +118,7 @@ Y se fueron los mensajes de depreciación.
 > Esto funciona pero tengo que probarlo con todas las pruebas en general y el sistema en general.
 
 
-# ⚠️ Fecha fijada en Octubre 2018 causa problemas con fecha alterando el orden de los registros ⚠️
+# ❗️ Fecha fijada en Octubre 2018 causa problemas con fecha alterando el orden de los registros ❗️
 
 Esta configuración en `rails_helper`:
 ```ruby
@@ -202,3 +202,21 @@ Al probar guardar un form desde la UI ocurría que en el payload de la petición
 
 Nota el 300, 3000 y 9000 al final. Al parecer esto es un caso de limitaciones de JavaScript, según comentan en [este issue](https://github.com/josdejong/jsoneditor/issues/231#issuecomment-148649072):
 > this is a limitation in the Number format of JavaScript, which has a precision of about 16 digits.
+
+## Conclusión 🎉
+
+Esto lo arreglamos haciendo que los IDs de los registros en medications, surgeries y aggravating activities sean devueltos como strings en la respuesta de JSON de los endpoints de draft (tanto v1 como v3).
+
+# Pruebas de OutcomeExtractor fallaban por falta de valores por defecto en los campos
+
+Como se quitaron los valores por defecto de los campos en todas las tablas algunas pruebas fallan. En este caso fallaba la prueba de OutcomeExtractor porque los campos `psfs_score` y `answers_score` del modelo Form ya no tienen el valor 0 por defecto. El valor es nil así que la prueba fallaba.
+
+Para corregirlo usé `ActiveModel::Attributes` ([ver](https://api.rubyonrails.org/classes/ActiveModel/Attributes.html)) y sobre escribí esos campos así:
+```ruby
+module PatientSelfReport
+  class Form < ApplicationRecord
+    attribute :psfs_score, :integer, default: 0
+    attribute :answers_score, :integer, default: 0
+  end
+end
+```
