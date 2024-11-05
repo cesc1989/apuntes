@@ -220,3 +220,24 @@ module PatientSelfReport
   end
 end
 ```
+
+## ¿Cómo afecta al campo definido por ActiveRecord?
+
+Mi pregunta al tener esto es ¿afecta en algo al campo cuando ya tiene valores?
+
+Según [esta respuesta](https://stackoverflow.com/a/74630100/1407371) en Stack Overflow, no:
+
+> Rails has [`ActiveModel::Attributes`](https://api.rubyonrails.org/classes/ActiveModel/Attributes/ClassMethods.html) which is the base API and [`ActiveRecord::Attributes`](https://api.rubyonrails.org/classes/ActiveRecord/Attributes/ClassMethods.html) which is specialized implementation for database table backed models.
+>
+> Attributes are a Rails consrtuct - not a part of the language.
+
+### Pruebas en local
+
+Cuando probé con registros existentes, lo definido en `attribute` parece no afectar, sin embargo, cuando instancio un nuevo Form, sí puedo ver los valores por defecto:
+```ruby
+PatientSelfReport::Form.new
+id: nil,
+psfs_score: 0,
+answers_score: 0,
+submitted_by: "hola",
+```
