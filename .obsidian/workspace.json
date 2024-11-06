@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "c7728fd40739d385",
+            "id": "16411b5cbf13e10d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - QA Plan"
+              "title": "Enable Patient Forms in Development"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md"
+                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of Enable Patient Forms in Development"
             }
           }
         ],
@@ -177,36 +177,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7728fd40739d385",
+  "active": "16411b5cbf13e10d",
   "lastOpenFiles": [
+    "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
+    "Luna/Backend/Patient Profile/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
+    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+    "Luna/Backend/Patient Profile",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_SQL_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Rails_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Linux_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Query_SQL_para_hallar_answers_con_mal_texto_de_la.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Testing_RSpec_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Herramientas_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Notas de Upgrade to Rails 7.0.8.4.md",
+    "Luna/Patient_Self_Report/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
+    "Luna/Patient_Self_Report/Migrando_a_Ruby_3_1_0_con_wkhtmltopdf.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Frontend_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Triage Issues with Forms.md",
+    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
+    "Luna/Backend/Usando Flipper.md",
+    "Luna/AWS_Single_Sign-On_-_Apuntes.md",
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Grafana_Queries.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows/How_to_cancel_ChkDsk_in_Windows_8_10.md",
+    "Luna/Playbook del Triage📙.md",
+    "Luna/Usando_Ngrok.md",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/HDD_en_Caddy_problemas_y_alternativas.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_en_SSD_y_HDD_para_archivos_para_Linu.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Fix_Minimal_BASH_like_line_editing_is_supported_GR.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Cómo_soluciono_un_Kernel_Panic_en_Ubuntu.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows/ChkDsk_stuck_at_particular_or_hangs_at_some_Stag.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La Eficiencia es el Enemigo.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Lies_of_Object_Oriented_Programming_-_Avdi_Grimm.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/silver.searcher.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/51.linkding.ui.png",
@@ -223,8 +225,6 @@
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments",
     "DevAsPros/SuperAgenda",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
