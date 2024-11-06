@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "b501fe20bef31718",
+            "id": "c7728fd40739d385",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "005  - Pruebas de Webhooks y Fechas"
+              "title": "006 - QA Plan"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 005  - Pruebas de Webhooks y Fechas"
+              "title": "Outline of 006 - QA Plan"
             }
           }
         ],
@@ -177,11 +177,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b501fe20bef31718",
+  "active": "c7728fd40739d385",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
     "Luna/Grafana_Queries.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
