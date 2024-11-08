@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "16411b5cbf13e10d",
+            "id": "f9276fe6632d8056",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
-                "mode": "source",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Enable Patient Forms in Development"
+              "title": "006 - QA Plan"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Enable Patient Forms in Development"
+              "title": "Outline of 006 - QA Plan"
             }
           }
         ],
@@ -177,12 +177,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16411b5cbf13e10d",
+  "active": "f9276fe6632d8056",
   "lastOpenFiles": [
-    "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
-    "Luna/Backend/Patient Profile/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+    "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
+    "Luna/Backend/Patient Profile/attachments",
     "Luna/Backend/Patient Profile",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_SQL_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
@@ -220,7 +220,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.code.highlight.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Otro_Espacio/Todo_Software/Self Hosting",
-    "Luna/Backend/attachments/02.lr.example.target.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments",
     "DevAsPros/SuperAgenda",
