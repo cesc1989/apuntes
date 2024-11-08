@@ -117,25 +117,26 @@ end
 ## Decodificar un JWT cuyo tiempo expiró
 
 Normalmente, un JWT vencido no se puede decodificar:
+```ruby
+JsonWebToken.new(token:'eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQ1ODcwNjMsInByb3ZpZGVyX25hbWUiOiJBYXJvbiBTYWx5YXBvbmdzZSIsInByb3ZpZGVyX2tpbmQiOiJwaHlzaWNpYW4iLCJwcm92aWRlcl9pZCI6IjdlNmZlNzI4LWEyZjgtNGU3NS05OTM1LWNmMjM4NDk5OTM4NSIsInBvcnRhbF9yZWNpcGllbnRfZW1haWwiOiJmcmFuY2lzY28ucXVpbnRlcm9AaWRlYXdhcmUuY28iLCJkYXNoYm9hcmRfdmVyc2lvbiI6InYyIn0.saCfxyzi5qo33rfQ91lrbWpqXA1kkqmKUK-KuAPv5rM').decode
 
-    JsonWebToken.new(token: 'eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDQ1ODcwNjMsInByb3ZpZGVyX25hbWUiOiJBYXJvbiBTYWx5YXBvbmdzZSIsInByb3ZpZGVyX2tpbmQiOiJwa
-    HlzaWNpYW4iLCJwcm92aWRlcl9pZCI6IjdlNmZlNzI4LWEyZjgtNGU3NS05OTM1LWNmMjM4NDk5OTM4NSIsInBvcnRhbF9yZWNpcGllbnRfZW1haWwiOiJmcmFuY2lzY28ucXVpbnRlcm9AaWRlYXdhcmUuY
-    28iLCJkYXNoYm9hcmRfdmVyc2lvbiI6InYyIn0.saCfxyzi5qo33rfQ91lrbWpqXA1kkqmKUK-KuAPv5rM').decode
-    
-    Traceback (most recent call last):
-    
-    /Users/fquintero/.rvm/gems/ruby-2.7.1/gems/jwt-2.3.0/lib/jwt/verify.rb:41:in `verify_expiration': Signature has expired (JWT::ExpiredSignature)
+Traceback (most recent call last):
+
+/Users/fquintero/.rvm/gems/ruby-2.7.1/gems/jwt-2.3.0/lib/jwt/verify.rb:41:in `verify_expiration': Signature has expired (JWT::ExpiredSignature)
+```
 
 Según la [documentación](https://github.com/jwt/ruby-jwt#expiration-time-claim), el indicador de vencimiento puede ser saltado:
-
-    # Decode token without raising JWT::ExpiredSignature error
-    JWT.decode token, hmac_secret, true, { verify_expiration: false, algorithm: 'HS256' }
+```ruby
+# Decode token without raising JWT::ExpiredSignature error
+JWT.decode token, hmac_secret, true, { verify_expiration: false, algorithm: 'HS256' }
+```
 
 Entonces, la solución luce así:
-
-    token = "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM2NDQ4ODMsInByb3ZpZGVyX25hbWUiOiJTY3JpcHBzIEhlYWx0aCIsInByb3ZpZGVyX2tpbmQiOiJwYXJ0bmVyX2NsaW5pYyIsInByb3ZpZGVyX2lkIjoiZmVlMWY5ZWUtMTMzYy00YzE0LWE3MDktMWY2YzIzM2Y1YjNjIiwicG9ydGFsX3JlY2lwaWVudF9lbWFpbCI6InBhbGFrQGdldGx1bmEuY29tIiwiZGFzaGJvYXJkX3ZlcnNpb24iOiJ2MiJ9.YYkeFMVJHtj18atQ_-DdByMDUAPzUTU_I5Igaktm2i4"
+```ruby
+token = "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDM2NDQ4ODMsInByb3ZpZGVyX25hbWUiOiJTY3JpcHBzIEhlYWx0aCIsInByb3ZpZGVyX2tpbmQiOiJwYXJ0bmVyX2NsaW5pYyIsInByb3ZpZGVyX2lkIjoiZmVlMWY5ZWUtMTMzYy00YzE0LWE3MDktMWY2YzIzM2Y1YjNjIiwicG9ydGFsX3JlY2lwaWVudF9lbWFpbCI6InBhbGFrQGdldGx1bmEuY29tIiwiZGFzaGJvYXJkX3ZlcnNpb24iOiJ2MiJ9.YYkeFMVJHtj18atQ_-DdByMDUAPzUTU_I5Igaktm2i4"
     
-    JWT.decode(token, ENV['SECRET_KEY_BASE'], true, { verify_expiration: false })
+JWT.decode(token, ENV['SECRET_KEY_BASE'], true, { verify_expiration: false })
+```
 
 
 ## Usando Recaptcha
