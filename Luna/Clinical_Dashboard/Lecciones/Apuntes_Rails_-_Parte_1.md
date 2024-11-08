@@ -150,70 +150,73 @@ Estaba configurando [recaptcha](https://github.com/ambethia/recaptcha) para la p
 La configuración es bastante sencilla cuando se quiere usar recaptcha con Devise. Está muy bien [documentado en la wiki](https://github.com/heartcombo/devise/wiki/How-To:-Use-Recaptcha-with-Devise) de Devise.
 
 Así se debe configurar el controlador:
+```ruby
+# frozen_string_literal: true
 
-    # frozen_string_literal: true
-    
-    class Users::SessionsController < Devise::SessionsController
-      prepend_before_action :check_recaptcha, only: [:create]
-    
-      private
-    
-      def check_recaptcha
-        return true if verify_recaptcha(
-          action: 'login',
-          minimum_score: 0.5,
-          secret_key: ENV['RECAPTCHA_SECRET_KEY']
-        )
-    
-        self.resource = resource_class.new(sign_in_params)
-    
-        respond_with_navigational(resource) do
-          flash.discard(:recaptcha_error)
-    
-          render :new
-        end
-      end
-    end
-    
+class Users::SessionsController < Devise::SessionsController
+	prepend_before_action :check_recaptcha, only: [:create]
+
+	private
+
+	def check_recaptcha
+		return true if verify_recaptcha(
+			action: 'login',
+			minimum_score: 0.5,
+			secret_key: ENV['RECAPTCHA_SECRET_KEY']
+		)
+
+		self.resource = resource_class.new(sign_in_params)
+
+		respond_with_navigational(resource) do
+			flash.discard(:recaptcha_error)
+
+			render :new
+		end
+	end
+end
+```
 
 
 Así la vista:
+```ruby
+<div class="login-form">
+	<%= form_for(
+			resource,
+			as: resource_name,
+			url: session_path(resource_name)
+		) do |f|
+	%>
+		<h2>Provider Portal</h2>
 
-    <div class="login-form">
-      <%= form_for(
-          resource,
-          as: resource_name,
-          url: session_path(resource_name)
-        ) do |f|
-      %>
-        <h2>Provider Portal</h2>
-    
-        # ...
-    
-        <div class="form-group">
-          <%= f.submit "Log in", class: "btn" %>
-        </div>
-    
-        <%= recaptcha_v3(action: 'login', site_key: ENV['RECAPTCHA_SITE_KEY']) %>
-      <% end %>
-    
-      <div class="links">
-        <%= render "devise/shared/links" %>
-      </div>
-    </div>
-    
+		# ...
+
+		<div class="form-group">
+			<%= f.submit "Log in", class: "btn" %>
+		</div>
+
+		<%= recaptcha_v3(action: 'login', site_key: ENV['RECAPTCHA_SITE_KEY']) %>
+	<% end %>
+
+	<div class="links">
+		<%= render "devise/shared/links" %>
+	</div>
+</div>
+```
+   
 
 Nota que el helper en el formulario **está dentro del mismo**. El primer error que tenía era que lo estaba usando fuera del `form_for`.
 
 Por otra parte, como no encontraba el error, decidí usar la misma versión que está en el proyecto Credentialing. Ahí no hay problema porque el parámetro `g-recaptcha-response` se envía en el cuerpo de la petición.
 
 Acá pasaba que en la versión 5.2.1 había un error donde dicho parámetro se enviaba vacío:
-
-    Parameters: {"authenticity_token"=>"XXXX", "user"=>{"email"=>"admin1@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "g-recaptcha-response"=>""}
+```ruby
+Parameters: {"authenticity_token"=>"XXXX", "user"=>{"email"=>"admin1@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "g-recaptcha-response"=>""}
+```
 
 Una vez me moví a la versión más reciente, la 5.9.0, todo quedó bien funcional:
-
-    Parameters: {"authenticity_token"=>"XXXX", "user"=>{"email"=>"admin1@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "g-recaptcha-response-data"=>{"login"=>"03AGdBq27y4Cm_aHkgyV00kk86yeDsOypeSTH7Qg4hy-6kyTxT-5pp614Ni8PSBljW2K7QRPiKCresuviIE25r2o_EP5GRPISCsAhMYvbINrgqlm54ltieDuOiG8XQZW54CF5yGFJxzfLobMe142kn1-MehdM0AnIZ7OmyeOOSSq13pzwJH-5a1I1zbuR2lfmpOJS4LUcgYUBNHgk_tWMHH5FCxje54-z2lPSJeNaI5FEB_U6sV9Zm0s4j0-pzI13e4o0LqtoaI2HgnZya4AHOzLaXpiu3tA0BxocpjSSFs86L8TK14kMVdTzve5i1leIk5bn_xka7q5fUw_sdwtztiF7RVKQ1bsIgFIRwdFo0FV8Fpx96gV7c32J1Y_rFHD5Buqv8Inx6A0o01tL6pVmgcTPTmH1x6FtgSy-3FcPFB-Mp2tcLgnHJL1zwybzhKa6cEu7zW2cKgnOT"}, "g-recaptcha-response"=>""}
+```ruby
+Parameters: {"authenticity_token"=>"XXXX", "user"=>{"email"=>"admin1@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "g-recaptcha-response-data"=>{"login"=>"03AGdBq27y4Cm_aHkgyV00kk86yeDsOypeSTH7Qg4hy-6kyTxT-5pp614Ni8PSBljW2K7QRPiKCresuviIE25r2o_EP5GRPISCsAhMYvbINrgqlm54ltieDuOiG8XQZW54CF5yGFJxzfLobMe142kn1-MehdM0AnIZ7OmyeOOSSq13pzwJH-5a1I1zbuR2lfmpOJS4LUcgYUBNHgk_tWMHH5FCxje54-z2lPSJeNaI5FEB_U6sV9Zm0s4j0-pzI13e4o0LqtoaI2HgnZya4AHOzLaXpiu3tA0BxocpjSSFs86L8TK14kMVdTzve5i1leIk5bn_xka7q5fUw_sdwtztiF7RVKQ1bsIgFIRwdFo0FV8Fpx96gV7c32J1Y_rFHD5Buqv8Inx6A0o01tL6pVmgcTPTmH1x6FtgSy-3FcPFB-Mp2tcLgnHJL1zwybzhKa6cEu7zW2cKgnOT"}, "g-recaptcha-response"=>""}
+```
 
 El funcionamiento de la gema es capturar el valor de `g-recaptcha-response` en un campo oculto llamado `g-recaptcha-response-data[action_name]`. Al actualizar al gema, se arregló el asunto y funcionó como esperaba.
 
