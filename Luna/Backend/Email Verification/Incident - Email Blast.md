@@ -73,6 +73,26 @@ This is why a Physician is twice a ShadowUser.
 
 # Debugging Queries
 
+> [!Important]
+> Below is the snippet provided that would select elegible physicians for the Dashboard
+
+```sql
+LEFT JOIN (
+  SELECT
+    id AS physician_id
+    ,COUNT(episodes.id)
+  FROM physicians
+  LEFT JOIN episodes ON episodes.physician_id = physicians.id
+  LEFT JOIN appointments ON appointments.episode_id = episodes.id
+  LEFT JOIN regions ON regions.id = appointments.region_id
+  LEFT JOIN portal_configs ON portal_configs.configurable_id = physicians.id
+  WHERE appointments.state = 2
+    AND appointments.scheduled_date >= NOW() - INTERVAL '90 days'
+  GROUP BY appointments.episode_id
+  HAVING COUNT(appointments.id) > config.active_case_threshold
+) AS eligible_physicians ON eligible_physicians.physician_id = physicians.id
+```
+
 All the queries ran to debug this case.
 
 ```sql
