@@ -93,7 +93,16 @@ LEFT JOIN (
 ) AS eligible_physicians ON eligible_physicians.physician_id = physicians.id
 ```
 
-All the queries ran to debug this case.
+This would be the Active Record representation of the above query:
+```ruby
+Episode
+  .joins(:appointments)
+  .merge(Appointment.completed)
+  .where(appointments: { scheduled_date: 90.days.ago.. })
+  .distinct(:episode_id)
+```
+
+Next, all the queries ran to debug this case.
 
 ## Most Recent Debug query using Subqueries
 
