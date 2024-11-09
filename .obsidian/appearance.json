@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "showViewHeader": true,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "style.block.code"
+  ]
 }
