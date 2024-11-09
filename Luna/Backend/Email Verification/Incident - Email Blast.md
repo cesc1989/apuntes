@@ -202,24 +202,48 @@ portal_configuration as (
 	  ) as provider_name
   from portal_configs pc
   where pc.portal_email_cadence != 3
+),
+elegible_physician as (
+	SELECT
+	  phy.id AS physician_id,
+	  phy.first_name,
+	  phy.last_name,
+	  COUNT(episodes.id)
+	FROM physicians phy
+	LEFT JOIN episodes ON episodes.physician_id = phy.id
+	LEFT JOIN appointments ON appointments.episode_id = episodes.id
+	LEFT JOIN regions ON regions.id = appointments.region_id
+	LEFT JOIN portal_configs ON portal_configs.configurable_id = phy.id
+	WHERE appointments.state = 2 /* completed */
+	AND appointments.scheduled_date >= NOW() - INTERVAL '90 days' /* desde hace tres meses */
+	GROUP BY appointments.episode_id, phy.id, portal_configs.active_case_threshold
+	HAVING COUNT(appointments.id) > portal_configs.active_case_threshold /* para esto es el count en el select. tiene que ser mayor al treshold */
+),
+weekly_verifiable as (
+	select
+	  cm.user_type,
+	  cm.user_id,
+	  cm.user_email,
+	  cm.verification_status,
+	  cm.verification_attempts,
+	  cm.verification_sent_at,
+	  su.parent_id,
+	  su.recipient_parent_type,
+	  su.recipient_email,
+	  su.recipient_kind,
+	  pc.configurable_id,
+	  pc.portal_email_cadence,
+	  pc.provider_kind,
+	  pc.provider_name,
+	  ep.physician_id,
+	  ep.first_name,
+	  ep.last_name
+	from communication_method cm
+	join shadow_user su on su.parent_id = cm.user_id
+	join portal_configuration pc on pc.configurable_id = cm.user_id
+	left join elegible_physician ep on ep.physician_id = cm.user_id
 )
-select
-  cm.user_type,
-  cm.user_id,
-  cm.user_email,
-  cm.verification_status,
-  cm.verification_attempts,
-  cm.verification_sent_at,
-  su.parent_id,
-  su.recipient_parent_type,
-  su.recipient_email,
-  su.recipient_kind,
-  pc.configurable_id,
-  pc.portal_email_cadence,
-  pc.provider_kind,
-  pc.provider_name
-from communication_method cm
-join shadow_user su on su.parent_id = cm.user_id
-join portal_configuration pc on pc.configurable_id = cm.user_id
+select *
+from weekly_verifiable
 ;
 ```
