@@ -95,6 +95,8 @@ LEFT JOIN (
 
 All the queries ran to debug this case.
 
+## Most Recent Debug query using Subqueries
+
 ```sql
 select ucm.user_type as ucm_type,
   ucm.user_id as ucm_id,
@@ -140,5 +142,84 @@ and ucm.user_type in ('Physician', 'ShadowUser')
 and ucm.verified_at is null
 and ucm.verification_attempts between 0 and 3
 and pc.portal_email_cadence != 3
+;
+```
+
+## Same query but with CTE for better readability
+
+```sql
+/*
+ * Aquí voy a escribir la query para Weekly Email Verification en modo CTE
+*/
+with communication_method as (
+  select
+    ucm.user_type,
+	  ucm.user_id,
+	  ucm.value as user_email,
+		(case ucm.verification_status
+		  when 0 then 'unverified'
+		  when 5 then 'verified'
+		  when 10 then 'verification_disabled'
+		  end
+		) as verification_status,
+		ucm.verification_attempts,
+		ucm.verification_sent_at
+  from user_communication_methods ucm
+  where ucm.kind = 0
+	and ucm.user_type in ('Physician', 'ShadowUser')
+	and ucm.verified_at is null
+	and ucm.verification_attempts between 0 and 3
+),
+shadow_user as (
+  select distinct on (identifier)
+    su.parent_id,
+    su.parent_type as recipient_parent_type,
+    su.identifier as recipient_email,
+    (case su.kind
+      when 0 then 'portal_email_recipient'
+      when 1 then 'escalation_email_recipient'
+      end
+    ) as recipient_kind
+  from shadow_users su
+),
+portal_configuration as (
+  select
+    pc.configurable_id,
+	  (case pc.portal_email_cadence
+	    when 0 then 'weekly'
+	    when 1 then 'monthly'
+	    when 2 then 'quarterly'
+	    when 3 then 'never'
+	    end
+	  ) as portal_email_cadence,
+	  pc.configurable_type as provider_kind,
+	  (case pc.configurable_type
+	    when 'Physician' then (select concat(first_name, ' ', last_name) from physicians where id = pc.configurable_id)
+	    when 'PhysicianGroup' then (select name from physician_groups where id = pc.configurable_id)
+	    when 'Clinic' then (select provider_name from clinics where id = pc.configurable_id)
+	    when 'Practice' then (select name from practices where id = pc.configurable_id)
+	    end
+	  ) as provider_name
+  from portal_configs pc
+  where pc.portal_email_cadence != 3
+)
+select
+  cm.user_type,
+  cm.user_id,
+  cm.user_email,
+  cm.verification_status,
+  cm.verification_attempts,
+  cm.verification_sent_at,
+  su.parent_id,
+  su.recipient_parent_type,
+  su.recipient_email,
+  su.recipient_kind,
+  pc.configurable_id,
+  pc.portal_email_cadence,
+  pc.provider_kind,
+  pc.provider_name
+from communication_method cm
+join shadow_user su on su.parent_id = cm.user_id
+join portal_configuration pc on pc.configurable_id = cm.user_id
 ;
 ```
