@@ -70,3 +70,55 @@ has_many :portal_email_recipients,
 ```
 
 This is why a Physician is twice a ShadowUser.
+
+# Debugging Queries
+
+All the queries ran to debug this case.
+
+```sql
+select ucm.user_type as ucm_type,
+  ucm.user_id as ucm_id,
+  ucm.value as ucm_email,
+  (case ucm.verification_status
+    when 0 then 'unverified'
+    when 5 then 'verified'
+    when 10 then 'verification_disabled'
+    end
+  ) as verification_status,
+  ucm.verification_attempts,
+  ucm.verification_sent_at,
+  su.parent_type as recipient_parent_type,
+  su.identifier as recipient_email,
+  (case su.kind
+    when 0 then 'portal_email_recipient'
+    when 1 then 'escalation_email_recipient'
+    end
+  ) as recipient_kind,
+  (case pc.portal_email_cadence
+    when 0 then 'weekly'
+    when 1 then 'monthly'
+    when 2 then 'quarterly'
+    when 3 then 'never'
+    end
+  ) as portal_email_cadence,
+  pc.configurable_type as provider_kind,
+  (case pc.configurable_type
+    when 'Physician' then (select concat(first_name, ' ', last_name) from physicians where id = pc.configurable_id)
+    when 'PhysicianGroup' then (select name from physician_groups where id = pc.configurable_id)
+    when 'Clinic' then (select provider_name from clinics where id = pc.configurable_id)
+    when 'Practice' then (select name from practices where id = pc.configurable_id)
+    end
+  ) as provider_name
+from user_communication_methods ucm
+join (
+  select distinct on (identifier) * 
+  from shadow_users
+) as su on ucm.user_id = su.parent_id
+join portal_configs pc on ucm.user_id = pc.configurable_id
+where ucm.kind = 0
+and ucm.user_type in ('Physician', 'ShadowUser')
+and ucm.verified_at is null
+and ucm.verification_attempts between 0 and 3
+and pc.portal_email_cadence != 3
+;
+```

@@ -34,13 +34,22 @@
       "key": "T"
     }
   ],
-  "outline:open-for-current": [
+  "outline:open": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
     }
   ]
 }
