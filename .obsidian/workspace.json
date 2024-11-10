@@ -36,9 +36,23 @@
               "icon": "lucide-file",
               "title": "Unattended Upgrades"
             }
+          },
+          {
+            "id": "1b9e604a40488a07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Ciclo_21_-_Correos"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md"
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Unattended Upgrades"
+              "title": "Outline of Apuntes_Ciclo_21_-_Correos"
             }
           }
         ],
@@ -167,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,10 +192,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ed3cc81ab335644",
+  "active": "1b9e604a40488a07",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "README.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Hogar/Registro_Civil_de_Defunción_Panzon.md",
@@ -206,8 +223,6 @@
     "Luna/Backend/Patient Profile/attachments",
     "Luna/Backend/Patient Profile",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_SQL_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Rails_-_Luna_Patients.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",

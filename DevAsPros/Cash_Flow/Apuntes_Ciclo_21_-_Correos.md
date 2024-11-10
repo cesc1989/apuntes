@@ -132,3 +132,61 @@ Según la [documentación](https://www.phusionpassenger.com/docs/references/conf
 > If this option is turned on, Ruby will be instructed to load the bundler gem before loading your application. This can help with gem version conflicts due to order-of require issues.
 
 Lo encontré en [este hilo](https://www.reddit.com/r/rails/comments/18105z2/ruby_on_rails_phusion_passenger_error/). El mismo Chris Oliver comenta la solución.
+
+# Correos no salían desde Sidekiq
+
+> [!note]
+> Faltaba configurar las envs de Mailgun para que las leyera el demonio de Sidekiq.
+
+El error que vi al ver los logs:
+```
+sudo tail -n50 /var/log/syslog
+```
+
+El error del puerto 587:
+```
+Nov 10 21:04:43 localhost sidekiq[497708]: 2024-11-10T21:04:43.497Z pid=497708 tid=b4ts class=DailyChoresCheckWorker jid=4e5ca77dfcced746f0de6ec0 INFO: start
+Nov 10 21:04:43 localhost sidekiq[497708]: 2024-11-10T21:04:43.540Z pid=497708 tid=b4ts class=DailyChoresCheckWorker jid=4e5ca77dfcced746f0de6ec0 INFO:   Rendered layout layouts/mailer.html.erb (Duration: 1.6ms | Allocations: 868)
+Nov 10 21:04:43 localhost sidekiq[497708]: 2024-11-10T21:04:43.541Z pid=497708 tid=b4ts class=DailyChoresCheckWorker jid=4e5ca77dfcced746f0de6ec0 INFO:   Rendered layout layouts/mailer.text.erb (Duration: 0.8ms | Allocations: 461)
+Nov 10 21:04:43 localhost sidekiq[497708]: 2024-11-10T21:04:43.554Z pid=497708 tid=b4ts class=DailyChoresCheckWorker jid=4e5ca77dfcced746f0de6ec0 elapsed=0.058 INFO: fail
+Nov 10 21:04:43 localhost sidekiq[497708]: 2024-11-10T21:04:43.554Z pid=497708 tid=b4ts WARN: {"context":"Job raised exception","job":{"retry":1,"queue":"default","class":"DailyChoresCheckWorker","args":[],"jid":"4e5ca77dfcced746f0de6ec0","created_at":1731272675.4522564,"enqueued_at":1731272683.4966125}}
+Nov 10 21:04:43 localhost sidekiq[497708]: 2024-11-10T21:04:43.555Z pid=497708 tid=b4ts WARN: Errno::ECONNREFUSED: Connection refused - connect(2) for nil port 587
+Nov 10 21:04:43 localhost sidekiq[497708]: 2024-11-10T21:04:43.555Z pid=497708 tid=b4ts WARN: /home/ubuntu/cashflow/deployments/api-gems/bundle/ruby/3.2.0/gems/net-smtp-0.5.0/lib/net/smtp.rb:663:in `initialize'
+```
+
+Este:
+```
+Errno::ECONNREFUSED: Connection refused - connect(2) for nil port 587
+```
+
+Pasaba que no tenía las envs en el archivo que configuré para eso:
+```bash
+# scripts/sidekiq.service
+
+EnvironmentFile=/home/ubuntu/.sidekiq_envs
+```
+
+Una vez las agregué:
+```
+MAILGUN_DOMAIN=""
+```
+
+reinicie el servidor:
+```
+systemctl --user restart sidekiq.service
+```
+
+Y ahí sí salieron los correos:
+```bash
+Nov 10 21:23:16 localhost sidekiq[499442]: 2024-11-10T21:23:16.515Z pid=499442 tid=b4ku class=DailyChoresCheckWorker jid=1b7dba7ffe92b4b9656c2b90 INFO: start
+
+Nov 10 21:23:16 localhost sidekiq[499442]: 2024-11-10T21:23:16.544Z pid=499442 tid=b4ku class=DailyChoresCheckWorker jid=1b7dba7ffe92b4b9656c2b90 INFO:   Rendered layout layouts/mailer.html.erb (Duration: 1.1ms | Allocations: 855)
+
+Nov 10 21:23:16 localhost sidekiq[499442]: 2024-11-10T21:23:16.545Z pid=499442 tid=b4ku class=DailyChoresCheckWorker jid=1b7dba7ffe92b4b9656c2b90 INFO:   Rendered layout layouts/mailer.text.erb (Duration: 0.5ms | Allocations: 461)
+
+Nov 10 21:23:18 localhost sidekiq[499442]: 2024-11-10T21:23:18.709Z pid=499442 tid=b4ku class=DailyChoresCheckWorker jid=1b7dba7ffe92b4b9656c2b90 INFO:   Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 237)
+
+Nov 10 21:23:18 localhost sidekiq[499442]: 2024-11-10T21:23:18.710Z pid=499442 tid=b4ku class=DailyChoresCheckWorker jid=1b7dba7ffe92b4b9656c2b90 INFO:   Rendered layout layouts/mailer.text.erb (Duration: 0.2ms | Allocations: 212)
+
+Nov 10 21:23:19 localhost sidekiq[499442]: 2024-11-10T21:23:19.550Z pid=499442 tid=b4ku class=DailyChoresCheckWorker jid=1b7dba7ffe92b4b9656c2b90 elapsed=3.035 INFO: done
+```
