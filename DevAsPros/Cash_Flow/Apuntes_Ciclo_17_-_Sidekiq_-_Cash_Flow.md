@@ -155,56 +155,58 @@ El resumen es que siempre que configuré timezone en una app rails debo usar `Da
 
 > Returns `Time.zone`.today when `Time.zone` or `config.time_zone` are set, otherwise just returns Date.today.
 
-‌
 El artículo que me abrió los ojos http://danilenko.org/2012/7/6/rails_timezones/
-
 
 ## Resumen
 
 **Get current time**
+```ruby
+# Correct
+Time.zone.now
 
-    # Correct
-    Time.zone.now
-    
-    # Acceptable
-    Time.now.in_time_zone
-    DateTime.now.in_time_zone
-    
-    # Wrong
-    Time.now
-    DateTime.now
+# Acceptable
+Time.now.in_time_zone
+DateTime.now.in_time_zone
+
+# Wrong
+Time.now
+DateTime.now
+```
 
 **Get Day (Today, Yesterday, etc.)**
+```ruby
+# Correct
+Time.zone.today
+Time.zone.today - 1.day
 
-    # Correct
-    Time.zone.today
-    Time.zone.today - 1.day
-    
-    # Aceptable
-    Date.current
-    Date.yesterday
-    
-    # Wrong
-    Date.today
+# Aceptable
+Date.current
+Date.yesterday
+
+# Wrong
+Date.today
+```
 
 **Build time**
+```ruby
+# Correct
+Time.zone.local(2012, 6, 10, 12, 00)
 
-    # Correct
-    Time.zone.local(2012, 6, 10, 12, 00)
-    
-    # Wrong
-    Time.new(2012, 6, 10, 12, 00)
-    DateTime.new(2012, 6, 10, 12, 00)
+# Wrong
+Time.new(2012, 6, 10, 12, 00)
+DateTime.new(2012, 6, 10, 12, 00)
+```
 
 **Time From Timestamp**
+```ruby
+# Correct
+Time.zone.at(timestamp)
 
-    # Correct
-    Time.zone.at(timestamp)
-    
-    # Acceptable
-    Time.at(timestamp).in_time_zone
-    
-    # Wrong
-    Time.at(timestamp)
+# Acceptable
+Time.at(timestamp).in_time_zone
+
+# Wrong
+Time.at(timestamp)
+```
 
 

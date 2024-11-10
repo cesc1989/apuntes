@@ -24,35 +24,21 @@
             }
           },
           {
-            "id": "957836564e0b1081",
+            "id": "a36663f62f8892ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "ebd99fd7ce967884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Sublime_Text_-_Atajos_de_Teclado"
+              "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md"
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Sublime_Text_-_Atajos_de_Teclado"
+              "title": "Outline of Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
             }
           }
         ],
@@ -192,9 +178,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebd99fd7ce967884",
+  "active": "a36663f62f8892ef",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "README.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Hogar/Registro_Civil_de_Defunción_Panzon.md",
     "Hogar/Destinos.md",
     "Hogar/Contrato_MetLife.md",
@@ -203,7 +191,6 @@
     "DevAsPros/Gaming_Frog/Lecciones_y_Aprendizajes_.md",
     "DevAsPros/Etom/Redifinir_el_Proyecto_en_tiempo_de_COVID-19.md",
     "DevAsPros/README.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
@@ -222,7 +209,6 @@
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Rails_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Linux_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Query_SQL_para_hallar_answers_con_mal_texto_de_la.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
