@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "54134adedece3c28",
+            "id": "957836564e0b1081",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Incident - Email Blast"
+              "title": "README"
             }
           }
         ],
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -157,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Incident - Email Blast.md"
+                "file": "README.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Incident - Email Blast"
+              "title": "Outline of README"
             }
           }
         ],
@@ -179,12 +178,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54134adedece3c28",
+  "active": "957836564e0b1081",
   "lastOpenFiles": [
+    "DevAsPros/README.md",
+    "README.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/Email Verification/Incident - Email Blast.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Email Verification/Misc Info.md",
-    "Luna/Backend/Email Verification/Incident - Email Blast.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
@@ -206,10 +209,6 @@
     "Luna/Patient_Self_Report/Migrando_a_Ruby_3_1_0_con_wkhtmltopdf.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Frontend_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Triage Issues with Forms.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Luna/Backend/Usando Flipper.md",
-    "Luna/AWS_Single_Sign-On_-_Apuntes.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",

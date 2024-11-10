@@ -99,7 +99,7 @@ Episode
   .joins(:appointments)
   .merge(Appointment.completed)
   .where(appointments: { scheduled_date: 90.days.ago.. })
-  .distinct(:episode_id)
+  F.distinct(:episode_id)
 ```
 
 Next, all the queries ran to debug this case.

@@ -6,7 +6,7 @@ Uso Obsidian para escribir en local y sincronizo mediante Git.
 
 ## Temas
 
-- Dev As Pros
+- [Dev As Pros](./DevAsPros/README)
 - Hogar
 - Luna
 - Juegos y variados
