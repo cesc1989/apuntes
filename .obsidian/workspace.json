@@ -22,37 +22,8 @@
               "icon": "lucide-file",
               "title": "Apuntes_de_Linux_-_Parte_1"
             }
-          },
-          {
-            "id": "4ed3cc81ab335644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Unattended Upgrades"
-            }
-          },
-          {
-            "id": "1b9e604a40488a07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_21_-_Correos"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md"
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_21_-_Correos"
+              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
             }
           }
         ],
@@ -192,12 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b9e604a40488a07",
+  "active": "f1e1041d17284c3a",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "README.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Hogar/Registro_Civil_de_Defunción_Panzon.md",
