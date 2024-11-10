@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "a36663f62f8892ef",
+            "id": "4ed3cc81ab335644",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
+              "title": "Unattended Upgrades"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md"
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
+              "title": "Outline of Unattended Upgrades"
             }
           }
         ],
@@ -167,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,9 +177,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a36663f62f8892ef",
+  "active": "4ed3cc81ab335644",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "README.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Hogar/Registro_Civil_de_Defunción_Panzon.md",
@@ -208,7 +208,6 @@
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_SQL_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Rails_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Linux_-_Luna_Patients.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",

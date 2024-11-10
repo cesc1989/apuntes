@@ -518,8 +518,14 @@ sudo service nginx status
 ### Revisión de Sidekiq luego de reinicio
 
 Sidekiq parecía estar todo en orden. Supongo porque lo tengo montado con Systemd.
+
+Correr:
 ```bash
 systemctl --user status sidekiq.service
+```
+
+Resultado:
+```bash
 ● sidekiq.service - sidekiq
      Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
      Active: active (running) since Fri 2024-09-06 14:24:44 UTC; 1min 12s ago
