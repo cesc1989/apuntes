@@ -36,9 +36,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "ebd99fd7ce967884",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Sublime_Text_-_Atajos_de_Teclado"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Sublime_Text_-_Atajos_de_Teclado"
             }
           }
         ],
@@ -178,10 +192,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957836564e0b1081",
+  "active": "ebd99fd7ce967884",
   "lastOpenFiles": [
-    "Hogar/Registro_Civil_de_Defunción_Panzon.md",
     "README.md",
+    "Hogar/Registro_Civil_de_Defunción_Panzon.md",
     "Hogar/Destinos.md",
     "Hogar/Contrato_MetLife.md",
     "DevAsPros/Gaming_Frog/Lecciones_y_Aprendizajes.md",
