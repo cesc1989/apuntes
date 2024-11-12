@@ -87,6 +87,21 @@ Otherwise it throws an error:
 /Users/francisco/.gem/ruby/3.1.0/gems/actionpack-7.0.4/lib/action_controller/metal.rb:147:in `status=': undefined method `status=' for nil:NilClass (NoMethodError)
 ```
 
+## Works for GET requests (index action)
+
+Example of an index action request:
+```ruby
+controller = Api::V3::PhysicianDashboard::Physicians::Patients::ChartsController.new
+controller.request = ActionDispatch::TestRequest.create
+controller.response = ActionDispatch::TestResponse.new
+
+params = { "physician_id": "7e6fe728-a2f8-4e75-9935-cf2384999385", "patient_id": "07f2016d-e285-4864-ac2b-e28508d19175" }
+controller.params = ActionController::Parameters.new(params)
+
+result = controller.index
+response_body = JSON.parse(controller.response.body)
+```
+
 # HTTP Request
 
 > [!INFO]
