@@ -50,6 +50,11 @@ In a Physician dashboard, to display Unseen patients, Patient Hubspot contacts a
 
 Any associated patient will show in the Unseen section, except when the Patient Hubspot contact's `hs_lead_status` property value is equals to `Patient - Qualified: Booked in Luxe`.
 
+To check if a Patient will show up in a Physician Dashboard Unseen section, in the Patient's Hubspot profile, under the "Contacts" section on the right sidebar, the physician should appear as `Reffering Physician`:
+
+![[30.referring.physician.patient.hubspot.png]]
+
+
 ## Clinics
 
 > [!important]
@@ -61,6 +66,12 @@ In a Clinic dashboard, to display Unseen patients, Patients Hubspot contacts nee
 - `powered_by_luna_code` property equals to Clinic three chars code (i.e, MHS for Memorial)
 - `hs_lead_status` property to be any of the Lead Status values predefined.
 
+To check if a Patient will show up in a Clinic Dashboard Unseen section, in the Patient's Hubspot profile do the following:
+
+- Click "Actions" button
+- Click "View all properties"
+- In the search input look for the values for the mentioned properties: `lead_source`, `powered_by_luna_code`, `hs_lead_status`.
+
 ## Partners
 
 > [!important]
@@ -71,3 +82,9 @@ In a Partner dashboard, to display Unseen patients, Patients Hubspot contacts ne
 - `lead_source` property equals to `Powered by Luna`
 - `powered_by_luna_code` property equals to Partner three chars code (i.e, MHS for Memorial)
 - `hs_lead_status` property to be any of the Lead Status values predefined.
+
+To check if a Patient will show up in a Partner Dashboard Unseen section, in the Patient's Hubspot profile do the following:
+
+- Click "Actions" button
+- Click "View all properties"
+- In the search input look for the values for the mentioned properties: `lead_source`, `powered_by_luna_code`, `hs_lead_status`.

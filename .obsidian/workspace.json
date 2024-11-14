@@ -30,7 +30,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -180,6 +180,7 @@
   },
   "active": "933eebfd6cfc41cd",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
@@ -205,7 +206,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Luna/Backend/Email Verification/Misc Info.md",
     "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Luna/Backend/Patient Profile/attachments",
     "Luna/Backend/Patient Profile",
