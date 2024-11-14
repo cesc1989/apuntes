@@ -31,3 +31,9 @@ Todos en una sola línea:
 ```bash
 pruebas spec/forms/patient_self_report/ spec/lib/patient_self_report/ spec/lib/section_builder/ spec/lib/webhooks/completed_form_spec.rb spec/models/patient_self_report/ spec/requests/patient_self_report/api/v1/ spec/requests/patient_self_report/api/v2/ spec/requests/patient_self_report/api/v3/ spec/routing/patient_self_report/ spec/serializers/patient_self_report/ spec/services/patient_self_report/
 ```
+
+## Patrón "form" en paralelo
+
+```bash
+be rake "parallel:spec[form]"
+```
