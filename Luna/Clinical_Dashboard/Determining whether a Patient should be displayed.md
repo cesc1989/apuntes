@@ -39,7 +39,7 @@ Context: all data shown in the Unseen sections is pulled _only_ from Hubspot.
 
 ~~*(1) What is the query looking for to determine which dashboard an unseen patient should be on? what does query say?*~~
 
-*(2) Where does someone look in Hubspot to find that value?*
+~~*(2) Where does someone look in Hubspot to find that value?*~~
 
 ## Physicians
 
