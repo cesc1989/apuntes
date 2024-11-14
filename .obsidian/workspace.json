@@ -26,6 +26,7 @@
           {
             "id": "933eebfd6cfc41cd",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -33,12 +34,27 @@
                 "mode": "preview",
                 "source": true
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Determining whether a Patient should be displayed"
             }
+          },
+          {
+            "id": "49845548a026839a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Test Runs for Patient Self Report in Edge.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Test Runs for Patient Self Report in Edge"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,14 +194,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "933eebfd6cfc41cd",
+  "active": "49845548a026839a",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Test Runs for Patient Self Report in Edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
     "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - merge_psr_into_edge.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
@@ -204,8 +223,6 @@
     "DevAsPros/README.md",
     "Luna/Backend/Email Verification/Incident - Email Blast.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Luna/Backend/Patient Profile/attachments",
     "Luna/Backend/Patient Profile",
@@ -219,7 +236,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/21.wallabag.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.pikapod.png",
-    "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.code.highlight.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
