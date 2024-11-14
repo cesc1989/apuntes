@@ -7,7 +7,9 @@ How can someone non-eng be able to identify, from different sources, whether a P
 > [!important]
 > Context: To show a Patient in the Seen Patients section on any dashboard kind, a Patient should have the `[kind]_id` value that links to the corresponding kind.
 
-*(1) Where the Athena value comes from. (e.g., which database). i.e., How does Athena get the data?*
+~~*(1) Where the Athena value comes from. (e.g., which database). i.e., How does Athena get the data?*~~
+
+*(2) Q will identify where someone can go to see that data. i.e., Where is the best place for a non-Eng to go see that data?*
 
 ## Physicians
 
@@ -31,13 +33,13 @@ The identifier is `practice_id`.
 
 This ID is added to Patients records when exported to Athena from Luxe DB.
 
-*(2) Q will identify where someone can go to see that data. i.e., Where is the best place for a non-Eng to go see that data?*
-
 # Unseen Patients
 
 Context: all data shown in the Unseen sections is pulled _only_ from Hubspot.
 
-*(1) What is the query looking for to determine which dashboard an unseen patient should be on? what does query say?*
+~~*(1) What is the query looking for to determine which dashboard an unseen patient should be on? what does query say?*~~
+
+*(2) Where does someone look in Hubspot to find that value?*
 
 ## Physicians
 
@@ -69,5 +71,3 @@ In a Partner dashboard, to display Unseen patients, Patients Hubspot contacts ne
 - `lead_source` property equals to `Powered by Luna`
 - `powered_by_luna_code` property equals to Partner three chars code (i.e, MHS for Memorial)
 - `hs_lead_status` property to be any of the Lead Status values predefined.
-
-*(2) Where does someone look in Hubspot to find that value?*
