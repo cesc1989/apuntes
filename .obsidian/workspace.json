@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Test Runs for Patient Self Report in Edge.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Test Runs for Patient Self Report in Edge"
+              "title": "007 - Test Runs for Patient Self Report in Edge"
             }
           }
         ],
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -197,14 +196,14 @@
   },
   "active": "49845548a026839a",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
     "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - merge_psr_into_edge.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
