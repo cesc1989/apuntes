@@ -17,6 +17,15 @@ The identifier is `physician_id`.
 
 This ID is added to Patients records when exported to Athena from Luxe DB.
 
+### How to Check in Luxe?
+
+> [!Note]
+> This is taken from a convo in Slack
+
+**Q: Can someone help me understand what's the relationship between `episode.physician` and `episode.referral_physician_name` ?**
+
+A: _sometimes we don’t have the physician in our system in which case the agent just types their name in a free text field. Clinical team follows up later and makes sure the physician is built in HubSpot and attached in the care plan_
+
 ## Physician Groups
 
 Apply same setup as for Physicians.
