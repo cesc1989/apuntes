@@ -10,7 +10,7 @@ $ brew uninstall --ignore-dependencies postgresql@14
 Uninstalling /opt/homebrew/Cellar/postgresql@14/14.13... (3,323 files, 45.5MB)
 ```
 
-O también así. En este caso postgresql¡6
+O también así. En este caso postgresql 16
 ```bash
 brew uninstall --force postgresql@16
 
