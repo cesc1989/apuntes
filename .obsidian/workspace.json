@@ -26,6 +26,7 @@
           {
             "id": "25a58ae1c223146f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -33,6 +34,7 @@
                 "mode": "preview",
                 "source": true
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Entorno de Desarrollo Linux - Configuracion"
             }
