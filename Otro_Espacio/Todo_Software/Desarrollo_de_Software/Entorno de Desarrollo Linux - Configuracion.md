@@ -29,9 +29,13 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - ~~Dotfiles~~
 - ~~Git~~
 - Git autocompletion
-- Yarn
-- Zellij
+- Yarn -> https://yarnpkg.com/getting-started/install
+- Zellij -> https://zellij.dev/
 - [Youtube DL](https://github.com/ytdl-org/youtube-dl)
+- The Silver Searcher -> https://github.com/ggreer/the_silver_searcher
+- Delta -> https://github.com/dandavison/delta
+- Emote -> https://github.com/tom-james-watson/Emote
+- fzf -> https://junegunn.github.io/fzf/
 
 ## Programación
 
@@ -66,8 +70,6 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - Coshinotes    
     - Ruby 3.1.0
 - Cash Flow
-    - Ruby 3.1.0
-- Patient Self Report
     - Ruby 3.1.0
 - Therapist Signup
     - Ruby 3.0.2
