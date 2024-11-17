@@ -7,9 +7,9 @@
 - Copia la configuracion de SSH config
 - Crea llave SSH para Github
 - Descarga repos:
-  - dotfiles
-  - apuntes
-  - sublime-configs
+  - dotfiles -> https://github.com/cesc1989/dotfiles
+  - apuntes -> https://github.com/cesc1989/apuntes
+  - sublime-configs -> https://github.com/cesc1989/sublime-configs
 
 Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sistema.
 
