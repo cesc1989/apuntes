@@ -1,5 +1,5 @@
 # HDD en Caddy: problemas y alternativas
-Este documento es una continuación de [[Particionando_en_SSD_y_HDD_para_archivos_para_Linu]]
+Este documento es una continuación de [[Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad]]
 
 # Contexto
 

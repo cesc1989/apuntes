@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "39c42cd5ae143692",
+    "id": "79f6d00963bae377",
     "type": "split",
     "children": [
       {
-        "id": "4d6385e5c8035205",
+        "id": "b0d0ceea38c941af",
         "type": "tabs",
         "children": [
           {
-            "id": "e1f30bf87bc26c1b",
+            "id": "f1e1041d17284c3a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -24,19 +24,17 @@
             }
           },
           {
-            "id": "25a58ae1c223146f",
+            "id": "5f552ab7584f8ff3",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad.md",
                 "mode": "preview",
                 "source": true
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Entorno de Desarrollo Linux - Configuracion"
+              "title": "Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad"
             }
           }
         ],
@@ -46,15 +44,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ba230a0fdd908870",
+    "id": "9d88c8061c3dd581",
     "type": "split",
     "children": [
       {
-        "id": "600512b7412aedaa",
+        "id": "39423827f2183eb2",
         "type": "tabs",
         "children": [
           {
-            "id": "f2ff17cc0be16c3e",
+            "id": "8f41a7b7135580f3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -66,12 +64,12 @@
             }
           },
           {
-            "id": "369aee13c64ace89",
+            "id": "e85de9dca06381e1",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "test db",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +81,7 @@
             }
           },
           {
-            "id": "73f1a35d4d18a89c",
+            "id": "c3ee9642e2fcc715",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,22 +94,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.5
+    "width": 375.5
   },
   "right": {
-    "id": "5d925623640028e8",
+    "id": "0cdac2dc7693ce2c",
     "type": "split",
     "children": [
       {
-        "id": "a38a77328a01b47f",
+        "id": "db355f5d9503a97f",
         "type": "tabs",
         "children": [
           {
-            "id": "4cab3488eb43b795",
+            "id": "91af6313d0fc3c7d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,24 +120,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Apuntes_de_Linux_-_Parte_1"
             }
           },
           {
-            "id": "fe1b04829212d169",
+            "id": "d46b159d37be8c8d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Apuntes_de_Linux_-_Parte_1"
             }
           },
           {
-            "id": "04638301ab49025d",
+            "id": "8b36263955dea90c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,16 +151,19 @@
             }
           },
           {
-            "id": "cae3569a3ac27843",
+            "id": "d055db64dc2b3801",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -175,57 +178,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25a58ae1c223146f",
+  "active": "5f552ab7584f8ff3",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo - Parte 1.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a.md",
+    "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
+    "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - merge_psr_into_edge.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "README.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows/How_to_cancel_ChkDsk_in_Windows_8_10.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows/ChkDsk_stuck_at_particular_or_hangs_at_some_Stag.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Sobre_funciones_de_String_y_Enum_frequencies_-.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Sobre_el_ejercicio_Say_-_[Say].md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Sobre_el_ejercicio_Roman_Numerals_-_[Roman_Numer.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Sobre_ejercicio_Grep_-_[Grep].md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Sobre_Strings,_Binaries_y_Charlists_-_[RNA_Tra.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Pattern_Matching_de_Strings_o_Binarios_-_[Pig_La.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Listas_y_Listas_Enlazadas_[Simple_Linked_List].md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Iteración_de_colecciones_y_las_Comprehensions_-.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Enumerables_y_Funciones_Anónimas_-_[Resistor_C.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Tuplas.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Structs_&_Pattern_Matching_Structs.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Pattern_Matching.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Mapas_&_Pattern_Matching_de_Mapas.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Listas_&_Pattern_Matching_de_Listas.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Guard_Clauses.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
+    "Hogar/Registro_Civil_de_Defunción_Panzon.md",
+    "Hogar/Destinos.md",
+    "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
+    "Luna/Backend/Patient Profile/attachments",
+    "Luna/Backend/Patient Profile",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/Pasted image 20240702213153.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/silver.searcher.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/51.linkding.ui.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/50.raindrop.bookmarks.and.annotations.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
-    "Otro_Espacio/Todo_Software/Self Hosting/attachments/21.wallabag.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
+    "Otro_Espacio/Todo_Software/Self Hosting/attachments/21.wallabag.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.pikapod.png",
-    "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.code.highlight.png",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/zellij_panes.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/silver.searcher.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/login.shell.files.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Windows",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Docker",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails",
-    "Canvas/Ruby.canvas",
+    "Otro_Espacio/Todo_Software/Self Hosting",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments",
+    "DevAsPros/SuperAgenda",
     "Canvas/GraphQL.canvas",
-    "apuntes/Canvas/Ruby.canvas",
-    "apuntes/Canvas/GraphQL.canvas"
+    "Canvas/Ruby.canvas"
   ]
 }
