@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando NVMe para Linux Mint LG Gram.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad"
+              "title": "Particionando NVMe para Linux Mint LG Gram"
             }
           }
         ],
@@ -180,12 +180,14 @@
   },
   "active": "5f552ab7584f8ff3",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando NVMe para Linux Mint LG Gram.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a.md",
@@ -207,7 +209,6 @@
     "README.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Hogar/Registro_Civil_de_Defunción_Panzon.md",
-    "Hogar/Destinos.md",
     "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Luna/Backend/Patient Profile/attachments",
     "Luna/Backend/Patient Profile",
@@ -220,7 +221,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/21.wallabag.extractor.png",
-    "Otro_Espacio/Todo_Software/Self Hosting/attachments/10.wallabag.pikapod.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
