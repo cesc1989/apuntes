@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "b2f70af6bd754de3",
+            "id": "e834f4580bcd4f08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_22"
+              "title": "Upgrade to 7.1.4 - Notes"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md"
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_22"
+              "title": "Outline of Upgrade to 7.1.4 - Notes"
             }
           }
         ],
@@ -178,13 +178,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2f70af6bd754de3",
+  "active": "e834f4580bcd4f08",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Plan de QA.md",
     "Luna/Backend/Usando Flipper.md",
@@ -209,7 +210,6 @@
     "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - merge_psr_into_edge.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Luna/Backend/Patient Profile/attachments",
     "Luna/Backend/Patient Profile",

@@ -5,9 +5,9 @@ Ryan wants this upgrade to fix performance issues.
 > [!Info]
 > Upgrading From 7.0 to 7.1 https://guides.rubyonrails.org/v7.1/upgrading_ruby_on_rails.html#upgrading-from-rails-7-0-to-rails-7-1
 
-## Start with Rails 7.0.8.4
+## ✅ Start with Rails 7.0.8.4 ✅
 
-Let's start with this version to get closest to 7.1.0
+~~Let's start with this version to get closest to 7.1.0.~~ Done
 
 ## Rails 7.1.4 to 7.2.1
 
@@ -33,24 +33,6 @@ Releases:
 ## 7.1.0
 
 **Active Support**
-
-Active Support cache stores can now use a preconfigured serializer based on  
-`ActiveSupport::MessagePack` via the `:serializer` option:
-
-```ruby
-config.cache_store = :redis_cache_store, { serializer: :message_pack }
-```
-
-The `:message_pack` serializer can reduce cache entry sizes and improve  
-performance, but requires the [`msgpack` gem](https://rubygems.org/gems/msgpack)  
-(>= 1.7.0).
-
-The `:message_pack` serializer can read cache entries written by the default  
-serializer, and the default serializer can now read entries written by the  
-`:message_pack` serializer. These behaviors make it easy to migrate between  
-serializer without invalidating the entire cache.
-
----
 
 Remove deprecated support to generate incorrect RFC 4122 UUIDs when providing a namespace ID that is not one of the  
 constants defined on `Digest::UUID`.
