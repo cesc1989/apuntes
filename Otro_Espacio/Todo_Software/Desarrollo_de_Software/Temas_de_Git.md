@@ -204,7 +204,9 @@ En realidad, la mejor forma es con la llave SSH así que esto no lo recomendarí
 
 # Cómo usar Git Worktree
 
-Ver [artículo](https://morgan.cugerone.com/blog/how-to-use-git-worktree-and-in-a-clean-way/). Tengo resaltados en Omnivore.
+Etíquetas: #worktree
+
+Ver [artículo](https://morgan.cugerone.com/blog/how-to-use-git-worktree-and-in-a-clean-way/).
 
 > Otra fuente en [Dev](https://dev.to/yankee/practical-guide-to-git-worktree-58o0)
 
@@ -226,7 +228,7 @@ Con un git worktree, se crea una nueva carpeta a partir de la rama que se especi
 ~/projects/devaspros/hotfix
 ```
 
-donde la carpeta “hotfix” sigue siendo parte del mismo proyecto git que está en “coshinotes” pero está cargando el código en una nueva rama diferente a main.
+donde la carpeta `hotfix` sigue siendo parte del mismo proyecto git que está en *coshinotes* pero está cargando el código en una nueva rama diferente a main.
 
 Para crear un worktree nuevo, desde la carpeta donde regularmente se trabaja:
 ```bash
