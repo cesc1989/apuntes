@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
+                "file": "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - QA Plan"
+              "title": "RFC de Comentarios como Favoritos"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md"
+                "file": "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of RFC de Comentarios como Favoritos"
             }
           }
         ],
@@ -179,6 +179,10 @@
   },
   "active": "9041ea38dc731363",
   "lastOpenFiles": [
+    "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
+    "DevAsPros/Coshi_Notes/attachments",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
+    "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
@@ -189,7 +193,6 @@
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Plan de QA.md",
     "Luna/Backend/Usando Flipper.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando NVMe para Linux Mint LG Gram.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad.md",
@@ -206,9 +209,7 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
     "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
     "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Luna/Backend/Patient Profile/attachments",
     "Luna/Backend/Patient Profile",
@@ -224,7 +225,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments",
-    "DevAsPros/SuperAgenda",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
