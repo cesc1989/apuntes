@@ -63,6 +63,8 @@ NoMethodError:
 # ./app/models/concerns/profile.rb:3:in `<top (required)>'
 ```
 
+## The Fix
+
 This is fixed in Rails 7.1.3. See [Action Pack](https://github.com/rails/rails/releases/tag/v7.1.3):
 ```
 - Fix including `Rails.application.routes.url_helpers` directly in an  
@@ -71,7 +73,7 @@ This is fixed in Rails 7.1.3. See [Action Pack](https://github.com/rails/rails/r
     Jonathan Hefner
 ```
 
-# You tried to define an enum named "status" on the model but this will generate a instance method "frozen?", which is already defined by Active Record
+# 🎉 You tried to define an enum named "status" on the model but this will generate a instance method "frozen?", which is already defined by Active Record 🎉
 
 This error:
 ```bash
@@ -119,3 +121,7 @@ enum status: {
 This is because `stateful_enum` generates methods from the keys. So it will generate a `frozen?` method which is [already defined by ActiveRecord](https://apidock.com/rails/v7.0.0/ActiveRecord/Core/ClassMethods/frozen%3F)
 
 See also similar issue report -> https://github.com/amatsuda/stateful_enum/issues/25
+
+## The fix
+
+To fix this, either change the word `frozen` in the enum or [add a prefix/suffix](https://api.rubyonrails.org/v7.1.4/classes/ActiveRecord/Enum.html).
