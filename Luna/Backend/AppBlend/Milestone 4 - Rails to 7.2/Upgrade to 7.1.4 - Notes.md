@@ -25,7 +25,7 @@ DEPRECATION WARNING: `Rails.application.secrets` is deprecated in favor of `Rail
 ```
 
 
-# undefined method _routes for Profile:Module
+# 🎉 undefined method _routes for Profile:Module 🎉
 
 and this error:
 ```bash
@@ -70,3 +70,52 @@ This is fixed in Rails 7.1.3. See [Action Pack](https://github.com/rails/rails/r
     
     Jonathan Hefner
 ```
+
+# You tried to define an enum named "status" on the model but this will generate a instance method "frozen?", which is already defined by Active Record
+
+This error:
+```bash
+An error occurred while loading rails_helper.
+Failure/Error:
+  enum status: {
+    # No invoicing attempts have been made; target changes are allowed
+    draft: 0,
+    # No invoicing attempts have been made; target changes are NOT allowed
+    frozen: 1,
+    # We are about to attempt a charge or a charge is being attempted in Stripe (retrying)
+    processing: 5,
+    # Payment was successful
+    succeeded: 10,
+    # Manually aborted by a human operator or automatically aborted by the system due to changing circumstances
+
+ArgumentError:
+  You tried to define an enum named "status" on the model "InvoicingTarget", but this will generate a instance method "frozen?", which is already defined by Active Record.
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:385:in `raise_conflict_error'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:378:in `detect_enum_conflict!'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:308:in `define_enum_methods'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:276:in `block (2 levels) in _enum'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:270:in `each_pair'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:270:in `each'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:270:in `block in _enum'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:260:in `module_eval'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:260:in `_enum'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:225:in `block in enum'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:225:in `each'
+# /Users/francisco/.gem/ruby/3.1.0/gems/activerecord-7.1.3/lib/active_record/enum.rb:225:in `enum'
+# /Users/francisco/.gem/ruby/3.1.0/gems/stateful_enum-0.7.0/lib/stateful_enum/active_record_extension.rb:14:in `enum'
+# ./app/models/invoicing_target.rb:17:in `<class:InvoicingTarget>'
+# ./app/models/invoicing_target.rb:4:in `<top (required)>'
+```
+
+This error happens in the `InvoicingTarget` model because it defines a `frozen` status which is not valid.
+```ruby
+enum status: {
+    # No invoicing attempts have been made; target changes are allowed
+    draft: 0,
+    # No invoicing attempts have been made; target changes are NOT allowed
+    frozen: 1,
+```
+
+This is because `stateful_enum` generates methods from the keys. So it will generate a `frozen?` method which is [already defined by ActiveRecord](https://apidock.com/rails/v7.0.0/ActiveRecord/Core/ClassMethods/frozen%3F)
+
+See also similar issue report -> https://github.com/amatsuda/stateful_enum/issues/25
