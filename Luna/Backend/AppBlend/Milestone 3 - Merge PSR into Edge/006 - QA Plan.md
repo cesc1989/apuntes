@@ -35,14 +35,14 @@
 - [x] Create brand new Progress Form
 - [x] Save draft of Progress Form
 - [x] Submit Progress Form
-- [ ] Sends NPS to Hubspot
+- [x] Sends NPS to Hubspot
 - [x] Summary Page loads all data
 - [ ] Request new Intake Form
-- [ ] Progress Form loads from Mobile API (aka V2)
-- [ ] Submit Progres Form from Mobile API
-- [ ] Export data for Clinical Dashboard
-- [ ] Export data for MIPS
-- [ ] Export data for Tableau
+- [x] Progress Form loads from Mobile API (aka V2)
+- [x] Submit Progres Form from Mobile API
+- [x] Export data for Clinical Dashboard
+- [x] Export data for MIPS
+- [x] Export data for Tableau
 
 ## Omega
 

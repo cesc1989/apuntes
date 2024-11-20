@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "9041ea38dc731363",
+            "id": "fc96023590cb1a92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RFC de Comentarios como Favoritos"
+              "title": "006 - QA Plan"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of RFC de Comentarios como Favoritos"
+              "title": "Outline of 006 - QA Plan"
             }
           }
         ],
@@ -177,13 +177,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9041ea38dc731363",
+  "active": "fc96023590cb1a92",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "DevAsPros/Coshi_Notes/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
-    "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
@@ -220,7 +220,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/51.linkding.ui.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/50.raindrop.bookmarks.and.annotations.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
-    "Otro_Espacio/Todo_Software/Self Hosting/attachments/20.readeck.extractor.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
