@@ -50,20 +50,6 @@
               "icon": "lucide-file",
               "title": "Upgrade to 7.1.4 - Notes"
             }
-          },
-          {
-            "id": "384012e5b4a9161c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Temas_de_Git"
-            }
           }
         ],
         "currentTab": 2

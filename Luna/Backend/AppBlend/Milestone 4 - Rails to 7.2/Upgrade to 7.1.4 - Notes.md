@@ -63,7 +63,7 @@ NoMethodError:
 # ./app/models/concerns/profile.rb:3:in `<top (required)>'
 ```
 
-## The Fix
+## The Fix 🩹
 
 This is fixed in Rails 7.1.3. See [Action Pack](https://github.com/rails/rails/releases/tag/v7.1.3):
 ```
@@ -122,6 +122,16 @@ This is because `stateful_enum` generates methods from the keys. So it will gene
 
 See also similar issue report -> https://github.com/amatsuda/stateful_enum/issues/25
 
-## The fix
+## The Fix 🩹
 
 To fix this, either change the word `frozen` in the enum or [add a prefix/suffix](https://api.rubyonrails.org/v7.1.4/classes/ActiveRecord/Enum.html).
+
+# Your bundle is locked to mutex_m (0.3.0) from rubygems repository
+
+```
+Your bundle is locked to mutex_m (0.3.0) from rubygems repository
+https://rubygems.org/ or installed locally, but that version can no longer be
+found in that source. That means the author of mutex_m (0.3.0) has removed it.
+You'll need to update your bundle to a version other than mutex_m (0.3.0) that
+hasn't been removed in order to install.
+```
