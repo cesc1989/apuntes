@@ -40,9 +40,9 @@
 - [ ] Request new Intake Form
 - [x] Progress Form loads from Mobile API (aka V2)
 - [x] Submit Progres Form from Mobile API
-- [x] Export data for Clinical Dashboard
-- [x] Export data for MIPS
-- [x] Export data for Tableau
+- [ ] Export data for Clinical Dashboard
+- [ ] Export data for MIPS
+- [ ] Export data for Tableau
 
 ## Omega
 
