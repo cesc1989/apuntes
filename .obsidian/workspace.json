@@ -24,49 +24,21 @@
             }
           },
           {
-            "id": "78395ea5a4933aa1",
+            "id": "06b5cc2e9e02ca63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
+                "file": "DevAsPros/Coshi_Notes/rfcs/003_Comentario Como Tarea.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Notable changes from 7.1.0 to Rails 7.2"
-            }
-          },
-          {
-            "id": "9304a21920001267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Upgrade to 7.1.4 - Notes"
-            }
-          },
-          {
-            "id": "5536722eca016949",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "002_Busqueda Mejorada"
+              "title": "003_Comentario Como Tarea"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md"
+                "file": "DevAsPros/Coshi_Notes/rfcs/003_Comentario Como Tarea.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 002_Busqueda Mejorada"
+              "title": "Outline of 003_Comentario Como Tarea"
             }
           }
         ],
@@ -205,18 +177,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5536722eca016949",
+  "active": "06b5cc2e9e02ca63",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md",
+    "DevAsPros/Coshi_Notes/rfcs/003_Comentario Como Tarea.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "DevAsPros/Coshi_Notes/rfcs/001_Comentarios como Favoritos.md",
     "DevAsPros/Coshi_Notes/Editores_de_Texto_Rico_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
     "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
     "DevAsPros/Coshi_Notes/rfcs",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
@@ -237,8 +211,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a.md",
-    "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
     "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
     "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Luna/Backend/Patient Profile/attachments",
