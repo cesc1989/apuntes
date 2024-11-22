@@ -68,6 +68,20 @@ searchable_type: # la clase de la relación: Tema o Comentario
 
 En callbacks, se configura para que se guarden el contenido en los campos correspondientes y así la búsqueda se hace sobre el modelo `Search` en lugar de `Theme` o `Comment`.
 
+Así es el schema resultante del [ejemplo](https://github.com/stevepolitodesign/rails-search-across-multiple-models/blob/main/db/schema.rb#L22-L30) de Steve Polito:
+```ruby
+  create_table "search_entries", force: :cascade do |t|
+    t.string "title"
+    t.text "body"
+    t.string "searchable_type", null: false
+    t.integer "searchable_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["searchable_type", "searchable_id"], name: "index_search_entries_on_searchable"
+  end
+```
+
+
 ## Enlaces
 
 Este se acerca más a lo que quiero:
