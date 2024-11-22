@@ -1,4 +1,4 @@
-# RFC de Comentarios como Favoritos
+# RFC 001: Comentarios como Favoritos
 
 En Coshi Notes se marcan los comentarios como favoritos cambiando una bandera booleana.
 

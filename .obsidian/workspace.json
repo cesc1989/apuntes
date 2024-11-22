@@ -24,20 +24,6 @@
             }
           },
           {
-            "id": "05653c875bf9ee3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "006 - QA Plan"
-            }
-          },
-          {
             "id": "78395ea5a4933aa1",
             "type": "leaf",
             "state": {
@@ -64,9 +50,23 @@
               "icon": "lucide-file",
               "title": "Upgrade to 7.1.4 - Notes"
             }
+          },
+          {
+            "id": "5536722eca016949",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "002_Busqueda Mejorada"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -184,10 +184,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md"
+                "file": "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of 002_Busqueda Mejorada"
             }
           }
         ],
@@ -205,15 +205,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05653c875bf9ee3f",
+  "active": "5536722eca016949",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md",
+    "DevAsPros/Coshi_Notes/rfcs/001_Comentarios como Favoritos.md",
+    "DevAsPros/Coshi_Notes/Editores_de_Texto_Rico_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
+    "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
+    "DevAsPros/Coshi_Notes/rfcs",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
-    "DevAsPros/Coshi_Notes/RFC de Comentarios como Favoritos.md",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "DevAsPros/Coshi_Notes/attachments",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
@@ -234,10 +239,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a.md",
     "Luna/Clinical_Dashboard/Determining whether a Patient should be displayed.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
     "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Luna/Backend/Patient Profile/attachments",
@@ -252,7 +253,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Otro_Espacio/Todo_Software/Self Hosting",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
