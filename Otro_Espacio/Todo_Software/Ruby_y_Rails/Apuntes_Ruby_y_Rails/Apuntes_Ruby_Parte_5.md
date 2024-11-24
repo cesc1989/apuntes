@@ -132,3 +132,20 @@ Admin::Inline.nesting #=> [Admin::Inline]
 
 > ruby is aware that the Admin::Nested constant is defined within an Admin namespace. Whereas with the inline class, ruby considers the Admin::Inline class to just be on its own.
 
+# ¿Cómo desinstalar versión de Ruby instalada con ruby-install?
+
+ruby-install hace dos cosas:
+
+- descarga los archivos fuentes en la carpeta `~/src`
+- instala las versiones de Ruby en la carpeta `~/.rubies/`
+
+Todo lo que esté en `~/.rubies/` es leído por el comando `chruby` y lo mostrará como versión disponible para usar.
+
+Así que para desinstalar una versión de Ruby instalada con ruby-install hay que eliminar la carpeta en ambos sitios:
+
+- En `~/src` para limpiar el espacio en disco
+- En `~/.rubies/` para desinstalar esa versión
+
+Una vez eliminada de la carpeta `~/.rubies/` hay que recargar el shell para que no aparezca en las versiones listadas por `chruby`.
+
+Visto en este [issue](https://github.com/postmodern/ruby-install/issues/135).
