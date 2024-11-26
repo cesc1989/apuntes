@@ -30,7 +30,7 @@ class AddSequenceToPrimaryKey < ActiveRecord::Migration[7.0]
     # Create a new sequence
     sequence_name = "#{table_name}_#{primary_key_column}_seq"
     execute <<-SQL
-      CREATE SEQUENCE #{sequence_name} OWNED BY #{table_name}.#{primary_key_column};
+      CREATE SEQUENCE IF NOT EXISTS #{sequence_name} OWNED BY #{table_name}.#{primary_key_column};
     SQL
 
     # Attach the sequence as the default value for the primary key column
