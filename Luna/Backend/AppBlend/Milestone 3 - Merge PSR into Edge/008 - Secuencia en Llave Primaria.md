@@ -24,8 +24,8 @@ Así me dice que haga ChatGPT:
 ```ruby
 class AddSequenceToPrimaryKey < ActiveRecord::Migration[7.0]
   def up
-    table_name = :your_table_name
-    primary_key_column = :id
+    table_name = "your_table_name"
+    primary_key_column = "id"
 
     # Create a new sequence
     sequence_name = "#{table_name}_#{primary_key_column}_seq"
@@ -49,8 +49,8 @@ class AddSequenceToPrimaryKey < ActiveRecord::Migration[7.0]
   end
 
   def down
-    table_name = :your_table_name
-    primary_key_column = :id
+    table_name = "your_table_name"
+    primary_key_column = "id"
 
     # Remove the sequence
     sequence_name = "#{table_name}_#{primary_key_column}_seq"
