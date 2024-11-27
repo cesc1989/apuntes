@@ -1,7 +1,7 @@
 # Deshaciendo cambios con git reset —hard
 Tenía que deshacer varios cambios de la rama del code review luego de que esos cambios no iban a ser posible incluirlos en el repo.
 
-Ya tenía varios commits entre el cambio a quitar y lo más reciente. No era práctico deshacerlo manualmente. Tenía que usar `git reset` `--``hard`.
+Ya tenía varios commits entre el cambio a quitar y lo más reciente. No era práctico deshacerlo manualmente. Tenía que usar `git reset --hard`.
 
 # Usando git reset —hard
 
