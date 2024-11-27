@@ -106,3 +106,21 @@ luna_api_development_7=# select last_value from psr_patients_id_seq;
 
 > [!Note]
 > Sobre cómo ver el último valor en una secuencia -> https://stackoverflow.com/a/14886371/1407371
+
+También lo pude comprobar en los registros de Answers para ese form recién creado
+```json
+{
+  "id": 9223260118544186019,
+},
+{
+  "id": 9223260118544186020,
+},
+{
+  "id": 9223260118544186021,
+},
+{
+  "id": 9223260118544186022,
+}
+```
+
+Vemos como los últimos dígitos van ascendiendo.
