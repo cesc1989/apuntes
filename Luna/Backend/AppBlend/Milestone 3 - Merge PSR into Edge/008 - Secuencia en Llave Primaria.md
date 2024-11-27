@@ -67,3 +67,42 @@ end
 ```
 
 Dada la cantidad de tablas lo mejor será hacer un array e iterarlas para correr la consulta SQL.
+
+Nota el uso de
+```sql
+CREATE SEQUENCE IF NOT EXISTS
+```
+
+porque en la copia de alpha la secuencia `psr_patients_id_seq` ya existía pero algunas no.
+
+## Probando en Local
+
+Las pruebas corrieron bien. También pude crear un Form/Patient. Sin embargo, no había quitado el código del concern que asigna un ID aleatorio. En este caso el ID no se generó usando el valor máximo de la secuencia:
+```ruby
+=> #<PatientSelfReport::Patient:0x000000012eec7e88
+ id: 7319873199729848546,
+
+#########
+
+PatientSelfReport::Patient.select("id").max
+  PatientSelfReport::Patient Load (40.3ms)  SELECT "psr_patients"."id" FROM "psr_patients"
+=> #<PatientSelfReport::Patient:0x000000013d71c968 id: 9222664801011049464>
+```
+
+Una vez quito ese código, se empieza a usar el valor de la secuencia para generar el siguiente ID:
+```sql
+luna_api_development_7=# select last_value from psr_patients_id_seq;
+     last_value
+---------------------
+ 9222664801011049464
+(1 row)
+
+luna_api_development_7=# select last_value from psr_patients_id_seq;
+     last_value
+---------------------
+ 9222664801011049465
+(1 row)
+```
+
+> [!Note]
+> Sobre cómo ver el último valor en una secuencia -> https://stackoverflow.com/a/14886371/1407371
