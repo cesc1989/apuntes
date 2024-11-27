@@ -584,3 +584,31 @@ acti7.1.3.4/lib/active_support/broadcast_logger.rb        231     Proc    2
 ```
 
 > This works because when you pass a block to the logger method (debug in this case) the block will only be called if the log level is currently being logged.
+
+# Correr dos servidores Rails de una misma aplicación
+
+> [!Note]
+> Quise hacer esto para poder probar las peticiones que se enviaban al servicio Patient Forms que vivirá dentro de Edge en Luna.
+> Si no levantaba un 2do servidor, el inicial moría con timeout.
+
+Necesito estar en la misma carpeta dos veces para lanzar dos veces el comando `rails server` especificando dos puertos diferentes.
+
+**Terminal 1**
+```
+cd ~/projects/backend
+
+bundle exec rails server
+```
+
+Este va a correr en el puerto 3000.
+
+**Terminal 2**
+```
+cd ~/projects/backend
+
+bundle exec rails server -p 3006 -P tmp/pids/segundo.pid
+```
+
+Este va a correr en el puerto 3006 y adicional específico que el archivo del PID (process ID) estará en la carpeta `tmp/pids`.
+
+Tengo que especificar el archivo o sino Rails tratará de usar el por defecto `tmp/pids/server.pid`.
