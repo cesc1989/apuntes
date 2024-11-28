@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
+              "title": "Outline of 005  - Pruebas de Webhooks y Fechas"
             }
           }
         ],
@@ -152,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,21 +162,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
+    "Luna/Marketplace/MPF/From CA to MPF.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - merge_psr_into_edge.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
@@ -188,9 +190,6 @@
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "DevAsPros/Coshi_Notes/rfcs",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "DevAsPros/Coshi_Notes/attachments",
