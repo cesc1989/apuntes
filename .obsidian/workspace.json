@@ -24,35 +24,21 @@
             }
           },
           {
-            "id": "cdb86d9567e44752",
+            "id": "1fd7140016829dae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "007 - Test Runs for Patient Self Report in Edge"
-            }
-          },
-          {
-            "id": "c53c298bf61e291b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "006 - QA Plan ✅"
+              "title": "009 - Revision Crons de Exports"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan ✅"
+              "title": "Outline of 009 - Revision Crons de Exports"
             }
           }
         ],
@@ -191,14 +177,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c53c298bf61e291b",
+  "active": "1fd7140016829dae",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
@@ -218,7 +205,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "DevAsPros/Coshi_Notes/rfcs",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "DevAsPros/Coshi_Notes/attachments",
