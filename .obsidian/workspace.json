@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "1fd7140016829dae",
+            "id": "41a065c24e9f90e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "009 - Revision Crons de Exports"
+              "title": "Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md"
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 009 - Revision Crons de Exports"
+              "title": "Outline of Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ],
@@ -177,9 +177,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1fd7140016829dae",
+  "active": "41a065c24e9f90e4",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
@@ -202,9 +206,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Entorno de Desarrollo Linux - Configuracion.md",
     "DevAsPros/Coshi_Notes/rfcs",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "DevAsPros/Coshi_Notes/attachments",
@@ -224,7 +225,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/attachments/22.readeck.links.png",
     "Otro_Espacio/Todo_Software/Self Hosting/attachments",
     "Otro_Espacio/Todo_Software/Self Hosting",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
