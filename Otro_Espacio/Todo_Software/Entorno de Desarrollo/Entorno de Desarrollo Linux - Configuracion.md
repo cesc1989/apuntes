@@ -2,14 +2,15 @@
 
 ## Primero
 
-- Inicia sesion en Firefox Accounts y sincroniza el navegador
-- Descarga y ejecuta este sript https://gist.github.com/cesc1989/5f538428d143d8e5427f#file-01_provision_linux_mint-sh-L46
-- Copia la configuracion de SSH config
-- Crea llave SSH para Github
+- [x] Inicia sesión en Firefox Accounts y sincroniza el navegador
+- Descarga y ejecuta este script de provisionamiento inicial
+	- [x] Script - [Gist](https://gist.github.com/cesc1989/5f538428d143d8e5427f#file-01_provision_linux_mint-sh-L46)
+- [x] Copia la configuracion de SSH config
+- [x] Crea llave SSH para Github
 - Descarga repos:
-  - dotfiles -> https://github.com/cesc1989/dotfiles
-  - apuntes -> https://github.com/cesc1989/apuntes
-  - sublime-configs -> https://github.com/cesc1989/sublime-configs
+  - [x] dotfiles -> https://github.com/cesc1989/dotfiles
+  - [x] apuntes -> https://github.com/cesc1989/apuntes
+  - [x] sublime-configs -> https://github.com/cesc1989/sublime-configs
 
 Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sistema.
 
