@@ -31,11 +31,11 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - Git autocompletion
 - Yarn -> https://yarnpkg.com/getting-started/install
 - ~~Zellij -> https://zellij.dev/~~
-- [Youtube DL](https://github.com/ytdl-org/youtube-dl)
-- The Silver Searcher -> https://github.com/ggreer/the_silver_searcher
-- Delta -> https://github.com/dandavison/delta
-- Emote -> https://github.com/tom-james-watson/Emote
-- fzf -> https://junegunn.github.io/fzf/
+- Youtube DL -> https://github.com/ytdl-org/youtube-dl
+- ~~The Silver Searcher -> https://github.com/ggreer/the_silver_searcher~~
+- ~~Delta -> https://github.com/dandavison/delta~~
+- ~~Emote -> https://github.com/tom-james-watson/Emote~~
+- ~~fzf -> https://junegunn.github.io/fzf/~~
 
 ## Programación
 
