@@ -18,10 +18,6 @@ pruebas spec/requests/patient_self_report/api/v1/
 pruebas spec/requests/patient_self_report/api/v2/
 pruebas spec/requests/patient_self_report/api/v3/
 
-pruebas spec/routing/patient_self_report/
-
-pruebas spec/serializers/patient_self_report/
-
 pruebas spec/services/patient_self_report/
 ```
 
@@ -29,7 +25,7 @@ pruebas spec/services/patient_self_report/
 
 Todos en una sola línea:
 ```bash
-pruebas spec/forms/patient_self_report/ spec/lib/patient_self_report/ spec/lib/section_builder/ spec/lib/webhooks/completed_form_spec.rb spec/models/patient_self_report/ spec/requests/patient_self_report/api/v1/ spec/requests/patient_self_report/api/v2/ spec/requests/patient_self_report/api/v3/ spec/routing/patient_self_report/ spec/serializers/patient_self_report/ spec/services/patient_self_report/
+pruebas spec/forms/patient_self_report/ spec/lib/patient_self_report/ spec/lib/section_builder/ spec/lib/webhooks/completed_form_spec.rb spec/models/patient_self_report/ spec/requests/patient_self_report/api/v1/ spec/requests/patient_self_report/api/v2/ spec/requests/patient_self_report/api/v3/ spec/services/patient_self_report/
 ```
 
 ## Patrón "form" en paralelo
@@ -50,5 +46,5 @@ be rspec $TEST_FILES
 ## Paralelo especificando carpetas
 
 ```bash
-parallel_rspec -- -f progress -- spec/forms/patient_self_report/ spec/lib/patient_self_report/ spec/lib/section_builder/ spec/lib/webhooks/completed_form_spec.rb spec/models/patient_self_report/ spec/requests/patient_self_report/api/v1/ spec/requests/patient_self_report/api/v2/ spec/requests/patient_self_report/api/v3/ spec/routing/patient_self_report/ spec/serializers/patient_self_report/ spec/services/patient_self_report/
+parallel_rspec -- -f progress -- spec/forms/patient_self_report/ spec/lib/patient_self_report/ spec/lib/section_builder/ spec/lib/webhooks/completed_form_spec.rb spec/models/patient_self_report/ spec/requests/patient_self_report/api/v1/ spec/requests/patient_self_report/api/v2/ spec/requests/patient_self_report/api/v3/ spec/services/patient_self_report/
 ```
