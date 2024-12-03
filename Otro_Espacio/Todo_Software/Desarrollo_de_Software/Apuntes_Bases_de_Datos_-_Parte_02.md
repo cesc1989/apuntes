@@ -43,3 +43,28 @@ Las funciones más comunes son:
 - AVG()
 - MIN()
 - MAX()
+
+# Saber el peso en disco de una base de datos PostgreSQL
+
+Hay dos formas.
+
+## Con una query:
+
+```sql
+SELECT pg_size_pretty(pg_database_size('db_name'));
+```
+
+
+## Con comandos de psql
+
+```
+\l+
+```
+
+Ejemplo:
+```
+luna_api_development_7  | francisco | UTF8     | 10 GB   | pg_default |
+luna_api_development_8  | francisco | UTF8     | 11 GB   | pg_default |
+```
+
+Visto en [Stack Overflow](https://stackoverflow.com/questions/14346371/postgresql-find-total-disk-space-used-by-a-database).
