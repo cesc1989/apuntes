@@ -124,3 +124,44 @@ También lo pude comprobar en los registros de Answers para ese form recién cre
 ```
 
 Vemos como los últimos dígitos van ascendiendo.
+
+# Script para revisar la secuencia está sincronizada
+
+```ruby
+tables = %w[
+  psr_patients
+  form_types
+  forms
+  intake_forms
+  pain_spots
+  diseases
+  questions
+  option_choices
+  answers
+  aggravating_activities
+  surgeries
+  medications
+  intake_form_diseases
+  intake_form_pain_spots
+  patient_form_details
+]
+
+# Para cambiar la sequencia
+tables.each do |table|
+  sequence_name = "#{table}_id_seq"
+
+  max_id = ActiveRecord::Base.connection.execute("SELECT MAX(id) FROM #{table}").values.first.first
+  ActiveRecord::Base.connection.execute("SELECT setval('#{sequence_name}', #{max_id}, true);")
+end
+
+# Para revisar la secuencia
+tables.each do |table|
+  sequence_name = "#{table}_id_seq"
+
+  max_id = ActiveRecord::Base.connection.execute("SELECT MAX(id) FROM #{table}").values
+  seq = ActiveRecord::Base.connection.execute("select last_value from #{sequence_name}").values
+
+  p "For #{table}. Max ID: #{max_id} - Sequence: #{seq}"
+end
+
+```

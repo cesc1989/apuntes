@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Apuntes_de_Linux_-_Parte_1"
             }
+          },
+          {
+            "id": "6fe7f207fcb3e625",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "008 - Secuencia en Llave Primaria ✅"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
+              "title": "Outline of 008 - Secuencia en Llave Primaria ✅"
             }
           }
         ],
@@ -162,12 +177,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "6fe7f207fcb3e625",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
@@ -179,12 +197,9 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
