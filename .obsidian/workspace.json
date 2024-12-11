@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "21ed91ae35621ad6",
+            "id": "1b27579ee0e2b7c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/04 - Rails.env.local? vs Luna.env.local?.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "04 - Rails.env.local? vs Luna.env.local?"
+              "title": "02 - Plan de QA"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/04 - Rails.env.local? vs Luna.env.local?.md"
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 04 - Rails.env.local? vs Luna.env.local?"
+              "title": "Outline of 02 - Plan de QA"
             }
           }
         ],
@@ -177,25 +177,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21ed91ae35621ad6",
+  "active": "1b27579ee0e2b7c6",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/04 - Rails.env.local? vs Luna.env.local?.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/04 - Rails.env.local? vs Luna.env.local?.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",

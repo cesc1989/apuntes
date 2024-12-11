@@ -3,13 +3,10 @@
 ## Browse and interact in Luxe
 
 Actions Menu
-- [ ] Browse all sections
 - Assist
 	- [ ] Create a deduction
 - Benefit Verifications
 	-  [ ]  Filter by any attribute
-- Patient Duplicates
-	- [ ] Resolve and merge patient 
 
 Patients / Profile
 - [ ] Search patient
@@ -20,7 +17,6 @@ Patients / Profile
 Files menu
 - [ ] Open Document shares
 - [ ] Mark one as read
-- [ ] Visit Incoming faxes
 
 Clinical menu
 - [ ] Go to Auto charts section
