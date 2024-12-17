@@ -199,3 +199,65 @@ So I read more the log and it looks like to be database-cleaner.
 ## The Fix 🩹
 
 The fix is to upgrade gem to database_cleaner-active_record to 2.1.0 as [mentioned](https://github.com/DatabaseCleaner/database_cleaner-active_record/issues/83#issuecomment-1464759691).
+
+# ArgumentError: Only UUIDs are valid namespace identifiers
+
+```
+Failure/Error: Digest::UUID.uuid_v5(ENV.fetch("AWS_SNS_APP_#{platform.upcase}_#{app_type.upcase}"), device_token)
+
+      ArgumentError:
+        Only UUIDs are valid namespace identifiers
+      # ./spec/support/aws_sns_stubbed_methods.rb:136:in `mock_arn_token'
+      # ./spec/support/aws_sns_stubbed_methods.rb:22:in `block (2 levels) in <module:StubbedMethods>'
+```
+
+This cannot be disabled with settings because the deprecated support is removed from Rails 7.1.4.
+
+See
+- [[01 - Notable changes from 7.1.0 to Rails 7.2#7.1.0]]
+- [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_support.use_rfc4122_namespaced_uuids?]]
+
+Need to change it to a compliant UUID.
+
+## Context
+
+The stub uses the method `Digest::UUID.uuid_v5`. What does it do?
+
+Docs -> https://api.rubyonrails.org/classes/Digest/UUID.html#method-c-uuid_v5
+
+> [!Note]
+> `uuid_v5(uuid_namespace, name)`
+>
+> Convenience method for uuid_from_hash using OpenSSL::Digest::SHA1.
+
+In the [Rails issue](https://github.com/rails/rails/issues/37681) and [PR fix](https://github.com/rails/rails/pull/37682) I see OP doing this:
+```ruby
+Digest::UUID.uuid_v5(Digest::UUID::DNS_NAMESPACE, "www.widgets.com")
+```
+
+Besides, in [this other commit](https://github.com/mysociety/alaveteli/pull/6915/files) from some random project they pass a UUID as the namespace part
+```ruby
+module User::LoginToken
+  extend ActiveSupport::Concern
+
+  LOGIN_TOKEN_NAMESPACE = 'b14cba73-a392-4de4-a9ed-06d7f0ced429'
+
+  def set_login_token!
+    self.login_token = Digest::UUID.uuid_v5(
+      LOGIN_TOKEN_NAMESPACE,
+      {
+        user: id,
+        email: email,
+        hashed_password: hashed_password
+      }.to_s
+    )
+  end
+end
+```
+
+So I tried something similar for the `uuid_namespace` parameter:
+```ruby
+Digest::UUID.uuid_v5(Digest::UUID::DNS_NAMESPACE, ENV.fetch("AWS_SNS_APP_#{platform.upcase}_#{app_type.upcase}"))
+```
+
+And it made tests pass. Is it correct and enough?
