@@ -135,3 +135,67 @@ found in that source. That means the author of mutex_m (0.3.0) has removed it.
 You'll need to update your bundle to a version other than mutex_m (0.3.0) that
 hasn't been removed in order to install.
 ```
+
+This error went away without me doing anything.
+
+# ArgumentError for ActiveRecord-Import gem
+
+This error in tests:
+
+```bash
+ 1) TherapistBadges achieved badges should return only the correct achieved badge of each type
+     Failure/Error:
+       NotificationSetting.kinds.each_key
+         .map { |kind| { account_id: id, kind: kind, communication_methods: ["push"], enabled: true } }
+         .then { |settings| NotificationSetting.import(settings, on_duplicate_key_ignore: true) }
+
+     ArgumentError:
+       wrong number of arguments (given 0, expected 1)
+     # ./app/models/therapist.rb:1223:in `block in set_notification_setting_defaults'
+     # ./app/models/therapist.rb:1223:in `set_notification_setting_defaults'
+```
+
+## The Fix 🩹
+
+Fixed by upgrading activerecord-import gem to 1.5.0.
+
+# undefined method table_name for ActiveRecord::SchemaMigration:Class
+
+This:
+
+```bash
+Failure/Error: DatabaseCleaner.clean_with(:truncation)
+
+     NoMethodError:
+       undefined method `table_name' for ActiveRecord::SchemaMigration:Class
+
+               ::ActiveRecord::SchemaMigration.table_name
+                                              ^^^^^^^^^^^
+     # /Users/francisco/.gem/ruby/3.1.0/gems/database_cleaner-active_record-2.0.1/lib/database_cleaner/active_record/base.rb:18:in `migration_table_name'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/database_cleaner-active_record-2.0.1/lib/database_cleaner/active_record/base.rb:23:in `exclusion_condition'
+     # /Users/francisco/.gem/ruby/3.1.0/gems/database_cleaner-active_record-2.0.1/lib/database_cleaner/active_record/truncation.rb:239:in `tables_with_schema'
+```
+
+The first search results pointed to Ransack but ActiveAdmin was already upgraded to version 3.1.0 and so Ransack is upgraded as well to a version that fixes it.
+
+Ransack repo links:
+- Issue: https://github.com/activerecord-hackery/ransack/issues/1444
+- Release of 4.2.1 https://github.com/activerecord-hackery/ransack/releases/tag/v4.2.1
+
+Gemfile status
+```
+# Gemfile.lock
+ransack (4.2.1)
+      activerecord (>= 6.1.5)
+      activesupport (>= 6.1.5)
+      i18n
+
+# Gemfile
+gem "activeadmin", "3.1.0"
+```
+
+So I read more the log and it looks like to be database-cleaner.
+
+## The Fix 🩹
+
+The fix is to upgrade gem to database_cleaner-active_record to 2.1.0 as [mentioned](https://github.com/DatabaseCleaner/database_cleaner-active_record/issues/83#issuecomment-1464759691).
