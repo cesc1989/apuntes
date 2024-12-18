@@ -53,3 +53,20 @@ La ruta en `action` es `/expenditures/217` y usa un campo oculto para poder pasa
 - guías https://guides.rubyonrails.org/v7.0/form_helpers.html#dealing-with-model-objects
 - Tuto en Medium https://medium.com/@eelan.tung/rails-forms-384cd22c65cc
 - Otro tuto https://human-se.github.io/rails-demos-n-deets-2020/demo-resource-update/
+
+# Campo `datetime_local_field` no aceptaba el input en Firefox Mobile
+
+Desde que empecé a usar el campo `datetime_local_field` en el form, desde Firefox Mobile no se podía guardar gastos a menos que lo dejara tal cual y como cargaba el form.
+
+Cuando carga el form se mostraba la fecha y hora con `DateTime.current`.
+
+Probando con Ngrok, me di cuenta que la petición ni siquiera llegaba al servidor. Simplemente el botón guardar no hacía nada. El formulario tampoco mostraba errores y Firefox no indicaba nada.
+
+Le pregunté a ChatGPT y la sugerencia fue forzar el formato esperado por el campo `datetime_local_field`. Lo hice así:
+```ruby
+<% expenditure_date = @expenditure.new_record? ? DateTime.current : @expenditure.spent_at %>
+
+<%= form.datetime_local_field :spent_at, class: 'form-control', value: expenditure_date.strftime('%Y-%m-%dT%H:%M') %>
+```
+
+De esa forma pude probar y funcionaba de nuevo el form en Firefox Mobile. Todo era cuestión de forzar el formato. Según gepeto, es porque en navegadores Mobiles los estándares se aplican de manera más estricta.
