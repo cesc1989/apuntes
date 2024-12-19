@@ -202,7 +202,7 @@ The fix is to upgrade gem to database_cleaner-active_record to 2.1.0 as [mention
 
 # ArgumentError: Only UUIDs are valid namespace identifiers
 
-```
+```bash
 Failure/Error: Digest::UUID.uuid_v5(ENV.fetch("AWS_SNS_APP_#{platform.upcase}_#{app_type.upcase}"), device_token)
 
       ArgumentError:
@@ -219,7 +219,7 @@ See
 
 Need to change it to a compliant UUID.
 
-## Context
+## Context and Fix 🩹
 
 The stub uses the method `Digest::UUID.uuid_v5`. What does it do?
 
@@ -261,3 +261,131 @@ Digest::UUID.uuid_v5(Digest::UUID::DNS_NAMESPACE, ENV.fetch("AWS_SNS_APP_#{platf
 ```
 
 And it made tests pass. Is it correct and enough?
+
+# undefined method show_exceptions? for ActionDispatch::Request POST "http://www.example.com/graphql for 127.0.0.1
+
+This big ass error:
+```bash
+1) node { ... on Therapist } → Conversation returns the therapist and their conversation
+Failure/Error: post endpoint, params: params, headers: headers
+
+NoMethodError:
+  undefined method `show_exceptions?' for #<ActionDispatch::Request POST "http://www.example.com/graphql" for 127.0.0.1>
+
+          return if request.show_exceptions? && !Sentry.configuration.rails.report_rescued_exceptions
+                           ^^^^^^^^^^^^^^^^^
+# /usr/local/bundle/gems/sentry-rails-5.7.0/lib/sentry/rails/capture_exceptions.rb:27:in `capture_exception'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry/rack/capture_exceptions.rb:33:in `rescue in block (2 levels) in call'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry/rack/capture_exceptions.rb:27:in `block (2 levels) in call'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry/hub.rb:220:in `with_session_tracking'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry-ruby.rb:375:in `with_session_tracking'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry/rack/capture_exceptions.rb:19:in `block in call'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry/hub.rb:59:in `with_scope'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry-ruby.rb:355:in `with_scope'
+# /usr/local/bundle/gems/sentry-ruby-5.7.0/lib/sentry/rack/capture_exceptions.rb:18:in `call'
+# /usr/local/bundle/gems/railties-7.1.4/lib/rails/rack/logger.rb:37:in `call_app'
+# /usr/local/bundle/gems/railties-7.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+# /usr/local/bundle/gems/railties-7.1.4/lib/rails/rack/logger.rb:24:in `call'
+# /usr/local/bundle/gems/request_store-1.7.0/lib/request_store/middleware.rb:19:in `call'
+# /usr/local/bundle/gems/rack-2.2.10/lib/rack/method_override.rb:24:in `call'
+# /usr/local/bundle/gems/rack-2.2.10/lib/rack/runtime.rb:22:in `call'
+# /usr/local/bundle/gems/rack-2.2.10/lib/rack/sendfile.rb:110:in `call'
+# /usr/local/bundle/gems/rack-cors-2.0.1/lib/rack/cors.rb:102:in `call'
+# /usr/local/bundle/bundler/gems/secure_headers-7a23cb6b350b/lib/secure_headers/middleware.rb:11:in `call'
+# /usr/local/bundle/gems/railties-7.1.4/lib/rails/engine.rb:536:in `call'
+# /usr/local/bundle/gems/rack-test-2.1.0/lib/rack/test.rb:360:in `process_request'
+# /usr/local/bundle/gems/rack-test-2.1.0/lib/rack/test.rb:153:in `request'
+# /usr/local/bundle/gems/rails-controller-testing-1.0.5/lib/rails/controller/testing/integration.rb:16:in `block (2 levels) in <module:Integration>'
+# ./spec/support/graphql_helpers.rb:5:in `load_data_strictly'
+# ./spec/requests/graphql/queries/fields/node_therapist_query_spec.rb:62:in `block (3 levels) in <top (required)>'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+# /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+# ------------------
+# --- Caused by: ---
+# PG::UndefinedColumn:
+#   ERROR:  column patients.patient_id does not exist
+#   LINE 1: ...CT DISTINCT "patients"."id" FROM "patients" WHERE "patients"...
+#                                                                ^
+#   /usr/local/bundle/gems/bullet-7.1.4/lib/bullet/active_record71.rb:46:in `records'
+```
+
+In this test:
+```
+pruebas ./spec/requests/graphql/queries/fields/node_therapist_query_spec.rb
+
+pruebas ./spec/requests/api/v1/internal/provider_communications_spec.rb
+
+pruebas ./spec/controllers/api/v1/therapist/careplans_controller_spec.rb
+
+pruebas ./spec/requests/api/v2/external/phaxio_spec.rb
+
+pruebas ./spec/requests/api/v1/internal/patient_communications_spec.rb
+```
+
+# undefined method hgetall for ConnectionPool
+
+```bash
+1) Metrics::Provider#read_metric when using redis rails cache when the value is present in the cache reads the metric value from the cache
+Failure/Error: cache.redis.hgetall(definition.redis_key)
+
+NoMethodError:
+  undefined method `hgetall' for #<ConnectionPool:0x00007f34e932a6e8 @size=5, @timeout=5, @auto_reload_after_fork=true, @available=#<ConnectionPool::TimedStack:0x00007f34e932a4b8 @create_block=#<Proc:0x00007f34e932a648 /usr/local/bundle/gems/activesupport-7.1.4/lib/active_support/cache/redis_cache_store.rb:153>, @created=0, @que=[], @max=5, @mutex=#<Thread::Mutex:0x00007f34e932a008>, @resource=#<Thread::ConditionVariable:0x00007f34e9329f40>, @shutdown_block=nil>, @key=:"pool-3957680", @key_count=:"pool-3957680-count">
+
+                cache.redis.hgetall(definition.redis_key)
+                           ^^^^^^^^
+# ./app/services/metrics/provider.rb:41:in `read_metric'
+# ./spec/services/metrics/provider_spec.rb:119:in `block (5 levels) in <top (required)>'
+```
+
+In this test:
+```
+pruebas ./spec/services/metrics/provider_spec.rb
+```
+
+# PG::UndefinedColumn: ERROR: column patients.patient_id does not exist
+
+```bash
+1) Therapist scopes .conversable_patients does not exclude patients with care plans that are scheduling disabled
+Failure/Error: expect(therapist.reload.conversable_patients).to eq [patient]
+
+ActiveRecord::StatementInvalid:
+ PG::UndefinedColumn: ERROR:  column patients.patient_id does not exist
+ LINE 1: ...ELECT DISTINCT "patients".* FROM "patients" WHERE "patients"...
+                                                              ^
+# /usr/local/bundle/gems/bullet-7.1.4/lib/bullet/active_record71.rb:46:in `records'
+# /usr/local/bundle/gems/bullet-7.1.4/lib/bullet/active_record71.rb:202:in `load_target'
+# ./spec/models/therapist_spec.rb:42:in `block (4 levels) in <top (required)>'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+# /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+# /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+# ------------------
+# --- Caused by: ---
+# PG::UndefinedColumn:
+#   ERROR:  column patients.patient_id does not exist
+#   LINE 1: ...ELECT DISTINCT "patients".* FROM "patients" WHERE "patients"...
+#                                                                ^
+#   /usr/local/bundle/gems/bullet-7.1.4/lib/bullet/active_record71.rb:46:in `records'
+```
+
+In this test:
+```
+pruebas ./spec/models/therapist_spec.rb
+
+pruebas ./spec/controllers/api/v3/therapist/charts_controller_spec.rb
+
+pruebas ./spec/workers/hidden_therapist_conversations_reading_worker_spec.rb
+
+pruebas ./spec/requests/graphql/queries/fields/viewer_therapist_query_spec.rb
+
+pruebas ./spec/controllers/api/v1/patient/conversations_controller_spec.rb
+
+pruebas ./spec/requests/admin/scheduler_therapists_spec.rb
+```
+

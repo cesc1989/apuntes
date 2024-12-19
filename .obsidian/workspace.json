@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "828081d7ba176d7a",
+            "id": "5e73fc6541b7aa67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_22"
+              "title": "Upgrade to 7.1.4 - Notes"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git reset",
+                "query": "sidekiq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md"
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_22"
+              "title": "Outline of Upgrade to 7.1.4 - Notes"
             }
           }
         ],
@@ -177,12 +177,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "828081d7ba176d7a",
+  "active": "5e73fc6541b7aa67",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Usando_Ngrok.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
@@ -190,14 +193,12 @@
     "Luna/Comandos y Configuración de Kubectl.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Rails.env.local?.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/009 - Revision Crons de Exports.md",
     "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
@@ -205,7 +206,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/005  - Pruebas de Webhooks y Fechas.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
     "DevAsPros/Coshi_Notes/rfcs",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "DevAsPros/Coshi_Notes/attachments",
