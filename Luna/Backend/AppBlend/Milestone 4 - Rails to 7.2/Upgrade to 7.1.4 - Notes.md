@@ -262,7 +262,12 @@ Digest::UUID.uuid_v5(Digest::UUID::DNS_NAMESPACE, ENV.fetch("AWS_SNS_APP_#{platf
 
 And it made tests pass. Is it correct and enough?
 
-# undefined method show_exceptions? for ActionDispatch::Request POST "http://www.example.com/graphql for 127.0.0.1
+# PG::UndefinedColumn ERROR:  column patients.patient_id does not exist for conversable_patients
+
+
+## undefined method show_exceptions? for ActionDispatch::Request POST `http://www.example.com/graphql` for 127.0.0.1
+
+This one produces a different error but in the log we can see it's similar to the next one.
 
 This big ass error:
 ```bash
@@ -326,27 +331,8 @@ pruebas ./spec/requests/api/v2/external/phaxio_spec.rb
 pruebas ./spec/requests/api/v1/internal/patient_communications_spec.rb
 ```
 
-# undefined method hgetall for ConnectionPool
 
-```bash
-1) Metrics::Provider#read_metric when using redis rails cache when the value is present in the cache reads the metric value from the cache
-Failure/Error: cache.redis.hgetall(definition.redis_key)
-
-NoMethodError:
-  undefined method `hgetall' for #<ConnectionPool:0x00007f34e932a6e8 @size=5, @timeout=5, @auto_reload_after_fork=true, @available=#<ConnectionPool::TimedStack:0x00007f34e932a4b8 @create_block=#<Proc:0x00007f34e932a648 /usr/local/bundle/gems/activesupport-7.1.4/lib/active_support/cache/redis_cache_store.rb:153>, @created=0, @que=[], @max=5, @mutex=#<Thread::Mutex:0x00007f34e932a008>, @resource=#<Thread::ConditionVariable:0x00007f34e9329f40>, @shutdown_block=nil>, @key=:"pool-3957680", @key_count=:"pool-3957680-count">
-
-                cache.redis.hgetall(definition.redis_key)
-                           ^^^^^^^^
-# ./app/services/metrics/provider.rb:41:in `read_metric'
-# ./spec/services/metrics/provider_spec.rb:119:in `block (5 levels) in <top (required)>'
-```
-
-In this test:
-```
-pruebas ./spec/services/metrics/provider_spec.rb
-```
-
-# PG::UndefinedColumn: ERROR: column patients.patient_id does not exist
+## PG::UndefinedColumn: ERROR: column patients.patient_id does not exist
 
 ```bash
 1) Therapist scopes .conversable_patients does not exclude patients with care plans that are scheduling disabled
@@ -389,3 +375,62 @@ pruebas ./spec/controllers/api/v1/patient/conversations_controller_spec.rb
 pruebas ./spec/requests/admin/scheduler_therapists_spec.rb
 ```
 
+
+# undefined method hgetall for ConnectionPool
+
+```bash
+1) Metrics::Provider#read_metric when using redis rails cache when the value is present in the cache reads the metric value from the cache
+Failure/Error: cache.redis.hgetall(definition.redis_key)
+
+NoMethodError:
+  undefined method `hgetall' for #<ConnectionPool:0x00007f34e932a6e8 @size=5, @timeout=5, @auto_reload_after_fork=true, @available=#<ConnectionPool::TimedStack:0x00007f34e932a4b8 @create_block=#<Proc:0x00007f34e932a648 /usr/local/bundle/gems/activesupport-7.1.4/lib/active_support/cache/redis_cache_store.rb:153>, @created=0, @que=[], @max=5, @mutex=#<Thread::Mutex:0x00007f34e932a008>, @resource=#<Thread::ConditionVariable:0x00007f34e9329f40>, @shutdown_block=nil>, @key=:"pool-3957680", @key_count=:"pool-3957680-count">
+
+                cache.redis.hgetall(definition.redis_key)
+                           ^^^^^^^^
+# ./app/services/metrics/provider.rb:41:in `read_metric'
+# ./spec/services/metrics/provider_spec.rb:119:in `block (5 levels) in <top (required)>'
+```
+
+In this test:
+```
+pruebas ./spec/services/metrics/provider_spec.rb
+```
+
+## Context
+
+The problem here is that for some reason in Rails 7.1.4 the `cache.redis` instance is this:
+```ruby
+"ConnectionPool"
+
+"#<ConnectionPool:0x0000000138aed4e8 @size=5, @timeout=5, @auto_reload_after_fork=true, @available=#<ConnectionPool::TimedStack:0x0000000138aed240 @create_block=#<Proc:0x0000000138aed498 /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.1.4/lib/active_support/cache/redis_cache_store.rb:153>, @created=0, @que=[], @max=5, @mutex=#<Thread::Mutex:0x0000000138aed1a0>, @resource=#<Thread::ConditionVariable:0x0000000138aed150>, @shutdown_block=nil>, @key=:\"pool-119480\", @key_count=:\"pool-119480-count\">"
+```
+
+But in Rails 7.0.8.4:
+```ruby
+"MockRedis"
+
+"#<MockRedis:0x0000000130f8c268 @options={:scheme=>\"redis\", :host=>\"127.0.0.1\", :port=>6379, :path=>nil, :timeout=>5.0, :password=>nil, :logger=>nil, :db=>0, :time_class=>Time}, @db=#<MockRedis::PipelinedWrapper:0x0000000130f87ad8 @db=#<MockRedis::TransactionWrapper:0x0000000130f87ba0 @db=#<MockRedis::ExpireWrapper:0x0000000130f87c18 @db=#<MockRedis::MultiDbWrapper:0x0000000130f87ec0 @db_index=0, @prototype_db=#<MockRedis::Database:0x0000000130f87e48 @base=#<MockRedis:0x0000000130f8c268 ...>, @data={}, @expire_times=[]>, @databases={0=>#<MockRedis::Database:0x0000000130f8c038 @base=#<MockRedis:0x0000000130f8c268 ...>, @data={\"luxe_cache:metric/cached_test_metric\"=>\"43\", \"luxe_cache:metric/tagged_test_metric\"=>{\"category=good&name=alice\"=>\"45\", \"category=bad&name=bob\"=>\"46\"}}, @expire_times=[]>}>>, @transaction_futures=[], @multi_stack=[], @multi_block_given=false>, @pipelined_futures=[], @nesting_level=0>>"
+```
+
+## The Fix 🩹
+
+The problem is that, starting Rails 7.1.0, connection pooling is enabled by default for `MemCacheStore` and `RedisCacheStore`.
+
+> Enable connection pooling by default for `MemCacheStore` and `RedisCacheStore`
+
+This caused the instantiation to [enter the branch](https://github.com/rails/rails/blob/v7.1.4/activesupport/lib/active_support/cache/redis_cache_store.rb#L152-L153) where a connection pool is set to the `@redis` ivar:
+
+```ruby
+if pool_options = self.class.send(:retrieve_pool_options, redis_options)
+	@redis = ::ConnectionPool.new(pool_options) { self.class.build_redis(**redis_options) }
+else
+```
+
+To fix it add the `pool: false` option when creating new instances of `RedisCacheStore`:
+```ruby
+let(:cache) { ActiveSupport::Cache::RedisCacheStore.new(redis: redis, namespace: "luxe_cache", pool: false) }
+```
+
+## Links
+
+`RedisCacheStore` definition for Rails 7.0.8.4 -> https://github.com/rails/rails/blob/v7.0.8.4/activesupport/lib/active_support/cache/redis_cache_store.rb#L149
