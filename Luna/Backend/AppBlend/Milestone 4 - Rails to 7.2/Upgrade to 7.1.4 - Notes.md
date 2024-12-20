@@ -138,7 +138,7 @@ hasn't been removed in order to install.
 
 This error went away without me doing anything.
 
-# ArgumentError for ActiveRecord-Import gem
+# 🎉 ArgumentError for ActiveRecord-Import gem 🎉
 
 This error in tests:
 
@@ -159,7 +159,7 @@ This error in tests:
 
 Fixed by upgrading activerecord-import gem to 1.5.0.
 
-# undefined method table_name for ActiveRecord::SchemaMigration:Class
+# 🎉 undefined method table_name for ActiveRecord::SchemaMigration:Class 🎉
 
 This:
 
@@ -200,7 +200,7 @@ So I read more the log and it looks like to be database-cleaner.
 
 The fix is to upgrade gem to database_cleaner-active_record to 2.1.0 as [mentioned](https://github.com/DatabaseCleaner/database_cleaner-active_record/issues/83#issuecomment-1464759691).
 
-# ArgumentError: Only UUIDs are valid namespace identifiers
+# 🎉 ArgumentError: Only UUIDs are valid namespace identifiers 🎉
 
 ```bash
 Failure/Error: Digest::UUID.uuid_v5(ENV.fetch("AWS_SNS_APP_#{platform.upcase}_#{app_type.upcase}"), device_token)
@@ -376,7 +376,7 @@ pruebas ./spec/requests/admin/scheduler_therapists_spec.rb
 ```
 
 
-# undefined method hgetall for ConnectionPool
+# 🎉 undefined method hgetall for ConnectionPool 🎉
 
 ```bash
 1) Metrics::Provider#read_metric when using redis rails cache when the value is present in the cache reads the metric value from the cache
