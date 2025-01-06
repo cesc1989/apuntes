@@ -16,66 +16,56 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 
 ## General
 
-- ~~Firefox~~
-- ~~Brave~~
-- ~~Zoom~~
-- ~~VLC~~
-- Mega CMD
+- [x] Firefox
+- [x] Brave
+- [x] Zoom
+- [x] VLC
+- [ ] Mega CMD
 
 ## Sistema
 
-- ~~Copiar/crear llaves SSH~~
-    - ~~github~~
-    - ~~dap_server~~
-- ~~Dotfiles~~
-- ~~Git~~
-- Git autocompletion
-- Yarn -> https://yarnpkg.com/getting-started/install
-- ~~Zellij -> https://zellij.dev/~~
-- Youtube DL -> https://github.com/ytdl-org/youtube-dl
-- ~~The Silver Searcher -> https://github.com/ggreer/the_silver_searcher~~
-- ~~Delta -> https://github.com/dandavison/delta~~
-- ~~Emote -> https://github.com/tom-james-watson/Emote~~
-- ~~fzf -> https://junegunn.github.io/fzf/~~
+- [x] Copiar/crear llaves SSH
+    - [x] github
+    - [x] dap_server
+- [x] Dotfiles
+- [x] Git
+- [ ] Git autocompletion
+- [ ] Yarn -> https://yarnpkg.com/getting-started/install
+- [x] Zellij -> https://zellij.dev/
+- [ ] Youtube DL -> https://github.com/ytdl-org/youtube-dl
+- [x] The Silver Searcher -> https://github.com/ggreer/the_silver_searcher
+- [x] Delta -> https://github.com/dandavison/delta
+- [x] Emote -> https://github.com/tom-james-watson/Emote
+- [x] fzf -> https://junegunn.github.io/fzf/
 
 ## Programación
 
-- ~~chruby~~
-- ~~ruby-install~~
-- ~~NVM~~
-- VirtualBox
-- Image Magick
-- ~~Sublime Text 4~~
-    - Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
-- DBeaver 
-- PostgreSQL - v16 
+- [x] chruby
+- [x] ruby-install
+- [x] NVM
+- [ ] VirtualBox
+- [ ]  Image Magick
+- [x] Sublime Text 4
+- [ ] Sublime Text Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
+- [ ] DBeaver 
+- [ ] PostgreSQL - v16 
     - [Instrucciones](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) para Ubuntu / Linux Mint
-- ~~Redis~~
-- Postman
-- MySQL Workbench
-- Python
-    - Version 3
-
+- [x] Redis
+- [ ] Postman
+- [ ] MySQL Workbench
+- [ ] Python3
 
 ## Carpetas
 
-- Carpeta projects
-    - luna projects
-    - devaspros projects
-- Carpeta música
-- Carpeta pictures
-- Carpeta documents
+- [ ] Carpeta projects
+- [ ] devaspros projects
+- [ ] Carpeta música
+- [ ] Carpeta pictures
+- [ ] Carpeta documents
 
 ## Configuración de Proyectos
 
-- Coshinotes    
+- [ ] Coshi Notes    
     - Ruby 3.1.0
-- Cash Flow
+- [ ] Cash Flow
     - Ruby 3.1.0
-- Therapist Signup
-    - Ruby 3.0.2
-- Clinical Dashboard
-    - Ruby 3.0.2
-- Edge
-    - Ruby 3.1.0
-- Marketplace

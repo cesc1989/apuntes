@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Apuntes_de_Linux_-_Parte_1"
             }
+          },
+          {
+            "id": "12823013217473c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entorno de Desarrollo Linux - Configuracion"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
+              "title": "Outline of Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ],
@@ -162,11 +177,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "12823013217473c1",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Usando Flipper.md",
