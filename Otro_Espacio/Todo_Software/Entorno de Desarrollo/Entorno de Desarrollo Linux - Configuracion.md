@@ -1,5 +1,7 @@
 # Todo lo que debo instalara Linux Mint 21.3 Virginia - PC de Trabajo
 
+Esta version esta sobre Ubuntu 22.04
+
 ## Primero
 
 - [x] Inicia sesión en Firefox Accounts y sincroniza el navegador
