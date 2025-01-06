@@ -43,29 +43,30 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] chruby
 - [x] ruby-install
 - [x] NVM
-- [ ] VirtualBox
-- [ ]  Image Magick
+- [ ] Image Magick
 - [x] Sublime Text 4
-- [ ] Sublime Text Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
+- [x] Sublime Text Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
 - [ ] DBeaver 
 - [ ] PostgreSQL - v16 
     - [Instrucciones](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) para Ubuntu / Linux Mint
 - [x] Redis
 - [ ] Postman
 - [ ] MySQL Workbench
+- [ ] Virtualbox
+- [ ] Docker
 - [ ] Python3
 
 ## Carpetas
 
-- [ ] Carpeta projects
-- [ ] devaspros projects
-- [ ] Carpeta música
+- [x] Carpeta projects
+- [x] devaspros projects
+- [x] Carpeta música
 - [ ] Carpeta pictures
 - [ ] Carpeta documents
 
 ## Configuración de Proyectos
 
-- [ ] Coshi Notes    
-    - Ruby 3.1.0
-- [ ] Cash Flow
-    - Ruby 3.1.0
+- [x] Coshi Notes    
+    - Ruby 3.2.5
+- [x] Cash Flow
+    - Ruby 3.2.5
