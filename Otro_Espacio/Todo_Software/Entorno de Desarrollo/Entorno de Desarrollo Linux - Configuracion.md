@@ -48,12 +48,12 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [ ] Image Magick
 - [x] Sublime Text 4
 - [x] Sublime Text Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
-- [ ] DBeaver 
+- [x] DBeaver 
 - [ ] PostgreSQL - v16 
     - [Instrucciones](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) para Ubuntu / Linux Mint
 - [x] Redis
-- [ ] Postman
-- [ ] MySQL Workbench
+- [x] Postman
+- [x] MySQL Workbench
 - [ ] Virtualbox
 - [ ] Docker
 - [ ] Python3
