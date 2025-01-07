@@ -589,6 +589,7 @@ acti7.1.3.4/lib/active_support/broadcast_logger.rb        231     Proc    2
 
 > [!Note]
 > Quise hacer esto para poder probar las peticiones que se enviaban al servicio Patient Forms que vivirá dentro de Edge en Luna.
+> 
 > Si no levantaba un 2do servidor, el inicial moría con timeout.
 
 Necesito estar en la misma carpeta dos veces para lanzar dos veces el comando `rails server` especificando dos puertos diferentes.
@@ -612,3 +613,39 @@ bundle exec rails server -p 3006 -P tmp/pids/segundo.pid
 Este va a correr en el puerto 3006 y adicional específico que el archivo del PID (process ID) estará en la carpeta `tmp/pids`.
 
 Tengo que especificar el archivo o sino Rails tratará de usar el por defecto `tmp/pids/server.pid`.
+
+# Entendiendo `inverse_of` en asociaciones
+
+Resulta que en el upgrade a Rails 7.1.4 de Edge encontré con un error causado por tener estas asociaciones así:
+```ruby
+# Therapist model
+
+has_many :conversable_patients, lambda { |therapist|
+    therapist
+    .patients
+    .without_active_waitlist_entry
+    .where(id: therapist
+      .appointments
+      .joins(:episode)
+      .active
+      .where(scheduled_date: 60.days.ago..)
+      .select(:patient_id))
+    .unscope(where: :therapist_id)
+    .distinct
+  }, class_name: "Patient", inverse_of: "conversable_team"
+
+# Patient model
+
+has_many :conversable_team, lambda { |patient|
+    unscope(where: :patient_id)
+    .where(id: patient.therapists.filter { |therapist| therapist.conversable_patients.include?(patient) })
+  }, class_name: "Therapist"
+```
+
+El error que causaban era que rails trataba de buscar una columna `patient_id` en la tabla patients en lugar de buscar `id`.
+
+Ver en [[Upgrade to 7.1.4 - Notes#PG UndefinedColumn ERROR column patients.patient_id does not exist for conversable_patients]]
+
+La solución está en quitar el `inverse_of`. ¿Por qué? ¿Qué hace esa opción?
+
+Una explicación clara está en este [artículo en Viget](https://www.viget.com/articles/exploring-the-inverse-of-option-on-rails-model-associations/)

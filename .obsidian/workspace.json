@@ -24,21 +24,35 @@
             }
           },
           {
-            "id": "12823013217473c1",
+            "id": "fcc54fc3e4d8bf9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entorno de Desarrollo Linux - Configuracion"
+              "title": "Upgrade to 7.1.4 - Notes"
+            }
+          },
+          {
+            "id": "02bf0d731ffeed6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Ruby_on_Rails_Parte_4"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md"
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Entorno de Desarrollo Linux - Configuracion"
+              "title": "Outline of Apuntes_Ruby_on_Rails_Parte_4"
             }
           }
         ],
@@ -177,8 +191,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12823013217473c1",
+  "active": "02bf0d731ffeed6d",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "cashflow/vendor/javascript",
     "cashflow/vendor",
     "cashflow/tmp",
@@ -189,7 +207,6 @@
     "cashflow/spec/system/sessions/user_sign_in_spec.rb",
     "cashflow/spec/system/expenditures/index_spec.rb",
     "cashflow/spec/system/explore/index_spec.rb",
-    "cashflow/spec/mailers/previews/chores_preview.rb",
     "cashflow/scripts/README.md",
     "cashflow/public/apple-touch-icon.png",
     "cashflow/public/apple-touch-icon-precomposed.png",
@@ -198,9 +215,7 @@
     "cashflow/app/assets/images/not_found.jpg",
     "cashflow/app/assets/images/favicon.png",
     "cashflow/README.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Usando Flipper.md",
@@ -219,7 +234,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Usando_Ngrok.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",

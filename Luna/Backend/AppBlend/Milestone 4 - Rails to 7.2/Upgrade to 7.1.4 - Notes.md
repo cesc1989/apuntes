@@ -345,6 +345,16 @@ pruebas ./spec/controllers/api/v1/patient/conversations_controller_spec.rb
 pruebas ./spec/requests/admin/scheduler_therapists_spec.rb
 ```
 
+## The Fix 🩹
+
+The fix is to remove the `inverse_of` definition in the model.
+
+```diff
+- }, class_name: "Patient", inverse_of: "conversable_team"
++ }, class_name: "Patient"
+```
+
+Why?
 
 # 🎉 undefined method hgetall for ConnectionPool 🎉
 
