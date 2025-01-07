@@ -31,6 +31,8 @@ Se suben así:
 aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements-pdf/maryland_agreement.pdf s3://luna-alpha-workloads-therapist-signup-agreement-pdfs/ --profile alpha
 ```
 
+## Carga en Lote
+
 Cuando hay que modificar varios al tiempo, lo mejor es subirlos al tiempo también.
 
 **En Alpha**
@@ -44,6 +46,8 @@ aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements-pdf/ s3://luna
 ```
 
 Documentación del [comando cp](https://docs.aws.amazon.com/cli/latest/reference/s3/cp.html).
+
+## Borrar
 
 Si necesito borrar archivos en grupo, sería así:
 ```

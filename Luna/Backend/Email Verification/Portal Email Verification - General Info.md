@@ -1,4 +1,4 @@
-# User Email Verification - Genera Info
+# User Email Verification - General Info
 
 This verification is done for access to Clinical Dashboard and Patient Escalations.
 
@@ -387,6 +387,10 @@ This property is a dropdown and has these values:
 - Opt-out
 
 > The internal value of these labels is the same, *downcased*.
+
+> [!Info]
+> This value is represented in the database. You can find it by looking at the `portal_email_cadence` field in the `portal_configs` table.
+> The value that indicates a use opted-out is `3`.
 
 # Creando UserCommunicationMethod en las Pruebas: ShadowUser o Account?
 

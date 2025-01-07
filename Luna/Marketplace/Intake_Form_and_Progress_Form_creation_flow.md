@@ -1,5 +1,8 @@
 # Intake Form and Progress Form creation flow
 
+Other References:
+- [[Navegando_creación_de_intake_form]]
+
 # Intake Form
 
 After a new Care Plan is created, a job to create a new intake form is triggered.
@@ -180,8 +183,3 @@ Here is the code that triggers the event https://github.com/lunacare/marketplace
     
         @_apply.register(events.TherapistFinishedSession)
 ```
-
-
-# Other References
-
-- [[Navegando_creación_de_intake_form]]

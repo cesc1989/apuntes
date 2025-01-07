@@ -10,6 +10,8 @@ Temporalmente solucionado al hacer `docker logout` cómo comentan en [este Issue
 
 # Error de Linux Alpine que no tiene wkhtmltopdf
 
+Etiquetas: #wkhtmltopdf #alpine
+
 Enlaces:
 
 - Página de [listado de versiones](https://www.ruby-lang.org/en/downloads/releases/) liberadas de Ruby

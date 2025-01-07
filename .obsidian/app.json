@@ -6,5 +6,12 @@
   "alwaysUpdateLinks": true,
   "autoPairMarkdown": false,
   "foldIndent": false,
-  "tabSize": 2
+  "tabSize": 2,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

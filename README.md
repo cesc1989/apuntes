@@ -6,7 +6,7 @@ Uso Obsidian para escribir en local y sincronizo mediante Git.
 
 ## Temas
 
-- Dev As Pros
+- [Dev As Pros](./DevAsPros/README.md)
 - Hogar
 - Luna
 - Juegos y variados
@@ -23,6 +23,6 @@ Uso Obsidian para escribir en local y sincronizo mediante Git.
 		- Apuntes de Elixir
 	- Cheat Sheets
 - Entre otras muchas cosas más como:
-	- Atajos de Sublime Text
+	- [Atajos de Sublime Text](./Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md)
 	- Notas de lecturas de Internet
 	- Notas herramientas

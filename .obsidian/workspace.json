@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Apuntes_de_Linux_-_Parte_1"
             }
+          },
+          {
+            "id": "12823013217473c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entorno de Desarrollo Linux - Configuracion"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,12 +69,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rails_migrations",
-                "matchingCase": true,
+                "query": "sidekiq",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -123,7 +138,7 @@
             }
           },
           {
-            "id": "c5fc2d95784c502b",
+            "id": "8b36263955dea90c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,19 +151,19 @@
             }
           },
           {
-            "id": "69d64e3528c7eaee",
+            "id": "d055db64dc2b3801",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md"
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Linux_-_Parte_1"
+              "title": "Outline of Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,54 +177,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1e1041d17284c3a",
+  "active": "12823013217473c1",
   "lastOpenFiles": [
-    "Luna/Backend/Notas sobre Logical Replication.md",
+    "cashflow/vendor/javascript",
+    "cashflow/vendor",
+    "cashflow/tmp",
+    "cashflow/storage",
+    "cashflow/spec/views/expenditures/index.html.erb_spec.rb",
+    "cashflow/spec/views/categories/show.html.erb_spec.rb",
+    "cashflow/spec/views/categories/index.html.erb_spec.rb",
+    "cashflow/spec/system/sessions/user_sign_in_spec.rb",
+    "cashflow/spec/system/expenditures/index_spec.rb",
+    "cashflow/spec/system/explore/index_spec.rb",
+    "cashflow/spec/mailers/previews/chores_preview.rb",
+    "cashflow/scripts/README.md",
+    "cashflow/public/apple-touch-icon.png",
+    "cashflow/public/apple-touch-icon-precomposed.png",
+    "cashflow/docs/erd.png",
+    "cashflow/docs/db_docs.md",
+    "cashflow/app/assets/images/not_found.jpg",
+    "cashflow/app/assets/images/favicon.png",
+    "cashflow/README.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 Migraciones de Forms en Edge.md",
-    "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
-    "conflict-files-obsidian-git.md",
-    "Otro_Espacio/Todo_Software/Self Hosting",
-    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001_merge_psr_into_edge.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Make Request to a service endpoints from itself.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Mezclar Apps como Engines, Packwerk o solo Namespaces.md",
-    "Untitled.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
-    "Luna/Backend/attachments/02.lr.example.target.png",
-    "Luna/Backend/attachments/01.lr.example.source.png",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Clean code is downstream of clear thinking - Jason Swett.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/Dull Blades - Jason Swett.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La_Idealización_del_Código_-_Apuntes_de_artículos.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett",
-    "Luna/Playbook del Triage📙.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/Usando Flipper.md",
+    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
+    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Types_for_Existing_Uploaded_Files.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/GDrive_Files_-_Inspection.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/S3_Files_-_Inspection.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Mitigate_File-Upload_Issues.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Conversion_to_Supported_Formats.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Upload_Flow_Steps_and_States.md",
+    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Usando_Ngrok.md",
-    "Luna/Migración_a_Rails_6.md",
-    "Luna/Migración_a_Rails_7.md",
-    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Backend/Email Verification/attachments/02.escalation.recipients.emoji.png",
-    "Luna/Backend/Email Verification/attachments/01.portal.recipients.emoji.png",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments/schema.no.precision.in.timestamps.png",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2/attachments",
-    "DevAsPros/SuperAgenda",
-    "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
-    "Luna/Backend/AppBlend/Milestone 2 b - Rails to 7.2",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments/005 - guardian name.png",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/attachments",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/untitled folder",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade",
-    "Luna/Marketplace/MPF",
-    "Luna/Marketplace/Visit Plans",
-    "Luna/Backend/AppBlend/attachments/actsupp.disable_to_s.png",
-    "Luna/Backend/AppBlend/attachments/actsupp.use_rfc4122.png",
-    "Luna/Marketplace/attachments/visitplan.flow.2.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
+    "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",
+    "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
+    "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
