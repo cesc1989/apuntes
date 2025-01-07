@@ -354,7 +354,7 @@ The fix is to remove the `inverse_of` definition in the model.
 + }, class_name: "Patient"
 ```
 
-Why?
+Why? See [[Apuntes_Ruby_on_Rails_Parte_4#Entendiendo `inverse_of` en asociaciones]]
 
 # 🎉 undefined method hgetall for ConnectionPool 🎉
 
@@ -414,3 +414,35 @@ let(:cache) { ActiveSupport::Cache::RedisCacheStore.new(redis: redis, namespace:
 ## Links
 
 `RedisCacheStore` definition for Rails 7.0.8.4 -> https://github.com/rails/rails/blob/v7.0.8.4/activesupport/lib/active_support/cache/redis_cache_store.rb#L149
+
+# Empty response.body for controller tests
+
+This error:
+```ruby
+1) SubmitPaymentController Actions when the patient has a payment token when payment information and patient state are valid should be able to make a payment
+     Failure/Error: expect(response.body.include?("thankyou")).to be_truthy
+
+       expected: truthy value
+            got: false
+     # ./spec/controllers/submit_payment_controller_spec.rb:57:in `block (4 levels) in <top (required)>'
+```
+
+Triggered by `response.body.include?("thankyou")`. Turns out that in Rails 7.1.4, `response.body` returns an empty string:
+```ruby
+(byebug) response.body
+""
+```
+
+However, in Rails 7.0.8.4 it would return something. For example:
+```ruby
+"<html><body>You are being <a href=\"http://test.host/payments_thankyou\">redirected</a>.</body></html>"
+```
+
+According to ChatGPT, this happens because in Rails 7.1.4, in case of URL redirects, `response.body` changed to return an empty body because that's usually the way actual redirects work in the browser.
+
+To test the contents of the response one have to access `response.location`:
+```ruby
+(byebug) response.location
+"http://test.host/payments_thankyou"
+```
+
