@@ -262,8 +262,9 @@ Digest::UUID.uuid_v5(Digest::UUID::DNS_NAMESPACE, ENV.fetch("AWS_SNS_APP_#{platf
 
 And it made tests pass. Is it correct and enough?
 
-# PG::UndefinedColumn ERROR:  column patients.patient_id does not exist for conversable_patients
+# 🎉 PG::UndefinedColumn ERROR:  column patients.patient_id does not exist for conversable_patients 🎉
 
+Two errors.
 
 ## undefined method show_exceptions? for ActionDispatch::Request POST `http://www.example.com/graphql` for 127.0.0.1
 
@@ -439,6 +440,8 @@ However, in Rails 7.0.8.4 it would return something. For example:
 ```
 
 According to ChatGPT, this happens because in Rails 7.1.4, in case of URL redirects, `response.body` changed to return an empty body because that's usually the way actual redirects work in the browser.
+
+## The Fix 🩹
 
 To test the contents of the response one have to access `response.location`:
 ```ruby
