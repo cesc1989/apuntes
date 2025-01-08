@@ -510,3 +510,21 @@ To test the contents of the response one have to access `response.location`:
 "http://test.host/payments_thankyou"
 ```
 
+# undefined method while_preventing_writes for ActiveRecord::ConnectionAdapters::ConnectionHandler
+
+Happening a lot in Alpha:
+```ruby
+undefined method while_preventing_writes for ActiveRecord::ConnectionAdapters::ConnectionHandler:0x00007f62759cc320 @connection_name_to_pool_manager=<Concurrent::Map:0x00007f62759cc140 entries=1 default_proc=nil>>
+
+        ActiveRecord::Base.connection_handler.while_preventing_writes(true, &block)
+```
+
+Happens in the database switch code for reading multiple dbs:
+```ruby
+# app/util/database_switching.rb
+def self.on_read_database(&block)
+    if replica_available?
+      ActiveRecord::Base.connected_to(role: :reading) do
+        ActiveRecord::Base.connection_handler.while_preventing_writes(true, &block)
+      end
+```

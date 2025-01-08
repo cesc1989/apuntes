@@ -73,7 +73,7 @@ Once `config.load_defaults 7.0`, I have to setup:
 config.active_record.legacy_connection_handling = true
 ```
 
-More context on this setting -> https://guides.rubyonrails.org/v7.0.4/active_record_multiple_databases.html#migrate-to-the-new-connection-handling
+More context on this setting in the [Multiple Databases guides](https://guides.rubyonrails.org/v7.0.4/active_record_multiple_databases.html#migrate-to-the-new-connection-handling)
 
 > In Rails 6.1+, Active Record provides a new internal API for connection management. In most cases applications will not need to make any changes ==except to opt-in to the new behavior (if upgrading from 6.0 and below==) by setting [`config.active_record.legacy_connection_handling`](https://guides.rubyonrails.org/v7.0.4/configuring.html#config-active-record-legacy-connection-handling) to `false`.
 
@@ -81,7 +81,7 @@ Looks like it needs to be turned on because in Rails 7 `legacy_connection_handli
 
 When Edge was in Rails 6.1.7.8, `config.load_defaults` was set to 6.0 so `legacy_connection_handling` was true. However, once I changed `config.load_defaults` to 7.0 it was set to false. Thus the error indicated below.
 
-If not enabled, it produces the error [[Pruebas de Rails 7 ✅#while_preventing_writes is only available on the connection_handler with legacy_connection_handling]]
+If not enabled, it produces the error [[Pruebas de Rails 7#while_preventing_writes is only available on the connection_handler with legacy_connection_handling ✅]]
 
 ## What is config.active_record.has_many_inversing?
 
