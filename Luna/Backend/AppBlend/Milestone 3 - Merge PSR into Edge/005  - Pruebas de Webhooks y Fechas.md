@@ -60,7 +60,7 @@ end
 # El mensaje de deprecation de `Date#to_s` el formato por defecto (`:default`) 🗓️
 
 > [!Note]
-> Esto ya lo vi cuando estaba actualizando Edge a Rails 7 en [[Upgrade to Rails 7.0.x Notes ✅#Rails 7.0 ignores default format for Date and Time ✅]] y también en [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_support.disable_to_s_conversion?]]
+> Esto ya lo vi cuando estaba actualizando Edge a Rails 7 en [[Upgrade to Rails 7.0.x Notes ✅#Rails 7.0 ignores default format for Date and Time ✅]] y también en [[004 - Config Defaults#What is config.active_support.disable_to_s_conversion?]]
 
 En los initializers está el archivo `date_time.rb` con esto:
 ```ruby

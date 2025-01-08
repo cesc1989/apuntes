@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "004 - 👌🏽 AppBlend What Changes in Config Defaults"
+              "title": "004 - Config Defaults"
             }
           },
           {
@@ -66,21 +66,21 @@
             }
           },
           {
-            "id": "6ef17f200d49d4ad",
+            "id": "586898e9857aef18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "03 - Fix default format for Date and Time"
+              "title": "01 - Notable changes from 7.1.0 to Rails 7.2"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,10 +198,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md"
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 03 - Fix default format for Date and Time"
+              "title": "Outline of 004 - Config Defaults"
             }
           }
         ],
@@ -219,18 +219,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ef17f200d49d4ad",
+  "active": "4fbd1b04a7569218",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "cashflow/vendor/javascript",
     "cashflow/vendor",

@@ -215,7 +215,7 @@ This cannot be disabled with settings because the deprecated support is removed 
 
 See
 - [[01 - Notable changes from 7.1.0 to Rails 7.2#7.1.0]]
-- [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_support.use_rfc4122_namespaced_uuids?]]
+- [[004 - Config Defaults#What is config.active_support.use_rfc4122_namespaced_uuids?]]
 
 Need to change it to a compliant UUID.
 

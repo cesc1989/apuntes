@@ -161,7 +161,7 @@ NotImplementedError
 while_preventing_writes is only available on the connection_handler with legacy_connection_handling
 ```
 
-Se da en workers. Se arregla seteando en true `legacy_connection_handling` en application.rb. Ver [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_record.legacy_connection_handling?]]
+Se da en workers. Se arregla seteando en true `legacy_connection_handling` en application.rb. Ver [[004 - Config Defaults#What is config.active_record.legacy_connection_handling?]]
 
 # Timeout en Auto Charts ✅
 
