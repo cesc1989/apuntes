@@ -297,13 +297,9 @@ NoMethodError:
 In this test:
 ```
 pruebas ./spec/requests/graphql/queries/fields/node_therapist_query_spec.rb
-
 pruebas ./spec/requests/api/v1/internal/provider_communications_spec.rb
-
 pruebas ./spec/controllers/api/v1/therapist/careplans_controller_spec.rb
-
 pruebas ./spec/requests/api/v2/external/phaxio_spec.rb
-
 pruebas ./spec/requests/api/v1/internal/patient_communications_spec.rb
 ```
 
@@ -334,15 +330,10 @@ ActiveRecord::StatementInvalid:
 In this test:
 ```
 pruebas ./spec/models/therapist_spec.rb
-
 pruebas ./spec/controllers/api/v3/therapist/charts_controller_spec.rb
-
 pruebas ./spec/workers/hidden_therapist_conversations_reading_worker_spec.rb
-
 pruebas ./spec/requests/graphql/queries/fields/viewer_therapist_query_spec.rb
-
 pruebas ./spec/controllers/api/v1/patient/conversations_controller_spec.rb
-
 pruebas ./spec/requests/admin/scheduler_therapists_spec.rb
 ```
 
