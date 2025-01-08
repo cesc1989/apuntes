@@ -383,14 +383,71 @@ The problem here is that for some reason in Rails 7.1.4 the `cache.redis` instan
 ```ruby
 "ConnectionPool"
 
-"#<ConnectionPool:0x0000000138aed4e8 @size=5, @timeout=5, @auto_reload_after_fork=true, @available=#<ConnectionPool::TimedStack:0x0000000138aed240 @create_block=#<Proc:0x0000000138aed498 /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.1.4/lib/active_support/cache/redis_cache_store.rb:153>, @created=0, @que=[], @max=5, @mutex=#<Thread::Mutex:0x0000000138aed1a0>, @resource=#<Thread::ConditionVariable:0x0000000138aed150>, @shutdown_block=nil>, @key=:\"pool-119480\", @key_count=:\"pool-119480-count\">"
+<ConnectionPool:0x0000000138aed4e8
+  @size=5,
+  @timeout=5,
+  @auto_reload_after_fork=true,
+  @available=
+    <ConnectionPool::TimedStack:0x0000000138aed240
+      @create_block=<Proc:0x0000000138aed498 /Users/francisco/.gem/ruby/3.1.0/gems/activesupport-7.1.4/lib/active_support/cache/redis_cache_store.rb:153>,
+      @created=0,
+      @que=[],
+      @max=5,
+      @mutex=<Thread::Mutex:0x0000000138aed1a0>,
+      @resource=<Thread::ConditionVariable:0x0000000138aed150>,
+      @shutdown_block=nil
+    >,
+  @key=:"pool-119480",
+  @key_count=:"pool-119480-count"
+>
 ```
 
 But in Rails 7.0.8.4:
 ```ruby
 "MockRedis"
 
-"#<MockRedis:0x0000000130f8c268 @options={:scheme=>\"redis\", :host=>\"127.0.0.1\", :port=>6379, :path=>nil, :timeout=>5.0, :password=>nil, :logger=>nil, :db=>0, :time_class=>Time}, @db=#<MockRedis::PipelinedWrapper:0x0000000130f87ad8 @db=#<MockRedis::TransactionWrapper:0x0000000130f87ba0 @db=#<MockRedis::ExpireWrapper:0x0000000130f87c18 @db=#<MockRedis::MultiDbWrapper:0x0000000130f87ec0 @db_index=0, @prototype_db=#<MockRedis::Database:0x0000000130f87e48 @base=#<MockRedis:0x0000000130f8c268 ...>, @data={}, @expire_times=[]>, @databases={0=>#<MockRedis::Database:0x0000000130f8c038 @base=#<MockRedis:0x0000000130f8c268 ...>, @data={\"luxe_cache:metric/cached_test_metric\"=>\"43\", \"luxe_cache:metric/tagged_test_metric\"=>{\"category=good&name=alice\"=>\"45\", \"category=bad&name=bob\"=>\"46\"}}, @expire_times=[]>}>>, @transaction_futures=[], @multi_stack=[], @multi_block_given=false>, @pipelined_futures=[], @nesting_level=0>>"
+<MockRedis:0x0000000130f8c268
+  @options={
+	  	:scheme=>"redis",
+	  	:host=>"127.0.0.1",
+	  	:port=>6379,
+	  	:path=>nil,
+	  	:timeout=>5.0,
+	  	:password=>nil,
+	  	:logger=>nil,
+	  	:db=>0,
+	  	:time_class=>Time
+    },
+  @db=
+    <MockRedis::PipelinedWrapper:0x0000000130f87ad8
+      @db=
+        <MockRedis::TransactionWrapper:0x0000000130f87ba0
+          @db=
+            <MockRedis::ExpireWrapper:0x0000000130f87c18
+              @db=
+                <MockRedis::MultiDbWrapper:0x0000000130f87ec0
+                  @db_index=0,
+                  @prototype_db=<MockRedis::Database:0x0000000130f87e48 @base=<MockRedis:0x0000000130f8c268 ...>,
+                  @data={},
+                  @expire_times=[]
+                >,
+              @databases={
+              	0=><MockRedis::Database:0x0000000130f8c038 @base=<MockRedis:0x0000000130f8c268 ...>,
+              	@data={
+              	  "luxe_cache:metric/cached_test_metric"=>"43",
+              	  "luxe_cache:metric/tagged_test_metric"=>{"category=good&name=alice"=>"45", "category=bad&name=bob"=>"46"}
+                },
+                @expire_times=[]>
+              }
+            >
+        >,
+      @transaction_futures=[],
+      @multi_stack=[],
+      @multi_block_given=false>,
+      @pipelined_futures=[],
+      @nesting_level=0
+    >
+>
 ```
 
 ## The Fix 🩹
@@ -416,7 +473,20 @@ let(:cache) { ActiveSupport::Cache::RedisCacheStore.new(redis: redis, namespace:
 
 `RedisCacheStore` definition for Rails 7.0.8.4 -> https://github.com/rails/rails/blob/v7.0.8.4/activesupport/lib/active_support/cache/redis_cache_store.rb#L149
 
-# Empty response.body for controller tests
+# 🎉 undefined method pipelined for ConnectionPool 🎉
+
+The same thing as the previous one but this time happening in application code.
+
+## The Fix 🩹
+
+The fix is to deactivate connection pooling but in the environment initializer as explained in the [docs](https://guides.rubyonrails.org/v7.1/caching_with_rails.html#connection-pool-options).
+```diff
+- config.cache_store = :redis_cache_store, { url: ENV["REDIS_URL"], namespace: :luxe_cache }
++ config.cache_store = :redis_cache_store, { url: ENV["REDIS_URL"], namespace: :luxe_cache, pool: false }
+```
+
+
+# 🎉 Empty response.body for controller tests 🎉
 
 This error:
 ```ruby
