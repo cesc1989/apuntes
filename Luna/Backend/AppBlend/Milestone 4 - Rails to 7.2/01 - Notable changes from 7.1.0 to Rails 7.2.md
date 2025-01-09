@@ -11,7 +11,7 @@ Ryan wants this upgrade to fix performance issues.
 
 ## Rails 7.1.4 to 7.2.1
 
-Make a list of items present in the changelog to put an eye on and discuss with Edge team.
+Make a list of items present in the change log to put an eye on and discuss with Edge team.
 
 ### Rails 7.1 Releases
 
@@ -32,7 +32,7 @@ Releases:
 
 ## 7.1.0
 
-**Active Support**
+### Active Support
 
 Remove deprecated support to generate incorrect RFC 4122 UUIDs when providing a namespace ID that is not one of the  
 constants defined on `Digest::UUID`.
@@ -90,9 +90,11 @@ To minimize any noise generated the deprecation warning only appears when the
 setting is configured to `false` as that is the only scenario where the  
 removal of the compatibility layer has any effect.
 
----
+### Active Record
 
-**Active Record**
+Remove `ActiveRecord.legacy_connection_handling`
+
+---
 
 Better naming for unique constraints support.
 

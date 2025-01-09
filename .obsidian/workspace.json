@@ -38,7 +38,21 @@
             }
           },
           {
-            "id": "4fbd1b04a7569218",
+            "id": "cdfd6ce3ab071308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entendiendo Legacy Connection Handling"
+            }
+          },
+          {
+            "id": "813a8c012e97b1a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,35 +66,7 @@
             }
           },
           {
-            "id": "7c479a3064945bec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "02 - Plan de QA"
-            }
-          },
-          {
-            "id": "31dcfd4856249d13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Pruebas de Rails 7"
-            }
-          },
-          {
-            "id": "586898e9857aef18",
+            "id": "7bc6397cedaed78d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -150,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -213,10 +198,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md"
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 02 - Plan de QA"
+              "title": "Outline of 01 - Notable changes from 7.1.0 to Rails 7.2"
             }
           }
         ],
@@ -224,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,18 +219,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c479a3064945bec",
+  "active": "7bc6397cedaed78d",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
+    "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "cashflow/vendor/javascript",
@@ -277,7 +262,6 @@
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/GDrive_Files_-_Inspection.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/S3_Files_-_Inspection.md",
     "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Mitigate_File-Upload_Issues.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Conversion_to_Supported_Formats.md",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",

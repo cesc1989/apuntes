@@ -528,3 +528,5 @@ def self.on_read_database(&block)
         ActiveRecord::Base.connection_handler.while_preventing_writes(true, &block)
       end
 ```
+
+## The Fix
