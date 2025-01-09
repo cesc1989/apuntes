@@ -87,11 +87,11 @@ Este fue el cambio que hice:
 def self.on_read_database(&block)
   if replica_available?
     ActiveRecord::Base.connected_to(role: :reading) do
--      ActiveRecord::Base.connection_handler.while_preventing_writes(true, &block)
-+      yield if ActiveRecord::Base.connection.preventing_writes?
-	end
+-     ActiveRecord::Base.connection_handler.while_preventing_writes(true, &block)
++     yield if ActiveRecord::Base.connection.preventing_writes?
+    end
   else
-	yield
+    yield
   end
 end
 ```
