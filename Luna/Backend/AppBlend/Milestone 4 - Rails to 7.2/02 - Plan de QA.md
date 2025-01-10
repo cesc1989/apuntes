@@ -38,7 +38,7 @@ Exercise Programs
 - [ ] Complete exercises in LE-W. Checklist method
 - [ ] Check recent workout, checklist, shows in the list
 
-Physicians
+Physicians / Profile
 - [ ] Add new portal email recipient
 - [ ] Send verification email to newly added portal email recipient
 - [ ] Confirm reception of verification email
@@ -51,8 +51,8 @@ Concierge
 - [ ] Open Coverage Area Statuses and display list of Regions under tab Time Zone Mismatch
 
 Therapists
-- [ ] Search patient
-- [ ] Filter patients by Name
+- [ ] Search therapist
+- [ ] Filter therapists by Name
 - [ ] Create a new therapist
 - [ ] Add some notes in therapist profile with an alphanumeric text
 - [ ] Create therapist Example patient by clicking on Create link in Create example patient field
