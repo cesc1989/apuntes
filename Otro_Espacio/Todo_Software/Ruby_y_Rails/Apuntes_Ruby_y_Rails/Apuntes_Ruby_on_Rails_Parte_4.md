@@ -649,3 +649,50 @@ Ver en [[Upgrade to 7.1.4 - Notes#PG UndefinedColumn ERROR column patients.patie
 La solución está en quitar el `inverse_of`. ¿Por qué? ¿Qué hace esa opción?
 
 Una explicación clara está en este [artículo en Viget](https://www.viget.com/articles/exploring-the-inverse-of-option-on-rails-model-associations/)
+
+## ¿Qué hace `inverse_of`?
+
+El artículo explica que al usar la opción `inverse_of` en ambos modelos de una asociación has_many - belongs_to, se logra optimizar la memoria porque es posible ahorrar una consulta en la base de datos.
+
+Dan este modelo de ejemplos:
+```ruby
+class Criminal < ActiveRecord::Base
+  belongs_to :prison, inverse_of: :criminals
+end
+
+class Prison < ActiveRecord::Base
+  has_many :criminals, inverse_of: :prison
+end
+```
+
+Y muestran el ejemplo en acción usando y sin usar esta opción:
+```ruby
+prison = Prison.create(name: 'Bad House')
+criminal = prison.criminals.create(name: 'Krazy 8')
+
+# Without :inverse_of
+criminal.prison == prison
+# Prison Load (0.1ms) SELECT "prisons".* FROM "prisons" WHERE "prisons"."id" = 2 LIMIT 1
+=> true
+
+# With :inverse_of
+criminal.prison == prison
+=> true
+```
+
+Aclaran que este ahorro solo se logra cuando se consulta en dirección de `belongs_to`. Es decir del hijo al padre.
+
+Cuando se navega del padre al hijo, no hay ahorro de consulta sql:
+```ruby
+prison = Prison.last
+# Prison Load (0.1ms) SELECT "prisons".* FROM "prisons" ORDER BY "prisons"."id" DESC LIMIT 1
+=> #<Prison id: 3, name: "Broadmoor", created_at: "2014-10-10 20:26:38", updated_at: "2014-10-10 20:26:38">
+
+criminal = prison.criminals.first
+# Criminal Load (0.3ms) SELECT "criminals".* FROM "criminals" WHERE "criminals"."prison_id" = 3 LIMIT 1
+=> #<Criminal id: 3, name: "Charles Bronson", prison_id: 3, created_at: "2014-10-10 20:26:47", updated_at: "2014-10-10 20:26:47">
+
+prison.criminals.first == criminal
+# Criminal Load (0.2ms) SELECT "criminals".* FROM "criminals" WHERE "criminals"."prison_id" = 3 LIMIT 1
+=> true
+```
