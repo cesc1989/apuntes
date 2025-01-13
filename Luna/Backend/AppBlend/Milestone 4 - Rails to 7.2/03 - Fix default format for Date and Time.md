@@ -119,3 +119,61 @@ DEPRECATION WARNING: Using a :default format for Date#to_s is deprecated. Please
   Workout Load (0.9ms)  SELECT "workouts".* FROM "workouts" ORDER BY "workouts"."id" ASC LIMIT $1  [["LIMIT", 1]]
 => "12/15/2023"
 ```
+
+# Fixing Edit forms date inputs
+
+In Forms, or at least in Active Admin (using Formtastic) forms, the date input fields seem to be using the default date format by using the `to_s` method. To fix this, I'm going through all forms and checking whether they're being affected.
+
+In affected forms with date fields, we can see the value being scrambled:
+```ruby
+# good date
+01/10/2025
+
+# bad, affected date
+20/25/0110
+```
+
+## Form Inputs
+
+In form inputs, add the `value` property to call the `to_fs` method to the date attribute.
+
+```diff
+- f.input :submitted_at, as: :string, input_html: { class: "date" }
++ f.input :submitted_at, as: :string, input_html: { class: "date", value: f.object.submitted_at&.to_fs }
+```
+
+## best_in_place gem/library
+
+For places using `best_in_place` [library](https://github.com/mmotherwell/best_in_place), pass the `value` attribute to the method call.
+
+```diff
+best_in_place(
+  care_plan,
+  :surgery_date,
+  as: :date,
+  url: "/admin/pathway_assignments/#{care_plan.id}",
+  place_holder: "Unset",
++ value: care_plan.surgery_date&.to_fs
+)
+```
+
+# Errors originating from gems or libraries
+
+Even after fixing problems in places interpolating string with `to_fs` calls, some libraries still use that method and it creeps out to the application log.
+
+For example, the Pathway Assignments index view uses `best_in_place` to edit two date fields. This is the log after loading that view:
+```
+DEPRECATION WARNING: Using a :default format for Date#to_s is deprecated. Please use Date#to_fs instead. If you fixed all places inside your application that you see this deprecation, you can set `ENV['RAILS_DISABLE_DEPRECATED_TO_S_CONVERSION']` to `"true"` in the `config/application.rb` file before the `Bundler.require` call to fix all the callers outside of your application. (called from best_in_place_build_value_for at /Users/francisco/.gem/ruby/3.1.0/bundler/gems/best_in_place-88eb3052623a/lib/best_in_place/helper.rb:121)
+```
+
+Line 121 in [best_in_place code has this](https://github.com/bernat/best_in_place/blob/master/lib/best_in_place/helper.rb#L121):
+```ruby
+object.send(field).to_s
+```
+
+Do we need to also go and fix those? Looks quite more complicated because:
+
+- We would need to fork all gems
+- We would have to submit PRs to other projects
+- Update project gems after forking or updates are released
+
