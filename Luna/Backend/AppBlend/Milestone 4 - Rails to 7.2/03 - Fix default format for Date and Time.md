@@ -171,6 +171,11 @@ Line 121 in [best_in_place code has this](https://github.com/bernat/best_in_plac
 object.send(field).to_s
 ```
 
+In this test run, it originates from a factory:
+```
+DEPRECATION WARNING: Using a :default format for Date#to_s is deprecated. Please use Date#to_fs instead. If you fixed all places inside your application that you see this deprecation, you can set `ENV['RAILS_DISABLE_DEPRECATED_TO_S_CONVERSION']` to `"true"` in the `config/application.rb` file before the `Bundler.require` call to fix all the callers outside of your application. (called from block (3 levels) in <top (required)> at /usr/src/app/spec/factories/patients.rb:7
+```
+
 Do we need to also go and fix those? Looks quite more complicated because:
 
 - We would need to fork all gems
