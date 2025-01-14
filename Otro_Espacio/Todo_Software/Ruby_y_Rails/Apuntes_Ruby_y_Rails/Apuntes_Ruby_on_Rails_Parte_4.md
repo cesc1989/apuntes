@@ -696,3 +696,35 @@ prison.criminals.first == criminal
 # Criminal Load (0.2ms) SELECT "criminals".* FROM "criminals" WHERE "criminals"."prison_id" = 3 LIMIT 1
 => true
 ```
+
+# Ordenamiento descendente de arrays con sort_by
+
+Normalmente, cuando se ordena un array en Ruby usando `sort_by` se devolverá la lista final en orden ascendente. Para lograr lo contrario se le pone el signo negativo por delante al elemento/objeto.
+
+```ruby
+require "ostruct"
+require "amazing_print"
+
+schedules = [
+  OpenStruct.new(day_past_due: 5),
+  OpenStruct.new(day_past_due: 10),
+  OpenStruct.new(day_past_due: 3)
+]
+
+sorted_schedules = schedules.sort_by { |schedule| -schedule.day_past_due }
+
+ap sorted_schedules
+# [
+#     [0] OpenStruct {
+#         :day_past_due => 10
+#     },
+#     [1] OpenStruct {
+#         :day_past_due => 5
+#     },
+#     [2] OpenStruct {
+#         :day_past_due => 3
+#     }
+# ]
+```
+
+Esto lo vi en un PR en Luna y luego le pregunté a ChatGPT.
