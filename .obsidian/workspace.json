@@ -50,23 +50,9 @@
               "icon": "lucide-file",
               "title": "03 - Fix default format for Date and Time"
             }
-          },
-          {
-            "id": "a3c46e062f6b0532",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Puntos_de_entrada_para_la_creación_de_pacientes"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md"
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Puntos_de_entrada_para_la_creación_de_pacientes"
+              "title": "Outline of 03 - Fix default format for Date and Time"
             }
           }
         ],
@@ -205,11 +191,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3c46e062f6b0532",
+  "active": "a2bc483a48b6df2a",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
-    "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Rails_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Query_SQL_para_hallar_answers_con_mal_texto_de_la.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Frontend_-_Luna_Patients.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Herramientas_-_Luna_Patients.md",
+    "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
     "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
@@ -243,11 +234,6 @@
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Usando Flipper.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Types_for_Existing_Uploaded_Files.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/GDrive_Files_-_Inspection.md",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",
