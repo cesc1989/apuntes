@@ -258,42 +258,43 @@ Los elementos a revisar cada que haga un cambio con respecto a esta situación.
 
 - edit de benefits_verifications
 	- se llama PatientProspect
-	- campo: date of birth
+	- campo: `date_of_birth`
     - Abrir -> `admin/benefit_verifications/b50f8aa2-ba06-4b27-9cc4-34d130830ce2/edit`
-- payer authorizations edit (reportado por Ivan)
+- edit de payer authorizations
     - se llega desde "Billing & Finance" -> "Authorizations Report"
     - o acá en `/admin/payer_authorizations`
-    - campos: effective until y submitted at
+    - campos: `effective_until` y `submitted_at`
     - Abrir -> `admin/payer_authorizations/47c373cf-8cbd-4ebb-8639-3faa244617d6/edit`
-- physicians edit (escalations)
+- edit de physicians
 	- Al abrir el form edit debe cargar haya o no escalation o portal recipients
 	- Abrir -> `admin/physicians/ffd12d73-5af8-438f-9815-797575e7ff21/edit`
-- care plans edit
+- edit care plans
 	- Llega desde perfil del paciente -> edit care plan
-	- Campo: effective until en Scheduling Limits
+	- Campo: `effective_until` en Scheduling Limits
+	- Campo: `surgery_date`. Hay que seleccionar primero el dropdown que pregunta por un surgery para que se muestre el campo.
     - Abrir -> `admin/care_plans/90d5fb1b-702b-4d36-9292-4e68d61643c3/edit`
 - pathway assignments
 	- Vista index
-	- Campo: surgery date
+	- Campo: `surgery_date`
 	- Llega desde Clinical -> Pathway Assignments
 	- Abrir -> `admin/pathway_assignments`
 - protocol escalations
 	- Vista: index
-	- Campo: visit date
+	- Campo: `visit_date`
 	- Llega desde Clinical -> Protocol Escalations
 	- Abrir -> `admin/protocol_escalations`
 - care_plan_route_reviews
 	- Llega desde: Payer Management -> Care Plan Route reviews
-	- campo: IV
+	- Columna: IV
 	- Abrir -> `admin/care_plan_route_reviews`
 - Luna Fax Numbers
-	- Campos: created at y updated at
+	- Campos: `created_at` y `updated_at`
 	- Llega desde Clinical -> Luna Fax Numbers
 	- Abrir -> `admin/luna_fax_numbers`
 - admin/credentialing_entries
 	- Vista index
-	- Campo: effective from
+	- Campo: `effective_from`
 	- Abrir -> `admin/credentialing_entries`
 - admin/clinic_payers/:id
-	- Campos: effective from en la sección Credentialing Entries (si las tiene)
+	- Campos: `effective_from` en la sección Credentialing Entries (si las tiene)
     - Abrir -> `admin/clinic_payers/312836`
