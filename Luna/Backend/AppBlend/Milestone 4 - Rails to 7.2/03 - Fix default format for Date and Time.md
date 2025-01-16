@@ -234,6 +234,24 @@ Tengo estas opciones:
 - Quitar la clase `.date` y luego buscar que funcione bien
 - Cambiar la fuente de bip por otro fork
 
+# Problema en fecha exportada desde BD hacía a Athena
+
+El export que ocurre en PatientSummaryWriterWorker para datos que necesita Athena para el Clinical Dashboard cambió el formato de la fecha de Escalation. Al menos, parece que solo esa.
+
+Antes, el export sacaba la fecha `escalated_at` en el formato "MM/DD/YYYY". Hoy, luego de mandar a Omega el cambio de default format lo exportó de esta otra "YYYY-MM-DD". ¿Por qué hace este cambio? ¿No sale directo desde la BD?
+
+Según ChatGPT, en todo caso ActiveRecord está haciendo lo suyo y por eso toma el formato.
+
+Me puse a buscar si había algún export viejo con esa fecha para comprobar que saliera en el formato viejo y así ocurría.
+
+![[01.escalated_american_format.png]]
+
+Luego busqué otro para ver si los otros campos de fecha se verían afectados. Parece que no por un export de otra cosa (sobre visit plans). Así se veía un campo de fecha:
+
+![[02.visit_date_normal_format.png]]
+
+Quedará esperar a que salga algún otro reporte y ver si se dañaron más fechas.
+
 # QA List
 
 Los elementos a revisar cada que haga un cambio con respecto a esta situación.
