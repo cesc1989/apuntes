@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b0d0ceea38c941af",
+        "id": "77246fc9d6d3f731",
         "type": "tabs",
         "children": [
           {
-            "id": "f1e1041d17284c3a",
+            "id": "21373143c6da7a10",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes_de_Linux_-_Parte_1"
+              "title": "New tab"
             }
           }
         ]
@@ -140,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 03 - Fix default format for Date and Time"
+              "title": "Outline"
             }
           }
         ],
@@ -162,50 +154,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "21373143c6da7a10",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Spike_Collect_Physician_Contact_Information_[In.md",
+    "Luna/Patient_Self_Report/Summary_Page_Detalles_para_JSON_Components.md",
+    "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Race_Condition_aún_usando_find_or_initialize_by.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Problema_ASES_Pain_Scale_en_API_V2.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Form_sigue_abierto_incluso_después_de_ser_submi.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Debugging_Error_modal_after_submitting_Intake_Form.md",
+    "Luna/Patient_Self_Report/Change_Form_Type.md",
+    "Luna/Patient_Self_Report/Cómo_Crear_un_Paciente_en_Staging.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Caso_Intercalado_en_Summary_Page.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Caso_Connection_Error_Forms.md",
+    "Luna/Patient_Self_Report/Campos_a_Revisar_para_Eliminar.md",
+    "Luna/Patient_Self_Report/issues-and-debugging",
+    "Luna/Patient_Self_Report/Usando_Ngrok.md",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Patient_Self_Report/Spike_Rename_patients_table_for_Logical_Replica.md",
+    "Luna/Patient_Self_Report/archive/Surgery_Date_Fechas_Antiguas.md",
+    "Luna/Patient_Self_Report/archive/Patient_Forms_Drafts_Research.md",
+    "Luna/Patient_Self_Report/archive/Progress_Forms_Mobile_API.md",
+    "Luna/Patient_Self_Report/archive/Patient_Forms_API_Next_Breakdown.md",
+    "Luna/Patient_Self_Report/archive/Patient_Forms_API_-_Authentication_Design.md",
+    "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
+    "Luna/Patient_Self_Report/upgrades/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
+    "Luna/Patient_Self_Report/upgrades/Notas de Upgrade to Rails 7.0.8.4.md",
+    "Luna/Patient_Self_Report/upgrades",
+    "Luna/Patient_Self_Report/archive",
+    "Luna/Patient_Self_Report/upgrades/Migrando_a_Ruby_3_1_0_con_wkhtmltopdf.md",
+    "Luna/Patient_Self_Report/HOOS_&_KOOS",
+    "Luna/Patient_Self_Report/Option_Choices_per_Form_Type",
+    "Luna/Patient_Self_Report/Outbox_Patient_Self_Report",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments/02.visit_date_normal_format.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/attachments/01.escalated_american_format.png",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/Usando Flipper.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Rails_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Query_SQL_para_hallar_answers_con_mal_texto_de_la.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Frontend_-_Luna_Patients.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Herramientas_-_Luna_Patients.md",
-    "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/02 - Plan de QA.md",
-    "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
-    "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.0.8.4 ✅.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "cashflow/vendor/javascript",
     "cashflow/vendor",
     "cashflow/tmp",
     "cashflow/storage",
-    "cashflow/spec/views/expenditures/index.html.erb_spec.rb",
-    "cashflow/spec/views/categories/show.html.erb_spec.rb",
-    "cashflow/spec/views/categories/index.html.erb_spec.rb",
-    "cashflow/spec/system/sessions/user_sign_in_spec.rb",
-    "cashflow/spec/system/expenditures/index_spec.rb",
-    "cashflow/spec/system/explore/index_spec.rb",
-    "cashflow/scripts/README.md",
     "cashflow/public/apple-touch-icon.png",
     "cashflow/public/apple-touch-icon-precomposed.png",
     "cashflow/docs/erd.png",
-    "cashflow/docs/db_docs.md",
     "cashflow/app/assets/images/not_found.jpg",
     "cashflow/app/assets/images/favicon.png",
-    "cashflow/README.md",
-    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",
