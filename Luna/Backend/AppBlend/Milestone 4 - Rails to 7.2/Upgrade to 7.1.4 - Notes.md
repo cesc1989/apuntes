@@ -510,7 +510,7 @@ To test the contents of the response one have to access `response.location`:
 "http://test.host/payments_thankyou"
 ```
 
-# undefined method while_preventing_writes for ActiveRecord::ConnectionAdapters::ConnectionHandler
+# 🎉 undefined method while_preventing_writes for ActiveRecord::ConnectionAdapters::ConnectionHandler 🎉
 
 Happening a lot in Alpha:
 ```ruby
@@ -529,4 +529,15 @@ def self.on_read_database(&block)
       end
 ```
 
-## The Fix
+## The Fix 🩹
+
+# 🎉 undefined method verbose_query_logs for ActiveRecord::Base class 🎉
+
+When running a test that uses this method to display offending lines. In Rails 7.0+ this is no longer available in the Base class but in the ActiveRecord one.
+
+```diff
+- ActiveRecord::Base.verbose_query_logs = true
++ ActiveRecord.verbose_query_logs = true
+```
+
+Seen in [Stack Overflow](https://stackoverflow.com/a/6884418/1407371).
