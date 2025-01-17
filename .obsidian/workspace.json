@@ -14,15 +14,21 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/QA Plan for Deprecation of DateTime Default Format.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "QA Plan for Deprecation of DateTime Default Format"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "824323946b79cd87",
+        "type": "tabs",
+        "children": [
           {
-            "id": "752d57be9ae024f3",
+            "id": "f85bc9533615f271",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -91,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -164,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
