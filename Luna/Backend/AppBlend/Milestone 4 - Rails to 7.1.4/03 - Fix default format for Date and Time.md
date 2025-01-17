@@ -287,10 +287,11 @@ Los elementos a revisar cada que haga un cambio con respecto a esta situación.
 	- Llega desde: Payer Management -> Care Plan Route reviews
 	- Columna: IV
 	- Abrir -> `admin/care_plan_route_reviews`
-- Luna Fax Numbers
-	- Campos: `created_at` y `updated_at`
-	- Llega desde Clinical -> Luna Fax Numbers
-	- Abrir -> `admin/luna_fax_numbers`
+- ~~Luna Fax Numbers~~
+	- ~~Campos: `created_at` y `updated_at`~~
+	- ~~Llega desde Clinical -> Luna Fax Numbers~~
+	- ~~Abrir -> `admin/luna_fax_numbers`~~
+	- Esto fue eliminado de Luxe.
 - admin/credentialing_entries
 	- Vista index
 	- Campo: `effective_from`

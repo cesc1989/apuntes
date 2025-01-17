@@ -14,31 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/QA Plan for Deprecation of DateTime Default Format.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "QA Plan for Deprecation of DateTime Default Format"
-            }
-          }
-        ]
-      },
-      {
-        "id": "824323946b79cd87",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f85bc9533615f271",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/03 - Fix default format for Date and Time.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "03 - Fix default format for Date and Time"
+              "title": "QA Plan for Deprecation of DateTime Default Format"
             }
           }
         ]
@@ -97,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -184,6 +163,15 @@
   },
   "active": "e8d73b0bf47e7594",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/36.careplan.route.reviews.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/35.protocol.escalations.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/34.pathway.assigns.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/33.careplans.edit.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/32.physicians.edit.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/31.payer.auths.png",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/30.benefits.verifications.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/03 - Fix default format for Date and Time.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/QA Plan for Deprecation of DateTime Default Format.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/02 - Plan de QA.md",
@@ -210,7 +198,6 @@
     "Luna/Patient_Self_Report/archive/Progress_Forms_Mobile_API.md",
     "Luna/Patient_Self_Report/archive/Patient_Forms_API_Next_Breakdown.md",
     "Luna/Patient_Self_Report/archive/Patient_Forms_API_-_Authentication_Design.md",
-    "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
     "Luna/Patient_Self_Report/upgrades",
     "Luna/Patient_Self_Report/archive",
     "Luna/Patient_Self_Report/HOOS_&_KOOS",
@@ -222,14 +209,6 @@
     "cashflow/vendor",
     "cashflow/tmp",
     "cashflow/storage",
-    "cashflow/public/apple-touch-icon.png",
-    "cashflow/public/apple-touch-icon-precomposed.png",
-    "cashflow/docs/erd.png",
-    "cashflow/app/assets/images/not_found.jpg",
-    "cashflow/app/assets/images/favicon.png",
-    "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

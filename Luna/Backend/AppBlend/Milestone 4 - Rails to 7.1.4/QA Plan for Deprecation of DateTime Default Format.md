@@ -12,9 +12,13 @@ The following are all of the places where this problem happens and how they look
 
 Affected fields: `date_of_birth`.
 
+![[30.benefits.verifications.png]]
+
 ## Payer Authorizations - Edit Form
 
 Affected fields: `effective_until`, `submitted_at`.
+
+![[31.payer.auths.png]]
 
 ## Physicians - Edit Form
 
@@ -22,30 +26,40 @@ Affected fields: `verification_sent_at`.
 
 In both Escalation and Portal recipients sections.
 
+![[32.physicians.edit.png]]
+
 ## Care Plans - Edit Form
 
 Affected fields: `effective_until`, `surgery_date`.
+
+![[33.careplans.edit.png]]
 
 ## Pathway Assignments - List Page
 
 Affected fields: `surgery_date`.
 
+![[34.pathway.assigns.png]]
+
 ## Protocol Escalations - List Page
 
 Affected fields: `visit_date`.
+
+![[35.protocol.escalations.png]]
 
 ## Care Plan Route Reviews - List Page
 
 Affected fields: IV column.
 
-## Luna Fax Numbers - List Page
-
-Affected fields: `created_at`, `updated_at` columns.
+![[36.careplan.route.reviews.png]]
 
 ## Credentialing Entries - List Page
 
 Affected fields: `effective_from`.
 
+![[37.cred.entries.png]]
+
 ## Clinic Payers - Detail Page
 
 Affected fields: `effective_from`.
+
+![[38.clinic.payers.detail.png]]
