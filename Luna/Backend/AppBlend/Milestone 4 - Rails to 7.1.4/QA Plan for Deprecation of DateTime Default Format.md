@@ -1,4 +1,4 @@
-# QA Plan for Deprecation of DateTime Default Format
+# QA Results for Deprecation of DateTime Default Format
 
 After disabling the deprecation for the support of the default format for Date and DateTime interpolation, date fields/columns would display the date value in a scrambled format.
 

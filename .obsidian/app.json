@@ -8,7 +8,7 @@
   "foldIndent": false,
   "tabSize": 2,
   "pdfExportSettings": {
-    "includeName": true,
+    "includeName": false,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
