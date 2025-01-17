@@ -17,8 +17,8 @@ A continuación, los valores de prueba y las convenciones a usar por cada tipo d
 
 **Convenciones**
 
-- name: `credentialings_address_name`
-- id: `credentialings_address_id`
+- name: `credentialings_name`
+- id: `credentialings_id`
 - objectTypeId: `credentialings_object_type_id`
 
 ## Para Licenses
@@ -29,8 +29,8 @@ A continuación, los valores de prueba y las convenciones a usar por cada tipo d
 
 **Convenciones**
 
-- name: `licenses_address_name`
-- id: `licenses_address_id`
+- name: `licenses_name`
+- id: `licenses_id`
 - objectTypeId: `licenses_object_type_id`
 
 ## Para Therapist Address
@@ -41,6 +41,6 @@ A continuación, los valores de prueba y las convenciones a usar por cada tipo d
 
 **Convenciones**
 
-- name: `therapist_address_name`
-- id: `therapist_address_id`
-- objectTypeId: `therapist_object_type_id`
+- name: `therapist_addresses_name`
+- id: `therapist_addresses_id`
+- objectTypeId: `therapist_addresses_object_type_id`
