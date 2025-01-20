@@ -183,7 +183,7 @@ Para trabajar con la API de Custom Objects, el token necesita alguno de estos sc
 - crm.schemas.custom.read
 - crm.objects.custom.write
 
-## Listar custom objects
+## Listar custom objects de una cuenta
 
 Para listar los custom objects de una cuenta hay que usar el [endpoint](https://developers.hubspot.com/docs/api/crm/crm-custom-objects#retrieve-existing-custom-objects):
 ```
@@ -281,7 +281,7 @@ Cuando el token no tiene los scopes necesarios retorna una respuesta como esta:
 ```
 
 
-# ¿Cómo acceder a los objetos custom asociados a un objeto Contact?
+# 🌟 ¿Cómo acceder a los objetos custom asociados a un objeto Contact? 🌟
 
 En la documentación para los objetos Contact veo este endpoint:
 ```
@@ -314,7 +314,7 @@ Respuesta ejemplo de schema de objetos custom:
 			"properties": [],
 			"associations": [],
 			"name": "credentialing_2_0"
-	    }
+		}
 	]
 }
 ```
