@@ -208,3 +208,49 @@ Expenditure.insert({description: 'prueba insert', amount: 50000, user_id: 1, cat
 
 => #<ActiveRecord::Result:0x000000010c29d210 @column_types={}, @columns=[], @hash_rows=nil, @rows=[]> 
 ```
+
+# Configurando Read Replica en development
+
+Quería probar si un método de una clase de Luna funciona o al menos no hacía explotar el servidor en Local. Necesitaba configurar la base de datos de desarrollo para tener una replica.
+
+Hice quedó el archivo `database.yml` al terminar la configuración y correr el servidor rails:
+```yaml
+defaults: &defaults
+  adapter: postgresql
+
+non_production_defaults: &non_production_defaults
+  <<: *defaults
+  template: template0
+  host:     <%= ENV['DATABASE_HOST'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+
+development_defaults: &development_defaults
+  <<: *non_production_defaults
+  database: <%= ENV.fetch('DEV_DATABASE', 'luna_api_development') %>
+  url: <%= ENV['DEV_DATABASE_URL'] %>
+
+development:
+  primary:
+    <<: *development_defaults
+  primary_replica:
+    <<: *development_defaults
+    database: luna_api_development_replica
+    replica: true
+```
+
+Seguí estos pasos.
+
+Cree una base de datos `luna_api_development_replica`. Teniendo en cuenta que la db principal se llama `luna_api_development_1`.
+
+Generé un dump de la db principal:
+```
+pg_dump luna_api_development_1 > luna_api_development_1_dump.sql
+```
+
+Luego cargué ese dump en la bd replica:
+```
+psql luna_api_development_replica < luna_api_development_1_dump.sql
+```
+
+De resto es seguir las instrucciones de la guía oficial -> https://guides.rubyonrails.org/v7.1.4/active_record_multiple_databases.html
