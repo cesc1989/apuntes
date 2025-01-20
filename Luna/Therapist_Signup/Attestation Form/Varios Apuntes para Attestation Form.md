@@ -8,7 +8,7 @@
 
 ## Therapist Address
 
-**Therapist Address custom object is created when "Initial Form Date" is known for the therapist.**
+**Therapist Address custom object is ==created when "Initial Form Date" is known for the therapist.==**
 
 This means they *signed the contract*.
 
@@ -16,7 +16,7 @@ The "Initial Form Date" value corresponds to the `signup_form_date` property int
 
 ## Credentialing
 
-**Credentialing custom object is created when "Credentialing Form Status = Submitted Credentialing Form" AND "State is known; Region is known".**
+**Credentialing custom object is ==created when "Credentialing Form Status = Submitted Credentialing Form" AND "State is known; Region is known"==.**
 
 This means the therapist filled out and submitted the credentialing application.
 
