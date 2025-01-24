@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df944e70dde38ee2",
+        "id": "c9ba040f80402bd5",
         "type": "tabs",
         "children": [
           {
-            "id": "5da76f4577188b15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Rails_Parte - 2"
-            }
-          },
-          {
-            "id": "0099fcb452cd4d06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lecciones_Desarrollo_-_Therapists_Forms"
-            }
-          },
-          {
-            "id": "20dbf7345397ef2c",
+            "id": "4f073cb9f2d2daf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +22,7 @@
             }
           },
           {
-            "id": "51f128ead08a82a7",
+            "id": "8878c97ce4bce3f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Lecciones_RSpec_-_Therapists_Credentialing"
             }
+          },
+          {
+            "id": "eb14b220612faba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lecciones_Ruby_-_Therapists"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "batch-loader",
+                "query": "hypopg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md"
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecciones_RSpec_-_Therapists_Credentialing"
+              "title": "Outline of Lecciones_Ruby_-_Therapists"
             }
           }
         ],
@@ -203,11 +189,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51f128ead08a82a7",
+  "active": "eb14b220612faba5",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_Hubspot_-_Lecciones.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
@@ -230,7 +217,6 @@
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
     "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
     "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/36.careplan.route.reviews.png",
