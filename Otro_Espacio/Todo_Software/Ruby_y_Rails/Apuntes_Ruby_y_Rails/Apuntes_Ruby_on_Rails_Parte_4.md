@@ -614,7 +614,7 @@ Este va a correr en el puerto 3006 y adicional específico que el archivo del PI
 
 Tengo que especificar el archivo o sino Rails tratará de usar el por defecto `tmp/pids/server.pid`.
 
-# Entendiendo `inverse_of` en Asociaciones con scopes
+# 🟡 Entendiendo `inverse_of` en Asociaciones con scopes 🟡
 
 Resulta que en el upgrade a Rails 7.1.4 de Edge encontré con un error causado por tener estas asociaciones así:
 ```ruby
