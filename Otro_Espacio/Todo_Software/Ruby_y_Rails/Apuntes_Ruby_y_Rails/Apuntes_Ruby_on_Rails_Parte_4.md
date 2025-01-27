@@ -618,9 +618,8 @@ Tengo que especificar el archivo o sino Rails tratará de usar el por defecto `t
 
 Resulta que en el upgrade a Rails 7.1.4 de Edge encontré con un error causado por tener estas asociaciones así:
 ```ruby
-# Therapist model
-
-has_many :conversable_patients, lambda { |therapist|
+class Therapist < ApplicationRecord
+	has_many :conversable_patients, lambda { |therapist|
     therapist
     .patients
     .without_active_waitlist_entry
@@ -633,13 +632,14 @@ has_many :conversable_patients, lambda { |therapist|
     .unscope(where: :therapist_id)
     .distinct
   }, class_name: "Patient", inverse_of: "conversable_team"
+end
 
-# Patient model
-
-has_many :conversable_team, lambda { |patient|
+class Patient < ApplicationRecord
+  has_many :conversable_team, lambda { |patient|
     unscope(where: :patient_id)
     .where(id: patient.therapists.filter { |therapist| therapist.conversable_patients.include?(patient) })
   }, class_name: "Therapist"
+end
 ```
 
 El error que causaban era que rails trataba de buscar una columna `patient_id` en la tabla patients en lugar de buscar `id`.
