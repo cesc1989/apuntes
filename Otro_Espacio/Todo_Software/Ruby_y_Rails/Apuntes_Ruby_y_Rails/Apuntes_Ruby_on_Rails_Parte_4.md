@@ -697,6 +697,20 @@ prison.criminals.first == criminal
 => true
 ```
 
+## Consideraciones y Limitaciones de `inverse_of`
+
+En el [blog de Saeloun](https://blog.saeloun.com/2024/11/12/rails-inverse-of-option/), mencionan consideraciones y limitantes.
+
+**Consideraciones:**
+- Solo funciona con asociaciones `has_many`, `has_one` y `belongs_to`
+
+**Limitantes:**
+- No es compatible con custom scopes
+- No soporta asociaciones polimorficas
+- No funciona de manera automática con las opciones `:through` o `:foreign_key`
+
+El caso de Luna que nos trajo aquí es la primera limitante. Es una lambda con un scope bastante custom por lo tanto más problemático.
+
 # Ordenamiento descendente de arrays con sort_by
 
 Normalmente, cuando se ordena un array en Ruby usando `sort_by` se devolverá la lista final en orden ascendente. Para lograr lo contrario se le pone el signo negativo por delante al elemento/objeto.
