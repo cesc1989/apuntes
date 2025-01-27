@@ -722,6 +722,27 @@ class Book < ApplicationRecord
 end
 ```
 
+## ¿Qué dice ChatGPT?
+
+Le pregunté a gpt sobre si la configuración de Therapist <-> Patient mediante esa asociación limitaba la efectividad de `inverse_of`. Dijo lo siguiente:
+
+- **Dynamic Scopes and Lambdas**:
+    - The associations in both `Therapist` and `Patient` models rely on lambdas to define the scope dynamically based on the current object (`therapist` or `patient`).
+    - Since ==the relationship is computed dynamically and involves non-standard filtering, Rails may not reliably infer the inverse association==. The dynamic filtering adds complexity, making it difficult for Rails to maintain a consistent object graph in memory.
+- **Custom Query Logic**:
+    - Both `conversable_patients` and `conversable_team` rely on custom query logic (`joins`, `where`, `unscope`, `select`, and filtering using Ruby's `.filter`).
+    - Rails' `:inverse_of` works best with simpler and more conventional associations where the relationship is more predictable and straightforward.
+- **Unsynchronized Object State**:
+    - Since the association is derived from dynamic queries rather than direct database relationships, changes to one side (e.g., `therapist.conversable_patients`) may not immediately reflect on the other side (`patient.conversable_team`), even if `:inverse_of` is defined.
+    - For example, if you build a new `Patient` object and associate it with a `Therapist` via `conversable_patients`, the inverse relationship (`conversable_team`) might not be updated in memory.
+- **`unscope` and Custom Filtering**:
+    - The ==use of `.unscope` adds further complexity by removing default scoping that Rails might rely on to maintain object consistency==. This can prevent Rails from tracking relationships correctly for `:inverse_of`.
+
+La [documentación de Rails 7.1](https://guides.rubyonrails.org/v7.1/association_basics.html#bi-directional-associations) deja claro que los scopes custom previenen la detección automática.
+
+> Custom scopes on the opposite association also prevent automatic identification, as do custom scopes on the association itself unless [`config.active_record.automatic_scope_inversing`](https://guides.rubyonrails.org/v7.1/configuring.html#config-active-record-automatic-scope-inversing) is set to true.
+
+Me atrevo a pensar que el scope de esta asociación es demasiado custom y demasiado dinámico para que `inverse_of` tenga algún efecto.
 
 # Ordenamiento descendente de arrays con sort_by
 
