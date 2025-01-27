@@ -744,6 +744,38 @@ La [documentación de Rails 7.1](https://guides.rubyonrails.org/v7.1/association
 
 Me atrevo a pensar que el scope de esta asociación es demasiado custom y demasiado dinámico para que `inverse_of` tenga algún efecto.
 
+## active_record.automatic_scope_inversing en Rails 7+
+
+La opción `config.active_record.automatic_scope_inversing` parece que sirve pero para scopes bastante simples. Así lo muestran en este otro [artículo de Saeloun](https://blog.saeloun.com/2022/02/01/rails-7-inverse-of-automatic-inference/):
+```ruby
+class Author < ApplicationRecord
+  has_many :books, -> { visible }
+end
+
+class Book < ApplicationRecord
+  belongs_to :author
+
+  scope :visible, -> { where(visible: true) }
+  scope :hidden, -> { where(visible: false) }
+end
+```
+
+La prueba en consola:
+```ruby
+> author = Author.first
+> book = author.books.first
+> book.author == author
+=> true
+```
+
+Cuando probé activar esta configuración en Edge y puse de nuevo la opción `inverse_of` a la asociación `conversable_patients` de Therapist dio el error donde Rails no puede discernir el ID que le interesa:
+```bash
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column patients.patient_id does not exist
+LINE 1: SELECT 1 AS one FROM "patients" WHERE "patients"."patient_id...
+```
+
+
+
 # Ordenamiento descendente de arrays con sort_by
 
 Normalmente, cuando se ordena un array en Ruby usando `sort_by` se devolverá la lista final en orden ascendente. Para lograr lo contrario se le pone el signo negativo por delante al elemento/objeto.
