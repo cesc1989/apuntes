@@ -711,6 +711,18 @@ En el [blog de Saeloun](https://blog.saeloun.com/2024/11/12/rails-inverse-of-opt
 
 El caso de Luna que nos trajo aquí es la primera limitante. Es una lambda con un scope bastante custom por lo tanto más problemático.
 
+Las [guías de Rails 7.1](https://guides.rubyonrails.org/v7.1/association_basics.html#bi-directional-associations) dejan ver que solo es necesario especificar el inverse_of en uno de los lados de la asociación:
+```ruby
+class Author < ApplicationRecord
+  has_many :books, inverse_of: 'writer'
+end
+
+class Book < ApplicationRecord
+  belongs_to :writer, class_name: 'Author', foreign_key: 'author_id'
+end
+```
+
+
 # Ordenamiento descendente de arrays con sort_by
 
 Normalmente, cuando se ordena un array en Ruby usando `sort_by` se devolverá la lista final en orden ascendente. Para lograr lo contrario se le pone el signo negativo por delante al elemento/objeto.
