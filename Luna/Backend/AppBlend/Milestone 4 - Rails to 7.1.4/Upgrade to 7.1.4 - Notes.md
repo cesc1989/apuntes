@@ -541,3 +541,82 @@ When running a test that uses this method to display offending lines. In Rails 7
 ```
 
 Seen in [Stack Overflow](https://stackoverflow.com/a/6884418/1407371).
+
+# undefined method capture for "":ActiveSupport::SafeBuffer
+
+Full error message:
+```
+undefined method `capture' for "":ActiveSupport::SafeBuffer
+
+        buffer = @output_buffer.capture { value = yield(*args) }
+```
+
+Code where this happens:
+```ruby
+context = Context.new self
+
+capture { block.call context } if block_given?
+
+content_buffer << tag.ul(context.output_buffer, class: html_class)
+```
+
+This is how it is setup:
+```ruby
+module HeaderHelper
+  class Context
+    include ActionView::Helpers::CaptureHelper
+    include ActionView::Helpers::TagHelper
+    include ActionView::Helpers::UrlHelper
+    include Rails.application.routes.url_helpers
+
+    def initialize(context, title = nil)
+      self.context = context
+      self.title = title
+      self.content_buffer = ActiveSupport::SafeBuffer.new
+      self.actions_buffer = ActiveSupport::SafeBuffer.new
+      self.output_buffer = ActiveSupport::SafeBuffer.new
+    end
+
+    def breadcrumbs(html_class = "breadcrumbs", &block)
+      context = Context.new self
+
+      capture { block.call context } if block_given?
+
+      content_buffer << tag.ul(context.output_buffer, class: html_class)
+    end
+  end
+end
+```
+
+And it's used like this:
+```ruby
+= header "Transfer Appointments" do |h|
+  = h.breadcrumbs do |b|
+    = b.breadcrumb "Patients", admin_patients_path
+```
+
+## Where to see this in action?
+
+Happens when browsing to the Transfer Care Plan page.
+
+To see this page in local env go to this page [Care Plan Transfere page](http://localhost:3000/admin/patients/3bd9123a-1f3a-4136-b34b-d16eeb4dc452/care_plan/7011f0ce-4452-4a87-b403-4b95d957d367/transfer). First make sure to comment the redirect logic in the `CarePlans::TransfersController`:
+
+```ruby
+def edit
+  # Prevent access by url or page reload if we are in the most recent care plan
+  # redirect_to(admin_care_plan_path(@care_plan)) if @care_plan.id == @recent_care_plan.id
+end
+```
+
+Also happens in the Reassign Care Plans page. Visit this link in local to see it -> [Reassign care plan](http://localhost:3000/admin/clinic_payer_plans/1187459/reassign_care_plans).
+
+To get to this place go to:
+
+- Payer Management
+	- Plan Matrix
+		- Then filter with "Associated with any care plan"
+
+## The Fix
+
+Tried upgrading, as [commented here](https://github.com/rails/rails/issues/50401#issuecomment-2377882031) in a similar issue, haml-rails to version 2.1.0 but it didn't work.
+
