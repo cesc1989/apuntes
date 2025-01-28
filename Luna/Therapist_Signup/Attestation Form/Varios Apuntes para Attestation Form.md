@@ -22,6 +22,10 @@ This means the therapist filled out and submitted the credentialing application.
 
 The "Credentialing Form Status" value corresponds to the `credentialing_form_status` property internal name. This value is set in the `HubspotContactService` class and only set to the expected value after the Credentialing Form is submitted successfully.
 
+## License
+
+**The License custom object is ==created when "Treating License Number" in the Contact object is known.==**
+
 # Llamada del 4 de Septiembre, 2024
 
 Se tocaron dos temas:
