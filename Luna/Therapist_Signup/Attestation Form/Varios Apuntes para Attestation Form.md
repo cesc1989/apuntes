@@ -6,13 +6,7 @@
 
 *A: Indeed, the related custom objects are created automatically -- but not at the time of contact creation. (...)*
 
-## Therapist Address
-
-**Therapist Address custom object is ==created when "Initial Form Date" is known for the therapist.==**
-
-This means they *signed the contract*.
-
-The "Initial Form Date" value corresponds to the `signup_form_date` property internal name.  This value is set in the `HubspotContactService` class. This value is set right after they complete the Sign Up form at `/sign-up/` URL.
+Los custom objects se crean cuando se cumplen las condiciones que se describen a continuación.
 
 ## Credentialing
 
@@ -22,11 +16,21 @@ This means the therapist filled out and submitted the credentialing application.
 
 The "Credentialing Form Status" value corresponds to the `credentialing_form_status` property internal name. This value is set in the `HubspotContactService` class and only set to the expected value after the Credentialing Form is submitted successfully.
 
+## Therapist Address
+
+**Therapist Address custom object is ==created when "Initial Form Date" is known for the therapist.==**
+
+This means they *signed the contract*.
+
+The "Initial Form Date" value corresponds to the `signup_form_date` property internal name.  This value is set in the `HubspotContactService` class. This value is set right after they complete the Sign Up form at `/sign-up/` URL.
+
 ## License
 
 **The License custom object is ==created when "Treating License Number" in the Contact object is known.==**
 
-# Llamada del 4 de Septiembre, 2024
+The "Treating License Number" value corresponds to the `pt_license_number` property internal name. This value is set in the `HubspotContactService` class. This value is set right after they complete the Sign Up form at `/sign-up/` URL.
+
+# 📞 Llamada del 4 de Septiembre, 2024
 
 Se tocaron dos temas:
 - Cómo se dispara el envío del Attestation Form
