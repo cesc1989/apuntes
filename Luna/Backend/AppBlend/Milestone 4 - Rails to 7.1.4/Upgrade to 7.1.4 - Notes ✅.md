@@ -599,7 +599,7 @@ And it's used like this:
 
 Happens when browsing to the Transfer Care Plan page.
 
-To see this page in local env go to this page [Care Plan Transfere page](http://localhost:3000/admin/patients/3bd9123a-1f3a-4136-b34b-d16eeb4dc452/care_plan/7011f0ce-4452-4a87-b403-4b95d957d367/transfer). First make sure to comment the redirect logic in the `CarePlans::TransfersController`:
+To see this page in local env go to this page [Care Plan Transfers page](http://localhost:3000/admin/patients/3bd9123a-1f3a-4136-b34b-d16eeb4dc452/care_plan/7011f0ce-4452-4a87-b403-4b95d957d367/transfer). First make sure to comment the redirect logic in the `CarePlans::TransfersController`:
 
 ```ruby
 def edit
@@ -611,12 +611,17 @@ end
 Also happens in the Reassign Care Plans page. Visit this link in local to see it -> [Reassign care plan](http://localhost:3000/admin/clinic_payer_plans/1187459/reassign_care_plans).
 
 To get to this place go to:
-
 - Payer Management
 	- Plan Matrix
 		- Then filter with "Associated with any care plan"
 
-## The Fix
+## The Fix 🩹
 
 Tried upgrading, as [commented here](https://github.com/rails/rails/issues/50401#issuecomment-2377882031) in a similar issue, haml-rails to version 2.1.0 but it didn't work.
+
+Finally, fixed by stopping to use the custom helper. Instead decided to put regular Haml code in the view. In the end, the helper was generating a very simple HTML output.
+
+Don't understand the need of such complex class.
+
+The main issue remained unsolved but we could fix the page load and continue working in other things.
 

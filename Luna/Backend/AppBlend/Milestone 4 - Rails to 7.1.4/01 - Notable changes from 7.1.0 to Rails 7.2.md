@@ -1,4 +1,4 @@
-# Upgrade Edge to Rails 7.2
+# Upgrade Edge to Rails 7.1.4
 
 Ryan wants this upgrade to fix performance issues.
 
@@ -13,7 +13,9 @@ Ryan wants this upgrade to fix performance issues.
 
 Make a list of items present in the change log to put an eye on and discuss with Edge team.
 
-### Rails 7.1 Releases
+### ✅ Rails 7.1 Releases ✅
+
+Upgraded on January 28th, 2025.
 
 Releases:
 - 7.1.0 (Oct 5, 2023) https://github.com/rails/rails/releases/tag/v7.1.0

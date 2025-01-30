@@ -644,7 +644,7 @@ end
 
 El error que causaban era que rails trataba de buscar una columna `patient_id` en la tabla patients en lugar de buscar `id`.
 
-Ver en [[Upgrade to 7.1.4 - Notes#PG UndefinedColumn ERROR column patients.patient_id does not exist for conversable_patients]]
+Ver en [[Upgrade to 7.1.4 - Notes ✅#PG UndefinedColumn ERROR column patients.patient_id does not exist for conversable_patients]]
 
 La solución está en quitar el `inverse_of`. ¿Por qué? ¿Qué hace esa opción?
 

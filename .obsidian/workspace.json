@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f2694226d83d48dc",
+        "id": "3aa69ccdfeecbf0a",
         "type": "tabs",
         "children": [
           {
-            "id": "c70b205cab65c2b2",
+            "id": "272afc18406c615c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Custom_Objects_Schema_Properites_in_Setting"
-            }
-          },
-          {
-            "id": "439d7becd55bd9da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Varios Apuntes para Attestation Form"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Varios Apuntes para Attestation Form"
+              "title": "Outline"
             }
           }
         ],
@@ -175,11 +154,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "439d7becd55bd9da",
+  "active": "272afc18406c615c",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes.md",
+    "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
+    "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/QA Results for Deprecation of DateTime Default Format.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/01 - Notable changes from 7.1.0 to Rails 7.2.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/04 - Rails.env.local? vs Luna.env.local?.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/03 - Fix default format for Date and Time.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/02 - Plan de QA.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.0.8.4 ✅.md",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
+    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
+    "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
+    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
+    "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/008 - ✅ Body for Pull Request and Commit.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
@@ -190,19 +182,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_Hubspot_-_Lecciones.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_AWS_S3_y_Docker_-_Credentialing_Fo.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/How_to_verify_and_make_sure_files_were_properly_up.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/How_to_list_files_per_condition_in_S3_Bucket.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_WKHTMLTOPDF_y_Docker.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_CombinePDF_y_WickedPDF.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso_Generación_de_PDF_Límites_de_WKHTMLTOPDF.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/36.careplan.route.reviews.png",
