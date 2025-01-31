@@ -4,27 +4,31 @@ El form en Therapist Signup se componen de varias secciones. A continuación map
 
 # 1 - Signup
 
-| Field Name               | HS Property Name        |
-|--------------------------|-------------------------|
-| Desired Signature        | desired_signature       |
-| BLS Certificate Number   | bls_certificate_number  |
-| BLS Expiration Date      | bls_expiration_date     |
-| BLS Issuing Company      | bls_issuing_company     |
+| Field Name               | HS Property Name        | Fuente    |
+|--------------------------|-------------------------|-----------|
+| Desired Signature        | desired_signature       | therapist |
+| BLS Certificate Number   | bls_certificate_number  | therapist |
+| BLS Expiration Date      | bls_expiration_date     | therapist |
+| BLS Issuing Company      | bls_issuing_company     | therapist |
 
 
 # 2 - Personal Information
 
-| Field Name          | HS Property Name   |
-|---------------------|--------------------|
-| Name Change         | name_change        |
-| Aliases             | aliases            |
-| Ethnicity           | ethnicity          |
-| Other Ethnicity     | other_ethnicity    |
-| US Citizen          | us_citizen         |
-| Date of Birth       | date_of_birth      |
-| Country of Birth    | country_of_birth   |
-| City of Birth       | city_of_birth      |
-| Place of Birth      | place_of_birth     |
+| Field Name          | HS Property Name   | Fuente   |
+|---------------------|--------------------|----------|
+| Name Change         | name_change        | therapist.aliases.any? |
+| Aliases             | aliases            | therapist.aliases |
+| Ethnicity           | ethnicity          | therapist |
+| Other Ethnicity     | other_ethnicity    | therapist |
+| US Citizen          | us_citizen         | therapist |
+| Date of Birth       | date_of_birth      | therapist |
+| Country of Birth    | country_of_birth   | therapist |
+| City of Birth       | city_of_birth      | therapist |
+| Place of Birth      | place_of_birth     | therapist |
+
+**Notas**
+
+- Para la propiedad `name_change` se define si el therapist tiene aliases.
 
 
 # 3 - Immunization
