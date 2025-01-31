@@ -42,7 +42,7 @@ El form en Therapist Signup se componen de varias secciones. A continuación map
 | Hepatitis B Vaccination Status                                        | hepatitis_b_vaccination_status                                       |
 | TDAP (Tetanus, Diphtheria, Pertussis) Vaccination Status              | tdap__tetanus__diphtheria__pertussis__vaccination_status             |
 | TB Questionnaire: Positive Tuberculosis skin test (PPD)               | tb_questionnaire__positive_tuberculosis_skin_test__ppd_              |
-| TB Questionnaire: Current TB Symptoms                                 | tb_questionnaire__current_tb_symptoms                                |
+| TB Questionnaire: Current TB Symptoms                                 | tb_questionnaire_current_tb_symptoms                                |
 | TB Questionnaire: Positive Tuberculosis blood test (Quantiferon Gold) | tb_questionnaire__positive_tuberculosis_blood_test__quantiferon_gold_|
 | TB Questionnaire: Taken medication for Tuberculosis?                  | tb_questionnaire__taken_medication_for_tuberculosis_                 |
 | TB Questionnaire: Received BCG vaccine                                | tb_questionnaire__received_bcg_vaccine                               |
