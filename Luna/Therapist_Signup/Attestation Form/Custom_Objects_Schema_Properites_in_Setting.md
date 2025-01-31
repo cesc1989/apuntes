@@ -1,13 +1,14 @@
-# Attestation Form - Guardar Propiedades de Schemas Custom
+# Attestation Form - Propiedades de Schemas Custom
 
 Son tres propiedades que hay que guardar en general:
+
 - name
 - id 
 - objectTypeId
 
-Hay que guardarlas en Setting así que necesitamos una convención que soporte tanto los tres objetos custom de esta implementación como futuros.
+Hay que guardarlas en el modelo `Setting` así que necesitamos una convención que soporte tanto los tres objetos custom de esta implementación como futuros.
 
-A continuación, los valores de prueba y las convenciones a usar por cada tipo de objeto.
+A continuación, los **valores en Alpha** y las convenciones a usar por cada tipo de objeto.
 
 ## Para Credentialings
 
@@ -19,7 +20,7 @@ A continuación, los valores de prueba y las convenciones a usar por cada tipo d
 
 - name: `credentialings_name`
 - id: `credentialings_id`
-- objectTypeId: `credentialings_object_type_id`
+- objectTypeId: `credentialings_objectTypeId`
 
 ## Para Licenses
 
@@ -31,7 +32,7 @@ A continuación, los valores de prueba y las convenciones a usar por cada tipo d
 
 - name: `licenses_name`
 - id: `licenses_id`
-- objectTypeId: `licenses_object_type_id`
+- objectTypeId: `licenses_objectTypeId`
 
 ## Para Therapist Address
 
@@ -43,4 +44,5 @@ A continuación, los valores de prueba y las convenciones a usar por cada tipo d
 
 - name: `therapist_addresses_name`
 - id: `therapist_addresses_id`
-- objectTypeId: `therapist_addresses_object_type_id`
+- objectTypeId: `therapist_addresses_objectTypeId`
+
