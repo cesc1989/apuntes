@@ -1,6 +1,6 @@
 # Mapeo de Secciones y Propiedades License Object
 
-Complementario a [[Credentialing Object - Mapeo de Secciones y Propiedades]]
+Complementario a [[Credentialing Object - Mapeo de Secciones y Propiedades]] y [[Therapist Address - Mapeo Secciones y Propiedades]]
 
 # 1 - Signup
 
