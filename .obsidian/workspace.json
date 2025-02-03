@@ -4,20 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "a2114fc0e23f16d9",
+        "id": "e6133be8d1cc2a25",
         "type": "tabs",
         "children": [
           {
-            "id": "211af437ec6f5904",
+            "id": "7ee88416828dc044",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "License Object - Mapeo de Secciones y Propiedades"
+            }
+          },
+          {
+            "id": "9110bac1a8d79e41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Credentialing Object - Mapeo de Secciones y Propiedades"
+            }
+          },
+          {
+            "id": "eabcb7e4eabac7d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Varios Apuntes para Attestation Form"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -36,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -48,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Rails.application",
+                "query": "tagging",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,9 +168,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Credentialing Object - Mapeo de Secciones y Propiedades"
             }
           }
         ],
@@ -154,11 +193,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "211af437ec6f5904",
+  "active": "9110bac1a8d79e41",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones y Propiedades de Credentialing Object.md",
     "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
+    "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
+    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
+    "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
     "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
@@ -180,8 +221,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/004 - The efficiency killer - Jason Swett.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/002 - Clean code is downstream of clear thinking - Jason Swett.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/001 - Dull Blades - Jason Swett.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/36.careplan.route.reviews.png",

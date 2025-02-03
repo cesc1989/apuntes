@@ -2,6 +2,8 @@
 
 El form en Therapist Signup se componen de varias secciones. A continuación mapeo qué propiedades del objeto Credentialing hay que actualizar según la sección en donde se guardan sus valores.
 
+Complementario a [[License Object - Mapeo de Secciones y Propiedades]]
+
 # 1 - Signup
 
 | Field Name               | HS Property Name        | Fuente    |
