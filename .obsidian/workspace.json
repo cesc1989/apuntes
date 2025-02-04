@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e6133be8d1cc2a25",
+        "id": "6e04261f4e33b667",
         "type": "tabs",
         "children": [
           {
-            "id": "eabcb7e4eabac7d1",
+            "id": "f78840521e74cee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
+                "file": "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Varios Apuntes para Attestation Form"
-            }
-          },
-          {
-            "id": "3006ae157fe6d3a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lecciones_Desarrollo_-_Therapists_Forms"
-            }
-          },
-          {
-            "id": "400539ef1fdc2511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lecciones_Rails_-_Therapists_Forms"
+              "title": "Lista_de_Form_Types,_Injury_Types_y_MCIDs"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+                "file": "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecciones_Rails_-_Therapists_Forms"
+              "title": "Outline of Lista_de_Form_Types,_Injury_Types_y_MCIDs"
             }
           }
         ],
@@ -193,10 +164,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "400539ef1fdc2511",
+  "active": "f78840521e74cee2",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
+    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
+    "Luna/Backend/KX-Modifier",
     "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/Therapist Address - Mapeo Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
@@ -218,9 +193,6 @@
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/008 - ✅ Body for Pull Request and Commit.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/004 - The efficiency killer - Jason Swett.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/36.careplan.route.reviews.png",
@@ -240,7 +212,6 @@
     "cashflow/vendor/javascript",
     "cashflow/vendor",
     "cashflow/tmp",
-    "cashflow/storage",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

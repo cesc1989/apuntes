@@ -1,6 +1,7 @@
 # Lista de Form Types, Injury Types y MCIDs
 
 ## Tipos de Formulario
+
 | **Nombre** | **Descripción**                                      | **Acronimo** | **Parte del Cuerpo**                     |
 | ---------- | ---------------------------------------------------- | ------------ | ---------------------------------------- |
 | ODI        | Oswestry Disability Index                            | odi          | Lower Back                               |
@@ -15,6 +16,7 @@
 | MDQ        | Modified Oswestry Low Back Disability Index          | mdq          | Lower Back                               |
 
 ## Relación *Form Types* y Cantidad de Preguntas de Limitaciones Funcionales
+
 | **Form Type** | **Cantidad de Preguntas**             |
 | ------------- | ------------------------------------- |
 | ODI           | 10                                    |
@@ -29,6 +31,7 @@
 | MDQ           | 10                                    |
 
 ## Lista de Injury Names
+
 1. Ankle/Foot
 2. Hip
 3. Hip - Joint Replacement
@@ -43,6 +46,7 @@
 
 
 ## Form Type con MCID
+
 | **Injury Name**          | **Form Type** | **MCID**  |
 | ------------------------ | ------------- | --------- |
 | Ankle/Foot               | LEFS          | 9 points  |
