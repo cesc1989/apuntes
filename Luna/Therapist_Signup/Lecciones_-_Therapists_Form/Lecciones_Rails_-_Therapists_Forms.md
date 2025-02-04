@@ -13,68 +13,70 @@ Hay dos formas de usarlo:
 
 **Usando** `**rescue_from**` en un módulo
 
+```ruby
+# app/controllers/concerns/exception_handler.rb
 
-    # app/controllers/concerns/exception_handler.rb
-    module ExceptionHandler
-      extend ActiveSupport::Concern
-    
-      included do
-        rescue_from ActiveRecord::RecordNotFound, with: :not_found
-      end
-    
-      private
-    
-      def not_found(e)
-        render json: { errors: "#{e.model} does not exist" }, status: :not_found
-      end
-    end
-    
+module ExceptionHandler
+	extend ActiveSupport::Concern
+
+	included do
+		rescue_from ActiveRecord::RecordNotFound, with: :not_found
+	end
+
+	private
+
+	def not_found(e)
+		render json: { errors: "#{e.model} does not exist" }, status: :not_found
+	end
+end
+```
 
 Al usarlo en un módulo, normalmente se usará `ActiveSupport::Concern` para permitir que luego pueda ser usado en un controlador base.
 
+```ruby
+# app/controllers/api/base_api_controller.rb
+module Api
+	class BaseApiController < ApplicationController
+		protect_from_forgery with: :null_session
 
-    # app/controllers/api/base_api_controller.rb
-    module Api
-      class BaseApiController < ApplicationController
-        protect_from_forgery with: :null_session
-    
-        include ExceptionHandler
-      end
-    end
-    
+		include ExceptionHandler
+	end
+end
+```
 
 **Usando** `**rescue_from**` en un controlador base
 
+```ruby
+class ApplicationController < ActionController::Base
+	protect_from_forgery with: :null_session
 
-    class ApplicationController < ActionController::Base
-      protect_from_forgery with: :null_session
-    
-      rescue_from ActiveRecord::RecordNotFound, with: :not_found
-    
-      rescue_from ActionController::ParameterMissing do |parameter_missing|
-        render json: { errors: parameter_missing.message },
-               status: :unprocessable_entity
-      end
-    
-      rescue_from RailsParam::Param::InvalidParameterError do |invalid_parameter|
-        render json: { errors: invalid_parameter.message },
-               status: :unprocessable_entity
-      end
-    
-      rescue_from ActiveRecord::InvalidForeignKey, with: :cannot_delete_record
-    
-      private
-    
-      def not_found
-        render json:  { errors: 'Not found' },
-               status: :not_found
-      end
-    
-      def cannot_delete_record
-        render json: { errors: 'Cannot delete' },
-               status: :unprocessable_entity
-      end
-    end
+	rescue_from ActiveRecord::RecordNotFound, with: :not_found
+
+	rescue_from ActionController::ParameterMissing do |parameter_missing|
+		render json: { errors: parameter_missing.message },
+					 status: :unprocessable_entity
+	end
+
+	rescue_from RailsParam::Param::InvalidParameterError do |invalid_parameter|
+		render json: { errors: invalid_parameter.message },
+					 status: :unprocessable_entity
+	end
+
+	rescue_from ActiveRecord::InvalidForeignKey, with: :cannot_delete_record
+
+	private
+
+	def not_found
+		render json:  { errors: 'Not found' },
+					 status: :not_found
+	end
+
+	def cannot_delete_record
+		render json: { errors: 'Cannot delete' },
+					 status: :unprocessable_entity
+	end
+end
+```
 
 **Relacionado**
 
@@ -83,26 +85,21 @@ Al usarlo en un módulo, normalmente se usará `ActiveSupport::Concern` para per
 - [rails/activesupport/lib/active_support/rescuable.rb](https://github.com/rails/rails/blob/master/activesupport/lib/active_support/rescuable.rb#L51)
 - [Stack Overflow](https://stackoverflow.com/questions/52543840/rails-5-way-to-handle-actioncontrollerparametermissing)
 
-
 ## Límite de Caracteres para Identificador en PostgreSQL
 
 El [límite para un identificador](https://til.hashrocket.com/posts/8f87c65a0a-postgresqls-max-identifier-length-is-63-bytes)(nombre de tabla, columna, llaves) es de 63 bytes.
 
 [Según la documentación de PostgreSQL](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS):
 
-
 > The tokens `MY_TABLE` and `A` are examples of identifiers. They identify names of tables, columns, or other database objects, depending on the command they are used in. Therefore they are sometimes simply called “names”. Key words and identifiers have the same lexical structure, meaning that one cannot know whether a token is an identifier or a key word without knowing the language.
 
 Acerca del límite máximo de caracteres por nombre de identificador:
 
-
 > The system uses no more than `NAMEDATALEN`-1 bytes of an identifier; longer names can be written in commands, but they will be truncated. By default, `NAMEDATALEN` is 64 so the maximum identifier length is 63 bytes. If this limit is problematic, it can be raised by changing the `NAMEDATALEN` constant in `src/include/pg_config_manual.h`.
-
 
 ## Migración que no corrió en RAILS_ENV=test
 
-Me ocurrió un caso como [el que describo en este](https://github.com/rails/rails/issues/28826#issuecomment-516063445) [*issue*](https://github.com/rails/rails/issues/28826#issuecomment-516063445)*:*
-
+Me ocurrió un caso como [el que describo en este](https://github.com/rails/rails/issues/28826#issuecomment-516063445) [*issue*](https://github.com/rails/rails/issues/28826#issuecomment-516063445):
 
 - Added new model and run migration
 - Rolled back, changed a column name
@@ -111,14 +108,13 @@ Me ocurrió un caso como [el que describo en este](https://github.com/rails/rail
 
 La cual arreglé con:
 
-
     $ RAILS_ENV=test rails db:drop
     $ RAILS_ENV=test rails db:create
     $ RAILS_ENV=test rails db:schema:load
+
 ## Migración para remover llave foránea creada con `references`
 
 Si en una tabla tenemos una relación mediante llave foránea que agrega lo siguiente:
-
 
 - Campo `relacion_id`: ejemplo `therapist_id`
 - Llave foránea
@@ -127,7 +123,6 @@ Si en una tabla tenemos una relación mediante llave foránea que agrega lo sigu
 La mejor forma de eliminarlo es [usando la migración](https://api.rubyonrails.org/v4.2/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-remove_reference) `[remove_reference](https://api.rubyonrails.org/v4.2/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-remove_reference)`. Aunque existen también `remove_foreign_key` y `remove_index`. `remove_reference` se encarga de todo.
 
 Para el caso de quitar la relación de *Therapist* en *Question* y *Answer* se hizo así:
-
 
     remove_reference :questions, :therapist, index: true
     remove_reference :answers, :therapist, index: true
@@ -140,11 +135,9 @@ Para mostrar un botón radio pero sin ningún modelo ni formulario [se puede usa
 
 Pertenece a la [clase](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html) `[ActionView::Helpers::FormTagHelper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html)`.
 
-
 ## Uso de `render_to_string` por fuera de una vista o controlador
 
 El método `render_to_string` se usa normalmente en clases que hereden de `ActionController::Base`. Cuando se quiere usar por fuera se necesita configurar la herencia o [enviar el mensaje a una instancia de](https://stackoverflow.com/questions/2678045/render-to-string-in-lib-class-not-working) `[ActionController::Base](https://stackoverflow.com/questions/2678045/render-to-string-in-lib-class-not-working)`.
-
 
 > Notar que: `[ActionController](https://api.rubyonrails.org/classes/ActionController.html)` [es un módulo](https://api.rubyonrails.org/classes/ActionController.html) y `ActionController::Base` hace referencia [a la clase](https://api.rubyonrails.org/classes/ActionController/Base.html) `[Base](https://api.rubyonrails.org/classes/ActionController/Base.html)` que pertenece al namespace `ActionController`.
 
@@ -154,17 +147,19 @@ De no hacerlo, el error que aparecería sería similar a este:
 
 Ejemplo de cómo lograrlo en `MedicarePdfAttachmentUploader`:
 
-    class MedicarePdfAttachmentUploader
-      def generate_pdf
-        WickedPdf.new.pdf_from_string(
-          ActionController::Base.new.render_to_string(
-            template: 'medicare_requirements/show.pdf.erb',
-            layout: 'pdf.html',
-            locals: { :@medicare_requirement => @medicare_requirement }
-          )
-        )
-      end
-    end
+```ruby
+class MedicarePdfAttachmentUploader
+	def generate_pdf
+		WickedPdf.new.pdf_from_string(
+			ActionController::Base.new.render_to_string(
+				template: 'medicare_requirements/show.pdf.erb',
+				layout: 'pdf.html',
+				locals: { :@medicare_requirement => @medicare_requirement }
+			)
+		)
+	end
+end
+```
 
 Nota también la forma en que le puedo enviar una variable de instancia a la vista. Como en este caso se está generando un archivo PDF sin navegar a una página web, pasar la variable `@medicare_requirement` que normalmente estaría en la acción del controlador, se [pasa como variable local](https://stackoverflow.com/a/37763478/1407371) mediante el *hash* `locals: {}`.
 
@@ -172,17 +167,18 @@ Nota también la forma en que le puedo enviar una variable de instancia a la vis
 En este [artículo de Evil Martians](https://evilmartians.com/chronicles/new-feature-in-rails-5-render-views-outside-of-actions) describen otra forma de hacerlo usando el método de clase `render` para cada controlador, simplificando más esta acción. Esta se vale de `[ActionController::Base#renderer](https://api.rubyonrails.org/classes/ActionController/Renderer.html)` para funcionar.
 
 Teniendo en cuenta el artículo, generar dicho PDF podría ser algo como:
+```ruby
+MedicareRequirementsController.render(
+	:show,
+	assigns: { medicare_requirement: @medicare_requirement }
+)
+```
 
-    MedicareRequirementsController.render(
-      :show,
-      assigns: { medicare_requirement: @medicare_requirement }
-    )
 ## `ActionMailer asset_host` para imágenes en correos salientes
 
 Para mostrar imágenes en los correos salientes desde la aplicación Rails, [hay que configurar una variable llamada](https://guides.rubyonrails.org/v5.2/action_mailer_basics.html#adding-images-in-action-mailer-views) `[asset_host](https://guides.rubyonrails.org/v5.2/action_mailer_basics.html#adding-images-in-action-mailer-views)`.
 
 Esta se puede configurar en `config/application.rb` o por cada entorno:
-
 
     # config/environments/production.rb
     
@@ -192,11 +188,9 @@ Sin embargo, solo con esto no será suficiente cuando se está en un entorno dif
 
 Esto es porque la configuración `[config.public_file_server.enabled](https://guides.rubyonrails.org/v5.2/configuring.html#rails-general-configuration)` está probablemente desactivada:
 
-
 > `config.public_file_server.enabled` configures Rails to serve static files from the public directory. This option defaults to `true`, but in the production environment it is set to `false` because the server software (e.g. NGINX or Apache) used to run the application should serve static files instead. If you are running or testing your app in production mode using WEBrick (it is not recommended to use WEBrick in production) set the option to `true.` Otherwise, you won't be able to use page caching and request for files that exist under the public directory.
 
 Cómo en la aplicación la configuración está de esta forma:
-
 
     # Disable serving static files from the `/public` folder by default since
     # Apache or NGINX already handles this.
@@ -211,26 +205,26 @@ Una vez la activé comenzaron a aparecer las imágenes en los correos(excepto en
 Normalmente se usaría el helper de vistas `image_tag` y todo debería funcionar normalmente. En todo caso, para situaciones donde esto pueda ser no suficiente(Gmail, por ejemplo), se puede usar la estrategia de cargar la imagen como adjunto del correo.
 
 `ActionMailer` permite cargar adjuntos y adjuntos en línea. Usando esta segunda forma, se puede mostrar imágenes dentro del cuerpo del correo:
+```ruby
+class CredentialingLinkMailer < ApplicationMailer
+	def link
+		@therapist = params[:therapist]
 
-    class CredentialingLinkMailer < ApplicationMailer
-      def link
-        @therapist = params[:therapist]
-    
-        attachments.inline['therapist-icon.svg'] = File.read(Rails.root.join('app', 'assets', 'images', 'therapist-icon.svg'))
-        attachments.inline['requirement-icon.svg'] = File.read(Rails.root.join('app', 'assets', 'images', 'requirement-icon.svg'))
-    
-        mail(to: @therapist.email, subject: 'Luna Credentialing Starts Now...')
-      end
-    end
-    
+		attachments.inline['therapist-icon.svg'] = File.read(Rails.root.join('app', 'assets', 'images', 'therapist-icon.svg'))
+		attachments.inline['requirement-icon.svg'] = File.read(Rails.root.join('app', 'assets', 'images', 'requirement-icon.svg'))
+
+		mail(to: @therapist.email, subject: 'Luna Credentialing Starts Now...')
+	end
+end
+```
 
 Y luego se pueden usar en la vista del correo:
-
-    <td align="left" style="padding:0;Margin:0;">
-      <%= image_tag(attachments['requirement-icon.svg'].url, style: 'vertical-align: middle;') %>
-      <p>Bank Information</p>
-    </td>
-
+```ruby
+<td align="left" style="padding:0;Margin:0;">
+	<%= image_tag(attachments['requirement-icon.svg'].url, style: 'vertical-align: middle;') %>
+	<p>Bank Information</p>
+</td>
+```
 
 ## La Clase Date en Rails agrega otra Constante
 
@@ -272,23 +266,25 @@ Y ahora usando estas variaciones:
 
 
 ## Sobre los métodos de Mini Magick en el Signature Generator
-    def generate
-        image = MiniMagick::Image.new(@tempcanvas.path)
-    
-        image.combine_options do |cmd|
-          cmd.font(FONT_PATH)
-          cmd.gravity(FONT_GRAVITY)
-          cmd.pointsize(FONT_SIZE)
-          cmd.draw("text 0,0 '#{@signature_text.tr("'", ' ')}'")
-        end
-    
-        image.write("#{IMAGE_STORAGE_PATH}/#{@therapist.id}-signature.png")
-    
-        save_to_therapist
-      end
+
+```ruby
+def generate
+	image = MiniMagick::Image.new(@tempcanvas.path)
+
+	image.combine_options do |cmd|
+		cmd.font(FONT_PATH)
+		cmd.gravity(FONT_GRAVITY)
+		cmd.pointsize(FONT_SIZE)
+		cmd.draw("text 0,0 '#{@signature_text.tr("'", ' ')}'")
+	end
+
+	image.write("#{IMAGE_STORAGE_PATH}/#{@therapist.id}-signature.png")
+
+	save_to_therapist
+end
+```
 
 No tenía idea de dónde saqué esos métodos. Aquí ya documentamos un poquito.
-
 
 - Método `draw#text` → https://rmagick.github.io/draw.html#text
 - En la doc oficial de ImageMagick → https://imagemagick.org/script/command-line-options.php#draw
@@ -302,25 +298,27 @@ Salía este error luego de actualizar a Rails 6.1.4.4
 
 Para corregir, hay que quitar la extensión del partial o template e incluir la opción `formats`:
 **Antes**
-
-    WickedPdf.new.pdf_from_string(
-          ActionController::Base.new.render_to_string(
-            template: 'packets/show.pdf.erb',
-            layout: 'pdf.html',
-            locals: { :@therapist => @therapist }
-          )
-        )
+```ruby
+WickedPdf.new.pdf_from_string(
+	ActionController::Base.new.render_to_string(
+		template: 'packets/show.pdf.erb',
+		layout: 'pdf.html',
+		locals: { :@therapist => @therapist }
+	)
+)
+```
 
 **Después**
-
-    WickedPdf.new.pdf_from_string(
-          ActionController::Base.new.render_to_string(
-            template: 'packets/show',
-            formats: [:pdf],
-            layout: 'pdf.html',
-            locals: { :@therapist => @therapist }
-          )
-        )
+```ruby
+WickedPdf.new.pdf_from_string(
+	ActionController::Base.new.render_to_string(
+		template: 'packets/show',
+		formats: [:pdf],
+		layout: 'pdf.html',
+		locals: { :@therapist => @therapist }
+	)
+)
+```
 
 Enlaces al respecto:
 
@@ -328,7 +326,6 @@ Enlaces al respecto:
 - [PR donde se implementa esta depreciación](https://github.com/rails/rails/pull/39164)
 - En [las guías de Rails](https://guides.rubyonrails.org/layouts_and_rendering.html#using-render) sobre el método render y sus opciones
 - Un [ejemplo en un proyecto X](https://github.com/glebm/rails_email_preview/pull/86/files) de cómo hicieron el cambio
-
 
 ## rails assets:precompile ejecuta todos los initializers
 
