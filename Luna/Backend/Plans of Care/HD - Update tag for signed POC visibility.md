@@ -16,6 +16,57 @@ All the things I've found while looking for the "patient documentation" tag.
 - This file is used in `db/seeds.rb`
 - It's needed for the `DocumentTagSeeder` class
 - This is a seeder class for the `DocumentTag` model
+- `PlanOfCare` is the model representation of `plans_of_care` table (POC)
+
+`PlanOfCare` has these associations:
+```ruby
+belongs_to :episode
+belongs_to :document, optional: true
+has_one :plan_of_care_action, required: false
+```
+
+`Episode` (Care Plan) has these associations:
+```ruby
+has_many :appointments, dependent: :destroy
+
+has_many :charts, through: :appointments
+has_many :plans_of_care, through: :charts
+```
+
+`Chart` model associations:
+```ruby
+has_many :plans_of_care, dependent: :destroy
+has_many :plan_of_care_faxes, through: :plans_of_care
+
+has_one :therapist, through: :appointment
+has_one :episode, through: :appointment
+```
+
+The `Document` model is the one that handles tagging:
+```ruby
+class Document < ApplicationRecord
+  acts_as_taggable_on :tags
+end
+```
+
+> act-as-taggable-on -> https://github.com/mbleigh/acts-as-taggable-on
+
+- Full list of Plans of Care in Clinical menu -> Plans of Care submenu - [Visit](http://localhost:3000/admin/plans_of_care)
+- There's a "status" column
+	- In `admin/clinical/plans_of_care.rb` you can see it uses `poc.status`. `poc.status` returns `[:approved, :modified, :rejected]`
+- In the Plan of Care detail page you can access the attached `Document`
+- In `PlanOfCareActionsController` the POC signature from Clinical Dashboard is handled
+	- There's a worker: `PocDigitalSignatureWorker`. I suspect is this worker where the Tag should be added.
+	- In `PatientFormsSignedTermsService` I did something similar. Added the tag like this: `document.tag_list.add("other")`
+
+## Questions
+
+How do I link an Episode (Care Plan) with a Plan of Care (POC)?
+
+How do I find a Episode (Care Plan) with Plan of Care?
+
+
+## Schemas
 
 `document_tags` schema:
 ```ruby
@@ -30,8 +81,6 @@ create_table "document_tags", id: :uuid, default: -> { "uuid_generate_v4()" }, f
 	t.index ["name"], name: "index_document_tags_on_name", unique: true
 end
 ```
-
-- `PlanOfCare` is the model representation of `plans_of_care` table (POC)
 
 `plans_of_care` schema:
 ```ruby
@@ -62,32 +111,15 @@ create_table "plans_of_care", id: :uuid, default: -> { "uuid_generate_v4()" }, f
 end
 ```
 
-`PlanOfCare` has these associations:
+`plan_of_care_actions` schema:
 ```ruby
-belongs_to :episode
-belongs_to :document, optional: true
-has_one :plan_of_care_action, required: false
-```
-
-The `Document` model is the one that handles tagging:
-```ruby
-class Document < ApplicationRecord
-  acts_as_taggable_on :tags
+create_table "plan_of_care_actions", id: :uuid, default: -> { "uuid_generate_v4()" }, force: :cascade do |t|
+	t.uuid "plan_of_care_id", null: false
+	t.integer "kind", null: false
+	t.text "notes"
+	t.jsonb "metadata", default: {}, null: false
+	t.datetime "created_at", null: false
+	t.datetime "updated_at", null: false
+	t.index ["plan_of_care_id"], name: "index_plan_of_care_actions_on_plan_of_care_id", unique: true
 end
 ```
-
-> act-as-taggable-on -> https://github.com/mbleigh/acts-as-taggable-on
-
-- Full list of Plans of Care in Clinical menu -> Plans of Care submenu.
-- There's a "status" column
-	- In `admin/clinical/plans_of_care.rb` you can see it uses `poc.status`
-- `poc.status` returns `[:approved, :modified, :rejected]`
-- In `PlanOfCareActionsController` the POC signature from Clinical Dashboard is handled
-	- There's a worker: `PocDigitalSignatureWorker`
-	- I suspect is this worker where the Tag should be added.
-	- In `PatientFormsSignedTermsService` I did something similar.
-		- Added the tag like this: `document.tag_list.add("other")`
-
-## Questions
-
-How do I link an Episode (Care Plan) with a Plan of Care (POC)?
