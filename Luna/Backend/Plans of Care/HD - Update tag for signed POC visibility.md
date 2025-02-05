@@ -64,8 +64,8 @@ end
 
 `PlanOfCare` has these associations:
 ```ruby
+belongs_to :episode
 belongs_to :document, optional: true
-
 has_one :plan_of_care_action, required: false
 ```
 
