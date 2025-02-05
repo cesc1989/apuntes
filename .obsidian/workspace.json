@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3a6016c627f4620e",
+        "id": "26006460fed21a44",
         "type": "tabs",
         "children": [
           {
-            "id": "d60244e05417aa1e",
+            "id": "fc7a57d23945831c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Manejo de Moneda es en Subunidad - Centavos.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Manejo de Moneda es en Subunidad - Centavos"
+              "title": "KX Modifier - Notas Generales"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Manejo de Moneda es en Subunidad - Centavos.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Manejo de Moneda es en Subunidad - Centavos"
+              "title": "Outline of KX Modifier - Notas Generales"
             }
           }
         ],
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d60244e05417aa1e",
+  "active": "fc7a57d23945831c",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Manejo de Moneda es en Subunidad - Centavos.md",
     "Luna/Patient_Self_Report/Option_Choices_per_Form_Type/ASES_Option_Choices.md",
     "Luna/Patient_Self_Report/Option_Choices_per_Form_Type/Hoos_JR_&&_Koos_JR_Option_Choices.md",
@@ -192,7 +193,6 @@
     "Luna/Therapist_Signup/Attestation Form/Therapist Address - Mapeo Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-    "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/36.careplan.route.reviews.png",
