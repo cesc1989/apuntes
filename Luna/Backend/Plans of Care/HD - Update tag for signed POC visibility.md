@@ -2,7 +2,7 @@
 
 ## Context
 
-Request: Update tag in manage documents to make signed POCs visible to PT in the app.
+Request: Update tag in manage documents to ==make signed POCs visible to PT in the app==.
 
 Detail: We would like ==signed POCs to automatically be visible to the PT in the app via documents==. They are currently tagged as “other” so they do not load into the app. **If the tag is changed to “patient documentation”, the PT will have visibility.**
 
