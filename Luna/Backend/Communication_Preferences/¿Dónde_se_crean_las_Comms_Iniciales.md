@@ -1,4 +1,5 @@
-# [Comms] ¿Dónde se crean las Comms Iniciales?
+# ¿Dónde se crean las Comms Iniciales?
+
 Estos son los archivos donde se crean las `notification_settings` o el `patient_communication_preference_token` al crear pacientes.
 
 # Omni Actions Create Patient

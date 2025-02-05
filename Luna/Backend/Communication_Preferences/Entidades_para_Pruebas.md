@@ -1,9 +1,10 @@
-# [Comms] Entidades para Pruebas
+# Entidades para Pruebas
+
 Account
 
     Account.find("16bfca31-1127-4075-863f-3b1c95720fc4")
 
-notification_setttings de esta cuenta
+`notification_setttings` de esta cuenta:
 
     Account.find("16bfca31-1127-4075-863f-3b1c95720fc4").notification_settings
     
