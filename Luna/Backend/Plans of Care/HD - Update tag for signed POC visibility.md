@@ -18,6 +18,26 @@ All the things I've found while looking for the "patient documentation" tag.
 - This is a seeder class for the `DocumentTag` model
 - `PlanOfCare` is the model representation of `plans_of_care` table (POC)
 
+> act-as-taggable-on -> https://github.com/mbleigh/acts-as-taggable-on
+
+- Full list of Plans of Care in Clinical menu -> Plans of Care submenu - [Visit](http://localhost:3000/admin/plans_of_care)
+- There's a "status" column
+	- In `admin/clinical/plans_of_care.rb` you can see it uses `poc.status`. `poc.status` returns `[:approved, :modified, :rejected]`
+- In the Plan of Care detail page you can access the attached `Document`
+- In `PlanOfCareActionsController` the POC signature from Clinical Dashboard is handled
+	- There's a worker: `PocDigitalSignatureWorker`. I suspect is this worker where the Tag should be added. However, the report says "currently tagged as _other_". I don't see that happening in this worker.
+	- In `PatientFormsSignedTermsService` I did something similar. Added the tag like this: `document.tag_list.add("other")`
+
+
+## Questions
+
+How do I link an Episode (Care Plan) with a Plan of Care (POC)?
+
+How do I find a Episode (Care Plan) with Plan of Care?
+
+
+## Models
+
 `PlanOfCare` has these associations:
 ```ruby
 belongs_to :episode
@@ -48,22 +68,6 @@ class Document < ApplicationRecord
   acts_as_taggable_on :tags
 end
 ```
-
-> act-as-taggable-on -> https://github.com/mbleigh/acts-as-taggable-on
-
-- Full list of Plans of Care in Clinical menu -> Plans of Care submenu - [Visit](http://localhost:3000/admin/plans_of_care)
-- There's a "status" column
-	- In `admin/clinical/plans_of_care.rb` you can see it uses `poc.status`. `poc.status` returns `[:approved, :modified, :rejected]`
-- In the Plan of Care detail page you can access the attached `Document`
-- In `PlanOfCareActionsController` the POC signature from Clinical Dashboard is handled
-	- There's a worker: `PocDigitalSignatureWorker`. I suspect is this worker where the Tag should be added.
-	- In `PatientFormsSignedTermsService` I did something similar. Added the tag like this: `document.tag_list.add("other")`
-
-## Questions
-
-How do I link an Episode (Care Plan) with a Plan of Care (POC)?
-
-How do I find a Episode (Care Plan) with Plan of Care?
 
 
 ## Schemas
