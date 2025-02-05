@@ -87,7 +87,7 @@ Lo más probable es que quede vacío el valor para `from` de los parámetros req
 ```ruby
 TwilioHelper.send_sms(
 	body: message,
-	from: config\["outbound_sms_number"\][patient.region.name],
+	from: config["outbound_sms_number"][patient.region.name],
 	to_contactable: patient.account
 )
 ```
