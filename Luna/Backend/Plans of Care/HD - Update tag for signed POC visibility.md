@@ -78,3 +78,16 @@ end
 
 > act-as-taggable-on -> https://github.com/mbleigh/acts-as-taggable-on
 
+- Full list of Plans of Care in Clinical menu -> Plans of Care submenu.
+- There's a "status" column
+	- In `admin/clinical/plans_of_care.rb` you can see it uses `poc.status`
+- `poc.status` returns `[:approved, :modified, :rejected]`
+- In `PlanOfCareActionsController` the POC signature from Clinical Dashboard is handled
+	- There's a worker: `PocDigitalSignatureWorker`
+	- I suspect is this worker where the Tag should be added.
+	- In `PatientFormsSignedTermsService` I did something similar.
+		- Added the tag like this: `document.tag_list.add("other")`
+
+## Questions
+
+How do I link an Episode (Care Plan) with a Plan of Care (POC)?
