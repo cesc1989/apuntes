@@ -43,6 +43,7 @@ It's sent to patients that:
 
 
 # What is the logic for Email notification “Wilted Tree, Pending Exercise Workout AND No Patient App Login” && “Pending Exercise Workout AND No Patient App Login”
+
 > NOTE: see these files to follow the logic: PeriodicJobs (line 285), LocalWiltedTreeExercisesViaWebRemindersWorker, and **WiltedTreeExercisesViaWebReminderWorker**
 
 These two distinct email notifications originate from the same source: `WiltedTreeExercisesViaWebReminderWorker`.

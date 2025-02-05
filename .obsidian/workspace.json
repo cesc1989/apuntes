@@ -22,21 +22,20 @@
             }
           },
           {
-            "id": "14eeae4cb60e5b3f",
+            "id": "a2e2032fc93e0e43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+                "file": "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_QA_Results.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "[EvW]_Entidades_para_Pruebas"
+              "title": "[EvW]_Notifications_QA_Results"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+                "file": "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of [EvW]_Entidades_para_Pruebas"
+              "title": "Outline of HD - Update tag for signed POC visibility"
             }
           }
         ],
@@ -179,9 +178,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14eeae4cb60e5b3f",
+  "active": "3471d79d1429405f",
   "lastOpenFiles": [
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_QA_Results.md",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Table.md",
+    "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
+    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Logic_&&_Files.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_ER_Diagram.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Logic_for_PatientDownloadAppSmsWorker.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notes.md",
     "Luna/Backend/Usando Flipper.md",
     "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
@@ -193,20 +202,10 @@
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Discovery.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_ER_Diagram.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notes.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Logic_&&_Files.md",
     "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
     "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Luna/Backend/Email Verification/Incident - Email Blast.md",
-    "Luna/Backend/Email Verification/Misc Info.md",
-    "Luna/Backend/Communication_Preferences/Entidades_para_Pruebas.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
