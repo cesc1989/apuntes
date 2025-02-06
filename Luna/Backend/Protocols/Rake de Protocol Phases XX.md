@@ -67,3 +67,10 @@ phase_periods: ["1:10", "11:23", "24:37", "38:48", "49:"]
 ```
 
 El último rango está mal definido. Los rangos en `phase_periods` deben ser excluyentes. El último valor no puede coincidir con el primer valor del siguiente rango.
+
+Este índice de exclusión lo veo en el schema:
+```ruby
+t.exclusion_constraint "relative_period WITH &&, protocol_id WITH =", using: :gist, name: "protocol_phases_802620237"
+```
+
+También veo que el campo `relative_period` se de tipo `int4range`. ¿Qué es eso?
