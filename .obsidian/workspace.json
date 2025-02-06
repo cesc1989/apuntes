@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -166,8 +166,9 @@
   },
   "active": "1550d10c4765efbd",
   "lastOpenFiles": [
-    "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
+    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
+    "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
     "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
@@ -192,7 +193,6 @@
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Discovery.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",

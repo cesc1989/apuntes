@@ -74,3 +74,12 @@ t.exclusion_constraint "relative_period WITH &&, protocol_id WITH =", using: :gi
 ```
 
 También veo que el campo `relative_period` se de tipo `int4range`. ¿Qué es eso?
+
+### Error de Protocol still missing documents
+
+Sale así:
+```bash
+Protocols still missing documents: ["54fd92d5-a6f1-47f5-84d2-72168b968a18", "75d71a38-30fe-4a49-9ec8-44e1321a16df"]
+```
+
+Solución:
