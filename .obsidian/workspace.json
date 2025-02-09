@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aa61176ea1c34bd3",
+        "id": "3423b3fc477e8b6e",
         "type": "tabs",
         "children": [
           {
-            "id": "8cea1736f7c29bcc",
+            "id": "471f202c5287998d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes_de_Sublime_Text"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Sublime_Text"
+              "title": "Outline"
             }
           }
         ],
@@ -164,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cea1736f7c29bcc",
+  "active": "471f202c5287998d",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
@@ -192,7 +188,6 @@
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
