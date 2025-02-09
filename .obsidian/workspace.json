@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "933228212fffcced",
+        "id": "7c9af5d9441e75cb",
         "type": "tabs",
         "children": [
           {
-            "id": "1550d10c4765efbd",
+            "id": "df1ce9ac9caf5c61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Rake de Protocol Phases XX"
+              "title": "Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ]
@@ -40,8 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -140,13 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Rake de Protocol Phases XX"
+              "title": "Outline of Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ],
@@ -164,10 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1550d10c4765efbd",
+  "active": "df1ce9ac9caf5c61",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
+    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
@@ -190,9 +189,6 @@
     "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
