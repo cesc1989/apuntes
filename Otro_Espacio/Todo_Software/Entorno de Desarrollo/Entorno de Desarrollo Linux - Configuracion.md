@@ -35,7 +35,6 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [ ] Yarn -> https://yarnpkg.com/getting-started/install
 - [x] Zellij -> https://zellij.dev/
 	- [x] Configura `.bashrc` para que cargue `.bash_profile`
-- [ ] Youtube DL -> https://github.com/ytdl-org/youtube-dl
 - [x] The Silver Searcher -> https://github.com/ggreer/the_silver_searcher
 - [x] Delta -> https://github.com/dandavison/delta
 - [x] Emote -> https://github.com/tom-james-watson/Emote
@@ -64,7 +63,6 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Carpeta projects
 - [x] devaspros projects
 - [x] Carpeta música
-- [ ] Carpeta pictures
 - [ ] Carpeta documents
 
 ## Configuración de Proyectos
