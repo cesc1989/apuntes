@@ -49,7 +49,7 @@ Ultimo commit: 9 de Enero, 2025.
 
 # Vale la pena montar una web app con arquitectura Multi tenant?
 
-Coincidencialmente, en el subreddit de ruby on rails alguien hace una pregunta pertinente a este tema. Las respuestas las recopilo aqui:
+Coincidencialmente, en el subreddit de ruby on rails [alguien hizo una pregunta pertinente](https://www.reddit.com/r/rails/comments/1ik7caq/multitenancy_vs_multi_instances/?utm_name=mweb3xcss) a este tema. Las respuestas las recopilo aqui:
 
 El usuario pregunta si es mejor una arquitectura multi tenant o mejor que cada cliente este en su propio servidor y base de datos.
 
