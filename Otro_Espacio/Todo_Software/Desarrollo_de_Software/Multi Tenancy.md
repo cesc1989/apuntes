@@ -23,3 +23,26 @@ Agrega:
 >[!Note]
 > Una aplicacion web, es mejor que empiece como Multi tenant (si tiene cabida). Cambiar una aplicacion normal a Multitenant es mucho mas complicado.
 
+## Gemas para hacer Multitenancy en Rails
+
+Algunas librerias populares y su estado actual.
+
+**Acts as Tenants**
+
+Sitio web -> https://github.com/ErwinM/acts_as_tenant 
+
+Ultimo commit: 6 de Septiembre de 2024.
+
+**Apartment**
+
+Sitio web -> https://github.com/influitive/apartment
+
+Ultimo commit: 25 de Junio de 2019.
+
+🌟 **ros-apartment** 🌟
+
+> Este es un fork de apartment el cual si recibe mantenimiento.
+
+Sitio web -> https://github.com/rails-on-services/apartment
+
+Ultimo commit: 9 de Enero, 2025.
