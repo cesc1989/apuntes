@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e671400579c5cd76",
+        "id": "d603763b7980ce48",
         "type": "tabs",
         "children": [
           {
-            "id": "471f202c5287998d",
+            "id": "8857b071889ac475",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Multi Tenancy"
+              "title": "Lecciones_Desarrollo_-_Therapists_Forms"
+            }
+          },
+          {
+            "id": "ea043347d7e2d6fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lecciones_Rails_-_Therapists_Forms"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -141,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Multi Tenancy"
+              "title": "Outline of Lecciones_Rails_-_Therapists_Forms"
             }
           }
         ],
@@ -165,11 +179,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e319ef28eef169d",
+  "active": "ea043347d7e2d6fa",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
@@ -190,23 +208,6 @@
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_ER_Diagram.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Logic_for_PatientDownloadAppSmsWorker.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notes.md",
-    "Luna/Backend/Usando Flipper.md",
-    "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Luna/Backend/Image Magick and Alpine.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
-    "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
-    "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",

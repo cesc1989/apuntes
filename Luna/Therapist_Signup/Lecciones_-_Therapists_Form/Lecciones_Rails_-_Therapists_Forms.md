@@ -131,19 +131,20 @@ Para el caso de quitar la relación de *Therapist* en *Question* y *Answer* se h
 
 ## Uso del Helper `radio_button_tag` sin un formulario
 
-Para mostrar un botón radio pero sin ningún modelo ni formulario [se puede usar el](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-radio_button_tag) [*helper*](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-radio_button_tag) [](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-radio_button_tag)`[radio_button_tag](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-radio_button_tag)` el cual simplifica la generación de un elemento HTML para este fin.
+Para mostrar un botón radio pero sin ningún modelo ni formulario se puede usar el [helper radio_button_tag](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-radio_button_tag) el cual simplifica la generación de un elemento HTML para este fin.
 
-Pertenece a la [clase](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html) `[ActionView::Helpers::FormTagHelper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html)`.
+Pertenece a la [ActionView::Helpers::FormTagHelper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html).
 
 ## Uso de `render_to_string` por fuera de una vista o controlador
 
 El método `render_to_string` se usa normalmente en clases que hereden de `ActionController::Base`. Cuando se quiere usar por fuera se necesita configurar la herencia o [enviar el mensaje a una instancia de](https://stackoverflow.com/questions/2678045/render-to-string-in-lib-class-not-working) `[ActionController::Base](https://stackoverflow.com/questions/2678045/render-to-string-in-lib-class-not-working)`.
 
-> Notar que: `[ActionController](https://api.rubyonrails.org/classes/ActionController.html)` [es un módulo](https://api.rubyonrails.org/classes/ActionController.html) y `ActionController::Base` hace referencia [a la clase](https://api.rubyonrails.org/classes/ActionController/Base.html) `[Base](https://api.rubyonrails.org/classes/ActionController/Base.html)` que pertenece al namespace `ActionController`.
+> Notar que: [ActionController](https://api.rubyonrails.org/classes/ActionController.html) es un módulo y `ActionController::Base` hace referencia [a la clase](https://api.rubyonrails.org/classes/ActionController/Base.html) que pertenece al namespace `ActionController`.
 
 De no hacerlo, el error que aparecería sería similar a este:
-
-    NoMethodError - undefined method `render_to_string' for #<MedicarePdfAttachmentUploader:0x00007faa790a32e8>
+```ruby
+NoMethodError - undefined method `render_to_string' for #<MedicarePdfAttachmentUploader:0x00007faa790a32e8>
+```
 
 Ejemplo de cómo lograrlo en `MedicarePdfAttachmentUploader`:
 
@@ -164,7 +165,7 @@ end
 Nota también la forma en que le puedo enviar una variable de instancia a la vista. Como en este caso se está generando un archivo PDF sin navegar a una página web, pasar la variable `@medicare_requirement` que normalmente estaría en la acción del controlador, se [pasa como variable local](https://stackoverflow.com/a/37763478/1407371) mediante el *hash* `locals: {}`.
 
 **La nueva forma de hacerlo en Rails 5**
-En este [artículo de Evil Martians](https://evilmartians.com/chronicles/new-feature-in-rails-5-render-views-outside-of-actions) describen otra forma de hacerlo usando el método de clase `render` para cada controlador, simplificando más esta acción. Esta se vale de `[ActionController::Base#renderer](https://api.rubyonrails.org/classes/ActionController/Renderer.html)` para funcionar.
+En este [artículo de Evil Martians](https://evilmartians.com/chronicles/new-feature-in-rails-5-render-views-outside-of-actions) describen otra forma de hacerlo usando el método de clase `render` para cada controlador, simplificando más esta acción. Esta se vale de [ActionController::Base#renderer](https://api.rubyonrails.org/classes/ActionController/Renderer.html) para funcionar.
 
 Teniendo en cuenta el artículo, generar dicho PDF podría ser algo como:
 ```ruby
