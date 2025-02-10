@@ -162,12 +162,12 @@ Quité el cambio en el archivo “Package Control.sublime-settings” e hice com
 
 
 # Potenciando Sublime Text 4
+
 ## Paquetes
 
 Instalé la extensión de Solargraph para Sublime y ahora está más powa.
 
 Aquí están [listados](https://github.com/castwide/solargraph#using-solargraph).
-
 
 - Hay que instalar el paquete LSP
 - La gema [solargraph](https://github.com/castwide/solargraph#installation)
@@ -175,8 +175,8 @@ Aquí están [listados](https://github.com/castwide/solargraph#using-solargraph)
 
 Está la gema [solargraph-rails](https://github.com/iftheshoefritz/solargraph-rails/) para mejor soporte para Ruby on Rails
 
-
 ## Problema con solargraph luego de reiniciar el equipo
+
 ![](https://paper-attachments.dropboxusercontent.com/s_0AD64D6B273F865C1BB511C91349B747E2010EA1B6271BE0DC7EAFE6834C7018_1694635900242_error.solargraph.png)
 
 
@@ -189,7 +189,6 @@ Aquí se [menciona](https://lsp.sublimetext.io/troubleshooting/#2-lsp-cannot-fin
 For macOS and Linux you can extend the path like so:
 
     export PATH="/usr/local/bin:$PATH"
-
 
 # Ocultar carpeta de resultados de búsqueda
 
@@ -206,3 +205,17 @@ En cambio `binary_file_patterns` los oculta solo de los resultados de búsqueda 
 
 Visto en [Stack Overflow](https://stackoverflow.com/a/55748485/1407371).
 
+# No abrir ventana anterior en Linux Mint
+
+En Linux Mint, cuando abro una carpeta con el comando desde la consola `subl .`, se abre la ventana anterior junto con la actual. Eso es incomodo y no me gusta.
+
+Para corregirlo hay que agregar estas configuraciones en el archivo de preferencias de usuario:
+```json
+{
+  "hot_exit": false,
+  "remember_open_files": false
+}
+```
+
+Visto en:
+- [Stack Overflow](https://stackoverflow.com/questions/12193913/when-opening-a-directory-through-command-line-sublime-text-opens-two-windows-in)

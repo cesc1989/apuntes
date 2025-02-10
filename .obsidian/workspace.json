@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "99897fb9e898e7e7",
+        "id": "e671400579c5cd76",
         "type": "tabs",
         "children": [
           {
-            "id": "0e319ef28eef169d",
+            "id": "471f202c5287998d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Multi Tenancy"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tagging",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Multi Tenancy"
             }
           }
         ],
@@ -162,6 +168,13 @@
   "active": "0e319ef28eef169d",
   "lastOpenFiles": [
     "Luna/Comandos y Configuración de Kubectl.md",
+    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
     "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
@@ -188,6 +201,12 @@
     "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
+    "Luna/Backend/utilidades/Setup Test env and Database.md",
+    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
+    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
