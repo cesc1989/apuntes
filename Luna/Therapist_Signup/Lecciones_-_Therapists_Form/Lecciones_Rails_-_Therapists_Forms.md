@@ -177,17 +177,18 @@ MedicareRequirementsController.render(
 
 ## `ActionMailer asset_host` para imágenes en correos salientes
 
-Para mostrar imágenes en los correos salientes desde la aplicación Rails, [hay que configurar una variable llamada](https://guides.rubyonrails.org/v5.2/action_mailer_basics.html#adding-images-in-action-mailer-views) `[asset_host](https://guides.rubyonrails.org/v5.2/action_mailer_basics.html#adding-images-in-action-mailer-views)`.
+Para mostrar imágenes en los correos salientes desde la aplicación Rails, hay que configurar una variable llamada [`asset_host`](https://guides.rubyonrails.org/v5.2/action_mailer_basics.html#adding-images-in-action-mailer-views).
 
 Esta se puede configurar en `config/application.rb` o por cada entorno:
+```ruby
+# config/environments/production.rb
 
-    # config/environments/production.rb
-    
-    config.action_mailer.asset_host = 'https://success-api-staging.luna.farzoo.click'
+config.action_mailer.asset_host = "https://subdomain.example.com"
+```
 
 Sin embargo, solo con esto no será suficiente cuando se está en un entorno diferente a desarrollo.
 
-Esto es porque la configuración `[config.public_file_server.enabled](https://guides.rubyonrails.org/v5.2/configuring.html#rails-general-configuration)` está probablemente desactivada:
+Esto es porque la configuración [`config.public_file_server.enabled`](https://guides.rubyonrails.org/v5.2/configuring.html#rails-general-configuration) está probablemente desactivada:
 
 > `config.public_file_server.enabled` configures Rails to serve static files from the public directory. This option defaults to `true`, but in the production environment it is set to `false` because the server software (e.g. NGINX or Apache) used to run the application should serve static files instead. If you are running or testing your app in production mode using WEBrick (it is not recommended to use WEBrick in production) set the option to `true.` Otherwise, you won't be able to use page caching and request for files that exist under the public directory.
 
@@ -229,7 +230,7 @@ Y luego se pueden usar en la vista del correo:
 
 ## La Clase Date en Rails agrega otra Constante
 
-En Ruby, la clase `[Date](https://ruby-doc.org/stdlib-2.5.3/libdoc/date/rdoc/Date.html)` tiene las siguientes constantes definidas:
+En Ruby, la clase [`Date`](https://ruby-doc.org/stdlib-2.5.3/libdoc/date/rdoc/Date.html) tiene las siguientes constantes definidas:
 
     require 'date'
     
@@ -289,7 +290,6 @@ No tenía idea de dónde saqué esos métodos. Aquí ya documentamos un poquito.
 
 - Método `draw#text` → https://rmagick.github.io/draw.html#text
 - En la doc oficial de ImageMagick → https://imagemagick.org/script/command-line-options.php#draw
-
 
 ## Sobre mensaje de depreciación de renderizado con extensión de vista
 
