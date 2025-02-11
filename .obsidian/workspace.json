@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Gema active-record-postgresql-constraint"
             }
+          },
+          {
+            "id": "a54b1a64cb4fe915",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lecciones_Rails_-_Therapists_Forms"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -169,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Migraciones - PG Constraints"
+              "title": "Outline of Lecciones_Rails_-_Therapists_Forms"
             }
           }
         ],
@@ -193,11 +207,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46ea710d96062f19",
+  "active": "a54b1a64cb4fe915",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
@@ -220,8 +236,6 @@
     "Luna/Backend/Protocols",
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
     "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
-    "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_QA_Results.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
