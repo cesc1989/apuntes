@@ -150,15 +150,15 @@ Ejemplo de cómo lograrlo en `MedicarePdfAttachmentUploader`:
 
 ```ruby
 class MedicarePdfAttachmentUploader
-	def generate_pdf
-		WickedPdf.new.pdf_from_string(
-			ActionController::Base.new.render_to_string(
-				template: 'medicare_requirements/show.pdf.erb',
-				layout: 'pdf.html',
-				locals: { :@medicare_requirement => @medicare_requirement }
-			)
-		)
-	end
+  def generate_pdf
+    WickedPdf.new.pdf_from_string(
+      ActionController::Base.new.render_to_string(
+        template: 'medicare_requirements/show.pdf.erb',
+        layout: 'pdf.html',
+        locals: { :@medicare_requirement => @medicare_requirement }
+      )
+    )
+  end
 end
 ```
 
