@@ -53,6 +53,8 @@ Sin embargo, en ese orden se me complica darle más esfuerzo a las Ideas. Por es
 
 ## Cinco Tokens de Esfuerzo explicados
 
+![[cinco.tokens.esfuerzo.png]]
+
 Tengo cinco tokens (o monedas) que están repartidas de la siguiente forma:
 
 - Proyectos Andando: 2 tokens
