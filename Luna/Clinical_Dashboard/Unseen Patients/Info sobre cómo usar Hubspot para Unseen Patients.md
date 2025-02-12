@@ -14,11 +14,11 @@ Tengo una vista que se llama "Alpha CD Physicians". En esta se listan tres physi
 
 Para poder mostrar pacientes en los widgets de Unseen Patients necesito buscar pacientes de prueba. Estos son generados por las corridas de automation.
 
-> [!INFO]
+> [!NOTE]
 > Hay una enorme cantidad de pacientes de prueba en la vista "Addable to EVE".
 
 > [!WARNING]
-> Si quiero que aparezcan en la tabla de Unseen Patients, tengo que enlazar los que fueron creados en una fecha *mayor* a 90 días y *menor* de 2 días.
+> Si quiero que aparezcan en la tabla de Unseen Patients, tengo que enlazar los que fueron creados en una fecha *menor* a 90 días y *mayor* de 2 días.
 
 Para asignar pacientes a estos physicians debo ir al perfil del paciente a enlazar y en la barra derecha ubicar el menú "Contacts" y seguir así:
 
