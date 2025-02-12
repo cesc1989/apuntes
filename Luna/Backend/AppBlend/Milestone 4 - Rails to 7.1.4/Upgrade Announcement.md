@@ -21,3 +21,8 @@ We already have Luna.env.local?
 No need to add inverse_of in association definitions. When the association is simple enough Rails will do this performance config by default.
 
 Note: do not use inverse_of when defining an association with a custom lambda.
+
+## Upgraded gems
+
+This is the list of upgraded gems:
+

@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Upgrade Announcement"
             }
+          },
+          {
+            "id": "e02074d97c025bd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Rails_Parte - 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Upgrade Announcement"
+              "title": "Outline of Apuntes_Rails_Parte - 2"
             }
           }
         ],
@@ -164,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46ea710d96062f19",
+  "active": "e02074d97c025bd8",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
