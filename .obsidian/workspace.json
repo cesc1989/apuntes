@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33cee19f82e52ff0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Rake de Protocol Phases XX"
-            }
-          },
-          {
             "id": "46ea710d96062f19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Migraciones - PG Constraints"
-            }
-          },
-          {
-            "id": "3a6176fe6a152ac3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Gema active-record-postgresql-constraint"
-            }
-          },
-          {
-            "id": "a54b1a64cb4fe915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lecciones_Rails_-_Therapists_Forms"
+              "title": "Upgrade Announcement"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecciones_Rails_-_Therapists_Forms"
+              "title": "Outline of Upgrade Announcement"
             }
           }
         ],
@@ -207,18 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a54b1a64cb4fe915",
+  "active": "46ea710d96062f19",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
@@ -235,7 +193,6 @@
     "Luna/Backend/Escalations/Todos_los_modelos_involucrados_en_Escalations.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/Escalations/Duplicated_patients_because_of_multiple_escalat.md",
-    "Luna/Backend/Escalations/[Report]_Fix_for_duplication_of_patients_because.md",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
