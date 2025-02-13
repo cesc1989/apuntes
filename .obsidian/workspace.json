@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f05896396ba0d121",
+        "id": "b5663cbcfebc3d13",
         "type": "tabs",
         "children": [
           {
-            "id": "61e2120c1d123113",
+            "id": "1074e5e0cc25463f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Puntos_de_entrada_para_la_creación_de_pacientes"
-            }
-          },
-          {
-            "id": "14d0ae1c97f2f0bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Todos_los_enlaces_Todos_los_entornos"
+              "title": "Apuntes_de_Linux_-_Parte_2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2.7.1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Todos_los_enlaces_Todos_los_entornos"
+              "title": "Outline of Apuntes_de_Linux_-_Parte_2"
             }
           }
         ],
@@ -180,8 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14d0ae1c97f2f0bc",
+  "active": "1074e5e0cc25463f",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Ruby 3.1.0 - Notes ✅.md",
+    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
@@ -206,11 +197,6 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/01 - Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",

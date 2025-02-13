@@ -90,7 +90,7 @@ Visto en [Stack Overflow](https://stackoverflow.com/a/69920288/1407371).
 
 # Instalar Ruby 2.7.7 en Mac con chip M1
 
-Etiquetas: #ruby_old #ruby-install
+Etiquetas: #ruby_old #ruby-install #apple_silicon  #mac_m1 
 
 En [esta guía](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#how-to-install-different-versions-of-ruby-and-switch-between-them) se recomienda usar chruby y ruby-install.
 
