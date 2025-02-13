@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "ac69c6d4abc3fbbd",
+        "id": "5390ce9b8fc354a7",
         "type": "tabs",
         "children": [
           {
-            "id": "46ea710d96062f19",
+            "id": "695c965be1607dde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cinco Tokens de Esfuerzo.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cinco Tokens de Esfuerzo"
+              "title": "Apuntes"
+            }
+          },
+          {
+            "id": "5339826eb6b96840",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Primeros Pasos en Phoenix"
+            }
+          },
+          {
+            "id": "e5ba3949e6f81851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Grimoire/Setup de Grimoire.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Setup de Grimoire"
+            }
+          },
+          {
+            "id": "f3d6682494f6f7dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cinco Tokens de Esfuerzo.md",
+                "file": "Luna/Grimoire/Setup de Grimoire.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cinco Tokens de Esfuerzo"
+              "title": "Outline of Setup de Grimoire"
             }
           }
         ],
@@ -164,12 +207,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46ea710d96062f19",
+  "active": "e5ba3949e6f81851",
   "lastOpenFiles": [
+    "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
+    "Luna/Grimoire/Setup de Grimoire.md",
+    "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Luna/Grimoire",
+    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
+    "DevAsPros/Cinco Tokens de Esfuerzo.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
     "DevAsPros/attachments",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-    "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "DevAsPros/README.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
@@ -185,14 +238,6 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/ActiveRecord_y_sus_Vainas.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Usando Zellij.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
@@ -210,8 +255,6 @@
     "Luna/Patient_Self_Report/HOOS_&_KOOS",
     "Luna/Patient_Self_Report/Option_Choices_per_Form_Type",
     "Luna/Patient_Self_Report/Outbox_Patient_Self_Report",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/02.visit_date_normal_format.png",
-    "cashflow/vendor/javascript",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
