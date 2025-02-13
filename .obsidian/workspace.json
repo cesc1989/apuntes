@@ -27,44 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-                "mode": "preview",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Primeros Pasos en Phoenix"
-            }
-          },
-          {
-            "id": "e5ba3949e6f81851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Grimoire/Setup de Grimoire.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Setup de Grimoire"
-            }
-          },
-          {
-            "id": "f3d6682494f6f7dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "Comanditos para Therapist Signup"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Setup de Grimoire.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Setup de Grimoire"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -207,12 +179,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5ba3949e6f81851",
+  "active": "5339826eb6b96840",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+    "Luna/Playbook del Triage📙.md",
     "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Luna/Grimoire",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
@@ -235,9 +210,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Desarrollo_-_Therapists_Forms.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_RSpec_-_Therapists_Credentialing.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Ruby_-_Therapists.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
