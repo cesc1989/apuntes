@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5390ce9b8fc354a7",
+        "id": "f05896396ba0d121",
         "type": "tabs",
         "children": [
           {
-            "id": "695c965be1607dde",
+            "id": "61e2120c1d123113",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
+                "file": "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes"
+              "title": "Puntos_de_entrada_para_la_creación_de_pacientes"
             }
           },
           {
-            "id": "5339826eb6b96840",
+            "id": "14d0ae1c97f2f0bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-                "mode": "source",
+                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Therapist Signup"
+              "title": "Todos_los_enlaces_Todos_los_entornos"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Therapist Signup"
+              "title": "Outline of Todos_los_enlaces_Todos_los_entornos"
             }
           }
         ],
@@ -169,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,10 +180,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5339826eb6b96840",
+  "active": "14d0ae1c97f2f0bc",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Playbook del Triage📙.md",
     "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
@@ -190,7 +194,6 @@
     "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
     "Luna/Grimoire",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
@@ -208,8 +211,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
