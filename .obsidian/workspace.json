@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c4e3c2b14db62769",
+        "id": "3be6fc523da0545c",
         "type": "tabs",
         "children": [
           {
-            "id": "8726562440ab0196",
+            "id": "e8d862dc9d257699",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+                "file": "Luna/Backend/utilidades/Setup Test env and Database.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lecciones_Rails_-_Therapists_Forms"
+              "title": "Setup Test env and Database"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ruby release",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+                "file": "Luna/Backend/utilidades/Setup Test env and Database.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecciones_Rails_-_Therapists_Forms"
+              "title": "Outline of Setup Test env and Database"
             }
           }
         ],
@@ -167,8 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8726562440ab0196",
+  "active": "e8d862dc9d257699",
   "lastOpenFiles": [
+    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
+    "Luna/Backend/utilidades/Setup Test env and Database.md",
+    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
@@ -195,10 +199,6 @@
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
     "DevAsPros/attachments",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-    "DevAsPros/README.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
