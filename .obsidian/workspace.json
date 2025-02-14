@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/utilidades/Setup Test env and Database.md",
-                "mode": "preview",
+                "file": "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Setup Test env and Database"
+              "title": "Install Hypopg for PostgreSQL 16 - Macos M1"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/utilidades/Setup Test env and Database.md",
+                "file": "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Setup Test env and Database"
+              "title": "Outline of Install Hypopg for PostgreSQL 16 - Macos M1"
             }
           }
         ],
@@ -169,8 +169,9 @@
   },
   "active": "e8d862dc9d257699",
   "lastOpenFiles": [
-    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
+    "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
+    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
@@ -196,7 +197,6 @@
     "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
-    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
     "DevAsPros/attachments",
     "Luna/Backend/Protocols",
