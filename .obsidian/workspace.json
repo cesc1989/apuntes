@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b5663cbcfebc3d13",
+        "id": "c4e3c2b14db62769",
         "type": "tabs",
         "children": [
           {
-            "id": "1074e5e0cc25463f",
+            "id": "8726562440ab0196",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_de_Linux_-_Parte_2"
+              "title": "Lecciones_Rails_-_Therapists_Forms"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2.7.1",
+                "query": "ruby release",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -141,17 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Linux_-_Parte_2"
+              "title": "Outline of Lecciones_Rails_-_Therapists_Forms"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -166,8 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1074e5e0cc25463f",
+  "active": "8726562440ab0196",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
+    "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_4.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
@@ -195,8 +199,6 @@
     "DevAsPros/README.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Info sobre cómo usar Hubspot para Unseen Patients.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
@@ -207,7 +209,6 @@
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/33.careplans.edit.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/32.physicians.edit.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/31.payer.auths.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/30.benefits.verifications.png",
     "Luna/Patient_Self_Report/issues-and-debugging",
     "Luna/Patient_Self_Report/upgrades",
     "Luna/Patient_Self_Report/archive",

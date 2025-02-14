@@ -4,30 +4,30 @@
 
 Aplica mucho para los casos donde se usa el método `find` y el respectivo ID no existe en la tabla. Cuando eso ocurre, Rails levanta una excepción del tipo `ActiveRecord::RecordNotFound`.
 
-Sino se captura, pues la aplicación arrojará un error 500 en vez de indicar la causa del error. Para solucionarlo se puede capturar la excepción en cada acción del(los) controlador(es) o usar el [método de clase](https://apidock.com/rails/ActiveSupport/Rescuable/ClassMethods/rescue_from) `[rescue_from](https://apidock.com/rails/ActiveSupport/Rescuable/ClassMethods/rescue_from)`.
+Sino se captura, pues la aplicación arrojará un error 500 en vez de indicar la causa del error. Para solucionarlo se puede capturar la excepción en cada acción del(los) controlador(es) o usar el método de clase [rescue_from](https://apidock.com/rails/ActiveSupport/Rescuable/ClassMethods/rescue_from).
 
 Hay dos formas de usarlo:
 
 1. En un módulo
 2. En un controlador base
 
-**Usando** `**rescue_from**` en un módulo
+**Usando** `rescue_from` en un módulo
 
 ```ruby
 # app/controllers/concerns/exception_handler.rb
 
 module ExceptionHandler
-	extend ActiveSupport::Concern
+  extend ActiveSupport::Concern
 
-	included do
-		rescue_from ActiveRecord::RecordNotFound, with: :not_found
-	end
+  included do
+    rescue_from ActiveRecord::RecordNotFound, with: :not_found
+  end
 
-	private
+  private
 
-	def not_found(e)
-		render json: { errors: "#{e.model} does not exist" }, status: :not_found
-	end
+  def not_found(e)
+    render json: { errors: "#{e.model} does not exist" }, status: :not_found
+  end
 end
 ```
 
@@ -36,11 +36,11 @@ Al usarlo en un módulo, normalmente se usará `ActiveSupport::Concern` para per
 ```ruby
 # app/controllers/api/base_api_controller.rb
 module Api
-	class BaseApiController < ApplicationController
-		protect_from_forgery with: :null_session
+  class BaseApiController < ApplicationController
+    protect_from_forgery with: :null_session
 
-		include ExceptionHandler
-	end
+    include ExceptionHandler
+  end
 end
 ```
 
@@ -48,33 +48,33 @@ end
 
 ```ruby
 class ApplicationController < ActionController::Base
-	protect_from_forgery with: :null_session
+  protect_from_forgery with: :null_session
 
-	rescue_from ActiveRecord::RecordNotFound, with: :not_found
+  rescue_from ActiveRecord::RecordNotFound, with: :not_found
 
-	rescue_from ActionController::ParameterMissing do |parameter_missing|
-		render json: { errors: parameter_missing.message },
-					 status: :unprocessable_entity
-	end
+  rescue_from ActionController::ParameterMissing do |parameter_missing|
+    render json: { errors: parameter_missing.message },
+           status: :unprocessable_entity
+  end
 
-	rescue_from RailsParam::Param::InvalidParameterError do |invalid_parameter|
-		render json: { errors: invalid_parameter.message },
-					 status: :unprocessable_entity
-	end
+  rescue_from RailsParam::Param::InvalidParameterError do |invalid_parameter|
+    render json: { errors: invalid_parameter.message },
+           status: :unprocessable_entity
+  end
 
-	rescue_from ActiveRecord::InvalidForeignKey, with: :cannot_delete_record
+  rescue_from ActiveRecord::InvalidForeignKey, with: :cannot_delete_record
 
-	private
+  private
 
-	def not_found
-		render json:  { errors: 'Not found' },
-					 status: :not_found
-	end
+  def not_found
+    render json:  { errors: 'Not found' },
+           status: :not_found
+  end
 
-	def cannot_delete_record
-		render json: { errors: 'Cannot delete' },
-					 status: :unprocessable_entity
-	end
+  def cannot_delete_record
+    render json: { errors: 'Cannot delete' },
+           status: :unprocessable_entity
+  end
 end
 ```
 
