@@ -1,6 +1,6 @@
 # Comanditos para Patient Self Report
 
-Comandos rakes o para usar en la consola de Rails
+Comandos rakes o para usar en la consola de Rails.
 
 ## Buscar Intake o Progress incompletos
 
@@ -47,3 +47,7 @@ ucm.update(verification_status: :verified)
 ```ruby
 UserCommunicationMethods::EmailVerificationReminderWorker.perform_in(500, "291f69bb-a3d5-4dbd-ab41-64bec1cbe56d")
 ```
+
+# Otros Comanditos
+
+El de Therapist Signup -> [[Comanditos para Therapist Signup]]

@@ -35,7 +35,8 @@
               "title": "Comanditos para Therapist Signup"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Patient Self Report"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -181,10 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e8f98ace3ca7a38",
+  "active": "b40ea5c132a251cf",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",

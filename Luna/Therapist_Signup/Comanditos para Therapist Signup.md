@@ -1,6 +1,6 @@
 # Comanditos para Therapist Signup
 
-Comandos rakes o para usar en la consola de Rails
+Comandos rakes o para usar en la consola de Rails.
 
 ## Probar carga de archivos PDF a la carpeta en S3
 
@@ -61,3 +61,6 @@ ref = ProfessionalReference::HubspotProfessionalReferenceContact.new(ent)
 ref.find_or_create
 ```
 
+# Otros Comanditos
+
+El de Patient Self Report -> [[Comanditos para Patient Self Report]]
