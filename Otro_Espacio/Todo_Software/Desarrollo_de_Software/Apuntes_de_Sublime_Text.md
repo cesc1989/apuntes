@@ -166,9 +166,9 @@ Y hay un [error al respecto](https://github.com/wbond/package_control/issues/164
 
 Quité el cambio en el archivo “Package Control.sublime-settings” e hice commit y mandé al repo. Todo parece seguir funcionando normalmente.
 
-# Potenciando Sublime Text 4
+# 🌟 Potenciando Sublime Text 4 🌟
 
-## Paquetes
+## Con Solargraph
 
 Instalé la extensión de Solargraph para Sublime y ahora está más powa.
 
@@ -180,7 +180,7 @@ Aquí están [listados](https://github.com/castwide/solargraph#using-solargraph)
 
 Está la gema [solargraph-rails](https://github.com/iftheshoefritz/solargraph-rails/) para mejor soporte para Ruby on Rails
 
-## Problema con solargraph luego de reiniciar el equipo
+## Problema con Solargraph luego de reiniciar el equipo
 
 ![error de solargraph](./attachments/error.solargraph.png)
 
