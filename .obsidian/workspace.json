@@ -11,10 +11,14 @@
             "id": "b0900dc63826b606",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes_de_Sublime_Text"
             }
           }
         ]
@@ -138,21 +142,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes_de_Sublime_Text"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,8 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "b0900dc63826b606",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Nombrar_bien_las_cosas_y_su_importancia.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Haciendo_rebase_de_Omega_a_rama_de_trabajo.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
@@ -185,13 +197,7 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Playbook del Triage📙.md",
-    "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
-    "Luna/Grimoire/Setup de Grimoire.md",
-    "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
     "Luna/Grimoire",
-    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-    "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
     "DevAsPros/attachments",
     "Luna/Backend/Protocols",
@@ -202,8 +208,6 @@
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/35.protocol.escalations.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/34.pathway.assigns.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/33.careplans.edit.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/32.physicians.edit.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/31.payer.auths.png",
     "Luna/Patient_Self_Report/issues-and-debugging",
     "Luna/Patient_Self_Report/upgrades",
     "Luna/Patient_Self_Report/archive",

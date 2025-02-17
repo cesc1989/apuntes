@@ -38,7 +38,7 @@ Este es un listado, espero que completo, de todos los atajos de teclado que suel
 
 Esto es hacer que un código dentro de una función, clase, o bloque se doble y por lo tanto se "oculte". Es lo que se lograr al hacer clic en la flecha hacía abajo que va justo al lado del número de línea.
 
-![[Pasted image 20240709145511.png]]
+![[sublime.desdoblar.secciones.png]]
 
 Sublime deja _foldear_ diferentes niveles de identación. Empezando desde _foldear_ todo a _foldear_ subniveles.
 
