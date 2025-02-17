@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "72342e69c55ac087",
+        "id": "5b86ad84e64461fb",
         "type": "tabs",
         "children": [
           {
-            "id": "b0900dc63826b606",
+            "id": "04a9c516bb36fafc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_de_Sublime_Text"
+              "title": "Apuntes_Ciclo_21_-_Correos"
+            }
+          },
+          {
+            "id": "dc13360435a6fafe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Migraciones - PG Constraints"
+            }
+          },
+          {
+            "id": "3a773fb0edcba002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Asociaciones.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Asociaciones"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Migraciones reversibles",
+                "query": "all_year",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
+                "file": "Luna/Backend/KX-Modifier/Asociaciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Sublime_Text"
+              "title": "Outline of Asociaciones"
             }
           }
         ],
@@ -166,10 +195,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0900dc63826b606",
+  "active": "3a773fb0edcba002",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/Asociaciones.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Nombrar_bien_las_cosas_y_su_importancia.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Haciendo_rebase_de_Omega_a_rama_de_trabajo.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
@@ -193,10 +226,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Ruby 3.1.0 - Notes ✅.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Backend/Puntos_de_entrada_para_la_creación_de_pacientes.md",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Grimoire",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
     "DevAsPros/attachments",
