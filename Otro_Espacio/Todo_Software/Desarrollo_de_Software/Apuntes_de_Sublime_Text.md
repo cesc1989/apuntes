@@ -180,7 +180,7 @@ Aquí están [listados](https://github.com/castwide/solargraph#using-solargraph)
 
 Está la gema [solargraph-rails](https://github.com/iftheshoefritz/solargraph-rails/) para mejor soporte para Ruby on Rails
 
-## Problema con Solargraph luego de reiniciar el equipo
+### Problema con Solargraph luego de reiniciar el equipo
 
 ![error de solargraph](./attachments/error.solargraph.png)
 
@@ -195,7 +195,7 @@ For macOS and Linux you can extend the path like so:
 export PATH="/usr/local/bin:$PATH"
 ```
 
-## Si el path no funciona, revisa el panel log
+### Si el path no funciona, revisa el panel log
 
 La guía de [troubleshooting the LSP for Sublime Text](https://lsp.sublimetext.io/troubleshooting/#2-lsp-cannot-find-my-language-server-no-such-file-or-directory-xyz) dice que se abra el Log Panel para ver qué pasa.
 
@@ -224,13 +224,22 @@ Building native extensions. This could take a while...
 Restored strscan-3.1.0
 ```
 
-## ¿Está usando la versión correcta de Ruby?
+### ¿Está usando la versión correcta de Ruby?
 
 Al ver el log anterior parece que no está usando la versión correcta de Ruby sino la que viene por defecto en el sistema (esta no hay que usarla nunca):
 ```bash
 ruby: /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
 ```
 
+## Con Ruby LSP de Shopify
+
+Decidí cambiar de gema. Desinstalé todo lo de solargraph porque igual no me está funcionando y me fio con ruby-lsp pero obtengo el mismo error.
+
+Enlaces:
+- [Ruby LSP](https://shopify.github.io/ruby-lsp/editors.html)
+- Configuración con [Sublime LSP](https://lsp.sublimetext.io/language_servers/#ruby-lsp)
+
+Sobre el último error que obtuve, en [este issue](https://github.com/Shopify/ruby-lsp/issues/2842#issuecomment-2484052337) arrojan algo de luz. Puede ser con algo de chruby no cargando en el mismo entorno que Sublime Text. Por eso es que se ve que intenta cargar la versión del sistema.
 
 # Ocultar carpeta de resultados de búsqueda
 
