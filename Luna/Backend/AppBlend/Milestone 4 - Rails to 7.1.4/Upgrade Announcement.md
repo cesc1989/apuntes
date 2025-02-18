@@ -1,8 +1,8 @@
-# 🎊 Upgrade to Rails 7.1.4 Announcement 🎊
+# 🎊 `backend` Upgrade to Rails 7.1.4 Official Announcement 🎊
 
 Ladies and gents, it's my pleasure to officially inform you `backend` was successfully upgrade to Rails 7.1.4.
 
-Following is a list of outstanding things this upgrade brings to our beloved repo.
+Following is a list of outstanding things this upgrade brought to our beloved `backend` 💗 repo.
 
 ## Use `to_fs` instead of `t_s` when converting DateTime values 🗓️
 
