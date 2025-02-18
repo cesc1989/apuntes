@@ -408,7 +408,7 @@ responde con:
 }
 ```
 
-# Actualizando Propiedades de un Objeto Custom
+# Actualizar Propiedades de un Objeto Custom
 
 Usar este endpoint:
 ```
@@ -452,6 +452,30 @@ Y responde con:
 
 Devuelve la propiedad actualizada junto a otras extra.
 
+# Crear un nuevo Custom Object Record
+
+En este caso para el objeto License.
+
+```
+POST https://api.hubspot.com/crm/v3/objects/2-35178508
+
+Payload
+
+{
+  "properties": {
+    "license_issuing_state": "Arkansas",
+    "license_number": "11122333444",
+    "license_expiration_date": "2025-12-31"
+  }
+}
+```
+
+Respuesta
+```
+
+```
+
+
 # Enlaces y Documentación
 
 ## Referencer-Reference API docs
@@ -464,6 +488,7 @@ Devuelve la propiedad actualizada junto a otras extra.
 - [Knowledge Base article](https://knowledge.hubspot.com/object-settings/create-custom-objects#create-a-custom-object)
 - CRM [Custom Objects](https://developers.hubspot.com/docs/api/crm/crm-custom-objects)
 - [Define custom object associations](https://knowledge.hubspot.com/object-settings/create-custom-objects#create-a-custom-object)
+- [Create custom object record](https://developers.hubspot.com/docs/guides/api/crm/objects/custom-objects#create-a-custom-object-record)
 
 ## Contact Objects API docs
 
