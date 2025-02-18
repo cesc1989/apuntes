@@ -72,6 +72,28 @@ License.create([
 ])
 ```
 
+## Para probar la sincronización de custom objects desde consola
+
+Línea por cada sección y para cada diferente custom object.
+
+```ruby
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :signup).update
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :personal_information).update
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :immunization).update
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :credentialing).update
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :employment).update
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :preferences).update
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :npi_and_caqh).update
+HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :certification).update
+
+HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :signup).update
+HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :credentialing).update
+
+HubspotCustomObjects::HubspotAddressObjectService.new(t1, section: :preferences).update
+
+HubspotCustomObjects::HubspotAttestationFormUrlService.new(t1).update
+```
+
 
 # Otros Comanditos
 
