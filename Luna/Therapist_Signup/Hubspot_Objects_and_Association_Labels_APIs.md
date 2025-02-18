@@ -463,7 +463,8 @@ Payload
 
 {
   "properties": {
-    "license_issuing_state": "Arkansas",
+    "therapist_name_license_type": "El Coshinita",
+    "license_issuing_state": "FL",
     "license_number": "11122333444",
     "license_expiration_date": "2025-12-31"
   }
@@ -471,10 +472,32 @@ Payload
 ```
 
 Respuesta
+```json
+{
+  "id": "24189213524",
+  "properties": {
+    "hs_createdate": "2025-02-18T18:46:03.510Z",
+    "hs_lastmodifieddate": "2025-02-18T18:46:03.510Z",
+    "hs_object_id": "24189213524",
+    "hs_object_source": "INTEGRATION",
+    "hs_object_source_id": "1242206",
+    "hs_object_source_label": "INTEGRATION",
+    "license_expiration_date": "2025-12-31",
+    "license_issuing_state": "FL",
+    "license_number": "11122333444",
+    "therapist_name_license_type": "El Coshinita"
+  },
+  "createdAt": "2025-02-18T18:46:03.510Z",
+  "updatedAt": "2025-02-18T18:46:03.510Z",
+  "archived": false
+}
 ```
 
-```
+## Importante
 
+La propiedad `therapist_name_license_type` debe ser algo como "Mi Nombre -" por lo que he visto en alpha.
+
+La propiedad `license_issuing_state` espera es las dos letras del Estado. No el nombre. Esto es un problema porque en la base de datos guardamos es el nombre.
 
 # Enlaces y Documentación
 
