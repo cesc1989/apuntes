@@ -61,6 +61,18 @@ ref = ProfessionalReference::HubspotProfessionalReferenceContact.new(ent)
 ref.find_or_create
 ```
 
+## Crear Licenses desde la consola
+
+En lugar de abrir el form.
+```ruby
+License.create([
+  { credentialing_information_id: 227, state_name: "Florida", license_number: "1223343", expiration_date: "2030-12-31" },
+  { credentialing_information_id: 227, state_name: "California", license_number: "1223343", expiration_date: "2030-12-31" },
+  { credentialing_information_id: 227, state_name: "Ohio", license_number: "1223343", expiration_date: "2030-12-31" }
+])
+```
+
+
 # Otros Comanditos
 
 El de Patient Self Report -> [[Comanditos para Patient Self Report]]
