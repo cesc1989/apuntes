@@ -6,7 +6,9 @@ Following is a list of outstanding things this upgrade brought to our beloved `b
 
 ## Use `to_fs` instead of `t_s` when converting DateTime values 🗓️
 
-Use `to_fs` instead of old `t_s` (without arguments) to convert DateTime values to String.
+Use `to_fs` instead of old `t_s` (without arguments) to convert Date/DateTime values to String.
+
+Note: You can also use the `DateTimeLocalizer` class.
 
 ## Support for exclusion constraints 🔐
 
@@ -22,7 +24,7 @@ We already have `Luna.env.local?` but this does not causes any conflict.
 
 No need to add `inverse_of` in association definitions. When the association is simple enough Rails will do this performance config by default.
 
-Note: do not use `inverse_of` when defining an association with a custom lambda.
+Note: do not use `inverse_of` when defining an association with a custom lambda. It might not work as expected.
 
 ## Upgraded gems 🧰
 
