@@ -39,4 +39,9 @@ This is the list of upgraded gems:
 - `activerecord-import` to `1.5.0`
 - `sentry` gems to `5.10.0`
 
+## Links
 
+If you want to know what more things Rails 7.1 brings to the table, check these links out:
+
+- https://www.bigbinary.com/blog/categories/rails-7/all
+- https://gorails.com/series/whats-new-inrails-7-1

@@ -24,49 +24,20 @@
             }
           },
           {
-            "id": "8c5757cbbcfc67e9",
+            "id": "aa51cab92c19a5d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Therapist Signup"
-            }
-          },
-          {
-            "id": "dd23dd777df26825",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Custom_Objects_Schema_Properites_in_Setting"
-            }
-          },
-          {
-            "id": "023afc4ef023359e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "License Object - Mapeo de Secciones y Propiedades"
+              "title": "Hubspot_Objects_and_Association_Labels_APIs"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Therapist Signup"
+              "title": "Outline of Upgrade Announcement"
             }
           }
         ],
@@ -211,17 +182,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c5757cbbcfc67e9",
+  "active": "c77b541809da9771",
   "lastOpenFiles": [
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-    "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
-    "Luna/Therapist_Signup/Attestation Form/Therapist Address - Mapeo Secciones y Propiedades.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
+    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Therapist_Signup/Attestation Form/Therapist Address - Mapeo Secciones y Propiedades.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/01 - Notable changes from 7.1.0 to Rails 7.2.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
