@@ -51,3 +51,49 @@ has_one :medicare_dollar_threshold_status,
 ```
 
 donde `record` representa la instancia del modelo actual.
+
+## has_one through usando instancia en scope
+
+Tengo estas relaciones:
+```ruby
+# Appointment
+has_one :medicare_dollar_threshold_status,
+        through: :episode
+
+# Episode
+has_one :medicare_dollar_threshold_status,
+	lambda { |episode|
+		where(
+			effective_from: episode.initial_visit.scheduled_date.beginning_of_year,
+			effective_until: episode.initial_visit.scheduled_date.end_of_year
+		)
+	},
+	through: :patient,
+	source: :medicare_dollar_threshold_statuses
+```
+
+Cuando quiero correr una prueba con estas asociaciones da este error:
+```bash
+     NoMethodError:
+       undefined method `initial_visit' for #<Appointment id
+```
+
+Pasa que Rails está tratando de llamar `initial_visit` en una instancia de Appointment en lugar de Episode.
+
+Esto es porque en
+```ruby
+appt.medicare_dollar_threshold_status
+```
+
+Rails pasa `appt` en el contexto de la lambda definida en `medicare_dollar_threshold_status` en el modelo Episode. En vez de hacer algo como:
+
+```
+appointment -> episode -> medicare_dollar_threshold_status
+```
+
+Hace algo como:
+```
+appointment -> medicare_dollar_threshold_status
+```
+
+Y esto último no nos sirve.

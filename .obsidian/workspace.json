@@ -36,8 +36,23 @@
               "icon": "lucide-file",
               "title": "Hubspot_Objects_and_Association_Labels_APIs"
             }
+          },
+          {
+            "id": "ad45cc7e0da1916f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Asociaciones - KX Modifier"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Upgrade Announcement"
+              "title": "Outline of Asociaciones - KX Modifier"
             }
           }
         ],
@@ -182,7 +197,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c77b541809da9771",
+  "active": "ad45cc7e0da1916f",
   "lastOpenFiles": [
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
