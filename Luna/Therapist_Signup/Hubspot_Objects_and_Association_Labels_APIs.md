@@ -520,10 +520,11 @@ La propiedad `license_issuing_state` espera es las dos letras del Estado. No el 
 
 # Enlaces y Documentación
 
-## Referencer-Reference API docs
+## Association Labels API docs
 
 - Labels [https://knowledge.hubspot.com/object-settings/create-and-use-association-labels](https://knowledge.hubspot.com/object-settings/create-and-use-association-labels)
 - Associations v4 [https://developers.hubspot.com/docs/api/crm/associations](https://developers.hubspot.com/docs/api/crm/associations)
+- Get labels between objects https://developers.hubspot.com/docs/guides/api/crm/associations/associations-v4#retrieve-association-labels
 
 ## Custom Objects API docs
 
