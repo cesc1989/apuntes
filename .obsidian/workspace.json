@@ -36,23 +36,9 @@
               "icon": "lucide-file",
               "title": "Hubspot_Objects_and_Association_Labels_APIs"
             }
-          },
-          {
-            "id": "ad45cc7e0da1916f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Asociaciones - KX Modifier"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Asociaciones - KX Modifier"
+              "title": "Outline of Hubspot_Objects_and_Association_Labels_APIs"
             }
           }
         ],
@@ -197,8 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad45cc7e0da1916f",
+  "active": "aa51cab92c19a5d6",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
@@ -209,7 +197,6 @@
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
     "Luna/Therapist_Signup/Attestation Form/Varios Apuntes para Attestation Form.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
@@ -226,7 +213,6 @@
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
-    "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Grimoire",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",

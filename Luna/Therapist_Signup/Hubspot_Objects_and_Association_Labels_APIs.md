@@ -10,7 +10,7 @@ Todas estas peticiones llevan la siguiente cabecera enviando el private token pa
 Authorization:Bearer [TOKEN]
 ```
 
-## Listar Labels de Asociaciones
+## Listar Labels de Asociaciones entre Objetos
 
 Antes de poder crear las asociaciones hay que crear las labels. Una vez creadas, se pueden acceder mediante el API con este endpoint:
 
@@ -19,6 +19,11 @@ GET https://api.hubapi.com/crm/v4/associations/:fromobjecttype/:toobjecttype/lab
 ```
 
 Donde `:fromobjecttype` y `:toobjecttype` son `contact`.
+
+Petición:
+```
+GET https://api.hubapi.com/crm/v4/associations/contact/contact/labels
+```
 
 Una respuesta luce similar a esto:
 ```json
@@ -54,6 +59,20 @@ Una respuesta luce similar a esto:
 ```
 
 Aquí podemos ver como las _association labels_ funcionan en parejas. Para el caso de Professional References hay un _Referencer_ que se relaciona con un _Reference_. Por eso es que tenemos los `typeId` 1 y 2.
+
+### Entre Custom Objects para Attestattion Form
+
+Los Custom Objects también pueden usarse para esta petición.
+
+Por ejemplo, para listar labels entre Credentialing y License.
+
+```
+GET https://api.hubapi.com/crm/v4/associations/credentialings/licenses/labels
+```
+
+> [!Note]
+> En Omega, el nombre de Credentialing es `credentialing`. En Alpha es `credentialings`.
+
 
 ## Crear Professional References
 
