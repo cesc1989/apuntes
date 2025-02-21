@@ -36,23 +36,8 @@
               "icon": "lucide-file",
               "title": "Hubspot_Objects_and_Association_Labels_APIs"
             }
-          },
-          {
-            "id": "1a6cba3633d41d1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Go Live Checklist"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Live Checklist"
+              "title": "Outline of Upgrade Announcement"
             }
           }
         ],
@@ -197,11 +182,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a6cba3633d41d1b",
+  "active": "c77b541809da9771",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
+    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",

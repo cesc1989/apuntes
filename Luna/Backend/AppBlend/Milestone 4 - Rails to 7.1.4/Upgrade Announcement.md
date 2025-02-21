@@ -4,11 +4,11 @@ Ladies and gents, it's my pleasure to officially inform you `backend` was succes
 
 These are outstanding things this upgrade brought to our beloved `backend` 💗 repo.
 
-## Use `to_fs` instead of `t_s` when converting DateTime values 🗓️
+## Use `#to_fs` instead of `#t_s` when converting DateTime values 🗓️
 
-Use `to_fs` instead of old `t_s` (without arguments) to convert Date/DateTime values to String. What does this mean?
+Use `#to_fs` instead of old `#t_s` (without arguments) to convert Date/DateTime values to String. What does this mean?
 
-
+If you use `#to_s` without an argument it would raise an ArgumentError exception. If you use it without an argument, it won't fail but won't produce the expected output.
 
 > Note: You can also use the `DateTimeLocalizer` class.
 
