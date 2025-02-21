@@ -10,7 +10,7 @@ Use `#to_fs` instead of old `#t_s` (without arguments) to convert Date/DateTime 
 
 If you use `#to_s` without an argument it would raise an ArgumentError exception. If you use it without an argument, it won't fail but won't produce the expected output.
 
-> Note: You can also use the `DateTimeLocalizer` class.
+> Note: You can also use the `DateTimeLocalizer` class when interpolating/printing date value.
 
 ## Support for exclusion constraints 🔐
 
