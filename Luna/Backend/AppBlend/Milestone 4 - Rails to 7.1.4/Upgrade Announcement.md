@@ -1,20 +1,22 @@
-# 🎊 `backend` Upgrade to Rails 7.1.4 Official Announcement 🎊
+# 🎊 Official Announcement: `backend` Upgraded to Rails 7.1.4 🎊
 
-Ladies and gents, it's my pleasure to officially inform you `backend` was successfully upgrade to Rails 7.1.4.
+Ladies and gents, it's my pleasure to officially inform you `backend` was successfully upgraded to Rails 7.1.4.
 
-Following is a list of outstanding things this upgrade brought to our beloved `backend` 💗 repo.
+These are outstanding things this upgrade brought to our beloved `backend` 💗 repo.
 
 ## Use `to_fs` instead of `t_s` when converting DateTime values 🗓️
 
 Use `to_fs` instead of old `t_s` (without arguments) to convert Date/DateTime values to String.
 
-Note: You can also use the `DateTimeLocalizer` class.
+> Note: You can also use the `DateTimeLocalizer` class.
 
 ## Support for exclusion constraints 🔐
 
 We can now use Rails implementation of PostgreSQL exclusion constraints when writing migrations.
 
 Docs -> https://guides.rubyonrails.org/v7.1/active_record_postgresql.html#exclusion-constraints
+
+The gem that brought this feature was removed in a posterior PR.
 
 ## Rails.env.local? 🏠
 
@@ -28,7 +30,7 @@ Note: do not use `inverse_of` when defining an association with a custom lambda.
 
 ## Upgraded gems 🧰
 
-This is the list of upgraded gems:
+These gems were upgraded to support the Rails upgrade:
 
 - `devise_token_auth` to `1.2.3`
 - `acts-as-taggable-on` to `10.0.0`
