@@ -10,15 +10,15 @@ Los custom objects se crean cuando se cumplen las condiciones que se describen a
 
 ## Credentialing
 
-**Credentialing custom object is ==created when "Credentialing Form Status = Submitted Credentialing Form" AND "State is known; Region is known"==.**
+**Credentialing custom object is ==Initial Form Date is known==.**
 
-This means the therapist filled out and submitted the credentialing application.
+This means they *signed the contract*.
 
-The "Credentialing Form Status" value corresponds to the `credentialing_form_status` property internal name. This value is set in the `HubspotContactService` class and only set to the expected value after the Credentialing Form is submitted successfully.
+ The "Initial Form Date" value corresponds to the `signup_form_date` property internal name.  This value is set in the `HubspotContactService` class. This value is set right after they complete the Sign Up form at `/sign-up/` URL.
 
 ## Therapist Address
 
-**Therapist Address custom object is ==created when "Initial Form Date" is known for the therapist.==**
+**Therapist Address custom object is ==created when "Initial Form Date" is known.==**
 
 This means they *signed the contract*.
 
@@ -26,9 +26,9 @@ The "Initial Form Date" value corresponds to the `signup_form_date` property int
 
 ## License
 
-**The License custom object is ==created when "Treating License Number" in the Contact object is known.==**
+Main License object would be created by a Hubspot workflow.
 
-The "Treating License Number" value corresponds to the `pt_license_number` property internal name. This value is set in the `HubspotContactService` class. This value is set right after they complete the Sign Up form at `/sign-up/` URL.
+Additional licenses will be created using HS API.
 
 # 📞 Llamada del 4 de Septiembre, 2024
 
