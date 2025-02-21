@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "pinned": true,
@@ -36,8 +36,23 @@
               "icon": "lucide-file",
               "title": "Hubspot_Objects_and_Association_Labels_APIs"
             }
+          },
+          {
+            "id": "1a6cba3633d41d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Go Live Checklist"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Upgrade Announcement"
+              "title": "Outline of Go Live Checklist"
             }
           }
         ],
@@ -182,10 +197,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c77b541809da9771",
+  "active": "1a6cba3633d41d1b",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
@@ -211,7 +227,6 @@
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Grimoire",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
