@@ -15,30 +15,15 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "Upgrade Announcement"
             }
-          },
-          {
-            "id": "6cad8ff23485e2b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Rake de Protocol Phases XX"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
+                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rake de Protocol Phases XX"
+              "title": "Outline of Upgrade Announcement"
             }
           }
         ],
@@ -183,11 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6cad8ff23485e2b0",
+  "active": "c77b541809da9771",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
@@ -212,7 +198,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
-    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Grimoire",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
