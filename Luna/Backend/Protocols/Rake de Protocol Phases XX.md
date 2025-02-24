@@ -4,7 +4,7 @@ Esta es una rake task que se corre cada tanto tiempo (muy esporádicamente) cuan
 
 > Se corre el script porque la UI para esto sería complicada de hacer y se usaría muy poco.
 
-## Datos Clave
+# Datos Clave
 
 - La rake está en `lib/tasks/protocols.rake`
 - Los seeds están en `db/seeds/protocols`
@@ -47,11 +47,26 @@ La lógica presente en esas funciones muy seguramente aplicaría solo a la ejecu
 > [!Note]
 > Como no tengo acceso, debo pedir ayuda a otro dev que sí lo tenga.
 
-## Algunos errores y detalles de las tablas
+# Ejecución
+
+La rake la puedo correr en modo seguro así:
+```bash
+# bundle exec rake protocols:phase_<x+1>
+
+bundle exec rake protocols:phase_26
+```
+
+Y en modo producción hay que correrla así:
+```bash
+bundle exec rake protocols:phase_26\[true\]
+```
+
+
+# Algunos errores y detalles de las tablas
 
 En mi primer vez que trabajé en esto descubrí varias cosas sobre cómo está definido el modelo alrededor de Protocol Phases. Describo algunas de esas a continuación.
 
-### Error de violación de índice de exclusión
+## Error de violación de índice de exclusión
 
 Este error:
 ```bash
@@ -75,7 +90,7 @@ t.exclusion_constraint "relative_period WITH &&, protocol_id WITH =", using: :gi
 
 También veo que el campo `relative_period` se de tipo `int4range`. ¿Qué es eso?
 
-### Error de Protocol still missing documents
+## Error de Protocol still missing documents
 
 Sale así:
 ```bash
@@ -83,3 +98,16 @@ Protocols still missing documents: ["54fd92d5-a6f1-47f5-84d2-72168b968a18", "75d
 ```
 
 Solución: en este caso hay que pedirle a los del equipo de Clinical que tienen que cargar el archivo PDF del Protocol en Luxe. O revisar si le pusieron el nombre mal.
+
+## Error de Protocol Mismatch via [Database/Seeds]
+
+Cuando corrí en local protocols phase 26 me dio este error en ambas versiones del comando:
+```ruby
+Protocol ID mismatch: Extras via database: <Set: {\"ac39e49d-7fa0-468b-8f9a-be904dac8415\", \"6298c2b5-bdbb-4ae7-830a-ca9a438b19e7\", \"ad43db53-2476-4934-8027-215d587d1088\"}>
+```
+
+En el rake está controlador por la función `validate_protocol_numbers` que es la última en ejecutarse. La función cuenta los seeds en `db/seeds/protocols/` y los que hay en base de datos.
+
+Cuando hay más extras en base de datos el mensaje es: `Protocol ID mismatch: Extras via database`. Cuando hay más extras en los seeds el mensaje es: `Protocol ID mismatch: Extras via seeds`
+
+En este caso los IDs de los protocols son "Non Production". Creo que es porque ejecuté la rake pasada (phase 25) en mi local y en alpha.
