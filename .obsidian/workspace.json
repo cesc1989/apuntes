@@ -36,20 +36,6 @@
               "icon": "lucide-file",
               "title": "Rake de Protocol Phases XX"
             }
-          },
-          {
-            "id": "c3e9647d81e686c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Momento de creacion de custom objects"
-            }
           }
         ],
         "currentTab": 1
