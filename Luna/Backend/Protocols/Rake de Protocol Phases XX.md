@@ -12,8 +12,10 @@ Esta es una rake task que se corre cada tanto tiempo (muy esporádicamente) cuan
 - Todos los nuevos protocolos se copian a la carpeta `db/seeds/protocols`
 	- Quien pide cargarlos al sistema envía un zip que contiene todos los protocolos existentes + los nuevos.
 	- **Aquí hay que copiar y pegar todo. No vale la pena buscar cuáles no están. Copia y pega todo.**
+		- ==**OJO: puede que no hayan descargado los protocols más reciente.** Siempre compara la cantidad de archivos del zip vs lo que hay en el repo==.
 - A veces también piden cargar Pathways. Esto es un archivo YAML también.
 	- Este archivo se copia en `db/seeds/`
+	- Copia los Pathways en orden alfabetico.
 
 El resumen de las instrucciones del runbook en Notion es:
 
