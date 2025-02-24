@@ -10,7 +10,7 @@ Los custom objects se crean cuando se cumplen las condiciones que se describen a
 
 ## Credentialing
 
-**Credentialing custom object is ==Initial Form Date is known==.**
+**Credentialing custom object is ==created when "Initial Form Date" is known==.**
 
 This means they *signed the contract*.
 
