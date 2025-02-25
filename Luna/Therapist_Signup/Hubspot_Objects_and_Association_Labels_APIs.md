@@ -182,6 +182,119 @@ Cuando hay asociaciones la respuesta JSON es similar a esta:
 }
 ```
 
+# Reasociar Labels
+
+Para Credentialing objects, se necesita pasar de "Active Attested" a "Active" y de "Processing for Move" a "Active Attested". ¿Cómo es la petición para eso?
+
+## De Active Attested a Active
+
+> [!Note]
+> Hay que poner la nueva label (Active) y luego quitar la anterior (Active Attested)
+
+Tomando de punto de partida que las asociaciones se dan entre un `from` hacía un `to` la prueba la haré con estos IDs:
+
+- Credentialing `24454281832` (Active Attested) para usar en `from`
+- Contact `101935997007` para usar en `to`
+
+Debe ser así porque el ID de la definición de la label está así:
+
+```
+GET https://api.hubapi.com/crm/v4/associations/credentialings/contact/labels
+```
+
+Nota la dirección es `credentialings` (from) -> `contact` (to).
+
+```json
+{
+  "results": [
+    {
+      "category": "USER_DEFINED",
+      "typeId": 62,
+      "label": "Active"
+    }
+  ]
+}
+```
+
+### Asignando la label "Active" a Credentialing
+
+La petición, usando el batch endpoint (`batch/create`), sería así:
+```
+POST https://api.hubapi.com/crm/v4/associations/credentialings/contact/batch/create
+
+Payload
+
+{
+  "inputs": [
+    {
+      "types": [
+        {
+          "associationCategory": "USER_DEFINED",
+          "associationTypeId": 62 // credentialings_to_contact_active_type_id
+        }
+      ],
+      "from": {
+        "id": "24454281832"
+      },
+      "to": {
+        "id": "101935997007"
+      }
+    }
+  ]
+}
+```
+
+Respuesta:
+```json
+{
+  "status": "COMPLETE",
+  "results": [
+    {
+      "fromObjectTypeId": "2-33642689",
+      "fromObjectId": 24454281832,
+      "toObjectTypeId": "0-1",
+      "toObjectId": 101935997007,
+      "labels": [
+        "Active"
+      ]
+    }
+  ],
+  "startedAt": "2025-02-25T18:39:12.770Z",
+  "completedAt": "2025-02-25T18:39:12.855Z"
+}
+```
+
+### Quitando la label "Active Attested" a Credentialing
+
+Usando el batch endpoint (`batch/labels/archive`):
+```
+POST https://api.hubapi.com/crm/v4/associations/:fromObjectType/:toObjectType/batch/labels/archive
+
+Payload
+
+{
+  "inputs": [
+    {
+      "types": [
+        {
+          "associationCategory": "USER_DEFINED",
+          "associationTypeId": 52 // credentialings_to_contact_active_attested_type_id
+        }
+      ],
+      "from": {
+        "id": "24454281832"
+      },
+      "to": {
+        "id": "101935997007"
+      }
+    }
+  ]
+}
+```
+
+Respuesta: 204.
+
+
 # Custom Objects in Hubspot
 
 La documentación dice que hay objetos estándar de Hubspot como Contacts, Companies, Deals, etc. También se pueden crear objetos custom para representar otro tipo de datos.
