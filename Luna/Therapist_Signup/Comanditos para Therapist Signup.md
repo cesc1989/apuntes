@@ -96,6 +96,15 @@ HubspotCustomObjects::HubspotAttestationFormUrlService.new(t1).update
 
 ## Rake para crear un Therapist en Local sin usar Postman
 
+Hace lo siguiente:
+
+- Crea el therapist
+- Crea el contacto en Hubspot
+- Crea Answers para Medicare Requirement
+- Crea Credentialing Information y sus respectivas References (3)
+- Espera 30 segundos para darle tiempo a Hubspot
+- Sincroniza IDs de Credentialing y Therapist Address Custom object
+
 ```bash
 bundle exec rake therapist:create_local_for_tests
 ```
