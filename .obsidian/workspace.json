@@ -15,15 +15,30 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "Upgrade Announcement"
             }
+          },
+          {
+            "id": "049bed7927deb933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Comanditos para Therapist Signup"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Upgrade Announcement"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -168,11 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c77b541809da9771",
+  "active": "049bed7927deb933",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
@@ -197,7 +213,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Grimoire",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",

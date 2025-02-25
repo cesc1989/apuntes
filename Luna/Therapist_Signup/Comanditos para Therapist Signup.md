@@ -94,6 +94,11 @@ HubspotCustomObjects::HubspotAddressObjectService.new(t1, section: :preferences)
 HubspotCustomObjects::HubspotAttestationFormUrlService.new(t1).update
 ```
 
+## Rake para crear un Therapist en Local sin usar Postman
+
+```bash
+bundle exec rake therapist:create_local_for_tests
+```
 
 # Otros Comanditos
 
