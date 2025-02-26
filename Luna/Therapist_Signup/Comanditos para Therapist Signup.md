@@ -76,6 +76,7 @@ License.create([
 
 Línea por cada sección y para cada diferente custom object.
 
+**Para Credentialing object**:
 ```ruby
 HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :signup).update
 HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :personal_information).update
@@ -85,14 +86,36 @@ HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :employ
 HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :preferences).update
 HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :npi_and_caqh).update
 HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :certification).update
+```
 
+Para License object:
+```ruby
 HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :signup).update
 HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :credentialing).update
+```
 
+Para Therapist Address object:
+```ruby
 HubspotCustomObjects::HubspotAddressObjectService.new(t1, section: :preferences).update
+```
 
+Para guardar la URL del AF en el Credentialing object:
+```ruby
 HubspotCustomObjects::HubspotAttestationFormUrlService.new(t1).update
 ```
+
+## Sincronización manual de HS Custom Object IDs
+
+Para sincronizar IDs de Credentialing y Therapist Address objects:
+```ruby
+HubspotSyncCustomObjectsIdsToTherapistService.new(t1).sync_ids
+```
+
+Para sincronizar ID de License object (el que es el principal no los de diferentes estados):
+```ruby
+HubspotSyncCustomObjectsIdsToTherapistService.new(t1).sync_license_id
+```
+
 
 ## Rake para crear un Therapist en Local sin usar Postman
 

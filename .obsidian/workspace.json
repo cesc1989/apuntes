@@ -24,27 +24,13 @@
             }
           },
           {
-            "id": "c54cfa0fb99c562c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hubspot_Objects_and_Association_Labels_APIs"
-            }
-          },
-          {
-            "id": "7efbf7cba8c0931c",
+            "id": "6e21f1167ea548d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -109,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -173,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hubspot_Objects_and_Association_Labels_APIs"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -197,12 +184,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c54cfa0fb99c562c",
+  "active": "6e21f1167ea548d9",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
