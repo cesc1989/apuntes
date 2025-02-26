@@ -30,15 +30,29 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Comanditos para Patient Self Report"
             }
+          },
+          {
+            "id": "b6ccdaad9501c209",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Medicare en KX.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Medicare en KX"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "Luna/Backend/KX-Modifier/Medicare en KX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Patient Self Report"
+              "title": "Outline of Medicare en KX"
             }
           }
         ],
@@ -183,9 +197,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6c7021a0f73aad9",
+  "active": "b6ccdaad9501c209",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/Medicare.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Backend/KX-Modifier/Medicare en KX.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing Well - Julian Shapiro.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing in the Age of Distraction - Cory Doctorow.md",
@@ -215,7 +230,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
