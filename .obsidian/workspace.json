@@ -36,9 +36,23 @@
               "icon": "lucide-file",
               "title": "Credentialing Object - Mapeo de Secciones y Propiedades"
             }
+          },
+          {
+            "id": "38bf9c58c877def0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Comanditos para Therapist Signup"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Credentialing Object - Mapeo de Secciones y Propiedades"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -183,12 +197,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4546e80d9576d9c8",
+  "active": "38bf9c58c877def0",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
