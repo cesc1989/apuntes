@@ -12,6 +12,8 @@ Complementario a [[License Object - Mapeo de Secciones y Propiedades]] y [[Thera
 | BLS Certificate Number   | bls_certificate_number  | therapist |
 | BLS Expiration Date      | bls_expiration_date     | therapist |
 | BLS Issuing Company      | bls_issuing_company     | therapist |
+| Treating License Number  | treating_license_number | therapist |
+| Treating License Expiration Date  | treating_license_expiration_date | therapist |
 
 
 # 2 - Personal Information
