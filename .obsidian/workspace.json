@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "5eac6e76fea93fdf",
+            "id": "396acb737b0757c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing in the Age of Distraction - Cory Doctorow.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing Well - Julian Shapiro.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Writing in the Age of Distraction - Cory Doctorow"
+              "title": "Writing Well - Julian Shapiro"
             }
           }
         ],
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing in the Age of Distraction - Cory Doctorow.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing Well - Julian Shapiro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Writing in the Age of Distraction - Cory Doctorow"
+              "title": "Outline of Writing Well - Julian Shapiro"
             }
           }
         ],
@@ -183,7 +183,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5eac6e76fea93fdf",
+  "active": "396acb737b0757c3",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing in the Age of Distraction - Cory Doctorow.md",

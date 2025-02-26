@@ -1,5 +1,9 @@
 # Writing Well - Julian Shapiro
 
+Etiquetas: #escribir #writing 
+
+---
+
 # [Intro](https://www.julian.com/guide/write/intro)
 
 An ideal place to start is by thinking through what bothers you most in life. Write a post to work through that issue. The best writing is often therapy that you publish for the world to learn from.

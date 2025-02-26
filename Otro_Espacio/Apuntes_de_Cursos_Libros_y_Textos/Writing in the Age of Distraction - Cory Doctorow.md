@@ -1,5 +1,9 @@
 # Writing in the Age of Distraction - Cory Doctorow
 
+Etiquetas: #escribir #writing
+
+---
+
 Este artículo en [Locus Magazine](https://www.locusmag.com/Features/2009/01/cory-doctorow-writing-in-age-of.html).
 
 Cory da algunos consejos para intentar escribir mucho más en la era de la información y de las notificaciones por todos lados.
