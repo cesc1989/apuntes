@@ -5,18 +5,22 @@
 An ideal place to start is by thinking through what bothers you most in life. Write a post to work through that issue. The best writing is often therapy that you publish for the world to learn from.
 
 # Why Write?
+
 ## Leverage
+
 - Writing is the most radical thing you can do without money.
 - As a writer, you can change the world from your couch.
 
-
 ## Clarity
+
 - Writing is a laxative for the mind. Great ideas emerge while writing—not before.
 - After writing ideas down, your brain is compelled to draw connections between them.
 
 
 # [What to Write](https://www.julian.com/guide/write/ideas)
+
 ## Choose your topic
+
 - The best topic to write about is the one you can’t *not* write about.
 
 Step 1. Choose an objective:
@@ -42,27 +46,26 @@ Your only objective is to **hook readers** into reading the rest of the article.
 
 - A great intro—like an electrifying opening to a film—buys **goodwill** with readers.
 - A hook is any *half*-told story.
-![](https://paper-attachments.dropbox.com/s_67D588495966206EF0720DE557F19E0AA4618788932217E578A5B799B21075CC_1614263517951_image.png)
 
+![find your hooks](./attachments/01.writing.well.hooks.png)
 
 Hooks serve two purposes:
 
 - They compel readers to read.
 - They help us identify what to write about.
 
-
 ## How to generate hooks
 
 You **create hooks by finding questions you want answers to** then posing those questions in your introduction.
 
-![](https://paper-attachments.dropbox.com/s_67D588495966206EF0720DE557F19E0AA4618788932217E578A5B799B21075CC_1614264617160_image.png)
-
+![generate hooks](02.writing.well.generate.hooks.png)
 
 Turn questions into hooks
 
-![](https://paper-attachments.dropbox.com/s_67D588495966206EF0720DE557F19E0AA4618788932217E578A5B799B21075CC_1614264702218_image.png)
+![questions into hooks](03.writing.well.question.hooks.png)
 
 # [First Drafts](https://www.julian.com/guide/write/first-draft)
+
 ## The Goal
 
 The goal of your first draft is *not* to say things well*.* Save that for rewriting. Your first draft is simply for **generating and connecting ideas.**
@@ -77,14 +80,13 @@ The goal of your first draft is *not* to say things well*.* Save that for rewrit
 
 
 ## First Draft Process
-![](https://paper-attachments.dropbox.com/s_67D588495966206EF0720DE557F19E0AA4618788932217E578A5B799B21075CC_1614644497460_image.png)
 
+![first draft process](04.writing.well.draft.process.png)
 
 **Start with Your Objective**
 Before writing, choose an objective that focuses your thinking and makes your goal clear.
 
-![](https://paper-attachments.dropbox.com/s_67D588495966206EF0720DE557F19E0AA4618788932217E578A5B799B21075CC_1614644534059_image.png)
-
+![start with your objective](05.draft.process.2.png)
 
 An objective reveals what your article must accomplish to be successful. You work backward from it to identify your outline.
 
@@ -96,7 +98,9 @@ It’s more efficient to breeze through a bad first draft and improve it later t
 It’s normal if not many ideas come to mind immediately. You’ll discover that the majority of your ideas arrive *while* writing—not before. You write *in order* to think.
 
 # [Practicing](https://www.julian.com/guide/write/practicing)
+
 ## Key Learnings
+
 - Your goal is not to foster the writing habit. Your goal is to fall so in love with ideas that you can’t not write about them. Find your objective and your motivation.
 - Don't fully think through your ideas before writing. It's inefficient. The best way to think is by writing. It compels your brain to connect the dots.
 - Your writing is succinct once everything unimportant is removed.

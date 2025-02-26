@@ -24,35 +24,21 @@
             }
           },
           {
-            "id": "4546e80d9576d9c8",
+            "id": "68243c166a3f616f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing Well - Julian Shapiro.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Credentialing Object - Mapeo de Secciones y Propiedades"
-            }
-          },
-          {
-            "id": "38bf9c58c877def0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comanditos para Therapist Signup"
+              "title": "Writing Well - Julian Shapiro"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing Well - Julian Shapiro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Therapist Signup"
+              "title": "Outline of Writing Well - Julian Shapiro"
             }
           }
         ],
@@ -197,12 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38bf9c58c877def0",
+  "active": "68243c166a3f616f",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/03.writing.well.question.hooks.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/02.writing.well.generate.hooks.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/01.writing.well.hooks.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
@@ -223,8 +215,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Nombrar_bien_las_cosas_y_su_importancia.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Haciendo_rebase_de_Omega_a_rama_de_trabajo.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
@@ -235,10 +225,6 @@
     "Luna/Backend/KX-Modifier",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/37.cred.entries.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/36.careplan.route.reviews.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/35.protocol.escalations.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/34.pathway.assigns.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/33.careplans.edit.png",
     "Luna/Patient_Self_Report/issues-and-debugging",
     "Luna/Patient_Self_Report/upgrades",
     "Luna/Patient_Self_Report/archive",
