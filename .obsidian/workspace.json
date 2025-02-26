@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Medicare.md",
-                "mode": "preview",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Medicare"
+              "title": "Comanditos para Patient Self Report"
             }
           }
         ],
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Medicare.md",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Medicare"
+              "title": "Outline of Comanditos para Patient Self Report"
             }
           }
         ],
@@ -185,8 +185,8 @@
   },
   "active": "c6c7021a0f73aad9",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Backend/KX-Modifier/Medicare.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing Well - Julian Shapiro.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing in the Age of Distraction - Cory Doctorow.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",

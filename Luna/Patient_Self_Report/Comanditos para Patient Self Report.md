@@ -48,6 +48,22 @@ ucm.update(verification_status: :verified)
 UserCommunicationMethods::EmailVerificationReminderWorker.perform_in(500, "291f69bb-a3d5-4dbd-ab41-64bec1cbe56d")
 ```
 
+## Variados para encontrar Pacientes del subdominio Patient Self Report
+
+```ruby
+PatientSelfReport::Patient.find_by(internal_id: "714920d5-4707-4b3a-914a-bf82c125300d")
+
+PatientSelfReport::Patient.find(9207320329312777335)
+
+PatientSelfReport::Patient.select(:id).max
+
+PatientSelfReport::Patient.joins(:forms).where(email: nil).where(forms: { progress_type: "ongoing", completed: false })
+
+PatientSelfReport::Form.find(24898).update_attribute(:completed, false)
+
+PatientSelfReport::Form.find_by(uuid: "ab6b3654-1025-4ca7-99c5-cb60df682525").destroy
+```
+
 # Otros Comanditos
 
 El de Therapist Signup -> [[Comanditos para Therapist Signup]]
