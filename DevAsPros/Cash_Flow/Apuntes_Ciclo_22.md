@@ -70,3 +70,34 @@ Le pregunté a ChatGPT y la sugerencia fue forzar el formato esperado por el cam
 ```
 
 De esa forma pude probar y funcionaba de nuevo el form en Firefox Mobile. Todo era cuestión de forzar el formato. Según gepeto, es porque en navegadores Mobiles los estándares se aplican de manera más estricta.
+
+# Asset  was not declared to be precompiled in production
+
+Ya me había pasado antes este error en el Ciclo 17 -> [[Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow#Problema de Assets Precompile con Capybara y System tests]]
+
+```bash
+Failure/Error: <%= javascript_importmap_tags %>
+
+     ActionView::Template::Error:
+       Asset `controllers/toast_controller.js` was not declared to be precompiled in production.
+       Declare links to your assets in `app/assets/config/manifest.js`.
+
+         //= link controllers/toast_controller.js
+
+       and restart your server
+
+   # --- Caused by: ---
+	 # Sprockets::Rails::Helper::AssetNotPrecompiledError:
+	 #   Asset `controllers/toast_controller.js` was not declared to be precompiled in production.
+	 #   Declare links to your assets in `app/assets/config/manifest.js`.
+	 #
+	 #     //= link controllers/toast_controller.js
+	 #
+	 #   and restart your server
+	 #   /Users/francisco/.gem/ruby/3.2.5/gems/sprockets-rails-3.4.2/lib/sprockets/rails/helper.rb:372:in `raise_unless_precompiled_asset'
+```
+
+Encontré una solución temporal en [este issue de 2020](https://github.com/rails/sprockets-rails/issues/458#issuecomment-618964357). Correr el comando:
+```
+bundle exec rake tmp:clear
+```

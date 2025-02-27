@@ -36,9 +36,23 @@
               "icon": "lucide-file",
               "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
             }
+          },
+          {
+            "id": "c3588ee44c8c8dd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Ciclo_22"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,8 +105,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -160,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
+              "title": "Outline of Apuntes_Ciclo_22"
             }
           }
         ],
@@ -184,11 +197,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b275fbc2d6c3a4c9",
+  "active": "c3588ee44c8c8dd9",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
