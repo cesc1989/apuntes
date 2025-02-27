@@ -51,6 +51,12 @@ Setting.find_or_create_by(key: "sync_to_hs_custom_objects", value: "true", setti
 
 # Post Release
 
+## Backfill AF URL in Hubspot Contacts
+
+```
+bundle exec rake hubspot:attestation:backfill_af_url
+```
+
 ## Remove flag from Ruby classes that make requests to update HS Custom Objects
 
 The flag is:
