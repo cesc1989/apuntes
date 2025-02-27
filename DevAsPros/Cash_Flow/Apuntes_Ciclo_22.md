@@ -101,3 +101,5 @@ Encontré una solución temporal en [este issue de 2020](https://github.com/rail
 ```
 bundle exec rake tmp:clear
 ```
+
+Pero el error parece no haber tenido solución evidente.
