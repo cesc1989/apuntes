@@ -24,35 +24,21 @@
             }
           },
           {
-            "id": "c6c7021a0f73aad9",
+            "id": "b275fbc2d6c3a4c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Patient Self Report"
-            }
-          },
-          {
-            "id": "b6ccdaad9501c209",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/Medicare en KX.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Medicare en KX"
+              "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exclusion_constraint",
+                "query": "asset was not",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Medicare en KX.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Medicare en KX"
+              "title": "Outline of Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
             }
           }
         ],
@@ -197,11 +184,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6ccdaad9501c209",
+  "active": "b275fbc2d6c3a4c9",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
+    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+    "Luna/Therapist_Signup/Attestation Form/Therapist Address - Mapeo Secciones y Propiedades.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/KX-Modifier/Medicare en KX.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing Well - Julian Shapiro.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Writing in the Age of Distraction - Cory Doctorow.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
@@ -210,26 +217,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/02.writing.well.generate.hooks.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/01.writing.well.hooks.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
-    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
-    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
-    "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
-    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-    "Luna/Therapist_Signup/Attestation Form/Therapist Address - Mapeo Secciones y Propiedades.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/01 - Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Gema active-record-postgresql-constraint.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
