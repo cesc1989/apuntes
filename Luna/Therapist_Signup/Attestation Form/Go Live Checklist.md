@@ -39,9 +39,17 @@ This rake should output all setting records storing IDs for association labels u
 
 Rake:
 ```
-TODO
+bundle exec rake hubspot:attestation:check_hs_custom_object_schemas
 ```
 
+## Create flag in Omega
+
+```ruby
+Setting.find_or_create_by(key: "sync_to_hs_custom_objects", value: "true", setting_type: "other_text")
+```
+
+
+# Post Release
 
 ## Remove flag from Ruby classes that make requests from the CA to update HS Custom Objects
 
