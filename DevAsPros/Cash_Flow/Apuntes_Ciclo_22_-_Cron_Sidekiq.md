@@ -294,3 +294,39 @@ systemctl --user status sidekiq.service
 ```
 
 Vuelve a reiniciar.
+
+### systemd como usuario solo mientras el usuario está loggeado
+
+El error de esto es porque configuré Sidekiq como demonio systemd pero solo se ejecuta mientras estoy loggeado.
+
+Así lo dice el [artículo de donde saqué la configuración](https://dev.to/kevinluo201/start-sidekiq-6-as-daemon-in-production-environment-on-ubuntu-20-04-4m7b):
+> User-wise systemd actually only allows logged-in user to execute the services.  
+Therefore, all the services will be shut down while the last user session is ended.
+
+Hay que hacer esto que me dijo Gpt:
+```bash
+loginctl enable-linger $(whoami)
+```
+
+lo cual también dice el autor del artículo.
+
+Para revisar si un usuario de sistema (no root) tiene el linger activado puedo ejecutar este comando:
+```bash
+loginctl show-user $(whoami) | grep Linger
+```
+
+Si lo está, responde con:
+```bash
+Linger=yes
+```
+
+También se pueden listar todos los usuarios con el linger activado con:
+```bash
+loginctl list-users
+
+ UID USER  
+1000 ubuntu
+
+1 users listed.
+```
+
