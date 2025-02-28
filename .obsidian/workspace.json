@@ -10,7 +10,6 @@
           {
             "id": "c77b541809da9771",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,7 +17,6 @@
                 "mode": "preview",
                 "source": true
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Upgrade Announcement"
             }
