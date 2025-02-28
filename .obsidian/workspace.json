@@ -24,27 +24,13 @@
             }
           },
           {
-            "id": "a901725410586545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
-            }
-          },
-          {
             "id": "3f1692048b5904bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -52,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,9 +185,11 @@
   },
   "active": "3f1692048b5904bd",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+    "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
+    "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
     "DevAsPros/Cash_Flow/attachments/001.crons.sidekiq.web.png",
@@ -233,7 +221,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/01.writing.well.hooks.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
-    "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Grimoire",
     "DevAsPros/attachments",
     "Luna/Backend/Protocols",

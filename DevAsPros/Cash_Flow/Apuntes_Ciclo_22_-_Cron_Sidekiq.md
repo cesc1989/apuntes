@@ -330,3 +330,31 @@ loginctl list-users
 1 users listed.
 ```
 
+### Probando systemd con linger activado
+
+Una vez activé dicha configuración comencé a revisar el estado de Sidekiq al entrar y salir del servidor. Resultados prometedores.
+
+```bash
+systemctl --user status sidekiq.service
+● sidekiq.service - sidekiq
+     Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2025-02-28 16:10:16 UTC; 8min ago
+
+
+systemctl --user status sidekiq.service
+● sidekiq.service - sidekiq
+     Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2025-02-28 16:10:16 UTC; 19min ago
+
+
+systemctl --user status sidekiq.service
+● sidekiq.service - sidekiq
+     Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2025-02-28 16:10:16 UTC; 32min ago
+```
+
+Y también se puede notar en la web cuando reviso el proceso:
+
+![[003.sidekiq.long.run.png]]
+
+Esto es un buen indicador de que hay algo muy diferente a mí configuración inicial. Esperemos que esta vez sí funcione de verdad.
