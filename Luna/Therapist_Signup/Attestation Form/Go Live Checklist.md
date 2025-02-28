@@ -42,7 +42,7 @@ Rake:
 bundle exec rake hubspot:attestation:check_hs_custom_object_schemas
 ```
 
-## Create flag in Omega
+## ✅ Create flag in Omega
 
 ```ruby
 Setting.find_or_create_by(key: "sync_to_hs_custom_objects", value: "true", setting_type: "other_text")
@@ -51,7 +51,7 @@ Setting.find_or_create_by(key: "sync_to_hs_custom_objects", value: "true", setti
 
 # Post Release
 
-## Backfill AF URL in Hubspot Contacts
+## ✅ Backfill AF URL in Hubspot Contacts
 
 ```
 bundle exec rake hubspot:attestation:backfill_af_url
