@@ -6,11 +6,73 @@ These are outstanding things this upgrade brought to our beloved `backend` 💗 
 
 # What does Rails 7.1 brings to the table?
 
-cosas sobre esta version
+Rails 7.1 was released on October 2023. This version is made of about 5000 commits and 813 people made contributions.
+
+## Async Queries
+
+This version of Rails brings new API in Active Record to make some queries asynchronous.
+
+Example with `forms` table:
+```ruby
+promise = PatientSelfReport::Form.where(completed:true).async_count
+  PatientSelfReport::Form Count (48.6ms)  SELECT COUNT(*) FROM "forms" WHERE "forms"."completed" = $1  [["completed", true]]
+=> #<ActiveRecord::Promise status=complete>
+
+promise.value
+=> 22119
+```
+
+These are the async methods:
+
+- `async_count`
+- `async_sum`
+- `async_minimum`
+- `async_maximum`
+- `async_average`
+- `async_pluck`
+- `async_pick`
+- `async_ids`
+- `async_find_by_sql`
+- `async_count_by_sql`
+
+## Set strict `locals` in views or partials
+
+This is a way to define the only acceptable locals in partials or views. Defined with a magic comment in the top of the file.
+
+Dummy example:
+```ruby
+<%# locals: (title: "Default title", comment_count: 0) %>
+ 
+<h2><%= title %></h2>
+<span class="comment-count"><%= comment_count %></span>
+```
+
+`locals:` only accepts keyword arguments. Positional or other raises an exception.
 
 # What about Rails 8?
 
-cosas sobre esta version
+This bombastic version of Rails was released past November and was mainly focused on giving solo developers / small teams more tools to their Rails apps out there with simpler tooling.
+
+The most noise things about this release are Kamal 2 + Solid Trifecta.
+
+## Kamal 2. Modern day Capistrano
+
+Rails 8 comes preconfigured Kamal 2.
+
+Kamal 2 is good old Capistrano but for Docker. I haven't personally used but many people praise its simplicity to deploy RoR apps to VPS.
+
+In DHH words:
+> All it needs is the IP addresses for a set of servers with your SSH key deposited, and you’ll be ready to go into production in under two minutes.
+
+## Solid Trifecta
+
+Rails 8 aims to take advantage of VPS running on NVMe or SSD drives to run SQLite as the main data storage. The goal is to replace Redis with SQLite for job queues or cache.
+
+**Solid Cable** let us remove Redis for WebSocket functionality.
+
+**Solid Cache** let us get rid of Redis/Memcached for caching needs. Cache will live in disk instead of RAM. With NVMe drives speed shouldn't be affected.
+
+**Solid Queue** replaces Redis and also the job framework (Resque, Sidekiq). Works with PostgreSQL, MySQL and SQLite.
 
 # Changes in `backend`
 
@@ -59,5 +121,7 @@ These gems were upgraded to support the Rails upgrade:
 
 If you want to know what more things Rails 7.1 brings to the table, check these links out:
 
-- https://www.bigbinary.com/blog/categories/rails-7/all
-- https://gorails.com/series/whats-new-inrails-7-1
+- Release Notes -> https://guides.rubyonrails.org/v7.2.0/7_1_release_notes.html
+- Posts in BigBinary blog -> https://www.bigbinary.com/blog/categories/rails-7/all
+- Go Rails videos -> https://gorails.com/series/whats-new-inrails-7-1
+- DHH Rails 8 post -> https://rubyonrails.org/2024/11/7/rails-8-no-paas-required
