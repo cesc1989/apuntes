@@ -68,11 +68,23 @@ In DHH words:
 
 Rails 8 aims to take advantage of VPS running on NVMe or SSD drives to run SQLite as the main data storage. The goal is to replace Redis with SQLite for job queues or cache.
 
-**Solid Cable** let us remove Redis for WebSocket functionality.
+### Solid Cable
 
-**Solid Cache** let us get rid of Redis/Memcached for caching needs. Cache will live in disk instead of RAM. With NVMe drives speed shouldn't be affected.
+See at -> https://github.com/rails/solid_cable
 
-**Solid Queue** replaces Redis and also the job framework (Resque, Sidekiq). Works with PostgreSQL, MySQL and SQLite.
+Lets us remove Redis for WebSocket functionality.
+
+### Solid Cache
+
+See at -> https://github.com/rails/solid_cache
+
+Lets us get rid of Redis/Memcached for caching needs. Cache will live in disk instead of RAM. With NVMe drives speed shouldn't be affected.
+
+### Solid Queue
+
+See at -> https://github.com/rails/solid_queue
+
+Lets us replaces Redis and also the job framework (Resque, Sidekiq). Works with PostgreSQL, MySQL and SQLite.
 
 # Changes in `backend`
 
@@ -90,7 +102,7 @@ We can now use Rails implementation of PostgreSQL exclusion constraints when wri
 
 Docs -> https://guides.rubyonrails.org/v7.1/active_record_postgresql.html#exclusion-constraints
 
-The gem that brought this feature was removed in a posterior PR.
+The gem that brought this feature was removed in a later PR.
 
 ## Rails.env.local? 🏠
 
