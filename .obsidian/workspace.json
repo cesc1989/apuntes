@@ -24,35 +24,35 @@
             }
           },
           {
-            "id": "827513566bf9d510",
+            "id": "a901725410586545",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Go Live Checklist"
-            }
-          },
-          {
-            "id": "bde3d845a71a2812",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Notas Generales"
+              "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
+            }
+          },
+          {
+            "id": "3f1692048b5904bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Live Checklist"
+              "title": "Outline of Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           }
         ],
@@ -197,14 +197,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "827513566bf9d510",
+  "active": "3f1692048b5904bd",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+    "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
+    "DevAsPros/Cash_Flow/attachments/001.crons.sidekiq.web.png",
+    "DevAsPros/NSAC/Cómo_Enviar_emails_con_Sidekiq,_ActionMailer_y_Mai.md",
+    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
@@ -222,9 +226,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
     "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
-    "Luna/Therapist_Signup/Attestation Form/Therapist Address - Mapeo Secciones y Propiedades.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Backend/KX-Modifier/Medicare en KX.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/03.writing.well.question.hooks.png",
@@ -234,11 +235,9 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/error.solargraph.png",
     "Luna/Backend/AppBlend/attachments/table.compatibilidad.ruby.rails.png",
     "Luna/Grimoire",
-    "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
     "DevAsPros/attachments",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/attachments/38.clinic.payers.detail.png",
     "Luna/Patient_Self_Report/issues-and-debugging",
     "Luna/Patient_Self_Report/upgrades",
     "Luna/Patient_Self_Report/archive",
