@@ -358,3 +358,7 @@ Y también se puede notar en la web cuando reviso el proceso:
 ![[003.sidekiq.long.run.png]]
 
 Esto es un buen indicador de que hay algo muy diferente a mí configuración inicial. Esperemos que esta vez sí funcione de verdad.
+
+## 🟡 Los despliegues también reinician Sidekiq 🟡
+
+Esto es esperado ya que se necesita que Sidekiq recargue para que coja el código nuevo.

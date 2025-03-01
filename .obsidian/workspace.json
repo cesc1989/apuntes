@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "342dc287316fb6b6",
+        "id": "16cbc91f17e254a4",
         "type": "tabs",
         "children": [
           {
-            "id": "c77b541809da9771",
+            "id": "c9502c29e9a1b7e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Upgrade Announcement"
+              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Upgrade Announcement"
+              "title": "Outline of Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           }
         ],
@@ -166,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c77b541809da9771",
+  "active": "c9502c29e9a1b7e4",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
@@ -179,9 +181,7 @@
     "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
     "DevAsPros/Cash_Flow/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/NSAC/Cómo_Enviar_emails_con_Sidekiq,_ActionMailer_y_Mai.md",
