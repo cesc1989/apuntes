@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "16cbc91f17e254a4",
+        "id": "cf61c49392895bbb",
         "type": "tabs",
         "children": [
           {
-            "id": "c9502c29e9a1b7e4",
+            "id": "ec22f8bf0a5de113",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
+              "title": "The Plot Against America - Mike Brock"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_22_-_Cron_Sidekiq"
+              "title": "Outline of The Plot Against America - Mike Brock"
             }
           }
         ],
@@ -166,11 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9502c29e9a1b7e4",
+  "active": "ec22f8bf0a5de113",
   "lastOpenFiles": [
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Grimoire/Configurando_Grimoire.md",
@@ -197,7 +198,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/03.writing.well.question.hooks.png",
