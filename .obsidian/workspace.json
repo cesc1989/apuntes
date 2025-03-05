@@ -20,8 +20,51 @@
               "icon": "lucide-file",
               "title": "The Plot Against America - Mike Brock"
             }
+          },
+          {
+            "id": "bc862ba036a1357a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Asociaciones - KX Modifier"
+            }
+          },
+          {
+            "id": "3b4fb4c53618b77c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "KX Modifier - Notas Generales"
+            }
+          },
+          {
+            "id": "4b1b76b13a70bf8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Medicare en KX.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Medicare en KX"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
+                "file": "Luna/Backend/KX-Modifier/Medicare en KX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Plot Against America - Mike Brock"
+              "title": "Outline of Medicare en KX"
             }
           }
         ],
@@ -166,8 +209,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec22f8bf0a5de113",
+  "active": "4b1b76b13a70bf8e",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
@@ -187,7 +232,6 @@
     "DevAsPros/Cash_Flow/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/NSAC/Cómo_Enviar_emails_con_Sidekiq,_ActionMailer_y_Mai.md",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
@@ -197,7 +241,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_09_-_Formularios_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/03.writing.well.question.hooks.png",

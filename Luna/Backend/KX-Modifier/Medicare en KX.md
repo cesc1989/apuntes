@@ -48,3 +48,22 @@ Insurance.where("key LIKE ?", "%medicare%").pluck(:id, :key)
 
 [[3, "medicare"], [28, "medicare_advantage"], [396, "medicare_secondary"]]
 ```
+
+## Insurance que es Medicare
+
+En el modelo Insurance veo estos métodos:
+```ruby
+class Insurance < ApplicationRecord
+  def medicare?
+    key == "medicare"
+  end
+
+  def medicaid?
+    key == "medicaid"
+  end
+
+  def medicare_advantage?
+    key == "medicare_advantage"
+  end
+end
+```
