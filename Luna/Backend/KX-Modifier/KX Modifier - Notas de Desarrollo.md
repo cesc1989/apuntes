@@ -218,6 +218,12 @@ Da este error:
 
 ¿Qué lo causa?
 
+## Impersonate / Suplantar
+
+En ocasiones, será mejor suplantar a algún usuario de tipo Therapist para poder hacer las peticiones de manera correcta.
+
+Para hacerlo hay que usar el correo del Therapist. En mí caso, para probar estas queries, suplanté el therapist con correo `demo+staging26@koombea.com`.
+
 ## Ejecutar Mutaciones en GraphiQL
 
 # Peticiones en GraphQL desde Postman
