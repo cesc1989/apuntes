@@ -182,5 +182,40 @@ Responde:
 ```
 
 
+## Probando el campo `promptTherapistForMedicalNecessity`
+
+Cuando pruebo la query de esta forma:
+```json
+{
+  node(id: "ee51dc7f-ca06-4833-aaa6-4abf614fc59d") {
+    ... on CarePlan {
+      id,
+      createdAt,
+      name,
+      payerPlan {
+        id
+      },
+      promptTherapistForMedicalNecessity
+    }
+  }
+}
+```
+
+Da este error:
+```json
+{
+  "errors": [
+    {
+      "message": "undefined method `values' for #<BatchLoader::GraphQL:0x0000000118527100 @batch_loader=#<BatchLoader:0x1317560>>\n\n        context_key = context.values.map { _1._policy_cache_key(use_object_id: true) }.join(\".\")\n                             ^^^^^^^",
+      "backtrace": [
+        "/Users/francisco/.gem/ruby/3.1.6/gems/action_policy-0.6.0/lib/.rbnext/1995.next/action_policy/behaviours/policy_for.rb:62:in `policy_for_cache_key'",
+        "/Users/francisco/.gem/ruby/3.1.6/gems/action_policy-0.6.0/lib/action_policy/behaviours/memoized.rb:37:in `__policy_memoize__'",
+        ]
+    }
+  ]
+}       
+```
+
+¿Qué lo causa?
 
 ## Ejecutar Mutaciones
