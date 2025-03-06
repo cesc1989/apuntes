@@ -85,7 +85,7 @@ ACTIVE_STATES = %w[pending ongoing completed].freeze
 
 Se accede desde `http://localhost:3000/graphiql`. Hay que primero iniciar sesión como admin en Luxe.
 
-## Ejecutar Queries
+## Ejecutar Queries en GraphiQL
 
 Di con esta forma de hacer una query para ver los datos de un paciente según lo que se define en el tipo.
 
@@ -218,4 +218,32 @@ Da este error:
 
 ¿Qué lo causa?
 
-## Ejecutar Mutaciones
+## Ejecutar Mutaciones en GraphiQL
+
+# Peticiones en GraphQL desde Postman
+
+El endpoint para probar es `POST /graphql`. Hay que pasar las siguientes cabeceras de autenticación y authorización:
+```bash
+access-token:eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmZmZlMzMyYy01Yzk1LTQwZGYtYjg5NC03NTgxM2ZmYTcwOTciLCJpYXQiOjE3NDEyNzA4NzR9.a-yBDmfbT2nBtcDRxwCtCKrDTRFVGV_K3ZJsWgLNrlQ
+
+token-type:Bearer
+
+client:Fdr3O1qtG-PP_oe0-mcNYQ
+
+expiry:1801270874
+
+uid:francisco.quintero+26@ideaware.co
+
+Authorization:Bearer eyJhY2Nlc3MtdG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlKOS5leUp6ZFdJaU9pSm1abVpsTXpNeVl5MDFZemsxTFRRd1pHWXRZamc1TkMwM05UZ3hNMlptWVRjd09UY2lMQ0pwWVhRaU9qRTNOREV5TnpBNE56UjkuYS15QkRtZmJUMm5CdGNEUnh3Q3RDS3JEVFJGVkdWX0szWkpzV2dMTnJsUSIsInRva2VuLXR5cGUiOiJCZWFyZXIiLCJjbGllbnQiOiJGZHIzTzFxdEctUFBfb2UwLW1jTllRIiwiZXhwaXJ5IjoiMTgwMTI3MDg3NCIsInVpZCI6ImZyYW5jaXNjby5xdWludGVybysyNkBpZGVhd2FyZS5jbyJ9
+```
+
+Y se elige la opción "GraphQL" en la pestaña "Body" de la petición. Ahí se pega la query como en GraphiQL.
+
+## Generando las cabeceras
+
+Hay que encontrar un Therapist que tenga acceso a un Care Plan. Y luego se genera la cabecera así:
+```ruby
+Therapist.find("2f3a6790-a624-44ab-818e-aa961bb1eb82").account.create_new_auth_token
+```
+
+Eso devuelve un hash con las cabeceras y sus valores.
