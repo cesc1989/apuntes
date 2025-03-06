@@ -251,7 +251,7 @@ Therapist.find("2f3a6790-a624-44ab-818e-aa961bb1eb82").account.create_new_auth_t
 
 Eso devuelve un hash con las cabeceras y sus valores.
 
-## GraphQL esquema Relay
+## GraphQL esquema Relay y Fragmento *inline*
 
 Una cosa que me complicó probar las queries en local es que no sabía cómo hacer una query para sacar datos de un Care Plan. Al final la query tenía que ser así:
 ```json
