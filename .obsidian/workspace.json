@@ -14,25 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "KX Modifier - Notas de Desarrollo"
-            }
-          },
-          {
-            "id": "d3b0e10e57a5bdd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "[EvW]_Entidades_para_Pruebas"
+              "title": "KX Modifier - Notas de Desarrollo"
             }
           }
         ]

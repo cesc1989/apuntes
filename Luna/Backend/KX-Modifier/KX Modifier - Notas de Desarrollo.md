@@ -237,6 +237,9 @@ uid:francisco.quintero+26@ideaware.co
 Authorization:Bearer eyJhY2Nlc3MtdG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlKOS5leUp6ZFdJaU9pSm1abVpsTXpNeVl5MDFZemsxTFRRd1pHWXRZamc1TkMwM05UZ3hNMlptWVRjd09UY2lMQ0pwWVhRaU9qRTNOREV5TnpBNE56UjkuYS15QkRtZmJUMm5CdGNEUnh3Q3RDS3JEVFJGVkdWX0szWkpzV2dMTnJsUSIsInRva2VuLXR5cGUiOiJCZWFyZXIiLCJjbGllbnQiOiJGZHIzTzFxdEctUFBfb2UwLW1jTllRIiwiZXhwaXJ5IjoiMTgwMTI3MDg3NCIsInVpZCI6ImZyYW5jaXNjby5xdWludGVybysyNkBpZGVhd2FyZS5jbyJ9
 ```
 
+> [!Note]
+> Que no haya espacios entre la llave y el valor.
+
 Y se elige la opción "GraphQL" en la pestaña "Body" de la petición. Ahí se pega la query como en GraphiQL.
 
 ## Generando las cabeceras
