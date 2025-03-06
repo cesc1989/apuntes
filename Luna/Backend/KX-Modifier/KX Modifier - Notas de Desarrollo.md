@@ -1,3 +1,7 @@
+# Notas de Desarrollo de KX Modifier
+
+Todo lo que voy descubriendo de Edge a medida que hago esta vaina.
+
 # ¿Cuándo un Episode es Medicare?
 
 En Episode veo esto:
@@ -66,4 +70,13 @@ class Insurance < ApplicationRecord
     key == "medicare_advantage"
   end
 end
+```
+
+# Estados de Appointment
+
+## Estado Activo
+
+Los appointments están activos cuando están en alguno de estos estados:
+```ruby
+ACTIVE_STATES = %w[pending ongoing completed].freeze
 ```
