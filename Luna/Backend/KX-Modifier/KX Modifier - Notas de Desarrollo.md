@@ -31,7 +31,7 @@ end
 ```
 
 > [!Note]
-> Context
+> **Contexto**
 > Alexis le preguntó a Christie: "is this strictly for medicare insurances or does it include medicare advantage?"
 > 
 > Ella contestó: "Medicare only"
@@ -250,3 +250,22 @@ Therapist.find("2f3a6790-a624-44ab-818e-aa961bb1eb82").account.create_new_auth_t
 ```
 
 Eso devuelve un hash con las cabeceras y sus valores.
+
+## GraphQL esquema Relay
+
+Una cosa que me complicó probar las queries en local es que no sabía cómo hacer una query para sacar datos de un Care Plan. Al final la query tenía que ser así:
+```json
+{
+  node(id: "ee51dc7f-ca06-4833-aaa6-4abf614fc59d") {
+    ... on CarePlan {
+      id
+    }
+  }
+}
+```
+
+Si bien el ID es de un Care Plan, no sabía como hacer para pasarle los atributos que quería de vuelta. Me di cuenta al revisar una query en unas pruebas y noté el `... on CarePlan {}`.
+
+Le pregunté a ChatGPT sobre eso y me dice que eso es un fragmento condicional. Si el nodo devuelto es de tipo "CarePlan", trae los atributos que indica la query.
+
+En los [docs de GraphQL](https://graphql.org/learn/queries/#inline-fragments) le llaman "inline fragments".
