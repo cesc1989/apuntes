@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec22f8bf0a5de113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Usando Flipper.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Usando Flipper"
-            }
-          },
-          {
             "id": "f0688190e921f378",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Notas de Desarrollo"
+              "title": "GraphQL_Ruby_-_En_detalle"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Notas de Desarrollo"
+              "title": "Outline of GraphQL_Ruby_-_En_detalle"
             }
           }
         ],
@@ -183,12 +168,16 @@
   },
   "active": "f0688190e921f378",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
     "Luna/Backend/Usando Flipper.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
@@ -209,10 +198,6 @@
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/03.writing.well.question.hooks.png",
