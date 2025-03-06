@@ -89,6 +89,8 @@ Se accede desde `http://localhost:3000/graphiql`. Hay que primero iniciar sesió
 
 Di con esta forma de hacer una query para ver los datos de un paciente según lo que se define en el tipo.
 
+### Query de patient (vieja forma)
+
 ```ruby
 # app/graphql/types/query.rb
 class Types::Query < Types::BaseObject
@@ -143,6 +145,42 @@ La respuesta:
   }
 }
 ```
+
+### Query usado Node
+
+Tienen en Edge esta forma de hacer las queries a varios modelos:
+```json
+// el id es del CarePlan/Episode
+{
+  node(id: "ee51dc7f-ca06-4833-aaa6-4abf614fc59d") {
+    ... on CarePlan {
+      id,
+      createdAt,
+      name,
+      payerPlan {
+        id
+      }
+    }
+  }
+}
+```
+
+Responde:
+```json
+{
+  "data": {
+    "node": {
+      "id": "ee51dc7f-ca06-4833-aaa6-4abf614fc59d",
+      "createdAt": "2025-02-06T06:21:47-08:00",
+      "name": "Ankle/Foot (04/05/2025 - 04/05/2025)",
+      "payerPlan": {
+        "id": "ea64e469-dbf1-4cd0-9ce0-4d2e17db978e"
+      }
+    }
+  }
+}
+```
+
 
 
 ## Ejecutar Mutaciones
