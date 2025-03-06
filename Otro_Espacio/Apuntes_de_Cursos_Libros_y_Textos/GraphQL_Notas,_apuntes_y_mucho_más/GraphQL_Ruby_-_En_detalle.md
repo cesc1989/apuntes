@@ -51,7 +51,7 @@ end
 
 Y finalmente lo puedo usar en GraphiQL
 ```json
-# Query
+// Query
 {
 	allActivities {
 		id
@@ -60,7 +60,7 @@ Y finalmente lo puedo usar en GraphiQL
 	}
 }
 
-# respuesta
+// respuesta
 {
 	"data": {
 		"allActivities": [

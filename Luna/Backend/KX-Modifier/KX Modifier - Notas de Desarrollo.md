@@ -80,3 +80,13 @@ Los appointments están activos cuando están en alguno de estos estados:
 ```ruby
 ACTIVE_STATES = %w[pending ongoing completed].freeze
 ```
+
+# Usando GraphiQL
+
+Se accede desde `http://localhost:3000/graphiql`. Hay que primero iniciar sesión como admin en Luxe.
+
+## Ejecutar Queries
+
+
+
+## Ejecutar Mutaciones
