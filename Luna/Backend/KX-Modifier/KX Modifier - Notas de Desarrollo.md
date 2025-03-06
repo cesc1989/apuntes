@@ -87,6 +87,62 @@ Se accede desde `http://localhost:3000/graphiql`. Hay que primero iniciar sesió
 
 ## Ejecutar Queries
 
+Di con esta forma de hacer una query para ver los datos de un paciente según lo que se define en el tipo.
+
+```ruby
+# app/graphql/types/query.rb
+class Types::Query < Types::BaseObject
+  field :patient, Types::Patient, null: false,
+                                  authorize: true,
+                                  deprecation_reason: "Redundant with `node`" do
+    description "Look up a patient by ID."
+
+    argument :id, ID, required: true do
+      description "The ID of the patient."
+    end
+  end
+end
+
+# app/graphql/types/query.rb
+class Types::Patient < Types::BaseObject
+	field :first_name, GraphQL::Types::String, null: false do
+    description "First name of this user."
+  end
+
+  field :care_plans, [Types::CarePlan], null: false do
+  end
+end
+```
+
+La query:
+```json
+{
+  patient(id: "03da7897-7be3-4102-ac66-956ae61ac73d") {
+    id,
+    firstName,
+    carePlans {
+      id
+    }
+  }
+}
+```
+
+La respuesta:
+```json
+{
+  "data": {
+    "patient": {
+      "id": "03da7897-7be3-4102-ac66-956ae61ac73d",
+      "firstName": "nippy wisteria akbash",
+      "carePlans": [
+        {
+          "id": "ee51dc7f-ca06-4833-aaa6-4abf614fc59d"
+        }
+      ]
+    }
+  }
+}
+```
 
 
 ## Ejecutar Mutaciones

@@ -8,27 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0688190e921f378",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "GraphQL_Ruby_-_En_detalle"
-            }
-          },
-          {
             "id": "2da0fbd3f21d0087",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -156,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GraphQL_Ruby_-_En_detalle"
+              "title": "Outline of KX Modifier - Notas de Desarrollo"
             }
           }
         ],
@@ -180,10 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0688190e921f378",
+  "active": "2da0fbd3f21d0087",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
