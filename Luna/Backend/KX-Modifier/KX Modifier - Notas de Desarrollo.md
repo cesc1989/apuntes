@@ -89,37 +89,44 @@ Se accede desde `http://localhost:3000/graphiql`. Hay que primero iniciar sesió
 
 Necesito:
 
-- Un `Patient` con `episodes`
+- Un `Patient` con `episodes` que sean Medicare
 - Un `Therapist` ligado a los `appointments` de los `episodes`
 - Al menos un `Episode` con `MedicareDollarThresholdStatus`
 
 Episode:
 ```ruby
-Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d")
+Episode.straight_medicare.first.id
+
+Episode.find("0175f881-fd3a-48d5-bbe1-0ef4c259d777")
 ```
 
 appointments del Episode:
 ```ruby
-Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d").appointments
+Episode.find("0175f881-fd3a-48d5-bbe1-0ef4c259d777").appointments
+```
+
+Actualiza el `scheduled_date` del `appointment` para generar un MedicareDollarThresholdStatus:
+```ruby
+e1.appointments.first.update(scheduled_date:DateTime.current + 7.days)
 ```
 
 Therapist:
 ```ruby
-Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d").appointments.first.therapist
+Episode.find("0175f881-fd3a-48d5-bbe1-0ef4c259d777").appointments.first.therapist
 
-# => "2f3a6790-a624-44ab-818e-aa961bb1eb82"
+# => "22520602-2822-4067-a56a-3d163b46ff03"
 
-Therapist.find("2f3a6790-a624-44ab-818e-aa961bb1eb82")
+Therapist.find("22520602-2822-4067-a56a-3d163b46ff03")
 ```
 
 Credenciales para hacer peticiones:
 ```ruby
-Therapist.find("2f3a6790-a624-44ab-818e-aa961bb1eb82").account.create_new_auth_token
+Therapist.find("22520602-2822-4067-a56a-3d163b46ff03").account.create_new_auth_token
 ```
 
 MedicareDollarThresholdStatus:
 ```ruby
-Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d").medicare_dollar_threshold_status
+Episode.find("0175f881-fd3a-48d5-bbe1-0ef4c259d777").medicare_dollar_threshold_status
 ```
 
 ## Ejecutar Queries en GraphiQL
