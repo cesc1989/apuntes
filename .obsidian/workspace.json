@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7f0bb35bba369475",
+        "id": "8ab3647189204556",
         "type": "tabs",
         "children": [
           {
-            "id": "aef3eaa20c8c408d",
+            "id": "4fce184bb89fa012",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Estado y Ubicación de los Respaldos"
+              "title": "KX Modifier - Notas de Desarrollo"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Superman123",
+                "query": "ebooks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Estado y Ubicación de los Respaldos"
+              "title": "Outline of KX Modifier - Notas de Desarrollo"
             }
           }
         ],
@@ -166,19 +166,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aef3eaa20c8c408d",
+  "active": "4fce184bb89fa012",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
     "Luna/Backend/Usando Flipper.md",
@@ -193,7 +194,6 @@
     "Luna/Backend/utilidades/Setup Test env and Database.md",
     "Luna/Backend/utilidades/Crear dump y resturar en local.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",

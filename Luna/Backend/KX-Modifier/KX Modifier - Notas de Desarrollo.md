@@ -85,6 +85,43 @@ ACTIVE_STATES = %w[pending ongoing completed].freeze
 
 Se accede desde `http://localhost:3000/graphiql`. Hay que primero iniciar sesión como admin en Luxe.
 
+## Entidades para pruebas en Local
+
+Necesito:
+
+- Un `Patient` con `episodes`
+- Un `Therapist` ligado a los `appointments` de los `episodes`
+- Al menos un `Episode` con `MedicareDollarThresholdStatus`
+
+Episode:
+```ruby
+Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d")
+```
+
+appointments del Episode:
+```ruby
+Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d").appointments
+```
+
+Therapist:
+```ruby
+Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d").appointments.first.therapist
+
+# => "2f3a6790-a624-44ab-818e-aa961bb1eb82"
+
+Therapist.find("2f3a6790-a624-44ab-818e-aa961bb1eb82")
+```
+
+Credenciales para hacer peticiones:
+```ruby
+Therapist.find("2f3a6790-a624-44ab-818e-aa961bb1eb82").account.create_new_auth_token
+```
+
+MedicareDollarThresholdStatus:
+```ruby
+Episode.find("ee51dc7f-ca06-4833-aaa6-4abf614fc59d").medicare_dollar_threshold_status
+```
+
 ## Ejecutar Queries en GraphiQL
 
 Di con esta forma de hacer una query para ver los datos de un paciente según lo que se define en el tipo.
