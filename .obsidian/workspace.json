@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Notas de Desarrollo"
+              "title": "KX Modifier en Luxe"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Notas de Desarrollo"
+              "title": "Outline of KX Modifier en Luxe"
             }
           }
         ],
@@ -168,9 +168,19 @@
   },
   "active": "4fce184bb89fa012",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
+    "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
+    "Luna/Backend/KX-Modifier/attachments/205.patient.edit.medicare.status.png",
+    "Luna/Backend/KX-Modifier/attachments/204.care_plan.prompt.png",
+    "Luna/Backend/KX-Modifier/attachments/203.limit.exceeded.prompt.png",
+    "Luna/Backend/KX-Modifier/attachments/202.limit.exceeded.medical.necessity.png",
+    "Luna/Backend/KX-Modifier/attachments/201.limit.ok.png",
+    "Luna/Backend/KX-Modifier/attachments",
+    "Luna/Backend/KX-Modifier/untitled folder",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
@@ -192,18 +202,10 @@
     "Luna/Grimoire/Configurando_Grimoire.md",
     "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
     "Luna/Backend/utilidades/Setup Test env and Database.md",
-    "Luna/Backend/utilidades/Crear dump y resturar en local.md",
-    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
     "DevAsPros/Cash_Flow/attachments/001.crons.sidekiq.web.png",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/03.writing.well.question.hooks.png",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/02.writing.well.generate.hooks.png",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/01.writing.well.hooks.png",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/sublime.desdoblar.secciones.png",
     "Luna/Grimoire",
     "DevAsPros/attachments",
     "Luna/Backend/Protocols",
@@ -212,8 +214,6 @@
     "Luna/Patient_Self_Report/upgrades",
     "Luna/Patient_Self_Report/archive",
     "Luna/Patient_Self_Report/HOOS_&_KOOS",
-    "Luna/Patient_Self_Report/Option_Choices_per_Form_Type",
-    "Luna/Patient_Self_Report/Outbox_Patient_Self_Report",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
