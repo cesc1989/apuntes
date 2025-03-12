@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ee832ca0f0ac5758",
+        "id": "c555cb86a20113dc",
         "type": "tabs",
         "children": [
           {
-            "id": "0ddaeba94c3b6b5f",
+            "id": "97978942a111c1f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ddaeba94c3b6b5f",
+  "active": "97978942a111c1f7",
   "lastOpenFiles": [
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
