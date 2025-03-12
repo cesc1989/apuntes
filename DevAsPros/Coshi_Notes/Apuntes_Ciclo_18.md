@@ -31,9 +31,25 @@ El `link_to` debe usar el atributo `data` para poner dos opciones para Turbo Str
 
 La clave es `turbo_method: :get` para que haga una petición AJAX y no haga una navegación normal.
 
+---
+
+### ¿Por qué el enlace necesita data turbo_stream?
+
+Si no se pone este atributo data tenemos este error al clicar el enlace:
+```
+Completed 406 Not Acceptable in 10ms (ActiveRecord: 0.3ms | Allocations: 3562)
+
+ActionController::UnknownFormat (ArchivedThemesController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []):
+```
+
+---
+
 Finalmente, hay que tener un archivo `turbo_stream` que gestione la respuesta del controlador.
 
-> Esto también se puede tener en el controlador pero lo hice así para seguir el tutorial.
+> Esto también se puede tener en el controlador pero lo hice así para seguir el tutorial. Además, en el controlador llevaría más cosas como un bloque `respond_to`.
 
 El archivo `app/views/archived_themes/index.turbo_stream.erb` quedo así:
 ```ruby
