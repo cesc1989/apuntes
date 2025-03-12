@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8ab3647189204556",
+        "id": "0ae2b65b912975ca",
         "type": "tabs",
         "children": [
           {
-            "id": "4fce184bb89fa012",
+            "id": "5c85ee0fcfaf194f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier en Luxe"
+              "title": "Apuntes_Ciclo_18"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier en Luxe"
+              "title": "Outline of Apuntes_Ciclo_18"
             }
           }
         ],
@@ -166,8 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4fce184bb89fa012",
+  "active": "5c85ee0fcfaf194f",
   "lastOpenFiles": [
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/205.patient.edit.medicare.status.png",
@@ -178,7 +182,6 @@
     "Luna/Backend/KX-Modifier/attachments",
     "Luna/Backend/KX-Modifier/untitled folder",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
@@ -200,12 +203,9 @@
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Grimoire/Configurando_Grimoire.md",
-    "Luna/Backend/utilidades/Install Hypopg for PostgreSQL 16 - Macos M1.md",
-    "Luna/Backend/utilidades/Setup Test env and Database.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
-    "DevAsPros/Cash_Flow/attachments/001.crons.sidekiq.web.png",
     "Luna/Grimoire",
     "DevAsPros/attachments",
     "Luna/Backend/Protocols",
