@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "89d5c65bd21a7d43",
+        "id": "3fea8b878f703b4b",
         "type": "tabs",
         "children": [
           {
-            "id": "c67b766adad2043b",
+            "id": "f5d738b3246b7e54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_23_-_logrotate"
+              "title": "KX Modifier en Luxe"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_23_-_logrotate"
+              "title": "Outline of KX Modifier en Luxe"
             }
           }
         ],
@@ -166,13 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c67b766adad2043b",
+  "active": "f5d738b3246b7e54",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/205.patient.edit.medicare.status.png",
@@ -182,9 +186,6 @@
     "Luna/Backend/KX-Modifier/attachments/201.limit.ok.png",
     "Luna/Backend/KX-Modifier/attachments",
     "Luna/Backend/KX-Modifier/untitled folder",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
@@ -194,7 +195,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
     "Luna/Backend/Usando Flipper.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
