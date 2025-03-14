@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3fea8b878f703b4b",
+        "id": "0f0f2b28334beada",
         "type": "tabs",
         "children": [
           {
-            "id": "f5d738b3246b7e54",
+            "id": "1bf40137c7d4e8ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier en Luxe"
+              "title": "KX Modifier - Pruebas en Alpha"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier en Luxe"
+              "title": "Outline of KX Modifier - Pruebas en Alpha"
             }
           }
         ],
@@ -166,12 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5d738b3246b7e54",
+  "active": "1bf40137c7d4e8ac",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
@@ -202,7 +203,6 @@
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Luna/Grimoire/Setup de Grimoire.md",
-    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
