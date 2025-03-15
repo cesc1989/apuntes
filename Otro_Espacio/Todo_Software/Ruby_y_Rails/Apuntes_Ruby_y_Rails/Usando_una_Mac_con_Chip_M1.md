@@ -1,10 +1,15 @@
 # Usando una Mac con Chip M1
+
+Etiquetas: #apple_silicon #mac_m1
+
 Incidencias de lo que me pasó al cambiar a una mac con chip M1.
 
 Enlaces:
 
 - En [esta guía](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route) fue que descubrí la forma de instalar Ruby en Mac chip M1
+
 # Error al instalar la gema sass-rails
+
     Fetching sassc 2.2.1
     Installing sassc 2.2.1 with native extensions
     Gem::Ext::BuildError: ERROR: Failed to build gem native extension.

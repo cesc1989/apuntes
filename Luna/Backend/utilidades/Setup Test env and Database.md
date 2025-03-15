@@ -32,3 +32,8 @@ bundle exec rake db:schema:load RAILS_ENV=test
 ```
 
 And that's it.
+
+One line:
+```
+bundle exec rails db:environment:set RAILS_ENV=test && bundle exec rake db:drop RAILS_ENV=test && bundle exec rake db:create RAILS_ENV=test && bundle exec rake db:schema:load RAILS_ENV=test
+```

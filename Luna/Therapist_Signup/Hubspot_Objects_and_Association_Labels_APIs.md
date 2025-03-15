@@ -10,7 +10,7 @@ Todas estas peticiones llevan la siguiente cabecera enviando el private token pa
 Authorization:Bearer [TOKEN]
 ```
 
-## Listar Labels de Asociaciones
+## Listar Labels de Asociaciones entre Objetos
 
 Antes de poder crear las asociaciones hay que crear las labels. Una vez creadas, se pueden acceder mediante el API con este endpoint:
 
@@ -19,6 +19,11 @@ GET https://api.hubapi.com/crm/v4/associations/:fromobjecttype/:toobjecttype/lab
 ```
 
 Donde `:fromobjecttype` y `:toobjecttype` son `contact`.
+
+Petición:
+```
+GET https://api.hubapi.com/crm/v4/associations/contact/contact/labels
+```
 
 Una respuesta luce similar a esto:
 ```json
@@ -54,6 +59,20 @@ Una respuesta luce similar a esto:
 ```
 
 Aquí podemos ver como las _association labels_ funcionan en parejas. Para el caso de Professional References hay un _Referencer_ que se relaciona con un _Reference_. Por eso es que tenemos los `typeId` 1 y 2.
+
+### Entre Custom Objects para Attestattion Form
+
+Los Custom Objects también pueden usarse para esta petición.
+
+Por ejemplo, para listar labels entre Credentialing y License.
+
+```
+GET https://api.hubapi.com/crm/v4/associations/credentialings/licenses/labels
+```
+
+> [!Note]
+> En Omega, el nombre de Credentialing es `credentialing`. En Alpha es `credentialings`.
+
 
 ## Crear Professional References
 
@@ -163,6 +182,119 @@ Cuando hay asociaciones la respuesta JSON es similar a esta:
 }
 ```
 
+# Reasociar Labels
+
+Para Credentialing objects, se necesita pasar de "Active Attested" a "Active" y de "Processing for Move" a "Active Attested". ¿Cómo es la petición para eso?
+
+## De Active Attested a Active
+
+> [!Note]
+> Hay que poner la nueva label (Active) y luego quitar la anterior (Active Attested)
+
+Tomando de punto de partida que las asociaciones se dan entre un `from` hacía un `to` la prueba la haré con estos IDs:
+
+- Credentialing `24454281832` (Active Attested) para usar en `from`
+- Contact `101935997007` para usar en `to`
+
+Debe ser así porque el ID de la definición de la label está así:
+
+```
+GET https://api.hubapi.com/crm/v4/associations/credentialings/contact/labels
+```
+
+Nota la dirección es `credentialings` (from) -> `contact` (to).
+
+```json
+{
+  "results": [
+    {
+      "category": "USER_DEFINED",
+      "typeId": 62,
+      "label": "Active"
+    }
+  ]
+}
+```
+
+### Asignando la label "Active" a Credentialing
+
+La petición, usando el batch endpoint (`batch/create`), sería así:
+```
+POST https://api.hubapi.com/crm/v4/associations/credentialings/contact/batch/create
+
+Payload
+
+{
+  "inputs": [
+    {
+      "types": [
+        {
+          "associationCategory": "USER_DEFINED",
+          "associationTypeId": 62 // credentialings_to_contact_active_type_id
+        }
+      ],
+      "from": {
+        "id": "24454281832"
+      },
+      "to": {
+        "id": "101935997007"
+      }
+    }
+  ]
+}
+```
+
+Respuesta:
+```json
+{
+  "status": "COMPLETE",
+  "results": [
+    {
+      "fromObjectTypeId": "2-33642689",
+      "fromObjectId": 24454281832,
+      "toObjectTypeId": "0-1",
+      "toObjectId": 101935997007,
+      "labels": [
+        "Active"
+      ]
+    }
+  ],
+  "startedAt": "2025-02-25T18:39:12.770Z",
+  "completedAt": "2025-02-25T18:39:12.855Z"
+}
+```
+
+### Quitando la label "Active Attested" a Credentialing
+
+Usando el batch endpoint (`batch/labels/archive`):
+```
+POST https://api.hubapi.com/crm/v4/associations/:fromObjectType/:toObjectType/batch/labels/archive
+
+Payload
+
+{
+  "inputs": [
+    {
+      "types": [
+        {
+          "associationCategory": "USER_DEFINED",
+          "associationTypeId": 52 // credentialings_to_contact_active_attested_type_id
+        }
+      ],
+      "from": {
+        "id": "24454281832"
+      },
+      "to": {
+        "id": "101935997007"
+      }
+    }
+  ]
+}
+```
+
+Respuesta: 204.
+
+
 # Custom Objects in Hubspot
 
 La documentación dice que hay objetos estándar de Hubspot como Contacts, Companies, Deals, etc. También se pueden crear objetos custom para representar otro tipo de datos.
@@ -183,7 +315,7 @@ Para trabajar con la API de Custom Objects, el token necesita alguno de estos sc
 - crm.schemas.custom.read
 - crm.objects.custom.write
 
-## Listar custom objects
+## Listar custom objects de una cuenta (schema)
 
 Para listar los custom objects de una cuenta hay que usar el [endpoint](https://developers.hubspot.com/docs/api/crm/crm-custom-objects#retrieve-existing-custom-objects):
 ```
@@ -281,7 +413,7 @@ Cuando el token no tiene los scopes necesarios retorna una respuesta como esta:
 ```
 
 
-# ¿Cómo acceder a los objetos custom asociados a un objeto Contact?
+# 🌟 ¿Cómo acceder a los objetos custom asociados a un objeto Contact? 🌟
 
 En la documentación para los objetos Contact veo este endpoint:
 ```
@@ -314,7 +446,7 @@ Respuesta ejemplo de schema de objetos custom:
 			"properties": [],
 			"associations": [],
 			"name": "credentialing_2_0"
-	    }
+		}
 	]
 }
 ```
@@ -408,7 +540,7 @@ responde con:
 }
 ```
 
-# Actualizando Propiedades de un Objeto Custom
+# Actualizar Propiedades de un Objeto Custom
 
 Usar este endpoint:
 ```
@@ -452,18 +584,67 @@ Y responde con:
 
 Devuelve la propiedad actualizada junto a otras extra.
 
+# Crear un nuevo Custom Object Record
+
+En este caso para el objeto License.
+
+```
+POST https://api.hubspot.com/crm/v3/objects/2-35178508
+
+Payload
+
+{
+  "properties": {
+    "therapist_name_license_type": "El Coshinita",
+    "license_issuing_state": "FL",
+    "license_number": "11122333444",
+    "license_expiration_date": "2025-12-31"
+  }
+}
+```
+
+Respuesta
+```json
+{
+  "id": "24189213524",
+  "properties": {
+    "hs_createdate": "2025-02-18T18:46:03.510Z",
+    "hs_lastmodifieddate": "2025-02-18T18:46:03.510Z",
+    "hs_object_id": "24189213524",
+    "hs_object_source": "INTEGRATION",
+    "hs_object_source_id": "1242206",
+    "hs_object_source_label": "INTEGRATION",
+    "license_expiration_date": "2025-12-31",
+    "license_issuing_state": "FL",
+    "license_number": "11122333444",
+    "therapist_name_license_type": "El Coshinita"
+  },
+  "createdAt": "2025-02-18T18:46:03.510Z",
+  "updatedAt": "2025-02-18T18:46:03.510Z",
+  "archived": false
+}
+```
+
+## Importante
+
+La propiedad `therapist_name_license_type` debe ser algo como "Mi Nombre -" por lo que he visto en alpha.
+
+La propiedad `license_issuing_state` espera es las dos letras del Estado. No el nombre. Esto es un problema porque en la base de datos guardamos es el nombre.
+
 # Enlaces y Documentación
 
-## Referencer-Reference API docs
+## Association Labels API docs
 
 - Labels [https://knowledge.hubspot.com/object-settings/create-and-use-association-labels](https://knowledge.hubspot.com/object-settings/create-and-use-association-labels)
 - Associations v4 [https://developers.hubspot.com/docs/api/crm/associations](https://developers.hubspot.com/docs/api/crm/associations)
+- Get labels between objects https://developers.hubspot.com/docs/guides/api/crm/associations/associations-v4#retrieve-association-labels
 
 ## Custom Objects API docs
 
 - [Knowledge Base article](https://knowledge.hubspot.com/object-settings/create-custom-objects#create-a-custom-object)
 - CRM [Custom Objects](https://developers.hubspot.com/docs/api/crm/crm-custom-objects)
 - [Define custom object associations](https://knowledge.hubspot.com/object-settings/create-custom-objects#create-a-custom-object)
+- [Create custom object record](https://developers.hubspot.com/docs/guides/api/crm/objects/custom-objects#create-a-custom-object-record)
 
 ## Contact Objects API docs
 

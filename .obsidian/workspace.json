@@ -4,41 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b0d0ceea38c941af",
+        "id": "0f0f2b28334beada",
         "type": "tabs",
         "children": [
           {
-            "id": "f1e1041d17284c3a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Apuntes_de_Linux_-_Parte_1"
-            }
-          },
-          {
-            "id": "12823013217473c1",
+            "id": "1bf40137c7d4e8ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entorno de Desarrollo Linux - Configuracion"
+              "title": "KX Modifier - Pruebas en Alpha"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -69,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sidekiq",
+                "query": "ebooks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -156,10 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md"
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Entorno de Desarrollo Linux - Configuracion"
+              "title": "Outline of KX Modifier - Pruebas en Alpha"
             }
           }
         ],
@@ -177,54 +166,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12823013217473c1",
+  "active": "1bf40137c7d4e8ac",
   "lastOpenFiles": [
-    "cashflow/vendor/javascript",
-    "cashflow/vendor",
-    "cashflow/tmp",
-    "cashflow/storage",
-    "cashflow/spec/views/expenditures/index.html.erb_spec.rb",
-    "cashflow/spec/views/categories/show.html.erb_spec.rb",
-    "cashflow/spec/views/categories/index.html.erb_spec.rb",
-    "cashflow/spec/system/sessions/user_sign_in_spec.rb",
-    "cashflow/spec/system/expenditures/index_spec.rb",
-    "cashflow/spec/system/explore/index_spec.rb",
-    "cashflow/spec/mailers/previews/chores_preview.rb",
-    "cashflow/scripts/README.md",
-    "cashflow/public/apple-touch-icon.png",
-    "cashflow/public/apple-touch-icon-precomposed.png",
-    "cashflow/docs/erd.png",
-    "cashflow/docs/db_docs.md",
-    "cashflow/app/assets/images/not_found.jpg",
-    "cashflow/app/assets/images/favicon.png",
-    "cashflow/README.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/Upgrade to 7.1.4 - Notes.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/01 - Notable changes from 7.1.0 to Rails 7.2.md",
-    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+    "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
+    "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
+    "Luna/Backend/KX-Modifier/attachments/205.patient.edit.medicare.status.png",
+    "Luna/Backend/KX-Modifier/attachments/204.care_plan.prompt.png",
+    "Luna/Backend/KX-Modifier/attachments/203.limit.exceeded.prompt.png",
+    "Luna/Backend/KX-Modifier/attachments/202.limit.exceeded.medical.necessity.png",
+    "Luna/Backend/KX-Modifier/attachments/201.limit.ok.png",
+    "Luna/Backend/KX-Modifier/attachments",
+    "Luna/Backend/KX-Modifier/untitled folder",
+    "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
+    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
     "Luna/Backend/Usando Flipper.md",
-    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Types_for_Existing_Uploaded_Files.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/GDrive_Files_-_Inspection.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Results_of_S3_vs_GDrive_Inspection/S3_Files_-_Inspection.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/Mitigate_File-Upload_Issues.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Conversion_to_Supported_Formats.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Upload_Flow_Steps_and_States.md",
-    "Luna/Therapist_Signup/Mitigate_File_Upload_Issues/File_Uploads_Current_State_&_Diagrams.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - 👌🏽 AppBlend What Changes in Config Defaults.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/003 - 👌🏽 AppBlend Options to Move Forward.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22.md",
-    "Luna/Usando_Ngrok.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.2/03 - Fix default format for Date and Time.md",
-    "DevAsPros/Coshi_Notes/attachments/coshinotes.favs.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/10.partitions.nvme.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/attachments/no.instalar.linux.mint.con.conexion.png",
-    "Luna/Clinical_Dashboard/attachments/30.referring.physician.patient.hubspot.png",
-    "Luna/Backend/Patient Profile/attachments/01.patient.profile.forms.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
+    "Luna/Grimoire/Setup de Grimoire.md",
+    "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
+    "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
+    "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
+    "Luna/Grimoire",
+    "DevAsPros/attachments",
+    "Luna/Backend/Protocols",
+    "Luna/Backend/KX-Modifier",
+    "Luna/Patient_Self_Report/issues-and-debugging",
+    "Luna/Patient_Self_Report/upgrades",
+    "Luna/Patient_Self_Report/archive",
+    "Luna/Patient_Self_Report/HOOS_&_KOOS",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

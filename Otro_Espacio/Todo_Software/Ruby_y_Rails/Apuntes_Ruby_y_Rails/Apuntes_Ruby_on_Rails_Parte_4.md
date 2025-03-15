@@ -589,6 +589,7 @@ acti7.1.3.4/lib/active_support/broadcast_logger.rb        231     Proc    2
 
 > [!Note]
 > Quise hacer esto para poder probar las peticiones que se enviaban al servicio Patient Forms que vivirá dentro de Edge en Luna.
+> 
 > Si no levantaba un 2do servidor, el inicial moría con timeout.
 
 Necesito estar en la misma carpeta dos veces para lanzar dos veces el comando `rails server` especificando dos puertos diferentes.
@@ -612,3 +613,197 @@ bundle exec rails server -p 3006 -P tmp/pids/segundo.pid
 Este va a correr en el puerto 3006 y adicional específico que el archivo del PID (process ID) estará en la carpeta `tmp/pids`.
 
 Tengo que especificar el archivo o sino Rails tratará de usar el por defecto `tmp/pids/server.pid`.
+
+# 🟡 Entendiendo `inverse_of` en Asociaciones con scopes 🟡
+
+Resulta que en el upgrade a Rails 7.1.4 de Edge encontré con un error causado por tener estas asociaciones así:
+```ruby
+class Therapist < ApplicationRecord
+	has_many :conversable_patients, lambda { |therapist|
+    therapist
+    .patients
+    .without_active_waitlist_entry
+    .where(id: therapist
+      .appointments
+      .joins(:episode)
+      .active
+      .where(scheduled_date: 60.days.ago..)
+      .select(:patient_id))
+    .unscope(where: :therapist_id)
+    .distinct
+  }, class_name: "Patient", inverse_of: "conversable_team"
+end
+
+class Patient < ApplicationRecord
+  has_many :conversable_team, lambda { |patient|
+    unscope(where: :patient_id)
+    .where(id: patient.therapists.filter { |therapist| therapist.conversable_patients.include?(patient) })
+  }, class_name: "Therapist"
+end
+```
+
+El error que causaban era que rails trataba de buscar una columna `patient_id` en la tabla patients en lugar de buscar `id`.
+
+Ver en [[Upgrade to 7.1.4 - Notes ✅#PG UndefinedColumn ERROR column patients.patient_id does not exist for conversable_patients]]
+
+La solución está en quitar el `inverse_of`. ¿Por qué? ¿Qué hace esa opción?
+
+Una explicación clara está en este [artículo en Viget](https://www.viget.com/articles/exploring-the-inverse-of-option-on-rails-model-associations/)
+
+## ¿Qué hace `inverse_of`?
+
+El artículo explica que al usar la opción `inverse_of` en ambos modelos de una asociación has_many - belongs_to, se logra optimizar la memoria porque es posible ahorrar una consulta en la base de datos.
+
+Dan este modelo de ejemplos:
+```ruby
+class Criminal < ActiveRecord::Base
+  belongs_to :prison, inverse_of: :criminals
+end
+
+class Prison < ActiveRecord::Base
+  has_many :criminals, inverse_of: :prison
+end
+```
+
+Y muestran el ejemplo en acción usando y sin usar esta opción:
+```ruby
+prison = Prison.create(name: 'Bad House')
+criminal = prison.criminals.create(name: 'Krazy 8')
+
+# Without :inverse_of
+criminal.prison == prison
+# Prison Load (0.1ms) SELECT "prisons".* FROM "prisons" WHERE "prisons"."id" = 2 LIMIT 1
+=> true
+
+# With :inverse_of
+criminal.prison == prison
+=> true
+```
+
+Aclaran que este ahorro solo se logra cuando se consulta en dirección de `belongs_to`. Es decir del hijo al padre.
+
+Cuando se navega del padre al hijo, no hay ahorro de consulta sql:
+```ruby
+prison = Prison.last
+# Prison Load (0.1ms) SELECT "prisons".* FROM "prisons" ORDER BY "prisons"."id" DESC LIMIT 1
+=> #<Prison id: 3, name: "Broadmoor", created_at: "2014-10-10 20:26:38", updated_at: "2014-10-10 20:26:38">
+
+criminal = prison.criminals.first
+# Criminal Load (0.3ms) SELECT "criminals".* FROM "criminals" WHERE "criminals"."prison_id" = 3 LIMIT 1
+=> #<Criminal id: 3, name: "Charles Bronson", prison_id: 3, created_at: "2014-10-10 20:26:47", updated_at: "2014-10-10 20:26:47">
+
+prison.criminals.first == criminal
+# Criminal Load (0.2ms) SELECT "criminals".* FROM "criminals" WHERE "criminals"."prison_id" = 3 LIMIT 1
+=> true
+```
+
+## Consideraciones y Limitaciones de `inverse_of`
+
+En el [blog de Saeloun](https://blog.saeloun.com/2024/11/12/rails-inverse-of-option/), mencionan consideraciones y limitantes.
+
+**Consideraciones:**
+- Solo funciona con asociaciones `has_many`, `has_one` y `belongs_to`
+
+**Limitantes:**
+- No es compatible con custom scopes
+- No soporta asociaciones polimorficas
+- No funciona de manera automática con las opciones `:through` o `:foreign_key`
+
+El caso de Luna que nos trajo aquí es la primera limitante. Es una lambda con un scope bastante custom por lo tanto más problemático.
+
+Las [guías de Rails 7.1](https://guides.rubyonrails.org/v7.1/association_basics.html#bi-directional-associations) dejan ver que solo es necesario especificar el inverse_of en uno de los lados de la asociación:
+```ruby
+class Author < ApplicationRecord
+  has_many :books, inverse_of: 'writer'
+end
+
+class Book < ApplicationRecord
+  belongs_to :writer, class_name: 'Author', foreign_key: 'author_id'
+end
+```
+
+## ¿Qué dice ChatGPT?
+
+Le pregunté a gpt sobre si la configuración de Therapist <-> Patient mediante esa asociación limitaba la efectividad de `inverse_of`. Dijo lo siguiente:
+
+- **Dynamic Scopes and Lambdas**:
+    - The associations in both `Therapist` and `Patient` models rely on lambdas to define the scope dynamically based on the current object (`therapist` or `patient`).
+    - Since ==the relationship is computed dynamically and involves non-standard filtering, Rails may not reliably infer the inverse association==. The dynamic filtering adds complexity, making it difficult for Rails to maintain a consistent object graph in memory.
+- **Custom Query Logic**:
+    - Both `conversable_patients` and `conversable_team` rely on custom query logic (`joins`, `where`, `unscope`, `select`, and filtering using Ruby's `.filter`).
+    - Rails' `:inverse_of` works best with simpler and more conventional associations where the relationship is more predictable and straightforward.
+- **Unsynchronized Object State**:
+    - Since the association is derived from dynamic queries rather than direct database relationships, changes to one side (e.g., `therapist.conversable_patients`) may not immediately reflect on the other side (`patient.conversable_team`), even if `:inverse_of` is defined.
+    - For example, if you build a new `Patient` object and associate it with a `Therapist` via `conversable_patients`, the inverse relationship (`conversable_team`) might not be updated in memory.
+- **`unscope` and Custom Filtering**:
+    - The ==use of `.unscope` adds further complexity by removing default scoping that Rails might rely on to maintain object consistency==. This can prevent Rails from tracking relationships correctly for `:inverse_of`.
+
+La [documentación de Rails 7.1](https://guides.rubyonrails.org/v7.1/association_basics.html#bi-directional-associations) deja claro que los scopes custom previenen la detección automática.
+
+> Custom scopes on the opposite association also prevent automatic identification, as do custom scopes on the association itself unless [`config.active_record.automatic_scope_inversing`](https://guides.rubyonrails.org/v7.1/configuring.html#config-active-record-automatic-scope-inversing) is set to true.
+
+Me atrevo a pensar que el scope de esta asociación es demasiado custom y demasiado dinámico para que `inverse_of` tenga algún efecto.
+
+## active_record.automatic_scope_inversing en Rails 7+
+
+La opción `config.active_record.automatic_scope_inversing` parece que sirve pero para scopes bastante simples. Así lo muestran en este otro [artículo de Saeloun](https://blog.saeloun.com/2022/02/01/rails-7-inverse-of-automatic-inference/):
+```ruby
+class Author < ApplicationRecord
+  has_many :books, -> { visible }
+end
+
+class Book < ApplicationRecord
+  belongs_to :author
+
+  scope :visible, -> { where(visible: true) }
+  scope :hidden, -> { where(visible: false) }
+end
+```
+
+La prueba en consola:
+```ruby
+> author = Author.first
+> book = author.books.first
+> book.author == author
+=> true
+```
+
+Cuando probé activar esta configuración en Edge y puse de nuevo la opción `inverse_of` a la asociación `conversable_patients` de Therapist dio el error donde Rails no puede discernir el ID que le interesa:
+```bash
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column patients.patient_id does not exist
+LINE 1: SELECT 1 AS one FROM "patients" WHERE "patients"."patient_id...
+```
+
+
+
+# Ordenamiento descendente de arrays con sort_by
+
+Normalmente, cuando se ordena un array en Ruby usando `sort_by` se devolverá la lista final en orden ascendente. Para lograr lo contrario se le pone el signo negativo por delante al elemento/objeto.
+
+```ruby
+require "ostruct"
+require "amazing_print"
+
+schedules = [
+  OpenStruct.new(day_past_due: 5),
+  OpenStruct.new(day_past_due: 10),
+  OpenStruct.new(day_past_due: 3)
+]
+
+sorted_schedules = schedules.sort_by { |schedule| -schedule.day_past_due }
+
+ap sorted_schedules
+# [
+#     [0] OpenStruct {
+#         :day_past_due => 10
+#     },
+#     [1] OpenStruct {
+#         :day_past_due => 5
+#     },
+#     [2] OpenStruct {
+#         :day_past_due => 3
+#     }
+# ]
+```
+
+Esto lo vi en un PR en Luna y luego le pregunté a ChatGPT.

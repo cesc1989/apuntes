@@ -79,6 +79,16 @@ AdminUser.create(
 )
 ```
 
+## Permisos que podría necesitar
+
+- `patient_creation_flow_enabled`
+
+```ruby
+AdminUser.find_by(email:"francisco.quintero@ideaware.co").update(super_admin:true)
+
+AdminUser.find_by(email:"francisco.quintero@ideaware.co").update(therapist_credentials_management_enabled:true)
+```
+
 # Verificación manual de correo de portal
 
 ```ruby

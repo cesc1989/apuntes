@@ -454,7 +454,7 @@ Rails.logger.class.include ActiveSupport::LoggerSilence
 
 Where? I put it in `config/application.rb`. In [this comment](https://github.com/rails/activerecord-session_store/issues/176#issuecomment-797665880), Swanson suggests to add it in `config/initializers/session_store.rb`.
 
-Turns out it's better in `config/environments/test.rb` as per [[Pruebas de Rails 7 ✅#Pruebas que se rompen sin la configuración de LoggerSilence]]
+Turns out it's better in `config/environments/test.rb` as per [[Pruebas de Rails 7#Pruebas que se rompen sin la configuración de LoggerSilence]]
 
 # undefined method user_scopes for DocumentTag:Class ✅  - stateful_enum gem
 
@@ -720,7 +720,7 @@ In [Stack Overflow](https://stackoverflow.com/questions/71177165/rails-ignores-t
 ## Disabling this does not bring back the functionality 🟡
 
 > [!info]
-> It's a bug fixed in Rails 7.0.7. See [[004 - 👌🏽 AppBlend What Changes in Config Defaults#What is config.active_support.disable_to_s_conversion?]]
+> It's a bug fixed in Rails 7.0.7. See [[004 - Config Defaults#What is config.active_support.disable_to_s_conversion?]]
 
 Even when disabled, this does not work as in Rails 6. As mentioned in [this answer](https://stackoverflow.com/a/71328079/1407371).
 

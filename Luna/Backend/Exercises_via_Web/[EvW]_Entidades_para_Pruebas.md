@@ -87,7 +87,7 @@ Lo más probable es que quede vacío el valor para `from` de los parámetros req
 ```ruby
 TwilioHelper.send_sms(
 	body: message,
-	from: config\["outbound_sms_number"\][patient.region.name],
+	from: config["outbound_sms_number"][patient.region.name],
 	to_contactable: patient.account
 )
 ```
@@ -154,7 +154,7 @@ https://www.twilio.com/docs/errors/20003
 ```
 
 
-# Usuario francisco.quintero+25@ideaware.co
+# Usuario `francisco.quintero+25@ideaware.co`
 
 Patient
 ```ruby
@@ -175,7 +175,7 @@ Account.find_by(email: "francisco.quintero+25@ideaware.co").update_attribute(:ph
 ```
 
 
-# Usuario francisco.quintero+p@ideaware.co
+# Usuario `francisco.quintero+p@ideaware.co`
 
 Patient
 ```ruby
@@ -290,7 +290,7 @@ WiltedTreeExercisesViaWebReminderWorker.perform_async([1])
 
 # Otros usuarios
 
-## Paciente francisco.quintero+evw01@ideaware.co
+## Paciente `francisco.quintero+evw01@ideaware.co`
 
 ```ruby
 Account.find_by(email: "francisco.quintero+evw01@ideaware.co")
