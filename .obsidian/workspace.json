@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0f0f2b28334beada",
+        "id": "94d3e25c8ff40b7b",
         "type": "tabs",
         "children": [
           {
-            "id": "1bf40137c7d4e8ac",
+            "id": "a38231aaf448b1ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Pruebas en Alpha"
+              "title": "Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ebooks",
+                "query": "exists?",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Pruebas en Alpha"
+              "title": "Outline of Entorno de Desarrollo Linux - Configuracion"
             }
           }
         ],
@@ -166,16 +166,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bf40137c7d4e8ac",
+  "active": "a38231aaf448b1ff",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
@@ -201,8 +203,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
-    "Luna/Grimoire/Setup de Grimoire.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",

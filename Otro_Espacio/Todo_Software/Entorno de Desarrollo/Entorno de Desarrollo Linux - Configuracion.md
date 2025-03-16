@@ -23,6 +23,7 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Zoom
 - [x] VLC
 - [ ] Mega CMD
+- [ ] Mega Sync
 
 ## Sistema
 
@@ -61,9 +62,9 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 ## Carpetas
 
 - [x] Carpeta projects
-- [x] devaspros projects
-- [x] Carpeta música
-- [ ] Carpeta documents
+- [x] Carpeta devaspros projects
+- [x] Copia carpeta música del HDD Mugiwara
+- [ ] Sincroniza carpeta Documents
 
 ## Configuración de Proyectos
 
