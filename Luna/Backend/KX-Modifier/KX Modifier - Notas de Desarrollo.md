@@ -319,3 +319,116 @@ Si bien el ID es de un Care Plan, no sabía como hacer para pasarle los atributo
 Le pregunté a ChatGPT sobre eso y me dice que eso es un fragmento condicional. Si el nodo devuelto es de tipo "CarePlan", trae los atributos que indica la query.
 
 En los [docs de GraphQL](https://graphql.org/learn/queries/#inline-fragments) le llaman "inline fragments".
+
+# KX y Candid
+
+## Ingreso y Marcado de `threshold_exceeded`
+
+La integración con Candid funciona leyendo un archivo CSV que ponen en un bucket de S3. Ahí hay varios valores que se importan en la base de datos de Edge. En este parte del import es donde se va a buscar la posible razón de denegación del servicio cuando el paciente ya excedió el límite de gasto del año para Medicare.
+
+Dicho valor se va a encontrar en la columna/header `denial_reasons`.
+
+La documentación de Candid [menciona](https://docs.joincandidhealth.com/api-reference/service-lines/v-2/create) que los valores que puede tener esa columna son:
+
+- Authorization Required
+- Referral Required
+- Medical Records Requested
+- Timely Filing
+- Duplicate Claim
+- Incorrect Place of Service
+- Incorrect Patient Gender
+- Bundled
+- Exceeded Billable Time
+- Invalid Provider Information
+- Invalid Diagnosis Code
+- Incorrect Procedure Code
+- Invalid Modifier
+- Missing NDC Code
+- Invalid Insurance Data
+- No Active Coverage
+- Coordination of Benefits
+- Incorrect Payer
+- Credentialing
+- No Effective Contract
+- Missing W-9
+- Missing Contract Linkage
+- Non-Covered Benefit
+- Experimental Procedure
+- Not Medically Necessary
+- Info Requested from Provider
+- Info Requested from Patient
+- Billing Error
+- Unknown
+- **Max Benefit Reached**
+
+La que nos interesa es precisamente la última: "Max Benefit Reached". Cuando `denial_reason` es "Max Benefit Reached" hay que buscar el registro `MedicareDollarThresholdStatus` (MDTS) que tenga dicho `Appointment`. A ese MDTS se le cambia el valor del `threshold_exceeded` a `true`.
+
+---
+
+Según mis apuntes, todo este viaje empieza en el worker `Invoicing::Preparation::ImportInvoiceItemsFromCandidWorker`. Este lo que hace es invocar la clase `Candid::ImportInvoiceItemsFromCandidService`. En esta clase, en el método `sync` pasan muchas cosas.
+
+### Explorando `Candid::ImportInvoiceItemsFromCandidService#group_rows_by_appointment_with_annotations`
+
+Este método lo que hace es tomar un hash que tiene los valores del CSV de Candid agrupados por `Appointment` de Edge. El resultado final es algo como esto:
+```ruby
+(byebug) ap rows_data_by_appointment
+{
+  "9e7c9651-c8fb-4899-9c39-e782ed9c6a7e" => {
+    :has_ever_been_invoiceable? => true,
+    :latest_export_csv_row => {
+      "encounter_id" => "0912_5678_candid_encounter_id",
+      "encounter_external_id" => "9e7c9651-c8fb-4899-9c39-e782ed9c6a7e",
+      "patient_external_id" => "d1aca30a-2baf-4f34-a57e-6c5918cd9690",
+      "claim_id" => "1234_5678_candid_claim_id",
+      "status" => "finalized_paid",
+      "created_datetime" => "2024-01-11 03:05:18.296578",
+      "state_transition_datetime" => "2024-01-13 11:34:50.060107",
+      "do_not_bill" => "false",
+      "payer_name" => "SOME PAYER NAME CANDID CAME UP WITH NOT IN OUR SYSTEM WE QUERY FOR THIS",
+      "payer_id" => "33f68c66-2b3a-453b-b633-206e5dcb2f03",
+      "insurance_type" => "",
+      "date_of_service" => "2024-01-09",
+      "appointment_type" => "",
+      "place_of_service_code" => "12",
+      "charge_amount_cents" => "28000",
+      "allowed_amount_cents" => "9884",
+      "paid_amount_cents" => "0",
+      "patient_responsibility_cents" => "9884",
+      "copay_cents" => "0",
+      "coinsurance_cents" => "0",
+      "deductible_cents" => "9884",
+      "patient_payments_cents" => "3000",
+      "patient_balance_cents" => "6884",
+      "diagnosis_codes" => "some ICD10 diagnosis codes separated by semicolons",
+      "procedure_codes" => "some CPT codes separated by semicolons",
+      "claim_adjustment_reason_codes" => "some claim adjustment reason codes separated by semicolons",
+      "remittance_advice_remark_codes" => "",
+      "denial_reasons" => "None",
+      "latest_check_date" => "",
+      "latest_check_number" => "",
+      "billable_status" => "BILLABLE",
+      "responsible_party" => "INSURANCE_PAY",
+      "billing_provider_first_name" => "",
+      "billing_provider_last_name" => "",
+      "billing_provider_organization_name" => "Luna Care, Inc. — Billing Name",
+      "billing_provider_tax_id" => "XX-XXXXXXX",
+      "billing_provider_npi" => "9575893155",
+      "rendering_provider_first_name" => "first2_name902",
+      "rendering_provider_last_name" => "last2_name254",
+      "rendering_provider_organization_name" => "",
+      "rendering_provider_tax_id" => "",
+      "rendering_provider_npi" => "3143776513",
+      "service_facility_organization_name" => "Luna Care, Inc. (Bay Area)",
+      "service_facility_city" => "Lanellton",
+      "service_facility_state" => "CA",
+      "service_facility_zip_code" => "94102",
+      "adjudicated_network_status" => "in_network",
+      "organization_id" => "1334c399-15fe-42df-93c7-b3966123e6a1"
+    }
+  }
+}
+```
+
+Donde la llave del Hash es el ID del `Appointment` y el valor es otro hash donde se incluyen los valores que vienen desde Candid.
+
+Es en el subhash `latest_export_csv_row` de donde se puede extraer el valor para `denial_reasons`.
