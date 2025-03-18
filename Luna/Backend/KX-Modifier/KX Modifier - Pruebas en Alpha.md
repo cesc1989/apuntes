@@ -89,14 +89,19 @@ Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info de si la ne
 Si no hay `medicare_dollar_threshold_status`:
 
 - [x] No muestra nada.
+- [x] Guarda el form al editar campos de Paciente.
 
 Si hay `medicare_dollar_threshold_status` con `threshold_exceeded` en false:
 
 - [x] Muestra la info de "MedicareDollarThresholdStatus" junto ID de Care Plan.
+- [x] Guarda el form al editar campos de Paciente.
+- [x] Guarda el form al editar campos de "MedicareDollarThresholdStatus".
 
 Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info sobre si la necessity fue aprobada o rechazada:
 
-- [x] Muestra la info correspondiente.
+- [x] Muestra los campos de Medical Necessity.
+- [x] Guarda el form al editar campos de Paciente.
+- [x] Guarda el form al editar campos de Medical Necessity.
 
 
 # Otras Entidades
