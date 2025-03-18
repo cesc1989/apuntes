@@ -74,13 +74,14 @@ Si hay `medicare_dollar_threshold_status` con `threshold_exceeded` en false:
 
 Si hay `medicare_dollar_threshold_status` y `threshold_exceeded` en true:
 
-- [ ] Muestra la info sobre "Spending Limit Exceeded".
-- [ ] Muestra mensaje "Prompt Therapist".
+- [x] Muestra la info sobre "Spending Limit Exceeded".
+- [x] Muestra mensaje "Prompt Therapist".
 
 Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info de si la necessity fue aprobada o rechazada:
 
-- [ ] Muestra la info sobre "Spending Limit Exceeded"
-- [ ] Muestra info sobre "Medical Necessity Response".
+- [x] Muestra la info sobre "Spending Limit Exceeded"
+- [x] Muestra info sobre "Medical Necessity Response".
+- [x] Muestra info sobre "Medical Necessity Response From".
 
 
 ## Form de Editar Paciente
