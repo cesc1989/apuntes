@@ -70,6 +70,7 @@ Creo que este se alinea mucho mejor con lo que hay que hacer porque se está má
 
 > [!note]
 > El CPT Code es lo que debe llevar el modificador KX:
+> 
 > En el PRD dice: "*All additional CTP Codes within a patient’s care plan should have a KX Modifier Code included*"
 
 La carga de los procedures con CPT Codes se da desde la base de datos:
