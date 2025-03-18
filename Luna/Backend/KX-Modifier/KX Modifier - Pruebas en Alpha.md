@@ -66,32 +66,33 @@ MedicareCarePlanMedicalNecessityResponse.create(
 
 Si no hay `medicare_dollar_threshold_status`:
 
-- [x] no se muestra nada.
+- [x] No muestra nada.
 
 Si hay `medicare_dollar_threshold_status` con `threshold_exceeded` en false:
 
-- [ ] muestra la info sobre "Spending Limit Exceeded".
+- [x] Muestra la info sobre "Spending Limit Exceeded".
 
 Si hay `medicare_dollar_threshold_status` y `threshold_exceeded` en true:
 
-- [ ] muestra la info sobre "Spending Limit Exceeded".
+- [ ] Muestra la info sobre "Spending Limit Exceeded".
+- [ ] Muestra mensaje "Prompt Therapist".
 
 Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info de si la necessity fue aprobada o rechazada:
 
-- [ ] muestra la info sobre "Spending Limit Exceeded"
-- [ ] y además info sobre "Medical Necessity Response".
+- [ ] Muestra la info sobre "Spending Limit Exceeded"
+- [ ] Muestra info sobre "Medical Necessity Response".
 
 
 ## Form de Editar Paciente
 
 Si no hay `medicare_dollar_threshold_status`:
 
-- [ ] no se muestra nada.
+- [ ] No muestra nada.
 
 Si hay `medicare_dollar_threshold_status` con `threshold_exceeded` en false:
 
-- [ ] muestra la info de "MedicareDollarThresholdStatus" junto ID de Care Plan.
+- [ ] Muestra la info de "MedicareDollarThresholdStatus" junto ID de Care Plan.
 
 Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info sobre si la necessity fue aprobada o rechazada:
 
-- [ ] muestra la info correspondiente.
+- [ ] Muestra la info correspondiente.
