@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d912f4e640f7d26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "KX Modifier en Luxe"
-            }
-          },
-          {
-            "id": "818f46d5a6437503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "KX Modifier - Pruebas en Alpha"
-            }
-          },
-          {
-            "id": "e9573089c977407d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "KX Modifier - Notas Generales"
-            }
-          },
-          {
             "id": "52f1fef0fb050ec6",
             "type": "leaf",
             "state": {
@@ -62,9 +20,23 @@
               "icon": "lucide-file",
               "title": "KX Modifier - Notas de Desarrollo"
             }
+          },
+          {
+            "id": "398eb19b9b9be87f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "KX Modifier - Pruebas en Alpha"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Notas de Desarrollo"
+              "title": "Outline of KX Modifier - Pruebas en Alpha"
             }
           }
         ],
@@ -209,15 +181,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52f1fef0fb050ec6",
+  "active": "398eb19b9b9be87f",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",

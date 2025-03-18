@@ -2,5 +2,96 @@
 
 Entidades y notas sobre las pruebas en Alpha de la integración entre Luxe y GQL.
 
+## Activar / Desactivar Feature Flag
+
+```ruby
+Flipper.enable(:kx_modifier)
+
+Flipper.disable(:kx_modifier)
+```
+
 ## Entidades
 
+Necesito:
+
+- Care plan *medicare* con un solo appointment
+- Su respectivo paciente
+- El therapist de ese appointment
+
+En variables para luego poder leer los respectivos IDs y crear los registros necesarios.
+
+Query para encontrar care plans con esa característica:
+```ruby
+epi = Episode.straight_medicare
+            .joins(:appointments)
+            .group('episodes.id')
+            .having('COUNT(appointments.id) = 1')
+            .first
+```
+
+Comandos para probar los valores:
+```ruby
+ap epi.id
+ap epi.medicare?
+ap "Cantidad de citas: #{epi.appointments.count}"
+ap "Initial Visit ID: #{epi.initial_visit.id}"
+ap "Initial Visit Date: #{epi.initial_visit.scheduled_date}"
+ap "Initial vist therapist ID: #{epi.initial_visit.therapist.id}"
+ap epi.medicare_dollar_threshold_status
+```
+
+Al actualizar el `scheduled_date` se debe crear el MedicareDollarThresholdStatus:
+```ruby
+epi.initial_visit.update(scheduled_date: epi.initial_visit.scheduled_date + 1.day)
+```
+
+Para marcar el `threshold_exceeded` como true:
+```ruby
+epi.medicare_dollar_threshold_status.update(threshold_exceeded: true)
+```
+
+Para crear el Medical Necessity Response:
+```ruby
+MedicareCarePlanMedicalNecessityResponse.create(
+  medicare_dollar_threshold_status: epi.medicare_dollar_threshold_status,
+  care_plan: epi,
+  therapist: epi.initial_visit.therapist,
+  medical_necessity_state: :approved
+)
+```
+
+# Pruebas
+
+## Perfil de Care Plan / Perfil Paciente, panel Care Plan
+
+Si no hay `medicare_dollar_threshold_status`:
+
+- [x] no se muestra nada.
+
+Si hay `medicare_dollar_threshold_status` con `threshold_exceeded` en false:
+
+- [ ] muestra la info sobre "Spending Limit Exceeded".
+
+Si hay `medicare_dollar_threshold_status` y `threshold_exceeded` en true:
+
+- [ ] muestra la info sobre "Spending Limit Exceeded".
+
+Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info de si la necessity fue aprobada o rechazada:
+
+- [ ] muestra la info sobre "Spending Limit Exceeded"
+- [ ] y además info sobre "Medical Necessity Response".
+
+
+## Form de Editar Paciente
+
+Si no hay `medicare_dollar_threshold_status`:
+
+- [ ] no se muestra nada.
+
+Si hay `medicare_dollar_threshold_status` con `threshold_exceeded` en false:
+
+- [ ] muestra la info de "MedicareDollarThresholdStatus" junto ID de Care Plan.
+
+Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info sobre si la necessity fue aprobada o rechazada:
+
+- [ ] muestra la info correspondiente.
