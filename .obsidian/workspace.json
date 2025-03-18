@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "KX Modifier - Notas de Desarrollo"
             }
-          },
-          {
-            "id": "50c0431ab98cf143",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Asociaciones - KX Modifier"
-            }
-          },
-          {
-            "id": "307bda129e74555a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Todos_los_enlaces_Todos_los_entornos"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Todos_los_enlaces_Todos_los_entornos"
+              "title": "Outline of KX Modifier - Notas de Desarrollo"
             }
           }
         ],
@@ -195,12 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "307bda129e74555a",
+  "active": "52f1fef0fb050ec6",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
@@ -231,7 +203,6 @@
     "Luna/Backend/Usando Flipper.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
