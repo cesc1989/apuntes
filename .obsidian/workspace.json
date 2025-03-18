@@ -22,21 +22,35 @@
             }
           },
           {
-            "id": "398eb19b9b9be87f",
+            "id": "50c0431ab98cf143",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Pruebas en Alpha"
+              "title": "Asociaciones - KX Modifier"
+            }
+          },
+          {
+            "id": "307bda129e74555a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Todos_los_enlaces_Todos_los_entornos"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Pruebas en Alpha"
+              "title": "Outline of Todos_los_enlaces_Todos_los_entornos"
             }
           }
         ],
@@ -181,17 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "398eb19b9b9be87f",
+  "active": "307bda129e74555a",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
