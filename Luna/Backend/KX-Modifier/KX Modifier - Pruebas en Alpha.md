@@ -88,12 +88,24 @@ Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info de si la ne
 
 Si no hay `medicare_dollar_threshold_status`:
 
-- [ ] No muestra nada.
+- [x] No muestra nada.
 
 Si hay `medicare_dollar_threshold_status` con `threshold_exceeded` en false:
 
-- [ ] Muestra la info de "MedicareDollarThresholdStatus" junto ID de Care Plan.
+- [x] Muestra la info de "MedicareDollarThresholdStatus" junto ID de Care Plan.
 
 Si tiene `MedicareCarePlanMedicalNecessityResponse`, se muestra info sobre si la necessity fue aprobada o rechazada:
 
-- [ ] Muestra la info correspondiente.
+- [x] Muestra la info correspondiente.
+
+
+# Otras Entidades
+
+## Credenciales de Therapist para acceder desde la App
+
+Hay que cambiarle la clave para iniciar sesión:
+```ruby
+ap "PT email: #{epi.initial_visit.therapist.account.email}"
+
+epi.initial_visit.therapist.account.update_attribute(:password, "clave-super-segura")
+```
