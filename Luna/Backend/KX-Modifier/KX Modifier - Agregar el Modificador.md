@@ -15,18 +15,11 @@ Veamos cuantas veces aparece bien sea el campo JSON o el método de clase.
 El campo JSONB se llama: `procedures_form`. Así se ve uno cualquiera:
 ```ruby
 AutoChart.first.procedures_form
-{"gait_training"=>15,
- "manual_therapy"=>10,
- "pt_re_evaluation"=>0,
- "therapeutic_activity"=>0,
- "therapeutic_exercise"=>10,
- "canalith_repositioning"=>0,
- "neuromuscular_re_education"=>0,
- "pt_evaluation_low_complexity"=>0,
- "pt_evaluation_high_complexity"=>0,
- "pt_evaluation_moderate_complexity"=>0,
- "patient_education_self_care_management"=>0,
- "physical_performance_test_or_measurement"=>5}
+{
+  "gait_training"=>15,
+  "pt_evaluation_low_complexity"=>0,
+  "pt_evaluation_high_complexity"=>0
+}
 ```
 
 Todos los posibles procedures se cargan desde la base de datos:
@@ -53,6 +46,13 @@ class AutoChart
   end
 end
 ```
+
+No estoy seguro de que por aquí sea el camino porque:
+
+- En el campo `procedures_form` no hay un código CPT. Solo un título de procedimiento y a eso no se le agrega el modificador KX, según he visto.
+- En el hash cargado en el YAML tampoco hay código CPT. Solo el título del procedimiento. Pasa similar al punto anterior.
+
+
 
 ## `self.cpt_code` - Método de clase
 

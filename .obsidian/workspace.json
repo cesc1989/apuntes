@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "KX Modifier - Agregar el Modificador"
             }
+          },
+          {
+            "id": "8051a5a93232b182",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "KX Modifier - Notas Generales"
+            }
           }
         ]
       }
@@ -168,12 +182,12 @@
   },
   "active": "52f1fef0fb050ec6",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",

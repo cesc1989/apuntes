@@ -74,3 +74,8 @@ Si el therapist dice que "No"
 - Billing team quiere el ==código KX agregado a toda entrada de facturación (billing) que vaya a Candid==.
 - Al terminar cada año en curso, debe deschularse los checkboxes (campo en base de datos) de "medical Necessity confirmed" y "Patient Exceeds Limit"
 	- El límite de Medicare se reinicia con cada año nuevo
+
+**Lo que pide el equipo de Billing** con respecto a Candid
+
+- As a Billing team member, I want ==KX Modifier codes added to all future billing entries for a patient in Candid== when they exceed their annual plan amount and care is still medically necessary.
+- As a Billing team member, I want ==KX Modifier codes attached to all denied claims== when ongoing care is deemed medically necessary.
