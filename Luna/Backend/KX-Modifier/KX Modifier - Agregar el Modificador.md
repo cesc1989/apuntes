@@ -112,3 +112,18 @@ modifiers = appointment.chart.requires_kx_modifier? ? ["KX"] : []
 	modifiers: modifiers
 }
 ```
+
+Meredith aprueba los cambios ahí y además me dio una explicación sobre partes de la API de Candid.
+
+> I just realized that Candid's Service Lines model is going to impact you, since that is their underlying model you are modifying.
+> 
+> When we sync an `Appointment` to Candid, that becomes an "Encounter" in their system. Candid models chart info by saying an "Encounter" has many "Diagnoses" and many "Service Lines".
+> 
+> Their API is odd in that their Create Encounter API endpoint, those fields are different from their Update Encounter API endpoint. If you modify the diagnoses or any field that ends up on a Service Line, instead of using their CRUD endpoints for Encounters, you have to use their CRUD endpoints for Diagnoses and Service Lines.
+> 
+> The function that handles upserting Service Lines: `Candid::Client.refresh_candid_diagnoses_and_service_lines!`.
+> 
+> [Candid API docs: Service Lines](https://docs.joincandidhealth.com/api-reference/service-lines/v-2/)
+>
+> [Candid API docs: Encounters](https://docs.joincandidhealth.com/api-reference/encounters/v-4/) — notice in Update there is no `service_lines` field supported.
+
