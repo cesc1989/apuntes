@@ -127,3 +127,91 @@ Meredith aprueba los cambios ahí y además me dio una explicación sobre partes
 >
 > [Candid API docs: Encounters](https://docs.joincandidhealth.com/api-reference/encounters/v-4/) — notice in Update there is no `service_lines` field supported.
 
+# Encontrar Chart y AutoChart para ver el Modificador en Luxe
+
+Para poder probar en Luxe necesito encontrar un AutoChart apto. Además, el Appointment de ese AutoChart debe tener todos los modelos necesarios para esto: `MedicareDollarThresholdStatus` y `MedicareCarePlanMedicalNecessityResponse`.
+
+## Buscar AutoChart
+
+Primero, busco un AutoChart cuyo campo `procedure_form` no esté vacío:
+```sql
+select ac.id,
+  ac.appointment_id as "appt id",
+  epi.id as "episode",
+  ac.procedures_form
+from auto_charts ac
+join appointments appo on appo.id = ac.appointment_id
+join episodes epi on epi.id = appo.episode_id
+where ac.procedures_form is not null;
+```
+
+Cogemos el `episode_id` de cualquiera para empezar a crear los registros y a actualizar el appointment.
+
+## Mover Episode a Medicare insurance
+
+Necesitamos que el Episode sea Medicare:
+```ruby
+epi = Episode.find("101d7cf6-9468-4a46-8a52-4c67de15c0d2")
+epi.update(insurance_id: 3)
+```
+
+## Actualizar el Appointment `initial_visit`
+
+En alpha, normalmente los datos que encuentro son viejos. Puede ser que el appointment esté cancelado. Para cambiar eso usamos esta query:
+```ruby
+appo_1 = epi.appointments.first
+
+appo_1.update(state: :pending, scheduled_date: appo_1.scheduled_date + 1.day)
+```
+
+## Crear MDTS y marcar como excedido
+
+Como son registros viejos, hay muchas reglas que tal vez no se cumplan. En ese caso, al actualizar el appointment puede que no se cree el registro MDTS. Para corregir eso lo podemos crear manualmente:
+```ruby
+MedicareDollarThresholdStatus.create(
+  patient: epi.patient,
+  effective_from: DateTime.new(2024, 1, 1).beginning_of_year,
+  effective_until: DateTime.new(2024, 12, 31).end_of_year
+)
+```
+
+Y luego actualizamos el `threshold_exceeded`:
+```ruby
+epi.medicare_dollar_threshold_status.update(threshold_exceeded:true)
+```
+
+## Crear Medical Necessity aprobada
+
+Finalmente, creamos el registro Medical Necessity con estado aprobado para que todo termine de conectar:
+```ruby
+MedicareCarePlanMedicalNecessityResponse.create(
+  medicare_dollar_threshold_status: epi.medicare_dollar_threshold_status,
+  care_plan: epi,
+  therapist: epi.initial_visit.therapist,
+  medical_necessity_state: :approved
+)
+```
+
+## Ubicamos el ID del Chart
+
+Con esta otra query, usando el ID del episode, debe salir el ID del chart con el cual ir a Luxe.
+```sql
+select epi.id as "episode",
+  insu."key" as "insurance",
+  mdts.threshold_exceeded as "exceeded",
+  mcpmnr.medical_necessity_state as "necessity",
+  appo.id as "appt id",
+  c.id as "chart_id",
+  ac.id as "auto chart id"
+from episodes epi
+join insurances insu on insu.id = epi.insurance_id
+join medicare_care_plan_medical_necessity_responses mcpmnr on mcpmnr.care_plan_id = epi.id
+join medicare_dollar_threshold_statuses mdts on mdts.id = mcpmnr.medicare_dollar_threshold_status_id
+join appointments appo on appo.episode_id = epi.id
+left join charts c on c.appointment_id = appo.id
+left join auto_charts ac on ac.appointment_id = appo.id
+where insu."key" = 'medicare'
+and epi.id = '101d7cf6-9468-4a46-8a52-4c67de15c0d2';
+```
+
+Ya con ese ID podemos ir a la página del Chart en Luxe y ver los cambios en acción.
