@@ -2,15 +2,7 @@
 
 Ya llegué a la hora de la verdad. Voy a agregar el modificador a los CPT codes si se necesita.
 
-Alexis sugirió dos formas en el modelo AutoChart:
-
-1. Agregar un método `procedures_with_kx` donde se modifique el JSON que tiene los códigos
-	1. Luego usar este método donde haga falta
-2. Modificar `self.cpt_code` para agregarle el modificador
-
-Veamos cuantas veces aparece bien sea el campo JSON o el método de clase.
-
-## `procedures_with_kx` - Campo JSON
+## 🟡 `procedures_with_kx` - Campo JSON 🟡
 
 El campo JSONB se llama: `procedures_form`. Así se ve uno cualquiera:
 ```ruby
@@ -53,8 +45,7 @@ No estoy seguro de que por aquí sea el camino porque:
 - En el hash cargado en el YAML tampoco hay código CPT. Solo el título del procedimiento. Pasa similar al punto anterior.
 
 
-
-## `self.cpt_code` - Método de clase
+## 🔴 `self.cpt_code` - Método de clase 🔴
 
 La otra alternativa que sugiere Alexis es modificar el método de clase `cpt_code` para que devuelva el modificador KX si lo necesita.
 
@@ -86,7 +77,6 @@ YAMLHelper.load_common_config("billing_procedure_codes")
 }
 ```
 
-
 Al buscar `AutoChart.cpt_code` en Sublime aparecen resultados en 6 archivos:
 
 - app/admin/clinical/charts.rb
@@ -97,3 +87,28 @@ Al buscar `AutoChart.cpt_code` en Sublime aparecen resultados en 6 archivos:
 - app/workers/athena/candid_claims_writer_worker.rb
 
 Si voy por la segunda alternativa, esos son los archivos donde debo empezar a mirar si tiene sentido aplicar esta solución.
+
+Si bien en esta opción se está más cerca del CPT Code, no es donde debe aplicarse porque es un método de clase y no se tiene acceso a la instancia con la cual se hace la verificación.
+
+## En AppointmentToCandidEncounter#service_lines_field
+
+Aquí hay que agregarlo en la construcción de los parámetros según indica la [Referencia de la API de Candid](https://docs.joincandidhealth.com/api-reference/service-lines/v-2/create#request.body.modifiers).
+
+```
+modifiers: list of enums. Optional
+```
+
+En la clase:
+```ruby
+modifiers = appointment.chart.requires_kx_modifier? ? ["KX"] : []
+
+# (...)
+
+{
+	procedure_code: "A9270",
+	quantity: 1,
+	units: "UN",
+	diagnosis_pointers: [0],
+	modifiers: modifiers
+}
+```
