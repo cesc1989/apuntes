@@ -59,7 +59,7 @@ These are all the tables copied for the incomplete LR setup:
 - therapists
 - tins
 
-These tables must be dropped. Corresponding existing models must be deleted.f
+These tables must be dropped. Corresponding existing models must be deleted.
 
 ### Rename `users` Tables
 
