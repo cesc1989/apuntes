@@ -85,6 +85,46 @@ The `users` table is only used to provide access to the Dashboard's Admin view. 
 
 After the Clinical Dashboard database is migrated to Edge, we'll be ready to start code migration and adaptation.
 
+## Environment Variables
+
+These envs need to be copied over to Edge. Let's follow the same process as in Milestone 3b:
+
+- Rename similar value envs to match's the name they have in Edge
+- Apply the new name in the current repo
+- Remove any unused/unneeded env
+
+```bash
+HUBSPOT_ACCESS_TOKEN=""
+
+AWS_REGION=""
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
+
+S3_ACCESS_ID=""
+S3_SECRET_KEY=""
+S3_AWS_REGION=""
+DATA_LAKE_BUCKET_NAME=""
+
+DOMAIN="http://localhost:3000"
+PHYSICIAN_PORTAL_TOKEN=""
+
+UNSIGNED_PLAN_OF_CARE_BUCKET=""
+UNSIGNED_CHARTS_BUCKET=""
+
+EDGE_API_DOMAIN=""
+EDGE_API_TOKEN=""
+KONG_EDGE_PROVIDER_PORTAL_TOKEN=""
+
+CHART_DOWNLOADS_BUCKET=""
+PATIENT_CSV_DOWNLOAD_BUCKET=""
+
+RECAPTCHA_SITE_KEY=""
+RECAPTCHA_SECRET_KEY=""
+
+JWT_EXPIRATION_SECONDS_LINK_RECIPIENT=500
+JWT_EXPIRATION_SECONDS_ADMIN_USER=1200
+```
+
 ## Namespace
 
 Following what was done in the Milestone 3b, we'll introduce all Ruby code into a `clinical_dashboard` namespace in every folder where migrated code is placed.
@@ -118,6 +158,33 @@ end
 
 ## Replace Service calls with Ruby classes invocations
 
+> [!Note]
+> To be completed in a Post Release stage.
 
+There are multiple places where requests to Edge endpoints take place. Once Clinical Dashboard is migrated it'll be making requests to itself.
+
+This already happened in Milestone 3b and it's ok. However, we should plan and schedule work to replace all those requests to use direct Ruby calls.
+
+### Remove v2/links route and controller
+
+The endpoint would no longer be needed to generate Portal links. Instead, Edge code should call `LinkGenerationV2Service` class.
+
+### Change SharedChartsService to use Edge models instead
+
+This class would not need to make a request to Edge but use the models to produce the expected response.
+
+In Edge, the route `api/v3/physician_dashboard/physicians/patients/charts` can be removed. The controller `ChartsController` under same namespace can be removed and code moved into a PORO class.
+
+### Change PendingPlansOfCareService to use Edge models instead
+
+This class would not need to make a request to Edge but use the models to produce the expected response.
+
+In Edge, the route `api/v3/physician_dashboard/physicians/unsigned_plans_of_care` can be removed. The controller `UnsignedPlansOfCareController` under same namespace can be removed and code moved into a PORO class.
+
+### Change PlanOfCareSigner to use Edge models instead
+
+This class would not need to make a request to Edge but use the models to produce the expected response.
+
+In Edge, the route `api/v3/physician_dashboard/physicians/plans_of_care/plan_of_care_actions` can be removed. The controller `PlanOfCareActionsController` under same namespace can be removed and code moved into a PORO class.
 
 ## Execution Plan
