@@ -61,7 +61,7 @@ These are all the tables copied for the incomplete LR setup:
 
 These tables must be dropped. Corresponding existing models must be deleted.
 
-### Rename `users` Tables
+## Rename `users` Tables
 
 These tables are used to give access to some systems. For this milestone, rename the Clinical Dashboard `users` table to `dashboard_users` to distinguish it from Edge `admin_users`.
 
