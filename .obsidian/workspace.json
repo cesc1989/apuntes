@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "001 - Merge PSR Into Edge 🎉"
             }
-          },
-          {
-            "id": "98c379d23c51c60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Rename Patients table"
-            }
           }
         ]
       },
@@ -204,8 +190,8 @@
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",

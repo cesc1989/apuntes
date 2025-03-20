@@ -82,3 +82,42 @@ The `users` table is only used to provide access to the Dashboard's Admin view. 
 	- This is going to be temporary until this milestone is released
 
 # Code Merge
+
+After the Clinical Dashboard database is migrated to Edge, we'll be ready to start code migration and adaptation.
+
+## Namespace
+
+Following what was done in the Milestone 3b, we'll introduce all Ruby code into a `clinical_dashboard` namespace in every folder where migrated code is placed.
+
+## Routes
+
+As it was done in Milestone 3b, split routes.rb into a separate file.
+
+Bring all of the routes from Clinical Dashboard into its own file and include it in the main Edge’s `routes.rb`.
+
+By doing this we do not clutter anymore this file and define clear boundaries between subsystems inside Edge.
+
+```ruby
+# config/initializers/routing_draw.rb
+class ActionDispatch::Routing::Mapper
+  def draw(routes_name)
+    instance_eval(File.read(Rails.root.join("config/routes/#{routes_name}.rb")))
+  end
+end
+
+# config/routes/clinical_dashboard.rb
+namespace :clinical_dashboard do
+  # routes...
+end
+
+# config/routes.rb
+Rails.application.routes.draw do
+  draw :clinical_dashboard
+end
+```
+
+## Replace Service calls with Ruby classes invocations
+
+
+
+## Execution Plan
