@@ -4,63 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "516cca5355acaf59",
+        "id": "6b5d50684444c3f2",
         "type": "tabs",
         "children": [
           {
-            "id": "52f1fef0fb050ec6",
+            "id": "18273b2cb8383683",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Agregar el Modificador"
+              "title": "001 - Merge PSR Into Edge 🎉"
             }
           },
           {
-            "id": "e57c6a7a03b5b7cf",
+            "id": "98c379d23c51c60e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Notas de Desarrollo"
+              "title": "Rename Patients table"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "1a1273e23f157a77",
+        "type": "tabs",
+        "children": [
           {
-            "id": "583f504da0b07822",
+            "id": "7a5370ea5ded1923",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Pruebas en Alpha"
-            }
-          },
-          {
-            "id": "8051a5a93232b182",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "KX Modifier - Notas Generales"
+              "title": "001 - Merge CD into Edge"
             }
           }
         ]
@@ -184,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Agregar el Modificador"
+              "title": "Outline of 001 - Merge CD into Edge"
             }
           }
         ],
@@ -208,12 +200,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52f1fef0fb050ec6",
+  "active": "7a5370ea5ded1923",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
@@ -238,13 +238,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md",
-    "Luna/Backend/Usando Flipper.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
@@ -255,7 +248,6 @@
     "Luna/Patient_Self_Report/issues-and-debugging",
     "Luna/Patient_Self_Report/upgrades",
     "Luna/Patient_Self_Report/archive",
-    "Luna/Patient_Self_Report/HOOS_&_KOOS",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
