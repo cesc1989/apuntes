@@ -189,7 +189,7 @@ In Edge, the route `api/v3/physician_dashboard/physicians/plans_of_care/plan_of_
 
 ## Copy Docs Folder
 
-All information that helps understand the Clinical Dashboard. How it works and how is everything related.e
+All information that helps understand the Clinical Dashboard. How it works and how is everything related.
 
 ## Execution Plan
 
