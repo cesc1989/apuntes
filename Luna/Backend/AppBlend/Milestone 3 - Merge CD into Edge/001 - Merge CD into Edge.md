@@ -187,4 +187,15 @@ This class would not need to make a request to Edge but use the models to produc
 
 In Edge, the route `api/v3/physician_dashboard/physicians/plans_of_care/plan_of_care_actions` can be removed. The controller `PlanOfCareActionsController` under same namespace can be removed and code moved into a PORO class.
 
+## Copy Docs Folder
+
+All information that helps understand the Clinical Dashboard. How it works and how is everything related.e
+
 ## Execution Plan
+
+- Rename and copy ENV vars with Ops help
+- Copy routes file
+- Copy docs folder
+- Copy all of the code!
+- Make tests pass
+- QA Dashboard

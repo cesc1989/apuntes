@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "6b5d50684444c3f2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "18273b2cb8383683",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "001 - Merge PSR Into Edge 🎉"
-            }
-          }
-        ]
-      },
-      {
         "id": "1a1273e23f157a77",
         "type": "tabs",
         "children": [
