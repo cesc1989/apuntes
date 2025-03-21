@@ -1,5 +1,7 @@
 # Migraciones con PostgreSQL constraints
 
+> Registro en [ChatGPT](https://chatgpt.com/share/67ddf0fb-2250-8008-af82-35b0b516e3a6).
+
 Para empezar escribí esta migración que usa la función `exclusion_constraint`:
 ```ruby
 add_exclusion_constraint :medicare_dollar_threshold_statuses, "tsrange(effective_from, effective_until) WITH &&, patient_id WITH =", using: :gist, name: "no_overlapping_medicare_dollar_threshold_statuses"
