@@ -35,8 +35,7 @@
               "title": "Migraciones - PG Constraints"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Migraciones - PG Constraints"
+              "title": "Outline of KX Modifier - Q&A"
             }
           }
         ],
@@ -181,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a786d13feb00cc00",
+  "active": "2b182c8d3ea599d1",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",

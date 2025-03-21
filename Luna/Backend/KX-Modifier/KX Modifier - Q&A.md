@@ -15,3 +15,4 @@ These can be found in `EpisodePolicy#prompt_therapist_for_medical_necessity`.
 
 # Is the `threshold_exceed` flag once per Care Plan?
 
+Yes. It is evaluated per Care Plan. However, in a given year, once the spending limit was exceeded (`threshold_exceed` is true), it will remain true until the next year.
