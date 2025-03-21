@@ -129,7 +129,7 @@ Meredith aprueba los cambios ahí y además me dio una explicación sobre partes
 
 # Encontrar Chart y AutoChart para ver el Modificador en Luxe
 
-Para poder probar en Luxe necesito encontrar un AutoChart apto. Además, el Appointment de ese AutoChart debe tener todos los modelos necesarios para esto: `MedicareDollarThresholdStatus` y `MedicareCarePlanMedicalNecessityResponse`.
+Para poder probar en Luxe necesito encontrar un `AutoChart` apto. Además, el `Appointment` de ese `AutoChart` debe tener todos los modelos necesarios para esto: `MedicareDollarThresholdStatus` y `MedicareCarePlanMedicalNecessityResponse`.
 
 ## Buscar AutoChart
 

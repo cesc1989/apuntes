@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d75774f64e70a6bd",
+        "id": "f59f7131dd80967b",
         "type": "tabs",
         "children": [
           {
-            "id": "3fa64bdf44f086a5",
+            "id": "10fc8dc8bb503238",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
-                "mode": "source",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_23_-_logrotate"
+              "title": "KX Modifier - Pruebas en Alpha"
+            }
+          },
+          {
+            "id": "16ad8b7013f71f22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "KX Modifier - Agregar el Modificador"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_23_-_logrotate"
+              "title": "Outline of KX Modifier - Agregar el Modificador"
             }
           }
         ],
@@ -166,8 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fa64bdf44f086a5",
+  "active": "16ad8b7013f71f22",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Lies_of_Object_Oriented_Programming_-_Avdi_Grimm.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
@@ -180,7 +197,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
@@ -189,7 +205,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
