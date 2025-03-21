@@ -3,6 +3,7 @@
   "showViewHeader": true,
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "style.block.code"
+    "style.block.code",
+    "style.inline.code"
   ]
 }
