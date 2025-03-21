@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f59f7131dd80967b",
+        "id": "02b92e1824690ed3",
         "type": "tabs",
         "children": [
           {
-            "id": "10fc8dc8bb503238",
+            "id": "2b182c8d3ea599d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-                "mode": "preview",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Pruebas en Alpha"
+              "title": "KX Modifier - Q&A"
             }
           },
           {
-            "id": "16ad8b7013f71f22",
+            "id": "a786d13feb00cc00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Agregar el Modificador"
+              "title": "Migraciones - PG Constraints"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Agregar el Modificador"
+              "title": "Outline of Migraciones - PG Constraints"
             }
           }
         ],
@@ -181,9 +181,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16ad8b7013f71f22",
+  "active": "a786d13feb00cc00",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Lies_of_Object_Oriented_Programming_-_Avdi_Grimm.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
@@ -195,13 +201,8 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
@@ -218,7 +219,6 @@
     "Luna/Backend/KX-Modifier/untitled folder",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
