@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7168bc2e35fe6688",
+        "id": "d75774f64e70a6bd",
         "type": "tabs",
         "children": [
           {
-            "id": "95de7b3c39bb0da6",
+            "id": "3fa64bdf44f086a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes_Ciclo_23_-_logrotate"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes_Ciclo_23_-_logrotate"
             }
           }
         ],
@@ -161,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95de7b3c39bb0da6",
+  "active": "3fa64bdf44f086a5",
   "lastOpenFiles": [
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Lies_of_Object_Oriented_Programming_-_Avdi_Grimm.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/001 - Merge PSR Into Edge 🎉.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/Rename Patients table.md",
@@ -197,8 +204,6 @@
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Información_General_-_Cashflow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
     "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
