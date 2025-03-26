@@ -4,24 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e8364559d70874",
-        "type": "tabs",
+        "id": "928e4755155dfab6",
+        "type": "split",
         "children": [
           {
-            "id": "de3e8965ac8b155a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
-                "mode": "preview",
-                "source": true
+            "id": "f6e8364559d70874",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "de3e8965ac8b155a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Luna/Patient_Self_Report/upgrades/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "Migrando_Patient_Self_Report_a_Ruby_3_0_6"
+                }
               },
-              "icon": "lucide-file",
-              "title": "What is devise-jwt for?"
-            }
+              {
+                "id": "a9515504542e5a8e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "Extended Sign Up"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "5d03b0fa5b5f912a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d7fdc9593a5a5fac",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png"
+                  },
+                  "icon": "lucide-image",
+                  "title": "af.extended.signup"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -53,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Logger",
+                "query": "sass-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -142,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of What is devise-jwt for?"
+              "title": "Outline of Extended Sign Up"
             }
           }
         ],
@@ -156,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,10 +208,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de3e8965ac8b155a",
+  "active": "a9515504542e5a8e",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
+    "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
+    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
+    "Luna/Therapist_Signup/Attestation Form/attachments",
+    "Luna/Patient_Self_Report/upgrades/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.0.8.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
@@ -192,9 +238,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/002 - Migraciones de Forms en Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/003 - Rutas y Namespaces.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/205.patient.edit.medicare.status.png",
@@ -206,14 +249,12 @@
     "Luna/Backend/KX-Modifier/untitled folder",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "DevAsPros/Cash_Flow/attachments/Screenshot 2025-02-28 at 11.43.06 AM.png",
-    "DevAsPros/Cash_Flow/attachments/002.sidekiq.vs.nginx.status.png",
     "Luna/Grimoire",
     "DevAsPros/attachments",
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Patient_Self_Report/issues-and-debugging",
     "Luna/Patient_Self_Report/upgrades",
-    "Luna/Patient_Self_Report/archive",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
