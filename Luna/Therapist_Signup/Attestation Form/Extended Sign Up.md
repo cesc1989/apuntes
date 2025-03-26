@@ -48,17 +48,70 @@ If this condition is not met, we can provide an error message suggesting the the
 
 ## Create New HS Credentialing Object Record
 
+To create a new HS Credentialing Object record, make a POST request to the V3 objects endpoint using the Credentialing Object ID. This ID exists in the Therapist DB in the settings table.
 
+```ruby
+Setting.find_by(key: "credentialings_id").value
+```
+
+
+```
+POST https://api.hubspot.com/crm/v3/objects/[CREDENTIALING_OBJECT_ID]
+
+Payload
+
+{
+  "properties": {
+    "attestation_form_url": "https://theattestationformurl.com/id"
+  }
+}
+```
+
+### Q&A
 
 Q: Should the HS Contact be updated with the information from the Sign Up form?
 
+Q: What other properties should be set when creating the new Credentialing record?
+
 ## Save Newly created HS Credentialing Record ID
 
+> [!Note]
+> Creating the Credentialing record and saving the ID happen in the moment but they're better described as separate steps to understand the overall process.
+
+The request made in the previous step will return an ID property that should be saved to the Therapist DB. More precisely, in the `credentialing_hubspot_id` of the `therapists` table.
 
 ## Associate HS Credentialing Record to HS Contact
 
+To connect the HS Contact with the new HS Credentialing record they need to be associated first. This can be done using the V4 Associations API.
 
-## Attach Corresponding Association Label to HS Credentialing Record
+To complete this step we'll make a POST request to the corresponding endpoint specifying the corresponding `associationTypeId` that indicates the direction of the association and the record IDs to be associated: Contact record ID and Credentialing Record ID.
 
+Example:
+```
+POST https://api.hubapi.com/crm/v4/associations/credentialings/contact/batch/create
 
-Q: What is the association label to attach?
+Payload
+
+{
+  "inputs": [
+    {
+      "types": [
+        {
+          "associationCategory": "USER_DEFINED",
+          "associationTypeId": 62 // credentialings_to_contact_active_type_id
+        }
+      ],
+      "from": {
+        "id": "24454281832"
+      },
+      "to": {
+        "id": "101935997007"
+      }
+    }
+  ]
+}
+```
+
+### Q&A
+
+Q: What is the association label to attach to the new Credentialing record?
