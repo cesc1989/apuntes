@@ -115,3 +115,12 @@ Payload
 ### Q&A
 
 Q: What is the association label to attach to the new Credentialing record?
+
+# Tasks
+
+- Change email validation step to not return error but look up records to compare
+- Handle error when looked up records do not match
+- Setup worker to kick start Extended Sign Up
+- Add class to handle creating a new Credentialing object
+- Add class to handle associating new Credentialing object to Contact
+- Run manual tests in Alpha env
