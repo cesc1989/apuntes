@@ -11,10 +11,63 @@
             "id": "28871724d58395cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Custom_Objects_Schema_Properites_in_Setting"
+            }
+          },
+          {
+            "id": "8c2aeb733100e441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Go Live Checklist"
+            }
+          },
+          {
+            "id": "5b0f1a28bf624fa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "HS Object Schema y Settings"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "4857fa3c22969465",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64a68a48f94d54bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Instalando gemas de AWS.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Instalando gemas de AWS"
             }
           }
         ]
@@ -138,12 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Instalando gemas de AWS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Instalando gemas de AWS"
             }
           }
         ],
@@ -161,8 +215,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "28871724d58395cf",
+  "active": "64a68a48f94d54bd",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
+    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Instalando gemas de AWS.md",
+    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
+    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
@@ -174,8 +235,6 @@
     "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
-    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
     "Luna/Patient_Self_Report/upgrades/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/License Object - Mapeo de Secciones y Propiedades.md",
@@ -187,10 +246,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Ruby 3.1.0 - Notes ✅.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
@@ -208,7 +263,6 @@
     "Luna/Backend/Protocols",
     "Luna/Backend/KX-Modifier",
     "Luna/Patient_Self_Report/issues-and-debugging",
-    "Luna/Patient_Self_Report/upgrades",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
