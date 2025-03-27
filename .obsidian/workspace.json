@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e3af3003fa8bf256",
+        "id": "bd31708467672b5b",
         "type": "tabs",
         "children": [
           {
-            "id": "0497118f4e6ea612",
+            "id": "28871724d58395cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Pruebas en Alpha"
+              "title": "New tab"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pruebas en Alpha"
+              "title": "Outline"
             }
           }
         ],
@@ -166,8 +161,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0497118f4e6ea612",
+  "active": "28871724d58395cf",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
+    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
@@ -180,9 +177,8 @@
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
     "Luna/Patient_Self_Report/upgrades/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
-    "Luna/Therapist_Signup/Attestation Form/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Therapist_Signup/Attestation Form/License Object - Mapeo de Secciones y Propiedades.md",
+    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/License Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
@@ -195,7 +191,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
