@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e8364559d70874",
+        "id": "e3af3003fa8bf256",
         "type": "tabs",
         "children": [
           {
-            "id": "a9515504542e5a8e",
+            "id": "0497118f4e6ea612",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
+                "file": "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Extended Sign Up"
+              "title": "Pruebas en Alpha"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
+                "file": "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Extended Sign Up"
+              "title": "Outline of Pruebas en Alpha"
             }
           }
         ],
@@ -166,11 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9515504542e5a8e",
+  "active": "0497118f4e6ea612",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
+    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
+    "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
+    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
+    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
+    "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
+    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
     "Luna/Patient_Self_Report/upgrades/Migrando_Patient_Self_Report_a_Ruby_3_0_6.md",
@@ -190,11 +196,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
-    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Lies_of_Object_Oriented_Programming_-_Avdi_Grimm.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
     "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
