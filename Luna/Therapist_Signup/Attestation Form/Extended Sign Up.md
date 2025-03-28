@@ -5,11 +5,11 @@ When Therapists visit the `/sign-up` page and submit the form with their email a
 1. They successfully sign the contract and can continue to the Credentialing Form
 2. They are unable to sign the contract because the email is already in use
 
-The second situation happens because, at the database level, we enforce a constraint to prevent a single email address to be used multiple times. This means that an email address that, for some reason, was previously used to sign a contract, cannot be used again in case a Therapist returns or if they were created in Hubspot with a different email address.
+The second situation happens because, at the database level, we enforce a constraint to prevent a single email address to be used multiple times. This means that an email address that, for some reason, was previously used to sign a contract cannot be used again in case a Therapist returns or if they were created in Hubspot with a different email address.
 
 To circumvent this blocker, therapists use the same email address but add a suffix to make it "unique". For example, "takenemail+1@gmail.com". The problem with this work around is that it creates a new Contact in Hubspot which later have to be merged to the original intended Contact. This create a lot of manual work.
 
-Now that Attestation Form and the new Hubspot Object Model are released we can provide a decent solution to this email problem. The solution relies on using the Hubspot Credentialing Object.
+Now that the Attestation Form and the new Hubspot Object Model are released we can provide a decent solution to this email problem. The solution relies on using the Hubspot Credentialing Object.
 
 ## Extended Sign Up Flow
 
@@ -115,6 +115,26 @@ Payload
 ### Q&A
 
 Q: What is the association label to attach to the new Credentialing record?
+
+# Additional Considerations
+
+## Regular Sign Up alongside Extended Sign Up
+
+Extended Sign Up will happen in a background job branched off the regular Sign Up process. This means a new signed contract PDF file will be generated, emailed to the therapist, and uploaded to their S3 folder.
+
+Any other thing that is done as part of a Regular Sign Up will be done as well after Extended Sign Up is triggered.
+
+## Pre-populate email input field from URL
+
+To minimize chances of therapists inputing an incorrect email address, let's pre-populate the email field with a value present as a query parameter in the Sign Up form URL.
+
+For example, this URL:
+```
+https://success.alpha.getluna.com/sign-up/california?email=niceemail@gmail.com
+```
+
+will pre-fill the email input field with "niceemail@gmail.com".
+
 
 # Tasks
 
