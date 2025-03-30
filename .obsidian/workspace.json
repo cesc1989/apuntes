@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e2823761c32b7cbb",
+        "id": "0cde5a044b415338",
         "type": "tabs",
         "children": [
           {
-            "id": "e6a37d862670bb70",
+            "id": "3c219b1b4c4a9cec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "002 - Planeacion"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 002 - Planeacion"
             }
           }
         ],
@@ -161,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6a37d862670bb70",
+  "active": "3c219b1b4c4a9cec",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/001 - Nombre.md",

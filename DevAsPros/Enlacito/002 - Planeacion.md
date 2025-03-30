@@ -1,4 +1,4 @@
-# Planeacion de enlacito.co
+# Planeación de enlacito.co
 
 Estas son las cosas que hay que planificar y ordenar para ejecutar:
 
@@ -8,11 +8,11 @@ Estas son las cosas que hay que planificar y ordenar para ejecutar:
 - Decidir lo que voy a hacer en el 1er MVP
 - Ejecutar el 1er MVP
 
-## Por que prueba de servicios?
+## ¿Por qué prueba de servicios?
 
 Para entender la oferta y funcionalidades de los que ya están en el mercado.
 
-## Por que escribir libro blanco?
+## ¿Por qué escribir libro blanco?
 
 Para poner en algún lado lo que descubra al probar servicios. Todo eso lo puedo organizar en texto y hacer:
 
@@ -36,6 +36,6 @@ Debo ordenar todo el trabajo en milestones que me permitan seguir con mi vida no
 
 **Lanzamiento**: grabar algunas demos y publicar en redes. Es una continuación del ruido generado en el hito "*Ruido*".
 
-## Que va en el 1er MVP?
+## ¿Qué va en el 1er MVP?
 
 Con ayuda de lo que descubra en la etapa de prueba hare una lista de características, mas allá de acortar enlaces, para distribuirlas en milestones y decidir que ira en el 1er MVP.
