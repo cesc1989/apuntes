@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ee5d78dab05b8978",
+        "id": "e2823761c32b7cbb",
         "type": "tabs",
         "children": [
           {
-            "id": "e140f136be0f28f8",
+            "id": "e6a37d862670bb70",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e140f136be0f28f8",
+  "active": "e6a37d862670bb70",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
