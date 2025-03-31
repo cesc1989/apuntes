@@ -33,6 +33,16 @@ accepts_nested_attributes_for :medicare_care_plan_medical_necessity_responses, a
 
 Por eso lado, la vista funciona correctamente.
 
+¿Por qué cambia a has_many Medical Necessity?
+
+Por este caso:
+
+- Un Care Plan que pasa el límite en Diciembre 2025.
+- Su MDTS queda marcado como excedido.
+- Llegamos a 2026 y el MDTS se desmarca.
+- Seguirá teniendo el MDTS del año 2025
+
+
 ## En MedicareCarePlanMedicalNecessityResponse
 
 Ahora vamos a permitir varias respuestas para un mismo Care Plan, acotado a un solo MDTS.

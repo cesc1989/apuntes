@@ -22,13 +22,27 @@
             }
           },
           {
+            "id": "9f2f8f5fb47d9a60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Migraciones - PG Constraints"
+            }
+          },
+          {
             "id": "ae81f98b0a2946f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -36,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,9 +197,10 @@
   },
   "active": "ae81f98b0a2946f9",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
@@ -194,7 +209,6 @@
     "Luna/Therapist_Signup/Hubspot to Credentialing - Two-way Sync.md",
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
     "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/License Object - Mapeo de Secciones y Propiedades.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
