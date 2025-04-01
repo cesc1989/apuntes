@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4d203e56ad1aac73",
+        "id": "d1c12bb0648e4f73",
         "type": "tabs",
         "children": [
           {
-            "id": "1e2579a871022f84",
+            "id": "eaf8655e07cfe695",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Asociaciones - KX Modifier"
-            }
-          },
-          {
-            "id": "9f2f8f5fb47d9a60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Migraciones - PG Constraints"
-            }
-          },
-          {
-            "id": "ae81f98b0a2946f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "KX Modifier - Cambio de Asociación"
-            }
-          },
-          {
-            "id": "d98ad0cd5fa7bd39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Hubspot to Credentialing - Two-way Sync.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hubspot to Credentialing - Two-way Sync"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exists?",
+                "query": "parameters",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Hubspot to Credentialing - Two-way Sync.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hubspot to Credentialing - Two-way Sync"
+              "title": "Outline"
             }
           }
         ],
@@ -209,18 +161,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d98ad0cd5fa7bd39",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
+    "Luna/Therapist_Signup/Hubspot to Credentialing - Two-way Sync.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
+    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_2.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
+    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
+    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-    "Luna/Therapist_Signup/Hubspot to Credentialing - Two-way Sync.md",
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
@@ -229,17 +190,8 @@
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Instalando gemas de AWS.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes_Rails_Parte - 2.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones_Rails_-_Therapists_Forms.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
-    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
-    "Luna/Clinical_Dashboard/Pruebas en Alpha.md",
-    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
-    "Luna/Clinical_Dashboard/Error_tracking_for_Engagement_Metrics.md",
-    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
-    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
-    "Luna/Clinical_Dashboard/Why_use_Age_Distribution_for_“total_patients_count.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Therapist_Signup/Attestation Form/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
     "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",

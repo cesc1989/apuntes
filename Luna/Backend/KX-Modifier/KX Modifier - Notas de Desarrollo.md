@@ -270,6 +270,8 @@ Para hacerlo hay que usar el correo del Therapist. En mí caso, para probar esta
 
 ## Ejecutar Mutaciones en GraphiQL
 
+TBC.
+
 # Peticiones en GraphQL desde Postman
 
 El endpoint para probar es `POST /graphql`. Hay que pasar las siguientes cabeceras de autenticación y authorización:
