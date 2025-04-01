@@ -167,3 +167,72 @@ Así se puede ver la zona horaria que tiene la aplicación Rails:
 ```ruby
 Time.zone
 ```
+
+# Error al tratar de convertir `ActionController::UnfilteredParameters` a un hash
+
+Tengo este controlador:
+```ruby
+class TherapistHubspotWebhookController < Api::BaseHubspotWebhookController
+  def create
+    SyncHubspot.new(params.to_h).update
+
+    head :ok
+  end
+end
+```
+
+De esa forma da este error:
+```
+ActionController::UnfilteredParameters:
+       unable to convert unpermitted parameters to hash
+```
+
+Esto dicen los docs:
+
+> Raised when a `Parameters` instance is not marked as permitted and an operation to transform it to hash is called.
+```ruby
+params = ActionController::Parameters.new(a: "123", b: "456")
+params.to_h
+# => ActionController::UnfilteredParameters: unable to convert unpermitted parameters to hash
+```
+
+Este cambio está desde Rails 5. En [este PR](https://github.com/rails/rails/pull/28734) se introdujo dicho cambio para levantar esa excepción.
+
+## Yendo a la solución
+
+Si hago esto:
+```ruby
+params.permit.to_h
+```
+
+Se termina devolviendo un hash vacío.
+
+Esto funciona a medias:
+```ruby
+params.permit(:vid, :properties).to_h
+# => {"vid"=>"12345"}
+```
+
+Y no hay forma sencilla de permitir el hash de `properties` porque pueden venir todas o unas cuentas propiedades desde Hubspot.
+
+Necesito poder permitir cualquier cosa.
+
+## Permitiendo todo
+
+Una forma de permitir todo en la petición es así:
+```ruby
+params.permit!.to_h
+# => {"vid"=>"12345", "properties"=>{"firstname"=>{"value"=>"Joy"}, "lastname"=>{"value"=>"Boy"}}, "format"=>:json, "controller"=>"api/v2/external/therapist_hubspot_webhook", "action"=>"create"}
+```
+
+O de esta forma:
+```ruby
+params.to_enum.to_h
+{"vid"=>"12345", "properties"=>#<ActionController::Parameters {"firstname"=>#<ActionController::Parameters {"value"=>"Joy"} permitted: true>, "lastname"=>#<ActionController::Parameters {"value"=>"Boy"} permitted: true>} permitted: true>, "format"=>:json, "controller"=>"api/v2/external/therapist_hubspot_webhook", "action"=>"create"}
+```
+
+O esa otra:
+```ruby
+params.to_unsafe_h
+{"vid"=>"12345", "properties"=>{"firstname"=>{"value"=>"Joy"}, "lastname"=>{"value"=>"Boy"}}, "format"=>:json, "controller"=>"api/v2/external/therapist_hubspot_webhook", "action"=>"create"}
+```
