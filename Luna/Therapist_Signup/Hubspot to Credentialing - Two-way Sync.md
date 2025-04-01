@@ -46,3 +46,34 @@ The goal here is to be able to compare the receive ID with any of the setting re
 Once the object owning the properties is identified, we can distribute incoming properties to corresponding records in the DB.
 
 This needs a table to match Custom Objects properties to DB tables and columns.
+
+# Example Webhook Payload
+
+This is seen in some Edge tests:
+```ruby
+{
+  "vid" => "1234",
+  "properties" => {
+    "therapist_or_patient_" => { "value" => "Therapist" },
+    "firstname" => { "value" => "Squirty" },
+    "lastname" => { "value" => "McFlurry" },
+    "email" => { "value" => "Squirty@McFlurry.com" },
+    "gender" => { "value" => "male" },
+    "phone" => { "value" => "+1 (555) 555-5555" },
+    "date_of_birth" => { "value" => "651033111000" },
+    "desired_weekly_appointments" => { "value" => "5" },
+    "desired_signature" => { "value" => "JT, DD" },
+    "pet_allergies" => { "value" => "yes" },
+    "bank_account_type" => { "value" => "business" },
+    "specialties_credentialing_form" => { "value" => "Geriatrics,Neurological,CRPS" },
+    "address" => { "value" => "123 Fake St., #333" },
+    "city" => { "value" => "Oakland" },
+    "state" => { "value" => "California" },
+    "zip" => { "value" => "94102" },
+    "treating_street_address" => { "value" => "650 Gough Street West, Apt A" },
+    "treating_city" => { "value" => "San Francisco" },
+    "treating_state" => { "value" => "California" },
+    "treating_postal_code" => { "value" => "94555" }
+  }
+}
+```
