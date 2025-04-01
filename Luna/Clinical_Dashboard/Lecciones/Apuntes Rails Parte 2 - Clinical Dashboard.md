@@ -33,6 +33,9 @@ Sidekiq.strict_args!
 
 Habrá error porque ese método devuelve un Hash con acceso indeferente. Toca usar la versión que devuelve una instancia de Hash.
 
+> [!Note]
+> Relacionado pero no hace lo mismo. [[Apuntes Rails Parte 2 - Therapist Signup#Error al tratar de convertir `ActionController UnfilteredParameters` a un hash]]
+
 # Crear tabla en migración solo si no existe
 
 #rails_migrations #if_not_exists
