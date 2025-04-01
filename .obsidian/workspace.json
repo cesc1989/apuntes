@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes Rails Parte 2 - Clinical Dashboard"
+            }
+          },
+          {
+            "id": "d55147b0036715b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 2 - Therapist Signup.md",
                 "mode": "preview",
                 "source": true
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parameters",
+                "query": "to_h",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 2 - Therapist Signup.md",
+                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Rails Parte 2 - Therapist Signup"
+              "title": "Outline of Apuntes Rails Parte 2 - Clinical Dashboard"
             }
           }
         ],
@@ -168,8 +182,9 @@
   },
   "active": "eaf8655e07cfe695",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 2 - Therapist Signup.md",
+    "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones RSpec - Therapists Signup.md",
@@ -184,7 +199,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
-    "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_2.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes_Rails_-_Parte_1.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
