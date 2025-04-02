@@ -2,9 +2,13 @@
 
 Diferentes pruebas en Alpha. También considera desde Edge.
 
-# Enviar link de Dashboard
+# Enviar enlace de Dashboard
 
-Algunos providers, en la vista de detalle tienen un botón "Send Physician Portal Email"
+Algunos providers, en la vista de detalle tienen un botón "Send Physician Portal Email".
+
+## Providers configurados
+
+El provider "Luna Care, Inc. (Tulsa)" _[ver](https://luxe.alpha.getluna.com/admin/clinics/fe87080f-655b-4c2a-9040-b32e427ff70b)_ muestra el botón mencionado en su página de detalle.
 
 # Abrir link de Dashboard
 
