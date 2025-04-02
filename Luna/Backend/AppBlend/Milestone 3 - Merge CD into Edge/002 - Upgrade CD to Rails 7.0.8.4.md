@@ -1,5 +1,7 @@
 # Upgrade Clinical Dashboard to Rails 7.0.8.4
 
+# Download CSV Data to Email
+
 Everything looks fine but the email with the CSV of Recent Patients data does not arrive.
 
 The whole flow looks good but no email in inbox.
@@ -77,3 +79,9 @@ tients_csv_download_link", "deliver_now", {:args=>["https://luna-alpha-workloads
 ```
 
 So it's all fine. It's more of an Edge issue in Alpha.
+
+## The problem is the mailers queue in alpha
+
+It's stuck with lots of jobs to complete:
+
+![[01.download.data.email.in.queue.png]]
