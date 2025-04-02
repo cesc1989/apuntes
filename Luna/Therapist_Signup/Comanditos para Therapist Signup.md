@@ -135,3 +135,5 @@ bundle exec rake therapist:create_local_for_tests
 # Otros Comanditos
 
 El de Patient Self Report -> [[Comanditos para Patient Self Report]]
+
+El de Clinical Dashboad -> [[Comanditos para Clinical Dashboard]]
