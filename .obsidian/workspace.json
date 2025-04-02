@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d1c12bb0648e4f73",
+        "id": "0778e0f5e92e5f82",
         "type": "tabs",
         "children": [
           {
-            "id": "eaf8655e07cfe695",
+            "id": "8fe47090ba3928f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes Rails Parte 2 - Clinical Dashboard"
-            }
-          },
-          {
-            "id": "d55147b0036715b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 2 - Therapist Signup.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes Rails Parte 2 - Therapist Signup"
+              "title": "New tab"
             }
           }
         ]
@@ -156,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Rails Parte 2 - Clinical Dashboard"
+              "title": "Outline"
             }
           }
         ],
@@ -180,8 +161,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eaf8655e07cfe695",
+  "active": "8fe47090ba3928f6",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 2 - Therapist Signup.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
@@ -209,7 +191,6 @@
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
-    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
     "Luna/Therapist_Signup/Attestation Form/attachments",
