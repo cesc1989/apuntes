@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pruebas en Alpha - CD y Edge"
+              "title": "002 - Upgrade CD to Rails 7.0.8.4"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pruebas en Alpha - CD y Edge"
+              "title": "Outline of 002 - Upgrade CD to Rails 7.0.8.4"
             }
           }
         ],
@@ -168,6 +168,9 @@
   },
   "active": "63ca1a20dd77a5fe",
   "lastOpenFiles": [
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
+    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
@@ -176,7 +179,6 @@
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 1.md",
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
-    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 2 - Therapist Signup.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
@@ -193,8 +195,6 @@
     "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_10_-_Turbo_2_-_Cash_Flow.md",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
