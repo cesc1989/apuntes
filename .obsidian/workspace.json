@@ -14,29 +14,14 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Comanditos para Therapist Signup"
             }
-          },
-          {
-            "id": "a0047e7fdc1f5f15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comanditos para Clinical Dashboard"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Clinical Dashboard"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -181,10 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0047e7fdc1f5f15",
+  "active": "7801625f1db10d32",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 1.md",
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
