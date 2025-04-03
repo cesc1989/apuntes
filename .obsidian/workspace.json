@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0eb016b42e6a3786",
+        "id": "caf94e7462f12806",
         "type": "tabs",
         "children": [
           {
-            "id": "aa795ff7f1b07fca",
+            "id": "519cd8ec9368d3ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
+                "file": "DevAsPros/Enlacito/Otros Acortadores.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Upgrade CD to Rails 7.1.4"
-            }
-          },
-          {
-            "id": "af560c14efa567d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Upgrade to Rails 7.0.x Notes ✅"
+              "title": "Otros Acortadores"
             }
           }
         ]
@@ -156,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
+                "file": "DevAsPros/Enlacito/Otros Acortadores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Upgrade CD to Rails 7.1.4"
+              "title": "Outline of Otros Acortadores"
             }
           }
         ],
@@ -180,8 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa795ff7f1b07fca",
+  "active": "519cd8ec9368d3ac",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/Otros Acortadores.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
+    "DevAsPros/Enlacito/001 - Nombre.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
@@ -202,16 +197,7 @@
     "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 2 - Therapist Signup.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 2 - Clinical Dashboard.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones RSpec - Therapists Signup.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Instalando gemas de AWS.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
-    "Luna/Therapist_Signup/Hubspot to Credentialing - Two-way Sync.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
