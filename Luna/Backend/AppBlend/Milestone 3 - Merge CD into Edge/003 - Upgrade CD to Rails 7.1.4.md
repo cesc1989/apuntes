@@ -37,9 +37,9 @@ Una vez lo cambio a `unprocessable_content` las pruebas pasan.
 
 Explicado en [rspec-rails](https://github.com/rspec/rspec-rails/issues/2763).
 
-# Error al cargar `app/lib/periodic_jobs.rb`
+# Error al cargar `app/lib/periodic_jobs.rb` en inicializador
 
-Clinical Dashboard no puede cargar tal archivo en el inicializador de Sidekiq. La configuración es la misma que en Edge pero ahí no da problema.
+Clinical Dashboard *no puede cargar tal archivo en el inicializador de Sidekiq*. La configuración es la misma que en Edge pero ahí no da problema.
 
 Este era el error:
 ```
@@ -48,9 +48,7 @@ bundler: failed to load command: sidekiq (/Users/francisco/.gem/ruby/3.1.6/bin/s
 /Users/francisco/.gem/ruby/3.1.6/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require': cannot load such file -- periodic_jobs (LoadError)
 ```
 
-¿Por qué?
-
-Por que en CD se está cargando los defaults para Rails 7.1. En cambio en Edge para Rails 6.0:
+¿Por qué no da problema en Edge? Por que en CD se está cargando los defaults para Rails 7.1. En cambio en Edge para Rails 6.0:
 ```ruby
 module ClinicalDashboardBackend
   class Application < Rails::Application
@@ -103,6 +101,35 @@ Posibles causas:
 
 - Zeitwerk no reconoce el archivo
 - Sidekiq está cargando antes que Rails
+
+## Usando callback de inicialización
+
+Con los callbacks de inicialización de Rails se puede hacer que se espera a la carga completa del framework.
+
+Probé esto y tampoco funcionó:
+```ruby
+Rails.application.config.after_initialize do
+  require "periodic_jobs"
+  config.periodic(&PeriodicJobs::PERIODIC_JOBS)
+end
+```
+
+En cambio esto sí funcionó:
+```ruby
+Rails.application.config.after_initialize do
+  Rails.application.eager_load!
+
+  config.periodic(&PeriodicJobs::PERIODIC_JOBS)
+end
+```
+
+¿Por qué?
+
+Según chatgpt, la carpeta `app/lib`, para Rails, no contiene código que normalmente sería de la aplicación por lo tanto no hace tanto esfuerzo en que se cargue como el resto de carpetas.
+
+> [!Note]
+> A falta de confirmación, me parece que gpt está confundieno `./lib` con `app/lib`
+
 
 
 ## Solución: requerir con ruta absoluta

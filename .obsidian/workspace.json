@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "003 - Upgrade CD to Rails 7.1.4"
             }
+          },
+          {
+            "id": "af560c14efa567d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Upgrade to Rails 7.0.x Notes ✅"
+            }
           }
         ]
       }
@@ -168,9 +182,11 @@
   },
   "active": "aa795ff7f1b07fca",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
+    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.0.8.4 ✅.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/01.download.data.email.in.queue.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/untitled folder",
@@ -196,8 +212,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
-    "Luna/Patient_Self_Report/Lecciones_Patients_Forms/Lecciones_Ruby_-_Luna_Patients.md",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
