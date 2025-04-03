@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "Otros Acortadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Otros Acortadores.md",
+                "file": "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Otros Acortadores"
+              "title": "Outline of Modelo y Arquitectura - Enlacito"
             }
           }
         ],
@@ -181,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b72165748549938d",
+  "active": "519cd8ec9368d3ac",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
+    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
