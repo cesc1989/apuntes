@@ -36,3 +36,79 @@ Rack::Utils::HTTP_STATUS_CODES
 Una vez lo cambio a `unprocessable_content` las pruebas pasan.
 
 Explicado en [rspec-rails](https://github.com/rspec/rspec-rails/issues/2763).
+
+# Error al cargar `app/lib/periodic_jobs.rb`
+
+Clinical Dashboard no puede cargar tal archivo en el inicializador de Sidekiq. La configuración es la misma que en Edge pero ahí no da problema.
+
+Este era el error:
+```
+bundler: failed to load command: sidekiq (/Users/francisco/.gem/ruby/3.1.6/bin/sidekiq)
+
+/Users/francisco/.gem/ruby/3.1.6/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require': cannot load such file -- periodic_jobs (LoadError)
+```
+
+¿Por qué?
+
+Por que en CD se está cargando los defaults para Rails 7.1. En cambio en Edge para Rails 6.0:
+```ruby
+module ClinicalDashboardBackend
+  class Application < Rails::Application
+    # Initialize configuration defaults for originally generated Rails version.
+    config.load_defaults 7.1
+  end
+end
+
+module LunaApi
+  class Application < Rails::Application
+    # Initialize configuration defaults for Rails 6.0 and below.
+    config.load_defaults 6.0
+  end
+end
+```
+
+## eagerload_paths y autoload_paths
+
+Probé esto en `config/application.rb` pero no funcaba:
+```ruby
+config.autoload_paths << Rails.root.join("app/lib")
+config.eager_load_paths << Rails.root.join("app/lib")
+```
+
+Esto salía con o sin esas líneas:
+```ruby
+ap ActiveSupport::Dependencies.autoload_paths
+[
+    [ 0] "/Users/francisco/projects/luna-project/provider-portal/lib",
+    [ 1] "/Users/francisco/projects/luna-project/provider-portal/app/controllers",
+    [ 2] "/Users/francisco/projects/luna-project/provider-portal/app/controllers/concerns",
+    [ 3] "/Users/francisco/projects/luna-project/provider-portal/app/exceptions",
+    [ 4] "/Users/francisco/projects/luna-project/provider-portal/app/helpers",
+    [ 5] "/Users/francisco/projects/luna-project/provider-portal/app/lib",
+    [ 6] "/Users/francisco/projects/luna-project/provider-portal/app/mailers",
+    [ 7] "/Users/francisco/projects/luna-project/provider-portal/app/models",
+    [ 8] "/Users/francisco/projects/luna-project/provider-portal/app/models/concerns",
+    [ 9] "/Users/francisco/projects/luna-project/provider-portal/app/services",
+    [10] "/Users/francisco/projects/luna-project/provider-portal/app/workers",
+    [11] "/Users/francisco/.gem/ruby/3.1.6/gems/sentry-rails-5.10.0/app/jobs",
+    [12] "/Users/francisco/.gem/ruby/3.1.6/gems/devise-4.8.1/app/controllers",
+    [13] "/Users/francisco/.gem/ruby/3.1.6/gems/devise-4.8.1/app/helpers",
+    [14] "/Users/francisco/.gem/ruby/3.1.6/gems/devise-4.8.1/app/mailers"
+]
+```
+
+¿Por qué si el directorio está ahí no se puede cargar el archivo?
+
+Posibles causas:
+
+- Zeitwerk no reconoce el archivo
+- Sidekiq está cargando antes que Rails
+
+
+## Solución: requerir con ruta absoluta
+
+Tocó hacer así para solventar:
+```ruby
+require Rails.root.join("app/lib/periodic_jobs.rb")
+```
+
