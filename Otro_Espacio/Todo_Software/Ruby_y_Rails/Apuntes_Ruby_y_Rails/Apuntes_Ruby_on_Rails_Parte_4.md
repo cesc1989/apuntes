@@ -807,3 +807,18 @@ ap sorted_schedules
 ```
 
 Esto lo vi en un PR en Luna y luego le pregunté a ChatGPT.
+
+# Listar tablas y columnas desde la consola de Rails
+
+Hice un rename de una tabla y quería verificar en alpha que se hubiera efectuado. Como no puedo acceder a psql necesitaba probar con la consola. Se hace así.
+
+Para tablas:
+```ruby
+ActiveRecord::Base.connection.tables
+=> ["activities", "ar_internal_metadata", "execution_ids", "jwt_denylist", "schema_migrations", "clinical_dashboard_users", "dashboards", "links"]
+```
+
+Para columnas en una tabla:
+```ruby
+ActiveRecord::Base.connection.columns('clinical_dashboard_users').map(&:name)
+```
