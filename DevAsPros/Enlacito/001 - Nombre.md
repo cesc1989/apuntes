@@ -24,6 +24,6 @@
 - 1 ano: 48K COP
 - 2 anos: 111K COP
 
-## La eleccion
+## 🌟 La elección 🌟
 
 Compre `enlacito.co` por 181.608 COP.

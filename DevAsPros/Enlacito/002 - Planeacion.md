@@ -2,11 +2,11 @@
 
 Estas son las cosas que hay que planificar y ordenar para ejecutar:
 
-- Prueba de servicios (capturas de pantalla, diseño, precios)
-- Escribir libro blanco (5 alternativas)
-- Planificar en forma de milestones y crear tablero en trello
-- Decidir lo que voy a hacer en el 1er MVP
-- Ejecutar el 1er MVP
+- [ ] Prueba de servicios (capturas de pantalla, diseño, precios)
+- [ ] Escribir libro blanco (5 alternativas)
+- [ ] Planificar en forma de milestones y crear tablero en trello
+- [ ] Decidir lo que voy a hacer en el 1er MVP
+- [ ] Ejecutar el 1er MVP
 
 ## ¿Por qué prueba de servicios?
 

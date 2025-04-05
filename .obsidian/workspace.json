@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d476f4f5f7ca1c48",
+        "id": "5abc5ac366fb72c0",
         "type": "tabs",
         "children": [
           {
-            "id": "f42f6c028b6d5be6",
+            "id": "e9fcb7b71c7b69fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Rails on Rails - Parte 1"
+              "title": "002 - Planeacion"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Rails on Rails - Parte 1"
+              "title": "Outline of 002 - Planeacion"
             }
           }
         ],
@@ -166,20 +166,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f42f6c028b6d5be6",
+  "active": "e9fcb7b71c7b69fd",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/001 - Nombre.md",
+    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "DevAsPros/Enlacito/001 - Nombre.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
@@ -196,7 +197,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
-    "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 1.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
