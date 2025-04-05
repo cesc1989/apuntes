@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f5158b8043c6e1a8",
+        "id": "d476f4f5f7ca1c48",
         "type": "tabs",
         "children": [
           {
-            "id": "29a89938762d9153",
+            "id": "f42f6c028b6d5be6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Rails on Rails - Parte 1"
             }
           }
         ]
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
+                "file": "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Upgrade to Rails 7.0.x Notes ✅"
+              "title": "Outline of Apuntes Rails on Rails - Parte 1"
             }
           }
         ],
@@ -162,21 +166,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "f42f6c028b6d5be6",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/Otros Acortadores.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
+    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
-    "DevAsPros/Enlacito/Otros Acortadores.md",
-    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.0.8.4 ✅.md",

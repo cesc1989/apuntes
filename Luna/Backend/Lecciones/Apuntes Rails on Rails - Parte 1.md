@@ -196,3 +196,71 @@ enum kind: {
 	escalation_email_recipient: 1
 }
 ```
+
+# Doble negación al evaluar una salida
+
+Este método me llamó la atención:
+```ruby
+def chart_signed?
+  !!chart&.signed?
+end
+```
+
+¿Por qué la doble negación? Es para forzar que la función retorne un valor true/false por obligación.
+
+Podría pasar que `chart` sea `nil` entonces sin la doble negación la función podría devolver true/false/nil. Lo que se quiere es que devuelva true o false.
+
+Ejemplos.
+
+Sin doble negación:
+```ruby
+Appointment.first.chart
+=> nil
+
+Appointment.first.chart_signed?
+=> nil
+```
+
+Con doble negación:
+```ruby
+Appointment.first.chart
+=> nil
+
+Appointment.first.chart_signed?
+=> false
+```
+
+
+# Cómo hacer para que no se retorne la relación en una iteración con each
+
+Quería hacer que al correr esto en una consola de Rails:
+```ruby
+apos.each do |apo|
+  puts "Revisando condiciones para appt: #{apo.id}"
+  puts "Completed? #{apo.completed?}"
+  puts "firmado? #{apo.chart_signed?}"
+  puts "firmable? #{apo.chart_signable?}"
+  puts "medicare? #{apo.episode.straight_medicare?}"
+  puts "excedió límite? #{apo.medicare_dollar_threshold_status&.threshold_exceeded?}"
+  puts "ya tiene respuesta? #{apo.medicare_care_plan_medical_necessity_response.present?}"
+  puts "fin"
+end
+```
+
+No retornara la relación de Appointment al terminar.
+
+Para lograrlo usé este truco que me dio ChatGPT:
+```ruby
+apos.each do |apo|
+  puts "Revisando condiciones para appt: #{apo.id}"
+  puts "Completed? #{apo.completed?}"
+  puts "firmado? #{apo.chart_signed?}"
+  puts "firmable? #{apo.chart_signable?}"
+  puts "medicare? #{apo.episode.straight_medicare?}"
+  puts "excedió límite? #{apo.medicare_dollar_threshold_status&.threshold_exceeded?}"
+  puts "ya tiene respuesta? #{apo.medicare_care_plan_medical_necessity_response.present?}"
+  puts "fin"
+end; nil
+```
+
+Terminar el script devolviendo nil. Buenísimo.
