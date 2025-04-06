@@ -11,10 +11,14 @@
             "id": "abcd4486e7c43c56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Teams should be an MVP feature"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Teams should be an MVP feature"
             }
           }
         ],
@@ -161,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "abcd4486e7c43c56",
   "lastOpenFiles": [
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
@@ -208,7 +214,6 @@
     "Luna/Backend/KX-Modifier/attachments",
     "Luna/Backend/KX-Modifier/untitled folder",
     "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
-    "Luna/Grimoire",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
