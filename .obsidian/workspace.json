@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5abc5ac366fb72c0",
+        "id": "183cacd2201c02e4",
         "type": "tabs",
         "children": [
           {
-            "id": "e9fcb7b71c7b69fd",
+            "id": "abcd4486e7c43c56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "002 - Planeacion"
+              "title": "New tab"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - Planeacion"
+              "title": "Outline"
             }
           }
         ],
@@ -166,11 +161,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9fcb7b71c7b69fd",
+  "active": "abcd4486e7c43c56",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
