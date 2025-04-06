@@ -31,3 +31,5 @@ El autor del artículo explica como está formado este modelo en [Bullet Train](
 ## Modelo Membership y Organization en Bullet Train
 
 Vayamos al código y veamos.
+
+TBC.
