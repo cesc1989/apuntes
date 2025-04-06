@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"592d194b95557e0b","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_En_detalle.md","x":80,"y":-1400,"width":400,"height":400},
-		{"id":"8f621f759fa044b4","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/No me gusta de GraphQL.md","x":-520,"y":-1400,"width":400,"height":400},
-		{"id":"ac84e124d111f9cd","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_-_Arquitectura.md","x":-120,"y":-820,"width":400,"height":400},
-		{"id":"557a5f8fd868225e","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL_Notas,_apuntes_y_mucho_más/GraphQL_Ruby_-_Bases_y_Conceptos.md","x":480,"y":-820,"width":400,"height":400}
+		{"id":"592d194b95557e0b","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL/GraphQL_Ruby_-_En_detalle.md","x":80,"y":-1400,"width":400,"height":400},
+		{"id":"8f621f759fa044b4","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL/No me gusta de GraphQL.md","x":-520,"y":-1400,"width":400,"height":400},
+		{"id":"ac84e124d111f9cd","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL/GraphQL_-_Arquitectura.md","x":-120,"y":-820,"width":400,"height":400},
+		{"id":"557a5f8fd868225e","type":"file","file":"Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/GraphQL/GraphQL_Ruby_-_Bases_y_Conceptos.md","x":480,"y":-820,"width":400,"height":400}
 	],
 	"edges":[]
 }
