@@ -51,7 +51,7 @@ Your only objective is to **hook readers** into reading the rest of the article.
 - A great intro—like an electrifying opening to a film—buys **goodwill** with readers.
 - A hook is any *half*-told story.
 
-![find your hooks](./attachments/01.writing.well.hooks.png)
+![find your hooks](01.writing.well.hooks.png)
 
 Hooks serve two purposes:
 
