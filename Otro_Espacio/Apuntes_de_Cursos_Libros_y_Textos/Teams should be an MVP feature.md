@@ -32,4 +32,61 @@ El autor del artículo explica como está formado este modelo en [Bullet Train](
 
 Vayamos al código y veamos.
 
-TBC.
+### Modelo Team
+
+Este modelo tiene un concern que incluye todas las relaciones. Para ver todo lo que el concern agrega tuve que correr este comando:
+```
+bin/resolve Teams::Base --open
+
+Absolute path:
+  /home/cesc/.gem/ruby/3.2.5/gems/bullet_train-1.19.2/app/models/concerns/teams/base.rb
+
+Package name:
+  bullet_train-1.19.2
+
+Opening `/home/cesc/.gem/ruby/3.2.5/gems/bullet_train-1.19.2/app/models/concerns/teams/base.rb`.
+```
+
+Estas son las asociaciones que agrega ese concern:
+```ruby
+module Teams::Base
+  extend ActiveSupport::Concern
+
+  included do
+    has_many :memberships, dependent: :destroy
+    has_many :users, through: :memberships
+    has_many :invitations
+  end
+end
+```
+
+### Modelo Membership
+
+```ruby
+module Memberships::Base
+  extend ActiveSupport::Concern
+
+  included do
+    belongs_to :user, optional: true
+    belongs_to :team
+    belongs_to :invitation, optional: true, dependent: :destroy
+    belongs_to :added_by, class_name: "Membership", optional: true
+    belongs_to :platform_agent_of, class_name: "Platform::Application", optional: true
+  end
+end
+```
+
+### Modelo Invitations
+
+```ruby
+module Invitations::Base
+  extend ActiveSupport::Concern
+
+  included do
+    belongs_to :team
+    belongs_to :from_membership, class_name: "Membership"
+    belongs_to :invitation_list, class_name: "Account::Onboarding::InvitationList", optional: true
+    has_one :membership, dependent: :nullify
+  end
+end
+```

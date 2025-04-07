@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6992052c19599227",
+        "id": "1c19cd2c66f0c11b",
         "type": "tabs",
         "children": [
           {
-            "id": "d8c094d48df5a52d",
+            "id": "8e5d53e30366bb48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entorno de Desarrollo - Parte 1"
-            }
-          },
-          {
-            "id": "55679e9f92724647",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "Teams should be an MVP feature"
             }
           }
         ]
@@ -156,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Entorno de Desarrollo - Parte 1"
+              "title": "Outline of Teams should be an MVP feature"
             }
           }
         ],
@@ -180,19 +166,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8c094d48df5a52d",
+  "active": "8e5d53e30366bb48",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
     "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
