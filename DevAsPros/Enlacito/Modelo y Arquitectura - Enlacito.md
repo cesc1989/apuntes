@@ -15,6 +15,10 @@ CREATE TABLE urls (
 
 Otros modelos -> [[Otros Acortadores#Open Source]]
 
+## Modelo Organization
+
+Hay que actualizar considerar el modelo Organization y todo lo relacionado desde el primer dia. Ver [[Teams should be an MVP feature]] para mas detalles.
+
 # Arquitectura
 
 ## Código corto para los enlaces
