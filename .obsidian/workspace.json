@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b7376c9c5c0e699",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Entorno de Desarrollo Linux - Configuracion"
-            }
-          },
-          {
             "id": "d8c094d48df5a52d",
             "type": "leaf",
             "state": {
@@ -34,9 +20,36 @@
               "icon": "lucide-file",
               "title": "Entorno de Desarrollo - Parte 1"
             }
+          },
+          {
+            "id": "0bda6e2cc1fa1e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "55679e9f92724647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,6 +197,12 @@
   "active": "d8c094d48df5a52d",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+    "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
     "DevAsPros/Enlacito/002 - Planeacion.md",
@@ -207,12 +226,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/01.download.data.email.in.queue.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/untitled folder",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",

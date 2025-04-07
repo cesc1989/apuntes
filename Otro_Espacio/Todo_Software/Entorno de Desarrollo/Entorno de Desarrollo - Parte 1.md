@@ -71,6 +71,18 @@ Ya vi el error. Para especificar una version hay que agreagarla a la instruccion
 
 > If you want a specific version, use 'postgresql-15' or similar instead of 'postgresql'
 
+## Configuracion de psql
+
+Para poder abrir `psql` con mi usuario de sistema hay que primero crear el rol como el usuario postgres. Sigue estos comandos:
+
+```
+sudo su postgres -c psql
+
+CREATE ROLE cesc SUPERUSER;
+
+ALTER ROLE cesc WITH LOGIN;
+```
+
 # Instalar libvips en Linux Mint
 
 Bullet Train sugiere este comando:
