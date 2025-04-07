@@ -51,3 +51,32 @@ $ brew unlink postgresql@16 && brew link --force postgresql@16
 Unlinking /opt/homebrew/Cellar/postgresql@16/16.4... 1683 symlinks removed.
 Linking /opt/homebrew/Cellar/postgresql@16/16.4... 1683 symlinks created.
 ```
+
+# Instalar PostgreSQL 16/17 en Linux Mint
+
+En este [tutorial dicen](https://medium.com/@mglaving/how-to-install-postgresql-16-on-linux-mint-21-d58e875fe7c6) que instalan psql 16 con esos comandos pero en el LG Gram termino instalando la version 17.
+
+Comandos:
+```
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt jammy-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install postgresql -y
+```
+
+Ya vi el error. Para especificar una version hay que agreagarla a la instruccion de instalacion:
+
+> If you want a specific version, use 'postgresql-15' or similar instead of 'postgresql'
+
+# Instalar libvips en Linux Mint
+
+Bullet Train sugiere este comando:
+```
+sudo apt-get install libvips
+```
+
+Y al parecer instalo todo pero el comando `bin dev/setup` de Bullet Train decia que no lo encontraba en el PATH.
+

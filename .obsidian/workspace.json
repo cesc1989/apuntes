@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "183cacd2201c02e4",
+        "id": "6992052c19599227",
         "type": "tabs",
         "children": [
           {
-            "id": "abcd4486e7c43c56",
+            "id": "4b7376c9c5c0e699",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Teams should be an MVP feature"
+              "title": "Entorno de Desarrollo Linux - Configuracion"
+            }
+          },
+          {
+            "id": "d8c094d48df5a52d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entorno de Desarrollo - Parte 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Teams should be an MVP feature"
+              "title": "Outline of Entorno de Desarrollo - Parte 1"
             }
           }
         ],
@@ -166,8 +181,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "abcd4486e7c43c56",
+  "active": "d8c094d48df5a52d",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
     "DevAsPros/Enlacito/002 - Planeacion.md",
@@ -197,7 +213,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",

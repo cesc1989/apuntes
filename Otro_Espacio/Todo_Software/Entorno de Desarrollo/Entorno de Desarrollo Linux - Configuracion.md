@@ -23,7 +23,7 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Zoom
 - [x] VLC
 - [ ] Mega CMD
-- [ ] Mega Sync
+- [x] Mega Sync
 
 ## Sistema
 
@@ -33,7 +33,7 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Dotfiles
 - [x] Git
 - [ ] Git autocompletion
-- [ ] Yarn -> https://yarnpkg.com/getting-started/install
+- [x] Yarn -> https://yarnpkg.com/getting-started/install
 - [x] Zellij -> https://zellij.dev/
 	- [x] Configura `.bashrc` para que cargue `.bash_profile`
 - [x] The Silver Searcher -> https://github.com/ggreer/the_silver_searcher
@@ -50,7 +50,7 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Sublime Text 4
 - [x] Sublime Text Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
 - [x] DBeaver 
-- [ ] PostgreSQL - v16 
+- [x] PostgreSQL - v16 
     - [Instrucciones](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) para Ubuntu / Linux Mint
 - [x] Redis
 - [x] Postman
@@ -64,7 +64,7 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Carpeta projects
 - [x] Carpeta devaspros projects
 - [x] Copia carpeta música del HDD Mugiwara
-- [ ] Sincroniza carpeta Documents
+- [x] Sincroniza carpeta Documents
 
 ## Configuración de Proyectos
 
