@@ -83,6 +83,8 @@ CREATE ROLE cesc SUPERUSER;
 ALTER ROLE cesc WITH LOGIN;
 ```
 
+Para mas ver [[Otro_Espacio/CheatSheets/postgresql/queries/README|README]]
+
 # Instalar libvips en Linux Mint
 
 Bullet Train sugiere este comando:

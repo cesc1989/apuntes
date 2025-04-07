@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "0bda6e2cc1fa1e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
             "id": "55679e9f92724647",
             "type": "leaf",
             "state": {
@@ -196,13 +182,13 @@
   },
   "active": "d8c094d48df5a52d",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
     "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
     "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
     "DevAsPros/Enlacito/002 - Planeacion.md",
