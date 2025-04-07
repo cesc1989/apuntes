@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1c19cd2c66f0c11b",
+        "id": "64f02a1775f0045f",
         "type": "tabs",
         "children": [
           {
-            "id": "8e5d53e30366bb48",
+            "id": "e0e47de2bbb73f35",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Teams should be an MVP feature"
-            }
-          },
-          {
-            "id": "983a89bf3653de29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Modelo y Arquitectura - Enlacito"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Modelo y Arquitectura - Enlacito"
+              "title": "Outline"
             }
           }
         ],
@@ -181,11 +161,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "983a89bf3653de29",
+  "active": "e0e47de2bbb73f35",
   "lastOpenFiles": [
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
     "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
