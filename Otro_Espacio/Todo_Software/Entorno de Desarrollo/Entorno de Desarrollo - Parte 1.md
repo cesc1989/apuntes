@@ -80,3 +80,8 @@ sudo apt-get install libvips
 
 Y al parecer instalo todo pero el comando `bin dev/setup` de Bullet Train decia que no lo encontraba en el PATH.
 
+Hay que instalarlo con la libreria version dev:
+```
+sudo apt-get install libvips libvips-dev
+```
+
