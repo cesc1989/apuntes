@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "64f02a1775f0045f",
+        "id": "fff8e1ba4deae1d3",
         "type": "tabs",
         "children": [
           {
-            "id": "e0e47de2bbb73f35",
+            "id": "962b053113722273",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Limpiar Código"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Limpiar Código"
             }
           }
         ],
@@ -161,21 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0e47de2bbb73f35",
+  "active": "962b053113722273",
   "lastOpenFiles": [
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
-    "Otro_Espacio/CheatSheets/postgresql/queries/README.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
-    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/psql-commands/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
-    "DevAsPros/Enlacito/Otros Acortadores.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/Otros Acortadores.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
@@ -193,6 +193,11 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/01.download.data.email.in.queue.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/untitled folder",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
