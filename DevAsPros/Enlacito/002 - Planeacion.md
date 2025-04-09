@@ -39,23 +39,3 @@ Debo ordenar todo el trabajo en milestones que me permitan seguir con mi vida no
 **MVP**: Esto es desarrollo puro y duro a partir de Bullet Train o Puntapie.
 
 **Lanzamiento**: grabar algunas demos y publicar en redes. Es una continuación del ruido generado en el hito "*Ruido*".
-
-## ¿Qué va en el MVP? 🤔
-
-Con ayuda de lo que descubra en la etapa de prueba hare una lista de características, mas allá de acortar enlaces, para distribuirlas en milestones y decidir que ira en el MVP.
-
-Lista de características para tener en cuenta para seleccionar para el MVP:
-- Iniciar/cerrar sesión
-- Gestión de equipo
-	- Esto es importante. Considera la prueba de Bullet Train o implementar el modelo Organization en Puntapie
-- CRUD de enlaces acortados
-- Copiar enlace al portapapeles
-- Buscar enlaces
-- Filtros de búsqueda (fecha)
-- Capturar meta datos para analitica
-- Etiquetas
-- Dominio personalizado
-- Generación de código QR
-- Suscripciones y Pagos
-- Registro de usuarios
-- Recordar contraseña

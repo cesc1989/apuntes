@@ -27,8 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "file": "DevAsPros/Enlacito/MVP - Enlacito.md",
                 "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "MVP - Enlacito"
+            }
+          },
+          {
+            "id": "53448a766b8467bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "file": "DevAsPros/Enlacito/MVP - Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - Planeacion"
+              "title": "Outline of MVP - Enlacito"
             }
           }
         ],
@@ -184,9 +198,10 @@
   "active": "792f415e1a6a5935",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/MVP - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
@@ -212,7 +227,6 @@
     "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
     "DevAsPros/Enlacito",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
