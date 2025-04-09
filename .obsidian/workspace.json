@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Enlacito/MVP - Enlacito.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/MVP - Enlacito.md",
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MVP - Enlacito"
+              "title": "Outline of 002 - Planeacion"
             }
           }
         ],
@@ -195,11 +195,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "792f415e1a6a5935",
+  "active": "53448a766b8467bf",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/MVP - Enlacito.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Enlacito/MVP - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
