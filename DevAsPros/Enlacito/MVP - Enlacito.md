@@ -8,7 +8,7 @@ Lista de características para tener en cuenta para seleccionar para el MVP:
 
 - Iniciar/cerrar sesión
 - Gestión de equipo
-	- Esto es importante. Considera la prueba de Bullet Train o implementar el modelo Organization en Puntapie
+	- Esto es importante. Implementar el modelo Organization en Puntapie
 - CRUD de enlaces acortados
 - Copiar enlace al portapapeles
 - Buscar enlaces
@@ -20,3 +20,4 @@ Lista de características para tener en cuenta para seleccionar para el MVP:
 - Suscripciones y Pagos
 - Registro de usuarios
 - Recordar contraseña
+- Reportar y banear enlaces
