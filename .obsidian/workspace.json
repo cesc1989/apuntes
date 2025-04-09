@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "792f415e1a6a5935",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/MVP - Enlacito.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "MVP - Enlacito"
-            }
-          },
-          {
             "id": "53448a766b8467bf",
             "type": "leaf",
             "state": {
@@ -50,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,9 +183,9 @@
   },
   "active": "53448a766b8467bf",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/MVP - Enlacito.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/MVP - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
