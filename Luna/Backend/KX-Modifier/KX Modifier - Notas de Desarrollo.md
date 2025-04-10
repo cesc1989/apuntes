@@ -434,3 +434,68 @@ Este método lo que hace es tomar un hash que tiene los valores del CSV de Candi
 Donde la llave del Hash es el ID del `Appointment` y el valor es otro hash donde se incluyen los valores que vienen desde Candid.
 
 Es en el subhash `latest_export_csv_row` de donde se puede extraer el valor para `denial_reasons`.
+
+# Sendbird
+
+Cuando la Medical Necessity es rechazada hay que enviar un mensaje a Clinical desde Sendbird.
+
+> If confirmed, ==Message will be shared **with Clinical** in Sendbird==. “FirstName LastName has indicated that care is no longer medically necessary for the patient, FirstName LastName.”
+
+Encontré una clase que interactúa con Sendbird en `app/services/sendbird.rb`. Aquí hay varios métodos para enviar mensajes como:
+
+- `send_system_message`
+- `send_ticket_message`
+- `create_clinical_conversation`
+
+Le pedí ayuda a Cursor y generó algo que luego modifiqué para ajustarlo más a la realidad:
+```ruby
+if medical_necessity_state_kind.rejected?
+	patient = appointment.patient
+	therapist = current_user.therapist
+	conversation = Conversation.find_by(patient: patient, therapist: therapist)
+
+	if conversation&.sendbird_id.present?
+		message = "#{therapist.name} has indicated that care is no longer medically necessary for the patient, #{patient.name}."
+		Sendbird.send_system_message(conversation.sendbird_id, message)
+	end
+end
+```
+
+Me queda la duda en dos cosas:
+
+- ¿Necesito buscar un `Conversation`?
+- ¿Hay que usar `send_system_message`?
+
+## ¿Necesito buscar un `Conversation`?
+
+Sí. Al parecer, este es el modelo donde se guarda la interacción entre usuarios en Sendbird.
+
+En el worker `PainLevelNotifierWorker` se puede ver:
+```ruby
+class PainLevelNotifierWorker < ApplicationWorker
+  # Send an alert when pain level is 8 or higher
+  def perform(workout_id)
+    workout = Workout.find(workout_id)
+    therapist_id = workout.exercise_program.assigned_by
+    patient = workout.exercise_program.episode.patient
+    conversation = Conversation.find_by(patient_id: patient.id, therapist_id: therapist_id)
+
+    if conversation.present?
+      Sendbird.send_system_message(
+        conversation.sendbird_id,
+        "#{patient.name} just performed a workout and had a pain rating of #{workout.pain_level}/10."
+      )
+    end
+  end
+end
+```
+
+El modelo Conversation tiene un método para empezar una conversación en Sendbird:
+```ruby
+def create_sendbird_conversation
+	SendbirdConversationCreationWorker.perform_async(self.id)
+end
+```
+
+## ¿Usar `send_system_message`?
+
