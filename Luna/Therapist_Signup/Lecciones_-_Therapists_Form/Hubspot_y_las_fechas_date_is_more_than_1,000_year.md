@@ -83,23 +83,29 @@ Enlaces:
 
 Entonces si volvemos a la conversión de 1er de Mayo de 2015:
 
-    sin_mili = date.strftime('%s')
-    # => 1430438400
-    
-    - Solo son los segundos desde la fecha Epoch.
-    - No sirve para lo que necesita Hubspot.
-    
-    actual = date.strftime('%s%3N')
-    # => 1430438400000
-    
-    - Nos da los segundos desde la fecha Epoc en milisegundos.
-    - Lo que sí necesita Hubspot.
-    
-    v2 = date.strftime('%3N')
-    # => 000
-    
-    - Solo devuelve unos milisegundos.
-    - No sirve para nada.
+```ruby
+sin_mili = date.strftime('%s')
+# => 1430438400
+```
+
+- Solo son los segundos desde la fecha Epoch.
+- No sirve para lo que necesita Hubspot.
+
+```ruby
+actual = date.strftime('%s%3N')
+# => 1430438400000
+```
+  
+- Nos da los segundos desde la fecha Epoc en milisegundos.
+- Lo que sí necesita Hubspot.
+
+```ruby
+v2 = date.strftime('%3N')
+# => 000
+```
+
+- Solo devuelve unos milisegundos.
+- No sirve para nada.
 
 
 ## ¿Por qué se da este error?
