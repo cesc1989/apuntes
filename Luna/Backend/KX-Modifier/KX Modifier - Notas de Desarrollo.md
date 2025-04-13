@@ -468,9 +468,18 @@ Me queda la duda en dos cosas:
 
 ## ¿Necesito buscar un `Conversation`?
 
-Sí. Al parecer, este es el modelo donde se guarda la interacción entre usuarios en Sendbird.
+Sí. Este es el modelo donde se guarda la interacción entre usuarios en Sendbird. Así lo podemos ver en el esquema:
+```ruby
+create_table "conversations", force: :cascade do |t|
+  t.uuid "patient_id"
+	t.uuid "therapist_id"
+	t.uuid "admin_user_id"
+	t.integer "region_id"
+  t.uuid "sendbird_id", default: -> { "uuid_generate_v4()" }, null: false
+end
+```
 
-En el worker `PainLevelNotifierWorker` se puede ver:
+En el worker `PainLevelNotifierWorker` se puede ver un ejemplo de uso:
 ```ruby
 class PainLevelNotifierWorker < ApplicationWorker
   # Send an alert when pain level is 8 or higher
@@ -490,7 +499,7 @@ class PainLevelNotifierWorker < ApplicationWorker
 end
 ```
 
-El modelo Conversation tiene un método para empezar una conversación en Sendbird:
+El modelo `Conversation` tiene un método para empezar una conversación en Sendbird:
 ```ruby
 def create_sendbird_conversation
 	SendbirdConversationCreationWorker.perform_async(self.id)

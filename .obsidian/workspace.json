@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c5dda04257efba84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "KX Modifier - Notas Generales"
-            }
-          },
-          {
             "id": "127d3a8570fb9a6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "KX Modifier - Notas de Desarrollo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,9 +168,9 @@
   },
   "active": "127d3a8570fb9a6c",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/attachments/300.sendbird.message.to.patient.png",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/attachments/300.sendbird.message.to.patient.png",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
