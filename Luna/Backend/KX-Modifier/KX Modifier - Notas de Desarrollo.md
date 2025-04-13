@@ -583,7 +583,7 @@ Donde veo varias cosas:
 
 ¿Será por aquí la cuestión?
 
-## sendbird.rb
+## Service sendbird.rb
 
 El servicio define este método:
 ```ruby
