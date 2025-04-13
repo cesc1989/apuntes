@@ -507,7 +507,93 @@ No. Dijeron que eso no es lo correcto porque eso lo que hace es enviar un mensaj
 
 ¿Cómo se hace eso?
 
-## Enviar mensaje a Clinical Team: Utilization Management
+# Enviar mensaje a Clinical Team: Utilization Management
 
+Alexis dijo:
+> uff no toy seguro, suena como una note de hubspot… no sé si se puede en sendbird solo para clinical
 
+## Modelos
 
+Encontré el modelo `SendbirdIssue` que tiene lo siguiente:
+```ruby
+# Sendbird Desk issue types we display in the "Please select your topic type" screen.
+class SendbirdIssue < ApplicationRecord
+  acts_as_list
+  belongs_to :region
+  default_scope { order(position: :asc) }
+
+  # dictates what icon to show in the app, new icons will require a new mobile release
+  enum topic_type: {
+    other: 0,
+    scheduling: 1,
+    payments: 2,
+    documentation: 3,
+    clinical: 4,
+    technical: 5,
+    therapist_success: 6,
+    clinical_escalations: 7,
+    clinical_compliance: 8
+  }
+end
+```
+
+Pero no sirve para lo que necesito según lo que dice la descripción de la clase.
+
+En la tabla `therapists` encuentro el campo `sendbird_clinical_conversation` que es un string que contiene un UUID. Al hacer una búsqueda completa por ese campo encuentro solo un resultado: `Sendbird::SendMessage::ClinicalFromAdminWorker`.
+
+```ruby
+# Send messages in the Clinical channel from the admin user to patients/therapists
+class Sendbird::SendMessage::ClinicalFromAdminWorker < ApplicationWorker
+  def perform(account_id, message)
+    # (...)
+
+    account = Account.find(account_id)
+    therapist = account.therapist
+
+    channel_url = therapist.sendbird_clinical_conversation
+    sender = therapist.region.clinical_layer_id
+
+    if account.sendbird_desk.present?
+      # (...)
+
+      sender = Setting.load("announcements_clinical_sendbird_admin")
+      channel_url = account.sendbird_announcements_conversation
+    end
+
+    Sendbird.send_message(message, channel_url, sender)
+  end
+end
+```
+
+Donde veo varias cosas:
+
+- `channel_url = therapist.sendbird_clinical_conversation`
+- `sender = therapist.region.clinical_layer_id`
+- El bloque y definición de las mismas variables dentro de `account.sendbird_desk.present?`
+- Enviar el mensaje con `send_message`
+
+## sendbird.rb
+
+El servicio define este método:
+```ruby
+def self.create_clinical_conversation(therapist)
+	new.create_clinical_conversation(therapist)
+end
+```
+
+Que tiene buen tiempo ahí pero ya no se usa.
+
+En el [commit](https://github.com/lunacare/backend/commit/d25bf3d06fa22d1139ba00cfb8d9585c9c832cc7) donde se implementó esto encuentro el código del método de instancia `create_clinical_conversation`:
+```ruby
+def create_clinical_conversation(therapist)
+	conversation_id = SecureRandom.uuid
+	therapist.update_column(:sendbird_clinical_conversation, conversation_id)
+	ids = [therapist.id, Region.clinical_layer_id]
+	conversation_data = clinical_data(therapist)
+	response = self.class.post('/group_channels', body: sendbird_body(conversation_id, conversation_data, ids).to_json)
+end
+```
+
+Ahí puedo ver el post a `/group_channels`. ¿Será por ahí? En la conversación en KX mencionan algo sobre "patterns":
+
+> The pattern to follow Pathway Escalation.
