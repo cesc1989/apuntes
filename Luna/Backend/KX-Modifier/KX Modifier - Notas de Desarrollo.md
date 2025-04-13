@@ -548,7 +548,7 @@ end
 
 Pero no sirve para lo que necesito según lo que dice la descripción de la clase.
 
-En la tabla `therapists` encuentro el campo `sendbird_clinical_conversation` que es un string que contiene un UUID. Al hacer una búsqueda completa por ese campo encuentro solo un resultado: `Sendbird::SendMessage::ClinicalFromAdminWorker`.
+En la tabla `therapists` encuentro el campo `sendbird_clinical_conversation` que es un string de tipo UUID. Al hacer una búsqueda completa por ese campo encuentro solo un resultado: `Sendbird::SendMessage::ClinicalFromAdminWorker`.
 
 ```ruby
 # Send messages in the Clinical channel from the admin user to patients/therapists
@@ -580,6 +580,8 @@ Donde veo varias cosas:
 - `sender = therapist.region.clinical_layer_id`
 - El bloque y definición de las mismas variables dentro de `account.sendbird_desk.present?`
 - Enviar el mensaje con `send_message`
+
+¿Será por aquí la cuestión?
 
 ## sendbird.rb
 
