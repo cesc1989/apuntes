@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ddc3bca5ef4656b0",
+        "id": "8f9ecfbf64f16034",
         "type": "tabs",
         "children": [
           {
-            "id": "f91a603000af7eed",
+            "id": "c5dda04257efba84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hubspot_y_las_fechas_date_is_more_than_1,000_year"
+              "title": "KX Modifier - Notas Generales"
             }
           },
           {
-            "id": "9385fea1f9f4cc90",
+            "id": "127d3a8570fb9a6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
-                "mode": "source",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Integración_con_HubSpot_-_Lecciones"
+              "title": "KX Modifier - Notas de Desarrollo"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Integración_con_HubSpot_-_Lecciones"
+              "title": "Outline of KX Modifier - Notas de Desarrollo"
             }
           }
         ],
@@ -181,16 +181,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9385fea1f9f4cc90",
+  "active": "127d3a8570fb9a6c",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/attachments/300.sendbird.message.to.patient.png",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
@@ -207,9 +209,7 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas Generales.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/01.download.data.email.in.queue.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/untitled folder",
@@ -228,7 +228,6 @@
     "Luna/Backend/KX-Modifier/attachments/201.limit.ok.png",
     "Luna/Backend/KX-Modifier/attachments",
     "Luna/Backend/KX-Modifier/untitled folder",
-    "DevAsPros/Cash_Flow/attachments/003.sidekiq.long.run.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

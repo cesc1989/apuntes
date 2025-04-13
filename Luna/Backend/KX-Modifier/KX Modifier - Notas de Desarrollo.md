@@ -499,3 +499,15 @@ end
 
 ## ¿Usar `send_system_message`?
 
+No. Dijeron que eso no es lo correcto porque eso lo que hace es enviar un mensaje al paciente:
+
+![[300.sendbird.message.to.patient.png]]
+
+> The requirements are not to send a message to the patient. It should be a message to Concierge Team: Utilization Management.
+
+¿Cómo se hace eso?
+
+## Enviar mensaje a Clinical Team: Utilization Management
+
+
+
