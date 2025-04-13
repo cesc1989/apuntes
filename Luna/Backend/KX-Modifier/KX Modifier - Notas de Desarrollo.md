@@ -435,7 +435,7 @@ Donde la llave del Hash es el ID del `Appointment` y el valor es otro hash donde
 
 Es en el subhash `latest_export_csv_row` de donde se puede extraer el valor para `denial_reasons`.
 
-# Sendbird
+# Sendbird: descubrimiento
 
 Cuando la Medical Necessity es rechazada hay que enviar un mensaje a Clinical desde Sendbird.
 
@@ -507,7 +507,7 @@ No. Dijeron que eso no es lo correcto porque eso lo que hace es enviar un mensaj
 
 ¿Cómo se hace eso?
 
-# Enviar mensaje a Clinical Team: Utilization Management
+# Sendbird: Enviar mensaje a Clinical Team: Utilization Management
 
 Alexis dijo:
 > uff no toy seguro, suena como una note de hubspot… no sé si se puede en sendbird solo para clinical
