@@ -14,7 +14,7 @@ Flipper.disable(:kx_modifier)
 
 Necesito:
 
-- Care plan *medicare* con un solo appointment
+- Care plan *medicare* con al menos un appointment
 - Su respectivo paciente
 - El therapist de ese appointment
 
@@ -58,6 +58,30 @@ MedicareCarePlanMedicalNecessityResponse.create(
   therapist: epi.initial_visit.therapist,
   medical_necessity_state: :approved
 )
+```
+
+## Crear Chart para Appointment
+
+Si el appointment no tiene chart, puedo crear uno así de fácil:
+```ruby
+appt.create_chart
+```
+
+Después le cambié el estado para que sea firmable:
+```ruby
+appt.chart.update(state:2)
+```
+
+Recuerda generar auth para el Therapist para hacer las peticiones mediante Postman:
+```ruby
+print Account.find("steve+nt@getluna.com").create_new_auth_token
+```
+
+Y hacer el proceso en la terminal para obtener las creds como cabeceras HTTP para usar en Postman:
+```bash
+$ json='hash_copiado_del_comando_anterior'
+
+$ headers_from_ruby_hash "$json"
 ```
 
 # Pruebas
