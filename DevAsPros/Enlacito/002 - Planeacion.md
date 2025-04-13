@@ -5,7 +5,7 @@ Estas son las cosas que hay que planificar y ordenar para ejecutar:
 - [x] Prueba de servicios (capturas de pantalla, diseño, precios)
 - [x] Escribir libro blanco (5 alternativas)
 - [x] Planificar en forma de milestones y crear tablero en Trello
-- [ ] Crea primera ronda de tareas en Trello
+- [x] Crea primera ronda de tareas en Trello
 - [ ] Decidir lo que voy a hacer en el MVP [[MVP - Enlacito]]
 
 Veamos.
