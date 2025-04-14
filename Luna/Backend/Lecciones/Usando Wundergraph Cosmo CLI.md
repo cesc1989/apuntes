@@ -12,15 +12,28 @@ npm install -g wgc@0.75.3
 
 ## Comandos
 
-En macos, para crear el graph a revisar se genera con:
+Para crear el graph a revisar se genera con estos comandos.
+
+En macos:
 ```bash
 bundle exec rails luna_api:federation:dump_sdl \
 && sed -i '' 's/federation__//g' luna_api_federation_sdl.graphql
 ```
 
+En Linux:
+```bash
+bundle exec rails luna_api:federation:dump_sdl \
+&& sed -i 's/federation__//g' luna_api_federation_sdl.graphql
+```
+
 Para revisar el graph:
 ```bash
-wgc subgraph check backend --schema ./luna_api_federation_sdl.graphql
+wgc subgraph check backend --namespace alpha --schema ./luna_api_federation_sdl.graphql
+```
+
+Para publicar desde local:
+```bash
+wgc subgraph publish backend --namespace alpha --schema ./luna_api_federation_sdl.graphql
 ```
 
 ## Usar NVM default
