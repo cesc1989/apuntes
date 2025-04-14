@@ -1,6 +1,23 @@
 # Instalación de WunderGraph Cosmo CLI
 
+## Usar NVM default
+
+Para crear una versión por default:
+```bash
+nvm alias default 22.14.0
+```
+
+Para usarla:
+```bash
+nvm use default
+```
+
 ## Error de permisos
+
+> [!Note]
+> Esto funciona pero ojo. Es porque no estaba usando la versión de Node de usuario sino la de root.
+>
+> Todo lo que se hizo a continuación está mal.
 
 Estuve intentando instalar con el comando sugerido por los docs:
 ```bash
