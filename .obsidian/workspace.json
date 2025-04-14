@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Lecciones/Instalar Wundergraph Cosmo CLI.md",
+                "file": "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Instalar Wundergraph Cosmo CLI"
+              "title": "Usando Wundergraph Cosmo CLI"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Lecciones/Instalar Wundergraph Cosmo CLI.md",
+                "file": "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Instalar Wundergraph Cosmo CLI"
+              "title": "Outline of Usando Wundergraph Cosmo CLI"
             }
           }
         ],
@@ -184,7 +184,7 @@
   "active": "afe44573386af994",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Luna/Backend/Lecciones/Instalar Wundergraph Cosmo CLI.md",
+    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
     "Luna/Backend/Image Magick and Alpine.md",
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/JavaScript_Enlaces_y_Temas_Importantes.md",

@@ -1,5 +1,22 @@
 # Instalación de WunderGraph Cosmo CLI
 
+Se instala así:
+```bash
+npm install -g wgc@latest
+```
+
+## Comandos
+
+Para crear el graph a revisar se genera con:
+```bash
+bundle exec rails luna_api:federation:dump_sdl
+```
+
+Para revisar el graph:
+```bash
+wgc subgraph check backend --schema ./luna_api_federation_sdl.graphql
+```
+
 ## Usar NVM default
 
 Para crear una versión por default:
@@ -12,19 +29,14 @@ Para usarla:
 nvm use default
 ```
 
-## Error de permisos
+## Error de permisos al instalar
 
 > [!Note]
 > Esto funciona pero ojo. Es porque no estaba usando la versión de Node de usuario sino la de root.
 >
 > Todo lo que se hizo a continuación está mal.
 
-Estuve intentando instalar con el comando sugerido por los docs:
-```bash
-npm install -g wgc@latest
-```
-
-Pero me daba error de permisos???
+Estuve intentando instalar con el comando sugerido por los docs pero me daba error de permisos???
 ```bash
 npm ERR! code EACCES
 npm ERR! syscall symlink
