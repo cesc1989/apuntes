@@ -69,7 +69,12 @@ appt.create_chart
 
 Después le cambié el estado para que sea firmable:
 ```ruby
-appt.chart.update(state:2)
+appt.chart.update(state: 2)
+```
+
+O para que esté firmada:
+```ruby
+appt.chart.update(state: 3)
 ```
 
 Recuerda generar auth para el Therapist para hacer las peticiones mediante Postman:
