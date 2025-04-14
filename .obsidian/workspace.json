@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Lecciones/Instalar Wundergraph Cosmo CLI.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Pruebas en Alpha"
+              "title": "Instalar Wundergraph Cosmo CLI"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Luna/Backend/Lecciones/Instalar Wundergraph Cosmo CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Notas de Desarrollo"
+              "title": "Outline of Instalar Wundergraph Cosmo CLI"
             }
           }
         ],
@@ -180,10 +181,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "127d3a8570fb9a6c",
+  "active": "afe44573386af994",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Luna/Backend/Lecciones/Instalar Wundergraph Cosmo CLI.md",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/JavaScript_Enlaces_y_Temas_Importantes.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "DevAsPros/Enlacito/Otros Acortadores.md",
     "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
@@ -195,21 +204,13 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
-    "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/004 - Modelos y Factories.md",
     "DevAsPros/Enlacito/MVP - Enlacito.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
-    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/01.download.data.email.in.queue.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/untitled folder",
