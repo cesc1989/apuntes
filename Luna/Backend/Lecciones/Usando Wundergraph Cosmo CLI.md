@@ -15,7 +15,7 @@ npm install -g wgc@0.75.3
 En macos, para crear el graph a revisar se genera con:
 ```bash
 bundle exec rails luna_api:federation:dump_sdl \
-&& sed -i '' 's/federation__//g' luna_api_federation_sdl.graphql \
+&& sed -i '' 's/federation__//g' luna_api_federation_sdl.graphql
 ```
 
 Para revisar el graph:
