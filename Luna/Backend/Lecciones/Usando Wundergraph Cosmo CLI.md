@@ -5,6 +5,11 @@ Se instala así:
 npm install -g wgc@latest
 ```
 
+La versión de Luna es 0.75.3:
+```bash
+npm install -g wgc@0.75.3
+```
+
 ## Comandos
 
 Para crear el graph a revisar se genera con:
