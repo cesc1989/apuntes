@@ -634,3 +634,8 @@ pruebas spec/requests/graphql/queries/fields/node_care_plan_submit_medical_neces
 
 pruebas spec/requests/graphql/mutations/therapists/submit_medical_necessity_response_spec.rb
 ```
+
+En una sola línea:
+```
+pruebas spec/models/kx_modifier/ spec/candid/candid/mappers/kx_modifier_appointment_to_candid_encounter_spec.rb spec/candid/candid/kx_modifier_import_invoice_from_candid_spec.rb spec/grimoire/omni/actions/finalize_patient_onboarding_spec.rb:39 spec/grimoire/omni/actions/finalize_case_creation_spec.rb:35 spec/requests/graphql/queries/fields/node_care_plan_submit_medical_necessity_prompt_spec.rb spec/requests/graphql/mutations/therapists/submit_medical_necessity_response_spec.rb
+```
