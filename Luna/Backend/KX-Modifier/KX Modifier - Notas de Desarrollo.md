@@ -518,6 +518,11 @@ No. Dijeron que eso no es lo correcto porque eso lo que hace es enviar un mensaj
 
 # Sendbird: Enviar mensaje a Clinical Team: Utilization Management
 
+> [!Tip]
+> Sí se puede esto. Cuando Jacob dijo "pattern" era ejemplo.
+> 
+> Carlos Membreno me explicó. La clave es en el módulo `ProactiveCommunication`.
+
 Alexis dijo:
 > uff no toy seguro, suena como una note de hubspot… no sé si se puede en sendbird solo para clinical
 
@@ -608,3 +613,24 @@ end
 Ahí puedo ver el post a `/group_channels`. ¿Será por ahí? En la conversación en KX mencionan algo sobre "patterns":
 
 > The pattern to follow Pathway Escalation.
+
+
+# Todas las pruebas a correr de KX Modifier
+
+Estos son todas las pruebas relacionadas. Tanto de modelos como de GQL.
+
+```bash
+pruebas spec/models/kx_modifier/
+
+pruebas spec/candid/candid/mappers/kx_modifier_appointment_to_candid_encounter_spec.rb
+
+pruebas spec/candid/candid/kx_modifier_import_invoice_from_candid_spec.rb
+
+pruebas spec/grimoire/omni/actions/finalize_patient_onboarding_spec.rb:39
+
+pruebas spec/grimoire/omni/actions/finalize_case_creation_spec.rb:35
+
+pruebas spec/requests/graphql/queries/fields/node_care_plan_submit_medical_necessity_prompt_spec.rb
+
+pruebas spec/requests/graphql/mutations/therapists/submit_medical_necessity_response_spec.rb
+```

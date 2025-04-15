@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of KX Modifier - Notas de Desarrollo"
             }
           }
         ],
@@ -195,12 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c7cbb233d8f7f46",
+  "active": "ffea9e9b03c2ae93",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
     "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
