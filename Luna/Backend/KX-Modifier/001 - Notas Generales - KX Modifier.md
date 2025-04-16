@@ -1,4 +1,4 @@
-# KX Modifier - Notas Generales
+# Notas Generales - KX Modifier
 
 Sistemas involucradas:
 - 3rd party systems
