@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "KX Modifier - Pruebas en Alpha"
+              "title": "Comanditos para Clinical Dashboard"
             }
           },
           {
@@ -34,23 +34,8 @@
               "icon": "lucide-file",
               "title": "KX Modifier - Notas de Desarrollo"
             }
-          },
-          {
-            "id": "7c7cbb233d8f7f46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "006 - QA Plan"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KX Modifier - Notas de Desarrollo"
+              "title": "Outline of Comanditos para Clinical Dashboard"
             }
           }
         ],
@@ -195,7 +180,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffea9e9b03c2ae93",
+  "active": "acb6e2173c7c2d6c",
   "lastOpenFiles": [
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",

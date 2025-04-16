@@ -15,6 +15,17 @@ User.create(
 )
 ```
 
+# Nuevo ClinicalDashboard::User en Edge
+
+```ruby
+ClinicalDashboard::User.create(
+  email: "admin1@admin.com",
+  password: "123456789",
+  first_name: "Hola",
+  last_name: "Mundo"
+)
+```
+
 # Otros Comanditos
 
 El de Patient Self Report -> [[Comanditos para Patient Self Report]]
