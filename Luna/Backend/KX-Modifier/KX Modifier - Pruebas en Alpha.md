@@ -60,6 +60,31 @@ MedicareCarePlanMedicalNecessityResponse.create(
 )
 ```
 
+## Crear Initial Visit
+
+Es el 1er appointment. Como esto suele crearse desde la app o desde la interfaz rara que no conozco, lo haré directo por base de datos.
+
+```ruby
+epi = Episode.find("3a1da366-cce9-4344-84ca-ffc6a9b232f9")
+
+appt = Appointment.new(
+  episode: epi,
+  region: patient.region,
+  visit_type: "initial_visit",
+  state: :pending,
+  scheduled_date: DateTime.new(2025, 4, 21, 15, 00, 00),
+  scheduled_end_date: DateTime.new(2025, 4, 21, 15, 45, 00),
+  location: patient.locations.first,
+  therapist: epi.patient.therapists.first,
+  number: 1,
+  created_by: epi.patient.therapists.first,
+  booking_source: :unknown
+)
+ap appt.valid?
+ap appt.errors.messages
+appt.save
+```
+
 ## Crear Chart para Appointment
 
 Si el appointment no tiene chart, puedo crear uno así de fácil:
