@@ -43,19 +43,27 @@ Estos Milestones serán una columna y/o etiqueta en el tablero Trello que voy a 
 
 Probar otros servicios. Saca capturas y lista características.
 
+En este milestone es donde voy a ver todo lo que ofrecen cada acortador para lograr hacerme una idea general y tener en cuenta para el MVP.
+
 ## Preparación Técnica
 
 Entender el modelo `Organization`. Que el proyecto tenga una base solida para recibir a usuarios diferentes a mí. Puedo ayudarme de alguna GenAI.
+
+En este milestone haría un Riff del modelo `Organization` para probar hacer algunas cosas. Idealmente, podré hacer un riff que corra *Rails single file*.
 
 ## Libro Blanco
 
 Compilatorio de descripción y características de los diferentes servicios que haya probado.
 
+Como lo hice para [Evaluando 4 Herramientas de Vídeo Llamadas Web](https://github.com/devaspros/evaluacion-video-llamada-web). Lo publicaría en Leanpub y Gumroad. También haría bulla en redes sociales.
+
 ## MVP
 
-Esto es desarrollo puro y duro a partir de Puntapie.
+Esto es desarrollo puro y duro a partir de Puntapie. Las cosas a hacer para el MVp saldrían de los milestones **Descubrimiento** y **Libro Blanco**.
 
 ## Ruido
+
+Este milestone se ejecuta en parelelo a los demás. No hay que esperar a un punto exacto para ejecutarlo.
 
 Graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo lo que se pueda compartir en internet para ir haciendo ruido.
 
