@@ -39,14 +39,26 @@ Debo ordenar todo el trabajo en milestones que me permitan seguir con mi vida no
 
 Estos Milestones serán una columna y/o etiqueta en el tablero Trello que voy a crear para este proyecto.
 
-**Descubrimiento**: probar otros servicios. Saca capturas y lista características.
+## Descubrimiento
 
-**Preparación Técnica**: entender el modelo `Organization`. Que el proyecto tenga una base solida para recibir a usuarios diferentes a mí. Puedo ayudarme de alguna GenAI.
+Probar otros servicios. Saca capturas y lista características.
 
-**Libro Blanco**: compilatorio de descripción y características de los diferentes servicios que haya probado.
+## Preparación Técnica
 
-**MVP**: Esto es desarrollo puro y duro a partir de Puntapie.
+Entender el modelo `Organization`. Que el proyecto tenga una base solida para recibir a usuarios diferentes a mí. Puedo ayudarme de alguna GenAI.
 
-**Ruido**: graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo lo que se pueda compartir en internet para ir haciendo ruido.
+## Libro Blanco
 
-**Lanzamiento**: grabar algunas demos y publicar en redes. Es una continuación del ruido generado en el hito "*Ruido*".
+Compilatorio de descripción y características de los diferentes servicios que haya probado.
+
+## MVP
+
+Esto es desarrollo puro y duro a partir de Puntapie.
+
+## Ruido
+
+Graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo lo que se pueda compartir en internet para ir haciendo ruido.
+
+## Lanzamiento
+
+Grabar algunas demos y publicar en redes. Es una continuación del ruido generado en el hito "*Ruido*".
