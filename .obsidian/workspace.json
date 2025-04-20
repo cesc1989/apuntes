@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "002 - Planeacion"
+              "title": "Bitly"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - Planeacion"
+              "title": "Outline of Bitly"
             }
           }
         ],
@@ -166,8 +166,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9332eca4c49454e4",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/007.bitly.qr.detail.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/006.bitly.qrs.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/005.bitly.create.link.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments",
+    "DevAsPros/Enlacito/descubrimiento/bitly",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+    "DevAsPros/Enlacito/descubrimiento",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
@@ -192,9 +205,6 @@
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/KX-Modifier/attachments/300.sendbird.message.to.patient.png",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/01.download.data.email.in.queue.png",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments",
@@ -204,16 +214,6 @@
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.extended.signup.png",
     "Luna/Therapist_Signup/Attestation Form/attachments",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge",
-    "Luna/Backend/KX-Modifier/attachments/207.patient.care_plan.rejected.necessity.png",
-    "Luna/Backend/KX-Modifier/attachments/206.patient.edit.medicare.necessity.png",
-    "Luna/Backend/KX-Modifier/attachments/205.patient.edit.medicare.status.png",
-    "Luna/Backend/KX-Modifier/attachments/204.care_plan.prompt.png",
-    "Luna/Backend/KX-Modifier/attachments/203.limit.exceeded.prompt.png",
-    "Luna/Backend/KX-Modifier/attachments/202.limit.exceeded.medical.necessity.png",
-    "Luna/Backend/KX-Modifier/attachments/201.limit.ok.png",
-    "Luna/Backend/KX-Modifier/attachments",
-    "Luna/Backend/KX-Modifier/untitled folder",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
