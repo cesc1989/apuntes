@@ -4,37 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "5db63d0f166d9e9d",
-        "type": "tabs",
+        "id": "dde6fca73c27b570",
+        "type": "split",
         "children": [
           {
-            "id": "be0b56a2859d6775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Bitly"
-            }
+            "id": "5db63d0f166d9e9d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "32b36f99cb607679",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "Bitly"
+                }
+              }
+            ]
           },
           {
-            "id": "477b6503ab2385f6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png"
-              },
-              "icon": "lucide-image",
-              "title": "001.bitly.startpage"
-            }
+            "id": "c049bcc06b520d3a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c21b923b4489f478",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png"
+                  },
+                  "icon": "lucide-image",
+                  "title": "001.bitly.startpage"
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -91,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -155,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png",
+                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001.bitly.startpage"
+              "title": "Outline of Bitly"
             }
           }
         ],
@@ -180,9 +193,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "477b6503ab2385f6",
+  "active": "32b36f99cb607679",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/002.teclado.alt.gr.dead.keys.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/001.teclado.latam.png",
@@ -201,9 +217,6 @@
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/006.bitly.qrs.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/005.bitly.create.link.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments",
     "DevAsPros/Enlacito/descubrimiento/bitly",
     "DevAsPros/Enlacito/002 - Planeacion.md",
