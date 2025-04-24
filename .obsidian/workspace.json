@@ -4,49 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "dde6fca73c27b570",
-        "type": "split",
+        "id": "5db63d0f166d9e9d",
+        "type": "tabs",
         "children": [
           {
-            "id": "5db63d0f166d9e9d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "32b36f99cb607679",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "Bitly"
-                }
-              }
-            ]
+            "id": "32b36f99cb607679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Bitly"
+            }
           },
           {
-            "id": "c049bcc06b520d3a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c21b923b4489f478",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png"
-                  },
-                  "icon": "lucide-image",
-                  "title": "001.bitly.startpage"
-                }
-              }
-            ]
+            "id": "08711283fdf1619f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png"
+              },
+              "icon": "lucide-image",
+              "title": "008.bitly.plans"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -195,8 +181,20 @@
   },
   "active": "32b36f99cb607679",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/005.bitly.create.link.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/007.bitly.qr.detail.png.sb-bcf7bfee-ggfljM",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/007.bitly.qr.detail.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/006.bitly.qrs.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png.sb-bcf7bfee-2LNeLp",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/006.bitly.qrs.png.sb-bcf7bfee-cGjsSE",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/005.bitly.create.link.png.sb-bcf7bfee-1ClMz8",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png.sb-bcf7bfee-VMX39z",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png.sb-bcf7bfee-7T02gW",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png.sb-bcf7bfee-AfUWl8",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
@@ -212,15 +210,8 @@
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Datos_Personalizados_-_metafields.md",
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Idiomas.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/007.bitly.qr.detail.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/006.bitly.qrs.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/005.bitly.create.link.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments",
-    "DevAsPros/Enlacito/descubrimiento/bitly",
     "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Enlacito/descubrimiento",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
@@ -235,11 +226,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
     "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
     "Luna/Backend/Image Magick and Alpine.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/untitled folder",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Caso Generación de PDF",
-    "DevAsPros/Enlacito",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
