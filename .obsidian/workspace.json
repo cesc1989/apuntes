@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "Bitly"
             }
-          },
-          {
-            "id": "08711283fdf1619f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png"
-              },
-              "icon": "lucide-image",
-              "title": "008.bitly.plans"
-            }
           }
         ]
       }
