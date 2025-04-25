@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ebf0566c8bd6534d",
+        "id": "316597742588d3ca",
         "type": "tabs",
         "children": [
           {
-            "id": "59dfd67d08a51526",
+            "id": "63486500dcca13e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
-                "mode": "preview",
+                "file": "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "n9"
+              "title": "Lowerhot"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
+                "file": "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of n9"
+              "title": "Outline of Lowerhot"
             }
           }
         ],
@@ -167,32 +167,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59dfd67d08a51526",
+  "active": "63486500dcca13e2",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/004.lowerhot.plans.png",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/002.lowerhot.form.png",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/003.lowerhot.links.png",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/005.lowerhot.detail.png",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/Screenshot 2025-04-25 at 2.44.44 PM.png",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/001.lowerhot.dashboard.png",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/untitled folder",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot",
+    "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments/002.n9.acortado.png",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments/001.n9.formulario.png",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments",
     "DevAsPros/Enlacito/descubrimiento/n9/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/n9",
-    "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/001.dashboard.png",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/002.shortening.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/003.shortened.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/004.links.png",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/tinyzap",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/006.free.links.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/005.plans.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/004.link.qr.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/untitled folder",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "DevAsPros/Shopify/Guía_y_Enlaces_para_empezar_según_qué_se_quiera_ha.md",
@@ -213,8 +214,6 @@
     "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
     "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Integration_Design.md",
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
