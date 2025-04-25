@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5db63d0f166d9e9d",
+        "id": "a855cf79c8cfd3e5",
         "type": "tabs",
         "children": [
           {
-            "id": "32b36f99cb607679",
+            "id": "2d74bcf5ed337a1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
-                "mode": "preview",
+                "file": "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bitly"
+              "title": "TinyUrl.md"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+                "file": "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bitly"
+              "title": "Outline of TinyUrl.md"
             }
           }
         ],
@@ -167,10 +167,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32b36f99cb607679",
+  "active": "2d74bcf5ed337a1f",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/001.tinyurl.landing.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/002.tinyurl.acortado.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/004.link.qr.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/005.plans.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/006.free.links.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/untitled folder",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl",
+    "DevAsPros/Enlacito/descubrimiento/untitled folder",
+    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/005.bitly.create.link.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/007.bitly.qr.detail.png.sb-bcf7bfee-ggfljM",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/007.bitly.qr.detail.png",
@@ -180,16 +191,7 @@
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/005.bitly.create.link.png.sb-bcf7bfee-1ClMz8",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png.sb-bcf7bfee-VMX39z",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png.sb-bcf7bfee-7T02gW",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png.sb-bcf7bfee-AfUWl8",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/003.bitly.link.detail.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/002.teclado.alt.gr.dead.keys.png",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/001.teclado.latam.png",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/untitled folder",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "DevAsPros/Shopify/Guía_y_Enlaces_para_empezar_según_qué_se_quiera_ha.md",
     "DevAsPros/Shopify/Apuntes_Shopify_Development_Fundamentals.md",
@@ -198,7 +200,6 @@
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Datos_Personalizados_-_metafields.md",
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Idiomas.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
