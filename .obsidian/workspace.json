@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9a061ec1c6ff6d41",
+        "id": "ebf0566c8bd6534d",
         "type": "tabs",
         "children": [
           {
-            "id": "647322041a409f44",
+            "id": "59dfd67d08a51526",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TinyZap"
+              "title": "New tab"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TinyZap"
+              "title": "Outline"
             }
           }
         ],
@@ -167,10 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "647322041a409f44",
+  "active": "59dfd67d08a51526",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
+    "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/001.dashboard.png",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/002.shortening.png",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/003.shortened.png",
