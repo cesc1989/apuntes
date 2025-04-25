@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -169,14 +169,14 @@
   },
   "active": "2d74bcf5ed337a1f",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/006.free.links.png",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/001.tinyurl.landing.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/002.tinyurl.acortado.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/005.plans.png",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/004.link.qr.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/005.plans.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/006.free.links.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/002.tinyurl.acortado.png",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/001.tinyurl.landing.png",
+    "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/tinyurl",
@@ -214,7 +214,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
     "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
-    "Luna/Backend/Image Magick and Alpine.md",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
