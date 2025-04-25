@@ -11,10 +11,14 @@
             "id": "59dfd67d08a51526",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "n9"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of n9"
             }
           }
         ],
@@ -164,6 +169,13 @@
   },
   "active": "59dfd67d08a51526",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
+    "DevAsPros/Enlacito/descubrimiento/n9/attachments/002.n9.acortado.png",
+    "DevAsPros/Enlacito/descubrimiento/n9/attachments/001.n9.formulario.png",
+    "DevAsPros/Enlacito/descubrimiento/n9/attachments",
+    "DevAsPros/Enlacito/descubrimiento/n9/untitled folder",
+    "DevAsPros/Enlacito/descubrimiento/n9",
+    "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/001.dashboard.png",
@@ -173,20 +185,14 @@
     "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/tinyzap",
-    "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/006.free.links.png",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/005.plans.png",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/004.link.qr.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/002.tinyurl.acortado.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/001.tinyurl.landing.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/tinyurl",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/007.bitly.qr.detail.png.sb-bcf7bfee-ggfljM",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/008.bitly.plans.png.sb-bcf7bfee-2LNeLp",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/006.bitly.qrs.png.sb-bcf7bfee-cGjsSE",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "DevAsPros/Shopify/Guía_y_Enlaces_para_empezar_según_qué_se_quiera_ha.md",
@@ -209,7 +215,6 @@
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/006 - QA Plan ✅.md",
-    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
