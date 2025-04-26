@@ -37,3 +37,29 @@ Se ve que Dub está cargado de características. Por ejemplo:
 ## Diseño y Colores
 
 Como mucho otros usa un sidebar en el lado izquierdo. La paleta de colores es bien corta. Se limita a blanco, gris y negro para los botones y opciones de menues.
+
+## Acortando enlaces
+
+![[001.dub.acortando.png]]
+
+Está cargadísimo de salida. Similar a Lowerhot. Esto no es lo que quiero lograr desde el día uno en enlacito. Una gran cantidad de opciones para las personas que están en temas de mercadeo.
+
+![[002.dub.preview.png]]
+
+De salida genera un QR y también tiene personalización de la vista previa cuando se comparte el enlace en redes sociales o aplicaciones de mensajería.
+
+## Filtro de fechas
+
+Este es el más avanzado que he visto por ahora. Creo que es porque debe ser algún componente React gratuito. He visto ya este componente en otras aplicaciones y sitios.
+
+![[003.filters.png]]
+
+# Planes
+
+El plan gratuito tiene un límite bastante modesto.
+
+![[004.free.plan.png]]
+
+Los planes son los más caros que he visto hasta ahora.
+
+![[DevAsPros/Enlacito/descubrimiento/dub/attachments/005.plans.png]]
