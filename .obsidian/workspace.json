@@ -11,10 +11,14 @@
             "id": "bd600f111a673bca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "dub"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of dub"
             }
           }
         ],
@@ -164,6 +169,15 @@
   },
   "active": "bd600f111a673bca",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/descubrimiento/dub/attachments/001.dub.acortando.png",
+    "DevAsPros/Enlacito/descubrimiento/dub/attachments/002.dub.preview.png",
+    "DevAsPros/Enlacito/descubrimiento/dub/attachments/003.filters.png",
+    "DevAsPros/Enlacito/descubrimiento/dub/attachments/004.free.plan.png",
+    "DevAsPros/Enlacito/descubrimiento/dub/attachments/005.plans.png",
+    "DevAsPros/Enlacito/descubrimiento/dub/attachments",
+    "DevAsPros/Enlacito/descubrimiento/dub/untitled folder",
+    "DevAsPros/Enlacito/descubrimiento/dub",
+    "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/004.lowerhot.plans.png",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/002.lowerhot.form.png",
@@ -176,18 +190,11 @@
     "DevAsPros/Enlacito/descubrimiento/lowerhot",
     "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
-    "DevAsPros/Enlacito/descubrimiento/n9/attachments/002.n9.acortado.png",
-    "DevAsPros/Enlacito/descubrimiento/n9/attachments/001.n9.formulario.png",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments",
     "DevAsPros/Enlacito/descubrimiento/n9/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/n9",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/001.dashboard.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments/002.shortening.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/attachments",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/untitled folder",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap",
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
@@ -208,7 +215,6 @@
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
     "Luna/Clinical_Dashboard/AWS_Athena/AWS_Athena_Integration_Design.md",
-    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
