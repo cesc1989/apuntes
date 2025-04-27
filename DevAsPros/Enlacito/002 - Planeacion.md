@@ -42,7 +42,7 @@ Debo ordenar todo el trabajo en milestones que me permitan seguir con mi vida no
 
 Estos Milestones serán una columna y/o etiqueta en el tablero Trello que voy a crear para este proyecto.
 
-## Descubrimiento
+## Descubrimiento ✅
 
 Probar otros servicios. Saca capturas y lista características.
 
