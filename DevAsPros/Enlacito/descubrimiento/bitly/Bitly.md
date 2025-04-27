@@ -25,7 +25,7 @@ Creo que esta página tiene sentido para Bitly porque tienen una amplia oferta. 
 > [!Tip]
 > Para Enlacito no haré esto. La página inicial de Enlacito será una lista de enlaces. Tal vez los cinco más recientes.
 
-### Colores
+### Colores 🎨
 
 La paleta es bastante sencilla. Fondo blanco con contrastes azules. Algunas cosas tienen verde para sobresalir de lo normal.
 

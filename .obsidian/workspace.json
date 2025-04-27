@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8232d236788fcf9d",
+        "id": "806d3f1e2b283e0b",
         "type": "tabs",
         "children": [
           {
-            "id": "bd600f111a673bca",
+            "id": "4c6b7337d3c0dcfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
+                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "dub"
+              "title": "Bitly"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
+                "file": "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dub"
+              "title": "Outline of Bitly"
             }
           }
         ],
@@ -167,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd600f111a673bca",
+  "active": "4c6b7337d3c0dcfa",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/descubrimiento/dub/attachments/005.plans.png",
     "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
+    "DevAsPros/Enlacito/descubrimiento/dub/attachments/005.plans.png",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments/004.free.plan.png",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments/003.filters.png",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments/002.dub.preview.png",
