@@ -34,9 +34,9 @@ Se ve que Dub está cargado de características. Por ejemplo:
 - Carpetas
 - Link preview customization
 
-## Diseño y Colores
+## Diseño y Colores 🎨
 
-Como mucho otros usa un sidebar en el lado izquierdo. La paleta de colores es bien corta. Se limita a blanco, gris y negro para los botones y opciones de menues.
+Como mucho otros usa un sidebar en el lado izquierdo. La paleta de colores es bien corta. Se limita a blanco, gris y negro para los botones y opciones de menús.
 
 ## Acortando enlaces
 
