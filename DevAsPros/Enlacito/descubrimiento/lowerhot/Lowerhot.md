@@ -37,6 +37,10 @@ La magia está cuando se va al detalle del enlace.
 
 Aquí se puede apreciar todos los resultados y datos que recopila el enlace recortado cuando se abre. Cargadísimo.
 
+## Colores 🎨
+
+En este servicio se ve un estilo similar a otros donde hay un fondo blanco prominente. Aquí el contraste lo da el tono morado de botones y enlaces.
+
 # Planes
 
 Este servicio no tiene capa gratuita. Solo se puede crear un enlace acortado gratis. Más allá de eso toca pagar.
