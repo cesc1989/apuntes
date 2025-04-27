@@ -6,11 +6,11 @@ Estas son las cosas que hay que planificar y ordenar para ejecutar:
 - [x] Escribir libro blanco (5 alternativas)
 - [x] Planificar en forma de milestones y crear tablero en Trello
 - [x] Crea primera ronda de tareas en Trello
-- [ ] Decidir lo que voy a hacer en el MVP [[MVP - Enlacito]]
+- [x] Decidir lo que voy a hacer en el MVP [[MVP - Enlacito]]
 
 Veamos.
 
-#  Prueba de servicios
+#  Prueba de Servicios ✅
 
 ¿Por qué? Para entender la oferta y funcionalidades de los que ya están en el mercado.
 
@@ -23,11 +23,14 @@ También me ayudará a guiar las decisiones de las cosas qué hacer en el MVP y 
 
 Los servicios a probar están en [[Otros Acortadores]]. No es necesario probarlos todos. Con que pruebe cinco o menos estará bien.
 
-# Escribir Libro Blanco de Acortadores de Enlaces
+# Escribir Libro Blanco de Acortadores de Enlaces ❌
 
 ¿Por qué? Para poner en algún lado lo que descubra al probar los diferentes servicios. Todo eso lo puedo organizar en texto y hacer:
 
-**El Libro Blanco de Acortadores de Enlaces**: el cual publicaría en Leanpub, Gumroad, etc.
+~~**El Libro Blanco de Acortadores de Enlaces**: el cual publicaría en Leanpub, Gumroad, etc.~~
+
+> [!Note]
+> Esto ya no va. Lo que sí va es publicar en redes y en el blog.
 
 **Publicar en RR.SS**: como forma de hacer bulla en mí perfil. Estaría dando información tal vez útil sin pedir nada a cambio. Haciendo algo de _buena voluntad_.
 
@@ -51,7 +54,10 @@ Entender el modelo `Organization`. Que el proyecto tenga una base solida para re
 
 En este milestone haría un Riff del modelo `Organization` para probar hacer algunas cosas. Idealmente, podré hacer un riff que corra *Rails single file*.
 
-## Libro Blanco
+## Libro Blanco ❌
+
+> [!Note]
+> Esto ya no va. Lo que sí va es publicar en redes y en el blog.
 
 Compilatorio de descripción y características de los diferentes servicios que haya probado.
 
