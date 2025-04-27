@@ -27,7 +27,7 @@ Creo que esta página tiene sentido para Bitly porque tienen una amplia oferta. 
 
 ### Colores 🎨
 
-La paleta es bastante sencilla. Fondo blanco con contrastes azules. Algunas cosas tienen verde para sobresalir de lo normal.
+La paleta es bastante sencilla. Fondo blanco con enlaces en tonos azules. Algunos elementos son de color verde para sobresalir de otros.
 
 ## Página Enlaces
 
