@@ -28,11 +28,11 @@ El autor del artículo explica como está formado este modelo en [Bullet Train](
 - The `Invitation` can be claimed by either a new or existing `User`, even if the email address doesn’t match where the invitation was delivered too.
 - The `Invitation` goes away once claimed.
 
-## Modelo Membership y Organization en Bullet Train
+# Modelo Membership y Organization en Bullet Train
 
 Vayamos al código y veamos.
 
-### Modelo Team
+## Modelo Team
 
 Este modelo tiene un concern que incluye todas las relaciones. Para ver todo lo que el concern agrega tuve que correr este comando:
 ```
@@ -60,7 +60,7 @@ module Teams::Base
 end
 ```
 
-### Modelo Membership
+## Modelo Membership
 
 ```ruby
 module Memberships::Base
@@ -76,7 +76,7 @@ module Memberships::Base
 end
 ```
 
-### Modelo Invitations
+## Modelo Invitations
 
 ```ruby
 module Invitations::Base
