@@ -60,6 +60,23 @@ module Teams::Base
 end
 ```
 
+## Modelo User
+
+```ruby
+module Users::Base
+  extend ActiveSupport::Concern
+
+  included do
+    has_many :memberships, dependent: :destroy
+    has_many :teams, through: :memberships
+    has_many :collaborating_users, through: :teams, source: :users
+
+    belongs_to :current_team, class_name: "Team", optional: true
+  end
+end
+
+```
+
 ## Modelo Membership
 
 ```ruby
@@ -72,6 +89,8 @@ module Memberships::Base
     belongs_to :invitation, optional: true, dependent: :destroy
     belongs_to :added_by, class_name: "Membership", optional: true
     belongs_to :platform_agent_of, class_name: "Platform::Application", optional: true
+
+		validates :user_email, uniqueness: {scope: :team}
   end
 end
 ```
@@ -86,7 +105,46 @@ module Invitations::Base
     belongs_to :team
     belongs_to :from_membership, class_name: "Membership"
     belongs_to :invitation_list, class_name: "Account::Onboarding::InvitationList", optional: true
+
     has_one :membership, dependent: :nullify
+
+		accepts_nested_attributes_for :membership
+
+		validates :email, presence: true, uniqueness: {scope: :team}
+
+    after_create :set_added_by_membership
+    after_create :send_invitation_email
+
+    attribute :uuid, default: -> { SecureRandom.hex }
+
+    def roles
+      membership.roles
+    end
+  end
+
+	def set_added_by_membership
+    membership.update(added_by: from_membership)
+  end
+
+  def send_invitation_email
+    UserMailer.invited(uuid).deliver_later
   end
 end
+```
+
+## Modelo InvitationList
+
+```ruby
+module Account::Onboarding::InvitationLists::Base
+  extend ActiveSupport::Concern
+
+  included do
+    belongs_to :team
+    has_many :invitations
+    has_many :memberships, through: :invitations
+
+    accepts_nested_attributes_for :invitations, :memberships
+  end
+end
+
 ```
