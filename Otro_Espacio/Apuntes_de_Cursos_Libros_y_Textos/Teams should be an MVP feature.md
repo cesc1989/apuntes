@@ -74,7 +74,6 @@ module Users::Base
   included do
     has_many :memberships, dependent: :destroy
     has_many :teams, through: :memberships
-    has_many :collaborating_users, through: :teams, source: :users
 
     belongs_to :current_team, class_name: "Team", optional: true
   end
@@ -93,7 +92,6 @@ module Memberships::Base
     belongs_to :team
     belongs_to :invitation, optional: true, dependent: :destroy
     belongs_to :added_by, class_name: "Membership", optional: true
-    belongs_to :platform_agent_of, class_name: "Platform::Application", optional: true
 
 		validates :user_email, uniqueness: {scope: :team}
   end
