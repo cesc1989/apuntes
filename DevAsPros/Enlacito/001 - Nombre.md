@@ -1,5 +1,11 @@
 # Ideas para el Nombre del Proyecto
 
+## 🌟 La elección 🌟
+
+Compre `enlacito.co` por 181.608 COP.
+
+## Ideas no elegidas
+
 `goencurta.com`
 
 - disponible en namecheap
@@ -24,6 +30,3 @@
 - 1 ano: 48K COP
 - 2 anos: 111K COP
 
-## 🌟 La elección 🌟
-
-Compre `enlacito.co` por 181.608 COP.
