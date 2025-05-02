@@ -48,7 +48,7 @@ Probar otros servicios. Saca capturas y lista características.
 
 En este milestone es donde voy a ver todo lo que ofrecen cada acortador para lograr hacerme una idea general y tener en cuenta para el MVP.
 
-## Preparación Técnica
+## Preparación Técnica ✅
 
 Entender el modelo `Organization`. Que el proyecto tenga una base solida para recibir a usuarios diferentes a mí. Puedo ayudarme de alguna GenAI.
 
