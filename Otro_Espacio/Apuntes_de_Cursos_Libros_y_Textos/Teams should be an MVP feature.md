@@ -28,13 +28,15 @@ El autor del artículo explica como está formado este modelo en [Bullet Train](
 - The `Invitation` can be claimed by either a new or existing `User`, even if the email address doesn’t match where the invitation was delivered too.
 - The `Invitation` goes away once claimed.
 
-# Modelo Membership y Organization en Bullet Train
+# Definición de estos modelos en Bullet Train
+
+> [!Note]
+> Se pueden ver en esta página https://github.com/bullet-train-co/bullet_train-core/tree/main/bullet_train/app/models
 
 Vayamos al código y veamos.
 
-## Modelo Team
+Para abrir estos modelos en el editor en local hay que usar el comando que Bulle Train ofrece: `bin/resolve Teams::Base --open`:
 
-Este modelo tiene un concern que incluye todas las relaciones. Para ver todo lo que el concern agrega tuve que correr este comando:
 ```
 bin/resolve Teams::Base --open
 
@@ -47,7 +49,10 @@ Package name:
 Opening `/home/cesc/.gem/ruby/3.2.5/gems/bullet_train-1.19.2/app/models/concerns/teams/base.rb`.
 ```
 
-Estas son las asociaciones que agrega ese concern:
+Todas las relaciones y otros métodos están en concerns.
+
+## Modelo Team
+
 ```ruby
 module Teams::Base
   extend ActiveSupport::Concern

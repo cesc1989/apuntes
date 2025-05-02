@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e412334781f7128b",
+        "id": "a7d19d60ac1a4dc4",
         "type": "tabs",
         "children": [
           {
-            "id": "5358a4375d92b4be",
+            "id": "6dfdcb813170a493",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Teams should be an MVP feature"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Teams should be an MVP feature"
             }
           }
         ],
@@ -161,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5358a4375d92b4be",
+  "active": "6dfdcb813170a493",
   "lastOpenFiles": [
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
