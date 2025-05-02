@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a7d19d60ac1a4dc4",
+        "id": "09ec9d321ca6ea55",
         "type": "tabs",
         "children": [
           {
-            "id": "6dfdcb813170a493",
+            "id": "f32d8eebdf2ce6ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Teams should be an MVP feature"
-            }
-          },
-          {
-            "id": "7641f70b9a730cbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/001 - Nombre.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "001 - Nombre"
+              "title": "002 - Planeacion"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/001 - Nombre.md",
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001 - Nombre"
+              "title": "Outline of 002 - Planeacion"
             }
           }
         ],
@@ -181,13 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7641f70b9a730cbb",
+  "active": "f32d8eebdf2ce6ca",
   "lastOpenFiles": [
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
-    "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/MVP - Enlacito.md",
+    "DevAsPros/Enlacito/Otros Acortadores.md",
+    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/001 - Nombre.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
     "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
@@ -222,7 +208,6 @@
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Pagos.md",
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Datos_Personalizados_-_metafields.md",
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Idiomas.md",
-    "DevAsPros/Enlacito/001 - Nombre.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",

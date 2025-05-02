@@ -54,6 +54,13 @@ Entender el modelo `Organization`. Que el proyecto tenga una base solida para re
 
 En este milestone haría un Riff del modelo `Organization` para probar hacer algunas cosas. Idealmente, podré hacer un riff que corra *Rails single file*.
 
+> [!Important]
+> Ya está todo reflejado en la carpeta Trello pero repito aquí para facilidad.
+>
+> Los apuntes sobre modelo Organization actualizados en [[Teams should be an MVP feature]]
+>
+> El riff se puede ver en -> https://github.com/cesc1989/riffing/blob/main/riffs/organization.rb
+
 ## Libro Blanco ❌
 
 > [!Note]
