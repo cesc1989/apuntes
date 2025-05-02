@@ -72,7 +72,7 @@ Como lo hice para [Evaluando 4 Herramientas de Vídeo Llamadas Web](https://gith
 
 ## MVP
 
-Esto es desarrollo puro y duro a partir de Puntapie. Las cosas a hacer para el MVp saldrían de los milestones **Descubrimiento** y **Libro Blanco**.
+Esto es desarrollo puro y duro a partir de Puntapie. Las cosas a hacer para el MVP saldrían de los milestones **Descubrimiento** ~~y **Libro Blanco**~~.
 
 ## Ruido
 
