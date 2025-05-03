@@ -4,7 +4,8 @@ Cualquier apunte sobre distintas configuraciones de teclados. Dado a que uso Mac
 
 ## Teclado externo Logitech no reconoce teclas < y >
 
-Este es un duplicado de [[Usando_una_Mac_con_Chip_M1#Teclado externo Logitech no reconoce teclas < y >]]. Duplico para no dañar el enlace que apunta a ese tema ya.
+> [!Note]
+> Este es un duplicado de [[Usando_una_Mac_con_Chip_M1#Teclado externo Logitech no reconoce teclas < y >]]. Duplico para no dañar el enlace que apunta a ese tema ya.
 
 Pues resulta que no podía usar las teclas menor que y mayor que aunque usará el layout Latin America o Spanish Legacy.
 
