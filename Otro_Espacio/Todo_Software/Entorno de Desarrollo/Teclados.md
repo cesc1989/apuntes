@@ -19,7 +19,7 @@ git clone https://github.com/neosergio/Latam-Keyboard.git && cd Latam-Keyboard &
 
 Selecciono el idioma de “Otras” fuentes en el “Input Sources” y al fin funcionan esas teclas con el teclado externo.
 
-![[001.teclado.latam.png]]
+![](./attachments/001.teclado.latam.png)
 
 Con el teclado del macbook toca invertir los idiomas porque al teclear la tecla en cuestión queda invertida:
  
@@ -53,4 +53,4 @@ cp ~/Downloads/macos-us-altgr-intl-master/us-altgr-intl.keylayout ~/Library/Keyb
 
 Si no aparece en el espacio de configuraciones de layouts en los settings de teclado, reinicia el computador.
 
-![[002.teclado.alt.gr.dead.keys.png]]
+![](./attachments/002.teclado.alt.gr.dead.keys.png)
