@@ -13,7 +13,6 @@ CREATE TABLE urls (
 );
 ```
 
-Otros modelos -> [[Otros Acortadores#Open Source]]
 
 ## Open Source
 

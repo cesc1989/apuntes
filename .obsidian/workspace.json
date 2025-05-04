@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b72f1450041cc462",
+            "id": "f7f05ee363bae81a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Modelo y Arquitectura - Enlacito"
-            }
-          },
-          {
-            "id": "13c394dc5625ebb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Otros Acortadores.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Otros Acortadores"
             }
           }
         ]
@@ -180,14 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b72f1450041cc462",
+  "active": "f7f05ee363bae81a",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Otros Acortadores.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/MVP - Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
