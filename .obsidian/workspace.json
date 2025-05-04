@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3f955b37a2fa19d7",
+        "id": "be68cefa4f5e2ff2",
         "type": "tabs",
         "children": [
           {
-            "id": "ab20431bc5fcddbe",
+            "id": "b72f1450041cc462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
+                "file": "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Modelo y Arquitectura - Enlacito"
+            }
+          },
+          {
+            "id": "13c394dc5625ebb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Otros Acortadores.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Teclados"
+              "title": "Otros Acortadores"
             }
           }
         ]
@@ -142,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
+                "file": "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Teclados"
+              "title": "Outline of Modelo y Arquitectura - Enlacito"
             }
           }
         ],
@@ -166,13 +180,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab20431bc5fcddbe",
+  "active": "b72f1450041cc462",
   "lastOpenFiles": [
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Enlacito/MVP - Enlacito.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/MVP - Enlacito.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
@@ -200,7 +215,6 @@
     "DevAsPros/Enlacito/descubrimiento/n9/attachments",
     "DevAsPros/Enlacito/descubrimiento/n9/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/n9",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "DevAsPros/Shopify/Guía_y_Enlaces_para_empezar_según_qué_se_quiera_ha.md",
     "DevAsPros/Shopify/Apuntes_Shopify_Development_Fundamentals.md",
