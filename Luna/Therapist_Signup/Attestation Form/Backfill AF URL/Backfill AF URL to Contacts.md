@@ -47,3 +47,6 @@ This is all very off considering the rake was ran both in my local end and in al
 - Use this as a flag to be able to reduce the amount of therapists to query when rerunning the task.
 
 ✅ Capture and log more errors in different steps of the process.
+
+- Log error when Hubspot look up fails.
+- Log error when updating property fails.
