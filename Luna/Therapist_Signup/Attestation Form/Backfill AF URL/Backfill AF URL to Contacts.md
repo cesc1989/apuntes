@@ -41,9 +41,9 @@ This is all very off considering the rake was ran both in my local end and in al
 
 ## What to do next?
 
-Add a new field to the `therapists` table: `backfilled_attestation_form_url`. Boolean default to false.
+✅ Add a new field to the `therapists` table: `backfilled_attestation_form_url`. Boolean default to false.
 
 - After a HS Contact is updated, set this field to true.
 - Use this as a flag to be able to reduce the amount of therapists to query when rerunning the task.
 
-Capture and log more errors in different steps of the process.
+✅ Capture and log more errors in different steps of the process.
