@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bce202fe0b1c5fd9",
+        "id": "744883d74b9c34e3",
         "type": "tabs",
         "children": [
           {
-            "id": "50361fdcba070a0d",
+            "id": "9c6a3a617c72d84e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Backfill AF URL/Backfill AF URL to Contacts.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "002 - Cambios Finales"
+              "title": "Backfill AF URL to Contacts"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#worktree",
-                "matchingCase": false,
+                "query": "manifest",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Backfill AF URL/Backfill AF URL to Contacts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - Cambios Finales"
+              "title": "Outline of Backfill AF URL to Contacts"
             }
           }
         ],
@@ -166,26 +166,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50361fdcba070a0d",
+  "active": "9c6a3a617c72d84e",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
+    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
+    "Luna/Therapist_Signup/Attestation Form/Backfill AF URL/Backfill AF URL to Contacts.md",
+    "Luna/Therapist_Signup/Attestation Form/Backfill AF URL",
+    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/MVP - Enlacito.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/Otros Acortadores.md",
+    "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
+    "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
+    "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
+    "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+    "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
+    "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
     "Luna/Backend/KX-Modifier/cambios-finales",
     "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-    "DevAsPros/Enlacito/Otros Acortadores.md",
-    "DevAsPros/Enlacito/MVP - Enlacito.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
-    "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
-    "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
-    "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
-    "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments/001.n9.formulario.png",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments/002.n9.acortado.png",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/001.lowerhot.dashboard.png",
@@ -193,7 +198,6 @@
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/003.lowerhot.links.png",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/004.lowerhot.plans.png",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/005.lowerhot.detail.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/001.bitly.startpage.png",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments/005.plans.png",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments/004.free.plan.png",
@@ -205,15 +209,11 @@
     "DevAsPros/Enlacito/descubrimiento/lowerhot",
     "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments",
-    "DevAsPros/Enlacito/descubrimiento/n9/untitled folder",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "DevAsPros/Shopify/Guía_y_Enlaces_para_empezar_según_qué_se_quiera_ha.md",
     "DevAsPros/Shopify/Apuntes_Shopify_Development_Fundamentals.md",
     "DevAsPros/Shopify/Apuntes_Configuración_Tienda.md",
     "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Pagos.md",
-    "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Datos_Personalizados_-_metafields.md",
-    "DevAsPros/Shopify/Configuración_Tienda_Shopify/Configuración_de_Idiomas.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
