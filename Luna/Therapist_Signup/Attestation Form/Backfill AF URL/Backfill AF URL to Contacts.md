@@ -26,11 +26,11 @@ I, [2025-02-27T22:51:43.898151 #36]  INFO -- : Backfill AF URL for therapist wit
 
 ## The property `attestation_form_url`
 
-In Omega, the property is only used in 8 contacts.
+Omega usage:
 
 > 0.49% 6,721 out of 1,385,470
 
-In Alpha, it's just 1 contact.
+Alpha usage:
 
 > 0.06% 103 out of 177,386
 
