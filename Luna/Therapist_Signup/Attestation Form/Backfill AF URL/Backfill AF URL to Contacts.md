@@ -28,7 +28,8 @@ I, [2025-02-27T22:51:43.898151 #36]  INFO -- : Backfill AF URL for therapist wit
 
 Omega usage:
 
-> 0.49% 6,721 out of 1,385,470
+> ~~0.49% 6,721 out of 1,385,470~~
+> 0.57% 7,868 out of 1,387,102
 
 Alpha usage:
 
