@@ -19,6 +19,16 @@ Sin embargo, esa carpeta no se encuentra en el MPF. No se encuentra porque el MP
 
 ![[22.af.files.in.mpf.png]]
 
-## Alternativa de Solución
+## Alternativa de Solución #1
 
 A los archivos que se cargan como resultado del AF hay que darles un nombre más único. Para ello podría usar el campo `latest_attestation_completed_at`. Este se actualiza con cada Submit del AF que haga el therapist.
+
+### Resultados
+
+Implementé este cambio y así luce en el MPF:
+
+![[af.pdfs.files.png]]
+
+- Los archivos seleccionados (azul) son los recién generados al completar un AF
+- Los archivos en el recuadro rojo son los archivos anteriores. Los que se generan a partir del Credentialing Form
+
