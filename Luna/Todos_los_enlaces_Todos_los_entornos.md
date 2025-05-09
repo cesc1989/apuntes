@@ -2,43 +2,44 @@
 
 # Edge
 
-|         | **Alpha (alpha.getluna.com)**        | **Omega (getluna.com)** |
-| ------- | ------------------------------------ | ----------------------- |
-| **Web** | https://luxe.alpha.getluna.com/admin | https://luxe.getluna.com/admin |
-| API     | https://api2.alpha.getluna.com       |                         |
+|         | **Alpha (alpha.getluna.com)**        | **Omega (getluna.com)**        |
+| ------- | ------------------------------------ | ------------------------------ |
+| Web     | https://luxe.alpha.getluna.com/admin | https://luxe.getluna.com/admin |
+| API     | https://api2.alpha.getluna.com       |                                |
 
 
 # Patient Self Report
 
 |         | **Alpha (alpha.getluna.com)**   | **Omega (getluna.com)**  |
 | ------- | ------------------------------- | ------------------------ |
-| **Web** | https://forms.alpha.getluna.com |                          |
-| **API** | https://api2.alpha.getluna.com  | https://api2.getluna.com |
+| Web     | https://forms.alpha.getluna.com |                          |
+| API     | https://api2.alpha.getluna.com  | https://api2.getluna.com |
 
 
 # Therapist Signup
 
-|               | **Alpha (alpha.getluna.com)**              | **Producción (getluna.com)** |
-| ------------- | ------------------------------------------ | -----------------------------|
-| **Main Form** | https://success.alpha.getluna.com/sign-up  | https://success.getluna.com/sign-up |
+|               | **Alpha (alpha.getluna.com)**              | **Producción (getluna.com)**        |
+| ------------- | ------------------------------------------ | ------------------------------------|
+| Main Form     | https://success.alpha.getluna.com/sign-up  | https://success.getluna.com/sign-up |
 | Mini Form     | https://success.alpha.getluna.com/mini     | https://success.getluna.com/mini    |
-| **API**       | https://therapist-signup.alpha.getluna.com | https://success-api.getluna.com |
-| Sidekiq       | https://therapist-signup.alpha.getluna.com/sidekiq | |
+| API           | https://therapist-signup.alpha.getluna.com | https://success-api.getluna.com     |
+| Sidekiq       | https://therapist-signup.alpha.getluna.com/sidekiq |                             |
 
 
 # Provider Portal
 
-|         | **Alpha (alpha.getluna.com)**                        | **Producción (getluna.com)** |
-| ------- | -----------------------------------------------------| -----------------------------|
-| **Web** | https://provider-portal.alpha.getluna.com/dashboard/ | https://outcomes.getluna.com/dashboard |
-| API     | https://api-provider-portal.alpha.getluna.com        | |
+|         | **Alpha (alpha.getluna.com)**                          | **Producción (getluna.com)**           |
+| ------- | ------------------------------------------------------ | ---------------------------------------|
+| Web     | https://provider-portal.alpha.getluna.com/dashboard/   | https://outcomes.getluna.com/dashboard |
+| API     | https://api-provider-portal.alpha.getluna.com          |                                        |
+| Sidekiq | https://api-provider-portal.alpha.getluna.com/sidekiq/ |                                        |
 
 
 # Bliss
 
 |         | **Alpha (alpha.getluna.com)**    | **Omega (getluna.com)** |
 | ------- | -------------------------------- | ----------------------- |
-| **Web** | https://bliss.alpha.getluna.com/ |                         |
+| Web     | https://bliss.alpha.getluna.com/ |                         |
 
 
 # Documentación endpoints en Postman
@@ -54,6 +55,7 @@
 
 
 # Graphana
+
 | **Entorno** | **Enlace**                                |
 | ----------- | ----------------------------------------- |
 | Omega       | https://grafana.live.getluna.com/?orgId=1 |
