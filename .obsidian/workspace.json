@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "705088d91d2b38fd",
+        "id": "52916f6ac4a941ca",
         "type": "tabs",
         "children": [
           {
-            "id": "9ef0e71b9344c0fd",
+            "id": "1b2273d4e2b6f936",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Todos_los_enlaces_Todos_los_entornos"
+              "title": "Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "manifest",
+                "query": "capybara",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Todos_los_enlaces_Todos_los_entornos"
+              "title": "Outline of Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
             }
           }
         ],
@@ -166,8 +166,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ef0e71b9344c0fd",
+  "active": "1b2273d4e2b6f936",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_01_-_Coshi_Notes.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
+    "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Therapist_Signup/Attestation Form/Carga de Archivos y el MPF.md",
     "DevAsPros/Enlacito/Otros Acortadores.md",
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
@@ -176,7 +194,6 @@
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
     "Luna/Therapist_Signup/attachments/21.af.files.in.s3.png",
     "Luna/Therapist_Signup/attachments/22.af.files.in.mpf.png",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
@@ -184,25 +201,10 @@
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/003.lowerhot.links.png",
-    "DevAsPros/Enlacito/descubrimiento/n9/n9.md",
-    "Luna/Therapist_Signup/Attestation Form/Backfill AF URL/Backfill AF URL to Contacts.md",
-    "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
-    "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
     "Luna/Therapist_Signup/Attestation Form/Backfill AF URL",
-    "DevAsPros/Enlacito/MVP - Enlacito.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
-    "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
     "Luna/Backend/KX-Modifier/cambios-finales",
-    "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
-    "DevAsPros/Enlacito/001 - Nombre.md",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments/001.n9.formulario.png",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments",
     "DevAsPros/Enlacito/descubrimiento/dub/untitled folder",
@@ -212,7 +214,6 @@
     "DevAsPros/Enlacito/descubrimiento/lowerhot",
     "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/n9/attachments",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
