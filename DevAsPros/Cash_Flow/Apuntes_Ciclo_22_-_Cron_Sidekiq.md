@@ -109,7 +109,7 @@ Pero el error parece no haber tenido solución evidente.
 etiquetas: #sidekiq_cron
 
 > [!Note]
-> Era la configuración del demonio de Sidekiq con systemd. Tenía que activarle el linger. También faltaba la ENV `REDIS_URL`.
+> Era la configuración del demonio de Sidekiq con systemd. Tenía que activarle `Linger`. También faltaba la ENV `REDIS_URL`.
 
 Resulta que ya desde hace rato que en el servidor los crons de Sidekiq no se ejecutan. Más bien nunca. Al comienzo creía que era una mala configuración de Mailgun pero cuando probaba desde una consola de Rails, siempre recibía los correos. Decidí investigar.
 
