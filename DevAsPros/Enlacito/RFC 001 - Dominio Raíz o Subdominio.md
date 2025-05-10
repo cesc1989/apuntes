@@ -28,7 +28,7 @@ En este escenario las rutas quedarían así:
 
 La principal fuente de conflicto creo que serían las rutas `/CODE` vs `/PAGINA`. A continuación, algunas formas de reducir los posibles conflictos de esta implementación.
 
-**Definir las rutas de cada `/PAGINA` de primero que la ruta que define `/CODE`**
+**🤔 Definir las rutas de cada `/PAGINA` de primero que la ruta que define `/CODE`**
 
 De esta forma:
 ```ruby
@@ -46,7 +46,7 @@ end
 
 De esa forma siempre se encontrará primero la ruta más específica (la de una página). Cuando se navegue a una URL recortada, no se hallará en ninguna ruta de página y llegará al final para que sea procesada por el controlador `Redirects`.
 
-**Expresión regular a `/:short_code` para que  ajuste preciso a códigos alfanumérico**
+**🤔 Expresión regular a `/:short_code` para que  ajuste preciso a códigos alfanumérico**
 
 Así:
 ```ruby
@@ -66,7 +66,7 @@ Esta sería una forma de tratar de que la ruta sea más específica pero igual h
 
 Sirve pero no es la solución definitiva.
 
-**Anidar rutas estáticas en scope o namespace para hacer su URL única**
+**🤔 Anidar rutas estáticas en scope o namespace para hacer su URL única**
 
 Lo que podría ser la solución definitiva es anidar las rutas de las páginas estáticas en un scope/namespace y así todas las URLs serían únicas y no entrarían en la captura de la ruta de los short_codes.
 
