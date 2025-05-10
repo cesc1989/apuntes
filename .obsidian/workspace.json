@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "52916f6ac4a941ca",
+        "id": "404ec1274319bcd8",
         "type": "tabs",
         "children": [
           {
-            "id": "1b2273d4e2b6f936",
+            "id": "8c385c42f28a2f1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-                "mode": "source",
+                "file": "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
+              "title": "RFC 001 - Dominio Raíz o Subdominio"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+                "file": "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
+              "title": "Outline of RFC 001 - Dominio Raíz o Subdominio"
             }
           }
         ],
@@ -166,22 +166,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b2273d4e2b6f936",
+  "active": "8c385c42f28a2f1f",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_01_-_Coshi_Notes.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
     "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
@@ -197,9 +199,7 @@
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "DevAsPros/Enlacito/descubrimiento/tinyzap/TinyZap.md",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
-    "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/003.lowerhot.links.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
