@@ -106,6 +106,8 @@ Pero el error parece no haber tenido solución evidente.
 
 # 🟢 Revisando cron con Sidekiq Scheduler no ejecutando 🟢
 
+etiquetas: #sidekiq_cron
+
 > [!Note]
 > Era la configuración del demonio de Sidekiq con systemd. Tenía que activarle el linger. También faltaba la ENV `REDIS_URL`.
 
