@@ -27,6 +27,17 @@
       "ctime": 1741553768434,
       "path": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
       "title": "Sobre los Respaldos"
+    },
+    {
+      "type": "file",
+      "ctime": 1746889606425,
+      "path": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+      "title": "Apuntes Sidekiq como Cron"
+    },
+    {
+      "type": "file",
+      "ctime": 1746889633685,
+      "path": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md"
     }
   ]
 }
