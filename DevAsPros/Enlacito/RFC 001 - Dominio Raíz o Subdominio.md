@@ -14,6 +14,86 @@ La cosa sería algo como:
 - `enlacito.co` sesión iniciada: aplicación general, administración de recursos y cuenta.
 - `enlacito.co/CODE`: URL recortada.
 
+En este escenario las rutas quedarían así:
+
+- `/users/sign_in`: inicio de sesión
+- `/users/sign_up`: registro
+- `/`: landing page, página principal
+	- `/PAGINA`: otras páginas de información, contacto, etc.
+- `/links`: listado de enlaces
+- `/links/new`: formulario de nuevo enlace
+- `/CODE`: redirección de enlace recortado
+
+### Problema de usar solo el dominio raíz
+
+La principal fuente de conflicto creo que serían las rutas `/CODE` vs `/PAGINA`. A continuación, algunas formas de reducir los posibles conflictos de esta implementación.
+
+**Definir las rutas de cada `/PAGINA` de primero que la ruta que define `/CODE`**
+
+De esta forma:
+```ruby
+Rails.application.routes.draw do
+	# Rutas de páginas
+	get "/contact", to: "about#contact"
+	get "/team", to: "about#team"
+
+  # (...)
+  
+  # Ruta que define redireccionamiento
+  get "/:short_code", to: "redirects#show", as: :redirect
+end
+```
+
+De esa forma siempre se encontrará primero la ruta más específica (la de una página). Cuando se navegue a una URL recortada, no se hallará en ninguna ruta de página y llegará al final para que sea procesada por el controlador `Redirects`.
+
+**Expresión regular a `/:short_code` para que  ajuste preciso a códigos alfanumérico**
+
+Así:
+```ruby
+Rails.application.routes.draw do
+  # Páginas estáticas
+
+  # (...)
+
+  get "/:short_code",
+    to: "redirects#show",
+    as: :redirect,
+    constraints: { short_code: /[a-zA-Z0-9]{6,}/ }
+end
+```
+
+Esta sería una forma de tratar de que la ruta sea más específica pero igual habría que definir las páginas estáticas de primero porque esa expresión regular podría capturar rutas como `/contacto` o `/precios`.
+
+Sirve pero no es la solución definitiva.
+
+**Anidar rutas estáticas en scope o namespace para hacer su URL única**
+
+Lo que podría ser la solución definitiva es anidar las rutas de las páginas estáticas en un scope/namespace y así todas las URLs serían únicas y no entrarían en la captura de la ruta de los short_codes.
+
+```ruby
+Rails.application.routes.draw do
+  scope "/pages" do
+	  get "/caracteristicas", to: "pages#caracteristicas", as: :caracteristicas
+	  get "/contacto", to: "pages#contacto", as: :contacto
+	  # otras rutas estáticas...
+	end
+
+  # (...)
+
+  get "/:short_code",
+    to: "redirects#show",
+    as: :redirect,
+    constraints: { short_code: /[a-zA-Z0-9]{6,}/ }
+end
+```
+
+> [!Tip]
+> En todo caso podemos mantener la expresión regular para más precisión de la ruta de redirección.
+
+Usando `scope` les damos un agrupador para diferenciarlas que solo afectará la URL. No habrá que crear un módulo `Pages` y los helpers serían sencillos.
+
+Tanto `scope` como `namespace` pueden servir para esto. Siendo `scope` lo más sencillo.
+
 
 ## Subdominio: `app.enlacito.co`
 
