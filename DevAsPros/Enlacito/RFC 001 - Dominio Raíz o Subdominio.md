@@ -135,9 +135,9 @@ En Zed, le pregunté a DeepSeek y sugirió hacer re-dirección con Nginx o usar 
 
 Crear 3 registros A/AAAA o CNAME:
 
- - `enlacito.co` -> IP/servidor de redirects
- - `app.enlacito.co` -> IP/servidor de la app Rails
- - `www.enlacito.co` -> Servidor estático (Netlify/Vercel/S3)
+- `enlacito.co` -> IP/servidor de redirects
+- `app.enlacito.co` -> IP/servidor de la app Rails
+- `www.enlacito.co` -> Servidor estático (Netlify/Vercel/S3)
 
 > [!Note]
 > En mí caso el servidor de redirects y la app Rails serían el mismo.
@@ -177,3 +177,75 @@ Para esto se podría montar la página en Vercel, Netlify, GitHub Pages, S3, Clo
 - **Escalabilidad**: Puedes escalar los redirects sin tocar el sitio estático
 - **Seguridad**: Aislamiento de componentes
 - **Performance**: Servir redirects es ultra rápido con Nginx directo
+
+### Conclusiones
+
+Después de consultar con DeepSeek esta alternativa se ve mucho más trabajosa.
+
+La clave de esta configuración:
+
+- `enlacito.co` -> IP/servidor de redirects
+- `app.enlacito.co` -> IP/servidor de la app Rails
+- `www.enlacito.co` -> Servidor estático (Netlify/Vercel/S3)
+
+es que puedo tener la raíz y el subdominio app en el mismo servidor y misma app Rails. ==La clave estará en hacer que si alguien navega a algo que no es una URL acortada, se redirige al sitio web estático `www.enlacito.co`.==
+
+> [!tip]
+> Recuerda que un dominio raíz puede apuntar a la IP del hospedaje o hacer un redirect a `www`. O viceversa.
+
+Dicha redirección se puede controlar con Rails:
+```ruby
+def show
+  # Si parece un código de link (ajusta el regex según tu formato)
+  if params[:short_code] =~ /\A[a-z0-9]{6}\z/i
+    link = Link.find_by(short_code: params[:short_code])
+    
+    link&.increment!(:clicks)
+    
+    redirect_to(link.long_url, allow_other_host: true) and return
+  end
+  
+  # Si no es un código, redirige al sitio estático
+  redirect_to "https://www.enlacito.co/#{params[:short_code]}"
+end
+```
+
+Como con Nginx:
+```bash
+server {
+    server_name enlacito.co;
+    
+    # Ruta del sitio estático (ajusta la ruta)
+    root /var/www/enlacito-static;
+    
+    # Intenta servir archivos estáticos primero
+    try_files $uri $uri.html $uri/ @rails;
+    
+    location @rails {
+        # Solo pasa a Rails lo que parezca un código de enlace (ajusta el regex)
+        if ($uri ~* "^/([a-z0-9]{6,})$") {
+            proxy_pass http://tu_app_rails;
+            break;
+        }
+        
+        # Redirige todo lo demás al sitio estático (www)
+        return 301 https://www.enlacito.co$request_uri;
+    }
+}
+
+server {
+    server_name www.enlacito.co app.enlacito.co;
+    
+    # Configuración para www (sitio estático)
+    if ($host = www.enlacito.co) {
+        root /var/www/enlacito-static;
+        try_files $uri $uri.html $uri/ =404;
+    }
+    
+    # Configuración para app (Rails)
+    if ($host = app.enlacito.co) {
+        proxy_pass http://tu_app_rails;
+        # ... resto de configuración Rails
+    }
+}
+```
