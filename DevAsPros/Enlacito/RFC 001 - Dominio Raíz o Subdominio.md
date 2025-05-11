@@ -4,7 +4,7 @@ Antes de completar el lanzamiento de Enlacito me preguntaba qué debería elegir
 
 Esta simple pregunta plantea algunos desafíos que no había considerado y que quiero dejar claros en este documento.
 
-## Raíz: `enlacito.co`
+## A) Raíz: `enlacito.co`
 
 Si elijo montar la aplicación en la raíz del dominio, tendré que hacer la landing y páginas de marketing en Rails. Eso creo.
 
@@ -95,7 +95,7 @@ Usando `scope` les damos un agrupador para diferenciarlas que solo afectará la 
 Tanto `scope` como `namespace` pueden servir para esto. Siendo `scope` lo más sencillo.
 
 
-## Subdominio: `app.enlacito.co`
+## B) Subdominio: `app.enlacito.co`
 
 Si elijo montar la aplicación en el subdominio, va a pasar que los enlaces acortados serían:
 
@@ -103,11 +103,11 @@ Si elijo montar la aplicación en el subdominio, va a pasar que los enlaces acor
 https://app.enlacito.co/CODIGO
 ```
 
-Y eso dista de ser lo que tengo en mente al recortar enlaces `https://enlacito.co/CODIGO`.
+Y eso dista de ser lo que tengo en mente al recortar enlaces `https://enlacito.co/CODIGO`. A continuación detallo la situación con ayuda de DeepSeek.
 
 ### ¿Por qué en un subdominio?
 
-Para poder tener:
+Para poder tener esta configuración:
 
 - `enlacito.co`: sitio web oficial, landing page, etc.
 - `app.enlacito.co`: donde se usa la aplicación por los usuarios registrados.
@@ -120,12 +120,60 @@ Si dejo la raíz libre, se puede usar cualquier otra tecnología de frontend par
 > [!Note]
 > Un ejemplo de esto es Luna. Donde el dominio raíz apunta a la página de marketing hecha en PHP mientras que los subdominios apuntan a diferentes aplicaciones hechas en Rails, PHP, Elixir, JavaScript.
 
+Esto libra a la aplicación Rails de tener toda la carga del servicio + página web. También será una buena forma de dividir la carga al dejar que la app Rails se encargue del core y hacer la página web en otra tecnología y montarlo en algún hospedaje diferente u otro VPS.
+
 ### ¿Cómo puedo apuntar la app al subdominio y que el enlace acortado use el dominio raíz?
 
 Con lo anterior en mente, y siendo lo que sería ideal, cómo logro esta configuración donde:
 
-- `app.enlacito.co`: donde se usa la aplicación por los usuarios registrados.
+- `app.enlacito.co`: es la aplicación para los usuarios registrados.
 - `enlacito.co/CODE`: URL recortada.
 
 En Zed, le pregunté a DeepSeek y sugirió hacer re-dirección con Nginx o usar un microservicio para las re-direcciones.
 
+**Configuración de DNS**
+
+Crear 3 registros A/AAAA o CNAME:
+
+ - `enlacito.co` -> IP/servidor de redirects
+ - `app.enlacito.co` -> IP/servidor de la app Rails
+ - `www.enlacito.co` -> Servidor estático (Netlify/Vercel/S3)
+
+> [!Note]
+> En mí caso el servidor de redirects y la app Rails serían el mismo.
+
+**Servidor de Redirects (enlacito.co)**
+
+Sugiere que cree un microservicio solo para los redirects. Esto implicaría otra app (Hanami, Sinatra) con acceso a la base de datos y que solo haga los redirects.
+
+También sugirió usar Nginx para los redirects pero esto no es me llama la atención porque no podré hacer seguimiento para analítica.
+
+Así sugiere configurar Nginx:
+```bash
+server {
+    server_name enlacito.co;
+    
+    # Solo maneja paths que parezcan códigos (ajusta la regex)
+    location ~* ^/[a-zA-Z0-9]{6,}$ {
+        proxy_pass http://tu_app_rails;
+        # O si quieres evitar Rails completamente:
+        # rewrite ^/(.*)$ http://tu_app_rails/redirects/$1 permanent;
+    }
+
+    # Todo lo demás redirige al sitio estático
+    location / {
+        return 301 https://www.enlacito.co$request_uri;
+    }
+}
+```
+
+**Servidor Estático (www)**
+
+Para esto se podría montar la página en Vercel, Netlify, GitHub Pages, S3, Cloudflare.
+
+**Beneficios (según DeepSeek)**
+
+- **Separación clara**: Cada servicio independiente
+- **Escalabilidad**: Puedes escalar los redirects sin tocar el sitio estático
+- **Seguridad**: Aislamiento de componentes
+- **Performance**: Servir redirects es ultra rápido con Nginx directo
