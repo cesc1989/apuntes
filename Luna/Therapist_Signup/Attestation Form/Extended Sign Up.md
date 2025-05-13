@@ -42,7 +42,7 @@ In the Extended Sign Up:
 
 Instead of returning an error to the therapist indicating the email is already in use, the Extended Sign Up will take try to determine whether this process can be triggered or if there's an important discrepancy.
 
-The idea is to *only* start the Extended Sign Up when the email address is taken *AND* there's a Hubspot Contact with that same email address.
+==The idea is to *only* start the Extended Sign Up when the email address is taken *AND* there's a Hubspot Contact with that same email address.==
 
 If this condition is not met, we can provide an error message suggesting the therapist to reach out their Success Team rep. so they can escalate the issue to the dev team.
 
