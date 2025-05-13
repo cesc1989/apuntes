@@ -76,7 +76,7 @@ Q: What other properties should be set when creating the new Credentialing recor
 ## Save Newly created HS Credentialing Record ID
 
 > [!Note]
-> Creating the Credentialing record and saving the ID happen in the moment but they're better described as separate steps to understand the overall process.
+> Creating the Credentialing record and saving the ID happen in the same moment but they're better described as separate steps to understand the overall process.
 
 The request made in the previous step will return an ID property that should be saved to the Therapist DB. More precisely, in the `credentialing_hubspot_id` of the `therapists` table.
 
