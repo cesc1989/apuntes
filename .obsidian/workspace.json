@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d6adfaed29a9ba9b",
+        "id": "0114dfcc8df83878",
         "type": "tabs",
         "children": [
           {
-            "id": "b9fa0d63086e0d32",
+            "id": "45c3881f00cf977b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RFC 001 - Dominio Raíz o Subdominio"
+              "title": "Ruby Threads Fibers y Ractors"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Apuntes_de_Linux_-_Parte_1"
+              "title": "Backlinks for Ruby Threads Fibers y Ractors"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Apuntes_de_Linux_-_Parte_1"
+              "title": "Outgoing links from Ruby Threads Fibers y Ractors"
             }
           },
           {
@@ -137,18 +137,18 @@
             }
           },
           {
-            "id": "d055db64dc2b3801",
+            "id": "f8c38983b9043c30",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFC 001 - Dominio Raíz o Subdominio"
+              "title": "Outline of Ruby Threads Fibers y Ractors"
             }
           }
         ],
@@ -166,39 +166,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9fa0d63086e0d32",
+  "active": "45c3881f00cf977b",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Rails_Proyectos_ver_y_aprender.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Manipulación_de_PDFs_en_Ruby.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Finder_Objects,_Form_Objects_y_Service_Objects.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Dockerizar_Ruby_on_Rails_app.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Cómo_Crear_Email_Templates_en_Rails.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Descubriendo_Rails_a_Fondo.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
+    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up.md",
+    "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Zed Editor - Atajos de Teclado.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_01_-_Coshi_Notes.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_12_-_Mantenimiento_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_14_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_19_-_Pruebas.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
-    "Luna/Clinical_Dashboard/Lecciones/Apuntes Rails Parte 1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_11_-_Fechas_-_Cash_Flow.md",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Therapist_Signup/Attestation Form/Carga de Archivos y el MPF.md",
-    "DevAsPros/Enlacito/Otros Acortadores.md",
-    "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
     "Luna/Therapist_Signup/attachments/21.af.files.in.s3.png",
     "Luna/Therapist_Signup/attachments/22.af.files.in.mpf.png",
-    "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/003.lowerhot.links.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
