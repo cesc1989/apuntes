@@ -115,6 +115,7 @@ Payload
 ### Q&A
 
 Q: What is the association label to attach to the new Credentialing record?
+A: New object label = Active Attested; old credentialing object that would have Active Attested label would get switched to Active.
 
 # Additional Considerations
 
