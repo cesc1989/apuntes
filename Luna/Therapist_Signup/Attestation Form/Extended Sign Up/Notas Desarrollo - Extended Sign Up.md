@@ -87,3 +87,22 @@ Nota que:
 - `:credentialing_hubspot_id => 27727231013,` tiene el anterior active attested ID
 - `:credentialing_active_attested_id => 27772111464,` es el nuevo Credentialing recién creado
 
+Cuando la asociación nueva se completa esta es la respuesta de HubSpot:
+```ruby
+{
+         "status" => "COMPLETE",
+        "results" => [
+        [0] {
+            "fromObjectTypeId" => "2-33642689",
+                "fromObjectId" => 27772111464,
+              "toObjectTypeId" => "0-1",
+                  "toObjectId" => 113207996846,
+                      "labels" => [
+                [0] "Active Attested"
+            ]
+        }
+    ],
+      "startedAt" => "2025-05-14T04:18:36.284Z",
+    "completedAt" => "2025-05-14T04:18:36.372Z"
+}
+```
