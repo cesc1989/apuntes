@@ -106,3 +106,94 @@ Cuando la asociación nueva se completa esta es la respuesta de HubSpot:
     "completedAt" => "2025-05-14T04:18:36.372Z"
 }
 ```
+
+## Guardado de datos del Sign Up form y mostrarlo como exitoso
+
+Ahora mismo con todo en su lugar, el Sign Up devolverá el error del email tomado y no generará archivos ni redirecciona al Credentialing Form. Hay que ajustar todo eso para que:
+
+- Cuando se dé el Extended Sign Up Check como `true`
+	- No devuelva el error de email tomado
+	- Genere los archivos al completar `ExtendedSignUpWorker`
+	- Redirrecione al Credentialing Form/Attestation Form
+
+### Contexto
+
+Hice una prueba y el Extended Sign Up completó todo lo de HubSpot pero el form devolvió todo esto.
+
+Respuesta en Postman 422 con cuerpo:
+```json
+{
+  "errors": {
+    "email": [
+      "has already been taken"
+    ]
+  }
+}
+```
+
+El endpoint terminó con error y se detuvo:
+```bash
+  TRANSACTION (0.5ms)  BEGIN
+  ↳ app/controllers/api/v1/therapists_controller.rb:12:in `create'
+  Therapist Exists? (5.7ms)  SELECT 1 AS one FROM "therapists" WHERE "therapists"."email" = $1 LIMIT $2  [["email", "devtoalpha19@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/therapists_controller.rb:12:in `create'
+  ServiceState Load (1.2ms)  SELECT "service_states".* FROM "service_states" WHERE "service_states"."enabled" = $1 AND "service_states"."name" = $2 LIMIT $3  [["enabled", true], ["name", "new-jersey"], ["LIMIT", 1]]
+  ↳ app/models/therapist.rb:72:in `registered_from?'
+  TRANSACTION (0.5ms)  ROLLBACK
+  ↳ app/controllers/api/v1/therapists_controller.rb:12:in `create'
+  Therapist Load (1.0ms)  SELECT "therapists".* FROM "therapists" WHERE "therapists"."email" = $1 LIMIT $2  [["email", "devtoalpha19@gmail.com"], ["LIMIT", 1]]
+  ↳ app/lib/extended_sign_up/extended_sign_up_check.rb:5:in `initialize'
+
+2025-05-14T04:41:48.430Z pid=51424 tid=yuk INFO: Sidekiq 7.0.2 connecting to Redis with options {:url=>"redis://127.0.0.1:6379", :size=>5, :pool_name=>"internal"}
+2025-05-14T04:41:48.435Z pid=51425 tid=red class=ExtendedSignUp::ExtendedSignUpWorker jid=07d3ae61cb222219d90e3fa3 INFO: start
+
+Failed to sign up new therapist
+{:errors=>{:email=>["has already been taken"]}, :postal_code=>"91723", :registered_from=>"new-york", :therapist_name=>"PruebaDate01 PruebaDate01", :tags=>{:registered_from=>"new-york"}}
+method=POST path=/v1/therapists format=json controller=Api::V1::TherapistsController action=create status=422 allocations=75483 duration=740.98 view=0.58 db=37.72
+```
+
+Pero el ExtendedSignUpWorker hizo lo suyo:
+```bash
+Therapist Load (1.5ms)  SELECT "therapists".* FROM "therapists" WHERE "therapists"."id" = $1 LIMIT $2  [["id", "e33174e4-7263-4aa6-812e-a9ce85b7796e"], ["LIMIT", 1]]
+  ↳ app/workers/extended_sign_up/extended_sign_up_worker.rb:6:in `perform
+  Setting Load (0.4ms)  SELECT "settings".* FROM "settings" WHERE "settings"."key" = $1 LIMIT $2  [["key", "credentialings_objectTypeId"], ["LIMIT", 1]]
+  ↳ app/services/hubspot_custom_objects/hubspot_credentialing_object_service.rb:94:in `create_params
+  Setting Load (0.6ms)  SELECT "settings".* FROM "settings" WHERE "settings"."key" = $1 LIMIT $2  [["key", "credentialings_name"], ["LIMIT", 1]]
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:13:in `initialize
+  Setting Load (0.3ms)  SELECT "settings".* FROM "settings" WHERE "settings"."key" = $1 LIMIT $2  [["key", "credentialings_to_contact_active_type_id"], ["LIMIT", 1]]
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:29:in from_active_attested_to_active
+  
+  TRANSACTION (0.7ms)  BEGIN
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:48:in from_active_attested_to_active
+  Therapist Update (4.3ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_hubspot_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-05-14 04:41:49.989183"], ["credentialing_hubspot_id", 27772111464], ["id", "e33174e4-7263-4aa6-812e-a9ce85b7796e"]]
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:48:in from_active_attested_to_active
+  TRANSACTION (1.0ms)  COMMIT
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:48:in from_active_attested_to_active
+  Setting Load (0.3ms)  SELECT "settings".* FROM "settings" WHERE "settings"."key" = $1 LIMIT $2  [["key", "credentialings_to_contact_active_attested_type_id"], ["LIMIT", 1]]
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:74:in `remove_active_attested_label
+  
+  TRANSACTION (0.6ms)  BEGIN
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:93:in remove_active_attested_label
+  Therapist Update (0.6ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_active_attested_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-05-14 04:41:50.460242"], ["credentialing_active_attested_id", nil], ["id", "e33174e4-7263-4aa6-812e-a9ce85b7796e"]]
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:93:in remove_active_attested_label
+  
+  TRANSACTION (0.5ms)  COMMIT
+  ↳ app/services/hubspot_custom_objects/associations/reassociate_active_attested_credentialing_object_service.rb:93:in `remove_active_attested_label
+  Setting Load (0.4ms)  SELECT "settings".* FROM "settings" WHERE "settings"."key" = $1 LIMIT $2  [["key", "credentialings_name"], ["LIMIT", 1]]
+  ↳ app/services/hubspot_custom_objects/associations/associate_credentialing_to_contact_service.rb:17:in `create
+  Setting Load (0.2ms)  SELECT "settings".* FROM "settings" WHERE "settings"."key" = $1 LIMIT $2  [["key", "credentialings_to_contact_active_attested_type_id"], ["LIMIT", 1]]
+  ↳ app/services/hubspot_custom_objects/associations/associate_credentialing_to_contact_service.rb:51:in `payload
+  
+  TRANSACTION (0.7ms)  BEGIN
+  ↳ app/services/hubspot_custom_objects/associations/associate_credentialing_to_contact_service.rb:29:in `create
+  Therapist Update (0.9ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_active_attested_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-05-14 04:41:50.954389"], ["credentialing_active_attested_id", 27779361318], ["id", "e33174e4-7263-4aa6-812e-a9ce85b7796e"]]
+  ↳ app/services/hubspot_custom_objects/associations/associate_credentialing_to_contact_service.rb:29:in `create
+  TRANSACTION (0.8ms)  COMMIT
+  ↳ 
+  app/services/hubspot_custom_objects/associations/associate_credentialing_to_contact_service.rb:29:in `create
+  
+2025-05-14T04:41:50.963Z pid=51425 tid=red class=ExtendedSignUp::ExtendedSignUpWorker jid=07d3ae61cb222219d90e3fa3 elapsed=2.528 INFO: done
+```
+
+### Solución
+
