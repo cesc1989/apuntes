@@ -4,20 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "965d6b4db704e108",
+        "id": "2868179704bcba42",
         "type": "tabs",
         "children": [
           {
-            "id": "dc5bc870262904a1",
+            "id": "8eea2ca216497665",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "image",
+              "state": {
+                "file": "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png"
+              },
+              "icon": "lucide-image",
+              "title": "af.extended.signup"
+            }
+          },
+          {
+            "id": "ab606f4483ef25e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Extended Sign Up"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Extended Sign Up"
             }
           },
           {
@@ -108,11 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Extended Sign Up"
             }
           },
           {
@@ -136,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Extended Sign Up"
             }
           }
         ],
@@ -159,14 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "ab606f4483ef25e8",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
+    "Luna/Therapist_Signup/Extended Sign Up/attachments",
+    "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Luna/Therapist_Signup/Extended Sign Up/Notas Desarrollo - Extended Sign Up.md",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
-    "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Luna/Therapist_Signup/Extended Sign Up",
     "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
@@ -187,7 +209,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Finder_Objects,_Form_Objects_y_Service_Objects.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Dockerizar_Ruby_on_Rails_app.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Cómo_Crear_Email_Templates_en_Rails.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Descubriendo_Rails_a_Fondo.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
@@ -206,7 +227,6 @@
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/lowerhot",
-    "DevAsPros/Enlacito/descubrimiento/untitled folder",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
