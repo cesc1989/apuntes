@@ -107,7 +107,13 @@ En Rails tenemos [CurrentAttributes](https://api.rubyonrails.org/classes/ActiveS
 
 # Fibers
 
-TBC
+Empecemos con un poco de contexto. Esta [respuesta](https://stackoverflow.com/a/9194052/1407371) en Stack Overflow de hace más de 10 años.
+
+> Fibers are something you will probably never use directly in application-level code. They are a flow-control primitive which you can use to build other abstractions, which you then use in higher-level code.
+
+Ahora vamos a ver si en la actualidad eso ha cambiado.
+
+
 
 # Ractors
 
