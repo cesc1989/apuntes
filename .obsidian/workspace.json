@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Notas Desarrollo - Extended Sign Up.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Extended Sign Up"
+              "title": "Notas Desarrollo - Extended Sign Up"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Notas Desarrollo - Extended Sign Up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Extended Sign Up"
+              "title": "Backlinks for Notas Desarrollo - Extended Sign Up"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Notas Desarrollo - Extended Sign Up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Extended Sign Up"
+              "title": "Outgoing links from Notas Desarrollo - Extended Sign Up"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Notas Desarrollo - Extended Sign Up.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Extended Sign Up"
+              "title": "Outline of Notas Desarrollo - Extended Sign Up"
             }
           }
         ],
@@ -168,9 +168,10 @@
   },
   "active": "1e9c9b180513e4bd",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Extended Sign Up.md",
+    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Notas Desarrollo - Extended Sign Up.md",
     "Luna/Therapist_Signup/Attestation Form/Extended Sign Up",
     "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
-    "Luna/Therapist_Signup/Attestation Form/Extended Sign Up/Extended Sign Up.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
@@ -213,7 +214,6 @@
     "DevAsPros/Enlacito/descubrimiento/lowerhot/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/lowerhot",
     "DevAsPros/Enlacito/descubrimiento/untitled folder",
-    "DevAsPros/Enlacito/descubrimiento/n9/attachments",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
