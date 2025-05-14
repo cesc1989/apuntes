@@ -197,3 +197,65 @@ Therapist Load (1.5ms)  SELECT "therapists".* FROM "therapists" WHERE "therapist
 
 ### Solución
 
+## HubSpot Status Codes
+
+Probando en Alpha obtuve este código en la petición para asociar Credentialing to Contact
+```
+207	POST	/crm/v4/associations/credentialings/contact/batch/create	May 14, 2025 5:38 PM EDT
+```
+
+¿Qué rayos es 207? Los docs dicen esto:
+
+> `207 Multi-Status`: returned when there are different statuses (e.g., errors and successes)
+
+O sea que algo falló pero también hubo errores.
+
+### Contexto
+
+No hubo ningún error grave. Falló una validación en la clase `ReassociateActiveAttestedCredentialingObjectService`:
+```ruby
+def from_active_attested_to_active(skip_relocation_check: false)
+	# Cannot make request to reassociate labels
+	return false if @therapist.credentialing_active_attested_id.blank?
+
+	# The reassociation already happened
+	return false if @therapist.credentialing_active_attested_id.present? && @therapist.credentialing_relocation_id.blank?
+```
+
+Como en Extended Sign Up, lo más probable, es que no haya objeto de Relocation, el atributo `credentialing_relocation_id` esté nulo y se detendrá la ejecución de código.
+
+### Solución: bandera para saltar la validación
+
+El cambio que hice fue el siguiente:
+```ruby
+def from_active_attested_to_active(skip_relocation_check: false)
+	# Cannot make request to reassociate labels
+	return false if @therapist.credentialing_active_attested_id.blank?
+
+	# The reassociation already happened
+	return false if !skip_relocation_check &&
+									@therapist.credentialing_active_attested_id.present? &&
+									@therapist.credentialing_relocation_id.blank?
+```
+
+Agregué un parámetro que servirá de bandera para decidir si validar o no.
+
+Anoto esto para que me sirva de ayuda para leer esta condición en el futuro.
+
+**En caso del Extended Sign Up y sin `credentialing_relocation_id`**
+
+Cuando `skip_relocation_check: true` y `credentialing_relocation_id.blank?`
+```ruby
+!skip_relocation_check -> false && true && true
+```
+
+El parámetro en `true` funciona como corto circuito y hace que no haya retorno porque el operador `&&` necesita que todas las condiciones sean verdaderas.
+
+**En caso de Relocation Address y con `credentialing_relocation_id`**
+
+Cuando `skip_relocation_check: false`:
+```ruby
+!skip_relocation_check -> true && true && true
+```
+
+No hay corto circuito durante y todas las verificaciones retornan verdadero.
