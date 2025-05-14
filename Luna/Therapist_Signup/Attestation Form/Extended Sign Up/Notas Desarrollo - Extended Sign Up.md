@@ -67,3 +67,23 @@ Así es que podemos pasar al siguiente paso que es asignar el nuevo Credentialin
 A esta clase hay que pasarle el Credentialing ID más reciente para poder:
 - Indicar el objeto Credentialing a asociar
 - Poder actualizar el campo `credentialing_active_attested_id` correctamente
+
+### Asociando nuevo Credentialing como Active Attested
+
+Cuando todo está en su lugar, la configuración final de hubspot_ids queda así:
+```ruby
+{
+         :therapist_address_hubspot_id => 26239535543,
+                   :license_hubspot_id => 26238789130,
+             :credentialing_hubspot_id => 27727231013,
+    :credentialing_inactive_hubspot_id => nil,
+     :credentialing_active_attested_id => 27772111464,
+          :credentialing_relocation_id => 1
+}
+```
+
+Nota que:
+
+- `:credentialing_hubspot_id => 27727231013,` tiene el anterior active attested ID
+- `:credentialing_active_attested_id => 27772111464,` es el nuevo Credentialing recién creado
+
