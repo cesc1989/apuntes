@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2868179704bcba42",
+        "id": "60eaa8df1f80be8b",
         "type": "tabs",
         "children": [
           {
-            "id": "8eea2ca216497665",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png"
-              },
-              "icon": "lucide-image",
-              "title": "af.extended.signup"
-            }
-          },
-          {
-            "id": "ab606f4483ef25e8",
+            "id": "6b02c042dba96a74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Extended Sign Up"
+              "title": "Hubspot to Credentialing - Two-way Sync"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Extended Sign Up"
+              "title": "Backlinks for Hubspot to Credentialing - Two-way Sync"
             }
           },
           {
@@ -126,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Extended Sign Up"
+              "title": "Outgoing links from Hubspot to Credentialing - Two-way Sync"
             }
           },
           {
@@ -155,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Extended Sign Up"
+              "title": "Outline of Hubspot to Credentialing - Two-way Sync"
             }
           }
         ],
@@ -179,12 +166,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab606f4483ef25e8",
+  "active": "6b02c042dba96a74",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
-    "Luna/Therapist_Signup/Extended Sign Up/attachments",
+    "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
+    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
+    "Luna/Therapist_Signup/Apuntes_Savon_y_SOAP_en_Ruby.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
+    "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
+    "Luna/Therapist_Signup/Diccionario_de_opciones_para_campos_de_vacunas_en.md",
+    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",
     "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Luna/Therapist_Signup/Extended Sign Up/Notas Desarrollo - Extended Sign Up.md",
+    "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
+    "Luna/Therapist_Signup/Extended Sign Up/attachments",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
@@ -204,11 +198,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Rails_Proyectos_ver_y_aprender.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Manipulación_de_PDFs_en_Ruby.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Finder_Objects,_Form_Objects_y_Service_Objects.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Dockerizar_Ruby_on_Rails_app.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Cómo_Crear_Email_Templates_en_Rails.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
@@ -220,13 +209,11 @@
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
     "Luna/Therapist_Signup/Attestation Form/Backfill AF URL",
     "Luna/Backend/KX-Modifier/cambios-finales",
-    "DevAsPros/Enlacito/descubrimiento/n9/attachments/001.n9.formulario.png",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments",
     "DevAsPros/Enlacito/descubrimiento/dub/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/dub",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/untitled folder",
-    "DevAsPros/Enlacito/descubrimiento/lowerhot",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
