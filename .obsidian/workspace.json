@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hubspot to Credentialing - Two-way Sync"
+              "title": "Notas de Desarrollo - Two Way Data Sync"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Hubspot to Credentialing - Two-way Sync"
+              "title": "Backlinks for Notas de Desarrollo - Two Way Data Sync"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Hubspot to Credentialing - Two-way Sync"
+              "title": "Outgoing links from Notas de Desarrollo - Two Way Data Sync"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hubspot to Credentialing - Two-way Sync"
+              "title": "Outline of Notas de Desarrollo - Two Way Data Sync"
             }
           }
         ],
@@ -168,8 +168,9 @@
   },
   "active": "6b02c042dba96a74",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
+    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+    "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
     "Luna/Therapist_Signup/Apuntes_Savon_y_SOAP_en_Ruby.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
@@ -197,7 +198,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Rails_Proyectos_ver_y_aprender.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
