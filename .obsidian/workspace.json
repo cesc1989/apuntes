@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "60eaa8df1f80be8b",
+        "id": "cf804fb4d29c32e0",
         "type": "tabs",
         "children": [
           {
-            "id": "6b02c042dba96a74",
+            "id": "bf9fda8d443cd240",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+                "file": "Luna/Grimoire/Setup de Grimoire.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Notas de Desarrollo - Two Way Data Sync"
+              "title": "Setup de Grimoire"
+            }
+          },
+          {
+            "id": "c4cd04e447645013",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Configurando_Backend_Edge_en_Mac_M1"
+            }
+          },
+          {
+            "id": "865e52971c0127cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes Grimoire - Part 1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mix",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+                "file": "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Notas de Desarrollo - Two Way Data Sync"
+              "title": "Backlinks for Apuntes Grimoire - Part 1"
             }
           },
           {
@@ -113,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+                "file": "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Notas de Desarrollo - Two Way Data Sync"
+              "title": "Outgoing links from Apuntes Grimoire - Part 1"
             }
           },
           {
@@ -142,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+                "file": "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Notas de Desarrollo - Two Way Data Sync"
+              "title": "Outline of Apuntes Grimoire - Part 1"
             }
           }
         ],
@@ -166,10 +195,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b02c042dba96a74",
+  "active": "865e52971c0127cd",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+    "Luna/Grimoire/Configurando_Grimoire.md",
+    "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
     "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
     "Luna/Therapist_Signup/Apuntes_Savon_y_SOAP_en_Ruby.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
@@ -194,10 +227,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Capybara.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
