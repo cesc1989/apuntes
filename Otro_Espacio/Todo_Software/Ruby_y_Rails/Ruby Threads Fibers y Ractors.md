@@ -111,9 +111,47 @@ Empecemos con un poco de contexto. Esta [respuesta](https://stackoverflow.com/a/
 
 > Fibers are something you will probably never use directly in application-level code. They are a flow-control primitive which you can use to build other abstractions, which you then use in higher-level code.
 
-Ahora vamos a ver si en la actualidad eso ha cambiado.
+Vamos a ver si eso ha cambiado.
 
+## Ruby Fibers 101
 
+Artículo de [Saeloun](https://blog.saeloun.com/2022/03/01/ruby-fibers-101/)
+
+Los Fibers existen desde Ruby 1.9. Es desde Ruby 3 que vienen a tener más relevancia por la introducción de [Fiber::SchedulerInterface](https://rubyapi.org/3.0/o/fiber/schedulerinterface). Esta nueva clase permite cambio de contexto de manera rápida y más eficiente que los Threads.
+
+Los Fibers son workers ligeros similares los Threads pero con la diferencia de ser más eficiente en el uso de memoria y permitirle al programador controlar cuando el código debe pausar y reanudar.
+
+A nivel de aplicación los Fibers permiten esperas en I/O no bloqueante. Esto significa que cuando una Fiber está accediendo a un servicio I/O puede pasarle el control a otro Fiber para que complete su trabajo. Una vez el segundo Fiber termine, el primero puede retomar por donde iba.
+
+### Contexto Tradicional: OS Thread
+
+En sistemas normales, el bloqueo de I/O se da al asignar un Thread de Sistema Operativo (OS Thread) a cada petición. Esto presenta un desafío en que los OS Threads son más caros de crear y necesitan de cambio de contexto (cambio de datos, memoria) por parte del Sistema Operativo cada que un nuevo hilo deba ejecutarse.
+
+Todo lo anterior es bastante pesado para el sistema.
+
+Los Fibers palian tal sobrecarga ya que fueron creados para ser ligeros y consumir poca memoria. Esto lo logran al operar en un mismo Thread.
+
+Como regla al menos hay un Fiber por Thread. [En Ruby] siempre hay un Fiber activo.
+
+> [!Tip]
+> Aún cuando no se están usando Fibers ni haciendo trabajo relacionado, el código se ejecuta en el contexto de un main Fiber en el Thread actual. Todo creado automáticamente por Ruby por cada Thread.
+
+> [!Important]
+> Al usar Fibers el programador indica cuando empieza y cuando se detiene su ejecución.
+
+### Fibers vs Threads
+
+Ruby MRI usa un _fair scheduler_ el cual le asigna a cada Thread una cantidad igual de tiempo de ejecución antes de que pause y le pase el control al siguiente thread.
+
+Si tenemos dos Threads y uno ya está esperando I/O, cuando el scheduler le ceda el control no hará nada al estar esperando. Esto significaría perdida de procesamiento.
+
+Al contrario, los Fibers al ser pausados y reanudados según decida el programador, son más flexibles con el uso de los recursos del CPU. Eso sí, pueden hacer más complejos los programas que hagan uso de esta herramienta.
+
+### No son la solución al paralelismo
+
+El problema principal de Ruby es el GIL. Threads y Fibers permiten concurrencia pero no paralelismo. Los Fibers son un poco mejor y tienen otros usos que los Threads pero ambos ayudan a la misma tarea.
+
+La verdadera solución al paralelismo son los [Ractors](https://github.com/ruby/ruby/blob/master/doc/ractor.md).
 
 # Ractors
 
