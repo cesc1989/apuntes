@@ -193,6 +193,18 @@ f.resume
         from /Users/francisco/.gem/ruby/3.2.5/bin/irb:25:in `<main>'
 ```
 
+## Fiber::Scheduler
+
+La documentación nos dice que esto no es una clase sino una interfaz que debe implementarse por el programador que quiere usar Fibers no bloqueantes.
+
+### ¿Qué es un Fiber no bloqueante?
+
+Un Fiber no bloqueante, cuando llega a una operación que le bloquearía su procesamiento como `sleep`, esperar otro proceso o esperar I/O cederá control a otros Fibers. Al mismo tiempo le permite al _scheduler_ bloquear y despertarle cuando ya pueda completar su procesamiento.
+
+Para que un Fiber sea no bloqueante tiene que crearse con `Fiber.new` con el parámetro `blocking: false` (que es el valor por defecto). Además, `Fiber.scheduler` debe configurarse con `Fiber.set_scheduler`. 
+
+Ver en los [Docs](https://docs.ruby-lang.org/en/master/Fiber.html#class-Fiber-label-Non-blocking+Fibers).
+
 # Ractors
 
 > Ractor is an Actor-Model like concurrent abstraction designed to provide a parallel execution without thread-safety concerns. Ractors allow threads in different ractors to compute at the same time. Each ractor has at least one thread, which may contain multiple fibers. Inside a ractor, only a single thread is allowed to execute at a given time.
