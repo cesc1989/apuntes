@@ -2,7 +2,7 @@
 
 ¿Qué carajo son? ¿Para qué sirven? ¿En qué se diferencian?
 
-## Un poco de contexto
+## Contexto
 
 Del subreddit [r/ruby](https://www.reddit.com/r/ruby/comments/eh69or/eli5_what_are_ruby_thread_process_fiber/):
 
@@ -15,6 +15,14 @@ Otro comentario dice que:
 > Thread = Parallel execution inside a Process. More lightweight than a Process but shares the same address space as the spawning (parent) Process.
 >
 > Fiber = Lightweight parallel execution inside a Thread.
+
+## ¿Qué es eso de I/O?
+
+Input/Output. Procesos de entrada y salida. Ejemplos:
+
+- Recibir y Responder una petición TCP
+- Hacer una petición a la base de datos
+- Enviar petición a una API externa
 
 # Threads
 
