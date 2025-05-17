@@ -121,13 +121,19 @@ Empecemos con un poco de contexto. Esta [respuesta](https://stackoverflow.com/a/
 
 Vamos a ver si eso ha cambiado.
 
+## ¿Qué son los Fibers?
+
+Son unidades trabajo (*workers*). Lo son en el sentido de que ejecutan código y llevan registro de su progreso.
+
+Como los Threads son mecanismos de concurrencia.
+
 ## Ruby Fibers 101
 
 Artículo de [Saeloun](https://blog.saeloun.com/2022/03/01/ruby-fibers-101/)
 
 Los Fibers existen desde Ruby 1.9. Es desde Ruby 3 que vienen a tener más relevancia por la introducción de [Fiber::SchedulerInterface](https://rubyapi.org/3.0/o/fiber/schedulerinterface). Esta nueva clase permite cambio de contexto de manera rápida y más eficiente que los Threads.
 
-Los Fibers son workers ligeros similares los Threads pero con la diferencia de ser más eficiente en el uso de memoria y permitirle al programador controlar cuando el código debe pausar y reanudar.
+Los Fibers son workers ligeros similares los Threads pero con la diferencia de ser más eficiente en el uso de memoria y _permitirle al programador controlar cuando el código debe pausar y reanudar_.
 
 A nivel de aplicación los Fibers permiten esperas en I/O no bloqueante. Esto significa que cuando una Fiber está accediendo a un servicio I/O puede pasarle el control a otro Fiber para que complete su trabajo. Una vez el segundo Fiber termine, el primero puede retomar por donde iba.
 
@@ -160,6 +166,29 @@ Al contrario, los Fibers al ser pausados y reanudados según decida el programad
 El problema principal de Ruby es el GIL. Threads y Fibers permiten concurrencia pero no paralelismo. Los Fibers son un poco mejor y tienen otros usos que los Threads pero ambos ayudan a la misma tarea.
 
 La verdadera solución al paralelismo son los [Ractors](https://github.com/ruby/ruby/blob/master/doc/ractor.md).
+
+## Ejemplo de Fiber
+
+Un ejemplo sencillo.
+
+```ruby
+f = Fiber.new { puts 1 }
+#<Fiber:0x00000001076d17f0 (irb):1 (created)>
+
+f.resume
+1
+=> nil
+```
+
+Si intentamos reanudar de nuevo:
+```ruby
+f.resume
+(irb):3:in `resume': attempt to resume a terminated fiber (FiberError)
+        from (irb):3:in `<main>'
+        from /Users/francisco/.gem/ruby/3.2.5/gems/irb-1.15.2/exe/irb:9:in `<top (required)>'
+        from /Users/francisco/.gem/ruby/3.2.5/bin/irb:25:in `load'
+        from /Users/francisco/.gem/ruby/3.2.5/bin/irb:25:in `<main>'
+```
 
 # Ractors
 
