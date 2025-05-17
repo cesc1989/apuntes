@@ -155,4 +155,6 @@ La verdadera solución al paralelismo son los [Ractors](https://github.com/ruby/
 
 # Ractors
 
-TBC
+> Ractor is an Actor-Model like concurrent abstraction designed to provide a parallel execution without thread-safety concerns. Ractors allow threads in different ractors to compute at the same time. Each ractor has at least one thread, which may contain multiple fibers. Inside a ractor, only a single thread is allowed to execute at a given time.
+>
+> Saeloun
