@@ -133,6 +133,9 @@ Artículo de [Saeloun](https://blog.saeloun.com/2022/03/01/ruby-fibers-101/)
 
 Los Fibers existen desde Ruby 1.9. Es desde Ruby 3 que vienen a tener más relevancia por la introducción de [Fiber::SchedulerInterface](https://rubyapi.org/3.0/o/fiber/schedulerinterface). Esta nueva clase permite cambio de contexto de manera rápida y más eficiente que los Threads.
 
+> [!Note]
+> Fiber Scheduler interface is a set of hooks for blocking operations and allows inserting a asynchronous behavior when a blocking operation occurs.
+
 Los Fibers son workers ligeros similares los Threads pero con la diferencia de ser más eficiente en el uso de memoria y _permitirle al programador controlar cuando el código debe pausar y reanudar_.
 
 A nivel de aplicación los Fibers permiten esperas en I/O no bloqueante. Esto significa que cuando una Fiber está accediendo a un servicio I/O puede pasarle el control a otro Fiber para que complete su trabajo. Una vez el segundo Fiber termine, el primero puede retomar por donde iba.
