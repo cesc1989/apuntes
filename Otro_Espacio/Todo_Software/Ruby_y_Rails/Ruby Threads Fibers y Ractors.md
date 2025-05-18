@@ -207,6 +207,13 @@ Ver en los [Docs](https://docs.ruby-lang.org/en/master/Fiber.html#class-Fiber-la
 
 # Ractors
 
+## Definiciones
+
 > Ractor is an Actor-Model like concurrent abstraction designed to provide a parallel execution without thread-safety concerns. Ractors allow threads in different ractors to compute at the same time. Each ractor has at least one thread, which may contain multiple fibers. Inside a ractor, only a single thread is allowed to execute at a given time.
 >
 > Saeloun
+
+
+> Ractor is designed to provide a parallel execution feature of Ruby without thread-safety concerns.
+>
+> [GitHub](https://github.com/ruby/ruby/blob/master/doc/ractor.md)
