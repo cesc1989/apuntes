@@ -13,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Ciclo 05 - Enlacito"
+              "title": "Apuntes_Ruby_on_Rails_Parte_4"
+            }
+          },
+          {
+            "id": "06715cd1f4308e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "32fc5ab89ae92b09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "eccb1da0936cd0f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "60c57d4a3bb0634b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entorno de Desarrollo - Parte 1"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -53,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mix",
+                "query": "brew services start postgresql",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +131,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 05 - Enlacito"
+              "title": "Outline of Entorno de Desarrollo - Parte 1"
             }
           }
         ],
@@ -164,12 +222,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21f3536bef9616cb",
+  "active": "60c57d4a3bb0634b",
   "lastOpenFiles": [
+    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "DevAsPros/Enlacito/attachments",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "DevAsPros/Enlacito/MVP - Enlacito.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
@@ -191,12 +256,6 @@
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Therapist_Signup/Extended Sign Up",
-    "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/¿Qué_Diferencia_hay_entre_bashrc,_bash_profile.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
@@ -205,7 +264,6 @@
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/003.lowerhot.links.png",
     "DevAsPros/Enlacito/descubrimiento/bitly/attachments/002.bitly.links.png",
-    "DevAsPros/Enlacito/descubrimiento/bitly/attachments/004.bitly.links.filter.png",
     "Luna/Therapist_Signup/Attestation Form/Backfill AF URL",
     "Luna/Backend/KX-Modifier/cambios-finales",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments",

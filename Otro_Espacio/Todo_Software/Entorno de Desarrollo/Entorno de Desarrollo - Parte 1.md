@@ -2,6 +2,8 @@
 
 # Instalando y desinstalando postgresql en Macos Ventura con Homebrew
 
+## Desintalar
+
 Para desinstalar, ejemplo, postgresql@14:
 
 ```bash
@@ -16,6 +18,8 @@ brew uninstall --force postgresql@16
 
 rm -rf /opt/homebrew/var/postgres
 ```
+
+## Instalar
 
 Para instalar postgresql@16:
 ```bash
