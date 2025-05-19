@@ -72,3 +72,9 @@ HTTP/1.1 302 Found
 ```
 
 Hace redirección con respuesta 302.
+
+#### Para probar el bot de Twitter
+
+```bash
+curl -i -A "Twitterbot" https://enlacito.co/zKTIXJ
+```
