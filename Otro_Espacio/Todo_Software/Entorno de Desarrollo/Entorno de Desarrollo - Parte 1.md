@@ -4,7 +4,7 @@
 
 ## Desintalar
 
-Para desinstalar, ejemplo, postgresql@14:
+Para desinstalar postgresql@14:
 
 ```bash
 $ brew uninstall --ignore-dependencies postgresql@14
@@ -12,7 +12,7 @@ $ brew uninstall --ignore-dependencies postgresql@14
 Uninstalling /opt/homebrew/Cellar/postgresql@14/14.13... (3,323 files, 45.5MB)
 ```
 
-O también así. En este caso postgresql 16
+O postgresql 16:
 ```bash
 brew uninstall --force postgresql@16
 
