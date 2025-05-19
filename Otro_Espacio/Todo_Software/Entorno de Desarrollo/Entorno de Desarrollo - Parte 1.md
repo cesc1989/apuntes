@@ -103,7 +103,7 @@ Hay que instalarlo con la libreria version dev:
 sudo apt-get install libvips libvips-dev
 ```
 
-# Actualizar postgresql@16 a versión 17
+# Actualizar postgresql@16 a versión 17 en macOS
 
 Las claves son:
 
