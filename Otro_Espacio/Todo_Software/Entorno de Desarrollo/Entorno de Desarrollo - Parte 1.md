@@ -185,3 +185,12 @@ O con este `pg_isready`:
 pg_isready
 /tmp:5432 - accepting connections
 ```
+
+## Actualiza el PATH para que apunte a postgresql@17
+
+Es muy probable que el PATH apunte a la versión anterior. Cambialo:
+```bash
+if [ -d "/opt/homebrew/opt/postgresql@17/bin" ]; then
+  export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+fi
+```
