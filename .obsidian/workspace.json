@@ -11,10 +11,14 @@
             "id": "21f3536bef9616cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 05 - Enlacito"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -163,7 +166,10 @@
   },
   "active": "21f3536bef9616cb",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
+    "DevAsPros/Enlacito/attachments",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "DevAsPros/Enlacito/MVP - Enlacito.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
@@ -191,8 +197,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
@@ -208,7 +212,6 @@
     "DevAsPros/Enlacito/descubrimiento/dub/untitled folder",
     "DevAsPros/Enlacito/descubrimiento/dub",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments",
-    "DevAsPros/Enlacito/descubrimiento/lowerhot/untitled folder",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
