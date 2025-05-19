@@ -103,3 +103,85 @@ Hay que instalarlo con la libreria version dev:
 sudo apt-get install libvips libvips-dev
 ```
 
+# Actualizar postgresql@16 a versión 17
+
+Las claves son:
+
+- Desactivar extensiones molestas como Hypopg o Postgis.
+
+## Instalar postgresql@17
+
+Se instala así:
+```
+HOMEBREW_NO_AUTO_UPDATE=1 brew install postgresql@17
+```
+
+## Copia datos de postgresql@16 a postgresql@17
+
+Apaga primero la versión anterior:
+```
+brew services stop postgresql@16
+```
+
+Crea carpetas de sockets para esta operación:
+```
+mkdir -p /tmp/pg_upgrade_sockets
+chmod 700 /tmp/pg_upgrade_sockets
+```
+
+Ejecuta el comando `pg_upgrade`:
+```
+LC_ALL=en_US.UTF-8 \
+/opt/homebrew/opt/postgresql@17/bin/pg_upgrade \
+  -b /opt/homebrew/opt/postgresql@16/bin \
+  -B /opt/homebrew/opt/postgresql@17/bin \
+  -d /opt/homebrew/var/postgresql@16 \
+  -D /opt/homebrew/var/postgresql@17 \
+  -o "-c unix_socket_directories='/tmp/pg_upgrade_sockets'" \
+  -O "-c unix_socket_directories='/tmp/pg_upgrade_sockets'"
+```
+
+### Elimina una BD molesta
+
+Había un problema con `grimoire_dev` por PostGIS así que decidí borrarla:
+
+```
+/opt/homebrew/opt/postgresql@16/bin/psql -U francisco -d postgres -c "DROP DATABASE grimoire_dev;"
+```
+
+### Problemas con Hypopg
+
+Las bases de datos de Edge usan esta extensión. Estaba molestando porque la instalación no es tan sencilla. Cuando instalaba con brew se iba a postgresql@14 y cuando lo hacía por fuentes se iba a la versión 16.
+
+Decidí desinstalar esa extensión:
+```
+/opt/homebrew/opt/postgresql@16/bin/psql -U francisco -d francisco -c "DROP EXTENSION IF EXISTS hypopg;"
+/opt/homebrew/opt/postgresql@16/bin/psql -U francisco -d luna_api_development_replica -c "DROP EXTENSION IF EXISTS hypopg;"
+/opt/homebrew/opt/postgresql@16/bin/psql -U francisco -d luna_api_development_3 -c "DROP EXTENSION IF EXISTS hypopg;"
+/opt/homebrew/opt/postgresql@16/bin/psql -U francisco -d luna_api_development_4 -c "DROP EXTENSION IF EXISTS hypopg;"
+/opt/homebrew/opt/postgresql@16/bin/psql -U francisco -d luna_api_test -c "DROP EXTENSION IF EXISTS hypopg;"
+```
+
+## Iniciar postgresql@17
+
+Finalmente pude completar la migración y levantar la nueva versión de PostgreSQL:
+
+```
+brew services start postgresql@17
+```
+
+Se puede verificar que corra con estos otros comando:
+```
+brew services list
+Name          Status  User      File
+postgresql@16 none
+postgresql@17 started francisco ~/Library/LaunchAgents/homebrew.mxcl.postgresql@17.plist
+redis         started francisco ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+unbound       none
+```
+
+O con este `pg_isready`:
+```
+pg_isready
+/tmp:5432 - accepting connections
+```
