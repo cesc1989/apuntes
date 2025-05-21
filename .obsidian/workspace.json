@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "Notas de Desarrollo - Two Way Data Sync"
             }
-          },
-          {
-            "id": "b5d450299a6dd818",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hubspot to Credentialing - Two-way Sync"
-            }
           }
         ]
       }

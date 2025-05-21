@@ -88,3 +88,23 @@ Esto genera el digest:
 
 El cual se pega en el header `X-HubSpot-Signature` en Postman y se envía la petición.
 
+
+## Petición de Treating state/city & zip code
+
+A estos tocó ponerles un prefijo para diferenciarlos.
+
+```json
+{"vid":"121819130957","properties":{"state_treating":{"value":"CA"},"city_treating":{"value":"Los Angeles"},"zip_code":{"value":"101010"}}}
+```
+
+Generar el digest:
+```ruby
+hash_string = 'ed9a2369-5118-44a1-9a91-39e31f789c03POSThttps://therapist-signup.alpha.getluna.com/v2/external/therapist_hubspot_webhook{"vid":"121819130957","properties":{"state_treating":{"value":"CA"},"city_treating":{"value":"Los Angeles"},"zip_code":{"value":"101010"}}}'
+
+Digest::SHA256.hexdigest(hash_string)
+```
+
+Resultado:
+```
+8e8e50866ca03bc8d9f4693cd0c1bb0466866eb37fee526cd0fd9a2fdfee7212
+```
