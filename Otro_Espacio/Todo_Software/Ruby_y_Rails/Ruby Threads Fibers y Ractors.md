@@ -302,3 +302,8 @@ Tienen dos forma de llevar a cabo la comunicación:
 
 - [Explicación a fondo en Ruby](https://github.com/ruby/ruby/blob/master/doc/ractor.md)
 - [Bruno Sutic sobre Async Ruby](https://brunosutic.com/blog/async-ruby)
+
+
+# Casos de Uso de Cada Uno
+
+En esta sección listaré ejemplos claros para cada uno.
