@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "22842e2979aaec2a",
+        "id": "f56b48b51b04345d",
         "type": "tabs",
         "children": [
           {
-            "id": "b184a346abd941b8",
+            "id": "b47ac554ecc2d800",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ruby_Parte_5"
+              "title": "Apuntes de Zed"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ruby_Parte_5"
+              "title": "Outline of Apuntes de Zed"
             }
           }
         ],
@@ -164,8 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "b47ac554ecc2d800",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_VS_Code.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
     "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
@@ -189,11 +194,6 @@
     "Luna/Grimoire/Configurando_Grimoire.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
-    "Luna/Therapist_Signup/Exportando_datos_mediante_SQL_puro.md",
-    "Luna/Therapist_Signup/Apuntes_Savon_y_SOAP_en_Ruby.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
-    "Luna/Therapist_Signup/Diccionario_de_opciones_para_campos_de_vacunas_en.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",
     "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
     "Luna/Therapist_Signup/Extended Sign Up/attachments",
