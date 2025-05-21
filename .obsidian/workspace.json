@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ruby Threads Fibers y Ractors"
+              "title": "Apuntes_Ruby_Parte_5"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "_token",
+                "query": "desinstalar chruby",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,17 +141,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ruby Threads Fibers y Ractors"
+              "title": "Outline of Apuntes_Ruby_Parte_5"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -166,8 +167,9 @@
   },
   "active": "b184a346abd941b8",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
+    "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
     "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
@@ -194,7 +196,6 @@
     "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
     "Luna/Therapist_Signup/Diccionario_de_opciones_para_campos_de_vacunas_en.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",
-    "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
     "Luna/Therapist_Signup/Extended Sign Up/attachments",
     "Luna/Therapist_Signup/Extended Sign Up",
