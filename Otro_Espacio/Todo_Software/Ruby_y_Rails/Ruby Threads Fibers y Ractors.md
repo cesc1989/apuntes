@@ -217,3 +217,88 @@ Ver en los [Docs](https://docs.ruby-lang.org/en/master/Fiber.html#class-Fiber-la
 > Ractor is designed to provide a parallel execution feature of Ruby without thread-safety concerns.
 >
 > [GitHub](https://github.com/ruby/ruby/blob/master/doc/ractor.md)
+
+
+## En Detalle
+
+> Tomado del artículo de [Bill Tihen](https://btihen.dev/posts/ruby/ruby_3_x_ractor/)
+
+Ractors (Ruby Actors) permiten computación en paralelo total (es decir usar todas las CPUs que se deseen).
+
+Como quedó claro en la sección de Threads, estos solo ofrecen concurrencia y tienen el problema de que pueden compartir objetos (indeseado).
+
+El texto menciona que estas librerías ofrecen alternativas a los Threads pero al final solo ofrecen concurrencia:
+
+- [Async](https://github.com/socketry/async)
+- [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby)
+
+Menciona algo importante:
+
+> [los anteriores] son más efectivos para I/O pesado y no para tareas de CPU.
+
+### Componentes de un Ractor
+
+- in-coming port (o *in-port*): abierto mientras que `Ractor.receive` está en espera (bloqueado).
+- in-coming mailbox (o inbox): cola ilimitada siempre que el *in-port* esté abierto.
+- bloques de código de alcance local (o code blocks): el compilador no permite variables dentro del bloque con nombres de variables de fuera del bloque.
+- memoria de alcance local: los objetos se copian y deben ser thread safe (frozen/inmutables)
+- out-going port (o *out-port*): abierto cuando `Ractor.yield` está en espera (bloqueado)
+
+### Ciclo de Vida de un Ractor
+
+Un Ractor está vivo siempre que un port (in o out) esté abierto.
+
+Cuando un port está abierto el Ractor está bloqueado (esperando).
+
+Cuando un mensaje llega al inbox y el out-port no está bloqueado, el Ractor procesará los mensajes tan pronto estén programados (scheduled).
+
+Cuando el Ractor tiene una salida pero no ha sido tomada (_taken_), podrá seguir recibiendo mensajes pero no los va a procesar hasta que el mensaje saliente sea tomado (_taken_).
+
+#### Ejemplo: Ractor perenne
+
+Se logra con un loop:
+```ruby
+r1 = Ractor.new(name: "r1") do
+  loop do
+    input = Ractor.receive
+    
+    result = input + 2
+    
+    puts "Executed - result will be: #{result}"
+    
+    Ractor.yield(result)
+  end
+end
+```
+
+---
+
+Los Ractors mueren si se topan con una excepción.
+
+### Ractors nombrados
+
+Esto es opcional pero ayuda con la supervisión. De esa forma se puede saber qué Ractor muere y reiniciarlo.
+
+En el ejemplo anterior se le dio nombre `name: "r1"`. Para identificar el nombre se llama al método `#name`: `r1.name`.
+
+### Desempeño
+
+> [!Tip]
+> Los Ractores no siempre serán lo mejor para más desempeño.
+>
+> Ejemplo: cuando se crean más objetos y el algoritmo es más rápido de lo que toma crear los Ractores y luego correrlos.
+
+### Comunicación en Ractores
+
+Tienen dos forma de llevar a cabo la comunicación:
+
+- _push_: el Ractor recibe un mensaje en su inbox.
+- _pull_: se bloquea el out-port y se esperan los resultados usando `take`
+
+> [!Tip]
+> Recuerda que los objetos deben ser inmutables: frozen.
+
+### Más Recursos
+
+- [Explicación a fondo en Ruby](https://github.com/ruby/ruby/blob/master/doc/ractor.md)
+- [Bruno Sutic sobre Async Ruby](https://brunosutic.com/blog/async-ruby)
