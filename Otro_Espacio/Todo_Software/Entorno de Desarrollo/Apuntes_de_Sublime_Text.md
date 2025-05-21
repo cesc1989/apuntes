@@ -182,7 +182,7 @@ Está la gema [solargraph-rails](https://github.com/iftheshoefritz/solargraph-ra
 
 ### Problema con Solargraph luego de reiniciar el equipo
 
-![error de solargraph](./attachments/error.solargraph.png)
+![error de solargraph](error.solargraph.png)
 
 Enlaces:
 
