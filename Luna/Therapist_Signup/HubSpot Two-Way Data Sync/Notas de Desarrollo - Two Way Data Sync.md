@@ -54,6 +54,14 @@ Si estas propiedades cambian en HubSpot, no se puede traducir ese cambio a algo 
 
 # Probando Petición en Alpha
 
+## Query de Graphana para que no salgan logs molestos
+
+Usarla antes de correr queries para limpiar bastante la salida.
+
+```
+{app="therapist-credentialing-backend"} != `path=/okcomputer/all.json` != `SELECT "schema_migrations"`
+```
+
 ## Petición de campos Yes/No
 
 Para este body:
