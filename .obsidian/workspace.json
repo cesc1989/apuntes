@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e3f285ebd911edca",
+        "id": "93288788d05f177b",
         "type": "tabs",
         "children": [
           {
-            "id": "2d0fa7f924417713",
+            "id": "e5fe9ea36ebbede5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Therapist Signup"
+              "title": "Ruby Threads Fibers y Ractors"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Therapist Signup"
+              "title": "Outline of Ruby Threads Fibers y Ractors"
             }
           }
         ],
@@ -165,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d0fa7f924417713",
+  "active": "e5fe9ea36ebbede5",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
@@ -192,8 +193,6 @@
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
     "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "DevAsPros/Enlacito/attachments",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",

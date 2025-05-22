@@ -307,3 +307,14 @@ Tienen dos forma de llevar a cabo la comunicación:
 # Casos de Uso de Cada Uno
 
 En esta sección listaré ejemplos claros para cada uno.
+
+## Para Threads
+
+**Performing I/O operations concurrently**: Read and write files or network operations in parallel to improve performance.
+
+> [!Tip]
+> Tal vez las múltiples peticiones a Athena en el Clinical Dashboard podrían hacerse multi-thread. Tal vez.
+
+**Parallel data processing**: Process large datasets concurrently to reduce processing time.
+
+**Background tasks**: Run long-running tasks in the background without blocking the main thread.
