@@ -23,6 +23,7 @@ Input/Output. Procesos de entrada y salida. Ejemplos:
 - Recibir y Responder una petición TCP
 - Hacer una petición a la base de datos
 - Enviar petición a una API externa
+- Leer archivos del sistema de archivos del OS
 
 # Threads
 
@@ -310,11 +311,21 @@ En esta sección listaré ejemplos claros para cada uno.
 
 ## Para Threads
 
-**Performing I/O operations concurrently**: Read and write files or network operations in parallel to improve performance.
+**Realizar operaciones de E/S de forma concurrente**: Leer y escribir archivos u operaciones de red en paralelo para mejorar el rendimiento.
 
 > [!Tip]
 > Tal vez las múltiples peticiones a Athena en el Clinical Dashboard podrían hacerse multi-thread. Tal vez.
 
-**Parallel data processing**: Process large datasets concurrently to reduce processing time.
+**Procesamiento paralelo de datos**: Procesa grandes conjuntos de datos de forma concurrente para reducir el tiempo de procesamiento.
 
-**Background tasks**: Run long-running tasks in the background without blocking the main thread.
+**Tareas en segundo plano**: Ejecuta tareas de larga duración en segundo plano sin bloquear el hilo principal.
+
+**Pruebas de carga o concurrencia**: lo que hace jmeter.
+
+## Para Fibers
+
+No me queda claro. Los ejemplos que me dio chatgpt son muy raros. Parece que los Fibers están reservados para programas que dan soporte a frameworks. No para código de aplicación.
+
+## Para Ractors
+
+Siento que es lo mismo que con Fibers.
