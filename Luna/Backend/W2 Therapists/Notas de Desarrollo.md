@@ -93,6 +93,9 @@ Es `discharged` cuando:
 
 Voy a necesitar tener esto claro para poder completar las validaciones.
 
+> [!Note]
+> Por defecto, los appointments son creados con `state = 0`
+
 ```ruby
 enum state: {
 	pending: 0,
