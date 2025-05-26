@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7f081218fc9f6292",
+        "id": "1cd3c98d1ac53cac",
         "type": "tabs",
         "children": [
           {
-            "id": "a644829854a94160",
+            "id": "7910bc530208d657",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/W2 Therapists/Notas de Desarrollo.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Notas de Desarrollo"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/W2 Therapists/Notas de Desarrollo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Notas de Desarrollo"
             }
           }
         ],
@@ -159,15 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a644829854a94160",
+  "active": "7910bc530208d657",
   "lastOpenFiles": [
+    "Luna/Backend/W2 Therapists/Notas de Desarrollo.md",
+    "Luna/Backend/W2 Therapists",
+    "Luna/Backend/Patients/Example Patients.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
-    "Luna/Backend/Patients/Example Patients.md",
     "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
@@ -187,7 +194,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/advanced/README.md",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "DevAsPros/Enlacito/attachments",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",
@@ -206,7 +212,6 @@
     "Luna/Backend/KX-Modifier/cambios-finales",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments",
     "DevAsPros/Enlacito/descubrimiento/dub/untitled folder",
-    "DevAsPros/Enlacito/descubrimiento/dub",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
