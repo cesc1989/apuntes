@@ -109,3 +109,13 @@ enum state: {
 	draft_cancel: 8
 }
 ```
+
+También están los estado activo:
+```ruby
+ACTIVE_STATES = %w[pending ongoing completed].freeze
+```
+
+Y los estado inactivo:
+```ruby
+INACTIVE_STATES = %w[canceled no_show].freeze
+```
