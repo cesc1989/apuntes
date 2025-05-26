@@ -63,3 +63,28 @@ Las claves son:
 - Para `visible_via_schedule_for` que son patients con care plan (episode) `active`
 - Para `visible_via_discharge_for` que son patients con care plan `discharged`
 - Para `visible_via_bond_for` son patient donde la relación `TherapistPatientBond` con therapist existe
+
+# Estados de Episode
+
+Estos son los diferentes estados de un Episode:
+```ruby
+enum status: {
+  active: 0,
+  auto_discharged: 1,
+  treatment_completed: 2,
+  draft: 666
+}
+```
+
+## 🟡 Atento con el scope `discharged` 🟡
+
+En muchas partes se usa este scope. No representa ningún estado sino una combinación>
+```ruby
+scope :discharged, -> { where(status: %i[auto_discharged treatment_completed]) }
+```
+
+Es `discharged` cuando:
+
+- su estado cambió a `auto_discharged`
+- su estado cambió a `treatment_completed`
+
