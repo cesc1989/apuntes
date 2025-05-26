@@ -65,6 +65,26 @@ Las claves son:
 	- _Ojo aquí: esto es el scope `discharged`_
 - Para `visible_via_bond_for` son patient donde la relación `TherapistPatientBond` con therapist existe
 
+# Estados de Therapist
+
+Son estos:
+```ruby
+enum status: %i[pending_activation activated paused moved not_interested not_a_fit doa expired_license draft]
+```
+
+Por la sintaxis los estados están dados por el índice del array. O sea que los valores enteros serían:
+```ruby
+pending_activation: 0
+activated: 1
+paused: 2
+moved: 3
+not_interested: 4
+not_a_fit: 5
+doa: 6
+expired_license: 7
+draft: 8
+```
+
 # Estados de Episode
 
 Estos son los diferentes estados de un Episode:
