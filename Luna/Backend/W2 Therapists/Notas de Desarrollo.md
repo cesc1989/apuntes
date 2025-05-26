@@ -62,6 +62,7 @@ Las claves son:
 
 - Para `visible_via_schedule_for` que son patients con care plan (episode) `active`
 - Para `visible_via_discharge_for` que son patients con care plan `discharged`
+	- _Ojo aquí: esto es el scope `discharged`_
 - Para `visible_via_bond_for` son patient donde la relación `TherapistPatientBond` con therapist existe
 
 # Estados de Episode
