@@ -89,3 +89,20 @@ Es `discharged` cuando:
 - su estado cambió a `auto_discharged`
 - su estado cambió a `treatment_completed`
 
+# Estados de Appointment
+
+Voy a necesitar tener esto claro para poder completar las validaciones.
+
+```ruby
+enum state: {
+	pending: 0,
+	ongoing: 1,
+	completed: 2,
+	canceled: 3,
+	no_show: 5,
+	# Unpersisted
+	draft_add: 6,
+	draft_reschedule: 7,
+	draft_cancel: 8
+}
+```
