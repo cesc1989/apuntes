@@ -139,3 +139,12 @@ Y los estado inactivo:
 ```ruby
 INACTIVE_STATES = %w[canceled no_show].freeze
 ```
+
+## Scopes
+
+Hay scopes para filtrar los appointments según su estado:
+```ruby
+scope :active, -> { where(state: ACTIVE_STATES) }
+scope :inactive, -> { where(state: INACTIVE_STATES) }
+```
+
