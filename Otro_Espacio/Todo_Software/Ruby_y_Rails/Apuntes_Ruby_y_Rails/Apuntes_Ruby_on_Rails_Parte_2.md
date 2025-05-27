@@ -313,11 +313,19 @@ Cuando está en otro modo (`employee`) nunca entra en este bloque de validacione
 
 Lo anterior funcionan según las pruebas automáticas. Lo que no funciona es tener algo como esto:
 ```ruby
-  with_options if: :draft? do
-    validates :national_provider_identifier, length: { is: 10 }, presence: true, on: :update
+with_options if: :draft? do
+	validates :national_provider_identifier, length: { is: 10 }, presence: true, on: :update
 
-    validates :ssn_last_4, presence: true, if: proc { |t| t.independent_contractor? }
-  end
+	validates :ssn_last_4, presence: true, if: proc { |t| t.independent_contractor? }
+end
 ```
 
 Esto aquí no funciona porque el modificador `if` del macro `validates` toma precedencia porque Rails lo acepta como lo que tiene más prioridad.
+
+## `with_options` con lista de condicionales
+
+Finalmente, si necesitamos varias condiciones para poder ingresar al grupo se puede pasar una lista:
+```ruby
+with_options if: [:draft?, :independent_contractor?] do
+end
+```
