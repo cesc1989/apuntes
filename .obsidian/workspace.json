@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Notas de Desarrollo"
             }
+          },
+          {
+            "id": "046d45db0896b770",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Ruby_on_Rails_Parte_2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/W2 Therapists/Notas de Desarrollo.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Notas de Desarrollo"
+              "title": "Outline of Apuntes_Ruby_on_Rails_Parte_2"
             }
           }
         ],
@@ -164,15 +179,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7910bc530208d657",
+  "active": "046d45db0896b770",
   "lastOpenFiles": [
     "Luna/Backend/W2 Therapists/Notas de Desarrollo.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_3.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_2.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "Luna/Backend/W2 Therapists",
     "Luna/Backend/Patients/Example Patients.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_23_-_logrotate.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
     "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
@@ -191,9 +209,6 @@
     "DevAsPros/Enlacito/RFC 001 - Dominio Raíz o Subdominio.md",
     "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "DevAsPros/Enlacito/attachments",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",
