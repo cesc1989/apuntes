@@ -265,3 +265,59 @@ Aquí devuelve el hash original sacando la llave estipulada como parámetro.
 
 # `with_options` para agrupar macros
 
+Resulta que en Luxe el modelo Therapist tiene esto:
+```ruby
+with_options if: :draft? do
+  validates :ssn_last_4, presence: true, on: :update
+  validates :ssn_last_4, length: { is: 4 }, on: :update
+end
+
+with_options unless: :draft? do
+  validates :ssn_last_4, length: { is: 4 }, presence: true
+end
+```
+
+Hace un grupo de validaciones cuando el estado es `draft`. Cuando entra en este bloque las validaciones pasan en el contexto de un `update`.
+
+Lo otro es que cuando se no se está en `draft` el therapist, se valida al crear y actualizar.
+
+Es decir:
+
+- Therapist en `draft`: solo validar al actualizar
+- Therapist en no `draft`: valida en cualquier contexto
+
+Quería agregar una condición donde solo el therapist `independent_contractor` se validará para ambos casos: draft y no draft.
+
+Para lograrlo hice esto:
+```ruby
+with_options if: :independent_contractor? do
+	with_options if: :draft?, on: :update do
+		validates :ssn_last_4, presence: true
+		validates :ssn_last_4, length: { is: 4 }
+	end
+
+	with_options unless: :draft? do
+		validates :ssn_last_4, presence: true
+		validates :ssn_last_4, length: { is: 4 }
+	end
+end
+```
+
+## `with_options` anidado
+
+Según ChatGPT, cuando se anidan bloques `with_options` Rails acumula las condiciones. En este caso Rails hará las validaciones de `ssn_last_4` cuando el therapist sea `independent_contractor` y esté (o no) en `draft`.
+
+Cuando está en otro modo (`employee`) nunca entra en este bloque de validaciones.
+
+## `with_options` con condición con macro interna con condición
+
+Lo anterior funcionan según las pruebas automáticas. Lo que no funciona es tener algo como esto:
+```ruby
+  with_options if: :draft? do
+    validates :national_provider_identifier, length: { is: 10 }, presence: true, on: :update
+
+    validates :ssn_last_4, presence: true, if: proc { |t| t.independent_contractor? }
+  end
+```
+
+Esto aquí no funciona porque el modificador `if` del macro `validates` toma precedencia porque Rails lo acepta como lo que tiene más prioridad.
