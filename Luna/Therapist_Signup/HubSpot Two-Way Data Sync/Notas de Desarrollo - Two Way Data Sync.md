@@ -108,3 +108,37 @@ Resultado:
 ```
 8e8e50866ca03bc8d9f4693cd0c1bb0466866eb37fee526cd0fd9a2fdfee7212
 ```
+
+## Petición de Personal References
+
+```json
+{"vid":"101262458469","properties":{"personal_reference_id":{"value":628},"personal_reference_name":{"value":"Capy Bara 1"},"personal_reference_email":{"value":"capybara_1@gmail.com"},"personal_reference_phone":{"value":"(415) 222-3434"},"personal_reference_title":{"value":"Physical Therapist"}}}
+```
+
+Generar el digest:
+```ruby
+hash_string = 'ed9a2369-5118-44a1-9a91-39e31f789c03POSThttps://therapist-signup.alpha.getluna.com/v2/external/therapist_hubspot_webhook{"vid":"101262458469","properties":{"personal_reference_id":{"value":628},"personal_reference_name":{"value":"Capy Bara 1"},"personal_reference_email":{"value":"capybara_1@gmail.com"},"personal_reference_phone":{"value":"(415) 222-3434"},"personal_reference_title":{"value":"Physical Therapist"}}}'
+
+Digest::SHA256.hexdigest(hash_string)
+```
+
+Resultado:
+```
+53a2d6def53e48689d075f65c7198ff902b34857e36bbdee5f83a0aad4ed30a0
+```
+
+### Probar cambiar el valor de un atributo
+
+Al cambiar algo hay que volver a generar el digest. Probemos que el `personal_reference_name` cambie.
+
+Generar el digest:
+```ruby
+hash_string = 'ed9a2369-5118-44a1-9a91-39e31f789c03POSThttps://therapist-signup.alpha.getluna.com/v2/external/therapist_hubspot_webhook{"vid":"101262458469","properties":{"personal_reference_id":{"value":628},"personal_reference_name":{"value":"Mugi Wara"},"personal_reference_email":{"value":"capybara_1@gmail.com"},"personal_reference_phone":{"value":"(415) 222-3434"},"personal_reference_title":{"value":"Physical Therapist"}}}'
+
+Digest::SHA256.hexdigest(hash_string)
+```
+
+Resultado:
+```
+e58e526e6627a5e372c214e8566387d5684f2263f6ee59c32253602fb33b98fd
+```
