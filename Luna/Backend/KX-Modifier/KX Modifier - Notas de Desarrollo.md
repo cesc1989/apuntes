@@ -270,6 +270,8 @@ Para hacerlo hay que usar el correo del Therapist. En mí caso, para probar esta
 
 ## Ejecutar Mutaciones en GraphiQL
 
+TBC.
+
 # Peticiones en GraphQL desde Postman
 
 El endpoint para probar es `POST /graphql`. Hay que pasar las siguientes cabeceras de autenticación y authorización:
@@ -319,3 +321,321 @@ Si bien el ID es de un Care Plan, no sabía como hacer para pasarle los atributo
 Le pregunté a ChatGPT sobre eso y me dice que eso es un fragmento condicional. Si el nodo devuelto es de tipo "CarePlan", trae los atributos que indica la query.
 
 En los [docs de GraphQL](https://graphql.org/learn/queries/#inline-fragments) le llaman "inline fragments".
+
+# KX y Candid
+
+## Ingreso y Marcado de `threshold_exceeded`
+
+La integración con Candid funciona leyendo un archivo CSV que ponen en un bucket de S3. Ahí hay varios valores que se importan en la base de datos de Edge. En este parte del import es donde se va a buscar la posible razón de denegación del servicio cuando el paciente ya excedió el límite de gasto del año para Medicare.
+
+Dicho valor se va a encontrar en la columna/header `denial_reasons`.
+
+La documentación de Candid [menciona](https://docs.joincandidhealth.com/api-reference/service-lines/v-2/create) que los valores que puede tener esa columna son:
+
+- Authorization Required
+- Referral Required
+- Medical Records Requested
+- Timely Filing
+- Duplicate Claim
+- Incorrect Place of Service
+- Incorrect Patient Gender
+- Bundled
+- Exceeded Billable Time
+- Invalid Provider Information
+- Invalid Diagnosis Code
+- Incorrect Procedure Code
+- Invalid Modifier
+- Missing NDC Code
+- Invalid Insurance Data
+- No Active Coverage
+- Coordination of Benefits
+- Incorrect Payer
+- Credentialing
+- No Effective Contract
+- Missing W-9
+- Missing Contract Linkage
+- Non-Covered Benefit
+- Experimental Procedure
+- Not Medically Necessary
+- Info Requested from Provider
+- Info Requested from Patient
+- Billing Error
+- Unknown
+- **Max Benefit Reached**
+
+La que nos interesa es precisamente la última: "Max Benefit Reached". Cuando `denial_reason` es "Max Benefit Reached" hay que buscar el registro `MedicareDollarThresholdStatus` (MDTS) que tenga dicho `Appointment`. A ese MDTS se le cambia el valor del `threshold_exceeded` a `true`.
+
+---
+
+Según mis apuntes, todo este viaje empieza en el worker `Invoicing::Preparation::ImportInvoiceItemsFromCandidWorker`. Este lo que hace es invocar la clase `Candid::ImportInvoiceItemsFromCandidService`. En esta clase, en el método `sync` pasan muchas cosas.
+
+### Explorando `Candid::ImportInvoiceItemsFromCandidService#group_rows_by_appointment_with_annotations`
+
+Este método lo que hace es tomar un hash que tiene los valores del CSV de Candid agrupados por `Appointment` de Edge. El resultado final es algo como esto:
+```ruby
+(byebug) ap rows_data_by_appointment
+{
+  "9e7c9651-c8fb-4899-9c39-e782ed9c6a7e" => {
+    :has_ever_been_invoiceable? => true,
+    :latest_export_csv_row => {
+      "encounter_id" => "0912_5678_candid_encounter_id",
+      "encounter_external_id" => "9e7c9651-c8fb-4899-9c39-e782ed9c6a7e",
+      "patient_external_id" => "d1aca30a-2baf-4f34-a57e-6c5918cd9690",
+      "claim_id" => "1234_5678_candid_claim_id",
+      "status" => "finalized_paid",
+      "created_datetime" => "2024-01-11 03:05:18.296578",
+      "state_transition_datetime" => "2024-01-13 11:34:50.060107",
+      "do_not_bill" => "false",
+      "payer_name" => "SOME PAYER NAME CANDID CAME UP WITH NOT IN OUR SYSTEM WE QUERY FOR THIS",
+      "payer_id" => "33f68c66-2b3a-453b-b633-206e5dcb2f03",
+      "insurance_type" => "",
+      "date_of_service" => "2024-01-09",
+      "appointment_type" => "",
+      "place_of_service_code" => "12",
+      "charge_amount_cents" => "28000",
+      "allowed_amount_cents" => "9884",
+      "paid_amount_cents" => "0",
+      "patient_responsibility_cents" => "9884",
+      "copay_cents" => "0",
+      "coinsurance_cents" => "0",
+      "deductible_cents" => "9884",
+      "patient_payments_cents" => "3000",
+      "patient_balance_cents" => "6884",
+      "diagnosis_codes" => "some ICD10 diagnosis codes separated by semicolons",
+      "procedure_codes" => "some CPT codes separated by semicolons",
+      "claim_adjustment_reason_codes" => "some claim adjustment reason codes separated by semicolons",
+      "remittance_advice_remark_codes" => "",
+      "denial_reasons" => "None",
+      "latest_check_date" => "",
+      "latest_check_number" => "",
+      "billable_status" => "BILLABLE",
+      "responsible_party" => "INSURANCE_PAY",
+      "billing_provider_first_name" => "",
+      "billing_provider_last_name" => "",
+      "billing_provider_organization_name" => "Luna Care, Inc. — Billing Name",
+      "billing_provider_tax_id" => "XX-XXXXXXX",
+      "billing_provider_npi" => "9575893155",
+      "rendering_provider_first_name" => "first2_name902",
+      "rendering_provider_last_name" => "last2_name254",
+      "rendering_provider_organization_name" => "",
+      "rendering_provider_tax_id" => "",
+      "rendering_provider_npi" => "3143776513",
+      "service_facility_organization_name" => "Luna Care, Inc. (Bay Area)",
+      "service_facility_city" => "Lanellton",
+      "service_facility_state" => "CA",
+      "service_facility_zip_code" => "94102",
+      "adjudicated_network_status" => "in_network",
+      "organization_id" => "1334c399-15fe-42df-93c7-b3966123e6a1"
+    }
+  }
+}
+```
+
+Donde la llave del Hash es el ID del `Appointment` y el valor es otro hash donde se incluyen los valores que vienen desde Candid.
+
+Es en el subhash `latest_export_csv_row` de donde se puede extraer el valor para `denial_reasons`.
+
+# Sendbird: descubrimiento
+
+Cuando la Medical Necessity es rechazada hay que enviar un mensaje a Clinical desde Sendbird.
+
+> If confirmed, ==Message will be shared **with Clinical** in Sendbird==. “FirstName LastName has indicated that care is no longer medically necessary for the patient, FirstName LastName.”
+
+Encontré una clase que interactúa con Sendbird en `app/services/sendbird.rb`. Aquí hay varios métodos para enviar mensajes como:
+
+- `send_system_message`
+- `send_ticket_message`
+- `create_clinical_conversation`
+
+Le pedí ayuda a Cursor y generó algo que luego modifiqué para ajustarlo más a la realidad:
+```ruby
+if medical_necessity_state_kind.rejected?
+	patient = appointment.patient
+	therapist = current_user.therapist
+	conversation = Conversation.find_by(patient: patient, therapist: therapist)
+
+	if conversation&.sendbird_id.present?
+		message = "#{therapist.name} has indicated that care is no longer medically necessary for the patient, #{patient.name}."
+		Sendbird.send_system_message(conversation.sendbird_id, message)
+	end
+end
+```
+
+Me queda la duda en dos cosas:
+
+- ¿Necesito buscar un `Conversation`?
+- ¿Hay que usar `send_system_message`?
+
+## ¿Necesito buscar un `Conversation`?
+
+Sí. Este es el modelo donde se guarda la interacción entre usuarios en Sendbird. Así lo podemos ver en el esquema:
+```ruby
+create_table "conversations", force: :cascade do |t|
+  t.uuid "patient_id"
+	t.uuid "therapist_id"
+	t.uuid "admin_user_id"
+	t.integer "region_id"
+  t.uuid "sendbird_id", default: -> { "uuid_generate_v4()" }, null: false
+end
+```
+
+En el worker `PainLevelNotifierWorker` se puede ver un ejemplo de uso:
+```ruby
+class PainLevelNotifierWorker < ApplicationWorker
+  # Send an alert when pain level is 8 or higher
+  def perform(workout_id)
+    workout = Workout.find(workout_id)
+    therapist_id = workout.exercise_program.assigned_by
+    patient = workout.exercise_program.episode.patient
+    conversation = Conversation.find_by(patient_id: patient.id, therapist_id: therapist_id)
+
+    if conversation.present?
+      Sendbird.send_system_message(
+        conversation.sendbird_id,
+        "#{patient.name} just performed a workout and had a pain rating of #{workout.pain_level}/10."
+      )
+    end
+  end
+end
+```
+
+El modelo `Conversation` tiene un método para empezar una conversación en Sendbird:
+```ruby
+def create_sendbird_conversation
+	SendbirdConversationCreationWorker.perform_async(self.id)
+end
+```
+
+## ¿Usar `send_system_message`?
+
+No. Dijeron que eso no es lo correcto porque eso lo que hace es enviar un mensaje al paciente:
+
+![[300.sendbird.message.to.patient.png]]
+
+> The requirements are not to send a message to the patient. It should be a message to Concierge Team: Utilization Management.
+
+¿Cómo se hace eso?
+
+# Sendbird: Enviar mensaje a Clinical Team: Utilization Management
+
+> [!Tip]
+> Sí se puede esto. Cuando Jacob dijo "pattern" era ejemplo.
+> 
+> Carlos Membreno me explicó. La clave es en el módulo `ProactiveCommunication`.
+
+Alexis dijo:
+> uff no toy seguro, suena como una note de hubspot… no sé si se puede en sendbird solo para clinical
+
+## Modelos
+
+Encontré el modelo `SendbirdIssue` que tiene lo siguiente:
+```ruby
+# Sendbird Desk issue types we display in the "Please select your topic type" screen.
+class SendbirdIssue < ApplicationRecord
+  acts_as_list
+  belongs_to :region
+  default_scope { order(position: :asc) }
+
+  # dictates what icon to show in the app, new icons will require a new mobile release
+  enum topic_type: {
+    other: 0,
+    scheduling: 1,
+    payments: 2,
+    documentation: 3,
+    clinical: 4,
+    technical: 5,
+    therapist_success: 6,
+    clinical_escalations: 7,
+    clinical_compliance: 8
+  }
+end
+```
+
+Pero no sirve para lo que necesito según lo que dice la descripción de la clase.
+
+En la tabla `therapists` encuentro el campo `sendbird_clinical_conversation` que es un string de tipo UUID. Al hacer una búsqueda completa por ese campo encuentro solo un resultado: `Sendbird::SendMessage::ClinicalFromAdminWorker`.
+
+```ruby
+# Send messages in the Clinical channel from the admin user to patients/therapists
+class Sendbird::SendMessage::ClinicalFromAdminWorker < ApplicationWorker
+  def perform(account_id, message)
+    # (...)
+
+    account = Account.find(account_id)
+    therapist = account.therapist
+
+    channel_url = therapist.sendbird_clinical_conversation
+    sender = therapist.region.clinical_layer_id
+
+    if account.sendbird_desk.present?
+      # (...)
+
+      sender = Setting.load("announcements_clinical_sendbird_admin")
+      channel_url = account.sendbird_announcements_conversation
+    end
+
+    Sendbird.send_message(message, channel_url, sender)
+  end
+end
+```
+
+Donde veo varias cosas:
+
+- `channel_url = therapist.sendbird_clinical_conversation`
+- `sender = therapist.region.clinical_layer_id`
+- El bloque y definición de las mismas variables dentro de `account.sendbird_desk.present?`
+- Enviar el mensaje con `send_message`
+
+¿Será por aquí la cuestión?
+
+## Service sendbird.rb
+
+El servicio define este método:
+```ruby
+def self.create_clinical_conversation(therapist)
+	new.create_clinical_conversation(therapist)
+end
+```
+
+Que tiene buen tiempo ahí pero ya no se usa.
+
+En el [commit](https://github.com/lunacare/backend/commit/d25bf3d06fa22d1139ba00cfb8d9585c9c832cc7) donde se implementó esto encuentro el código del método de instancia `create_clinical_conversation`:
+```ruby
+def create_clinical_conversation(therapist)
+	conversation_id = SecureRandom.uuid
+	therapist.update_column(:sendbird_clinical_conversation, conversation_id)
+	ids = [therapist.id, Region.clinical_layer_id]
+	conversation_data = clinical_data(therapist)
+	response = self.class.post('/group_channels', body: sendbird_body(conversation_id, conversation_data, ids).to_json)
+end
+```
+
+Ahí puedo ver el post a `/group_channels`. ¿Será por ahí? En la conversación en KX mencionan algo sobre "patterns":
+
+> The pattern to follow Pathway Escalation.
+
+
+# Todas las pruebas a correr de KX Modifier
+
+Estos son todas las pruebas relacionadas. Tanto de modelos como de GQL.
+
+```bash
+pruebas spec/models/kx_modifier/
+
+pruebas spec/candid/candid/mappers/kx_modifier_appointment_to_candid_encounter_spec.rb
+
+pruebas spec/candid/candid/kx_modifier_import_invoice_from_candid_spec.rb
+
+pruebas spec/grimoire/omni/actions/finalize_patient_onboarding_spec.rb:39
+
+pruebas spec/grimoire/omni/actions/finalize_case_creation_spec.rb:35
+
+pruebas spec/requests/graphql/queries/fields/node_care_plan_submit_medical_necessity_prompt_spec.rb
+
+pruebas spec/requests/graphql/mutations/therapists/submit_medical_necessity_response_spec.rb
+```
+
+En una sola línea:
+```
+pruebas spec/models/kx_modifier/ spec/candid/candid/mappers/kx_modifier_appointment_to_candid_encounter_spec.rb spec/candid/candid/kx_modifier_import_invoice_from_candid_spec.rb spec/grimoire/omni/actions/finalize_patient_onboarding_spec.rb:39 spec/grimoire/omni/actions/finalize_case_creation_spec.rb:35 spec/requests/graphql/queries/fields/node_care_plan_submit_medical_necessity_prompt_spec.rb spec/requests/graphql/mutations/therapists/submit_medical_necessity_response_spec.rb
+```

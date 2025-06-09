@@ -57,3 +57,27 @@ Con eso, a media noche, hará la rotación del log:
 - [Managing Logs with Logrotate](https://serversforhackers.com/c/managing-logs-with-logrotate)
 - [Ruby on Rails production log rotation](https://stackoverflow.com/questions/4883891/ruby-on-rails-production-log-rotation)
 - [Rotating Rails Production Logs with LogRotate](https://gorails.com/guides/rotating-rails-production-logs-with-logrotate)
+
+# Pruebas de mailers cuando hay uno o varios formatos
+
+Antes, enviaba el correo de los Chores en versión HTML y Texto plano. Tenía dos archivos en las vistas:
+
+- `app/views/chores_mailer/upcoming_chores.text.erb`
+- `app/views/chores_mailer/upcoming_chores.html.erb`
+
+En ese caso podía probar el cuerpo del correo de esta forma para la versión HTML:
+```ruby
+expect(mail.html_part.body).to include(chore.name)
+```
+
+Sin embargo, una vez eliminé el formato texto plano del mailer eso no es posible. [Así lo explican las guías](https://guides.rubyonrails.org/v7.0/testing.html#the-basic-test-case):
+
+> `email.body.to_s` is present when there's only one (HTML or text) part present. If the mailer provides both, you can test your fixture against specific parts with `email.text_part.body.to_s` or `email.html_part.body.to_s`.
+
+En su lugar tuve que cambiar la prueba:
+```diff
+- expect(mail.html_part.body).to include(chore.name)
++ expect(mail.body).to include(chore.name)
+```
+
+No pude encontrar explicación de esto en la gema Mail.

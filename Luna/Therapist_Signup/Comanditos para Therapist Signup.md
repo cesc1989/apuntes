@@ -132,6 +132,33 @@ Hace lo siguiente:
 bundle exec rake therapist:create_local_for_tests
 ```
 
+# Crea objetos que se crean en el Sign Up
+
+Son:
+
+- Credentialing Information
+	- Tres Personal References
+- Medicare Requirement
+	- Diez answers
+
+## Crear credentialing_information & personal_references
+
+```ruby
+therapist = Therapist.find(ID)
+
+SetupCredentialingInformation.new(therapist).create
+```
+
+## Crear medicare_requirement & answers
+
+```ruby
+therapist = Therapist.find(ID)
+
+SetupMedicareRequirement.new(therapist).create
+```
+
 # Otros Comanditos
 
 El de Patient Self Report -> [[Comanditos para Patient Self Report]]
+
+El de Clinical Dashboad -> [[Comanditos para Clinical Dashboard]]

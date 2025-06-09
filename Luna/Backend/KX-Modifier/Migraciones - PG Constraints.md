@@ -1,9 +1,14 @@
 # Migraciones con PostgreSQL constraints
 
+> Registro en [ChatGPT](https://chatgpt.com/share/67ddf0fb-2250-8008-af82-35b0b516e3a6).
+
 Para empezar escribí esta migración que usa la función `exclusion_constraint`:
 ```ruby
 add_exclusion_constraint :medicare_dollar_threshold_statuses, "tsrange(effective_from, effective_until) WITH &&, patient_id WITH =", using: :gist, name: "no_overlapping_medicare_dollar_threshold_statuses"
 ```
+
+> [!Note]
+> La restricción se pone para prevenir que exista más de un registro `medicare_dollar_threshold_statuses` para un mismo año para un mismo paciente.
 
 ¿Qué significa todo eso?
 
@@ -17,7 +22,7 @@ En la migración anterior el parámetro `expression` es este:
 "tsrange(effective_from, effective_until) WITH &&, patient_id WITH ="
 ```
 
-## expression de `add_exclusion_constraint`
+## expression en `add_exclusion_constraint`
 
 `tsrange` es un tipo de datos de PostgreSQL que representa un rango de timestamps. En este caso es entre los campos `effective_from` y `effective_until`.
 
@@ -28,16 +33,28 @@ Nótese que la sintaxis de la expresión es algo como:
 expression1 WITH operator[, expression 2 WITH operator]
 ```
 
-Ejemplos:
+En la query tenemos esto:
 ```ruby
 tsrange(effective_from, effective_until) WITH &&
 ```
 
+Donde `tsrange(effective_from, effective_until)` crea un rango de timestamps usando los dos valores. Y por su parte `WITH &&` asegura que no haya dos registros donde se solapen los rangos.
+
+O sea que puede haber dos registros cuyo rango de timestamps sea:
+
+- MDTS 1: 2024-01-01 00:00:00 - 2024-06-30 23:59:59
+- MDTS 2: 2023-01-01 00:00:00 - 2023-06-30 23:59:59
+
+Pero no puede haber dos registros donde se solape alguno de los límites de los rangos.
+
+Por su parte:
 ```ruby
 patient_id WITH =
 ```
 
-Docs de PostgreSQL [EXCLUDE](https://www.postgresql.org/docs/current/sql-createtable.html#SQL-CREATETABLE-EXCLUDE).
+Es para asegurar que la restricción aplique por paciente. Solo un MDTS puede existir por paciente en un rango de `effective_from` y `effective_until`.
+
+Docs en PostgreSQL [EXCLUDE constraint al crear tabla](https://www.postgresql.org/docs/current/sql-createtable.html#SQL-CREATETABLE-EXCLUDE).
 
 Los operadores son:
 

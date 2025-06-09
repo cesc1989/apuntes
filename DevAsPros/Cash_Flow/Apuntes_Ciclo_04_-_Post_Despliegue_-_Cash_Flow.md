@@ -71,17 +71,92 @@ Luego, en el database.yml apunté a el archivo que será único.
 
 *NOTA: no enlaces los certificados en las directivas del archivo nginx o habrá error de configuración en el servidor.*
 
-Comandos instalación de certbot
+Comandos instalación de Certbot:
+```bash
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
 
-    sudo snap install --classic certbot
-    sudo ln -s /snap/bin/certbot /usr/bin/certbot
+Se usa así:
+```bash
+sudo certbot
+```
 
 Ubicación de los certificados:
+```bash
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/cashflow.devaspros.com/fullchain.pem
+Key is saved at:   /etc/letsencrypt/live/cashflow.devaspros.com/privkey.pem
+This certificate expires on 2023-10-12.
+```
 
-    Successfully received certificate.
-    Certificate is saved at: /etc/letsencrypt/live/cashflow.devaspros.com/fullchain.pem
-    Key is saved at:   /etc/letsencrypt/live/cashflow.devaspros.com/privkey.pem
-    This certificate expires on 2023-10-12.
+## Uso de Certbot para generar certificados
+
+Tiene que estar el dominio/subdominio ya configurado con nginx
+
+```bash
+sudo certbot
+
+[sudo] password for ubuntu: 
+
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+  
+
+Which names would you like to activate HTTPS for?
+
+We recommend selecting either all domains, or all domains in a VirtualHost/server block.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1: cashflow.devaspros.com
+
+2: coshinotes.devaspros.com
+
+3: enlacito.co
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+
+blank to select all options shown (Enter 'c' to cancel): 3
+
+Requesting a certificate for enlacito.co
+
+  
+
+Successfully received certificate.
+
+Certificate is saved at: /etc/letsencrypt/live/enlacito.co/fullchain.pem
+
+Key is saved at:         /etc/letsencrypt/live/enlacito.co/privkey.pem
+
+This certificate expires on 2025-08-08.
+
+These files will be updated when the certificate renews.
+
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+  
+
+Deploying certificate
+
+Successfully deployed certificate for enlacito.co to /etc/nginx/sites-enabled/nginx.enlacito.production.conf
+
+Congratulations! You have successfully enabled HTTPS on https://enlacito.co
+
+  
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+If you like Certbot, please consider supporting our work by:
+
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+
+ * Donating to EFF:                    https://eff.org/donate-le
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+```
 
 
 # Linode CLI y backup a Object Storage

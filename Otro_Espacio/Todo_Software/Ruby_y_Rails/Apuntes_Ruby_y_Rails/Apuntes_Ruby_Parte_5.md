@@ -134,7 +134,7 @@ Admin::Inline.nesting #=> [Admin::Inline]
 
 # ¿Cómo desinstalar versión de Ruby instalada con ruby-install?
 
-ruby-install hace dos cosas:
+#ruby-install hace dos cosas:
 
 - descarga los archivos fuentes en la carpeta `~/src`
 - instala las versiones de Ruby en la carpeta `~/.rubies/`
