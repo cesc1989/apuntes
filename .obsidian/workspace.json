@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37af676eb4a08cda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Queries_y_Entidades_para_probar_posibles_duplicado"
-            }
-          },
-          {
             "id": "0f8475369e0fd623",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "queries_varidas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,6 +167,7 @@
   "active": "0f8475369e0fd623",
   "lastOpenFiles": [
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
+    "Luna/Clinical_Dashboard/Queries_for_Debugging/queries_varidas.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Backend/W2 Therapists/Notas de Desarrollo.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
@@ -209,7 +195,6 @@
     "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
     "Luna/Backend/Patients",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "DevAsPros/Enlacito/attachments",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",

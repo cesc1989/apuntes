@@ -19,8 +19,12 @@ Visto en [Stack Overflow](https://stackoverflow.com/questions/2077807/sql-query-
 # Query para mostrar Clinics con Patients en Alpha en Athena
 
 ```sql
-SELECT count(pat.id), pat.clinic_id
+SELECT count(pat.id),
+ pat.clinic_id,
+ cli.key
 FROM "application-data"."patients" pat
+join "application-data"."clinics" cli on cli.id = pat.clinic_id
 where pat.clinic_id <> ''
-group by pat.clinic_id;
+group by pat.clinic_id, cli.key
+order by cli.key;
 ```
