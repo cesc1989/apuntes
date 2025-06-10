@@ -142,3 +142,63 @@ Resultado:
 ```
 e58e526e6627a5e372c214e8566387d5684f2263f6ee59c32253602fb33b98fd
 ```
+
+# Propiedades de Personal Reference y Professional Reference
+
+Ambos grupos de propiedades son del mismo dato en la BD (PersonalReference) pero el término Professional Reference es el preferido por el Success Team.
+
+## Los grupos de propiedades para Personal Reference
+
+Estos están en el HS Contact.
+
+```
+personal_reference_id
+personal_reference_name
+personal_reference_email
+personal_reference_phone
+personal_reference_title
+
+personal_reference_id_2
+personal_reference_name_2
+personal_reference_email_2
+personal_reference_phone_2
+personal_reference_title_2
+
+personal_reference_id_3
+personal_reference_name_3
+personal_reference_email_3
+personal_reference_phone_3
+personal_reference_title_3
+```
+
+En este grupo las propiedades de la referencia #1 no tienen el sufijo en el nombre porque inicialmente las crearon así.
+
+## Los grupos de propiedades para Professional Reference
+
+Estos viven en el HS Credentialing object.
+
+```
+professional_reference_name_1
+professional_reference_email_1
+professional_reference_phone_1
+professional_reference_title_1
+professional_reference_id_1
+professional_reference_affiliation_start_date_1
+professional_reference_affiliation_end_date_1
+
+professional_reference_name_2
+professional_reference_email_2
+professional_reference_phone_2
+professional_reference_title_2
+professional_reference_id_2
+professional_reference_affiliation_start_date_2
+professional_reference_affiliation_end_date_2
+
+professional_reference_name_3
+professional_reference_email_3
+professional_reference_phone_3
+professional_reference_title_3
+professional_reference_id_3
+professional_reference_affiliation_start_date_3
+professional_reference_affiliation_end_date_3
+```
