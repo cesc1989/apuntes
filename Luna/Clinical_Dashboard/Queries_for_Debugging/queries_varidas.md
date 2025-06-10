@@ -16,3 +16,11 @@ Hay una disparidad de registros entre las dos bases de datos. **Con esa consulta
 
 Visto en [Stack Overflow](https://stackoverflow.com/questions/2077807/sql-query-to-return-differences-between-two-tables/41150408#41150408).
 
+# Query para mostrar Clinics con Patients en Alpha en Athena
+
+```sql
+SELECT count(pat.id), pat.clinic_id
+FROM "application-data"."patients" pat
+where pat.clinic_id <> ''
+group by pat.clinic_id;
+```
