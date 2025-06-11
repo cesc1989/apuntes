@@ -67,7 +67,7 @@ Para cuando se actualice mediante el webhook hay que actualizar ambos campos en 
 
 En la sección Personal Information están los campos. Estos son *Home Address*.
 
-| Título               | DB field               | HS property           |
+| Título               | DB field               | HS Contact property           |
 |----------------------|------------------------|-----------------------|
 | Home Address         | `home_address`         | address               |
 | Apartment            | `street_address_line_2`| street_address_line_2 |
@@ -78,7 +78,7 @@ En la sección Personal Information están los campos. Estos son *Home Address*.
 
 En cambio, en la sección Preference, hay campos similares pero para *Treatment Address*.
 
-| Título      | DB field               | HS property             |
+| Título      | DB field               | HS Contact property             |
 |-------------|------------------------|-------------------------|
 | Street      | `street`               | treating_street_address |
 | Apartment   | `street_address_line_2`|                         |
