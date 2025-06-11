@@ -78,13 +78,13 @@ En la sección Personal Information están los campos. Estos son *Home Address*.
 
 En cambio, en la sección Preference, hay campos similares pero para *Treatment Address*.
 
-| Título      | DB field               | HS Contact property             |
-|-------------|------------------------|-------------------------|
-| Street      | `street`               | treating_street_address |
-| Apartment   | `street_address_line_2`|                         |
-| State       | `state`                |                         |
-| City        | `city`                 | treating_city           |
-| Zip Code    | `zip_code`             | treating_postal_code    |
+| Título      | DB field               | HS Contact property     | HS Address object property |
+|-------------|------------------------|-------------------------|----------------------------|
+| Street      | `street`               | treating_street_address | street_line_1              |
+| Apartment   | `street_address_line_2`|                         | street_line_2              |
+| State       | `state`                |                         | state                      |
+| City        | `city`                 | treating_city           | city                       |
+| Zip Code    | `zip_code`             | treating_postal_code    | zip_code                   |
 
 
 # Probando Petición en Alpha
