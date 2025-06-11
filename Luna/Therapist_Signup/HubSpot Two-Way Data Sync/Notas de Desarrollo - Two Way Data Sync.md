@@ -2,6 +2,8 @@
 
 # Campos con particularidades
 
+## registered_from
+
 El campo `registered_from` que actualiza la propiedad `license_issuing_state` del objeto License.
 
 > [!Important]
@@ -25,7 +27,7 @@ end
 
 Para el caso del Two-Way data sync, la propiedad debe ser actualizada por el campo `registered_from` del modelo `Therapist`.
 
----
+## name_change
 
 Luego siguen las propiedades `name_change` y `aliases`. Estas no están soportadas porque el dato que se envía a HubSpot se obtiene de calcular un valor.
 
@@ -34,10 +36,14 @@ Para `name_change`:
 "name_change": @therapist.aliases.count.positive?
 ```
 
+## aliases
+
 Para `aliases`:
 ```ruby
 "aliases": @therapist.aliases.pluck(:name).join(", ")
 ```
+
+## licensed_in_other_states
 
 Esta misma situación se da con la propiedad `licensed_in_other_states`:
 ```ruby
@@ -50,6 +56,38 @@ Si estas propiedades cambian en HubSpot, no se puede traducir ese cambio a algo 
 > No tienen soporte para cambios sencillos. Sin embargo, se puede hacer que si el valor cambia a algo negativo, se borren los registros en los cuales se basó el cálculo inicial.
 > 
 > Ejemplo, si `aliases` se limpia, entonces borrar todos los `@therapist.aliases`.
+
+## start_date_therapist
+
+Esta se actualiza con el campo `care_start_date` de Therapist. Sin embargo, luego también se puede actualizar por el campo `projected_start_date` de Preference.
+
+Para cuando se actualice mediante el webhook hay que actualizar ambos campos en la bd.
+
+## Campos de Address: Home y Treatment
+
+En la sección Personal Information están los campos:
+
+| Título               | DB field               | HS property           |
+|----------------------|------------------------|-----------------------|
+| Home Address         | `home_address`         | address               |
+| Apartment            | `street_address_line_2`| street_address_line_2 |
+| State                | `state`                | state                 |
+| County               | `county_of_residence`  | -------------------   |
+| City                 | `city`                 | city                  |
+| Zip Code             | `zip_code`             | zip                   |
+
+Estos son Home Address.
+
+En cambio, en la sección Preference, hay campos similares pero para Treatment Address:
+
+| Título      | DB field               | HS property             |
+|-------------|------------------------|-------------------------|
+| Street      | `street`               | treating_street_address |
+| Apartment   | `street_address_line_2`|                         |
+| State       | `state`                |                         |
+| City        | `city`                 | treating_city           |
+| Zip Code    | `zip_code`             | treating_postal_code    |
+
 
 
 # Probando Petición en Alpha
