@@ -65,20 +65,18 @@ Para cuando se actualice mediante el webhook hay que actualizar ambos campos en 
 
 ## Campos de Address: Home y Treatment
 
-En la sección Personal Information están los campos:
+En la sección Personal Information están los campos. Estos son *Home Address*.
 
 | Título               | DB field               | HS property           |
 |----------------------|------------------------|-----------------------|
 | Home Address         | `home_address`         | address               |
 | Apartment            | `street_address_line_2`| street_address_line_2 |
 | State                | `state`                | state                 |
-| County               | `county_of_residence`  | -------------------   |
+| County               | `county_of_residence`  |                       |
 | City                 | `city`                 | city                  |
 | Zip Code             | `zip_code`             | zip                   |
 
-Estos son Home Address.
-
-En cambio, en la sección Preference, hay campos similares pero para Treatment Address:
+En cambio, en la sección Preference, hay campos similares pero para *Treatment Address*.
 
 | Título      | DB field               | HS property             |
 |-------------|------------------------|-------------------------|
@@ -87,7 +85,6 @@ En cambio, en la sección Preference, hay campos similares pero para Treatment A
 | State       | `state`                |                         |
 | City        | `city`                 | treating_city           |
 | Zip Code    | `zip_code`             | treating_postal_code    |
-
 
 
 # Probando Petición en Alpha
