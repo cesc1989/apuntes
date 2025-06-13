@@ -126,3 +126,35 @@ Hace falta el scope `crm.objects.custom.highly_sensitive.write` en la private ap
 
 ---
 
+## Preference section
+
+Propiedad `bio_description`.
+
+Esta se sincroniza al objeto Credentialing Processing for Move porque:
+
+- Hay objeto Active Attested
+- Hay objeto Processing for Move
+
+> [!Important]
+> Según la regla. Cuando hay objeto Processing for Move. Ese es el que se actualiza.
+
+
+## Immunization section
+
+Me dio error al intentar sincronizar:
+```
+"errors":[{"message":"Property \"tb_questionnaire_current_tb_symptoms\" does not exist","code":"PROPERTY_DOESNT_EXIST"
+```
+
+La propiedad `tb_questionnaire_current_tb_symptoms` la borraron o archivaron.
+
+Esa está incorrecta. El nombre correcto es:
+```
+tb_questionnaire__current_tb_symptoms
+```
+
+Nota el doble guión bajo.
+
+> [!Tip]
+> Resuelto. Use el nombre correcto de la propiedad.
+
