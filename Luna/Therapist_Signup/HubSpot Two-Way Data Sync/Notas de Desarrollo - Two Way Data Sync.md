@@ -86,6 +86,23 @@ En cambio, en la sección Preference, hay campos similares pero para *Treatment 
 | City        | `city`                 | treating_city           | city                       |
 | Zip Code    | `zip_code`             | treating_postal_code    | zip_code                   |
 
+### Regla no Escrita campo: treatment_address_same_as_home_address
+
+Estos dos _address_ tienen truco.
+
+Existe el campo `treatment_address_same_as_home_address` en el modelo Preference.
+
+Cuando este campo está en `true` (porque se chuleó en el form) el cliente frontend usará los valores de Home Address (llenados en la sección Personal Information) para cargar Treatment Address.
+
+Así que cuando está en `true`:
+- Los campos en Preference mostraran los valores que haya en Personal Information.
+- El `PUT /preference` actualizará los campos con los valores que haya en Personal Information.
+- Aunque el webhook actualice los campos de Preference y el `GET /preference` cargue lo actualizado en el form los campos mostraran lo que haya en Personal Information.
+
+> [!Important]
+> `treatment_address_same_as_home_address` es un override que se puede gestionar desde el CF pero en el AF no está el check para cambiar eso y se torna confuso.
+
+
 
 # Probando Petición en Alpha
 
