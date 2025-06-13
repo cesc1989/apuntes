@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0ceaee9442063966",
+        "id": "557258e64ad1e296",
         "type": "tabs",
         "children": [
           {
-            "id": "7261d8f50be4a273",
+            "id": "5551c44bd79aa2df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Debug Propiedades que no llegan a HubSpot.md",
+                "file": "Luna/Therapist_Signup/Debugeo Propiedades/Propiedades que no llegan a HubSpot.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Debug Propiedades que no llegan a HubSpot"
-            }
-          },
-          {
-            "id": "71ce62a960d7bfbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Notas de Desarrollo - Two Way Data Sync"
+              "title": "Propiedades que no llegan a HubSpot"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+                "file": "Luna/Therapist_Signup/Debugeo Propiedades/Propiedades que no llegan a HubSpot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Notas de Desarrollo - Two Way Data Sync"
+              "title": "Outline of Propiedades que no llegan a HubSpot"
             }
           }
         ],
@@ -179,9 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71ce62a960d7bfbb",
+  "active": "5551c44bd79aa2df",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Debug Propiedades que no llegan a HubSpot.md",
+    "Luna/Therapist_Signup/Debugeo Propiedades/Propiedades que no llegan a HubSpot.md",
+    "Luna/Therapist_Signup/Debugeo Propiedades",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/queries_varidas.md",
@@ -208,7 +194,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
     "Luna/Backend/Patients",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "DevAsPros/Enlacito/attachments",
@@ -226,7 +211,6 @@
     "Luna/Therapist_Signup/Attestation Form/Backfill AF URL",
     "Luna/Backend/KX-Modifier/cambios-finales",
     "DevAsPros/Enlacito/descubrimiento/dub/attachments",
-    "DevAsPros/Enlacito/descubrimiento/dub/untitled folder",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
