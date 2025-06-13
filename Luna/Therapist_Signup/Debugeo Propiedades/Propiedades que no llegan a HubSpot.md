@@ -119,5 +119,10 @@ Hay otro error al intentar sincronizar al Credentialing object.
 
 Hace falta el scope `crm.objects.custom.highly_sensitive.write` en la private app de Omega.
 
+> [!Tip]
+> Resuelto. Jose Han agregó el scope faltante.
+>
+> Me suena a que esto podría haber sido un problema silencioso.
+
 ---
 
