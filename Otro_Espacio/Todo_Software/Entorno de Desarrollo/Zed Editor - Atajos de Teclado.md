@@ -33,6 +33,10 @@ Página con todos las combinaciones de teclas.
 
 `CMD` + `Shift` + `K`: elimina la línea donde está el cursor.
 
+`Opt` + `Shift` + `Up`: duplica la línea hacia arriba.
+
+`Opt` + `Shift` + `Down`: duplica la línea hacia abajo.
+
 ## Navegando clases y símbolos
 
 Para abrir una clase referenciada desde otra, hay que poner el cursor sobre el nombre de la clase y luego:
