@@ -2,7 +2,7 @@
 
 ## Resumen
 
-El 9 de Junio llegó un reporte de Help Desk (por Nicolas Francoeur) que los datos descargados desde la sección "Patients Treated" para el provider MHS contenía datos de todos los pacientes no solo los de MHS.
+El 9 de Junio llegó un reporte de Help Desk indicando que los datos descargados desde la sección "Patients Treated" para el provider MHS contenía datos de todos los pacientes no solo los de MHS.
 
 ## Nivel de Severidad
 
