@@ -67,3 +67,20 @@ Pude lograr esto:
 
 Y lograr un archivo con solo la parte del correo. ¡Fantástico!
 
+## Mailcatcher no corriendo en modo background por defecto
+
+Estoy en Macos Ventura (13.2.1) y el proyecto usa Ruby 3.0.2. Cuando ejecute el comando `mailcatcher` no salía ningún error pero tampoco podía abrir la UI en el navegador.
+
+La solución, como sugieren en este [comentario](https://github.com/sj26/mailcatcher/issues/521#issuecomment-1304289379), es correrlo en modo foreground.
+```
+mailcatcher --foreground
+```
+
+Así salió y así sí pude abrir la UI:
+```
+$ mailcatcher --foreground
+Starting MailCatcher v0.9.0
+==> smtp://127.0.0.1:1025
+==> http://127.0.0.1:1080
+==> SMTP: Received message from '<credentialing@getlunacare.com>' (363640 bytes)
+```
