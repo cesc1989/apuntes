@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "557258e64ad1e296",
+        "id": "a1d8508bd2c478dc",
         "type": "tabs",
         "children": [
           {
-            "id": "5551c44bd79aa2df",
+            "id": "0f6b76b7a5ab9fa2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zed Editor - Atajos de Teclado"
+              "title": "Lecciones Desarrollo - Therapists Signup"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Zed Editor - Atajos de Teclado"
+              "title": "Outline of Lecciones Desarrollo - Therapists Signup"
             }
           }
         ],
@@ -164,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5551c44bd79aa2df",
+  "active": "0f6b76b7a5ab9fa2",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Debugeo Propiedades/Propiedades que no llegan a HubSpot.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
+    "Luna/Therapist_Signup/Debugeo Propiedades/Propiedades que no llegan a HubSpot.md",
     "Luna/Therapist_Signup/Debugeo Propiedades",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
