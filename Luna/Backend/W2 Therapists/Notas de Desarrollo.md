@@ -148,3 +148,37 @@ scope :active, -> { where(state: ACTIVE_STATES) }
 scope :inactive, -> { where(state: INACTIVE_STATES) }
 ```
 
+# Script para probar servicio en Therapist Sign Up
+
+De momento, se necesita que se puedan crear therapists en Therapist Sign Up sin para por el form. Para eso Alexis hizo un servicio que se puede invocar pasando los parámetros que se envían desde el sign up form.
+
+Así lo pruebo en local:
+```ruby
+params = {
+  therapist: {
+    first_name: "Juan 004",
+    last_name: "Pérez 004",
+    desired_signature: "JP",
+    phone_number: "1234567890",
+    email: "juan.perez+004@example.com",
+    treating_postal_code: "12345",
+    entity_kind: "Individual",
+    physical_therapy_license_number: "PT12345",
+    physical_therapy_license_expiration_date: "2025-12-31",
+    government_photo_id: "ID12345",
+    back_of_government_photo_id: "ID12345-back",
+    government_id_expiration_date: "2025-12-31",
+    basic_life_support_certificate: "BLS12345",
+    basic_life_support_certificate_number: "BLS12345",
+    basic_life_support_expiration_date: "2025-12-31",
+    basic_life_support_issuing_company: "American Heart Association",
+    accepted_terms_and_conditions: true,
+    registered_from: "california",
+    care_start_date: "2025-10-29",
+    resume: "hola"
+  }
+}
+
+service = EmployeeTherapistSignUpFormService.new(params)
+service.create
+```
