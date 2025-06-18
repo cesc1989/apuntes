@@ -35,6 +35,9 @@ Esta es solo para limpiar ruido. No deja nada.
 
 ## Patient Self Report
 
+> [!Note]
+> Patient Self Report existe dentro de backend así que la app es edge.
+
 ```sql
-{app="patient-self-report"} != `SELECT "questions".* FROM "questions"` != `HTTP Origin header` != `Can't verify CSRF token authenticity.` != `Answer Pluck` != `Answer Count` != `Form Load` != `Answer Load` != `Question Pluck` != `PainSpot Pluck`
+{app="edge"} != `SELECT "questions".* FROM "questions"` != `HTTP Origin header` != `Can't verify CSRF token authenticity.` != `Answer Pluck` != `Answer Count` != `Form Load` != `Answer Load` != `Question Pluck` != `PainSpot Pluck`
 ```
