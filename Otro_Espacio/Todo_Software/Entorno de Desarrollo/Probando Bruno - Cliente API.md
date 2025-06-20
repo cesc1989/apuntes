@@ -69,3 +69,12 @@ Esto porque esa colección en Postman tiene la cabecera `Content-Type` en JSON. 
 Todo un adefesion.
 
 Para arreglar solo necesité quitar esa cabecera y la petición fue exitosa.
+
+# Posibles Problemas
+
+Veo un problema de momento y es la interoperabilidad con otras aplicaciones.
+
+Postman exporta todo en archivos JSON. De esa forma es muy fácil pasar a otras aplicaciones. Por eso mismo me fue fácil probar Bruno en primer lugar.
+
+Sin embargo, Bruno hace otra cosa. Maneja su propio lenguaje: [Bru Lang](https://docs.usebruno.com/bru-lang/overview). Esto no me gusta tanto porque entonces los exports a otras aplicaciones dependen de que Bruno esté haciendo bien su trabajo en generar archivos compatibles.
+
