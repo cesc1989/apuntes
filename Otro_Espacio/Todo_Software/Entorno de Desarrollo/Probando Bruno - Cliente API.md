@@ -72,6 +72,11 @@ Para arreglar solo necesité quitar esa cabecera y la petición fue exitosa.
 
 # Posibles Problemas
 
+> [!Note]
+> Esta particularidad es lo que facilita usar Bruno.
+>
+> Por un lado [Bru Lang](https://docs.usebruno.com/bru-lang/samples) es sencillo de entender. Lo que significa poder modificar manualmente. Esto es lo que permite usar Git para usar Bruno colaborativamente.
+
 Veo un problema de momento y es la interoperabilidad con otras aplicaciones.
 
 Postman exporta todo en archivos JSON. De esa forma es muy fácil pasar a otras aplicaciones. Por eso mismo me fue fácil probar Bruno en primer lugar.
