@@ -20,7 +20,7 @@ General
 - [x] Check Unseen Patients section loads data from HubSpot
 - [x] Sign an Open Task
 - [x] Load a patient charts in the Recently Seen Patients table
-- [ ] Request Recently Seen Patients data download
+- [x] Request Recently Seen Patients data download
 
 Metrics
 

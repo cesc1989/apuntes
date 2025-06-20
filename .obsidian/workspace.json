@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "911cffe600a5f6fd",
+        "id": "8682a61d728bd61f",
         "type": "tabs",
         "children": [
           {
-            "id": "6772c2b322becd11",
+            "id": "0fe5ada5e13d55df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - QA Plan"
+              "title": "Probando Bruno - Cliente API"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of Probando Bruno - Cliente API"
             }
           }
         ],
@@ -164,10 +164,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6772c2b322becd11",
+  "active": "0fe5ada5e13d55df",
   "lastOpenFiles": [
-    "Luna/Grafana_Queries.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
+    "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
+    "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
+    "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
+    "Luna/Grafana_Queries.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
@@ -183,19 +193,9 @@
     "Luna/Clinical_Dashboard/Postmortems",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/queries_varidas.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
     "Luna/Therapist_Signup/Debugeo Propiedades",
-    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Backend/W2 Therapists",
     "Luna/Backend/Patients",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
