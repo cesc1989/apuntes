@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba1b67db843c818",
+        "id": "19ff038cb6f2ddc1",
         "type": "tabs",
         "children": [
           {
-            "id": "54040f431513f4d2",
+            "id": "8e2f87f61ce67ee1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
+                "file": "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-06-09 Clinical Dashboard Patient Download Data Inaccurate"
+              "title": "002 - License Object Duplicado"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
+                "file": "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-09 Clinical Dashboard Patient Download Data Inaccurate"
+              "title": "Outline of 002 - License Object Duplicado"
             }
           }
         ],
@@ -164,8 +164,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54040f431513f4d2",
+  "active": "8e2f87f61ce67ee1",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
+    "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
+    "Luna/Therapist_Signup/Casos/attachments",
+    "Luna/Therapist_Signup/Casos/001 - Propiedades que no llegan a HubSpot.md",
+    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
+    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/License Object - Mapeo de Secciones y Propiedades.md",
+    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
+    "Luna/Grafana_Queries.md",
+    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
+    "Luna/Backend/Patients/Example Patients.md",
+    "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
+    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+    "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
+    "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
+    "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
@@ -175,26 +194,9 @@
     "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
-    "Luna/Grafana_Queries.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Therapist_Signup/Immunization Questions and DB Fields.md",
-    "Luna/Therapist_Signup/Debugeo Propiedades/Propiedades que no llegan a HubSpot.md",
-    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
-    "Luna/Therapist_Signup/Archivo/Spike_File_Uploads_and_Docker_Containers_-_Therap.md",
     "Luna/Therapist_Signup/Archivo",
-    "Luna/Therapist_Signup/Archivo/Apuntes_Savon_y_SOAP_en_Ruby.md",
-    "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
-    "Luna/Backend/W2 Therapists/Notas de Desarrollo.md",
-    "Untitled.md",
     "Luna/Clinical_Dashboard/Postmortems",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/queries_varidas.md",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
-    "Luna/Therapist_Signup/Debugeo Propiedades",
+    "Luna/Therapist_Signup/Casos",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/W2 Therapists",
     "Luna/Backend/Patients",
@@ -210,8 +212,6 @@
     "Luna/Therapist_Signup/attachments/21.af.files.in.s3.png",
     "Luna/Therapist_Signup/attachments/22.af.files.in.mpf.png",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
-    "DevAsPros/Enlacito/descubrimiento/lowerhot/attachments/003.lowerhot.links.png",
-    "Luna/Therapist_Signup/Attestation Form/Backfill AF URL",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
