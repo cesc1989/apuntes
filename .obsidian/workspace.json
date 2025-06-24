@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "19ff038cb6f2ddc1",
+        "id": "2f8be1e7644437c8",
         "type": "tabs",
         "children": [
           {
-            "id": "8e2f87f61ce67ee1",
+            "id": "e87bb115057865d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
-                "mode": "preview",
+                "file": "Luna/Patient_Self_Report/Copy Form/Issues.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "002 - License Object Duplicado"
+              "title": "Issues"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
+                "file": "Luna/Patient_Self_Report/Copy Form/Issues.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - License Object Duplicado"
+              "title": "Outline of Issues"
             }
           }
         ],
@@ -164,13 +164,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e2f87f61ce67ee1",
+  "active": "e87bb115057865d4",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Copy Form/Issues.md",
+    "Luna/Patient_Self_Report/Copy Form",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Patient_Self_Report/Summary_Page_Detalles_para_JSON_Components.md",
+    "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
+    "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
+    "Luna/Patient_Self_Report/Campos_a_Revisar_para_Eliminar.md",
+    "Luna/Patient_Self_Report/Spikes",
+    "Luna/Patient_Self_Report/Change_Form_Type.md",
+    "Luna/Therapist_Signup/Casos/001 - Propiedades que no llegan a HubSpot.md",
+    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
     "Luna/Therapist_Signup/Casos/attachments",
-    "Luna/Therapist_Signup/Casos/001 - Propiedades que no llegan a HubSpot.md",
-    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/License Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Grafana_Queries.md",
@@ -188,12 +197,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
-    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
     "Luna/Therapist_Signup/Archivo",
     "Luna/Clinical_Dashboard/Postmortems",
     "Luna/Therapist_Signup/Casos",
@@ -204,14 +207,11 @@
     "DevAsPros/Enlacito/attachments",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync",
     "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
-    "Luna/Therapist_Signup/Extended Sign Up/attachments",
-    "Luna/Therapist_Signup/Extended Sign Up",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
     "Luna/Therapist_Signup/attachments/21.af.files.in.s3.png",
     "Luna/Therapist_Signup/attachments/22.af.files.in.mpf.png",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/attachments/003.links.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
