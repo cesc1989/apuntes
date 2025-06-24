@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8682a61d728bd61f",
+        "id": "5ba1b67db843c818",
         "type": "tabs",
         "children": [
           {
-            "id": "0fe5ada5e13d55df",
+            "id": "54040f431513f4d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
+                "file": "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probando Bruno - Cliente API"
+              "title": "2025-06-09 Clinical Dashboard Patient Download Data Inaccurate"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
+                "file": "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Probando Bruno - Cliente API"
+              "title": "Outline of 2025-06-09 Clinical Dashboard Patient Download Data Inaccurate"
             }
           }
         ],
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0fe5ada5e13d55df",
+  "active": "54040f431513f4d2",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",

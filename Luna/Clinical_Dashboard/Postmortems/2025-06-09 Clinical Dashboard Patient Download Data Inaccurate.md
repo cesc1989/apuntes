@@ -17,6 +17,7 @@ TTF: 25hrs (next day)
 ## 3 - 5 Aprendizajes
 
 - Se necesitan más pruebas exhaustivas alrededor de características críticas como esta.
+- En las pruebas manuales se vio todo el flujo funcionar pero no se verificó la precisión de los datos exportados.
 
 ## Evaluación de Impacto
 
@@ -49,9 +50,9 @@ Clinical Dashboard data is sourced from specific queries that limit the amount o
 
 ### Cómo pudo haberse...
 
-Prevenido:
+Prevenido: Pruebas en Alpha revisando todo el flujo hasta la descarga del archivo solicitado.
 
-Detectado más temprano:
+Detectado más temprano: Pruebas en Omega revisando todo el flujo para una Clinica.
 
 Mitigado más pronto:
 
