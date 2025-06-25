@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2f8be1e7644437c8",
+        "id": "4a6273ea29dd0057",
         "type": "tabs",
         "children": [
           {
-            "id": "e87bb115057865d4",
+            "id": "2f58cd1e99c50c16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Patient_Self_Report/Copy Form/Issues.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Issues"
-            }
-          },
-          {
-            "id": "cec381c18301af76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Enable Patient Forms in Development"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Enable Patient Forms in Development"
+              "title": "Outline"
             }
           }
         ],
@@ -179,15 +159,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cec381c18301af76",
+  "active": "2f58cd1e99c50c16",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/archive/Surgery_Date_Fechas_Antiguas.md",
+    "Luna/Patient_Self_Report/archive/Progress_Forms_Mobile_API.md",
+    "Luna/Patient_Self_Report/archive/Patient_Forms_Drafts_Research.md",
+    "Luna/Patient_Self_Report/archive/Patient_Forms_API_Next_Breakdown.md",
+    "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
+    "Luna/Backend/Patients/Example Patients.md",
     "Luna/Patient_Self_Report/Copy Form/Issues.md",
+    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/Summary_Page_Detalles_para_JSON_Components.md",
     "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
-    "Luna/Patient_Self_Report/Campos_a_Revisar_para_Eliminar.md",
+    "Luna/Patient_Self_Report/archive/Campos_a_Revisar_para_Eliminar.md",
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Patient_Self_Report/Change_Form_Type.md",
     "Luna/Therapist_Signup/Casos/001 - Propiedades que no llegan a HubSpot.md",
@@ -198,20 +188,10 @@
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/License Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Grafana_Queries.md",
-    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
-    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
-    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
-    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
-    "Luna/Backend/Patients/Example Patients.md",
-    "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
-    "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
     "Luna/Therapist_Signup/Archivo",
     "Luna/Clinical_Dashboard/Postmortems",
     "Luna/Therapist_Signup/Casos",
