@@ -41,3 +41,10 @@ Esta es solo para limpiar ruido. No deja nada.
 ```sql
 {app="edge"} != `SELECT "questions".* FROM "questions"` != `HTTP Origin header` != `Can't verify CSRF token authenticity.` != `Answer Pluck` != `Answer Count` != `Form Load` != `Answer Load` != `Question Pluck` != `PainSpot Pluck`
 ```
+
+
+## Marketplace
+
+```sql
+{app="marketplace"} != `"/health"` != `/health` != `/api/v1/therapist/ping` != `/var/cache/nginx`
+```

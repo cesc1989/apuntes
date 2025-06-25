@@ -4,20 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "4a6273ea29dd0057",
+        "id": "1317c175c1d68882",
         "type": "tabs",
         "children": [
           {
-            "id": "2f58cd1e99c50c16",
+            "id": "c8ce56793b57c715",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Where are forms created and read from?"
+            }
+          },
+          {
+            "id": "d9893f51484c3bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Patient_Self_Report/Copy Form/Issues.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Issues"
+            }
+          },
+          {
+            "id": "ec068945938db1fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Grafana_Queries.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Grafana_Queries"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,12 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Grafana_Queries.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Grafana_Queries"
             }
           }
         ],
@@ -159,24 +193,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f58cd1e99c50c16",
+  "active": "ec068945938db1fe",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Copy Form/Issues.md",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
+    "Luna/Patient_Self_Report/Cómo_Crear_un_Paciente_en_Staging.md",
+    "Luna/Patient_Self_Report/Spikes/Spike_Rename_patients_table_for_Logical_Replica.md",
+    "Luna/Patient_Self_Report/Spikes/Spike_Collect_Physician_Contact_Information_[In.md",
     "Luna/Patient_Self_Report/archive/Surgery_Date_Fechas_Antiguas.md",
     "Luna/Patient_Self_Report/archive/Progress_Forms_Mobile_API.md",
     "Luna/Patient_Self_Report/archive/Patient_Forms_Drafts_Research.md",
     "Luna/Patient_Self_Report/archive/Patient_Forms_API_Next_Breakdown.md",
     "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Luna/Backend/Patients/Example Patients.md",
-    "Luna/Patient_Self_Report/Copy Form/Issues.md",
     "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Patient_Self_Report/Copy Form",
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/Summary_Page_Detalles_para_JSON_Components.md",
     "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
-    "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Patient_Self_Report/archive/Campos_a_Revisar_para_Eliminar.md",
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Patient_Self_Report/Change_Form_Type.md",
@@ -189,9 +226,6 @@
     "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
     "Luna/Grafana_Queries.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
     "Luna/Therapist_Signup/Archivo",
     "Luna/Clinical_Dashboard/Postmortems",
     "Luna/Therapist_Signup/Casos",
