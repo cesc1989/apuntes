@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Patient_Self_Report/Copy Form/Issues.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Issues"
             }
+          },
+          {
+            "id": "cec381c18301af76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Enable Patient Forms in Development"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Copy Form/Issues.md",
+                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Issues"
+              "title": "Outline of Enable Patient Forms in Development"
             }
           }
         ],
@@ -164,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e87bb115057865d4",
+  "active": "cec381c18301af76",
   "lastOpenFiles": [
     "Luna/Patient_Self_Report/Copy Form/Issues.md",
     "Luna/Patient_Self_Report/Copy Form",

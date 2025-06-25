@@ -1,5 +1,9 @@
 # Cómo habilitar Patient Forms en Development
 
+> [!Important]
+> Ya que se completó el AppBlend de Patient Self Report en Edge esto ya no aplica.
+> El servicio `PatientFormsService` no existe más. Ni tampoco verificación de si `Luna.env.live?` para poder acceder a los Forms.
+
 Para poder probar la funcionalidad de Patient Forms integrada con Luxe toca primero activar una ENV y comentar algunas líneas de código.
 
 ## Archivos Involucrados
