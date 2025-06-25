@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "1317c175c1d68882",
+        "id": "ded90db4a83b584d",
         "type": "tabs",
         "children": [
           {
-            "id": "c8ce56793b57c715",
+            "id": "a453daa84638da68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+                "file": "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Where are forms created and read from?"
+              "title": "KX Modifier - Notas de Desarrollo"
             }
           },
           {
-            "id": "d9893f51484c3bc2",
+            "id": "4573cab5295684aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Patient_Self_Report/Copy Form/Issues.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Issues"
-            }
-          },
-          {
-            "id": "ec068945938db1fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Grafana_Queries.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Grafana_Queries"
+              "title": "006 - QA Plan"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grafana_Queries.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Grafana_Queries"
+              "title": "Outline of 006 - QA Plan"
             }
           }
         ],
@@ -193,10 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec068945938db1fe",
+  "active": "4573cab5295684aa",
   "lastOpenFiles": [
-    "Luna/Patient_Self_Report/Copy Form/Issues.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Patient_Self_Report/Copy Form/Issues.md",
+    "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
+    "Luna/Grafana_Queries.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Patient_Self_Report/Cómo_Crear_un_Paciente_en_Staging.md",
     "Luna/Patient_Self_Report/Spikes/Spike_Rename_patients_table_for_Logical_Replica.md",
@@ -208,7 +200,6 @@
     "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Luna/Backend/Patients/Example Patients.md",
     "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
-    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Patient_Self_Report/Copy Form",
@@ -218,14 +209,9 @@
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Patient_Self_Report/Change_Form_Type.md",
     "Luna/Therapist_Signup/Casos/001 - Propiedades que no llegan a HubSpot.md",
-    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado.md",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
     "Luna/Therapist_Signup/Casos/attachments",
-    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/License Object - Mapeo de Secciones y Propiedades.md",
-    "Luna/Therapist_Signup/Attestation Form/Mapeo de Secciones - Propiedades/Credentialing Object - Mapeo de Secciones y Propiedades.md",
-    "Luna/Grafana_Queries.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Therapist_Signup/Archivo",
     "Luna/Clinical_Dashboard/Postmortems",
     "Luna/Therapist_Signup/Casos",
