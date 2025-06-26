@@ -41,7 +41,7 @@ As Admin user
 - [x] Check data loads in visualizations
 - [x] Filter by Physicians
 - [x] Filter by Partners
-- [ ] Filter by Clinics
+- [x] Filter by Clinics
 - [x] Filter by All Time
 
 General
@@ -61,7 +61,7 @@ Metrics
 
 Charts and Data Requests
 
-- [ ] Open Charts
+- [x] Open Charts
 - [ ] Download single chart
 - [ ] Download charts in bulk
 - [ ] Download all charts
