@@ -1,4 +1,4 @@
-# QA Plan para Local, Alpha y Omega - CD a Edg
+# QA Plan para Local, Alpha y Omega - CD a Edge
 
 ## Local
 
@@ -26,7 +26,7 @@ Metrics
 
 - [ ] Check all exports output CSV file to S3 folder
 
-## Notes
+### Notes
 
 Para poder probar Unseen Patients tengo que en HubSpot asociar Contactos de pacientes que:
 
@@ -53,8 +53,28 @@ General
 - [x] Check Unseen Patients section loads data from HubSpot
 - [x] Sign an Open Task
 - [x] Load a patient charts in the Recently Seen Patients table
-- [ ] Request Recently Seen Patients data download
+- [x] Request Recently Seen Patients data download
 
 Metrics
 
 - [ ] Check all exports output CSV file to S3 folder
+
+Charts and Data Requests
+
+- [ ] Open Charts
+- [ ] Download single chart
+- [ ] Download charts in bulk
+- [ ] Download all charts
+- [ ] Requested patient data download arrives at email
+- [ ] Exported patient data is correctly scoped
+
+Open Tasks
+
+- [ ] Reject a task
+- [ ] Sign with comment
+- [ ] Check back in Luxe/DB
+
+Other
+
+- [ ] Access CD after email verification completes
+- [ ] Submit referral
