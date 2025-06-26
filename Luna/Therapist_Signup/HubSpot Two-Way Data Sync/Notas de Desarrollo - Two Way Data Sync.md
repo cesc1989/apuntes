@@ -24,8 +24,6 @@ end
 
 Sin embargo, ==los campos en el modelo Credentialing no están en uso desde hace ya varios años==. Los dejé ahí por razones tontas y hoy vinieron a confundirme.
 
-El webhook tiene que actualizar los campos que están en el modelo Therapist.
-
 ## registered_from
 
 El campo `registered_from` que actualiza la propiedad `license_issuing_state` del objeto License.
