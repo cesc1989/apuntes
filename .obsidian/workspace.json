@@ -28,15 +28,29 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "006 - QA Plan"
             }
+          },
+          {
+            "id": "cdbb117e91032738",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Notas de Desarrollo - Two Way Data Sync"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of Notas de Desarrollo - Two Way Data Sync"
             }
           }
         ],
@@ -179,10 +193,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4573cab5295684aa",
+  "active": "cdbb117e91032738",
   "lastOpenFiles": [
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
