@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Notas de Desarrollo - Two Way Data Sync"
+              "title": "Outline of Sobre Campos y Propiedades de License"
             }
           }
         ],
@@ -207,12 +207,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f4635073b5c05d5",
+  "active": "cdbb117e91032738",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
