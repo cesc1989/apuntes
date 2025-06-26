@@ -32,3 +32,11 @@ Esto lo podemos ver en las clases:
 - y en `HubspotCustomObjects::Payloads::HubspotCredentialingPayload` para el Credentialing object también.
 
 Estos mismos campos también actualizan las propiedades `license_number` y `license_expiration_date` del License object cuando tiene label Treating.
+
+## En el Webhook
+
+Los campos de la tabla therapist deben ser actualizados en el webhook usando los valores de las propiedades del objeto License.
+
+- `license_number` actualiza `physical_therapy_license_number`
+- `license_expiration_date` actualiza `physical_therapy_license_expiration_date`
+
