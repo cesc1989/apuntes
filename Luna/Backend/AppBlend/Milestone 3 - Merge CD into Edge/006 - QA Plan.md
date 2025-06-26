@@ -78,3 +78,9 @@ Other
 
 - [ ] Access CD after email verification completes
 - [ ] Submit referral
+
+Dashboard Types
+
+- [ ] Generate Physician Dashboard
+- [ ] Generate Practice Dashboard
+- [ ] Generate Clinic Dashboard
