@@ -70,14 +70,14 @@ Charts and Data Requests
 - [x] Download single chart
 - [x] Download charts in bulk
 - [x] Download all charts
-- [ ] Requested patient data download arrives at email
-- [ ] Exported patient data is correctly scoped
+- [x] Requested patient data download arrives at email
+- [x] Exported patient data is correctly scoped
 
 Open Tasks
 
-- [ ] Reject a task
-- [ ] Sign with comment
-- [ ] Check back in Luxe/DB
+- [x] Reject a task
+- [x] Sign with comment
+- [x] Check back in Luxe/DB
 
 Other
 
