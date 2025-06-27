@@ -67,9 +67,9 @@ Metrics
 Charts and Data Requests
 
 - [x] Open Charts
-- [ ] Download single chart
-- [ ] Download charts in bulk
-- [ ] Download all charts
+- [x] Download single chart
+- [x] Download charts in bulk
+- [x] Download all charts
 - [ ] Requested patient data download arrives at email
 - [ ] Exported patient data is correctly scoped
 
@@ -81,7 +81,7 @@ Open Tasks
 
 Other
 
-- [ ] Access CD after email verification completes
+- [x] Access CD after email verification completes
 - [x] Submit referral
 
 Dashboard Types
