@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
-                "mode": "source",
+                "file": "Luna/Therapist_Signup/Zip_Codes_en_Therapist_y_Preference.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sobres_los_zip_codes_en_Therapist_y_Preference"
+              "title": "Zip_Codes_en_Therapist_y_Preference"
             }
           }
         ],
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
+                "file": "Luna/Therapist_Signup/Zip_Codes_en_Therapist_y_Preference.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sobres_los_zip_codes_en_Therapist_y_Preference"
+              "title": "Outline of Zip_Codes_en_Therapist_y_Preference"
             }
           }
         ],
