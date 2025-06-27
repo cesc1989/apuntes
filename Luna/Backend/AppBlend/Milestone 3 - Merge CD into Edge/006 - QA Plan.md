@@ -1,5 +1,10 @@
 # QA Plan para Local, Alpha y Omega - CD a Edge
 
+Por si acaso. Todas las pruebas a correr:
+```
+pruebas spec/models/clinical_dashboard/ spec/lib/clinical_dashboard/ spec/services/clinical_dashboard/ spec/requests/clinical_dashboard/
+```
+
 ## Local
 
 As Admin user
@@ -77,10 +82,10 @@ Open Tasks
 Other
 
 - [ ] Access CD after email verification completes
-- [ ] Submit referral
+- [x] Submit referral
 
 Dashboard Types
 
-- [ ] Generate Physician Dashboard
-- [ ] Generate Practice Dashboard
-- [ ] Generate Clinic Dashboard
+- [x] Generate Physician Dashboard
+- [x] Generate Practice Dashboard
+- [x] Generate Clinic Dashboard

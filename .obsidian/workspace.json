@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "006 - QA Plan"
             }
-          },
-          {
-            "id": "2635eb12b166b744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Zip_Codes_en_Therapist_y_Preference.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Zip_Codes_en_Therapist_y_Preference"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Zip_Codes_en_Therapist_y_Preference.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Zip_Codes_en_Therapist_y_Preference"
+              "title": "Outline of 006 - QA Plan"
             }
           }
         ],
@@ -193,9 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2635eb12b166b744",
+  "active": "4573cab5295684aa",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Luna/Therapist_Signup/Zip_Codes_en_Therapist_y_Preference.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
@@ -221,7 +208,6 @@
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Summary_Page_Detalles_para_JSON_Components.md",
-    "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
