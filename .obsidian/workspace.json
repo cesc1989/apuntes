@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "cdbb117e91032738",
+            "id": "2635eb12b166b744",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
-                "mode": "source",
+                "file": "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sobre Campos y Propiedades de License"
+              "title": "Sobres_los_zip_codes_en_Therapist_y_Preference"
             }
           }
         ],
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
+                "file": "Luna/Therapist_Signup/Sobres_los_zip_codes_en_Therapist_y_Preference.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sobre Campos y Propiedades de License"
+              "title": "Outline of Sobres_los_zip_codes_en_Therapist_y_Preference"
             }
           }
         ],
@@ -193,11 +193,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdbb117e91032738",
+  "active": "2635eb12b166b744",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Sobre Campos y Propiedades de License.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
