@@ -134,7 +134,9 @@ Admin::Inline.nesting #=> [Admin::Inline]
 
 # ¿Cómo desinstalar versión de Ruby instalada con ruby-install?
 
-#ruby-install hace dos cosas:
+Etiquetas: #ruby-install 
+
+ruby-install hace dos cosas:
 
 - descarga los archivos fuentes en la carpeta `~/src`
 - instala las versiones de Ruby en la carpeta `~/.rubies/`
@@ -149,3 +151,10 @@ Así que para desinstalar una versión de Ruby instalada con ruby-install hay qu
 Una vez eliminada de la carpeta `~/.rubies/` hay que recargar el shell para que no aparezca en las versiones listadas por `chruby`.
 
 Visto en este [issue](https://github.com/postmodern/ruby-install/issues/135).
+
+# Correr rubocop autocorrect para un cop en específico
+
+Ejemplo para corregir Style/StringLiterals:
+```
+rubocop -a --only Style/StringLiterals
+```
