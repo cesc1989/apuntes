@@ -158,3 +158,9 @@ Ejemplo para corregir Style/StringLiterals:
 ```
 rubocop -a --only Style/StringLiterals
 ```
+
+## Generar archivo .rubocop_todo.yml
+
+```
+rubocop --auto-gen-config
+```
