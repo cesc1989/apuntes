@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ded90db4a83b584d",
+        "id": "ea376521e9c8c136",
         "type": "tabs",
         "children": [
           {
-            "id": "467726ff082923c2",
+            "id": "1022fa361c7aec2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-                "mode": "preview",
+                "file": "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - QA Plan"
+              "title": "004_estadísticas_fase_01"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of 004_estadísticas_fase_01"
             }
           }
         ],
@@ -164,8 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "467726ff082923c2",
+  "active": "1022fa361c7aec2b",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
+    "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
+    "DevAsPros/Coshi_Notes/rfcs/STATISTICS_IMPLEMENTATION_PLAN.md",
+    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/Appointments",
@@ -188,11 +193,6 @@
     "Luna/Patient_Self_Report/archive/Progress_Forms_Mobile_API.md",
     "Luna/Patient_Self_Report/archive/Patient_Forms_Drafts_Research.md",
     "Luna/Patient_Self_Report/archive/Patient_Forms_API_Next_Breakdown.md",
-    "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
-    "Luna/Backend/Patients/Example Patients.md",
-    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
-    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
-    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
