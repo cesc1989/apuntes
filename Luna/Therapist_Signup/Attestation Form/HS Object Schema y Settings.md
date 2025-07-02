@@ -132,15 +132,19 @@ Las rakes que guardan las propiedades para association labels están en el archi
 
 Hay tres tareas:
 
-- save_labels_to_settings
-- save_credentialing_to_license_labels
-- save_credentialing_to_contact_labels
+```
+hubspot:associations:save_labels_to_settings
+hubspot:associations:save_credentialing_to_license_labels
+hubspot:associations:save_credentialing_to_contact_labels
+```
 
 Por su parte, las rakes que guardan propiedades de los esquemas están en la rake `lib/tasks/019_save_custom_object_schema_properties.rake`.
 
 Hay cuatro tareas:
 
-- save_custom_object_schema_properties
-- check_hs_custom_object_schemas
-- check_custom_object_schemas_in_hubspot
-- save_credentialing_schema_properties
+```
+hubspot:attestation:save_custom_object_schema_properties
+hubspot:attestation:check_hs_custom_object_schemas
+hubspot:attestation:check_custom_object_schemas_in_hubspot
+hubspot:attestation:save_credentialing_schema_properties
+```

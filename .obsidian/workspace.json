@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ea376521e9c8c136",
+        "id": "fdf448143d11aa15",
         "type": "tabs",
         "children": [
           {
-            "id": "1022fa361c7aec2b",
+            "id": "5f975207b56339ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "004_estadísticas_fase_01"
+              "title": "006 - QA Plan"
             }
           },
           {
-            "id": "fab801fbcd4fb2cf",
+            "id": "6e1466cf36ae0031",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ruby_Parte_5"
+              "title": "HS Object Schema y Settings"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "file": "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ruby_Parte_5"
+              "title": "Outline of HS Object Schema y Settings"
             }
           }
         ],
@@ -179,16 +179,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fab801fbcd4fb2cf",
+  "active": "6e1466cf36ae0031",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
+    "Luna/Grafana_Queries.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
     "DevAsPros/Coshi_Notes/rfcs/STATISTICS_IMPLEMENTATION_PLAN.md",
     "Luna/Marketplace/Navegando_creación_de_intake_form.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/Appointments",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
@@ -200,14 +205,9 @@
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/Copy Form/Issues.md",
     "Luna/Backend/Entidades_y_Modelos_en_Luxe_Edge.md",
-    "Luna/Grafana_Queries.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Patient_Self_Report/Cómo_Crear_un_Paciente_en_Staging.md",
     "Luna/Patient_Self_Report/Spikes/Spike_Rename_patients_table_for_Logical_Replica.md",
-    "Luna/Patient_Self_Report/Spikes/Spike_Collect_Physician_Contact_Information_[In.md",
-    "Luna/Patient_Self_Report/archive/Surgery_Date_Fechas_Antiguas.md",
-    "Luna/Patient_Self_Report/archive/Progress_Forms_Mobile_API.md",
-    "Luna/Patient_Self_Report/archive/Patient_Forms_Drafts_Research.md",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
