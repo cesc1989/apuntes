@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - QA Plan"
+              "title": "LR Alpha Discrepancy"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of LR Alpha Discrepancy"
             }
           }
         ],
@@ -166,6 +166,8 @@
   },
   "active": "5f975207b56339ff",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
@@ -176,7 +178,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
     "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
     "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
@@ -192,7 +193,6 @@
     "Luna/Backend/Appointments",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Therapist_Signup/Zip_Codes_en_Therapist_y_Preference.md",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",

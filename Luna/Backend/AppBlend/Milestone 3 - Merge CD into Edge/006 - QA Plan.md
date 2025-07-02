@@ -51,8 +51,8 @@ As Admin user
 
 General
 
-- [ ] Rake task to request execution in Athena completes
-- [ ] Job to request execution in Athena completes
+- [x] Rake task to request execution in Athena completes
+- [x] Job to request execution in Athena completes
 - [x] Generate Physician Dashboard Link
 - [x] Check Physician Dashboard link opens and loads visualizations
 - [x] Check all filters
