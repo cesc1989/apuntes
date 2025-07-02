@@ -52,6 +52,7 @@ As Admin user
 General
 
 - [ ] Rake task to request execution in Athena completes
+- [ ] Job to request execution in Athena completes
 - [x] Generate Physician Dashboard Link
 - [x] Check Physician Dashboard link opens and loads visualizations
 - [x] Check all filters
@@ -59,6 +60,7 @@ General
 - [x] Sign an Open Task
 - [x] Load a patient charts in the Recently Seen Patients table
 - [x] Request Recently Seen Patients data download
+- [x] Request New Link page is functional - [Example Page](https://provider-portal.alpha.getluna.com/dashboard/eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJwaHlzaWNpYW4iLCJleHAiOjE3NTE0ODA2NTgsImlhdCI6MTc1MTQ4MDE1OC44NjE2MTIsImlzcyI6InBoeXNpY2lhbi1wb3J0YWwtbGlua3MtZ2VuZXJhdG9yIiwibmJmIjoxNzUxNDgwMTU4LCJzdWIiOiI2ZjFhMTMwYi1kNDk5LTQ2ZTEtYWE4Yi0xYjU1MmE0MTMwMTIiLCJwcm92aWRlcl9uYW1lIjoiSHVnaCBUaGVQaHlzaWNpYW4iLCJwcm92aWRlcl9raW5kIjoicGh5c2ljaWFuIiwicHJvdmlkZXJfaWQiOiI2ZjFhMTMwYi1kNDk5LTQ2ZTEtYWE4Yi0xYjU1MmE0MTMwMTIiLCJwb3J0YWxfcmVjaXBpZW50X2VtYWlsIjoiZnJhbmNpc2NvLnF1aW50ZXJvKzNAaWRlYXdhcmUuY28iLCJkYXNoYm9hcmRfdmVyc2lvbiI6InYzIiwiZGFzaGJvYXJkX2lkIjoiNDUyYjVmM2EtNWMzZC00M2RlLTg3ZWMtMTI5YTcyNWNiNjQ4In0.0OYWw_UU9GiLjrGzZIPmXrnEb5jmV5MK76lR_nQoJhA)
 
 Metrics
 
