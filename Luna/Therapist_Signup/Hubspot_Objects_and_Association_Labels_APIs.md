@@ -62,6 +62,17 @@ Aquí podemos ver como las _association labels_ funcionan en parejas. Para el ca
 
 ### Entre Custom Objects para Attestattion Form
 
+> [!Important]
+> El 24 de Junio de 2025 se liberó un _breaking change_ en la API para asociar custom objects.
+> 
+> [Ver](https://developers.hubspot.com/changelog/breaking-change-removed-support-for-referencing-custom-object-types-by-base-name).
+> 
+> Este cambio significa que los endpoints que referencian a custom objects por su nombre base ahora tendrán que hacerlo por el object type ID o fully qualified name o la versión corta del nombre.
+> 
+> Entonces para usar las API para Credentialing toca enviar el parámetro `2-33642689` (objectTypeID) o `p7712148_credentialings` (fullyQualifiedName) o `p_credentialings` (short-hand).
+> .
+> No hacerlo causará una petición con respuesta 400 y error: "Unable to infer object type from: vendor"
+
 Los Custom Objects también pueden usarse para esta petición.
 
 Por ejemplo, para listar labels entre Credentialing y License.
