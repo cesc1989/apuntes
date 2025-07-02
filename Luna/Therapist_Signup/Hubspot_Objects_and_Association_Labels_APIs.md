@@ -84,6 +84,8 @@ GET https://api.hubapi.com/crm/v4/associations/p_credentialings/p_licenses/label
 > [!Note]
 > En Omega, el nombre de Credentialing es `credentialing`. En Alpha es `credentialings`.
 
+> [!Tip]
+> [Docs de Labels](https://developers.hubspot.com/docs/reference/api/crm/associations/associations-schema#get-%2Fcrm%2Fv4%2Fassociations%2F%7Bfromobjecttype%7D%2F%7Btoobjecttype%7D%2Flabels) endpoint.
 
 ## Crear Professional References
 
