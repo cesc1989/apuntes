@@ -78,7 +78,7 @@ Los Custom Objects también pueden usarse para esta petición.
 Por ejemplo, para listar labels entre Credentialing y License.
 
 ```
-GET https://api.hubapi.com/crm/v4/associations/credentialings/licenses/labels
+GET https://api.hubapi.com/crm/v4/associations/p_credentialings/p_licenses/labels
 ```
 
 > [!Note]
@@ -210,7 +210,7 @@ Tomando de punto de partida que las asociaciones se dan entre un `from` hacía u
 Debe ser así porque el ID de la definición de la label está así:
 
 ```
-GET https://api.hubapi.com/crm/v4/associations/credentialings/contact/labels
+GET https://api.hubapi.com/crm/v4/associations/p_credentialings/contact/labels
 ```
 
 Nota la dirección es `credentialings` (from) -> `contact` (to).
@@ -231,7 +231,7 @@ Nota la dirección es `credentialings` (from) -> `contact` (to).
 
 La petición, usando el batch endpoint (`batch/create`), sería así:
 ```
-POST https://api.hubapi.com/crm/v4/associations/credentialings/contact/batch/create
+POST https://api.hubapi.com/crm/v4/associations/p_credentialings/contact/batch/create
 
 Payload
 
