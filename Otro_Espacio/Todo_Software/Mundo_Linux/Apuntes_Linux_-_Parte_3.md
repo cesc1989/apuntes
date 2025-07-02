@@ -132,3 +132,69 @@ El comando `cp` solo no puede copiar la carpeta contenedora. Hay que usar `cp -r
 ```bash
 cp -r ../patient-forms-backend/spec/forms ./spec/forms/patient_self_report/
 ```
+
+# Revertir la actualización de Núcleo de Linux
+
+En la mañana del 2 de Julio tenía actualizaciones en Linux Mint que incluían una de núcleo. Hubo varios problemas para completar porque al parecer no se podía descargar algo. Cancelé un par de veces y volví a intentar pero nunca terminaba la descarga.
+
+Reinicié y los problemas aparecieron. La pantalla tomó una resolución mucho menor y no se reconocía la tarjeta de wifi.
+
+Le fui a preguntar a ChatGPT y aquí están los pasos de lo que hay que hacer.
+
+## Encontrar el núcleo actual
+
+Para saber si es problema del núcleo necesitaba primero saber cual está en uso. Con este comando se puede saber:
+```
+uname -r
+5.15.0-143-generic
+```
+
+## Entrar al modo avanzado de Grub
+
+Me pedía que ingresara al Grub pero no lograba mostrarlo. Debido a que tengo Linux Mint instalado como único SO en el PC este no se mostraba.
+
+Para poder mostrarlo tuve que editar el archivo `/etc/default/grub` así:
+```
+# GRUB_TIMEOUT_STYLE=hidden
+GRUB_TIMEOUT=5
+```
+
+Guardé los cambios y luego ejecuté `sudo update-grub` para que se aplicaran. Reinicié y pude ver el menú Grub.
+
+## Opciones Avanzadas de Linux Mint
+
+Me aparecían varias opciones de núcleos. Como la dañada era la versión 143-generic tenía que bajar a una versión antes. Me salía esto:
+
+```
+- 142-generic
+- 142-generic (recovery mode)
+```
+
+Aquí elegí la primera que es donde todo estaba funcionando correctamente.
+
+## Borrar el núcleo problemático
+
+Me tocó borrar varias cosa para poder borrar el 143.
+
+Con
+```
+dpkg -l | grep 143
+```
+
+Listé todos los paquetes relacionados a este núcleo.
+
+Intenté borrar con este comando:
+```
+sudo dpkg --purge linux-image-5.15.0-143-generic linux-modules-5.15.0-143-generic
+```
+
+Pero había dependencias que necesitaba borrar primero.
+
+Tuve que borrarlas así:
+```
+sudo dpkg --purge linux-generic
+
+sudo dpkg --purge linux-image-generic
+```
+
+Después si pude borrar los paquetes mencionados antes. Al ejecutar `dpkg -l | grep 143` no había resultados.
