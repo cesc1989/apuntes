@@ -29,7 +29,7 @@ General
 
 Metrics
 
-- [ ] Check all exports output CSV file to S3 folder
+- [x] Check all exports output CSV file to S3 folder
 
 ### Notes
 

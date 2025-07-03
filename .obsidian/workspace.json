@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a3d5191bc8079a3",
+        "id": "5bfa27357c32ed02",
         "type": "tabs",
         "children": [
           {
-            "id": "752a5130e8e5e222",
+            "id": "3356a9b34317fbe8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Patient Self Report"
+              "title": "006 - QA Plan"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Patient Self Report"
+              "title": "Outline of 006 - QA Plan"
             }
           }
         ],
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "752a5130e8e5e222",
+  "active": "3356a9b34317fbe8",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0",
@@ -194,7 +195,6 @@
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Backend/Appointments",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Spikes",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
