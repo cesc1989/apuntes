@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Returning Encounters Monitored/Phase_0/Initial Work.md",
-                "mode": "source",
+                "file": "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Initial Work"
+              "title": "rem_phase0"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Returning Encounters Monitored/Phase_0/Initial Work.md",
+                "file": "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Initial Work"
+              "title": "Outline of rem_phase0"
             }
           }
         ],
@@ -164,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4fb45364745a9be7",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Luna/Backend/Returning Encounters Monitored/Phase_0/Initial Work.md",
+    "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0",
     "Luna/Backend/Returning Encounters Monitored",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
