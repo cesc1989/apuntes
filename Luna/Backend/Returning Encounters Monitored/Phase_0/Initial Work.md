@@ -1,6 +1,4 @@
-Reviewed the changes - I didn't spot anything that might break the existing codebase and the pattern seems to be the same we used for `patient-forms`.
-
-Also compiled a list of things that I would like to do after this gets merged with Claude's help, while keeping in mind the "Treated & Unseen Patients" project:
+# Initial Work
 
 ## Authentication & User Management
 
