@@ -3,10 +3,10 @@
 ## Authentication & User Management
 
 - **Replace ClinicalDashboard::User with AdminUser** - Eliminate duplicate authentication system and use existing Google OAuth
-- **Remove clinical_dashboard_users table** - Drop unnecessary table after user migration
 - **Update controllers to use current_admin_user** - Replace current_clinical_dashboard_user references
 - **Add clinical dashboard permissions to AdminAbility** - Integrate with existing authorization system
 - **Remove devise_for :users from clinical dashboard routes** - Clean up duplicate Devise configuration
+- **Remove clinical_dashboard_users table** - Drop unnecessary table after user migration
 
 ## String & Utility Improvements
 
