@@ -13,15 +13,6 @@
 - **Replace String#to_bool monkey patch with utility class** - Remove global String modification and create dedicated converter or explicitly check for booleans (just 20 occurrences)
 - **Remove config/initializers/string.rb** - Clean up global monkey patch initializer
 
-## Database & Infrastructure
-
-- **Replace Athena queries with direct PostgreSQL** - Eliminate AWS dependency and use existing Rails models
-- **Remove 68+ Athena-related files** - Clean up complex query execution system
-- **Create app/queries/clinical_dashboard/ structure** - Build PostgreSQL query objects for complex queries if necessary
-- **Remove RequestQueryExecutionWorker and execution tracking** - Simplify background job system
-- **Fix manual ID generation race conditions** - Replace ClinicalDashboardPrimaryKey with proper defaults on postgres db
-- **Remove ExecutionId model and table** - Clean up Athena tracking infrastructure
-
 ## API & Service Consolidation
 
 - **Replace Edge API calls with direct service calls** - Remove internal HTTP overhead
@@ -36,6 +27,15 @@
 ## Code Deduplication & Service Reuse
 
 - **Consolidate email services with existing mailers** - Merge clinical dashboard email with existing email infrastructure
+
+## Database & Infrastructure
+
+- **Replace Athena queries with direct PostgreSQL** - Eliminate AWS dependency and use existing Rails models
+- **Remove 68+ Athena-related files** - Clean up complex query execution system
+- **Create app/queries/clinical_dashboard/ structure** - Build PostgreSQL query objects for complex queries if necessary
+- **Remove RequestQueryExecutionWorker and execution tracking** - Simplify background job system
+- **Fix manual ID generation race conditions** - Replace ClinicalDashboardPrimaryKey with proper defaults on postgres db
+- **Remove ExecutionId model and table** - Clean up Athena tracking infrastructure
 
 ## HubSpot Integration Improvements
 
