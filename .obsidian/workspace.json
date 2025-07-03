@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "15fe3739654ba730",
+        "id": "1a3d5191bc8079a3",
         "type": "tabs",
         "children": [
           {
-            "id": "4fb45364745a9be7",
+            "id": "752a5130e8e5e222",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "rem_phase0"
+              "title": "Comanditos para Patient Self Report"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of rem_phase0"
+              "title": "Outline of Comanditos para Patient Self Report"
             }
           }
         ],
@@ -164,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "752a5130e8e5e222",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0",
     "Luna/Backend/Returning Encounters Monitored",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",

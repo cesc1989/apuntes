@@ -4,8 +4,13 @@ Comandos rakes o para usar en la consola de Rails.
 
 ## Buscar Intake o Progress incompletos
 
+Intake Form:
 ```ruby
 PatientSelfReport::Form.onboarding.uncompleted.order("RANDOM()").first.link
+```
+
+Progress Form:
+```ruby
 PatientSelfReport::Form.progress.uncompleted.order("RANDOM()").first.link
 ```
 
