@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5bfa27357c32ed02",
+        "id": "9bbfead5937eb8b6",
         "type": "tabs",
         "children": [
           {
-            "id": "3356a9b34317fbe8",
+            "id": "a0b45e28f27b4a6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - QA Plan"
+              "title": "Comanditos para Clinical Dashboard"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - QA Plan"
+              "title": "Outline of Comanditos para Clinical Dashboard"
             }
           }
         ],
@@ -164,17 +164,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3356a9b34317fbe8",
+  "active": "a0b45e28f27b4a6d",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
+    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+    "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
+    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0",
     "Luna/Backend/Returning Encounters Monitored",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
@@ -189,11 +194,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
-    "DevAsPros/Coshi_Notes/rfcs/STATISTICS_IMPLEMENTATION_PLAN.md",
-    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Backend/Appointments",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Spikes",
