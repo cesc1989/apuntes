@@ -8,15 +8,28 @@ Cred 1 (correcto): [30278823850](https://app.hubspot.com/contacts/4634981/recor
 
 Cred 2 (duplicado): [30272441773](https://app.hubspot.com/contacts/4634981/record/2-31374266/30272441773)
 
-## Flujos que crean Credentialing objects
+## Datos de cada objeto
 
-### Primer Credentialing
+El Credentialing 1 fue creado el **Jul 3, 2025 at 8:30 PM GMT-5**.
+
+El Credentialing 2 fue creado el **Jul 4, 2025 at 2:04 AM GMT-5**.
+
+---
+
+El Credentialing 1 tiene varias propiedades con valores. Esto significa que era el "Active Attested" anterior.
+
+El Credentialing 2 carece de valores en muchísimas propiedades.
+
+
+# Flujos que crean Credentialing objects
+
+## Primer Credentialing
 
 El primer Credentialing se crea cuando un Therapist (que no existe en el sistema) completa el Sign Up form. **Este objeto es creado automáticamente por HubSpot**.
 
 El ID de este objeto Credentialing es guardado en el campo `credentialing_active_attested_id` porque inicialmente tiene la label "Active Attested".
 
-### Segundo Credentialing
+## Segundo Credentialing
 
 **El segundo Credentialing mediante un llamado a la API de HubSpot**. Esto ocurre cuando se completa el Extended Sign Up: un mismo therapist completa el Sign Up form nuevamente.
 
@@ -35,15 +48,15 @@ Al final el flujo, los objetos Credentialing deben quedar así:
 - 1er Credentialing: Active label
 - 2do Credentialing: Active Attested
 
-## Posibles estados de labels: ¿se puede un Active - Active?
+# Posibles estados de labels: ¿se puede un Active - Active?
 
 > [!Important]
 > Pedí a Claude revisar los posibles flujos y no se encuentra un resultado que produzca dos objetos con la misma label "Active"
 
+tbc
 
 
-
-## Revisar historial de labels de una asociación
+# Revisar historial de labels de una asociación
 
 HubSpot no brinda una forma de saber en qué fecha una label fue asignada a un objeto. Si hubiera esto, podría revisar las fechas en que el objeto original obtuvo su label "Active". Lo mismo para el duplicado.
 
