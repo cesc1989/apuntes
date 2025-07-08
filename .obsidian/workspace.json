@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9bbfead5937eb8b6",
+        "id": "96e8fc4b55eba67a",
         "type": "tabs",
         "children": [
           {
-            "id": "a0b45e28f27b4a6d",
+            "id": "c92364dfd7696c40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
-                "mode": "preview",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Cambio de JWT_SECRET entre servidores.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Clinical Dashboard"
+              "title": "Cambio de JWT_SECRET entre servidores"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Cambio de JWT_SECRET entre servidores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Clinical Dashboard"
+              "title": "Outline of Cambio de JWT_SECRET entre servidores"
             }
           }
         ],
@@ -164,16 +164,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0b45e28f27b4a6d",
+  "active": "c92364dfd7696c40",
   "lastOpenFiles": [
-    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/request new cd link.png",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Cambio de JWT_SECRET entre servidores.md",
+    "Luna/Backend/AppBlend/Entendiendo Legacy Connection Handling.md",
+    "Luna/Backend/AppBlend/Compatibilidad entre Rails y Ruby.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/What is devise-jwt for?.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/Limpiar Código.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Clinical_Dashboard/Relationship_between_views_and_tracked_events.md",
     "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/006 - QA Plan.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/LR Alpha Discrepancy.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0",
@@ -184,16 +194,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion.md",
-    "Luna/Therapist_Signup/Attestation Form/Momento de creacion de custom objects.md",
-    "Luna/Therapist_Signup/Attestation Form/Custom_Objects_Schema_Properites_in_Setting.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Therapist_Signup/Attestation Form/Go Live Checklist.md",
-    "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
-    "Luna/Grafana_Queries.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/008 - Secuencia en Llave Primaria ✅.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Backend/Appointments",
     "Luna/Patient_Self_Report/Copy Form",
     "Luna/Patient_Self_Report/Spikes",
