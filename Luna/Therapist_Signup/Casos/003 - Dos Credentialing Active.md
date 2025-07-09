@@ -20,6 +20,28 @@ El Credentialing 1 tiene varias propiedades con valores. Esto significa que era 
 
 El Credentialing 2 carece de valores en muchísimas propiedades.
 
+## Logs
+
+Revisé logs y encontré entradas para ambos IDs.
+
+**Para el Credentialing correcto**
+```
+1751615198600	2025-07-04T07:46:38.600Z	  Therapist Update (0.9ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_hubspot_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-07-04 07:46:38.597697"], ["credentialing_hubspot_id", 30278823850], ["id", "f6c02957-0580-4afb-81fc-c29a4388c6ac"]]
+
+1751612696846	2025-07-04T07:04:56.846Z	  Therapist Update (1.0ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_hubspot_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-07-04 07:04:56.843231"], ["credentialing_hubspot_id", 30278823850], ["id", "f6c02957-0580-4afb-81fc-c29a4388c6ac"]]
+
+1751592700497	2025-07-04T01:31:40.497Z	  Therapist Update (0.7ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_active_attested_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-07-04 01:31:40.495455"], ["credentialing_active_attested_id", 30278823850], ["id", "f6c02957-0580-4afb-81fc-c29a4388c6ac"]]
+```
+
+**Para el incorrecto**
+```
+1751613764544	2025-07-04T07:22:44.544Z	  Therapist Update (1.5ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_hubspot_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-07-04 07:22:44.540820"], ["credentialing_hubspot_id", 30272441773], ["id", "f6c02957-0580-4afb-81fc-c29a4388c6ac"]]
+
+1751612697460	2025-07-04T07:04:57.460Z	  Therapist Update (0.9ms)  UPDATE "therapists" SET "updated_at" = $1, "credentialing_active_attested_id" = $2 WHERE "therapists"."id" = $3  [["updated_at", "2025-07-04 07:04:57.456090"], ["credentialing_active_attested_id", 30272441773], ["id", "f6c02957-0580-4afb-81fc-c29a4388c6ac"]]
+```
+
+En [[Credentialing_Objects_State_Analysis]] está el momento a momento de lo que pasó. Claude sugiere que puede ser un problema de race condition. También sugiere otro montón de cosas.
+
 
 # Flujos que crean Credentialing objects
 
@@ -53,8 +75,9 @@ Al final el flujo, los objetos Credentialing deben quedar así:
 > [!Important]
 > Pedí a Claude revisar los posibles flujos y no se encuentra un resultado que produzca dos objetos con la misma label "Active"
 
-tbc
+La conclusión es que no hay forma directa en que se cree un objeto Credentialing con label Active.
 
+El análisis completo está en [[Credentialing_Objects_State_Analysis]]
 
 # Revisar historial de labels de una asociación
 
@@ -63,3 +86,7 @@ HubSpot no brinda una forma de saber en qué fecha una label fue asignada a un o
 En la UI se puede llegar a ver el [historial de las asociaciones](https://knowledge.hubspot.com/records/associate-records#view-a-record-s-association-history) pero no arroja mucha información que ayude.
 
 ![[003.association.history.png]]
+
+# Conclusión
+
+Claudio sugirió varias cosas. Si logro replicarlo en alpha, las expondré a Brandon.
