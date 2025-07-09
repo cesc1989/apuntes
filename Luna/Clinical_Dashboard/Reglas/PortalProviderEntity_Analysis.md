@@ -140,12 +140,17 @@ trait :provider_portal_emails_enabled do
 end
 ```
 
+ActiveRecord query:
+```ruby
+Setting.find_by(key: "provider_portal_emails_enabled")
+```
+
 ## 4. Key Features of PortalProviderEntity Concern
 
 ### Associations
 
 - `has_one :config, class_name: "PortalConfig", as: :configurable`
-- `has_many :portal_email_recipients` (ShadowUser with portal_email_recipient scope)
+- `has_many :portal_email_recipients` (ShadowUser with `portal_email_recipient` scope)
 
 ### Permission Delegates
 
@@ -227,6 +232,12 @@ end
 
 ### Send Portal Access Link (Single Recipient)
 
+Request a new Provider Portal link from the Expired Link page.
+
+![[request new cd link.png]]
+
+Clicking the button makes a request to Clinical Dashboard `POST /refresh` endpoint which does a request to Edge `POST /api/v1/internal/provider_communications/send_portal_access_link` endpoint.
+
 ```ruby
 def send_portal_access_link(provider_email)
   # Uses ProviderPortalService to generate portal URLs
@@ -237,6 +248,10 @@ end
 ```
 
 ### Send Portal (All Recipients)
+
+Send provider portal links to all providers in their corresponding cadency.
+
+`ProviderPortalEmailsSendingWorker` runs weekly at 8am. For each found `PortalConfig` it runs  `ProviderPortalEmailSendingWorker`. This last worker is where the `send_portal` method is used.
 
 ```ruby
 def send_portal(force: false)
@@ -249,6 +264,8 @@ def send_portal(force: false)
   # Creates HubSpot engagement notes with results
 end
 ```
+
+It's also used in providers profiles in Luxe. There's a button to send the provider portal link on demand.
 
 ## 8. Related Services and Workers
 
