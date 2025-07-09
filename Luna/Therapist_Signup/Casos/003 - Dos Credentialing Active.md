@@ -89,4 +89,19 @@ En la UI se puede llegar a ver el [historial de las asociaciones](https://knowle
 
 # Conclusión
 
-Claudio sugirió varias cosas. Si logro replicarlo en alpha, las expondré a Brandon.
+> [!Note]
+> Claudio sugirió varias cosas. Si logro replicarlo en alpha, las expondré a Brandon.
+
+## 1era replica
+
+Pude replicar el caso en un Contacto que ya tenía dos objetos Credentialing:
+
+- Active Attested
+- Active
+
+Cuando hice un nuevo sign up se agregó un tercer objeto Credentialing y quedó todo así:
+
+- Active Attested (nuevo Credentialing)
+- Active (anterior AA)
+- Active (1er active)
+
