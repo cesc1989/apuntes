@@ -78,6 +78,8 @@ make install
 popd
 ```
 
+Ver [[Configurando_Grimoire]] para ver logs de cuándo los comandos son exitosos.
+
 ### Vector
 
 Esto también se necesita...
@@ -88,4 +90,12 @@ git clone --branch v0.5.0 https://github.com/pgvector/pgvector.git
 cd pgvector
 make
 make install # may need sudo
+```
+
+Luego se habilita la extensión en `psql`:
+```
+psql
+
+francisco=# CREATE EXTENSION vector;
+CREATE EXTENSION
 ```
