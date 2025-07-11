@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "503981f07348640b",
+        "id": "923a53a12565464f",
         "type": "tabs",
         "children": [
           {
-            "id": "d071162321fd31c5",
+            "id": "be8d9f103115b5ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+                "file": "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Grimoire - Part 1"
-            }
-          },
-          {
-            "id": "fdabd44e1f0a81c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Primeros Pasos en Phoenix"
+              "title": "004 - Syncing Old Object Issue"
             }
           }
         ]
@@ -154,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+                "file": "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Grimoire - Part 1"
+              "title": "Outline of 004 - Syncing Old Object Issue"
             }
           }
         ],
@@ -178,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d071162321fd31c5",
+  "active": "be8d9f103115b5ba",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+    "Luna/Backend/Notas sobre Logical Replication.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Recursividad_en_Elixir.md",
@@ -209,7 +196,6 @@
     "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
     "Luna/Clinical_Dashboard/Metrics",
     "Luna/Therapist_Signup/Casos/caso-003/Credentialing_Objects_State_Analysis.md",
-    "Luna/Clinical_Dashboard/Reglas/Determining whether a Patient should be displayed.md",
     "Luna/Therapist_Signup/Casos/caso-003",
     "Luna/Therapist_Signup/Casos/attachments/003.association.history.png",
     "Luna/Backend/Returning Encounters Monitored/Phase_0",

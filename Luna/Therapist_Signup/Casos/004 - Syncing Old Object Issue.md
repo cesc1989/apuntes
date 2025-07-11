@@ -1,4 +1,4 @@
-# 004 - Sincronizando con HS old objects (Inactive Cred)
+# 004 - Sincronizando con HS old objects (Inactive Credentialing)
 
 Una vez un objeto Credentialing toma la label "Inactive" no debería recibir más actualizaciones.
 
@@ -12,12 +12,16 @@ Jose reporta esto:
 
 Aquí hay dos problemas que están relacionados:
 
-- Se actualizó el objeto Credentialing Inactive
 - No se crearon las additional Licenses (existentes para el Cred Inactive) para el nuevo Cred Active Attested
+- Se actualizó el objeto Credentialing Inactive
+
+Veamos.
 
 ## Additional Licenses no se transfieren al nuevo Credentialing Active Attested
 
-Sospecho que pasa que no se transfieren a un nuevo objeto Active Attested. Ejemplo:
+Sospecho que pasa que no se transfieren a un nuevo objeto Active Attested.
+
+Ejemplo de un solo Credentialing Active Attested.
 
 1. Cred Active Attested existe
 2. Usuario ingresa License en otro estados
@@ -47,4 +51,31 @@ Lo que postee en Linear:
 >  - License in other state: California, PT1234
 >  - Inactive Credentialing -> Additional License (California)
 >  - Active Attested Credentialing -> 😞
+
+### ¿Qué lo explica?
+
+Donde se usan las clases que crean y actualizan Additional Licenses.
+
+El worker (`HubspotCreateLicenseInOtherStateWorker`) que se ejecuta después de las peticiones:
+
+  1. Definition: `app/workers/hubspot_custom_objects/hubspot_create_license_in_other_state_worker.rb:2`
+  2. Usage: `app/controllers/api/v1/submit_controller.rb:48` - scheduled to run in 5 minutes with "create" action
+  3. Usage: `app/controllers/api/v2/external/attestation/credentialing_informations_controller.rb:119` - runs async with "update" action
+  4. Tests: Referenced in specs for both controller endpoints
+
+La clase(`HubspotLicenseInOtherStateService`) que hace el trabajo:
+
+  1. Definition: `app/services/hubspot_custom_objects/hubspot_license_in_other_state_service.rb:9`
+  2. Usage: `app/workers/hubspot_custom_objects/hubspot_create_license_in_other_state_worker.rb:10` - for creating records
+  3. Usage: `app/workers/hubspot_custom_objects/hubspot_create_license_in_other_state_worker.rb:14` - for updating records
+
+### Solución
+
+Hay dos opciones:
+
+- Crear nuevos Additional License para cada Active Attested
+	- De esta forma el Inactive conserva los suyos
+- Reassociar los Additional Licenses del Inactive al Active Attested
+
+Lo segundo fue la opción indicada por Jose Han.
 
