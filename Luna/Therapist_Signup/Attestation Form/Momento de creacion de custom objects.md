@@ -20,4 +20,6 @@ The "Initial Form Date" value corresponds to the `signup_form_date` property int
 
 Main License object would be created by a Hubspot workflow.
 
+> Yes, since we are receiving the Treating license info via contract sign up form, HubSpot will auto create a new treating license after creating a new Credentialing object for each new contract.
+
 Additional licenses will be created using HS API.
