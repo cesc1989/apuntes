@@ -10,11 +10,19 @@ Así se explica en [Syncing Data Between Services](https://www.notion.so/getluna
 ## Migraciones en Ecto
 
 Así se hacen las [migraciones](https://hexdocs.pm/ecto_sql/Ecto.Migration.html#module-creating-your-first-migration) en [Ecto](https://stackoverflow.com/a/48495116/1407371) para agregar un campo:
+```
+mix ecto.gen.migration add_weather_table
 
-    mix ecto.gen.migration add_weather_table
-    
-    mix ecto.gen.migration todos_add_author_column
+mix ecto.gen.migration todos_add_author_column
+```
+
 
 Ejemplo:
+```
+mix ecto.gen.migration add_exercises_web_token_to_accounts
+```
 
-    mix ecto.gen.migration add_exercises_web_token_to_accounts
+Correr todas las migraciones:
+```
+mix ecto.migrate
+```
