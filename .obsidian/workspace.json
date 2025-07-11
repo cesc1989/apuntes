@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
+                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Dos Credentialing Active"
+              "title": "001 - Clinics no recibieron provider portal link"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
+                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Dos Credentialing Active"
+              "title": "Outline of 001 - Clinics no recibieron provider portal link"
             }
           }
         ],
@@ -166,9 +166,12 @@
   },
   "active": "9a61ba84c1f6e571",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
+    "Luna/Clinical_Dashboard/Casos",
+    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/001 - Detalles para AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/002 - Important Updates per Changelogs.md",
-    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/request new cd link.png",
     "Luna/Clinical_Dashboard/Metrics/Relationship_between_views_and_tracked_events.md",
@@ -195,8 +198,6 @@
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/001 - Merge CD into Edge.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/004 - Pruebas de Modelos y Factories.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/003 - Upgrade CD to Rails 7.1.4.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/002 - Upgrade CD to Rails 7.0.8.4.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/005 - Rutas y Namespace.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0",
     "Luna/Backend/Returning Encounters Monitored",
     "Luna/Backend/Appointments",
@@ -205,7 +206,6 @@
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
     "Luna/Therapist_Signup/Casos/attachments",
-    "Luna/Therapist_Signup/Archivo",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
