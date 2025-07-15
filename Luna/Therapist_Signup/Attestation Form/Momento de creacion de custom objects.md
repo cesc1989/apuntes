@@ -1,6 +1,6 @@
 # Custom Objects: Cuándo se Crean
 
-## Credentialing
+## Credentialing "Active Attested"
 
 **Credentialing custom object is ==created when "Initial Form Date" is known==.**
 
