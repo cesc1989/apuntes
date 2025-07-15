@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "004 - Syncing Old Object Issue"
             }
+          },
+          {
+            "id": "13b73261aedd1a65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "001 - Clinics no recibieron provider portal link"
+            }
+          },
+          {
+            "id": "40de8c35dc400ae5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Primeros Pasos en Phoenix"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 004 - Syncing Old Object Issue"
+              "title": "Outline of Primeros Pasos en Phoenix"
             }
           }
         ],
@@ -164,20 +193,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be8d9f103115b5ba",
+  "active": "40de8c35dc400ae5",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Attestation Form/Momento de Creacion de Custom Objects.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
+    "Luna/Therapist_Signup/Attestation Form/Momento de Creacion de Custom Objects.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Recursividad_en_Elixir.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Grimoire/Configurando_Grimoire.md",
     "Luna/Grimoire/Setup de Grimoire.md",
-    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
     "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues ✅.md",
@@ -194,7 +224,6 @@
     "Luna/Clinical_Dashboard/Reglas/Why_use_Age_Distribution_for_“total_patients_count.md",
     "Luna/Clinical_Dashboard/Reglas",
     "Luna/Clinical_Dashboard/Metrics/Error_tracking_for_Engagement_Metrics.md",
-    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
     "Luna/Clinical_Dashboard/Metrics",
     "Luna/Therapist_Signup/Casos/caso-003",
     "Luna/Therapist_Signup/Casos/attachments/003.association.history.png",

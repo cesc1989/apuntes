@@ -111,6 +111,8 @@ $ mix ecto.migrate
 14:57:37.996 [info] == Migrated 20240824195538 in 0.0s
 ```
 
+Deshacer migraciones con `mix ecto.rollback`. [Docs](https://hexdocs.pm/ecto/2.2.10/Mix.Tasks.Ecto.Rollback.html).
+
 # Ecto Changesets
 
 Al parecer, en Ecto, actualizar no es tan simple como en Active Record. Para poder actualizar un registro en la base de datos hay que pasarle un `Ecto.Changeset` a `Ecto.Repo.update/2`.
