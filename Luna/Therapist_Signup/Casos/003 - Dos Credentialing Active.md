@@ -89,10 +89,33 @@ En la UI se puede llegar a ver el [historial de las asociaciones](https://knowle
 
 # Conclusión
 
-> [!Note]
-> Claudio sugirió varias cosas. Si logro replicarlo en alpha, las expondré a Brandon.
+> [!Important]
+> El caso se dio por unos sub estados de Therapist Contact en HubSpot. Son tres sub estados de los cuales solo dos se cubrieron en el Extended Sign Up.
+
+## Problema de sub estados de Therapist en propiedad `returning_therapists`
+
+Resulta que esa propiedad tiene tres posibles valores:
+
+- Moving Regions
+- Offboarded
+- DOA
+
+Para los dos últimos casos el Extended Sign Up cubría correctamente la creación de objetos Credentialing.
+
+Para el caso de Moving Regions no. Cuando la propiedad `returning_therapists` está en este valor es porque:
+
+- El therapist diligenció el [formulario](https://share.hsforms.com/1vTz2g38VSmGb7rWehrAG1A4laqc) "Therapist Relocation Form"
+- HubSpot creará un nuevo Credentialing con label "Processing for Move"
+- La propiedad `returning_therapists` tomaré el valor "Moving Regions"
+
+En ese caso no es necesario crear otro Credentialing ni hacer reasociación de labels.
+
+Todos los cambios necesarios para soportar esta lógica están registrados en [EDG-2366](https://linear.app/getluna/issue/EDG-2366/fix-hs-credentialing-objects-creation-for-moving-regions-therapists).
 
 ## 1era replica
+
+> [!Note]
+> Claudio sugirió varias cosas. Si logro replicarlo en alpha, las expondré a Brandon.
 
 Pude replicar el caso en un Contacto que ya tenía dos objetos Credentialing:
 
@@ -104,4 +127,3 @@ Cuando hice un nuevo sign up se agregó un tercer objeto Credentialing y quedó 
 - Active Attested (nuevo Credentialing)
 - Active (anterior AA)
 - Active (1er active)
-
