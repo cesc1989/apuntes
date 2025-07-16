@@ -36,6 +36,11 @@ Ejemplo de un solo Credentialing Active Attested.
 3. AF actualizado: se actualizan los Licenses (tienen su propio `hubspot_id`)
 4. AF submitted: el nuevo Cred no tiene los Additional Licenses
 
+> [!Note]
+> El objeto Credentialing sí es Inactive. En el caso que reporta Jose el Contact tiene un objeto Inactive y otro Active Attesting.
+>
+> Esa es la clave para el fix. Si el campo `credentialing_inactive_hubspot_id` tiene valor, entonces hay que reasociar esas Additional Licenses si las tiene.
+
 Creo que esto es el problema.
 
 Lo que postee en Linear:
