@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Fill therapist_direct_access_entries table"
             }
+          },
+          {
+            "id": "cd272c1a45ca643e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "003 - Dos Credentialing Active ✅"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+                "file": "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fill therapist_direct_access_entries table"
+              "title": "Outline of 003 - Dos Credentialing Active ✅"
             }
           }
         ],
@@ -179,16 +193,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40006508fa321f41",
+  "active": "cd272c1a45ca643e",
   "lastOpenFiles": [
-    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
+    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
+    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
     "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
     "Luna/Backend/Direct Access/attachments",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
     "Luna/Backend/Direct Access/Untitled.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de Creacion de Custom Objects.md",
-    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access",
@@ -202,7 +217,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Grimoire/Configurando_Grimoire.md",
     "Luna/Grimoire/Setup de Grimoire.md",
-    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
     "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues ✅.md",
     "Luna/Clinical_Dashboard/Casos",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
