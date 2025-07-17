@@ -10,6 +10,8 @@ t.datetime :effective_from
 t.integer :association_label
 ```
 
+## Through endpoints
+
 To pull Credentialing objects for a HS Contact hit endpoint:
 ```
 GET https://api.hubapi.com/crm/v3/objects/contacts/:contactid?associations=objectTypeId
@@ -108,3 +110,12 @@ From this response we get possible values for:
 - `state` field: `direct_access_state`, `state` or `therapist_name_state` (by extracting the state abbreviation)
 - `permitted`: by parsing `direct_access_restricted`
 
+## Through workflow/webhook
+
+Create a workflow that detects when a Contact is associated to a Credentialing object of every label.
+
+### Caveats
+
+There is no way to extract the label from properties list or workflow options. This means we'll need a workflow per association label. Each workflow would define it's own webhook to set the `association_label` column from each URL.
+
+I could not find a property for the Therapist ID in Luxe. To complete the record the `therapist_id` value would be inferred by looking the therapist using the `record_id` from HubSpot.
