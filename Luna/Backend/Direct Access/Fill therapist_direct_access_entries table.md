@@ -130,3 +130,75 @@ I could not find a property for the Therapist ID in Luxe. To complete the record
 
 ---
 
+### Workflow Tests
+
+The workflow in alpha is setup to trigger a webhook when a ==Contact is associated to any Credentialing object== and the ==Credentialing object has a value in the Associated Contact Record ID property==.
+
+To be able to distinguish each Credentialing the workflow defines four branches for each possible label. Each branch will trigger the webhook sending properties:
+
+- `state`
+- `hs_object_id`
+- `hs_createdate`
+- `direct_access_state`
+- `therapist_name_state`
+- `direct_access_restricted`
+- `associated_contact_record_id`
+
+To be able to pull the label from each Credentialing it is send in the webhook URL as `label` query param.
+
+In each branch's webhook setup, Credentialing records per label are made available. This way we guarantee the webhook with corresponding query param will correspond to the associated Credentialing kind.
+
+#### Example for New Therapist Sign Up - Cred. Active Attested
+
+After completing a sign up, got this from the webhook:
+
+```ruby
+"label: active-attested"
+"state: CA"
+"hs_object_id: 31006455396"
+"hs_createdate: 1752778944619"
+"direct_access_state: "
+"therapist_name_state: Coshinita Kuintero - California"
+"direct_access_restricted: "
+"associated_contact_record_id: "
+"label: active-attested"
+```
+
+#### Example manual association of Cred. Inactive
+
+**First Test**
+
+Tried manually adding a free Credentialing object to an existing Contact. Attached the Inactive label but the webhook never arrived.
+
+**Second Test**
+
+After enrolling all Contacts that meet criteria, tried again adding a manual Credentialing as Inactive but the webhook never arrived.
+
+
+#### Enroll all Contacts after updating workflow
+
+Update the workflow to enroll al Contacts and got multiple hits:
+
+```json
+"label: active-attested"
+"state: CA"
+"hs_object_id: 30674425623"
+"hs_createdate: 1752266136983"
+"direct_access_state: "
+"therapist_name_state: Sarah Moving-Therapist-Test - Washington - California"
+"direct_access_restricted: "
+"associated_contact_record_id: "
+"label: active-attested"
+
+"label: active"
+"state: "
+"hs_object_id: 29590144058"
+"hs_createdate: 1750096794740"
+"direct_access_state: "
+"therapist_name_state: JoseTEST RedirectTEST3 - Oregon"
+"direct_access_restricted: "
+"associated_contact_record_id: 129832437269"
+"label: active"
+```
+
+Notice how the "active-attested" one does not include a value for `associated_contact_record_id`.

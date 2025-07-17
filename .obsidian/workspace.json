@@ -181,15 +181,15 @@
   },
   "active": "40006508fa321f41",
   "lastOpenFiles": [
+    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
+    "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
     "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
     "Luna/Backend/Direct Access/attachments",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
-    "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
     "Luna/Backend/Direct Access/Untitled.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de Creacion de Custom Objects.md",
     "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
-    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
@@ -226,7 +226,6 @@
     "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Luna/Therapist_Signup/Attestation Form/attachments/22.af.files.in.mpf.png",
-    "Luna/Therapist_Signup/Attestation Form/attachments/21.af.files.in.s3.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
