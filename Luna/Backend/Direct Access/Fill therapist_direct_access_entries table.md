@@ -116,6 +116,17 @@ Create a workflow that detects when a Contact is associated to a Credentialing o
 
 ### Caveats
 
-There is no way to extract the label from properties list or workflow options. This means we'll need a workflow per association label. Each workflow would define it's own webhook to set the `association_label` column from each URL.
+There is no way to extract the label from properties list or workflow options. ~~This means we'll need a workflow per association label. Each workflow would define it's own webhook to set the `association_label` column from each URL.~~
+
+> [!Note]
+> HubSpot workflows are very comprehensive and allow a lot of setups.
+> A way to workaround not having the label as a property is by setting up branches per each association label. Each branch would send info to the same webhook and the label can be hardcoded per branch.
+
+![[hs.workflow.branch.per.credentialing.png]]
+
+---
 
 I could not find a property for the Therapist ID in Luxe. To complete the record the `therapist_id` value would be inferred by looking the therapist using the `record_id` from HubSpot.
+
+---
+

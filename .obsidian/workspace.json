@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -181,9 +181,11 @@
   },
   "active": "40006508fa321f41",
   "lastOpenFiles": [
+    "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
+    "Luna/Backend/Direct Access/attachments",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
-    "Luna/Backend/Direct Access/Untitled.md",
     "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+    "Luna/Backend/Direct Access/Untitled.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de Creacion de Custom Objects.md",
     "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
@@ -209,7 +211,6 @@
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/request new cd link.png",
     "Luna/Clinical_Dashboard/Metrics/Relationship_between_views_and_tracked_events.md",
-    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
     "Luna/Clinical_Dashboard/Reglas",
     "Luna/Clinical_Dashboard/Metrics",
     "Luna/Therapist_Signup/Casos/caso-003",
@@ -218,7 +219,6 @@
     "Luna/Backend/Returning Encounters Monitored",
     "Luna/Backend/Appointments",
     "Luna/Patient_Self_Report/Copy Form",
-    "Luna/Patient_Self_Report/Spikes",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
