@@ -17,7 +17,7 @@ Aquí hay dos problemas que están relacionados:
 
 Veamos.
 
-## Additional Licenses no se transfieren al nuevo Credentialing Active Attested
+## Additional Licenses no se transfieren al nuevo Credentialing Active Attested 🟡
 
 Sospecho que pasa que no se transfieren a un nuevo objeto Active Attested.
 
