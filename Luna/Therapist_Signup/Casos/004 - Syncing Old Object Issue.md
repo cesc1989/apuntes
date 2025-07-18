@@ -80,7 +80,10 @@ Hay dos opciones:
 
 - Crear nuevos Additional License para cada Active Attested
 	- De esta forma el Inactive conserva los suyos
-- Reassociar los Additional Licenses del Inactive al Active Attested
+- Re-asociar los Additional Licenses del Inactive al Active Attested ✅
 
 Lo segundo fue la opción indicada por Jose Han.
+
+> [!Important]
+> La solución está implementada y en pruebas. Todo el estado está en [EDG-2412](https://linear.app/getluna/issue/EDG-2412/fix-additional-license-objects-not-being-created-after-af-submission).
 
