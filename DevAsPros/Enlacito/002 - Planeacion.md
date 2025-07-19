@@ -70,7 +70,7 @@ Compilatorio de descripción y características de los diferentes servicios que 
 
 Como lo hice para [Evaluando 4 Herramientas de Vídeo Llamadas Web](https://github.com/devaspros/evaluacion-video-llamada-web). Lo publicaría en Leanpub y Gumroad. También haría bulla en redes sociales.
 
-## MVP
+## MVP ✅
 
 Esto es desarrollo puro y duro a partir de Puntapie. Las cosas a hacer para el MVP saldrían de los milestones **Descubrimiento** ~~y **Libro Blanco**~~.
 
