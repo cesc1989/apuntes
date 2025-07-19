@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - Lanzamiento.md",
-                "mode": "preview",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RFC 002 - Lanzamiento"
+              "title": "RFC 002 - MVP2"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - Lanzamiento.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFC 002 - Lanzamiento"
+              "title": "Outline of RFC 002 - MVP2"
             }
           }
         ],
@@ -167,7 +167,7 @@
   "active": "f484af3c165f9751",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
-    "DevAsPros/Enlacito/rfcs/RFC 002 - Lanzamiento.md",
+    "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
     "DevAsPros/Enlacito/rfcs",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",

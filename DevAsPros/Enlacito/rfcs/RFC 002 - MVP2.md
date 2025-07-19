@@ -1,4 +1,4 @@
-# RFC 002 - Lanzamiento de Enlacito
+# RFC 002 - MVP2
 
 Me ha gustado lo que hice con Enlacito y siento que con DeepSeek y/o Claude puedo hacer mucho más en menos tiempo. Por esas sensaciones creo que es momento de ir pensando en el mediano plazo qué hay que hacer para preparar el servicio para recibir usuarios.
 
@@ -67,5 +67,5 @@ Creo entonces que lo más importante sería:
 - Diseñar página web y logo
 - Habilitar registro de usuarios
 
-Creo que lo anterior lo podría llamar Segundo MVP. Cuando eso esté listo tendría que revisar si hay registros externos y ver qué tanta interacción ha habido en los enlaces en cada posteo de RR.SS.
+Creo que lo anterior lo podría llamar MVP2. Cuando eso esté listo tendría que revisar si hay registros externos y ver qué tanta interacción ha habido en los enlaces en cada posteo de RR.SS.
 
