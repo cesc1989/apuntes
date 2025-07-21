@@ -54,6 +54,11 @@ Esto podría ser un delay al momento de enviar el webhook. Al revisar a posterio
 
 #### Reasociar Credentialings no dispara el workflow
 
+> [!Note]
+> Todo lo siguiente pasa teniendo en cuenta que el _Object Type_ del workflow es Contact.
+>
+> Queda por descubrir si cambiándolo a Credentialing cambia la operación.
+
 Al hacer un segundo sign up o al asignar manualmente una asociación no se dispara este workflow.
 
 Esto queda explicado por que no se cumplen las reglas de enrolamiento. Se puede ver en este mensaje de advertencia en las configuraciones del trigger del enrollment:
