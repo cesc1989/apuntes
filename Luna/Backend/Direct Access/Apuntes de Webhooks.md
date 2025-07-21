@@ -1,7 +1,5 @@
 # Apuntes de Webhook de Therapist
 
-Datos básicos:
-
 Controlador: `app/controllers/therapist_controller.rb`
 
 Rutas:

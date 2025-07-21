@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f484af3c165f9751",
+            "id": "75443e4d6ace5470",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
-                "mode": "source",
+                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RFC 002 - MVP2"
+              "title": "001 - Clinics no recibieron provider portal link"
+            }
+          },
+          {
+            "id": "1d03b479581bc264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes de Webhooks"
+            }
+          },
+          {
+            "id": "9934c614c54fc289",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Fill therapist_direct_access_entries table"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+                "file": "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFC 002 - MVP2"
+              "title": "Outline of Apuntes de Webhooks"
             }
           }
         ],
@@ -164,10 +193,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f484af3c165f9751",
+  "active": "1d03b479581bc264",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
+    "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+    "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
     "DevAsPros/Enlacito/rfcs",
     "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
@@ -180,22 +214,17 @@
     "DevAsPros/Enlacito/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
-    "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Therapist_Signup/Attestation Form/HS Object Schema y Settings.md",
     "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
-    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
     "Luna/Backend/Direct Access/attachments",
     "Luna/Backend/Direct Access/Untitled.md",
     "Luna/Therapist_Signup/Attestation Form/Momento de Creacion de Custom Objects.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
-    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Clinical_Dashboard/Casos",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/request new cd link.png",
     "Luna/Clinical_Dashboard/Reglas",
