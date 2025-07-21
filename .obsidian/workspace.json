@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "35caef992d6c9f9b",
+        "id": "4384ae91a765951d",
         "type": "tabs",
         "children": [
           {
-            "id": "75443e4d6ace5470",
+            "id": "4c8e3fde86cf71db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "001 - Clinics no recibieron provider portal link"
-            }
-          },
-          {
-            "id": "e8fafc6ec881ae68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Direct Access/Workflows para DART.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Workflows para DART"
-            }
-          },
-          {
-            "id": "e4d91add8c6e03a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Fill therapist_direct_access_entries table"
+              "title": "Primeros Pasos en Phoenix"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spring",
+                "query": "ecto migrate",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Direct Access/Workflows para DART.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Workflows para DART"
+              "title": "Outline of Primeros Pasos en Phoenix"
             }
           }
         ],
@@ -193,14 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8fafc6ec881ae68",
+  "active": "4c8e3fde86cf71db",
   "lastOpenFiles": [
-    "Luna/Backend/Direct Access/attachments/031.event.trigger.enrollment.png",
+    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
+    "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+    "Luna/Backend/Direct Access/attachments/031.event.trigger.enrollment.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png.sb-f073dd10-Q862tf",
-    "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
@@ -240,7 +212,6 @@
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
-    "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

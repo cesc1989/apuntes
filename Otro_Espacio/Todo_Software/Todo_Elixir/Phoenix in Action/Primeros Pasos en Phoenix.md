@@ -111,7 +111,20 @@ $ mix ecto.migrate
 14:57:37.996 [info] == Migrated 20240824195538 in 0.0s
 ```
 
-Deshacer migraciones con `mix ecto.rollback`. [Docs](https://hexdocs.pm/ecto/2.2.10/Mix.Tasks.Ecto.Rollback.html).
+Devolver migraciones (rollback)
+
+[Ecto Migration](https://hexdocs.pm/ecto_sql/Ecto.Migration.html)
+
+[Ecto Rollback](https://hexdocs.pm/ecto_sql/Mix.Tasks.Ecto.Rollback.html)
+
+```
+mix ecto.rollback
+```
+
+O solo la anterior más reciente:
+```
+mix ecto.rollback --step 1
+```
 
 # Ecto Changesets
 
