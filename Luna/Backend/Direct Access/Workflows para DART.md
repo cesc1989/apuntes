@@ -65,6 +65,9 @@ Esto queda explicado por que no se cumplen las reglas de enrolamiento. Se puede 
 
 ![[01.reenrollment.trigger.warning.png]]
 
-La [documentación](https://knowledge.hubspot.com/workflows/add-re-enrollment-triggers-to-a-workflow#contact-based-workflows) al respecto dice que cuando se usa una condición "_is any of_, _is equal to all of_, and _is equal to any of_ operators cannot be used for re-enrollment if they have multiple values_".
+La [documentación](https://knowledge.hubspot.com/workflows/add-re-enrollment-triggers-to-a-workflow#contact-based-workflows) al respecto dice que el re-enrollment no se da cuando:
 
-No me queda claro si la regla que puse en el workflow cabe aquí pero por las pruebas para que sí lo es.
+- se usa una condición "_is any of_, _is equal to all of_, and _is equal to any of_ operators cannot be used for re-enrollment if they have multiple values_".
+- si se usan propiedades de otro objeto: _You can only trigger re-enrollment using properties specific to the workflow object. For example, in a company-based workflow, you can only re-enroll based on company properties._
+
+En la imagen de la configuración es un Workflow de Contact y estoy tratando de definir re-enrollment para una propiedad de otro objeto (Credentialing).

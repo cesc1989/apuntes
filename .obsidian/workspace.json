@@ -195,9 +195,9 @@
   },
   "active": "9934c614c54fc289",
   "lastOpenFiles": [
-    "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
+    "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
@@ -240,7 +240,6 @@
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "DevAsPros/Enlacito/attachments/001.tinyzap.enlace.personalizado.png",
     "Luna/Therapist_Signup/Extended Sign Up/attachments/af.extended.signup.png",
-    "Luna/Therapist_Signup/Attestation Form/attachments/af.pdfs.files.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
