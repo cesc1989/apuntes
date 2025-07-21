@@ -109,3 +109,11 @@ En una prueba posterior luego de actualizar el workflow y el webhook llegó esto
 ```
 
 Decidí cambiar la condición a que sea "_is any of_" ya que esta propiedad es una lista de valores. Así será más fácil captar los diferentes cambios que pueda tener.
+
+```json
+"label: active-attested"
+"hs_object_id: 31006455396"
+"direct_access_restricted: Yes: VA < 1 year experience no DPT - will need license"
+"associated_contact_record_id: 138861631756"
+"label: active-attested"
+```
