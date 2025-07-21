@@ -79,9 +79,11 @@ Para lograr este Workflow tuve que usar un tipo diferente de Trigger. Para el wo
 ![[03.event.based.workflow.trigger.png]]
 
 > [!Note]
-> La principal diferencia con este tipo de trigger es que permite definir condiciones que deben cumplirse para que empiece el workflow aparte de las condiciones que debe cumplir el objeto para que entre en este.
+> La principal diferencia con este tipo de trigger es que permite definir condiciones que deben cumplirse para que empiece el workflow aparte de las condiciones que debe cumplir el objeto para que entre en este (enrollment).
 >
 > Tenemos así que podemos definir que empiece cuando se actualice una propiedad y que solo se enrolen Credentialings con label "Active Attested".
+>
+> ![[031.event.trigger.enrollment.png]]
 
 Con esta forma de definir el workflow al activar el botón de re-enrollment no tenemos el warning que vemos en el Workflow anterior. Lo que significa que se puede enviar el webhook cada vez que hay un cambio.
 
