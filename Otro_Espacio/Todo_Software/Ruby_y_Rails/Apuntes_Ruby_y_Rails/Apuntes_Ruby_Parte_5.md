@@ -164,3 +164,40 @@ rubocop -a --only Style/StringLiterals
 ```
 rubocop --auto-gen-config
 ```
+
+# Actualizar gema no listada en Gemfile
+
+Para parchar cosas de seguridad en gemas me tocó actualizar Nokogiri. Esta gema no está en el Gemfile así que, ¿cómo la actualizaba?
+
+El comando para ello es:
+```
+bundle update nokogiri --conservative
+```
+
+Con esta bandera podemos actualizar la gema sin actualizar dependencias indirectas.
+
+> Use bundle install conservative update behavior and do not allow indirect dependencies to be updated.
+>
+> [Docs](https://bundler.io/man/bundle-update.1.html)
+
+Quería pasar de Nokogiri 1.16.7 a la versión 1.18.9. ¿Cómo lo hice? Así:
+```
+bundle update nokogiri --conservative --minor
+```
+
+Así salió el diff:
+```diff
+net-smtp (0.5.0)
+	net-protocol
+nio4r (2.7.4)
+- nokogiri (1.16.7-arm64-darwin)
++ nokogiri (1.18.9-arm64-darwin)
+	racc (~> 1.4)
+- nokogiri (1.16.7-x86_64-linux)
++ nokogiri (1.18.9-x86_64-linux-gnu)
+	racc (~> 1.4)
+orm_adapter (0.5.0)
+parallel (1.27.0)
+```
+
+Con eso se actualiza a la siguiente versión menor.
