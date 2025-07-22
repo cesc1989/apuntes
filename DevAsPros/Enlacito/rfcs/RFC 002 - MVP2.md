@@ -27,7 +27,7 @@ Esto incluye:
 - Permitir borrado de cuenta
 - Montar sistema de captcha para combatir spammers
 
-**Revisar modelo de Organización*
+**Revisar modelo de Organización**
 
 Echar un vistazo y probar que esté todo en su lugar para que cuando haya registro de usuarios, esto se dé en el marco de Organización -> Usuarios.
 

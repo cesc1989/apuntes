@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Apuntes Grimoire - Part 1"
             }
+          },
+          {
+            "id": "b6fe7e2ad4dc363d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "RFC 002 - MVP2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Grimoire - Part 1"
+              "title": "Outline of RFC 002 - MVP2"
             }
           }
         ],
@@ -179,11 +193,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5584e2ff4180cf0",
+  "active": "b6fe7e2ad4dc363d",
   "lastOpenFiles": [
+    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
-    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
     "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
