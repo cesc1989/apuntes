@@ -67,3 +67,57 @@ De las tres de PAM:
 - Active care plans: 3
 - Last sent: 2025-07-07 11:04 (4079.6 min ago) OK
 	- Gap: ~4,080 minutes = ~68 hours = ~3 days
+
+
+## Revisión de Logs y Sentry
+
+### Sentry
+
+Excepciones a revisar si aparecen en Sentry:
+
+- `PortalEmailDuplicateAttempt`
+- `PortalEmailNoneVerified`
+- `PortalEmailUpstreamError`
+
+Al buscar `PortalEmailNoneVerified` encuentro un registro con 2.7K eventos que ya lo tenía asignado. Eso no ayuda mucho porque necesito es saber si pasó para los 4 IDs afectados de Clinics.
+
+Busqué la excepción `PortalEmailUpstreamError` y no salió nada en Sentry.
+
+### Sentries por IDs
+
+Para Duke `b8608be4-22bd-41e3-9173-fefaf19bdc50` encontré:
+```
+unknown provider for id - b8608be4-22bd-41e3-9173-fefaf19bdc50
+```
+
+Que ocurrió el Jul 21, 1:31 PM.
+
+Sentry.
+
+### Logs
+
+Logs para buscar en Grafana:
+
+- `"Portal email send failed to #{name} at #{email}"`
+- `"Failed to make Portal links for: #{name}"`
+
+Busqué para todo el día de 21 de Julio 2025:
+```sql
+{app="backend-sidekiq-worker"} |= `Portal email send failed to`
+```
+
+Y devolvió cero resultados.
+
+Busqué para todo el día de 7, 14, 21 de Julio 2025:
+```sql
+{app="backend-sidekiq-worker"} |= `Failed to make Portal links for`
+```
+
+Y devolvió cero resultados.
+
+También busqué para:
+```sql
+{app="edge"} |= `Failed to make Portal links for`
+```
+
+En todo el mes de Julio y sin resultados.
