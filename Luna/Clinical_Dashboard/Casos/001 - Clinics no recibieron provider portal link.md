@@ -92,7 +92,7 @@ unknown provider for id - b8608be4-22bd-41e3-9173-fefaf19bdc50
 
 Que ocurrió el Jul 21, 1:31 PM.
 
-Sentry.
+[Sentry](https://sentry.omega.getluna.com/organizations/sentry/issues/30146/events/46b6b797e5eb45a8837b7c0bee6d1028/?project=3).
 
 ### Logs
 
