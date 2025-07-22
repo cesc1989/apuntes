@@ -1,6 +1,10 @@
 # 001 - Clinics no recibieron el link en la fecha esperada
 
+Ver más cosas en la carpeta `caso-001`.
+
 ## Providers afectados
+
+Ampliación de esto en [[clinical-dashboard-link-investigation-summary]]
 
 Clinics
 
