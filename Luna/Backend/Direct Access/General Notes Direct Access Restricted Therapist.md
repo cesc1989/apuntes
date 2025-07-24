@@ -232,7 +232,10 @@ Found those two properties in the Credentialing object properties list:
 
 Description: _Captures if the therapist is direct access restricted or able to treat patients unrestricted._
 
-Has multiple values: No, "Yes: xxx"
+Has multiple values:
+- No
+- "Yes: MN < 1 year experience"
+- "Yes: NY < 3 years experience"
 
 **Direct Access State `direct_access_state`**
 
