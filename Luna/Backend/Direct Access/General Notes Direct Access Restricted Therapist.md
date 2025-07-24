@@ -249,3 +249,93 @@ Has values: Yes/No.
 Asked Jessica and told to use Direct Access Restricted:
 > Direct Access Restricted - and use the one in the credentialing object.  
 The state was more relevant when it was on the contact since the state could change
+
+# Why Claude wrote `path.dup` for Requests
+
+Este código:
+```ruby
+props = "therapist_name_state,direct_access_state,state,direct_access_restricted,associated_contact_record_id"
+path = "/crm/v3/objects/:object_type/:object_id"
+params = {
+  object_type: object_type_id,
+  object_id: object_id,
+  properties: props
+}
+
+Hubspot::Connection.get_json(path.dup, params)
+```
+
+Le pregunté por qué era necesario el `path.dup`.
+
+## The Problem
+
+The Hubspot::Connection.get_json method internally calls generate_url(path, opts) which:
+
+1. Tries to clone the path: `path = path.clone`
+2. Mutates the string in-place: Uses `path.gsub!(":#{k}", CGI.escape(v.to_s))` to replace interpolation placeholders like `:object_type`, `:id`, etc.
+
+However, clone only creates a shallow copy, so the string content still gets mutated.
+
+### Example Without .dup
+
+`path = "/crm/v3/objects/:object_type/:object_id"`
+
+```ruby
+# First call
+Hubspot::Connection.get_json(path, object_type: "contacts", object_id: 123)
+# path is now "/crm/v3/objects/contacts/123" - placeholders replaced!
+
+# Second call fails
+Hubspot::Connection.get_json(path, object_type: "deals", object_id: 456)
+# Error: no :object_type or :object_id placeholders left to replace
+```
+
+### The Solution
+
+Using `path.dup` creates a new string object each time, protecting the original:
+
+```ruby
+path = "/crm/v3/objects/:object_type/:object_id"
+
+Hubspot::Connection.get_json(path.dup, object_type: "contacts", object_id: 123)
+Hubspot::Connection.get_json(path.dup, object_type: "deals", object_id: 456)
+
+# Both calls work because original path remains unchanged
+```
+
+This is a defensive programming practice to work around the gem's URL interpolation bug where the path parameter gets mutated during processing.
+
+### Is this because of magick string?
+
+The `.dup` is needed regardless of the `# frozen_string_literal: true` comment. Here's why:
+
+Two Different Issues
+
+1. Frozen string literals: When enabled, string literals become frozen (immutable)
+2. HubSpot gem bug: The gem mutates the path parameter during URL generation
+
+What happens with/without frozen strings:
+
+With frozen strings (`# frozen_string_literal: true`):
+```ruby
+path = "/crm/v3/objects/:object_type/:object_id"  # This string is frozen
+Hubspot::Connection.get_json(path, params)  # Would raise FrozenError when gem tries to mutate
+```
+
+Without frozen strings:
+```ruby
+path = "/crm/v3/objects/:object_type/:object_id"  # String is mutable
+Hubspot::Connection.get_json(path, params)  # Mutates path, breaking reuse
+```
+
+Why .dup fixes both cases:
+```ruby
+path = "/crm/v3/objects/:object_type/:object_id"
+Hubspot::Connection.get_json(path.dup, params)  # Creates new mutable string
+```
+
+The .dup:
+- Creates a mutable copy (fixes frozen string issue)
+- Protects the original from mutation (fixes reuse issue)
+
+So the `.dup` would be necessary even without the frozen string literal comment - it's solving the underlying gem bug, not just working around frozen strings.
