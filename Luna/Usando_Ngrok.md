@@ -24,8 +24,8 @@ Para ejecutar esta misión con éxito se hizo lo siguiente.
  Rails.application.configure do
   # Since Rails 6.
   # Read about at https://blog.bigbinary.com/2019/11/05/rails-6-adds-guard-against-dns-rebinding-attacks.html
-  config.hosts << 'api.lvh.me'
-  config.hosts << '7b0ba3b3f641.ngrok.io'
+  config.hosts << "api.lvh.me"
+  config.hosts << /[a-z0-9-]+\.ngrok-free.app/
 end
 ```
 
@@ -67,3 +67,10 @@ $ ~/ngrok/ngrok start -config ~/Downloads/api_and_client.yml api client
 ```
 
 Realizar los pasos **2 y 3** descritos en la sección “Backend” arriba. Y de la sección “Frontend” solo ejecutar los pasos **1 y 2**.
+
+## Dominio fijo por cuenta gratuita
+
+Para evitar estar cambiando el dominio donde sea que se use la URL ngrok provee de un dominio estático. Para lanzar ngrok usando ese dominio el comando es:
+```
+ngrok http --url=kind-obliging-mongoose.ngrok-free.app 3000
+```
