@@ -174,7 +174,6 @@ Tried manually adding a free Credentialing object to an existing Contact. Attach
 
 After enrolling all Contacts that meet criteria, tried again adding a manual Credentialing as Inactive but the webhook never arrived.
 
-
 #### Enroll all Contacts after updating workflow
 
 Update the workflow to enroll al Contacts and got multiple hits:
@@ -202,3 +201,16 @@ Update the workflow to enroll al Contacts and got multiple hits:
 ```
 
 Notice how the "active-attested" one does not include a value for `associated_contact_record_id`.
+
+# Two Properties: Direct Access State & Direct Access Restricted
+
+Found those two properties in the Credentialing object properties list:
+
+- Direct Access State `direct_access_state`
+	- Has values: Yes/No
+- Direct Access Restricted `direct_access_restricted`
+	- Has multiple values: No, "Yes: xxx"
+
+Asked Jessica and told to use Direct Access Restricted:
+> Direct Access Restricted - and use the one in the credentialing object.  
+The state was more relevant when it was on the contact since the state could change
