@@ -13,7 +13,8 @@ Clinics
 - PAM Houston `aba0b530-6f6c-4520-94dd-c4a4dd0afe71`
 - PAM San Antonio `607ad309-9eef-4a65-9521-18de95986cf6`
 
-Confirmar si está afectada
+> [!Note]
+> Confirmar si está afectada por el no soporte en Contactable pero de alguna forma ha recibido enlaces semanales.
 
 Memorial Healthcare System (South Florida) `91de8e85-e7ef-411c-a6aa-477d8159dc39`
 

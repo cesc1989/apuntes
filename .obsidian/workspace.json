@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50abfecfef391197",
+        "id": "88766c58245d581d",
         "type": "tabs",
         "children": [
           {
-            "id": "c460967b68ff5012",
+            "id": "7e6e8d52aa3a67ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tmp",
+                "query": "crm/v4/objects",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c460967b68ff5012",
+  "active": "7e6e8d52aa3a67ef",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
     "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
@@ -175,7 +177,6 @@
     "Luna/Backend/Direct Access/attachments/031.event.trigger.enrollment.png",
     "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Clinical_Dashboard/Casos/caso-001",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
