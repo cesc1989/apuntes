@@ -231,13 +231,16 @@ Found those two properties in the Credentialing object properties list:
 **Direct Access Restricted `direct_access_restricted`**
 
 Description: _Captures if the therapist is direct access restricted or able to treat patients unrestricted._
+
 Has multiple values: No, "Yes: xxx"
 
 **Direct Access State `direct_access_state`**
 
 Description: _Identifies if the therapist can practice under direct access._
-Has values: Yes/No
 
+Has values: Yes/No.
+
+## Which one to use?
 
 Asked Jessica and told to use Direct Access Restricted:
 > Direct Access Restricted - and use the one in the credentialing object.  
