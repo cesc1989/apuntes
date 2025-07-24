@@ -126,3 +126,48 @@ También busqué para:
 ```
 
 En todo el mes de Julio y sin resultados.
+
+## ¿Por qué pasa?
+
+A través de los varios resultados de los prod-ops pude ver que si bien había links enviados estos no eran en la cadencia regular porque es muy probable que se enviaran mediante medios manuales.
+
+¿Cuáles son estos medios manuales?
+
+- El botón "Send Physician Portal Email" en el perfil del Clinic
+- La generación del link al verificar un email
+- Pedir un nuevo link cuando se vencía uno previo
+
+Estas acciones hacen que se actualice el campo `link_last_sent_at` de la tabla `portal_configs`. Al pasar eso daba la ilusión de que se estaba enviando en la cadencia pero no era así. Veamos para MHS.
+
+⚙️ PORTAL CONFIGURATION
+✅ Has PortalConfig: YES
+📅 Email cadence: weekly
+🎯 Active case threshold: 3
+
+📨 Last sent: 2025-07-24 04:25:18 -0700
+
+
+📊 CLINICAL DASHBOARD
+```
+ ClinicalDashboard::Dashboard Load (2.8ms)  SELECT "clinical_dashboards".* FROM "clinical_dashboards" WHERE "clinical_dashboards"."provider_id" = $1 LIMIT $2  [["provider_id", "91de8e85-e7ef-411c-a6aa-477d8159dc39"], ["LIMIT", 1]]
+```
+
+✅ Has Dashboard: YES (`46a6f876-aca4-4a59-8a92-f1ae7c661b79`)
+
+```
+ClinicalDashboard::Link Load (5.2ms)  SELECT "clinical_dashboard_links".* FROM "clinical_dashboard_links" WHERE "clinical_dashboard_links"."dashboard_id" = $1 ORDER BY "clinical_dashboard_links"."created_at" DESC LIMIT $2  [["dashboard_id", "46a6f876-aca4-4a59-8a92-f1ae7c661b79"], ["LIMIT", 1]]
+```
+
+🔗 Most recent link: 2023-06-14 15:07:34 -0700
+
+```
+ClinicalDashboard::Link Count (1.7ms)  SELECT COUNT(*) FROM "clinical_dashboard_links" WHERE "clinical_dashboard_links"."dashboard_id" = $1  [["dashboard_id", "46a6f876-aca4-4a59-8a92-f1ae7c661b79"]]
+```
+
+📈 Total links: 2
+⏰ Days since last link: 770.6
+🚨 ISSUE: Last link is 770.6 days ago (should be weekly)
+
+---
+
+Queda en evidencia que el campo `link_last_sent_at` fue actualizado pero en realidad no se generó un nuevo `Link`.
