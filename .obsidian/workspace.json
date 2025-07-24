@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "General Notes Direct Access Restricted Therapist"
             }
+          },
+          {
+            "id": "038beede08c359b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Direct Access/direct_access_restricted logic/permitted_field_logic.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "permitted_field_logic"
+            }
           }
         ],
         "currentTab": 1
@@ -181,9 +195,11 @@
   },
   "active": "1aaeb167674129bb",
   "lastOpenFiles": [
+    "Luna/Backend/Direct Access/direct_access_restricted logic/permitted_field_logic.md",
+    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
+    "Luna/Backend/Direct Access/direct_access_restricted logic",
     "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
-    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Therapist_Signup/Reglas/Cuando se actualiza Credentialing Form Status.md",
@@ -215,14 +231,12 @@
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
     "DevAsPros/Enlacito/rfcs",
-    "DevAsPros/Enlacito/descubrimiento/tinyurl/TinyUrl.md.md",
     "Luna/Backend/Direct Access/attachments",
     "Luna/Backend/Direct Access",
     "Luna/Clinical_Dashboard/Casos",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/request new cd link.png",
     "Luna/Clinical_Dashboard/Reglas",
     "Luna/Clinical_Dashboard/Metrics",
-    "Luna/Therapist_Signup/Casos/caso-003",
     "Luna/Therapist_Signup/Casos/attachments/003.association.history.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",

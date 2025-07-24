@@ -15,12 +15,10 @@ permitted -- boolean [true = DA Permitted; false = DA Restricted]
 Esto dice el ERD sobre cómo manejar la bandera:
 > Despite “Direct Access Restricted” and “Direct Access Permitted” (...) are all the same idea (...) `false` it means the therapist is restricted to only patients with a referral (...) `true` (...) therapist is not restricted to patients with a referral.
 
-Le pedí una tabla de lógica a Claude según el código que hizo.
+Le pedí una tabla de lógica a Claude según el código que hizo. Ver en [[permitted_field_logic]]
 
 > [!Note]
 > Si `direct_access_restricted` dice "Yes..." es que está restringido.
-
-
 
 
 # Filling `therapist_direct_access_entries` table
