@@ -87,6 +87,17 @@ Para lograr este Workflow tuve que usar un tipo diferente de Trigger. Para el wo
 
 Con esta forma de definir el workflow al activar el botón de re-enrollment no tenemos el warning que vemos en el Workflow anterior. Lo que significa que se puede enviar el webhook cada vez que hay un cambio.
 
+### Propiedades que triggeran el workflow
+
+Deberían ser:
+
+- `direct_access_restricted`
+	- Este es el flag como tal.
+- `treating_license_state`
+	- Tiene el estado de la Licencia.
+- `therapist_name_state`
+	- Es el nombre más el estado. Puede que cambie.
+
 ### Pruebas
 
 Con la condición que "Direct Access Restricted" sea "_known_" pude probar recibir el webhook.
