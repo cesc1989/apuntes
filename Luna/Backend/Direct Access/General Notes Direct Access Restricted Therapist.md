@@ -1,4 +1,4 @@
-# Filling therapist_direct_access_entries table
+# Filling `therapist_direct_access_entries` table
 
 Let' pull data from a HubSpot Contact to fill the proposed table:
 ```ruby
@@ -6,7 +6,7 @@ t.references :therapist
 t.references :state
 t.boolean :permitted
 t.bigint :hubspot_id
-t.datetime :effective_from
+t.datetime :hubspot_created_at
 t.integer :association_label
 ```
 
@@ -107,8 +107,8 @@ Response:
 
 From this response we get possible values for:
 
-- `state` field: `direct_access_state`, `state` or `therapist_name_state` (by extracting the state abbreviation)
-- `permitted`: by parsing `direct_access_restricted`
+- `state`: property `state` or `therapist_name_state` (by extracting the state abbreviation)
+- `permitted`: by parsing property `direct_access_restricted`
 
 ## Through workflow/webhook
 

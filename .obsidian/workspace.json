@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+                "file": "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fill therapist_direct_access_entries table"
+              "title": "General Notes Direct Access Restricted Therapist"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+                "file": "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fill therapist_direct_access_entries table"
+              "title": "Outline of General Notes Direct Access Restricted Therapist"
             }
           }
         ],
@@ -181,6 +181,9 @@
   },
   "active": "1aaeb167674129bb",
   "lastOpenFiles": [
+    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
+    "Luna/Backend/Direct Access/Workflows para DART.md",
+    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Therapist_Signup/Reglas/Cuando se actualiza Credentialing Form Status.md",
@@ -192,8 +195,6 @@
     "Luna/Therapist_Signup/Reglas/Zip_Codes_en_Therapist_y_Preference.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
-    "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
-    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
@@ -210,7 +211,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
     "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
-    "Luna/Backend/Direct Access/Workflows para DART.md",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png.sb-f073dd10-Q862tf",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
