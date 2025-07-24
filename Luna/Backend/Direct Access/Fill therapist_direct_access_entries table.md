@@ -138,11 +138,11 @@ To be able to distinguish each Credentialing the workflow defines four branches 
 
 - `state`
 - `hs_object_id`
+- `associated_contact_record_id`
 - `hs_createdate`
 - `direct_access_state`
-- `therapist_name_state`
 - `direct_access_restricted`
-- `associated_contact_record_id`
+- `therapist_name_state`
 
 To be able to pull the label from each Credentialing it is send in the webhook URL as `label` query param.
 

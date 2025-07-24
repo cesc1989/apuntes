@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "9277a41b545d5e48",
+        "id": "81f3012c917004d8",
         "type": "tabs",
         "children": [
           {
-            "id": "bd60dafd600cffff",
+            "id": "b66178a2a8f77013",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Reglas/Cuando se actualiza Credentialing Form Status.md",
+                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cuando se actualiza Credentialing Form Status"
+              "title": "001 - Clinics no recibieron provider portal link"
+            }
+          },
+          {
+            "id": "1aaeb167674129bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Fill therapist_direct_access_entries table"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Reglas/Cuando se actualiza Credentialing Form Status.md",
+                "file": "Luna/Backend/Direct Access/Fill therapist_direct_access_entries table.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cuando se actualiza Credentialing Form Status"
+              "title": "Outline of Fill therapist_direct_access_entries table"
             }
           }
         ],
@@ -164,14 +179,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd60dafd600cffff",
+  "active": "1aaeb167674129bb",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
+    "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Therapist_Signup/Reglas/Cuando se actualiza Credentialing Form Status.md",
     "Luna/Usando_Ngrok.md",
     "Luna/Playbook del Triage📙.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
-    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Therapist_Signup/Reglas",
     "Luna/Therapist_Signup/Reglas/Zip_Codes_en_Therapist_y_Preference.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
@@ -185,7 +201,6 @@
     "Luna/Backend/Direct Access/attachments/031.event.trigger.enrollment.png",
     "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Clinical_Dashboard/Casos/caso-001",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
