@@ -17,6 +17,9 @@ Esto dice el ERD sobre cómo manejar la bandera:
 
 Le pedí una tabla de lógica a Claude según el código que hizo.
 
+> [!Note]
+> Si `direct_access_restricted` dice "Yes..." es que está restringido.
+
 
 
 
