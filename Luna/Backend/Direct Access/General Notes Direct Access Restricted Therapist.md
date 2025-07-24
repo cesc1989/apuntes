@@ -1,3 +1,25 @@
+# Permitted or Restricted
+
+Notas y pistas para tener claro el significado de la bandera.
+
+En la tabla el campo quedó definido como:
+```ruby
+t.boolean :permitted, default: false, null: false
+```
+
+El ERD aclara su uso esperado:
+```ruby
+permitted -- boolean [true = DA Permitted; false = DA Restricted]
+```
+
+Esto dice el ERD sobre cómo manejar la bandera:
+> Despite “Direct Access Restricted” and “Direct Access Permitted” (...) are all the same idea (...) `false` it means the therapist is restricted to only patients with a referral (...) `true` (...) therapist is not restricted to patients with a referral.
+
+Le pedí una tabla de lógica a Claude según el código que hizo.
+
+
+
+
 # Filling `therapist_direct_access_entries` table
 
 Let' pull data from a HubSpot Contact to fill the proposed table:
@@ -206,10 +228,16 @@ Notice how the "active-attested" one does not include a value for `associated_co
 
 Found those two properties in the Credentialing object properties list:
 
-- Direct Access State `direct_access_state`
-	- Has values: Yes/No
-- Direct Access Restricted `direct_access_restricted`
-	- Has multiple values: No, "Yes: xxx"
+**Direct Access Restricted `direct_access_restricted`**
+
+Description: _Captures if the therapist is direct access restricted or able to treat patients unrestricted._
+Has multiple values: No, "Yes: xxx"
+
+**Direct Access State `direct_access_state`**
+
+Description: _Identifies if the therapist can practice under direct access._
+Has values: Yes/No
+
 
 Asked Jessica and told to use Direct Access Restricted:
 > Direct Access Restricted - and use the one in the credentialing object.  
