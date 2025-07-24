@@ -127,7 +127,7 @@ También busqué para:
 
 En todo el mes de Julio y sin resultados.
 
-## ¿Por qué pasa?
+# ¿Por qué pasa? ✅
 
 A través de los varios resultados de los prod-ops pude ver que si bien había links enviados estos no eran en la cadencia regular porque es muy probable que se enviaran mediante medios manuales.
 
