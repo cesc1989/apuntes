@@ -87,7 +87,19 @@ Para lograr este Workflow tuve que usar un tipo diferente de Trigger. Para el wo
 
 Con esta forma de definir el workflow al activar el botón de re-enrollment no tenemos el warning que vemos en el Workflow anterior. Lo que significa que se puede enviar el webhook cada vez que hay un cambio.
 
-### Propiedades que triggeran el workflow
+### Reglas de Trigger y Enrollment de este Workflow
+
+**Trigger**
+
+Cuando haya una actualización en las propiedades listadas en la siguiente sección se dispara el workflow.
+
+**Reglas de enrollment**
+
+Solo se incluirá Credentialings que cumplan la condición:
+
+- Credentialing Form Files **is known**
+
+### Propiedades que disparan el workflow
 
 Deberían ser:
 
