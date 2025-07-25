@@ -339,3 +339,23 @@ The .dup:
 - Protects the original from mutation (fixes reuse issue)
 
 So the `.dup` would be necessary even without the frozen string literal comment - it's solving the underlying gem bug, not just working around frozen strings.
+
+# Therapists in local for tests
+
+After running the backfill get a list of therapists ids to use for testing:
+
+```ruby
+ap TherapistDirectAccessEntry.all.group(:therapist_id).count
+
+{
+    "ff0c20b3-7d85-498f-ac85-fc4e3bafdc26" => 1,
+    "f5b2555c-7aca-40e5-95bf-71549c1b425d" => 2,
+    "e56e5e24-0a11-4bf7-9b79-5728e0e8c658" => 2,
+    "f6bcb9b9-b6a9-485f-9bdc-b99a483718ce" => 8,
+    "fe99923b-8af4-443d-828f-4d50bb0c3cd9" => 1,
+    "e57f1e8b-c2c8-4f42-8728-bffcf0b08eb0" => 2,
+    "f5d45dbf-a508-4782-b382-ba1387dc96a3" => 1,
+    "ff122a4d-bd2b-4fd6-b331-a42f09ded798" => 1,
+    "fe9f3f95-0992-4041-a563-5b26cb86fc7d" => 1
+}
+```
