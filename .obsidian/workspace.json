@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "General Notes Direct Access Restricted Therapist"
             }
+          },
+          {
+            "id": "2db45aaabfcc01bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "001 - Clinics no recibieron Link en Cadencia 🟢"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 424.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
+                "file": "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of General Notes Direct Access Restricted Therapist"
+              "title": "Outline of 001 - Clinics no recibieron Link en Cadencia 🟢"
             }
           }
         ],
@@ -164,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10dcd318b75e856b",
+  "active": "2db45aaabfcc01bd",
   "lastOpenFiles": [
-    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron provider portal link.md",
     "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
