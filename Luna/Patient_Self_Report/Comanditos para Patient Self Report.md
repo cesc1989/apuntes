@@ -22,6 +22,17 @@ Este sirve más para el API V2 de Mobile Progress Forms.
 bundle exec rake form:status:check[ace6143f-1082-4eee-b0f6-404bdc19b4ef]
 ```
 
+## Resetear un Form y poner todo en orden
+
+Solo resetear no crearía los Answers ni AggravatingActivities.
+```ruby
+form = PatientSelfReport::Form.find_by(uuid: [UUID_IN_URL])
+form.reset!
+
+PatientSelfReport::InitialAnswers.new(form).create
+PatientSelfReport::InitialAggravatingActivities.new(form).create
+```
+
 ## Crear Initial Answers o Aggravating Activities de  un form
 
 Para forms viejos o si falló el worker.
