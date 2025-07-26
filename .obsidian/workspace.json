@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2fea9975b4128b07",
+        "id": "509381b1b538d3fe",
         "type": "tabs",
         "children": [
           {
-            "id": "cdaadfd62977198e",
+            "id": "cc2fefa49f79a24e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/redes-sociales/Plan Redes Sociales Enlacito.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Plan Redes Sociales Enlacito"
+              "title": "Apuntes_Ciclo_25_-_Email_Spam"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/redes-sociales/Plan Redes Sociales Enlacito.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Plan Redes Sociales Enlacito"
+              "title": "Outline of Apuntes_Ciclo_25_-_Email_Spam"
             }
           }
         ],
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdaadfd62977198e",
+  "active": "cc2fefa49f79a24e",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
     "DevAsPros/Enlacito/redes-sociales/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/redes-sociales",
     "DevAsPros/Enlacito/untitled folder",
@@ -201,7 +202,6 @@
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Luna/Clinical_Dashboard/Upgrade Ruby to 3.1.0.md",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png.sb-f073dd10-Q862tf",
     "DevAsPros/Enlacito/rfcs",
     "Luna/Backend/Direct Access/attachments",
