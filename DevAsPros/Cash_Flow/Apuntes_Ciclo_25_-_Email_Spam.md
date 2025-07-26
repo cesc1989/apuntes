@@ -18,6 +18,6 @@ Más bajo es de 15 usd al mes. Es muy caro para solo enviar un correo para el as
 
 ## Alternativas a Mailgun
 
-Según ChatGPT.
+Según ChatGPT Resend.
 
-Resend. Probé esta y la documentación ayudó mucho con la configuración en Namecheap. Ya configuré todo e hice una prueba. Fue exitosa.
+Probé esta y la documentación ayudó mucho con la configuración en Namecheap. Ya configuré todo e hice una prueba. Fue exitosa.
