@@ -27,6 +27,8 @@ Lo que tiene que ver con crear un registro en `therapist_direct_access_entries` 
 	- Se completa el workflow
 
 
+## Escenarios de Agendamiento (Booking)
+
 ### Happy paths
 
 **Booking**
