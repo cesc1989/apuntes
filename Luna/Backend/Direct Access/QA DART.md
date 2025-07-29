@@ -134,3 +134,7 @@ Contact: https://app.hubspot.com/contacts/7712148/record/0-1/141932355901
   created_at: Tue, 29 Jul 2025 13:07:04.815998000 PDT -07:00,
   updated_at: Tue, 29 Jul 2025 13:07:04.815998000 PDT -07:00>]
 ```
+
+
+# Checklist Escenarios de Agendamiento
+
