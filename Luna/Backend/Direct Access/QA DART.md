@@ -97,11 +97,11 @@ Updating Credentialing "Direct Access Restricted" property in HubSpot reflects t
 > [!Note]
 > First the Therapist has to complete their Credentialing Application so that they can exist in Luxe db.
 
-- [ ] Contact is enrolled in the workflow
-- [ ] Goes through Active Attesting branch
-- [ ] Webhook is successful
-- [ ] Workflow is completed
-- [ ] `TherapistDirectAccessEntry` is updated
+- [x] Contact is enrolled in the workflow
+- [x] Goes through Active Attesting branch
+- [x] Webhook is successful
+- [x] Workflow is completed
+- [x] `TherapistDirectAccessEntry` is created/updated
 
 
 ## Problemas Encontrados
