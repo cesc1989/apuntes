@@ -15,6 +15,14 @@
 | Web     | https://forms.alpha.getluna.com |                          |
 | API     | https://api2.alpha.getluna.com  | https://api2.getluna.com |
 
+# Provider Portal
+
+|         | **Alpha (alpha.getluna.com)**                   | **Producción (getluna.com)**           |
+| ------- | ------------------------------------------------| ---------------------------------------|
+| Web     | https://outcomes.alpha.getluna.com/dashboard/   | https://outcomes.getluna.com/dashboard |
+| API     | https://api2.alpha.getluna.com          |                                        |
+| Sidekiq | https://api2.alpha.getluna.com/sidekiq/ |                                        |
+
 
 # Therapist Signup
 
@@ -24,15 +32,6 @@
 | Mini Form     | https://success.alpha.getluna.com/mini     | https://success.getluna.com/mini    |
 | API           | https://therapist-signup.alpha.getluna.com | https://success-api.getluna.com     |
 | Sidekiq       | https://therapist-signup.alpha.getluna.com/sidekiq |                             |
-
-
-# Provider Portal
-
-|         | **Alpha (alpha.getluna.com)**                   | **Producción (getluna.com)**           |
-| ------- | ------------------------------------------------| ---------------------------------------|
-| Web     | https://outcomes.alpha.getluna.com/dashboard/   | https://outcomes.getluna.com/dashboard |
-| API     | https://api2.alpha.getluna.com          |                                        |
-| Sidekiq | https://api2.alpha.getluna.com/sidekiq/ |                                        |
 
 
 # Bliss
