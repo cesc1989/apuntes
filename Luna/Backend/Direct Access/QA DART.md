@@ -26,6 +26,11 @@ Lo que tiene que ver con crear un registro en `therapist_direct_access_entries` 
 	- Se completa el webhook
 	- Se completa el workflow
 
+Edge Cases
+
+- Cuando existe registro en `therapist_direct_access_entries` y se mandan propiedades invalidas
+	- [ ] Se borra el registro existente
+
 
 ## Escenarios de Agendamiento (Booking)
 
