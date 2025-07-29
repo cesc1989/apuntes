@@ -89,7 +89,8 @@ Returning Therapist Sign Up kicks workflow and webhook creates a new `TherapistD
 - [x] Goes through Active Attesting branch
 - [x] Webhook is successful
 - [x] Workflow is completed
-- [ ] Creates a new `TherapistDirectAccessEntry` with label `active_attesting`.
+- [x] Creates a new `TherapistDirectAccessEntry` with label `active_attesting`.
+- [ ] Changes previous `TherapistDirectAccessEntry` with label `active_attesting` to `active`
 
 Updating Credentialing properties in HubSpot reflects to the `TherapistDirectAccessEntry` record
 - [ ] Contact is enrolled in the workflow
