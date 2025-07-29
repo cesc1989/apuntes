@@ -78,11 +78,11 @@ Lo que tiene que ver con crear un registro en `therapist_direct_access_entries` 
 # Checklist Escenarios de Pruebas Generales
 
 New Therapist Sign Up kicks workflow and webhook finds a 304 response because Therapist does not exist.
-- [ ] Contact is enrolled in the workflow
-- [ ] Goes through Active Attesting branch
-- [ ] Webhook responds with 304
-- [ ] Workflow is completed
-- [ ] No new `TherapistDirectAccessEntry` is created
+- [x] Contact is enrolled in the workflow
+- [x] Goes through Active Attesting branch
+- [x] Webhook responds with 304
+- [x] Workflow is completed
+- [x] No new `TherapistDirectAccessEntry` is created
 
 Returning Therapist Sign Up kicks workflow and webhook creates a new `TherapistDirectAccessEntry` record.
 - [x] Contact is enrolled in the workflow
@@ -93,6 +93,10 @@ Returning Therapist Sign Up kicks workflow and webhook creates a new `TherapistD
 - [ ] Changes previous `TherapistDirectAccessEntry` with label `active_attesting` to `active`
 
 Updating Credentialing properties in HubSpot reflects to the `TherapistDirectAccessEntry` record
+
+> [!Note]
+> First the Therapist has to complete their Credentialing Application so that they can exist in Luxe db.
+
 - [ ] Contact is enrolled in the workflow
 - [ ] Goes through Active Attesting branch
 - [ ] Webhook is successful
