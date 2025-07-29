@@ -92,7 +92,7 @@ Returning Therapist Sign Up kicks workflow and webhook creates a new `TherapistD
 - [x] Creates a new `TherapistDirectAccessEntry` with label `active_attesting`.
 - [ ] Changes previous `TherapistDirectAccessEntry` with label `active_attesting` to `active`
 
-Updating Credentialing properties in HubSpot reflects to the `TherapistDirectAccessEntry` record
+Updating Credentialing "Direct Access Restricted" property in HubSpot reflects to the `TherapistDirectAccessEntry` record
 
 > [!Note]
 > First the Therapist has to complete their Credentialing Application so that they can exist in Luxe db.
