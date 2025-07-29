@@ -28,11 +28,11 @@
 
 # Provider Portal
 
-|         | **Alpha (alpha.getluna.com)**                          | **Producción (getluna.com)**           |
-| ------- | ------------------------------------------------------ | ---------------------------------------|
-| Web     | https://provider-portal.alpha.getluna.com/dashboard/   | https://outcomes.getluna.com/dashboard |
-| API     | https://api-provider-portal.alpha.getluna.com          |                                        |
-| Sidekiq | https://api-provider-portal.alpha.getluna.com/sidekiq/ |                                        |
+|         | **Alpha (alpha.getluna.com)**                   | **Producción (getluna.com)**           |
+| ------- | ------------------------------------------------| ---------------------------------------|
+| Web     | https://outcomes.alpha.getluna.com/dashboard/   | https://outcomes.getluna.com/dashboard |
+| API     | https://api2.alpha.getluna.com          |                                        |
+| Sidekiq | https://api2.alpha.getluna.com/sidekiq/ |                                        |
 
 
 # Bliss
