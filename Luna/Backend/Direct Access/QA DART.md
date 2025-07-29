@@ -75,7 +75,7 @@ Lo que tiene que ver con crear un registro en `therapist_direct_access_entries` 
 
 # Checklist
 
-- [ ] Nuevo Sign Up da error cuando el Therapist aún no existe
+- Nuevo Sign Up da error cuando el Therapist aún no existe
 	- [ ] El Contacto se enrola en el workflow
 	- [ ] Ingresa a la rama Active Attesting
 	- [ ] Falla el webhook
