@@ -75,8 +75,23 @@ Lo que tiene que ver con crear un registro en `therapist_direct_access_entries` 
 
 # Checklist
 
-- Nuevo Sign Up da error cuando el Therapist aún no existe
-	- [ ] El Contacto se enrola en el workflow
-	- [ ] Ingresa a la rama Active Attesting
-	- [ ] Falla el webhook
-	- [ ] Se completa el workflow
+New Therapist Sign Up kicks workflow and webhook finds a 304 response because Therapist does not exist.
+- [ ] Contact is enrolled in the workflow
+- [ ] Goes through Active Attesting branch
+- [ ] Webhook responds with 304
+- [ ] Workflow is completed
+- [ ] No new `TherapistDirectAccessEntry` is created
+
+Returning Therapist Sign Up kicks workflow and webhook creates a new `TherapistDirectAccessEntry` record.
+- [ ] Contact is enrolled in the workflow
+- [ ] Goes through Active Attesting branch
+- [ ] Webhook is successful
+- [ ] Workflow is completed
+- [ ] A new `TherapistDirectAccessEntry` is created
+
+Updating Credentialing properties in HubSpot reflects to the `TherapistDirectAccessEntry` record
+- [ ] Contact is enrolled in the workflow
+- [ ] Goes through Active Attesting branch
+- [ ] Webhook is successful
+- [ ] Workflow is completed
+- [ ] `TherapistDirectAccessEntry` is updated
