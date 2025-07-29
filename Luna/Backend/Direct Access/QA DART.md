@@ -75,7 +75,7 @@ Lo que tiene que ver con crear un registro en `therapist_direct_access_entries` 
 
 
 
-# Checklist
+# Checklist Escenarios de Pruebas Generales
 
 New Therapist Sign Up kicks workflow and webhook finds a 304 response because Therapist does not exist.
 - [ ] Contact is enrolled in the workflow
@@ -85,11 +85,11 @@ New Therapist Sign Up kicks workflow and webhook finds a 304 response because Th
 - [ ] No new `TherapistDirectAccessEntry` is created
 
 Returning Therapist Sign Up kicks workflow and webhook creates a new `TherapistDirectAccessEntry` record.
-- [ ] Contact is enrolled in the workflow
-- [ ] Goes through Active Attesting branch
-- [ ] Webhook is successful
-- [ ] Workflow is completed
-- [ ] A new `TherapistDirectAccessEntry` is created
+- [x] Contact is enrolled in the workflow
+- [x] Goes through Active Attesting branch
+- [x] Webhook is successful
+- [x] Workflow is completed
+- [ ] Creates a new `TherapistDirectAccessEntry` with label `active_attesting`.
 
 Updating Credentialing properties in HubSpot reflects to the `TherapistDirectAccessEntry` record
 - [ ] Contact is enrolled in the workflow
@@ -97,3 +97,35 @@ Updating Credentialing properties in HubSpot reflects to the `TherapistDirectAcc
 - [ ] Webhook is successful
 - [ ] Workflow is completed
 - [ ] `TherapistDirectAccessEntry` is updated
+
+
+## Problemas Encontrados
+
+Para el caso de Returning Therapists. Cuando se hace el 2do sign up, el Active Attesting initial permanece de esa forma. No hay nada que lo cambie.
+
+Contact: https://app.hubspot.com/contacts/7712148/record/0-1/141932355901
+
+```ruby
+[#<TherapistDirectAccessEntry:0x00007f06bfe1af88
+  id: "9b3113bd-271a-4825-9ea1-474d5fcd0f28",
+  therapist_id: "ab7c3c6a-c7b1-4a5f-9605-595805f020b1",
+  state_id: "d8853fcd-fd51-4e31-9030-fd9ae635cb55",
+  permitted: true,
+  hubspot_id: 31576122022,
+  hubspot_created_at: Mon, 28 Jul 2025 18:39:11.000000000 PDT -07:00,
+  association_label: "active_attesting",
+  deleted_at: nil,
+  created_at: Tue, 29 Jul 2025 09:08:11.299199000 PDT -07:00,
+  updated_at: Tue, 29 Jul 2025 09:08:11.299199000 PDT -07:00>,
+ #<TherapistDirectAccessEntry:0x00007f06bfdbbbc8
+  id: "567f6710-756a-4b48-874e-d3399e60f563",
+  therapist_id: "ab7c3c6a-c7b1-4a5f-9605-595805f020b1",
+  state_id: "d8853fcd-fd51-4e31-9030-fd9ae635cb55",
+  permitted: false,
+  hubspot_id: 31644132664,
+  hubspot_created_at: Tue, 29 Jul 2025 13:06:45.000000000 PDT -07:00,
+  association_label: "active_attesting",
+  deleted_at: nil,
+  created_at: Tue, 29 Jul 2025 13:07:04.815998000 PDT -07:00,
+  updated_at: Tue, 29 Jul 2025 13:07:04.815998000 PDT -07:00>]
+```
