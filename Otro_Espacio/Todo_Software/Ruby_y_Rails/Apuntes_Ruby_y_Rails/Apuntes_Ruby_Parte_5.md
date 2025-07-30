@@ -201,3 +201,75 @@ parallel (1.27.0)
 ```
 
 Con eso se actualiza a la siguiente versión menor.
+
+# Expresión Regular con Captura con Nombre y Comentarios
+
+Vi que Alexis hizo esto:
+
+```ruby
+STATE_REGEX_FROM_THERAPIST_NAME_STATE = /
+  ^                               # start of line
+  (?<therapist_name>[A-Za-z\s]+)  # therapist name
+  \s-\s                           # separator
+  (?<state_name>[A-Za-z\s]+)      # state name
+  $                               # end of line
+/x.freeze
+```
+
+Lo cual se podía usar así:
+```ruby
+match = "Probando Ando - Florida".match(STATE_REGEX_FROM_THERAPIST_NAME_STATE)
+ap match
+
+#<MatchData "Probando Ando - Florida" therapist_name:"Probando Ando" state_name:"Florida">
+
+match.named_captures
+=> {"therapist_name"=>"Probando Ando", "state_name"=>"Florida"}
+
+match["therapist_name"]
+=> "Probando Ando"
+```
+
+
+## Expresión con Captura en Variable
+
+La forma:
+```ruby
+(?<nombre>patrón)
+
+# Ejemplo
+
+(?<therapist_name>[A-Za-z\s]+)
+```
+
+Se llama _named capture group_.
+
+Permite capturar la expresión en una variable. Por eso se puede referenciar los valores mediante una llave en el hash.
+
+Se podría usar así con los mismos resultados:
+```ruby
+regex = /(?<therapist_name>[A-Za-z\s]+) - (?<state_name>[A-Za-z\s]+)/
+
+match = regex.match("Ana Maria - Antioquia")
+puts match[:therapist_name] # => "Ana Maria"
+puts match[:state_name]     # => "Antioquia"
+```
+
+## Expresión con Comentarios y Saltos de Línea
+
+Le pregunté a gepeto sobre esto y me dijo que es una forma de expresión regular que permite comentarios y saltos de línea.
+
+Dice que:
+```ruby
+/my_pattern/x
+```
+
+Es lo mismo que:
+```ruby
+Regexp.new("my_pattern", Regexp::EXTENDED)
+```
+
+ChatGPT:
+> La bandera `x` es **`Regexp::EXTENDED`**, y permite:
+>  - Usar **espacios y saltos de línea** dentro de la regex para legibilidad. 
+>  - Escribir **comentarios** precedidos por `#` dentro del patrón.
