@@ -157,6 +157,18 @@ Contact: https://app.hubspot.com/contacts/7712148/record/0-1/141932355901
 
 # Checklist Escenarios de Agendamiento
 
+## Booking
+
+When the **patient has** a medical referral on their care plan
+
+And the therapist is a **DART** in the patient’s state
+- [ ] Then the **PT can** be successfully booked with the patient
+
+And the therapist is a **DAPT** in the patient’s state
+- [ ] Then the **PT can** be successfully booked with the patient
+
+
+
 
 
 ## Edge Cases
