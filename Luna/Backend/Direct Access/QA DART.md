@@ -111,16 +111,21 @@ Updating Credentialing "Direct Access Restricted" property in HubSpot reflects t
 ## Edge Cases
 
 When `TherapistDirectAccessEntry` record exists and property is modified to an invalid value
-- [ ] Contact is enrolled in the workflow
-- [ ] Goes through Active Attesting branch
-- [ ] Webhook is successful
-- [ ] Workflow is completed
-- [ ] `TherapistDirectAccessEntry` is deleted
+- [x] Contact is enrolled in the workflow
+- [x] Goes through Active Attesting branch
+- [x] Webhook is successful
+- [x] Workflow is completed
+- [x] `TherapistDirectAccessEntry` is deleted
+
+Notes:
+- The webhook step got a 200 response with a message indicating the possible error
+- The only property manually editable is `therapist_name_state`
+	- If a `TherapistDirectAccessEntry` is deleted a clue might be the value of this property
 
 
-## Problemas Encontrados
+## Issues
 
-Para el caso de Returning Therapists. Cuando se hace el 2do sign up, el Active Attesting initial permanece de esa forma. No hay nada que lo cambie.
+For the Returning Therapists scenario. When they complete a 2nd sign up, the first record in `therapist_direct_access_entries` remains with that label. Leaving the same therapist with two "Active Attesting" entries.
 
 Contact: https://app.hubspot.com/contacts/7712148/record/0-1/141932355901
 
