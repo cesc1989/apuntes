@@ -108,6 +108,15 @@ Updating Credentialing "Direct Access Restricted" property in HubSpot reflects t
 - [x] Workflow is completed
 - [x] `TherapistDirectAccessEntry` is created/updated
 
+## Edge Cases
+
+When `TherapistDirectAccessEntry` record exists and property is modified to an invalid value
+- [ ] Contact is enrolled in the workflow
+- [ ] Goes through Active Attesting branch
+- [ ] Webhook is successful
+- [ ] Workflow is completed
+- [ ] `TherapistDirectAccessEntry` is deleted
+
 
 ## Problemas Encontrados
 
@@ -143,3 +152,6 @@ Contact: https://app.hubspot.com/contacts/7712148/record/0-1/141932355901
 
 # Checklist Escenarios de Agendamiento
 
+
+
+## Edge Cases
