@@ -80,6 +80,16 @@ PatientSelfReport::Form.find(24898).update_attribute(:completed, false)
 PatientSelfReport::Form.find_by(uuid: "ab6b3654-1025-4ca7-99c5-cb60df682525").destroy
 ```
 
+## Query para encontrar patients con más de dos forms
+
+```sql
+select patient_id, count(1) as cantidad
+from forms
+group by patient_id
+having count(1) > 2;
+```
+
+
 # Otros Comanditos
 
 El de Therapist Signup -> [[Comanditos para Therapist Signup]]
