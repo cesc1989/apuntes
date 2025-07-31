@@ -31,6 +31,7 @@ t.boolean :permitted
 t.bigint :hubspot_id
 t.datetime :hubspot_created_at
 t.integer :association_label
+t.datetime :deleted_at
 ```
 
 ## Through endpoints

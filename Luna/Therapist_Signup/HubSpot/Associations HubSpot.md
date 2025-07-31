@@ -6,6 +6,7 @@ Enlaces:
 	- Este explica cómo hacer todo esto desde la UI.
 	- Menciona cómo ver el historial de asociaciones
 		- Solo muestra cuando fue creado y/o borrado
+		- HubSpot no provee un timestamp de cuando una asociación fue borrada
 
 
 ## Ejemplos de Historial de Asociaciones
