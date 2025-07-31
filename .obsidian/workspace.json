@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "13626cb039a83ca8",
+        "id": "19a1cf8852a0d6fb",
         "type": "tabs",
         "children": [
           {
-            "id": "e3c2fbdf60c7efae",
+            "id": "10545e931b208023",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
+                "file": "Luna/Backend/Direct Access/QA DART.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Associations HubSpot"
-            }
-          },
-          {
-            "id": "70be7752f2df8449",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comanditos para Patient Self Report"
+              "title": "QA DART"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "Luna/Backend/Direct Access/QA DART.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Patient Self Report"
+              "title": "Outline of QA DART"
             }
           }
         ],
@@ -179,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70be7752f2df8449",
+  "active": "10545e931b208023",
   "lastOpenFiles": [
-    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments",
@@ -202,7 +188,6 @@
     "DevAsPros/Enlacito/untitled folder",
     "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Luna/Backend/Direct Access/direct_access_restricted logic/permitted_field_logic.md",
     "Luna/Backend/Direct Access/direct_access_restricted logic",
