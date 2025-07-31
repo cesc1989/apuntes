@@ -159,15 +159,21 @@ Contact: https://app.hubspot.com/contacts/7712148/record/0-1/141932355901
 
 ## Booking
 
-When the **patient has** a medical referral on their care plan...
+(a) When the **patient has** a medical referral on their care plan...
 
 And the therapist is a **DART** in the patient’s state
-- [ ] Then the **PT can** be successfully booked with the patient
+- [x] Then the **PT can** be successfully booked with the patient
 
 And the therapist is a **DAPT** in the patient’s state
-- [ ] Then the **PT can** be successfully booked with the patient
+- [x] Then the **PT can** be successfully booked with the patient
 
+(b) When the **patient does not have** a medical referral on their care plan...
 
+And the therapist is a **DART** in the patient’s state
+- [ ] Then the **PT cannot** be booked with the patient _This is true for Medicare patients, as well. Calling this out because pre-Direct Access project, Medicare patients w/o medical referrals were occasionally booked with DARTs on the optimistic assumption the patient would have a medical referral by the time of the IV. This should be explicitly disallowed now._
+
+And the therapist is a **DAPT** in the patient’s state
+- [ ] Then the **PT can** be successfully booked with the patient
 
 
 
