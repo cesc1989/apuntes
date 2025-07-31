@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "52cb5844b26bff91",
+        "id": "13626cb039a83ca8",
         "type": "tabs",
         "children": [
           {
-            "id": "b296855380fd2e7d",
+            "id": "e3c2fbdf60c7efae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Direct Access/QA DART.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "QA DART"
-            }
-          },
-          {
-            "id": "ca1a3f3e0ebeb896",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Ruby_Parte_5"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+                "file": "Luna/Backend/Direct Access/QA DART.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ruby_Parte_5"
+              "title": "Outline of QA DART"
             }
           }
         ],
@@ -179,9 +160,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca1a3f3e0ebeb896",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/HubSpot",
+    "Luna/Therapist_Signup/HubSpot/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/Direct Access/QA DART.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
@@ -206,17 +192,12 @@
     "Luna/Therapist_Signup/Reglas/Zip_Codes_en_Therapist_y_Preference.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
-    "Luna/Therapist_Signup/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png",
     "Luna/Backend/Direct Access/attachments/031.event.trigger.enrollment.png",
     "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Clinical_Dashboard/Casos/caso-001",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png.sb-f073dd10-Q862tf",
     "DevAsPros/Enlacito/rfcs",
     "Luna/Backend/Direct Access/attachments",
