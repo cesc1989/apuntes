@@ -11,10 +11,14 @@
             "id": "e3c2fbdf60c7efae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Associations HubSpot"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Direct Access/QA DART.md",
+                "file": "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of QA DART"
+              "title": "Outline of Associations HubSpot"
             }
           }
         ],
@@ -160,18 +164,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "e3c2fbdf60c7efae",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
+    "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
+    "Luna/Therapist_Signup/HubSpot/attachments",
+    "Luna/Therapist_Signup/HubSpot/untitled folder",
+    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
+    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
+    "Luna/Backend/Direct Access/Workflows para DART.md",
+    "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
+    "Luna/Backend/Direct Access/QA DART.md",
     "Luna/Therapist_Signup/HubSpot",
     "Luna/Therapist_Signup/HubSpot/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Backend/Direct Access/QA DART.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
-    "Luna/Backend/Direct Access/Workflows para DART.md",
-    "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
     "DevAsPros/Enlacito/redes-sociales/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/redes-sociales",
@@ -191,7 +200,6 @@
     "Luna/Therapist_Signup/Reglas",
     "Luna/Therapist_Signup/Reglas/Zip_Codes_en_Therapist_y_Preference.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
-    "Luna/Clinical_Dashboard/Unseen Patients/Unseen Patients for Physicians - Notes.md",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png",
@@ -200,14 +208,10 @@
     "Luna/Clinical_Dashboard/Casos/caso-001",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png.sb-f073dd10-Q862tf",
     "DevAsPros/Enlacito/rfcs",
-    "Luna/Backend/Direct Access/attachments",
-    "Luna/Backend/Direct Access",
-    "Luna/Clinical_Dashboard/Casos",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/request new cd link.png",
     "Luna/Therapist_Signup/Casos/attachments/003.association.history.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.png",
-    "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
