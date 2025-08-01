@@ -1,5 +1,7 @@
 # Separate Billing from Entitlements
 
+Etiquetas: #entitlements
+
 [Artículo original](https://arnon.dk/why-you-should-separate-your-billing-from-entitlement/)
 
 El título hace referencia a que en una plataforma se deben separar la facturación (cobro de dinero a los usuarios) de las características a los que ellos tienen acceso.

@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "QA DART"
             }
+          },
+          {
+            "id": "b4732e120182ea80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Separa Facturación de Características"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Direct Access/QA DART.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of QA DART"
+              "title": "Outline of Separa Facturación de Características"
             }
           }
         ],
@@ -164,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10545e931b208023",
+  "active": "b4732e120182ea80",
   "lastOpenFiles": [
+    "Luna/Backend/Direct Access/QA DART.md",
     "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
@@ -175,7 +191,6 @@
     "Luna/Therapist_Signup/HubSpot/untitled folder",
     "Luna/Backend/Direct Access/Apuntes de Webhooks.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
-    "Luna/Backend/Direct Access/QA DART.md",
     "Luna/Therapist_Signup/HubSpot",
     "Luna/Therapist_Signup/HubSpot/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
