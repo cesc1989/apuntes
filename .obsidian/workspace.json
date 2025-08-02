@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "19a1cf8852a0d6fb",
+        "id": "01086e32933aeb6b",
         "type": "tabs",
         "children": [
           {
-            "id": "10545e931b208023",
+            "id": "95b764f13cd2dccc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Direct Access/QA DART.md",
+                "file": "DevAsPros/Super_Menú/Descubrimiento/Mapa General.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "QA DART"
-            }
-          },
-          {
-            "id": "b4732e120182ea80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Separa Facturación de Características"
+              "title": "Mapa General"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
+                "file": "DevAsPros/Super_Menú/Descubrimiento/Mapa General.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Separa Facturación de Características"
+              "title": "Outline of Mapa General"
             }
           }
         ],
@@ -179,9 +164,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4732e120182ea80",
+  "active": "95b764f13cd2dccc",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/Descubrimiento/attachments/supermenu.yummy.png",
+    "DevAsPros/Super_Menú/Descubrimiento/attachments",
+    "DevAsPros/Super_Menú/Descubrimiento/untitled folder",
+    "DevAsPros/Super_Menú/Descubrimiento/Mapa General.md",
+    "DevAsPros/Super_Menú/Descubrimiento",
+    "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
+    "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
+    "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
+    "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Direct Access/QA DART.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
     "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
@@ -207,22 +203,12 @@
     "Luna/Backend/Direct Access/direct_access_restricted logic/permitted_field_logic.md",
     "Luna/Backend/Direct Access/direct_access_restricted logic",
     "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
-    "Luna/Therapist_Signup/Reglas/Cuando se actualiza Credentialing Form Status.md",
-    "Luna/Usando_Ngrok.md",
-    "Luna/Playbook del Triage📙.md",
-    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Therapist_Signup/Data_Model_Explained_-_Therapists_Credentialing.md",
     "Luna/Therapist_Signup/Reglas",
-    "Luna/Therapist_Signup/Reglas/Zip_Codes_en_Therapist_y_Preference.md",
-    "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png",
     "Luna/Backend/Direct Access/attachments/031.event.trigger.enrollment.png",
     "Luna/Backend/Direct Access/attachments/hs.workflow.branch.per.credentialing.png",
-    "Luna/Clinical_Dashboard/Casos/caso-001",
-    "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png.sb-f073dd10-Q862tf",
-    "DevAsPros/Enlacito/rfcs",
     "Luna/Backend/AppBlend/Milestone 3 - Merge CD into Edge/attachments/request new cd link.png",
     "Luna/Therapist_Signup/Casos/attachments/003.association.history.png",
     "Luna/Therapist_Signup/Casos/attachments/dup.licenses.02.png",
