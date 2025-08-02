@@ -58,4 +58,4 @@ Este será hecho totalmente en Rails. La UI aprovechará Turbo y Stimulus para l
 
 - React como framework para la UI del Menú Digital
 - [Tailwind](https://tailwindcss.com/docs/installation/framework-guides/ruby-on-rails) para los estilos
-- Vite para el compilado de React y Tailwind
+- [Vite Ruby](https://vite-ruby.netlify.app/guide/introduction.html) para el compilado de React y Tailwind

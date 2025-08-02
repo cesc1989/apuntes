@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2403df3b2dd38d8f",
+        "id": "497ca58f8111f0f0",
         "type": "tabs",
         "children": [
           {
-            "id": "6814ee48adabcbfe",
+            "id": "6b5b2f44ffecd183",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6814ee48adabcbfe",
+  "active": "6b5b2f44ffecd183",
   "lastOpenFiles": [
     "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
     "DevAsPros/Super_Menú/Descubrimiento/attachments/supermenu.yummy.png",
