@@ -9,6 +9,17 @@ La idea es hacer un MVP limitado pero que se pueda probar en negocios reales. Pa
 - Menú Digital
 - Backoffice
 
+## Objetivo
+
+> [!Important]
+> El objetivo final de empezar este proyecto es crear un producto desde su ideación hasta un lanzamiento en la web.
+> 
+> El resultado final será una webapp que tenga todo lo necesario para que sea encontrada en Internet, los visitantes se puedan registrar, probar el software y usarlo en sus negocios.
+> 
+> Sea que haya o no ingresos por el uso está fuera del alcance. Lo más importante es crear un producto digital que pueda usarse y ser comercializado.
+>
+> Lograr que DevAsPros tenga productos digitales y que los creadores tengamos una pieza más en el portafolio para futuras búsquedas laborales.
+
 ## Menú Digital
 
 La cara al usuario. Se accede por una URL y se configura todo desde el Back-office. La finalidad es mostrar información sobre todo el menú de un restaurante en una interfaz limpia, bonita y que cargue rápido.
