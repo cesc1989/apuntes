@@ -22,7 +22,7 @@ Estos son generadores de Rails
 
 - [Rails Application Templates](https://guides.rubyonrails.org/rails_application_templates.html)
 - [Artículo sobre template](https://dev.to/justalever/a-guide-to-using-ruby-on-rails-application-templates-12jh)
-- [Usando](https://medium.com/@nahrivera7/personalizando-rails-new-e1bd3c44de4) `[.railsrc](https://medium.com/@nahrivera7/personalizando-rails-new-e1bd3c44de4)`
+- [Usando .railsrc](https://medium.com/@nahrivera7/personalizando-rails-new-e1bd3c44de4)
 
 ## Plantillas Existentes para Ver o Forkear
 
