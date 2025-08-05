@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ideación"
+              "title": "Plantilla_de_Rails_apps"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ideación"
+              "title": "Outline of Plantilla_de_Rails_apps"
             }
           }
         ],
