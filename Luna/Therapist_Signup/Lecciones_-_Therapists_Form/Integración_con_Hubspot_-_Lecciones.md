@@ -36,7 +36,22 @@ Las descripciones enlazan a [Add values to date and datetime properties](https:/
 
 Intenté enviar un DateTime al campo `signup_form_date` y obtuve este error:
 ```bash
-Hubspot::RequestError (Response body: {"validationResults":[{"isValid":false,"message":"1744557443000 is at 15:17:23.0 UTC, not midnight!","error":"INVALID_DATE","name":"signup_form_date"}],"status":"error","message":"Property values were not valid","correlationId":"d806ba1d-bcba-4339-891d-c27ce99b29f4"}):
+Hubspot::RequestError (Response body:
+
+{"validationResults":
+  [
+    {
+      "isValid":false,
+      "message":"1744557443000 is at 15:17:23.0 UTC, not midnight!",
+      "error":"INVALID_DATE",
+      "name":"signup_form_date"
+    }
+  ],
+  "status":"error",
+  "message":"Property values were not valid",
+  "correlationId":"d806ba1d-bcba-4339-891d-c27ce99b29f4"
+}
+):
 ```
 
 Queda claro que los campos tipo Date solo reciben la fecha con la hora en midnight (00:00:00).

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "497ca58f8111f0f0",
+        "id": "c76968f0dd286332",
         "type": "tabs",
         "children": [
           {
-            "id": "6b5b2f44ffecd183",
+            "id": "fb2b8cf5c9ee9205",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Plantilla_de_Rails_apps"
+              "title": "Integración_con_HubSpot_-_Lecciones"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crm/v4/objects",
+                "query": "git tag",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Plantilla_de_Rails_apps"
+              "title": "Outline of Integración_con_HubSpot_-_Lecciones"
             }
           }
         ],
@@ -164,8 +164,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b5b2f44ffecd183",
+  "active": "fb2b8cf5c9ee9205",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_“Leyes”_al_gusto.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
     "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
     "DevAsPros/Super_Menú/Descubrimiento/attachments/supermenu.yummy.png",
     "DevAsPros/Super_Menú/Descubrimiento/attachments",
@@ -175,11 +181,9 @@
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Direct Access/QA DART.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
     "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
@@ -199,10 +203,7 @@
     "DevAsPros/Enlacito/untitled folder",
     "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
-    "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
-    "Luna/Backend/Direct Access/direct_access_restricted logic/permitted_field_logic.md",
     "Luna/Backend/Direct Access/direct_access_restricted logic",
-    "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Therapist_Signup/Reglas",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
