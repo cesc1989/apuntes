@@ -360,3 +360,18 @@ ap TherapistDirectAccessEntry.all.group(:therapist_id).count
     "fe9f3f95-0992-4041-a563-5b26cb86fc7d" => 1
 }
 ```
+
+# Dealing with soft-deleted records
+
+I was testing in local env and "deleted" some entries. When I tried the webhook again got an error about the hubspot_id not being unique. As they're being soft-deleted I could not create a new record again.
+
+In order to find those soft-deleted records these queries help:
+```ruby
+# Find the record
+TherapistDirectAccessEntry.unscoped.where(hubspot_id: 29946228148)
+
+# Undelete
+TherapistDirectAccessEntry.unscoped.find_by(hubspot_id: 31731965980)&.update!(deleted_at: nil)
+
+
+```
