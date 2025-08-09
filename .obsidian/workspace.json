@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/Inertial Rails.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -166,6 +166,8 @@
   },
   "active": "1b53669d73417c24",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments/001.inertia.example.png",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/Inertial Rails.md",
     "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
@@ -202,9 +204,7 @@
     "DevAsPros/Enlacito/redes-sociales/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/redes-sociales",
     "DevAsPros/Enlacito/untitled folder",
-    "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
     "Luna/Backend/Direct Access/direct_access_restricted logic",
-    "Luna/Therapist_Signup/Reglas",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png",

@@ -132,6 +132,64 @@ Finalmente, estas dos tags:
 
 son para facilitar el HMR y poder modificar los componentes en caliente. [Ver docs](https://vite-ruby.netlify.app/guide/rails.html#enabling-hot-module-reload-%F0%9F%94%A5).
 
+## Aplicación de prueba
+
+Ahora sí el meollo del asunto. El generador de Inertia agregó una ruta común y corriente junto con su respectivo controlador:
+```ruby
+# config/routes.rb
+get 'inertia-example', to: 'inertia_example#index'
+
+# app/controllers/inertia_example_controller.rb
+# frozen_string_literal: true
+
+class InertiaExampleController < ApplicationController
+  def index
+    render inertia: 'InertiaExample', props: {
+      name: params.fetch(:name, 'Mundo'),
+    }
+  end
+end
+```
+
+Aquí ya empezamos a ver a Inertia acción. En vez de hacer un render normal o render json, se renderiza `inertia`.
+
+A esa función se le pasa el nombre del componente y los props.
+
+El componente se encuentra en `app/javascript/pages/InertiaExample.jsx`. Y aquí ya estamos en territorio React.
+
+Se pueden apreciar los imports de librerías JavaScript:
+```js
+import { Head } from '@inertiajs/react'
+import { useState } from 'react'
+```
+
+imports de assets locales:
+```js
+import inertiaSvg from '/assets/inertia.svg'
+import reactSvg from '/assets/react.svg'
+import viteRubySvg from '/assets/vite_ruby.svg'
+```
+
+e imports de estilos:
+```js
+import cs from './InertiaExample.module.css'
+```
+
+Y finalmente tenemos el componente:
+```js
+export default function InertiaExample({ name }) {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+  )
+}
+```
+
+Y así al navegar a `localhost:3006/inertia-example` se puede ver todo esto funcionando:
+
+![[001.inertia.example.png]]
+
 # Detalles
 
 Estas son todas las cosas que agrega el generador.
