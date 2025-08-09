@@ -67,6 +67,71 @@ Inertia's Rails adapter successfully installed
 
 Con eso dado, al ejecutar el Rails server, fui a la página `localhost:3006/inertia-example` y cargó un componente de prueba que se auto generó.
 
+# Inertia en Acción
+
+Cosas de la aplicación de ejemplo.
+
+## Head tags en `application.html.erb`
+
+Agregó varias cosas tanto Vite como Inertia:
+```html
+<head>
+	<%= render "shared/head" %>
+
+	<%= vite_stylesheet_tag "application" %>
+
+	<%= vite_react_refresh_tag %>
+	<%= vite_client_tag %>
+
+	<%= vite_javascript_tag "inertia" %>
+	<%= vite_javascript_tag "application" %>
+	<!--
+		If using a TypeScript entrypoint file:
+			vite_typescript_tag "application"
+
+		If using a .jsx or .tsx entrypoint, add the extension:
+			vite_javascript_tag "application.jsx"
+
+		Visit the guide for more information: https://vite-ruby.netlify.app/guide/rails
+	-->
+
+	<%= inertia_ssr_head %>
+</head>
+```
+
+En la documentación de Inertia-Rails no hay info sobre eso. Es porque esta funcionalidad es aportada por Vite Ruby. [Ver docs sobre estos tags](https://vite-ruby.netlify.app/guide/rails.html#tag-helpers-%F0%9F%8F%B7).
+
+Así que estas dos
+```html
+<%= vite_javascript_tag "inertia" %>
+<%= vite_javascript_tag "application" %>
+```
+
+son para cargar los entrypoints que están en `app/javascript/entrypoints/`:
+
+- `app/javascript/entrypoints/inertia.js`
+- `app/javascript/entrypoints/application.js`
+
+Mientras que esta:
+```html
+<%= vite_stylesheet_tag "application" %>
+```
+
+Es para cargar el entrypoint de CSS en `app/javascript/entrypoints/application.css`. Es en este archivo donde se configura TailwindCSS.
+
+> [!Important]
+> Esto es clave.
+>
+> Para Super Menú quiero mantener Boostrap para el back office. Con esta forma puedo ver que puede tener ambos TailwindCSS y Boostrap para usarlos para diferentes finalidades.
+
+Finalmente, estas dos tags:
+```html
+<%= vite_react_refresh_tag %>
+<%= vite_client_tag %>
+```
+
+son para facilitar el HMR y poder modificar los componentes en caliente. [Ver docs](https://vite-ruby.netlify.app/guide/rails.html#enabling-hot-module-reload-%F0%9F%94%A5).
+
 # Detalles
 
 Estas son todas las cosas que agrega el generador.
