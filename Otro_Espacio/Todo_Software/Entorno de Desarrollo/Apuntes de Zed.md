@@ -47,6 +47,9 @@ Después de eso puedo hacer `CMD + Click` en nombres de clases, métodos de inst
 
 # Sincronizar Configuraciones, Extensiones y Atajos de Teclado
 
+> [!Note]
+> Para evitarme configurar un repositorio como hice para Sublime Text, simplemente copio los archivos manualmente a la carpeta `zed-settings` en Mega.
+
 A la fecha, Zed, a la fecha, [no ofrece una forma para lograr esto](https://github.com/zed-industries/zed/discussions/6569). Toca copiar los archivos necesarios de manera manual.
 
 Los archivos de interés son:
