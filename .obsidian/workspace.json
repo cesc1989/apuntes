@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4b21ace5377a9dce",
+        "id": "4135ab8beb34b15d",
         "type": "tabs",
         "children": [
           {
-            "id": "725c2a7d873d9cc0",
+            "id": "d9408c3fd690af40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes de Zed"
-            }
-          },
-          {
-            "id": "3c85dc48fa89f6b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zed Editor - Atajos de Teclado"
+              "title": "Apuntes_de_Sublime_Text"
             }
           }
         ]
@@ -154,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes de Zed"
+              "title": "Outline of Apuntes_de_Sublime_Text"
             }
           }
         ],
@@ -178,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "725c2a7d873d9cc0",
+  "active": "d9408c3fd690af40",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/Inertial Rails.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments/001.inertia.example.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",

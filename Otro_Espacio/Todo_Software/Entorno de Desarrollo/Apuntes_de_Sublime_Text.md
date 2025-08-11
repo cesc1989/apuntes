@@ -270,3 +270,34 @@ Para corregirlo hay que agregar estas configuraciones en el archivo de preferenc
 
 Visto en:
 - [Stack Overflow](https://stackoverflow.com/questions/12193913/when-opening-a-directory-through-command-line-sublime-text-opens-two-windows-in)
+
+# Settings que solo afectan según el Sistema Operativo
+
+Quería subir el tamaño de la fuente en Linux Mint porque el LG Gram tiene bastante resolución y la letra se ve muy pequeña. Tanto que cansa la vista.
+
+Para lograr esto hay que usar el settings `font_size`. Sin embargo, si lo ponía en el archivo `Preferences.sublime-settings`, dado a que tengo ese archivo sincronizado por git, cuando baje la actualización en Macos, se cambiará el tamaño de la letra. Eso no es lo que quiero.
+
+Para lograr el cambio solo en Linux Mint tuve que poner un nuevo archivo de preferencias en otra carpeta.
+
+Al final, así quedan las carpetas de configuraciones:
+```bash
+.
+├── Default
+│   └── Preferences (Linux).sublime-settings
+└── User
+    ├── Default (OSX).sublime-keymap
+    ├── Package Control.sublime-settings
+    ├── Package Control.user-ca-bundle
+    ├── Preferences.sublime-settings
+    └── README.md
+```
+
+En el archivo `Default/Preferences (Linux).sublime-settings` es donde queda la configuración del font size:
+```json
+{
+  "font_size": 13,
+}
+```
+
+Documentación sobre los settings: https://www.sublimetext.com/docs/settings.html
+
