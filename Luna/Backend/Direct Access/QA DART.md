@@ -167,6 +167,8 @@ And the therapist is a **DART** in the patient’s state
 And the therapist is a **DAPT** in the patient’s state
 - [x] Then the **PT can** be successfully booked with the patient
 
+See tests at [[Booking Specs]]
+
 (b) When the **patient does not have** a medical referral on their care plan...
 
 And the therapist is a **DART** in the patient’s state
@@ -174,7 +176,5 @@ And the therapist is a **DART** in the patient’s state
 
 And the therapist is a **DAPT** in the patient’s state
 - [ ] Then the **PT can** be successfully booked with the patient
-
-
 
 ## Edge Cases

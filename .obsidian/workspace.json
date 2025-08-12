@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4135ab8beb34b15d",
+        "id": "eb761829f4780901",
         "type": "tabs",
         "children": [
           {
-            "id": "d9408c3fd690af40",
+            "id": "2b2b656a06bb4fc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
+                "file": "Luna/Backend/Direct Access/tests/Booking Specs.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_de_Sublime_Text"
+              "title": "Booking Specs"
+            }
+          },
+          {
+            "id": "dfde8007083d0f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Direct Access/QA DART.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "QA DART"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
+                "file": "Luna/Backend/Direct Access/QA DART.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Sublime_Text"
+              "title": "Outline of QA DART"
             }
           }
         ],
@@ -164,8 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9408c3fd690af40",
+  "active": "dfde8007083d0f5b",
   "lastOpenFiles": [
+    "Luna/Backend/Direct Access/tests/Booking Specs.md",
+    "Luna/Backend/Direct Access/QA DART.md",
+    "Luna/Backend/Direct Access/tests",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/Apuntes_de_HTMX_y_Rails.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/Inertial Rails.md",
@@ -173,7 +192,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
     "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
     "Luna/Backend/Direct Access/Workflows para DART.md",
-    "Luna/Backend/Direct Access/QA DART.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_“Leyes”_al_gusto.md",
@@ -201,11 +219,8 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
     "DevAsPros/Enlacito/redes-sociales",
     "DevAsPros/Enlacito/untitled folder",
-    "Luna/Backend/Direct Access/direct_access_restricted logic",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png",
