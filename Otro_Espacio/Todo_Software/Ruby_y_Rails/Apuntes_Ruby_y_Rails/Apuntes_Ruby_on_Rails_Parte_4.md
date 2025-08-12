@@ -550,6 +550,8 @@ No logré dar con la solución.
 
 # Mejor usar sintaxis de bloque con Rails Logger
 
+Etiquetas: #rails_logger
+
 De este artículo: https://willj.net/posts/you-should-use-the-rails-logger-block-syntax/
 
 Dice que es mejor usar la sintaxis de bloque cuando se quiera escribir al Logger de Rails para mejor el consumo de memoria de Ruby.
