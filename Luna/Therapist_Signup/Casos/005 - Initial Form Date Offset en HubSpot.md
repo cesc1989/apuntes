@@ -1,5 +1,10 @@
 # 005 - Propiedad Initial Form Date muestra valor desfasado en la UI de HubSpot
 
+Documentos relacionados:
+
+- [[Integración_con_HubSpot_-_Lecciones#Sobre el formato de los campos `Date` y `DateTime` para HubSpot]]
+- [[Hubspot_y_las_fechas_date_is_more_than_1,000_year]]
+
 Reporte:
 
 > This therapists ==initial form date was set to 08/05/2025==, but **they signed on 08/04/2025 at 5:27pm**.
@@ -108,3 +113,5 @@ Al parecer sí.
 > 
 > - `@therapist.created_at` is stored and retrieved as UTC
 > - The original `formated_date` method works correctly because it's extracting date components from UTC time
+
+También pude comprobar que tanto en Alpha y Omega la cuenta de HubSpot está configurada en la zona horaria Pacific UTC -07.
