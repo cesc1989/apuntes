@@ -25,7 +25,7 @@ Esto que dice HubSpot:
 > 
 > For example, May 1 2015 would be 1430438400000 (01 May 2015 00:00:00 UTC). If you try to set a value that is not midnight UTC, you will receive an error.
 > 
-> _In HubSpot, date properties always display the specific date they are set to, regardless of the time zone setting of the portal or the user_.
+> ==In HubSpot, date properties always display the specific date they are set to, regardless of the time zone setting of the portal or the user==.
 
 Para hacer eso, en los inicios del proyecto Therapist Signup se implementó esta función:
 ```ruby
