@@ -115,3 +115,41 @@ Al parecer sí.
 > - The original `formated_date` method works correctly because it's extracting date components from UTC time
 
 También pude comprobar que tanto en Alpha y Omega la cuenta de HubSpot está configurada en la zona horaria Pacific UTC -07.
+
+## ¿Será el problema guardar las fechas en UTC?
+
+Therapist Signup nunca definió una time zone por defecto. Para los Contactos afectados, así está el valor de `created_at`.
+
+Skye Harry:
+```
+Fecha mala: 03/31/2025
+Fecha esperada: 3/30/2025
+
+created_at: 2025-03-31 00:37:36 UTC
+```
+
+Celine Emery:
+```
+Fecha mala: 01/30/2025
+Fecha esperada: 1/29/2025
+
+created_at: 2025-01-30 02:58:04 UTC
+```
+
+Melanie Wokwicz:
+```
+Fecha mala: 01/30/2025
+Fecha esperada: 1/29/2025
+
+created_at: 2025-01-30 04:47:16 UTC
+```
+
+Cindy Okpegbue:
+```
+Fecha mala: 08/05/2025
+Fecha esperada: 8/4/2025
+
+created_at: 2022-04-19 03:28:40 UTC
+```
+
+Queda claro que como el `created_at` está en UTC, ya la fecha viajó al día siguiente, entonces lo que se manda a HubSpot es la fecha en el día siguiente para los casos de PDT.
