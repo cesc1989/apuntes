@@ -1,5 +1,7 @@
 # Scripts de Prueba de Conversión de Formato
 
+## Conversión a milisegundos
+
 Estos son los scripts que usé para probar las diferentes formas de convertir la fecha (DateTime) al formato en milisegundos que espera HubSpot.
 
 Fechas para probar:
@@ -13,7 +15,7 @@ puts
 puts
 ```
 
-## Fecha sin conversión de zona en milisegundos e iso8601
+### Fecha sin conversión de zona en milisegundos e iso8601
 
 Esta es la forma original de la implementación para la conversión a milisegundos. Además está la otra opción que es convertir a cadena en iso8601.
 ```ruby
@@ -34,7 +36,7 @@ puts
 ```
 
 
-## Fecha en UTC en milisegundos e iso8601
+### Fecha en UTC en milisegundos e iso8601
 
 Este es para obtener la fecha en UTC y ver los resultados.
 ```ruby
@@ -57,7 +59,7 @@ puts
 > Esta forma no sirvió porque básicamente es lo que hace la base de datos. Tomar un datetime y guardarlo en UTC.
 
 
-## Fecha en zona horaria
+### Fecha en zona horaria
 
 La intención aquí es pasar la fecha a la zona horaria del usuario pero eso no lo podemos hacer en Therapist Signup.
 
@@ -70,7 +72,7 @@ puts
 puts
 ```
 
-## Prueba de conversión de milisegundos a Fecha
+### Prueba de conversión de milisegundos a Fecha
 
 Y esto es la verificación final de que los milisegundos se transforman en una fecha valida Y es el valor esperado.
 ```ruby
@@ -87,3 +89,118 @@ ap Time.at(res2.to_i / 1000).utc.strftime("%Y-%m-%d")
 ap "Date en modo edge en milisegundos pasada a Fecha:"
 ap Time.at(res3.to_i / 1000).utc.strftime("%Y-%m-%d")
 ```
+
+## Validación de que Date.current con o sin TimeZone será igual
+
+Estando ya en uso el campo `signup_date` el cual es de tipo Date no había necesidad de configurar el TimeZone en `application.rb`. Le pregunté a Claude y dijo que sí era necesario así que le pedí un script para comprobar eso.
+
+Este es el script:
+```ruby
+date_string = "2025-08-11 22:30:00 -0700"  # 10:30pm Pacific
+
+t1 = Therapist.where(hubspot_id: nil).first
+puts "=== Testing Timezone Impact on Date.current ==="
+puts
+
+# Save original timezone
+original_timezone = Time.zone.name
+puts "Original timezone: #{original_timezone}"
+
+# Test WITHOUT timezone config (UTC)
+puts "\n--- WITHOUT timezone config (UTC) ---"
+Time.zone = 'UTC'
+puts "Time.zone now: #{Time.zone.name}"
+puts "Date.current: #{Date.current}"
+
+# Update therapist simulating the scenario
+t1.update_columns(
+  first_name: "Juan",
+  last_name: "Without TZ Config",
+  created_at: Time.parse(date_string),
+  signup_date: Date.current  # This will be UTC date
+)
+
+puts "created_at: #{t1.created_at}"
+puts "signup_date (UTC): #{t1.signup_date}"
+
+# Test what HubSpot would receive
+service_utc = HubspotContactService.new(therapist: t1, new_signup: true)
+hubspot_date_utc = service_utc.send(:signup_form_date)
+converted_utc = Time.at(hubspot_date_utc.to_i / 1000).utc.strftime("%Y-%m-%d")
+puts "HubSpot would show: #{converted_utc}"
+
+# Test WITH timezone config (Pacific)
+puts "\n--- WITH timezone config (Pacific) ---"
+Time.zone = 'America/Los_Angeles'
+puts "Time.zone now: #{Time.zone.name}"
+puts "Date.current: #{Date.current}"
+
+t1.update_columns(
+  last_name: "With TZ Config",
+  signup_date: Date.current  # This will be Pacific date
+)
+
+puts "created_at: #{t1.created_at}"
+puts "signup_date (Pacific): #{t1.signup_date}"
+
+# Test what HubSpot would receive
+service_pacific = HubspotContactService.new(therapist: t1, new_signup: true)
+hubspot_date_pacific = service_pacific.send(:signup_form_date)
+converted_pacific = Time.at(hubspot_date_pacific.to_i / 1000).utc.strftime("%Y-%m-%d")
+puts "HubSpot would show: #{converted_pacific}"
+
+# Restore original timezone
+Time.zone = original_timezone
+puts "\nRestored timezone to: #{Time.zone.name}"
+
+puts "\n=== Results Summary ==="
+puts "User signed up: Aug 11, 10:30pm Pacific"
+puts "Without TZ config: HubSpot shows #{converted_utc}"
+puts "With TZ config: HubSpot shows #{converted_pacific}"
+puts "Difference: #{converted_utc != converted_pacific ? 'YES - dates differ!' : 'No difference'}"
+```
+
+Lo ejecuté en `rails console` y estos fueron los resultados:
+```bash
+=== Testing Timezone Impact on Date.current ===
+
+Original timezone: UTC
+
+--- WITHOUT timezone config (UTC) ---
+Time.zone now: UTC
+Date.current: 2025-08-13
+  Therapist Update (2.4ms)  UPDATE "therapists" SET "first_name" = $1, "last_name" = $2, "created_at" = $3, "signup_date" = $4 WHERE "therapists"."id" = $5  [["first_name", "Juan"], ["last_name", "Without TZ Config"], ["created_at", "2025-08-12 05:30:00"], ["signup_date", "2025-08-13"], ["id", "7324ba4a-7c1d-418a-9f3e-7c34e725dd76"]]
+created_at: 2025-08-12 05:30:00 UTC
+signup_date (UTC): 2025-08-13
+[DATE_TRANSFORMATION] Converting date: 2025-08-13 to a Hubspot format for 7324ba4a-7c1d-418a-9f3e-7c34e725dd76
+HubSpot would show: 2025-08-13
+
+--- WITH timezone config (Pacific) ---
+Time.zone now: America/Los_Angeles
+Date.current: 2025-08-13
+  Therapist Update (0.5ms)  UPDATE "therapists" SET "last_name" = $1, "signup_date" = $2 WHERE "therapists"."id" = $3  [["last_name", "With TZ Config"], ["signup_date", "2025-08-13"], ["id", "7324ba4a-7c1d-418a-9f3e-7c34e725dd76"]]
+created_at: 2025-08-12 05:30:00 UTC
+signup_date (Pacific): 2025-08-13
+[DATE_TRANSFORMATION] Converting date: 2025-08-13 to a Hubspot format for 7324ba4a-7c1d-418a-9f3e-7c34e725dd76
+HubSpot would show: 2025-08-13
+
+Restored timezone to: UTC
+
+=== Results Summary ===
+User signed up: Aug 11, 10:30pm Pacific
+Without TZ config: HubSpot shows 2025-08-13
+With TZ config: HubSpot shows 2025-08-13
+Difference: No difference
+```
+
+No hubo diferencia alguna porque en palabras de Claude:
+
+ The test was run on Aug 13, so regardless of timezone:
+  - UTC: Aug 13
+  - Pacific: Aug 13 (same calendar day)
+ 
+ Since we're using Date.current at the time of signup, the timezone configuration doesn't matter because:
+  1. User signs up → `Date.current` gets the current date
+  2. Date is stored as a `t.date` field (no time component)
+  3. HubSpot gets the stored date → always the date when signup occurred
+
