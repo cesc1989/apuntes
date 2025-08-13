@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot.md",
+                "file": "Luna/Therapist_Signup/Casos/caso-005/Campos Date y DateTime que se envian a HubSpot.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "005 - Initial Form Date Offset en HubSpot"
+              "title": "Campos Date y DateTime que se envian a HubSpot"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot.md",
+                "file": "Luna/Therapist_Signup/Casos/caso-005/Campos Date y DateTime que se envian a HubSpot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 005 - Initial Form Date Offset en HubSpot"
+              "title": "Outline of Campos Date y DateTime que se envian a HubSpot"
             }
           }
         ],
@@ -166,8 +166,10 @@
   },
   "active": "bf94ee4f0d34dabd",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot.md",
+    "Luna/Therapist_Signup/Casos/caso-005/Campos Date y DateTime que se envian a HubSpot.md",
+    "Luna/Therapist_Signup/Casos/caso-005",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Hubspot_y_las_fechas_date_is_more_than_1,000_year.md",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.alpha.png",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.form.date.png",
@@ -200,14 +202,12 @@
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
     "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
     "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments",
     "Luna/Therapist_Signup/HubSpot/untitled folder",
     "Luna/Therapist_Signup/HubSpot",
     "DevAsPros/Enlacito/redes-sociales",
-    "DevAsPros/Enlacito/untitled folder",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Luna/Backend/Direct Access/attachments/03.event.based.workflow.trigger.png",

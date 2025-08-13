@@ -118,6 +118,13 @@ También pude comprobar que tanto en Alpha y Omega la cuenta de HubSpot está co
 
 ## ¿Será el problema guardar las fechas en UTC?
 
+> [!Important]
+> Sí. Este es el problema.
+>
+> Como no se definía el time zone a nivel de Rails, la fecha se guarda en UTC Y se presenta en UTC.
+>
+> Guardar en UTC está bien pero se necesita hacer la conversión para evitar que se adelante un día al enviar a HubSpot.
+
 Therapist Signup nunca definió una time zone por defecto. Para los Contactos afectados, así está el valor de `created_at`.
 
 Skye Harry:
@@ -153,3 +160,28 @@ created_at: 2022-04-19 03:28:40 UTC
 ```
 
 Queda claro que como el `created_at` está en UTC, ya la fecha viajó al día siguiente, entonces lo que se manda a HubSpot es la fecha en el día siguiente para los casos de PDT.
+
+# Primera Solución
+
+Según Claude, la primera solución está en:
+
+- Configurar el TimeZone en Rails
+
+```ruby
+def timezone_aware_formated_date(date, therapist_id: nil)
+	local_date = date.in_time_zone(Time.zone)
+	Time.utc(local_date.year, local_date.month, local_date.day).strftime("%s%3N")
+end
+```
+
+- Usar `in_time_zone` para la conversión de la fecha cuando viaja a HubSpot
+
+```ruby
+# config/application.rb
+
+config.time_zone = "America/Los_Angeles"
+```
+
+Esto me parece bien porque el campo `created_at` es un timestamp (datetime) y causa todos estos problemas al tener valores para la hora.
+
+En cambio, otros campos que usan la función original son solo tipo fecha. Ver 
