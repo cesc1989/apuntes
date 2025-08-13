@@ -11,10 +11,14 @@
             "id": "802a1afbad00bfeb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/caso-005/Scripts de Prueba de Conversión de Formato.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Scripts de Prueba de Conversión de Formato"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Therapist_Signup/Casos/caso-005/Scripts de Prueba de Conversión de Formato.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Scripts de Prueba de Conversión de Formato"
             }
           }
         ],
@@ -161,6 +166,7 @@
   },
   "active": "802a1afbad00bfeb",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/caso-005/Scripts de Prueba de Conversión de Formato.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot.md",
     "Luna/Therapist_Signup/Casos/caso-005/Campos Date y DateTime que se envian a HubSpot.md",
     "Luna/Therapist_Signup/Casos/caso-005",
@@ -196,7 +202,6 @@
     "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
     "DevAsPros/Enlacito/descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/descubrimiento/dub/dub.md",
-    "DevAsPros/Enlacito/descubrimiento/lowerhot/Lowerhot.md",
     "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments",
