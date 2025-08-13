@@ -184,4 +184,4 @@ config.time_zone = "America/Los_Angeles"
 
 Esto me parece bien porque el campo `created_at` es un timestamp (datetime) y causa todos estos problemas al tener valores para la hora.
 
-En cambio, otros campos que usan la función original son solo tipo fecha. Ver 
+En cambio, otros campos que usan la función original son solo tipo fecha. Ver [[Campos Date y DateTime que se envian a HubSpot]]
