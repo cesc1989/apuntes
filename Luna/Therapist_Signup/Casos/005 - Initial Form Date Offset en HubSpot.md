@@ -161,7 +161,7 @@ created_at: 2022-04-19 03:28:40 UTC
 
 Queda claro que como el `created_at` está en UTC, ya la fecha viajó al día siguiente, entonces lo que se manda a HubSpot es la fecha en el día siguiente para los casos de PDT.
 
-# Primera Solución
+# Primera Solución 🟡
 
 Según Claude, la primera solución está en:
 
@@ -185,3 +185,7 @@ config.time_zone = "America/Los_Angeles"
 Esto me parece bien porque el campo `created_at` es un timestamp (datetime) y causa todos estos problemas al tener valores para la hora.
 
 En cambio, otros campos que usan la función original son solo tipo fecha. Ver [[Campos Date y DateTime que se envian a HubSpot]]
+
+# Segunda Solución
+
+Crear un nuevo campo que sea de tipo `Date`. Con ese campo se evita todo ese lío de la zona horaria porque simplemente se guarda la fecha sin más.
