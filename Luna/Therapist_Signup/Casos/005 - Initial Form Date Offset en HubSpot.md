@@ -192,3 +192,8 @@ En cambio, otros campos que usan la función original son solo tipo fecha. Ver [
 # Segunda Solución
 
 Crear un nuevo campo que sea de tipo `Date`. Con ese campo se evita todo ese lío de la zona horaria porque simplemente se guarda la fecha sin más.
+
+Documentos relacionados:
+
+- Scripts de pruebas de conversión a milisegundos -> [[Scripts de Prueba de Conversión de Formato#Conversión a milisegundos]]
+- Script para comprobar que no es necesario configurar la zona horaria -> [[Scripts de Prueba de Conversión de Formato#Validación de que Date.current con o sin TimeZone será igual]]
