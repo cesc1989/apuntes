@@ -163,6 +163,9 @@ Queda claro que como el `created_at` está en UTC, ya la fecha viajó al día si
 
 # Primera Solución 🟡
 
+> [!Note]
+> Esto sirve bien para usuarios en Pacific pero podría causar el mismo problema para usuarios en otras zonas horarios.
+
 Según Claude, la primera solución está en:
 
 - Configurar el TimeZone en Rails
