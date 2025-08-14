@@ -90,11 +90,17 @@ ap "Date en modo edge en milisegundos pasada a Fecha:"
 ap Time.at(res3.to_i / 1000).utc.strftime("%Y-%m-%d")
 ```
 
-## Validación de que Date.current con o sin TimeZone será igual
+## Validación de que Date.current con o sin TimeZone **NO** será igual
 
-Estando ya en uso el campo `signup_date` el cual es de tipo Date no había necesidad de configurar el TimeZone en `application.rb`. Le pregunté a Claude y dijo que sí era necesario así que le pedí un script para comprobar eso.
+Estando ya en uso el campo `signup_date` el cual es de tipo Date **YO CREí QUE** no había necesidad de configurar el TimeZone en `application.rb`. Le pregunté a Claude y dijo que sí era necesario así que le pedí un script para comprobar eso.
 
-Este es el script:
+Este es el script.
+
+> [!Important]
+> Este script está mal porque se está ejecutando `Date.current` en la misma hora que probé el script. Si lo corro a las 8AM, entonces el resultado siempre será favorable a mi hipótesis.
+>
+> Lo que en realidad necesito es probar el script con el servidor en una hora por la noche para poder verificar que no haya conversión horaria.
+
 ```ruby
 date_string = "2025-08-11 22:30:00 -0700"  # 10:30pm Pacific
 
@@ -192,6 +198,9 @@ Without TZ config: HubSpot shows 2025-08-13
 With TZ config: HubSpot shows 2025-08-13
 Difference: No difference
 ```
+
+> [!error]
+> Todo lo anterior está mal. La configuración de zona horaria SÍ es necesaria.
 
 No hubo diferencia alguna porque en palabras de Claude:
 
