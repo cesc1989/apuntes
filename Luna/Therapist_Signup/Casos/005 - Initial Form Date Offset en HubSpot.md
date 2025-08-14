@@ -196,4 +196,4 @@ Crear un nuevo campo que sea de tipo `Date`. Con ese campo se evita todo ese lí
 Documentos relacionados:
 
 - Scripts de pruebas de conversión a milisegundos -> [[Scripts de Prueba de Conversión de Formato#Conversión a milisegundos]]
-- Script para comprobar que no es necesario configurar la zona horaria -> [[Scripts de Prueba de Conversión de Formato#Validación de que Date.current con o sin TimeZone será igual]]
+- Script para comprobar si es necesario configurar la zona horaria -> [[Scripts de Prueba de Conversión de Formato#Validación de que Date.current con o sin TimeZone será igual]]

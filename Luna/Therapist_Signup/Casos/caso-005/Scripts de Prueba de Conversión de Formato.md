@@ -94,12 +94,106 @@ ap Time.at(res3.to_i / 1000).utc.strftime("%Y-%m-%d")
 
 Estando ya en uso el campo `signup_date` el cual es de tipo Date **YO CREí QUE** no había necesidad de configurar el TimeZone en `application.rb`. Le pregunté a Claude y dijo que sí era necesario así que le pedí un script para comprobar eso.
 
-Este es el script.
+### Prueba Certera
+
+Esta versión del script sí tiene en cuenta una posible hora por la noche para ejecutar `Date.current`:
+
+```ruby
+puts "=== Testing Late Night Signup Scenarios ==="
+puts
+
+# Simulate a Pacific Time evening signup when UTC is already next day
+pacific_evening = "2025-08-11 23:45:00 -0700"  # 11:45pm Pacific
+utc_equivalent = Time.parse(pacific_evening).utc
+puts "User signs up: #{pacific_evening}"
+puts "UTC equivalent: #{utc_equivalent}"
+puts "UTC date: #{utc_equivalent.to_date}"
+puts "Pacific date should be: 2025-08-11"
+puts
+
+# Test WITHOUT timezone config
+puts "--- WITHOUT timezone config (server thinks it's UTC) ---"
+original_zone = Time.zone
+Time.zone = 'UTC'
+
+# This simulates what happens in the controller during signup
+puts "Time.zone: #{Time.zone.name}"
+puts "Date.current (what gets assigned): #{Date.current}"
+
+# Simulate the therapist creation
+t1 = Therapist.where(hubspot_id: nil).first
+t1.update_columns(
+  created_at: Time.parse(pacific_evening),
+  signup_date: Date.current  # This uses UTC date
+)
+
+puts "Stored signup_date: #{t1.signup_date}"
+
+# Test what HubSpot receives
+service = HubspotContactService.new(therapist: t1, new_signup: true)
+hubspot_result = service.send(:signup_form_date)
+hubspot_date = Time.at(hubspot_result.to_i / 1000).utc.strftime("%Y-%m-%d")
+puts "HubSpot shows: #{hubspot_date}"
+puts "❌ WRONG: Should show 2025-08-11 but shows #{hubspot_date}"
+
+# Test WITH timezone config
+puts "\n--- WITH timezone config (server configured for Pacific) ---"
+Time.zone = 'America/Los_Angeles'
+
+puts "Time.zone: #{Time.zone.name}"
+# Simulate what Date.current would be if server was configured for Pacific
+# and processing the request at 11:45pm Pacific time
+simulated_pacific_current = Time.parse(pacific_evening).in_time_zone('America/Los_Angeles').to_date
+puts "Date.current (what gets assigned): #{simulated_pacific_current}"
+
+t1.update_columns(signup_date: simulated_pacific_current)
+puts "Stored signup_date: #{t1.signup_date}"
+
+hubspot_result = service.send(:signup_form_date)
+hubspot_date = Time.at(hubspot_result.to_i / 1000).utc.strftime("%Y-%m-%d")
+puts "HubSpot shows: #{hubspot_date}"
+puts "✅ CORRECT: Shows the right date (2025-08-11)"
+
+Time.zone = original_zone
+```
+
+Arrojó estos resultados:
+```bash
+=== Testing Late Night Signup Scenarios ===
+
+User signs up: 2025-08-11 23:45:00 -0700
+UTC equivalent: 2025-08-12 06:45:00 UTC
+UTC date: 2025-08-12
+Pacific date should be: 2025-08-11
+
+--- WITHOUT timezone config (server thinks its UTC) ---
+Time.zone: UTC
+Date.current (what gets assigned): 2025-08-14
+  Therapist Load (11.5ms)  SELECT "therapists".* FROM "therapists" WHERE "therapists"."hubspot_id" IS NULL ORDER BY "therapists"."id" ASC LIMIT $1  [["LIMIT", 1]]
+  Therapist Update (15.9ms)  UPDATE "therapists" SET "created_at" = $1, "signup_date" = $2 WHERE "therapists"."id" = $3  [["created_at", "2025-08-12 06:45:00"], ["signup_date", "2025-08-14"], ["id", "7324ba4a-7c1d-418a-9f3e-7c34e725dd76"]]
+Stored signup_date: 2025-08-14
+[DATE_TRANSFORMATION] Converting date: 2025-08-14 to a Hubspot format for 7324ba4a-7c1d-418a-9f3e-7c34e725dd76
+HubSpot shows: 2025-08-14
+❌ WRONG: Should show 2025-08-11 but shows 2025-08-14
+
+--- WITH timezone config (server configured for Pacific) ---
+Time.zone: America/Los_Angeles
+Date.current (what gets assigned): 2025-08-11
+  Therapist Update (0.4ms)  UPDATE "therapists" SET "signup_date" = $1 WHERE "therapists"."id" = $2  [["signup_date", "2025-08-11"], ["id", "7324ba4a-7c1d-418a-9f3e-7c34e725dd76"]]
+Stored signup_date: 2025-08-11
+[DATE_TRANSFORMATION] Converting date: 2025-08-11 to a Hubspot format for 7324ba4a-7c1d-418a-9f3e-7c34e725dd76
+HubSpot shows: 2025-08-11
+✅ CORRECT: Shows the right date (2025-08-11)
+```
+
+### Prueba Fallida
 
 > [!Important]
 > Este script está mal porque se está ejecutando `Date.current` en la misma hora que probé el script. Si lo corro a las 8AM, entonces el resultado siempre será favorable a mi hipótesis.
 >
 > Lo que en realidad necesito es probar el script con el servidor en una hora por la noche para poder verificar que no haya conversión horaria.
+
+Este es el script.
 
 ```ruby
 date_string = "2025-08-11 22:30:00 -0700"  # 10:30pm Pacific
