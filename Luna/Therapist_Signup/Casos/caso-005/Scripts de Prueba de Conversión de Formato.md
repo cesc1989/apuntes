@@ -94,7 +94,7 @@ ap Time.at(res3.to_i / 1000).utc.strftime("%Y-%m-%d")
 
 Estando ya en uso el campo `signup_date` el cual es de tipo Date **YO CREí QUE** no había necesidad de configurar el TimeZone en `application.rb`. Le pregunté a Claude y dijo que sí era necesario así que le pedí un script para comprobar eso.
 
-### Prueba Certera
+### Prueba Certera 🟡
 
 Esta versión del script sí tiene en cuenta una posible hora por la noche para ejecutar `Date.current`:
 
@@ -186,7 +186,7 @@ HubSpot shows: 2025-08-11
 ✅ CORRECT: Shows the right date (2025-08-11)
 ```
 
-### Prueba Fallida
+### Prueba Fallida 🔴
 
 > [!Important]
 > Este script está mal porque se está ejecutando `Date.current` en la misma hora que probé el script. Si lo corro a las 8AM, entonces el resultado siempre será favorable a mi hipótesis.
