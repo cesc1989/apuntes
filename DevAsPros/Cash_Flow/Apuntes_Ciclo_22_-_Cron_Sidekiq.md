@@ -73,6 +73,8 @@ De esa forma pude probar y funcionaba de nuevo el form en Firefox Mobile. Todo e
 
 # Asset  was not declared to be precompiled in production
 
+Etiquetas: #problema_assets
+
 Ya me había pasado antes este error en el Ciclo 17 -> [[Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow#Problema de Assets Precompile con Capybara y System tests]]
 
 ```bash
