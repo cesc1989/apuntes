@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d39955a59e2f7120",
+        "id": "840bdd7f452f9e44",
         "type": "tabs",
         "children": [
           {
-            "id": "711c759b420b867b",
+            "id": "31e35b96b7c5a09e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Karabiner desconecta el Hyper key"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "logger",
+                "query": "ActionView",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Karabiner desconecta el Hyper key"
             }
           }
         ],
@@ -159,11 +164,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "711c759b420b867b",
+  "active": "31e35b96b7c5a09e",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
+    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_08_-_Coshi_Notes_-_Cache.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
+    "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
     "Luna/Therapist_Signup/Casos/caso-005/Scripts de Prueba de Conversión de Formato.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot.md",
-    "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
@@ -180,21 +200,9 @@
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Backend/Direct Access/tests/Booking Specs.md",
-    "Luna/Backend/Direct Access/QA DART.md",
     "Luna/Backend/Direct Access/tests",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/Apuntes_de_HTMX_y_Rails.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/Inertial Rails.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments/001.inertia.example.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
-    "Luna/Backend/Direct Access/General Notes Direct Access Restricted Therapist.md",
-    "Luna/Backend/Direct Access/Workflows para DART.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_“Leyes”_al_gusto.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Plantilla_de_Rails_apps.md",
     "DevAsPros/Super_Menú/Descubrimiento/attachments/supermenu.yummy.png",
     "DevAsPros/Super_Menú/Descubrimiento/attachments",
     "DevAsPros/Super_Menú/Descubrimiento/untitled folder",
@@ -202,8 +210,6 @@
     "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments",
-    "Luna/Therapist_Signup/HubSpot/untitled folder",
-    "Luna/Therapist_Signup/HubSpot",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Canvas/GraphQL.canvas",
