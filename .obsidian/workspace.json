@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "840bdd7f452f9e44",
+        "id": "f2b3277262c271dd",
         "type": "tabs",
         "children": [
           {
-            "id": "31e35b96b7c5a09e",
+            "id": "29c5ec390a007a8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
+                "file": "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Karabiner desconecta el Hyper key"
+              "title": "005 - Initial Form Date Offset en HubSpot ✅"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
+                "file": "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Karabiner desconecta el Hyper key"
+              "title": "Outline of 005 - Initial Form Date Offset en HubSpot ✅"
             }
           }
         ],
@@ -164,12 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31e35b96b7c5a09e",
+  "active": "29c5ec390a007a8b",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
@@ -183,7 +183,7 @@
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
     "Luna/Therapist_Signup/Casos/caso-005/Scripts de Prueba de Conversión de Formato.md",
-    "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot.md",
+    "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
@@ -211,7 +211,6 @@
     "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
-    "Luna/Backend/Direct Access/attachments/01.reenrollment.trigger.warning.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]

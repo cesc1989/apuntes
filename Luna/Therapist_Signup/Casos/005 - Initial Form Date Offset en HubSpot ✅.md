@@ -189,7 +189,7 @@ Esto me parece bien porque el campo `created_at` es un timestamp (datetime) y ca
 
 En cambio, otros campos que usan la función original son solo tipo fecha. Ver [[Campos Date y DateTime que se envian a HubSpot]]
 
-# Segunda Solución 🟡
+# Segunda Solución 🟢
 
 Crear un nuevo campo que sea de tipo `Date`. Con ese campo se evita todo ese lío de la zona horaria porque simplemente se guarda la fecha sin más.
 
