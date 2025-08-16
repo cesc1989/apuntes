@@ -217,24 +217,24 @@ Así queda la parte del acción que configura el archivo `~/.ssh/config` del con
 ```yaml
 steps:
   - uses: actions/checkout@v3
-	- name: Configure SSH
-		env:
-			SSH_KEY: ${{ secrets.PRIVATE_KEY }}
-			KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
-			SSH_HOST: ${{ secrets.TARGET_HOST }}
-			SSH_USER: ${{ secrets.TARGET_USER }}
-		run: |
-			mkdir -p ~/.ssh/
-			echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
-			echo "$SSH_KEY" > ~/.ssh/deploy.key
-			chmod 600 ~/.ssh/deploy.key
-			cat >>~/.ssh/config <<END
-				Host cashflow_cloud
-					HostName $SSH_HOST
-					User $SSH_USER
-					IdentityFile ~/.ssh/deploy.key
-					StrictHostKeyChecking no
-			END
+  - name: Configure SSH
+    env:
+      SSH_KEY: ${{ secrets.PRIVATE_KEY }}
+      KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
+      SSH_HOST: ${{ secrets.TARGET_HOST }}
+      SSH_USER: ${{ secrets.TARGET_USER }}
+    run: |
+      mkdir -p ~/.ssh/
+      echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+      echo "$SSH_KEY" > ~/.ssh/deploy.key
+      chmod 600 ~/.ssh/deploy.key
+      cat >>~/.ssh/config <<END
+        Host cashflow_cloud
+          HostName $SSH_HOST
+          User $SSH_USER
+          IdentityFile ~/.ssh/deploy.key
+          StrictHostKeyChecking no
+      END
 ```
 
 En el mismo artículo explica la parte donde se configuran esos *secrets* en el repo.
