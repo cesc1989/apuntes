@@ -208,13 +208,13 @@ Done.
 
 Etiquetas: #despliegue_vps
 
-> [!Nota]
+> [!Note]
 > Se pueden usar **las mismas llaves** para acceder al servidor desde el computador personal.
 
 De [este artículo](https://dev.to/andersbjorkland/how-to-deploy-with-deployer-and-github-actions-k07) tomé la forma de configurar un acceso por SSH en el runner del GitHub Action para entrar al servidor y poder luego ejecutar comandos.
 
 Así queda la parte del acción que configura el archivo `~/.ssh/config` del contenedor del action:
-```yml
+```yaml
 steps:
 	- uses: actions/checkout@v3
 	- name: Configure SSH
