@@ -216,7 +216,7 @@ De [este artículo](https://dev.to/andersbjorkland/how-to-deploy-with-deployer-a
 Así queda la parte del acción que configura el archivo `~/.ssh/config` del contenedor del action:
 ```yaml
 steps:
-	- uses: actions/checkout@v3
+  - uses: actions/checkout@v3
 	- name: Configure SSH
 		env:
 			SSH_KEY: ${{ secrets.PRIVATE_KEY }}
