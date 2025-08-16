@@ -260,7 +260,7 @@ Luego, para acceder al servidor y ejecutar el comando es como si se hiciera desd
 ```bash
 - name: Log in server and run script
   run: |
-	  ssh cashflow_cloud 'bash ~/cashflow/deployments/api-release/scripts/deploy_api.sh'
+    ssh cashflow_cloud 'bash ~/cashflow/deployments/api-release/scripts/deploy_api.sh'
 ```
 
 El nombre `cashflow_cloud` lo definí en la llave Host en el paso anterior. Esta parte la vi fue en este [otro artículo](https://dev.to/martinandersongraham/using-github-actions-to-deploy-updates-to-my-vps-40el).
