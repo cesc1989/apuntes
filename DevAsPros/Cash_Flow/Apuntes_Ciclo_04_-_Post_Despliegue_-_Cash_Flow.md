@@ -1,6 +1,7 @@
 # Apuntes Ciclo 04 - Post Despliegue - Cash Flow
 
 # Configuración correcta de archivo .sqlite
+
 ## Sospecha #1
 
 Algo está dañando el archivo al hacer rsync.
@@ -19,6 +20,7 @@ Y luego la app se ejecuta en otra carpeta que también tiene un archivo de base 
 
 
 ## ¿Qué hacer?
+
 - Procurar que ese archivo se sincronice
 - Cambiar la instrucción de rsync a --delete-after
 
@@ -186,50 +188,61 @@ El access token que se configure debe tener permisos de lectura en Account y de 
 
 ## Comandos para Backup
 
-Para listar archivos
-
-    linode-cli obj ls cashflow-backups
-                      DIR    db/
-    2023-07-14 21:48  98304  cashflow_production.sqlite
+Para listar archivos:
+```bash
+linode-cli obj ls cashflow-backups
+									DIR    db/
+2023-07-14 21:48  98304  cashflow_production.sqlite
+```
 
 Para hacer backup:
-
-    linode-cli obj put ./cashflow/db/cashflow_production.sqlite cashflow-backups
-    Uploading cashflow_production.sqlite:
-     |####################################################################################################| 100.0%
-    Done.
+```bash
+linode-cli obj put ./cashflow/db/cashflow_production.sqlite cashflow-backups
+Uploading cashflow_production.sqlite:
+ |####################################################################################################| 100.0%
+Done.
+```
 
 
 # Configurar acceso ssh en una GitHub Action
 
-Usé **las mismas llaves mías** para acceder al servidor desde el computador personal.
+Etiquetas: #despliegue_vps
+
+> [!Nota]
+> Se pueden usar **las mismas llaves** para acceder al servidor desde el computador personal.
 
 De [este artículo](https://dev.to/andersbjorkland/how-to-deploy-with-deployer-and-github-actions-k07) tomé la forma de configurar un acceso por SSH en el runner del GitHub Action para entrar al servidor y poder luego ejecutar comandos.
 
-Así queda la parte del acción que configura el archivo `~/.ssh/config` del servidor del action:
+Así queda la parte del acción que configura el archivo `~/.ssh/config` del contenedor del action:
+```yml
+steps:
+	- uses: actions/checkout@v3
+	- name: Configure SSH
+		env:
+			SSH_KEY: ${{ secrets.PRIVATE_KEY }}
+			KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
+			SSH_HOST: ${{ secrets.TARGET_HOST }}
+			SSH_USER: ${{ secrets.TARGET_USER }}
+		run: |
+			mkdir -p ~/.ssh/
+			echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+			echo "$SSH_KEY" > ~/.ssh/deploy.key
+			chmod 600 ~/.ssh/deploy.key
+			cat >>~/.ssh/config <<END
+				Host cashflow_cloud
+					HostName $SSH_HOST
+					User $SSH_USER
+					IdentityFile ~/.ssh/deploy.key
+					StrictHostKeyChecking no
+			END
+```
 
-    steps:
-      - uses: actions/checkout@v3
-      - name: Configure SSH
-        env:
-          SSH_KEY: ${{ secrets.PRIVATE_KEY }}
-          KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
-          SSH_HOST: ${{ secrets.TARGET_HOST }}
-          SSH_USER: ${{ secrets.TARGET_USER }}
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
-          echo "$SSH_KEY" > ~/.ssh/deploy.key
-          chmod 600 ~/.ssh/deploy.key
-          cat >>~/.ssh/config <<END
-            Host cashflow_cloud
-              HostName $SSH_HOST
-              User $SSH_USER
-              IdentityFile ~/.ssh/deploy.key
-              StrictHostKeyChecking no
-          END
+En el mismo artículo explica la parte donde se configuran esos *secrets* en el repo.
 
-En el mismo artículo explica la parte donde se configuran esos secrets en el repo.
+> [!Note]
+> Los secrets se configuran en repo -> Settings -> Security -> Secrets and Variables -> Actions. Cuando se llegue ahí se crean los secrets en "Repository secrets".
+> .
+> También se pueden crear con el GitHub CLI. [Ver](https://cli.github.com/manual/gh_secret_set)
 
 Las variables:
 
@@ -238,18 +251,17 @@ Las variables:
 - `secrets.KNOWN_HOSTS`: es el contenido del archivo en `~/.ssh/known_hosts` en el computador local
     - se puede copiar eso mismo siguiendo los pasos de abajo.
 
-
 > Para configurar el valor para `known_hosts` la más fácil es hacer ssh desde el computador local y tomar el texto que haya en ese mismo archivo local. Copiarlo y pegarlo en la configuración del secret.
-
 
 - `secrets.TARGET_HOST`: la IP del servidor en Linode.
 - `secrets.TARGET_USER`: el nombre de usuario, en este caso ubuntu.
 
 Luego, para acceder al servidor y ejecutar el comando es como si se hiciera desde el computador local:
-
-    - name: Log in server and run script
-      run: |
-        ssh cashflow_cloud 'bash ~/cashflow/deployments/api-release/scripts/deploy_api.sh'
+```yml
+- name: Log in server and run script
+  run: |
+	  ssh cashflow_cloud 'bash ~/cashflow/deployments/api-release/scripts/deploy_api.sh'
+```
 
 El nombre `cashflow_cloud` lo definí en la llave Host en el paso anterior. Esta parte la vi fue en este [otro artículo](https://dev.to/martinandersongraham/using-github-actions-to-deploy-updates-to-my-vps-40el).
 

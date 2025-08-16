@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ad3cc10ed5259d1e",
+        "id": "d2e6b5d81f7cdbe0",
         "type": "tabs",
         "children": [
           {
-            "id": "6f8c5a14f4c866fc",
+            "id": "e98eb7964b5207ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-                "mode": "preview",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
+              "title": "Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_22_-_Cron_Sidekiq"
+              "title": "Outline of Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
             }
           }
         ],
@@ -165,8 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f8c5a14f4c866fc",
+  "active": "e98eb7964b5207ac",
   "lastOpenFiles": [
+    "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
+    "Configurar acceso ssh en una GitHub Action.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
@@ -177,7 +179,6 @@
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_08_-_Coshi_Notes_-_Cache.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
@@ -200,8 +201,6 @@
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
     "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues ✅.md",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/Direct Access/tests/Booking Specs.md",
     "Luna/Backend/Direct Access/tests",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments/001.inertia.example.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
