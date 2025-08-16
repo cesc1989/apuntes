@@ -214,7 +214,7 @@ Etiquetas: #despliegue_vps
 De [este artículo](https://dev.to/andersbjorkland/how-to-deploy-with-deployer-and-github-actions-k07) tomé la forma de configurar un acceso por SSH en el runner del GitHub Action para entrar al servidor y poder luego ejecutar comandos.
 
 Así queda la parte del acción que configura el archivo `~/.ssh/config` del contenedor del action:
-```yaml
+```bash
 steps:
   - uses: actions/checkout@v3
   - name: Configure SSH
@@ -257,7 +257,7 @@ Las variables:
 - `secrets.TARGET_USER`: el nombre de usuario, en este caso ubuntu.
 
 Luego, para acceder al servidor y ejecutar el comando es como si se hiciera desde el computador local:
-```yml
+```bash
 - name: Log in server and run script
   run: |
 	  ssh cashflow_cloud 'bash ~/cashflow/deployments/api-release/scripts/deploy_api.sh'
