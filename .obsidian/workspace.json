@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4b64f382aaef9e4f",
+        "id": "b679a1049cec570c",
         "type": "tabs",
         "children": [
           {
-            "id": "bf48fb1df982c1eb",
+            "id": "df2e18e9ad5d9238",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes de Jekyll"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes de Jekyll"
+              "title": "Outline"
             }
           }
         ],
@@ -164,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf48fb1df982c1eb",
+  "active": "df2e18e9ad5d9238",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
