@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d2e6b5d81f7cdbe0",
+        "id": "4b64f382aaef9e4f",
         "type": "tabs",
         "children": [
           {
-            "id": "e98eb7964b5207ac",
+            "id": "bf48fb1df982c1eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
+              "title": "Apuntes de Jekyll"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "asset precompile",
+                "query": "certificado",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
+              "title": "Outline of Apuntes de Jekyll"
             }
           }
         ],
@@ -164,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e98eb7964b5207ac",
+  "active": "bf48fb1df982c1eb",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
     "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
     "Configurar acceso ssh en una GitHub Action.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
@@ -199,8 +201,6 @@
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.alpha.png",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.form.date.png",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
-    "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues ✅.md",
-    "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
     "Luna/Backend/Direct Access/tests",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments/001.inertia.example.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
