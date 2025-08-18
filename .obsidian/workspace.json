@@ -11,10 +11,14 @@
             "id": "f17ab3eaeea70690",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 08 - Organization"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Untitled.canvas",
+                "file": "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Apuntes Ciclo 08 - Organization"
             }
           }
         ],
@@ -160,10 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "f17ab3eaeea70690",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Definicion",
+    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
     "DevAsPros/Enlacito/Untitled.canvas",
+    "DevAsPros/Enlacito/Definicion",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
@@ -195,7 +201,6 @@
     "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
     "Luna/Therapist_Signup/Casos/caso-005/Campos Date y DateTime que se envian a HubSpot.md",
     "Luna/Therapist_Signup/Casos/caso-005",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Integración_con_HubSpot_-_Lecciones.md",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.alpha.png",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.form.date.png",
     "Luna/Backend/Direct Access/tests",
@@ -207,7 +212,6 @@
     "DevAsPros/Super_Menú/Descubrimiento",
     "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
     "Luna/Therapist_Signup/HubSpot/attachments/30.association.history.png",
-    "Luna/Therapist_Signup/HubSpot/attachments",
     "Luna/Backend/Direct Access/attachments/00.new.contact.workflow.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
