@@ -62,4 +62,4 @@ El plan gratuito tiene un límite bastante modesto.
 
 Los planes son los más caros que he visto hasta ahora.
 
-![[DevAsPros/Enlacito/descubrimiento/dub/attachments/005.plans.png]]
+![[DevAsPros/Enlacito/Descubrimiento/dub/attachments/005.plans.png]]

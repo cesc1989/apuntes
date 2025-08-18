@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b679a1049cec570c",
+        "id": "e243a751b66c0911",
         "type": "tabs",
         "children": [
           {
-            "id": "df2e18e9ad5d9238",
+            "id": "f17ab3eaeea70690",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Teams should be an MVP feature"
             }
           }
         ],
@@ -159,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df2e18e9ad5d9238",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
