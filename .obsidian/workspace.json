@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b113f38f49a47386",
+        "id": "33730da8d9e7b5a6",
         "type": "tabs",
         "children": [
           {
-            "id": "7ce433550b3cb56a",
+            "id": "9751c808f7bedb53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
+                "file": "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes de Protocol Phases XX"
+              "title": "Todos los nombres de las queries"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
+                "file": "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes de Protocol Phases XX"
+              "title": "Outline of Todos los nombres de las queries"
             }
           }
         ],
@@ -164,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ce433550b3cb56a",
+  "active": "9751c808f7bedb53",
   "lastOpenFiles": [
-    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
+    "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
     "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
+    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
     "Luna/Backend/Protocols/phase-29",
     "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
@@ -200,7 +201,6 @@
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
     "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
-    "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
     "Luna/Therapist_Signup/Casos/caso-005",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.alpha.png",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.form.date.png",
