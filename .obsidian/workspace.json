@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e243a751b66c0911",
+        "id": "c4ce6a7bcd6e710d",
         "type": "tabs",
         "children": [
           {
-            "id": "f17ab3eaeea70690",
+            "id": "006ad414e22635d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
+                "file": "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Ciclo 08 - Organization"
+              "title": "Apuntes de Protocol Phases XX"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
+                "file": "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 08 - Organization"
+              "title": "Outline of Apuntes de Protocol Phases XX"
             }
           }
         ],
@@ -164,16 +164,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f17ab3eaeea70690",
+  "active": "006ad414e22635d8",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "DevAsPros/Enlacito/Untitled.canvas",
     "DevAsPros/Enlacito/Definicion",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "Luna/Backend/Protocols/Rake de Protocol Phases XX.md",
+    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Configurar acceso ssh en una GitHub Action.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
