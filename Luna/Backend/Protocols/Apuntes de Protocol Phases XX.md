@@ -68,7 +68,7 @@ bundle exec rake protocols:phase_26\[true\]
 
 En mi primer vez que trabajé en esto descubrí varias cosas sobre cómo está definido el modelo alrededor de Protocol Phases. Describo algunas de esas a continuación.
 
-## Error de violación de índice de exclusión
+## Error de violación de índice de exclusión en `phase_periods`
 
 Este error:
 ```bash
@@ -113,3 +113,48 @@ En el rake está controlador por la función `validate_protocol_numbers` que es 
 Cuando hay más extras en base de datos el mensaje es: `Protocol ID mismatch: Extras via database`. Cuando hay más extras en los seeds el mensaje es: `Protocol ID mismatch: Extras via seeds`
 
 En este caso los IDs de los protocols son "Non Production". Creo que es porque ejecuté la rake pasada (phase 25) en mi local y en alpha.
+
+## Phase/question cardinality mismatch [UUID]
+
+Cuando corrí la más reciente phase me dio este error:
+```bash
+bundle exec rake protocols:phase_29
+
+Phase/question cardinality mismatch 09aa5740-e95a-4dcf-a2bf-0334074b1bd9
+```
+
+Eso fue porque el usuario configuró mal la llave `phase_periods` y la llave `phases` dentro de la lista de `questions`.
+
+Esto dijo Claude cuando le pedí que analizara y dijo que:
+
+> Protocol `09aa5740-e95a-4dcf-a2bf-0334074b1bd9` (Spine Surgery Prevention) had a **cardinality mismatch** between:
+> - **Phase periods**: 14 phases defined in `phase_periods`
+> - **Question phases**: Only 12 characters in question `phases` fields
+
+La clave es que si `phase_periods` tiene 4 elementos, entonces cada `phase` debe tener un total de 4 puntos/círculos. Ejemplo.
+
+Con `phase_periods: ["3:10", "11:23", "24:37", "38:48"]`. Cada `phase` debe ser `phases: oo..`.
+
+Donde entre círculos y puntos hay 4 en total. Podrían darse variaciones pero siempre serán cuatro elementos en cada `phases`.
+
+Así estaba la configuración que causó el error:
+```yaml
+phase_periods: ["0:0","1:1","2:2","3:3","4:4","5:5","6:6","7:7","8:8","9:9","10:10","11:11","12:12","13:13"]
+```
+
+Y así muchos de los `phases`:
+```yml
+phases: .o..
+```
+
+Hay una clara disparidad. Le pedí corregir al reporter y luego todo quedó en orden así:
+
+```yaml
+phase_periods: ["0:0","1:1","2:2","3:3","4:4","5:5","6:6","7:7","8:8","9:9","10:10","11:11"]
+```
+
+Y cada `phases`:
+```
+phases: ..o...o...o.
+```
+
