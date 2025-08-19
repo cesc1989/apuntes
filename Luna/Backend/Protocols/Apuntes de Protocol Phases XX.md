@@ -16,6 +16,10 @@ Esta es una rake task que se corre cada tanto tiempo (muy esporádicamente) cuan
 - A veces también piden cargar Pathways. Esto es un archivo YAML también.
 	- Este archivo se copia en `db/seeds/`
 	- Copia los Pathways en orden alfabetico.
+- Comprobar que los NPI de cada physician de los nuevos protocolos estén correctos.
+	- O sea que:
+		- sean de un physician existente
+		- sean unico del physician nuevo
 
 El resumen de las instrucciones del runbook en Notion es:
 
