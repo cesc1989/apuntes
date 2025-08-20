@@ -50,3 +50,28 @@ Se lograron usando estas tablas:
 
 Para probar este export en Alpha me tocó seguir el runbook para crear una tabla a partir de un crawler. No había nada prácticamente.
 
+# Reversión por error de campo
+
+Explotó el export en Omega porque el campo de `active_admin_comments` puede tener saltos de línea y otras cosas. Entonces el export en Athena se veía así:
+
+![[broken.export.png]]
+
+Para reverse tuve que:
+
+- Hacer PR de revert
+- Esperar que el despliegue completara
+- Pedir ejecutar el worker `Athena::PatientSummaryWriterWorker.perform_async`
+- Esperar a que complete el worker
+- Revisar en S3 los archivos data.csv de cada partición se actualizaran
+- Correr de nuevo el Crawler "Business Operations - Patient Summary"
+- Revisar Athena
+
+## Casos Especiales
+
+**El worker le puede tomar bastante tiempo lograr el export en todas las particiones de la carpeta de cada tabla.**
+
+Pasó que en la carpeta de Agosto 2025 ya no se veía la columna "open_issues" en el CSV pero sí aparecía en el export más antiguo (2018). Pasados varios minutos se actualizó para no tener más esa columna.
+
+**Columna aún aparece en Athena porque el crawler no puede borrarla del definición.**
+
+Por lo anterior, la columna aún aparecía. Para corregir en este caso fui a la definición de la tabla y borré la columna del esquema.
