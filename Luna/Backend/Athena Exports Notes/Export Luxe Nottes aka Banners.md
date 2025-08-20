@@ -75,3 +75,20 @@ Pasó que en la carpeta de Agosto 2025 ya no se veía la columna "open_issues" e
 **Columna aún aparece en Athena porque el crawler no puede borrarla del definición.**
 
 Por lo anterior, la columna aún aparecía. Para corregir en este caso fui a la definición de la tabla y borré la columna del esquema.
+
+# Escapando texto de ActiveAdminComments
+
+El problema se daba porque al exportar el campo `body` de la tabla `active_admin_comments` se estaba dejando de escapar texto como saltos de línea (`\n`) y retorno del carro (`\r`).
+
+También podría haber varias comillas dobles y otras cosas que podrían romper el CSV.
+
+## Replicando
+
+Después de agregar varios "open issues" en un paciente de prueba en Alpha pude ver cómo se explotaba el CSV:
+
+![[alpha_broken.png]]
+
+Luego del fix (escapar caracteres)
+
+![[alpha_fixed.png]]
+

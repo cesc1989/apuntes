@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2e95dfc82839162d",
+        "id": "f85a43caa36da421",
         "type": "tabs",
         "children": [
           {
-            "id": "f7c2d904ae29b0bc",
+            "id": "b2a75c8ece501e9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "certificado",
+                "query": "tag:#worktree",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,12 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7c2d904ae29b0bc",
+  "active": "b2a75c8ece501e9d",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
+    "Luna/Backend/Athena Exports Notes/attachments/alpha_fixed.png",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Athena Exports Notes/attachments/broken.export.png",
     "Luna/Backend/Athena Exports Notes/attachments/image.png",
     "Luna/Backend/Athena Exports Notes/attachments/patient.open.issues.png",
-    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Athena Exports Notes/attachments",
     "Luna/Backend/Athena Exports Notes",
     "Luna/Backend/Reviewers/Info Básica.md",
@@ -201,7 +204,6 @@
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
-    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
@@ -211,8 +213,6 @@
     "Luna/Backend/Direct Access/tests",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments/001.inertia.example.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
-    "DevAsPros/Super_Menú/Descubrimiento/attachments/supermenu.yummy.png",
-    "Luna/Therapist_Signup/HubSpot/attachments/31.association.history.png",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas"
   ]
