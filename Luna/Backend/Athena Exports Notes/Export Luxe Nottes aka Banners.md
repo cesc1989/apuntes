@@ -92,3 +92,20 @@ Luego del fix (escapar caracteres)
 
 ![[alpha_fixed.png]]
 
+## Expresiones Regulares en PSQL
+
+Para quitar el salto de línea y el retorno de carro tocó poner esta expresión regular:
+```sql
+REGEXP_REPLACE(REGEXP_REPLACE(aac.body, E'[\\n\\r]+', ' ', 'g'), '"', '""', 'g')
+```
+
+Son dos expresiones `REGEXP_REPLACE` anidadas. Una reemplaza salto de línea y retorno de carro por espacio en blanco. La otra reemplaza una comilla doble `"` por dos comillas dobles `""`.
+
+Nota que la expresión es `\\n` o `\\r`. Eso quiere decir que reemplaza estrictamente el salto de línea o el retorno de carro.
+
+Esto porque en otras queries pude observar expresiones como esta:
+```sql
+REGEXP_REPLACE(a.canceled_reason_explanation, E'[\\\\n\\\\r]+', ' ', 'g')
+```
+
+Esa expresión lo que hace es cambiar la existencia literal del texto `\n`. O sea, backslash y la letra n. No el carácter salto de línea.
