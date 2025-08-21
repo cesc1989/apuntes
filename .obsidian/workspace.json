@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a8d3b9552df486ad",
+        "id": "29f6132bae2d0e42",
         "type": "tabs",
         "children": [
           {
-            "id": "6608b2d6700c16b1",
+            "id": "2626cef757266ee6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Export Therapist Booking Enabled"
+            }
+          },
+          {
+            "id": "d087cfa66cd70b5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Export Luxe Nottes aka Banners"
-            }
-          },
-          {
-            "id": "ff846fc968588590",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes de Protocol Phases XX"
+              "title": "Export Luxe Nottes aka Banners"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
+                "file": "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Export Luxe Nottes aka Banners"
+              "title": "Outline of Export Therapist Booking Enabled"
             }
           }
         ],
@@ -178,10 +178,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6608b2d6700c16b1",
+  "active": "2626cef757266ee6",
   "lastOpenFiles": [
-    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
+    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
@@ -218,7 +219,6 @@
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_08_-_Coshi_Notes_-_Cache.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
