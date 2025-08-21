@@ -13,6 +13,7 @@ Bogotá: 4pm
 **¿A qué hora se ejecuta el crawler?**
 
 Omega: 07:44 AM UTC
+Alpha: 12:00 AM UTC
 
 ## Detalles
 
