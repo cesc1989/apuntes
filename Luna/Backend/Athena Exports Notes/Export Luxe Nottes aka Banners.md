@@ -1,5 +1,21 @@
 # Export de Luxe Notes o Banners para Tableau
 
+## Datos Previos
+
+**¿A qué hora corre el worker?**
+
+A la fecha tiene esta configuración: `CRON_DAILY_AT_9_00_PM`
+
+UTC: 9pm
+Pacific: 2pm
+Bogotá: 4pm
+
+**¿A qué hora se ejecuta el crawler?**
+
+Omega: 07:44 AM UTC
+
+## Detalles
+
 Solicitaron que se exportaran a Tableau los datos que aparecen en los banners del perfil del paciente (los open issues).
 
 ![[patient.open.issues.png]]

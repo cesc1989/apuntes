@@ -11,10 +11,14 @@
             "id": "484b833d5929999d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Export Luxe Nottes aka Banners"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Comandos y Configuración de Kubectl.md",
+                "file": "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comandos y Configuración de Kubectl"
+              "title": "Outline of Export Luxe Nottes aka Banners"
             }
           }
         ],
@@ -160,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "484b833d5929999d",
   "lastOpenFiles": [
+    "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
@@ -200,7 +205,6 @@
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_08_-_Coshi_Notes_-_Cache.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
