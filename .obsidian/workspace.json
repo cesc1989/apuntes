@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "Apuntes de Protocol Phases XX"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
+                "file": "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes de Protocol Phases XX"
+              "title": "Outline of Export Luxe Nottes aka Banners"
             }
           }
         ],
@@ -179,8 +178,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff846fc968588590",
+  "active": "6608b2d6700c16b1",
   "lastOpenFiles": [
+    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
@@ -194,7 +194,6 @@
     "Luna/Backend/Athena Exports Notes",
     "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
-    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
     "Luna/Backend/Protocols/phase-29",
     "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",

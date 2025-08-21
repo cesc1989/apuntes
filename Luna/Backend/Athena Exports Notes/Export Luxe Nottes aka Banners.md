@@ -2,17 +2,24 @@
 
 ## Datos Previos
 
-**¿A qué hora corre el worker?**
+### ¿A qué hora corre el worker?
 
-A la fecha tiene esta configuración: `CRON_DAILY_AT_9_00_PM`
+A la fecha tiene esta configuración: `CRON_DAILY_AT_9_00_PM` y esta configuración de zona horaria:
+```ruby
+mgr.tz = ActiveSupport::TimeZone.new("America/Los_Angeles")
+```
 
-UTC: 9pm
-Pacific: 2pm
-Bogotá: 4pm
+Pacific: 9pm
+UTC: 4am
+Bogotá: 11pm
 
-**¿A qué hora se ejecuta el crawler?**
+### ¿A qué hora se ejecuta el crawler?
 
-Omega: 07:44 AM UTC
+Omega:
+- 07:44 AM UTC
+- 02:44 AM Bogotá
+- 00:44 Pacific
+
 Alpha: 12:00 AM UTC
 
 ## Detalles
