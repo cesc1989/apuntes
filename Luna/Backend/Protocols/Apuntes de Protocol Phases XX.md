@@ -19,7 +19,8 @@ Esta es una rake task que se corre cada tanto tiempo (muy esporádicamente) cuan
 - Comprobar que los NPI de cada physician de los nuevos protocolos estén correctos.
 	- O sea que:
 		- sean de un physician existente
-		- sean unico del physician nuevo
+		- sean único del physician nuevo
+- Confirmar con quien hace la solicitud que el PDF ya exista en el perfil del Physician en Luxe
 
 El resumen de las instrucciones del runbook en Notion es:
 
