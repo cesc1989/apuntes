@@ -36,6 +36,21 @@ scheduling_active: true
 
 Porque una vez `booking_enabled` es falso, el scheduling es falso también.
 
+## Sobre ANP: Accepting New Patients
+
+En la tarjeta mencionan varias veces la palabra "anp". Eso significa "Accepting New Patients". Es un toggle que el therapist tienen en su app para indicar si está aceptando nuevos pacientes ofrecidos por Luna.
+
+En la base de datos es el campo `accepting_new_patients` el cual define un enum:
+```ruby
+enum accepting_new_patients: {
+	closed_to_new_patients: 0,
+	open_to_new_patients: 1,
+	open_to_waitlist_patients: 2
+}
+```
+
+Esto trabaja por separado a `booking_enabled` y el valor calculado de "Scheduling Active".
+
 ## Configuración en S3/Glue/Athena
 
 El worker es: `Athena::TherapistSummaryWriterWorker`.
