@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2626cef757266ee6",
+            "id": "19300794b56d5584",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Export Therapist Booking Enabled"
-            }
-          },
-          {
-            "id": "d087cfa66cd70b5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Export Luxe Nottes aka Banners"
             }
           }
         ]
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ecto.migrate",
+                "query": "passenger_preload_bundler",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,10 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2626cef757266ee6",
+  "active": "19300794b56d5584",
   "lastOpenFiles": [
-    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
+    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
     "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
@@ -195,7 +183,6 @@
     "Luna/Backend/Athena Exports Notes",
     "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
-    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
     "Luna/Backend/Protocols/phase-29",
     "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
@@ -218,7 +205,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_08_-_Coshi_Notes_-_Cache.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_07_-_Coshi_Notes-_Twist_Import.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
