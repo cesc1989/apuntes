@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "29f6132bae2d0e42",
+        "id": "e0730494804fb6cd",
         "type": "tabs",
         "children": [
           {
-            "id": "19300794b56d5584",
+            "id": "01afb70a2044494a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Export Therapist Booking Enabled"
+              "title": "Configuracion de Crawlers y Classifiers"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Export Therapist Booking Enabled"
+              "title": "Outline of Configuracion de Crawlers y Classifiers"
             }
           }
         ],
@@ -164,10 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19300794b56d5584",
+  "active": "01afb70a2044494a",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
+    "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
+    "Luna/Backend/Athena Exports Notes/attachments/003.bo.crawler.png",
+    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
     "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
@@ -203,14 +206,11 @@
     "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_08_-_SQLite_-_Cash_Flow.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_08_-_Coshi_Notes_-_Cache.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
     "Luna/Therapist_Signup/Casos/caso-005",
     "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.alpha.png",
-    "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.form.date.png",
     "Luna/Backend/Direct Access/tests",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
     "Canvas/GraphQL.canvas",
