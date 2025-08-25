@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e0730494804fb6cd",
+        "id": "9f3acc2470b45496",
         "type": "tabs",
         "children": [
           {
-            "id": "01afb70a2044494a",
+            "id": "3f4253462f18aa30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Configuracion de Crawlers y Classifiers"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuracion de Crawlers y Classifiers"
+              "title": "Outline"
             }
           }
         ],
@@ -164,11 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01afb70a2044494a",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+    "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
+    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
+    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura/Writing Well - Julian Shapiro.md",
+    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
     "Luna/Backend/Athena Exports Notes/attachments/003.bo.crawler.png",
-    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
@@ -199,18 +199,13 @@
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
-    "Otro_Espacio/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
     "Luna/Therapist_Signup/Casos/caso-005",
-    "Luna/Therapist_Signup/Casos/attachments/005.offset.initial.alpha.png",
     "Luna/Backend/Direct Access/tests",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
     "Canvas/GraphQL.canvas",
