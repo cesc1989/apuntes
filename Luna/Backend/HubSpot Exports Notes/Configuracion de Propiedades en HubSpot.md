@@ -43,10 +43,16 @@ Lo primordial es que los devs somos los que debemos crear las propiedades. Así 
 
 Procurar que el value o internal value esté en minúsculas. Esto para poderlo traducir a un símbolo en Ruby al hacer exports/imports.
 
-## Preferir dropdown a radio
+## Preferir Dropdown select a Radio select
 
 Funcionan igual pero dropdown es el preferido. En serio funcionan igual. En los docs se explican ambos con lo mismo.
 
 [Ver](https://knowledge.hubspot.com/properties/property-field-types-in-hubspot#choosing-options)
 
-Dropdown select: stores multiple options, where only one option can be selected as a value. In forms, they behave the same as radio select fields, but appear differently. This is an enumeration property. Learn more about technical limits of enumeration properties.
+> **Dropdown select**: stores multiple options, where only one option can be selected as a value. In forms, they behave the same as radio select fields, but appear differently. This is an enumeration property.
+
+> **Radio select**: stores multiple options, where only one option can be selected as a value. *When editing on a record, they appear and behave the same as dropdown select fields*. In forms, they behave the same as dropdown select fields, but appear differently. This is an enumeration property.
+
+## No usar Single checkbox
+
+Solo guarda On/Off (true/false). Se muestra como el Radio select en la UI pero no permite agregar más valores.
