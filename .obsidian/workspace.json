@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades.md",
-                "mode": "preview",
+                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configuracion de Propiedades"
+              "title": "Configuracion de Propiedades en HubSpot"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades.md",
+                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuracion de Propiedades"
+              "title": "Outline of Configuracion de Propiedades en HubSpot"
             }
           }
         ],
@@ -166,7 +166,7 @@
   },
   "active": "54966b316e01c8cb",
   "lastOpenFiles": [
-    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades.md",
+    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura/Writing in the Age of Distraction - Cory Doctorow.md",

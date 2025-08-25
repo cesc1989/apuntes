@@ -34,3 +34,19 @@ bundle exec rails hub_spot_contact_properties:download_properties\[production\] 
 ```bash
 bundle exec rails hub_spot_contact_properties:upsert\[alpha\]
 ```
+
+# Tips para Crear Propiedades
+
+Lo primordial es que los devs somos los que debemos crear las propiedades. Así controlamos mejor los valores que podremos exportar.
+
+## El internal value en minúsculas
+
+Procurar que el value o internal value esté en minúsculas. Esto para poderlo traducir a un símbolo en Ruby al hacer exports/imports.
+
+## Preferir dropdown a radio
+
+Funcionan igual pero dropdown es el preferido. En serio funcionan igual. En los docs se explican ambos con lo mismo.
+
+[Ver](https://knowledge.hubspot.com/properties/property-field-types-in-hubspot#choosing-options)
+
+Dropdown select: stores multiple options, where only one option can be selected as a value. In forms, they behave the same as radio select fields, but appear differently. This is an enumeration property. Learn more about technical limits of enumeration properties.
