@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9f3acc2470b45496",
+        "id": "fa4b78c9030cc868",
         "type": "tabs",
         "children": [
           {
-            "id": "3f4253462f18aa30",
+            "id": "f696d75dcfcf1741",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nuevo Enfoque para el Blog"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Nuevo Enfoque para el Blog"
             }
           }
         ],
@@ -159,8 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "f696d75dcfcf1741",
   "lastOpenFiles": [
+    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
+    "Otro_Espacio/Blog",
+    "Canvas/GraphQL.canvas",
+    "Canvas/Ruby.canvas",
+    "README.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
@@ -197,8 +207,6 @@
     "Configurar acceso ssh en una GitHub Action.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_05_-_Coshi_Notes_-_Imágenes_en_Tipta.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
@@ -206,9 +214,6 @@
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
     "Luna/Therapist_Signup/Casos/caso-005",
-    "Luna/Backend/Direct Access/tests",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/attachments",
-    "Canvas/GraphQL.canvas",
-    "Canvas/Ruby.canvas"
+    "Luna/Backend/Direct Access/tests"
   ]
 }
