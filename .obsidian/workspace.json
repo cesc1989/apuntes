@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "03fcbcda5c020c51",
+        "id": "5bc778b064d4818c",
         "type": "tabs",
         "children": [
           {
-            "id": "e306078da7cd6b5a",
+            "id": "54966b316e01c8cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
+                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Nuevo Enfoque para el Blog"
+              "title": "Configuracion de Propiedades"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
+                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nuevo Enfoque para el Blog"
+              "title": "Outline of Configuracion de Propiedades"
             }
           }
         ],
@@ -164,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e306078da7cd6b5a",
+  "active": "54966b316e01c8cb",
   "lastOpenFiles": [
+    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades.md",
+    "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura/Writing in the Age of Distraction - Cory Doctorow.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura/On Opening Essays, Conference Talks.md",
@@ -206,14 +208,12 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "Configurar acceso ssh en una GitHub Action.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
     "Luna/Clinical_Dashboard/Casos/attachments",
-    "Luna/Therapist_Signup/Casos/caso-005",
-    "Luna/Backend/Direct Access/tests"
+    "Luna/Therapist_Signup/Casos/caso-005"
   ]
 }
