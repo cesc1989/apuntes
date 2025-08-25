@@ -7,6 +7,9 @@ Veo que hay dos archivos donde se listan las propiedades:
 
 En los cambios para completar el export de Medicare Threshold Exceeded Claude hizo cambios al archivo YML. Eso está mal. Ese archivo no se actualiza manualmente sino mediante una rake. La rake es `lib/tasks/hub_spot_contact_properties.rake`.
 
+> [!Note]
+> Runbook - [Ver](https://www.notion.so/getluna/Syncing-New-HubSpot-Properties-1edd6a8a87b78035833fc3d1ad54d7fb)
+
 Las instrucciones de uso de la rake se resumen en:
 
 - Bajar acceso a HubSpot omega desde 1password
