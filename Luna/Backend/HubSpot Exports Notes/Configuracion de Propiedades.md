@@ -24,9 +24,9 @@ bundle exec rails hub_spot_contact_properties:download_properties\[production\] 
 ```
 
 > [!Note]
-> Como no tengo acceso a Omega tengo que pedir ayuda o emular la propiedad en mi cuenta dummy de HubSpot.
+> Para obtener el token de Omega usando backend tengo que leer de la tabla `hubspot_tokens`.
 >
-> La salida de la rake es el YML que habría que pegar en `config/hub_spot_contact_properties.yml`. Puedo copiarlo y pegarlo manualmente.
+> También puedo crear el campo en la cuenta dummy de HubSpot y usar el access token de esa cuenta. La salida de la rake es el YML que habría que pegar en `config/hub_spot_contact_properties.yml`. Puedo copiarlo y pegarlo manualmente.
 
 
 - Para actualizar Alpha
