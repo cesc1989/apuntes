@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "211c7fb8ba799e7d",
+        "id": "1d21daaf897e4aa7",
         "type": "tabs",
         "children": [
           {
-            "id": "f9966656f5cbb4ff",
+            "id": "25f64875afd78b9f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Medicare Threshold Triggers"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Medicare Threshold Triggers"
             }
           }
         ],
@@ -159,8 +164,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9966656f5cbb4ff",
+  "active": "25f64875afd78b9f",
   "lastOpenFiles": [
+    "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
+    "Luna/Backend/KX-Modifier/EDG-2563-medicare-threshold-triggers.md",
+    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
+    "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
+    "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
+    "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
+    "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
@@ -181,28 +198,16 @@
     "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_21_-_Correos.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
-    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
-    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_fixed.png",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Luna/Backend/Athena Exports Notes/attachments/broken.export.png",
     "Luna/Backend/Athena Exports Notes/attachments/image.png",
     "Luna/Backend/Athena Exports Notes/attachments/patient.open.issues.png",
     "Luna/Backend/Athena Exports Notes/attachments",
     "Luna/Backend/Athena Exports Notes",
-    "Luna/Backend/Reviewers/Info Básica.md",
-    "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
     "Luna/Backend/Protocols/phase-29",
-    "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "DevAsPros/Enlacito/Untitled.canvas",
     "DevAsPros/Enlacito/Definicion",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
