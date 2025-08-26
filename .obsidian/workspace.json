@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1d21daaf897e4aa7",
+        "id": "6bd15d3450c3a52e",
         "type": "tabs",
         "children": [
           {
-            "id": "25f64875afd78b9f",
+            "id": "c4a769889c958bd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Medicare Threshold Triggers"
+              "title": "Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Medicare Threshold Triggers"
+              "title": "Outline of Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
             }
           }
         ],
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25f64875afd78b9f",
+  "active": "c4a769889c958bd2",
   "lastOpenFiles": [
     "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
     "Luna/Backend/KX-Modifier/EDG-2563-medicare-threshold-triggers.md",

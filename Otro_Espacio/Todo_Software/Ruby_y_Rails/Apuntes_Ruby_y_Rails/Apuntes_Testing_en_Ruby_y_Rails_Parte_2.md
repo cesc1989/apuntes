@@ -98,3 +98,60 @@ Sin embargo, eso no me funcionó en Edge por la forma en que se corren los tests
 ## Documentación de RSpec
 
 La documentación de la página oficial es bastante sencilla y es más enfocada en el uso de la gema. Si se quiere saber sobre las configuraciones toca ir por otro lado. En el post de Stack Overflow enlazan a una página de documentación donde se puede ver lo de `derived_metadata` ([aquí](https://www.rubydoc.info/github/rspec/rspec-core/RSpec/Core/Configuration:define_derived_metadata)) y los [Hooks](https://www.rubydoc.info/github/rspec/rspec-core/RSpec/Core/Hooks).
+
+# Limpia jobs de Sidekiq entre pruebas
+
+Usa `Sidekiq::Worker.clear_all` entre diferentes ejecuciones de workers para que no queden jobs anteriores afectando los próximos expectations.
+
+Me pasó en una prueba en backend. Tenía esta configuración:
+```ruby
+expect(Hubspot::UpdateContactPropertiesWorker)
+            .to have_enqueued_sidekiq_job(patient.id, { "medicare_threshold_exceeded": "yes" })
+
+# (...)
+
+expect(Hubspot::UpdateContactPropertiesWorker)
+            .to have_enqueued_sidekiq_job(patient.id, { "medicare_threshold_exceeded": "yes" })
+```
+
+Donde esperaba que el 2do expect fallara porque el parámetro debería ser un "no". No fallaba porque al revisar la cola de jobs aparecía esto:
+```ruby
+ap Hubspot::UpdateContactPropertiesWorker.jobs
+
+{
+					"retry" => false,
+					"queue" => "default",
+					 "args" => [
+				[0] "00e3f9bd-d1e7-445a-a28f-26b6d1cba930",
+				[1] {
+						"medicare_threshold_exceeded" => "yes"
+				}
+		],
+					"class" => "Hubspot::UpdateContactPropertiesWorker",
+						"jid" => "4fa5075f89bf52e9449a8dbf",
+		 "created_at" => 1749992400.0,
+		"enqueued_at" => 1749992400.0
+},
+```
+
+Al intentar probar que un "yes" rompía la prueba obtenía un resultado exitoso porque la cola aún tenía el job del primer expect.
+
+Una vez limpio con `Sidekiq::Worker.clear_all` obtengo es un array vacío al revisar de nuevo la cola:
+```ruby
+ap Hubspot::UpdateContactPropertiesWorker.jobs
+[]
+```
+
+Y luego de eso sí falla la prueba como esperaba:
+```bash
+Failure/Error:
+       expect(Hubspot::UpdateContactPropertiesWorker)
+         .to have_enqueued_sidekiq_job(patient.id, { "medicare_threshold_exceeded": "yes" })
+
+       expected to have an enqueued Hubspot::UpdateContactPropertiesWorker job
+         arguments: ["63ae8314-e17b-462d-a4e6-df96f036a23c", {"medicare_threshold_exceeded"=>"yes"}]
+       found
+         arguments: [["63ae8314-e17b-462d-a4e6-df96f036a23c", {"medicare_threshold_exceeded"=>"no"}]]
+```
+
+Docs de Sidekiq testing sobre esto: https://github.com/sidekiq/sidekiq/wiki/Testing#testing-worker-queueing-fake
