@@ -1,10 +1,10 @@
 {
 	"nodes":[
-		{"id":"9e26354d6cbf652b","x":-640,"y":-540,"width":400,"height":400,"type":"file","file":"Luna/Backend/Appointments/Send Intake Form to Patient.md"},
-		{"id":"13376cb4f7e23700","x":-140,"y":-540,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Where are forms created and read from?.md"},
-		{"id":"766aad7f8eea018f","x":0,"y":0,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md"},
-		{"id":"e3f0dfd0baafbd10","x":0,"y":727,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md"},
-		{"id":"b4d422cabced2378","x":480,"y":460,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md"}
+		{"id":"13376cb4f7e23700","x":-540,"y":-1200,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Where are forms created and read from?.md"},
+		{"id":"e3f0dfd0baafbd10","x":280,"y":-1200,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md"},
+		{"id":"9e26354d6cbf652b","x":-540,"y":-580,"width":400,"height":400,"type":"file","file":"Luna/Backend/Appointments/Send Intake Form to Patient.md"},
+		{"id":"766aad7f8eea018f","x":0,"y":-180,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md"},
+		{"id":"b4d422cabced2378","x":560,"y":220,"width":400,"height":400,"type":"file","file":"Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md"}
 	],
 	"edges":[]
 }
