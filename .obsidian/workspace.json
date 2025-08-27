@@ -36,6 +36,23 @@
             }
           },
           {
+            "id": "bd060f019d18d4a4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas/Forms.canvas",
+                "viewState": {
+                  "x": 210,
+                  "y": -372.2228592814369,
+                  "zoom": -0.5835219663619414
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Forms"
+            }
+          },
+          {
             "id": "ce0dc8e7711e35e5",
             "type": "leaf",
             "state": {
@@ -50,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+                "file": "Canvas/Forms.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Where are forms created and read from?"
+              "title": "Outline of Forms"
             }
           }
         ],
@@ -193,12 +210,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae14fd7ad57fe0b9",
+  "active": "bd060f019d18d4a4",
   "lastOpenFiles": [
-    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
-    "Luna/Backend/Appointments/Send Intake Form to Patient.md",
     "Canvas/Forms.canvas",
+    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
+    "Luna/Backend/Appointments/Send Intake Form to Patient.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
