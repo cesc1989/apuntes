@@ -1,4 +1,4 @@
-# Sending Intake Form to Patient
+# Send Intake Form Link to Patient
 
 > [!Note]
 > The Intake Form is created after the care plan is created. See [[General Flow to Create Forms]]
