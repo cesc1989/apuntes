@@ -1,6 +1,6 @@
-# Navegando creación de Intake Form
+# Creación de Intake Form en Marketplace
 
-Relacionado: [[Intake_Form_and_Progress_Form_creation_flow]]
+Relacionado: [[Intake_Form_and_Progress_Form_creation_flow en Marketplace]]
 
 No me queda claro si todo se crea a partir de la tarea programada en `rq_scheduler.py`
 ```python

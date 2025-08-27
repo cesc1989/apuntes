@@ -12,8 +12,8 @@ Form creation starts from Backend, goes through Marketplace, for it to finally h
 > [!Important]
 > See these two from Marketplace:
 > 
-> - [[Navegando_creación_de_intake_form]]
-> - [[Intake_Form_and_Progress_Form_creation_flow]]
+> - [[Creación_de_intake_form en Marketplace]]
+> - [[Intake_Form_and_Progress_Form_creation_flow en Marketplace]]
 
 This flow provides an overview of this process:
 

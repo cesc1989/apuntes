@@ -5,8 +5,8 @@
 		{"id":"5712d4d275b2608c","x":-960,"y":-1280,"width":840,"height":540,"color":"6","type":"group","label":"Enviar Link de Forms"},
 		{"id":"e3f0dfd0baafbd10","type":"file","file":"Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md","x":840,"y":-1740,"width":400,"height":400},
 		{"id":"766aad7f8eea018f","type":"file","file":"Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md","x":840,"y":-1260,"width":400,"height":400},
-		{"id":"3bb93b22ddc1c1f9","type":"file","file":"Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md","x":100,"y":-1940,"width":400,"height":400},
-		{"id":"46ace87abaa34e17","type":"file","file":"Luna/Marketplace/Navegando_creación_de_intake_form.md","x":-360,"y":-1940,"width":400,"height":400},
+		{"id":"3bb93b22ddc1c1f9","type":"file","file":"Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md","x":100,"y":-1940,"width":400,"height":400},
+		{"id":"46ace87abaa34e17","type":"file","file":"Luna/Marketplace/Creación_de_intake_form en Marketplace.md","x":-360,"y":-1940,"width":400,"height":400},
 		{"id":"13376cb4f7e23700","type":"file","file":"Luna/Patient_Self_Report/Where are forms created and read from?.md","x":-900,"y":-1940,"width":400,"height":400},
 		{"id":"9e26354d6cbf652b","type":"file","file":"Luna/Backend/Appointments/Send Intake Form to Patient.md","x":-920,"y":-1200,"width":400,"height":400},
 		{"id":"b4d422cabced2378","type":"file","file":"Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md","x":570,"y":-673,"width":400,"height":400}

@@ -1,6 +1,6 @@
-# Intake Form and Progress Form creation flow
+# Intake Form and Progress Form creation flow in Marketplace
 
-Other References: [[Navegando_creación_de_intake_form]]
+Other References: [[Creación_de_intake_form en Marketplace]]
 
 # Intake Form
 
