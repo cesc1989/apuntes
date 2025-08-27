@@ -27,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Luna/Patient_Self_Report/Access Existing Forms.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Access Existing Forms"
+            }
+          },
+          {
+            "id": "a8a932ea9bc1afb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Luna/Patient_Self_Report/General Flow to Create Forms.md",
                 "mode": "preview",
                 "source": true
@@ -53,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,12 +210,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae14fd7ad57fe0b9",
+  "active": "a8a932ea9bc1afb3",
   "lastOpenFiles": [
-    "Luna/Marketplace/Creación_de_intake_form en Marketplace.md",
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Luna/Patient_Self_Report/Access Existing Forms.md",
     "Luna/Patient_Self_Report/General Flow to Create Forms.md",
     "Canvas/Forms.canvas",
+    "Luna/Marketplace/Creación_de_intake_form en Marketplace.md",
+    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Backend/Appointments/Send Intake Form to Patient.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
@@ -223,7 +238,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
     "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
     "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
-    "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
