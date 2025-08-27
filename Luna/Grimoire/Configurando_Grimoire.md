@@ -1,6 +1,6 @@
 # Configurando Grimoire
 
-# Error de protobuff-c al configurar PostGIS
+## Error de protobuff-c al configurar PostGIS
 
 Estos son todos los comandos:
 ```
@@ -27,7 +27,7 @@ PostGIS is now configured for arm-apple-darwin22.3.0
 ```
 
 
-# Error de comando Make al instalar PostGIS
+## Error de comando Make al instalar PostGIS
 
 ```
 in /tmp/postgis-3.4.0
