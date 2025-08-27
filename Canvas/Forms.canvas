@@ -1,12 +1,14 @@
 {
 	"nodes":[
-		{"id":"766aad7f8eea018f","type":"file","file":"Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md","x":120,"y":-180,"width":400,"height":400},
-		{"id":"13376cb4f7e23700","type":"file","file":"Luna/Patient_Self_Report/Where are forms created and read from?.md","x":-940,"y":-1200,"width":400,"height":400},
-		{"id":"46ace87abaa34e17","x":-420,"y":-1200,"width":400,"height":400,"type":"file","file":"Luna/Marketplace/Navegando_creación_de_intake_form.md"},
-		{"id":"3bb93b22ddc1c1f9","x":100,"y":-1200,"width":400,"height":400,"type":"file","file":"Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md"},
-		{"id":"e3f0dfd0baafbd10","type":"file","file":"Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md","x":780,"y":-1360,"width":400,"height":400},
-		{"id":"9e26354d6cbf652b","type":"file","file":"Luna/Backend/Appointments/Send Intake Form to Patient.md","x":-940,"y":-620,"width":400,"height":400},
-		{"id":"b4d422cabced2378","type":"file","file":"Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md","x":640,"y":-180,"width":400,"height":400}
+		{"id":"fef4296c33d48a0f","x":-820,"y":-2020,"width":1320,"height":640,"color":"4","type":"text","text":"# Creación de Intake/Progress"},
+		{"id":"13376cb4f7e23700","type":"file","file":"Luna/Patient_Self_Report/Where are forms created and read from?.md","x":-800,"y":-1820,"width":400,"height":400},
+		{"id":"46ace87abaa34e17","x":-360,"y":-1820,"width":400,"height":400,"type":"file","file":"Luna/Marketplace/Navegando_creación_de_intake_form.md"},
+		{"id":"3bb93b22ddc1c1f9","x":80,"y":-1820,"width":400,"height":400,"type":"file","file":"Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md"},
+		{"id":"e3f0dfd0baafbd10","type":"file","file":"Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md","x":840,"y":-1740,"width":400,"height":400},
+		{"id":"b4d422cabced2378","type":"file","file":"Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md","x":900,"y":-740,"width":400,"height":400},
+		{"id":"766aad7f8eea018f","type":"file","file":"Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md","x":840,"y":-1260,"width":400,"height":400},
+		{"id":"08f4b9f72e53bc45","x":-820,"y":-1260,"width":1320,"height":720,"color":"6","type":"text","text":"# Envío de enlaces de Intake/Progress"},
+		{"id":"9e26354d6cbf652b","type":"file","file":"Luna/Backend/Appointments/Send Intake Form to Patient.md","x":-800,"y":-960,"width":400,"height":400}
 	],
 	"edges":[]
 }

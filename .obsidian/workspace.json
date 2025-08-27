@@ -36,23 +36,6 @@
             }
           },
           {
-            "id": "bd060f019d18d4a4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas/Forms.canvas",
-                "viewState": {
-                  "x": 210,
-                  "y": -372.2228592814369,
-                  "zoom": -0.5835219663619414
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Forms"
-            }
-          },
-          {
             "id": "ce0dc8e7711e35e5",
             "type": "leaf",
             "state": {
@@ -65,9 +48,40 @@
               "icon": "lucide-file",
               "title": "Navegando_creación_de_intake_form"
             }
+          },
+          {
+            "id": "59a5156598ad5c6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Intake_Form_and_Progress_Form_creation_flow"
+            }
+          },
+          {
+            "id": "bd060f019d18d4a4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas/Forms.canvas",
+                "viewState": {
+                  "x": 210,
+                  "y": -1179.1217664670667,
+                  "zoom": -0.5835219663619414
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Forms"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -212,13 +226,13 @@
   },
   "active": "bd060f019d18d4a4",
   "lastOpenFiles": [
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
-    "Canvas/Forms.canvas",
+    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Luna/Marketplace/Navegando_creación_de_intake_form.md",
+    "Canvas/Forms.canvas",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Backend/Appointments/Send Intake Form to Patient.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Grimoire/Configurando_Grimoire.md",
