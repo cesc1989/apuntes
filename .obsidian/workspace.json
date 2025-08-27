@@ -72,7 +72,7 @@
                 "file": "Canvas/Forms.canvas",
                 "viewState": {
                   "x": 210,
-                  "y": -1179.1217664670667,
+                  "y": -1138.7071407185629,
                   "zoom": -0.5835219663619414
                 }
               },
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/Forms.canvas",
+                "file": "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Forms"
+              "title": "Outline of Intake_Form_and_Progress_Form_creation_flow"
             }
           }
         ],
@@ -224,12 +224,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd060f019d18d4a4",
+  "active": "59a5156598ad5c6d",
   "lastOpenFiles": [
-    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Luna/Marketplace/Navegando_creación_de_intake_form.md",
-    "Canvas/Forms.canvas",
+    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Canvas/Forms.canvas",
     "Luna/Backend/Appointments/Send Intake Form to Patient.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",

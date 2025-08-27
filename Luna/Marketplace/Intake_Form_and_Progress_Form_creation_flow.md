@@ -1,7 +1,6 @@
 # Intake Form and Progress Form creation flow
 
-Other References:
-- [[Navegando_creación_de_intake_form]]
+Other References: [[Navegando_creación_de_intake_form]]
 
 # Intake Form
 
