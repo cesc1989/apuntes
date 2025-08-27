@@ -98,3 +98,63 @@ The `progress_type="ongoing"` field is **not set by the marketplace** - it's set
 - Set **progress_type="ongoing"** based on internal logic
 - Provide the **patient-facing form URL**
 - Handle **form completion and scoring**
+
+
+# Extracto de Backend to Marketplace API Triggers Analysis
+
+> This analysis documents the triggers to Marketplace API when episodes (care plans) or appointments are created in Backend system.
+
+## Episode (Care Plan) Creation Triggers
+
+### **Primary Sync Mechanism**
+
+**File**: `app/models/episode.rb:453`
+```ruby
+after_commit :sync_with_marketplace, unless: :draft?
+```
+
+### **Sync Implementation**
+
+**File**: `app/models/episode.rb:1580-1585`
+```ruby
+def sync_with_marketplace
+  return if Luna.env.local?
+  return if clinic.nil? && active_appointments.present?
+
+  MarketplaceSyncCarePlanWorker.perform_async(id)
+end
+```
+
+### **Background Worker**
+
+**File**: `app/workers/marketplace_sync_care_plan_worker.rb`
+
+**Comprehensive sync operations performed:**
+1. **Care Plan Sync**: `marketplace.sync_care_plan(care_plan.id)`
+2. **Patient Account Sync**: `marketplace.sync_account(care_plan.patient_id)`  
+3. **Therapist Account Sync**: `marketplace.sync_account(therapist_id)` (for all associated therapists)
+4. **Appointments Sync**: `marketplace.sync_care_plan_for_scheduling(care_plan.id)`
+
+## Appointment Creation Triggers
+
+### **Indirect Triggering Mechanism**
+
+Appointments trigger Marketplace sync indirectly through episode updates:
+
+**File**: `app/models/appointment.rb:63`
+```ruby
+belongs_to :episode, touch: true
+```
+
+**File**: `app/models/appointment.rb:122`
+```ruby
+after_create :activate_episode
+```
+
+### **Triggering Flow**
+
+1. **Appointment Created** → `activate_episode` callback executes
+2. **Episode Touched** → Episode `updated_at` timestamp changed via `touch: true`
+3. **Episode Status Changed** → Episode status updated to "active"
+4. **Episode Sync Triggered** → `after_commit :sync_with_marketplace` executes
+5. **Full Episode Sync** → All appointments included in sync payload
