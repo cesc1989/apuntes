@@ -1,7 +1,7 @@
 # Sending Intake Form to Patient
 
 > [!Note]
-> The Intake Form is created after the care plan is created. See [[Where are forms created and read from?]]
+> The Intake Form is created after the care plan is created. See [[General Flow to Create Forms]]
 
 After an "initial" appointment is created an email with the Intake Form is sent to the patient. This happens in an after create commit:
 ```ruby

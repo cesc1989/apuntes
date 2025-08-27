@@ -27,40 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+                "file": "Luna/Patient_Self_Report/General Flow to Create Forms.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Where are forms created and read from?"
-            }
-          },
-          {
-            "id": "ce0dc8e7711e35e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Creación_de_intake_form en Marketplace.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Creación_de_intake_form en Marketplace"
-            }
-          },
-          {
-            "id": "6e511e4a4d3954d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Intake_Form_and_Progress_Form_creation_flow en Marketplace"
+              "title": "General Flow to Create Forms"
             }
           },
           {
@@ -81,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+                "file": "Luna/Patient_Self_Report/General Flow to Create Forms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intake_Form_and_Progress_Form_creation_flow en Marketplace"
+              "title": "Outline of General Flow to Create Forms"
             }
           }
         ],
@@ -224,11 +196,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e511e4a4d3954d7",
+  "active": "ae14fd7ad57fe0b9",
   "lastOpenFiles": [
     "Luna/Marketplace/Creación_de_intake_form en Marketplace.md",
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Luna/Patient_Self_Report/General Flow to Create Forms.md",
     "Canvas/Forms.canvas",
     "Luna/Backend/Appointments/Send Intake Form to Patient.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",

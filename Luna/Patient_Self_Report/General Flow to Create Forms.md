@@ -1,4 +1,4 @@
-# Where are forms created and read from?
+# General Flow to Create Forms
 
 In this document I'll list all places I can find where intake forms are created and read from.
 
