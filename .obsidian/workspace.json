@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopilo Claude.md",
+                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Resumen de la Info que recopilo Claude"
+              "title": "Resumen de la Info que recopiló Claude"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopilo Claude.md",
+                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Resumen de la Info que recopilo Claude"
+              "title": "Outline of Resumen de la Info que recopiló Claude"
             }
           }
         ],
@@ -166,15 +166,16 @@
   },
   "active": "751d6a14549dd660",
   "lastOpenFiles": [
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopilo Claude.md",
-    "Luna/Patient_Self_Report/Creacion de Forms",
+    "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
+    "Luna/Backend/Appointments/Send Intake Form to Patient.md",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Luna/Marketplace/Creación_de_intake_form en Marketplace.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
+    "Luna/Patient_Self_Report/Creacion de Forms",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Canvas/Forms.canvas",
-    "Luna/Backend/Appointments/Send Intake Form to Patient.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Patient_Self_Report/Access Existing Forms.md",
-    "Luna/Marketplace/Creación_de_intake_form en Marketplace.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
@@ -193,7 +194,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Cambio de Asociación.md",
-    "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
