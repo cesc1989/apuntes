@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e6592e6e2a1ab823",
+        "id": "a37d52e3175f6de9",
         "type": "tabs",
         "children": [
           {
-            "id": "d7117fe8e2bf4076",
+            "id": "39367a1af9c3ba91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grimoire/Configurando_Grimoire.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Appointments/Send Intake Form to Patient.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configurando_Grimoire"
+              "title": "Send Intake Form to Patient"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Configurando_Grimoire.md",
+                "file": "Luna/Backend/Appointments/Send Intake Form to Patient.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando_Grimoire"
+              "title": "Outline of Send Intake Form to Patient"
             }
           }
         ],
@@ -164,8 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7117fe8e2bf4076",
+  "active": "39367a1af9c3ba91",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Backend/Appointments/Send Intake Form to Patient.md",
+    "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
+    "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
+    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
+    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+    "Luna/Grimoire/Configurando_Grimoire.md",
+    "Luna/Grimoire/Setup de Grimoire.md",
+    "Luna/Patient_Self_Report/Copy Form/Issues.md",
+    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
@@ -182,22 +193,11 @@
     "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/HubSpot Exports Notes",
-    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura/Writing in the Age of Distraction - Cory Doctorow.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura/On Opening Essays, Conference Talks.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Escritura/Writing Well - Julian Shapiro.md",
     "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
-    "README.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
-    "Otro_Espacio/MiPlex_Un_Netflix_con_contenido_propio.md",
-    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
-    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
-    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
     "Luna/Backend/Athena Exports Notes/attachments/003.bo.crawler.png",
-    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_fixed.png",
     "Luna/Backend/Athena Exports Notes/attachments/broken.export.png",
