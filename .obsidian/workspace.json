@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a37d52e3175f6de9",
+        "id": "4d7fe062abfa6cc0",
         "type": "tabs",
         "children": [
           {
-            "id": "39367a1af9c3ba91",
+            "id": "b0e443644b6fb9a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Luna/Backend/Appointments/Send Intake Form to Patient.md",
-                "mode": "source",
-                "source": true
+                "file": "Canvas/Forms.canvas",
+                "viewState": {
+                  "x": 119.04,
+                  "y": 384.8764740927276,
+                  "zoom": -0.5
+                }
               },
-              "icon": "lucide-file",
-              "title": "Send Intake Form to Patient"
+              "icon": "lucide-layout-dashboard",
+              "title": "Forms"
             }
           }
         ]
@@ -140,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Appointments/Send Intake Form to Patient.md",
+                "file": "Canvas/Forms.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Send Intake Form to Patient"
+              "title": "Outline of Forms"
             }
           }
         ],
@@ -164,10 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39367a1af9c3ba91",
+  "active": "b0e443644b6fb9a6",
   "lastOpenFiles": [
-    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
+    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
+    "Canvas/Forms.canvas",
     "Luna/Backend/Appointments/Send Intake Form to Patient.md",
+    "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
     "Luna/Marketplace/Navegando_creación_de_intake_form.md",
@@ -175,7 +180,6 @@
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Grimoire/Configurando_Grimoire.md",
     "Luna/Grimoire/Setup de Grimoire.md",
-    "Luna/Patient_Self_Report/Copy Form/Issues.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
@@ -191,7 +195,6 @@
     "Luna/Backend/KX-Modifier/002 - Cambios Finales.md",
     "Luna/Backend/KX-Modifier/cambios-finales/Refresh de MedicareDollarThresholdStatus.md",
     "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
-    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
