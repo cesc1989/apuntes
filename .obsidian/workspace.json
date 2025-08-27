@@ -71,8 +71,8 @@
               "state": {
                 "file": "Canvas/Forms.canvas",
                 "viewState": {
-                  "x": 210,
-                  "y": -1138.7071407185629,
+                  "x": 183.52145209580843,
+                  "y": -1226.5044311377242,
                   "zoom": -0.5835219663619414
                 }
               },
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
+                "file": "Canvas/Forms.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intake_Form_and_Progress_Form_creation_flow"
+              "title": "Outline of Forms"
             }
           }
         ],
@@ -224,10 +224,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59a5156598ad5c6d",
+  "active": "bd060f019d18d4a4",
   "lastOpenFiles": [
-    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow.md",
+    "Luna/Marketplace/Navegando_creación_de_intake_form.md",
     "Luna/Patient_Self_Report/Where are forms created and read from?.md",
     "Canvas/Forms.canvas",
     "Luna/Backend/Appointments/Send Intake Form to Patient.md",
