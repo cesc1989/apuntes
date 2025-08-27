@@ -11,10 +11,14 @@
             "id": "751d6a14549dd660",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopilo Claude.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Resumen de la Info que recopilo Claude"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopilo Claude.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Resumen de la Info que recopilo Claude"
             }
           }
         ],
@@ -159,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "751d6a14549dd660",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopilo Claude.md",
     "Luna/Patient_Self_Report/Creacion de Forms",
     "Luna/Marketplace/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
@@ -209,7 +215,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
-    "Luna/Clinical_Dashboard/Casos/attachments",
-    "Luna/Therapist_Signup/Casos/caso-005"
+    "Luna/Clinical_Dashboard/Casos/attachments"
   ]
 }
