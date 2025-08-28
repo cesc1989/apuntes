@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grimoire/Setup de Grimoire.md",
+                "file": "Luna/Glosario.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Setup de Grimoire"
+              "title": "Glosario"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Setup de Grimoire.md",
+                "file": "Luna/Glosario.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Setup de Grimoire"
+              "title": "Outline of Glosario"
             }
           }
         ],
@@ -166,9 +166,11 @@
   },
   "active": "ef73d1aa7cb820b1",
   "lastOpenFiles": [
+    "Luna/Grimoire/Setup de Grimoire.md",
+    "Luna/Glosario.md",
+    "Luna/Patient_Self_Report/archive/Campos_a_Revisar_para_Eliminar.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Luna/Grimoire/Setup de Grimoire.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
     "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
@@ -193,8 +195,6 @@
     "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
-    "Luna/Backend/KX-Modifier/EDG-2563-medicare-threshold-triggers.md",
-    "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
