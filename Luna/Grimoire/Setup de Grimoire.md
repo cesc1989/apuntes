@@ -99,7 +99,7 @@ make install
 popd
 ```
 
-Ver [[Configurando_Grimoire]] para ver logs de cuándo los comandos son exitosos.
+Ver [[Configurando PostgreSQL para Grimoire]] para ver logs de cuándo los comandos son exitosos.
 
 ### Vector
 

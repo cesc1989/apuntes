@@ -1,4 +1,4 @@
-# Configurando Grimoire
+# Configurando PostgreSQL para Grimoire
 
 ## Error de protobuff-c al configurar PostGIS
 
