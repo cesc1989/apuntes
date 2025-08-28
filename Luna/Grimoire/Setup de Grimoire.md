@@ -57,6 +57,9 @@ MIX_ENV=test DEV_SEED_EMAIL="francisco.quintero@ideaware.co" mix ecto.setup
 
 Después de eso pude correr las pruebas normalmente con `mix test path/to/file`.
 
+> [!Warn]
+> Poner las envs en el comando me tocó porque `direnv` no está leyendo el archivo `.env`
+
 ## PostgreSQL
 
 Necesita el rol `postgres` que exista y que pueda hacer `LOGIN`.
@@ -128,4 +131,21 @@ psql
 
 francisco=# CREATE EXTENSION vector;
 CREATE EXTENSION
+```
+
+## direnv
+
+Para que asdf lo instale:
+```bash
+asdf install direnv latest
+```
+
+Configurar como global:
+```
+asdf global direnv latest
+```
+
+Verificar:
+```
+direnv --version
 ```

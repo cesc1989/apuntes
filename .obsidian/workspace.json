@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "diagnosis_specialty_mapping"
             }
+          },
+          {
+            "id": "eb97aec7c3907621",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Grimoire/Setup de Grimoire.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Setup de Grimoire"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
+                "file": "Luna/Grimoire/Setup de Grimoire.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of diagnosis_specialty_mapping"
+              "title": "Outline of Setup de Grimoire"
             }
           }
         ],
@@ -164,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4d9b59c3d271337",
+  "active": "eb97aec7c3907621",
   "lastOpenFiles": [
     "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Diagnosis Specialties",
