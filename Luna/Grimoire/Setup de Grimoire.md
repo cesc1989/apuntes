@@ -149,3 +149,34 @@ Verificar:
 ```
 direnv --version
 ```
+
+### direnv no carga archivo .env
+
+Esto:
+```
+direnv status
+
+direnv exec path /Users/francisco/.asdf/installs/direnv/2.37.1/bin/direnv
+DIRENV_CONFIG /Users/francisco/.config/direnv
+bash_path /bin/bash
+disable_stdin true
+warn_timeout 5s
+whitelist.prefix []
+whitelist.exact map[]
+No .envrc or .env loaded
+Found RC path /Users/francisco/projects/luna-project/grimoire/.env
+Found watch: ".env" - 2025-08-28T16:40:31-05:00
+Found watch: "../../../.local/share/direnv/allow/bd7069cb56d6695038aa69b41ce035da842b2d9a89c99371e3656c3a001013aa" - 2025-08-28T16:47:53-05:00
+Found watch: "../../../.local/share/direnv/deny/ec72a4fb23c84fad7c9c8417b14992e0440cc8a90c04ac1352f7dafa9245d88b" - 1969-12-31T19:00:00-05:00
+Found RC allowed 0
+Found RC allowPath /Users/francisco/.local/share/direnv/allow/bd7069cb56d6695038aa69b41ce035da842b2d9a89c99371e3656c3a001013aa
+```
+
+Muestra como no está cargando el archivo `.env` aunque dice que lo encuentra.
+
+Issues similares:
+
+- [load_dotenv is not loading .env files (Ubuntu)](https://github.com/direnv/direnv/issues/1189)
+- [direnv: error .envrc or .env file not found](https://github.com/direnv/direnv/issues/916)
+	- este menciona poner la configuración `load_dotenv = true` pero parece no funcionar
+
