@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "960393af597b34ae",
+        "id": "c86b39d49a8058af",
         "type": "tabs",
         "children": [
           {
-            "id": "ef73d1aa7cb820b1",
+            "id": "19a77d4838c1c4a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glosario"
+              "title": "Apuntes Bliss - Parte 1"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Glosario"
+              "title": "Outline of Apuntes Bliss - Parte 1"
             }
           }
         ],
@@ -164,15 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef73d1aa7cb820b1",
+  "active": "19a77d4838c1c4a8",
   "lastOpenFiles": [
+    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
+    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+    "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Glosario.md",
     "Luna/Patient_Self_Report/archive/Campos_a_Revisar_para_Eliminar.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
-    "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Canvas/Forms.canvas",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
@@ -190,11 +192,9 @@
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
-    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Backend/KX-Modifier/Medicare Threshold Triggers.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Q&A.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
