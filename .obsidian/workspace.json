@@ -20,8 +20,26 @@
               "icon": "lucide-file",
               "title": "Reglas Creación de Progress Forms - Marketplace"
             }
+          },
+          {
+            "id": "a8ee11cfc8f9364e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas/Forms.canvas",
+                "viewState": {
+                  "x": -499.9403856047101,
+                  "y": -1393.6769992368936,
+                  "zoom": -1.4222097382548096
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Forms"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,10 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0d43f2321b8444d",
+  "active": "a8ee11cfc8f9364e",
   "lastOpenFiles": [
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
