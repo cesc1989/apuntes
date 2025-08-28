@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "22703ef448962073",
+        "id": "5cb3b10283044b48",
         "type": "tabs",
         "children": [
           {
-            "id": "6c930b4b6acce5b6",
+            "id": "8e16f4758c60cb82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Reglas Creación de Progress Forms - Marketplace"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Reglas Creación de Progress Forms - Marketplace"
             }
           }
         ],
@@ -159,17 +164,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "8e16f4758c60cb82",
   "lastOpenFiles": [
+    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
+    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Canvas/Forms.canvas",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Patient_Self_Report/Creacion de Forms",
@@ -209,7 +215,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
-    "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png",
-    "Luna/Clinical_Dashboard/Casos/attachments"
+    "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png"
   ]
 }
