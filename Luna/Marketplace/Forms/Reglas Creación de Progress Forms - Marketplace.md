@@ -61,3 +61,18 @@ En `app/marketplace/constants.py`.
 - No existing Progress Form for the same appointment
 - Haven't exceeded expected number of forms for the care plan
 
+## Proceso de Creación de Progress Form
+
+Se da como describo en [[Resumen de la Info que recopiló Claude]]
+
+## Key Differences from Backend Logic
+
+**Marketplace vs Backend Comparison**
+
+| Aspect | Backend | Marketplace |
+|--------|---------|-------------|
+| **Triggering** | Simple appointment completion events | Complex cadence logic (every 5th visit) |
+| **Surgical Support** | None | Handles pre-op/post-op form timing |
+| **Trigger Metadata** | Basic form creation | Tracks WHY each form was created |
+| **Skip Prevention** | None | Creates missed forms when intake completed |
+| **Form Limits** | None | Prevents creating too many forms per care plan |
