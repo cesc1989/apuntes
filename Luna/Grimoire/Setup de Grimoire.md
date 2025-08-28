@@ -27,6 +27,27 @@ mix hex.repo add oban https://getoban.pro/repo     --fetch-public-key PUBLIC_KEY
 
 Sigue `mix setup`.
 
+## mix setup
+
+Para que `mix setup` sea exitoso debo correrlo de esta forma:
+```bash
+DEV_SEED_EMAIL="francisco.quintero@ideaware.co" mix ecto.setup
+```
+
+De no hacerlo voy a tener varios errores porque en el paso que pide ingresar el correo del usuario, a pesar de que hay prompt, el setup no permite interactuar:
+```
+Is your luna email: francisco.quintero@ideaware.co? [y/n] - but it never lets me input something
+
+** (RuntimeError) could not lookup Ecto repo Grimoire.Repo because it was not started or it does not exist
+      (ecto 3.12.5) lib/ecto/repo/registry.ex:22: Ecto.Repo.Registry.lookup/1
+      (ecto 3.12.5) lib/ecto/repo/supervisor.ex:176: Ecto.Repo.Supervisor.tuplet/2
+      (grimoire 0.1.0) lib/grimoire/repo.ex:3: Grimoire.Repo.get_by/3
+      priv/repo/seeds/bootstrap_accounts_and_groups.exs:14: BootstrapAccountsAndGroups.seed/0
+      priv/repo/seeds/bootstrap_accounts_and_groups.exs:138: (file)
+      (elixir 1.18.3) lib/code.ex:1525: Code.require_file/2
+      priv/repo/seeds.exs:13: (file)
+```
+
 ## PostgreSQL
 
 Necesita el rol `postgres` que exista y que pueda hacer `LOGIN`.
