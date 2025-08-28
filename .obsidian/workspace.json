@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping_analysis.md",
+                "file": "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "diagnosis_specialty_mapping_analysis"
+              "title": "diagnosis_specialty_mapping"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping_analysis.md",
+                "file": "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of diagnosis_specialty_mapping_analysis"
+              "title": "Outline of diagnosis_specialty_mapping"
             }
           }
         ],
@@ -166,7 +166,7 @@
   },
   "active": "b4d9b59c3d271337",
   "lastOpenFiles": [
-    "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping_analysis.md",
+    "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Diagnosis Specialties",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",

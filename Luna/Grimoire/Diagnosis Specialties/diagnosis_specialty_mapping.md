@@ -1,4 +1,4 @@
-# Diagnosis Specialty Mapping Analysis
+# Diagnosis Specialty Mapping
 
 ## Diagnosis Codes Matching Specified Specialties
 
