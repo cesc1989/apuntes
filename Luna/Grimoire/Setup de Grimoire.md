@@ -48,6 +48,15 @@ Is your luna email: francisco.quintero@ideaware.co? [y/n] - but it never lets me
       priv/repo/seeds.exs:13: (file)
 ```
 
+## Para Pruebas
+
+Me tocó correr `mix setup` para el entorno test:
+```bash
+MIX_ENV=test DEV_SEED_EMAIL="francisco.quintero@ideaware.co" mix ecto.setup
+```
+
+Después de eso pude correr las pruebas normalmente con `mix test path/to/file`.
+
 ## PostgreSQL
 
 Necesita el rol `postgres` que exista y que pueda hacer `LOGIN`.
