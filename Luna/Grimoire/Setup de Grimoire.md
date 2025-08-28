@@ -180,3 +180,33 @@ Issues similares:
 - [direnv: error .envrc or .env file not found](https://github.com/direnv/direnv/issues/916)
 	- este menciona poner la configuración `load_dotenv = true` pero parece no funcionar
 
+#### Solución
+
+Para que cargue toca hacer:
+```bash
+eval "$(direnv hook bash)"
+```
+
+Luego ya se ven las envs:
+```
+direnv exec path /Users/francisco/.asdf/installs/direnv/2.37.1/bin/direnv
+DIRENV_CONFIG /Users/francisco/.config/direnv
+bash_path /bin/bash
+disable_stdin true
+warn_timeout 5s
+whitelist.prefix []
+whitelist.exact map[]
+Loaded RC path /Users/francisco/projects/luna-project/grimoire/.envrc
+Loaded watch: ".envrc" - 2025-08-28T17:31:51-05:00
+Loaded watch: "../../../.local/share/direnv/allow/49fff5d9d0c727da73079aaf462834e35632f18d91277fa429dc96e53df9a406" - 2025-08-28T17:28:38-05:00
+Loaded watch: "../../../.local/share/direnv/deny/782cc370f64091568e6084d679cdddd9607417c8f5a993036e63c32575b7dcaa" - 1969-12-31T19:00:00-05:00
+Loaded watch: ".env" - 2025-08-28T16:40:31-05:00
+Loaded RC allowed 0
+Loaded RC allowPath /Users/francisco/.local/share/direnv/allow/49fff5d9d0c727da73079aaf462834e35632f18d91277fa429dc96e53df9a406
+Found RC path /Users/francisco/projects/luna-project/grimoire/.envrc
+Found watch: ".envrc" - 2025-08-28T17:31:51-05:00
+Found watch: "../../../.local/share/direnv/allow/49fff5d9d0c727da73079aaf462834e35632f18d91277fa429dc96e53df9a406" - 2025-08-28T17:28:38-05:00
+Found watch: "../../../.local/share/direnv/deny/782cc370f64091568e6084d679cdddd9607417c8f5a993036e63c32575b7dcaa" - 1969-12-31T19:00:00-05:00
+Found RC allowed 0
+Found RC allowPath /Users/francisco/.local/share/direnv/allow/49fff5d9d0c727da73079aaf462834e35632f18d91277fa429dc96e53df9a406
+```
