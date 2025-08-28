@@ -14,32 +14,14 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Reglas Creación de Progress Forms - Marketplace"
             }
-          },
-          {
-            "id": "a8ee11cfc8f9364e",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas/Forms.canvas",
-                "viewState": {
-                  "x": -499.9403856047101,
-                  "y": -1393.6769992368936,
-                  "zoom": -1.4222097382548096
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Forms"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,12 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8ee11cfc8f9364e",
+  "active": "f0d43f2321b8444d",
   "lastOpenFiles": [
+    "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-    "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
@@ -212,7 +194,6 @@
     "Luna/Backend/KX-Modifier/Migraciones - PG Constraints.md",
     "Luna/Backend/KX-Modifier/KX Modifier en Luxe.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
