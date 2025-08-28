@@ -57,7 +57,7 @@ MIX_ENV=test DEV_SEED_EMAIL="francisco.quintero@ideaware.co" mix ecto.setup
 
 Después de eso pude correr las pruebas normalmente con `mix test path/to/file`.
 
-> [!Warn]
+> [!Warning]
 > Poner las envs en el comando me tocó porque `direnv` no está leyendo el archivo `.env`
 
 ## PostgreSQL
