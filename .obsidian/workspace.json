@@ -14,11 +14,39 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Grimoire/Setup de Grimoire.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Setup de Grimoire"
+            }
+          },
+          {
+            "id": "ce7aebf097d3468a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes Bliss - Parte 1"
+            }
+          },
+          {
+            "id": "6eeb553258ad9e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "diagnosis_specialty_mapping"
             }
           }
         ]
@@ -166,10 +194,10 @@
   },
   "active": "eb97aec7c3907621",
   "lastOpenFiles": [
+    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Diagnosis Specialties",
-    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
     "Luna/Glosario.md",

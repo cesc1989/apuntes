@@ -210,3 +210,11 @@ Found watch: "../../../.local/share/direnv/deny/782cc370f64091568e6084d679cdddd9
 Found RC allowed 0
 Found RC allowPath /Users/francisco/.local/share/direnv/allow/49fff5d9d0c727da73079aaf462834e35632f18d91277fa429dc96e53df9a406
 ```
+
+## backend Bridge
+
+Para completar el CCW necesito tener corriendo backend con las envs `NEW_WORLD_HTTP_AUTH_USERNAME` y `NEW_WORLD_HTTP_AUTH_PASSWORD` configuradas con las credenciales que se indican en Grimoire.
+
+El valor para `NEW_WORLD_HTTP_AUTH_USERNAME` está en `config/config.exs` en `Grimoire.Bridges.Backend`.
+
+El valor para `NEW_WORLD_HTTP_AUTH_PASSWORD` está en `grimoire/config/dev.exs` en el mismo modulo.
