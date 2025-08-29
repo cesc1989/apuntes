@@ -123,6 +123,10 @@ Credentialing creado: 08/28/2025 11:02 PM GMT-5
 > [!Note]
 > Para todos estos contactos agregué manualmente la URL del AF para que el equipo de Success pueda hacer un trigger manual del sync desde ese form.
 
+Query en Grafana:
+```sql
+{app="therapist-credentialing-backend"} |= `Did not found Associated Custom Objects for Hubspot ID: 150849614707`
+```
 
 **Sentries**
 
