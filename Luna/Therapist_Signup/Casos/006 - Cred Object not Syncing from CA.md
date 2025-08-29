@@ -38,7 +38,7 @@ Credentialing: https://app.hubspot.com/contacts/4634981/record/2-31374266/335457
 ID: `6f00733c-2dbe-4979-a3ce-68166ac0661e`
 
 ¿Tiene ya los IDs?
-```ruby
+```bash
 credentialing_active_attested_id: 33545759309
 credentialing_relocation_id: 33534500134
 ```
@@ -52,20 +52,73 @@ I, [2025-08-26T00:13:08.065521 #1]  INFO -- : Did not found Associated Custom Ob
 Registro del log: 2025-08-25 19:13:08
 Credentialing creado: 08/25/2025 7:14 PM GMT-5
 
+---
+
 Pivnik
 Contact: 148903637833
 Credentialing: https://app.hubspot.com/contacts/4634981/record/2-31374266/33605254701
 ID: `ca9d3b27-7f64-4bd7-acee-d12235ae45ee`
+
+¿Tiene ya los IDs?
+```bash
+credentialing_active_attested_id: 33605254701
+credentialing_relocation_id: 33606029484
+```
+
+En Logs
+```bash
+2025-08-26 19:46:35.944	
+I, [2025-08-27T00:46:35.944573 #1]  INFO -- : Did not found Associated Custom Objects for Hubspot ID: 148903637833
+```
+
+Registro del log: 2025-08-26 19:46:35
+Credentialing creado: 08/26/2025 7:47 PM GMT-5
+
+---
 
 Wang
 Contact: 147350951031
 Credentialing: https://app.hubspot.com/contacts/4634981/record/2-31374266/33654944316
 ID: `8cad6ec4-b63c-4e9a-bd30-3b0ad663e6eb`
 
+¿Tiene ya los IDs?
+```bash
+credentialing_active_attested_id: 33654944316
+credentialing_relocation_id: 33657099651
+```
+
+En Logs
+```bash
+2025-08-28 08:06:48.933	
+I, [2025-08-28T13:06:48.933469 #1]  INFO -- : Did not found Associated Custom Objects for Hubspot ID: 147350951031
+```
+
+Registro del log: 2025-08-28 08:06:48
+Credentialing creado: 08/28/2025 8:08 AM GMT-5
+
+---
+
 Schiavo
 Contact: 150849614707
 Credentialing: https://app.hubspot.com/contacts/4634981/record/2-31374266/33759841352/
 ID: `df696364-e3ed-423f-ae63-f0b7159576c0`
+
+¿Tiene ya los IDs?
+```bash
+credentialing_active_attested_id: 33759841352
+credentialing_relocation_id: 33748064656
+```
+
+En Logs
+```bash
+2025-08-28 23:01:29.560	
+I, [2025-08-29T04:01:29.560179 #1]  INFO -- : Did not found Associated Custom Objects for Hubspot ID: 150849614707
+```
+
+Registro del log: 2025-08-28 23:01:29
+Credentialing creado: 08/28/2025 11:02 PM GMT-5
+
+---
 
 > [!Note]
 > Para todos estos contactos agregué manualmente la URL del AF para que el equipo de Success pueda hacer un trigger manual del sync desde ese form.
