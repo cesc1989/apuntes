@@ -37,6 +37,21 @@ Contact: 237058651
 Credentialing: https://app.hubspot.com/contacts/4634981/record/2-31374266/33545759309
 ID: `6f00733c-2dbe-4979-a3ce-68166ac0661e`
 
+¿Tiene ya los IDs?
+```ruby
+credentialing_active_attested_id: 33545759309
+credentialing_relocation_id: 33534500134
+```
+
+En Logs
+```bash
+2025-08-25 19:13:08.065	
+I, [2025-08-26T00:13:08.065521 #1]  INFO -- : Did not found Associated Custom Objects for Hubspot ID: 237058651
+```
+
+Registro del log: 2025-08-25 19:13:08
+Credentialing creado: 08/25/2025 7:14 PM GMT-5
+
 Pivnik
 Contact: 148903637833
 Credentialing: https://app.hubspot.com/contacts/4634981/record/2-31374266/33605254701
