@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "79f6d00963bae377",
+    "type": "split",
+    "children": [
+      {
+        "id": "a74e76d23e9cba97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27045df40bd13a76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "006 - Cred Object not Syncing from CA"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9d88c8061c3dd581",
+    "type": "split",
+    "children": [
+      {
+        "id": "39423827f2183eb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f41a7b7135580f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e85de9dca06381e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "controller.py",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ae44d219661c1436",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 424.5
+  },
+  "right": {
+    "id": "0cdac2dc7693ce2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "db355f5d9503a97f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91af6313d0fc3c7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d46b159d37be8c8d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "8b36263955dea90c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f8c38983b9043c30",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 006 - Cred Object not Syncing from CA"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "27045df40bd13a76",
+  "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
+    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
+    "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
+    "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
+    "Luna/Grimoire/Diagnosis Specialties/diagnosis_specialty_mapping.md",
+    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Luna/Grimoire/Setup de Grimoire.md",
+    "Luna/Grimoire/Diagnosis Specialties",
+    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
+    "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
+    "Luna/Glosario.md",
+    "Luna/Patient_Self_Report/archive/Campos_a_Revisar_para_Eliminar.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
+    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
+    "Canvas/Forms.canvas",
+    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
+    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Luna/Marketplace/Forms",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
+    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
+    "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
+    "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
+    "Luna/Patient_Self_Report/Creacion de Forms",
+    "Luna/Patient_Self_Report/Access Existing Forms.md",
+    "Luna/Backend/HubSpot Exports Notes",
+    "Otro_Espacio/Blog",
+    "Canvas/GraphQL.canvas",
+    "Canvas/Ruby.canvas",
+    "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
+    "Luna/Backend/Athena Exports Notes/attachments/003.bo.crawler.png",
+    "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
+    "Luna/Backend/Athena Exports Notes/attachments/alpha_fixed.png",
+    "Luna/Backend/Athena Exports Notes/attachments/broken.export.png",
+    "Luna/Backend/Athena Exports Notes/attachments/image.png",
+    "Luna/Backend/Athena Exports Notes/attachments/patient.open.issues.png",
+    "Luna/Backend/Athena Exports Notes/attachments",
+    "Luna/Backend/Athena Exports Notes",
+    "Luna/Backend/Protocols/phase-29",
+    "DevAsPros/Enlacito/Untitled.canvas",
+    "DevAsPros/Enlacito/Definicion",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
+    "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
+    "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png"
+  ]
+}
