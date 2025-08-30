@@ -132,3 +132,23 @@ Query en Grafana:
 
 Hubo varios reportes de "Missing definitive_hubspot_credentialing_id for Therapist" desde hace un día (en el momento que escribo esto) hasta hace unos poco minutos.
 
+# Solución
+
+Para Credentialing object.
+
+En el worker `HubspotSyncCustomObjectIdsToTherapistWorker` se debe tener un resultado de la ejecución del servicio `HubspotSyncCustomObjectsIdsToTherapistService`. Un `true` o `false`.
+
+Si es exitoso el servicio, entonces se encola el worker `HubspotCustomObjects::HubspotCredentialingObjectWorker`.
+
+> [!Note]
+> Si esto funciona para Credentialing, lo llevaré para License.
+
+## Pasos
+
+Pasos para completar la solución:
+
+- [x] Usar `Hubspot::Connection` para simplificar el servicio
+- [x] Envolver `Hubspot::Connection` en un bloque `retriable`
+- [ ] Usar la respuesta del servicio para encolar el worker de `HubspotCredentialingObjectWorker`
+- [ ] xxx
+
