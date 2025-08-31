@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "controller.py",
+                "query": "pattern matching",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e34be1c23d5ec47",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
     "Luna/Therapist_Signup/HubSpot/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",

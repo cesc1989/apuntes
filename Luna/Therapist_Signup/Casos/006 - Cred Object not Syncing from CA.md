@@ -152,5 +152,5 @@ Pasos para completar la solución:
 - [x] Usar la respuesta del servicio para encolar el worker de `HubspotCredentialingObjectWorker`
 - [x] Usar la respuesta del servicio para encolar el worker de `HubspotLicenseObjectWorker`
 - [ ] Escribir pruebas automáticas
-- [ ] Probar en alpha
+- [x] Probar en alpha
 
