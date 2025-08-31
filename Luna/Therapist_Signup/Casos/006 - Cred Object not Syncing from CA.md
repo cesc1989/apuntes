@@ -149,6 +149,8 @@ Pasos para completar la solución:
 
 - [x] Usar `Hubspot::Connection` para simplificar el servicio
 - [x] Envolver `Hubspot::Connection` en un bloque `retriable`
-- [ ] Usar la respuesta del servicio para encolar el worker de `HubspotCredentialingObjectWorker`
-- [ ] xxx
+- [x] Usar la respuesta del servicio para encolar el worker de `HubspotCredentialingObjectWorker`
+- [x] Usar la respuesta del servicio para encolar el worker de `HubspotLicenseObjectWorker`
+- [ ] Escribir pruebas automáticas
+- [ ] Probar en alpha
 
