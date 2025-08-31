@@ -151,6 +151,8 @@ Pasos para completar la solución:
 - [x] Envolver `Hubspot::Connection` en un bloque `retriable`
 - [x] Usar la respuesta del servicio para encolar el worker de `HubspotCredentialingObjectWorker`
 - [x] Usar la respuesta del servicio para encolar el worker de `HubspotLicenseObjectWorker`
-- [ ] Escribir pruebas automáticas
-- [x] Probar en alpha
+- [x] Escribir pruebas automáticas
+- [x] Probar en local
+- [ ] Probar en alpha multiples sign ups
+- [ ] Probar en alpha multiples ESUs
 
