@@ -273,3 +273,28 @@ ChatGPT:
 > La bandera `x` es **`Regexp::EXTENDED`**, y permite:
 >  - Usar **espacios y saltos de línea** dentro de la regex para legibilidad. 
 >  - Escribir **comentarios** precedidos por `#` dentro del patrón.
+
+# Construir URLs sin interpolar. Usa URI
+
+Como es costumbre suelo construir las URLs haciendo interpolación. Para URLs cortas está bien pero una vez se tienen que interpolar muchas variables se torna enredado bastante rápido.
+
+Ejemplo esta interpolación para unas pruebas de petición a HubSpot:
+```ruby
+base_url = "https://api.hubapi.com/crm/v3/objects"
+associations_q_param = "associations=#{license_object_type_id.value}"
+url = "#{base_url}/#{credentialing_object_type_id.value}/#{therapist.definitive_hubspot_credentialing_id}?#{associations_q_param}"
+```
+
+En futuras lecturas, este código será no tan fácil de relacionar. Así que me acordé de un [artículo de Arkency](https://blog.arkency.com/stop-concatenating-urls-with-strings/) que justamente muestra una mejor forma de hacer esto mismo.
+
+Lo anterior se puede hacer así usando el [módulo URI](https://docs.ruby-lang.org/en/master/URI.html):
+```ruby
+base = URI("https://api.hubapi.com")
+base.path = "/crm/v3/objects/#{credentialing_object_type_id.value}/#{therapist.definitive_hubspot_credentialing_id}"
+base.query = URI.encode_www_form(associations: license_object_type_id.value)
+```
+
+Con eso me evito tanta interpolación (evitando que la línea sea muy larga) y obtengo el mismo resultado:
+```
+"https://api.hubapi.com/crm/v3/objects/2-33642689/901?associations=2-33642689"
+```
