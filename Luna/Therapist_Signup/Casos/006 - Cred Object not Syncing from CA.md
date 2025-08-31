@@ -153,6 +153,6 @@ Pasos para completar la solución:
 - [x] Usar la respuesta del servicio para encolar el worker de `HubspotLicenseObjectWorker`
 - [x] Escribir pruebas automáticas
 - [x] Probar en local
-- [ ] Probar en alpha multiples sign ups
-- [ ] Probar en alpha multiples ESUs
+- [x] Probar en alpha multiples sign ups
+- [x] Probar en alpha multiples ESUs
 
