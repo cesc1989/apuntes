@@ -87,10 +87,6 @@ hyper:bind({}, "O", function()
   hs.application.launchOrFocus("Obsidian")
 end)
 
-hyper:bind({}, "W", function()
-  hs.application.launchOrFocus("WhatsApp")
-end)
-
 hyper:bind({}, "S", function()
   hs.application.launchOrFocus("Sublime Text")
 end)
@@ -99,6 +95,29 @@ hyper:bind({}, "T", function()
   hs.application.launchOrFocus("Terminal")
 end)
 
+hyper:bind({}, "D", function()
+  hs.application.launchOrFocus("DBeaver")
+end)
+
+hyper:bind({}, "P", function()
+  hs.application.launchOrFocus("Postman")
+end)
+
+hyper:bind({}, "Z", function()
+  hs.application.launchOrFocus("Zed")
+end)
+
+hyper:bind({}, "E", function()
+  hs.application.launchOrFocus("Finder")
+end)
+
+hyper:bind({}, "H", function()
+  hs.application.launchOrFocus("Dash")
+end)
+
+hyper:bind({}, "N", function()
+  hs.application.launchOrFocus("Bruno")
+end)
 ```
 
 Y recargué la configuración de Hammerspoon.

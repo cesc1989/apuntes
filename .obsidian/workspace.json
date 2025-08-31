@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "be29581535f79c17",
+        "id": "1b312de302a9a1a8",
         "type": "tabs",
         "children": [
           {
-            "id": "0dd2b9317d4d8ccb",
+            "id": "f9922236ce4f6267",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - Cred Object not Syncing from CA"
+              "title": "Karabiner Hammerspoon y Hyper Key para Atajos en MacOS"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - Cred Object not Syncing from CA"
+              "title": "Outline of Karabiner Hammerspoon y Hyper Key para Atajos en MacOS"
             }
           }
         ],
@@ -164,11 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dd2b9317d4d8ccb",
+  "active": "f9922236ce4f6267",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Luna/Therapist_Signup/HubSpot/Hubspot_Objects_and_Association_Labels_APIs.md",
     "Luna/Grafana_Queries.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
