@@ -46,6 +46,7 @@ La query arroja lo siguiente:
 
 ```
 threshold_exceeded: false
+prompt_therapist_for_medical_necessity: true
 medical_necessity_state: NULL
 ```
 
@@ -53,6 +54,10 @@ Este care plan no tiene `medicare_care_plan_medical_necessity_responses`.
 
 Así se refleja en Luxe:
 ![[001.case.01.luxe.png]]
+
+### Respuesta
+
+The value in "Prompt Therapist for Medicare Medical Necessity?" is always true so that once the Threshold is Exceeded the system can prompt the therapist the confirmation modal.
 
 ## Segundo Caso
 
