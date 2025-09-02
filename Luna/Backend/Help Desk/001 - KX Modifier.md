@@ -85,6 +85,10 @@ Pasa porque en Luxe se usa el mismo valor `created_at` para ambas columnas.
 Así se ve en Luxe:
 ![[001.case.02.luxe.png]]
 
+### Respuesta
+
+They report the same time because are using the same source value. It's confusing but the main point of the "Response" column is to report the rejected/approved state of the Medical Necessity.
+
 ## Tercer Caso
 
 Reporte:
