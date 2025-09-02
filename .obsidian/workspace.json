@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "600ca8762d11c710",
+        "id": "2420f919e2d1d86e",
         "type": "tabs",
         "children": [
           {
-            "id": "b6f31bf6f6756d1a",
+            "id": "dff3eb7b5e4061e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
+                "file": "Luna/Backend/Help Desk/001 - KX Modifier.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "001 - Notas Generales - KX Modifier"
+              "title": "001 - KX Modifier"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
+                "file": "Luna/Backend/Help Desk/001 - KX Modifier.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001 - Notas Generales - KX Modifier"
+              "title": "Outline of 001 - KX Modifier"
             }
           }
         ],
@@ -164,8 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6f31bf6f6756d1a",
+  "active": "dff3eb7b5e4061e8",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/001 - KX Modifier.md",
+    "Luna/Backend/Help Desk",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
+    "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
     "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
     "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
@@ -187,14 +194,8 @@
     "Luna/Glosario.md",
     "Luna/Patient_Self_Report/archive/Campos_a_Revisar_para_Eliminar.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
-    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Canvas/Forms.canvas",
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms",
-    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Patient_Self_Report/Creacion de Forms",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",
@@ -213,7 +214,6 @@
     "DevAsPros/Enlacito/Untitled.canvas",
     "DevAsPros/Enlacito/Definicion",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png"
   ]
