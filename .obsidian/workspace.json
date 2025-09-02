@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1b312de302a9a1a8",
+        "id": "600ca8762d11c710",
         "type": "tabs",
         "children": [
           {
-            "id": "f9922236ce4f6267",
+            "id": "b6f31bf6f6756d1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+                "file": "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Karabiner Hammerspoon y Hyper Key para Atajos en MacOS"
+              "title": "001 - Notas Generales - KX Modifier"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+                "file": "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Karabiner Hammerspoon y Hyper Key para Atajos en MacOS"
+              "title": "Outline of 001 - Notas Generales - KX Modifier"
             }
           }
         ],
@@ -164,8 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9922236ce4f6267",
+  "active": "b6f31bf6f6756d1a",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
+    "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
@@ -192,9 +195,6 @@
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
-    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Patient_Self_Report/Creacion de Forms",
     "Luna/Backend/HubSpot Exports Notes",
     "Otro_Espacio/Blog",

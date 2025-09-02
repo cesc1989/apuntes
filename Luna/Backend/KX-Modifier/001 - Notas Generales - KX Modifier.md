@@ -16,9 +16,8 @@ Si el **paciente** está ==a punto de gastar más de 2000 dólares en Medicare==
 > [!Note]
 > De no hacerlo podría pasar que:
 >
-> Los reclamos sean rechazados.
->
-> Luna podría incumplir normativas.
+> - Los reclamos sean rechazados.
+> - Luna podría incumplir normativas.
 
 > [!Note]
 > Esto se hace a partir de los 2000 dólares como *medida proactiva* por parte de Luna. El límite real son 2330 dólares.
