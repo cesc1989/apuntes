@@ -42,7 +42,17 @@ CP ID:
 
 ### Datos
 
+La query arroja lo siguiente:
 
+```
+threshold_exceeded: false
+medical_necessity_state: NULL
+```
+
+Este care plan no tiene `medicare_care_plan_medical_necessity_responses`.
+
+Así se refleja en Luxe:
+![[001.case.01.luxe.png]]
 
 ## Segundo Caso
 

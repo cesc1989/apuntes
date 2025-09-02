@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/001 - KX Modifier.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -166,6 +166,8 @@
   },
   "active": "dff3eb7b5e4061e8",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/attachments/001.case.01.luxe.png",
+    "Luna/Backend/Help Desk/attachments",
     "Luna/Backend/Help Desk/001 - KX Modifier.md",
     "Luna/Backend/Help Desk",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
@@ -193,7 +195,6 @@
     "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
     "Luna/Glosario.md",
     "Luna/Patient_Self_Report/archive/Campos_a_Revisar_para_Eliminar.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
     "Luna/Patient_Self_Report/Creacion de Forms",
@@ -212,7 +213,6 @@
     "Luna/Backend/Athena Exports Notes",
     "Luna/Backend/Protocols/phase-29",
     "DevAsPros/Enlacito/Untitled.canvas",
-    "DevAsPros/Enlacito/Definicion",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.breadcrumb.png",
     "Luna/Clinical_Dashboard/Casos/attachments/002.logrocket.recording.png"
