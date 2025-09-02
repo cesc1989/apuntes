@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2420f919e2d1d86e",
+        "id": "303d76449a344667",
         "type": "tabs",
         "children": [
           {
-            "id": "dff3eb7b5e4061e8",
+            "id": "dfc36e87d98a766f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/001 - KX Modifier.md",
-                "mode": "source",
+                "file": "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "001 - KX Modifier"
+              "title": "001 - KX Modifier no funciona en Luxe ✅"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/001 - KX Modifier.md",
+                "file": "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001 - KX Modifier"
+              "title": "Outline of 001 - KX Modifier no funciona en Luxe ✅"
             }
           }
         ],
@@ -164,13 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dff3eb7b5e4061e8",
+  "active": "dfc36e87d98a766f",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Help Desk/attachments/001.case.03.luxe.png",
     "Luna/Backend/Help Desk/attachments/001.case.02.luxe.png",
     "Luna/Backend/Help Desk/attachments/001.case.01.luxe.png",
     "Luna/Backend/Help Desk/attachments",
-    "Luna/Backend/Help Desk/001 - KX Modifier.md",
     "Luna/Backend/Help Desk",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
@@ -214,7 +214,6 @@
     "Luna/Backend/Athena Exports Notes/attachments",
     "Luna/Backend/Athena Exports Notes",
     "Luna/Backend/Protocols/phase-29",
-    "DevAsPros/Enlacito/Untitled.canvas",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/attachments/karabiner.settings.png"
+    "DevAsPros/Enlacito/Untitled.canvas"
   ]
 }

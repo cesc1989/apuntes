@@ -1,4 +1,4 @@
-# 001 - KX Modifier error?
+# 001 - KX Modifier no funciona en Luxe
 
 Tres casos reportados que no funcionan bien.
 
