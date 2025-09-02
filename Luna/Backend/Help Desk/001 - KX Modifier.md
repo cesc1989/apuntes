@@ -42,7 +42,7 @@ CP ID:
 
 ### Datos
 
-La query arroja lo siguiente:
+La query arroja lo siguiente para 2025:
 
 ```
 threshold_exceeded: false
@@ -74,7 +74,7 @@ f434cf88-009a-477b-bed9-e2323de0047a
 
 ### Datos
 
-La query muestra esto:
+La query muestra esto para 2025:
 ```
 response: 2025-08-23 05:49:27.848
 submitted_at: 2025-08-23 05:49:27.848
@@ -101,3 +101,20 @@ CP ID:
 ```
 7ed82845-c9c2-4b6e-abcb-2696757107ac
 ```
+
+### Datos
+
+La query arroja lo siguiente para 2025:
+
+```
+threshold_exceeded: true
+prompt_therapist_for_medical_necessity: true
+medical_necessity_state: NULL
+```
+
+Así se ve en Luxe:
+![[001.case.03.luxe.png]]
+
+### Respuesta
+
+The mobile app should prompt the therapist to confirm the medical necessity. For the momento there's no response so that's why there's no info in the "Medical Necessity Responses" section.
