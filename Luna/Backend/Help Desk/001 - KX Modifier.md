@@ -62,7 +62,7 @@ The value in "Prompt Therapist for Medicare Medical Necessity?" is always true s
 ## Segundo Caso
 
 Reporte:
-> For patients that have Medicare Threshold approved by PT, the submitted at date and Response date are the same
+> For patients that have Medicare Threshold approved by PT, *the submitted at date and Response date are the same*
 
 Esperado:
 > Response Time and Submitted At time should be two different times. Response Time should be when the PT responded and Submitted AT time should be when we initiated contact with the PT
@@ -71,6 +71,19 @@ CP ID:
 ```
 f434cf88-009a-477b-bed9-e2323de0047a
 ```
+
+### Datos
+
+La query muestra esto:
+```
+response: 2025-08-23 05:49:27.848
+submitted_at: 2025-08-23 05:49:27.848
+```
+
+Pasa porque en Luxe se usa el mismo valor `created_at` para ambas columnas.
+
+Así se ve en Luxe:
+![[001.case.02.luxe.png]]
 
 ## Tercer Caso
 
