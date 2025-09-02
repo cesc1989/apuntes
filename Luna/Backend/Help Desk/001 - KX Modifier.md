@@ -2,6 +2,31 @@
 
 Tres casos reportados que no funcionan bien.
 
+Voy a usar esta query o alguna variante de la misma para entender los datos de cada caso.
+```sql
+select
+  pat.id as patient_id,
+  epo.prompt_therapist_for_medical_necessity,
+  mdts.effective_from,
+  mdts.effective_until,
+  mdts.threshold_exceeded,
+  (case mcpmnr.medical_necessity_state
+    when 0 then 'rejected'
+    when 1 then 'approved'
+  end) as medical_necessity_state
+from patients pat
+inner join episodes epo on epo.patient_id = pat.id
+inner join medicare_dollar_threshold_statuses mdts on mdts.patient_id = pat.id
+left join medicare_care_plan_medical_necessity_responses mcpmnr on mcpmnr.medicare_dollar_threshold_status_id = mdts.id
+```
+
+> [!Important]
+> El campo `prompt_therapist_for_medical_necessity` en Episode es `true` por defecto. Solo eso no decide si se le muestra o no el prompt al Therapist en la app.
+> 
+> ```ruby
+> t.boolean "prompt_therapist_for_medical_necessity", default: true, null: false
+> ```
+
 ## Primer Caso
 
 Reporte:
@@ -14,6 +39,10 @@ CP ID:
 ```
 1f828722-5fb6-403b-8530-2ead14b5d87a
 ```
+
+### Datos
+
+
 
 ## Segundo Caso
 
