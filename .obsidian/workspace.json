@@ -4,68 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a96ae08927d9ac2b",
-        "type": "split",
-        "children": [
-          {
-            "id": "4fb67ed460141750",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a6f941f7266af22b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "QA en Alpha"
-                }
-              }
-            ]
-          },
-          {
-            "id": "b410ce5013b6b8df",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f0454590e119a8b0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "Apuntes Bliss - Parte 1"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "cbb48790bc59a7a4",
+        "id": "4fb67ed460141750",
         "type": "tabs",
         "children": [
           {
-            "id": "02e29d5b723c4b9b",
+            "id": "a6f941f7266af22b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
+                "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "diagnosis_specialty_mapping"
+              "title": "QA en Alpha"
             }
           }
         ]
@@ -213,9 +166,9 @@
   },
   "active": "a6f941f7266af22b",
   "lastOpenFiles": [
-    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
-    "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
+    "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
