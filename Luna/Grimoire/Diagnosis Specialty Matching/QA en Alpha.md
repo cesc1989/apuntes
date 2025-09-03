@@ -17,7 +17,8 @@ CCW
 
 - [x] outcome not booked && NTA syncs specialty.
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/149268630287)
-- [ ] outcome Patient placed on broadcast syncs specialty.
+- [x] outcome Patient placed on broadcast syncs specialty.
+	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/151063056007)
 - [x] outcome booked does not sync specialty.
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/111037895816) 
 
