@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c7a27836b734b589",
+        "id": "df8ab105d383ba4f",
         "type": "tabs",
         "children": [
           {
-            "id": "669b422379789800",
+            "id": "d9dafded9f56931c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+                "file": "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "QA en Alpha"
+              "title": "Diagnosis Specialty Matching - Notas Generales"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+                "file": "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of QA en Alpha"
+              "title": "Outline of Diagnosis Specialty Matching - Notas Generales"
             }
           }
         ],
@@ -164,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "669b422379789800",
+  "active": "d9dafded9f56931c",
   "lastOpenFiles": [
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
@@ -196,7 +197,6 @@
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
     "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
-    "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Grimoire/Diagnosis Specialty Matching",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
