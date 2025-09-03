@@ -160,7 +160,7 @@ Pasos para completar la solución:
 
 Summary of updates introduce by Linear card.
 
-Note: **EDG-2618** acts as parent ticket for the following.
+> Note: **EDG-2618** acts as parent ticket for the following.
 
 **EDG-2617 - Remove old feature flag**: This was cleanup job before starting the required changes.
 
@@ -168,9 +168,12 @@ Note: **EDG-2618** acts as parent ticket for the following.
 
 **EDG-2623 - Improve query to pull Custom Object IDs from HubSpot**: Improve the query to only pull IDs for those records without an `credentialing_active_attested_id` in the DB. This lowered the amount of records to update and requests to make to HubSpot.
 
-**EDG-2623 - Remove batch sync of custom object IDs**: After improving the query I tracked results and turns out this was being wasteful. The list of therapists to pull IDs to was not reducing in important numbers.
+**EDG-2624 - Remove batch sync of custom object IDs**: After improving the query I tracked results and turns out this was being wasteful. The list of therapists to pull IDs to was not reducing in important numbers.
 
-**EDG-2623 - Pull custom object IDs after completing each CA section**: Instead of an hourly batch pull now the system pulls the ID if missing after completing each section of the Credentialing Application.
+**EDG-2625 - Pull object IDs after completing each CA section**: Instead of an hourly batch pull now the system pulls the ID if missing after completing each section of the Credentialing Application.
 
 **EDG-2618 - Improve sync of Custom Object IDs**: Technical changes in the service that pulls IDs from HubSpot. Simplify code and made it return a success/failure indicator to use in the upcoming retry setup.
 
+**EDG-2632 - Only sync to Credentialing object afterAF is submitted**: Same as in EDG-2621 but applied to the Attestation Form.
+
+**EDG-2633 - Pull object IDs after completing each AF section**: same as in EDG-2625 but applied to the Attestation Form.
