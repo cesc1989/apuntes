@@ -11,10 +11,14 @@
             "id": "a6f941f7266af22b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "QA en Alpha"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of QA en Alpha"
             }
           }
         ],
@@ -161,6 +166,7 @@
   },
   "active": "a6f941f7266af22b",
   "lastOpenFiles": [
+    "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
@@ -192,7 +198,6 @@
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Diagnosis Specialty Matching",
-    "Luna/Grimoire/Apuntes Grimoire - Part 1.md",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
     "Luna/Patient_Self_Report/Creacion de Forms",
