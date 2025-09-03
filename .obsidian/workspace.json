@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4fb67ed460141750",
+        "id": "c7a27836b734b589",
         "type": "tabs",
         "children": [
           {
-            "id": "a6f941f7266af22b",
+            "id": "669b422379789800",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6f941f7266af22b",
+  "active": "669b422379789800",
   "lastOpenFiles": [
-    "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+    "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
@@ -196,7 +197,6 @@
     "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
     "Luna/Comandos y Configuración de Kubectl.md",
-    "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Diagnosis Specialty Matching",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",

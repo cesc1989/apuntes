@@ -37,3 +37,8 @@ DiagnosisSpecialtyProperty
 ```
 mix test test/grimoire/hubspot/diagnosis_specialty_contact_properties_test.exs
 ```
+
+Todo junto:
+```
+mix test test/grimoire/patient_onboarding/saga_builder_test.exs test/grimoire/case_creation/saga_builder_test.exs test/grimoire/hubspot/diagnosis_specialty_contact_properties_test.exs
+```
