@@ -158,7 +158,7 @@ Pasos para completar la solución:
 
 # Resumen de Actualizaciones
 
-Summary of updates introduce by Linear card.
+Summary of updates introduced by Linear card.
 
 > Note: **EDG-2618** acts as parent ticket for the following.
 
