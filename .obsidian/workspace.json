@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "abdb63fd5c868351",
+        "id": "ea33e48f2f32bebb",
         "type": "tabs",
         "children": [
           {
-            "id": "42c87b19de6a53e7",
+            "id": "146df95fdaf0d455",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+                "file": "Luna/Backend/Protocols/Apuntes Generales.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "QA en Alpha"
-            }
-          },
-          {
-            "id": "9ca18013ad6d9ba4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "diagnosis_specialty_mapping"
+              "title": "Apuntes Generales"
             }
           }
         ]
@@ -154,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+                "file": "Luna/Backend/Protocols/Apuntes Generales.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of QA en Alpha"
+              "title": "Outline of Apuntes Generales"
             }
           }
         ],
@@ -178,12 +164,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42c87b19de6a53e7",
+  "active": "146df95fdaf0d455",
   "lastOpenFiles": [
+    "Luna/Backend/Protocols/attachments/002.no.documents.png",
+    "Luna/Backend/Protocols/attachments/001.documents.png",
+    "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
+    "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.00.png",
+    "Luna/Backend/Protocols/attachments",
+    "Luna/Backend/Protocols/untitled folder",
+    "Luna/Backend/Protocols/Apuntes Generales.md",
+    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
+    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
-    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
@@ -208,9 +202,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Therapist_Signup/HubSpot/Hubspot_Objects_and_Association_Labels_APIs.md",
-    "Luna/Grafana_Queries.md",
-    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
-    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active ✅.md",
     "Luna/Grimoire/Diagnosis Specialty Matching",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
@@ -223,12 +214,7 @@
     "Luna/Backend/Athena Exports Notes/attachments/003.bo.crawler.png",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
     "Luna/Backend/Athena Exports Notes/attachments/alpha_fixed.png",
-    "Luna/Backend/Athena Exports Notes/attachments/broken.export.png",
-    "Luna/Backend/Athena Exports Notes/attachments/image.png",
-    "Luna/Backend/Athena Exports Notes/attachments/patient.open.issues.png",
     "Luna/Backend/Athena Exports Notes/attachments",
-    "Luna/Backend/Athena Exports Notes",
-    "Luna/Backend/Protocols/phase-29",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
 }
