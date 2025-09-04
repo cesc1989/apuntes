@@ -4,22 +4,25 @@ Todos los casos que debo probar.
 
 POW
 
-- [x] outcome not booked && NTA syncs specialty.
+- [x] outcome not booked && NTA syncs specialty
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/151202252373)
 	- [HS Contact 2](https://app.hubspot.com/contacts/7712148/record/0-1/150851711405)
-- [x] outcome Patient placed on broadcast syncs specialty.
+	- [HS Contact 3](https://app.hubspot.com/contacts/7712148/record/0-1/151120050531)
+- [x] outcome Patient placed on broadcast syncs specialty
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/151093395784) 
 	- [HS Contact 2](https://app.hubspot.com/contacts/7712148/record/0-1/151243277184)
-- [x] outcome booked does not sync specialty.
+	- [HS Contact 3](https://app.hubspot.com/contacts/7712148/record/0-1/151135839238)
+- [x] outcome booked does not sync specialty
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/151135734119)
+	- [HS Contact 2](https://app.hubspot.com/contacts/7712148/record/0-1/150837176214)
 
 CCW
 
-- [x] outcome not booked && NTA syncs specialty.
+- [x] outcome not booked && NTA syncs specialty
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/149268630287)
-- [x] outcome Patient placed on broadcast syncs specialty.
+- [x] outcome Patient placed on broadcast syncs specialty
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/151063056007)
-- [x] outcome booked does not sync specialty.
+- [x] outcome booked does not sync specialty
 	- [HS Contact](https://app.hubspot.com/contacts/7712148/record/0-1/111037895816) 
 
 ## Todas las pruebas que debo correr
