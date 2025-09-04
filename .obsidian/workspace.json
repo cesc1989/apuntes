@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ee7363c75e0109cb",
+        "id": "e6519b08f58a3726",
         "type": "tabs",
         "children": [
           {
-            "id": "3306f0f7965a3210",
+            "id": "36c11f2bae232677",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes Generales.md",
+                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Generales"
+              "title": "Configuracion de Propiedades en HubSpot"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes Generales.md",
+                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Generales"
+              "title": "Outline of Configuracion de Propiedades en HubSpot"
             }
           }
         ],
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3306f0f7965a3210",
+  "active": "36c11f2bae232677",
   "lastOpenFiles": [
     "Luna/Backend/Protocols/Apuntes Generales.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",

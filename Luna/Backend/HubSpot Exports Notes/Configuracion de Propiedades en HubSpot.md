@@ -1,5 +1,7 @@
 # Configuración de Propiedades desde backend
 
+Etiquetas: #luna_help_desk 
+
 Veo que hay dos archivos donde se listan las propiedades:
 
 - `config/hub_spot_contact_properties.yml`
