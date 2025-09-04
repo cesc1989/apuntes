@@ -1,5 +1,7 @@
 # 006 - Credentialing object no recibe sync desde CA
 
+Etiquetas: #luna_help_desk 
+
 Varios reportes se han amontonado donde el Credentialing object no recibe datos desde el CA.
 
 ## Contexto
