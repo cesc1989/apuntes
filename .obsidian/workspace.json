@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "791d35d61825fb38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes Bliss - Parte 1"
-            }
-          },
-          {
             "id": "9ca18013ad6d9ba4",
             "type": "leaf",
             "state": {
@@ -194,9 +180,9 @@
   },
   "active": "42c87b19de6a53e7",
   "lastOpenFiles": [
-    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
