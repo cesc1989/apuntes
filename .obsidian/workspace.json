@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6a5bb379de9f3e5f",
+        "id": "a4c84ae42b640044",
         "type": "tabs",
         "children": [
           {
-            "id": "85b43f430ee18c1c",
+            "id": "197c37416152bd06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Export Therapist Booking Enabled"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Export Therapist Booking Enabled"
+              "title": "Outline"
             }
           }
         ],
@@ -164,11 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85b43f430ee18c1c",
+  "active": "197c37416152bd06",
   "lastOpenFiles": [
+    "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
+    "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
+    "Luna/Grimoire/Setup de Grimoire.md",
+    "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
+    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
+    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
-    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Backend/Protocols/Apuntes Generales.md",
@@ -180,10 +180,6 @@
     "Luna/Backend/Protocols/untitled folder",
     "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
     "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
-    "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
-    "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
-    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
-    "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
@@ -202,7 +198,6 @@
     "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
     "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Grimoire/Diagnosis Specialty Matching",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",

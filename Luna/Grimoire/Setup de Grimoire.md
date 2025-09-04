@@ -152,6 +152,8 @@ direnv --version
 
 ### direnv no carga archivo .env
 
+Etiquetas: #luna_help_desk 
+
 Esto:
 ```
 direnv status
@@ -212,6 +214,8 @@ Found RC allowPath /Users/francisco/.local/share/direnv/allow/49fff5d9d0c727da73
 ```
 
 # Config de `backend` Bridge
+
+Etiquetas: #luna_help_desk 
 
 ## New World (GQL)
 

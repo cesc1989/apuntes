@@ -1,5 +1,7 @@
 # Notas Generales de Desarrollo
 
+Etiquetas: #luna_help_desk 
+
 ## ¿Qué diferencia hay entre `SchemaFactory` y `CaseCreationFactory`?
 
 `SchemaFactory` crea el registro en la base de datos. En cambio `CaseCreationFactory` genera datos para el workflow (no necesariamente guardados en la BD).
