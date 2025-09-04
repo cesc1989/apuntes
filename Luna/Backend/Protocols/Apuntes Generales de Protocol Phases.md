@@ -50,13 +50,58 @@ Physician con documentos:
 
 # Phase Periods
 
-¿Qué son estas cosas en `phase_periods`?
+Etiquetas: #luna_help_desk
+
+Q: ¿Qué son estas cosas en `phase_periods`?
 
 ```
 phase_periods: ["0:0"]
 
 phase_periods: ["-10:2", "3:10", "11:23", "24:37", "38:48"]
 ```
+
+Según Claude:
+
+> Surgery-based protocols: Use time ranges like ["-10:0", "1:10", "11:23"] (days before/after surgery).
+> Visit-based protocols: Use visit counts like ["0:0", "1:1", "2:2"] (visit sequences).
+
+¿Cómo se sabe si es Visit-base o Surgery-based? Por la key `phase_measure`.
+
+Normalmente, cuando es Visit-based, se incluye la key con ese valor en el archivo del protocolo. Ejemplo:
+```yaml
+phase_periods: ["0:0"]
+phase_measure: "completed_visits_count"
+```
+
+Cuando no está se asigna la alternativa desde la función correspondiente en el `ProtocolSeeder`:
+```ruby
+def protocol_data
+	protocols_hash.map do |protocol_hash|
+		Protocol.new(
+			# (...)
+			phase_measure: protocol_hash["phase_measure"] || "surgery_date_offset_in_days"
+		)
+	end
+end
+```
+
+Entonces cuando son Visit-based los `phase_periods` se manejan en duplas cerradas:
+```yaml
+phase_periods: ["0:0", "1:1", "2:2", "3:3", "4:4", "5:5", "6:6", "7:7", "8:8", "9:9", "14:14", "19:19" ]
+```
+
+Y cuando son Surgery-based se manejan en duplas de rangos que no se solapan:
+```yaml
+phase_periods: ["-10:2", "3:10", "11:23", "24:37", "38:48"]
+```
+
+## ¿Diferencia entre Visit-based y Surgery-based?
+
+En Visit-based el rango es en torno al número de la visita.
+
+En Surgery-base el rango hace referencia a los días pre y post cirugía. Si se encuentra un número negativo significa _días antes de la cirugía_. Cuando son números positivos significa _días después de la cirugía_.
+
+## Detalles Técnicos
 
 La función que trata con esto es esta en `ProtocolSeeder`:
 ```ruby
