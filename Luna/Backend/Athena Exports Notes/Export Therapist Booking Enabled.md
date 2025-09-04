@@ -1,5 +1,7 @@
 # Export de Therapist `booking_enabled` y "scheduling active" para Tableau
 
+Etiquetas: #luna_help_desk 
+
 ## Detalles
 
 Los dos valores están en la UI en Luxe.

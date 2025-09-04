@@ -1,5 +1,7 @@
 # Configuración de Crawlers y Classifiers en Glue
 
+Etiquetas: #luna_help_desk 
+
 Al exportar los datos al data lake, la forma en que permitimos el acceso a estos es a través de una tabla que se configura en AWS Glue. En este servicio se puede crear la tabla manualmente, indicando el origin de los datos. Esto tiene el limitante que cada vez que haya una actualización hay que ir a la configuración de la tabla y agregar los nuevos campos.
 
 Para automatizar todo nos podemos valer de los Crawlers y Classifiers que ofrece Glue.

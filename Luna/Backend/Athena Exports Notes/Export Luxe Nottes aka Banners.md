@@ -1,5 +1,7 @@
 # Export de Luxe Notes o Banners para Tableau
 
+Etiquetas: #luna_help_desk 
+
 ## Datos Previos
 
 ### ¿A qué hora corre el worker?
