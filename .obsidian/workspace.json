@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes Generales.md",
-                "mode": "source",
+                "file": "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Generales"
+              "title": "Apuntes Generales de Protocol Phases"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes Generales.md",
+                "file": "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Generales"
+              "title": "Outline of Apuntes Generales de Protocol Phases"
             }
           }
         ],
@@ -177,7 +177,7 @@
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
-    "Luna/Backend/Protocols/Apuntes Generales.md",
+    "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
