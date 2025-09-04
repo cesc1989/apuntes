@@ -58,7 +58,7 @@ phase_periods: ["0:0"]
 phase_periods: ["-10:2", "3:10", "11:23", "24:37", "38:48"]
 ```
 
-La función que trata con esto es esta:
+La función que trata con esto es esta en `ProtocolSeeder`:
 ```ruby
 def protocol_phase_data
 	protocol_id_to_protocol = Protocol.all.index_by(&:id)
