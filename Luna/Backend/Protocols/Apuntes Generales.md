@@ -46,3 +46,6 @@ Physician sin documentos aunque tiene Protocol asociado:
 Physician con documentos:
 ![[002.no.documents.png]]
 
+
+# NPI y Physicians assignment
+
