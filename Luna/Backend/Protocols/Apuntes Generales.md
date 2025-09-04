@@ -1,5 +1,7 @@
 # Apuntes Generales
 
+Etiquetas: #luna_help_desk
+
 # Protocol y su respectivo Document
 
 ¿Por qué es esto necesario?

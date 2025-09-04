@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dceee44b0fbb7f9d",
+        "id": "ee7363c75e0109cb",
         "type": "tabs",
         "children": [
           {
-            "id": "1dbb30fe7542832d",
+            "id": "3306f0f7965a3210",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Protocols/Apuntes Generales.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1dbb30fe7542832d",
+  "active": "3306f0f7965a3210",
   "lastOpenFiles": [
     "Luna/Backend/Protocols/Apuntes Generales.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
