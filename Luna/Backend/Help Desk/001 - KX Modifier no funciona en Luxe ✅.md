@@ -1,5 +1,7 @@
 # 001 - KX Modifier no funciona en Luxe
 
+Etiquetas: #luna_help_desk 
+
 Tres casos reportados que no funcionan bien.
 
 Voy a usar esta query o alguna variante de la misma para entender los datos de cada caso.
