@@ -14,11 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Documenta_Decisiones_de_la_Arquitectura_(ADR)"
+            }
+          },
+          {
+            "id": "9869c28f85dfa85c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Los_Pull_Requests_no_son_para_sugerir_cambios"
             }
           }
         ]
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adr",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,9 +180,11 @@
   },
   "active": "037359b4d2c27748",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_Curso_de_Engineering_Management.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_Curso_de_Engineering_Management.md",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
     "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "DevAsPros/Proyectos-Archivados",
@@ -194,7 +210,6 @@
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
-    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
@@ -214,7 +229,6 @@
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
     "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
-    "Luna/Backend/Athena Exports Notes/attachments/003.bo.crawler.png",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
 }

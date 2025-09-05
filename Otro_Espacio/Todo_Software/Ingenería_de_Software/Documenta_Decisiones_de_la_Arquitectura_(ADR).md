@@ -26,3 +26,7 @@ Ejemplos:
 - [Rust Analyzer](https://github.com/rust-analyzer/rust-analyzer/blob/d7c99931d05e3723d878bea5dc26766791fa4e69/docs/dev/architecture.md)
 - [Arquitectura interna de Prometheus](https://github.com/prometheus/prometheus/blob/master/documentation/internal_architecture.md)
 
+## Temas Similares
+
+- [[Los_Pull_Requests_no_son_para_sugerir_cambios]]
+
