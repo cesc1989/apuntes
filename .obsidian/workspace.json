@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "42e87149777d88c6",
+        "id": "2a82dd713d61ea53",
         "type": "tabs",
         "children": [
           {
-            "id": "77447d54c7f5db7c",
+            "id": "8c3389ed4d7e78b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
+                "file": "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Generales de Protocol Phases"
+              "title": "Issues with Forms after Copying in Luxe"
             }
           },
           {
-            "id": "2f90939a8b7b129d",
+            "id": "b4331e7b0571fca4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
+                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "protocol-debugging-session-findings"
+              "title": "Resumen de la Info que recopiló Claude"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
+                "file": "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of protocol-debugging-session-findings"
+              "title": "Outline of Resumen de la Info que recopiló Claude"
             }
           }
         ],
@@ -179,11 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f90939a8b7b129d",
+  "active": "b4331e7b0571fca4",
   "lastOpenFiles": [
-    "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
-    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
+    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
+    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+    "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
+    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
+    "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
@@ -192,7 +197,6 @@
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
-    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
@@ -202,7 +206,6 @@
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.00.png",
     "Luna/Backend/Protocols/attachments",
     "Luna/Backend/Protocols/untitled folder",
-    "Luna/Backend/Protocols/phase-29/protocol-debugging-session-findings.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
@@ -215,9 +218,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Notas de Desarrollo.md",
     "Luna/Backend/KX-Modifier/Asociaciones - KX Modifier.md",
     "Luna/Backend/KX-Modifier/001 - Notas Generales - KX Modifier.md",
-    "Luna/Backend/KX-Modifier/KX Modifier - Agregar el Modificador.md",
-    "DevAsPros/Super_Menú/Descubrimiento/Ideación.md",
-    "DevAsPros/Super_Menú/Revisando_Cluvi_y_Ola_Click.md",
     "Luna/Grimoire/Diagnosis Specialty Matching",
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",

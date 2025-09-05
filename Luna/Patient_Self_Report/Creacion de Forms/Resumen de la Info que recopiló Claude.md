@@ -1,5 +1,7 @@
 # Resumen de todo lo que me dio Claude al revisar Backend y Marketplace
 
+Etiquetas: #luna_help_desk 
+
 Trato de poner lo más importante de todos esos archivos para borrarlos y tener esto como fuente oficial.
 
 > [!Important]
