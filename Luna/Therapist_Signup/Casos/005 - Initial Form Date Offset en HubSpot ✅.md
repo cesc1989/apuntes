@@ -1,5 +1,7 @@
 # 005 - Propiedad Initial Form Date muestra valor desfasado en la UI de HubSpot
 
+Etiquetas: #luna_help_desk 
+
 Documentos relacionados:
 
 - [[Integración_con_HubSpot_-_Lecciones#Sobre el formato de los campos `Date` y `DateTime` para HubSpot]]

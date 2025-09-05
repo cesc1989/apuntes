@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0e87360657a42a4",
+        "id": "59c9b56d8b6ed6f4",
         "type": "tabs",
         "children": [
           {
-            "id": "29998e246d214aee",
+            "id": "d49d8fca76b24078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
-                "mode": "preview",
+                "file": "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Generales de Protocol Phases"
+              "title": "005 - Initial Form Date Offset en HubSpot ✅"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
+                "file": "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Generales de Protocol Phases"
+              "title": "Outline of 005 - Initial Form Date Offset en HubSpot ✅"
             }
           }
         ],
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29998e246d214aee",
+  "active": "d49d8fca76b24078",
   "lastOpenFiles": [
+    "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
@@ -177,7 +178,6 @@
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
-    "Luna/Backend/Protocols/Apuntes Generales de Protocol Phases.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
