@@ -1,5 +1,7 @@
 # Protocol Debugging Session - Findings and Lessons
 
+Etiquetas: #luna_help_desk 
+
 **Date**: 2025-08-15  
 **Issue**: `Phase/question cardinality mismatch 09aa5740-e95a-4dcf-a2bf-0334074b1bd9` error when running `bundle exec rake protocols:phase_29`
 
