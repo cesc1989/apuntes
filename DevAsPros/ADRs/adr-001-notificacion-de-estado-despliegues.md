@@ -53,10 +53,7 @@ Cuesta 6 usd al mes si se paga mensual. 5 si es anual.
 
 ## Configuración de NTFY
 
-Elige un nombre único para el tema.
-
-Configura el nombre del tema como secreto en el repo llamado `NTFY_TOPIC`.
-
-Configura el action con el código anterior.
-
-En la app cliente suscríbete el tema.
+1. Elige un nombre único para el tema.
+2. Configura el nombre del tema como secreto en el repo llamado `NTFY_TOPIC`.
+3. Configura el action con el código anterior.
+4. En la app cliente suscríbete el tema.
