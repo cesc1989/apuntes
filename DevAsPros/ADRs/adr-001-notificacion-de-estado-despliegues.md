@@ -54,6 +54,10 @@ Cuesta 6 usd al mes si se paga mensual. 5 si es anual.
 ## Configuración de NTFY
 
 1. Elige un nombre único para el tema.
+	1. Si no se paga la cuenta Pro el nombre no es reservado y si alguien lo encuentra puede escuchar los mensajes o enviar datos.
+	2. Elige un nombre largo o autogenera uno.
 2. Configura el nombre del tema como secreto en el repo llamado `NTFY_TOPIC`.
+	1. Desde el repo a configurar: `gh secret set NTFY_TOPIC --body "$CHANNEL_NAME"`
 3. Configura el action con el código anterior.
+	1. Ver commit de [Cash Flow](https://github.com/cesc1989/cashflow/commit/183fb87e1aa5868dcafeac902c79d61ae03db814)
 4. En la app cliente suscríbete el tema.
