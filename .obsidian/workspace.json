@@ -4,38 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "fa5cf64e73a03101",
+        "id": "f765151bac69a661",
         "type": "tabs",
         "children": [
           {
-            "id": "037359b4d2c27748",
+            "id": "d57fd63f0ab899b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Estimación,_Estimación,_Estimación"
+            }
+          },
+          {
+            "id": "3692233b8419c6ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Documenta_Decisiones_de_la_Arquitectura_(ADR)"
             }
-          },
-          {
-            "id": "9869c28f85dfa85c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Los_Pull_Requests_no_son_para_sugerir_cambios"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,10 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "037359b4d2c27748",
+  "active": "3692233b8419c6ee",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
+    "DevAsPros/ADRs",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_Curso_de_Engineering_Management.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",
@@ -209,7 +212,6 @@
     "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/diagnosis_specialty_mapping.md",
     "Luna/Grimoire/Setup de Grimoire.md",
-    "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
@@ -225,7 +227,6 @@
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms",
     "Luna/Patient_Self_Report/Creacion de Forms",
-    "Luna/Backend/HubSpot Exports Notes",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
     "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",

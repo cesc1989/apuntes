@@ -8,14 +8,17 @@ La primera vez que leí sobre este tema fue en Ruby on Rails Link Slack.
 
 En Raindrop, en la categoría “Software Engineering”, tengo una subcategoría destinada a temas de documentación.
 
-## Artículos sobre el tema
+## Más sobre el tema
 
 - [Why Write ADRs](https://github.blog/2020-08-13-why-write-adrs/)
-- [Repo con ejemplos](https://github.com/alphagov/publishing-api/blob/master/docs/arch/adr-001-use-event-sourcing-pattern.md)
 - [IEEE Software: “Architecture Decisions: Demystifying Architecture”](https://personal.utdallas.edu/~chung/SA/zz-Impreso-architecture_decisions-tyree-05.pdf)
 - [Earn future maintainers esteem by writing simple ADRs](https://understandlegacycode.com/blog/earn-maintainers-esteem-with-adrs/)
-- [Otro repo con ejemplos](https://github.com/joelparkerhenderson/architecture_decision_record)
 - [Communicating and documenting architectural decisions](https://www.youtube.com/watch?v=rwfXkSjFhzc) 📺 
+
+**Ejemplos**
+
+- [Repo con ejemplos](https://github.com/alphagov/publishing-api/blob/master/docs/arch/adr-001-use-event-sourcing-pattern.md)
+- [Otro repo con ejemplos](https://github.com/joelparkerhenderson/architecture_decision_record)
 
 También relacionado [este artículo](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html) sobre tener un archivo `ARQUITECTURE.md` en proyectos que, de manera, simplificada, describa un mapa de clases, la arquitectura o todo aquello del proyecto que permita a nuevos contribuidores entender como pasan las cosas en el proyecto.
 
