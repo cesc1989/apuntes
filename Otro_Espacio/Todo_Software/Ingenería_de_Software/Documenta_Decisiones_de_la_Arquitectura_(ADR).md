@@ -15,7 +15,7 @@ En Raindrop, en la categoría “Software Engineering”, tengo una subcategorí
 - [Earn future maintainers esteem by writing simple ADRs](https://understandlegacycode.com/blog/earn-maintainers-esteem-with-adrs/)
 - [Communicating and documenting architectural decisions](https://www.youtube.com/watch?v=rwfXkSjFhzc) 📺 
 
-**Ejemplos**
+**Ejemplos de ARDs**
 
 - [Repo con ejemplos](https://github.com/alphagov/publishing-api/blob/master/docs/arch/adr-001-use-event-sourcing-pattern.md)
 - [Otro repo con ejemplos](https://github.com/joelparkerhenderson/architecture_decision_record)
