@@ -1,5 +1,7 @@
 # Reglas para la creación de los Progress Forms en Marketplace
 
+Etiquetas: #luna_help_desk 
+
 En palabras de Claude:
 
 > The Marketplace service contains sophisticated logic for creating Progress Forms based on appointment completion events, with intelligent cadence management, surgical workflow support, and duplicate prevention.
