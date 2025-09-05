@@ -1,5 +1,7 @@
 # 002 - Respuesta 422 del endpoint v1/sessions
 
+Etiquetas: #luna_help_desk 
+
 Primero que nada, este endpoint no tiene forma lógica de devolver un 422.
 
 ## Problema
