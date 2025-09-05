@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "618a35d14dce0e05",
+        "id": "fa5cf64e73a03101",
         "type": "tabs",
         "children": [
           {
-            "id": "09ef84f572b82ffd",
+            "id": "037359b4d2c27748",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Documenta_Decisiones_de_la_Arquitectura_(ADR)"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#luna_help_desk",
+                "query": "adr",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Documenta_Decisiones_de_la_Arquitectura_(ADR)"
             }
           }
         ],
@@ -159,8 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "037359b4d2c27748",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_Curso_de_Engineering_Management.md",
+    "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
+    "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "DevAsPros/Proyectos-Archivados",
     "DevAsPros/README.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
@@ -185,8 +195,6 @@
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Grimoire/Diagnosis Specialty Matching/QA en Alpha.md",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
-    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
-    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
@@ -203,13 +211,10 @@
     "Luna/Marketplace/Forms",
     "Luna/Patient_Self_Report/Creacion de Forms",
     "Luna/Backend/HubSpot Exports Notes",
-    "Otro_Espacio/Blog",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
     "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
     "Luna/Backend/Athena Exports Notes/attachments/003.bo.crawler.png",
-    "Luna/Backend/Athena Exports Notes/attachments/alpha_broken.png",
-    "Luna/Backend/Athena Exports Notes/attachments",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
 }
