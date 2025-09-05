@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "727cee82add6665c",
+        "id": "618a35d14dce0e05",
         "type": "tabs",
         "children": [
           {
-            "id": "b63acba8486d6ff8",
+            "id": "09ef84f572b82ffd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           }
         ],
@@ -164,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b63acba8486d6ff8",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "DevAsPros/README.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+    "README.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
@@ -195,9 +193,6 @@
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.00.png",
     "Luna/Backend/Protocols/attachments",
     "Luna/Backend/Protocols/untitled folder",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_07_-_Turbo_-_Cash_Flow.md",
     "Luna/Backend/Help Desk/attachments/001.case.03.luxe.png",
     "Luna/Backend/Help Desk/attachments/001.case.02.luxe.png",
     "Luna/Backend/Help Desk/attachments/001.case.01.luxe.png",
