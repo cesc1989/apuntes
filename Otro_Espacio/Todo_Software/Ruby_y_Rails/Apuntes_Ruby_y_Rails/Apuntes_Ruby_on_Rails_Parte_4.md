@@ -156,6 +156,109 @@ end
 
 Está bien bacano esto en Ruby. Pattern matching es una de las cosas chéveres de Elixir y me parece bacano que esté disponible en Ruby.
 
+# Los Tres Casos de Matching en Ruby
+
+Etiquetas: #pattern_matching_en_ruby 
+
+De este artículo: https://dogweather.dev/2025/08/28/pattern-matching-in-ruby-a-wayfinder/
+
+Dice que en Ruby ahora hay tres formas de comprobar los valores:
+
+- **`case/when`**: the older form, based on `===`.
+- **`case/in`**: the newer structural pattern matching (Ruby 2.7+).
+- **`=>` operator**: an inline pattern assertion that raises if it fails
+
+Veamos cada uno.
+
+## Clásico case/when
+
+Ejemplos:
+```ruby
+case value
+when pattern
+  # ...
+when other
+  # ...
+end
+```
+
+Este es **flexible** pero no es **estructural**.
+
+- Es **Flexible** porque se puede sobre escribir el operador de igualdad estricta (`===`). De esa forma se puede usar el `case` con regex, rangos y matchers personalizados.
+- No es Estructural porque no deconstruye arrays ni hashes. No "mira" dentro de los valores. Solo confirma si `pattern === value`.
+
+## Nuevo case/in
+
+Desde Ruby 2.7 en adelante.
+
+```ruby
+case value
+in Integer
+  puts "integer"
+in [a, b]
+  puts "array with #{a} and #{b}"
+in {amount:, currency:}
+  puts "price: #{amount} #{currency}"
+end
+```
+
+Diferencias con respecto a `case`:
+- Las clases actúan como chequeos de tipo
+- Destructura arrays y hashes
+- Las variables se atan (bind) directamente
+- Soporta guards, ej: `in Integer if value > 0`
+
+> [!Important]
+> Este operador debe usarse para emparejamiento estructural y destructuring. No para confirmar si el valor cumple el patrón como en el `case/when`.
+
+## Nuevo operador `=>`
+
+Aplican las mismas reglas que `case/in` excepto que:
+- Cuando hay patrón, las variables son atadas (binded)
+- Cuando no hay patrón, se dispara `NoMatchingPatternError`
+
+Ejemplos:
+```ruby
+[1, 2] => [a, b]
+# a = 1, b = 2
+
+123 => Integer
+# success
+
+"abc" => Integer
+# raises NoMatchingPatternError
+```
+
+Este operador es más útil para:
+- Chequeos rápidos de tipo
+- Destructuring al manipular argumentos de una función
+
+> [!Important]
+> Una forma de usar `case/in` es como un guard de tipo dentro de constructores o definición de métodos.
+
+Ejemplo:
+```ruby
+class Price
+  def initialize(amount:, currency:)
+    amount   => Integer
+    currency => String  # or a custom Currency class
+
+    @amount   = amount
+    @currency = currency
+  end
+end
+
+Price.new(amount: 5, currency: "USD")      # works
+Price.new(amount: "five", currency: "USD") # raises NoMatchingPatternError
+```
+
+## Usos Prácticos
+
+Según el autor:
+- Use **`case/when`** when you want `===` semantics (regexes, ranges, classes).
+- Use **`case/in`** when parsing JSON, keyword args, or other structured data.
+- Use **`=>`** for assertions and destructuring where a whole `case` block would be overkill.
+
 # Error aws-sdk-core/ini_parser.rb:28
 
 Quería ejecutar unas rake tasks que se conectan con AWS Athena y me salía este error:
