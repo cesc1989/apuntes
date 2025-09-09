@@ -1,4 +1,7 @@
 # ViewComponent - Apuntes
+
+## Sensaciones Iniciales al Probar en Leisure Shelf Playground
+
 Las sensaciones al usar View Component son muy buenas.
 
 En realidad se siente mucho mejor escribir clases y templates apartes de la vista normal para manipular la salida a la pantalla.
@@ -21,3 +24,39 @@ Lo bueno de View Component es que no es solo para quitar partials con registros 
 
 Muy similar como en React lo de componentes funcionales y no funcionales / con estado.
 
+
+## Usa submodulo `UI` para anidar los componentes y evitar ponerles el sufijo `Component`
+
+Lo vi en este artículo: https://boringrails.com/articles/self-updating-components/
+
+El autor dice:
+> I love using `UI` module for components because it’s super clear this object is a view component and it lets you drop the “Component” suffix that people tend to use for every…single…component
+
+
+Ejemplo:
+```ruby
+class UI::UserCard < ApplicationComponent
+  def initialize(user:)
+    @user = user
+  end
+
+  def id
+    dom_id(@user, :user_card)
+  end
+
+  def broadcast_channel
+    [@user, :user_card_refresh]
+  end
+
+  def broadcast_refresh!
+    Turbo::StreamsChannel.broadcast_replace_to(
+      broadcast_channel,
+      target: id,
+      renderable: self,
+      layout: false
+    )
+  end
+end
+```
+
+Esto me parece una forma interesante de organizar los componentes ya que se sale de eso de  Rails de dar sufijo al tipo de clase (controller, job, worker, service, etc).
