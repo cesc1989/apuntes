@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2b41a78ab8458fbe",
+        "id": "def8442d02c48829",
         "type": "tabs",
         "children": [
           {
-            "id": "ce34fb2079f790d3",
+            "id": "f93e9aa5b93a9864",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ViewComponent - Apuntes"
+              "title": "Multi Tenancy"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "multitenan",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ViewComponent - Apuntes"
+              "title": "Outline of Multi Tenancy"
             }
           }
         ],
@@ -164,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce34fb2079f790d3",
+  "active": "f93e9aa5b93a9864",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "DevAsPros/Puntapie",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
@@ -197,7 +199,6 @@
     "Luna/Backend/Protocols/Apuntes de Protocol Phases XX.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
-    "Luna/Grimoire/Diagnosis Specialty Matching/Diagnosis Specialty Matching - Notas Generales.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",

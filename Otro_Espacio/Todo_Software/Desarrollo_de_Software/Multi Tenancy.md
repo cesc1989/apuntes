@@ -1,10 +1,10 @@
 # Multi Tenancy - Apuntes Generales
 
-Para Super Agenda, creo que montarlo en un enfoque de Multi Tenancy seria la correcto. En este documento expongo informacion al respecto de esta arquitectura de software para entender los pros y contras.
+Para Super Agenda, creo que montarlo en un enfoque de Multi Tenancy seria la correcto. En este documento expongo información al respecto de esta arquitectura de software para entender los pros y contras.
 
-## Que es Multi Tenancy?
+## ¿Qué es Multi Tenancy?
 
-[Segun Wikipedia](https://es.wikipedia.org/wiki/Tenencia_m%C3%BAltiple), Multi tenancy o Tenancia Multiple es una arquitectura donde una instancia de la aplicacion se ejecuta en el servidor pero sirve a muchos clientes u organizaciones.
+[Según Wikipedia](https://es.wikipedia.org/wiki/Tenencia_m%C3%BAltiple), Multi tenancy o Tenancia Multiple es una arquitectura donde una instancia de la aplicación se ejecuta en el servidor pero sirve a muchos clientes u organizaciones.
 
 Agrega:
 
@@ -12,8 +12,8 @@ Agrega:
 
 ### Ventajas
 
-- Permite intercambiar recursos y costos de ejecucion de una aplicacion
-- Todos los datos de los clientes estan en un esquema comun y unico
+- Permite intercambiar recursos y costos de ejecución de una aplicación
+- Todos los datos de los clientes están en un esquema común y único
 
 ### Desventajas
 
@@ -21,11 +21,11 @@ Agrega:
 - La seguridad de los datos necesita un trato muy cuidado para que los datos de un cliente no se filtren a otro
 
 >[!Note]
-> Una aplicacion web, es mejor que empiece como Multi tenant (si tiene cabida). Cambiar una aplicacion normal a Multitenant es mucho mas complicado.
+> Una aplicación web, es mejor que empiece como Multi tenant (si tiene cabida). Cambiar una aplicación normal a Multitenant es mucho mas complicado.
 
 ## Gemas para hacer Multitenancy en Rails
 
-Algunas librerias populares y su estado actual.
+Algunas librerías populares y su estado actual.
 
 **Acts as Tenants**
 
@@ -49,15 +49,15 @@ Ultimo commit: 9 de Enero, 2025.
 
 # Vale la pena montar una web app con arquitectura Multi tenant?
 
-Coincidencialmente, en el subreddit de ruby on rails [alguien hizo una pregunta pertinente](https://www.reddit.com/r/rails/comments/1ik7caq/multitenancy_vs_multi_instances/?utm_name=mweb3xcss) a este tema. Las respuestas las recopilo aqui:
+Por coincidencia, en el subreddit de ruby on rails [alguien hizo una pregunta pertinente](https://www.reddit.com/r/rails/comments/1ik7caq/multitenancy_vs_multi_instances/?utm_name=mweb3xcss) a este tema. Las respuestas las recopilo aquí:
 
 El usuario pregunta si es mejor una arquitectura multi tenant o mejor que cada cliente este en su propio servidor y base de datos.
 
 **Ambos**
 
-Para la mayoria de clientes, compartir recursos estara bien. Aqui usa Multitenant.
+Para la mayoría de clientes, compartir recursos estará bien. Aquí usa Multitenant.
 
-Si un cliente pide separar sus datos o mas capacidad, haz una instalacion personalizada que costar mas de lo normal.
+Si un cliente pide separar sus datos o mas capacidad, haz una instalación personalizada que costar mas de lo normal.
 
 **Multi tenancy a menos que puedas cobrar mucho mas**
 
