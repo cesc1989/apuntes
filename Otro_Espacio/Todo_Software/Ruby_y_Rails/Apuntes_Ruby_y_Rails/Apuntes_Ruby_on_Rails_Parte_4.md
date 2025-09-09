@@ -58,6 +58,8 @@ Visto en [Stack Overflow](https://stackoverflow.com/a/68910843/1407371).
 
 # Pattern Matching en Ruby
 
+Etiquetas: #pattern_matching_en_ruby
+
 Tomado del artículo de [Andres Chacon](https://a-chacon.com/en/ruby/tip/2023/12/08/ruby-tip-pattern-matching.html).
 
 > Pattern Matching in Ruby allows for concise data destructuring, making it easy to assign variables with clear syntax. From filtering values in arrays to customizing destructuring in classes, this feature simplifies data manipulation in an elegant way.
