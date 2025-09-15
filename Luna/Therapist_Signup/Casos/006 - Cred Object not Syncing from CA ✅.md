@@ -1,4 +1,4 @@
-# 006 - Credentialing object no recibe sync desde CA
+# 006 - Credentialing object no recibe sync desde CA ✅
 
 Etiquetas: #luna_help_desk 
 
