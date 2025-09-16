@@ -35,6 +35,8 @@ Contacto de prueba: https://app.hubspot.com/contacts/7712148/record/0-1/14061866
 
 ### Care Plan es `discharged`
 
+Relacionado: [[Episode Discharge Process]]
+
 Primero pruebo como todo en true y luego lo cambio a discharged.
 
 Contacto de prueba: https://app.hubspot.com/contacts/7712148/record/0-1/140620173319
