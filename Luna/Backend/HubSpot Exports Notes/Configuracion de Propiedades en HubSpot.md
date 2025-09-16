@@ -57,6 +57,19 @@ Funcionan igual pero dropdown es el preferido. En serio funcionan igual. En los 
 
 > **Radio select**: stores multiple options, where only one option can be selected as a value. *When editing on a record, they appear and behave the same as dropdown select fields*. In forms, they behave the same as dropdown select fields, but appear differently. This is an enumeration property.
 
-## 🔴 No usar Single checkbox 🔴
+## 🟡 Usar Single checkbox con cautela🟡
 
 Solo guarda On/Off (true/false). Se muestra como el Radio select en la UI pero no permite agregar más valores.
+
+Hay varias propiedades que usan este tipo de campo. Ejemplos:
+
+- Mobile Account Is Deleted?
+- Authorization Required?
+- First Visit Cancelled?
+
+Estas tienen la combinación:
+
+- Label: Yes; Internal Name: `true`
+- Label: No: Internal Name: `false`
+
+Y así es más sencillo mandarles un valor booleano desde el código.
