@@ -17,8 +17,12 @@ La rake es `lib/tasks/hub_spot_contact_properties.rake`.
 Las instrucciones de uso de la rake se resumen en:
 
 - Actualiza `app/services/hub_spot_contact_properties.rb` con la nueva propiedad.
-	- Ten en cuenta que están en orden alfabetico.
+	- Ten en cuenta que están en orden alfabético.
 - Las nuevas propiedades se crean manualmente en HubSpot en producción. Luego se bajan para actualizar el archivo `config/hub_spot_contact_properties.yml` y alpha.
+
+> [!Tip]
+> Para obtener el token de Omega usando `backend` tengo que leer de la tabla `hubspot_tokens`.
+
 - Para actualizar local
 
 ```bash
@@ -28,9 +32,9 @@ bundle exec rails hub_spot_contact_properties:download_properties\[production\] 
 ```
 
 > [!Tip]
-> Para obtener el token de Omega usando `backend` tengo que leer de la tabla `hubspot_tokens`.
->
 > También puedo crear el campo en la cuenta dummy de HubSpot y usar el access token de esa cuenta. La salida de la rake es el YML que habría que pegar en `config/hub_spot_contact_properties.yml`. Puedo copiarlo y pegarlo manualmente.
+>
+> Teniendo en cuenta el orden alfabético.
 
 
 - Para actualizar Alpha
