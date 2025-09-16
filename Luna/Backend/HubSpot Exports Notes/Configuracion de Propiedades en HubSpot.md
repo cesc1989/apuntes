@@ -2,7 +2,7 @@
 
 Etiquetas: #luna_help_desk 
 
-Veo que hay dos archivos donde se listan las propiedades:
+Hay dos archivos donde se listan las propiedades que existen en HubSpot:
 
 - `config/hub_spot_contact_properties.yml`
 - `app/services/hub_spot_contact_properties.rb`
