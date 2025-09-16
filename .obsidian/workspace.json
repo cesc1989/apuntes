@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
-                "mode": "source",
+                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configuracion de Propiedades en HubSpot"
+              "title": "002 - Export Care Plan status to HubSpot"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
+                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuracion de Propiedades en HubSpot"
+              "title": "Outline of 002 - Export Care Plan status to HubSpot"
             }
           }
         ],
@@ -167,6 +167,8 @@
   },
   "active": "5acb6a4b4d0961af",
   "lastOpenFiles": [
+    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
+    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
@@ -197,8 +199,6 @@
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
