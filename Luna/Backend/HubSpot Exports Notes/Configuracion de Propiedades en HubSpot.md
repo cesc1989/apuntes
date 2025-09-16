@@ -7,7 +7,9 @@ Veo que hay dos archivos donde se listan las propiedades:
 - `config/hub_spot_contact_properties.yml`
 - `app/services/hub_spot_contact_properties.rb`
 
-En los cambios para completar el export de Medicare Threshold Exceeded Claude hizo cambios al archivo YML. Eso está mal. Ese archivo no se actualiza manualmente sino mediante una rake. La rake es `lib/tasks/hub_spot_contact_properties.rake`.
+En los cambios para completar el export de Medicare Threshold Exceeded Claude hizo cambios al archivo YML. Eso está mal. ==Ese archivo no se actualiza manualmente sino mediante una rake==.
+
+La rake es `lib/tasks/hub_spot_contact_properties.rake`.
 
 > [!Note]
 > Runbook - [Ver](https://www.notion.so/getluna/Syncing-New-HubSpot-Properties-1edd6a8a87b78035833fc3d1ad54d7fb)
@@ -25,7 +27,7 @@ rm -f config/hub_spot_contact_properties.yml
 bundle exec rails hub_spot_contact_properties:download_properties\[production\] > config/hub_spot_contact_properties.yml
 ```
 
-> [!Note]
+> [!Tip]
 > Para obtener el token de Omega usando backend tengo que leer de la tabla `hubspot_tokens`.
 >
 > También puedo crear el campo en la cuenta dummy de HubSpot y usar el access token de esa cuenta. La salida de la rake es el YML que habría que pegar en `config/hub_spot_contact_properties.yml`. Puedo copiarlo y pegarlo manualmente.
