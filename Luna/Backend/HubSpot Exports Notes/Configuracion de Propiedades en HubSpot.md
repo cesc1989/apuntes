@@ -57,6 +57,6 @@ Funcionan igual pero dropdown es el preferido. En serio funcionan igual. En los 
 
 > **Radio select**: stores multiple options, where only one option can be selected as a value. *When editing on a record, they appear and behave the same as dropdown select fields*. In forms, they behave the same as dropdown select fields, but appear differently. This is an enumeration property.
 
-## 🟡 No usar Single checkbox 🟡
+## 🔴 No usar Single checkbox 🔴
 
 Solo guarda On/Off (true/false). Se muestra como el Radio select en la UI pero no permite agregar más valores.
