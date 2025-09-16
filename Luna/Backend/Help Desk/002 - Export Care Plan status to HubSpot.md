@@ -1,5 +1,7 @@
 # 002 - Export Care Plan Status to HubSpot
 
+Etiquetas: #luna_help_desk
+
 Tengo que exportar los valores de Care Plan active y `scheduling_enabled` a las propiedades `active_care_plan` y `care_plan_scheduling_enabled` del contacto del paciente.
 
 Las dos propiedades las cree como "Single checkbox" así que esperan un valor true o false.

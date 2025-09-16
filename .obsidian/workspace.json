@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "dd85940ca2679de7",
+        "id": "a6484223a00bbc09",
         "type": "tabs",
         "children": [
           {
-            "id": "5acb6a4b4d0961af",
+            "id": "2cec5ac6e82945d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Episodes/Episode Discharge Process.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Episode Discharge Process"
+            }
+          },
+          {
+            "id": "92009608c9adc91c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "002 - Export Care Plan status to HubSpot"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,11 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5acb6a4b4d0961af",
+  "active": "92009608c9adc91c",
   "lastOpenFiles": [
-    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
+    "Luna/Backend/Episodes/Episode Discharge Process.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
+    "Luna/Backend/Episodes",
+    "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
+    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
+    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
@@ -196,9 +215,6 @@
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "README.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
-    "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
@@ -212,7 +228,6 @@
     "Luna/Backend/Help Desk",
     "Luna/Grimoire/Diagnosis Specialty Matching",
     "Canvas/Forms.canvas",
-    "Luna/Marketplace/Forms",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
     "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
