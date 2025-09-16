@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "66014d0eed8c275f",
+        "id": "264531f5aca804d1",
         "type": "tabs",
         "children": [
           {
-            "id": "92f29e05e67162c3",
+            "id": "88f2b1f48d023582",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
+                "file": "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Ciclo 002"
+              "title": "002 - Respuesta 422 de endpoint v1 sessions"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
+                "file": "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 002"
+              "title": "Outline of 002 - Respuesta 422 de endpoint v1 sessions"
             }
           }
         ],
@@ -165,14 +165,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92f29e05e67162c3",
+  "active": "88f2b1f48d023582",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA ✅.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
