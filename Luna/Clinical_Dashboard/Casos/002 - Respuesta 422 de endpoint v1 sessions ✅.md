@@ -1,4 +1,4 @@
-# 002 - Respuesta 422 del endpoint v1/sessions
+# 002 - Respuesta 422 del endpoint v1/sessions ✅
 
 Etiquetas: #luna_help_desk 
 
