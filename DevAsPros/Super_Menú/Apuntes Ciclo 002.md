@@ -80,3 +80,35 @@ Restaurant.first.dishes.to_json(only: [:id, :name, :description, :price, :enable
   Dish Load (0.1ms)  SELECT "dishes".* FROM "dishes" INNER JOIN "categories" ON "dishes"."category_id" = "categories"."id" WHERE "categories"."restaurant_id" = ?  [["restaurant_id", 1]]
 => "[{\"id\":1,\"name\":\"Bruschetta\",\"description\":\"Toasted bread with tomatoes and basil\",\"price\":8500,\"enabled\":true},{\"id\":2,\"name\":\"Calamari Rings Powa\",\"description\":\"Fried squid rings with marinara sauce\",\"price\":1200,\"enabled\":true},{\"id\":3,\"name\":\"Grilled Salmon\",\"description\":\"Fresh salmon with lemon herbs\",\"price\":2500,\"enabled\":true},{\"id\":4,\"name\":\"Chicken Parmesan\",\"description\":\"Breaded chicken with marinara and cheese\",\"price\":2200,\"enabled\":true},{\"id\":5,\"name\":\"Vegetable Pasta Piwa\",\"description\":\"Penne pasta with seasonal vegetables\",\"price\":1800,\"enabled\":true},{\"id\":6,\"name\":\"Tiramisu\",\"description\":\"Classic Italian dessert\",\"price\":900,\"enabled\":true},{\"id\":7,\"name\":\"Chocolate Cake\",\"description\":\"Rich chocolate cake with vanilla ice cream\",\"price\":800,\"enabled\":true},{\"id\":8,\"name\":\"Sancocho de Mondongo\",\"description\":\"sancochazo\",\"price\":20000,\"enabled\":true},{\"id\":9,\"name\":\"Pataconales\",\"description\":\"Patacon sabrosono\",\"price\":8900,\"enabled\":true}]"
 ```
+
+## Error de build de Vite
+
+Este error en el paso de assets precompile:
+```bash
+Building with Vite ⚡️
+vite v5.4.19 building for production...
+transforming...
+✓ 723 modules transformed.
+rendering chunks...
+[plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help
+Killed
+
+pid 779285 exit 137
+Build with Vite failed! ❌
+```
+
+Lo mejor que encontré para solucionar de momento es desactivar el sourcemap:
+```js
+# vite.config.ts
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+  build: {
+    sourcemap: true // o false si no necesitas sourcemaps en producción
+  }
+})
+```
+
