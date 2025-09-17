@@ -10,7 +10,7 @@ Instala mailcatcher:
 gem install mailcatcher --no-document
 ```
 
-Si falla, ver [[Apuntes Rails on Rails - Parte 1#Error al intentar instalar mailcatcher]]
+Si falla, ver [[Apuntes Ruby on Rails - Parte 1#Error al intentar instalar mailcatcher]]
 
 ## Usando Mailcatcher
 

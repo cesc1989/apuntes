@@ -264,3 +264,43 @@ end; nil
 ```
 
 Terminar el script devolviendo nil. Buenísimo.
+
+# Regex en PostgreSQL en lugar de LIKE
+
+Vi este cambio en un PR de Ryan:
+```diff
+- Setting.where("key LIKE ?", "patient_collection_ids_%")
++ Setting.where("key ~ ?", "patient_collection_ids_[0-9]{4}-[0-9]{2}-[0-9]{2}%")
+```
+
+Y me quedó la duda de qué estaba pasando. Le pregunté a chatgpt. El cambio es pasar de `LIKE` (que evalúa usando comodines `%`, `_`) a una expresión regular `~`.
+
+La expresión regular está buscando:
+
+- Prefijo `patient_collection_ids_`
+- Luego **un año con 4 dígitos**, guion, **mes con 2 dígitos**, guion, **día con 2 dígitos**
+	- `[0-9]{4}` este es el año
+	- `[0-9]{2}` este es el mes
+	- `[0-9]{2}` este es el día
+- Y captura todo lo que siga con `%`
+
+Sin embargo, chatgpt me aclara que ese `%` en la regex no sirve para capturar el resto del texto. Lo que hay que usar es `.*` que significa:
+
+- `.` cualquier caracter
+- `*` cero o más
+
+## Ejemplos de la captura
+
+Ejemplo con `%`:
+```ruby
+regex_pattern = /^patient_collection_ids_\d{4}-\d{2}-\d{2}%/
+"patient_collection_ids_2025-09-17_extra".match?(regex_pattern)
+=> false
+```
+
+Ejemplo con `.*`:
+```ruby
+regex_pattern = /^patient_collection_ids_\d{4}-\d{2}-\d{2}.*/
+"patient_collection_ids_2025-09-17_extra".match?(regex_pattern)
+=> true
+```

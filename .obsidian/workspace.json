@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b0eed60b3a619284",
+        "id": "77a9a9cc57fadbb6",
         "type": "tabs",
         "children": [
           {
-            "id": "613f1f797b823ac3",
+            "id": "4063da1504f7f30b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ruby on Rails - Parte 1"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Wayfinder",
+                "query": "tag:#luna_help_desk",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Apuntes Ruby on Rails - Parte 1"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ruby on Rails - Parte 1"
             }
           }
         ],
@@ -160,17 +166,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "4063da1504f7f30b",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
+    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
+    "Luna/Backend/Episodes/Episode Discharge Process.md",
+    "DevAsPros/Puntapie/Para la version 1.14.md",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Rails Migrations/Migración_a_Rails_7.md",
     "Luna/Backend/Rails Migrations/Migración_a_Rails_6.md",
     "Luna/Playbook del Triage📙.md",
     "Luna/Glosario.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
+    "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
-    "Luna/Backend/Episodes/Episode Discharge Process.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Episodes",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
@@ -185,11 +194,9 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
-    "DevAsPros/Puntapie/Para la version 1.14.md",
     "DevAsPros/Puntapie",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
     "DevAsPros/ADRs",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",
@@ -206,7 +213,6 @@
     "Luna/Backend/Help Desk/attachments/001.case.01.luxe.png",
     "Luna/Backend/Help Desk/attachments",
     "Luna/Backend/Help Desk",
-    "Luna/Grimoire/Diagnosis Specialty Matching",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
