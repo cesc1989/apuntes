@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a4e2d3690f5d7e12",
+        "id": "662ded9fb5901e42",
         "type": "tabs",
         "children": [
           {
-            "id": "486b07713aa1d4ab",
+            "id": "139c5f371a3a9a45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ruby_on_Rails_Parte_4"
-            }
-          },
-          {
-            "id": "6e06da5880eaea43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
+              "title": "002 - Export Care Plan status to HubSpot ✅"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
+                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
+              "title": "Backlinks for 002 - Export Care Plan status to HubSpot ✅"
             }
           },
           {
@@ -156,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
+                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
+              "title": "Outline of 002 - Export Care Plan status to HubSpot ✅"
             }
           }
         ],
@@ -181,9 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e06da5880eaea43",
+  "active": "139c5f371a3a9a45",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
@@ -195,7 +181,7 @@
     "Luna/Playbook del Triage📙.md",
     "Luna/Glosario.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
+    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Episodes",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
@@ -211,7 +197,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
     "DevAsPros/Puntapie",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
     "DevAsPros/ADRs",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",

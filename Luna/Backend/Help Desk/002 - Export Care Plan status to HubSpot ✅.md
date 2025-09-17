@@ -1,4 +1,4 @@
-# 002 - Export Care Plan Status to HubSpot
+# 002 - Export Care Plan Status to HubSpot ✅
 
 Etiquetas: #luna_help_desk
 
