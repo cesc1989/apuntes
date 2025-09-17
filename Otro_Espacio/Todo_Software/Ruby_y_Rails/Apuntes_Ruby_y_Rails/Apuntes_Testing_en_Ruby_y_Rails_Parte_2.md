@@ -101,6 +101,8 @@ La documentación de la página oficial es bastante sencilla y es más enfocada 
 
 # Limpia jobs de Sidekiq entre pruebas
 
+Etiquetas: #luna_help_desk 
+
 Usa `Sidekiq::Worker.clear_all` entre diferentes ejecuciones de workers para que no queden jobs anteriores afectando los próximos expectations.
 
 Me pasó en una prueba en backend. Tenía esta configuración:

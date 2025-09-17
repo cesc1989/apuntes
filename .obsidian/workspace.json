@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "77a9a9cc57fadbb6",
+        "id": "a4e2d3690f5d7e12",
         "type": "tabs",
         "children": [
           {
-            "id": "4063da1504f7f30b",
+            "id": "486b07713aa1d4ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Ruby on Rails - Parte 1"
+              "title": "Apuntes_Ruby_on_Rails_Parte_4"
+            }
+          },
+          {
+            "id": "6e06da5880eaea43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Apuntes Ruby on Rails - Parte 1"
+              "title": "Backlinks for Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
             }
           },
           {
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ruby on Rails - Parte 1"
+              "title": "Outline of Apuntes_Testing_en_Ruby_y_Rails_Parte_2"
             }
           }
         ],
@@ -166,8 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4063da1504f7f30b",
+  "active": "6e06da5880eaea43",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
+    "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
     "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Episodes/Episode Discharge Process.md",
@@ -178,7 +195,6 @@
     "Luna/Playbook del Triage📙.md",
     "Luna/Glosario.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Episodes",
@@ -191,7 +207,6 @@
     "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA ✅.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
     "DevAsPros/Puntapie",
