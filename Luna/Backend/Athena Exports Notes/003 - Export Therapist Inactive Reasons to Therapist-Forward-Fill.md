@@ -1,5 +1,7 @@
 # 003 - Export Therapist Inactive Reason to therapist-forward-fill table
 
+Etiquetas: #luna_help_desk 
+
 ## Pruebas
 
 Para disparar manualmente el worker en una consola de Rails:
