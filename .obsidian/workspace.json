@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "662ded9fb5901e42",
+        "id": "41ad641c33529481",
         "type": "tabs",
         "children": [
           {
-            "id": "139c5f371a3a9a45",
+            "id": "5035b8b97b9473f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
-                "mode": "source",
+                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "002 - Export Care Plan status to HubSpot ✅"
+              "title": "Configuracion de Crawlers y Classifiers"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
+                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 002 - Export Care Plan status to HubSpot ✅"
+              "title": "Backlinks for Configuracion de Crawlers y Classifiers"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
+                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - Export Care Plan status to HubSpot ✅"
+              "title": "Outline of Configuracion de Crawlers y Classifiers"
             }
           }
         ],
@@ -166,13 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "139c5f371a3a9a45",
+  "active": "5035b8b97b9473f8",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners ✅.md",
+    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled ✅.md",
+    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
+    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
+    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
-    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled.md",
-    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners.md",
     "Luna/Backend/Episodes/Episode Discharge Process.md",
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "Luna/Backend/Rails Migrations",
@@ -181,12 +184,10 @@
     "Luna/Playbook del Triage📙.md",
     "Luna/Glosario.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
-    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Episodes",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
@@ -196,7 +197,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Frontend_Moderno_en_Rails/ViewComponent - Apuntes.md",
     "DevAsPros/Puntapie",
-    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "DevAsPros/ADRs",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",
