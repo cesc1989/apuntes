@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "41ad641c33529481",
+        "id": "bbcdf87c89d9837d",
         "type": "tabs",
         "children": [
           {
-            "id": "5035b8b97b9473f8",
+            "id": "2d9b492ab71a12ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Configuracion de Crawlers y Classifiers"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Configuracion de Crawlers y Classifiers"
+              "title": "Backlinks"
             }
           },
           {
@@ -141,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuracion de Crawlers y Classifiers"
+              "title": "Outline"
             }
           }
         ],
@@ -166,12 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5035b8b97b9473f8",
+  "active": "2d9b492ab71a12ab",
   "lastOpenFiles": [
-    "Luna/Backend/Athena Exports Notes/Export Luxe Nottes aka Banners ✅.md",
-    "Luna/Backend/Athena Exports Notes/Export Therapist Booking Enabled ✅.md",
-    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
+    "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
+    "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
+    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
