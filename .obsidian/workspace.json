@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a6484223a00bbc09",
+        "id": "b0eed60b3a619284",
         "type": "tabs",
         "children": [
           {
-            "id": "2cec5ac6e82945d7",
+            "id": "613f1f797b823ac3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Episodes/Episode Discharge Process.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Episode Discharge Process"
-            }
-          },
-          {
-            "id": "92009608c9adc91c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "002 - Export Care Plan status to HubSpot"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - Export Care Plan status to HubSpot"
+              "title": "Outline"
             }
           }
         ],
@@ -180,10 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92009608c9adc91c",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "Luna/Backend/Episodes/Episode Discharge Process.md",
+    "Luna/Backend/Rails Migrations",
+    "Luna/Backend/Rails Migrations/Migración_a_Rails_7.md",
+    "Luna/Backend/Rails Migrations/Migración_a_Rails_6.md",
+    "Luna/Playbook del Triage📙.md",
+    "Luna/Glosario.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+    "Luna/Backend/Lecciones/Apuntes Rails on Rails - Parte 1.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot.md",
+    "Luna/Backend/Episodes/Episode Discharge Process.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Episodes",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
@@ -204,17 +191,10 @@
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Documenta_Decisiones_de_la_Arquitectura_(ADR).md",
     "DevAsPros/ADRs",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_Curso_de_Engineering_Management.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",
     "DevAsPros/attachments/cinco.tokens.esfuerzo.png",
-    "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "DevAsPros/Proyectos-Archivados",
-    "DevAsPros/README.md",
-    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
-    "README.md",
-    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Backend/Protocols/attachments/002.no.documents.png",
     "Luna/Backend/Protocols/attachments/001.documents.png",
     "Luna/Backend/Protocols/attachments/Screenshot 2025-09-04 at 10.53.20.png",
