@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Fallo del 5 de Septiembre - Email Verification o Failure"
             }
+          },
+          {
+            "id": "65be3e3f8935baaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Probando Email Verification Landing"
+            }
+          },
+          {
+            "id": "7fc15758572ad695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Patient Email Verification - Origenes"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
+                "file": "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fallo del 5 de Septiembre - Email Verification o Failure"
+              "title": "Backlinks for Patient Email Verification - Origenes"
             }
           },
           {
@@ -141,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
+                "file": "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fallo del 5 de Septiembre - Email Verification o Failure"
+              "title": "Outline of Patient Email Verification - Origenes"
             }
           }
         ],
@@ -166,13 +195,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc6d0410a42bfa38",
+  "active": "7fc15758572ad695",
   "lastOpenFiles": [
-    "Luna/Backend/Email Verification/attachments/301.failed.email.verification.png",
-    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Patient Email Verification - Apuntes.md",
+    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
+    "Luna/Backend/Email Verification/attachments/301.failed.email.verification.png",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Luna/Backend/Email Verification/Misc Info.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
@@ -216,7 +245,6 @@
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
-    "Luna/Backend/Athena Exports Notes/attachments/004.bo.classifier.png",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
 }

@@ -1,4 +1,4 @@
-# Patient Email Verification - Apuntes
+# Patient Email Verification - Origines
 
 Desde qué partes del sistema se envía el email de verificación al paciente.
 
