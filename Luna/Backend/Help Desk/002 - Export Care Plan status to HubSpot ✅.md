@@ -79,3 +79,13 @@ Estos dos fallaban:
 Resulta que fallan porque el método `most_recent_care_plan?` ejecuta una query en la base de datos al invocar a `patient.recent_care_plan`.
 
 En estas dos pruebas, al crear el nuevo care plan se llama a `most_recent_care_plan?` en el callback `sync_hubspot_active_status` así que habrá una query adicional.
+
+## Sync manual mediante el botón "sync with HubSpot"
+
+Resulta que esto es una forma de forzar los updates a HubSpot. No sabía que existía. Estas dos propiedades también tienen que actualizarse en esa parte.
+
+La clase que gestiona esto es `Hubspot::SyncPatientService`. Para agregar estos datos hay un método llamado `add_care_plan_data`. Ahí es donde se agrega el código.
+
+### Pruebas
+
+Se busca un paciente como en los pasos anteriores y desde el perfil se clica el botón "sync with Hubspot" que está en la sección Actions.
