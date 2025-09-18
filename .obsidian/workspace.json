@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "74b1f31b81f9d725",
+        "id": "3bea1fabfb72cc70",
         "type": "tabs",
         "children": [
           {
-            "id": "a06115548048903e",
+            "id": "46484e3649f95392",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glosario"
+              "title": "Portal Email Verification - General Info"
+            }
+          },
+          {
+            "id": "3e5440e911df92b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Probando Email Verification Landing"
+            }
+          },
+          {
+            "id": "889ccf21e5866709",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Patient Email Verification - Apuntes.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Patient Email Verification - Apuntes"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Backend/Email Verification/Patient Email Verification - Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Glosario"
+              "title": "Backlinks for Patient Email Verification - Apuntes"
             }
           },
           {
@@ -141,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Backend/Email Verification/Patient Email Verification - Apuntes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Glosario"
+              "title": "Outline of Patient Email Verification - Apuntes"
             }
           }
         ],
@@ -166,8 +195,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a06115548048903e",
+  "active": "889ccf21e5866709",
   "lastOpenFiles": [
+    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
+    "Luna/Backend/Email Verification/Patient Email Verification - Apuntes.md",
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+    "Luna/Backend/Email Verification/Misc Info.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+    "Luna/Backend/Email Verification/Incident - Email Blast.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
+    "Luna/Glosario.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
@@ -183,19 +222,9 @@
     "Luna/Backend/Rails Migrations/Migración_a_Rails_7.md",
     "Luna/Backend/Rails Migrations/Migración_a_Rails_6.md",
     "Luna/Playbook del Triage📙.md",
-    "Luna/Glosario.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Episodes",
-    "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
-    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
-    "Luna/Clinical_Dashboard/Casos/caso-001/clinical-dashboard-link-investigation-summary.md",
-    "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA ✅.md",
-    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "DevAsPros/Puntapie",
     "DevAsPros/ADRs",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
