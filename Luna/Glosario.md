@@ -7,3 +7,5 @@ CCW: Case Creation Workflow.
 POW: Patient Onboarding Workflow.
 
 IMS: In-Memory Scheduler.
+
+BSD: Bliss Service Desk.
