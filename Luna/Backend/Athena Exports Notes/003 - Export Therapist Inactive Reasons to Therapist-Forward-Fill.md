@@ -9,12 +9,27 @@ Para disparar manualmente el worker en una consola de Rails:
 Athena::TherapistForwardFillWriterWorker.perform_async
 ```
 
-Query de prueba en Athena:
+Queries de prueba en Athena:
 ```sql
 SELECT *
 FROM "business-operations"."therapist_forward_fill"
 where inactive_reason_key is not null
 limit 20;
+```
+
+```sql
+SELECT *
+FROM "business-operations"."therapist_forward_fill" tfi
+where tfi.inactive_reason_key <> ''
+order by tfi.partition_0 desc
+limit 200;
+```
+
+```sql
+SELECT *
+FROM "business-operations"."therapist_forward_fill" tfi
+order by tfi.partition_0 desc
+limit 200;
 ```
 
 ## Backfill
