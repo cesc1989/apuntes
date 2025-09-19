@@ -177,13 +177,14 @@ Total size: 3047939019 bytes (2.83861 GB)
 > [!Tip]
 > Para descargar es mejor usar `aws s3 sync` ya que permite resumir la descarga en caso de falla sin tener que bajar de nuevo todos los archivos.
 
-Descargar año 2023 de Alpha:
+> [!Warning]
+> Recuerda comprimir la carpeta para conservar un archivo y tener forma de restaurar en caso de falla.
+
+### Año 2023 de Alpha
+
 ```bash
 aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-alpha-2023/ --exclude "*" --include "2023*"
 ```
-
-> [!Warning]
-> Recuerda comprimir la carpeta para conservar un archivo y tener forma de restaurar en caso de falla.
 
 Correr la rake:
 ```bash
@@ -193,5 +194,21 @@ bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downlo
 Volver a cargar las carpetas del año 2023:
 ```bash
 aws s3 sync ~/Downloads/tir-backfill-alpha-2023/ s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/
+```
+
+### Año 2024 de Alpha
+
+```bash
+aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-alpha-2024/ --exclude "*" --include "2023*"
+```
+
+Correr la rake:
+```bash
+bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downloads/tir-backfill-alpha-2024]
+```
+
+Volver a cargar las carpetas del año 2023:
+```bash
+aws s3 sync ~/Downloads/tir-backfill-alpha-2024/ s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
 
