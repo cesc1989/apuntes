@@ -141,7 +141,7 @@ aws s3 ls s3://luna-omega-workloads-data-lake/business-operations/therapist-forw
    Total Size: 148.2 GiB
 ```
 
-## Descargar copia de las carpetas por año
+## Tamaño de las carpetas por año
 
 Dado los grandes tamaños que tienen ambas subcarpetas en el bucket, lo más eficiente para reducir el riesgo y poder responder mejor es bajar todo por año.
 
@@ -182,6 +182,7 @@ Total size: 3047939019 bytes (2.83861 GB)
 
 ### Año 2023 de Alpha ✅
 
+Descarga las carpetas:
 ```bash
 aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-alpha-2023/ --exclude "*" --include "2023*"
 ```
@@ -198,6 +199,7 @@ aws s3 sync ~/Downloads/tir-backfill-alpha-2023/ s3://luna-alpha-workloads-data-
 
 ### Año 2024 de Alpha
 
+Descarga las carpetas:
 ```bash
 aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-alpha-2024/ --exclude "*" --include "2023*"
 ```
