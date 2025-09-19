@@ -31,7 +31,7 @@ def writer_params
 
 Así que al completar el export de la forma normal solo habrá datos recientes. Para poder completar los datos históricos hay que completar un backfill. Este proceso es delicado porque hay que actualizar todos los archivos CSV que existen en el bucket, comprobar que la tabla en Athena puede ejecutar queries y comprobar que Tableau puede halar los datos.
 
-**Pasos previos**
+### Pasos previos
 
 - Baja un archivo CSV que sea bien antiguo de la carpeta del reporte
 	- En este caso de `therapist-forward-fill` en el data lake
@@ -47,7 +47,7 @@ Así que al completar el export de la forma normal solo habrá datos recientes. 
 	- Comenta sobre esta copia en `#backend-prod-ops`
 - Carga la nueva versión con la(s) nueva(s) columna(s)
 
-**Para comprobar si funciona**
+### Para comprobar si funciona
 
 - Corre el crawler
 - Corre una query sobre la tabla modificada
@@ -58,7 +58,9 @@ Así que al completar el export de la forma normal solo habrá datos recientes. 
 >
 > En Alpha: como no hay Tableau solo puedo confirmarme con correr la query y ver que no se rompa.
 
-**Si todo lo anterior va bien, se aplica todo en general usando el AWS CLI**
+### Si todo lo anterior va bien...
+
+se aplica todo en general usando el AWS CLI
 
 - Descarga una copia entera de la carpeta del reporte
 - Haz una copia, comprímela y guárdala en algún archivo (GDrive o pregunta a Infra)

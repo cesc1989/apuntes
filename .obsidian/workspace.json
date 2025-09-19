@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6c314b091e980602",
+        "id": "a4898de6863153ca",
         "type": "tabs",
         "children": [
           {
-            "id": "644bd9fecba8cd06",
+            "id": "f9f75086a5034054",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "644bd9fecba8cd06",
+  "active": "f9f75086a5034054",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
@@ -183,7 +185,6 @@
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
