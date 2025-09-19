@@ -147,6 +147,7 @@ Dado los grandes tamaños que tienen ambas subcarpetas en el bucket, lo más efi
 
 ### Tamaño en 2023
 
+Alpha:
 ```bash
 aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2023" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
@@ -155,6 +156,7 @@ Total size: 17531825755 bytes (16.3278 GB)
 
 ### Tamaño en 2024
 
+Alpha:
 ```bash
 aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2024" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
@@ -163,6 +165,7 @@ Total size: 40068803509 bytes (37.317 GB)
 
 ### Tamaño en 2025
 
+Alpha:
 ```bash
 aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2025" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
