@@ -122,3 +122,21 @@ inactive_reason_notes
 ```
 
 Total: 26 columnas.
+
+### Tamaño de los CSV en Alpha
+
+Al 19 de Septiembre.
+```bash
+aws s3 ls s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ --recursive --summarize --human-readable | grep "Total Size"
+   
+   Total Size: 56.5 GiB
+```
+
+### Tamaño de los CSV en Omega
+
+Al 19 de Septiembre.
+```bash
+aws s3 ls s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/ --recursive --summarize --human-readable | grep "Total Size"
+   
+   Total Size: 148.2 GiB
+```
