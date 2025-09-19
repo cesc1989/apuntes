@@ -180,7 +180,7 @@ Total size: 3047939019 bytes (2.83861 GB)
 > [!Warning]
 > Recuerda comprimir la carpeta para conservar un archivo y tener forma de restaurar en caso de falla.
 
-### Año 2023 de Alpha
+### Año 2023 de Alpha ✅
 
 ```bash
 aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-alpha-2023/ --exclude "*" --include "2023*"
