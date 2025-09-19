@@ -123,9 +123,10 @@ inactive_reason_notes
 
 Total: 26 columnas.
 
+## Estado de las subcarpetas en Alpha y Omega
+
 ### Tamaño de los CSV en Alpha
 
-Al 19 de Septiembre.
 ```bash
 aws s3 ls s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ --recursive --summarize --human-readable | grep "Total Size"
    
@@ -134,9 +135,36 @@ aws s3 ls s3://luna-alpha-workloads-data-lake/business-operations/therapist-forw
 
 ### Tamaño de los CSV en Omega
 
-Al 19 de Septiembre.
 ```bash
 aws s3 ls s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/ --recursive --summarize --human-readable | grep "Total Size"
    
    Total Size: 148.2 GiB
+```
+
+## Descargar copia de las carpetas por año
+
+Dado los grandes tamaños que tienen ambas subcarpetas en el bucket, lo más eficiente para reducir el riesgo y poder responder mejor es bajar todo por año.
+
+### Tamaño en 2023
+
+```bash
+aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2023" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 17531825755 bytes (16.3278 GB)
+```
+
+### Tamaño en 2024
+
+```bash
+aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2024" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 40068803509 bytes (37.317 GB)
+```
+
+### Tamaño en 2025
+
+```bash
+aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2025" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 3047939019 bytes (2.83861 GB)
 ```
