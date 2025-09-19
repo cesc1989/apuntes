@@ -32,7 +32,7 @@ order by tfi.partition_0 desc
 limit 200;
 ```
 
-## Backfill
+## Backfill de datos históricos
 
 Resulta que este export se da en particiones. Cada vez que se ejecuta se crea una carpeta con la fecha actual:
 ```ruby
