@@ -1,5 +1,7 @@
 # Fallo del 5 de Septiembre: patients accediendo a página que no correspondía
 
+Etiquetas: #luna_help_desk 
+
 El 5 de Septiembre reportaron que los pacientes al verificar su email estaban viendo la página que se espera es para usuarios del Clinical Dashboard (physicians, clinics, practices).
 
 Ejemplo, esta página de cuando falla la verificación del email:

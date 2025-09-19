@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "79c238caf13cc6a9",
+        "id": "6c314b091e980602",
         "type": "tabs",
         "children": [
           {
-            "id": "69477fe74eac34d4",
+            "id": "644bd9fecba8cd06",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,13 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69477fe74eac34d4",
+  "active": "644bd9fecba8cd06",
   "lastOpenFiles": [
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
+    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Email Verification/Misc Info.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
     "Luna/Backend/Email Verification/attachments/301.failed.email.verification.png",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",

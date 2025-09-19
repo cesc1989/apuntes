@@ -1,5 +1,7 @@
 # Patient Email Verification - Origines
 
+Etiquetas: #luna_help_desk 
+
 Desde qué partes del sistema se envía el email de verificación al paciente.
 
 ## Desde `PatientEmailUpdateWorker`
