@@ -171,3 +171,13 @@ aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "busi
 
 Total size: 3047939019 bytes (2.83861 GB)
 ```
+
+### Descargar año 2023 de Alpha
+
+```bash
+aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-alpha-2023/ --exclude "*" --include "2023*"
+```
+
+> [!Tip]
+> Para descargar es mejor usar `aws s3 sync` ya que permite resumir la descarga en caso de falla sin tener que bajar de nuevo todos los archivos.
+
