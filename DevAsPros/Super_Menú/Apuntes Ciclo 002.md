@@ -112,3 +112,20 @@ export default defineConfig({
 })
 ```
 
+## Mejorar tiempos de npm ci
+
+Esta vaina es lenta y está halando recursos del servidor lo que termina causando errores del despliegue.
+
+Ejemplo:
+```
+client_loop: send disconnect: Broken pipe
+Error: Process completed with exit code 255.
+```
+
+Claude recomienda usar las banderas:
+```
+--prefer-offline --no-audit --no-fund
+```
+
+Los dos últimas ayudan pero no mucho. La que es más clave es la primera pero tiene sus gallitos.
+
