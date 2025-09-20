@@ -214,3 +214,20 @@ Volver a cargar las carpetas del año 2024:
 aws s3 sync ~/Downloads/tir-backfill-alpha-2024/ s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
 
+### Año 2025 de Alpha
+
+Descarga las carpetas:
+```bash
+aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-alpha-2025/ --exclude "*" --include "2025*"
+```
+
+Correr la rake:
+```bash
+bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downloads/tir-backfill-alpha-2025]
+```
+
+Volver a cargar las carpetas del año 2025:
+```bash
+aws s3 sync ~/Downloads/tir-backfill-alpha-2025/ s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/
+```
+
