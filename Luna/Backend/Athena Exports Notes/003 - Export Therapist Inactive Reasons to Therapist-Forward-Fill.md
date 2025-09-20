@@ -209,7 +209,7 @@ Correr la rake:
 bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downloads/tir-backfill-alpha-2024]
 ```
 
-Volver a cargar las carpetas del año 2023:
+Volver a cargar las carpetas del año 2024:
 ```bash
 aws s3 sync ~/Downloads/tir-backfill-alpha-2024/ s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
