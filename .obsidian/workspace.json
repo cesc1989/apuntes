@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
             }
+          },
+          {
+            "id": "dc8543c5e7a81622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Puntapie/Para la version 1.14.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Para la version 1.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Backlinks for Para la version 1.14"
             }
           },
           {
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Outline of Para la version 1.14"
             }
           }
         ],
@@ -166,10 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9f75086a5034054",
+  "active": "dc8543c5e7a81622",
   "lastOpenFiles": [
-    "Untitled.md",
     "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+    "Untitled.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",

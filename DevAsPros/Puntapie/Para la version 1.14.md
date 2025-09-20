@@ -57,6 +57,16 @@ Tomar de Cashflow: https://github.com/cesc1989/cashflow/commit/183fb87e1aa5868dc
 
 Ver [[adr-001-notificacion-de-estado-despliegues]]
 
+## Configurar production.log
+
+Tener esta configuración para el log con rotación en `production.rb`:
+```ruby
+# Log to "production.log"
+  config.logger = ActiveSupport::Logger.new("log/production.log", "daily")
+    .tap  { |logger| logger.formatter = ::Logger::Formatter.new }
+    .then { |logger| ActiveSupport::TaggedLogging.new(logger) }
+```
+
 # Configuración de Vite + Despliegue
 
 ## Para despliegues
