@@ -129,3 +129,8 @@ Claude recomienda usar las banderas:
 
 Los dos últimas ayudan pero no mucho. La que es más clave es la primera pero tiene sus gallitos.
 
+Lecturas:
+
+- [Stack Overflow](https://stackoverflow.com/questions/55230628/is-there-a-way-to-speedup-npm-ci-using-cache)
+- [Faste npm installs](https://www.tiernok.com/posts/2019/faster-npm-installs-during-ci)
+
