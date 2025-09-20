@@ -197,7 +197,7 @@ Volver a cargar las carpetas del año 2023:
 aws s3 sync ~/Downloads/tir-backfill-alpha-2023/ s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
 
-### Año 2024 de Alpha
+### Año 2024 de Alpha ✅
 
 Descarga las carpetas:
 ```bash
