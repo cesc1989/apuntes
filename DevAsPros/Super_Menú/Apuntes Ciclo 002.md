@@ -240,3 +240,12 @@ Build with Vite failed! ❌
 2025-09-21 03:10:22 assets:precompile failed
 ```
 
+El error 137 es OOM.
+
+Claudio dice que:
+
+> 1. Build assets locally/CI and deploy pre-built assets (skip Vite build on server)
+> 2. Add swap space to the VPS temporarily during deployment
+> 3. Use GitHub Actions to build assets and deploy the built files
+>
+> The most practical solution might be to build assets in GitHub Actions where resources aren't constrained, then deploy the pre-built assets to your VPS.
