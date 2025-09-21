@@ -160,6 +160,8 @@ Error: Process completed with exit code 255.
 
 ## Revisión de assets precompile
 
+### Vite hace un npm install
+
 Vi esto en los logs de assets precompile:
 ```bash
 I, [2025-09-21T00:29:08.409822 #1029911]  INFO -- : Writing /home/ubuntu/supermenu/deployments/api-release/public/assets/actioncable.esm-06609b0ecaffe2ab952021b9c8df8b6c68f65fc23bee728fc678a2605e1ce132.js.gz
@@ -188,3 +190,21 @@ VITE_RUBY_SKIP_ASSETS_PRECOMPILE_INSTALL=true
 Hay más detalles sobre esta configuración en https://vite-ruby.netlify.app/config/#skip-assets-precompile-install:
 > When enabled, `assets:precompile` won't invoke `vite:install_dependencies` before invoking `vite:build`.
 
+Probé desactivarlo pero aunque el despliegue es completo la carga de la página que usa Inertia falla porque no hay build de Vite.
+
+## vite build se queda pegado
+
+Veo esto luego de quitar el timeout y que vite haga `npm install`:
+```
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+Building with Vite ⚡️
+vite v5.4.19 building for production...
+transforming...
+```
+
+Y se queda ahí muchos minutos.
