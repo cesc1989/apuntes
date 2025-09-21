@@ -211,3 +211,32 @@ transforming...
 ```
 
 Y se queda ahí muchos minutos.
+
+### Limitar la memoria de node
+
+Según chatgpt y Claudio una forma de combatir esto es limitar la memoria de node:
+```bash
+NODE_OPTIONS="--max-old-space-size=512" RAILS_ENV=$RAILS_ENV SECRET_KEY_BASE=$SECRET_KEY_BASE bundle exec rake assets:precompile
+```
+
+Esto tampoco ayudo mucho. El build tardó 18 minutos y en todo caso falló:
+![[001.vite.build.supermenu.png]]
+
+Este fue el log:
+```bash
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+Building with Vite ⚡️
+vite v5.4.19 building for production...
+transforming...
+✓ 2377 modules transformed.
+rendering chunks...
+Killed
+
+pid 1036874 exit 137
+Build with Vite failed! ❌
+2025-09-21 03:10:22 assets:precompile failed
+```
+
