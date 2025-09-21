@@ -114,7 +114,10 @@ export default defineConfig({
 
 ## Mejorar tiempos de npm ci
 
-Esta vaina es lenta y está halando recursos del servidor lo que termina causando errores del despliegue.
+~~Esta vaina es lenta y está halando recursos del servidor lo que termina causando errores del despliegue.~~
+
+> [!Warning]
+> El paso que está lento es `assets:precompile` y no este. El vite build se toma todos los recursos del VPS porque no hay los suficientes.
 
 Ejemplo:
 ```bash
@@ -158,7 +161,7 @@ Error: Process completed with exit code 255.
 
 `npm ci` está terminando en 6 segundos. El problema parece estar en el `assets:precompile`.
 
-## Revisión de assets precompile
+## Revisión de assets precompile junto con Vite
 
 ### Vite hace un npm install
 
@@ -192,7 +195,7 @@ Hay más detalles sobre esta configuración en https://vite-ruby.netlify.app/con
 
 Probé desactivarlo pero aunque el despliegue es completo la carga de la página que usa Inertia falla porque no hay build de Vite.
 
-## Vite build se queda pegado
+## Vite build se queda pegado en transform...
 
 Veo esto luego de quitar el timeout y que vite haga `npm install`:
 ```
