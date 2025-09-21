@@ -216,7 +216,10 @@ Y se queda ahí muchos minutos.
 
 Según chatgpt y Claudio una forma de combatir esto es limitar la memoria de node:
 ```bash
-NODE_OPTIONS="--max-old-space-size=512" RAILS_ENV=$RAILS_ENV SECRET_KEY_BASE=$SECRET_KEY_BASE bundle exec rake assets:precompile
+NODE_OPTIONS="--max-old-space-size=512" \
+RAILS_ENV=$RAILS_ENV \
+SECRET_KEY_BASE=$SECRET_KEY_BASE \
+bundle exec rake assets:precompile
 ```
 
 Esto tampoco ayudo mucho. El build tardó 18 minutos y en todo caso falló:
