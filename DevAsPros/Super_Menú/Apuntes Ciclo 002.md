@@ -252,3 +252,18 @@ Claudio dice que:
 > 3. Use GitHub Actions to build assets and deploy the built files
 >
 > The most practical solution might be to build assets in GitHub Actions where resources aren't constrained, then deploy the pre-built assets to your VPS.
+
+Al final pude lograr un build completo de esta forma:
+```bash
+NODE_OPTIONS="--max-old-space-size=512" \
+VITE_RUBY_SKIP_ASSETS_PRECOMPILE_EXTENSION=true \
+RAILS_ENV=$RAILS_ENV \
+SECRET_KEY_BASE=$SECRET_KEY_BASE \
+bundle exec rake assets:precompile
+```
+
+Opté por hacer el build de Vite en local y quitarlo del `assets:precompile`. Logré tener un build completo pero sigue fallando Vite.
+
+Enlaces sobre OOM de vite build:
+- https://github.com/ElMassimo/vite_ruby/discussions/485
+- https://github.com/vitejs/vite/issues/2433#issuecomment-792914871
