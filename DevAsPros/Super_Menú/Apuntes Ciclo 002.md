@@ -192,7 +192,7 @@ Hay más detalles sobre esta configuración en https://vite-ruby.netlify.app/con
 
 Probé desactivarlo pero aunque el despliegue es completo la carga de la página que usa Inertia falla porque no hay build de Vite.
 
-## vite build se queda pegado
+## Vite build se queda pegado
 
 Veo esto luego de quitar el timeout y que vite haga `npm install`:
 ```
