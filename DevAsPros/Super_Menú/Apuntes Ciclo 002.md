@@ -148,7 +148,7 @@ else
 fi
 ```
 
-Aún me dio error. El build tardó los 5 minutos.
+El build tardó los 5 minutos y dio error pero no tiene que ver con npm.
 
 ```bash
 added 173 packages in 6s
@@ -156,6 +156,35 @@ client_loop: send disconnect: Broken pipe
 Error: Process completed with exit code 255.
 ```
 
-`npm ci` está terminando en 6 segundos. El problema parece estar en el `bundle install`.
+`npm ci` está terminando en 6 segundos. El problema parece estar en el `assets:precompile`.
 
-## Revisión de bundle install
+## Revisión de assets precompile
+
+Vi esto en los logs de assets precompile:
+```bash
+I, [2025-09-21T00:29:08.409822 #1029911]  INFO -- : Writing /home/ubuntu/supermenu/deployments/api-release/public/assets/actioncable.esm-06609b0ecaffe2ab952021b9c8df8b6c68f65fc23bee728fc678a2605e1ce132.js.gz
+
+added 173 packages, and audited 174 packages in 7s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+3 vulnerabilities (2 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+Building with Vite ⚡️
+```
+
+El comando `assets:precompile` al estar junto con Vite corre npm. Esto está mal porque ya hay un paso previo donde se ejecuta `npm ci`.
+
+La [documentación de Vite Ruby](https://vite-ruby.netlify.app/guide/deployment.html#disabling-node-modules-installation-in-assets-precompile) dice que se puede desactivar con esta ENV:
+```
+VITE_RUBY_SKIP_ASSETS_PRECOMPILE_INSTALL=true
+```
+
+Hay más detalles sobre esta configuración en https://vite-ruby.netlify.app/config/#skip-assets-precompile-install:
+> When enabled, `assets:precompile` won't invoke `vite:install_dependencies` before invoking `vite:build`.
+
