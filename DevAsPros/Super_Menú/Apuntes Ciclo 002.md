@@ -267,3 +267,34 @@ Opté por hacer el build de Vite en local y quitarlo del `assets:precompile`. Lo
 Enlaces sobre OOM de vite build:
 - https://github.com/ElMassimo/vite_ruby/discussions/485
 - https://github.com/vitejs/vite/issues/2433#issuecomment-792914871
+
+Al final sí funcionó hacer el build en local. Seguí estos pasos que me dio ChatGPT:
+
+En local:
+```bash
+bundle exec vite build
+```
+
+Lo que genera:
+```
+public/vite/
+  ├── .vite/manifest.json
+  └── assets/...
+```
+
+Para copiar el comprimido al servidor:
+```
+scp -i ~/.ssh/linode public-vite.tar.gz ubuntu@139.144.196.192:/home/ubuntu/supermenu/deployments/
+```
+
+Extrae la carpeta de assets:
+```
+cd /home/ubuntu/supermenu/deployments/api-release
+
+tar -xzf /home/ubuntu/supermenu/deployments/vite-assets.tar.gz
+```
+
+Reinicia el servidor:
+```
+touch ./tmp/restart.txt
+```
