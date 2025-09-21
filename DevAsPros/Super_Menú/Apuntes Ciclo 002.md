@@ -253,7 +253,7 @@ Claudio dice que:
 >
 > The most practical solution might be to build assets in GitHub Actions where resources aren't constrained, then deploy the pre-built assets to your VPS.
 
-### Hacer vite build en CI y usar artefacto en VPS
+### Hacer vite build en CI y usar artefacto en VPS 🟢
 
 > [!Note]
 > Dado a la alta necesidad de memoria de Node y que el VPS es el más pequeño de Linode, opté por hacer el build en el CI y usar el artefacto en el despliegue. Así ahorro recursos y aprovecho GHA.

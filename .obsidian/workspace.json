@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -183,11 +183,11 @@
   },
   "active": "3f6a2e299fc23537",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
     "DevAsPros/Puntapie/Para la version 1.14.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
     "Untitled.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
@@ -227,7 +227,6 @@
     "Luna/Backend/Protocols/untitled folder",
     "Luna/Backend/Help Desk/attachments/001.case.03.luxe.png",
     "Luna/Backend/Help Desk/attachments/001.case.02.luxe.png",
-    "Luna/Backend/Help Desk/attachments/001.case.01.luxe.png",
     "Luna/Backend/Help Desk/attachments",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
