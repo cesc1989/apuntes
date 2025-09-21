@@ -67,6 +67,28 @@ Tener esta configuración para el log con rotación en `production.rb`:
     .then { |logger| ActiveSupport::TaggedLogging.new(logger) }
 ```
 
+## Configurar bundle para indicar valores de las banderas
+
+Para que no salgan más estos warnings:
+```bash
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set --local deployment 'true'`, and stop using this flag
+
+[DEPRECATED] The `--path` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set --local path '/home/ubuntu/supermenu/deployments/api-gems/bundle'`, and stop using this flag
+
+[DEPRECATED] The `--without` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set --local without 'development test'`, and stop using this flag
+```
+
+Tengo que correr esas instrucciones en el VPS o agregar al repo la configuración de `.config/bundle`.
+
+Así está en el caso de supermenu:
+```bash
+cat .bundle/config 
+---
+BUNDLE_DEPLOYMENT: "true"
+BUNDLE_PATH: "/home/ubuntu/supermenu/deployments/api-gems/bundle"
+BUNDLE_WITHOUT: "development:test"
+```
+
 # Configuración de Vite + Despliegue
 
 ## Para despliegues

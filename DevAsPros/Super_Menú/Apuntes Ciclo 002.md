@@ -117,7 +117,7 @@ export default defineConfig({
 Esta vaina es lenta y está halando recursos del servidor lo que termina causando errores del despliegue.
 
 Ejemplo:
-```
+```bash
 client_loop: send disconnect: Broken pipe
 Error: Process completed with exit code 255.
 ```
@@ -134,3 +134,28 @@ Lecturas:
 - [Stack Overflow](https://stackoverflow.com/questions/55230628/is-there-a-way-to-speedup-npm-ci-using-cache)
 - [Faste npm installs](https://www.tiernok.com/posts/2019/faster-npm-installs-during-ci)
 
+### Quitar salida a stdout
+
+Según [este artículo](https://jeromewu.github.io/how-to-speed-up-node-js-modules-installation/) escribir a stdout es lento. Mejor que este build no lo haga.
+
+Probé este cambio:
+```bash
+if ! timeout 60 npm ci --prefer-offline --no-audit --no-fund 2>> /home/ubuntu/supermenu/deployment_logs/012_npm_install.log; then
+  echo "$(date '+%F %T') npm install failed or timed out" >> /home/ubuntu/supermenu/deployment_logs/012_npm_install.log
+  exit 1
+else
+  echo "$(date '+%F %T') npm install completed successfully" >> /home/ubuntu/supermenu/deployment_logs/012_npm_install.log
+fi
+```
+
+Aún me dio error. El build tardó los 5 minutos.
+
+```bash
+added 173 packages in 6s
+client_loop: send disconnect: Broken pipe
+Error: Process completed with exit code 255.
+```
+
+`npm ci` está terminando en 6 segundos. El problema parece estar en el `bundle install`.
+
+## Revisión de bundle install
