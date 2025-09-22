@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "21201bf5f274b14e",
+        "id": "cc5efe139075833b",
         "type": "tabs",
         "children": [
           {
-            "id": "9cecf231d9e355db",
+            "id": "14d6b05a5c29a770",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Therapist Signup"
-            }
-          },
-          {
-            "id": "7093a3bf1e50cbe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comanditos para Clinical Dashboard"
-            }
-          },
-          {
-            "id": "11f6ab1f4132544f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comanditos para Patient Self Report"
+              "title": "003 - Backfill Candid Superbills PayToAddress"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Backlinks for 003 - Backfill Candid Superbills PayToAddress"
             }
           },
           {
@@ -170,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Clinical Dashboard"
+              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress"
             }
           }
         ],
@@ -195,12 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7093a3bf1e50cbe7",
+  "active": "14d6b05a5c29a770",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Backend/Comandos Edge.md",
     "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+    "Luna/Backend/Comandos Edge.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
@@ -224,8 +197,6 @@
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
-    "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
     "DevAsPros/Puntapie",
