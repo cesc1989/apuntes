@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f233780a353f18e6",
+        "id": "94501659b60e7658",
         "type": "tabs",
         "children": [
           {
-            "id": "1752e9311925006a",
+            "id": "b20c1cad66a8ae46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+                "file": "Luna/Backend/Help Desk/004 - Progress Form Email sin Link.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Temas_de_NodeJS"
+              "title": "004 - Progress Form Email sin Link"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+                "file": "Luna/Backend/Help Desk/004 - Progress Form Email sin Link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Temas_de_NodeJS"
+              "title": "Backlinks for 004 - Progress Form Email sin Link"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+                "file": "Luna/Backend/Help Desk/004 - Progress Form Email sin Link.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Temas_de_NodeJS"
+              "title": "Outline of 004 - Progress Form Email sin Link"
             }
           }
         ],
@@ -166,13 +166,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1752e9311925006a",
+  "active": "b20c1cad66a8ae46",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/004 - Progress Form Email sin Link.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
@@ -195,8 +197,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Migrando_a_Ruby_3_0_2_con_WKHTMLTOPDF.md",
     "Luna/Glosario.md",
-    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
-    "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
     "DevAsPros/Puntapie",
