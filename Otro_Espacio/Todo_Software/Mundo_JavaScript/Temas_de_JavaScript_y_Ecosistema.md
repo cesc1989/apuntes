@@ -1,6 +1,7 @@
 # Temas de JavaScript y Ecosistema
 
 ## ReactJS
+
 - Las diferencias entre *CSS in JS, Inline Styles con Radium, CSS Modules y Styled Components* basándome en el capítulo del libro *React Design Patterns and Best Practices.*
 - Cómo escribir condicionales en JSX http://devnacho.com/2016/02/15/different-ways-to-add-if-else-statements-in-JSX/
 
@@ -25,91 +26,94 @@ Dependencias de desarrollo:
 - webpack-dev-server
 
 Comandos del `package.json`:
-
-
-    "scripts": {
-        "start": "webpack-dev-server --hot",
-        "compile": "webpack"
-      }
+```json
+"scripts": {
+	"start": "webpack-dev-server --hot",
+	"compile": "webpack"
+}
+```
 
 y la configuración del `webpack.config.js`:
+```js
+const path = require('path');
 
-
-    const path = require('path');
-    
-    module.exports = {
-      mode: 'development',
-      context: path.join(__dirname, 'src'),
-      entry: [
-        './index.js',
-      ],
-      output: {
-        path: path.join(__dirname, 'www'),
-        filename: 'bundle.js',
-      },
-      module: {
-        rules: [
-          {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            use: [
-              'babel-loader',
-            ],
-          },
-        ],
-      },
-      devServer: {
-        contentBase: path.join(__dirname, 'www'),
-        port: 9000
-      }
-    };
+module.exports = {
+	mode: 'development',
+	context: path.join(__dirname, 'src'),
+	entry: [
+		'./index.js',
+	],
+	output: {
+		path: path.join(__dirname, 'www'),
+		filename: 'bundle.js',
+	},
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				use: [
+					'babel-loader',
+				],
+			},
+		],
+	},
+	devServer: {
+		contentBase: path.join(__dirname, 'www'),
+		port: 9000
+	}
+};
+```
 
 
 ## jQuery
+
 - [jQuery Context - Diferencias con selector descendente](https://stackoverflow.com/questions/16422478/what-is-context-in-jquery-selector)
 - [jQuery Event Delegation](https://learn.jquery.com/events/event-delegation/)
 
 
 ## JavaScript
+
 - jQuery a Vanilla JS. Ver → [+JavaScript: Enlaces y Temas Importantes](https://paper.dropbox.com/doc/JavaScript-Enlaces-y-Temas-Importantes-94RMURr5MLPA2cFzZmDXs) 
 
 **Caso de argumento de función dentro de** `**map()**`
 Ocurre que una función al ser utilizada dentro de un *map* no necesita que se le indique el argumento que tenga ya que el map lo está mandando "automaticamente"
 
+Documentación de map: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
-- Documentación de map: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+```js
+renderOrder(key) {}
 
+// más adelante
 
-    renderOrder(key) {}
-    
-    // más adelante
-    
-    { orderids.map(this.renderOrder) }
+{ orderids.map(this.renderOrder) }
+```
 
 En el código anterior vemos cómo al llamar `renderOrder` dentro de `map` no se necesita pasar el argumento que la función requiere.
 
-
 # Lecciones Sprints - Wikit
+
 ## Turbolinks y jQuery
 
 Para el caso del `bootstrap-select` Turbolinks entró en acción a molestar. Como en este caso al `selectpicker` aplicaba a un elemento en un modal de bootstrap, no servía con darle la clase para que le aplicará los estilos.
 
-A pesar de haber probado con esta [forma sugerida en Upcase](https://thoughtbot.com/upcase/videos/turbolinks)(vídeo viejo)
-
-    $(document).on('ready page:load', function() {
-      $('#category_visibility').selectpicker()
-    });
+A pesar de haber probado con esta [forma sugerida en Upcase](https://thoughtbot.com/upcase/videos/turbolinks)(vídeo viejo):
+```js
+$(document).on('ready page:load', function() {
+	$('#category_visibility').selectpicker()
+});
+```
 
 Al final, pude hacerlo funcionar con
-
-    $(function () {
-      $(document).on('show.bs.modal', function () {
-        $('#category_visibility').selectpicker()
-      })
-    })
+```js
+$(function () {
+	$(document).on('show.bs.modal', function () {
+		$('#category_visibility').selectpicker()
+	})
+})
+```
 
 siguiendo un poco las recomendaciones en [RSJZ](http://ricostacruz.com/rsjs).
-
 
 ## Sobre llenar listas de selección con `**options_for_select**`
 
@@ -121,18 +125,19 @@ Usando el helper *select_tag* y el helper de opciones `**options_for_select**``(
 
 Teniendo en cuenta que este helper recibe un arreglo de arreglos con los valores a conformar cada `<option></option>` donde el primer elemento del subarray es el texto, el segundo el valor y puede haber un tercer elemento que conformaría otros atributos HTML del *option*
 
+```ruby
+module CategoriesHelper
+	def category_members_options(collection)
+		collection.map do |member|
+			[member.email, member.id, data: { photo: avatar_url(member, 25) }]
+		end
+	end
+end
 
-    module CategoriesHelper
-      def category_members_options(collection)
-        collection.map do |member|
-          [member.email, member.id, data: { photo: avatar_url(member, 25) }]
-        end
-      end
-    end
-    
-    # Vista
-    
-    <%= select_tag(:user_ids, options_for_select(category_members_options(@available_members)), { multiple: true, class: 'form-control' }) %>
+# Vista
+
+<%= select_tag(:user_ids, options_for_select(category_members_options(@available_members)), { multiple: true, class: 'form-control' }) %>
+```
 
 
 ## Select2, eventos y jQuery `detach()`

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98ff07f1125ff62b",
+        "id": "45ecf8485982c68d",
         "type": "tabs",
         "children": [
           {
-            "id": "80420210881b6549",
+            "id": "fe63418fbaa657f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Temas_de_JavaScript_y_Ecosistema"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Backlinks for Temas_de_JavaScript_y_Ecosistema"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Outline of Temas_de_JavaScript_y_Ecosistema"
             }
           }
         ],
@@ -166,10 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80420210881b6549",
+  "active": "fe63418fbaa657f1",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
+    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
     "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
@@ -194,9 +197,6 @@
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
-    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
-    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
     "DevAsPros/Puntapie",
