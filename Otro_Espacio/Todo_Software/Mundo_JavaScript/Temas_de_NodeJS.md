@@ -145,3 +145,17 @@ arch -arm64 bash
 Visto en:
 - [Stack Overflow](https://stackoverflow.com/a/67907214/1407371)
 - [Devzilla](https://devzilla.io/using-nodejs-14-with-mac-silicon-m1)
+
+# Corregir error de Sass @import rules are deprecated
+
+Este mensaje que me salí al correr el servidor de Jekyll:
+```
+Deprecation Warning [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+```
+
+Se corrige cambiando `@import` por `@use` en las hojas de estilo que usen la directiva.
+
+```diff
+- @import "blog_styles";
++ @use "blog_styles";
+```
