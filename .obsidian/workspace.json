@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cb5e8ac6e13fece1",
+        "id": "21201bf5f274b14e",
         "type": "tabs",
         "children": [
           {
-            "id": "c7e53e373f03ea1e",
+            "id": "9cecf231d9e355db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+                "file": "Luna/Backend/Comandos Edge.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Comandos Edge"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#luna_help_desk",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+                "file": "Luna/Backend/Comandos Edge.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
+              "title": "Outline of Comandos Edge"
             }
           }
         ],
@@ -166,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7e53e373f03ea1e",
+  "active": "9cecf231d9e355db",
   "lastOpenFiles": [
-    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
     "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
+    "Luna/Backend/Comandos Edge.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
     "DevAsPros/Puntapie/Para la version 1.14.md",
