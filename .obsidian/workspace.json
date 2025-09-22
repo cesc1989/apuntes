@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "45ecf8485982c68d",
+        "id": "f233780a353f18e6",
         "type": "tabs",
         "children": [
           {
-            "id": "fe63418fbaa657f1",
+            "id": "1752e9311925006a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Temas_de_JavaScript_y_Ecosistema"
+              "title": "Temas_de_NodeJS"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Temas_de_JavaScript_y_Ecosistema"
+              "title": "Backlinks for Temas_de_NodeJS"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Temas_de_JavaScript_y_Ecosistema"
+              "title": "Outline of Temas_de_NodeJS"
             }
           }
         ],
@@ -166,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe63418fbaa657f1",
+  "active": "1752e9311925006a",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
@@ -196,7 +197,6 @@
     "Luna/Glosario.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
-    "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
     "DevAsPros/Puntapie",

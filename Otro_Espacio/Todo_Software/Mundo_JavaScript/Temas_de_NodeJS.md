@@ -7,31 +7,38 @@ Artículos enfocados a esta plataforma que permite ejecutar JavaScript de lado d
 ## node-sass missing binding error
 
 Message:
+```bash
+Error: Missing binding /app/node_modules/node-sass/vendor/linux-x64-48/binding.node
+Node Sass could not find a binding for your current environment: Linux 64-bit with Node.js 6.x
 
-    Error: Missing binding /app/node_modules/node-sass/vendor/linux-x64-48/binding.node
-    Node Sass could not find a binding for your current environment: Linux 64-bit with Node.js 6.x
-    
-    Found bindings for the following environments:
-      - OS X 64-bit with Node.js 6.x
-    
-    This usually happens because your environment has changed since running `npm install`.
-    
-    Run `npm rebuild node-sass` to build the binding for your current environment.
+Found bindings for the following environments:
+	- OS X 64-bit with Node.js 6.x
+
+This usually happens because your environment has changed since running `npm install`.
+
+Run `npm rebuild node-sass` to build the binding for your current environment.
+```
 
 Can be solved by running:
 
-    npm rebuild node-sass
+```
+npm rebuild node-sass
+```
 
 or
 
-    rm rf node_modules
-    npm install
+```
+rm rf node_modules
+npm install
+```
 
 Ver [este issue](https://github.com/sass/node-sass/issues/1585) para entender mejor.
 
 ## cannot run in wd
 
-    npm WARN lifecycle askYeoman@0.0.0~postinstall: cannot run in wd %s %s (wd=%s) askYeoman@0.0.0 bower install /app
+```
+npm WARN lifecycle askYeoman@0.0.0~postinstall: cannot run in wd %s %s (wd=%s) askYeoman@0.0.0 bower install /app
+```
 
 Solución: `bower install --allow-root`
 
@@ -49,11 +56,12 @@ There are two ways to install npm packages: locally or globally. Choose which ki
 ## Cómo corregir conflictos del `package-lock.json`
 
 Una forma es:
-
-    rm package-lock.json
-    npm install
-    git add package-lock.json
-    git commit
+```bash
+rm package-lock.json
+npm install
+git add package-lock.json
+git commit
+```
 
 pero no es ideal. Vista en [Blog de Adriaan](https://blog.adriaan.io/merge-conflict-in-package-lock-json.html). La otra forma es usando `npm-merge-driver`, el cual le enseña a git cómo corregir tales conflictos. 
 
