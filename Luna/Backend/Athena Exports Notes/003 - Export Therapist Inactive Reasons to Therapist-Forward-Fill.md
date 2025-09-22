@@ -281,3 +281,27 @@ Volver a cargar las carpetas del año 2025:
 aws s3 sync ~/Downloads/tir-backfill-alpha-2025/ s3://luna-alpha-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
 
+## Backfill Definitivo en Omega
+
+> [!Warning]
+> Recuerda comprimir la carpeta para conservar un archivo y tener forma de restaurar en caso de falla.
+
+> [!Warning]
+> Antes de correr el último comando, postea en `#backend-prod-ops`. No ejecutes sin la previa autorización y aprobación de Ryan.
+
+### Año 2020 en Omega
+
+
+### Año 2021 en Omega
+
+
+### Año 2022 en Omega
+
+
+### Año 2023 en Omega
+
+
+### Año 2024 en Omega
+
+
+### Año 2025 en Omega
