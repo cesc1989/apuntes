@@ -1,5 +1,7 @@
 # Comanditos Edge
 
+Etiquetas: #comanditos
+
 ## BD en Omega
 
 Edge:
