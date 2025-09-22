@@ -145,6 +145,32 @@ aws s3 ls s3://luna-omega-workloads-data-lake/business-operations/therapist-forw
 
 Dado los grandes tamaños que tienen ambas subcarpetas en el bucket, lo más eficiente para reducir el riesgo y poder responder mejor es bajar todo por año.
 
+### Tamaño en 2020
+
+Omega:
+```bash
+aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2020" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {pr
+int "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 7219931201 bytes (6.72408 GB)
+```
+
+### Tamaño en 2021
+
+```bash
+aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2021" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 17887166294 bytes (16.6587 GB)
+```
+
+### Tamaño en 2022
+
+```bash
+aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2022" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 36066670455 bytes (33.5897 GB)
+```
+
 ### Tamaño en 2023
 
 Alpha:
@@ -152,6 +178,14 @@ Alpha:
 aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2023" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
 Total size: 17531825755 bytes (16.3278 GB)
+```
+
+Omega:
+```bash
+aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2023" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {pr
+int "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 60099717992 bytes (55.9722 GB)
 ```
 
 ### Tamaño en 2024
@@ -163,6 +197,14 @@ aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "busi
 Total size: 40068803509 bytes (37.317 GB)
 ```
 
+Omega:
+```bash
+aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2024" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {pr
+int "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 36047098952 bytes (33.5715 GB)
+```
+
 ### Tamaño en 2025
 
 Alpha:
@@ -170,6 +212,14 @@ Alpha:
 aws s3api list-objects-v2 --bucket luna-alpha-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2025" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
 Total size: 3047939019 bytes (2.83861 GB)
+```
+
+Omega:
+```bash
+aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2025" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {pr
+int "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+
+Total size: 1785894140 bytes (1.66324 GB)
 ```
 
 ## Ejecutar el backfill 🛠️

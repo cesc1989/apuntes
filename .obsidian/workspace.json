@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
             }
-          },
-          {
-            "id": "3f6a2e299fc23537",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes Ciclo 002"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Apuntes Ciclo 002"
+              "title": "Backlinks for 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
             }
           },
           {
@@ -156,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 002"
+              "title": "Outline of 003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill"
             }
           }
         ],
@@ -181,10 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f6a2e299fc23537",
+  "active": "c7e53e373f03ea1e",
   "lastOpenFiles": [
-    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export Therapist Inactive Reasons to Therapist-Forward-Fill.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
     "DevAsPros/Puntapie/Para la version 1.14.md",
