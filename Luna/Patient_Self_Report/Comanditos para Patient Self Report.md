@@ -1,5 +1,7 @@
 # Comanditos para Patient Self Report
 
+Etiquetas: #comanditos 
+
 Comandos rakes o para usar en la consola de Rails.
 
 ## Buscar Intake o Progress incompletos

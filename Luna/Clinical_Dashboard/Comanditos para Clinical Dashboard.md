@@ -1,5 +1,7 @@
 # Comanditos para Clinical Dashboard
 
+Etiquetas: #comanditos 
+
 Para crear cosas.
 
 # Nuevo AdminUser

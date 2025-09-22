@@ -1,5 +1,7 @@
 # Comanditos para Therapist Signup
 
+Etiquetas: #comanditos 
+
 Comandos rakes o para usar en la consola de Rails.
 
 ## Probar carga de archivos PDF a la carpeta en S3
