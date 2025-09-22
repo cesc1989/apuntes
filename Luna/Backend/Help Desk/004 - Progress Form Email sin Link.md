@@ -25,3 +25,7 @@ Jordan explica:
 
 Luego Jordan comenta:
 > There is that gap of time where if its during the initial and the next appointment is during the time period where it is less than 48 hours, the therapist won't receive the appropriate communications due to that overlap of timing/appointment timing.
+
+
+Resumén de Claudio:
+> This is a race condition bug where the 48-hour email reminder job runs before the appointment is completed and the progress form is created, resulting in patients not receiving the form link email.
