@@ -291,6 +291,19 @@ aws s3 sync ~/Downloads/tir-backfill-alpha-2025/ s3://luna-alpha-workloads-data-
 
 ### Año 2020 en Omega
 
+Descarga las carpetas:
+```bash
+aws s3 sync s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-omega-2020/ --exclude "*" --include "2020*"
+```
+
+Correr la rake:
+```
+bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downloads/tir-backfill-omega-2020]
+```
+
+Volver a cargar las carpetas del año 2020:
+```bash
+```
 
 ### Año 2021 en Omega
 
