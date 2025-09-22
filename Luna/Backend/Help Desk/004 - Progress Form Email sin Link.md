@@ -5,7 +5,7 @@ Etiquetas: #luna_help_desk
 Reporte:
 > (...) form was noted as sent but no email was pushed out to patient with (...) form link.
 
-Jordan details:
+Jordan explica:
 > **Background Details**
 >
 > - The 4th appointment (progress form appointment) occurred on 08/11 @ 8:30 AM PDT (55 min). The 5th appointment occurred on 08/13 @8:30 AM PDT
@@ -23,3 +23,5 @@ Jordan details:
 > **Result**
 > Patient did not receive email due to timing of progress appointment in relation to the upcoming appointment aligning within the 48 hour window resulting in communication not being sent.
 
+Luego Jordan comenta:
+> There is that gap of time where if its during the initial and the next appointment is during the time period where it is less than 48 hours, the therapist won't receive the appropriate communications due to that overlap of timing/appointment timing.
