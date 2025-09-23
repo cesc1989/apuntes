@@ -1,5 +1,7 @@
 # 003 - Backfill de Candid Superbills PayToAddress
 
+Etiquetas: #luna_help_desk 
+
 Es una rake que existía y luego se borró. Restauré todo con Claude. No entendía muy bien de qué va así que le pregunté y dijo:
 
 The `backfill_pay_to_address` rake task (lines 55-74) is designed to update Candid encounters for Luna Direct clinics that have PO Box addresses.
