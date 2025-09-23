@@ -52,6 +52,10 @@ Esto me parece que estaba así por alguna razón legacy que no recuerdo.
 
 Si se recibe en forma corta desde el webhook, convertir a la forma larga antes de guardar.
 
-## Backend - Serializer
+Teniendo en cuenta la lista anterior, ¿qué tan viable es seguir esta alternativa?
+
+## Backend - Serializer 🟡
 
 Convertir a la forma larga antes de enviar a frontend.
+
+Apliqué esta opción y parece funcionar. Hay que pasarla por alpha y probar varios escenarios.
