@@ -32,6 +32,13 @@ order by tfi.partition_0 desc
 limit 200;
 ```
 
+```sql
+SELECT *
+FROM "business-operations"."therapist_forward_fill" tfi
+where tfi.clinicient_staff_id != 'UNKNOWN'
+limit 20;
+```
+
 ## Backfill de datos históricos
 
 Resulta que este export se da en particiones. Cada vez que se ejecuta se crea una carpeta con la fecha actual:
@@ -289,7 +296,7 @@ aws s3 sync ~/Downloads/tir-backfill-alpha-2025/ s3://luna-alpha-workloads-data-
 > [!Warning]
 > Antes de correr el último comando, postea en `#backend-prod-ops`. No ejecutes sin la previa autorización y aprobación de Ryan.
 
-### Año 2020 en Omega
+### Año 2020 en Omega ✅
 
 Descarga las carpetas ✅
 ```bash
@@ -301,7 +308,7 @@ Correr la rake ✅
 bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downloads/tir-backfill-omega-2020]
 ```
 
-Volver a cargar las carpetas del año 2020
+Volver a cargar las carpetas del año 2020 ✅
 ```bash
 aws s3 sync ~/Downloads/tir-backfill-omega-2020/ s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
