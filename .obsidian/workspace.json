@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b388f3a9acc48c34",
+        "id": "5c5a3368f50b2bb1",
         "type": "tabs",
         "children": [
           {
-            "id": "57dda7e7f3cb06ac",
+            "id": "09e14a02d677dfc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
-                "mode": "source",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress"
+              "title": "003 - Export TIR to Therapist-Forward-Fill"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 003 - Backfill Candid Superbills PayToAddress"
+              "title": "Backlinks for 003 - Export TIR to Therapist-Forward-Fill"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress"
+              "title": "Outline of 003 - Export TIR to Therapist-Forward-Fill"
             }
           }
         ],
@@ -166,12 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57dda7e7f3cb06ac",
+  "active": "09e14a02d677dfc6",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
     "Luna/Backend/Help Desk/004 - Progress Form Email sin Link.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
