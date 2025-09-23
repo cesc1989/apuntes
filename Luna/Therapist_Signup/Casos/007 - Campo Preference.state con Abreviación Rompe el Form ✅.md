@@ -1,5 +1,7 @@
 # 007 - Campo Preference#state rompe el form por estar en forma Abreviada
 
+Luna #luna_help_desk 
+
 La lista de selección espera el nombre largo del estado. Al cargar el campo se rompe el form en la sección Preferences y no se pueden hacer más actualizaciones.
 
 ## Query para ver cuántos campos tienen la abreviatura
