@@ -59,3 +59,33 @@ Teniendo en cuenta la lista anterior, ¿qué tan viable es seguir esta alternati
 Convertir a la forma larga antes de enviar a frontend.
 
 Apliqué esta opción y parece funcionar. Hay que pasarla por alpha y probar varios escenarios.
+
+La forma en que lo apliqué es así:
+- Si `state` es de más de dos caracteres, uso tal cual
+- Sino busco el nombre en el diccionario `UsaStatesHelper::FULL_NAMES`
+
+Así se ve en el Attestation Form luego de haber guardado el nombre en forma larga:
+```json
+{
+  "data": {
+    "id": 247,
+    "state": "Kansas",
+    "unmodified_state_name": "Kansas"
+  }
+}
+```
+
+También agregué el campo `unmodified_state_name` para tener una forma rápida para debuggear.
+
+Así se ve cuando guardo `state` en forma corta:
+```json
+{
+  "data": {
+    "id": 247,
+    "state": "Colorado",
+    "unmodified_state_name": "CO",
+  }
+}
+```
+
+Si interactúan con el form, se manda la forma larga desde el select list y el campo `state` queda corregido.
