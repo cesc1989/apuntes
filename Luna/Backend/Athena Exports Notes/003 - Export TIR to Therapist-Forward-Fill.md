@@ -377,3 +377,101 @@ Una vez actualicé el Classifier y corrí de nuevo el Crawler se puede ver el ca
 Enlaces:
 
 - [Multiple tables created after crawling data using glue from a s3 bucket](https://www.reddit.com/r/aws/comments/1gstb6y/multiple_tables_created_after_crawling_data_using/): un comentario da esa explicación.
+
+## Borrar tablas creadas por error
+
+Luego de lo anterior pasó que Glue marcó las tablas malas como _deprecated_. Les puso un timestamp. Pensé que eso significaría que Glue las iba a borrar pero no fue así.
+
+La UI solo podía cargar 1000 tablas. En lugar de ir borrando solo cambiaba las listas.
+
+Si seleccionaba alguna e intentaba borrar daba error por "uso concurrente" o "no encontrado". Lo que me hacía creer que se estaban borrando.
+
+Error.
+
+Había que borrar manualmente desde la UI o mediante el CLI. Entonces fue con el uso del CLI que listé todas las tablas y aún aparecían todas. Así que tocaba borrar también con el CLI.
+
+Con esta comando listé todas las tablas y las guardé en un archivo de texto plano:
+```bash
+aws glue get-tables \
+  --database-name business-operations \
+  --query 'TableList[].Name' \
+  --output json > tablas.txt
+```
+
+Luego intenté con este traer si estaban o no borradas pero no hay tal atributo:
+```bash
+aws glue get-tables \
+  --database-name business-operations \
+  --query 'TableList[?DeleteTime != null].[Name, DeleteTime]' \
+  --output json > deleted_tables.txt
+```
+
+Las tablas que se podían borrar son las marcadas con un timestamp en _deprecated_.
+
+Eso lo pude comprobar cuando al traer solo los datos de un par:
+```bash
+aws glue get-tables \
+  --database-name business-operations \
+  --expression "2020_04_17t23_00_07z|2020_04_17t23_30_07z" \
+  --output json > specific_tables.txt
+```
+
+Pude revisar sus propiedades:
+```json
+{
+	"Name": "2020_04_17t23_00_07z",
+	"DatabaseName": "business-operations",
+	"Owner": "owner",
+	"CreateTime": "2025-09-24T09:29:11-05:00",
+	"UpdateTime": "2025-09-24T10:52:07-05:00",
+	"LastAccessTime": "2025-09-24T10:52:07-05:00",
+	"Retention": 0,
+	"StorageDescriptor": {
+			"Columns": [],
+			"BucketColumns": [],
+			"SortColumns": [],
+			"Parameters": {
+					"skip.header.line.count": "1",
+					"sizeKey": "467024",
+					"objectCount": "1",
+					"UPDATED_BY_CRAWLER": "Business Operations - Therapist Forward Fill",
+					"DEPRECATED_BY_CRAWLER": "1758729127916",
+			},
+			"StoredAsSubDirectories": false
+	},
+	"PartitionKeys": [],
+	"TableType": "EXTERNAL_TABLE",
+	"Parameters": {
+			"skip.header.line.count": "1",
+			"sizeKey": "467024",
+			"objectCount": "1",
+			"UPDATED_BY_CRAWLER": "Business Operations - Therapist Forward Fill",
+			"DEPRECATED_BY_CRAWLER": "1758729127916",
+	},
+	"CreatedBy": "arn:aws:sts::349935666759:assumed-role/AWSGlueServiceRole-Default/AWS-Crawler",
+	"IsRegisteredWithLakeFormation": false,
+	"CatalogId": "349935666759",
+	"VersionId": "1",
+	"IsMultiDialectView": false
+}
+```
+
+Así que la alternativa que quedaba era con el CLI.
+
+### Solución: borrar con el CLI
+
+Finalmente, con ayuda de Claudio armé un script para agrupar los nombres de a 100 e ir corriendo el comando en baches para borrar estas tablas.
+
+Primero probé el comando para borrar de a una tabla a la vez:
+```bash
+aws glue delete-table --database-name business-operations --name "2020_04_17t23_00_07z"
+```
+
+Luego el comando para borrar en baches:
+```bash
+aws glue batch-delete-table \
+    --database-name business-operations \
+    --tables-to-delete "2020_04_18t02_00_08z" "2020_04_18t02_30_05z" "2020_04_18t03_00_07z" "2020_04_18t03_30_04z" "2020_04_18t04_00_05z" "2020_04_18t04_30_06z" "2020_04_18t05_00_00z" "2020_04_18t05_30_07z" "2020_04_18t06_00_06z" "2020_04_18t06_30_05z" "2020_04_18t07_00_07z" "2020_04_18t07_30_06z" "2020_04_18t08_00_30z" "2020_04_18t08_30_05z" "2020_04_18t09_00_07z" "2020_04_18t09_30_06z" "2020_04_18t10_00_06z" "2020_04_18t10_30_06z" "2020_04_18t11_00_07z" "2020_04_18t11_30_07z" "2020_04_18t12_00_06z"
+```
+
+Este tiene la limitante que solo admite listas de 100 nombres para borrar. Fue ahí entonces cuando con Claudio armé el script, corrí el modo dry-run y después puse en ejecución para eliminar.
