@@ -374,3 +374,6 @@ Nota la ejecución del 24 de Septiembre a las 14:49. Agregó 71 mil tablas pero 
 
 Una vez actualicé el Classifier y corrí de nuevo el Crawler se puede ver el cambio en la ejecución del mismo día pero más tarde. Cambiaron 71 mil tablas (se marcaron para ser borradas) y se actualizaron 17 mil particiones.
 
+Enlaces:
+
+- [Multiple tables created after crawling data using glue from a s3 bucket](https://www.reddit.com/r/aws/comments/1gstb6y/multiple_tables_created_after_crawling_data_using/): un comentario da esa explicación.
