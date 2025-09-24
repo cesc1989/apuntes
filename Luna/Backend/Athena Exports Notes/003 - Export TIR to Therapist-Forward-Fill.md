@@ -355,7 +355,7 @@ aws s3 sync ~/Downloads/tir-backfill-omega-2022/ s3://luna-omega-workloads-data-
 
 ### Año 2025 en Omega
 
-# Errores
+# Errores ❌
 
 Las cosas que pueden fallar al hacer el backfill y cómo solventar.
 
