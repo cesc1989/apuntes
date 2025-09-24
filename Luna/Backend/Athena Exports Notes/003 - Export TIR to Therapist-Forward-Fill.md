@@ -354,3 +354,23 @@ aws s3 sync ~/Downloads/tir-backfill-omega-2022/ s3://luna-omega-workloads-data-
 
 
 ### Año 2025 en Omega
+
+# Errores
+
+Las cosas que pueden fallar al hacer el backfill y cómo solventar.
+
+## Crawler crea tablas por cada carpeta
+
+> [!Important]
+> Este error se da por no actualizar el Classifier con las columnas nuevas. Para evitarlo hay que actualizar antes el Classifier con las columnas nuevas y luego correr el Crawler.
+
+Cuando el Crawler detecta muchas particiones con diferentes columnas creará tablas por cada partición.
+
+Se puede detectar este error cuando el Crawler en vez de actualizar particiones agrega nuevas tablas.
+
+![[102.tir-backfill-2021-f2.png]]
+
+Nota la ejecución del 24 de Septiembre a las 14:49. Agregó 71 mil tablas pero actualizó cero particiones. Eso fue el error.
+
+Una vez actualicé el Classifier y corrí de nuevo el Crawler se puede ver el cambio en la ejecución del mismo día pero más tarde. Cambiaron 71 mil tablas (se marcaron para ser borradas) y se actualizaron 17 mil particiones.
+
