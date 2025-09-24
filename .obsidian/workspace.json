@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f8316a6efa22d7b0",
+        "id": "748c1f89532ce380",
         "type": "tabs",
         "children": [
           {
-            "id": "e1af46b2e821586b",
+            "id": "1b034510a43b670e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entorno de Desarrollo Macos - Configs"
+              "title": "003 - Export TIR to Therapist-Forward-Fill"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Entorno de Desarrollo Macos - Configs"
+              "title": "Backlinks for 003 - Export TIR to Therapist-Forward-Fill"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Entorno de Desarrollo Macos - Configs"
+              "title": "Outline of 003 - Export TIR to Therapist-Forward-Fill"
             }
           }
         ],
@@ -166,10 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1af46b2e821586b",
+  "active": "1b034510a43b670e",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/macos.terminal.option.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/macos.terminal.option.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
@@ -212,7 +212,6 @@
     "Luna/Backend/Protocols/attachments",
     "Luna/Backend/Protocols/untitled folder",
     "Luna/Backend/Help Desk/attachments/001.case.03.luxe.png",
-    "Luna/Backend/Help Desk/attachments/001.case.02.luxe.png",
     "Luna/Backend/Help Desk/attachments",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
