@@ -165,6 +165,7 @@ Total size: 7219931201 bytes (6.72408 GB)
 
 ### Tamaño en 2021
 
+Omega:
 ```bash
 aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2021" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
@@ -173,6 +174,7 @@ Total size: 17887166294 bytes (16.6587 GB)
 
 ### Tamaño en 2022
 
+Omega:
 ```bash
 aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2022" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
