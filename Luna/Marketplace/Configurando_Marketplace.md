@@ -19,6 +19,7 @@ export PATH="$HOME/.local/bin:${PATH}"
 Instalar Python con pyenv
 ```bash
 pyenv install 3.11.7
+
 python-build: use openssl@3 from homebrew
 python-build: use readline from homebrew
 Downloading Python-3.11.7.tar.xz...
@@ -33,6 +34,7 @@ Installed Python-3.11.7 to /Users/francisco/.pyenv/versions/3.11.7
 Para listar las versiones de python instaladas:
 ```bash
 pyenv versions
+
 	system
 	2.7.18
 * 3.9.7 (set by /Users/francisco/projects/luna-project/marketplace/.python-version)
@@ -71,7 +73,7 @@ $ cat .python-version
 > Así es como se crea el virtualenv
 
 ```bash
-pipenv --python $(pyenv which python3.11)
+pipenv --python $(pyenv which python3.12)
 
 Loading .env environment variables...
 Warning: the environment variable LANG is not set!
@@ -91,10 +93,12 @@ Virtualenv location: /Users/francisco/.local/share/virtualenvs/marketplace-UlKaq
 
 Al modificar variables de entorno u otra cosa es clave **correr los comando en este orden antes de entrar en el ambiente virtual**:
 ```bash
-$ pipenv --python $(pyenv which python3.11)
+pipenv --python $(pyenv which python3.12)
+
 Loading .env environment variables...
 
-$ pipenv shell
+pipenv shell
+
 Loading .env environment variables...
 Loading .env environment variables...
 Launching subshell in virtual environment...
@@ -106,7 +110,8 @@ Launching subshell in virtual environment...
 
 Luego de ejecutar `pipenv install` para instalar los paquetes del Pipfile, dice esto:
 ```bash
-$ pipenv install --dev --skip-lock
+pipenv install --dev --skip-lock
+
 Loading .env environment variables...
 Installing dependencies from Pipfile...
 Installing dependencies from Pipfile...
@@ -116,7 +121,8 @@ Alternatively, run a command inside the virtualenv with pipenv run.
 
 Cuando ejecuto `pipenv shell` me da este error de bash
 ```bash
-$ pipenv shell
+pipenv shell
+
 Launching subshell in virtual environment...
 
 The default interactive shell is now zsh.
@@ -127,11 +133,11 @@ bash: prompt_git: command not found
 
 Y parece entrar en una subshell pero cada que presiono algo vuelve ese error
 ```bash
-$  . /Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD/bin/activate
+. /Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD/bin/activate
 bash: prompt_git: command not found
 (marketplace) 
 
-$ 
+ 
 bash: prompt_git: command not found
 (marketplace)
 ```
@@ -160,7 +166,8 @@ Para el archivo `.bashrc` toca hacerlo manual:
 
 Cuando recargo el shell y pruebo de nuevo:
 ```bash
-$ pipenv shell
+pipenv shell
+
 Launching subshell in virtual environment...
 
 The default interactive shell is now zsh.
