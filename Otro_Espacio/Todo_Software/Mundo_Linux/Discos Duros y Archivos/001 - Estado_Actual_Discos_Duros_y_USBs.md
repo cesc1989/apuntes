@@ -27,6 +27,14 @@
 - Estado: Ocupado
 - Sistema de Archivos: ext4
 
+### Embestidor 🎥
+
+- Tipo Almacenamiento: HDD
+- Tamaño: 2 TB
+- Uso: Backup de Películas/ Series - Plex Media Server
+- Estado: Vacío
+- Sistema de Archivos: null
+
 ### SSD 1
 
 - Tipo Almacenamiento: SSD
