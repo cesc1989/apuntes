@@ -386,6 +386,21 @@ aws s3 sync ~/Downloads/tir-backfill-omega-2024/ s3://luna-omega-workloads-data-
 
 ### Año 2025 en Omega
 
+Descarga las carpetas
+```bash
+aws s3 sync s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-omega-2025/ --exclude "*" --include "2025*"
+```
+
+Correr la rake
+```
+bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downloads/tir-backfill-omega-2025]
+```
+
+Volver a cargar las carpetas del año 2025
+```bash
+aws s3 sync ~/Downloads/tir-backfill-omega-2025/ s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/
+```
+
 # Errores ❌
 
 Las cosas que pueden fallar al hacer el backfill y cómo solventar.

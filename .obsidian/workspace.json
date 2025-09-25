@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "748c1f89532ce380",
+        "id": "e090aa897d7146d7",
         "type": "tabs",
         "children": [
           {
-            "id": "1b034510a43b670e",
+            "id": "cb4c7587685bc696",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "001 - Estado_Actual_Discos_Duros_y_USBs"
+              "title": "003 - Export TIR to Therapist-Forward-Fill"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 001 - Estado_Actual_Discos_Duros_y_USBs"
+              "title": "Backlinks for 003 - Export TIR to Therapist-Forward-Fill"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001 - Estado_Actual_Discos_Duros_y_USBs"
+              "title": "Outline of 003 - Export TIR to Therapist-Forward-Fill"
             }
           }
         ],
@@ -166,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b034510a43b670e",
+  "active": "cb4c7587685bc696",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
     "Luna/Backend/Athena Exports Notes/attachments/102.tir-backfill-2021-f2.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
@@ -194,7 +196,6 @@
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Deshaciendo_cambios_con_git_reset_—hard.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
-    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Email Verification/attachments/301.failed.email.verification.png",
