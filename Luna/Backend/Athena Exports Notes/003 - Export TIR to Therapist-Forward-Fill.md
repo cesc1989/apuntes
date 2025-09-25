@@ -331,7 +331,7 @@ Volver a cargar las carpetas del año 2021 ✅
 aws s3 sync ~/Downloads/tir-backfill-omega-2021/ s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
 
-### Año 2022 en Omega
+### Año 2022 en Omega ✅
 
 Descarga las carpetas ✅
 ```bash
