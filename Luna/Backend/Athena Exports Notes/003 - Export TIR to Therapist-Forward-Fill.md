@@ -357,7 +357,7 @@ Descarga las carpetas ✅
 aws s3 sync s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-omega-2023/ --exclude "*" --include "2023*"
 ```
 
-Correr la rake
+Correr la rake ✅
 ```
 bundle exec rake therapist_forward_fill:backfill_columns[/Users/francisco/Downloads/tir-backfill-omega-2023]
 ```
