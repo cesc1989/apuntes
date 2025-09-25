@@ -18,7 +18,7 @@ export PATH="$HOME/.local/bin:${PATH}"
 
 Instalar Python con pyenv
 ```bash
-pyenv install 3.11.7
+pyenv install 3.12.9
 
 python-build: use openssl@3 from homebrew
 python-build: use readline from homebrew
