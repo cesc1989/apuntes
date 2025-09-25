@@ -14,7 +14,8 @@ Queries de prueba en Athena:
 SELECT *
 FROM "business-operations"."therapist_forward_fill"
 where inactive_reason_key is not null
-limit 20;
+and inactive_reason_notes <> ''
+limit 100;
 ```
 
 ```sql
