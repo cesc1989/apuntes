@@ -218,7 +218,7 @@ luna rds get-dev-db-creds -p alpha -d dev-francisco-alpha-marketplace-05-27t21-1
 
 En esta parte el primer comando es seguido por el del README pero parece que basta solo con el `pipenv shell` para cargar las variables de entorno en el ambiente virtual:
 ```bash
-pipenv --python $(pyenv which python3.11)
+pipenv --python $(pyenv which python3.12)
 
 pipenv shell
 ```
