@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Grimoire/Setup de Grimoire.md",
                 "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Setup de Grimoire"
+            }
+          },
+          {
+            "id": "9ca9f9fa61247774",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Configurando_Marketplace"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "NO_AU",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,10 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be2d34db794c39fd",
+  "active": "9ca9f9fa61247774",
   "lastOpenFiles": [
-    "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
+    "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
@@ -195,7 +211,6 @@
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Hubspot to Credentialing - Two-way Sync.md",
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
-    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_JavaScript_y_Ecosistema.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Email Verification/attachments/301.failed.email.verification.png",

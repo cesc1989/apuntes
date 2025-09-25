@@ -1,6 +1,9 @@
-# Configurando Marketplace
+# Configuración de Marketplace
 
-# Configuración
+> [!Warning]
+> Tener cuidado con la versión de Python. Es clave que los comandos se corran para la versión especificada en el README, .python-version o al final de Pipfile.
+>
+> Versión al 25/09/25: 3.12.9
 
 Hay que instalar pyenv y pipenv:
 
