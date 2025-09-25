@@ -50,13 +50,13 @@ Para que se cargue la versión requerido de Python se pueden usar alguno de esto
 
 Cuando intenté con `pyenv shell` pasó esto:
 ```bash
-pyenv shell 3.11.7
+pyenv shell 3.12.9
 pyenv: shell integration not enabled. Run `pyenv init' for instructions.
 ```
 
 Así que probé con `pyenv local`:
 ```bash
-pyenv local 3.11.7
+pyenv local 3.12.9
 ```
 
 El cual funcionó pero creo un archivo `.python-version`
@@ -96,7 +96,10 @@ Al modificar variables de entorno u otra cosa es clave **correr los comando en e
 pipenv --python $(pyenv which python3.12)
 
 Loading .env environment variables...
+```
 
+luego:
+```bash
 pipenv shell
 
 Loading .env environment variables...
