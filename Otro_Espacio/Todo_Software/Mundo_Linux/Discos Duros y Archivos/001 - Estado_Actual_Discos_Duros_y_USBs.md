@@ -2,7 +2,7 @@
 
 ## Discos Duros
 
-### Mugiwara
+### Mugiwara 📒
 
 - Tipo Almacenamiento: HDD
 - Tamaño: 500 GB
@@ -11,7 +11,7 @@
 - Sistema de Archivos: FAT
 	- 🟡 FAT no soporta archivos mayores de 4gb
 
-### Atronador
+### Atronador 🎥
 
 - Tipo Almacenamiento: HDD
 - Tamaño: 1 TB
@@ -19,7 +19,7 @@
 - Estado: Ocupado
 - Sistema de Archivos: ext4
 
-### Quebrantahuesos
+### Quebrantahuesos 🎥
 
 - Tipo Almacenamiento: HDD
 - Tamaño: 1 TB
@@ -37,13 +37,13 @@
 
 ## USBs
 
-### Negra
+### Negra 🎥
 
 - Tamaño: 64 GB
 - Uso: Películas
 - Estado: Ocupado
 
-### Pepa Guama
+### Pepa Guama 🎷
 
 - Tamaño: 512 MB
 - Uso: Música Carro
