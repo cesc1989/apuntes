@@ -8,6 +8,7 @@
 - Tamaño: 500 GB
 - Uso: Documentos, Fotos, Música, Respaldos
 - Estado: Ocupado
+- Sistema de Archivos: FAT
 
 ### Atronador
 
@@ -15,6 +16,7 @@
 - Tamaño: 1 TB
 - Uso: Películas/ Series - Plex Media Server
 - Estado: Ocupado
+- Sistema de Archivos: ext4
 
 ### Quebrantahuesos
 
@@ -22,6 +24,7 @@
 - Tamaño: 1 TB
 - Uso: Backup de Películas/ Series - Plex Media Server
 - Estado: Ocupado
+- Sistema de Archivos: ext4
 
 ### SSD 1
 
@@ -29,6 +32,7 @@
 - Tamaño: 240 GB
 - Uso: Linux Mint ThinkPad
 - Estado: Ocupado
+- Sistema de Archivos: ext4
 
 ## USBs
 
