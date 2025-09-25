@@ -18,7 +18,7 @@ export PATH="$HOME/.local/bin:${PATH}"
 
 Instalar Python con pyenv
 ```bash
-$ pyenv install 3.11.7
+pyenv install 3.11.7
 python-build: use openssl@3 from homebrew
 python-build: use readline from homebrew
 Downloading Python-3.11.7.tar.xz...
@@ -32,7 +32,7 @@ Installed Python-3.11.7 to /Users/francisco/.pyenv/versions/3.11.7
 
 Para listar las versiones de python instaladas:
 ```bash
-$ pyenv versions
+pyenv versions
 	system
 	2.7.18
 * 3.9.7 (set by /Users/francisco/projects/luna-project/marketplace/.python-version)
