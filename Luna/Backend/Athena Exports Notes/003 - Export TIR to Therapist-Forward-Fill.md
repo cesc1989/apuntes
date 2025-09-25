@@ -369,7 +369,7 @@ aws s3 sync ~/Downloads/tir-backfill-omega-2023/ s3://luna-omega-workloads-data-
 
 ### Año 2024 en Omega
 
-Descarga las carpetas
+Descarga las carpetas ✅
 ```bash
 aws s3 sync s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/ ~/Downloads/tir-backfill-omega-2024/ --exclude "*" --include "2024*"
 ```
