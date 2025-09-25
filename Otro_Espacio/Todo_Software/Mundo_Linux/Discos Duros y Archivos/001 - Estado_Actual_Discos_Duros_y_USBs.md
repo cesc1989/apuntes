@@ -9,6 +9,7 @@
 - Uso: Documentos, Fotos, Música, Respaldos
 - Estado: Ocupado
 - Sistema de Archivos: FAT
+	- 🟡 FAT no soporta archivos mayores de 4gb
 
 ### Atronador
 
