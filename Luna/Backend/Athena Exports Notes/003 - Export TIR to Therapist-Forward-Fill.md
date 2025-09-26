@@ -366,7 +366,7 @@ Volver a cargar las carpetas del año 2023 ✅
 aws s3 sync ~/Downloads/tir-backfill-omega-2023/ s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
 
-### Año 2024 en Omega
+### Año 2024 en Omega ✅
 
 Descarga las carpetas ✅
 ```bash
@@ -383,7 +383,7 @@ Volver a cargar las carpetas del año 2024 ✅
 aws s3 sync ~/Downloads/tir-backfill-omega-2024/ s3://luna-omega-workloads-data-lake/business-operations/therapist-forward-fill/
 ```
 
-### Año 2025 en Omega
+### Año 2025 en Omega ✅
 
 Descarga las carpetas ✅
 ```bash

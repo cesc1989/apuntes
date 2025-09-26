@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 442.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
