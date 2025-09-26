@@ -10,7 +10,7 @@ En palabras de Claude:
 
 **Form Cadence Settings** (`app/marketplace/config/base.py`)
 
-En `class FormsSettings:`
+En `FormsSettings:`
 
 - `PROGRESS_FORM_EVERY_N_VISITS: int = 5` - Progress form sent after the 4th appointment is completed (N-1)
 - `PROGRESS_FORM_MINIMUM_N_FINISHED_VISITS: int = 2` - Never send if fewer than 2 visits completed
