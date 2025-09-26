@@ -226,8 +226,7 @@ Total size: 3047939019 bytes (2.83861 GB)
 
 Omega:
 ```bash
-aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2025" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {pr
-int "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
+aws s3api list-objects-v2 --bucket luna-omega-workloads-data-lake --prefix "business-operations/therapist-forward-fill/2025" --query "Contents[].Size" --output text | tr '\t' '\n' | awk '{sum += $1} END {print "Total size:", sum, "bytes (" sum/1024/1024/1024 " GB)"}'
 
 Total size: 1785894140 bytes (1.66324 GB)
 ```
