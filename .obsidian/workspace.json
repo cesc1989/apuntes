@@ -14,11 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "003 - Export TIR to Therapist-Forward-Fill"
+            }
+          },
+          {
+            "id": "b2f60931eec3479f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Configurando_Marketplace"
             }
           }
         ]
@@ -169,10 +183,10 @@
   "active": "e1cdbff88450be52",
   "lastOpenFiles": [
     "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Luna/Backend/Athena Exports Notes/attachments/102.tir-backfill-2021-f2.png",
