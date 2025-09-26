@@ -2,6 +2,9 @@
 
 Etiquetas: #luna_help_desk 
 
+> [!Important]
+> La clave de todo es cargar todo al S3 y dejar para el final correr el Crawler.
+
 ## Pruebas
 
 Para disparar manualmente el worker en una consola de Rails:
