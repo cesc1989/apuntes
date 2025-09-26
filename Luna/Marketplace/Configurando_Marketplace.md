@@ -22,7 +22,10 @@ export PATH="$HOME/.local/bin:${PATH}"
 Instalar Python con pyenv
 ```bash
 pyenv install 3.12.9
+```
 
+Salida de ejemplo:
+```
 python-build: use openssl@3 from homebrew
 python-build: use readline from homebrew
 Downloading Python-3.11.7.tar.xz...
@@ -37,11 +40,14 @@ Installed Python-3.11.7 to /Users/francisco/.pyenv/versions/3.11.7
 Para listar las versiones de python instaladas:
 ```bash
 pyenv versions
+```
 
-	system
-	2.7.18
+Ejemplo de salida:
+```
+system
+2.7.18
 * 3.9.7 (set by /Users/francisco/projects/luna-project/marketplace/.python-version)
-	3.10.11
+3.10.11
 ```
 
 ## Pyenv
@@ -50,6 +56,8 @@ Para que se cargue la versión requerido de Python se pueden usar alguno de esto
 
 - pyenv shell
 - pyenv local
+
+### Detalle de pyenv shell
 
 Cuando intenté con `pyenv shell` pasó esto:
 ```bash
@@ -65,7 +73,7 @@ pyenv local 3.12.9
 El cual funcionó pero creo un archivo `.python-version`
 ```bash
 $ cat .python-version 
-3.11.7
+3.12.9
 ```
 
 ## Pipenv
@@ -77,7 +85,10 @@ $ cat .python-version
 
 ```bash
 pipenv --python $(pyenv which python3.12)
+```
 
+Salida de ejemplo:
+```
 Loading .env environment variables...
 Warning: the environment variable LANG is not set!
 We recommend setting this in ~/.profile (or equivalent) for proper expected behavior.
@@ -125,7 +136,9 @@ To activate this project's virtualenv, run pipenv shell.
 Alternatively, run a command inside the virtualenv with pipenv run.
 ```
 
-Cuando ejecuto `pipenv shell` me da este error de bash
+#### Detalle de pipenv shell
+
+Cuando ejecuto `pipenv shell` me da este error de bash:
 ```bash
 pipenv shell
 
@@ -318,37 +331,22 @@ DATA_LAKE_BUCKET=somelakebucket
 # Error al correr rq
 
 De vez en mes salía este error:
-
-    objc[21706]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
-    objc[21706]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+```
+objc[21706]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+objc[21706]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+```
 
 La solución es exportar una variable:
-
-    export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
-
+```
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+```
 
 # Las Migraciones
 
-**NOTA: resulta que no debo correr migraciones sino usar un dump.**
+> [!Important]
+> Resulta que no debo correr migraciones sino usar un dump
 
 Actualmente no se necesita correr migraciones. Hay es que configurar una base de datos con copia de datos en alpha y accederla mediante un conexión string.
-
-Para hacer que se genera una instancia de corto plazo, se ejecuta este comando:
-
-    $ ~/projects/scripts/x_make_dev_db.sh alpha marketplace
-    Invoking the lambda
-    To monitor, use x_logs alpha ephemeral dev-database-backups 30m
-    Or to monitor the lambda, use x_lambda_logs alpha start-dev-db-backup-task 30m
-
-Luego, cuando el bot en el canal “eng-infra” diga que ya está listo, se ejecuta el comando que ofrece para obtener una cadena de conexión:
-
-```bash
-$ ~/projects/scripts/x_rds_dev_creds.sh alpha dev-francisco-alpha-marketplace-10-17t12-55
-
-Connection String: psql -d 'postgres://user:password@dev-francisco-alpha-marketplace-10-17t12-55.ctvhkhbiykgu.us-west-2.rds.amazonaws.com:5432/dbname'
-```
-
-Esa cadena se toma las partes para actualizar de las variables de entorno en el archivo .env
 
 ## Error de timeout
 
