@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "47edb79e5092693f",
+        "id": "b890057b684b87b0",
         "type": "tabs",
         "children": [
           {
-            "id": "e1cdbff88450be52",
+            "id": "c6420db61f49017a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "003 - Export TIR to Therapist-Forward-Fill"
-            }
-          },
-          {
-            "id": "b2f60931eec3479f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Configurando_Marketplace"
+              "title": "New tab"
             }
           }
         ]
@@ -92,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5,
-    "collapsed": true
+    "width": 442.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -109,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 003 - Export TIR to Therapist-Forward-Fill"
+              "title": "Backlinks"
             }
           },
           {
@@ -156,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Export TIR to Therapist-Forward-Fill"
+              "title": "Outline"
             }
           }
         ],
@@ -181,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1cdbff88450be52",
+  "active": "c6420db61f49017a",
   "lastOpenFiles": [
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill.md",
