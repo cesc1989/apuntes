@@ -3,7 +3,14 @@
 Etiquetas: #luna_help_desk 
 
 > [!Important]
-> La clave de todo es cargar todo al S3 y dejar para el final correr el Crawler.
+> **La clave de este proceso es cargar todos los archivos modificados a S3 y dejar para el final correr el Crawler.**
+>
+> Para lograrlo se archivan los datos en algún hospedaje (GDrive, HDD) y cuando todos estén actualizados con el nuevo schema se cargan a S3 (sería demorado). Cuando la carpeta tenga todos los archivos es cuando corremos el Crawler.
+>
+> De esta forma se evita la molestia del Crawler creando tablas por cada partición.
+
+> [!Tip]
+> Los scripts que usé para revisar que los CSVs modificados no quitaran datos originales y agregaran las columnas esperadas, además del que elimina todas las tablas creadas de forma equivocada los tengo en mis Documentos.
 
 ## Pruebas
 
