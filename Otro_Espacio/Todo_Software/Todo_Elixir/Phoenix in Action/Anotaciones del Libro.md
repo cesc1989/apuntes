@@ -27,3 +27,12 @@
 Gráfico:
 
 ![[elixi.mfa.png]]
+
+## Sobre Tuples
+
+> Tuples are not meant to be used as a “collection” type (...): they’re mostly meant to be used as a fixed-size container for multiple elements.
+
+## Las vistas en Phoenix no son como las vistas en Rails
+
+> The view is responsible for rendering templates and for setting up helper functions that you can use in those templates. ==The functions defined here are similar to decorators or presenters in other frameworks==.
+

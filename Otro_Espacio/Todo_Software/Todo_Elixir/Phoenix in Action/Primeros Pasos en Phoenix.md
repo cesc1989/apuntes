@@ -37,6 +37,12 @@ apps
 
 # Ecto
 
+Todo lo que hace Ecto
+
+![[ecto.elixir.library.png]]
+
+## Problema del Capítulo 7
+
 [Docs](https://hexdocs.pm/phoenix/ecto.html)
 
 En el capítulo 7 el autor menciona un archivo que nunca se creó. Lo copió del repo que se tiene  de para copiar código y configuro Ecto como se espera pero cuando corro la instrucción `mix ecto.create` da este error:
@@ -52,6 +58,8 @@ repositories managed by those applications in your config/config.exs:
 ```
 
 Esto mismo menciona otra persona en [un issue en ese repo](https://github.com/PhoenixInAction/phoenix-in-action/issues/4). Sin respuesta a día de hoy.
+
+Solución...
 
 En aplicaciones Umbrella, o se tienen todas las configs en el archivo central o es por cada proyecto. Cuando se tiene por cada proyecto, hay que importar sus configs en el archivo central en todo caso.
 
