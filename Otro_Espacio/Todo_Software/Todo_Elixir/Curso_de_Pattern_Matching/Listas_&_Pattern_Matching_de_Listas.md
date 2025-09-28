@@ -1,4 +1,4 @@
-# 🥐Listas & Pattern Matching de Listas
+# 🥐 Listas & Pattern Matching de Listas
 
 [Lección](https://thinkingelixir.com/course/pattern-matching/module-2/list/).
 

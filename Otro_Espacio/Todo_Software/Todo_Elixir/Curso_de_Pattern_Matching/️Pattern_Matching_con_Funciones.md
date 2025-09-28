@@ -3,40 +3,44 @@ Una de las cosas importantes de pattern matching es ¿qué pasa cuando no hay em
 
 Podemos definir varias versiones de una misma función que defina un patrón diferente. Se puede pensar como la sobrecarga de funciones pero cada función se encarga de emparejar un tipo de dato y forma en especifico.
 
-    defmodule Testing do
-      def do_work(true) do
-        {:ok, "I did some work!"}
-      end
-    
-      def do_work(false) do
-        {:ok, "I refuse to work."}
-      end
-    end
+```erlang
+defmodule Testing do
+	def do_work(true) do
+		{:ok, "I did some work!"}
+	end
+
+	def do_work(false) do
+		{:ok, "I refuse to work."}
+	end
+end
+```
 
 Forma corta:
-
-    defmodule Testing do
-      def do_work(true), do: {:ok, "I did some work!"}
-      def do_work(false), do: {:ok, "I refuse to work."}
-    end
+```erlang
+defmodule Testing do
+	def do_work(true), do: {:ok, "I did some work!"}
+	def do_work(false), do: {:ok, "I refuse to work."}
+end
+```
 
 Cuando queremos ayudar a la función a emparejar con cualquier otro tipo de dato y forma sin darnos error, podemos optar por la forma en pattern matching donde ignoramos el resto (`rest`)
 
-    defmodule Testing do
-      def do_work(true), do: {:ok, "I did some work!"}
-      def do_work(false), do: {:ok, "I refuse to work."}
-    
-      def do_work(other) do
-        {:error, "I don't know what to do with #{inspect other}"}
-      end
-    end
+```erlang
+defmodule Testing do
+	def do_work(true), do: {:ok, "I did some work!"}
+	def do_work(false), do: {:ok, "I refuse to work."}
 
+	def do_work(other) do
+		{:error, "I don't know what to do with #{inspect other}"}
+	end
+end
+```
 
 > **El orden importa.** **Deja la función que captura todo de último sino no habrá ningún emparejamiento.**
 
-
 # Usar IF como antipatrón
-![](https://paper-attachments.dropbox.com/s_8AA3E333FE3BC3AE32B86829354112CBD565D8E0EF6BD7AD415368F806E91DD6_1605384978589_image.png)
+
+![[if.antipattern.png]]
 
 # No es lo mismo sobrecarga de función que varias funciones haciendo pattern matching
 

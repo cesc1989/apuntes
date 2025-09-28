@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "add260038539c445",
+        "id": "38211ce0da66a9cc",
         "type": "tabs",
         "children": [
           {
-            "id": "196ac184f8b39994",
+            "id": "7a97a39ea7fd6e8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "️Pattern_Matching_con_Funciones"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for ️Pattern_Matching_con_Funciones"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of ️Pattern_Matching_con_Funciones"
             }
           }
         ],
@@ -160,9 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "196ac184f8b39994",
+  "active": "7a97a39ea7fd6e8e",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments/if.antipattern.png",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments/s_8AA3E333FE3BC3AE32B86829354112CBD565D8E0EF6BD7AD415368F806E91DD6_1605384978589_image.png",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Pattern_Matching.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Listas_&_Pattern_Matching_de_Listas.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Mapas_&_Pattern_Matching_de_Mapas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments/elixir.list.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Funciones.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Guard_Clauses.md",
@@ -195,8 +205,6 @@
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-    "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Email Verification/attachments/301.failed.email.verification.png",
@@ -204,7 +212,6 @@
     "Luna/Backend/Episodes",
     "DevAsPros/Puntapie",
     "DevAsPros/ADRs",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/rubyonrails.slack.adr.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments",
     "DevAsPros/Proyectos-Archivados",
     "Canvas/Forms.canvas",
