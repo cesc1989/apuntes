@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "38211ce0da66a9cc",
+        "id": "687564f573ea7fe8",
         "type": "tabs",
         "children": [
           {
-            "id": "7a97a39ea7fd6e8e",
+            "id": "4f968766e19c42cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "️Pattern_Matching_con_Funciones"
+              "title": "️Pattern_Matching_de_Funciones_con_Tuplas"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ️Pattern_Matching_con_Funciones"
+              "title": "Backlinks for ️Pattern_Matching_de_Funciones_con_Tuplas"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ️Pattern_Matching_con_Funciones"
+              "title": "Outline of ️Pattern_Matching_de_Funciones_con_Tuplas"
             }
           }
         ],
@@ -166,8 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a97a39ea7fd6e8e",
+  "active": "4f968766e19c42cd",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Structs_&_Pattern_Matching_Structs.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Tuplas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments/if.antipattern.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments/s_8AA3E333FE3BC3AE32B86829354112CBD565D8E0EF6BD7AD415368F806E91DD6_1605384978589_image.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Pattern_Matching.md",
@@ -202,12 +206,8 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
     "Luna/Backend/Help Desk/004 - Progress Form Email sin Link.md",
-    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
-    "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "DevAsPros/Super_Menú/attachments/001.vite.build.supermenu.png",
     "DevAsPros/Super_Menú/attachments",
-    "Luna/Backend/Email Verification/attachments/301.failed.email.verification.png",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
     "DevAsPros/Puntapie",

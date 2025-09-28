@@ -1,4 +1,5 @@
-# ⭐️Pattern Matching con Funciones
+# ⭐️ Pattern Matching con Funciones
+
 Una de las cosas importantes de pattern matching es ¿qué pasa cuando no hay emparejamiento? Pues, se sigue buscando el siguiente. Así mismo es con funciones.
 
 Podemos definir varias versiones de una misma función que defina un patrón diferente. Se puede pensar como la sobrecarga de funciones pero cada función se encarga de emparejar un tipo de dato y forma en especifico.
