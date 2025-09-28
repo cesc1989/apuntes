@@ -1,8 +1,10 @@
 # 🥐Listas & Pattern Matching de Listas
+
 [Lección](https://thinkingelixir.com/course/pattern-matching/module-2/list/).
 
-
-    my_list = [1, 2, 3, 4, 5]
+```erlang
+my_list = [1, 2, 3, 4, 5]
+```
 
 This looks like an Array in other languages. However, **a List doesn’t** ***act*** **like an Array**.
 
@@ -10,9 +12,7 @@ A list in Elixir (and other functional programming languages) is actually a recu
 
 When you realize an Elixir list is an immutable linked list, it’s behavior makes sense and how you use it becomes clear.
 
-![](https://thinkingelixir.com/wp-content/uploads/2019/03/list-01.png)
-
-
+![[elixir.list.png]]
 
 ## Variables son apuntadores y no asignaciones
 
@@ -21,16 +21,19 @@ When you realize an Elixir list is an immutable linked list, it’s behavior mak
 Adding to the *front* of the List, or the “head” is very cheap.
 
 # Pattern Matching de Listas
-    [a, b, c | rest] = [1, 2, 3, 4, 5]
-    
-    a
-    #=> 1
-    b
-    #=> 2
-    c
-    #=> 3
-    rest
-    #=> [4, 5]
+
+```erlang
+[a, b, c | rest] = [1, 2, 3, 4, 5]
+
+a
+#=> 1
+b
+#=> 2
+c
+#=> 3
+rest
+#=> [4, 5]
+```
 
 El emparejamiento anterior se puede ver así:
 
@@ -40,8 +43,9 @@ El emparejamiento anterior se puede ver así:
 - el 3ero a la variable c
 - lo sobrante, átalo a la variable rest
 
-
 ## Ejercicios con pruebas y código
+
+```erlang
     describe "is_empty?/1" do
       test "match an empty list" do
         assert true == Lists.is_empty?([])
@@ -140,4 +144,5 @@ El emparejamiento anterior se puede ver así:
     end
     
     def sum_first_2(list), do: list
+```
 
