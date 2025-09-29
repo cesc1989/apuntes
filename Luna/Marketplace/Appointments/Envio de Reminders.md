@@ -83,4 +83,13 @@ Estas son las funciones que se invocan y las que esas invocan a su vez:
 			- `get_patient_care_plan_email_events`
 		- `lock_care_plan_and_send_patient_communication`
 
-Es en `get_patient_care_plan_email_events` donde se recopila los ids y datos para hacer la petición a Edge.
+Es en `get_patient_care_plan_email_events` donde se recopila los datos necesarios para hacer la petición a Edge. Este es el meollo del asunto.
+
+### Communication Tasks
+
+Antes de llegar aquí, en `app/marketplace/communications/tasks.py` es donde está la función invocada por el trabajo de cada 15 minutos. Las funciones se ejecutan así:
+
+- `process_communications`
+	- `_process_communications`
+
+Es en esta última donde se invoca a `jobs.process_communications_for_patients` (la función de arriba) e inicia todo el proceso.
