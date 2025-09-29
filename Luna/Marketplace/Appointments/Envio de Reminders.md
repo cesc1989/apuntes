@@ -82,6 +82,7 @@ Estas son las funciones que se invocan y las que esas invocan a su vez:
 		- `get_email_events`
 			- `get_patient_care_plan_email_events`
 		- `lock_care_plan_and_send_patient_communication`
+			- `send_patient_communication`
 
 Es en `get_patient_care_plan_email_events` donde se recopila los datos necesarios para hacer la petición a Edge. Este es el meollo del asunto.
 
