@@ -15,7 +15,7 @@ Este controlador recibe los parámetros y encola el Mailer. Desde el mailer es q
 El mailer es `PatientMailer`. El método en uso es `appointment_reminder`.
 
 > [!Tip]
-> Este mailer tiene su clase de preview en `PatientMailerPreview`.
+> Este mailer tiene su clase de preview en `PatientMailerPreview`.i
 
 Aquí el mailer usa los parámetros para decidir que plantilla usar de esta forma:
 
@@ -25,3 +25,11 @@ Aquí el mailer usa los parámetros para decidir que plantilla usar de esta form
 
 Estos son los textos de cada plantilla.
 
+Con Intake Form link:
+![[02.intake.reminder.png]]
+
+Con Progress Form link:
+![[03.progress.reminder.png]]
+
+Default sin link:
+![[01.appointment.reminder.png]]
