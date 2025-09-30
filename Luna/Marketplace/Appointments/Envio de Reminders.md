@@ -94,3 +94,33 @@ Antes de llegar aquí, en `app/marketplace/communications/tasks.py` es donde est
 	- `_process_communications`
 
 Es en esta última donde se invoca a `jobs.process_communications_for_patients` (la función de arriba) e inicia todo el proceso.
+
+### Diagrama de Secuencia entre tasks y jobs
+
+Para generar con MermaidJS
+
+```
+sequenceDiagram
+    participant process_communications as tasks.process_communications
+    participant _process_communications_tasks as tasks._process_communications
+    participant process_communications_for_patients as jobs.process_communications_for_patients
+    participant _process_communications_jobs as jobs._process_communications
+    participant get_email_events as jobs.get_email_events
+    participant get_patient_care_plan_email_events as jobs.get_patient_care_plan_email_events
+    participant lock_care_plan_and_send_patient_communication as jobs.lock_care_plan_and_send_patient_communication
+    participant send_patient_communication as jobs.send_patient_communication
+
+    process_communications->>_process_communications_tasks: call
+    _process_communications_tasks->>process_communications_for_patients: call
+    process_communications_for_patients->>_process_communications_jobs: call
+    _process_communications_jobs->>get_email_events: call
+    get_email_events->>get_patient_care_plan_email_events: call
+    get_patient_care_plan_email_events-->>_process_communications_jobs: return events
+    note right of get_patient_care_plan_email_events: Los eventos recolectados<br/>se usan como input en la siguiente llamada
+    _process_communications_jobs->>lock_care_plan_and_send_patient_communication: call (using events)
+    lock_care_plan_and_send_patient_communication->>send_patient_communication: call
+```
+
+Generado:
+
+![[appointment.reminder.data.collection.and.request.png]]
