@@ -95,7 +95,14 @@ Generated auction app
 The database for Auction.Repo has already been created
 ```
 
-# Migraciones
+## Crear la BD
+
+Para crear la bd se usa el comando:
+```bash
+mix ecto.migrate
+```
+
+# Ecto Migraciones
 
 Listar
 ```

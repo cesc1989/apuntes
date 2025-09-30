@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "151d64c084775195",
+        "id": "07fa349fd850997f",
         "type": "tabs",
         "children": [
           {
-            "id": "d3f1a86ffdd73da7",
+            "id": "c5e489c3abe47be4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Envio de Reminders de Appointments"
+              "title": "Primeros Pasos en Phoenix"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Envio de Reminders de Appointments"
+              "title": "Outline of Primeros Pasos en Phoenix"
             }
           }
         ],
@@ -165,15 +165,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3f1a86ffdd73da7",
+  "active": "c5e489c3abe47be4",
   "lastOpenFiles": [
+    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Appointments/attachments/appointment.reminder.data.collection.and.request.png",
     "Luna/Marketplace/Appointments/attachments/03.progress.reminder.png",
     "Luna/Marketplace/Appointments/attachments/02.intake.reminder.png",
     "Luna/Marketplace/Appointments/attachments/01.appointment.reminder.png",
     "Luna/Marketplace/Appointments/attachments",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
-    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Appointments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
@@ -197,7 +197,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/untitled folder",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Binarios_y_Pattern_Matching_de_Binarios.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments/ecto.elixir.library.png",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments/elixi.mfa.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
