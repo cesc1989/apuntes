@@ -71,4 +71,6 @@ def get_patient_care_plan_email_events
 					continue
 ```
 
-La clave es que si un a
+La clave es que si el Care Plan tiene active appointments que aún están en curso, omitir el recordatorio para ese appointment.
+
+Estos son los posibles estados de Appointments en Marketplace: 

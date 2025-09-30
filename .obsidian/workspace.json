@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "Envio de Reminders de Appointments"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
+                "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Envio de Reminders de Appointments"
+              "title": "Outline of 004 - Recordatorio de Appt sin link de PF"
             }
           }
         ],
@@ -180,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4fe6396b76ccb9ef",
+  "active": "b9156b8b0aedee46",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
+    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Marketplace/Appointments/attachments/appointment.reminder.data.collection.and.request.png",
