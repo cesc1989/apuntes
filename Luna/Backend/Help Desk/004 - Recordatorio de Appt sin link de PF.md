@@ -57,3 +57,18 @@ Con Claudio encontré el controlador en backend y también el origen de la lógi
 > [!Important]
 > Todo el detalle de dónde se da la lógica para enviar los recordatorios está detallada en [[Envio de Reminders de Appointments]]
 
+Claudio sugirió hacer esta modificación a la función que recoge los datos de los appointments sobre los cuales enviar recordatorios:
+```python
+def get_patient_care_plan_email_events
+			# check for ongoing appointments that might create progress forms
+			ongoing_appointments = [
+					a for a in active_appointments
+					if (a.status == AppointmentStatus.THERAPIST_STARTED or
+							(a.scheduled_time < now < a.scheduled_time.add(minutes=a.duration_minutes + 30)))
+			]
+
+			if ongoing_appointments:
+					continue
+```
+
+La clave es que si un a

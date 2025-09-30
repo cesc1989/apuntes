@@ -2,6 +2,9 @@
 
 La lógica para enviar estos recordatorios está definida en Marketplace _pero_ el envío del correo/sms pasa en backend.
 
+> [!Important]
+> El envío de reminders se da por Care Plan de cada paciente. Así lo refleja la función en Marketplace `get_patient_care_plan_email_events`. La función busca los appointments activos del care plan y ahí da inicio a todo.
+
 ## Definiciones
 
 ### Controlador - en Backend
