@@ -35,6 +35,8 @@ apps
 
 `mix phx.routes` para listar las rutas.
 
+`mix hex.info phoenix` para mostrar la versión de una librería.
+
 # Ecto
 
 Todo lo que hace Ecto
