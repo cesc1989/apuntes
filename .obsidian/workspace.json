@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4fe6396b76ccb9ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Envio de Reminders de Appointments"
-            }
-          },
-          {
             "id": "00c487fed0f299e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "004 - Recordatorio de Appt sin link de PF"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 004 - Recordatorio de Appt sin link de PF"
             }
           },
           {
@@ -127,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 004 - Recordatorio de Appt sin link de PF"
             }
           },
           {
@@ -150,7 +137,7 @@
             }
           },
           {
-            "id": "f8c38983b9043c30",
+            "id": "0e54cb74656d51e7",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -183,8 +170,8 @@
   "active": "00c487fed0f299e8",
   "lastOpenFiles": [
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
-    "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
+    "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Marketplace/Appointments/attachments/appointment.reminder.data.collection.and.request.png",

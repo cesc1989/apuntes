@@ -31,7 +31,8 @@ Luego Jordan comenta:
 Resumén de Claudio:
 > This is a race condition bug where the 48-hour email reminder job runs before the appointment is completed and the progress form is created, resulting in patients not receiving the form link email.
 
-## Cronología vista desde HubSpot
+
+## Cronología vista desde HubSpot 🗓️
 
 Accedí al HS Contact del paciente y pude evidenciar las notas de los diferentes emails enviados. En dicha cronología pude ver varios emails que llegaron:
 
@@ -50,7 +51,7 @@ Accedí al HS Contact del paciente y pude evidenciar las notas de los diferentes
 - Luna Treatment Completed
 	- Incluía link a Progress Form
 
-# Solución - Primer Intento
+# Solución - Primer Intento 🟡
 
 Con Claudio encontré el controlador en backend y también el origen de la lógica en Marketplace. Inicialmente sugirió una solución en backend pero eso funcionaría. La solución real se debe aplicar en Marketplace.
 
