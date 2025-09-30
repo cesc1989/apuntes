@@ -4,13 +4,13 @@ La lógica para enviar estos recordatorios está definida en Marketplace _pero_ 
 
 ## Definiciones
 
-### Controlador
+### Controlador - en Backend
 
 El controlador en backend que hospeda el código es `Api::V1::Internal::PatientCommunicationsController`. Ahí se encuentra la función `send_appointment_reminder`.
 
 Este controlador recibe los parámetros y encola el Mailer. Desde el mailer es que se define que plantilla de correo usar.
 
-### Mailer
+### Mailer - en Backend
 
 El mailer es `PatientMailer`. El método en uso es `appointment_reminder`.
 
