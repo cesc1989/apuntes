@@ -109,7 +109,10 @@ mix ecto.migrate
 Listar
 ```
  mix ecto.migrations
+```
 
+Salida ejemplo:
+```
 Repo: Auction.Repo
 
   Status    Migration ID    Migration Name
@@ -119,8 +122,11 @@ Repo: Auction.Repo
 
 Correr migraciones
 ```
-$ mix ecto.migrate
+mix ecto.migrate
+```
 
+Salida de ejemplo:
+```
 14:57:37.987 [info] == Running 20240824195538 Auction.Repo.Migrations.CreateItems.change/0 forward
 
 14:57:37.989 [info] create table items
