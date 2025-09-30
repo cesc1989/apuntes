@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
-                "mode": "preview",
+                "file": "Luna/Marketplace/Appointments/Appointment Statuses.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "004 - Recordatorio de Appt sin link de PF"
+              "title": "Appointment Statuses"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
+                "file": "Luna/Marketplace/Appointments/Appointment Statuses.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 004 - Recordatorio de Appt sin link de PF"
+              "title": "Outline of Appointment Statuses"
             }
           }
         ],
@@ -181,8 +181,9 @@
   },
   "active": "b9156b8b0aedee46",
   "lastOpenFiles": [
-    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
+    "Luna/Marketplace/Appointments/Appointment Statuses.md",
+    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Marketplace/Appointments/attachments/appointment.reminder.data.collection.and.request.png",
@@ -221,7 +222,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Luna/Backend/Athena Exports Notes/Configuracion de Crawlers y Classifiers.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
