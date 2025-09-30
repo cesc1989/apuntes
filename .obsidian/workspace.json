@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Appointments/Appointment Statuses.md",
+                "file": "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Appointment Statuses"
+              "title": "Appointment Statuses en Marketplace"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Appointments/Appointment Statuses.md",
+                "file": "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Appointment Statuses"
+              "title": "Outline of Appointment Statuses en Marketplace"
             }
           }
         ],
@@ -182,7 +182,7 @@
   "active": "b9156b8b0aedee46",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
-    "Luna/Marketplace/Appointments/Appointment Statuses.md",
+    "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
