@@ -1,6 +1,8 @@
-# 004 - Paciente Recibió Progress Form Email sin el Link
+# 004 - Paciente Recibió Recordatorio de Appt sin el enlace al Progress Form
 
 Etiquetas: #luna_help_desk 
+
+Caso EDG-2565.
 
 Reporte:
 > (...) form was noted as sent but no email was pushed out to patient with (...) form link.
@@ -29,3 +31,23 @@ Luego Jordan comenta:
 
 Resumén de Claudio:
 > This is a race condition bug where the 48-hour email reminder job runs before the appointment is completed and the progress form is created, resulting in patients not receiving the form link email.
+
+
+## Cronología vista desde HubSpot
+
+Accedí al HS Contact del paciente y pude evidenciar las notas de los diferentes emails enviados. En dicha cronología pude ver varios emails que llegaron:
+
+- CCW
+- Luna Visit added
+- Luna Visit Coming Up
+	- Con enlace al Intake Form
+- Luna Visit Reminder
+	- Sin enlace al progress. Plantilla base
+	- Esta versión se dio en 10 ocasiones
+		- Iniciando el 28 de Julio
+		- Concluyendo el 3 de Septiembre
+	- Solo una ocasión incluía el link al Progress Form
+- Resending PF Link
+	- Este es un mailer que reenvía el enlace
+- Luna Treatment Completed
+	- Incluía link a Progress Form
