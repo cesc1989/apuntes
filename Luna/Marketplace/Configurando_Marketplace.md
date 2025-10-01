@@ -393,3 +393,13 @@ Successfully installed pillow-heif-1.1.1
 
 Pero eso tampoco sirvió al final.
 
+## Solución de instalación de pillow-heif
+
+Según chatgpt, ya la librería está instalada. El problema es que `pip install --dev` está tratando de crear una nueva "wheel" desde cero y ahí es donde falla. Eso lo pude comprobar con todo esto.
+
+Importar directo desde Flask
+```
+python -c "import pillow_heif; print(pillow_heif.__version__)"
+```
+
+Ese comando devolvió `1.1.1`. Lo que indica que sí está instalado.

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4c8611daf6946916",
+        "id": "1e995087a2300f21",
         "type": "tabs",
         "children": [
           {
-            "id": "cd94850d70a80246",
+            "id": "2faf5a3ac6ab744e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Marketplace/Configurando_Marketplace.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -167,8 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd94850d70a80246",
+  "active": "2faf5a3ac6ab744e",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
     "Luna/Backend/Comandos Edge.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
@@ -205,11 +207,9 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments/ecto.elixir.library.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
     "DevAsPros/Puntapie/Para la version 1.14.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Grimoire/Setup de Grimoire.md",
     "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
