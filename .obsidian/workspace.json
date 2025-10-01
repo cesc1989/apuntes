@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "735cc43592a5806b",
+        "id": "9610b6450ab0ec0d",
         "type": "tabs",
         "children": [
           {
-            "id": "bb43ce7ee4387319",
+            "id": "c157090344396a0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "004 - Recordatorio de Appt sin link de PF"
-            }
-          },
-          {
-            "id": "744c8ad52bf342c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Configurando_Marketplace"
+              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Configurando_Marketplace"
+              "title": "Backlinks for 003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Configurando_Marketplace"
+              "title": "Outgoing links from 003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           },
           {
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando_Marketplace"
+              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           }
         ],
@@ -182,12 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "744c8ad52bf342c8",
+  "active": "c157090344396a0d",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Comandos Edge.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
