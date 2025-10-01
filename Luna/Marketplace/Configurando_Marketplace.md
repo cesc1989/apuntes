@@ -130,7 +130,7 @@ Launching subshell in virtual environment...
 
 Luego de ejecutar `pipenv install` para instalar los paquetes del Pipfile, dice esto:
 ```bash
-pipenv install --dev --skip-lock
+pipenv install --dev
 ```
 
 Salida de ejemplo:
@@ -358,20 +358,38 @@ Actualmente no se necesita correr migraciones. Hay es que configurar una base de
 
 Si por alguna razón empiezo a tener problemas de Timeout aunque las credenciales estén bien, hay que ejecutar este comando del Luna CLI
 
-    luna rds whitelist-ip-for-dev-db --profile alpha
+```
+luna rds whitelist-ip-for-dev-db --profile alpha
+```
 
-## ¿Se puede usar un dump para cargar en local?
+# Error al instalar pillow-heif
 
-Veo el comando:
+Esta librería [pillow-heif](https://pillow-heif.readthedocs.io/en/latest/installation.html) me da este error al hacer `pipenv install --dev`:
+```
+  error: subprocess-exited-with-error
 
-    luna rds create-snapshot
+  × Building wheel for pillow-heif (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [81 lines of output]
+  
+    note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pillow-heif
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (pillow-heif)
+ERROR: Couldn't install package: {}
+ Package installation failed...
+```
 
-Que dice que:
+Probé instalando por aparte:
+```
+python3 -m pip install --upgrade pillow-heif
+Collecting pillow-heif
+  Downloading pillow_heif-1.1.1-cp312-cp312-macosx_11_0_arm64.whl.metadata (9.6 kB)
+Requirement already satisfied: pillow>=11.1.0 in /Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD/lib/python3.12/site-packages (from pillow-heif) (11.3.0)
+Downloading pillow_heif-1.1.1-cp312-cp312-macosx_11_0_arm64.whl (3.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 5.9 MB/s  0:00:00
+Installing collected packages: pillow-heif
+Successfully installed pillow-heif-1.1.1
+```
 
-    Creates a snapshot of a database in RDS
+Pero eso tampoco sirvió al final.
 
-Pero no tengo acceso al bucket que se llama:
-
-    luna-alpha-workloads-database-backups
-
-Hay que preguntar a Kacey/Korey al respecto.
