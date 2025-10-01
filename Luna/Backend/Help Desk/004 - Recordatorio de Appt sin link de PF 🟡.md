@@ -75,3 +75,9 @@ def get_patient_care_plan_email_events
 La clave es que si el Care Plan tiene active appointments que aún están en curso, omitir el recordatorio para ese appointment.
 
 Estos son los posibles estados de Appointments en Marketplace: [[Appointment Statuses en Marketplace]]
+
+## Actualizaciones
+
+**1 de Octubre**
+
+Mandé los cambios a omega. Me daba un poco de temor enviar ese cambio pero creo que es seguro. No creo que en un mismo Care Plan vaya a haber varios appointments activos siendo  _ongoing_ al mismo tiempo. Además, el job corre cada 15 minutos así que siempre tiene tiempo para "corregirse" en caso tal pase algo raro (que no debería).
