@@ -126,7 +126,7 @@ Launching subshell in virtual environment...
 . /Users/francisco/.local/share/virtualenvs/marketplace-UlKaqkiD/bin/activate
 ```
 
-### Usando Pipenv
+### Usando Pipenv para instalar dependencias
 
 Luego de ejecutar `pipenv install` para instalar los paquetes del Pipfile, dice esto:
 ```bash
