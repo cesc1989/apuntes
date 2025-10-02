@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - Healthmonix MIPS SFTP"
+              "title": "006 - Update MIPS data to 2025 for Healthmonix"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
+                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 006 - Healthmonix MIPS SFTP"
+              "title": "Backlinks for 006 - Update MIPS data to 2025 for Healthmonix"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
+                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 006 - Healthmonix MIPS SFTP"
+              "title": "Outgoing links from 006 - Update MIPS data to 2025 for Healthmonix"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
+                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - Healthmonix MIPS SFTP"
+              "title": "Outline of 006 - Update MIPS data to 2025 for Healthmonix"
             }
           }
         ],
@@ -169,7 +169,7 @@
   },
   "active": "5502146109c9bb5b",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
+    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",

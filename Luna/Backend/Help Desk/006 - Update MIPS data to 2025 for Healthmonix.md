@@ -62,3 +62,13 @@ Hay un worker principal que dispara los demás. El orden que sigue es:
 - `Athena::HealthmonixCompleteDataWriterWorker`: hace el trigger de `Athena::HealthmonixYearDataWriterWorker` por cada año empezando en 2022
 	- Se configura en `periodic_jobs` con cron `CRON_DAILY_AT_2_AM`
 - `Athena::HealthmonixYearDataWriterWorker`: hace la generación y export de los datos
+
+Secuencia:
+```
+Athena::HealthmonixCompleteDataWriterWorker (runs daily at 2:00 AM PT)
+		├─> Spawns Athena::HealthmonixYearDataWriterWorker for year 2022
+		├─> Spawns Athena::HealthmonixYearDataWriterWorker for year 2023
+		├─> Spawns Athena::HealthmonixYearDataWriterWorker for year 2024
+		└─> Should spawn for year 2025 (automatic based on current year)
+```
+
