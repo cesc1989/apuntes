@@ -72,3 +72,16 @@ Athena::HealthmonixCompleteDataWriterWorker (runs daily at 2:00 AM PT)
 		└─> Should spawn for year 2025 (automatic based on current year)
 ```
 
+## Flujo de los Datos
+
+Según Claudio:
+
+For each year and state:
+1. **Query Database**: Complex SQL query filters appointments based on year, state, injury type, etc.
+2. **Merge with Forms Data**: Fetches patient assessment forms from AWS Athena
+3. **Generate CSV**: Creates CSV with patient outcomes data
+4. **Upload to S3**: Stores in `business-operations/healthmonix/{year}/{state}/{date}/data.csv`
+5. **Upload to SFTP (if enabled)**: Uses registration ID and integration key to create filename
+
+> [!Note]
+> Para alpha, en S3 hay carpetas de 2023 y 2025 pero dada la falta de registros en `settings` no hay datos relevantes.
