@@ -109,7 +109,7 @@ Ejemplos:
 
 El problema parece ser solo para el año 2025 porque no está el case para este año en su lugar.
 
-## Issue 1: Missing 2025 Registration IDs
+## Issue 1: Faltan los Registration IDs para 2025
 
 En la función `get_sftp_filename` falta cubrir el año 2025:
 ```ruby
@@ -156,3 +156,10 @@ def get_sftp_filename(year, state)
 	"#{['Quality', registration_id, integration_key, date_string].compact.join('_')}.csv"
 end
 ```
+
+### Solución: Dar soporte al año 2025 y copiar los registration IDs 🟢
+
+Los valores están en la spreadsheet que se compartió en el reporte.
+
+## Issue 2: Actualización de código MSK11 al MSK15
+
