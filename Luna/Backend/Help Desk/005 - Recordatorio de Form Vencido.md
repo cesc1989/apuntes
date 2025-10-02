@@ -22,3 +22,14 @@ Dado a los reportes recientes esto no es un one-off:
 
 La segunda sugerencia de Ryan es _mucho_ trabajo así que lo descarto por ahora.
 
+## El Problema según Claudio
+
+
+
+## Detectar el problema
+
+Claudio sugiere dos formas de confirmar el problema:
+
+1. Poner logs
+2. Comparar los datos en las tablas entre backend y Marketplace
+
