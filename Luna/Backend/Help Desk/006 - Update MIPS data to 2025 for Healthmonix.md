@@ -159,7 +159,7 @@ end
 
 ### Solución: Dar soporte al año 2025 y copiar los registration IDs 🟢
 
-Los valores están en la spreadsheet que se compartió en el reporte.
+Los valores están en la spreadsheet que se compartió en el reporte. Hay que agregar al case los nueve estados que se identifican en la 1era hoja y hacer el emparejamiento con sus respectivos registration_id e integration_key.
 
 ## Issue 2: Actualización de código MSK11 al MSK15
 
