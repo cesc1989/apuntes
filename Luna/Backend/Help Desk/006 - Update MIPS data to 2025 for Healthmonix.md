@@ -15,6 +15,9 @@ Reporte:
 
 ### `healthmonix_#{year}_integration_enabled`
 
+> [!Important]
+> Controls whether files are uploaded to SFTP.
+
 Hay registros por cada año en la tabla `settings` cuya `key` sigue el patrón `healthmonix_#{year}_integration_enabled` que almacena un booleano. Entonces tenemos:
 
 - `healthmonix_2024_integration_enabled`: true
@@ -30,6 +33,9 @@ Y la de 2025:
 
 ### `healthmonix_#{year}_states`
 
+> [!Important]
+> Which states to include.
+
 Este es un setting que guarda una lista de estados de USA en forma abreviada. Sigue el mismo patrón que `healthmonix_#{year}_integration_enabled`.
 
 - `healthmonix_2024_states`: "AZ,CA,FL,IL,TX,WA,GA,NY,CO"
@@ -44,6 +50,9 @@ Y para 2025:
 > Para alpha no existe ninguno de estos registros.
 
 ### `healthmonix_#{year}_strictly_contained`
+
+> [!Important]
+> Controls whether to include only care plans that started AND ended within the year
 
 Lo mismo que los dos anteriores. Este setting guarda un valor booleano. Veamos lo que hay:
 
@@ -98,3 +107,52 @@ Ejemplos:
 
 # Problema
 
+El problema parece ser solo para el año 2025 porque no está el case para este año en su lugar.
+
+## Issue 1: Missing 2025 Registration IDs
+
+En la función `get_sftp_filename` falta cubrir el año 2025:
+```ruby
+def get_sftp_filename(year, state)
+	registration_id, integration_key =
+		case year
+		when 2022
+			case state.postal_abbreviation
+			when "CA"
+			else
+				["UNKNOWN-2022-REGISTRATION-ID", "UNKNOWN-2022-INTEGRATION-KEY"]
+			end
+		when 2023
+			case state.postal_abbreviation
+			when "CA"
+			when "AZ"
+			when "FL"
+			when "IL"
+			when "TX"
+			when "WA"
+			else
+				["UNKNOWN-2023-REGISTRATION-ID", "UNKNOWN-2023-INTEGRATION-KEY"]
+			end
+		when 2024
+			case state.postal_abbreviation
+			when "CA"
+			when "AZ"
+			when "FL"
+			when "IL"
+			when "TX"
+			when "WA"
+			when "GA"
+			when "NY"
+			when "CO"
+			else
+				["UNKNOWN-2023-REGISTRATION-ID", "UNKNOWN-2023-INTEGRATION-KEY"]
+			end
+		else
+			["UNKNOWN-#{year}-REGISTRATION-ID", "UNKNOWN-#{year}-INTEGRATION-KEY"]
+		end
+
+	date_string = (Time.zone.today.iso8601.gsub("-", "") if year == 2023)
+
+	"#{['Quality', registration_id, integration_key, date_string].compact.join('_')}.csv"
+end
+```
