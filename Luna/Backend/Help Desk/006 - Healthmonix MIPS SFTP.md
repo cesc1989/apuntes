@@ -39,3 +39,26 @@ Este es un setting que guarda una lista de estados de USA en forma abreviada. Si
 Y para 2025:
 
 - `healthmonix_2025_states`: "AZ,CA,FL,IL,TX,WA,GA,NY,CO"
+
+> [!Note]
+> Para alpha no existe ninguno de estos registros.
+
+### `healthmonix_#{year}_strictly_contained`
+
+Lo mismo que los dos anteriores. Este setting guarda un valor booleano. Veamos lo que hay:
+
+- `healthmonix_2022_strictly_contained`: true
+- `healthmonix_2023_strictly_contained`: false
+- `healthmonix_2024_strictly_contained`: false
+- `healthmonix_2025_strictly_contained`: false
+
+> [!Note]
+> Para alpha no existe ninguno de estos registros.
+
+## Workers
+
+Hay un worker principal que dispara los demás. El orden que sigue es:
+
+- `Athena::HealthmonixCompleteDataWriterWorker`: hace el trigger de `Athena::HealthmonixYearDataWriterWorker` por cada año empezando en 2022
+	- Se configura en `periodic_jobs` con cron `CRON_DAILY_AT_2_AM`
+- `Athena::HealthmonixYearDataWriterWorker`: hace la generación y export de los datos
