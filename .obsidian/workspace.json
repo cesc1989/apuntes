@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "74d79bb1e7eeea7e",
+        "id": "46e36f1f13def861",
         "type": "tabs",
         "children": [
           {
-            "id": "2f510db25125d738",
+            "id": "aeb3b4e29a7d51f3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "001 - Mejorar Carga de Fotos de Platos"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 001 - Mejorar Carga de Fotos de Platos"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 001 - Mejorar Carga de Fotos de Platos"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 001 - Mejorar Carga de Fotos de Platos"
             }
           }
         ],
@@ -160,12 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f510db25125d738",
+  "active": "aeb3b4e29a7d51f3",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+    "DevAsPros/Super_Menú/rfcs",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Backend/Comandos Edge.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
@@ -202,12 +211,10 @@
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Grimoire/Setup de Grimoire.md",
-    "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
     "DevAsPros/Puntapie",
-    "DevAsPros/ADRs",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
