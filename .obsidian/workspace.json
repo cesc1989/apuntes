@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "54f280f3e149b87a",
+        "id": "0b0d6b383b49aaba",
         "type": "tabs",
         "children": [
           {
-            "id": "96ea8cb28f2bac58",
+            "id": "5502146109c9bb5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
-                "mode": "source",
+                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "005 - Recordatorio de Form Vencido"
+              "title": "006 - Healthmonix MIPS SFTP"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 005 - Recordatorio de Form Vencido"
+              "title": "Backlinks for 006 - Healthmonix MIPS SFTP"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 005 - Recordatorio de Form Vencido"
+              "title": "Outgoing links from 006 - Healthmonix MIPS SFTP"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+                "file": "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 005 - Recordatorio de Form Vencido"
+              "title": "Outline of 006 - Healthmonix MIPS SFTP"
             }
           }
         ],
@@ -167,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96ea8cb28f2bac58",
+  "active": "5502146109c9bb5b",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
+    "Luna/Backend/Help Desk/006 - Healthmonix MIPS SFTP.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/rfcs",
@@ -210,7 +211,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments/ecto.elixir.library.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
     "DevAsPros/Puntapie/Para la version 1.14.md",
-    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
