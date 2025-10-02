@@ -85,3 +85,16 @@ For each year and state:
 
 > [!Note]
 > Para alpha, en S3 hay carpetas de 2023 y 2025 pero dada la falta de registros en `settings` no hay datos relevantes.
+
+## Nombre del archivo en el servidor FTP
+
+Claudio dice:
+
+Format:  `Quality_{registration_id}_{integration_key}_{date_string}.csv`
+
+Ejemplos:
+- 2023: Includes date string (e.g., `Quality_17625_egAuLG7aVx_20251001.csv`)
+- 2024+: No date string (e.g., `Quality_21742_MlUGF8grFd.csv`)
+
+# Problema
+
