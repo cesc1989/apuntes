@@ -52,3 +52,13 @@ class PublicMenusController < BasePublicMenuController
   end
 end
 ```
+
+# Implementación 🚧
+
+Voy a completar cada sugerencia iniciando por las que menos trabajo llevan hasta la que más. El orden sería así:
+
+1. Cachear respuesta JSON del Controlador
+2. Cargar desde CDN
+3. Servir variantes
+
+Las variantes quedan de último porque necesito instalar una dependencia de software (imagemagick o libvips) en el PC y en el servidor. Eso le añade un poco de dificultad. Además toca incluir otra gema al proyecto, de acuerdo a los docs.
