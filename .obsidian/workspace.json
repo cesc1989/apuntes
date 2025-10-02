@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "46e36f1f13def861",
+        "id": "54f280f3e149b87a",
         "type": "tabs",
         "children": [
           {
-            "id": "aeb3b4e29a7d51f3",
+            "id": "96ea8cb28f2bac58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "001 - Mejorar Carga de Fotos de Platos"
+              "title": "005 - Recordatorio de Form Vencido"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 001 - Mejorar Carga de Fotos de Platos"
+              "title": "Backlinks for 005 - Recordatorio de Form Vencido"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 001 - Mejorar Carga de Fotos de Platos"
+              "title": "Outgoing links from 005 - Recordatorio de Form Vencido"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001 - Mejorar Carga de Fotos de Platos"
+              "title": "Outline of 005 - Recordatorio de Form Vencido"
             }
           }
         ],
@@ -167,13 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aeb3b4e29a7d51f3",
+  "active": "96ea8cb28f2bac58",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
+    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/rfcs",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Comandos Edge.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
@@ -210,7 +211,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
-    "Luna/Grimoire/Setup de Grimoire.md",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Rails Migrations",
     "Luna/Backend/Episodes",
