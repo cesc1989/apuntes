@@ -163,3 +163,38 @@ Los valores están en la spreadsheet que se compartió en el reporte. Hay que ag
 
 ## Issue 2: Actualización de código MSK11 al MSK15
 
+En el commit de la actualización de 2024 Ryan hizo este cambio:
+```ruby
+if functional_treatment.present?
+	nprs_treatment =
+		functional_treatment
+		# code
+		.gsub("MSK02", "MSK12")
+		.gsub("MSK01", "MSK11")
+		.gsub("MSK03", "MSK13")
+		.gsub("MSK04", "MSK14")
+		.gsub("MSK05", "MSK15")
+
+	result_nprs["Treatment"] = nprs_treatment
+end
+```
+
+Ahora para 2025 se pide:
+> To note, MSK11-15 changed, which was noted in the "Visit Table-Column" tab and "Mapping Logic 2025" tab.
+
+Cuando veo la hoja de cálculo en la tab "Visit Table-Column" dice
+> New Mapping table-No longer any measures with MSK11, MSK 12, MSK13, MSK 14, MSK15
+
+Y cuando reviso en "Mapping Logic 2025" encuentro que hay que actualizar a lo siguiente:
+
+| Pro Mapping      | Pro Mapping Update |
+|------------------|--------------------|
+| MSK11            | MSK06              |
+| MSK12            | MSK07              |
+| MSK13            | MSK08              |
+| MSK14            | MSK09              |
+| MSK14            | MSK09              |
+| MSK14            | MSK09              |
+| MSK15            | MSK10              |
+| MSK15            | MSK10              |
+
