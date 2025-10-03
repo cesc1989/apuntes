@@ -42,7 +42,7 @@ No me dice mucho eso por ahora.
 
 # ¿Qué es un Repo?
 
- (...) the repo (or repository) is a mapping to a data store. (...) normally the repo maps to an actual database.
+ > (...) the repo (or repository) is a mapping to a data store. (...) normally the repo maps to an actual database.
 
 The database is the component that actually stores the data; the repo is the application’s gateway to the data inside the database. Your repo will translate what you’d like from the database into “database speak” through a defined public interface.
 
