@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Libro Phoenix in Action"
+              "title": "Comandos para Pruebas en Consola"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Apuntes Libro Phoenix in Action"
+              "title": "Backlinks for Comandos para Pruebas en Consola"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Apuntes Libro Phoenix in Action"
+              "title": "Outgoing links from Comandos para Pruebas en Consola"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Libro Phoenix in Action"
+              "title": "Outline of Comandos para Pruebas en Consola"
             }
           }
         ],
@@ -169,8 +169,9 @@
   },
   "active": "c220064f23d038d4",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
@@ -209,7 +210,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Guard_Clauses.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/untitled folder",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Binarios_y_Pattern_Matching_de_Binarios.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
     "DevAsPros/Super_Menú/attachments",
     "Luna/Backend/Rails Migrations",
