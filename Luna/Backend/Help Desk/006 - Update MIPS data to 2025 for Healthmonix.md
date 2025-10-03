@@ -237,3 +237,149 @@ injury_extended
 ```
 
 Esos los dejo quietos para no alterar los demás exports.
+
+# Mapa de Ejecución General
+
+Dado al tamaño de las funciones me cuesta un poco entender cómo todas se relacionan entre sí. Le pedí a Claudio generar un diagrama de secuencia de Mermaid. También generó un esquema sencillo de cómo se relacionan las funciones de este worker.
+
+## Cadena de ejecución de las funciones
+
+```
+perform(year)
+├── get_states(year)
+└── [for each state]
+	├── write_data_to_s3(year, state)
+	│   ├── create_dataset(year, state)
+	│   │   ├── query(year, state) → DB
+	│   │   └── process_queue(queue, year)
+	│   │       ├── care_plan_completed_forms_data(ids) → Athena
+	│   │       └── merge_appointments_data_with_outcomes_data(appts, forms, year)
+	│   └── s3_object.upload_stream(CSV)
+	└── [if enabled]
+			├── read_csv_tempfile(year, state)
+			├── get_sftp_filename(year, state)
+			└── upload_to_ftp_server(filename, file)
+```
+
+## Secuencia Completa
+
+```
+sequenceDiagram
+      participant Scheduler as Sidekiq Scheduler
+      participant Worker as HealthmonixYearDataWriterWorker
+      participant Redis as RedlockService
+      participant Settings as Setting Model
+      participant DB as PostgreSQL
+      participant Athena as AWS Athena
+      participant S3 as AWS S3
+      participant SFTP as Healthmonix SFTP
+
+      Scheduler->>Worker: perform(year)
+      Worker->>Redis: lock("healthmonix_year_data_writer_lock")
+      Redis-->>Worker: lock acquired
+
+      Worker->>Settings: load_safe("healthmonix_#{year}_integration_enabled")
+      Settings-->>Worker: boolean (enabled/disabled)
+
+      Worker->>Worker: get_states(year)
+      Worker->>Settings: load_safe("healthmonix_#{year}_states")
+      Settings-->>Worker: ["CA", "AZ", "FL", ...]
+      Worker->>DB: State.includes(:regions).where(...)
+      DB-->>Worker: Array of State objects
+
+      loop For each state
+          Worker->>Worker: write_data_to_s3(year, state)
+          Worker->>Worker: create_dataset(year, state)
+          Worker->>DB: query(year, state) - Complex SQL
+          DB-->>Worker: appointment_data (raw rows)
+
+          loop Buffer appointments by care_plan_id
+              alt Buffer full (500 care plans)
+                  Worker->>Worker: process_queue(queue, year)
+                  Worker->>Worker: care_plan_completed_forms_data(care_plan_ids)
+                  Worker->>Athena: run(SELECT * FROM patient_forms_mips...)
+                  Athena-->>Worker: form summaries with scores
+
+                  loop For each care plan
+                      Worker->>Worker: merge_appointments_data_with_outcomes_data(appointments, forms, year)
+
+                      loop For each appointment
+                          Note over Worker: Create result_functional row
+                          Note over Worker: Create result_nprs row
+                          alt year >= 2025
+                              Note over Worker: Map MSK01-05 → MSK06-10
+                          else year < 2025
+                              Note over Worker: Map MSK01-05 → MSK11-15
+                          end
+                          Note over Worker: Create result_length_of_stay row
+                          Note over Worker: Match with form scores
+                      end
+
+                      Worker-->>Worker: processed appointment rows
+                  end
+
+                  Worker-->>Worker: processed_result
+              end
+          end
+
+          Worker->>S3: upload_stream(CSV data)
+          S3-->>Worker: upload complete
+
+          alt SFTP enabled for year
+              Worker->>Worker: read_csv_tempfile(year, state)
+              Worker->>S3: download CSV
+              S3-->>Worker: tempfile
+              Worker->>Worker: get_sftp_filename(year, state)
+              Note over Worker: Generate filename with<br/>registration_id + integration_key
+              Worker->>SFTP: upload!(tempfile, destination)
+              SFTP-->>Worker: upload complete
+          end
+      end
+
+      Worker-->>Scheduler: job complete
+```
+
+![[006.sequence.full.png]]
+
+## Secuencia Resumida
+
+Código del diagrama:
+```
+sequenceDiagram
+		participant Worker as HealthmonixYearDataWriterWorker
+		participant DB as PostgreSQL
+		participant Athena as AWS Athena
+		participant S3 as AWS S3
+		participant SFTP as SFTP Server
+
+		Worker->>Worker: perform(year)
+		Worker->>Worker: get_states(year)
+
+		loop For each state
+				Worker->>Worker: write_data_to_s3(year, state)
+				Worker->>Worker: create_dataset(year, state)
+				Worker->>DB: query(year, state)
+				DB-->>Worker: appointment_data
+
+				loop Process batches of 500
+						Worker->>Worker: process_queue(queue, year)
+						Worker->>Worker: care_plan_completed_forms_data(ids)
+						Worker->>Athena: run(SELECT FROM patient_forms_mips)
+						Athena-->>Worker: form_data
+
+						Worker->>Worker: merge_appointments_data_with_outcomes_data(appts, forms, year)
+						Note over Worker: Apply year-conditional<br/>MSK mapping
+						Worker-->>Worker: processed_rows
+				end
+
+				Worker->>S3: upload_stream(CSV)
+
+				opt SFTP enabled
+						Worker->>Worker: read_csv_tempfile(year, state)
+						Worker->>Worker: get_sftp_filename(year, state)
+						Worker->>SFTP: upload!(file)
+				end
+		end
+```
+
+![[006.sequence.concise.png]]
