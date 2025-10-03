@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c72b3ab840fe1eba",
+        "id": "186d10922d6c651c",
         "type": "tabs",
         "children": [
           {
-            "id": "72a94b14398352d5",
+            "id": "c220064f23d038d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - Update MIPS data to 2025 for Healthmonix"
+              "title": "Apuntes Libro Phoenix in Action"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 006 - Update MIPS data to 2025 for Healthmonix"
+              "title": "Backlinks for Apuntes Libro Phoenix in Action"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 006 - Update MIPS data to 2025 for Healthmonix"
+              "title": "Outgoing links from Apuntes Libro Phoenix in Action"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - Update MIPS data to 2025 for Healthmonix"
+              "title": "Outline of Apuntes Libro Phoenix in Action"
             }
           }
         ],
@@ -167,16 +167,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72a94b14398352d5",
+  "active": "c220064f23d038d4",
   "lastOpenFiles": [
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
+    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Help Desk/attachments/006.sequence.concise.png",
     "Luna/Backend/Help Desk/attachments/007.sequence.concise.png",
     "Luna/Backend/Help Desk/attachments/006.sequence.full.png",
     "Luna/Backend/Help Desk/attachments/sequence.full.png",
     "Luna/Backend/Help Desk/attachments/sequence.concise.png",
-    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
@@ -186,15 +190,12 @@
     "Luna/Backend/Comandos Edge.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes.md",
     "Luna/Marketplace/Appointments/attachments/appointment.reminder.data.collection.and.request.png",
     "Luna/Marketplace/Appointments/attachments/03.progress.reminder.png",
     "Luna/Marketplace/Appointments/attachments/02.intake.reminder.png",
     "Luna/Marketplace/Appointments/attachments/01.appointment.reminder.png",
     "Luna/Marketplace/Appointments/attachments",
     "Luna/Marketplace/Appointments",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Enumerables_y_Funciones_Anónimas_-_[Resistor_C.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
