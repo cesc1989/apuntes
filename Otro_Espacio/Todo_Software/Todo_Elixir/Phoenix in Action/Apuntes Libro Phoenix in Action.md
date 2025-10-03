@@ -133,3 +133,34 @@ Enlaces:
 
 - [Why would you ever use an umbrella app instead of just a regular app?](https://www.reddit.com/r/elixir/comments/sjxyis/why_would_you_ever_use_an_umbrella_app_instead_of/)
 - [Using an Elixir Umbrella](https://8thlight.com/insights/using-an-elixir-umbrella)
+
+# Sigil `~p` en `redirect` en acciones de controlador
+
+La acción `create` en el curso me tocó actualizar a hacer el redirect de esta forma. La cual es la forma moderna:
+```erlang
+{:ok, user} -> redirect(conn, to: ~p"/users/#{user}")
+```
+
+¿Qué hace `~p"/users/#{user}"`?
+
+Los [docs](https://hexdocs.pm/phoenix/Phoenix.VerifiedRoutes.html#sigil_p/2) nos dicen que la función se llama `sigil_p/2`:
+```
+Generates the router path with route verification.
+
+Interpolated named parameters are encoded via the [`Phoenix.Param`](https://hexdocs.pm/phoenix/Phoenix.Param.html) protocol.
+```
+
+Otro ejemplo en la vista edit de Item:
+```erlang
+<.link href={~p"/items/#{@item.data}"}> Back to item</.link>
+```
+
+## ¿Por qué usar el sigil `~p` en las rutas?
+
+Pregunté a Claudio y dijo:
+
+> 1. Verificación en tiempo de compilación - Si la ruta no existe, obtienes un error al compilar, no en runtime
+> 2. Type safety - Verifica que los parámetros coincidan con lo definido en el router
+> 3. Más simple - No necesitas recordar el nombre de la función helper (user_path, users_path, etc.)
+
+Lo cual tiene bastante sentido para mí. Sobretodo la parte de tiempo de compilación.
