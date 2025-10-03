@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b0d6b383b49aaba",
+        "id": "c72b3ab840fe1eba",
         "type": "tabs",
         "children": [
           {
-            "id": "5502146109c9bb5b",
+            "id": "72a94b14398352d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,14 +167,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5502146109c9bb5b",
+  "active": "72a94b14398352d5",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
+    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
     "Luna/Backend/Help Desk/attachments/006.sequence.concise.png",
     "Luna/Backend/Help Desk/attachments/007.sequence.concise.png",
     "Luna/Backend/Help Desk/attachments/006.sequence.full.png",
     "Luna/Backend/Help Desk/attachments/sequence.full.png",
     "Luna/Backend/Help Desk/attachments/sequence.concise.png",
-    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
@@ -192,7 +193,6 @@
     "Luna/Marketplace/Appointments/attachments/02.intake.reminder.png",
     "Luna/Marketplace/Appointments/attachments/01.appointment.reminder.png",
     "Luna/Marketplace/Appointments/attachments",
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Marketplace/Appointments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Enumerables_y_Funciones_Anónimas_-_[Resistor_C.md",
@@ -201,7 +201,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Structs_&_Pattern_Matching_Structs.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Tuplas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments/if.antipattern.png",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments/s_8AA3E333FE3BC3AE32B86829354112CBD565D8E0EF6BD7AD415368F806E91DD6_1605384978589_image.png",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Pattern_Matching.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Listas_&_Pattern_Matching_de_Listas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Mapas_&_Pattern_Matching_de_Mapas.md",

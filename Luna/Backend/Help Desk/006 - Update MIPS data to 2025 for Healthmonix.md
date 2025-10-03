@@ -208,35 +208,35 @@ El fix que Claudio sugirió fue dar soporte a estos nuevos códigos solo para 20
 
 > [!Important]
 > En el fix el `gsub` se hace en base al código MSK01-05. Esto es porque son los códigos que devuelve la función `query`. Haciendo el `gsub` es la forma en que se hace la modificación sin alterar el resultado de la consulta.
-
-La `query` tiene esta parte desde donde se origina los códigos MSK:
-```sql
-injury_extended
-	AS (
-		SELECT id
-			,UPPER(body_part_type) AS body_part
-			,(
-				CASE
-					-- otros statements
-					WHEN inj.body_part_type = 'shoulder_arm' AND #{year} >= 2024
-						THEN 'MSK02'
-					WHEN inj.body_part_type = 'neck' AND #{year} >= 2024
-						THEN 'MSK01'
-					WHEN inj.body_part_type = 'lower_back' AND #{year} >= 2024
-						THEN 'MSK03'
-					WHEN inj.body_part_type = 'hip' AND #{year} >= 2024
-						THEN 'MSK04'
-					WHEN inj.body_part_type = 'hip_joint_replacement' AND #{year} >= 2024
-						THEN 'MSK04'
-					WHEN inj.body_part_type = 'foot_and_ankle' AND #{year} >= 2024
-						THEN 'MSK04'
-					WHEN inj.body_part_type = 'knee' AND #{year} >= 2024
-						THEN 'MSK05'
-					WHEN inj.body_part_type = 'knee_joint_replacement' AND #{year} >= 2024
-						THEN 'MSK05'
-```
-
-Esos los dejo quietos para no alterar los demás exports.
+>
+> La `query` tiene esta parte desde donde se origina los códigos MSK:
+> ```sql
+> injury_extended
+>	AS (
+>		SELECT id
+>			,UPPER(body_part_type) AS body_part
+>			,(
+>				CASE
+>					-- otros statements
+>					WHEN inj.body_part_type = 'shoulder_arm' AND #{year} >= 2024
+>						THEN 'MSK02'
+>					WHEN inj.body_part_type = 'neck' AND #{year} >= 2024
+>						THEN 'MSK01'
+>					WHEN inj.body_part_type = 'lower_back' AND #{year} >= 2024
+>						THEN 'MSK03'
+>					WHEN inj.body_part_type = 'hip' AND #{year} >= 2024
+>						THEN 'MSK04'
+>					WHEN inj.body_part_type = 'hip_joint_replacement' AND #{year} >= 2024
+>						THEN 'MSK04'
+>					WHEN inj.body_part_type = 'foot_and_ankle' AND #{year} >= 2024
+>						THEN 'MSK04'
+>					WHEN inj.body_part_type = 'knee' AND #{year} >= 2024
+>						THEN 'MSK05'
+>					WHEN inj.body_part_type = 'knee_joint_replacement' AND #{year} >= 2024
+>						THEN 'MSK05'
+>```
+>
+> Esos los dejo quietos para no alterar los demás exports.
 
 # Mapa de Ejecución General
 
