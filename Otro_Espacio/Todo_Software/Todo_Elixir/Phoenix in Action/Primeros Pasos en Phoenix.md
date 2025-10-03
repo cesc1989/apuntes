@@ -151,7 +151,7 @@ mix ecto.rollback --step 1
 
 # Ecto Changesets
 
-Al parecer, en Ecto, actualizar no es tan simple como en Active Record. Para poder actualizar un registro en la base de datos hay que pasarle un `Ecto.Changeset` a `Ecto.Repo.update/2`.
+En Ecto actualizar no es tan simple como en Active Record. Para poder actualizar un registro en la base de datos hay que pasarle un `Ecto.Changeset` a `Ecto.Repo.update/2`.
 
 Un `Ecto.Changeset` permite llevar cuenta de los cambios en un struct y además:
 
