@@ -39,14 +39,47 @@ item
 
 Para probar el módulo User.
 
+`changeset/2` no tiene en cuenta `password`:
 ```erlang
 Auction.User.changeset(
   %Auction.User{},
   %{username: "geo", email_address: "marikiti@gmail.com", password: "polvorete"}
 )
+```
 
+Por lo que devuelve:
+```erlang
+#Ecto.Changeset<
+  action: nil,
+  changes: %{username: "geo", email_address: "marikiti@gmail.com"},
+  errors: [hashed_password: {"can't be blank", [validation: :required]}],
+  data: #Auction.User<>,
+  valid?: false,
+  ...
+>
+```
+
+Mientras que `changeset_with_password` sí lo hace:
+```erlang
 Auction.User.changeset_with_password(
   %Auction.User{},
   %{username: "geo", email_address: "marikiti@gmail.com", password: "polvorete", password_confirmation: "polvorete"}
 )
+```
+
+Así que la cosa cambia y ahora sí se podría guardar en la BD.
+```erlang
+#Ecto.Changeset<
+  action: nil,
+  changes: %{
+    username: "geo",
+    password: "polvorete",
+    email_address: "marikiti@gmail.com",
+    hashed_password: "$pbkdf2-sha512$160000$R3yCJ.XX9l5LUYLwARGk3g$eoL06Aipybzd8Fwhw3XSP7WeM6edEF1Ke1SfU5hxddL6CAEXv5A.S2cvtEuXI4DhLMmdbjllfbJ8EtjDK5l9XA"
+  },
+  errors: [],
+  data: #Auction.User<>,
+  valid?: true,
+  ...
+>
 ```
