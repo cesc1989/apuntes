@@ -164,3 +164,142 @@ Pregunté a Claudio y dijo:
 > 3. Más simple - No necesitas recordar el nombre de la función helper (user_path, users_path, etc.)
 
 Lo cual tiene bastante sentido para mí. Sobretodo la parte de tiempo de compilación.
+
+# Vistas, Templates y Componentes
+
+En un capítulo cree la vista `apps/auction_web/lib/auction_web/controllers/page_html.ex` también cree la carpeta `page_html` al mismo nivel junto con el template `apps/auction_web/lib/auction_web/controllers/page_html/home.html.heex`.
+
+De todo esto me salen varias dudas.
+
+## Módulo AuctionWeb.PageHTML (view)
+
+El nombre del módulo es `AuctionWeb.PageHTML`. Esto es una view. Los [docs](https://hexdocs.pm/phoenix/request_lifecycle.html#a-new-controller) dicen:
+
+> The modules responsible for rendering are called views. (...) Phoenix views are named after the controller and format (`HTML` in this case), so Phoenix is expecting a `HelloWeb.HelloHTML` module to exist (...)
+
+Es por eso que que en mi caso la vista se llama `PageHTML`:
+
+- Lleva el nombre del controlador `AuctionWeb.PageController`
+- Y el formato que en este caso es `HTML`
+	- Va en mayúsculas al parecer
+
+## Templates
+
+> [!Tip]
+> Estos son los que en Rails llamamos vistas.
+
+La vista/view es el módulo que se encargar de renderizar un template. El template es donde se pone el código HTML mezclado con Elixir. Veamos ambos a continuación.
+
+**View - PageHTML**
+
+```erlang
+defmodule AuctionWeb.PageHTML do
+  @moduledoc """
+  This module contains pages rendered by PageController.
+
+  See the `page_html` directory for all templates available.
+  """
+  use AuctionWeb, :html
+
+  embed_templates "page_html/*"
+end
+```
+
+**Template - home.html.heex**
+
+```ruby
+<.flash_group flash={@flash} />
+
+<ul>
+  <%= for item <- @items do %>
+    <li>
+      <strong>
+        <%= item.title %>:
+      </strong>
+
+      <%= item.description %>
+    </li>
+  <% end %>
+</ul>
+```
+
+En la view definimos qué templates renderizar con la función `embed_templates "page_html/*"`.
+
+En el template ya vemos la mezcla de funciones (helpers) de Elixir y código HTML.
+
+## Componentes
+
+Cuando se generó el proyecto Phoenix con `mix phx.new.web auction_web --no-ecto` también se creó el archivo `apps/auction_web/lib/auction_web/components/core_components.ex`. Ahí encuentro varias cosas que he estado usando en el proyecto como:
+
+- `flash_group`
+	- En el template `home.html.heex` se usa `<.flash_group flash={@flash} />`.
+- `simple_form`
+	- En la vista `AuctionWeb.ItemHTML` se define una función que usa el componente `simple_form` para el formulario de crear/actualizar Item
+- `button`
+	- A su vez, el formulario de Item usa `button` para el botón submit del formulario.
+
+El módulo `AuctionWeb.CoreComponents` define muchos componentes que tienen que ver con cosas de forms como `input`, `flash`, `label`. La ventaja de estos componentes es que sirven tal cual y componentes de la UI. Es que son eso. Son componentes para reusar en la UI de todo el proyecto.
+
+Este es el código generado para el componente `button`.
+```erlang
+  @doc """
+  Renders a button.
+
+  ## Examples
+
+      <.button>Send!</.button>
+      <.button phx-click="go" class="ml-2">Send!</.button>
+  """
+  attr :type, :string, default: nil
+  attr :class, :string, default: nil
+  attr :rest, :global, include: ~w(disabled form name value)
+
+  slot :inner_block, required: true
+
+  def button(assigns) do
+    ~H"""
+    <button
+      type={@type}
+      class={[
+        "phx-submit-loading:opacity-75 rounded-lg bg-zinc-900 hover:bg-zinc-700 py-2 px-3",
+        "text-sm font-semibold leading-6 text-white active:text-white/80",
+        @class
+      ]}
+      {@rest}
+    >
+      <%= render_slot(@inner_block) %>
+    </button>
+    """
+  end
+```
+
+Aquí encuentro otra cosa que es el sigil `~H`. Los [docs lo explican](https://hexdocs.pm/phoenix_live_view/Phoenix.Component.html#sigil_H/2).
+
+### Sigil `~H`
+
+Este es una función para escribir templates `HEEx` en código fuente. Los templates `HEEx` sirven para escribir HTML con Elixir embebido. Estos templates ofrecen:
+
+- Built-in handling of HTML attributes
+- An HTML-like notation for injecting function components
+- Compile-time validation of the structure of the template
+- The ability to minimize the amount of data sent over the wire
+- Out-of-the-box code formatting via [`mix format`](https://hexdocs.pm/mix/Mix.Tasks.Format.html)
+
+> [!Note]
+> HEEX significa "HTML + EEx".
+
+Todo esto es muy interesante y se ve cómo va un nivel más allá de las vistas de Rails. Por ejemplo, este error que me salió intentando correr el servidor de Phoenix:
+```bash
+== Compilation error in file lib/auction_web/views/user_html.ex ==
+** (Phoenix.LiveView.Tokenizer.ParseError) lib/auction_web/views/user/show.html.heex:1:22: expected closing `>`
+  |
+1 | <h1>User details</h1.
+  |                      ^
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/tokenizer.ex:719: Phoenix.LiveView.Tokenizer.raise_syntax_error!/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/tag_engine.ex:295: Phoenix.LiveView.TagEngine.handle_text/3
+    (eex 1.15.4) lib/eex/compiler.ex:319: EEx.Compiler.generate_buffer/4
+    (phoenix_live_view 1.0.0-rc.6) expanding macro: Phoenix.LiveView.HTMLEngine.compile/1
+    lib/auction_web/views/user/show.html.heex: AuctionWeb.UserHTML.show/1
+```
+
+No había cerrado la etiqueta h1 correctamente y Phoenix explotó y además me indicó el error. Esto en Rails no pasaría a menos que fuera código ERB.
