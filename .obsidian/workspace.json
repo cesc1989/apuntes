@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "Apuntes Libro Phoenix in Action"
             }
-          },
-          {
-            "id": "4d0348142b447c5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Primeros Pasos en Phoenix"
-            }
           }
         ]
       }
