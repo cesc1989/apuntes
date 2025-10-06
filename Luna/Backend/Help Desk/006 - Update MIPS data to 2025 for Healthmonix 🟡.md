@@ -109,6 +109,39 @@ Ejemplos:
 - 2023: Includes date string (e.g., `Quality_17625_egAuLG7aVx_20251001.csv`)
 - 2024+: No date string (e.g., `Quality_21742_MlUGF8grFd.csv`)
 
+# Export de los datos
+
+Creí que iba a necesitar un backfill una vez liberara los cambios porque veía carpetas tipo `2025-01-23` en S3. Sin embargo, no es así. Cada vez que se genera el reporte se cargan todos los datos del año. Por lo cual no necesito hacer un backfill.
+
+La clave es que la fecha que se asigna en cada ejecución corresponde a la carpeta CUANDO se ejecuta el reporte y NO al rango de datos.
+
+Según Claudio:
+
+> Looking at line 54:
+> `date_string = (year == 2022) ? "2022-12-31" : Time.zone.today.iso8601`
+>
+> The S3 path structure is:
+> `business-operations/healthmonix/{year}/{state}/{TODAY's date}/data.csv`
+>
+> So if the worker runs on January 31st, 2025, it creates:
+> `business-operations/healthmonix/2025/CA/2025-01-31/data.csv`
+
+## Ejemplo Línea de Tiempo del Export
+
+If the worker runs daily throughout 2025:
+
+```
+business-operations/healthmonix/2025/CA/
+├── 2025-01-01/data.csv  → Contains all 2025 data as of Jan 1
+├── 2025-01-02/data.csv  → Contains all 2025 data as of Jan 2
+├── 2025-01-31/data.csv  → Contains all 2025 data as of Jan 31
+├── 2025-02-28/data.csv  → Contains all 2025 data as of Feb 28
+├── 2025-03-31/data.csv  → Contains all 2025 data as of Mar 31
+└── 2025-12-31/data.csv  → Contains all 2025 data (final snapshot)
+```
+
+Each file is a **complete export** of all 2025 MIPS data available at that point in time.
+
 # Problema
 
 El problema parece ser solo para el año 2025 porque no está el case para este año en su lugar.
