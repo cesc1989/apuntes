@@ -36,8 +36,11 @@ Para empezar la herramienta podrá ser un CLI. Sea que lo haga en Elixir/Ruby/Ba
 
 Las cosas que necesito tener en el sistema para lograr esto y/o temas que necesito aclarar antes de hacer el CLI.
 
+> [!Important]
+> Descartada cualquier idea de usar Elixir como lenguaje para el CLI. Ver [Respuesta Jose Valim](https://elixirforum.com/t/how-suitable-is-elixir-for-a-cli-application/36184/13).
+
 - yt-dlp: https://github.com/yt-dlp/yt-dlp
-	- Tentativa: librería en Elixir: https://github.com/kevinetore/youtube-dl.ex
+	- ~~Tentativa: librería en Elixir: https://github.com/kevinetore/youtube-dl.ex~~
 - Plex: Escanear vs Refrescar: https://support.plex.tv/articles/200289306-scanning-vs-refreshing-a-library/
 - PMS Server Commands: https://support.plex.tv/articles/201638786-plex-media-server-url-commands/
 - Plextopedia: Scan library: https://www.plexopedia.com/plex-media-server/general/scan-library/
