@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f3d4b2471bdc797c",
+        "id": "a5c6c2328a8a3b2e",
         "type": "tabs",
         "children": [
           {
-            "id": "48a2f4fcc38fe1a7",
+            "id": "1a987c981591923e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Coshinema/YTtoPlex.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "YTtoPlex"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Coshinema/YTtoPlex.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of YTtoPlex"
             }
           }
         ],
@@ -160,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48a2f4fcc38fe1a7",
+  "active": "1a987c981591923e",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
@@ -176,7 +182,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
-    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Help Desk/attachments/006.sequence.concise.png",

@@ -29,7 +29,7 @@ Para empezar la herramienta podrá ser un CLI. Sea que lo haga en Elixir/Ruby/Ba
 > [!Note]
 > La última vez que revisé no había forma de empaquetar un programa en Elixir como binario. En Ruby la cosa es similar.
 >
-> En todo caso no veo mal una herramienta que ejecute como `mix X` o `ruby X`. Solo será para uso en el servidor Plex.
+> En todo caso no veo mal una herramienta que ejecute como `ruby X`. Solo será para uso en el servidor Plex.
 
 
 ### Dependencias
