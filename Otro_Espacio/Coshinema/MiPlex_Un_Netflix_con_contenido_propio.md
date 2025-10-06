@@ -1,15 +1,16 @@
-# M**iPlex: Un Netflix con contenido propio**
+# MiPlex: Un Netflix con contenido propio
+
 Con un precio que parece módico, usando Cloudflare Streaming puedo tener la parte más complicada de este proyecto: almacenamiento, servidores y transmisión.
 
 Probé subir dos vídeos: uno X y una película y transmite normal la película.
 
 ## ¿Qué faltaría?
+
 - UI para acceder a la lista de películas
 - UI para ver película
     - Manejo de subs
 - Sesión de usuarios
 - Script para carga de archivos a Cloudflare Streaming
-
 
 ## ¿Y los subtítulos?
 
@@ -17,29 +18,31 @@ Bueno, todo bien cuando la película está en audio latino pero cuando necesita 
 
 [Usando la API](https://developers.cloudflare.com/stream/uploading-videos/adding-captions), se agregan los subtítulos. Hay que convertirlos de `.srt` a `.webvtt`. Herramienta [sugerida](https://subtitletools.com/convert-to-vtt-online) por Cloudflare para convertir.
 
-    curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
-         -H "Authorization: Bearer TOKEN" \
-         -H "Content-Type:application/json"
+```bash
+curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
+	 -H "Authorization: Bearer TOKEN" \
+	 -H "Content-Type:application/json"
+```
 
-Código para subir subtitulo
-
-    curl -X PUT \
+Código para subir subtitulo:
+```bash
+curl -X PUT \
       -H 'Authorization: Bearer TOKEN' \
       -F 'file=/Users/fquintero/Downloads/Wall.Street.REMASTERED.1987.1080p.BrRip.x264.YIFY.vtt' \
       https://api.cloudflare.com/client/v4/accounts/396a0a05347c10523d2e2d4fed985b4a/stream/77058720aa74f7ad82481a0496f48014/captions/es
+```
 
 Bueno, la petición no servía y en este [hilo del foro](https://community.cloudflare.com/t/decoding-error-using-the-cloudflare-stream-api-to-upload-captions/197566/13) de Cloudflare parecen no encontrar solución.
 
 Resulta que los *captions* se pueden subir desde el mismo tablero de Stream.
 
-![](https://paper-attachments.dropbox.com/s_388E7E9580F7E9BC67ADF8E62263663FEEC455D4513B34076C0388902FCF90CC_1615510152006_image.png)
-
+![[01.cloudflare.stream.subs.png]]
 
 Se escoge el idioma y aparece una caja de selección de archivo.
 
 Referencia del [API de Stream](https://api.cloudflare.com/#stream-subtitles/captions-upload-a-caption/subtitle). Sobre WebVTT ([estándar y validador](https://github.com/silviapfeiffer/webvtt)).
 
-**Marzo 11**: subí subtítulo de película Wall Streat luego de convertirlo a VTT y funciona!
+**Marzo 11**: subí subtítulo de película Wall Street luego de convertirlo a VTT y funciona!
 
 # Resumen
 
