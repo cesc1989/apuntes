@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a5c6c2328a8a3b2e",
+        "id": "c24799144775bc2a",
         "type": "tabs",
         "children": [
           {
-            "id": "1a987c981591923e",
+            "id": "3a7fe42721af6140",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Coshinema/YTtoPlex.md",
+                "file": "Luna/Glosario.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "YTtoPlex"
+              "title": "Glosario"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/YTtoPlex.md",
+                "file": "Luna/Glosario.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of YTtoPlex"
+              "title": "Outline of Glosario"
             }
           }
         ],
@@ -165,12 +165,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a987c981591923e",
+  "active": "3a7fe42721af6140",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
+    "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
-    "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
@@ -209,7 +210,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Structs_&_Pattern_Matching_Structs.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Tuplas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Pattern_Matching.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Listas_&_Pattern_Matching_de_Listas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/untitled folder",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
