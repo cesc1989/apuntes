@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c24799144775bc2a",
+        "id": "6f1596aeadec678b",
         "type": "tabs",
         "children": [
           {
-            "id": "3a7fe42721af6140",
+            "id": "8eacea14398459ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Glosario.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/007 - Modify Board Certification answer in Attestation Form.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glosario"
+              "title": "007 - Modify Board Certification answer in Attestation Form"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Backend/Help Desk/007 - Modify Board Certification answer in Attestation Form.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Glosario"
+              "title": "Outline of 007 - Modify Board Certification answer in Attestation Form"
             }
           }
         ],
@@ -165,8 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a7fe42721af6140",
+  "active": "8eacea14398459ef",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/007 - Modify Board Certification answer in Attestation Form.md",
+    "Luna/Glosario.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
@@ -208,8 +210,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_con_Funciones.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Structs_&_Pattern_Matching_Structs.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Tuplas.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/Pattern_Matching.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/untitled folder",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
