@@ -79,12 +79,15 @@ Lo cual me parece muy útil.
 
 ## Solución Backfill
 
-Estas son las rakes:
-```bash
-# Backfill task:
-bundle exec rake data:backfill_normalize_name_fields
+Estas son las rakes.
 
-# Verification task:
+Backfill task:
+```bash
+bundle exec rake data:backfill_normalize_name_fields
+```
+
+Verification task:
+```bash
 bundle exec rake data:verify_normalize_name_fields
 ```
 
