@@ -97,3 +97,6 @@ bundle exec rake data:verify_normalize_name_fields
 ```
 
 Usan queries SQL para hacer eliminar el whitespace y cambiar el case de los campos email.
+
+> [!Important]
+> La única tabla que tiene índice único en el campo `email` es `therapists`. Las otras no lo tienen así que se ven correos repetidos y con diferente casing.
