@@ -45,3 +45,18 @@ Las cosas que necesito tener en el sistema para lograr esto y/o temas que necesi
 - PMS Server Commands: https://support.plex.tv/articles/201638786-plex-media-server-url-commands/
 - Plextopedia: Scan library: https://www.plexopedia.com/plex-media-server/general/scan-library/
 
+# Desarrollo
+
+## 7 de Octubre, 2025
+
+Con ayuda de DeepSeek hice la 1era versión. Copié el script a mis [dotfiles](https://github.com/cesc1989/dotfiles/commit/43c62a0305f65d8b464da02b66728c5cf0248c47). Se ejecuta así:
+```bash
+bash ./extras/yttoplex.sh -u https://www.youtube.com/playlist?list=PLd0qxsHDZqYln-sfR7cXmdZxd2H6J7vwM \
+  -p esplada_y_core \
+  -d "$HOME/yttoplex-destino"
+```
+
+Para ver la ayuda:
+```bash
+bash ./extras/yttoplex.sh
+```
