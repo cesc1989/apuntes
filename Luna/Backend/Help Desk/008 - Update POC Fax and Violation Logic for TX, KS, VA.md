@@ -93,3 +93,38 @@ Los primeros cambios son actualizar los archivos yml de Texas, Virgina y Kansas.
 Para esta petición no hay necesidad de modificar `PlansOfCare::DirectAccess::MessageCalculator` ya que soporta los valores de las actualizaciones.
 
 Sin embargo, `PlansOfCare::DirectAccess::ViolationCalculator` sí necesita actualización para soportar _business days_.
+
+## Verificación de Actualización de los Fax Rules
+
+Con estos comandos en la rails console se puede verificar:
+```ruby
+# Check TX configuration
+tx = State.tx
+tx.plan_of_care_rules_config["direct_access"]["fax_rules"]["trigger"]["days"]
+# Should return 15
+
+tx.plan_of_care_rules_config["direct_access"]["violation_rules"]["pending"]["days_elapsed"]
+# Should return 20
+
+tx.plan_of_care_rules_config["direct_access"]["violation_rules"]["violation"]["days_elapsed"]
+# Should return 30
+
+# Check KS configuration
+ks = State.ks
+ks.plan_of_care_rules_config["direct_access"]["violation_rules"]["violation"]["days_elapsed"]
+# Should return 15
+
+ks.plan_of_care_rules_config["direct_access"]["violation_rules"]["violation"]["visits_elapsed"]
+# Should return 10
+
+ks.plan_of_care_rules_config["direct_access"]["violation_rules"]["violation"]["day_type"]
+# Should return "business"
+
+# Check VA configuration
+va = State.va
+va.plan_of_care_rules_config["direct_access"]["fax_rules"]["trigger"]["strategy"]
+# Should return "chart_signature"
+
+va.plan_of_care_rules_config["direct_access"]["violation_rules"]
+# Should be nil or absent
+```
