@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "adfff7f296bf5f35",
+        "id": "f0de4d38502d53a0",
         "type": "tabs",
         "children": [
           {
-            "id": "cc09f7e48aa717ba",
+            "id": "d09f7a0b9a6b0410",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glosario"
+              "title": "008 - Update POC Fax and Violation Logic for TX, KS, VA"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Glosario.md",
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Glosario"
+              "title": "Outline of 008 - Update POC Fax and Violation Logic for TX, KS, VA"
             }
           }
         ],
@@ -165,14 +165,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc09f7e48aa717ba",
+  "active": "d09f7a0b9a6b0410",
   "lastOpenFiles": [
+    "Luna/Glosario.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
-    "Luna/Glosario.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",

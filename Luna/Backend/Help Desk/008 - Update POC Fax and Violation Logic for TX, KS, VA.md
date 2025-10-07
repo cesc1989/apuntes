@@ -50,6 +50,9 @@ stripe_accounts: []
 
 Hay una clase seeder que se encarga de leer todos estos archivos y prepara todo para actualizar los registros de la tabla. El seeder está en `app/seeders/state_seeder.rb`.
 
+> [!Note]
+> La rake para correr estos seeds es `bundle exec rails db:seed`
+
 ## ¿Qué son Fax Rules y Violation Rules
 
 Según Claudio:
