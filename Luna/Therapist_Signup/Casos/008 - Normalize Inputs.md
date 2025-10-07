@@ -14,6 +14,7 @@ No todos los campos necesitan ser normalizados. Voy a empezar con los que la gen
 
 - first_name
 - last_name
+- email
 - middle_name
 - maiden_name
 - entity_name (company name)
