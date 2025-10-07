@@ -134,9 +134,6 @@ va.plan_of_care_rules_config["direct_access"]["violation_rules"]
 Las pruebas a correr para verificar en local:
 ```bash
 bundle exec rspec spec/services/plans_of_care/direct_access/ --fail-fast 2>/dev/null
-```
 
-```bash
 bundle exec rspec spec/models/plan_of_care_spec.rb --fail-fast 2>/dev/null
-bundle exec rspec spec/models/state_spec.rb --fail-fast 2>/dev/null
 ```
