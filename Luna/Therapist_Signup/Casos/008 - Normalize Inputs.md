@@ -76,3 +76,16 @@ end
 ```
 
 Lo cual me parece muy útil.
+
+## Solución Backfill
+
+Estas son las rakes:
+```bash
+# Backfill task:
+rake data:backfill_normalize_name_fields
+
+# Verification task:
+rake data:verify_normalize_name_fields
+```
+
+Usan queries SQL para hacer eliminar el whitespace y cambiar el case de los campos email.
