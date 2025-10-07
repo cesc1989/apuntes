@@ -75,3 +75,9 @@ Para la llave `trigger` los posibles valores para `strategy` son:
 > [!Tip]
 > Cuando hay `strategy: chart_signature` no suele haber la key `days` por lo que se explica antes.
 
+### Violation Rules
+
+Se rige por los valores de la llave `violation_rules`. Cuando existe puede tener las llaves anidadas `pending` y `violation`.
+
+> [!Tip]
+> El equipo de Luna suele referirse a `pending` como "pending" y a `violation` como "yes".
