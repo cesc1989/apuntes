@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA.md",
-                "mode": "preview",
+                "file": "Luna/Glosario.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "008 - Update POC Fax and Violation Logic for TX, KS, VA"
+              "title": "Glosario"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA.md",
+                "file": "Luna/Glosario.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 008 - Update POC Fax and Violation Logic for TX, KS, VA"
+              "title": "Outline of Glosario"
             }
           }
         ],

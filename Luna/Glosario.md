@@ -8,6 +8,8 @@ IV: Initial Visit.
 
 POCs: Plans of Care.
 
+DA: Direct Access.
+
 ## En Bliss
 
 CCW: Case Creation Workflow.
