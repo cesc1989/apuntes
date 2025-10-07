@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6f1596aeadec678b",
+        "id": "d98a25cfe41ae6a7",
         "type": "tabs",
         "children": [
           {
-            "id": "8eacea14398459ef",
+            "id": "3d93634fda622275",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/007 - Modify Board Certification answer in Attestation Form 🟢.md",
-                "mode": "source",
+                "file": "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "007 - Modify Board Certification answer in Attestation Form 🟢"
+              "title": "007 - Modify Board Cert answer in AF 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/007 - Modify Board Certification answer in Attestation Form 🟢.md",
+                "file": "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 007 - Modify Board Certification answer in Attestation Form 🟢"
+              "title": "Outline of 007 - Modify Board Cert answer in AF 🟢"
             }
           }
         ],
@@ -165,14 +165,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8eacea14398459ef",
+  "active": "3d93634fda622275",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/007 - Modify Board Certification answer in Attestation Form 🟢.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
+    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+    "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
     "Luna/Glosario.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
-    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
-    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
@@ -192,7 +193,6 @@
     "Luna/Backend/Help Desk/attachments/006.sequence.full.png",
     "Luna/Backend/Help Desk/attachments/sequence.full.png",
     "Luna/Backend/Help Desk/attachments/sequence.concise.png",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/rfcs",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
