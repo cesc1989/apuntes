@@ -81,3 +81,12 @@ Se rige por los valores de la llave `violation_rules`. Cuando existe puede tener
 
 > [!Tip]
 > El equipo de Luna suele referirse a `pending` como "pending" y a `violation` como "yes".
+
+
+# Solución
+
+Los primeros cambios son actualizar los archivos yml de Texas, Virgina y Kansas.
+
+Para esta petición no hay necesidad de modificar `PlansOfCare::DirectAccess::MessageCalculator` ya que soporta los valores de las actualizaciones.
+
+Sin embargo, `PlansOfCare::DirectAccess::ViolationCalculator` sí necesita actualización para soportar _business days_.
