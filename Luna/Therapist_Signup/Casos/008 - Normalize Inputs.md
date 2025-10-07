@@ -79,7 +79,12 @@ Lo cual me parece muy útil.
 
 ## Solución Backfill
 
-Estas son las rakes.
+Estas son las rakes. Una hace conteo y backfill. La otra solo hace conteo.
+
+> [!Note]
+> En el backfill de la tabla `therapists` solo se hace trim de `email` porque resulta que hay varios emails que están duplicados pero se diferencian porque mezclan mayúsculas y minúsculas.
+>
+> La lista de correos la copié en la correspondiente carpeta de este caso.
 
 Backfill task:
 ```bash
