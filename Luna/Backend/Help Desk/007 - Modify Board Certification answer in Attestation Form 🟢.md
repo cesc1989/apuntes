@@ -31,3 +31,5 @@ La clave aquí es el campo `"had_board_certification": true` al estar en true ya
 ## Solución
 
 Modificar manualmente el campo `had_board_certification` a `false` usando un script en Rails console o mediante una petición con Bruno/Postman.
+
+Para ello tuve que primero agregar los campos `had_x` al controlador del endpoint de credentialing information del Attestation Form. Una vez los campos fueron agregados al whitelist, pude hacer la actualización manualmente.
