@@ -35,3 +35,44 @@ No todos los campos necesitan ser normalizados. Voy a empezar con los que la gen
 - employer_name
 - employer_type
 - employer_email (trim + lowercase)
+
+## Solución en backend
+
+Claudio ideó un concern para reusar en los modelos que interesen. Hizo esto:
+```ruby
+module Normalizable
+  extend ActiveSupport::Concern
+
+  class_methods do
+    def normalize_fields(*fields, type: :name)
+      before_validation do
+        fields.each do |field|
+          value = send(field)
+          next if value.blank?
+
+          normalized = case type
+                       when :name then normalize_name(value)
+                       when :email then normalize_email(value)
+                       else value
+                       end
+
+          # Assign the normalized value to the field. Notice the equals sign.
+          send("#{field}=", normalized)
+        end
+      end
+    end
+  end
+
+  private
+
+  def normalize_name(value)
+    value.strip.titleize
+  end
+
+  def normalize_email(value)
+    value.strip.downcase
+  end
+end
+```
+
+Lo cual me parece muy útil.
