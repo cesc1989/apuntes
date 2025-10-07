@@ -28,7 +28,7 @@ Estos son los valores de Board Certification para ese Therapist:
 
 La clave aquí es el campo `"had_board_certification": true` al estar en true ya no se puede modificar en el Attestation Form.
 
-## Solución
+## Solución 🟢
 
 Modificar manualmente el campo `had_board_certification` a `false` usando un script en Rails console o mediante una petición con Bruno/Postman.
 
