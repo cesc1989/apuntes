@@ -111,7 +111,7 @@ Ejemplos:
 
 # Export de los datos
 
-Creí que iba a necesitar un backfill una vez liberara los cambios porque veía carpetas tipo `2025-01-23` en S3. Sin embargo, no es así. Cada vez que se genera el reporte se cargan todos los datos del año. Por lo cual no necesito hacer un backfill.
+Creí que iba a necesitar un backfill una vez liberara los cambios porque veía carpetas tipo `2025-01-23` en S3. Sin embargo, no es así. **Cada vez que se genera el reporte se cargan todos los datos del año**. Por lo cual no necesito hacer un backfill.
 
 La clave es que la fecha que se asigna en cada ejecución corresponde a la carpeta CUANDO se ejecuta el reporte y NO al rango de datos.
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "92ecb30a25b6a663",
+        "id": "547ad1e06db443d0",
         "type": "tabs",
         "children": [
           {
-            "id": "7cbe1398fbdf000c",
+            "id": "46f241021bbefee6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Coshinema/YTtoPlex.md",
+                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "YTtoPlex"
+              "title": "006 - Update MIPS data to 2025 for Healthmonix 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/YTtoPlex.md",
+                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of YTtoPlex"
+              "title": "Outline of 006 - Update MIPS data to 2025 for Healthmonix 🟡"
             }
           }
         ],
@@ -165,17 +165,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cbe1398fbdf000c",
+  "active": "46f241021bbefee6",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+    "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA.md",
     "Luna/Glosario.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
-    "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
@@ -184,9 +187,6 @@
     "Otro_Espacio/Coshinema/untitled folder",
     "Otro_Espacio/Coshinema",
     "Ocio_Juegos_y_otros/Sobre_caracteres_extraños_en_subtítulos_srt.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
