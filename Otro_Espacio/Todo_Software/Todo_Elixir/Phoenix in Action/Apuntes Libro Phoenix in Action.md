@@ -303,3 +303,85 @@ Todo esto es muy interesante y se ve cómo va un nivel más allá de las vistas 
 ```
 
 No había cerrado la etiqueta h1 correctamente y Phoenix explotó y además me indicó el error. Esto en Rails no pasaría a menos que fuera código ERB.
+
+# `with` para pattern matching en secuencia
+
+En el capítulo de configuración de la página de inicio de sesión se agrega esta función a `Auction`:
+```erlang
+def get_user_by_username_and_password(username, password) do
+	with user when not is_nil(user) <- @repo.get_by(User, %{username: username}),
+		true <- Password.verify_with_hash(password, user.hashed_password) do user
+	else
+		_ -> Password.dummy_verify
+	end
+end
+```
+
+Tiene bastante sintaxis poco convencional así que le pregunté a Claudio sobre todo.
+
+## `with` para multiples operaciones
+
+```erlang
+with user when not is_nil(user) <- @repo.get_by(User, %{username: username}),
+  true <- Password.verify_with_hash(password, user.hashed_password) do user
+```
+
+Lo primero de aquí es:
+```erlang
+user when not is_nil(user) <- @repo.get_by(User, %{username: username})
+```
+
+Hace varias cosas:
+
+- Ejecuta la query `@repo.get_by(User, %{username: username})`
+- Pattern matches el resultado a `user`
+- El guard `when not is_nil(user)` sirve para garantizar que `user` existe
+- Si devuelve nulo o falla algo, salta al `else`
+
+Luego tenemos la segunda verificación de `with`:
+```erlang
+true <- Password.verify_with_hash(password, user.hashed_password)
+```
+
+- Solo se ejecuta si la primera es exitosa
+- Espera que el resultado de `verify_with_hash` sea true
+- Si devuelve nulo o falla algo, salta al `else`
+
+Finalmente, está `do user`. Esto se ejecuta/devuelve si las operaciones son exitosas.
+
+El else con `_ ->` captura cualquier cosa que llegue.
+
+Claudio dice:
+> Think of it as: "Try step 1, then step 2. If both work, return user. If either fails, run dummy verification."
+
+## ¿Qué es `<-` y `->`?
+
+Claudio dice que:
+> <- (left arrow) - "draw from" or "bind from"
+
+- Se usa en `with`, `for` y comprenhensions.
+- Toma un valor de la derecha y lo matchea con lo de la izquierda
+
+> [!Note]
+> Example: user <- @repo.get_by(...) means "execute the function and bind the result to user"
+
+Ahora la otra flecha:
+> -> (right arrow) - "then" or "maps to"
+
+- Se usa en funciones, `case`, `cond`, funciones anónimas
+- Separa el patrón/condición del código a ejecutar
+
+> [!Note]
+> Example: _ -> Password.dummy_verify means "if anything matches _, then execute Password.dummy_verify"
+
+En el contexto de la función de esta nota:
+```erlang
+with user <- @repo.get_by(...)  # <- binds result to user
+	...
+else
+	_ -> Password.dummy_verify    # -> means "then execute this"
+end
+```
+
+> [!Tip]
+> Think of <- as assignment/binding and -> as consequence/execution.

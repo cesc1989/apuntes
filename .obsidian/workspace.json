@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "006 - Update MIPS data to 2025 for Healthmonix 🟡"
             }
+          },
+          {
+            "id": "449e260bbcfda076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes Libro Phoenix in Action"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - Update MIPS data to 2025 for Healthmonix 🟡"
+              "title": "Outline of Apuntes Libro Phoenix in Action"
             }
           }
         ],
@@ -165,12 +180,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46f241021bbefee6",
+  "active": "449e260bbcfda076",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+    "Luna/Backend/Episodes/Episode Discharge Process.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA.md",
@@ -209,7 +225,6 @@
     "Luna/Marketplace/Appointments/attachments",
     "Luna/Marketplace/Appointments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Exercism_-_Elixir_Track/Enumerables_y_Funciones_Anónimas_-_[Resistor_C.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/️Pattern_Matching_de_Funciones_con_Tuplas.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/untitled folder",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
