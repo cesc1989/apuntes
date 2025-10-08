@@ -24,13 +24,12 @@ Reporte:
 
 Hay registros por cada año en la tabla `settings` cuya `key` sigue el patrón `healthmonix_#{year}_integration_enabled` que almacena un booleano. Entonces tenemos:
 
-- `healthmonix_2024_integration_enabled`: true
-- `healthmonix_2023_integration_enabled`: true
-- `healthmonix_2022_integration_enabled`: false
-
-Y la de 2025:
-
-- `healthmonix_2025_integration_enabled`: true
+|key|value|setting_type|
+|---|-----|------------|
+|healthmonix_2022_integration_enabled|false|boolean|
+|healthmonix_2023_integration_enabled|true|boolean|
+|healthmonix_2024_integration_enabled|true|boolean|
+|healthmonix_2025_integration_enabled|true|boolean|
 
 > [!Note]
 > Para alpha no existe ninguno de estos registros.
@@ -42,13 +41,12 @@ Y la de 2025:
 
 Este es un setting que guarda una lista de estados de USA en forma abreviada. Sigue el mismo patrón que `healthmonix_#{year}_integration_enabled`.
 
-- `healthmonix_2024_states`: "AZ,CA,FL,IL,TX,WA,GA,NY,CO"
-- `healthmonix_2023_states`: "AZ,CA,FL,IL,TX,WA"
-- `healthmonix_2022_states`: "CA"
-
-Y para 2025:
-
-- `healthmonix_2025_states`: "AZ,CA,FL,IL,TX,WA,GA,NY,CO"
+|key|value|setting_type|
+|---|-----|------------|
+|healthmonix_2022_states|CA|list|
+|healthmonix_2023_states|AZ,CA,FL,IL,TX,WA|list|
+|healthmonix_2024_states|AZ,CA,FL,IL,TX,WA,GA,NY,CO|list|
+|healthmonix_2025_states|AZ,CA,FL,IL,TX,WA,GA,NY,CO|list|
 
 > [!Note]
 > Para alpha no existe ninguno de estos registros.
@@ -60,10 +58,13 @@ Y para 2025:
 
 Lo mismo que los dos anteriores. Este setting guarda un valor booleano. Veamos lo que hay:
 
-- `healthmonix_2022_strictly_contained`: true
-- `healthmonix_2023_strictly_contained`: false
-- `healthmonix_2024_strictly_contained`: false
-- `healthmonix_2025_strictly_contained`: false
+|key|value|setting_type|
+|---|-----|------------|
+|healthmonix_2022_strictly_contained|true|boolean|
+|healthmonix_2023_strictly_contained|false|boolean|
+|healthmonix_2024_strictly_contained|false|boolean|
+|healthmonix_2025_strictly_contained|false|boolean|
+
 
 > [!Note]
 > Para alpha no existe ninguno de estos registros.
