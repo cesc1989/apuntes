@@ -153,3 +153,9 @@ Adicional, le pregunté a Indy sobre esto y dijo:
 Y en otro comentario:
 > Illinois is business days
 
+Finalmente, le pedí un análisis a Claudio y dijo que:
+> The business_time gem (~> 0.13.0) was installed to calculate business days and working hours for Luna's operations, specifically around:
+>
+> 1. **Patient Collections/Billing Operations** - Avoid sending communications on holidays
+> 2. **Invoicing Runs** - Schedule automated billing runs only on supported business days (Tue-Fri)
+> 3. **Working Date Calculations** - Determine next working day while respecting holidays
