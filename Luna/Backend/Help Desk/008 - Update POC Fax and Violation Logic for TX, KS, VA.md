@@ -137,3 +137,19 @@ bundle exec rspec spec/services/plans_of_care/direct_access/ --fail-fast 2>/dev/
 
 bundle exec rspec spec/models/plan_of_care_spec.rb --fail-fast 2>/dev/null
 ```
+
+# ¿Hay que dar soporte a business days?
+
+En la petición la persona comenta que para Kansas:
+> “Pending” at 10 **business** days. “Yes” at 15 **business** days or 10 visits
+
+Luego de ver todo el código y entender lo que implica con Claude me quedó la duda si había que implementar lógica para _business days_. Claudio me confundió porque está instalada la gema `business_time`. Sin embargo, esa gema está instalada para temas de Candid.
+
+Al revisar el commit donde se agrega y también al buscar código usando `business_days` solo aparecen cosas de Candid.
+
+Adicional, le pregunté a Indy sobre esto y dijo:
+> TX previous rule was business days so I don’t think it’s new to the system.
+
+Y en otro comentario:
+> Illinois is business days
+
