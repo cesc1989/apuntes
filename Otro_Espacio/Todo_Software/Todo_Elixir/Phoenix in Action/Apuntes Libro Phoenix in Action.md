@@ -35,10 +35,38 @@ No son como las vistas en Rails. Acá son un paso previo antes de. Son como los 
 # Plug: ¿Qué es?
 
 Página web https://hexdocs.pm/plug/readme.html
-
 > A specification for composing web applications with functions
 
-No me dice mucho eso por ahora.
+El libro lo explica mejor en el capítulo 10.3
+
+Un Plug es un comportamiento que acepta la conexión de una petición, la transforma y luego la transfiere.
+
+> [!Note]
+> La conexión de la petición (connection request) es el struct `Plug.Conn` que se pasa a cada función de un controlador.
+
+## Tipos de Plugs
+
+Hay dos tipos: funciones y módulos.
+
+> [!Important]
+> La clave de los Plugs es que se rijan por el contrato (implementación) del framework. De esta forma se pueden crear y usar sin mayor problema.
+
+### Plugs Funciones
+
+Tiene que hacer dos cosas:
+
+- Aceptar dos parámetros: struct `Plug.Conn` y opciones
+- Retornar un struct `Plug.Conn`
+
+### Plugs Módulos
+
+Tiene que hacer dos cosas:
+
+- Definir una función `init/1` que inicia cualquier argumento u opciones para el plug
+- Definir una función `call/2` que hace lo mismo que un plug tipo función:
+	- Aceptar dos parámetros
+	- Retornar `Plug.Conn`
+
 
 # ¿Qué es un Repo?
 

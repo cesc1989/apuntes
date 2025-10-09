@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "547ad1e06db443d0",
+        "id": "ae472144e380938e",
         "type": "tabs",
         "children": [
           {
-            "id": "46f241021bbefee6",
+            "id": "1ab02de6c81a11b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - Update MIPS data to 2025 for Healthmonix 🟡"
-            }
-          },
-          {
-            "id": "4c94f537d047dcc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢"
+              "title": "Apuntes Libro Phoenix in Action"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢"
+              "title": "Outline of Apuntes Libro Phoenix in Action"
             }
           }
         ],
@@ -180,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c94f537d047dcc1",
+  "active": "1ab02de6c81a11b2",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟡.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
