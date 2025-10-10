@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "005 - Recordatorio de Form Vencido"
             }
+          },
+          {
+            "id": "7210907800881dcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Bases_de_Datos_-_Parte_02"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 005 - Recordatorio de Form Vencido"
+              "title": "Outline of Apuntes_Bases_de_Datos_-_Parte_02"
             }
           }
         ],
@@ -165,10 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d96a33d7b65a823",
+  "active": "7210907800881dcb",
   "lastOpenFiles": [
-    "Luna/Backend/Comandos Edge.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido.md",
+    "Luna/Backend/Comandos Edge.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
@@ -203,7 +219,6 @@
     "Luna/Backend/Help Desk/attachments/sequence.concise.png",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/rfcs",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Marketplace/Appointments/attachments/appointment.reminder.data.collection.and.request.png",
     "Luna/Marketplace/Appointments/attachments/03.progress.reminder.png",
     "Luna/Marketplace/Appointments/attachments/02.intake.reminder.png",

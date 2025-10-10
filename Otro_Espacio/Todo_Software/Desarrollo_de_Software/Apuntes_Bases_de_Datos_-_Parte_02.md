@@ -68,3 +68,31 @@ luna_api_development_8  | francisco | UTF8     | 11 GB   | pg_default |
 ```
 
 Visto en [Stack Overflow](https://stackoverflow.com/questions/14346371/postgresql-find-total-disk-space-used-by-a-database).
+
+# Usar `count` sin condicional where
+
+Etiquetas: #luna_help_desk 
+
+Esta query que le pedí a Claudio:
+```sql
+-- Count forms with completed_at in Backend
+SELECT
+    COUNT(*) as total_forms,
+    COUNT(completed_at) as forms_with_completed_at,
+    COUNT(*) - COUNT(completed_at) as forms_without_completed_at,
+    ROUND(100.0 * COUNT(completed_at) / COUNT(*), 2) as percent_with_completed_at
+FROM forms
+WHERE progress_type = 'ongoing';
+```
+
+me llamó la atención esta línea:
+```sql
+COUNT(completed_at) as forms_with_completed_at,
+```
+
+¿Por qué no necesitaba de un `where` para contar solo los que tienen `completed_at` no nulo? Pues resulta que así funciona el `count` cuando le pasas el nombre de un campo. Según los [docs](https://www.postgresql.org/docs/current/functions-aggregate.html):
+> `count` ( `"any"` ) → `bigint`
+>
+> Computes the number of input rows in which the input value is not null.
+
+Me hizo recordar que Rafael Rodriguez (Totico) me explicó que es mejor contar con `count(id)` que con `count(*)` y es por esto.
