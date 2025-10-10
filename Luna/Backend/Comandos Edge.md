@@ -6,12 +6,18 @@ Etiquetas: #comanditos
 
 Edge:
 
-```
+```bash
 luna db get-pass -e omega -d backend
 ```
 
 Therapist
 
-```
+```bash
 luna db get-pass -e omega -d therapist-signup
+```
+
+Marketplace
+
+```bash
+luna db get-pass -e omega -d marketplace
 ```
