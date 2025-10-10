@@ -61,3 +61,10 @@ Claudio sugiere estas formas para detectar el problema:
 
 
 Los logs me parece muy lento porque toca esperar a que se refleje. Creo que puedo pasar directo a hacer queries en las BDs.
+
+# Comprobar `completed_at` entre tablas
+
+Hay que comprobar este valor para los siguientes forms:
+
+- Julio 21 al 22: `e5f30c55-3122-445c-af12-744fe14b1748`
+- Julio 23: `b5f1a48a-6903-4a4e-a987-3b9c7a1af32f`
