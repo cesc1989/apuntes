@@ -66,5 +66,75 @@ Los logs me parece muy lento porque toca esperar a que se refleje. Creo que pued
 
 Hay que comprobar este valor para los siguientes forms:
 
-- Julio 21 al 22: `e5f30c55-3122-445c-af12-744fe14b1748`
-- Julio 23: `b5f1a48a-6903-4a4e-a987-3b9c7a1af32f`
+**Para Fenn:**
+
+Julio 21 al 22. Form `e5f30c55-3122-445c-af12-744fe14b1748`
+
+- Edge `completed_at`: 2025-07-15 16:45:00.597
+- Marketplace `completed_at`: nulo
+
+Julio 23. Form `b5f1a48a-6903-4a4e-a987-3b9c7a1af32f`
+
+- Edge `completed_at`: 2025-07-31 17:18:55.238
+- Marketplace `completed_at`: nulo
+
+**Para Sohn**
+
+Julio 22. Form `536dad03-95df-4d44-a673-7215898b7975`
+
+- Edge `completed_at`: 2025-07-05 14:49:04.798
+- Marketplace `completed_at`: nulo
+
+## Conteo de Progress sin `completed_at` entre Backend y Marketplace
+
+Dado lo anterior, corrí esta query para saber cuántos progress forms no tienen el campo `completed_at`. La comparación entre ambos sistemas es MUY grande.
+
+**backend**
+
+|form_type|total_forms|with_completed_at|without_completed_at|percent_complete|
+|---------|-----------|-----------------|--------------------|----------------|
+|ongoing|360188|258357|101831|71.73|
+|onboarding|236329|167638|68691|70.93|
+
+**marketplace**
+
+|form_type|total_forms|with_completed_at|without_completed_at|percent_complete|
+|---------|-----------|-----------------|--------------------|----------------|
+|progress|359513|166193|193320|46.23|
+|intake|234843|165893|68950|70.64|
+
+Esto dice Claudio:
+
+### Analysis
+
+**Intake Forms (Good Sync)**
+
+- Backend: 70.93% completed
+- Marketplace: 70.64% completed
+- Difference: Only 0.3% - nearly perfect sync ✅
+
+**Progress Forms (Broken Sync)**
+
+- Backend: 71.73% completed
+- Marketplace: 46.23% completed
+- Difference: 25.5% gap - massive data loss ❌
+
+**What This Means**
+
+~92,000 progress forms are missing `completed_at` in Marketplace (258,357 - 166,193)
+
+# El Problema
+
+Es que en 2023 cuando se corrigió un problema del worker de webhook de form completed no agregué el código para cuando se completan los Progress Forms. Ver commits:
+
+- Junio 28, 2023: se introduce el webhook
+	- Commit: https://github.com/lunacare/patient-forms-backend/commit/a44b403fba50eb6e5092c19209ed17e917ada2fa
+- Junio 30, 2023: Ryan corrige un problema de asincronía sin terminar la transacción que completa el Form
+	- Commit: https://github.com/lunacare/patient-forms-backend/commit/298f3047535cd4eea35458f82f52fe8867a177a4
+- Julio 4, 2023: Saco el worker del modelo y lo pongo solo en la clase `AdmissionForm`.
+	- **Aquí se introdujo el error.**
+	- Esta es la clase que completa el Intake Form.
+	- Commit: https://github.com/lunacare/patient-forms-backend/commit/d06df88b0f66deea2ca3f13936e5658890552c4a
+
+> [!Note]
+> Historial de commits del modelo Form: https://github.com/lunacare/patient-forms-backend/commits/omega/app/models/form.rb
