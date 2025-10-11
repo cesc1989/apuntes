@@ -148,3 +148,17 @@ El arreglo está en hacer que el webhook CompletedForm sea enviado también cuan
 - Para V3 en `app/forms/patient_self_report/v3/submit_form.rb`
 
 Esta solución solo es para corregir de la fecha en adelante. Para corregir los datos históricos hay que hacer un backfill.
+
+## Backfill
+
+Rake dry-run:
+```bash
+bundle exec rake backfill_progress_forms_completed_at:preview
+```
+
+Rake definitiva:
+```bash
+bundle exec rake backfill_progress_forms_completed_at:send_webhooks
+```
+
+La rake programa los workers para que por cada batch (1000) haya una pausa de 2 minutos.
