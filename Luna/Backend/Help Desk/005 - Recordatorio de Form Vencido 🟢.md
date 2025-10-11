@@ -138,3 +138,13 @@ Es que en 2023 cuando se corrigió un problema del worker de webhook de form com
 
 > [!Note]
 > Historial de commits del modelo Form: https://github.com/lunacare/patient-forms-backend/commits/omega/app/models/form.rb
+
+## Solución
+
+El arreglo está en hacer que el webhook CompletedForm sea enviado también cuando se completan los progress forms. Los cambios los hice en los siguientes archivos:
+
+- Para V1 en `app/controllers/patient_self_report/api/v1/ongoing_forms_controller.rb`
+- Para V2 (Mobile) en `app/forms/patient_self_report/v2/submit_form.rb`
+- Para V3 en `app/forms/patient_self_report/v3/submit_form.rb`
+
+Esta solución solo es para corregir de la fecha en adelante. Para corregir los datos históricos hay que hacer un backfill.
