@@ -159,3 +159,13 @@ Finalmente, le pedí un análisis a Claudio y dijo que:
 > 1. **Patient Collections/Billing Operations** - Avoid sending communications on holidays
 > 2. **Invoicing Runs** - Schedule automated billing runs only on supported business days (Tue-Fri)
 > 3. **Working Date Calculations** - Determine next working day while respecting holidays
+
+# Problema Luego del Release
+
+Indy reporta que:
+> This VA pt just popped up on our list in “No violation”. For VA, the IV should be faxed but marked as response needed “NO” with no violation alerts. Also it looks like this was a PV faxed, only IVs should fax.
+
+Hay dos cosas:
+- For VA, the IV should be faxed but marked as response needed “NO” with no violation alerts.
+- Also it looks like this was a PV faxed, only IVs should fax.
+
