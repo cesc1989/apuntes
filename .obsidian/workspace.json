@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "cf51ab8e49514ea5",
+        "id": "a46b8bdacf9f87c1",
         "type": "tabs",
         "children": [
           {
-            "id": "ad8057e398ee45b1",
+            "id": "bc6bc6adf9581aa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "file": "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Edge Enums que Importan"
+              "title": "Definicion de Metodos Extra"
+            }
+          },
+          {
+            "id": "b8c13b01e7232902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Crear Appointments en Alpha"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "file": "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Edge Enums que Importan"
+              "title": "Outline of Definicion de Metodos Extra"
             }
           }
         ],
@@ -165,11 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad8057e398ee45b1",
+  "active": "bc6bc6adf9581aa1",
   "lastOpenFiles": [
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
-    "Luna/Backend/Edge Enums que Importan.md",
+    "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
     "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
+    "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Episodes/Episode Discharge Process.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
@@ -192,7 +207,6 @@
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
-    "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
