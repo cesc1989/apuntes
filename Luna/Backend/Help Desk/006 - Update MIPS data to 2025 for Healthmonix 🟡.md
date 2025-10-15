@@ -110,7 +110,7 @@ Ejemplos:
 - 2023: Includes date string (e.g., `Quality_17625_egAuLG7aVx_20251001.csv`)
 - 2024+: No date string (e.g., `Quality_21742_MlUGF8grFd.csv`)
 
-# Export de los datos
+# Export de los datos 🌟
 
 Creí que iba a necesitar un backfill una vez liberara los cambios porque veía carpetas tipo `2025-01-23` en S3. Sin embargo, no es así. **Cada vez que se genera el reporte se cargan todos los datos del año**. Por lo cual no necesito hacer un backfill.
 
