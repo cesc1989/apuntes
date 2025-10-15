@@ -151,11 +151,6 @@ Esta solución solo es para corregir de la fecha en adelante. Para corregir los 
 
 ## Backfill
 
-Rake dry-run:
-```bash
-bundle exec rake backfill_progress_forms_completed_at:preview
-```
-
 Rake definitiva:
 ```bash
 bundle exec rake backfill_progress_forms_completed_at:send_webhooks
