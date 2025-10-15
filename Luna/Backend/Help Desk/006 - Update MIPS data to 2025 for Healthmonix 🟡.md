@@ -272,6 +272,14 @@ El fix que Claudio sugirió fue dar soporte a estos nuevos códigos solo para 20
 >
 > Esos los dejo quietos para no alterar los demás exports.
 
+## Issue 3: No hay datos de 2025 para CO, TX, GA
+
+Reportaron que para 2025 no salían datos para esos tres estados. Lo cual fue raro porque en S3 se podía ver que todos tenían exports.
+
+### Solución: Healhtmonix tenía que revisar la configuración SFTP 🟢
+
+Pedí que preguntaran si podían verificar. Así hicieron y eso fue el problema.
+
 # Mapa de Ejecución General ℹ️
 
 Dado al tamaño de las funciones me cuesta un poco entender cómo todas se relacionan entre sí. Le pedí a Claudio generar un diagrama de secuencia de Mermaid. También generó un esquema sencillo de cómo se relacionan las funciones de este worker.
