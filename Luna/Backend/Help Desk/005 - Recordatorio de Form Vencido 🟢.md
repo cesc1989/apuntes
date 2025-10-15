@@ -162,3 +162,17 @@ bundle exec rake backfill_progress_forms_completed_at:send_webhooks
 ```
 
 La rake programa los workers para que por cada batch (1000) haya una pausa de 2 minutos.
+
+### Datos backfill
+
+Datos de Alpha para probar.
+
+En backend:
+- total progress : 13772
+- progress con completed_at: 8770
+- porcentaje progress con : 63.68
+
+En Marketplace:
+- total progress : 12710
+- progress con completed_at: 509
+- porcentaje progress con : 4
