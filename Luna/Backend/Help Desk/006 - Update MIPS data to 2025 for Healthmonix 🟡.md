@@ -236,7 +236,7 @@ Y cuando reviso en "Mapping Logic 2025" encuentro que hay que actualizar a lo si
 | MSK15            | MSK10              |
 | MSK15            | MSK10              |
 
-### Solución: Dar soporte para 2025 sin afectar años anteriores
+### Solución: Dar soporte para 2025 sin afectar años anteriores 🟢
 
 El fix que Claudio sugirió fue dar soporte a estos nuevos códigos solo para 2025. Entonces el cambio fue pasar el parámetro `year` a las funciones correspondientes y luego usarlo para hacer el `gsub`. Si el año es 2025, se aplican los nuevos códigos. Sino se deja como estaba.
 
