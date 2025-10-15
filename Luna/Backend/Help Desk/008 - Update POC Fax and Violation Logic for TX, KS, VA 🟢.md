@@ -160,7 +160,7 @@ Finalmente, le pedí un análisis a Claudio y dijo que:
 > 2. **Invoicing Runs** - Schedule automated billing runs only on supported business days (Tue-Fri)
 > 3. **Working Date Calculations** - Determine next working day while respecting holidays
 
-# Problema: POC de Progress Visit en Virginia
+# Problema: POC de Progress Visit en Virginia 🟢
 
 Indy reporta que:
 > This VA pt just popped up on our list in “No violation”. For VA, the IV should be faxed but marked as response needed “NO” with no violation alerts. Also it looks like this was a PV faxed, only IVs should fax.
@@ -179,3 +179,25 @@ Podría resumir el caso en que:
 	- Este se creó porque se cumplieron los 75 días desde la última vez
 	- En ese momento la visita más reciente fue una Progress
 
+## Comprobar Care Plan entra en Recertificación
+
+Con esta query puedo ver los POCs más sus actions y revisar si entra el primero en Recertificación.
+```sql
+SELECT
+  poc.id AS poc_id,
+  poc.created_at AS poc_created_at,
+  poca.id AS action_id,
+  poca.kind AS action_kind,
+  poca.created_at AS action_created_at,
+  poca.updated_at AS action_updated_at
+FROM plans_of_care poc
+LEFT JOIN plan_of_care_actions poca ON poca.plan_of_care_id = poc.id
+WHERE poc.id IN ('POC_ID', 'POC_ID')
+ORDER BY poc.created_at;
+```
+
+Y con esta puedo comprobar que un rango de fechas esté en los 75 días esperados:
+```sql
+SELECT
+    '2025-10-11'::date - '2025-07-28'::date AS days_between_action_and_second_poc;
+```

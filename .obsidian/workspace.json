@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "22f3aa016cbc84e5",
+        "id": "83927fe21113d2ec",
         "type": "tabs",
         "children": [
           {
-            "id": "083cc993b24b94dd",
+            "id": "bcbe1b5a2cce2459",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
-                "mode": "source",
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Edge Enums que Importan"
+              "title": "008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Edge Enums que Importan"
+              "title": "Outline of 008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢"
             }
           }
         ],
@@ -165,10 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "083cc993b24b94dd",
+  "active": "bcbe1b5a2cce2459",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
     "Luna/Backend/Edge Enums que Importan.md",
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
     "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
