@@ -272,7 +272,7 @@ El fix que Claudio sugirió fue dar soporte a estos nuevos códigos solo para 20
 >
 > Esos los dejo quietos para no alterar los demás exports.
 
-# Mapa de Ejecución General
+# Mapa de Ejecución General ℹ️
 
 Dado al tamaño de las funciones me cuesta un poco entender cómo todas se relacionan entre sí. Le pedí a Claudio generar un diagrama de secuencia de Mermaid. También generó un esquema sencillo de cómo se relacionan las funciones de este worker.
 
