@@ -67,3 +67,17 @@ enum state: {
 	resubmitted_by_therapist: 10
 }
 ```
+
+## PlanOfCareAction
+
+Enum `kind` de PlanOfCareAction:
+```ruby
+enum kind: {
+	resolved_by_admin: 0,
+	signed_by_physician: 1,
+	physician_requested_modifications: 2,
+	rejected_by_physician: 3,
+	physician_requested_modifications_handled_by_admin: 4,
+	rejected_by_physician_handled_by_admin: 5
+}
+```

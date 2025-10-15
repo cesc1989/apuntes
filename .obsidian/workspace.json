@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
+                "file": "Luna/Backend/Edge Enums que Importan.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢"
+              "title": "Edge Enums que Importan"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
+                "file": "Luna/Backend/Edge Enums que Importan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢"
+              "title": "Outline of Edge Enums que Importan"
             }
           }
         ],
@@ -167,12 +167,12 @@
   },
   "active": "083cc993b24b94dd",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
     "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
     "Luna/Backend/Episodes/Episode Discharge Process.md",
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
