@@ -160,7 +160,7 @@ Finalmente, le pedí un análisis a Claudio y dijo que:
 > 2. **Invoicing Runs** - Schedule automated billing runs only on supported business days (Tue-Fri)
 > 3. **Working Date Calculations** - Determine next working day while respecting holidays
 
-# Problema Luego del Release
+# Problema: POC de Progress Visit en Virginia
 
 Indy reporta que:
 > This VA pt just popped up on our list in “No violation”. For VA, the IV should be faxed but marked as response needed “NO” with no violation alerts. Also it looks like this was a PV faxed, only IVs should fax.
@@ -168,4 +168,14 @@ Indy reporta que:
 Hay dos cosas:
 - For VA, the IV should be faxed but marked as response needed “NO” with no violation alerts.
 - Also it looks like this was a PV faxed, only IVs should fax.
+
+> [!Important]
+> Descubrí junto con Claudio que el sistema está trabajando como debe. Se creó un 2do POC porque el Care Plan entró en proceso de recertificación.
+
+Podría resumir el caso en que:
+
+- El POC del Initial Visit fue actualizado a finales de Julio/2025
+- A inicios de Octubre, por el proceso `DirectAccessPocsRecertificationWorker` se creó un nuevo POC
+	- Este se creó porque se cumplieron los 75 días desde la última vez
+	- En ese momento la visita más reciente fue una Progress
 
