@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1c1128d20f28a41a",
+        "id": "0aed42512c24a597",
         "type": "tabs",
         "children": [
           {
-            "id": "9d89ec21d0b7bd50",
+            "id": "123d3ff08565168f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "005 - Recordatorio de Form Vencido 🟢"
+              "title": "009 - Stripe Metrics"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
+                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 005 - Recordatorio de Form Vencido 🟢"
+              "title": "Outline of 009 - Stripe Metrics"
             }
           }
         ],
@@ -165,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d89ec21d0b7bd50",
+  "active": "123d3ff08565168f",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/009 - Stripe Metrics.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
@@ -192,7 +193,6 @@
     "Luna/Glosario.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Clinical_Dashboard/Reglas/PortalProviderEntity_Analysis.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
