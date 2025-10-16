@@ -45,6 +45,52 @@ El bloque `log_method`. La clave de este bloque es que solo se ejecuta en las fa
 
 En entorno local no hay configuración por defecto de Redis. Toca usar MemoryStore o configurar Redis.
 
+Activé la cache con `bundle exec rails dev:cache` y pude probar.
+
+Script para prueba:
+```ruby
+# 1. Initialize counters to 0 in Redis (first time setup)
+
+MetricsService.write(:stripe_api_call_failures_total, 0)
+MetricsService.write(:stripe_api_call_attempts_total, 0)
+
+# 2. Verify counters are initialized
+metrics = MetricsService.new
+puts "Initial failures: #{metrics.stripe_api_call_failures_total}"
+puts "Initial attempts: #{metrics.stripe_api_call_attempts_total}"
+
+# 3. Simulate API failure
+begin
+  Retryable.with_context(:stripe) do
+    raise Stripe::RateLimitError.new("Test rate limit")
+  end
+rescue Stripe::RateLimitError => e
+  puts "Expected failure: #{e.message}"
+end
+
+# 4. Create NEW instance to read fresh values from Redis
+metrics = MetricsService.new
+puts "After failure - Attempts: #{metrics.stripe_api_call_attempts_total}"  # Should be 3
+puts "After failure - Failures: #{metrics.stripe_api_call_failures_total}"  # Should be 1
+
+# 5. Verify failure rate calculation
+if metrics.stripe_api_call_attempts_total > 0
+  failure_rate = (metrics.stripe_api_call_failures_total.to_f / metrics.stripe_api_call_attempts_total * 100).round(2)
+  puts "Failure rate: #{failure_rate}%"
+end
+```
+
+Arroja esto al correr en rails console:
+```
+Initial failures: 0
+Initial attempts: 0
+Stripe API call failed after 3 attempts: Stripe::RateLimitError - Test rate limit
+Expected failure: Test rate limit
+After failure - Attempts: 2
+After failure - Failures: 1
+Failure rate: 50.0%
+```
+
 ### En Alpha
 
 Para revisar las llaves de métricas en alpha:
