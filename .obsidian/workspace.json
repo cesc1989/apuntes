@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0bc6fcdd14655a7a",
+        "id": "94cca1a057f56410",
         "type": "tabs",
         "children": [
           {
-            "id": "6e2afbd11809ccb4",
+            "id": "586dfef56a93d094",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,13 +160,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e2afbd11809ccb4",
+  "active": "586dfef56a93d094",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/009 - Stripe Metrics.md",
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic for TX, KS, VA 🟢.md",
     "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
@@ -187,7 +188,6 @@
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
     "Luna/Glosario.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
