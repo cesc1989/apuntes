@@ -110,3 +110,55 @@ Responde:
  "luxe_cache:metric/inactive_appointment_count/evaluated_at"]
 ```
 
+# Yabeda
+
+Las métricas por si solas no hacen nada. Para poder hacerlas efectivas se necesitan usar en alarmas o tableros. Este proyecto usa Yabeda para generar datos que puede leer Prometheus.
+
+Así está configurado en el `config/routes.rb`:
+```ruby
+  yabeda_app = Rack::Builder.new do
+    use BearerAuth do |token|
+      token == ENV.fetch("YABEDA_AUTH_TOKEN")
+    end
+    run Yabeda::Prometheus::Exporter
+  end
+  mount yabeda_app, at: "/metrics"
+```
+
+La ruta `/metrics` no tiene vista sino que Yabeda responde con una estructura que puede entender Prometheus.
+
+## Prueba de Yabeda en Local
+
+En local:
+```bash
+curl -i http://localhost:3000/metrics -H "Authorization: Bearer yabeda_auth"
+```
+
+Respuesta con las keys de las métricas de Stripe:
+```bash
+# TYPE edge_stripe_api_call_failures_total counter
+# HELP edge_stripe_api_call_failures_total Total Stripe API calls that failed after exhausting all retries
+edge_stripe_api_call_failures_total 0.0
+# TYPE edge_stripe_api_call_attempts_total counter
+# HELP edge_stripe_api_call_attempts_total Total Stripe API call attempts (including retries)
+edge_stripe_api_call_attempts_total 0.0
+```
+
+## Prueba de Yabeda en Alpha
+
+Para probar en alpha se puede usar esta petición:
+```bash
+curl -i https://api2.alpha.getluna.com/metrics -H "Authorization: Bearer 327e56ec-74ee-4712-978c-feb0c7a60832"
+```
+
+Responde algo como:
+```bash
+# TYPE edge_signed_appointment_count gauge
+# HELP edge_signed_appointment_count Number of appointments that have a signed chart
+edge_signed_appointment_count 994.0
+# TYPE edge_inactive_appointment_count gauge
+# HELP edge_inactive_appointment_count Number of appointments that are inactive (canceled/no show)
+edge_inactive_appointment_count 226147.0
+# TYPE edge_candid_sync_eligible_appointment_total counter
+# HELP edge_candid_sync_eligible_appointment_total
+```
