@@ -35,3 +35,6 @@ Podría probar con la gema [actionpack-action_caching](https://github.com/rails/
 
 Las guías mencionan brevemente [action-caching](https://guides.rubyonrails.org/v7.1/caching_with_rails.html#action-caching).
 
+### Conclusión
+
+La implementación fue sencilla y la cabecera responde lo que es pero veo que no cachea todo. En todo caso hay que devolver las imágenes desde un CDN para que sea más rápida esa parte.
