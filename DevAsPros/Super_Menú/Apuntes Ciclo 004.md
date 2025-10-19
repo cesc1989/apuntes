@@ -44,9 +44,13 @@ La implementación fue sencilla y la cabecera responde lo que es pero veo que no
 Para lograr esto hay dos opciones:
 
 - Configurar el origen del CDN un bucket de S3
+	- Forma "direct URL exposure"
 - Configurar el origen del CDN el servidor de la aplicación
+	- Forma Proxy
 
+Para esta segunda opción es que la recomendación de las guías sobre el setting es que se debe usar.
 
+Para la primera solo hay que configurar el helper en `routes.rb` para que las imágenes carguen directo desde el CDN.
 
 ### Configuración de CloudFront y S3
 
