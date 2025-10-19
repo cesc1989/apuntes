@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Apuntes Ciclo 004"
             }
+          },
+          {
+            "id": "48ecfcf3f8361460",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "001 - Mejorar Carga de Fotos de Platos"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
+                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 004"
+              "title": "Outline of 001 - Mejorar Carga de Fotos de Platos"
             }
           }
         ],
@@ -165,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efdd1c8b94e3e5c1",
+  "active": "48ecfcf3f8361460",
   "lastOpenFiles": [
-    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
+    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",

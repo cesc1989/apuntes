@@ -10,7 +10,7 @@ Otra forma es devolver versiones más pequeñas en la respuesta del JSON. No es 
 
 Finalmente, dado lo poco cambiante que sería un menú, también se podría cachear la respuesta JSON usando la cabecera `Cache-Control` en el controlador.
 
-## Cargar imágenes desde CDN
+## Cargar imágenes desde CDN 🟢
 
 Para esto podemos usar CloudFront. Esta configuración se da mayoritariamente en la UI de AWS. Los siguientes tutoriales sirven de inicio para lograrla:
 
@@ -28,7 +28,7 @@ Ver documentación: https://guides.rubyonrails.org/v7.1/active_storage_overview.
 > [!Tip]
 > Para poder usar esta característica hay que instalar Vips o MiniMagick.
 
-## Cachear respuesta JSON del controlador
+## Cachear respuesta JSON del controlador 🟢
 
 Teniendo en cuenta lo poco que cambiaría cada plato del menú cachear la respuesta del JSON es una forma sencilla de mejorar la carga inicial. Para lograrlo se usa la cabecera `Cache-Control` seteado a 5 minutos (300 segundos).
 
