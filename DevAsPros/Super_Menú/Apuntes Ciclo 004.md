@@ -38,3 +38,7 @@ Las guías mencionan brevemente [action-caching](https://guides.rubyonrails.org/
 ### Conclusión
 
 La implementación fue sencilla y la cabecera responde lo que es pero veo que no cachea todo. En todo caso hay que devolver las imágenes desde un CDN para que sea más rápida esa parte.
+
+## Configura CDN para cargar las imágenes del menú
+
+Seguí el tutorial y en la parte del policy en el bucket ya AWS se encarga de actualizar eso por mí. No tuve que modificar la policy.
