@@ -41,4 +41,5 @@ La implementación fue sencilla y la cabecera responde lo que es pero veo que no
 
 ## Configura CDN para cargar las imágenes del menú
 
-Seguí el tutorial y en la parte del policy en el bucket ya AWS se encarga de actualizar eso por mí. No tuve que modificar la policy.
+Seguí el [tutorial](https://headey.net/rails-assets-active-storage-and-a-cloudfront-cdn) y en la parte del policy en el bucket ya AWS se encarga de actualizar eso por mí. No tuve que modificar la policy.
+
