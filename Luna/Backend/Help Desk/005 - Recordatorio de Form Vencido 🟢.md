@@ -149,7 +149,9 @@ El arreglo está en hacer que el webhook CompletedForm sea enviado también cuan
 
 Esta solución solo es para corregir de la fecha en adelante. Para corregir los datos históricos hay que hacer un backfill.
 
-## Backfill
+## Backfill en Marketplace 🟢
+
+Se corre desde backend para que actualice los forms en Marketplace.
 
 Rake definitiva:
 ```bash
@@ -171,3 +173,21 @@ En Marketplace:
 - total progress : 12710
 - progress con completed_at: 509
 - porcentaje progress con : 4
+
+#### En Omega
+
+Progress Forms antes del backfill:
+
+- total_forms: 359_513
+- with_completed_at: 166_193
+- without_completed_at: 193_320
+- percent_complete: 46.23
+
+Progress Forms después del backfill:
+
+- total_forms: 362_956
+- with_completed_at: 260_885
+- without_completed_at: 102_071
+- percent_complete: 71.88
+
+Conclusión: el backfill funcionó y mejoró el estado de una gran cantidad de Progress Forms en Marketplace.

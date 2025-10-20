@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e13bfb97b277f999",
+        "id": "6d9426b82d6438ec",
         "type": "tabs",
         "children": [
           {
-            "id": "318de9355efbbb2c",
+            "id": "32566577635cf0ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
+                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Ciclo 004"
+              "title": "005 - Recordatorio de Form Vencido 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
+                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 004"
+              "title": "Outline of 005 - Recordatorio de Form Vencido 🟢"
             }
           }
         ],
@@ -165,11 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "318de9355efbbb2c",
+  "active": "32566577635cf0ea",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
