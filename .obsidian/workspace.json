@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5b0fa21871834079",
+        "id": "fadffed0ac48302e",
         "type": "tabs",
         "children": [
           {
-            "id": "ccb364300049d6ea",
+            "id": "130ef025cc19304f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+                "file": "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "008 - Update POC Fax and Violation Logic 🟡"
-            }
-          },
-          {
-            "id": "ccd11f5d67e25feb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "009 - Stripe Metrics 🟢"
+              "title": "Test Paths for Download Patient data per Provider"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
+                "file": "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 009 - Stripe Metrics 🟢"
+              "title": "Outline of Test Paths for Download Patient data per Provider"
             }
           }
         ],
@@ -180,8 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccd11f5d67e25feb",
+  "active": "130ef025cc19304f",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
+    "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
     "Luna/Backend/Edge Enums que Importan.md",
@@ -208,8 +195,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Luna/Backend/Comandos Edge.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
-    "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
