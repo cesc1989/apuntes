@@ -192,7 +192,7 @@ SELECT
   poca.updated_at AS action_updated_at
 FROM plans_of_care poc
 LEFT JOIN plan_of_care_actions poca ON poca.plan_of_care_id = poc.id
-WHERE poc.id IN ('POC_ID', 'POC_ID')
+WHERE poc.id IN ('POC_ID_INITIAL_VISIT', 'POC_ID_AFECTADO')
 ORDER BY poc.created_at;
 ```
 
@@ -201,3 +201,55 @@ Y con esta puedo comprobar que un rango de fechas esté en los 75 días esperado
 SELECT
     '2025-10-11'::date - '2025-07-28'::date AS days_between_action_and_second_poc;
 ```
+
+# Problema de POCs en Virginia
+
+Indy reportó tres nuevos casos.
+
+- Murphy
+	- CP: `81ef64bc-303d-4ad8-aef2-956e510e1fa1`
+	- POC afectado: `4ee7ca7b-aa4e-4d5d-8b04-4d4f0c13ec3e`
+- Wiggins.
+- Helm.
+
+## Murphy
+
+Parece que es lo mismo de recertificación. Cuando busco los POCs del Care Plan encuentro tres. El más reciente fue creado el 14 de Octubre (dos días antes de que Indy comentara).
+
+Al revisar a fondo puedo ver estos dos POCs:
+
+- Initial Visit: `ebeb4864-8a16-49e3-8272-042abfc6d787`
+	- creado el 31 de Julio
+- Progress Visit: `4ee7ca7b-aa4e-4d5d-8b04-4d4f0c13ec3e`
+	- creado el 14 de Octubre
+
+Nota: también hubo un POC creado el 14 de Septiembre.
+
+Cuando reviso la cantidad de días entre ambos da que son los 75 días para lo de recertificación.
+```sql
+SELECT
+  poc.id,
+  a.visit_type,
+  poc.created_at,
+  LAG(poc.created_at) OVER (ORDER BY poc.created_at) as previous_poc_created,
+  poc.created_at - LAG(poc.created_at) OVER (ORDER BY poc.created_at) as days_between_pocs
+FROM plans_of_care poc
+JOIN charts c ON c.id = poc.chart_id
+JOIN appointments a ON a.id = c.appointment_id
+WHERE poc.id IN (
+  'ebeb4864-8a16-49e3-8272-042abfc6d787',
+  '4ee7ca7b-aa4e-4d5d-8b04-4d4f0c13ec3e'
+)
+ORDER BY poc.created_at;
+```
+
+Resultados:
+```
+days_between_pocs: 75
+```
+
+## Wiggins
+
+
+
+## Helm

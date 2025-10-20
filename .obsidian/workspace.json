@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6d9426b82d6438ec",
+        "id": "5b0fa21871834079",
         "type": "tabs",
         "children": [
           {
-            "id": "32566577635cf0ea",
+            "id": "ccb364300049d6ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "005 - Recordatorio de Form Vencido 🟢"
+              "title": "008 - Update POC Fax and Violation Logic 🟡"
+            }
+          },
+          {
+            "id": "e0784e2d95e71b70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "009 - Stripe Metrics 🟡"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 005 - Recordatorio de Form Vencido 🟢"
+              "title": "Outline of 008 - Update POC Fax and Violation Logic 🟡"
             }
           }
         ],
@@ -165,20 +179,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32566577635cf0ea",
+  "active": "ccb364300049d6ea",
   "lastOpenFiles": [
+    "Luna/Backend/Edge Enums que Importan.md",
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
+    "Luna/Marketplace/MPF/From CA to MPF.md",
+    "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
+    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
+    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
+    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
-    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
@@ -190,11 +209,6 @@
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
-    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
-    "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
