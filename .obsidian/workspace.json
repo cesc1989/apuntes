@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
+                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "009 - Stripe Metrics 🟡"
+              "title": "009 - Stripe Metrics 🟢"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
+                "file": "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 009 - Stripe Metrics 🟡"
+              "title": "Outline of 009 - Stripe Metrics 🟢"
             }
           }
         ],
@@ -183,8 +183,8 @@
   "active": "e0784e2d95e71b70",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
     "Luna/Backend/Edge Enums que Importan.md",
-    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟡.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
