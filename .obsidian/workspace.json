@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "e0784e2d95e71b70",
+            "id": "ccd11f5d67e25feb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,7 +180,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0784e2d95e71b70",
+  "active": "ccd11f5d67e25feb",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",

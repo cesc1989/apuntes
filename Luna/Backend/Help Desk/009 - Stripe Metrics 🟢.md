@@ -219,22 +219,19 @@ edge_stripe_api_call_retries_total 4.0
 edge_stripe_api_call_failures_total 2.0
 ```
 
-# Script para Pruebas simples
+# Verificación
 
 Script para prueba desde rails console:
 ```ruby
-# 1. Initialize counters to 0 in Redis (first time setup)
 MetricsService.write(:stripe_api_call_failures_total, 0)
 MetricsService.write(:stripe_api_call_attempts_total, 0)
 MetricsService.write(:stripe_api_call_retries_total, 0)
 
-# 2. Verify counters are initialized
 metrics = MetricsService.new
 puts "Initial failures: #{metrics.stripe_api_call_failures_total}"
 puts "Initial attempts: #{metrics.stripe_api_call_attempts_total}"
 puts "Initial retries: #{metrics.stripe_api_call_retries_total}"
 
-# 3. Simulate API failure
 begin
   Retryable.with_context(:stripe) do
     raise Stripe::RateLimitError.new("Test rate limit")
@@ -243,9 +240,21 @@ rescue Stripe::RateLimitError => e
   puts "Expected failure: #{e.message}"
 end
 
-# 4. Create NEW instance to read fresh values from Redis
 metrics = MetricsService.new
-puts "After failure - Attempts: #{metrics.stripe_api_call_attempts_total}"  # Should be 3
-puts "After failure - Failures: #{metrics.stripe_api_call_failures_total}"  # Should be 1
-puts "After failure - Retries: #{metrics.stripe_api_call_retries_total}"  # Should be 3
+puts "After failure - Attempts: #{metrics.stripe_api_call_attempts_total}"
+puts "After failure - Failures: #{metrics.stripe_api_call_failures_total}"
+puts "After failure - Retries: #{metrics.stripe_api_call_retries_total}"
+```
+
+Script para comprobar que las keys están guardando valores:
+```ruby
+metrics = MetricsService.new
+puts "Verificando failures: #{metrics.stripe_api_call_failures_total}"
+puts "Verificando attempts: #{metrics.stripe_api_call_attempts_total}"
+puts "Verificando retries: #{metrics.stripe_api_call_retries_total}"
+```
+
+Comprobar las keys en local:
+```ruby
+Rails.cache.instance_variable_get(:@data).keys
 ```
