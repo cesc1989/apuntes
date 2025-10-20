@@ -46,12 +46,12 @@ La implementación fue sencilla y la cabecera responde lo que es pero veo que no
 
 Para lograr esto hay dos opciones:
 
-- Configurar el origen del CDN un bucket de S3
+- Configurar el origen del CDN en un bucket de S3
 	- Forma "direct URL exposure"
 - Configurar el origen del CDN el servidor de la aplicación
 	- Forma Proxy
 
-Para la primera solo hay que configurar el helper en `routes.rb` para que las imágenes carguen directo desde el CDN.
+Para la primera opción hay que configurar el helper en `routes.rb` para que las imágenes carguen directo desde el CDN.
 
 Para la segunda opción es que la recomendación de las guías sobre el setting es que se debe usar.
 
@@ -59,7 +59,8 @@ Para la segunda opción es que la recomendación de las guías sobre el setting 
 
 Seguí el [tutorial](https://headey.net/rails-assets-active-storage-and-a-cloudfront-cdn) y en la parte del policy en el bucket ya AWS se encarga de actualizar eso por mí. No tuve que modificar la policy.
 
-En todo caso ese tutorial me sirvió solo en gran parte. No funcionó totalmente para tener el CDN configurado.
+> [!Note]
+> En todo caso ese tutorial me sirvió solo en gran parte. No funcionó totalmente para tener el CDN configurado.
 
 La forma más fácil para configurar la distribución en CloudFront es usar el origen que sea el bucket en S3. Cuando se hace de esa forma hay que prestar atención al detalle del OAC (Origin Access Control). La clave aquí es elegir lo recomendado por CF.
 

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff23bdc533691030",
+        "id": "e13bfb97b277f999",
         "type": "tabs",
         "children": [
           {
-            "id": "48ad0183497273a5",
+            "id": "318de9355efbbb2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 004"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ciclo 004"
             }
           }
         ],
@@ -160,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48ad0183497273a5",
+  "active": "318de9355efbbb2c",
   "lastOpenFiles": [
+    "DevAsPros/Puntapie/Para la version 1.14.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
