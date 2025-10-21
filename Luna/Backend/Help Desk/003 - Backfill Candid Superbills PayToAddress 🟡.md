@@ -94,11 +94,11 @@ La forma en que este proceso corre es muy lento porque tiene que actualizarse un
 Entonces me puse con Claudio a:
 
 - actualizar la rake inicial para que
-	- reciba una fecha de cierre
+	- reciba un rango de fechas
 	- eliminar el paso dry run
 		- con la fecha de cierre se puede probar con un conjunto de datos más pequeños
 - crear una nueva rake para verificar si los encounters fueron actualizados
-	- recibe también una fecha de cierre para controlar el conjunto de datos
+	- recibe también un rango de fechas para controlar el conjunto de datos
 	- imprime al final una lista de IDs para verificar
 
 Estas son las rakes en general
