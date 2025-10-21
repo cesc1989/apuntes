@@ -114,7 +114,7 @@ bundle exec rake candid:backfill_pay_to_address
 
 Para correr el backfill con una fecha de cierre:
 ```bash
-bundle exec rake candid:backfill_pay_to_address\["2025-12-31"\]
+bundle exec rake candid:backfill_pay_to_address["2025-12-31"]
 ```
 
 ### Verificación
