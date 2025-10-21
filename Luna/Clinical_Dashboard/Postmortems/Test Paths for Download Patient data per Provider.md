@@ -10,27 +10,6 @@ This feature is available for these providers of the Clinical Dashboard:
 
 The objective of this regression test is to make sure the requested download data is scoped correctly only to the provider in the Clinical Dashboard.
 
-## Code
-
-These are the files covering this functionality. Although these all live in `backend` repository the functionality is provided by two different sub-systems:
-
-- data generation: Clinical Dashboard
-- download URL email: Edge
-
-### Clinical Dashboard
-
-In order of execution:
-
-- Controller: `app/controllers/clinical_dashboard/api/v1/download_patient_data_controller.rb`
-- Worker: `app/workers/clinical_dashboard/download_patients_csv_worker.rb`
-- Data generation: `app/lib/clinical_dashboard/download_patient_data.rb`
-- Luxe API call: `app/services/clinical_dashboard/email_patients_csv_service.rb`
-
-### Luxe
-
-Controller: `app/controllers/api/v1/internal/provider_communications_controller.rb`
-Method: `send_patients_csv_download_link`
-
 ## Regression Testing in Alpha
 
 1. Generate a new provider link with the following curl request.
@@ -63,3 +42,24 @@ curl --request POST \
 5. Check your inbox for a download link and click it to download the CSV file.
 6. Open the CSV file and check the data of patients matches what is shown in the "All Seen Patients" in the dashboard.
 	1. Look for the same amount of patients.
+
+## Code
+
+These are the files covering this functionality. Although these all live in `backend` repository the functionality is provided by two different sub-systems:
+
+- data generation: Clinical Dashboard
+- download URL email: Edge
+
+### Clinical Dashboard
+
+In order of execution:
+
+- Controller: `app/controllers/clinical_dashboard/api/v1/download_patient_data_controller.rb`
+- Worker: `app/workers/clinical_dashboard/download_patients_csv_worker.rb`
+- Data generation: `app/lib/clinical_dashboard/download_patient_data.rb`
+- Luxe API call: `app/services/clinical_dashboard/email_patients_csv_service.rb`
+
+### Luxe
+
+Controller: `app/controllers/api/v1/internal/provider_communications_controller.rb`
+Method: `send_patients_csv_download_link`
