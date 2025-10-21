@@ -85,3 +85,46 @@ Practice.find_by(key: 'luna_care')
  notes_for_record_viewer: "",
  notes_for_booking_agent: "">
 ```
+
+
+# Revisión de Estado y Actualización de rake
+
+La forma en que este proceso corre es muy lento porque tiene que actualizarse un Candid Encounter a la vez. No hay API batch a la fecha. Confiaba en que con el pasar de los días se iba a ir viendo reflejado el update pero Christie a comentado que no es así.
+
+Entonces me puse con Claudio a:
+
+- actualizar la rake inicial para que
+	- reciba una fecha de cierra
+	- eliminar el paso dry run
+		- con la fecha de cierre se puede probar con un conjunto de datos más pequeños
+- crear una nueva rake para verificar si los encounters fueron actualizados
+	- recibe también una fecha de cierre para controlar el conjunto de datos
+	- imprime al final una lista de IDs para verificar
+
+Estas son las rakes en general
+
+## Rakes actualizadas
+
+### Backfill
+
+Para correr el backfill en todo el conjunto de años:
+```bash
+bundle exec rake candid:backfill_pay_to_address
+```
+
+Para correr el backfill con una fecha de cierre:
+```bash
+bundle exec rake candid:backfill_pay_to_address\["2025-12-31"\]
+```
+
+### Verificación
+
+Verificación total de todos los años:
+```bash
+bundle exec rake candid:verify_pay_to_address_updates
+```
+
+Verificación con fecha de cierre:
+```bash
+bundle exec rake candid:verify_pay_to_address_updates["2023-01-31"]
+```
