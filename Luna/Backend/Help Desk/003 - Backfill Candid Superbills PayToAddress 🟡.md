@@ -94,7 +94,7 @@ La forma en que este proceso corre es muy lento porque tiene que actualizarse un
 Entonces me puse con Claudio a:
 
 - actualizar la rake inicial para que
-	- reciba una fecha de cierra
+	- reciba una fecha de cierre
 	- eliminar el paso dry run
 		- con la fecha de cierre se puede probar con un conjunto de datos más pequeños
 - crear una nueva rake para verificar si los encounters fueron actualizados
@@ -112,9 +112,9 @@ Para correr el backfill en todo el conjunto de años:
 bundle exec rake candid:backfill_pay_to_address
 ```
 
-Para correr el backfill con una fecha de cierre:
+Para correr el backfill con rango personalizado:
 ```bash
-bundle exec rake candid:backfill_pay_to_address["2025-12-31"]
+bundle exec rake candid:backfill_pay_to_address["2023-01-01","2023-12-31"]
 ```
 
 ### Verificación
@@ -124,7 +124,7 @@ Verificación total de todos los años:
 bundle exec rake candid:verify_pay_to_address_updates
 ```
 
-Verificación con fecha de cierre:
+Verificación con rango personalizado:
 ```bash
-bundle exec rake candid:verify_pay_to_address_updates["2023-01-31"]
+bundle exec rake candid:verify_pay_to_address_updates["2023-01-01","2023-12-31"]
 ```
