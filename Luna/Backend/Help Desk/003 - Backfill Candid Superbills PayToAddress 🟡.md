@@ -128,3 +128,112 @@ Verificación con rango personalizado:
 ```bash
 bundle exec rake candid:verify_pay_to_address_updates["2023-01-01","2023-12-31"]
 ```
+
+# Flujo de toda la operación del backfill
+
+Flujo de todo lo que interviene para lograr esta operación. Así podré tener una idea global de las partes involucradas para revisar logs y Sentries.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│ 1. RAKE TASK                                                        │
+│ lib/tasks/candid.rake:60                                            │
+│ task :backfill_pay_to_address                                       │
+└────────────────────────────┬────────────────────────────────────────┘
+                             │
+                             │ Schedules jobs with 5-second delays
+                             ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│ 2. SIDEKIQ WORKER                                                   │
+│ app/workers/candid/egress/pay_to_address_worker.rb:7                │
+│ Candid::Egress::PayToAddressWorker#perform(appointment_id)          │
+│                                                                     │
+│ - Applies concurrency limit via BACKFILL_LIMIT                      │
+└────────────────────────────┬────────────────────────────────────────┘
+                             │
+                             │ Calls sync method
+                             ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│ 3. ENCOUNTER MANAGER                                                │
+│ app/candid/candid/encounter_manager.rb:144                          │
+│ Candid::EncounterManager.sync_pay_to_address_update_encounter!      │
+│                                                                     │
+│ Step 3a: locate_appointment(appointment_id) [line 158]              │
+│   - Loads appointment with associations:                            │
+│     * episode.clinic (needed for pay_to_address)                    │
+│     * therapist, chart, insurance, patient, payer, etc.             │
+│                                                                     │
+│ Step 3b: Wraps in error capture [line 147]                          │
+│   Candid::SyncBillingDataService.with_error_capture                 │
+│                                                                     │
+│ Step 3c: Build pay_to_address_params [line 148-152]                 │
+│   {                                                                 │
+│     "external_id" => appointment.id,                                │
+│     "pay_to_address" => Mappers method result                       │
+│   }                                                                 │
+└────────────────────────────┬────────────────────────────────────────┘
+                             │
+                   ┌─────────┴─────────┐
+                   │                   │
+                   ▼                   ▼
+    ┌──────────────────────┐  ┌──────────────────────────┐
+    │ 4a. MAPPER           │  │ 4b. CLIENT               │
+    │ app/candid/candid/   │  │ app/candid/candid/       │
+    │ mappers/             │  │ client.rb:229            │
+    │ appointment_to_      │  │                          │
+    │ candid_encounter.rb  │  │ raw_params_update_       │
+    │                      │  │ candid_encounter!        │
+    │ pay_to_address_field │  │                          │
+    │ (line 225)           │  │ - Gets candid_encounter  │
+    │                      │  │ - Calls Candid API       │
+    │ Transforms clinic    │  │   with retry logic       │
+    │ address fields into  │  │ - Updates claim_id       │
+    │ Candid format        │  │                          │
+    └──────────┬───────────┘  └──────────┬───────────────┘
+               │                         │
+               │ Calls                   │ Makes HTTP request
+               ▼                         ▼
+    ┌──────────────────────┐  ┌──────────────────────────┐
+    │ address_field        │  │ 5. CANDID ENCOUNTER      │
+    │ (line 696)           │  │ lib/candid/encounter.rb  │
+    │                      │  │                          │
+    │ Returns:             │  │ Candid::Encounter.update!│
+    │ {                    │  │ (line 11)                │
+    │   address1: str,     │  │                          │
+    │   address2: str,     │  │ Delegates to ApiClient   │
+    │   city: str,         │  └──────────┬───────────────┘
+    │   state: str,        │             │
+    │   zip_code: str,     │             │ HTTP PATCH
+    │   zip_plus_four_code │             ▼
+    │ }                    │  ┌──────────────────────────┐
+    └──────────────────────┘  │ 6. API CLIENT            │
+                              │ lib/candid/              │
+                              │ api_client.rb            │
+                              │                          │
+                              │ update_endpoint!         │
+                              │                          │
+                              │ PATCH /api/encounters/   │
+                              │ v4/{encounter_id}        │
+                              └──────────┬───────────────┘
+                                         │
+                                         │ HTTP Response
+                                         ▼
+                              ┌──────────────────────────┐
+                              │ 7. CANDID API            │
+                              │ (External Service)       │
+                              │                          │
+                              │ Updates encounter        │
+                              │ pay_to_address field     │
+                              └──────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│ ERROR HANDLING                                                      │
+│ app/candid/candid/sync_billing_data_service.rb:131                  │
+│ with_error_capture                                                  │
+│                                                                     │
+│ - Catches Candid::ApiException                                      │
+│ - Creates/updates CandidUpstreamException record                    │
+│ - Stores: endpoint, operation, request_id, response_code,           │
+│           error_name, error_instance_id, content                    │
+│ - Re-raises exception (Sidekiq will retry)                          │
+└─────────────────────────────────────────────────────────────────────┘
+```
