@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "001 - MPF con Dup Folders"
             }
+          },
+          {
+            "id": "098dd435e875da2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Nuevo Config del MPF"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",
+                "file": "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001 - MPF con Dup Folders"
+              "title": "Outline of Nuevo Config del MPF"
             }
           }
         ],
@@ -165,7 +180,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "538361dbfb05a992",
+  "active": "098dd435e875da2e",
   "lastOpenFiles": [
     "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",
     "Luna/Marketplace/Help Desk",

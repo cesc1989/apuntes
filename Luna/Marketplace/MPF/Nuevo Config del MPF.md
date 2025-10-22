@@ -1,5 +1,7 @@
 # Nuevo Config del MPF
 
+Etiquetas: #luna_help_desk 
+
 Por los múltiples problemas que Marketplace encontraba con la configuración de varias Service Accounts llegando al límite de archivos, Ryan decidió cambiar la forma en que el MPF funciona. Aquí trataré de ir describiendo todo lo nuevo.
 
 ## Legacy
