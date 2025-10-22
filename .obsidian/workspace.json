@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c2f5dc4933864460",
+        "id": "f0cdc55d651dc925",
         "type": "tabs",
         "children": [
           {
-            "id": "e9969eba65e07dd6",
+            "id": "538361dbfb05a992",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
+                "file": "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Nuevo Config del MPF"
-            }
-          },
-          {
-            "id": "753eb82f1793603d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Configurando_Marketplace"
+              "title": "001 - MPF con Dup Folders"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando_Marketplace"
+              "title": "Outline of 001 - MPF con Dup Folders"
             }
           }
         ],
@@ -180,8 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "753eb82f1793603d",
+  "active": "538361dbfb05a992",
   "lastOpenFiles": [
+    "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",
+    "Luna/Marketplace/Help Desk",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
@@ -209,7 +196,6 @@
     "Luna/Backend/Episodes/Episode Discharge Process.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
@@ -227,7 +213,6 @@
     "Luna/Marketplace/Appointments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/untitled folder",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/attachments",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
