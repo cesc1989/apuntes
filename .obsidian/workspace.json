@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "167599ee9ad9fad9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
-            }
-          },
-          {
             "id": "dafaffc471460725",
             "type": "leaf",
             "state": {
@@ -34,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Configurando_Marketplace"
             }
-          },
-          {
-            "id": "02c0027aa19819cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "S3_to_GDrive_Set_up"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,12 +168,12 @@
   "active": "dafaffc471460725",
   "lastOpenFiles": [
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
     "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",

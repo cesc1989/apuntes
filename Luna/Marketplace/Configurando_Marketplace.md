@@ -273,12 +273,14 @@ FLASK_APP=marketplace/application.py
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 ```
 
-Así se lanza el web server:
+Primero debes ubicarte en la carpeta app `cd app/`.
+
+Lanza el flask server:
 ```bash
 flask run
 ```
 
-y así para lanzar un worker:
+Lanzar un worker de rq:
 ```bash
 rq worker -c marketplace.settings_rq_worker_default
 ```
