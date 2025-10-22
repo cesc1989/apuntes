@@ -28,15 +28,14 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Marketplace/Configurando_Marketplace.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Configurando_Marketplace"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando_Marketplace"
+              "title": "Outline of Nuevo Config del MPF"
             }
           }
         ],
@@ -180,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "753eb82f1793603d",
+  "active": "e9969eba65e07dd6",
   "lastOpenFiles": [
-    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
