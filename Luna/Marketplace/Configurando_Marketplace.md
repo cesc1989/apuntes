@@ -247,11 +247,14 @@ pipenv shell
 
 ## Flask Shell (como Rails console)
 
-Hay que movernos a la carpeta app para lanzar la shell de Flask y ejecutar comandos:
+Hay que movernos a la carpeta app para lanzar la shell de Flask:
 ```python
 cd app/
 FLASK_APP=marketplace/application.py flask shell
+```
 
+Ya dentro de la shell podemos lanzar diferentes comandos de librerias
+```python
 from marketplace.visit_plan import jobs
 jobs.write_visit_plans_to_data_lake()
 
@@ -271,12 +274,14 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 ```
 
 Así se lanza el web server:
-
-    flask run
+```bash
+flask run
+```
 
 y así para lanzar un worker:
-
-    rq worker -c marketplace.settings_rq_worker_default
+```bash
+rq worker -c marketplace.settings_rq_worker_default
+```
 
 # Ejecutar Flask local
 

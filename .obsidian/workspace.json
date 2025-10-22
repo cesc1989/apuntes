@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
             }
+          },
+          {
+            "id": "dafaffc471460725",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Configurando_Marketplace"
+            }
+          },
+          {
+            "id": "02c0027aa19819cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "S3_to_GDrive_Set_up"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of Configurando_Marketplace"
             }
           }
         ],
@@ -165,25 +194,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "167599ee9ad9fad9",
+  "active": "dafaffc471460725",
   "lastOpenFiles": [
+    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
+    "Luna/Marketplace/MPF/From CA to MPF.md",
+    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
+    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+    "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
     "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
     "Luna/Backend/Edge Enums que Importan.md",
-    "Luna/Marketplace/MPF/From CA to MPF.md",
-    "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
-    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
-    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
-    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Puntapie/Para la version 1.14.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
@@ -194,7 +224,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "Luna/Backend/Comandos Edge.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
