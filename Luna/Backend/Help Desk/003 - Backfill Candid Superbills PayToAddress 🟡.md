@@ -237,3 +237,40 @@ Flujo de todo lo que interviene para lograr esta operación. Así podré tener u
 │ - Re-raises exception (Sidekiq will retry)                          │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+# Seguimiento por Años
+
+Voy a pedir correr la rake del backfill por años para hacerle seguimiento.
+
+## 2023
+
+Rake:
+```bash
+bundle exec rake candid:backfill_pay_to_address["2023-01-01","2023-12-31"]
+```
+
+- [ ] Revisar cantidad de appts para 2023
+- [ ] Pedir rake para 2023
+- [ ] Pedir rake para verificar 2023
+
+## 2024
+
+Rake:
+```bash
+bundle exec rake candid:backfill_pay_to_address["2024-01-01","2024-12-31"]
+```
+
+- [ ] Revisar cantidad de appts para 2024
+- [ ] Pedir rake para 2024
+- [ ] Pedir rake para verificar 2024
+
+## 2025
+
+Rake:
+```bash
+bundle exec rake candid:backfill_pay_to_address["2025-01-01","2024-09-30"]
+```
+
+- [ ] Revisar cantidad de appts para 2025
+- [ ] Pedir rake para 2025
+- [ ] Pedir rake para verificar 2025
