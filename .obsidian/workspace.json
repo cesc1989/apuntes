@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8fbf8604fd14815e",
+        "id": "c2f5dc4933864460",
         "type": "tabs",
         "children": [
           {
-            "id": "dafaffc471460725",
+            "id": "e9969eba65e07dd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
-                "mode": "preview",
+                "file": "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configurando_Marketplace"
+              "title": "Nuevo Config del MPF"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando_Marketplace"
+              "title": "Outline of Nuevo Config del MPF"
             }
           }
         ],
@@ -165,10 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dafaffc471460725",
+  "active": "e9969eba65e07dd6",
   "lastOpenFiles": [
-    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
+    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
@@ -194,7 +195,6 @@
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
-    "Luna/Backend/Comandos Edge.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
