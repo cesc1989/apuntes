@@ -131,3 +131,7 @@ Processing by CspViolationsController#report as */*
 
 Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 797)
 ```
+
+## Pruebas en Alpha y Omega
+
+Pude usar el mismo script JS y comprobar que en Sentry se recibe el error de la violación de la política.
