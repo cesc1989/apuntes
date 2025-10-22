@@ -228,6 +228,8 @@ Successfully installed flask-2.3.3
 
 # Lanzar un servidor flask
 
+## Preparativos (opcionales)
+
 Primero necesitamos generar una BD backup en alpha para usarla:
 ```bash
 alpha_marketplace_generate_dump
@@ -238,10 +240,17 @@ Después se usa la respuesta que arroja en el canal eng-infra para obtener las c
 luna rds get-dev-db-creds -p alpha -d dev-francisco-alpha-marketplace-05-27t21-17
 ```
 
-En esta parte el primer comando es seguido por el del README pero parece que basta solo con el `pipenv shell` para cargar las variables de entorno en el ambiente virtual:
+## Cargar pipenv shell
+
+En esta parte el primer comando es seguido por el del README pero parece que basta solo con el `pipenv shell` para cargar las variables de entorno en el ambiente virtual.
+
+Sería entonces este comando + el siguiente:
 ```bash
 pipenv --python $(pyenv which python3.12)
+```
 
+O solo este:
+```
 pipenv shell
 ```
 
