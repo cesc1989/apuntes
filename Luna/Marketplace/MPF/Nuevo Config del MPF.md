@@ -103,3 +103,15 @@ Here's what happens when a therapist uploads a resume:
 	 ├─> ✨ MPF Backlink ✨ → Points to S3 Clone folder
 	 └─> resume.pdf → Shortcut to Processed Drive PDF
 ```
+
+
+### ¿Por qué de esta forma?
+
+From the PR description, this architecture solves several problems:
+
+1. Deduplication: Files aren't copied multiple times (uses shortcuts)
+2. Organization: Humans see friendly names, systems see UUIDs
+3. Processing: Separates originals from processed versions
+4. Backup: S3 Clone acts as a safety net
+5. Google Drive Limits: Avoids hitting the 500K file limit by using shortcuts
+
