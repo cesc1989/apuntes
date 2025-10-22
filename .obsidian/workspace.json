@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6aa23360cca3c3e6",
+        "id": "3601954e22e66c8e",
         "type": "tabs",
         "children": [
           {
-            "id": "2ea666513acb21ef",
+            "id": "eb13d6be98bb9288",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "010 - Tamper Detection Evidence for PCI DSS"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 010 - Tamper Detection Evidence for PCI DSS"
             }
           }
         ],
@@ -160,14 +165,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ea666513acb21ef",
+  "active": "eb13d6be98bb9288",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/Help Desk",
-    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
@@ -189,8 +196,6 @@
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
     "Luna/Backend/Episodes/Episode Discharge Process.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
