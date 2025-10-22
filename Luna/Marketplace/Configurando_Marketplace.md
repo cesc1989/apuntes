@@ -247,9 +247,8 @@ pipenv shell
 
 ## Flask Shell (como Rails console)
 
-Hay que movernos a la carpeta app para lanzar la shell de Flask:
+Hay que movernos a la carpeta app (`cd app/`) para lanzar la shell de Flask:
 ```python
-cd app/
 FLASK_APP=marketplace/application.py flask shell
 ```
 
