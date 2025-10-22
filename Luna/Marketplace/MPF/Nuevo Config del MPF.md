@@ -26,4 +26,11 @@ El email es:
 nalufilesmagic@nalu2023.iam.gserviceaccount.com
 ```
 
-Las carpetas deberían llamarse:
+Las carpetas pueden llamarse como sea. Al final lo que nos interesa son los IDs. Claudio sugiere estos nombres:
+```
+MPF-S3-Clone-Test          → MPF_S3_CLONE_DRIVE_TEST_ID
+MPF-Processed-Test         → MPF_PROCESSED_DRIVE_TEST_ID
+MPF-Human-Test             → MPF_HUMAN_DRIVE_TEST_ID
+MPF-Legacy-Test (optional) → MPF_LEGACY_DRIVE_TEST_ID
+```
+
