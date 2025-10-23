@@ -86,3 +86,14 @@ enum kind: {
 	rejected_by_physician_handled_by_admin: 5
 }
 ```
+
+## PayerAuthorization
+
+Enum `request_status` en PayerAuthorization:
+```ruby
+enum request_status: {
+	pending_authorization: 0,
+	granted: 1,
+	denied: 2
+}
+```
