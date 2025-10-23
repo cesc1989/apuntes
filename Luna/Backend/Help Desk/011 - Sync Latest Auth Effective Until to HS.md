@@ -61,3 +61,27 @@ Reward Updates
 - Trigger: `app/admin/customers/patients.rb:362`
 - When: Admin manually triggers sync from patient admin page
 
+
+### Callbacks en Episode
+
+Para hacer syncs a HubSpot desde el care plan el sistema se vale de varios callbacks cuando se crea o actualiza un care plan. Estas funciones usan el worker `Hubspot::UpdateContactPropertiesWorker` para actualizar propiedades puntuales de cada Contacto.
+
+Ejemplo:
+```ruby
+after_commit :sync_hubspot_active_status, on: [:create, :update]
+
+# (...)
+
+def sync_hubspot_active_status
+	return if draft?
+	return unless most_recent_care_plan?
+
+	Hubspot::UpdateContactPropertiesWorker.perform_async(
+		patient_id,
+		{
+			active_care_plan: active?,
+			care_plan_scheduling_enabled: discharged? ? nil : scheduling_enabled
+		}.as_json
+	)
+end
+```
