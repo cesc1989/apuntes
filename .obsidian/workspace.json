@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "6d425ff92b96d07d",
+        "id": "7d801f429b8d70cd",
         "type": "tabs",
         "children": [
           {
-            "id": "c11c68c364539ae9",
+            "id": "0c5eb500beb85388",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "002 - Export Care Plan status to HubSpot ✅"
+            }
+          },
+          {
+            "id": "750b2561625aa18d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Configuracion de Propiedades en HubSpot"
+            }
+          },
+          {
+            "id": "763620257bde1efa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "010 - Tamper Detection Evidence for PCI DSS 🟡"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of 010 - Tamper Detection Evidence for PCI DSS 🟡"
             }
           }
         ],
@@ -165,10 +194,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c11c68c364539ae9",
+  "active": "763620257bde1efa",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS.md",
+    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
+    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+    "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟡.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",
@@ -194,8 +225,6 @@
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
     "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
-    "Luna/Backend/Appointments/Send Intake Form Link to Patient.md",
-    "Luna/Backend/Episodes/Episode Discharge Process.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",

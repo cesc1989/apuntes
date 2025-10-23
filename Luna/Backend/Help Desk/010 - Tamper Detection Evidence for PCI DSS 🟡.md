@@ -135,3 +135,67 @@ Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 797)
 ## Pruebas en Alpha y Omega
 
 Pude usar el mismo script JS y comprobar que en Sentry se recibe el error de la violación de la política.
+
+# Scripts en Página de Pagos
+
+Fausto pidió información sobre qué scripts se cargan en la página de pagos. Expongo eso a continuación.
+
+## Página de Pagos
+
+Tenemos varias rutas para todo esto:
+```ruby
+resources :payments, only: :index
+resources :payments_thankyou
+resources :paid
+
+get "/update_card" => "credit_card#update_page"
+get "/update_card/thank_you" => "credit_card#thank_you"
+post "/credit_card/update" => "credit_card#update"
+
+post "/submit_payment" => "submit_payment#submit"
+```
+
+El layout es `app/views/layouts/payments.html.erb`. Es en este donde se configura el script de Stripe.
+
+Para poder abrir una página es necesario un token para pagar. Sino el controlador redirige a otro lugar:
+```ruby
+class PaymentsController < ApplicationController
+  layout "payments"
+  def index
+    @patient = Patient.find_by(payment_token: params[:aid])
+
+    if params[:aid].blank?
+      redirect_to("https://www.getluna.com", allow_other_host: true)
+    elsif @patient.blank?
+      redirect_to paid_index_path
+    else
+      # (...)
+    end
+  end
+end
+```
+
+
+Fabricio me dio este script para sacar páginas para actualizar tarjeta:
+```ruby
+urls = Patient.where.not(payment_method_token: nil).limit(15).map {|p| "#{ENV.fetch("ROOT_URL")}/update_card?failed_payment_token=#{p.payment_method_token}"}
+```
+
+Ahí me da la idea para buscar pacientes para poder probar esta página.
+
+## Detalles de Script de Stripe
+
+Claudio me dio estos detalles que me parecen relevantes.
+
+**Script**: Stripe JavaScript SDK v3
+
+**Description**: Official Stripe payment processing SDK. Provides secure tokenization of credit card data and creates isolated payment form elements (Stripe Elements).
+
+- Creates secure card input elements
+- Tokenizes card data without exposing it to Luna servers
+- Communicates directly with Stripe API
+- Handles PCI-compliant card data collection
+
+**Integrity**:
+
+CSP domain whitelist + HTTPS + `crossorigin="anonymous"` attribute.
