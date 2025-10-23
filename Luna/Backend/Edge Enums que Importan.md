@@ -14,7 +14,12 @@ Episodes have a `status` enum with these values:
 
 Definición:
 ```ruby
-enum status: { active: 0, auto_discharged: 1, treatment_completed: 2, draft: 666 }
+enum status: {
+  active: 0,
+  auto_discharged: 1,
+  treatment_completed: 2,
+  draft: 666
+}
 ```
 
 ## Appointment

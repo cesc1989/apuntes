@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "011 - Sync Latest Auth Effective Until to HS"
             }
+          },
+          {
+            "id": "f79ae1225d92b3c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Edge Enums que Importan"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS.md",
+                "file": "Luna/Backend/Edge Enums que Importan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 011 - Sync Latest Auth Effective Until to HS"
+              "title": "Outline of Edge Enums que Importan"
             }
           }
         ],
@@ -165,8 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c36e2e1bf344f2cf",
+  "active": "f79ae1225d92b3c4",
   "lastOpenFiles": [
+    "Luna/Backend/Patients/Example Patients.md",
+    "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS.md",
     "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
@@ -186,7 +203,6 @@
     "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
-    "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Puntapie/Para la version 1.14.md",
@@ -195,7 +211,6 @@
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
