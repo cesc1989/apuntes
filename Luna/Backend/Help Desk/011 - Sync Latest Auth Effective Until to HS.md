@@ -1,0 +1,63 @@
+# 011 - Sync Care Plan Latest Auth Effective Until to HubSpot
+
+Etiquetas: #luna_help_desk 
+
+Caso EDG-1854
+
+Pidieron sincronizar la fecha que aparece en el recuadro "Latest Auth Effective Until" que se muestra en la sección Care Plan del perfil de un paciente.
+
+## Solución
+
+Hay que completar este sync desde dos frentes:
+
+- Clase `Hubspot::SyncPatientService`
+	- Para cubrir:
+		- Manual sync desde Luxe
+		- Sync general
+- Callbacks en `Episode` cuando se cree o actualice el care plan
+
+### Clase `Hubspot::SyncPatientService`
+
+Se usa para hacer un update al completo del contacto en HubSpot. Se invoca unicamente desde `Hubspot::SyncPatientWorker`. Este worker es encolado desde diferentes partes del sistema:
+
+Le pedí a Claudio encontrar los lugares desde donde se encola al worker. Esto encontró:
+
+**Patient Creation**
+  - Trigger: `app/models/patient.rb:192`
+  - When: After a patient is created (via after_create_commit)
+  - Condition: Patient is not in draft status
+  
+  ```ruby
+  after_create_commit :sync_hubspot, unless: :draft?
+  ```
+
+**Patient Onboarding Finalization**
+- Trigger: `app/grimoire/omni/actions/finalize_patient_onboarding.rb:61`
+- When: When patient onboarding is completed in Omni
+
+**Case Creation Finalization**
+- Trigger: `app/grimoire/omni/actions/finalize_case_creation.rb:57`
+- When: When a new case (care plan) is finalized in Omni
+
+**Patient Merge Operations**
+- Trigger: `app/services/patient_merge_manager.rb:31`
+- When: After patients are merged
+
+Reward Updates
+- Trigger: `app/models/reward.rb:37`
+- When: After a reward is updated (delayed by 10 seconds)
+
+**Tip Creation**
+- Trigger: `app/models/tip.rb:78`
+- When: After a tip is created (delayed by 10 seconds)
+
+**Batch Sync Operations**
+- Triggered by:
+	- `HubspotSyncContactsService` - Bulk contact syncing
+	- `HubspotSyncMultiplePatientsWorker` - Multiple patient syncing
+	- `HubspotSyncPatientsWithUpdatedEpisodesWorker` - Syncs patients whose episodes were updated in the last 7 days
+
+**Manual Admin Sync**
+- Trigger: `app/admin/customers/patients.rb:362`
+- When: Admin manually triggers sync from patient admin page
+

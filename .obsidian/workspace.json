@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4847c25d602198d0",
+        "id": "204d3eb4254b36c7",
         "type": "tabs",
         "children": [
           {
-            "id": "90a10d2b3987b8e3",
+            "id": "c36e2e1bf344f2cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
+                "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "010 - Tamper Detection Evidence for PCI DSS 🟢"
+              "title": "011 - Sync Latest Auth Effective Until to HS"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
+                "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 010 - Tamper Detection Evidence for PCI DSS 🟢"
+              "title": "Outline of 011 - Sync Latest Auth Effective Until to HS"
             }
           }
         ],
@@ -165,12 +165,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90a10d2b3987b8e3",
+  "active": "c36e2e1bf344f2cf",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS.md",
+    "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
-    "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
@@ -195,7 +196,6 @@
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Appointments/Definicion de Metodos Extra.md",
-    "Luna/Backend/Appointments/Crear Appointments en Alpha.md",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
