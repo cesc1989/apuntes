@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "204d3eb4254b36c7",
+        "id": "5e44e4e3274b63c4",
         "type": "tabs",
         "children": [
           {
-            "id": "c36e2e1bf344f2cf",
+            "id": "ce595433a4e523bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "011 - Sync Latest Auth Effective Until to HS"
             }
-          },
-          {
-            "id": "f79ae1225d92b3c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Edge Enums que Importan"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Edge Enums que Importan"
+              "title": "Outline of 011 - Sync Latest Auth Effective Until to HS"
             }
           }
         ],
@@ -180,12 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f79ae1225d92b3c4",
+  "active": "ce595433a4e523bb",
   "lastOpenFiles": [
-    "Luna/Backend/Patients/Example Patients.md",
-    "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS.md",
     "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
+    "Luna/Backend/Edge Enums que Importan.md",
+    "Luna/Backend/Patients/Example Patients.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
