@@ -6,6 +6,32 @@ Caso EDG-1854
 
 Pidieron sincronizar la fecha que aparece en el recuadro "Latest Auth Effective Until" que se muestra en la sección Care Plan del perfil de un paciente.
 
+## Contexto
+
+Dicha fecha se determina en `app/admin/care_plans.rb:385` así:
+```ruby
+row "Latest Auth Effective Until" do |care_plan|
+	latest_date = care_plan&.latest_authorized_visit_date
+
+	next if latest_date.blank?
+
+	I18n.l(latest_date)
+end
+```
+
+Y así luce el método `latest_authorized_visit_date` en el modelo Episode
+```ruby
+def latest_authorized_visit_date
+	cache_key = "#{cache_key_with_version}/latest_authorized_visit_date"
+
+	Rails.cache.fetch(cache_key, expires_in: 5.minutes, skip_nil: true) do
+		PayerAuthorization.latest(authorizations.to_a.select(&:granted?))&.effective_until
+	end
+end
+```
+
+
+
 ## Solución
 
 Hay que completar este sync desde dos frentes:
