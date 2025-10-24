@@ -31,7 +31,6 @@ end
 ```
 
 
-
 ## Solución
 
 Hay que completar este sync desde dos frentes:
@@ -92,7 +91,7 @@ Reward Updates
 
 Para solo lanzar un sync a HubSpot cuando se cree, actualice o borre un registro de `payer_authorizations` el callback lo moví a este modelo.
 
-### Callbacks en Episode
+### Callbacks en Episode 🔴
 
 > [!Warning]
 > Esta alternativa no la implementé. Dado a que Ryan pidió hacer el sync cuando el valor de `latest_authorized_visit_date` haya cambiado.
@@ -122,4 +121,22 @@ def sync_hubspot_active_status
 	)
 end
 ```
+
+
+## Pruebas
+
+Patient: http://localhost:3000/admin/patients/15a2e992-26da-43f4-a00a-85f6833ee2da
+Care Plan: `045c18d0-4583-42b5-b955-e3b83fe555d2`
+HubSpot: `93792465214`
+
+**Descripción**: Care Plan con un Payer Authorization con `effective_until` 01/01/26 con estado `granted`. Creo un nuevo authorization con `effective_until` inferior al primero con estado `pending`. ¿Qué debe pasar?
+
+- [x] La propiedad `latest_auth_effective_until` será igual a 01/01/2026.
+	- Porque el care plan solo le importa lo que esté en `granted`.
+
+
+**Descripción**: Cambio el auth en `pending` a `granted`. ¿Qué debe pasar?
+
+- [x] La propiedad `latest_auth_effective_until` será igual a la fecha del nuevo auth.
+	- Porque PayerAuthorization hace un ordenado teniendo en cuenta la fecha `submitted_at` del registro.
 
