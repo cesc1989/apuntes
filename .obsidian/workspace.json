@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟡.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of 011 - Sync Latest Auth Effective Until to HS 🟡"
             }
           }
         ],
@@ -180,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc650749736e5b2d",
+  "active": "6dc11804e8464e34",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟡.md",
     "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Edge Enums que Importan.md",
@@ -190,7 +190,6 @@
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders.md",

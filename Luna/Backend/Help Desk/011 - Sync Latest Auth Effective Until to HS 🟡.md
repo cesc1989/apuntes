@@ -30,10 +30,28 @@ def latest_authorized_visit_date
 end
 ```
 
+> [!Tip]
+> Solo se tienen en cuenta los authorizations en estado `granted`.
+
+> [!Note]
+> El modelo `PayerAuthorization` tiene un soft delete. Cuando reviso los registros en la base de datos pueden aparecer más de los que muestra la UI. Es porque están "borrados".
+
+
 ### Modelo PayerAuthorization
 
+La función `PayerAuthorization.latest` tiene unas peculiaridades:
 
+- llama a la función `default_ordering` que ordena los authorizations de por `submitted_at` y `effective_until`
+	- De esta forma se tiene en cuenta primero cuándo fue generado.
+- la función `latest` retorna el `last` del ordenado que retorna la función anterior.
 
+Ejemplo de Claudio:
+```
+1. Auth 1: Submitted 2020-02-04, Effective Until 2026-01-01
+2. Auth 2: Submitted 2025-10-24, Effective Until 2025-12-01 ← This is "latest"
+```
+
+Y es lo que pasa en la prueba que tengo más adelante. Es que el segundo que se generó más temprano lleva prioridad aunque el 1ero tenga fecha effective más tardía.
 
 ## Solución
 
