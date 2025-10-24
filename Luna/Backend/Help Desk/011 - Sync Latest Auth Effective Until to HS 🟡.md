@@ -30,6 +30,10 @@ def latest_authorized_visit_date
 end
 ```
 
+### Modelo PayerAuthorization
+
+
+
 
 ## Solución
 

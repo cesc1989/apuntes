@@ -250,7 +250,7 @@ bundle exec rake candid:backfill_pay_to_address["2023-01-01","2023-12-31"]
 ```
 
 - [ ] Revisar cantidad de appts para 2023
-- [ ] Pedir rake para 2023
+- [x] Pedir rake para 2023
 - [ ] Pedir rake para verificar 2023
 
 ## 2024
