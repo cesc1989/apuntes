@@ -40,7 +40,8 @@ Hay que completar este sync desde dos frentes:
 	- Para cubrir:
 		- Manual sync desde Luxe
 		- Sync general
-- Callbacks en `Episode` cuando se cree o actualice el care plan
+- ~~Callbacks en `Episode` cuando se cree o actualice el care plan~~
+- Callback en `PayerAuthorization`
 
 ### Clase `Hubspot::SyncPatientService`
 
@@ -87,8 +88,18 @@ Reward Updates
 - Trigger: `app/admin/customers/patients.rb:362`
 - When: Admin manually triggers sync from patient admin page
 
+### Callback en PayerAuthorization
+
+Para solo lanzar un sync a HubSpot cuando se cree, actualice o borre un registro de `payer_authorizations` el callback lo moví a este modelo.
 
 ### Callbacks en Episode
+
+> [!Warning]
+> Esta alternativa no la implementé. Dado a que Ryan pidió hacer el sync cuando el valor de `latest_authorized_visit_date` haya cambiado.
+>
+> Dado a que eso es calculado no es posible sacar el anterior y el posterior porque el sync se da desde un callback `after_commit`.
+>
+> La alternativa es hacer el sync desde el modelo `PayerAuthorization`.
 
 Para hacer syncs a HubSpot desde el care plan el sistema se vale de varios callbacks cuando se crea o actualiza un care plan. Estas funciones usan el worker `Hubspot::UpdateContactPropertiesWorker` para actualizar propiedades puntuales de cada Contacto.
 
@@ -111,3 +122,4 @@ def sync_hubspot_active_status
 	)
 end
 ```
+
