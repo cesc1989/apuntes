@@ -249,7 +249,8 @@ Rake:
 bundle exec rake candid:backfill_pay_to_address["2023-01-01","2023-12-31"]
 ```
 
-- [ ] Revisar cantidad de appts para 2023
+- [x] Revisar cantidad de appts para 2023
+- Hay 49_755. 
 - [x] Pedir rake para 2023
 - [ ] Pedir rake para verificar 2023
 
@@ -261,6 +262,7 @@ bundle exec rake candid:backfill_pay_to_address["2024-01-01","2024-12-31"]
 ```
 
 - [ ] Revisar cantidad de appts para 2024
+- Hay 449_251
 - [ ] Pedir rake para 2024
 - [ ] Pedir rake para verificar 2024
 
@@ -271,6 +273,7 @@ Rake:
 bundle exec rake candid:backfill_pay_to_address["2025-01-01","2024-09-30"]
 ```
 
-- [ ] Revisar cantidad de appts para 2025
+- [x] Revisar cantidad de appts para 2025
+- Hay 454_005.
 - [ ] Pedir rake para 2025
 - [ ] Pedir rake para verificar 2025
