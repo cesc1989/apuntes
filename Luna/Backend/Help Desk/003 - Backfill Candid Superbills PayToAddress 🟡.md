@@ -261,7 +261,7 @@ Rake:
 bundle exec rake candid:backfill_pay_to_address["2024-01-01","2024-12-31"]
 ```
 
-- [ ] Revisar cantidad de appts para 2024
+- [x] Revisar cantidad de appts para 2024
 - Hay 449_251
 - [ ] Pedir rake para 2024
 - [ ] Pedir rake para verificar 2024
