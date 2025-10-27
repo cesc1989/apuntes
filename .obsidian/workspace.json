@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7ae51ca39ec5427b",
+        "id": "5acf13732258ea05",
         "type": "tabs",
         "children": [
           {
-            "id": "218ad753d2392c46",
+            "id": "567c9ebd8eb42b23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "011 - Sync Latest Auth Effective Until to HS 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of 011 - Sync Latest Auth Effective Until to HS 🟢"
             }
           }
         ],
@@ -165,12 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "218ad753d2392c46",
+  "active": "567c9ebd8eb42b23",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/A_Philosophy_of_Software_Design/Cap_7_-_Different_Layer,_Different_Abstraction.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟡.md",
+    "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟢.md",
     "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
