@@ -262,6 +262,10 @@ Estimated completion: 2025-10-27 05:28:12 PDT
 
 - [ ] Pedir rake para verificar 2023
 
+```bash
+bundle exec rake candid:verify_pay_to_address_updates["2023-01-01","2023-12-31"]
+```
+
 ## 2024
 
 Rake:
