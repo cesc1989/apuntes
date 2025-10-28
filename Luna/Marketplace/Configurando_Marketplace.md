@@ -361,7 +361,7 @@ cd app && DATABASE_URL=postgresql://lunacareadmin:postgres@localhost/luna_test p
 
 ## Activa extensión PostGIS
 
-```
+```bash
 psql -U lunacareadmin luna_test -c "CREATE EXTENSION IF NOT EXISTS postgis;"
 ```
 
