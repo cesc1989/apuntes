@@ -293,7 +293,7 @@ Lanzar un worker de rq:
 rq worker -c marketplace.settings_rq_worker_default
 ```
 
-# Ejecutar Flask local
+## Ejecutar Flask local
 
 Teniendo claro que el comando pipenv instala todos los paquetes y que había que correr el comando descrito en el README, al fin pude hacer de manera exitosa:
 ```bash
@@ -323,7 +323,7 @@ INFO:werkzeug:Press CTRL+C to quit
 INFO:werkzeug: * Restarting with stat
 ```
 
-# Pruebas
+# Pruebas 🚧
 
 Hay que configurar la base de datos de prueba según como se indica en `.env.test`.
 ```bash
@@ -359,6 +359,12 @@ psql -U lunacareadmin luna_test -c "CREATE SCHEMA marketplace;"
 cd app && DATABASE_URL=postgresql://lunacareadmin:postgres@localhost/luna_test pipenv run alembic -c alembic.ini upgrade head
 ```
 
+## Activa extensión PostGIS
+
+```
+psql -U lunacareadmin luna_test -c "CREATE EXTENSION IF NOT EXISTS postgis;"
+```
+
 ## Correr prueba en particular
 
 Hay que correr desde la carpeta `app/`
@@ -369,7 +375,7 @@ PIPENV_DOTENV_LOCATION='../.env.test' pipenv run pytest --disable-socket --inclu
 ```
 
 
-# ENV Vars
+# ENV Vars 
 
 Estas son la variables de entorno que he visto son necesarias. Algunas no se mencionan.
 
@@ -395,7 +401,7 @@ RQ_DASHBOARD_PASSWORD=clavesegura
 DATA_LAKE_BUCKET=somelakebucket
 ```
 
-# Errores
+# Errores ❌
 
 ## Error al correr rq
 
