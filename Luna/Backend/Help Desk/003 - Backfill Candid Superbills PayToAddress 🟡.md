@@ -280,6 +280,10 @@ Hay 449_251
 - [ ] Pedir rake para 2024
 - [ ] Pedir rake para verificar 2024
 
+```bash
+bundle exec rake candid:verify_pay_to_address_updates["2024-01-01","2024-12-31"]
+```
+
 ## 2025
 
 Rake:
