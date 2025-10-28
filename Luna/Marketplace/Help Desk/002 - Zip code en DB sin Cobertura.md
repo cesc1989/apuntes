@@ -4,7 +4,7 @@ Etiquetas: #luna_help_desk
 
 Caso EDG-2905
 
-Reporte: no se puede hacer un sign up para el Credentialing Application porque el zip code 20175 dice que no está en cobertura (respuesta de Marketplace) aunque sí es uno válido para Luna.
+Reporte: no se puede hacer un sign up para el Credentialing Application porque el zip code **20175** dice que no está en cobertura (respuesta de Marketplace) aunque sí es uno válido para Luna.
 
 ## Contexto
 
@@ -45,8 +45,75 @@ curl --request POST \
 ```
 
 > [!Tip]
-> Se necesita configurar un API key de Google Maps.
+> Se necesita configurar un API key Google con Maps activado.
+
+Con la API de Google correcta se puede hacer la petición y la respuesta sería:
+```json
+{
+  "minimum_distance_meters": null,
+  "resolved": {
+    "location": {
+      "address": {
+        "city": "Leesburg",
+        "formatted_address": "Leesburg, VA 20175, USA",
+        "state": "VA",
+        "street": null,
+        "street_2": null,
+        "zip_code": "20175"
+      },
+      "coordinates": {
+        "latitude": 39.0910602,
+        "longitude": -77.5536267
+      }
+    },
+    "time_zone": "America/New_York"
+  },
+  "status": "unserviceable",
+  "zip_code": "20175"
+}
+```
 
 ### El Problema: Geofence
 
 El problema está en los límites del zip code. Al parecer la zona de esté no está cubierta en `app/marketplace/services/geofence.py` y por eso retorna que no está en zona de cobertura.
+
+Así está la sección, que según Claude, produce el error:
+```python
+RegionIDs.POTOMAC: tuple([((38.6674333295, 39.2660114363), (-77.3233117612, -76.361898))]),
+```
+
+### La Solución: Ampliar el bounding box
+
+Esta es la solución que ofrece Claudio:
+```diff
+- RegionIDs.POTOMAC: tuple([((38.6674333295, 39.2660114363), (-77.3233117612, -76.361898))]),
++ # Extended westward to -77.8783 to include Leesburg, VA (zip 20175)
++ RegionIDs.POTOMAC: tuple([((38.6674333295, 39.2660114363), (-77.8783, -76.361898))]),
+```
+
+Cuando vuelvo a probar la petición cambia la respuesta de `status`:
+```json
+{
+  "minimum_distance_meters": null,
+  "resolved": {
+    "location": {
+      "address": {
+        "city": "Leesburg",
+        "formatted_address": "Leesburg, VA 20175, USA",
+        "state": "VA",
+        "street": null,
+        "street_2": null,
+        "zip_code": "20175"
+      },
+      "coordinates": {
+        "latitude": 39.0910602,
+        "longitude": -77.5536267
+      }
+    },
+    "time_zone": "America/New_York"
+  },
+  "status": "serviceable",
+  "zip_code": "20175"
+}
+```
+
