@@ -262,9 +262,14 @@ Estimated completion: 2025-10-27 05:28:12 PDT
 
 - [ ] Pedir rake para verificar 2023
 
+> [!Warning]
+> Esta es una operación sincrona así que toca pasar un rango de fecha que produzca un número pequeño de appts.
+
 ```bash
-bundle exec rake candid:verify_pay_to_address_updates["2023-01-01","2023-12-31"]
+bundle exec rake candid:verify_pay_to_address_updates["2023-01-01","2023-03-31"]
 ```
+
+Este rango tiene 5368 appts.
 
 ## 2024
 
@@ -281,9 +286,14 @@ bundle exec rake candid:backfill_pay_to_address["2024-01-01","2024-12-31"]
 
 - [ ] Pedir rake para verificar 2024
 
+> [!Warning]
+> Esta es una operación sincrona así que toca pasar un rango de fecha que produzca un número pequeño de appts.
+
 ```bash
-bundle exec rake candid:verify_pay_to_address_updates["2024-01-01","2024-12-31"]
+bundle exec rake candid:verify_pay_to_address_updates["2024-01-01","2024-01-10"]
 ```
+
+Este rango tiene 8377 appts.
 
 ## 2025
 
@@ -299,3 +309,12 @@ bundle exec rake candid:backfill_pay_to_address["2025-01-01","2024-09-30"]
 ```
 
 - [ ] Pedir rake para verificar 2025
+
+> [!Warning]
+> Esta es una operación sincrona así que toca pasar un rango de fecha que produzca un número pequeño de appts.
+
+```bash
+bundle exec rake candid:verify_pay_to_address_updates["2025-01-01","2025-01-08"]
+```
+
+Este rango tiene 7839 appts.
