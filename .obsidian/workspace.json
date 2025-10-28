@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4502be65d260dd5a",
+        "id": "91b9295ce2694683",
         "type": "tabs",
         "children": [
           {
-            "id": "73620c4a99f9508a",
+            "id": "279dad8eb5d4fb37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-                "mode": "preview",
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Configurando_Marketplace"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of Configurando_Marketplace"
             }
           }
         ],
@@ -165,11 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73620c4a99f9508a",
+  "active": "279dad8eb5d4fb37",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟡.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders 🟢.md",
     "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟢.md",

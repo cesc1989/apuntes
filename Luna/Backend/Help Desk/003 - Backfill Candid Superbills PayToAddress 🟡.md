@@ -260,7 +260,7 @@ Scheduled 49755 jobs with 5-second intervals
 Estimated completion: 2025-10-27 05:28:12 PDT
 ```
 
-- [ ] Pedir rake para verificar 2023
+- [x] Pedir rake para verificar 2023
 
 > [!Warning]
 > Esta es una operación sincrona así que toca pasar un rango de fecha que produzca un número pequeño de appts.

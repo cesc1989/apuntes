@@ -323,6 +323,48 @@ INFO:werkzeug:Press CTRL+C to quit
 INFO:werkzeug: * Restarting with stat
 ```
 
+# Pruebas
+
+Hay que configurar la base de datos de prueba según como se indica en `.env.test`.
+```bash
+export RDS_DB_NAME=luna_test
+export RDS_USERNAME=lunacareadmin
+export RDS_PASSWORD=postgres
+export RDS_HOSTNAME=""
+```
+
+## Configurar el usuario
+
+```bash
+psql postgres -c "DROP USER IF EXISTS lunacareadmin;"
+
+psql postgres -c "CREATE USER lunacareadmin WITH PASSWORD 'postgres' SUPERUSER;"
+```
+
+## Configurar la base de datos
+
+```bash
+dropdb luna_test
+createdb -O lunacareadmin luna_test
+psql -U lunacareadmin luna_test -c "CREATE SCHEMA marketplace;"
+```
+
+## Correr migraciones para Test
+
+```bash
+cd app && DATABASE_URL=postgresql://lunacareadmin:postgres@localhost/luna_test pipenv run alembic -c alembic.ini upgrade head
+```
+
+## Correr prueba en particular
+
+Hay que correr desde la carpeta `app/`
+
+Ejemplo:
+```bash
+PIPENV_DOTENV_LOCATION='../.env.test' pipenv run pytest --disable-socket --include-functional tests/serviceability/test_serviceability_blueprint.py::test_zip_serviceability_leesburg_va -v
+```
+
+
 # ENV Vars
 
 Estas son la variables de entorno que he visto son necesarias. Algunas no se mencionan.
@@ -349,7 +391,9 @@ RQ_DASHBOARD_PASSWORD=clavesegura
 DATA_LAKE_BUCKET=somelakebucket
 ```
 
-# Error al correr rq
+# Errores
+
+## Error al correr rq
 
 De vez en mes salía este error:
 ```
@@ -362,14 +406,14 @@ La solución es exportar una variable:
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 ```
 
-# Las Migraciones
+## Las Migraciones
 
 > [!Important]
 > Resulta que no debo correr migraciones sino usar un dump
 
 Actualmente no se necesita correr migraciones. Hay es que configurar una base de datos con copia de datos en alpha y accederla mediante un conexión string.
 
-## Error de timeout
+### Error de timeout
 
 Si por alguna razón empiezo a tener problemas de Timeout aunque las credenciales estén bien, hay que ejecutar este comando del Luna CLI
 
@@ -377,7 +421,7 @@ Si por alguna razón empiezo a tener problemas de Timeout aunque las credenciale
 luna rds whitelist-ip-for-dev-db --profile alpha
 ```
 
-# Error al instalar pillow-heif
+## Error al instalar pillow-heif
 
 Esta librería [pillow-heif](https://pillow-heif.readthedocs.io/en/latest/installation.html) me da este error al hacer `pipenv install --dev`:
 ```
@@ -408,7 +452,7 @@ Successfully installed pillow-heif-1.1.1
 
 Pero eso tampoco sirvió al final.
 
-## Solución de instalación de pillow-heif
+### Solución de instalación de pillow-heif
 
 Según chatgpt, ya la librería está instalada. El problema es que `pip install --dev` está tratando de crear una nueva "wheel" desde cero y ahí es donde falla. Eso lo pude comprobar con todo esto.
 
