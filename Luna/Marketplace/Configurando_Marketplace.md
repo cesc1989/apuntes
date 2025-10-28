@@ -335,9 +335,13 @@ export RDS_HOSTNAME=""
 
 ## Configurar el usuario
 
+Borralo si ya existe para tener una configuración correcta:
 ```bash
 psql postgres -c "DROP USER IF EXISTS lunacareadmin;"
+```
 
+Crealo:
+```
 psql postgres -c "CREATE USER lunacareadmin WITH PASSWORD 'postgres' SUPERUSER;"
 ```
 
