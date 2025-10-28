@@ -226,7 +226,7 @@ Installing collected packages: flask
 Successfully installed flask-2.3.3
 ```
 
-# Lanzar un servidor flask
+# Lanzar servidor Flask 🖥️
 
 ## Preparativos (opcionales)
 
@@ -375,7 +375,7 @@ PIPENV_DOTENV_LOCATION='../.env.test' pipenv run pytest --disable-socket --inclu
 ```
 
 
-# ENV Vars 
+# ENV Vars 🔠
 
 Estas son la variables de entorno que he visto son necesarias. Algunas no se mencionan.
 
