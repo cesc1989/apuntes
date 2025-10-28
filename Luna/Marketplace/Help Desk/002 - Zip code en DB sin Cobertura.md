@@ -117,3 +117,8 @@ Cuando vuelvo a probar la petición cambia la respuesta de `status`:
 }
 ```
 
+En palabras de Claudio:
+
+> Root Cause: The coordinates for 20175 (39.0910602, -77.5536267) fell outside the POTOMAC region's western boundary.
+>
+> Solution: Extended the POTOMAC region bounding box from -77.3233 to -77.8783 (westward by ~0.55 degrees, about 30 miles).
