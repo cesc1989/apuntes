@@ -110,3 +110,37 @@ Lo cual está mal porque sale es por el paciente tomado de Waitlist.
 - En la lista de Appointments, el que se creó del paciente en Waitlist tendrá el emoji 🚀 en la columna "Boost?"
 
 Esto también es erróneo por la razón anterior.
+
+# Solución
+
+La solución se da por aplicar un filtro a la consulta en el modelo `TherapistBoost` que calcula la cantidad de casos boosteados.
+
+Así se ve sin el fix:
+```ruby
+def cases
+	Episode.where(
+		therapist
+			.appointments
+			.where("episodes.id = appointments.episode_id")
+			.without_clerical
+			.where(visit_type: "initial")
+			.where(created_at: effective_from..boost_end)
+			.where(created_by_type: "AdminUser")
+			.where(canceled_by_type: [nil, "Therapist", "Patient"])
+			.select(1)
+			.arel.exists
+	)
+end
+```
+
+Esta función se usa en varias partes de la UI (perfil del Therapist) y también en otros cálculos de este modelo. Como en las funciones:
+```ruby
+def target_cases_fulfilled?
+	cases.count >= cases_target_delta
+end
+
+def target_cases_remaining
+	[cases_target_delta - cases.count, 0].max
+end
+```
+
