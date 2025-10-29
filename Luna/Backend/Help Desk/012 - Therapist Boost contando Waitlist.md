@@ -14,9 +14,29 @@ Cuando un therapist está con pocos pacientes para atender puede activar una opc
 
 Cuando se "boostea" se defina una cantidad de pacientes que quieren ver antes de quitar el "boost".
 
+### Waitlist status
+
+Se define en el modelo `WaitlistEntry`.
+
+### Availabilities
+
+Se define en el modelo `Availability`.
+
 ## Problema
 
 Cuando el therapist es "boosted" y además también activó la opción de tomar pacientes del "Waitlist" el sistema está contando ese "Waitlist" como si Luna lo hubiera agendado. Lo cual es incorrecto.
 
 En el reporte dice:
 > Waitlist patient selections should not apply to this count.
+
+## Replicar Error
+
+### Therapist Boost
+
+Hay que crear un "Therapist Boost" para cualquier therapist. Esos se crean yendo a http://localhost:3000/admin/therapist_boosts/new
+
+> [!Note]
+> La página es MUY lenta para cargar. Recomiendo usar el 1er therapist que cargue.
+
+### Paciente en Waitlist
+

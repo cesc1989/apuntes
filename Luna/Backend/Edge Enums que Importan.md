@@ -97,3 +97,16 @@ enum request_status: {
 	denied: 2
 }
 ```
+
+## Availability
+
+Enum `creation_source` en Availability:
+```ruby
+enum creation_source: {
+	luxe: 1,
+	mobile_patient_app: 2,
+	mobile_therapist_app: 3,
+	omni: 10,
+	unknown: 666
+}
+```
