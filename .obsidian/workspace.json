@@ -8,27 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56d93accaa931377",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Auth de GraphQL con Postman"
-            }
-          },
-          {
             "id": "7e83b37f40bc3ec4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -154,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
+                "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Auth de GraphQL con Postman"
+              "title": "Outline of 012 - Therapist Boost contando Waitlist"
             }
           }
         ],
@@ -179,10 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56d93accaa931377",
+  "active": "7e83b37f40bc3ec4",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
+    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
     "Luna/Backend/Edge Enums que Importan.md",
@@ -208,7 +195,6 @@
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
-    "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",

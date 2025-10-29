@@ -71,3 +71,27 @@ Finalmente, hay que hacer como si desde la app móvil el therapist escogiera al 
 
 Ver [[Auth de GraphQL con Postman]]
 
+Se puede emular esta selección con esta mutación:
+```json
+mutation {
+  addAppointment(
+    input: {
+      userId: "9dcdac51-8f52-46a7-8a59-525274dfa69d"
+      startTime: "2025-11-01T14:00:00-07:00"
+      publishNow: true
+    }
+  ) {
+    appointment {
+      id
+      state
+    }
+    userErrors {
+      message
+      field
+    }
+  }
+}
+```
+
+> [!Important]
+> Los tiempos de cada availability deben ser de 45 minutos. Eso es el tiempo estándar de cada appointment en Luna.
