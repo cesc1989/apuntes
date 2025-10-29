@@ -110,3 +110,16 @@ enum creation_source: {
 	unknown: 666
 }
 ```
+
+## WaitlistEntry
+
+Enum `status` en WaitlistEntry:
+```ruby
+enum status: {
+	active: 0,
+	removed_by_patient: 5,
+	removed_by_system: 6,
+	removed_by_concierge: 7,
+	claimed: 10
+}
+```
