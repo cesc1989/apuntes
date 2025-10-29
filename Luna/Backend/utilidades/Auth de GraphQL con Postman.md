@@ -48,3 +48,19 @@ Authorization: Bearer eyJhY2Nlc3MtdG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlKOS5leUp6ZF
 
 > [!Note]
 > Cuando se copie a Postman el valor de la cabecera _Authorization_ podría tener salto de línea. Cuidado con eso.
+
+## Duración del Token en Local
+
+Para saber cuánto está configurado el token para durar hay que revisar el setting:
+```ruby
+Setting.load("therapist_token_timeout_in_minutes")
+```
+
+En local/alpha por alguna razón el valor está configurado para 1. Lo cual es muy poco. Cuando sea así, increméntalo para local en 60 al menos para que pueda probar con más comodidad.
+
+La configuración se lee en el modelo Account:
+```ruby
+def token_lifespan
+	Setting.load_safe("#{user_type}_token_timeout_in_minutes", 480).minutes
+end
+```

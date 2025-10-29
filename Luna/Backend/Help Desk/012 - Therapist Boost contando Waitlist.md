@@ -69,3 +69,5 @@ group by pat.id, we.status
 
 Finalmente, hay que hacer como si desde la app móvil el therapist escogiera al paciente que está en Waitlist. Esto lo podemos hacer mediante GQL.
 
+Ver [[Auth de GraphQL con Postman]]
+
