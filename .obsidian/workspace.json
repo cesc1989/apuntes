@@ -14,25 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "012 - Therapist Boost contando Waitlist"
-            }
-          },
-          {
-            "id": "7bb1adf285ec1f34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Edge Enums que Importan"
+              "title": "012 - Therapist Boost contando Waitlist"
             }
           }
         ]
@@ -181,9 +167,10 @@
   },
   "active": "56d93accaa931377",
   "lastOpenFiles": [
-    "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟢.md",
-    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
     "Luna/Backend/Edge Enums que Importan.md",
+    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
+    "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
+    "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟢.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
