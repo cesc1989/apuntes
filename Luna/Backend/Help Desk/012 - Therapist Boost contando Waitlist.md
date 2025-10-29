@@ -27,11 +27,13 @@ Es porque ambos manipulan modelos diferentes.
 
 ## Waitlist status
 
-Se define en el modelo `WaitlistEntry`.
+Se define en el modelo `WaitlistEntry`. Este es el modelo donde se define el estado del paciente sobre si está o no en Waitlist.
+
+Ver el enum status en [[Edge Enums que Importan#WaitlistEntry]]
 
 ## Availabilities
 
-Se define en el modelo `Availability`.
+Se define en el modelo `Availability`. Aquí se gestiona la lista de horarios en el que el paciente en Waitlist puede recibir visitas (appointments).
 
 # Problema
 
@@ -40,7 +42,7 @@ Cuando el therapist es "boosted" y además también activó la opción de tomar 
 En el reporte dice:
 > Waitlist patient selections should not apply to this count.
 
-# Replicar Error
+# Replicar el Error 🐞
 
 ## Therapist Boost
 
@@ -95,3 +97,16 @@ mutation {
 
 > [!Important]
 > Los tiempos de cada availability deben ser de 45 minutos. Eso es el tiempo estándar de cada appointment en Luna.
+
+---
+
+Con todo lo anterior creado se puede comprobar el error al revisar en algunas partes en el perfil del Therapist.
+
+- En la sección "internal notes" aparecerá este mensaje:
+> Boosted! 🚀 1 of 9 target new cases fulfilled. (Boosted on 10/29/2025 Wed, ends 11/15/2025 Sat)
+
+Lo cual está mal porque sale es por el paciente tomado de Waitlist.
+
+- En la lista de Appointments, el que se creó del paciente en Waitlist tendrá el emoji 🚀 en la columna "Boost?"
+
+Esto también es erróneo por la razón anterior.
