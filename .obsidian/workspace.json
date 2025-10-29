@@ -35,8 +35,7 @@
               "title": "Edge Enums que Importan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Edge Enums que Importan"
+              "title": "Outline of 012 - Therapist Boost contando Waitlist"
             }
           }
         ],
@@ -180,13 +179,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bb1adf285ec1f34",
+  "active": "56d93accaa931377",
   "lastOpenFiles": [
+    "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟢.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
-    "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Backend/Edge Enums que Importan.md",
+    "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟡.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders 🟢.md",

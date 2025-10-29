@@ -51,3 +51,21 @@ Hay que crear un "Therapist Boost" para cualquier therapist. Esos se crean yendo
 
 ## Paciente en Waitlist
 
+Necesito encontrar un paciente que esté con Waitlist status activo y que tenga availabilities. Puedo usar esta query:
+```sql
+SELECT
+ pat.id,
+ we.status
+FROM patients pat
+join accounts acc on acc.id = pat.account_id
+join availabilities a on a.account_id = acc.id
+join waitlist_entries we on we.patient_id = pat.id
+where we.status = 0
+group by pat.id, we.status
+;
+```
+
+## Seleccionar Paciente en Waitlist como Therapist
+
+Finalmente, hay que hacer como si desde la app móvil el therapist escogiera al paciente que está en Waitlist. Esto lo podemos hacer mediante GQL.
+
