@@ -82,7 +82,7 @@ Así está la sección, que según Claude, produce el error:
 RegionIDs.POTOMAC: tuple([((38.6674333295, 39.2660114363), (-77.3233117612, -76.361898))]),
 ```
 
-### La Solución: Ampliar el bounding box
+## La Solución: Ampliar el bounding box
 
 Esta es la solución que ofrece Claudio:
 ```diff
@@ -122,3 +122,23 @@ En palabras de Claudio:
 > Root Cause: The coordinates for 20175 (39.0910602, -77.5536267) fell outside the POTOMAC region's western boundary.
 >
 > Solution: Extended the POTOMAC region bounding box from -77.3233 to -77.8783 (westward by ~0.55 degrees, about 30 miles).
+
+
+### Prueba usando servicio en Therapist Signup
+
+Forma más sencilla:
+```ruby
+ZipCodeCoverage.new("20175").in_coverage_area?
+```
+
+Solo devuelve true o false.
+
+De esta otra forma puedo obtener toda la respuesta JSON:
+```ruby
+response =
+  HTTP
+    .auth("Token #{ENV.fetch('MARKETPLACE_THERAPIST_SIGN_UP_TOKEN')}")
+    .post("#{ENV.fetch("MARKETPLACE_DOMAIN")}/api/v1/internal/validate-zip-code-is-in-area", json: { zip_code: "20175" })
+
+JSON.parse(response.body.to_s)
+```
