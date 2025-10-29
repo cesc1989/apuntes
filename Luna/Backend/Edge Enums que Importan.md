@@ -55,6 +55,24 @@ Estados activo:
 ACTIVE_STATES = %w[pending ongoing completed].freeze
 ```
 
+### Booking Source de Appointment
+
+Enum `booking_source` relevante para Therapist Boosts:
+```ruby
+enum booking_source: {
+	unknown: 0,
+	internal_therapist_calendar: 1,
+	internal_patient_calendar: 2,
+	internal_automation: 3,
+	internal_example_patient: 4,
+	internal_omni_patient_onboarding: 5,
+	therapist_app_calendar_direct: 10,
+	therapist_app_calendar_publish_schedule: 11,
+	therapist_app_waitlist: 12,
+	therapist_app_extend_care_plan: 13
+}
+```
+
 ## Chart
 
 Enum `state` de Chart:

@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "012 - Therapist Boost contando Waitlist"
             }
+          },
+          {
+            "id": "e5110a2962d90d48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Edge Enums que Importan"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
+                "file": "Luna/Backend/Edge Enums que Importan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 012 - Therapist Boost contando Waitlist"
+              "title": "Outline of Edge Enums que Importan"
             }
           }
         ],
@@ -165,11 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e83b37f40bc3ec4",
+  "active": "e5110a2962d90d48",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
-    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
     "Luna/Backend/Edge Enums que Importan.md",
