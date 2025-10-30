@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "424b61e4504c6b74",
+        "id": "c7810079656930ee",
         "type": "tabs",
         "children": [
           {
-            "id": "dfa2fa95b88139ef",
+            "id": "f5f7194d0ace3f82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "012 - Therapist Boost contando Waitlist 🟢"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 012 - Therapist Boost contando Waitlist 🟢"
             }
           }
         ],
@@ -160,13 +165,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfa2fa95b88139ef",
+  "active": "f5f7194d0ace3f82",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
+    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
+    "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist.md",
     "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
@@ -189,7 +195,6 @@
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
-    "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
