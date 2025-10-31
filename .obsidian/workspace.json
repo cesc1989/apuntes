@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c7810079656930ee",
+        "id": "3b2364abda65b4fd",
         "type": "tabs",
         "children": [
           {
-            "id": "f5f7194d0ace3f82",
+            "id": "fe4acc04b1a03f0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
+                "file": "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "012 - Therapist Boost contando Waitlist 🟢"
+              "title": "013 - Envío Manual de Form"
+            }
+          },
+          {
+            "id": "efb10396825afc14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Edge Enums que Importan"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
+                "file": "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 012 - Therapist Boost contando Waitlist 🟢"
+              "title": "Outline of 013 - Envío Manual de Form"
             }
           }
         ],
@@ -165,13 +179,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5f7194d0ace3f82",
+  "active": "fe4acc04b1a03f0e",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
-    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
-    "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Edge Enums que Importan.md",
+    "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
+    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
+    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
+    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
+    "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
+    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
+    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
+    "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/005 - QA Plan ✅.md",
@@ -188,13 +208,7 @@
     "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
     "Luna/Backend/Patients/Example Patients.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
-    "Luna/Backend/HubSpot Exports Notes/Configuracion de Propiedades en HubSpot.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Marketplace/Help Desk",
-    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
-    "Luna/Marketplace/MPF/From CA to MPF.md",
-    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
-    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
     "Otro_Espacio/Coshinema/attachments/01.cloudflare.stream.subs.png",
