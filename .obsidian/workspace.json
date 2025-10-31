@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b29477ed095934d5",
+        "id": "a53255d0c5c0a2f9",
         "type": "tabs",
         "children": [
           {
-            "id": "d9ae5996eed77d82",
+            "id": "88659cca4c1a9a82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           }
         ],
@@ -160,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9ae5996eed77d82",
+  "active": "88659cca4c1a9a82",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
     "Luna/Backend/Edge Enums que Importan.md",
@@ -170,7 +176,6 @@
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
-    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
     "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",

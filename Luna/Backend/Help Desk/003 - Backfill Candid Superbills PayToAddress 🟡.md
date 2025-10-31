@@ -277,7 +277,7 @@ Este rango tiene 1658 appts.
 
 Hay 449_251
 
-- [ ] Pedir rake para 2024
+- [x] Pedir rake para 2024
 
 Rake:
 ```bash
