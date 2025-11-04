@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "92bc39842fed5e97",
+        "id": "ccbf2ca471ade36d",
         "type": "tabs",
         "children": [
           {
-            "id": "72641aeb3c0b1bf3",
+            "id": "27fe6f64b3a2edc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "005 - Abstraction no es Abstractness"
+              "title": "006 - Deploy First"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 005 - Abstraction no es Abstractness"
+              "title": "Outline of 006 - Deploy First"
             }
           }
         ],
@@ -165,10 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72641aeb3c0b1bf3",
+  "active": "27fe6f64b3a2edc9",
   "lastOpenFiles": [
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
@@ -193,7 +194,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/A_Philosophy_of_Software_Design/Cap_7_-_Different_Layer,_Different_Abstraction.md",
     "Luna/Backend/Comanditos Edge.md",
-    "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
