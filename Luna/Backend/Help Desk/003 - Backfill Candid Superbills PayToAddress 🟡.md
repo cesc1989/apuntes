@@ -305,7 +305,7 @@ Hay 454_005
 
 Rake:
 ```bash
-bundle exec rake candid:backfill_pay_to_address["2025-01-01","2024-09-30"]
+bundle exec rake candid:backfill_pay_to_address["2025-01-01","2025-09-30"]
 ```
 
 - [ ] Pedir rake para verificar 2025

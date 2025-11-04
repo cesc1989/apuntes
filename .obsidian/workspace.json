@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ccbf2ca471ade36d",
+        "id": "c59baa79d4e0e54b",
         "type": "tabs",
         "children": [
           {
-            "id": "27fe6f64b3a2edc9",
+            "id": "1cacc9facd282e5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "006 - Deploy First"
+              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
+                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 006 - Deploy First"
+              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
             }
           }
         ],
@@ -165,12 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27fe6f64b3a2edc9",
+  "active": "1cacc9facd282e5b",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
     "Luna/Backend/Edge Enums que Importan.md",
