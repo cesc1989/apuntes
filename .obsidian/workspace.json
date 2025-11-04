@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
             }
+          },
+          {
+            "id": "d87a9732c5802469",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "013 - Envío Manual de Form 🟢"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of 013 - Envío Manual de Form 🟢"
             }
           }
         ],
@@ -165,14 +180,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cacc9facd282e5b",
+  "active": "d87a9732c5802469",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
-    "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
+    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
