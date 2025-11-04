@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a53255d0c5c0a2f9",
+        "id": "92bc39842fed5e97",
         "type": "tabs",
         "children": [
           {
-            "id": "88659cca4c1a9a82",
+            "id": "72641aeb3c0b1bf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "005 - Abstraction no es Abstractness"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of 005 - Abstraction no es Abstractness"
             }
           }
         ],
@@ -165,10 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88659cca4c1a9a82",
+  "active": "72641aeb3c0b1bf3",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+    "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form.md",
     "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
@@ -192,8 +194,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/A_Philosophy_of_Software_Design/Cap_7_-_Different_Layer,_Different_Abstraction.md",
     "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
-    "Luna/Backend/Patients/Example Patients.md",
-    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
