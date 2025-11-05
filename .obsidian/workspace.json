@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "file": "Luna/Backend/Edge Enums que Importan 🔑.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Edge Enums que Importan"
+              "title": "Edge Enums que Importan 🔑"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan.md",
+                "file": "Luna/Backend/Edge Enums que Importan 🔑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Edge Enums que Importan"
+              "title": "Outline of Edge Enums que Importan 🔑"
             }
           }
         ],
@@ -183,6 +183,7 @@
   "active": "43b95ab91bfb8847",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+    "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
@@ -190,7 +191,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
-    "Luna/Backend/Edge Enums que Importan.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",

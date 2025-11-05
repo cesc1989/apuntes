@@ -29,7 +29,7 @@ Es porque ambos manipulan modelos diferentes.
 
 Se define en el modelo `WaitlistEntry`. Este es el modelo donde se define el estado del paciente sobre si está o no en Waitlist.
 
-Ver el enum status en [[Edge Enums que Importan#WaitlistEntry]]
+Ver el enum status en [[Edge Enums que Importan 🔑#WaitlistEntry]]
 
 ## Availabilities
 
