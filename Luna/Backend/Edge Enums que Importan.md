@@ -105,6 +105,20 @@ enum kind: {
 }
 ```
 
+## PlanOfCare
+
+Enum `original_referral_type` en PlanOfCare:
+```ruby
+  enum original_referral_type: {
+    direct_access: 0,
+    payer: 1,
+    referred: 2,
+    medicare: 3,
+    workers_comp: 4,
+    fax_on_demand: 10
+  }, _prefix: :originally
+```
+
 ## PayerAuthorization
 
 Enum `request_status` en PayerAuthorization:

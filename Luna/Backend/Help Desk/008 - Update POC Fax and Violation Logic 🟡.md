@@ -234,7 +234,7 @@ Y estos dos el 3 de Noviembre:
 		- POC creado el 25 de Octubre.
 
 
-## Murphy 🟡
+## Murphy - PV: Recertification 🟡
 
 Problema con Progress Visit (PV).
 
@@ -275,9 +275,13 @@ Resultados:
 days_between_pocs: 75
 ```
 
-## Wiggins
+## Wiggins - IV
 
 Problema con Initial Visit (IV).
+
+Para ver el problema toca revisar los audits para este POC. El detalle de este caso es que el POC fue creado con `needs_response` en "Yes":
+
+
 
 
 ## Helm
