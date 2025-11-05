@@ -212,15 +212,31 @@ Primero: "response needed" debe ser ser "NO":
 Segundo: Progress Visits no deben generar fax.
 > Also it looks like this was a PV faxed, only IVs should fax.
 
-Estos tres casos.
-
+Estos tres casos reportados el 16 de Octubre:
 - Murphy
 	- CP: `81ef64bc-303d-4ad8-aef2-956e510e1fa1`
-	- POC afectado: `4ee7ca7b-aa4e-4d5d-8b04-4d4f0c13ec3e`
-- Wiggins.
-- Helm.
+	- POC ID: `4ee7ca7b-aa4e-4d5d-8b04-4d4f0c13ec3e`
+		- POC creado el 14 de Octubre.
+- Wiggins
+	- POC creado el 14 de Octubre.
+- Helm
+	- POC ID: `5991ca00-9f88-47ff-9234-e021100d0caf`
+		- POC creado el 13 de Octubre.
+
+Y estos dos el 3 de Noviembre:
+- Wright
+	- Tiene dos CP activos pero solo aparece un POC.
+	- POC ID: `f1740e94-718d-4ba8-b022-42812a5072a1`
+		- POC creado el 27 de Octubre.
+- Mittal
+	- Tiene solo un CP activo. Solo un POC.
+	- POC ID: `## 81c88226-2439-4a53-8ae2-29477da52777`
+		- POC creado el 25 de Octubre.
+
 
 ## Murphy 🟡
+
+Problema con Progress Visit (PV).
 
 > [!Note]
 > La PV recibió fax por proceso de recertificación.
@@ -261,6 +277,9 @@ days_between_pocs: 75
 
 ## Wiggins
 
+Problema con Initial Visit (IV).
 
 
 ## Helm
+
+Problema con Initial Visit (IV).
