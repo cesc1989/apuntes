@@ -202,9 +202,17 @@ SELECT
     '2025-10-11'::date - '2025-07-28'::date AS days_between_action_and_second_poc;
 ```
 
-# Problema de POCs en Virginia
+# Problema de POCs en Virginia 🐞
 
-Indy reportó tres nuevos casos.
+Reporte de dos partes.
+
+Primero: "response needed" debe ser ser "NO":
+> This VA pt just popped up on our list in “No violation”. For VA, the IV should be faxed but marked as response needed “NO” with no violation alerts.
+
+Segundo: Progress Visits no deben generar fax.
+> Also it looks like this was a PV faxed, only IVs should fax.
+
+Estos tres casos.
 
 - Murphy
 	- CP: `81ef64bc-303d-4ad8-aef2-956e510e1fa1`
@@ -212,7 +220,10 @@ Indy reportó tres nuevos casos.
 - Wiggins.
 - Helm.
 
-## Murphy
+## Murphy 🟡
+
+> [!Note]
+> La PV recibió fax por proceso de recertificación.
 
 Parece que es lo mismo de recertificación. Cuando busco los POCs del Care Plan encuentro tres. El más reciente fue creado el 14 de Octubre (dos días antes de que Indy comentara).
 
