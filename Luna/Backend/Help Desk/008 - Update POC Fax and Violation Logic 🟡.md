@@ -206,10 +206,12 @@ SELECT
 
 Reporte de dos partes.
 
-Primero: "response needed" debe ser ser "NO":
-> This VA pt just popped up on our list in “No violation”. For VA, the IV should be faxed but marked as response needed “NO” with no violation alerts.
+**Primero: "response needed" debe ser ser "NO"**:
+> This VA pt just popped up on our list in “No violation”.
+> 
+> For VA, ==the IV should be faxed but marked as response needed “NO” with no violation alerts==.
 
-Segundo: Progress Visits no deben generar fax.
+**Segundo: Progress Visits no deben generar fax**:
 > Also it looks like this was a PV faxed, only IVs should fax.
 
 Estos tres casos reportados el 16 de Octubre:
@@ -218,7 +220,8 @@ Estos tres casos reportados el 16 de Octubre:
 	- POC ID: `4ee7ca7b-aa4e-4d5d-8b04-4d4f0c13ec3e`
 		- POC creado el 14 de Octubre.
 - Wiggins
-	- POC creado el 14 de Octubre.
+	- POC ID: `52ef22c4-db12-4305-848c-54ab2a5bed8a`
+		- POC creado el 14 de Octubre.
 - Helm
 	- POC ID: `5991ca00-9f88-47ff-9234-e021100d0caf`
 		- POC creado el 13 de Octubre.
@@ -230,11 +233,11 @@ Y estos dos el 3 de Noviembre:
 		- POC creado el 27 de Octubre.
 - Mittal
 	- Tiene solo un CP activo. Solo un POC.
-	- POC ID: `## 81c88226-2439-4a53-8ae2-29477da52777`
+	- POC ID: `81c88226-2439-4a53-8ae2-29477da52777`
 		- POC creado el 25 de Octubre.
 
 
-## Murphy - PV: Recertification 🟡
+## Murphy - PV: Recertification 🟢
 
 Problema con Progress Visit (PV).
 
@@ -275,25 +278,48 @@ Resultados:
 days_between_pocs: 75
 ```
 
-## Wiggins - IV
+## Wiggins - IV 🟡
 
-Problema con Initial Visit (IV).
+Problema con Initial Visit (IV). POC ID: `52ef22c4-db12-4305-848c-54ab2a5bed8a`
 
 Para ver el problema toca revisar los audits para este POC. El detalle de este caso es que el POC fue creado con `needs_response` en "Yes":
 
+| action | audited_changes |
+|---------|-----------------|
+| create | needs_response: true<br>response_received: false<br> |
+| update | needs_response:<br>- true<br>- false<br>response_received:<br>- false<br>- true |
 
+En el momento que fue creado el POC el campo `needs_response` era true. Luego fue actualizado manualmente por el equipo para reflejar el estado que esperan de estos POCs.
 
+## Helm - IV 🟡
 
-## Helm
+Problema con Initial Visit (IV). POC ID: `5991ca00-9f88-47ff-9234-e021100d0caf`.
 
-Problema con Initial Visit (IV).
+POC fue creado con `needs_response` en "Yes".
 
+## Wright - IV 🟡
 
-## Wright
+Problema con Initial Visit (IV). POC ID: `f1740e94-718d-4ba8-b022-42812a5072a1`.
 
-Problema con Initial Visit (IV).
+POC fue creado con `needs_response` en "Yes".
 
+## Mittal - IV 🟡
 
-## Mittal
+Problema con Initial Visit (IV). POC ID: `81c88226-2439-4a53-8ae2-29477da52777`.
 
-Problema con Initial Visit (IV).
+POC fue creado con `needs_response` en "Yes".
+
+## Problema
+
+El problema ocurre porque al crear el POC siempre se mira si el appointment está `discharged` para darle el valor a `needs_response`. Sin embargo, para los Initial Visits esto se cumple más bien poco.
+
+Comparativa de Initial Visit con estado discharged en false:
+
+- Wiggins
+	- discharged: false
+- Helm
+	- discharged: false
+- Wright
+	- discharged: false
+- Mittal
+	- discharged: false

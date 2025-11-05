@@ -35,8 +35,7 @@
               "title": "Edge Enums que Importan 🔑"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Edge Enums que Importan 🔑.md",
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Edge Enums que Importan 🔑"
+              "title": "Outline of 008 - Update POC Fax and Violation Logic 🟡"
             }
           }
         ],
@@ -180,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43b95ab91bfb8847",
+  "active": "b5636bab87fceebe",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
