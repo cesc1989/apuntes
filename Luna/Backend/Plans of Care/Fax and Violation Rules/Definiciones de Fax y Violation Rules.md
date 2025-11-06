@@ -94,3 +94,23 @@ class Chart < ApplicationRecord
   end
 end
 ```
+
+Y así está definido `episode.referral_type`:
+```ruby
+def referral_type
+	# Determines which fax format to send to a referring physician
+	if medicare? || medicare_advantage?
+		:medicare
+	elsif payer_plan&.category&.workers_comp?
+		:workers_comp
+	elsif Payer::SUPPORTED_PRIVATE_PAYER_REFERRAL_KEYS.include?(payer&.key)
+		:payer
+	elsif Insurance::SUPPORTED_PRIVATE_PAYER_REFERRAL_KEYS.include?(insurance.key)
+		:payer
+	elsif referral_url.present?
+		:referred
+	else
+		:direct_access
+	end
+end
+```
