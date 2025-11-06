@@ -11,10 +11,28 @@
             "id": "59e92d081c26162e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Definiciones de Fax y Violation Rules"
+            }
+          },
+          {
+            "id": "16e56f3aece6c551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "008 - Update POC Fax and Violation Logic 🟡"
             }
           }
         ]
@@ -136,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Definiciones de Fax y Violation Rules"
             }
           }
         ],
@@ -162,11 +181,12 @@
   },
   "active": "59e92d081c26162e",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
@@ -189,7 +209,6 @@
     "Luna/Backend/KX-Modifier/KX Modifier - Pruebas en Alpha.md",
     "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟢.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
-    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",

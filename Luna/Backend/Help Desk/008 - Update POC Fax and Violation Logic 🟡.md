@@ -53,39 +53,6 @@ Hay una clase seeder que se encarga de leer todos estos archivos y prepara todo 
 > [!Note]
 > La rake para correr estos seeds es `bundle exec rails db:seed`
 
-## ¿Qué son Fax Rules y Violation Rules
-
-Según Claudio:
-
-- POC faxing logic: When POCs are faxed to physicians
-- Violation logic: When compliance is notified of violations
-
-Estas reglas son usadas en las clases `PlansOfCare::DirectAccess::ViolationCalculator` para Violation Logic y en `PlansOfCare::DirectAccess::MessageCalculator`  para Fax Rules.
-
-### Fax Rules
-
-Este se rige por los valores de la llave `fax_rules`. A la fecha, toda configuración que tiene esta llave tendrá esta pareja:
-```
-anchor: initial_visit
-```
-
-Para la llave `trigger` los posibles valores para `strategy` son:
-
-1. `chart_signature`: Fax immediately when chart is signed
-2. `days_elapsed`: Fax after N days from anchor
-3. `days_or_visits_elapsed`: Fax after N days OR M visits (whichever comes first)
-
-> [!Tip]
-> Cuando hay `strategy: chart_signature` no suele haber la key `days` por lo que se explica antes.
-
-### Violation Rules
-
-Se rige por los valores de la llave `violation_rules`. Cuando existe puede tener las llaves anidadas `pending` y `violation`.
-
-> [!Tip]
-> El equipo de Luna suele referirse a `pending` como "pending" y a `violation` como "yes".
-
-
 # Solución
 
 Los primeros cambios son actualizar los archivos yml de Texas, Virgina y Kansas.
