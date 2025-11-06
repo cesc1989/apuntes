@@ -71,3 +71,26 @@ app/services/plans_of_care/
 ```
 
 Donde cada clase del submodulo define diferentes formas de calcular las reglas de Fax y Violation.
+
+## ¿Dónde se usan?
+
+Buscar estas clases por el nombre podría resultar en cero resultados. Esto es porque se usan mediante metaprogramación. En su mayoría luego de que se crea/firma un Chart:
+```ruby
+class Chart < ApplicationRecord
+
+	# ...
+
+  # generate a plan of care based on the episode referral type
+  def generate_plan_of_care(fax_on_demand: false)
+    poc = if fax_on_demand == true
+            PlansOfCare::FaxOnDemand::Generator.new(self).find_or_create
+          else
+            "PlansOfCare::#{episode.referral_type.to_s.camelize}::Generator".constantize
+              .new(self)
+              .find_or_create
+          end
+    UpdatePlanOfCarePageCountWorker.perform_async(poc.id) if poc.present?
+    poc
+  end
+end
+```
