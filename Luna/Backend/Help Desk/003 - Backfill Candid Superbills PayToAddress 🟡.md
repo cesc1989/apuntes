@@ -301,7 +301,7 @@ Este rango tiene 3935 appts.
 
 Hay 454_005
 
-- [ ] Pedir rake para 2025
+- [x] Pedir rake para 2025
 
 Rake:
 ```bash

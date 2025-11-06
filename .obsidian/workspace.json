@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "21c069bb1ac0eb13",
+        "id": "e05567744c8f8029",
         "type": "tabs",
         "children": [
           {
-            "id": "ee6a713531f2880b",
+            "id": "129d1892fa5becc5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Fax and Violation Rules per State Summary"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "graphql",
+                "query": "materiali",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
+                "file": "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 008 - Update POC Fax and Violation Logic 🟡"
+              "title": "Outline of Fax and Violation Rules per State Summary"
             }
           }
         ],
@@ -161,12 +165,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "129d1892fa5becc5",
   "lastOpenFiles": [
-    "Luna/Backend/Edge Enums que Importan 🔑.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules",
+    "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
+    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟡.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
+    "Luna/Backend/Edge Enums que Importan 🔑.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
@@ -186,10 +195,6 @@
     "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟢.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
-    "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders 🟢.md",
-    "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟢.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby Threads Fibers y Ractors.md",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
@@ -208,7 +213,6 @@
     "Luna/Marketplace/Appointments/attachments",
     "Luna/Marketplace/Appointments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/untitled folder",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
