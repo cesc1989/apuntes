@@ -4,6 +4,11 @@ Etiquetas: #luna_help_desk
 
 Caso EDG-2899
 
+> [!Tip]
+> El formulario para crear un boost carga MUY lento. Podría ser algo para mejorar para open dev fridays.
+> 
+> Carga muy lento porque la lista de selección carga a todos los therapists.
+
 Reporte:
 
 > Boosted Therapist feature counting self selected Waitlist patients from therapists as organic bookings
