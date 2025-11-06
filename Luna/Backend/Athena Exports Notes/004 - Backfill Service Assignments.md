@@ -31,6 +31,9 @@ Puedo probar los workers en alpha de grimoire para tener claridad de cómo usarl
 >
 > Entonces o hago el script que corra en local con Claudio o armo un script para que corra para todos los años y pido la prod-op.
 
+> [!Info]
+> Con el comando `bin/grimoire remote` ingreso a una sesión de iex en el contenedor.
+
 ## 2025
 
 Teniendo en cuenta que Brett pide prioridad para Enero - Mayo de 2025, empezaré por estos.
