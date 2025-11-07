@@ -163,7 +163,7 @@ aws s3 sync \
 
 ## Pasos Finales
 
-- [ ] Corre query en Athena antes de correr el Crawler
+- [x] Corre query en Athena antes de correr el Crawler
 	- Descarga copia de los resultados
 - [ ] Corre el crawler
 - [ ] Vuelve a correr query en Athena
