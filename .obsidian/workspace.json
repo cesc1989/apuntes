@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "004 - Backfill Service Assignments"
             }
-          },
-          {
-            "id": "98c900b75e8a3ffc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "003 - Export TIR to Therapist-Forward-Fill ✅"
-            }
           }
         ]
       }
@@ -181,8 +167,9 @@
   },
   "active": "c263cdd0d4e4aca6",
   "lastOpenFiles": [
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
+    "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
@@ -207,7 +194,6 @@
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
     "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/007 - ✅ Exploring ActiveRecord Associations for AppBlend.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",

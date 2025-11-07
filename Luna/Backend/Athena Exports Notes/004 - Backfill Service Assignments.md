@@ -51,7 +51,6 @@ aws s3 sync \
   --include "2025-05*"
 ```
 
-
 ## Backfill
 
 ### Opción 1: script local para generar los CSVs de Alpha
@@ -93,7 +92,6 @@ Enum.each(dates, fn date ->
 end)
 ```
 
-
 ## Cargar las carpetas a S3 Alpha
 
 ```bash
@@ -106,9 +104,6 @@ aws s3 sync \
 
 > [!Warning]
 > Recuerda comprimir la carpeta para conservar un archivo y tener forma de restaurar en caso de falla.
-
-> [!Warning]
-> Antes de correr el último comando, postea en `#backend-prod-ops`. No ejecutes sin la previa autorización y aprobación de Ryan.
 
 Descarga los archivos:
 ```bash
@@ -127,3 +122,49 @@ aws s3 sync \
   --include "2025-04*" \
   --include "2025-05*"
 ```
+
+## Backfill en Local
+
+Comprobar que los CSV descargados les falte la columna con:
+```bash
+bash ../backfill-scripts/service-assignments/check_csv_headers.sh ~/Downloads/sda-backfill-omega/
+```
+
+Luego hay que exportar el ENV con los valores para conectar a la DB de Omega:
+```bash
+source setup_omega_env.sh
+```
+
+Correr el script local
+```bash
+mix run backfill_assignments_local.exs
+```
+
+Verificar que los archivos generados tienen las columnas esperadas
+```bash
+bash ../backfill-scripts/service-assignments/check_csv_headers.sh ~/Downloads/sda-backfill-omega-modded/
+```
+
+Compara entre los originales y los modificados
+```bash
+bash ../backfill-scripts/service-assignments/compare_csv_data.sh ~/Downloads/sda-backfill-omega/ ~/Downloads/sda-backfill-omega-modded/
+```
+
+## Carga las carpetas a S3
+
+> [!Warning]
+> Antes de correr este último comando, postea en `#backend-prod-ops`. No ejecutes sin la previa autorización y aprobación de Ryan.
+
+```bash
+aws s3 sync \
+  ~/Downloads/sda-backfill-omega-modded/ \
+  s3://luna-omega-workloads-data-lake/business-operations/service-desk/assignments/
+```
+
+## Pasos Finales
+
+- [ ] Corre query en Athena antes de correr el Crawler
+	- Descarga copia de los resultados
+- [ ] Corre el crawler
+- [ ] Vuelve a correr query en Athena
+	- Descarga copia de los resultados y compara
