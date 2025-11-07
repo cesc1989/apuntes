@@ -104,6 +104,12 @@ aws s3 sync \
 
 # Omega
 
+> [!Warning]
+> Recuerda comprimir la carpeta para conservar un archivo y tener forma de restaurar en caso de falla.
+
+> [!Warning]
+> Antes de correr el último comando, postea en `#backend-prod-ops`. No ejecutes sin la previa autorización y aprobación de Ryan.
+
 Descarga los archivos:
 ```bash
 aws s3 sync \
