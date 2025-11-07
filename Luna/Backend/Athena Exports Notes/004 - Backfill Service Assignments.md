@@ -24,34 +24,65 @@ Bajé el reporte de Noviembre de 2025 y puedo ver esas columnas presentes en el 
 
 Puedo probar los workers en alpha de grimoire para tener claridad de cómo usarlos para Omega.
 
-# Alpha Backfill para Probar
+# Prueba en Alpha
 
 > [!Important]
 > En alpha como tengo permisos puedo correr los workers por año. Sin embargo, para Omega me tocaría pedir una prod-op.
 >
 > Entonces o hago el script que corra en local con Claudio o armo un script para que corra para todos los años y pido la prod-op.
 
+
+## Descarga todas las carpetas de Alpha
+
+```bash
+aws s3 sync \
+  s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/ \
+  ~/Downloads/sda-backfill-alpha/ \
+  --exclude "*" \
+  --include "2020*" \
+  --include "2021*" \
+  --include "2022*" \
+  --include "2023*" \
+  --include "2024*" \
+  --include "2025-01*" \
+  --include "2025-02*" \
+  --include "2025-03*" \
+  --include "2025-04*" \
+  --include "2025-05*"
+```
+
+
+## Backfill
+
+### Opción 1: script local para generar los CSVs de Alpha
+
+Se debe ejecutar desde la carpeta de Grimoire.
+
+Comprobar que los CSV descargados les falte la columna con:
+```bash
+bash ../backfill-scripts/service-assignments/check_csv_headers.sh
+```
+
+Luego hay que exportar el ENV con los valores para conectar a la DB de Alpha:
+```bash
+source setup_omega_env.sh
+```
+
+Correr el script local
+```bash
+mix run backfill_assignments_local.exs
+```
+
+Verificar que los archivos generados tienen las columnas esperadas
+```bash
+bash ../backfill-scripts/service-assignments/check_csv_headers.sh ~/Downloads/sda-backfill-alpha-modded/
+```
+
+### Opción 2: correr los workers en Alpha
+
 > [!Info]
 > Con el comando `bin/grimoire remote` ingreso a una sesión de iex en el contenedor.
 
-## 2025
-
-Teniendo en cuenta que Brett pide prioridad para Enero - Mayo de 2025, empezaré por estos.
-
-Descarga las carpetas:
-```bash
-aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/ ~/Downloads/sda-backfill-alpha-2020/ --exclude "*" --include "2025-01*" --include "2025-02*" --include "2025-03*" --include "2025-04*" --include "2025-05*"
-```
-
-## 2020
-
-Descarga las carpetas:
-```bash
-aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/ ~/Downloads/sda-backfill-alpha-2020/ --exclude "*" --include "2020*"
-```
-
-
-Comando para correr los workers en Alpha:
 ```erlang
 dates = ["2020-01-01", "2020-02-01", "2020-03-01", "2020-04-01", "2020-05-01", "2020-06-01", "2020-07-01", "2020-08-01", "2020-09-01", "2020-10-01", "2020-11-01", "2020-12-01"]
 
@@ -63,30 +94,10 @@ end)
 ```
 
 
-## 2021
+## Cargar las carpetas a S3 Alpha
 
-Descarga las carpetas:
 ```bash
-aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/ ~/Downloads/sda-backfill-alpha-2021/ --exclude "*" --include "2021*"
-```
-
-## 2022
-
-Descarga las carpetas:
-```bash
-aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/ ~/Downloads/sda-backfill-alpha-2022/ --exclude "*" --include "2022*"
-```
-
-## 2023
-
-Descarga las carpetas:
-```bash
-aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/ ~/Downloads/sda-backfill-alpha-2023/ --exclude "*" --include "2023*"
-```
-
-## 2024
-
-Descarga las carpetas:
-```bash
-aws s3 sync s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/ ~/Downloads/sda-backfill-alpha-2024/ --exclude "*" --include "2024*"
+aws s3 sync \
+  ~/Downloads/sda-backfill-alpha-modded/ \
+  s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/
 ```
