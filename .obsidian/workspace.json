@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a4efabaf584cdb2",
+            "id": "c263cdd0d4e4aca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "004 - Backfill Service Assignments"
+            }
+          },
+          {
+            "id": "98c900b75e8a3ffc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +34,8 @@
               "icon": "lucide-file",
               "title": "003 - Export TIR to Therapist-Forward-Fill ✅"
             }
-          },
-          {
-            "id": "c263cdd0d4e4aca6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "004 - Backfill Service Assignments"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

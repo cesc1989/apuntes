@@ -101,3 +101,23 @@ aws s3 sync \
   ~/Downloads/sda-backfill-alpha-modded/ \
   s3://luna-alpha-workloads-data-lake/business-operations/service-desk/assignments/
 ```
+
+# Omega
+
+Descarga los archivos:
+```bash
+aws s3 sync \
+  s3://luna-omega-workloads-data-lake/business-operations/service-desk/assignments/ \
+  ~/Downloads/sda-backfill-omega/ \
+  --exclude "*" \
+  --include "2020*" \
+  --include "2021*" \
+  --include "2022*" \
+  --include "2023*" \
+  --include "2024*" \
+  --include "2025-01*" \
+  --include "2025-02*" \
+  --include "2025-03*" \
+  --include "2025-04*" \
+  --include "2025-05*"
+```
