@@ -123,7 +123,7 @@ aws s3 sync \
   --include "2025-05*"
 ```
 
-## Backfill en Local
+## Backfill en Local ✅
 
 Comprobar que los CSV descargados les falte la columna con:
 ```bash
@@ -150,7 +150,7 @@ Compara entre los originales y los modificados
 bash ../backfill-scripts/service-assignments/compare_csv_data.sh ~/Downloads/sda-backfill-omega/ ~/Downloads/sda-backfill-omega-modded/
 ```
 
-## Carga las carpetas a S3
+## Carga las carpetas a S3 🟡
 
 > [!Warning]
 > Antes de correr este último comando, postea en `#backend-prod-ops`. No ejecutes sin la previa autorización y aprobación de Ryan.
