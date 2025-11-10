@@ -150,7 +150,7 @@ Compara los datos entre los originales y los modificados
 bash ../backfill-scripts/service-assignments/compare_csv_data.sh ~/Downloads/sda-backfill-omega/ ~/Downloads/sda-backfill-omega-modded/
 ```
 
-## Carga las carpetas a S3 🟡
+## Carga las carpetas a S3 🟢
 
 > [!Warning]
 > Antes de correr este último comando, postea en `#backend-prod-ops`. No ejecutes sin la previa autorización y aprobación de Ryan.
@@ -161,10 +161,10 @@ aws s3 sync \
   s3://luna-omega-workloads-data-lake/business-operations/service-desk/assignments/
 ```
 
-## Pasos Finales
+## Pasos Finales 🟢
 
 - [x] Corre query en Athena antes de correr el Crawler
 	- Descarga copia de los resultados
-- [ ] Corre el crawler
-- [ ] Vuelve a correr query en Athena
+- [x] Corre el crawler
+- [x] Vuelve a correr query en Athena
 	- Descarga copia de los resultados y compara
