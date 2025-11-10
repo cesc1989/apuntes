@@ -145,7 +145,7 @@ Verificar que los archivos generados tienen las columnas esperadas
 bash ../backfill-scripts/service-assignments/check_csv_headers.sh ~/Downloads/sda-backfill-omega-modded/
 ```
 
-Compara entre los originales y los modificados
+Compara los datos entre los originales y los modificados
 ```bash
 bash ../backfill-scripts/service-assignments/compare_csv_data.sh ~/Downloads/sda-backfill-omega/ ~/Downloads/sda-backfill-omega-modded/
 ```
