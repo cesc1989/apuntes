@@ -27,6 +27,13 @@ Estos tres workers son para actualizar las propiedades:
 - Credentialing Form URL
 - Credentialing Signup PDF
 
+## Crear el therapist en Marketplace
+
+Resulta que fue que no se creó por algún motivo en Marketplace. Toca hacer que se cree con:
+```ruby
+Credentialing::MarketplaceSyncWorker.perform_async("034dcade-119c-4683-b394-0d09f35b9015")
+```
+
 ## Retrigger sync de S3 a GDrive 🟡
 
 Hay un comando en Marketplace para hacer un retrigger cuando hay fallos al sincronizar entre S3 y GDrive.
@@ -64,3 +71,4 @@ python -m marketplace.commands.google_drive retrigger-s3-onboarding-files \
   --start-date 2024-02-26 --end-date 2024-02-27 \
   --prefix "854bd1ab-84fb-48f3-9a26-d2810a806136/"
 ```
+
