@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "65a5ec778bc99b2f",
+        "id": "63b4ed167460cbdc",
         "type": "tabs",
         "children": [
           {
-            "id": "cd7b7a45da795ee8",
+            "id": "26610746054164dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "014 - Therapist Sync en HS y MPF fallida"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
+                "file": "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟡"
+              "title": "Outline of 014 - Therapist Sync en HS y MPF fallida"
             }
           }
         ],
@@ -165,8 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd7b7a45da795ee8",
+  "active": "26610746054164dd",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟡.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Comanditos Edge.md",
@@ -178,7 +181,6 @@
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
@@ -192,8 +194,6 @@
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
-    "Luna/Backend/utilidades/Auth de GraphQL con Postman.md",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
