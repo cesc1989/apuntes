@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "63b4ed167460cbdc",
+        "id": "1a8e24dfb74a3027",
         "type": "tabs",
         "children": [
           {
-            "id": "26610746054164dd",
+            "id": "89738463958ca0b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,10 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26610746054164dd",
+  "active": "89738463958ca0b0",
   "lastOpenFiles": [
-    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟡.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
@@ -193,7 +194,6 @@
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
-    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",

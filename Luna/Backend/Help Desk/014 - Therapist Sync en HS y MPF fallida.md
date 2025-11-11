@@ -34,7 +34,7 @@ Hay un comando en Marketplace para hacer un retrigger cuando hay fallos al sincr
 Datos para preparar el comando:
 
 - Creación del therapist: 11/06/2025
-- ID: 034dcade-119c-4683-b394-0d09f35b9015
+- ID: `034dcade-119c-4683-b394-0d09f35b9015`
 
 Comando:
 ```bash
