@@ -46,6 +46,9 @@ python -m marketplace.commands.google_drive retrigger-s3-onboarding-files \
 
 ### Prueba en Local
 
+> [!Warning]
+> No se puede probar en local porque lo que hace el comando es redisparar la lambda en S3. Al dispararse la lambda se manda una petición al servidor de Marketplace. No tengo forma de lograr esto en local.
+
 Comando:
 ```bash
 python -m marketplace.commands.google_drive retrigger-s3-onboarding-files \
