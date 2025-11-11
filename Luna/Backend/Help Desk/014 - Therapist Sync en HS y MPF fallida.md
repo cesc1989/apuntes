@@ -27,7 +27,7 @@ Estos tres workers son para actualizar las propiedades:
 - Credentialing Form URL
 - Credentialing Signup PDF
 
-## Retrigger sync de S3 a GDrive
+## Retrigger sync de S3 a GDrive 🟡
 
 Hay un comando en Marketplace para hacer un retrigger cuando hay fallos al sincronizar entre S3 y GDrive.
 
