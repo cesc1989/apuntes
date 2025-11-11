@@ -284,7 +284,7 @@ Rake:
 bundle exec rake candid:backfill_pay_to_address["2024-01-01","2024-12-31"]
 ```
 
-- [ ] Pedir rake para verificar 2024
+- [x] Pedir rake para verificar 2024
 
 > [!Warning]
 > Esta es una operación sincrona así que toca pasar un rango de fecha que produzca un número pequeño de appts.
@@ -308,7 +308,7 @@ Rake:
 bundle exec rake candid:backfill_pay_to_address["2025-01-01","2025-09-30"]
 ```
 
-- [ ] Pedir rake para verificar 2025
+- [x] Pedir rake para verificar 2025
 
 > [!Warning]
 > Esta es una operación sincrona así que toca pasar un rango de fecha que produzca un número pequeño de appts.
