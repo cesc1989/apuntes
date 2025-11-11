@@ -56,3 +56,11 @@ python -m marketplace.commands.google_drive retrigger-s3-onboarding-files \
     --days-back 5 \
     --prefix "6bf5d3fe-63f1-4c17-ac56-689e9ac5c783/"
 ```
+
+Otro ejemplo:
+```bash
+python -m marketplace.commands.google_drive retrigger-s3-onboarding-files \
+  --bucket luna-alpha-workloads-therapist-signup \
+  --start-date 2024-02-26 --end-date 2024-02-27 \
+  --prefix "854bd1ab-84fb-48f3-9a26-d2810a806136/"
+```
