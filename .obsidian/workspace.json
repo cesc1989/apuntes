@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a7867ea8563e4a93",
+        "id": "c567ac41a4900bd2",
         "type": "tabs",
         "children": [
           {
-            "id": "831675ebb2b43fdb",
+            "id": "46e9c963597994a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
+                "file": "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "004 - Backfill Service Assignments 🟢"
+              "title": "015 - Add City and Diagnosis to Waitlist Entries 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
+                "file": "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 004 - Backfill Service Assignments 🟢"
+              "title": "Outline of 015 - Add City and Diagnosis to Waitlist Entries 🟡"
             }
           }
         ],
@@ -165,8 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "831675ebb2b43fdb",
+  "active": "46e9c963597994a4",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟡.md",
+    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "DevAsPros/Cash_Flow/Apuntes_Cilo_28_-_Flujos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
@@ -174,7 +176,6 @@
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
-    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
@@ -193,7 +194,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
