@@ -11,10 +11,14 @@
             "id": "0dddd5daa9ec2161",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Cilo_28_-_Flujos.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes_Cilo_28_-_Flujos"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Cilo_28_-_Flujos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes_Cilo_28_-_Flujos"
             }
           }
         ],
@@ -160,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "0dddd5daa9ec2161",
   "lastOpenFiles": [
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
