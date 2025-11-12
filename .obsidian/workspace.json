@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a8e24dfb74a3027",
+        "id": "92fbed98b3271b41",
         "type": "tabs",
         "children": [
           {
-            "id": "89738463958ca0b0",
+            "id": "38f765b96183d067",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida.md",
+                "file": "DevAsPros/Cash_Flow/attachments/Apuntes_Cilo_28_-_Flujos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "014 - Therapist Sync en HS y MPF fallida"
+              "title": "Apuntes_Cilo_28_-_Flujos"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida.md",
+                "file": "DevAsPros/Cash_Flow/attachments/Apuntes_Cilo_28_-_Flujos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 014 - Therapist Sync en HS y MPF fallida"
+              "title": "Outline of Apuntes_Cilo_28_-_Flujos"
             }
           }
         ],
@@ -165,10 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89738463958ca0b0",
+  "active": "38f765b96183d067",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/attachments/Apuntes_Cilo_28_-_Flujos.md",
+    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟡.md",
@@ -193,7 +194,6 @@
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
-    "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
