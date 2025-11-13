@@ -34,20 +34,6 @@
               "icon": "lucide-file",
               "title": "Probando Email Verification Landing"
             }
-          },
-          {
-            "id": "1a1c487ccf0fb949",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Portal Email Verification - General Info"
-            }
           }
         ]
       }
@@ -195,9 +181,9 @@
   },
   "active": "7fcd10c4417c6625",
   "lastOpenFiles": [
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",

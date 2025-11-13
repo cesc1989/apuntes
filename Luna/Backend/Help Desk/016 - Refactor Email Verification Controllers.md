@@ -69,6 +69,17 @@ end
 > La clave es que en `EmailVerificationsController` se redirige a una página donde se muestra un enlace al Clinical Dashboard del Provider. En el redirect de `PatientEmailVerificationsController` no hay tal enlace.
 
 
+### Nuevo Entendimiento de UserCommunicationMethod
+
+La clave de todo está en tener claridad con el modelo `UserCommunicationMethod`. Vistazo rápido a qué puede estar asociado una instancia de este modelo:
+
+- Account: Patient o Therapist
+- Physician
+- ShadowUser: Practice, Physician, PhysicianGroup, Clinic
+- HealthEntity
+
+Además, después de la actualización en `app/mailers/user_communication_methods/email_verification_mailer.rb` la generación del enlace quedó también dividida en dos partes donde un método genera el enlace para Pacientes y otro para las entidades cobijadas por ShadowUser.
+
 ## Solución
 
 Un controlador base que tenga toda la lógica general y controladores hijos que hagan las diferencias.
@@ -80,9 +91,3 @@ Para más detalles ver:
 - [[Probando Email Verification Landing]]
 - [[Probando Salida de Correos en Local]]
 
-La clave de todo está en tener claridad con el modelo `UserCommunicationMethod`. Vistazo rápido a qué puede estar asociado una instancia de este modelo:
-
-- Account: Patient o Therapist
-- Physician
-- ShadowUser: Practice, Physician, PhysicianGroup, Clinic
-- HealthEntity
