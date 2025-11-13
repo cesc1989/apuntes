@@ -4,21 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "c567ac41a4900bd2",
+        "id": "01077bf98b275180",
         "type": "tabs",
         "children": [
           {
-            "id": "46e9c963597994a4",
+            "id": "7fcd10c4417c6625",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟡.md",
+                "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "016 - Refactor Email Verification Controllers"
+            }
+          },
+          {
+            "id": "152182aa2016d753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "015 - Add City and Diagnosis to Waitlist Entries 🟡"
+              "title": "Probando Email Verification Landing"
+            }
+          },
+          {
+            "id": "730c791f68eacac1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Probando Salida de Correos en Local"
             }
           }
         ]
@@ -140,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟡.md",
+                "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 015 - Add City and Diagnosis to Waitlist Entries 🟡"
+              "title": "Outline of 016 - Refactor Email Verification Controllers"
             }
           }
         ],
@@ -165,14 +193,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46e9c963597994a4",
+  "active": "7fcd10c4417c6625",
   "lastOpenFiles": [
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟡.md",
+    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "DevAsPros/Cash_Flow/Apuntes_Cilo_28_-_Flujos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟡.md",
@@ -189,11 +222,6 @@
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/006 - Deploy First.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/005 - Abstraction no es Abstractness.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
-    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
