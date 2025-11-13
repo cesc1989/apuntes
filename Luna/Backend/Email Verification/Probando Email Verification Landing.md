@@ -4,13 +4,20 @@ Tanto success como failure. Aquí listo los pasos para generar un token bueno pa
 
 ## Generar token bueno y Verificación Ok 😎
 
-Necesitamos una instancia de `UserCommunicationMethod` de tipo Email. A esta le asignamos un código de verificación:
-```ruby
-ucm = UserCommunicationMethod.email.order("RANDOM()").first
-ucm.update!(verification_code: SecureRandom.urlsafe_base64(16))
-```
+Necesitamos una instancia de `UserCommunicationMethod` de tipo Email y se le asigna un código de verificación.
 
 ### Para ShadowUser o Physician
+
+```ruby
+ucm =
+  UserCommunicationMethod
+    .email
+    .where(user_type: %w[ShadowUser Physician])
+    .order("RANDOM()")
+    .first
+
+ucm.update!(verification_code: SecureRandom.urlsafe_base64(16))
+```
 
 Para poder abrir este código desde una URL hay que hacer un encodeo:
 ```ruby
@@ -23,6 +30,17 @@ Rails.application.routes.url_helpers.verify_email_url(
 ```
 
 ### Para Patient (Account)
+
+```ruby
+ucm =
+  UserCommunicationMethod
+    .email
+    .where(user_type: "Account")
+    .order("RANDOM()")
+    .first
+
+ucm.update!(verification_code: SecureRandom.urlsafe_base64(16))
+```
 
 ```ruby
 Rails.application.routes.url_helpers.patient_verify_email_url(
