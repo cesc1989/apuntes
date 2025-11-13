@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "Probando Email Verification Landing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Probando Email Verification Landing"
+              "title": "Outline of 016 - Refactor Email Verification Controllers"
             }
           }
         ],
@@ -180,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "744ad8ac201618a8",
+  "active": "e2ef6323b0b7b19b",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
