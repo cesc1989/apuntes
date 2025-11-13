@@ -10,6 +10,8 @@ ucm = UserCommunicationMethod.email.order("RANDOM()").first
 ucm.update!(verification_code: SecureRandom.urlsafe_base64(16))
 ```
 
+### Para ShadowUser o Physician
+
 Para poder abrir este código desde una URL hay que hacer un encodeo:
 ```ruby
 Rails.application.routes.url_helpers.verify_email_url(
@@ -20,7 +22,16 @@ Rails.application.routes.url_helpers.verify_email_url(
 )
 ```
 
-Con esa URL ya se puede probar abrir enlace verificable o no.
+### Para Patient (Account)
+
+```ruby
+Rails.application.routes.url_helpers.patient_verify_email_url(
+	UserCommunicationMethods::Email.encode_url_token(ucm),
+	host: ENV.fetch("ROOT_URL"),
+	protocol: Luna.env_protocol,
+	port: ENV["APPLICATION_PORT"]
+)
+```
 
 ## Token malo y Fallo en verificación 😭
 

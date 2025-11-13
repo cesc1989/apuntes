@@ -8,6 +8,8 @@ Reporte
 
 A causa de un error donde pacientes estaban siendo redireccionados a la página de success de verificación de email para los usuarios de Clinical Dashboard Fabricio optó, para arreglarlo, por duplicar el controlador. La diferencia terminó siendo mínima pero fue necesario para arreglar el lío.
 
+Ver más al respecto en [[Fallo del 5 de Septiembre - Email Verification o Failure]]
+
 Como parte de las tareas salidas del Postmortem está refactorizar estos controladores para simplificar el código y limpiar lo que se hizo para dejar todo en mejor forma.
 
 ## Contexto

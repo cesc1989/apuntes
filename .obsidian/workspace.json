@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -36,21 +36,21 @@
             }
           },
           {
-            "id": "730c791f68eacac1",
+            "id": "1a1c487ccf0fb949",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probando Salida de Correos en Local"
+              "title": "Portal Email Verification - General Info"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Probando Salida de Correos en Local"
+              "title": "Outline of Probando Email Verification Landing"
             }
           }
         ],
@@ -194,13 +194,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "730c791f68eacac1",
+  "active": "152182aa2016d753",
   "lastOpenFiles": [
+    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
-    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
+    "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
+    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟡.md",
     "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
@@ -222,7 +223,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
-    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
