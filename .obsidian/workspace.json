@@ -49,7 +49,8 @@
               "title": "Probando Salida de Correos en Local"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
+                "file": "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 016 - Refactor Email Verification Controllers"
+              "title": "Outline of Probando Salida de Correos en Local"
             }
           }
         ],
@@ -193,7 +194,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fcd10c4417c6625",
+  "active": "730c791f68eacac1",
   "lastOpenFiles": [
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",

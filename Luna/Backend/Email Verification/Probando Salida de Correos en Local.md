@@ -30,12 +30,24 @@ Y accede en `http://127.0.0.1:1080`.
 
 Hay que encontrar un UserCommunicationMethod que se pueda verificar:
 ```ruby
-bad_ucm = UserCommunicationMethod.email.order("RANDOM()").where(verification_status: "unverified").first bad_ucm.update!( verification_code: "holahola", verification_code_expires_at: 5.days.ago )
+bad_ucm =
+  UserCommunicationMethod.email.order("RANDOM()")
+    .where(verification_status: "unverified")
+    .first
+
+bad_ucm.update!(
+  verification_code: "holahola",
+  verification_code_expires_at: 5.days.ago
+)
 ```
 
 Luego precargarmos el Mailer:
 ```ruby
-mailer = UserCommunicationMethods::EmailVerificationMailer.with(communication_method: bad_ucm, duration_hours: 12)
+mailer =
+  UserCommunicationMethods::EmailVerificationMailer.with(
+    communication_method: bad_ucm,
+    duration_hours: 12
+  )
 ```
 
 Finalmente, hacemos el envío:
