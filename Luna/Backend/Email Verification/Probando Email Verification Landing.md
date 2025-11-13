@@ -32,19 +32,19 @@ Rails.application.routes.url_helpers.verify_email_url(
 ### Para Patient (Account)
 
 ```ruby
-ucm =
+ucm_pat =
   UserCommunicationMethod
     .email
     .where(user_type: "Account")
     .order("RANDOM()")
     .first
 
-ucm.update!(verification_code: SecureRandom.urlsafe_base64(16))
+ucm_pat.update!(verification_code: SecureRandom.urlsafe_base64(16))
 ```
 
 ```ruby
 Rails.application.routes.url_helpers.patient_verify_email_url(
-	UserCommunicationMethods::Email.encode_url_token(ucm),
+	UserCommunicationMethods::Email.encode_url_token(ucm_pat),
 	host: ENV.fetch("ROOT_URL"),
 	protocol: Luna.env_protocol,
 	port: ENV["APPLICATION_PORT"]
