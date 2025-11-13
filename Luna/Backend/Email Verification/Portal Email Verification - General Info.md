@@ -428,7 +428,7 @@ Un ShadowUser tiene un parent que puede ser:
 - Practice
 - Physician
 - PhysicianGroup
-- Clinice
+- Clinic
 
 # Reintentos de los Workers de Sidekiq
 

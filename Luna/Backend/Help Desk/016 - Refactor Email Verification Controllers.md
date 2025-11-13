@@ -80,5 +80,9 @@ Para más detalles ver:
 - [[Probando Email Verification Landing]]
 - [[Probando Salida de Correos en Local]]
 
-Detalles para este caso a continuación.
+La clave de todo está en tener claridad con el modelo `UserCommunicationMethod`. Vistazo rápido a qué puede estar asociado una instancia de este modelo:
 
+- Account: Patient o Therapist
+- Physician
+- ShadowUser: Practice, Physician, PhysicianGroup, Clinic
+- HealthEntity
