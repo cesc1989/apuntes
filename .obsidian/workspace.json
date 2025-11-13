@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "file": "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Probando Email Verification Landing"
+              "title": "Outline of Portal Email Verification - General Info"
             }
           }
         ],
@@ -194,10 +194,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "152182aa2016d753",
+  "active": "1a1c487ccf0fb949",
   "lastOpenFiles": [
-    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",

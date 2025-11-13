@@ -392,7 +392,7 @@ This property is a dropdown and has these values:
 > This value is represented in the database. You can find it by looking at the `portal_email_cadence` field in the `portal_configs` table.
 > The value that indicates a use opted-out is `3`.
 
-# Creando UserCommunicationMethod en las Pruebas: ShadowUser o Account?
+# Creando UserCommunicationMethod en las Pruebas: ShadowUser o Account? 🔑
 
 Resulta que UserCommunicationMethod define una asociación polimorfica con User. Este User puede ser:
 
