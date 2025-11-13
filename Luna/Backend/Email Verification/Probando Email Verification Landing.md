@@ -91,6 +91,8 @@ Rails.application.routes.url_helpers.verify_email_url(
 
 Se necesita saber que el correo de verificación llegue a un correo que podamos abrir.
 
+## Para ShadowUser
+
 Entonces podemos intentar buscar un UCM que tenga un correo conocido:
 ```ruby
 ucm = UserCommunicationMethod.email.where(value: "francisco.quintero@ideaware.co").first
@@ -118,6 +120,27 @@ Rails.application.routes.url_helpers.verify_email_url(
 	protocol: Luna.env_protocol,
 	port: ENV["APPLICATION_PORT"]
 )
+```
+
+## Para Account / Patient
+
+Como en la sección para pruebas en local:
+```ruby
+ucm_pat =
+  UserCommunicationMethod
+    .email
+    .where(user_type: "Account")
+    .order("RANDOM()")
+    .first
+
+
+ucm_pat.update_columns(
+  verification_status: "unverified",
+  value: "francisco.quintero+pruebaverification@ideaware.co"
+)
+
+
+ucm_pat.resend_verification!
 ```
 
 ## Encontrando UCM para un Physician o ShadowUser 🧐
