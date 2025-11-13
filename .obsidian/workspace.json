@@ -11,13 +11,32 @@
             "id": "e2ef6323b0b7b19b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "016 - Refactor Email Verification Controllers"
+            }
+          },
+          {
+            "id": "744ad8ac201618a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Probando Email Verification Landing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Probando Email Verification Landing"
             }
           }
         ],
@@ -160,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2ef6323b0b7b19b",
+  "active": "744ad8ac201618a8",
   "lastOpenFiles": [
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers.md",
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",

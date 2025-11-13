@@ -91,3 +91,5 @@ Para más detalles ver:
 - [[Probando Email Verification Landing]]
 - [[Probando Salida de Correos en Local]]
 
+- [ ] UserCommunicationMethod for Patient Account lands in the patient page
+- [x] UserCommunicationMethod for ShadowUser lands in the landing page with Clinical Dashboard link

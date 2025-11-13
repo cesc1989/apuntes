@@ -94,12 +94,16 @@ Se necesita saber que el correo de verificación llegue a un correo que podamos 
 Entonces podemos intentar buscar un UCM que tenga un correo conocido:
 ```ruby
 ucm = UserCommunicationMethod.email.where(value: "francisco.quintero@ideaware.co").first
+
+# o así
+ucm = UserCommunicationMethod.where("value LIKE '%francisco.quintero%'")
 ```
 
+Escogemos uno y le cambios el estado de verificación para poder reusarlo:
 ```ruby
-ucm = UserCommunicationMethod.where("value LIKE '%francisco.quintero%'")
-
-UserCommunicationMethod.find_by(value: "francisco.quintero+lunaindianapolis@ideaware.co").update(verification_status: "unverified")
+UserCommunicationMethod
+  .find_by(value: "francisco.quintero+lunaindianapolis@ideaware.co")
+  .update(verification_status: "unverified")
 
 ucm = UserCommunicationMethod.find_by(value: "francisco.quintero+lunaindianapolis@ideaware.co")
 
