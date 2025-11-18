@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "533024ee01c668dc",
+        "id": "29b48212190230ec",
         "type": "tabs",
         "children": [
           {
-            "id": "c863d947f3f4d823",
+            "id": "55958026f930ce48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
+                "file": "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Backfill Candid Superbills PayToAddress 🟢"
+              "title": "017 - Trash Duplicated Patient 🟡"
+            }
+          },
+          {
+            "id": "2e1344344952b350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Edge Enums que Importan 🔑.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Edge Enums que Importan 🔑"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
+                "file": "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Backfill Candid Superbills PayToAddress 🟢"
+              "title": "Outline of 017 - Trash Duplicated Patient 🟡"
             }
           }
         ],
@@ -165,10 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c863d947f3f4d823",
+  "active": "55958026f930ce48",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
+    "Luna/Backend/Edge Enums que Importan 🔑.md",
+    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
@@ -192,8 +208,6 @@
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
-    "Luna/Backend/Edge Enums que Importan 🔑.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/007 - Prevenir bugs es el inicio.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",
