@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "017 - Trash Duplicated Patient 🟡"
             }
-          },
-          {
-            "id": "2e1344344952b350",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Edge Enums que Importan 🔑.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Edge Enums que Importan 🔑"
-            }
           }
         ]
       }

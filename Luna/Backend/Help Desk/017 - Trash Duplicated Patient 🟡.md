@@ -46,3 +46,41 @@ ID a trashear: `02cd19d3-b1b5-46ce-9f67-3fc33d8852c9`
 Email a trashear: `9512276379@call.com`
 
 El paciente tiene un care plan que no tiene appointments activos así que puede ser trasheado.
+
+# Problema #2
+
+Para este caso parece estar en una tabla relacionada. Este es el mensaje del sentry:
+```
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "idx_user_communication_methods_kind_val_uniq"
+DETAIL:  Key (user_type, user_id, kind, value)=(Account, 02cd19d3-b1b5-46ce-9f67-3fc33d8852c9, 0, trash-record+patient-02cd19d3-b1b5-46ce-9f67-3fc33d8852c9@getluna.com) already exists.
+```
+
+Claudio me dio una query para verificar si ese email trash existe en la tabla `user_communication_methods`:
+```sql
+-- Check if trash email exists in user_communication_methods
+SELECT
+  id,
+  user_type,
+  user_id,
+  kind,
+  value as email,
+  created_at,
+  updated_at
+FROM user_communication_methods
+WHERE value = 'trash-record+patient-02cd19d3-b1b5-46ce-9f67-3fc33d8852c9@getluna.com';
+```
+
+Y en efecto existe:
+
+- kind: 0
+- email: `trash-record+patient-02cd19d3-b1b5-46ce-9f67-3fc33d8852c9@getluna.com`
+- created: `2025-11-06 17:21:55.646`
+
+## ¿Por qué llega hasta UserCommunicationMethod?
+
+Cuando se completa un update desde el admin en Luxe se encola el worker `PatientEmailUpdateWorker`. En este hay una verificación del correo. Si hay diferencia se procede a actualizar y luego se procede a crear un nuevo registro en dicho modelo con:
+```ruby
+UserCommunicationMethod.email.create!(email_attributes)
+```
+
+En este caso ya existe el email en la versión trash por eso cuando llega a este paso falla el proceso.
