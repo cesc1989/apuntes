@@ -318,3 +318,14 @@ bundle exec rake candid:verify_pay_to_address_updates["2025-01-01","2025-01-05"]
 ```
 
 Este rango tiene 4047 appts.
+
+# Conclusión
+
+Los workers están programados y corriendo. Aunque hubo duplicidad.
+
+Ayer, 17 de Noviembre, Jordan reportó este progreso:
+> **2025**- 85.5%  
+> **2024**- 86.29%  
+> **2023**- 98.47%
+
+Así que pronto debe estar listo para terminar.
