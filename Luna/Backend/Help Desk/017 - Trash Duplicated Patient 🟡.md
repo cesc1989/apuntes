@@ -84,3 +84,36 @@ UserCommunicationMethod.email.create!(email_attributes)
 ```
 
 En este caso ya existe el email en la versión trash por eso cuando llega a este paso falla el proceso.
+
+# Pruebas en Local
+
+## Replica
+
+Encontré un paciente X para probar. Hice el trash y puedo ver esto en el log:
+
+En el servidor:
+
+- La recepción de los parámetros
+	- Se ve el nuevo email en modo trash
+		- `"email"=>"trash-record+patient-f9da6210-cfe6-4796-af65-9710acfd63e9@getluna.com"`
+- Se crea un nuevo registro en audits
+- Se actualiza `patient_identity_block_group_id`
+
+```
+UPDATE "patients" SET "patient_identity_block_group_id" = $1 WHERE "patients"."id" = $2  [["patient_identity_block_group_id", "eae718c8-c0da-4457-93ba-88645b62c8ea"], ["id", "f9da6210-cfe6-4796-af65-9710acfd63e9"]]
+```
+
+- un rollback
+- finalmente el redirect al perfil del paciente `Redirected to http://localhost:3000/admin/patients/f9da6210-cfe6-4796-af65-9710acfd63e9`
+
+Cuando recargo no veo que aparezcan los valores Trash.
+
+En el job:
+
+- Se actualiza `user_communication_methods`
+```
+UPDATE "user_communication_methods" SET "primary_method" = $1, "updated_at" = $2 WHERE "user_communication_methods"."id" = $3  [["primary_method", false], ["updated_at", "2025-11-18 21:50:16.431469"], ["id", "66b95a16-7a02-4ba4-bd4e-5ece457e86b5"]]
+```
+
+- se crea un nuevo record en `user_communication_methods` con el trash email
+	- `["value", "trash-record+patient-f9da6210-cfe6-4796-af65-9710acfd63e9@getluna.com"]`
