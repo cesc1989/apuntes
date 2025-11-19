@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dee19de41d6bc6e8",
+        "id": "43d4f2cfdc17a59a",
         "type": "tabs",
         "children": [
           {
-            "id": "b902860bf04595bc",
+            "id": "11eae45957cdb874",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
+                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "017 - Trash Duplicated Patient 🟡"
+              "title": "004 - Backfill Service Assignments 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
+                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 017 - Trash Duplicated Patient 🟡"
+              "title": "Outline of 004 - Backfill Service Assignments 🟢"
             }
           }
         ],
@@ -165,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b902860bf04595bc",
+  "active": "11eae45957cdb874",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
@@ -193,7 +194,6 @@
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Advanced Database Programming with Rails and Postgres.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",

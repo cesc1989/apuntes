@@ -168,3 +168,30 @@ aws s3 sync \
 - [x] Corre el crawler
 - [x] Vuelve a correr query en Athena
 	- Descarga copia de los resultados y compara
+
+# Notas Finales
+
+Resulta que Brett notó un bajón drástico en la cantidad de mensajes para las fechas backfilleadas de 2025.
+
+![[sdabackfill.check.png]]
+
+Nota como antes Enero 2025 eran casi 6K y pasó a solo 17. Pensé que si esto tenía que ver con el backfill pero no lo creo porque:
+
+- Hubo una actualización en Agosto 2025
+- El código del backfill corre la misma query que genera los datos
+	- e incluye la actualización de Agosto
+
+Mi hipótesis es que los datos de antes estaban mal calculados.
+
+Esto dice Claudio después que lo hice revisar todo al detalle:
+
+> The backfill script **includes the August code changes**, so both the backfilled data and newly generated reports would use the same improved logic.
+>
+> **Key Insight:**
+>
+> Since the dramatic drop (5,993 → 17 messages) only happened for **backfilled dates** and not for dates that weren't re-processed, this suggests:
+>
+> **The original data (before backfill) was likely generated with the OLD logic (before August 27)**, which incorrectly counted more messages because assignment windows were too short and messages were being attributed to the wrong assignments or double-counted.
+>
+> The backfill with the NEW logic is actually **more accurate** - it's properly filtering messages to only count those sent during the correct assignment windows.
+
