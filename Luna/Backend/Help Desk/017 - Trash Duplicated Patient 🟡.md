@@ -192,6 +192,12 @@ UserCommunicationMethod.email.create!(email_attributes)
 
 En este caso ya existe el email en la versión trash por eso cuando llega a este paso falla el proceso.
 
+## Solución #2 🟡
+
+Para una cuenta de paciente que se va a blacklistear no debería ser necesario crear un registro en `UserCommunicationMethod`. Al fin de cuentas ni se va a comunicar ni se va a verificar.
+
+Entonces el fix pasó por ser evitar encolar el worker `PatientEmailUpdateWorker` cuando el paciente fue blacklisteado.
+
 # Pruebas en Local
 
 ## Replica
