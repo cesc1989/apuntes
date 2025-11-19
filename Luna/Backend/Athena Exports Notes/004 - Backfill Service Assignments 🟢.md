@@ -171,6 +171,8 @@ aws s3 sync \
 
 # Notas Finales
 
+## Bajón Drástico en la cantidad de mensajes luego del backfill 🟢
+
 Resulta que Brett notó un bajón drástico en la cantidad de mensajes para las fechas backfilleadas de 2025.
 
 ![[sdabackfill.check.png]]
@@ -195,3 +197,10 @@ Esto dice Claudio después que lo hice revisar todo al detalle:
 >
 > The backfill with the NEW logic is actually **more accurate** - it's properly filtering messages to only count those sent during the correct assignment windows.
 
+## ¿Se borran los mensajes de la tabla `sb_messages`? 🟢
+
+Respuesta corta: sí.
+
+El worker `Grimoire.ServiceDesk.RemoveOldMessagesWorker` se ejecuta diariamente y elimina mensajes de la tabla `sb_messages`.
+
+Este worker ejecuta la función `MessageContext.remove_old_messages()` la cual borra todos los mensajes de hace más de 6 meses atrás. Borrado permanente.

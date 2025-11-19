@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "43d4f2cfdc17a59a",
+        "id": "ce096d6cb4dd3066",
         "type": "tabs",
         "children": [
           {
-            "id": "11eae45957cdb874",
+            "id": "5e6af9640116ca82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -165,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11eae45957cdb874",
+  "active": "5e6af9640116ca82",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
@@ -180,7 +181,6 @@
     "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
     "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
-    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "DevAsPros/Cash_Flow/Apuntes_Cilo_28_-_Flujos.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
@@ -209,7 +209,6 @@
     "Luna/Backend/Help Desk/attachments/sequence.full.png",
     "Luna/Backend/Help Desk/attachments/sequence.concise.png",
     "DevAsPros/Super_Menú/rfcs",
-    "Luna/Marketplace/Appointments/attachments/appointment.reminder.data.collection.and.request.png",
     "Luna/Marketplace/Appointments/attachments",
     "Luna/Marketplace/Appointments",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
