@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ce096d6cb4dd3066",
+        "id": "164e1996328738ec",
         "type": "tabs",
         "children": [
           {
-            "id": "5e6af9640116ca82",
+            "id": "675c7942b5c877f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
+                "file": "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "004 - Backfill Service Assignments 🟢"
+              "title": "018 - Merge Physicians issue with UCM"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
+                "file": "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 004 - Backfill Service Assignments 🟢"
+              "title": "Outline of 018 - Merge Physicians issue with UCM"
             }
           }
         ],
@@ -165,14 +165,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e6af9640116ca82",
+  "active": "675c7942b5c877f2",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
+    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
-    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
@@ -189,8 +192,6 @@
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
     "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
