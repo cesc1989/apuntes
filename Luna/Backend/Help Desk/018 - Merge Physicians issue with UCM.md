@@ -42,3 +42,21 @@ Haré los cambios como sugiere Claude y en el PR preguntaré si mejor borro la r
 ## Reasociar el Outbound Transmission Attempt
 
 Hay que moverlo al physician que se va a mantener.
+
+# Pruebas
+
+## En Local
+
+Target:
+```
+8e45f50f-785c-4916-ac14-d93437e707d0
+```
+
+- NPI: 0000066143
+- NPI en hubspot: 20230213229090
+- Email: `yuly.murillo+ph-20230213223548@koombea.com`
+
+Source:
+```
+8d36fa4c-4f9d-4b3c-b88c-3107144df8c9
+```
