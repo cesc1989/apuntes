@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6179e34dd615a28c",
+        "id": "c36148ff6eaeb4b5",
         "type": "tabs",
         "children": [
           {
-            "id": "b5567a01e3986c57",
+            "id": "920eb943ee7e5d63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos para Therapist Signup"
+              "title": "019 - DA POCs issue with needs response"
+            }
+          },
+          {
+            "id": "948594234c88c126",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "008 - Update POC Fax and Violation Logic 🟢"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
+                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Therapist Signup"
+              "title": "Outline of 019 - DA POCs issue with needs response"
             }
           }
         ],
@@ -165,8 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5567a01e3986c57",
+  "active": "920eb943ee7e5d63",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
+    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
     "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
@@ -181,7 +198,6 @@
     "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟢.md",
     "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
     "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
     "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
     "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
@@ -191,8 +207,6 @@
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
     "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
