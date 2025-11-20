@@ -45,7 +45,7 @@ Hay que moverlo al physician que se va a mantener.
 
 # Pruebas
 
-## En Local
+## En Local 🟢
 
 Target:
 ```
@@ -73,3 +73,7 @@ Source:
 ```
 8d36fa4c-4f9d-4b3c-b88c-3107144df8c9
 ```
+
+### Resultados
+
+Después de configurar bien los physicians, pude probar el flow y ver el error del reporte. Con el fix de Claudio se soluciona y se borra el physician source.
