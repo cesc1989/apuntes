@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "164e1996328738ec",
+        "id": "6179e34dd615a28c",
         "type": "tabs",
         "children": [
           {
-            "id": "675c7942b5c877f2",
+            "id": "b5567a01e3986c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "018 - Merge Physicians issue with UCM"
+              "title": "Comanditos para Therapist Signup"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 018 - Merge Physicians issue with UCM"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -165,36 +165,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "675c7942b5c877f2",
+  "active": "b5567a01e3986c57",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
-    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
-    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
+    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
+    "Luna/Clinical_Dashboard/Casos/001 - Clinics no recibieron Link en Cadencia 🟢.md",
+    "Luna/Clinical_Dashboard/Casos/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
-    "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
-    "Luna/Backend/Edge Enums que Importan 🔑.md",
-    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
+    "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
-    "Luna/Backend/Email Verification/Probando Salida de Correos en Local.md",
-    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
-    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
-    "DevAsPros/Cash_Flow/Apuntes_Cilo_28_-_Flujos.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_25_-_Email_Spam.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
-    "Luna/Backend/Comanditos Edge.md",
+    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "Luna/Backend/Help Desk/012 - Therapist Boost contando Waitlist 🟢.md",
+    "Luna/Backend/Help Desk/011 - Sync Latest Auth Effective Until to HS 🟢.md",
+    "Luna/Backend/Help Desk/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
+    "Luna/Backend/Help Desk/009 - Stripe Metrics 🟢.md",
+    "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
+    "Luna/Backend/Help Desk/007 - Modify Board Cert answer in AF 🟢.md",
+    "Luna/Backend/Help Desk/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
+    "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
+    "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
+    "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
+    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
+    "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
+    "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM.md",
+    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
+    "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
-    "Luna/Backend/Plans of Care/HD - Update tag for signed POC visibility.md",
-    "Luna/Backend/Plans of Care/Missing POCs on Clinical Dashboard.md",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Luna/Marketplace/Help Desk",
     "DevAsPros/Super_Menú/attachments/as.redirect.mode.webp",

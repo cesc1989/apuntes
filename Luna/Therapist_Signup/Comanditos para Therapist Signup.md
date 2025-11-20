@@ -159,6 +159,11 @@ therapist = Therapist.find(ID)
 SetupMedicareRequirement.new(therapist).create
 ```
 
+O versión job:
+```ruby
+Credentialing::SetupMedicareRequirementWorker.perform_async("034dcade-119c-4683-b394-0d09f35b9015")
+```
+
 # Otros Comanditos
 
 El de Patient Self Report -> [[Comanditos para Patient Self Report]]
