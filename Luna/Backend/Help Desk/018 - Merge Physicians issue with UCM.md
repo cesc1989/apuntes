@@ -29,7 +29,7 @@ Se borraron archivos pero nunca se borró la tabla ni la restricción.
 
 La UI de esta funcionalidad está en https://luxe.alpha.getluna.com/admin/assist
 
-El código que lo soporta está en `app/services/physician_merge_service.rb`.
+El código que lo soporta está en `app/services/physician_merge_service.rb` y el controlador está en `app/admin/actions/assist.rb`.
 
 # Soluciones
 
