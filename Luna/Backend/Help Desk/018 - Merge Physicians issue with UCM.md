@@ -52,8 +52,15 @@ Target:
 8e45f50f-785c-4916-ac14-d93437e707d0
 ```
 
-- NPI: 0000066143
-- NPI en hubspot: 20230213229090
+- NPI original: 0000066143
+- NPI en hubspot: 202302131
+
+> [!Tip]
+> Para poder probar en local el NPI del contacto en HubSpot y del Physician en la BD deben ser el mismo.
+
+> [!Tip]
+> El NPI debe ser de 10 digitos.
+
 - Email: `yuly.murillo+ph-20230213223548@koombea.com`
 
 Source:
