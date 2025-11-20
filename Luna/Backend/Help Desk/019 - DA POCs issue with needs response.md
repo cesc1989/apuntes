@@ -54,8 +54,10 @@ A: Direct access can be resolved by a signed POC or referral. If a referral gets
 
 Pude ver que los PDFs generados llevaban una página al final que tiene espacios en blancos para que el physician firme y devuelva vía fax.
 
-> [!Warning]
+> [!Important]
 > Mi pregunta es: ¿Todos los templates tienen esa página?
+>
+> Respuesta: Sí. Todos lo que es POC usa el mismo template el cual contiene la página de signature.
 
 Encuentro que en `app/services/plans_of_care/plan_of_care_fax_pdf_service.rb` está esto:
 ```ruby
