@@ -92,3 +92,25 @@ GOOGLE_DOC_TEMPLATE_MAP = {
 ```
 
 Pedí acceso para comprobar si hay alguna plantilla sin la página de signature que dice Indy.
+
+## Conclusión
+
+Entendí mal el requerimiento inicial de Indy cuando pidió actualizar las reglas de Fax y Violation para Direct Access.
+
+El caso es EDG-2746. En la petición ella dijo:
+> New laws are in effect in 3 states and we need POC logic to match.
+
+En los comentarios en Linear ella dijo:
+> **VA**: "Fax when IV is signed (no signature required)" + "No violation Alerts"
+
+O sea que para el estado de Virginia esa es la regla ahora. No debe haber necesidad de firma para las IV (Initial Visits).
+
+Por alguna razón no entendí o pensé que esa regla se aplicaría sola. Ahora entiendo mejor cómo va esto de los POCs, su generación y la generación del PDF.
+
+# Solución: Dos Partes
+
+La solución se da en dos partes:
+
+1. Corregir la función `Chart#plan_of_care_needs_response?` para que haga el chequeo con el estado y no con el modo de resolución.
+2. Cambiar la generación del PDF para que cuando `needs_response = false` se elimine la última página, es decir, la que pide la firma del documento.
+

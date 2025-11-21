@@ -14,25 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "019 - DA POCs issue with needs response"
-            }
-          },
-          {
-            "id": "948594234c88c126",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "008 - Update POC Fax and Violation Logic 🟢"
             }
           }
         ]
