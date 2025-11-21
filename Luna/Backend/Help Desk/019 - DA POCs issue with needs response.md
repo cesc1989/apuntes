@@ -46,7 +46,6 @@ Procedí a preguntarle a Indy lo siguiente:
 **Q: What do you mean with the "signature page" that is sent in the fax? Can you show one example?**
 A: It’s the last page in the fax that the MD signs. Typically if something is marked as needs response no, this page is not present.
 
-
 **Q: For DA POCs, what does the "referral" resolution mode means?**
 A: Direct access can be resolved by a signed POC or referral. If a referral gets attached to the “Referral file” field in the care plan, it will resolve the POC and move the pt to “Referred” status instead of DA.
 
@@ -93,7 +92,7 @@ GOOGLE_DOC_TEMPLATE_MAP = {
 
 Pedí acceso para comprobar si hay alguna plantilla sin la página de signature que dice Indy.
 
-## Conclusión
+## Conclusión 🟡
 
 Entendí mal el requerimiento inicial de Indy cuando pidió actualizar las reglas de Fax y Violation para Direct Access.
 
@@ -114,3 +113,19 @@ La solución se da en dos partes:
 1. Corregir la función `Chart#plan_of_care_needs_response?` para que haga el chequeo con el estado y no con el modo de resolución.
 2. Cambiar la generación del PDF para que cuando `needs_response = false` se elimine la última página, es decir, la que pide la firma del documento.
 
+## 1) needs_response = false para Virginia IVs
+
+Esto fue lo que dijo Indy en el primer issue:
+
+- "TX, KS, and VA all had law updates for direct access."
+- VA:
+	- Fax when IV is signed (no signature required)
+	- No violation Alerts
+
+Cuando hice los cambios no entendí esa parte de la exclusividad de Virginia. Por eso el arreglo que hice para los reportes pasados afectaron los de este nuevo reporte.
+
+
+
+## 2) Quitar la signatura page para VA IVs
+
+Como el POC se creará con `needs_response = false` entonces hay que quitar la última página del PDF que se envía al physician.
