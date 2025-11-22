@@ -137,7 +137,24 @@ Anthony dijo que estaba mal porque todo sobre los POCs se configura por base de 
 
 Así que ahora voy a probar guardando la configuración para calcular este valor en el campo `plan_of_care_rules_config` de la tabla `states`.
 
-
+Esta es la configuración que voy a probar:
+```json
+{
+  "direct_access":
+  {
+    "fax_rules":
+    {
+      "anchor": "initial_visit",
+      "trigger":
+      {
+        "strategy": "chart_signature"
+      }
+    },
+    "resolution_mode": "referral",
+    "requires_physician_response": false
+  }
+}
+```
 
 ## 2) Quitar la signatura page para VA IVs
 
