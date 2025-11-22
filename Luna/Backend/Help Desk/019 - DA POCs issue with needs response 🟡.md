@@ -124,6 +124,19 @@ Esto fue lo que dijo Indy en el primer issue:
 
 Cuando hice los cambios no entendí esa parte de la exclusividad de Virginia. Por eso el arreglo que hice para los reportes pasados afectaron los de este nuevo reporte.
 
+### Primer Intento: solo código ❌
+
+Esta solución:
+```ruby
+return false if state.postal_abbreviation == "VA" && appointment.initial_visit?
+```
+
+Anthony dijo que estaba mal porque todo sobre los POCs se configura por base de datos para evitar soluciones ad-hoc.
+
+### Segundo Intento: config en DB
+
+Así que ahora voy a probar guardando la configuración para calcular este valor en el campo `plan_of_care_rules_config` de la tabla `states`.
+
 
 
 ## 2) Quitar la signatura page para VA IVs
