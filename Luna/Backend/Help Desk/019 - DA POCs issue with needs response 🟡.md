@@ -159,3 +159,22 @@ Esta es la configuración que voy a probar:
 ## 2) Quitar la signatura page para VA IVs
 
 Como el POC se creará con `needs_response = false` entonces hay que quitar la última página del PDF que se envía al physician.
+
+# Pruebas
+
+## Solución `needs_response` para Virginia
+
+Tengo dos scripts en mis documentos. El primero es para crear datos necesarios para probar la creación del POC. El segundo usa esos datos para crear un POC y revisa que el valor para `needs_response` sea false.
+
+Se ejecutan así desde una consola de Rails siempre que no los mueva de lugar o cambie el nombre del archivo.
+
+Primero crear datos para Virginia:
+```ruby
+load '/Users/francisco/Documents/Documents/luna-dev-files/edge/help-desk/edg-2746-pocs-rules/initial-visit-issue/01.create_test_poc_data.rb'
+```
+
+Luego correr el script de verificación
+```ruby
+load '/Users/francisco/Documents/Documents/luna-dev-files/edge/help-desk/edg-2746-pocs-rules/initial-visit-issue/02.reproduce_poc_needs_response_bug_simple.rb'
+```
+
