@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -167,6 +167,7 @@
   },
   "active": "c3fbaadcf186343b",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟢.md",
     "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
     "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM 🟡.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
@@ -192,7 +193,6 @@
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
-    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟡.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
