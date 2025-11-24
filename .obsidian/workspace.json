@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "670beb47dc5e5ecc",
+        "id": "132777806644d5af",
         "type": "tabs",
         "children": [
           {
-            "id": "c3fbaadcf186343b",
+            "id": "71e4ee9cf877143b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "019 - DA POCs issue with needs response 🟡"
+              "title": "Apuntes_Ruby_Parte_5"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 019 - DA POCs issue with needs response 🟡"
+              "title": "Outline of Apuntes_Ruby_Parte_5"
             }
           }
         ],
@@ -165,10 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3fbaadcf186343b",
+  "active": "71e4ee9cf877143b",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟢.md",
     "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+    "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟢.md",
     "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM 🟡.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",

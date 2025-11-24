@@ -298,3 +298,25 @@ Con eso me evito tanta interpolación (evitando que la línea sea muy larga) y o
 ```
 "https://api.hubapi.com/crm/v3/objects/2-33642689/901?associations=2-33642689"
 ```
+
+# Módulo incluido en clase se puede acceder con la constante de la clase
+
+Esto:
+```ruby
+module HubspotConstants
+  module LifecycleStage
+    MARKETING_QUALIFIED_LEAD = "marketingqualifiedlead"
+  end
+end
+
+class Referral < ApplicationRecord
+  include HubspotConstants
+end
+
+Referral::LifecycleStage::MARKETING_QUALIFIED_LEAD
+HubspotConstants::LifecycleStage::MARKETING_QUALIFIED_LEAD
+```
+
+Funciona porque al incluir el módulo `HubspotConstants` se permite que la constante `Referral` pueda encontrar la constante más anidada.
+
+No reemplaza sino que puede buscar.
