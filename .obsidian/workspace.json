@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d52ca5a1c780897a",
+        "id": "865e02b2c6e81f0e",
         "type": "tabs",
         "children": [
           {
-            "id": "416b90c4fce32268",
+            "id": "871dfff9a3cfaffd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+                "file": "Luna/Backend/ERDs Notes/001 - Smart Validations.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "019 - DA POCs issue with needs response 🟡"
+              "title": "001 - Smart Validations"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+                "file": "Luna/Backend/ERDs Notes/001 - Smart Validations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 019 - DA POCs issue with needs response 🟡"
+              "title": "Outline of 001 - Smart Validations"
             }
           }
         ],
@@ -165,10 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "416b90c4fce32268",
+  "active": "871dfff9a3cfaffd",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
+    "Luna/Backend/ERDs Notes/001 - Smart Validations.md",
+    "Luna/Backend/ERDs Notes",
     "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟢.md",
     "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM 🟡.md",
     "Luna/Backend/Help Desk/008 - Update POC Fax and Violation Logic 🟢.md",
@@ -192,7 +194,6 @@
     "Luna/Backend/Help Desk/005 - Recordatorio de Form Vencido 🟢.md",
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
-    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
@@ -212,7 +213,6 @@
     "DevAsPros/Super_Menú/rfcs",
     "Luna/Marketplace/Appointments/attachments",
     "Luna/Marketplace/Appointments",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Curso_de_Pattern_Matching/attachments",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
