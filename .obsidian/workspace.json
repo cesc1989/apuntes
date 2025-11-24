@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "132777806644d5af",
+        "id": "d52ca5a1c780897a",
         "type": "tabs",
         "children": [
           {
-            "id": "71e4ee9cf877143b",
+            "id": "416b90c4fce32268",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes_Ruby_Parte_5"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ruby_Parte_5"
+              "title": "Outline"
             }
           }
         ],
@@ -165,8 +160,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71e4ee9cf877143b",
+  "active": "416b90c4fce32268",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
     "Luna/Backend/Help Desk/017 - Trash Duplicated Patient 🟢.md",
     "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM 🟡.md",
@@ -192,7 +188,6 @@
     "Luna/Backend/Help Desk/004 - Recordatorio de Appt sin link de PF 🟢.md",
     "Luna/Backend/Help Desk/003 - Backfill Candid Superbills PayToAddress 🟢.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot ✅.md",
-    "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe ✅.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
