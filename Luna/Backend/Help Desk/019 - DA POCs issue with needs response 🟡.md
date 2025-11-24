@@ -178,3 +178,20 @@ Luego correr el script de verificación
 load '/Users/francisco/Documents/Documents/luna-dev-files/edge/help-desk/edg-2746-pocs-rules/initial-visit-issue/02.reproduce_poc_needs_response_bug_simple.rb'
 ```
 
+## Prueba de generación de POC para otros casos
+
+Tengo este otro script para probar los casos por fuera de Virginia para otros resultados de POCs.
+
+Se ejecuta con desde una consola de Rails
+```ruby
+load '/Users/francisco/Documents/Documents/luna-dev-files/edge/help-desk/edg-3032-pocs-2/01.test_non_initial_visit_poc.rb'
+```
+
+Para el cual puedo ver que se crea el POC con `needs_response = true`
+```
+INSERT INTO "plans_of_care" ("chart_id", "messenger", "needs_response", "created_at", "updated_at", "physician_id", "original_referral_type", "episode_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["chart_id", 123570], ["messenger", "phaxio"], ["needs_response", true]
+
+POC Details:
+  ID: 34cb0344-fc61-45d5-9195-707b8292457c
+  needs_response: true
+```

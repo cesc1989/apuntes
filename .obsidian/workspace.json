@@ -11,10 +11,14 @@
             "id": "416b90c4fce32268",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "019 - DA POCs issue with needs response 🟡"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 019 - DA POCs issue with needs response 🟡"
             }
           }
         ],
