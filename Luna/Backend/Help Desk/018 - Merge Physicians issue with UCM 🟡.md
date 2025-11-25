@@ -70,7 +70,9 @@ Target:
 - Email: `yuly.murillo+ph-20230213223548@koombea.com`
 
 > [!Tip]
-> El campo `fax_number` del physician también debe tener el mismo número que el UCM. Sino será sobreescribido y la prueba fallará.
+> El campo `fax_number` del physician también debe tener el mismo número que el UCM. Sino será sobreescrito y la prueba fallará.
+>
+> Adicional, la propiedad `fax` en HubSpot debe tener el mismo valor.
 
 Source:
 ```
