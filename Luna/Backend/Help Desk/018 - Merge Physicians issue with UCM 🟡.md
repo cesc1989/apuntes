@@ -77,3 +77,36 @@ Source:
 ### Resultados
 
 Después de configurar bien los physicians, pude probar el flow y ver el error del reporte. Con el fix de Claudio se soluciona y se borra el physician source.
+
+# Antiguo modelo de OutboundTransmissionAttempt
+
+Para verlo sin ir al PR.
+```ruby
+# Track attempts to transmit an entity.
+class OutboundTransmissionAttempt < ApplicationRecord
+  belongs_to :initiated_by, polymorphic: true
+  belongs_to :transmittable_entity, polymorphic: true
+  belongs_to :user_communication_method
+
+  audited only: %i[initiated_by_type initiated_by_id]
+
+  enum status: {
+    pending: 0,
+    succeeded: 1,
+    failed: 2
+  }
+
+  # eventually emails
+  enum kind: { fax: 0 }
+
+  class << self
+    def ransackable_scopes(_auth_object = nil)
+      %i[initiator_eq]
+    end
+
+    def initiator_eq(value)
+      where(initiated_by_id: value)
+    end
+  end
+end
+```
