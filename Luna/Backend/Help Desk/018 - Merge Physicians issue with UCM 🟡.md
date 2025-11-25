@@ -69,6 +69,9 @@ Target:
 
 - Email: `yuly.murillo+ph-20230213223548@koombea.com`
 
+> [!Tip]
+> El campo `fax_number` del physician también debe tener el mismo número que el UCM. Sino será sobreescribido y la prueba fallará.
+
 Source:
 ```
 8d36fa4c-4f9d-4b3c-b88c-3107144df8c9
