@@ -28,7 +28,7 @@ States with `resolution_mode: "referral"` grouped by their fax trigger strategy:
 
 ---
 
-## Detailed State Configuration
+# Detailed State Configuration
 
 ## California
 
