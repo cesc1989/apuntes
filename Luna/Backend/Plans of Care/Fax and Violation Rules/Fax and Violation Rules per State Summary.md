@@ -1,6 +1,6 @@
 # State-by-State POC Fax and Violation Rules Summary
 
-Generated: 2025-11-05 17:22:16
+Initially generated at: 2025-11-05 17:22:16
 
 ## States Grouped by Resolution Mode
 
