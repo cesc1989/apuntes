@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1eb60924e166ed5f",
+        "id": "0afdd67ddd91ddcd",
         "type": "tabs",
         "children": [
           {
-            "id": "a67a075dddf785e2",
+            "id": "d45f3c5ad69bfcd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
+                "file": "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fax and Violation Rules per State Summary"
+              "title": "020 - Resolver duplicados en tc_therapists"
+            }
+          },
+          {
+            "id": "265fe0710cb8a28f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "008 - Normalize Inputs 🟢"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
+                "file": "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fax and Violation Rules per State Summary"
+              "title": "Outline of 020 - Resolver duplicados en tc_therapists"
             }
           }
         ],
@@ -165,8 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a67a075dddf785e2",
+  "active": "d45f3c5ad69bfcd6",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
+    "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
@@ -177,7 +194,6 @@
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Communication_Preferences/¿Dónde_se_crean_las_Comms_Iniciales.md",
     "Luna/Backend/Communication_Preferences/Entidades_para_Pruebas.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Backend/ERDs Notes/002 - RTM SMS Fallback.md",
     "Luna/Backend/ERDs Notes/001 - Smart Validations.md",
     "Luna/Backend/ERDs Notes",
@@ -192,8 +208,6 @@
     "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
-    "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
-    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
