@@ -88,7 +88,12 @@ Los resultados de la query ayudan a identificar cuál registro es el candidato a
 
 La clave está en que retorna la fecha de actualización más reciente. Con eso puedo decidir cuál es el registro más viejo.
 
+Ver [[tc_therapists dups tiebreaker logic]] para entender el criterio para seleccionar al candidato.
 
+> [!Important]
+> En muchas ocasiones el candidato podría aportar el ID a propiedades como AF URL o Credentialing Form Files.
+>
+> Dado que estos son contactos antiguos no le di prioridad a resolver esa parte en HubSpot. Estoy tomando notas detalladas de todo este proceso para poder recordar y saber cómo proceder a arreglar cuando llegue el momento.
 
 ### Script para desduplicar
 

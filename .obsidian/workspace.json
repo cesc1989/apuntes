@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7384616b09927764",
+        "id": "713c16afb9463f01",
         "type": "tabs",
         "children": [
           {
-            "id": "313a4ed8e3448ada",
+            "id": "a6ce575ef59e6a64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "019 - DA POCs issue with needs response 🟡"
+            }
+          },
+          {
+            "id": "cb61911aa06440c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists 🟢.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "020 - Resolver duplicados en tc_therapists 🟢"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,14 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "cb61911aa06440c5",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+    "Luna/Backend/Help Desk/020-therapist-dups/tc_therapists dups tiebreaker logic.md",
+    "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists 🟢.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
-    "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists 🟢.md",
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
-    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM 🟢.md",
@@ -212,7 +228,6 @@
     "Luna/Backend/Help Desk/attachments/sequence.concise.png",
     "DevAsPros/Super_Menú/rfcs",
     "Luna/Marketplace/Appointments/attachments",
-    "Luna/Marketplace/Appointments",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
