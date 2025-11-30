@@ -50,6 +50,46 @@ WHERE LOWER(t.email) IN (
 ORDER BY LOWER(email);
 ```
 
+Con esta query exporté un CSV que incluía información relevante de cada duplicado como email y hubspot_id. Luego con esos datos armé un script para bajar datos de HubSpot en un formato que usé que me ayuda a identificar la información de cada posible candidato.
+
+Con los resultados de HubSpot corrí otro script que usa esta query como parte de su proceso:
+```sql
+select
+ t.id,
+ t.email,
+ t.hubspot_id,
+ t.updated_at,
+ t.latest_attestation_completed_at as af_completed,
+ t.form_completed_at as ca_completed,
+ t.created_at,
+ t.credentialing_active_attested_id,
+ tci.updated_at as cred_info_updated,
+ ti.updated_at as immu_updated,
+ tph.updated_at  as prof_updated,
+ pref.updated_at as pref_updated,
+ tnaca.updated_at as npi_updated,
+ tp.updated_at as pay_updated
+from tc_therapists t
+left join tc_credentialing_informations tci on tci.tc_therapist_id = t.id
+left join tc_immunizations ti on ti.tc_therapist_id = t.id
+left join tc_professional_histories tph on tph.tc_therapist_id = t.id
+left join tc_preferences pref on pref.tc_therapist_id = t.id
+left join tc_npi_and_caqh_applications tnaca on tnaca.tc_therapist_id = t.id
+left join tc_payouts tp on tp.tc_therapist_id = t.id
+where t.id in (
+'ID',
+'ID'
+)
+order by t.updated_at desc, t.latest_attestation_completed_at, t.form_completed_at, t.created_at
+;
+```
+
+Los resultados de la query ayudan a identificar cuál registro es el candidato a desduplicar.
+
+La clave está en que retorna la fecha de actualización más reciente. Con eso puedo decidir cuál es el registro más viejo.
+
+
+
 ### Script para desduplicar
 
 Este es el script final que recibe una lista de ids de `tc_therapists` para luego cambiarles su correo y quitarles el `hubspot_id`:

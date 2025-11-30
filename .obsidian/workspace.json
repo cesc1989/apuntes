@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0afdd67ddd91ddcd",
+        "id": "7384616b09927764",
         "type": "tabs",
         "children": [
           {
-            "id": "d45f3c5ad69bfcd6",
+            "id": "313a4ed8e3448ada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists 🟢.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "020 - Resolver duplicados en tc_therapists"
+              "title": "020 - Resolver duplicados en tc_therapists 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists.md",
+                "file": "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 020 - Resolver duplicados en tc_therapists"
+              "title": "Outline of 020 - Resolver duplicados en tc_therapists 🟢"
             }
           }
         ],
@@ -165,10 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d45f3c5ad69bfcd6",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/020-therapist-dups",
+    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
+    "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists 🟢.md",
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
-    "Luna/Backend/Help Desk/020 - Resolver duplicados en tc_therapists.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
@@ -192,8 +194,6 @@
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
-    "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
-    "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
