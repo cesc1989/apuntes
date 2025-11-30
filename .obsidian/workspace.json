@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "020 - Resolver duplicados en tc_therapists"
             }
-          },
-          {
-            "id": "265fe0710cb8a28f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "008 - Normalize Inputs 🟢"
-            }
           }
         ]
       }
