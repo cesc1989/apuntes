@@ -151,7 +151,7 @@ Esta es la configuración que voy a probar:
       }
     },
     "resolution_mode": "referral",
-    "requires_physician_response": false
+    "initial_visit_physician_response_required": false
   }
 }
 ```
