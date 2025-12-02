@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50fff2337119acaf",
+        "id": "c2203f135a2f50df",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2f72e95cdd9a8e",
+            "id": "432d170d61854091",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa2f72e95cdd9a8e",
+  "active": "432d170d61854091",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/021 - Prevent signing POC twice.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",

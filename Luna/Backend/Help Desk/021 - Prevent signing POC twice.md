@@ -8,7 +8,7 @@ Caso EDG-3062
 
 Pasó que un physician firmó un POC desde el Clinical Dashboard y vio un error. Al final el POC quedó resuelto pero quedó la mala experiencia.
 
-El error:
+El error principal:
 ```
 PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_plan_of_care_actions_on_plan_of_care_id"
 DETAIL:  Key (plan_of_care_id)=(c763a6db-97fb-4e1b-a085-6d1dddc49299) already exists.
@@ -23,11 +23,17 @@ Write query attempted while in readonly mode: INSERT INTO "clinical_dashboard_ac
 
 Que se debe a que la acción para guardar las métricas de Clinical Dashboard intentó registrar una nueva en la BD de solo lectura.
 
-# Cambios
+# Cambios 🚧
 
 ## Arreglo Problema PlanOfCareAction
 
-La solución es hacer que se busque o inicialicé un nuevo POCA antes de guardar. Así se evita crear un nuevo registro para el campo `plan_of_care_id` si ya hay uno previo.
+La solución es hacer que se busque o inicialice un nuevo POCA antes de guardar. Así se evita crear un nuevo registro para el campo `plan_of_care_id` si ya hay uno previo.
+
+Las pruebas las hice con el Dr. Salya.
+
+```
+7e6fe728-a2f8-4e75-9935-cf2384999385
+```
 
 ## Arreglo Problema ReadOnlyError
 
@@ -49,25 +55,37 @@ Activity.create_sign_poc_event(event_params)
 head :created
 ```
 
-# Pruebas
+# Pruebas en Local
 
-Dado a que el código de Clinical Dashboard aún se relaciona con Edge mediante peticiones HTTP fue un poco más complicado para probar esto.
+Dado a que el código de Clinical Dashboard aún se relaciona con Edge mediante peticiones HTTP fue un poco más complicado para probar.
 
 Me tocó tener dos servidores Rails. Siendo que cada "server" es una rama en un git worktree. En uno corría el código actualizado y en el otro hacía las peticiones como usuario del Clinical Dashboard.
 
-Las clave están en las ENVs:
+Las clave están en las ENVs.
 
+Con esta puedo ahorrarme el paso de verificación de token que está en Edge:
 ```
 NEW_INFRA="true"
 ```
 
-Con esta puedo ahorrarme el paso de verificación de token que está en Edge.
-
+Esta es para indicar el servidor que será Edge.
 ```
 EDGE_API_DOMAIN="http://localhost:3001"
 ```
 
-Esta debe siempre ser así y debo lanzar el servidor que será Edge con
+Ejemplo: en la rama donde hago el cambio levanto rails normal y en el que es Edge lo levanto con:
 ```
 bundle exec rails s -p 3001
 ```
+
+Así para este caso el servidor Edge responde a las peticiones de:
+
+- unsigned plans of care
+- plan of care action
+
+Mientras que el servidor que es el Clinical Dashboard responde a:
+
+- generar CD link
+- cargar los POCs (haciendo la petición a Edge)
+- iniciar firma de POC (haciendo la petición a Edge)
+
