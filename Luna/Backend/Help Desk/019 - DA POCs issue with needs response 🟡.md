@@ -195,3 +195,49 @@ POC Details:
   ID: 34cb0344-fc61-45d5-9195-707b8292457c
   needs_response: true
 ```
+
+# Apartado Especial
+
+Creo que una vez más me confundí con lo que dijo Indy y por no actuar pronto no aclaré.
+
+Iba a poner este código pero creo que eso no está bien. Lo dejo acá por si acaso.
+
+```ruby
+# modelo
+  def plan_of_care_needs_response?
+    state = appointment.region.state
+
+    return true if state.postal_abbreviation == "VA" &&
+                   appointment.initial_visit? &&
+                   appointment.discharged?
+
+    return state.poc_iv_physician_response_required(rule_type: :direct_access) if appointment.initial_visit?
+
+    !appointment.discharged?
+  end
+
+# pruebas
+  context "with DA discharged IV in Virginia as the only appt" do
+    it "requires response" do
+      va_state = create(:state, postal_abbreviation: "VA")
+      va_state.plan_of_care_rules_config["direct_access"] = {
+        "initial_visit_physician_response_required" => false
+      }
+      va_state.save!
+
+      region = create(:region, state: va_state)
+      patient = create(:patient)
+      episode = create(:episode, patient: patient, referral_url: nil)
+      initial_visit = create(
+        :appointment,
+        episode: episode,
+        region: region,
+        visit_type: "initial",
+        discharged: true
+      )
+      chart = create(:chart, appointment: initial_visit)
+
+      expect(chart.plan_of_care_needs_response?).to be true
+    end
+  end
+```
