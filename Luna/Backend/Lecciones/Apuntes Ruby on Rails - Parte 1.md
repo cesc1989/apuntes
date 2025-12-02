@@ -304,3 +304,41 @@ regex_pattern = /^patient_collection_ids_\d{4}-\d{2}-\d{2}.*/
 "patient_collection_ids_2025-09-17_extra".match?(regex_pattern)
 => true
 ```
+
+# Enum como where en ActiveRecord
+
+El modelo `PlanOfCareAction` define un enum:
+```ruby
+enum kind: {
+	resolved_by_admin: 0,
+	signed_by_physician: 1,
+	physician_requested_modifications: 2,
+	rejected_by_physician: 3,
+	physician_requested_modifications_handled_by_admin: 4,
+	rejected_by_physician_handled_by_admin: 5
+}
+```
+
+Resulta que algo que he visto frecuente en Edge es cosas como `Modelo.valor_enum`. Entonces para la definición anterior se puede hacer `PlanOfCareAction.signed_by_physician` y eso ejecuta la consulta como where o puede inicializar.
+
+Ejemplos.
+
+Inicializar con el enum:
+```ruby
+PlanOfCareAction.send(:signed_by_physician).new
+=> #<PlanOfCareAction:0x000000012f99c4f8 id: nil, plan_of_care_id: nil, kind: "signed_by_physician", notes: nil, metadata: {}, created_at: nil, updated_at: nil>
+```
+
+Buscar con el enum:
+```ruby
+PlanOfCareAction.signed_by_physician.first
+  PlanOfCareAction Load (0.6ms)  SELECT "plan_of_care_actions".* FROM "plan_of_care_actions" WHERE "plan_of_care_actions"."kind" = $1 ORDER BY "plan_of_care_actions"."id" ASC LIMIT $2  [["kind", 1], ["LIMIT", 1]]
+=> #<PlanOfCareAction:0x0000000140725128
+ id: "00ebaec9-412b-498b-97a1-54ba0cf6fff0",
+ plan_of_care_id: "91a7f998-b53c-490f-857f-2db5f495860c",
+ kind: "signed_by_physician",
+ notes: nil,
+ metadata: {"actor"=>{"provider_id"=>"7e6fe728-a2f8-4e75-9935-cf2384999385", "provider_kind"=>"physician", "provider_name"=>"Aaron Salyapongse", "portal_recipient_email"=>"francisco.quintero+2@ideaware.co"}},
+ created_at: Thu, 26 Sep 2024 07:33:23.148147000 PDT -07:00,
+ updated_at: Thu, 26 Sep 2024 07:33:23.148147000 PDT -07:00>
+```
