@@ -48,3 +48,26 @@ Activity.create_sign_poc_event(event_params)
 
 head :created
 ```
+
+# Pruebas
+
+Dado a que el código de Clinical Dashboard aún se relaciona con Edge mediante peticiones HTTP fue un poco más complicado para probar esto.
+
+Me tocó tener dos servidores Rails. Siendo que cada "server" es una rama en un git worktree. En uno corría el código actualizado y en el otro hacía las peticiones como usuario del Clinical Dashboard.
+
+Las clave están en las ENVs:
+
+```
+NEW_INFRA="true"
+```
+
+Con esta puedo ahorrarme el paso de verificación de token que está en Edge.
+
+```
+EDGE_API_DOMAIN="http://localhost:3001"
+```
+
+Esta debe siempre ser así y debo lanzar el servidor que será Edge con
+```
+bundle exec rails s -p 3001
+```
