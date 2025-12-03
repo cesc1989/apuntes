@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ed73c15217bb801b",
+        "id": "5075417949d0ce00",
         "type": "tabs",
         "children": [
           {
-            "id": "2853619c4939ad83",
+            "id": "f469e80bc9355785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "007 - Test Runs for Patient Self Report in Edge"
+            }
+          },
+          {
+            "id": "7624092f87104e3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "023 - Flakes en Backend"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tzinfo-data",
+                "query": "paralelo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +180,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2853619c4939ad83",
+  "active": "7624092f87104e3f",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend.md",
     "Luna/Backend/Help Desk/022 - Problema de Age para Patient Summary 🟢.md",
     "Luna/Backend/Help Desk/018 - Merge Physicians issue with UCM 🟢.md",
@@ -193,7 +209,6 @@
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",

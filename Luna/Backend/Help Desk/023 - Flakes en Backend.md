@@ -4,6 +4,9 @@ Etiquetas: #luna_help_desk
 
 Ryan, Anthony, Meredith y yo hemos visto varios tests que están bien _flekis_. Voy a arreglarlos.
 
+> [!Info]
+> Cómo correr pruebas en paralelo para poder probar estos caso ver en [[007 - Test Runs for Patient Self Report in Edge#Patrón "form" en paralelo]]
+
 ## v2/progress_form_drafts_spec.rb:467
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19717501852/job/56493127343?pr=12822
