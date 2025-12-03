@@ -929,3 +929,17 @@ Para columnas en una tabla:
 ```ruby
 ActiveRecord::Base.connection.columns('clinical_dashboard_users').map(&:name)
 ```
+
+# Error de carga al quitar coffee_script
+
+Anthony quitó coffee_script de backend. Al bajar cambios y probar correr unos tests me dio este error:
+```
+LoadError: cannot load such file -- coffee_script
+```
+
+La solución está en correr este otro comando:
+```
+bundle exec rake tmp:cache:clear
+```
+
+Visto en: https://kenglish.co/loaderror-cannot-load-such-file-coffee_script/
