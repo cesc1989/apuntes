@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
+                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "023 - Flakes en Backend 🟡"
+              "title": "023 - Flakes en Backend 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
+                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 023 - Flakes en Backend 🟡"
+              "title": "Outline of 023 - Flakes en Backend 🟢"
             }
           }
         ],
@@ -168,7 +168,7 @@
   "active": "0fbbe6af7d64e439",
   "lastOpenFiles": [
     "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
-    "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
+    "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Batch Loader in Rails 7.0.4 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2 ✅.md",
