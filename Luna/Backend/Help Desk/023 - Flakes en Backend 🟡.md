@@ -223,6 +223,9 @@ Failures:
 
 ## models/invoicing_run_spec.rb:21 🟢
 
+> [!Info]
+> Estas pruebas ya no existen más porque Ryan las borró en un PR posterior.
+
 Reporte: https://github.com/lunacare/backend/actions/runs/19880118239/job/56976032678?pr=12841
 
 Prueba:
