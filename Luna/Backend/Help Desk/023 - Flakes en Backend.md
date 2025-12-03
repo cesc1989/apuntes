@@ -75,7 +75,7 @@ Failures:
 ```
 
 
-## v3/drafts_spec.rb:252 🟡
+## v3/drafts_spec.rb:252 🟢
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19722978926/job/56508913949?pr=12828
 
@@ -107,7 +107,7 @@ Failures:
 ```
 
 
-## patient_form_helpers_spec.rb:22 🟡
+## patient_form_helpers_spec.rb:22 🟢
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19877554877/job/56968441106?pr=12853
 
