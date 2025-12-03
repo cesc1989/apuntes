@@ -9,9 +9,10 @@ Ryan, Anthony, Meredith y yo hemos visto varios tests que están bien _flekis_. 
 Reporte: https://github.com/lunacare/backend/actions/runs/19717501852/job/56493127343?pr=12822
 
 Prueba:
+```bash
+pruebas ./spec/requests/patient_self_report/api/v2/progress_form_drafts_spec.rb:467
 ```
-rspec ./spec/requests/patient_self_report/api/v2/progress_form_drafts_spec.rb:467 # Progress Form Drafts PUT /progress_form_drafts when draft is for functional limitations and ASES form answer is updated updates the question option choice
-```
+> Progress Form Drafts PUT /progress_form_drafts when draft is for functional limitations and ASES form answer is updated updates the question option choice
 
 Fallo:
 ```
