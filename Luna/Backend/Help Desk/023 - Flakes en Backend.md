@@ -7,7 +7,7 @@ Ryan, Anthony, Meredith y yo hemos visto varios tests que están bien _flekis_. 
 > [!Info]
 > Cómo correr pruebas en paralelo para poder probar estos caso ver en [[007 - Test Runs for Patient Self Report in Edge#Patrón "form" en paralelo]]
 
-## v2/progress_form_drafts_spec.rb:467
+## v2/progress_form_drafts_spec.rb:467 🟢
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19717501852/job/56493127343?pr=12822
 
@@ -41,7 +41,7 @@ Failures:
 ```
 
 
-## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:101
+## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:101 🟡
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19718246762/job/56495443869?pr=12824
 
@@ -75,7 +75,7 @@ Failures:
 ```
 
 
-## v3/drafts_spec.rb:252
+## v3/drafts_spec.rb:252 🟡
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19722978926/job/56508913949?pr=12828
 
@@ -107,7 +107,7 @@ Failures:
 ```
 
 
-## patient_form_helpers_spec.rb:22
+## patient_form_helpers_spec.rb:22 🟡
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19877554877/job/56968441106?pr=12853
 
