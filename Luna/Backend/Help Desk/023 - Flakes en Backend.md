@@ -221,7 +221,7 @@ Failures:
 ```
 
 
-## models/invoicing_run_spec.rb:21 🟢
+## models/invoicing_run_spec.rb:21 🟡
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19880118239/job/56976032678?pr=12841
 
