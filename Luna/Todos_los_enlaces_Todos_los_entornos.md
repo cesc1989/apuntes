@@ -29,7 +29,6 @@
 |               | **Alpha (alpha.getluna.com)**              | **Producción (getluna.com)**        |
 | ------------- | ------------------------------------------ | ------------------------------------|
 | Main Form     | https://success.alpha.getluna.com/sign-up  | https://success.getluna.com/sign-up |
-| Mini Form     | https://success.alpha.getluna.com/mini     | https://success.getluna.com/mini    |
 | API           | https://therapist-signup.alpha.getluna.com | https://success-api.getluna.com     |
 | Sidekiq       | https://therapist-signup.alpha.getluna.com/sidekiq |                             |
 
@@ -58,6 +57,6 @@
 | **Entorno** | **Enlace**                                |
 | ----------- | ----------------------------------------- |
 | Omega       | https://grafana.live.getluna.com/?orgId=1 |
-| Alpha       |                                           |
+
 
 
