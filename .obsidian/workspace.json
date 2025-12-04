@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "28cc785614ae8f24",
+        "id": "d63f9f7b3f58b509",
         "type": "tabs",
         "children": [
           {
-            "id": "5e877a4de8f88dbe",
+            "id": "dc0eff3b005c0b51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Todos_los_enlaces_Todos_los_entornos"
+              "title": "POC Generation - Missing Case Analysis"
+            }
+          },
+          {
+            "id": "bac26d4bb83db84c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "023 - Flakes en Backend 🟢"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Todos_los_enlaces_Todos_los_entornos"
+              "title": "Outline of 023 - Flakes en Backend 🟢"
             }
           }
         ],
@@ -165,8 +180,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e877a4de8f88dbe",
+  "active": "bac26d4bb83db84c",
   "lastOpenFiles": [
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
+    "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
+    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Aprendizajes de los Lanzamientos.md",
     "Luna/Glosario.md",
     "Luna/Grafana_Queries.md",
@@ -183,16 +202,12 @@
     "Luna/Patient_Self_Report/Access Existing Forms.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Patient_Self_Report/Change_Form_Type.md",
-    "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
     "Luna/Patient_Self_Report/Cómo_Crear_un_Paciente_en_Staging.md",
     "Luna/Patient_Self_Report/Summary_Page_Detalles_para_JSON_Components.md",
     "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
-    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟢.md",
     "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Batch Loader in Rails 7.0.4 ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2 ✅.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",

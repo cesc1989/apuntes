@@ -375,3 +375,45 @@ Failures:
      # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
      # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 ```
+
+Fallo adicional:
+```
+Failures:
+
+  1) Progress Form Drafts GET /progress_form_drafts when question component has selected_option_id shows the selected option choice id
+     Got 2 failures:
+
+     1.1) Failure/Error: expect(question[:data]).to include(:selected_option_id)
+
+            expected {"body" => "On average, how much shoulder pain have you experienced in the last week?", "label" => "Your Pain Scale"} to include :selected_option_id
+            Diff:
+            @@ -1 +1,2 @@
+            -[:selected_option_id]
+            +"body" => "On average, how much shoulder pain have you experienced in the last week?",
+            +"label" => "Your Pain Scale",
+          # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:46:in `block (4 levels) in <top (required)>'
+          # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:7:in `block (2 levels) in <top (required)>'
+          # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+          # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+
+     1.2) Failure/Error: expect(question[:data][:selected_option_id]).not_to be(nil)
+
+            expected not #<NilClass:4> => nil
+                     got #<NilClass:4> => nil
+
+            Compared using equal?, which compares object identity.
+          # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:47:in `block (4 levels) in <top (required)>'
+          # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:7:in `block (2 levels) in <top (required)>'
+          # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+          # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+```
