@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51327e402ef5cfc6",
+        "id": "70b63d51e2b86dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "4b592e6d6e63497d",
+            "id": "aae485a3de8d8695",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "POC Generation - Missing Case Analysis"
+              "title": "023 - Flakes en Backend 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of POC Generation - Missing Case Analysis"
+              "title": "Outline of 023 - Flakes en Backend 🟢"
             }
           }
         ],
@@ -165,10 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b592e6d6e63497d",
+  "active": "aae485a3de8d8695",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟢.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟢.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
     "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Browsing Batch Loader in Rails 7.0.4 ✅.md",
