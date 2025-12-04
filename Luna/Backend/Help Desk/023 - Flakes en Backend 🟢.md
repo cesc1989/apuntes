@@ -340,6 +340,12 @@ Failures:
 
 ## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 🟡
 
+
+> [!Info]
+> El problema de este test es que las questions no se están creando con un orden asignado. Para los FormType ASES se crean 11 preguntas. 10 con option choices y 1 sin. Al crearlas, no se está asignando el atributo `order` así que cuando se quiere buscar una pregunta con option choices el sistema puede devolver una que tiene o una que no.
+>
+> Para solucionar se busca una que tenga y se selecciona esa.
+
 Prueba:
 ```
 rspec ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 # Progress Form Drafts GET /progress_form_drafts when question component has selected_option_id shows the selected option choice id
