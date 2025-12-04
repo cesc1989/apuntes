@@ -285,3 +285,55 @@ Failures:
      # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
      # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 ```
+
+## functional_outcome_measures_service_spec.rb:73 🟡
+
+Prueba
+```
+rspec ./spec/services/functional_outcome_measures_service_spec.rb:73 # FunctionalOutcomeMeasuresService Using multiple form examples reads the applicable form submissions relative to the chart submission date
+```
+
+Fallo:
+```
+Failures:
+
+  1) FunctionalOutcomeMeasuresService Using multiple form examples reads the applicable form submissions relative to the chart submission date
+     Failure/Error:
+       expect(result).to eql(
+         [
+           {
+             score_label: "PSFS Score",
+             score_value_label: "0/10",
+             submitted_at: complete_progress_psfs_outcome_1.completed_at.iso8601
+           },
+           {
+             score_label: "Pain Score",
+             score_value_label: "5/10",
+
+       expected: [{:score_label=>"PSFS Score", :score_value_label=>"0/10", :submitted_at=>"2025-12-04T08:35:50Z"}, {:score_label=>"Pain Score", :score_value_label=>"5/10", :submitted_at=>"2025-12-04T08:35:51Z"}]
+            got: [{:score_label=>"PSFS Score", :score_value_label=>"1/10", :submitted_at=>"2025-12-04T08:35:50Z"}, {:score_label=>"Pain Score", :score_value_label=>"5/10", :submitted_at=>"2025-12-04T08:35:50Z"}]
+
+       (compared using eql?)
+
+       Diff:
+
+       @@ -1,6 +1,6 @@
+        [{:score_label=>"PSFS Score",
+       -  :score_value_label=>"0/10",
+       +  :score_value_label=>"1/10",
+          :submitted_at=>"2025-12-04T08:35:50Z"},
+         {:score_label=>"Pain Score",
+          :score_value_label=>"5/10",
+       -  :submitted_at=>"2025-12-04T08:35:51Z"}]
+       +  :submitted_at=>"2025-12-04T08:35:50Z"}]
+     # ./spec/services/functional_outcome_measures_service_spec.rb:79:in `block (3 levels) in <top (required)>'
+     # ./spec/services/functional_outcome_measures_service_spec.rb:13:in `block (2 levels) in <top (required)>'
+     # ./spec/services/functional_outcome_measures_service_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+     # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+```
