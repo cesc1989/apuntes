@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟢.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "019 - DA POCs issue with needs response 🟡"
+              "title": "019 - DA POCs issue with needs response 🟢"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+                "file": "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 019 - DA POCs issue with needs response 🟡"
+              "title": "Outline of 019 - DA POCs issue with needs response 🟢"
             }
           }
         ],
@@ -198,7 +198,7 @@
     "Luna/Backend/Help Desk/021 - Prevent signing POC twice 🟢.md",
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟡.md",
+    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟢.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",

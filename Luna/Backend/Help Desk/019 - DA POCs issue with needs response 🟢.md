@@ -196,9 +196,19 @@ POC Details:
   needs_response: true
 ```
 
-# Apartado Especial
+# Apartado Especial ℹ️
 
 Creo que una vez más me confundí con lo que dijo Indy y por no actuar pronto no aclaré.
+
+Indy dijo:
+> Doesn’t need a response if it’s a discharge. That’s actually a different pdf that gets sent
+
+O sea que para la pregunta que hizo Ryan, ya el initial visit discharged caería en este condición.
+
+También dijo:
+> If it’s the only appt, but the care plan is active, it still gets sent as YES
+
+Esto no se cumple porque un initial visit que es discharged se daría para un care plan discharged o tratamiento completado.
 
 Iba a poner este código pero creo que eso no está bien. Lo dejo acá por si acaso.
 
