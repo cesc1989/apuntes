@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "023 - Flakes en Backend 🟢"
             }
+          },
+          {
+            "id": "d10ce9c765bd31b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "007 - Test Runs for Patient Self Report in Edge"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
+                "file": "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 023 - Flakes en Backend 🟢"
+              "title": "Outline of 007 - Test Runs for Patient Self Report in Edge"
             }
           }
         ],
@@ -180,10 +194,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bac26d4bb83db84c",
+  "active": "d10ce9c765bd31b8",
   "lastOpenFiles": [
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
+    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Aprendizajes de los Lanzamientos.md",
