@@ -290,8 +290,9 @@ Failures:
 
 Prueba
 ```
-rspec ./spec/services/functional_outcome_measures_service_spec.rb:73 # FunctionalOutcomeMeasuresService Using multiple form examples reads the applicable form submissions relative to the chart submission date
+rspec ./spec/services/functional_outcome_measures_service_spec.rb:73
 ```
+> FunctionalOutcomeMeasuresService Using multiple form examples reads the applicable form submissions relative to the chart submission date
 
 Fallo:
 ```
@@ -348,8 +349,9 @@ Failures:
 
 Prueba:
 ```
-rspec ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 # Progress Form Drafts GET /progress_form_drafts when question component has selected_option_id shows the selected option choice id
+rspec ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20
 ```
+> Progress Form Drafts GET /progress_form_drafts when question component has selected_option_id shows the selected option choice id
 
 Fallo:
 ```
