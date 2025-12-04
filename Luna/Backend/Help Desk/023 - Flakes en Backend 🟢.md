@@ -41,7 +41,7 @@ Failures:
 ```
 
 
-## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:101 🟡
+## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:101 🟢
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19718246762/job/56495443869?pr=12824
 
@@ -75,7 +75,7 @@ Failures:
 ```
 
 
-## v3/drafts_spec.rb:252 🟡
+## v3/drafts_spec.rb:252 🟢
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19722978926/job/56508913949?pr=12828
 
@@ -329,6 +329,36 @@ Failures:
      # ./spec/services/functional_outcome_measures_service_spec.rb:79:in `block (3 levels) in <top (required)>'
      # ./spec/services/functional_outcome_measures_service_spec.rb:13:in `block (2 levels) in <top (required)>'
      # ./spec/services/functional_outcome_measures_service_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+     # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+```
+
+## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 🟡
+
+Prueba:
+```
+rspec ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 # Progress Form Drafts GET /progress_form_drafts when question component has selected_option_id shows the selected option choice id
+```
+
+Fallo:
+```
+Failures:
+
+  1) Progress Form Drafts GET /progress_form_drafts when question component has selected_option_id shows the selected option choice id
+     Failure/Error: content: first_choice.label,
+
+     NoMethodError:
+       undefined method `label' for nil:NilClass
+
+                 content: first_choice.label,
+                                      ^^^^^^
+     # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:35:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:7:in `block (2 levels) in <top (required)>'
      # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
      # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
      # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
