@@ -467,7 +467,11 @@ app_1       |
    # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
    # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
    # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
-app_1       | 
+app_1       |
+```
+
+Y:
+```
 3) Credentialing::Therapist Instance methods #registered_from? when therapist registered from California state registered from California state
    Failure/Error: expect(california_therapist).to be_registered_from("california")
      expected `#<Credentialing::Therapist id: "9aab9990-3657-44fd-9c5b-e576f3fc1151", first_name: "Abelardo", phone_...nil, backfilled_attestation_form_url: false, returning_status: "default", signup_date: "2018-10-14">.registered_from?("california")` to be truthy, got false
@@ -489,4 +493,5 @@ app_1       |
    # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
    # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
    # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+```
 ```
