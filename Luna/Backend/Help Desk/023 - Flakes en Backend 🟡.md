@@ -106,6 +106,11 @@ Prueba:
 rspec ./spec/requests/patient_self_report/api/v3/drafts_spec.rb:252 # V3 Drafts for JSON Forms POST /v3/patients/:patient_id/forms/:uuid/drafts with valid params for Answers saves answers draft
 ```
 
+Test Group:
+```
+export TEST_FILES="./spec/requests/patient_self_report/api/v2/progress_form_drafts_spec.rb ./spec/workers/athena/app_installs_from_notifications_writer_worker_spec.rb ./spec/workers/invoicing/running/update_stripe_invoice_worker_spec.rb ./spec/requests/clinical_dashboard/api/v1/physicians_spec.rb ./spec/requests/patient_self_report/api/v3/drafts_spec.rb ./spec/controllers/api/v3/patient/workouts_controller_spec.rb ./spec/models/account_spec.rb ./spec/requests/patient_self_report/api/v2/progress_form_drafts/pagination_spec.rb ./spec/requests/graphql/queries/fields/viewer_patient_query_spec.rb ./spec/services/plans_of_care/workers_comp/violation_calculator_spec.rb ./spec/workers/athena/care_plan_summary_writer_worker_spec.rb ./spec/grimoire/actions/book_initial_visit_spec.rb ./spec/workers/billing_routes/refresh_servicing_worker_spec.rb ./spec/integration/routes_spec.rb ./spec/services/payer_plan_alias_resolver_spec.rb ./spec/candid/candid/mappers/candid_encounter_data_diff_spec.rb ./spec/models/patient_self_report/patient_form_helpers_spec.rb ./spec/requests/patient_self_report/api/v1/intake_forms_spec.rb ./spec/workers/invoicing/ancillary/backfill_collection_events_worker_spec.rb ./spec/workers/patient_email_update_worker_spec.rb ./spec/queries/poc_filters/scope_filter_spec.rb ./spec/services/therapist_insta_pay_payout_service_spec.rb ./spec/services/icd10cm_search_spec.rb ./spec/requests/graphql/mutations/echo/echo_auto_chart_update_objective_two_spec.rb ./spec/requests/graphql/mutations/scheduling/add_patient_availability_spec.rb ./spec/workers/collections_patients_time_keeper_worker_spec.rb ./spec/requests/credentialing/api/v2/external/attestation/credentialing_informations_spec.rb ./spec/workers/badges/calculate_badges_worker_spec.rb ./spec/services/clinical_dashboard/physicians_json_builder_service_spec.rb ./spec/services/sendbird_spec.rb ./spec/requests/luna_self_service/graphql/queries/fields/search_regions_query_spec.rb ./spec/candid/candid/client_spec.rb ./spec/workers/waystar_html_loader_worker_spec.rb ./spec/grimoire/grimoire/care_plans/assign_referral_workflow_spec.rb ./spec/models/patient_self_report/question_spec.rb ./spec/requests/api/v1/external/stripe/invoice_items_spec.rb ./spec/services/business_hours_service_spec.rb ./spec/requests/graphql/mutations/grimoire_clear_patient_availabilities_spec.rb ./spec/models/concerns/invoicing_logging_spec.rb ./spec/models/referral_spec.rb ./spec/requests/credentialing/api/v2/external/hubspot_ssn_webhooks_spec.rb ./spec/controllers/admin/money/uncharged_appointments_report_spec.rb ./spec/controllers/inactive_session_controller_spec.rb ./spec/services/search/tokens_parser_spec.rb ./spec/lib/clinical_dashboard/athena_named_query_finder/partners_permissions_spec.rb ./spec/models/invoicing_target_line_item_snapshot_spec.rb ./spec/lib/clinical_dashboard/athena_results_converter/change_in_pain_level_converter_spec.rb ./spec/models/clinical_pathway_spec.rb ./spec/lib/clinical_dashboard/athena_results_converter/visits_by_injury_converter_spec.rb ./spec/models/deduction_spec.rb ./spec/models/injury_spec.rb ./spec/controllers/api/v3/safety_shield_sms_controller_spec.rb"
+```
+
 Fallo:
 ```
 Failures:
@@ -136,6 +141,11 @@ Reporte: https://github.com/lunacare/backend/actions/runs/19877554877/job/569684
 Prueba:
 ```
 rspec ./spec/models/patient_self_report/patient_form_helpers_spec.rb:22 # PatientSelfReport::PatientFormHelpers.get_all_patient_forms_episode_and_status returns two forms, one completed and one incomplete with the right attributes
+```
+
+Test Group:
+```
+export TEST_FILES="./spec/requests/rack_attack/throttling_spec.rb ./spec/requests/admin/customers/therapists_spec.rb ./spec/forms/patient_self_report/admission_form_spec.rb ./spec/models/concerns/candid_encounter_data_modifier_spec.rb ./spec/services/kx_modifier/medicare_dollar_threshold_status_refresher_service_spec.rb ./spec/workers/invoicing/ancillary/fix_collections_pause_data_worker_spec.rb ./spec/graphql/authorization/patient_spec.rb ./spec/controllers/concerns/account_devices_spec.rb ./spec/services/care_plan_status_check_graphql_service_spec.rb ./spec/requests/api/grimoire_bridge/patients/plans_of_care/physician_responses_spec.rb ./spec/workers/wilted_tree_reminder_worker_spec.rb ./spec/models/document_share_spec.rb ./spec/requests/graphql/mutations/scheduling/update_patient_availabilities_spec.rb ./spec/requests/graphql/mutations/therapists/submit_outcome_exclusions_spec.rb ./spec/controllers/api/v1/patient/conversations_controller_spec.rb ./spec/controllers/api/v1/external/workouts_controller_spec.rb ./spec/requests/patient_self_report/api/v2/form_summaries_spec.rb ./spec/models/patient_self_report/patient_form_helpers_spec.rb ./spec/workers/invoicing/ancillary/re_enable_bill_via_invoice_worker_spec.rb ./spec/controllers/draft_therapist_controller_spec.rb ./spec/queries/poc_filters/chart_appointment_visit_type_filter_spec.rb ./spec/requests/api/admin/therapist_searches_spec.rb ./spec/queries/poc_filters/region_filter_spec.rb ./spec/services/time_off_normalization_service_spec.rb ./spec/services/plans_of_care/direct_access/generator_spec.rb ./spec/requests/graphql/mutations/echo/echo_auto_chart_update_plan_spec.rb ./spec/models/setting_spec.rb ./spec/requests/graphql/mutations/echo/echo_auto_chart_validate_objective_five_spec.rb ./spec/requests/graphql/mutations/protocols/submit_care_pathway_assessment_spec.rb ./spec/requests/api/v1/external/exercises_spec.rb ./spec/workers/care_plan_refresh_proposed_clinic_worker_spec.rb ./spec/models/stripe_payment_intent_spec.rb ./spec/models/therapist_specialty_spec.rb ./spec/candid/candid/client_spec.rb ./spec/requests/graphql/queries/fields/node_document_query_spec.rb ./spec/services/patient_forms_signed_terms_service_spec.rb ./spec/requests/credentialing/api/v1/therapists/zip_coverage_spec.rb ./spec/controllers/api/v1/external/knock/message_sent_controller_spec.rb ./spec/models/patient_serviceability_check_spec.rb ./spec/services/credentialing/hubspot_credentialing_service_spec.rb ./spec/models/referral_spec.rb ./spec/serializers/admin/account_serializer_spec.rb ./spec/lib/clinical_dashboard/athena_named_query_finder/visits_by_injury_all_time_spec.rb ./spec/services/clinical_dashboard/requesters/clinic_groups_permissions_requester_service_spec.rb ./spec/models/document_view_spec.rb ./spec/models/credentialing/medicare_requirement_spec.rb ./spec/workers/outbox_events/cleanup_worker_spec.rb ./spec/models/billing_filter_clinic_spec.rb ./spec/models/temporary_code_spec.rb ./spec/services/age_calculator_spec.rb ./spec/workers/athena/provider_portal_partner_clinic_writer_worker_spec.rb ./spec/requests/graphql/queries/authorization_query_spec.rb"
 ```
 
 Fallo:
@@ -250,63 +260,6 @@ Failures:
 
 Reporte: https://github.com/lunacare/backend/actions/runs/19880118239/job/56976032678?pr=12841
 
-Prueba:
-```
-rspec ./spec/models/invoicing_run_spec.rb:21 # InvoicingRun.with_supported_invoicing_days calculates business days skipping holidays
-```
-
-Y:
-```
-rspec ./spec/models/invoicing_run_spec.rb:30 # InvoicingRun.with_supported_invoicing_days skips multiple consecutive holidays
-```
-
-
-Fallo:
-```
-Failures:
-
-  1) InvoicingRun.with_supported_invoicing_days calculates business days skipping holidays
-     Failure/Error: expect(result.to_date).to eq(Date.new(2024, 12, 26))
-
-       expected: Thu, 26 Dec 2024
-            got: Fri, 27 Dec 2024
-
-       (compared using ==)
-
-       Diff:
-       @@ -1 +1 @@
-       -Thu, 26 Dec 2024
-       +Fri, 27 Dec 2024
-     # ./spec/models/invoicing_run_spec.rb:27:in `block (3 levels) in <top (required)>'
-     # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
-     # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
-
-  2) InvoicingRun.with_supported_invoicing_days skips multiple consecutive holidays
-     Failure/Error: expect(result.to_date).to eq(Date.new(2024, 12, 3))
-
-       expected: Tue, 03 Dec 2024
-            got: Wed, 27 Nov 2024
-
-       (compared using ==)
-
-       Diff:
-       @@ -1 +1 @@
-       -Tue, 03 Dec 2024
-       +Wed, 27 Nov 2024
-     # ./spec/models/invoicing_run_spec.rb:36:in `block (3 levels) in <top (required)>'
-     # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
-     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
-     # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
-```
 
 ## functional_outcome_measures_service_spec.rb:73 🟢
 
@@ -362,7 +315,6 @@ Failures:
 ```
 
 ## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 🟡
-
 
 > [!Info]
 > El problema de este test es que las questions no se están creando con un orden asignado. Para los FormType ASES se crean 11 preguntas. 10 con option choices y 1 sin. Al crearlas, no se está asignando el atributo `order` así que cuando se quiere buscar una pregunta con option choices el sistema puede devolver una que tiene o una que no.
@@ -442,7 +394,6 @@ Failures:
 
 
 ## models/credentialing/therapist_spec.rb 🟡
-
 
 Prueba:
 ```
