@@ -11,13 +11,32 @@
             "id": "72d72af7ee69d699",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "023 - Flakes en Backend 🟡"
+            }
+          },
+          {
+            "id": "8bd43ce4bd8af1fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes Ruby on Rails - Parte 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ruby on Rails - Parte 1"
             }
           }
         ],
@@ -160,11 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72d72af7ee69d699",
+  "active": "8bd43ce4bd8af1fe",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe 🟢.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot 🟢.md",
-    "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
     "Luna/Backend/Episodes/Restricción para Crear Care Plans en Luxe.md",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",

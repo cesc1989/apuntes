@@ -342,3 +342,25 @@ PlanOfCareAction.signed_by_physician.first
  created_at: Thu, 26 Sep 2024 07:33:23.148147000 PDT -07:00,
  updated_at: Thu, 26 Sep 2024 07:33:23.148147000 PDT -07:00>
 ```
+
+# Mostrar el seed al terminar de correr pruebas
+
+Mientras trataba de encontrar flakes me di cuenta que las pruebas en el GH action no devuelven el seed number.
+
+Esto es porque están configuradas así:
+```bash
+bundle exec rspec --profile 10 \
+                  --format documentation \
+                  --format RspecJunitFormatter -o ./tmp/runs/rspec${JOB_ID}.xml \
+                  ${TEST_FILES}
+```
+
+En esa forma, según Claudio, no se devuelve el seed porque el formato documentación no deja. Para que se imprima hay que hacerlo así:
+```bash
+bundle exec rspec --profile 10 \
+                  --format documentation \
+                  --order random \
+                  spec/requests/credentialing/api/v1/submit_spec.rb
+```
+
+Indicando el orden con la bandera.
