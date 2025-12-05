@@ -460,6 +460,41 @@ Y:
    # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 ```
 
+## models/exercise_spec.rb
+
+Prueba:
+```
+pruebas ./spec/models/exercise_spec.rb
+```
+
+Test Group:
+```
+
+```
+
+Fallo:
+```
+Failures:
+
+  1) Exercise.times_assigned should be readonly
+     Failure/Error: expect(@exercise.reload.times_assigned).to eql 0
+
+       expected: 0
+            got: 999
+
+       (compared using eql?)
+     # ./spec/models/exercise_spec.rb:21:in `block (3 levels) in <top (required)>'
+     # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+```
+
+Reproducir:
+```
+bundle exec rspec --order random \
+                  --format progress \
+                  --seed 31470 \
+                  $TEST_FILES
+```
+
 # Buscando Flakes 🔎
 
 ## De Patient Self Report
