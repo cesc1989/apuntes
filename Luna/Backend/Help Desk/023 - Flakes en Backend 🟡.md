@@ -460,7 +460,7 @@ Y:
    # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 ```
 
-## models/exercise_spec.rb
+## models/exercise_spec.rb 🟢
 
 Prueba:
 ```
