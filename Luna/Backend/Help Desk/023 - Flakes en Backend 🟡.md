@@ -459,3 +459,24 @@ Y:
    # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
    # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 ```
+
+# Buscando Flakes 🔎
+
+## De Patient Self Report
+
+Estos son los que Claudio dice pueden ser problemáticos
+```
+export TEST_FILES="spec/requests/patient_self_report/api/v1/request_progress_forms_spec.rb spec/requests/patient_self_report/api/v1/care_plan_forms_spec.rb spec/requests/patient_self_report/api/v1/forms_spec.rb spec/requests/patient_self_report/api/v1/forms/intertwined_form_deletion_spec.rb spec/requests/patient_self_report/api/v1/forms/onboarding_form_completed_spec.rb spec/requests/patient_self_report/api/v1/forms/ongoing_form_completed_spec.rb spec/requests/patient_self_report/api/v1/form_status_spec.rb spec/requests/patient_self_report/api/v1/ongoing_drafts_spec.rb spec/requests/patient_self_report/api/v1/diseases_spec.rb spec/requests/patient_self_report/api/v1/previous_intake_forms_spec.rb spec/requests/patient_self_report/api/v1/patient_forms_spec.rb spec/requests/patient_self_report/api/v1/pain_spots_spec.rb spec/requests/patient_self_report/api/v1/request_intake_forms_spec.rb spec/requests/patient_self_report/api/v1/previous_progress_forms_spec.rb spec/requests/patient_self_report/api/v1/onboarding_forms_spec.rb spec/requests/patient_self_report/api/v1/intake_forms_spec.rb spec/requests/patient_self_report/api/v1/reset_forms_spec.rb spec/requests/patient_self_report/api/v1/summaries_spec.rb"
+```
+
+## De Credentialing
+
+```
+export TEST_FILES="spec/requests/credentialing/api/v2/external/hubspot_ssn_webhooks_spec.rb spec/requests/credentialing/api/v1/therapists/signup_date_spec.rb spec/requests/credentialing/api/v1/submit_spec.rb spec/requests/credentialing/api/v1/therapists_spec.rb spec/requests/credentialing/api/v1/personal_references/default_personal_references_spec.rb spec/requests/credentialing/api/v1/professional_history_spec.rb spec/requests/credentialing/api/v1/immunization_spec.rb spec/requests/credentialing/api/v1/medicare_requirements_spec.rb spec/requests/credentialing/api/v1/ping_spec.rb spec/requests/credentialing/api/v1/credentialing_informations_spec.rb spec/requests/credentialing/api/v1/therapists/zip_coverage_spec.rb spec/requests/credentialing/api/v1/payouts_spec.rb spec/requests/credentialing/api/v1/npi_and_caqh_applications_spec.rb spec/requests/credentialing/api/v1/preferences_spec.rb spec/requests/credentialing/api/v2/internal/reference_files_spec.rb"
+```
+
+## De Clinical Dashboard
+
+```
+export TEST_FILES="spec/models/clinical_dashboard/dashboard_spec.rb spec/models/clinical_dashboard/user_spec.rb spec/models/clinical_dashboard/link_spec.rb"
+```
