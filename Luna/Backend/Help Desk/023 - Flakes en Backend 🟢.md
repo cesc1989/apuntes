@@ -425,3 +425,68 @@ Failures:
           # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
           # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 ```
+
+
+## models/credentialing/therapist_spec.rb 🟡
+
+
+Prueba:
+```
+rspec ./spec/models/credentialing/therapist_spec.rb:60 # Credentialing::Therapist Validations when signing up from New Jersey is expected to validate that :employer_name cannot be empty/falsy
+```
+
+Y:
+```
+rspec ./spec/models/credentialing/therapist_spec.rb:79 # Credentialing::Therapist Instance methods #registered_from? when therapist registered from California state registered from California state
+```
+
+Fallos:
+```
+2) Credentialing::Therapist Validations when signing up from New Jersey is expected to validate that :employer_name cannot be empty/falsy
+   Failure/Error: expect(new_jersey_therapist).to validate_presence_of(:employer_name)
+app_1       | 
+     Expected Credentialing::Therapist to validate that :employer_name cannot
+     be empty/falsy, but this could not be proved.
+       After setting :employer_name to ‹""›, the matcher expected the
+       Credentialing::Therapist to be invalid, but it was valid instead.
+   # ./spec/models/credentialing/therapist_spec.rb:61:in `block (4 levels) in <top (required)>'
+   # ./spec/rails_helper.rb:200:in `block (3 levels) in <top (required)>'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:29:in `run_block'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:12:in `block in process'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:21:in `block in synchronize'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:10:in `process'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control.rb:10:in `modify'
+   # ./spec/support/environment_helpers.rb:6:in `with_modified_env'
+   # ./spec/rails_helper.rb:197:in `block (2 levels) in <top (required)>'
+   # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+   # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+app_1       | 
+3) Credentialing::Therapist Instance methods #registered_from? when therapist registered from California state registered from California state
+   Failure/Error: expect(california_therapist).to be_registered_from("california")
+     expected `#<Credentialing::Therapist id: "9aab9990-3657-44fd-9c5b-e576f3fc1151", first_name: "Abelardo", phone_...nil, backfilled_attestation_form_url: false, returning_status: "default", signup_date: "2018-10-14">.registered_from?("california")` to be truthy, got false
+   # ./spec/models/credentialing/therapist_spec.rb:80:in `block (5 levels) in <top (required)>'
+   # ./spec/rails_helper.rb:200:in `block (3 levels) in <top (required)>'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:29:in `run_block'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:12:in `block in process'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:21:in `block in synchronize'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:10:in `process'
+   # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control.rb:10:in `modify'
+   # ./spec/support/environment_helpers.rb:6:in `with_modified_env'
+   # ./spec/rails_helper.rb:197:in `block (2 levels) in <top (required)>'
+   # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+   # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+   # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+```
