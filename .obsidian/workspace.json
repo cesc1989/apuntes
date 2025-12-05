@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "87fe573db6d77d2c",
+        "id": "3c52169df9aeba16",
         "type": "tabs",
         "children": [
           {
-            "id": "e43f107ee92454c7",
+            "id": "72d72af7ee69d699",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Episodes/Restricción para Crear Care Plans en Luxe.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Restricción para Crear Care Plans en Luxe"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Episodes/Restricción para Crear Care Plans en Luxe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Restricción para Crear Care Plans en Luxe"
+              "title": "Outline"
             }
           }
         ],
@@ -165,8 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e43f107ee92454c7",
+  "active": "72d72af7ee69d699",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe 🟢.md",
+    "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot 🟢.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
     "Luna/Backend/Episodes/Restricción para Crear Care Plans en Luxe.md",
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
@@ -191,8 +188,6 @@
     "Luna/Patient_Self_Report/Change_Form_Type.md",
     "Luna/Patient_Self_Report/Cómo_Crear_un_Paciente_en_Staging.md",
     "Luna/Patient_Self_Report/Summary_Page_Detalles_para_JSON_Components.md",
-    "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
-    "Luna/Backend/Help Desk/019 - DA POCs issue with needs response 🟢.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
