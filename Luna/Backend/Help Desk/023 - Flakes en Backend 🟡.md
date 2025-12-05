@@ -4,7 +4,7 @@ Etiquetas: #luna_help_desk
 
 Ryan, Anthony, Meredith y yo hemos visto varios tests que están bien _flekis_. Voy a arreglarlos.
 
-## Cómo correr pruebas
+# Cómo correr pruebas
 
 > [!Info]
 > Cómo correr pruebas en paralelo para poder probar estos caso ver en [[007 - Test Runs for Patient Self Report in Edge#Patrón "form" en paralelo]]
@@ -16,6 +16,8 @@ Ryan, Anthony, Meredith y yo hemos visto varios tests que están bien _flekis_. 
 > export TEST_FILES=""
 > parallel_rspec -- -f progress -- $TEST_FILES
 > ```
+
+# Todos los Reportes
 
 ## v2/progress_form_drafts_spec.rb:467 🟢
 
