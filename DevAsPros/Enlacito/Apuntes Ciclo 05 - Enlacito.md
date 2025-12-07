@@ -37,10 +37,13 @@ end
 
 Para comprobar esto, tanto en producción como en local, puedo usar curl.
 
-Para probar que la petición la hace un bot:
+Para probar que la petición la hace un bot mandando el User-Agent con cURL:
 ```bash
 curl -i -A "Discordbot/2.0" http://localhost:3005/cashflow
+```
 
+Respuesta ejemplo:
+```bash
 HTTP/1.1 200 OK
 
 <!DOCTYPE html>
