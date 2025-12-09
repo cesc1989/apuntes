@@ -495,7 +495,7 @@ bundle exec rspec --order random \
                   $TEST_FILES
 ```
 
-## v1/medicare_requirements_spec.rb:35
+## v1/medicare_requirements_spec.rb:35 🟡
 
 Reporte: https://github.com/lunacare/backend/actions/runs/20071009599/job/57576988745?pr=12920
 
@@ -558,6 +558,121 @@ Fallo:
 Correr:
 ```
 parallel_rspec -- -f progress --seed 14670 -- $TEST_FILES
+```
+
+
+## models/patient_self_report/patient_form_helpers_spec.rb:27 🟡
+
+Reporte: https://github.com/lunacare/backend/actions/runs/20079110723/job/57601477442?pr=12920
+
+Prueba:
+```
+rspec ./spec/models/patient_self_report/patient_form_helpers_spec.rb:27
+```
+> PatientSelfReport::PatientFormHelpers.get_all_patient_forms_episode_and_status returns two forms, one completed and one incomplete with the right attributes
+
+Fallos:
+```
+Failures:
+
+  1) PatientSelfReport::PatientFormHelpers.get_all_patient_forms_episode_and_status returns two forms, one completed and one incomplete with the right attributes
+     Got 2 failures:
+
+     1.1) Failure/Error:
+                  expect(result.first).to eq(
+                    id: form_1.id,
+                    care_plan_id: form_1.care_plan_id,
+                    is_completed: form_1.completed,
+            
+                    completed_at: form_1.completed_at,
+                    created_at: form_1.created_at,
+            
+                    form_type: form_1.form_type,
+                    injury_name: form_1.injury_name,
+
+            expected: {:care_plan_id=>"dc48e053-9b5a-4068-837e-25b52d565c27", :completed_at=>2018-10-14 11:00:00.000000000 +0000, :created_at=>2018-10-12 11:00:00.000000000 +0000, :form_type=>#<PatientSelfReport::FormType id: 31, name: "ASES", acronym: "ases", created_at: "2025-12-09 21:38:48.454020000 +0000", updated_at: "2025-12-09 21:38:48.454020000 +0000">, :id=>5, :injury_name=>"InjuryName5", :is_completed=>true, :progress_type=>"onboarding", :url=>"/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477", :v3_url=>"/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477"}
+                 got: {:care_plan_id=>"252a699a-db2c-482b-8727-ca38e3bf4b32", :completed_at=>nil, :created_at=>2018-10-13 11:00:00.000000000 +0000, :form_type=>#<PatientSelfReport::FormType id: 31, name: "ASES", acronym: "ases", created_at: "2025-12-09 21:38:48.454020000 +0000", updated_at: "2025-12-09 21:38:48.454020000 +0000">, :id=>6, :injury_name=>"InjuryName6", :is_completed=>false, :progress_type=>"onboarding", :url=>"/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac", :v3_url=>"/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac"}
+
+            (compared using ==)
+
+            Diff:
+
+
+            @@ -1,10 +1,10 @@
+            -:care_plan_id => "dc48e053-9b5a-4068-837e-25b52d565c27",
+            -:completed_at => 2018-10-14 11:00:00.000000000 +0000,
+            -:created_at => 2018-10-12 11:00:00.000000000 +0000,
+            +:care_plan_id => "252a699a-db2c-482b-8727-ca38e3bf4b32",
+            +:completed_at => nil,
+            +:created_at => 2018-10-13 11:00:00.000000000 +0000,
+             :form_type => #<PatientSelfReport::FormType id: 31, name: "ASES", acronym: "ases", created_at: "2025-12-09 21:38:48.454020000 +0000", updated_at: "2025-12-09 21:38:48.454020000 +0000">,
+            -:id => 5,
+            -:injury_name => "InjuryName5",
+            -:is_completed => true,
+            +:id => 6,
+            +:injury_name => "InjuryName6",
+            +:is_completed => false,
+             :progress_type => "onboarding",
+            -:url => "/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477",
+            -:v3_url => "/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477",
+            +:url => "/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac",
+            +:v3_url => "/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac",
+          # ./spec/models/patient_self_report/patient_form_helpers_spec.rb:32:in `block (3 levels) in <top (required)>'
+          # ./spec/models/patient_self_report/patient_form_helpers_spec.rb:7:in `block (2 levels) in <top (required)>'
+          # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+          # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+
+     1.2) Failure/Error:
+                  expect(result.last).to eq(
+                    id: form_2.id,
+                    care_plan_id: form_2.care_plan_id,
+                    is_completed: form_2.completed,
+            
+                    completed_at: form_2.completed_at,
+                    created_at: form_2.created_at,
+            
+                    form_type: form_2.form_type,
+                    injury_name: form_2.injury_name,
+
+            expected: {:care_plan_id=>"252a699a-db2c-482b-8727-ca38e3bf4b32", :completed_at=>nil, :created_at=>2018-10-13 11:00:00.000000000 +0000, :form_type=>#<PatientSelfReport::FormType id: 31, name: "ASES", acronym: "ases", created_at: "2025-12-09 21:38:48.454020000 +0000", updated_at: "2025-12-09 21:38:48.454020000 +0000">, :id=>6, :injury_name=>"InjuryName6", :is_completed=>false, :progress_type=>"onboarding", :url=>"/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac", :v3_url=>"/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac"}
+                 got: {:care_plan_id=>"dc48e053-9b5a-4068-837e-25b52d565c27", :completed_at=>2018-10-14 11:00:00.000000000 +0000, :created_at=>2018-10-12 11:00:00.000000000 +0000, :form_type=>#<PatientSelfReport::FormType id: 31, name: "ASES", acronym: "ases", created_at: "2025-12-09 21:38:48.454020000 +0000", updated_at: "2025-12-09 21:38:48.454020000 +0000">, :id=>5, :injury_name=>"InjuryName5", :is_completed=>true, :progress_type=>"onboarding", :url=>"/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477", :v3_url=>"/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477"}
+
+            (compared using ==)
+
+            Diff:
+
+
+            @@ -1,10 +1,10 @@
+            -:care_plan_id => "252a699a-db2c-482b-8727-ca38e3bf4b32",
+            -:completed_at => nil,
+            -:created_at => 2018-10-13 11:00:00.000000000 +0000,
+            +:care_plan_id => "dc48e053-9b5a-4068-837e-25b52d565c27",
+            +:completed_at => 2018-10-14 11:00:00.000000000 +0000,
+            +:created_at => 2018-10-12 11:00:00.000000000 +0000,
+             :form_type => #<PatientSelfReport::FormType id: 31, name: "ASES", acronym: "ases", created_at: "2025-12-09 21:38:48.454020000 +0000", updated_at: "2025-12-09 21:38:48.454020000 +0000">,
+            -:id => 6,
+            -:injury_name => "InjuryName6",
+            -:is_completed => false,
+            +:id => 5,
+            +:injury_name => "InjuryName5",
+            +:is_completed => true,
+             :progress_type => "onboarding",
+            -:url => "/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac",
+            -:v3_url => "/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac",
+            +:url => "/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477",
+            +:v3_url => "/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/summary/0be82c04-c595-45da-9cdc-98c6667b1477",
+          # ./spec/models/patient_self_report/patient_form_helpers_spec.rb:47:in `block (3 levels) in <top (required)>'
+          # ./spec/models/patient_self_report/patient_form_helpers_spec.rb:7:in `block (2 levels) in <top (required)>'
+          # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+          # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 ```
 
 # Buscando Flakes 🔎
