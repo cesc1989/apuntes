@@ -526,6 +526,11 @@ Correr pruebas con seed:
 parallel_rspec -- -f progress --seed 57621 -- $TEST_FILES
 ```
 
+O este:
+```
+pruebas --seed 57621 $TEST_FILES
+```
+
 # Buscando Flakes 🔎
 
 ## De Patient Self Report
