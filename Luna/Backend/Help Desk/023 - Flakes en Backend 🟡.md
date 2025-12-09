@@ -495,6 +495,71 @@ bundle exec rspec --order random \
                   $TEST_FILES
 ```
 
+## v1/medicare_requirements_spec.rb:35
+
+Reporte: https://github.com/lunacare/backend/actions/runs/20071009599/job/57576988745?pr=12920
+
+Prueba:
+```
+rspec ./spec/requests/credentialing/api/v1/medicare_requirements_spec.rb:35
+```
+
+Fallo:
+```
+1.1) Failure/Error: expect(medicare_requirement.answers.where(tc_question_id: 1).count).to eq(1)
+
+       expected: 1
+            got: 0
+
+       (compared using ==)
+     # ./spec/requests/credentialing/api/v1/medicare_requirements_spec.rb:68:in `block (4 levels) in <top (required)>'
+     # ./spec/rails_helper.rb:199:in `block (3 levels) in <top (required)>'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:29:in `run_block'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:12:in `block in process'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:21:in `block in synchronize'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:10:in `process'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control.rb:10:in `modify'
+     # ./spec/support/environment_helpers.rb:6:in `with_modified_env'
+     # ./spec/rails_helper.rb:196:in `block (2 levels) in <top (required)>'
+     # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+     # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+
+1.2) Failure/Error: expect(medicare_requirement.answers.where(tc_question_id: 3).count).to eq(1)
+
+       expected: 1
+            got: 2
+
+       (compared using ==)
+     # ./spec/requests/credentialing/api/v1/medicare_requirements_spec.rb:70:in `block (4 levels) in <top (required)>'
+     # ./spec/rails_helper.rb:199:in `block (3 levels) in <top (required)>'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:29:in `run_block'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:12:in `block in process'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:21:in `block in synchronize'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/environment.rb:19:in `synchronize'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control/modifier.rb:10:in `process'
+     # /usr/local/bundle/gems/climate_control-1.0.1/lib/climate_control.rb:10:in `modify'
+     # ./spec/support/environment_helpers.rb:6:in `with_modified_env'
+     # ./spec/rails_helper.rb:196:in `block (2 levels) in <top (required)>'
+     # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
+     # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
+     # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
+```
+
+Correr:
+```
+parallel_rspec -- -f progress --seed 14670 -- $TEST_FILES
+```
+
 # Buscando Flakes 🔎
 
 ## De Patient Self Report
