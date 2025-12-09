@@ -471,12 +471,6 @@ Failures:
             +:v3_url => "/v3/patients/fa449852-dd09-4a1f-a217-31863f1901d7/forms/d8aa2d31-6345-4476-a8dd-21f10ede49ac",
           # ./spec/models/patient_self_report/patient_form_helpers_spec.rb:32:in `block (3 levels) in <top (required)>'
           # ./spec/models/patient_self_report/patient_form_helpers_spec.rb:7:in `block (2 levels) in <top (required)>'
-          # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
-          # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 
      1.2) Failure/Error:
                   expect(result.last).to eq(
