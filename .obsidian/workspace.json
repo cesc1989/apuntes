@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2b403a926a9a43eb",
+        "id": "e8072b46cb959cab",
         "type": "tabs",
         "children": [
           {
-            "id": "fc90fb919ab54c86",
+            "id": "6f3c8ea51ed82d7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Python Shell Queries.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Python Shell Queries"
+              "title": "024 - QA Forms no Aparecen en Luxe"
+            }
+          },
+          {
+            "id": "138e706766cae5f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Enable Patient Forms in Development"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Python Shell Queries.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python Shell Queries"
+              "title": "Outline of 024 - QA Forms no Aparecen en Luxe"
             }
           }
         ],
@@ -165,8 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc90fb919ab54c86",
+  "active": "6f3c8ea51ed82d7d",
   "lastOpenFiles": [
+    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
+    "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
+    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Marketplace/Python Shell Queries.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
@@ -176,8 +194,6 @@
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Patient_Self_Report/Access Existing Forms.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
-    "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
@@ -191,8 +207,6 @@
     "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Aprendizajes de los Lanzamientos.md",
-    "Luna/Glosario.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
