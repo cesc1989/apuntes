@@ -97,3 +97,31 @@ care_plan_id: "28aa4c6a-1a32-4dcc-bf02-c37d766bfbab",
 ```
 
 Hubo delay de 14 minutos aprox.
+
+## Avance
+
+Hoy, 10 de Diciembre, pedí a QA que probara y los forms se generaron casi que instantaneamente.
+
+Ejemplo 1:
+```ruby
+# Luxe
+ID: 1d85f3fc-dddf-4fcf-bfc0-4d5d97cf6139
+created_at: 2025-12-10 11:53:52 -0800
+care_plan_id: ee909b71-e5ca-4e80-9eac-1a20b55f670f
+
+# Marketplace
+Found 1 forms
+Form: 1d85f3fc-dddf-4fcf-bfc0-4d5d97cf6139, Type: intake, CreatedAt: 2025-12-10 19:53:52.584974+00:00
+```
+
+Ejemplo 2:
+```ruby
+# Luxe
+ID: 1f93bd03-e567-4541-af95-76dde5bb202b
+created_at: 2025-12-10 12:12:53 -0800
+care_plan_id: 4723eb22-5f5b-4f48-b1b0-de2e6e9f4a09
+
+# Marketplace
+Found 1 forms
+Form: 1f93bd03-e567-4541-af95-76dde5bb202b, Type: intake, CreatedAt: 2025-12-10 20:12:53.362679+00:00, CarePlanId: 40d6d8e9-ec06-4fbb-8193-beebcb8ff851
+```

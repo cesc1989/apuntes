@@ -35,8 +35,7 @@
               "title": "Python Shell Queries"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Python Shell Queries.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python Shell Queries"
+              "title": "Outline of 024 - QA Forms no Aparecen en Luxe"
             }
           }
         ],
@@ -180,11 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d43accd5bca60cf",
+  "active": "6f3c8ea51ed82d7d",
   "lastOpenFiles": [
+    "Luna/Marketplace/Python Shell Queries.md",
     "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
     "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
-    "Luna/Marketplace/Python Shell Queries.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Backend/Patients/Example Patients.md",
     "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
