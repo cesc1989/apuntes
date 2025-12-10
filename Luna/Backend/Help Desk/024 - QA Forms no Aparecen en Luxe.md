@@ -44,6 +44,8 @@ Estos son los pacientes que reportó el tipo de QA:
 
 ```ruby
 Patient.find("a917a5d7-9c61-4e8f-a28b-f94e83fa5aa2")
+
+# Ya están bien.
 Patient.find("0bbec751-8cb8-47f5-97c0-2d6b8962abf6")
 Patient.find("62d7d014-1049-40de-ad13-bb76a589f482")
 Patient.find("f6d70b5c-9ec9-4237-aa7a-114eec016d4b")
@@ -52,10 +54,6 @@ Patient.find("f6d70b5c-9ec9-4237-aa7a-114eec016d4b")
 Cuando reviso si tienen más de un Intake Form veo que todos tienen solo uno:
 ```
 irb(main):001> Patient.find("a917a5d7-9c61-4e8f-a28b-f94e83fa5aa2").episodes.count
-=> 1
-irb(main):002> Patient.find("0bbec751-8cb8-47f5-97c0-2d6b8962abf6").episodes.count
-=> 1
-irb(main):003> Patient.find("62d7d014-1049-40de-ad13-bb76a589f482").episodes.count
 => 1
 ```
 
@@ -77,26 +75,5 @@ Found 1 forms
 Form: 494e4d66-a174-4fac-94d2-7146ef56c6f6, Type: intake
 ```
 
-## Descubrimiento de Forms y Care Plans en Luxe
+Al revisar en Luxe, esos forms existen y se muestran en el perfil del paciente.
 
-Resulta que los forms sí existen en Edge. Y son del careplan que debe ser:
-```
-Patient.find("0bbec751-8cb8-47f5-97c0-2d6b8962abf6").episodes.ids
-careplans = ["05bcc887-ca1d-437c-a959-870009b7002a"]
-PatientSelfReport::Form.find_by(uuid: "a176e191-35fd-4b86-b8ab-7624c2558f28")
-care_plan_id: "05bcc887-ca1d-437c-a959-870009b7002a"
-
-
-Patient.find("62d7d014-1049-40de-ad13-bb76a589f482").episodes.ids
-careplans = ["0de7964a-991f-4e8b-85ef-88db65e48b3e"]
-PatientSelfReport::Form.find_by(uuid: "1b50249c-e3f8-4b6c-bd15-04f9d5a88e70")
-care_plan_id: "0de7964a-991f-4e8b-85ef-88db65e48b3e"
-
-
-Patient.find("f6d70b5c-9ec9-4237-aa7a-114eec016d4b").episodes.ids
-careplans = ["fbd3c606-a944-4a3c-b9c5-f50b82c5bc2c"]
-PatientSelfReport::Form.find_by(uuid: "494e4d66-a174-4fac-94d2-7146ef56c6f6")
-care_plan_id: "fbd3c606-a944-4a3c-b9c5-f50b82c5bc2c"
-```
-
-Pero a esos pacientes en el perfil, en la parte de Latest Forms aparece es el mensaje "Service Status: Unavailable".

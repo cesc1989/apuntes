@@ -14,25 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "024 - QA Forms no Aparecen en Luxe"
-            }
-          },
-          {
-            "id": "138e706766cae5f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Enable Patient Forms in Development"
+              "title": "024 - QA Forms no Aparecen en Luxe"
             }
           }
         ]
