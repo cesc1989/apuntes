@@ -77,3 +77,23 @@ Form: 494e4d66-a174-4fac-94d2-7146ef56c6f6, Type: intake
 
 Al revisar en Luxe, esos forms existen y se muestran en el perfil del paciente.
 
+## Delay 🟡
+
+Probé con un paciente antiguo que ya tenía un care plan discharged. Creé un nuevo care plan usando el endpoint de automation y se creó.
+
+```ruby
+Patient.find("9f7a773c-eed2-4a31-95ac-204934c02848").recent_care_plan
+id: "28aa4c6a-1a32-4dcc-bf02-c37d766bfbab",
+created_at: Wed, 10 Dec 2025 07:36:36.476683000 PST -08:00,
+```
+
+Pasaron varios minutos hasta que se creó el form:
+```ruby
+Patient.find("9f7a773c-eed2-4a31-95ac-204934c02848").recent_care_plan.onboarding_form
+
+uuid: "1da0ff5f-ab28-4065-88bf-1d18ce4f9b2a",
+created_at: Wed, 10 Dec 2025 07:49:56.967255000 PST -08:00,
+care_plan_id: "28aa4c6a-1a32-4dcc-bf02-c37d766bfbab",
+```
+
+Hubo delay de 14 minutos aprox.
