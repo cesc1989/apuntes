@@ -21,3 +21,19 @@ for form in forms:
     print(f"Form: {form.form_id}, Type: {form.form_type}")
 ```
 
+### Ejecutar desde el shell del contenedor
+
+Para ejecutar directamente sin entrar al flask shell:
+```bash
+python -c "
+from marketplace.database import Session
+from marketplace.es.models import IntegratedPatient, IntegratedCarePlan, Form
+
+session = Session()
+patient_id = 'f6d70b5c-9ec9-4237-aa7a-114eec016d4b'
+forms = session.query(Form).join(IntegratedCarePlan, Form.care_plan_aggregate_id == IntegratedCarePlan.id).join(IntegratedPatient,
+ IntegratedCarePlan.patient_aggregate_id == IntegratedPatient.id).filter(IntegratedPatient.patient_id == patient_id).all()
+print(f'Found {len(forms)} forms')
+for form in forms: print(f'Form: {form.form_id}, Type: {form.form_type}')
+"
+```

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7f3f271d59650393",
+        "id": "2b403a926a9a43eb",
         "type": "tabs",
         "children": [
           {
-            "id": "2163dc5282f024cc",
+            "id": "fc90fb919ab54c86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Marketplace/Python Shell Queries.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -165,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2163dc5282f024cc",
+  "active": "fc90fb919ab54c86",
   "lastOpenFiles": [
     "Luna/Marketplace/Python Shell Queries.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
