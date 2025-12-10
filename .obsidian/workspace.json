@@ -35,7 +35,8 @@
               "title": "Python Shell Queries"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
+                "file": "Luna/Marketplace/Python Shell Queries.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 024 - QA Forms no Aparecen en Luxe"
+              "title": "Outline of Python Shell Queries"
             }
           }
         ],
@@ -179,10 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3c8ea51ed82d7d",
+  "active": "0d43accd5bca60cf",
   "lastOpenFiles": [
-    "Luna/Marketplace/Python Shell Queries.md",
+    "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
     "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe.md",
+    "Luna/Marketplace/Python Shell Queries.md",
     "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
     "Luna/Backend/Patients/Example Patients.md",
     "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
@@ -206,7 +208,6 @@
     "Luna/Backend/Help Desk/001 - KX Modifier no funciona en Luxe 🟢.md",
     "Luna/Backend/Help Desk/002 - Export Care Plan status to HubSpot 🟢.md",
     "Luna/Backend/Episodes/Restricción para Crear Care Plans en Luxe.md",
-    "Luna/Grimoire/Apuntes Bliss - Parte 1.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
