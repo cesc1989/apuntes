@@ -98,6 +98,8 @@ care_plan_id: "28aa4c6a-1a32-4dcc-bf02-c37d766bfbab",
 
 Hubo delay de 14 minutos aprox.
 
+
+
 ## Avance
 
 Hoy, 10 de Diciembre, pedí a QA que probara y los forms se generaron casi que instantaneamente.
@@ -125,3 +127,4 @@ care_plan_id: 4723eb22-5f5b-4f48-b1b0-de2e6e9f4a09
 Found 1 forms
 Form: 1f93bd03-e567-4541-af95-76dde5bb202b, Type: intake, CreatedAt: 2025-12-10 20:12:53.362679+00:00, CarePlanId: 40d6d8e9-ec06-4fbb-8193-beebcb8ff851
 ```
+

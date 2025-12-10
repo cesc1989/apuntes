@@ -34,6 +34,6 @@ patient_id = 'd0325441-1ef7-446b-a34f-bf576d6ec81a'
 forms = session.query(Form).join(IntegratedCarePlan, Form.care_plan_aggregate_id == IntegratedCarePlan.id).join(IntegratedPatient,
  IntegratedCarePlan.patient_aggregate_id == IntegratedPatient.id).filter(IntegratedPatient.patient_id == patient_id).all()
 print(f'Found {len(forms)} forms')
-for form in forms: print(f'Form: {form.form_id}, Type: {form.form_type}, CreatedAt: {form.created_at}, CarePlanId: {form.care_plan_aggregate_id}')
+for form in forms: print(f'Form: {form.form_id}, Type: {form.form_type}, CreatedAt: {form.created_at}')
 "
 ```
