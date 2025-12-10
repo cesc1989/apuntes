@@ -252,7 +252,7 @@ Failures:
      # ./spec/services/functional_outcome_measures_service_spec.rb:7:in `block (2 levels) in <top (required)>'
 ```
 
-## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 🟡
+## v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:20 🟢
 
 > [!Info]
 > El problema de este test es que las questions no se están creando con un orden asignado. Para los FormType ASES se crean 11 preguntas. 10 con option choices y 1 sin. Al crearlas, no se está asignando el atributo `order` así que cuando se quiere buscar una pregunta con option choices el sistema puede devolver una que tiene o una que no.
@@ -298,13 +298,6 @@ Failures:
             +"label" => "Your Pain Scale",
           # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:46:in `block (4 levels) in <top (required)>'
           # ./spec/requests/patient_self_report/api/v2/progress_form_drafts/progress_form_drafts_selected_option_id_spec.rb:7:in `block (2 levels) in <top (required)>'
-          # ./spec/support/active_record_logger.rb:38:in `block (2 levels) in <top (required)>'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:124:in `block in run'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `loop'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:110:in `run'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec_ext/rspec_ext.rb:12:in `run_with_retry'
-          # /usr/local/bundle/gems/rspec-retry-0.6.2/lib/rspec/retry.rb:37:in `block (2 levels) in setup'
-          # /usr/local/bundle/gems/webmock-3.23.1/lib/webmock/rspec.rb:39:in `block (2 levels) in <top (required)>'
 
      1.2) Failure/Error: expect(question[:data][:selected_option_id]).not_to be(nil)
 
@@ -379,7 +372,7 @@ bundle exec rspec --order random \
                   $TEST_FILES
 ```
 
-## v1/medicare_requirements_spec.rb:35 🟡
+## v1/medicare_requirements_spec.rb:35 🟢
 
 Reporte: https://github.com/lunacare/backend/actions/runs/20071009599/job/57576988745?pr=12920
 
@@ -413,7 +406,7 @@ parallel_rspec -- -f progress --seed 14670 -- $TEST_FILES
 ```
 
 
-## models/patient_self_report/patient_form_helpers_spec.rb:27 🟡
+## models/patient_self_report/patient_form_helpers_spec.rb:27 🟢
 
 Reporte: https://github.com/lunacare/backend/actions/runs/20079110723/job/57601477442?pr=12920
 
