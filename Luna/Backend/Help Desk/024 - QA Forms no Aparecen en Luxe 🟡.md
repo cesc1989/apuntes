@@ -114,9 +114,28 @@ Form: fa47bcfc-dc5f-4aa5-b4de-078bb3b8f069, Type: intake, CreatedAt: 2025-12-10 
 
 En este caso el delay fue del job saliendo de backend hacía marketplace.
 
-## Avance
+## Prueba Directa
 
-Hoy, 10 de Diciembre, pedí a QA que probara y los forms se generaron casi que instantaneamente.
+Decidí probar la petición directamente sin pasar por el worker y el sync es inmediato.
+
+Ejemplo 1:
+```ruby
+# Luxe
+care_plan: 2025-12-10 17:26:28 -0800
+
+# Form
+ID: a4161ee5-802b-4d66-b12e-8b517d7ee9cc
+created_at: 2025-12-10 17:26:29 -0800
+care_plan_id: 5897bea3-591e-4933-aacf-6562739f6a1c
+
+# Marketplace
+Found 1 forms
+Form: a4161ee5-802b-4d66-b12e-8b517d7ee9cc, Type: intake, CreatedAt: 2025-12-11 01:26:28.937904+00:00
+```
+
+## Mejora Momentanea
+
+Hoy, 10 de Diciembre, pedí a QA que probara y los forms se generaron casi que instantáneamente.
 
 Ejemplo 1:
 ```ruby
