@@ -98,7 +98,21 @@ care_plan_id: "28aa4c6a-1a32-4dcc-bf02-c37d766bfbab",
 
 Hubo delay de 14 minutos aprox.
 
+Otro caso de Form con delay:
+```
+# Luxe
+care plan created at: Wed, 10 Dec 2025 14:15:55.715677000 PST -08:00
 
+ID: fa47bcfc-dc5f-4aa5-b4de-078bb3b8f069
+created_at: 2025-12-10 14:17:57 -0800
+care_plan_id: afe353a0-2118-4b08-b608-49506d8307e9
+
+# Marketplace
+Found 1 forms
+Form: fa47bcfc-dc5f-4aa5-b4de-078bb3b8f069, Type: intake, CreatedAt: 2025-12-10 22:17:57.367877+00:00
+```
+
+En este caso el delay fue del job saliendo de backend hacía marketplace.
 
 ## Avance
 
