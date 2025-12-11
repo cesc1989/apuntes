@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "024 - QA Forms no Aparecen en Luxe 🟡"
             }
+          },
+          {
+            "id": "60c2d06ad961660c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/Python Shell Queries.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Python Shell Queries"
+            }
           }
         ]
       }
@@ -168,9 +182,9 @@
   "active": "6f3c8ea51ed82d7d",
   "lastOpenFiles": [
     "Luna/Marketplace/Python Shell Queries.md",
+    "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe 🟡.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
-    "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe 🟡.md",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
