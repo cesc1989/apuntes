@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "f802c59fe6f47407",
+            "id": "6fe78151bf5964a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Comanditos Edge.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos Edge"
+              "title": "Apuntes_Bases_de_Datos_-_Parte_02"
             }
           },
           {
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Comanditos Edge.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos Edge"
+              "title": "Outline of Apuntes_Bases_de_Datos_-_Parte_02"
             }
           }
         ],
@@ -194,10 +194,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f802c59fe6f47407",
+  "active": "6fe78151bf5964a0",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe 🟡.md",
     "Luna/Marketplace/Python Shell Queries.md",
+    "Luna/Backend/Comanditos Edge.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
