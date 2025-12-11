@@ -43,3 +43,27 @@ having count(pa.id) > 1
 order by payer_auths_qty desc
 ;
 ```
+
+### Pacientes que no tienen Care Plans
+
+Para poder probar la creación de uno desde cero.
+
+```ruby
+Patient.where.not(
+  Episode
+  .unscope(where: :status)
+  .where("episodes.patient_id = patients.id")
+  .select(1).arel.exists
+)
+```
+
+O estas alternativas.
+```ruby
+Patient
+.left_joins(:episodes)
+.where(episodes: { id: nil })
+```
+
+```ruby
+Patient.where.not(id: Episode.select(:patient_id).distinct)
+```
