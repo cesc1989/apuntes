@@ -99,7 +99,7 @@ care_plan_id: "28aa4c6a-1a32-4dcc-bf02-c37d766bfbab",
 Hubo delay de 14 minutos aprox.
 
 Otro caso de Form con delay:
-```
+```ruby
 # Luxe
 care plan created at: Wed, 10 Dec 2025 14:15:55.715677000 PST -08:00
 
