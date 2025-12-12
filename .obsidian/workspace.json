@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Python Shell Queries.md",
+                "file": "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Python Shell Queries"
+              "title": "Test Runs en Edge Pre Refactor"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe 🟡.md",
+                "file": "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 024 - QA Forms no Aparecen en Luxe 🟡"
+              "title": "Outline of Test Runs en Edge Pre Refactor"
             }
           }
         ],
@@ -179,9 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f3c8ea51ed82d7d",
+  "active": "60c2d06ad961660c",
   "lastOpenFiles": [
     "Luna/Marketplace/Python Shell Queries.md",
+    "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
+    "Luna/Patient_Self_Report/Access Existing Forms.md",
     "Luna/Backend/Help Desk/024 - QA Forms no Aparecen en Luxe 🟡.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Luna/Backend/Comanditos Edge.md",
@@ -201,13 +204,11 @@
     "Luna/Marketplace/Help Desk/001 - MPF con Dup Folders 🟢.md",
     "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟢.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Patient_Self_Report/Access Existing Forms.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend 🟡.md",
     "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
-    "DevAsPros/Enlacito/001 - Nombre.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
