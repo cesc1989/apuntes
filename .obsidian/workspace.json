@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1dc7af43ca82af57",
+        "id": "aabace5bd2ad5b5d",
         "type": "tabs",
         "children": [
           {
-            "id": "822e614cedced605",
+            "id": "e6837b658897e953",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas/Comanditos.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 35.33999999999999,
-                  "zoom": -0.08333333333333334
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Comanditos"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -143,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/Comanditos.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos"
+              "title": "Outline"
             }
           }
         ],
@@ -168,8 +160,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "822e614cedced605",
+  "active": "e6837b658897e953",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "Canvas/Comanditos.canvas",
     "Luna/Backend/Comanditos Edge.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
