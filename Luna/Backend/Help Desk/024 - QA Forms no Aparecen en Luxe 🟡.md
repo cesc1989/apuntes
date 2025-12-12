@@ -135,6 +135,11 @@ Type: intake,
 CreatedAt: 2025-12-11 01:26:28.937904+00:00
 ```
 
+Ejemplo 2:
+```ruby
+
+```
+
 ## Mejora Momentanea
 
 Hoy, 10 de Diciembre, pedí a QA que probara y los forms se generaron casi que instantáneamente.
