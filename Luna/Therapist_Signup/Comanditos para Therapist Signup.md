@@ -38,7 +38,7 @@ t1 = Credentialing::Therapist.find("1def494c-b0c2-4a4e-ba9b-b0ae2be9eb7d")
 c1 = t1.credentialing_information
 references = Array.new(3) do
  Credentialing::PersonalReference.new(
-   credentialing_information_id: c1.id
+   tc_credentialing_information_id: c1.id
  )
 end
 references.each { |pr| pr.save(validate: false) }
