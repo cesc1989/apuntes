@@ -135,10 +135,10 @@ Type: intake,
 CreatedAt: 2025-12-11 01:26:28.937904+00:00
 ```
 
-Ejemplo 2:
-```ruby
+> [!Info]
+> Actualización, 12/12/25: hice varias pruebas y directa y tampoco mejoró la cosa. Hubo demora aunque en una ocasión sí se creó el form.
 
-```
+
 
 ## Mejora Momentanea
 
@@ -153,7 +153,9 @@ care_plan_id: ee909b71-e5ca-4e80-9eac-1a20b55f670f
 
 # Marketplace
 Found 1 forms
-Form: 1d85f3fc-dddf-4fcf-bfc0-4d5d97cf6139, Type: intake, CreatedAt: 2025-12-10 19:53:52.584974+00:00
+Form: 1d85f3fc-dddf-4fcf-bfc0-4d5d97cf6139
+Type: intake,
+CreatedAt: 2025-12-10 19:53:52.584974+00:00
 ```
 
 Ejemplo 2:
@@ -165,6 +167,8 @@ care_plan_id: 4723eb22-5f5b-4f48-b1b0-de2e6e9f4a09
 
 # Marketplace
 Found 1 forms
-Form: 1f93bd03-e567-4541-af95-76dde5bb202b, Type: intake, CreatedAt: 2025-12-10 20:12:53.362679+00:00, CarePlanId: 40d6d8e9-ec06-4fbb-8193-beebcb8ff851
+Form: 1f93bd03-e567-4541-af95-76dde5bb202b
+Type: intake
+CreatedAt: 2025-12-10 20:12:53.362679+00:00
 ```
 
