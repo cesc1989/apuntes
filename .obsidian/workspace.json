@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+                "file": "Luna/Backend/Comandos Sidekiq.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "024 - QA Forms Demoran en Crearse 🟡"
+              "title": "Comandos Sidekiq"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+                "file": "Luna/Backend/Comandos Sidekiq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 024 - QA Forms Demoran en Crearse 🟡"
+              "title": "Outline of Comandos Sidekiq"
             }
           }
         ],
@@ -167,8 +167,9 @@
   },
   "active": "9eed8d1f35a5a133",
   "lastOpenFiles": [
-    "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+    "Luna/Backend/Comandos Sidekiq.md",
+    "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Help Desk/022 - Problema de Age para Patient Summary 🟢.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
     "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
@@ -193,7 +194,6 @@
     "Luna/Marketplace/Help Desk/002 - Zip code en DB sin Cobertura 🟢.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
-    "Luna/Backend/AppBlend/Milestone 3 - Merge PSR into Edge/007 - Test Runs for Patient Self Report in Edge.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
