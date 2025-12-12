@@ -8,18 +8,18 @@ Comandos rakes o para usar en la consola de Rails.
 
 Versión del Credentialing Application:
 ```ruby
-ResumePdfUploader.new(t1).upload
-PacketPdfUploader.new(t1).upload
-FriendlyPacketPdfUploader.new(t1).upload
-AttestationPdfUploader.new(t1).upload
+Credentialing::ResumePdfUploader.new(t1).upload
+Credentialing::PacketPdfUploader.new(t1).upload
+Credentialing::FriendlyPacketPdfUploader.new(t1).upload
+Credentialing::AttestationPdfUploader.new(t1).upload
 ```
 
 Versión para el Attestation Form:
 ```ruby
-ResumePdfUploader.new(t1, subfolder: "attestation").upload
-PacketPdfUploader.new(t1, subfolder: "attestation").upload
-FriendlyPacketPdfUploader.new(t1, subfolder: "attestation").upload
-AttestationPdfUploader.new(t1, subfolder: "attestation").upload
+Credentialing::ResumePdfUploader.new(t1, subfolder: "attestation").upload
+Credentialing::PacketPdfUploader.new(t1, subfolder: "attestation").upload
+Credentialing::FriendlyPacketPdfUploader.new(t1, subfolder: "attestation").upload
+Credentialing::AttestationPdfUploader.new(t1, subfolder: "attestation").upload
 ```
 
 ## Convierte archivo a PDF con Image Magick
