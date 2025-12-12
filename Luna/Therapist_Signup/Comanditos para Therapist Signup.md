@@ -34,10 +34,10 @@ to_pdf.write("storage/photo_converted.pdf")
 
 Estas son las que se cargan en la tabla de "Professional References" en la sección "Information for Credentialing":
 ```ruby
-t1 = Therapist.find("1def494c-b0c2-4a4e-ba9b-b0ae2be9eb7d")
+t1 = Credentialing::Therapist.find("1def494c-b0c2-4a4e-ba9b-b0ae2be9eb7d")
 c1 = t1.credentialing_information
 references = Array.new(3) do
- PersonalReference.new(
+ Credentialing::PersonalReference.new(
    credentialing_information_id: c1.id
  )
 end
@@ -50,7 +50,7 @@ Para facilitar las pruebas de Attestation Form. Encuentra un HS Contact que ya t
 
 Finalmente, sincroniza los ids de los custom objects en el registro therapist.
 ```ruby
-te = Therapist.find("f79c147e-d402-4c0c-84d4-3d99f8e9689c")
+te = Credentialing::Therapist.find("f79c147e-d402-4c0c-84d4-3d99f8e9689c")
 te.update(hubspot_id: 3551751)
 HubspotSyncCustomObjectsIdsToTherapistService.new(te).sync_ids
 ```
@@ -58,7 +58,7 @@ HubspotSyncCustomObjectsIdsToTherapistService.new(te).sync_ids
 ## Prueba manual para asociar Personal Reference
 
 ```ruby
-ent = PersonalReference.find(16)
+ent = Credentialing::PersonalReference.find(16)
 ref = ProfessionalReference::HubspotProfessionalReferenceContact.new(ent)
 ref.find_or_create
 ```
@@ -67,7 +67,7 @@ ref.find_or_create
 
 En lugar de abrir el form.
 ```ruby
-License.create([
+Credentialing::License.create([
   { credentialing_information_id: 227, state_name: "Florida", license_number: "1223343", expiration_date: "2030-12-31" },
   { credentialing_information_id: 227, state_name: "California", license_number: "1223343", expiration_date: "2030-12-31" },
   { credentialing_information_id: 227, state_name: "Ohio", license_number: "1223343", expiration_date: "2030-12-31" }
@@ -148,14 +148,14 @@ Son:
 ```ruby
 therapist = Therapist.find(ID)
 
-SetupCredentialingInformation.new(therapist).create
+Credentialing::SetupCredentialingInformation.new(therapist).create
 ```
 
 ## Crear medicare_requirement & answers
 
 ```ruby
-therapist = Therapist.find("ID")
-SetupMedicareRequirement.new(therapist).create
+therapist = Credentialing::Therapist.find("ID")
+Credentialing::SetupMedicareRequirement.new(therapist).create
 ```
 
 O versión job:
