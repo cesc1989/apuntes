@@ -154,8 +154,7 @@ SetupCredentialingInformation.new(therapist).create
 ## Crear medicare_requirement & answers
 
 ```ruby
-therapist = Therapist.find(ID)
-
+therapist = Therapist.find("ID")
 SetupMedicareRequirement.new(therapist).create
 ```
 
