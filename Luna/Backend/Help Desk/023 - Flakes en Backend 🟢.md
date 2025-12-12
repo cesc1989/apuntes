@@ -310,7 +310,7 @@ Failures:
 ```
 
 
-## models/credentialing/therapist_spec.rb 🟡
+## models/credentialing/therapist_spec.rb 🟢
 
 Prueba:
 ```
