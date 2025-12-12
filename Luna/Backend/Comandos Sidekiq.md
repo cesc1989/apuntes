@@ -16,3 +16,14 @@ Nota:
 - Solo cambiar el nombre del worker.
 - El `; nil` al final es para que la salida solo sean los puts.
 
+## Estados de Colas y Procesos
+
+Con una sola línea:
+```ruby
+stats = Sidekiq::Stats.new; puts "#{Time.now.strftime('%H:%M:%S')} - Queue: #{stats.enqueued} | Processing: #{Sidekiq::Workers.new.size} | Workers: #{stats.processes_size}"
+```
+
+Saca algo como:
+```
+15:45:36 - Queue: 1332 | Processing: 161 | Workers: 20
+```
