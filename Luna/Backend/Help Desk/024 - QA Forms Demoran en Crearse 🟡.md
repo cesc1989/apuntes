@@ -172,3 +172,43 @@ Type: intake
 CreatedAt: 2025-12-10 20:12:53.362679+00:00
 ```
 
+# Situación con Sidekiq 🚧🚧
+
+Definitivamente pasa algo aquí con Sidekiq.
+
+- En ocasiones Sidekiq tardaba varios segundos en tomar el worker
+- Veo que la cantidad de procesos puede llegar hasta los 23 y bajar hasta los 3
+
+## Demora en tomar los jobs
+
+Para un caso que probé en la mañana, al revisar la cola de Sidekiq para el worker `MarketplaceSyncCarePlanWorker` veía esto:
+
+```
+Care Plan ID: 95114e0c-80e9-488f-b20f-03600226ff25, Enqueued at: 2025-12-12 15:27:39 UTC
+Care Plan ID: 13e8e3fb-753d-49dd-8188-cd40c98bcbd3, Enqueued at: 2025-12-12 15:23:24 UTC
+Care Plan ID: a53d40ea-26db-4740-b1c1-2ee372d0088f, Enqueued at: 2025-12-12 15:23:24 UTC
+```
+
+Donde me interesaba que el care plan id terminación `03600226ff25` fuera ejecutado. Pero al probar de nuevo el script veía que seguía encolado:
+```
+Care Plan ID: a6f51428-16a9-4489-bdf6-01cd1696b838, Enqueued at: 2025-12-12 15:35:48 UTC
+Care Plan ID: 95114e0c-80e9-488f-b20f-03600226ff25, Enqueued at: 2025-12-12 15:27:39 UTC
+Care Plan ID: 13e8e3fb-753d-49dd-8188-cd40c98bcbd3, Enqueued at: 2025-12-12 15:23:24 UTC
+Care Plan ID: a53d40ea-26db-4740-b1c1-2ee372d0088f, Enqueued at: 2025-12-12 15:23:24 UTC
+```
+
+El resultado al final cuando al fin se ejecutó. Resumen de Claudio.
+
+Timing Analysis for Care Plan: 95114e0c-80e9-488f-b20f-03600226ff25
+
+**ENQUEUE**: 2025-12-12T15:27:39.316Z
+**START**: 2025-12-12T15:42:04.110Z
+**DONE**: 2025-12-12T15:43:56.096Z
+
+Breakdown:
+
+| Phase                      | Duration     | Notes                                           |
+|----------------------------|--------------|-------------------------------------------------|
+| Sidekiq Queue Wait         | 14.4 minutes | Job sat in queue waiting for worker             |
+| Marketplace Sync Execution | 1.9 minutes  | Actual work (syncing to Marketplace)            |
+| Total Backend Time         | 16.3 minutes | Before Marketplace can even start form creation |
