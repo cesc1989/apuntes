@@ -52,7 +52,7 @@ Finalmente, sincroniza los ids de los custom objects en el registro therapist.
 ```ruby
 te = Credentialing::Therapist.find("f79c147e-d402-4c0c-84d4-3d99f8e9689c")
 te.update(hubspot_id: 3551751)
-HubspotSyncCustomObjectsIdsToTherapistService.new(te).sync_ids
+Credentialing::HubspotSyncCustomObjectsIdsToTherapistService.new(te).sync_ids
 ```
 
 ## Prueba manual para asociar Personal Reference
@@ -80,42 +80,49 @@ Línea por cada sección y para cada diferente custom object.
 
 **Para Credentialing object**:
 ```ruby
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :signup).update
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :personal_information).update
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :immunization).update
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :credentialing).update
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :employment).update
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :preferences).update
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :npi_and_caqh).update
-HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :certification).update
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :signup).update
+
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :personal_information).update
+
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :immunization).update
+
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :credentialing).update
+
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :employment).update
+
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :preferences).update
+
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :npi_and_caqh).update
+
+Credentialing::HubspotCustomObjects::HubspotCredentialingObjectService.new(t1, section: :certification).update
 ```
 
 Para License object:
 ```ruby
-HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :signup).update
-HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :credentialing).update
+Credentialing::HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :signup).update
+Credentialing::HubspotCustomObjects::HubspotLicenseObjectService.new(t1, section: :credentialing).update
 ```
 
 Para Therapist Address object:
 ```ruby
-HubspotCustomObjects::HubspotAddressObjectService.new(t1, section: :preferences).update
+Credentialing::HubspotCustomObjects::HubspotAddressObjectService.new(t1, section: :preferences).update
 ```
 
 Para guardar la URL del AF en el Credentialing object:
 ```ruby
-HubspotCustomObjects::HubspotAttestationFormUrlService.new(t1).update
+Credentialing::HubspotCustomObjects::HubspotAttestationFormUrlService.new(t1).update
 ```
 
 ## Sincronización manual de HS Custom Object IDs
 
 Para sincronizar IDs de Credentialing y Therapist Address objects:
 ```ruby
-HubspotSyncCustomObjectsIdsToTherapistService.new(t1).sync_ids
+Credentialing::HubspotSyncCustomObjectsIdsToTherapistService.new(t1).sync_ids
 ```
 
 Para sincronizar ID de License object (el que es el principal no los de diferentes estados):
 ```ruby
-HubspotSyncCustomObjectsIdsToTherapistService.new(t1).sync_license_id
+Credentialing::HubspotSyncCustomObjectsIdsToTherapistService.new(t1).sync_license_id
 ```
 
 
@@ -146,7 +153,7 @@ Son:
 ## Crear credentialing_information & personal_references
 
 ```ruby
-therapist = Therapist.find(ID)
+therapist = Credentialing::Therapist.find(ID)
 
 Credentialing::SetupCredentialingInformation.new(therapist).create
 ```
