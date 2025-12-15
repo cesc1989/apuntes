@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "201a392ba767a484",
+        "id": "ea6ab61ad5dc5e31",
         "type": "tabs",
         "children": [
           {
-            "id": "6b4f8e104093127c",
+            "id": "35bbee24d19d669e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟡.md",
-                "mode": "source",
+                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "025 - Close Source Care Plan after Cloning 🟡"
+              "title": "POC Generation - Missing Case Analysis"
+            }
+          },
+          {
+            "id": "bbb486870a572b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "025 - Close Source Care Plan after Cloning 🟢"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟡.md",
+                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 025 - Close Source Care Plan after Cloning 🟡"
+              "title": "Outline of 025 - Close Source Care Plan after Cloning 🟢"
             }
           }
         ],
@@ -164,8 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b4f8e104093127c",
+  "active": "bbb486870a572b8e",
   "lastOpenFiles": [
+    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+    "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
@@ -173,9 +190,7 @@
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
-    "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟡.md",
     "Luna/Backend/Comanditos Edge.md",
-    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
