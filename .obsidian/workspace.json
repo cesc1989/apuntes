@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e58b6795109a2355",
+        "id": "f7fb34d5095df450",
         "type": "tabs",
         "children": [
           {
-            "id": "d6854faea61716cc",
+            "id": "1d834c9e76ada6b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "025 - Close Source Care Plan after Cloning"
+              "title": "016 - Refactor Email Verification Controllers 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning.md",
+                "file": "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 025 - Close Source Care Plan after Cloning"
+              "title": "Outline of 016 - Refactor Email Verification Controllers 🟢"
             }
           }
         ],
@@ -164,10 +164,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6854faea61716cc",
+  "active": "1d834c9e76ada6b0",
   "lastOpenFiles": [
-    "Luna/Backend/Comanditos Edge.md",
+    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
+    "Luna/Backend/Email Verification/Misc Info.md",
+    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
+    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
+    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
+    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning.md",
+    "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
@@ -188,12 +194,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
-    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
-    "Luna/Backend/Patient Profile/Enable Patient Forms in Development.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-    "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
