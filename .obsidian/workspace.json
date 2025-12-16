@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "629296ddf30ab12d",
+        "id": "9903e526effd4525",
         "type": "tabs",
         "children": [
           {
-            "id": "aef4d65439c9e5af",
+            "id": "cc5cb3c09fdd1679",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
+                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_22_-_Truncate"
+              "title": "POC Generation - Missing Case Analysis"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
+                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_22_-_Truncate"
+              "title": "Outline of POC Generation - Missing Case Analysis"
             }
           }
         ],
@@ -164,13 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aef4d65439c9e5af",
+  "active": "cc5cb3c09fdd1679",
   "lastOpenFiles": [
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
+    "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
+    "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
+    "Luna/Backend/Help Desk/020-therapist-dups/tc_therapists dups tiebreaker logic.md",
+    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
+    "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18_-_Turbo_Stream.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
-    "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
@@ -189,10 +193,6 @@
     "Luna/Backend/Patients/Example Patients.md",
     "Luna/Backend/Patients/Puntos_de_entrada_para_la_creación_de_pacientes.md",
     "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
-    "Luna/Backend/Help Desk/022 - Problema de Age para Patient Summary 🟢.md",
-    "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",

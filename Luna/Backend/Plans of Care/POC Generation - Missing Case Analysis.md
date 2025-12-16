@@ -2,7 +2,6 @@
 
 **Issue**: EDG-1309 - Missing auto-generated POCs since October
 **Date**: 2025-11-17
-**Investigator**: Francisco Quintero
 
 ---
 
@@ -17,32 +16,6 @@
 3. **10 states have no POC configuration** for DirectAccess patients
 4. **Aggressive duplicate prevention** may skip legitimate POCs
 5. **No monitoring infrastructure** to detect missing POCs
-
----
-
-## System Architecture Overview
-
-### Complete Flow: Chart Signing → POC Generation → Faxing
-
-```
-TherapistSignedChartPdfGeneratorWorker
-  ↓
-Chart#should_message_physician?
-  ↓
-State#should_message_physician?
-  ↓
-MessageCalculator (5 types based on referral_type)
-  ↓
-Chart#generate_plan_of_care
-  ↓
-Generator#find_or_create
-  ↓
-PlanOfCareFaxPdfService (Google Docs API)
-  ↓
-PlanOfCare#fax_to_physician
-  ↓
-OutboundFaxing::SendFaxWorkflow
-```
 
 ---
 
@@ -154,43 +127,10 @@ Same logic as Medicare (requires newly signed chart).
 
 Same as Medicare but does NOT automatically send on discharge.
 
----
 
-## 4. State Configuration
+## Silent Failure Points
 
-**Location**: `db/seeds/states/*.yml`
-
-### Example: Georgia
-```yaml
-plan_of_care_rules_config:
-  direct_access:
-    fax_rules:
-      anchor: initial_visit
-      trigger:
-        strategy: days_or_visits_elapsed
-        days: 10
-        visits: 4
-    violation_rules:
-      pending:
-        days_elapsed: 15
-        visits_elapsed: 6
-      violation:
-        days_elapsed: 21
-        visits_elapsed: 8
-    resolution_mode: referral  # "referral" | "plan_of_care" | "functional_progress"
-```
-
-### ⚠️ States WITHOUT POC Config (10 states)
-
-Arizona, Colorado, Maryland, Massachusetts, Nevada, North Carolina, Oregon, Utah, Washington, Wyoming
-
-**Impact**: DirectAccess POCs will **NEVER** be generated for these states (returns `false` at `config.blank?` check)
-
----
-
-## 10 Silent Failure Points
-
-### 1. ⚠️ NO LOGGING OR ERROR HANDLING (Most Critical)
+### 1. NO LOGGING OR ERROR HANDLING (Most Critical)
 
 **File**: `TherapistSignedChartPdfGeneratorWorker:48`
 
@@ -335,26 +275,6 @@ return false unless matching_appointment_type?(appointment)
 - Reassessment visits
 - Follow-up visits
 - Etc.
-
----
-
-### 7. ⚠️ TRIGGER STRATEGY TIMING
-
-**File**: `DirectAccess::MessageCalculator:56-80`
-
-For states with `days_or_visits_elapsed` strategy:
-
-**Example - Georgia**: 10 days OR 4 visits
-- Initial visit (day 0) → No POC
-- Visit 2 (day 3) → No POC
-- Visit 3 (day 7) → No POC
-- Visit 4 (day 8) → **POC should generate** (4 visits < 10 days)
-- Visit 5 (day 12) → POC already exists
-
-**Problems**:
-- No tracking of "pending POCs"
-- No alerts when approaching violation threshold
-- No logging when trigger not satisfied
 
 ---
 
@@ -763,8 +683,6 @@ end
 
 1. ✅ **Fix chart signing state bug** - Prevents 80%+ of missing POCs
 2. ✅ **Add logging** - Understand why POCs are skipped
-3. ✅ **Add error handling** - Capture exceptions
-4. ✅ **Run investigation script** - Understand patterns in missing POCs
 
 ### Short-term Actions (Week 2-3)
 
@@ -783,23 +701,3 @@ end
 11. **Add audit table** - Track all POC generation decisions
 12. **Integration tests** - Prevent regressions
 13. **Improve trigger strategies** - More flexible/configurable
-
----
-
-## Files to Review
-
-### Critical Files (Fix First)
-
-1. `app/workers/therapist_signed_chart_pdf_generator_worker.rb`
-2. `app/services/plans_of_care/medicare/message_calculator.rb`
-3. `app/services/plans_of_care/payer/message_calculator.rb`
-4. `app/services/plans_of_care/referred/message_calculator.rb`
-5. `app/services/plans_of_care/workers_comp/message_calculator.rb`
-
-### Important Files (Add Logging)
-
-6. `app/services/plans_of_care/direct_access/message_calculator.rb`
-7. `app/models/chart.rb` (should_message_physician?, generate_plan_of_care)
-8. `app/models/plan_of_care.rb` (fax_to_physician)
-9. `app/services/plans_of_care/plan_of_care_fax_pdf_service.rb`
-
