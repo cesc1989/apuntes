@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ea6ab61ad5dc5e31",
+        "id": "629296ddf30ab12d",
         "type": "tabs",
         "children": [
           {
-            "id": "35bbee24d19d669e",
+            "id": "aef4d65439c9e5af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "POC Generation - Missing Case Analysis"
-            }
-          },
-          {
-            "id": "bbb486870a572b8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "025 - Close Source Care Plan after Cloning 🟢"
+              "title": "Apuntes_Ciclo_22_-_Truncate"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
+                "file": "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 025 - Close Source Care Plan after Cloning 🟢"
+              "title": "Outline of Apuntes_Ciclo_22_-_Truncate"
             }
           }
         ],
@@ -179,8 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbb486870a572b8e",
+  "active": "aef4d65439c9e5af",
   "lastOpenFiles": [
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
+    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18_-_Turbo_Stream.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
@@ -205,9 +193,6 @@
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Help Desk/022 - Problema de Age para Patient Summary 🟢.md",
     "Luna/Backend/Help Desk/023 - Flakes en Backend 🟢.md",
-    "Luna/Marketplace/Python Shell Queries.md",
-    "Luna/Patient_Self_Report/Access Existing Forms.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
