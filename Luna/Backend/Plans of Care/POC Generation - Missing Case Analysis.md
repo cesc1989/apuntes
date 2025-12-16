@@ -188,20 +188,6 @@ return false unless chart.signed? && chart_just_signed == true
 
 ---
 
-### 3. 10 STATES WITHOUT POC CONFIGURATION
-
-**File**: `DirectAccess::MessageCalculator:18`
-
-```ruby
-return false if config.blank?
-```
-
-**States**: AZ, CO, MD, MA, NV, NC, OR, UT, WA, WY
-
-**Impact**: DirectAccess POCs **never generate** for these states. No logging or warning.
-
----
-
 ### 4. ⚠️ AGGRESSIVE DUPLICATE PREVENTION
 
 **File**: `DirectAccess::MessageCalculator:20`
@@ -423,39 +409,9 @@ end
 
 ### Short-term Fixes
 
-#### 1. Add Comprehensive Logging
+#### 1. Add Logging
 
-Create service to log POC decisions:
-
-```ruby
-# app/services/poc_generation_logger.rb
-class PocGenerationLogger
-  def self.log_decision(chart, should_generate, reason)
-    Rails.logger.info({
-      event: 'poc_generation_decision',
-      chart_id: chart.id,
-      episode_id: chart.episode.id,
-      patient_id: chart.patient.id,
-      referral_type: chart.episode.referral_type,
-      state: chart.appointment.region.state.postal_abbreviation,
-      should_generate: should_generate,
-      reason: reason,
-      timestamp: Time.current
-    }.to_json)
-  end
-
-  def self.determine_skip_reason(chart, is_newly_signed)
-    calculator = chart.episode.referral_type
-
-    return "chart_not_newly_signed" if !is_newly_signed && [:medicare, :payer, :referred, :workers_comp].include?(calculator)
-    return "no_physician" unless chart.episode.physician.present?
-    return "physician_not_contactable" unless chart.episode.physician.configured_for_correspondence?
-    return "poc_already_exists" if chart.episode.plans_of_care.any?
-    return "wrong_visit_type" unless visit_type_matches?(chart, calculator)
-    return "trigger_not_satisfied" # For DirectAccess with days/visits strategy
-  end
-end
-```
+Add logs to have key points for inspection.
 
 #### 2. Add Error Handling
 

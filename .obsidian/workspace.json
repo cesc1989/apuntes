@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9903e526effd4525",
+        "id": "1c647dca4a9438c8",
         "type": "tabs",
         "children": [
           {
-            "id": "cc5cb3c09fdd1679",
+            "id": "4805c906dfab08b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc5cb3c09fdd1679",
+  "active": "4805c906dfab08b6",
   "lastOpenFiles": [
+    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
     "Luna/Backend/Help Desk/020-therapist-dups/tc_therapists dups tiebreaker logic.md",
@@ -174,7 +175,6 @@
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18_-_Turbo_Stream.md",
-    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
     "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
