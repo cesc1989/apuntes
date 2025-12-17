@@ -50,15 +50,6 @@ def perform(chart_id, force_generate = false)
 end
 ```
 
-### ⚠️ Silent Failure Points
-
-- **No error handling** around `chart.generate_plan_of_care.fax_to_physician`
-- **No logging** when POC generation is skipped
-- **No logging** when POC generation succeeds or fails
-- **Exceptions** silently caught by Sidekiq retry mechanism (5 retries)
-
----
-
 ## State Configuration
 
 **Location**: `db/seeds/states/*.yml`
