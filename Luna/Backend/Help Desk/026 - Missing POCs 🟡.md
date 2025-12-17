@@ -31,9 +31,11 @@ Comentario de Ryan:
 
 Para poder inspeccionar y tener datos extra de cómo se da este proceso de tal forma que ayude a ver donde se salta la generación y tener idea de por qué.
 
-## Probar extraer generación del POC de generación del PDF
+## Probar extraer generación del POC de generación del PDF ❌
 
-Como se explica en [[POC Generation - Missing Case Analysis#🚧 2. CHART SIGNING STATE BUG (Likely Main Culprit!) 🚧]]
+> Como se explica en [[POC Generation - Missing Case Analysis#2. CHART SIGNING STATE BUG ❌]]
+
+Esto no es la causa.
 
 ## Comprobar si los missing POCs son de estados que no tienen configuración alguna
 
