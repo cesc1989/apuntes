@@ -19,7 +19,7 @@
 
 ---
 
-## 1. Entry Point: TherapistSignedChartPdfGeneratorWorker
+## Entry Point: TherapistSignedChartPdfGeneratorWorker
 
 **File**: `app/workers/therapist_signed_chart_pdf_generator_worker.rb:14-58`
 
@@ -59,7 +59,7 @@ end
 
 ---
 
-## 3. Message Calculators (5 Types)
+## Message Calculators (5 Types)
 
 ### A. DirectAccess::MessageCalculator
 

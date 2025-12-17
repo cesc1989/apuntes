@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "84c8380818947819",
+        "id": "5945dcd5075ea699",
         "type": "tabs",
         "children": [
           {
-            "id": "2d578e83850c405f",
+            "id": "ed1b9a62abf11dbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
+                "file": "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "026 - Missing POCs 🟡"
+            }
+          },
+          {
+            "id": "af68c46da078a9fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Ciclo 09 - Pruebas User Agents"
+              "title": "POC Generation - Missing Case Analysis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
+                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 09 - Pruebas User Agents"
+              "title": "Outline of POC Generation - Missing Case Analysis"
             }
           }
         ],
@@ -164,10 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d578e83850c405f",
+  "active": "af68c46da078a9fc",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
+    "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
+    "Luna/Backend/Edge Enums que Importan 🔑.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
@@ -185,14 +202,12 @@
     "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
     "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Luna/Backend/Comanditos Edge.md",
-    "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "Canvas/Comanditos.canvas",
     "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
-    "Luna/Backend/Patients/Example Patients.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
