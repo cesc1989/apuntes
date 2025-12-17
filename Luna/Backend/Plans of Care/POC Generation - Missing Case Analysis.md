@@ -172,7 +172,7 @@ Same as Medicare but does NOT automatically send on discharge.
 
 ## Silent Failure Points
 
-### 1. NO LOGGING OR ERROR HANDLING (Most Critical)
+### 1. NO LOGGING OR ERROR HANDLING 🟢
 
 **File**: `TherapistSignedChartPdfGeneratorWorker:48`
 
@@ -188,11 +188,9 @@ end
 - No error handling if generation/faxing fails
 - Exceptions caught by Sidekiq retry (5 attempts, then silent failure)
 
----
+### 2. CHART SIGNING STATE BUG ❌
 
-### 🚧 2. CHART SIGNING STATE BUG (Likely Main Culprit!) 🚧
-
-**File**: `TherapistSignedChartPdfGeneratorWorker:30-48`
+**File**: `TherapistSignedChartPdfGeneratorWorker`
 
 ```ruby
 was_signed = chart.signed_flag  # BEFORE PDF generation
@@ -215,22 +213,17 @@ return false unless chart.signed? && chart_just_signed == true
 **THE BUG**:
 1. Worker runs, `was_signed = false`
 2. PDF generation fails (Google API timeout, quota, etc.)
-3. Worker retries (Sidekiq automatic retry)
-4. On retry, `was_signed = true` (chart.signed_flag is now true from first attempt)
-5. `is_newly_signed = !true && true = false`
-6. MessageCalculator returns `false` because `chart_just_signed == false`
-7. **POC is NEVER generated even though chart is signed!**
+3. ~~Worker retries (Sidekiq automatic retry)~~
+4. ~~On retry, `was_signed = true` (chart.signed_flag is now true from first attempt)~~
+5. ~~`is_newly_signed = !true && true = false`~~
+6. ~~MessageCalculator returns `false` because `chart_just_signed == false`~~
+7. ~~**POC is NEVER generated even though chart is signed!**~~
 
-**This explains missing POCs for**:
-- Medicare patients
-- Private payer patients
-- Referred patients
-- Workers' comp patients
-- 4 out of 5 referral types!
+> [!Warning]
+> Esto no pasa porque si `Charts::PdfGeneratorService.generate_signed_chart!` falla el campo `signed_flag` ni `signed_path` se actualizan. Así que `is_newly_signed` se mantendría como `true`.
 
----
 
-### 4. ⚠️ AGGRESSIVE DUPLICATE PREVENTION
+### 4. AGGRESSIVE DUPLICATE PREVENTION
 
 **File**: `DirectAccess::MessageCalculator:20`
 
@@ -255,7 +248,7 @@ end
 
 ---
 
-### 5. ⚠️ PHYSICIAN CONTACT REQUIREMENTS
+### 5. PHYSICIAN CONTACT REQUIREMENTS
 
 **File**: All MessageCalculators
 
@@ -306,7 +299,7 @@ return false unless matching_appointment_type?(appointment)
 
 ---
 
-### 8. ⚠️ PDF GENERATION FAILURES
+### 8. PDF GENERATION FAILURES
 
 **File**: `app/services/plans_of_care/plan_of_care_fax_pdf_service.rb:92-111`
 
