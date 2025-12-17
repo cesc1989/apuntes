@@ -9,16 +9,6 @@
 
 825+ POCs failed to auto-generate in January 2025 alone. Analysis reveals **10 silent failure points** in the POC generation system, with the most likely culprit being a **chart signing state bug** that prevents POC generation on worker retries.
 
-### Critical Findings
-
-1. **No logging or error handling** around POC generation
-2. **Chart signing state bug** causes POCs to be skipped on worker retries
-3. **10 states have no POC configuration** for DirectAccess patients
-4. **Aggressive duplicate prevention** may skip legitimate POCs
-5. **No monitoring infrastructure** to detect missing POCs
-
----
-
 ## Entry Point: TherapistSignedChartPdfGeneratorWorker
 
 **File**: `app/workers/therapist_signed_chart_pdf_generator_worker.rb:14-58`
