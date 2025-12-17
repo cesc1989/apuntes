@@ -59,6 +59,48 @@ end
 
 ---
 
+## State Configuration
+
+**Location**: `db/seeds/states/*.yml`
+
+### Example: Georgia
+
+```yaml
+plan_of_care_rules_config:
+  direct_access:
+    fax_rules:
+      anchor: initial_visit
+      trigger:
+        strategy: days_or_visits_elapsed
+        days: 10
+        visits: 4
+    violation_rules:
+      pending:
+        days_elapsed: 15
+        visits_elapsed: 6
+      violation:
+        days_elapsed: 21
+        visits_elapsed: 8
+    resolution_mode: referral  # "referral" | "plan_of_care" | "functional_progress"
+```
+
+###  🟡 States WITHOUT POC Config (10 states) 🟡
+
+- Arizona
+- Colorado
+- Maryland
+- Massachusetts
+- Nevada
+- North Carolina
+- Oregon
+- Utah
+- Washington
+- Wyoming
+
+**Impact**: DirectAccess POCs will **NEVER** be generated for these states (returns `false` at `config.blank?` check).
+
+---
+
 ## Message Calculators (5 Types)
 
 ### A. DirectAccess::MessageCalculator

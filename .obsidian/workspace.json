@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -28,15 +28,14 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "POC Generation - Missing Case Analysis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "file": "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of POC Generation - Missing Case Analysis"
+              "title": "Outline of 026 - Missing POCs 🟡"
             }
           }
         ],
@@ -179,13 +178,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af68c46da078a9fc",
+  "active": "ed1b9a62abf11dbe",
   "lastOpenFiles": [
+    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
-    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
     "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
     "Luna/Backend/Help Desk/020-therapist-dups/tc_therapists dups tiebreaker logic.md",
