@@ -28,14 +28,15 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "POC Generation - Missing Case Analysis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
+                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 026 - Missing POCs 🟡"
+              "title": "Outline of POC Generation - Missing Case Analysis"
             }
           }
         ],
@@ -178,10 +179,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed1b9a62abf11dbe",
+  "active": "af68c46da078a9fc",
   "lastOpenFiles": [
-    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
+    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
