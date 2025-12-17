@@ -171,6 +171,9 @@ end
 
 ### 2. CHART SIGNING STATE BUG ❌
 
+> [!Warning]
+> Esto no pasa porque si `Charts::PdfGeneratorService.generate_signed_chart!` falla el campo `signed_flag` ni `signed_path` se actualizan. Así que `is_newly_signed` se mantendría como `true`.
+
 **File**: `TherapistSignedChartPdfGeneratorWorker`
 
 ```ruby
@@ -199,9 +202,6 @@ return false unless chart.signed? && chart_just_signed == true
 5. ~~`is_newly_signed = !true && true = false`~~
 6. ~~MessageCalculator returns `false` because `chart_just_signed == false`~~
 7. ~~**POC is NEVER generated even though chart is signed!**~~
-
-> [!Warning]
-> Esto no pasa porque si `Charts::PdfGeneratorService.generate_signed_chart!` falla el campo `signed_flag` ni `signed_path` se actualizan. Así que `is_newly_signed` se mantendría como `true`.
 
 
 ### 4. AGGRESSIVE DUPLICATE PREVENTION
