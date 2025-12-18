@@ -95,11 +95,11 @@ end
 
 Claudio propuso modificar esta función y así lo hicimos pero eso no corrigió el mostrar la avail. afectada.
 
-## Modificar los tipos de GQL 🟢🟡
+## Modificar los tipos de GQL ❌
 
 Claudio sugirió modificar `app/graphql/types/patient.rb` para que no haga coerce y funcionó pero no acepté ese cambio porque podría romper funcionalidad existente.
 
-## Validar que no se pueda crear con Repeat que termina el mismo día 🟡
+## Validar que no se pueda crear con Repeat que termina el mismo día ❌
 
 > [!Note]
 > Ya que el caso se resolvió para el paciente y el care plan fue discharged veo conveniente prevenir que se vuelvan a crear availabilities con esta combinación.
