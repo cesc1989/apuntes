@@ -47,3 +47,41 @@ Credentialing::MedicareRequirement.where(created_at: Date.current.all_day).delet
 ```
 
 ## Query para Crear Personal References
+
+```ruby
+ActiveRecord::Base.transaction do
+  sql = <<~SQL
+    WITH new_credentialing_info AS (
+      INSERT INTO tc_credentialing_informations (tc_therapist_id, created_at, updated_at)
+      SELECT tt.id, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+      FROM tc_therapists tt
+      LEFT JOIN tc_credentialing_informations tci ON tci.tc_therapist_id = tt.id
+      WHERE tci.id IS NULL
+      RETURNING id, tc_therapist_id
+    ),
+    reference_numbers AS (
+      SELECT generate_series(1, 3) as ref_num
+    )
+    INSERT INTO tc_personal_references (
+      tc_credentialing_information_id,
+      created_at,
+      updated_at
+    )
+    SELECT
+      nci.id,
+      CURRENT_TIMESTAMP,
+      CURRENT_TIMESTAMP
+    FROM new_credentialing_info nci
+    CROSS JOIN reference_numbers rn;
+  SQL
+
+  result = ActiveRecord::Base.connection.execute(sql)
+  puts "Inserted #{result.cmd_tuples} personal reference records"
+end
+```
+
+Con estas queries puedo borrar los de Alpha para volver a probar:
+```ruby
+Credentialing::PersonalReference.where(created_at: Date.current.all_day).delete_all
+Credentialing::CredentialingInformation.where(created_at: Date.current.all_day).delete_all
+```
