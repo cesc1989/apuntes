@@ -115,6 +115,10 @@ Estas son las variaciones que dan problemas:
 - Repeat, daily, 1 day, end on same date
 	- crea este rrule: `FREQ=DAILY;UNTIL=20251218`
 
+# Relacionado
+
+La vista calendario de esta página muestra los rangos de horas desde la configuración provista en `AvailabilityHelper`. Este es usado en la vista Rails que carga el componente. La vista es `app/views/admin/patients/availability/show.html.erb`.
+
 # Enlaces
 
 Librerías frontend para el calendario.
