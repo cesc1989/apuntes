@@ -20,6 +20,9 @@ Lo cual está mal desde la configuración pero que por sí solo no causaba probl
 
 ## Problema Real
 
+> [!Warning]
+> Esto afecta tanto los creados con la combinación repeat y sin ella.
+
 Cuando se crea un registro que termina en una hora que crea un desborde de tiempo entre la zona horaria PST y otras se llega a este caso.
 
 Hay un método involucrado en todo esto que está en el modelo `Availability`:
@@ -96,7 +99,7 @@ Claudio propuso modificar esta función y así lo hicimos pero eso no corrigió 
 
 Claudio sugirió modificar `app/graphql/types/patient.rb` para que no haga coerce y funcionó pero no acepté ese cambio porque podría romper funcionalidad existente.
 
-## Validar que no se pueda crear con Repeat que termina el mismo día
+## Validar que no se pueda crear con Repeat que termina el mismo día 🟡
 
 > [!Note]
 > Ya que el caso se resolvió para el paciente y el care plan fue discharged veo conveniente prevenir que se vuelvan a crear availabilities con esta combinación.
