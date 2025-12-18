@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med. Requirement && PersonalReferences.md",
-                "mode": "source",
+                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "009 - Missing Med. Requirement && PersonalReferences"
+              "title": "009 - Missing Med.Req && Pers.Ref"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med. Requirement && PersonalReferences.md",
+                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 009 - Missing Med. Requirement && PersonalReferences"
+              "title": "Outline of 009 - Missing Med.Req && Pers.Ref"
             }
           }
         ],
@@ -169,7 +169,7 @@
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA ✅.md",
-    "Luna/Therapist_Signup/Casos/009 - Missing Med. Requirement && PersonalReferences.md",
+    "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref.md",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
