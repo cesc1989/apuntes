@@ -104,3 +104,11 @@ Claudio sugirió modificar `app/graphql/types/patient.rb` para que no haga coerc
 Este es el que tiene mejor pinta hasta ahora. Al validar e impedir que se creen registros con la combinación "Repeat que termina el mismo día" se puede prevenir a futuro.
 
 ![[13.debug.cause.png]]
+
+Estas son las variaciones que dan problemas:
+
+- Repeat, daily, 1 day, end on 1 occurrence
+	- crea este rrule: `"INTERVAL=1;FREQ=DAILY;COUNT=1"`
+- Repeat, daily, 1 day, end on same date
+	- crea este rrule: `FREQ=DAILY;UNTIL=20251218`
+
