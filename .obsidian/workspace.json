@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "19dd8e8e3a8a10da",
+        "id": "37f0c99ff80d6f68",
         "type": "tabs",
         "children": [
           {
-            "id": "d369ae4a5542d491",
+            "id": "5e4829178a0f302a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref.md",
+                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "009 - Missing Med.Req && Pers.Ref"
+              "title": "009 - Missing Med.Req && Pers.Ref 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref.md",
+                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 009 - Missing Med.Req && Pers.Ref"
+              "title": "Outline of 009 - Missing Med.Req && Pers.Ref 🟢"
             }
           }
         ],
@@ -164,12 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d369ae4a5542d491",
+  "active": "5e4829178a0f302a",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA ✅.md",
-    "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref.md",
     "Luna/Therapist_Signup/Casos/004 - Syncing Old Object Issue.md",
     "Luna/Therapist_Signup/Casos/008 - Normalize Inputs 🟢.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
