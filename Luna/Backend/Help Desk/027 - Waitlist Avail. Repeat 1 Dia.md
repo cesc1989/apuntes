@@ -115,3 +115,10 @@ Estas son las variaciones que dan problemas:
 - Repeat, daily, 1 day, end on same date
 	- crea este rrule: `FREQ=DAILY;UNTIL=20251218`
 
+# Enlaces
+
+Librerías frontend para el calendario.
+
+- DevExpress React Scheduler:
+	- NPM: https://www.npmjs.com/package/@devexpress/dx-react-scheduler
+	- Docs: https://devexpress.github.io/devextreme-reactive/react/scheduler/docs/reference/week-view/
