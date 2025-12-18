@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "37f0c99ff80d6f68",
+        "id": "f77ea4ef40c15936",
         "type": "tabs",
         "children": [
           {
-            "id": "5e4829178a0f302a",
+            "id": "0bc6b205580a161f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat 1 Dia.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "009 - Missing Med.Req && Pers.Ref 🟢"
+              "title": "027 - Waitlist Avail. Repeat 1 Dia"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
+                "file": "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat 1 Dia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 009 - Missing Med.Req && Pers.Ref 🟢"
+              "title": "Outline of 027 - Waitlist Avail. Repeat 1 Dia"
             }
           }
         ],
@@ -164,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e4829178a0f302a",
+  "active": "0bc6b205580a161f",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
+    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat 1 Dia.md",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
@@ -190,8 +192,6 @@
     "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
     "Luna/Backend/Email Verification/Misc Info.md",
     "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
-    "Luna/Backend/Email Verification/Probando Email Verification Landing.md",
-    "Luna/Backend/Email Verification/Swap Primary Methods flow.md",
     "Canvas/Comanditos.canvas",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
