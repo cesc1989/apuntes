@@ -2,7 +2,9 @@
 
 Etiquetas: #luna_help_desk 
 
-Caso EDG-3113
+Caso EDG-3113.
+
+Relacionado: [[UX con las Conversiones de TZ]]
 
 ## Contexto
 
