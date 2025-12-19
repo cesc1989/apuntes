@@ -3,11 +3,6 @@
 Resumen de Claudio:
 > This is the fundamental UX problem with timezone conversion for availability calendars.
 
-Del commit original:
-> tldr; the scheduler component we use doesn't allow us to specify what time zone we're actually doing scheduling in, so we need to hack around and coerce between the user's browser timezone (which is what the scheduler uses), and the patient's time zone (which is what we want to schedule availability blocks in).
->
-> Commit: [`#c379396`](https://github.com/lunacare/backend/commit/c3793964d8dec8378259aaf6cfbe70bdb2576750)
-
 ## The Issue
 
 Original availability (Houston/Central):
@@ -26,7 +21,7 @@ After proper conversion to Bogota (COT):
 
 The old `coerced_to_time_zone` method tried to keep "9:30 PM → 9:30 PM" exactly to avoid this confusing UX. But that created invalid timezone data and caused the midnight-crossing filtering issue.
 
-### The Real Solution
+### The Real Solution ❌
 
 Don't convert timezones at all. Show times in the patient's region timezone with a clear timezone indicator.
 
@@ -37,3 +32,17 @@ Why this makes sense:
 
 This is likely why the calendar was designed this way originally - healthcare availability scheduling needs to stay in the patient's local context.
 
+## Commit original sobre el método `coerced_to_time_zone`
+
+Del commit original:
+> tldr; the scheduler component we use doesn't allow us to specify what time zone we're actually doing scheduling in, so we need to hack around and coerce between the user's browser timezone (which is what the scheduler uses), and the patient's time zone (which is what we want to schedule availability blocks in).
+>
+> Commit: [`#c379396`](https://github.com/lunacare/backend/commit/c3793964d8dec8378259aaf6cfbe70bdb2576750)
+
+
+ ### Options Moving Forward
+
+1. Keep only the GraphQL rrule fix - Solves original reported bug, document timezone limitation
+2. Switch calendar library - Find one that supports timezone specification
+3. Restrict usage - Document that calendar works best when user timezone matches patient region
+4. Expand calendar hours to 0-24 - Allow midnight crossing to display

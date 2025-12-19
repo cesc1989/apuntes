@@ -35,8 +35,7 @@
               "title": "027 - Waitlist Avail. Repeat mismo Dia 🟡"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
+                "file": "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 027 - Waitlist Avail. Repeat mismo Dia 🟡"
+              "title": "Outline of UX con las Conversiones de TZ"
             }
           }
         ],
@@ -179,11 +178,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a31338b2dc78b8b",
+  "active": "2909f158ba1be8bb",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
     "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
     "Luna/Backend/Waitlist Availability",
-    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
