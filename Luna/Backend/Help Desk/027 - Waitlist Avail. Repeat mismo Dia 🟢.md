@@ -20,7 +20,7 @@ El error se dio porque la configuración de esa fecha estaba configurada con un 
 
 Lo cual está mal desde la configuración pero que por sí solo no causaba problema. Fue una combinación de cómo se guardó el registro y cómo devuelve los `availabilities` la query de GQL.
 
-# Problema Real
+# Problema Real 🔑
 
 > [!Warning]
 > Esto afecta tanto los creados con la combinación repeat y sin ella.

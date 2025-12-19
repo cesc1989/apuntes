@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dcaa497faee267f2",
+        "id": "a955d21b4a87c42a",
         "type": "tabs",
         "children": [
           {
-            "id": "2909f158ba1be8bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "UX con las Conversiones de TZ"
-            }
-          },
-          {
-            "id": "7a31338b2dc78b8b",
+            "id": "2c8a396981a2cd5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "027 - Waitlist Avail. Repeat mismo Dia 🟡"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a31338b2dc78b8b",
+  "active": "2c8a396981a2cd5f",
   "lastOpenFiles": [
-    "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
     "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
+    "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
     "Luna/Backend/Waitlist Availability",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
