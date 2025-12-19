@@ -117,6 +117,14 @@ Estas son las variaciones que dan problemas:
 - Repeat, daily, 1 day, end on same date
 	- crea este rrule: `FREQ=DAILY;UNTIL=20251218`
 
+## Modificar Tipo Availability en GQL 🟡
+
+Otro cambio de GQL que funcionó mejor en la mayoría de zonas horarias de USA excepto EST.
+
+El cambio fue agregar el resolver al tipo `rrule` de `app/graphql/types/availability.rb`. En el resolver se hace el chequeo del `rrule` del registro availability. Se chequea si tiene `COUNT=1` o si tiene `UNTIL={start_date}`.
+
+Este cambio sirve para solucionar el problema en que un evento que termina a las 9:30pm PST desaparezca del calendario. Funciona para las zonas PST, MST, CST. En EST aún no funciona pero parece ser otro edge case.
+
 # Relacionado
 
 La vista calendario de esta página muestra los rangos de horas desde la configuración provista en `AvailabilityHelper`. Este es usado en la vista Rails que carga el componente. La vista es `app/views/admin/patients/availability/show.html.erb`.
