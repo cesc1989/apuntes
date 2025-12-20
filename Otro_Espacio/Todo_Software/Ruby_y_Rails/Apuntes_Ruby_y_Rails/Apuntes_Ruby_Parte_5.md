@@ -320,3 +320,20 @@ HubspotConstants::LifecycleStage::MARKETING_QUALIFIED_LEAD
 Funciona porque al incluir el módulo `HubspotConstants` se permite que la constante `Referral` pueda encontrar la constante más anidada.
 
 No reemplaza sino que puede buscar.
+
+# Error de bundler al pasar a Ruby 3.4.8
+
+Tuve este error al pasar el proyecto de mi sitio web de Ruby 3.3.10 a 3.4.8:
+```
+uninitialized constant DidYouMean::SPELL_CHECKERS (NameError)
+
+DidYouMean::SPELL_CHECKERS.merge!(
+
+              ^^^^^^^^^^^^^^^^
+
+Did you mean?  DidYouMean::SpellChecker
+```
+
+El problema es que el Gemfile anterior estaba construido con bundler 2.2.33 y al pasar a Ruby 3.4.8 se volvió incompatible la versión.
+
+La solución fue eliminar el archivo Gemfile.lock porque sino siempre forzaría hacer el bundle install con la versión anterior de bundler.
