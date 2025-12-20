@@ -1,6 +1,6 @@
 # Todo lo que debo instalara Linux Mint 21.3 Virginia - PC de Trabajo
 
-Esta version esta sobre Ubuntu 22.04
+Esta version esta sobre Ubuntu 22.04.
 
 ## Primero
 
@@ -50,7 +50,7 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Sublime Text 4
 - [x] Sublime Text Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
 - [x] DBeaver 
-- [x] PostgreSQL - v16 
+- [x] PostgreSQL - v17
     - [Instrucciones](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) para Ubuntu / Linux Mint
 - [x] Redis
 - [x] Postman
@@ -64,7 +64,7 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Carpeta projects
 - [x] Carpeta devaspros projects
 - [x] Copia carpeta música del HDD Mugiwara
-- [x] Sincroniza carpeta Documents
+- [x] Sincroniza carpeta Documents con Mega Sync
 
 ## Configuración de Proyectos
 

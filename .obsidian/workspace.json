@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a955d21b4a87c42a",
+        "id": "6db7c1cd5617ab8f",
         "type": "tabs",
         "children": [
           {
-            "id": "2c8a396981a2cd5f",
+            "id": "acc28a1143baaf7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "027 - Waitlist Avail. Repeat mismo Dia 🟡"
+              "title": "Instalar Software en Linux"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Patient.where.not",
+                "query": "delta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 027 - Waitlist Avail. Repeat mismo Dia 🟡"
+              "title": "Outline of Instalar Software en Linux"
             }
           }
         ],
@@ -164,8 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c8a396981a2cd5f",
+  "active": "acc28a1143baaf7c",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
     "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
     "Luna/Backend/Waitlist Availability",
@@ -187,13 +194,6 @@
     "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
     "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
     "DevAsPros/Coshi_Notes/Apuntes_Ciclo_22_-_Truncate.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
-    "DevAsPros/Coshi_Notes/Apuntes_Ciclo_18_-_Turbo_Stream.md",
-    "Luna/Backend/Email Verification/Portal Email Verification - General Info.md",
-    "Luna/Backend/Help Desk/016 - Refactor Email Verification Controllers 🟢.md",
-    "Luna/Backend/Email Verification/Patient Email Verification - Origenes.md",
-    "Luna/Backend/Email Verification/Misc Info.md",
-    "Luna/Backend/Email Verification/Fallo del 5 de Septiembre - Email Verification o Failure.md",
     "Canvas/Comanditos.canvas",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
