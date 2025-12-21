@@ -1,5 +1,10 @@
 # MiPlex: Un Netflix con contenido propio
 
+> [!Info]
+> Idea desestimada por costos de almacenamiento y alcance de desarrollo.
+>
+> Usaré Plex como Media Server y en el peor de los casos alguna alternativa como Jellyfin o Emby.
+
 Con un precio que parece módico, usando Cloudflare Streaming puedo tener la parte más complicada de este proyecto: almacenamiento, servidores y transmisión.
 
 Probé subir dos vídeos: uno X y una película y transmite normal la película.
