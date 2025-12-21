@@ -9,7 +9,6 @@
 ## En Elixir
 
 - DNSimple Elixir Client https://github.com/dnsimple/dnsimple-elixir
-- Dnsimple CLI https://github.com/dnsimple/dnsimple-elixir-cli
 - Elixir PDF Generator https://github.com/gutschilla/elixir-pdf-generator
 - Bamboo https://github.com/thoughtbot/bamboo
 
