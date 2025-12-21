@@ -2,6 +2,8 @@
 
 Artículo original -> https://fs.blog/slack/
 
+Jason Swett también escribió al respecto en [[008 - One Thing at a Time]]
+
 ## TL;DR
 
 No se puede ser productivo el 100% del tiempo. Siempre hay que dejar espacio para tiempo ocio o tareas de menor importancia.

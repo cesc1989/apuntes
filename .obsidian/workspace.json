@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0c25b312698ae765",
+        "id": "24ec48de1564dbd5",
         "type": "tabs",
         "children": [
           {
-            "id": "21505b21d947b7c4",
+            "id": "247697f488b67028",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La Eficiencia es el Enemigo.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "008 - One Thing at a Time"
+              "title": "La Eficiencia es el Enemigo"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La Eficiencia es el Enemigo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 008 - One Thing at a Time"
+              "title": "Outline of La Eficiencia es el Enemigo"
             }
           }
         ],
@@ -164,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21505b21d947b7c4",
+  "active": "247697f488b67028",
   "lastOpenFiles": [
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/002 - Clean code is downstream of clear thinking - Jason Swett.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La Eficiencia es el Enemigo.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/002 - Clean code is downstream of clear thinking - Jason Swett.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
@@ -193,7 +194,6 @@
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
     "Canvas/Comanditos.canvas",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
