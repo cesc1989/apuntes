@@ -23,5 +23,4 @@
 
 - [Prueba de Ingeniería de Resuelve](https://github.com/resuelve/prueba-ing-backend) que puedo hacer en Elixir y/o Ruby para medir mis aptitudes.
 - Podría intentar hacer herramientas tipo CLI, por ejemplo un [dbxcli](https://github.com/dropbox/dbxcli) pero con Elixir.
-- Un read-it-later como en este [proyecto](https://dev.to/oliverandrich/learn-elixir-and-phoenix-by-building-a-read-it-later-service-project-setup-3d1c).
 
