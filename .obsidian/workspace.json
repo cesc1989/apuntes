@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "274583ef7d7af005",
+        "id": "0c25b312698ae765",
         "type": "tabs",
         "children": [
           {
-            "id": "4a9ce1ae4e18557e",
+            "id": "21505b21d947b7c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MiPlex_Un_Netflix_con_contenido_propio"
+              "title": "008 - One Thing at a Time"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MiPlex_Un_Netflix_con_contenido_propio"
+              "title": "Outline of 008 - One Thing at a Time"
             }
           }
         ],
@@ -164,8 +164,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a9ce1ae4e18557e",
+  "active": "21505b21d947b7c4",
   "lastOpenFiles": [
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/002 - Clean code is downstream of clear thinking - Jason Swett.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
+    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
+    "Otro_Espacio/Coshinema/YTtoPlex.md",
+    "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
@@ -188,12 +194,6 @@
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Edge Enums que Importan 🔑.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
-    "Luna/Backend/Help Desk/025 - Close Source Care Plan after Cloning 🟢.md",
-    "Luna/Backend/Help Desk/015 - Add City and Diagnosis to Waitlist Entries 🟢.md",
-    "Luna/Backend/Help Desk/020-therapist-dups/tc_therapists dups tiebreaker logic.md",
-    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
-    "Luna/Backend/Returning Encounters Monitored/Phase_0/rem_phase0.md",
     "Canvas/Comanditos.canvas",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
