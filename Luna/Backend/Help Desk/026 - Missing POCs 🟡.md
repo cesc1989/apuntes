@@ -42,3 +42,17 @@ Esto no es la causa.
 O si hay alguna mala configuración.
 
 Estados que no tienen configuración de POC son los listados en [[POC Generation - Missing Case Analysis#🟡 States WITHOUT POC Config (10 states) 🟡]]
+
+# Detalles
+
+## Cómo inspeccionar los logs en Grafana
+
+Dado a que hay un patrón alrededor de `POC_GEN` la mejor forma de hacer la query es aprovechando la expresión. Se puede hacer así:
+```sql
+{app="backend-sidekiq-worker"} |= `POC_GEN_`
+```
+
+O también así:
+```sql
+{app="backend-sidekiq-worker"} |~ `\[POC_GEN_(START|PDF_START|PDF_DONE|TRIGGERED|SUCCESS|FAX_QUEUED|SKIPPED)\]`
+```
