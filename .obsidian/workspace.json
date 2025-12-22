@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3a26e42b2d46ac1e",
+        "id": "1180f7c84a1750c4",
         "type": "tabs",
         "children": [
           {
-            "id": "86d89be45ed843fb",
+            "id": "c0beb7477ba83f02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
-                "mode": "source",
+                "file": "Luna/Backend/ERDs Notes/004 - REM Accurate Returning Patients.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Temas_Variados_y_Proyectos_para_Ver_y_Aprender"
+              "title": "004 - REM Accurate Returning Patients"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
+                "file": "Luna/Backend/ERDs Notes/004 - REM Accurate Returning Patients.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Temas_Variados_y_Proyectos_para_Ver_y_Aprender"
+              "title": "Outline of 004 - REM Accurate Returning Patients"
             }
           }
         ],
@@ -164,8 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86d89be45ed843fb",
+  "active": "c0beb7477ba83f02",
   "lastOpenFiles": [
+    "Luna/Backend/ERDs Notes/001 - Smart Validations.md",
+    "Luna/Backend/ERDs Notes/004 - REM Accurate Returning Patients.md",
+    "Luna/Backend/ERDs Notes/003 - Consent Fee Improvements.md",
+    "DevAsPros/Puntapie/Para la version 1.14.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Recursividad_en_Elixir.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
@@ -187,13 +192,8 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟡.md",
-    "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
     "Luna/Backend/Waitlist Availability",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
-    "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
-    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado ✅.md",
-    "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot ✅.md",
     "Canvas/Comanditos.canvas",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
