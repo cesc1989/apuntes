@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -28,15 +28,14 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Estado y Ubicación de los Respaldos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Estado y Ubicación de los Respaldos"
+              "title": "Outline of NAS o DAS"
             }
           }
         ],
@@ -179,8 +178,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33e8b7948bc88489",
+  "active": "d82584d07f0c1350",
   "lastOpenFiles": [
+    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/Coshinema/NAS o DAS.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
@@ -206,7 +206,6 @@
     "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Luna/Backend/Waitlist Availability",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
     "Canvas/Comanditos.canvas",
