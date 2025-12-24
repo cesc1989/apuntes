@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a19daca6a8ba529a",
+        "id": "d86790261b5eeecb",
         "type": "tabs",
         "children": [
           {
-            "id": "da7cce7f25711475",
+            "id": "d82584d07f0c1350",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Time Formats no Migrados.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Time Formats no Migrados"
+              "title": "NAS o DAS"
+            }
+          },
+          {
+            "id": "33e8b7948bc88489",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Estado y Ubicación de los Respaldos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Time Formats no Migrados.md",
+                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Time Formats no Migrados"
+              "title": "Outline of Estado y Ubicación de los Respaldos"
             }
           }
         ],
@@ -164,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da7cce7f25711475",
+  "active": "33e8b7948bc88489",
   "lastOpenFiles": [
+    "Otro_Espacio/Coshinema/NAS o DAS.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
     "Luna/Backend/ERDs Notes/004 - REM Accurate Returning Patients.md",
@@ -191,7 +207,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Luna/Backend/Waitlist Availability",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
     "Canvas/Comanditos.canvas",

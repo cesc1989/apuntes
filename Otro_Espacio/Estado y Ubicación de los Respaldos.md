@@ -34,24 +34,6 @@ En mi cuenta de Ente personal tengo todas mis fotos. Se sincronizan de las fotos
 En la cuenta de Ente del Panzón (la creé con su correo gmail) están respaldadas todas sus fotos. Todos los álbumes están compartidos con mi cuenta personal.
 
 
-### Último Respaldo en Disco Mugiwara
-
-La última vez que se respaldó todo en el HDD Mugiwara fue el:
-
-**25 de Enero de 2025 -> 20/01/2025**
-
-
-### ¿Qué hay en Dropbox y en One Drive?
-
-En Dropbox (@gmail.com) tengo un zip que tiene el respaldo generado el:
-
-**19 de Octubre de 2024 -> 19/10/2024**
-
-En One Drive (@hotmail.com) tengo un zip que tiene el respaldo generado el:
-
-**19 de Octubre de 2024 -> 19/10/2024**
-
-
 ### ¿Qué hay en Google Drive?
 
 En las cuentas de Google *f.q.i* y *franciscoquinterotafur* tengo los backups de Fotos del Panzón. Cuatro archivos zip. 
