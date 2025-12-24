@@ -43,10 +43,18 @@ Por su parte MergerFS me permite combinar varios discos en un mismo "disco" así
 
 # Posibles Configuraciones
 
-## DAS  + SnapRAID + mergerfs
+## DAS  + SnapRAID + mergerfs (opcional)
 
 Pongo los tres discos en el DAS y reparto el contenido de esta forma:
 
 - Atronador: películas, series y anime
 - Quebrantahuesos: vídeos de YT
 - Embestidor u otro: disco de paridad para SnapRAID
+
+Al poner los discos en la carcasa podré acceder al contenido de todos con una sola conexión.
+
+### mergerfs
+
+Opcionalmente, configuro mergerfs para crear un solo volumen para simplificar el manejo. Donde cada disco se mantendría por separado con sus respectivas carpetas de multimedia diferente. Cuando baje nuevas películas o vídeos de YT copio a la respectiva carpeta y se mantendrán en cada disco que corresponde.
+
+Crear un solo volumen con mergerfs solo sería una conveniencia.
