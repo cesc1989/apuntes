@@ -14,25 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "NAS o DAS"
-            }
-          },
-          {
-            "id": "33e8b7948bc88489",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Estado y Ubicación de los Respaldos"
+              "title": "NAS o DAS"
             }
           }
         ]
@@ -180,9 +166,9 @@
   },
   "active": "d82584d07f0c1350",
   "lastOpenFiles": [
-    "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/Coshinema/NAS o DAS.md",
+    "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
     "Luna/Backend/ERDs Notes/004 - REM Accurate Returning Patients.md",
@@ -225,7 +211,6 @@
     "Otro_Espacio/Coshinema",
     "Luna/Backend/Help Desk/attachments/006.sequence.concise.png",
     "Luna/Backend/Help Desk/attachments/007.sequence.concise.png",
-    "Luna/Backend/Help Desk/attachments/006.sequence.full.png",
     "DevAsPros/Super_Menú/rfcs",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",

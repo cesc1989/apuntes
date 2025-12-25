@@ -44,7 +44,10 @@ Por su parte MergerFS me permite combinar varios discos en un mismo "disco" así
 
 Compré esta carcasa CENMATE.
 
-![[carcasa.das.cenmate.4bahias.png]]
+<details>
+  <summary>Carcasa Cenmate 4 bahías</summary>
+  <img src="./attachments/carcasa.das.cenmate.4bahias.png" />
+</details>
 
 ## DAS + SnapRAID
 
