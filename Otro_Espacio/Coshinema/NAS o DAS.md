@@ -66,3 +66,9 @@ Configurar un solo volumen con mergerfs sería una conveniencia para gestionar a
 Lo mismo que la primera opción.
 
 Con mergerfs creo un solo volumen para simplificar el manejo. Cada disco se mantendría por separado con sus respectivas carpetas de multimedia. Cuando baje nuevas películas o vídeos de YT copio a la carpeta y se mantendrán en unidad original.
+
+# Referencias y Enlaces
+
+- Hilo en r/plex donde descubrí acerca de los DAS -> https://www.reddit.com/r/PleX/comments/1o8p181/will_any_cheap_nas_do/
+- Hilo en r/datahoarder sobre la fiabilidad de SnapRAID. Tiene buenos comentarios -> https://www.reddit.com/r/DataHoarder/comments/8l5s1g/whats_the_snapraid_consensus_noob_discussion/
+- 
