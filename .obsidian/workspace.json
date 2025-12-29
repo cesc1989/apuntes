@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "d86790261b5eeecb",
+        "id": "cb8afc8d29024a36",
         "type": "tabs",
         "children": [
           {
-            "id": "d82584d07f0c1350",
+            "id": "d3208fedb1c4fdcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Anotaciones del Libro"
+            }
+          },
+          {
+            "id": "1e8f7b182858135f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes Libro Phoenix in Action"
+            }
+          },
+          {
+            "id": "46936b400f4f41b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NAS o DAS"
+              "title": "Comandos para Pruebas en Consola"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
+                "file": "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NAS o DAS"
+              "title": "Outline of Comandos para Pruebas en Consola"
             }
           }
         ],
@@ -164,10 +193,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d82584d07f0c1350",
+  "active": "46936b400f4f41b6",
   "lastOpenFiles": [
-    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
+    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
     "Otro_Espacio/Coshinema/NAS o DAS.md",
+    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
@@ -180,10 +213,6 @@
     "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Recursividad_en_Elixir.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Primeros Pasos en Phoenix.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La Eficiencia es el Enemigo.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/002 - Clean code is downstream of clear thinking - Jason Swett.md",

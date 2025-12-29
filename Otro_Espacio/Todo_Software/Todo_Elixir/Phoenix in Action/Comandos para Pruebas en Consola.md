@@ -1,5 +1,7 @@
 # Comandos para Copiar y Pegar para Probar
 
+Entra a la consola de Mix con `iex -S mix`.
+
 ## Probar Auction.Item
 
 Para probar el módulo Item.
@@ -83,3 +85,50 @@ Así que la cosa cambia y ahora sí se podría guardar en la BD.
   ...
 >
 ```
+
+## Probar Bid
+
+Que devuelva errores de validación:
+```erlang
+alias Auction.Bid # para ahorrar al escribir
+
+Bid.changeset(%Bid{}, %{})
+
+#Ecto.Changeset<
+  action: nil,
+  changes: %{},
+  errors: [
+    amount: {"can't be blank", [validation: :required]},
+    user_id: {"can't be blank", [validation: :required]},
+    item_id: {"can't be blank", [validation: :required]}
+  ],
+  data: #Auction.Bid<>,
+  valid?: false,
+  ...
+>
+```
+
+Probar meter un bid sin que haya item existente:
+```erlang
+Bid.changeset(%Bid{}, %{amount: 100, user_id: 1, item_id: -1000})
+|> Auction.Repo.insert()
+```
+
+produce:
+```erlang
+16:57:49.262 [debug] QUERY ERROR source="bids" db=15.0ms queue=3.1ms idle=448.9ms
+INSERT INTO "bids" ("amount","user_id","item_id","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5) RETURNING "id" [100, 1, -1000, ~N[2025-12-26 21:57:49], ~N[2025-12-26 21:57:49]]
+{:error,
+ #Ecto.Changeset<
+   action: :insert,
+   changes: %{amount: 100, user_id: 1, item_id: -1000},
+   errors: [
+     item: {"does not exist",
+      [constraint: :assoc, constraint_name: "bids_item_id_fkey"]}
+   ],
+   data: #Auction.Bid<>,
+   valid?: false,
+   ...
+ >}
+```
+
