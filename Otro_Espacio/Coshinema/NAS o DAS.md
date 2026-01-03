@@ -54,8 +54,8 @@ Compré esta carcasa CENMATE.
 Pongo los tres discos en el DAS y reparto el contenido de esta forma:
 
 - Atronador: películas, series y anime
-- Quebrantahuesos: vídeos de YT
-- Embestidor u otro: disco de paridad para SnapRAID
+- Rapaz: vídeos de YT
+- Vigia: disco de paridad para SnapRAID
 
 Al poner los discos en la carcasa podré acceder al contenido de todos con una sola conexión.
 
