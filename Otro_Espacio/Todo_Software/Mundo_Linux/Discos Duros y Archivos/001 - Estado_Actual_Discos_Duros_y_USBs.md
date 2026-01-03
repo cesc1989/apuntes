@@ -1,5 +1,7 @@
 # Estado Actual Discos Duros y USBs
 
+Relacionado [[Estado y Ubicación de los Respaldos]]
+
 ## Discos Duros
 
 ### Mugiwara 📒
