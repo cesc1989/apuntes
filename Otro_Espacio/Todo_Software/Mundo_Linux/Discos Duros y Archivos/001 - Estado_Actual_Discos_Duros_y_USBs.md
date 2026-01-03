@@ -15,24 +15,40 @@
 
 - Tipo Almacenamiento: HDD
 - Tamaño: 1 TB
-- Uso: Películas/ Series - Plex Media Server
+- Uso: Películas/Series/Anime - Plex Media Server
 - Estado: Ocupado
 - Sistema de Archivos: ext4
 
-### Quebrantahuesos 🎥
+### Quebrantahuesos
 
 - Tipo Almacenamiento: HDD
 - Tamaño: 1 TB
-- Uso: Backup de Películas/ Series - Plex Media Server
+- Uso: Backup de Atronador
 - Estado: Ocupado
 - Sistema de Archivos: ext4
 
-### Embestidor 🎥
+### Embestidor
 
 - Tipo Almacenamiento: HDD
 - Tamaño: 2 TB
-- Uso: Backup de Películas/ Series - Plex Media Server
+- Uso: Backup de Atronador
 - Estado: Ocupado
+- Sistema de Archivos: ext4
+
+### Rapaz 🎥
+
+- Tipo Almacenamiento: HDD
+- Tamaño: 1 TB
+- Uso: YouTube para PMS
+- Estado: Ocupado
+- Sistema de Archivos: ext4
+
+### Vigia
+
+- Tipo Almacenamiento: HDD
+- Tamaño: 2 TB
+- Uso: disco de paridad para Atronador y Rapaz
+- Estado: pendiente configurar
 - Sistema de Archivos: ext4
 
 ### SSD 1
