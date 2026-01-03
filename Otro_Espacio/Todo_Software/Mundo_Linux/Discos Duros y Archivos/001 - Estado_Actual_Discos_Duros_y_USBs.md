@@ -32,8 +32,8 @@
 - Tipo Almacenamiento: HDD
 - Tamaño: 2 TB
 - Uso: Backup de Películas/ Series - Plex Media Server
-- Estado: Vacío
-- Sistema de Archivos: null
+- Estado: Ocupado
+- Sistema de Archivos: ext4
 
 ### SSD 1
 
@@ -71,4 +71,4 @@
 
 ## Por Comprar
 
-- 1 SSD de 120GB (backup docs esposanyo)
+- 1 HDD de 120GB (backup docs esposanyo)
