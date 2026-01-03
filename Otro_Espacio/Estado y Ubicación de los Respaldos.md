@@ -1,5 +1,8 @@
 # Estado y Ubicación de los Respaldos 💽
 
+> [!Note]
+> Relacionado: [[001 - Estado_Actual_Discos_Duros_y_USBs]]
+
 Detalle de los respaldos de mi información (fotos, documentos, películas, libros, etc), la última vez que se respaldaron y cualquier otra cosa.
 
 Que este documento sirva de especie de índice para poder revisar con facilidad y llevar control de este proceso personal.
