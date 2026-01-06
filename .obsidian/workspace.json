@@ -11,10 +11,14 @@
             "id": "df74908d9b7d5be7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "EDG-3180 - Bad HS Update bc of Duplicate"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 439.5
+    "width": 465.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of EDG-3180 - Bad HS Update bc of Duplicate"
             }
           }
         ],
@@ -168,7 +173,7 @@
     "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues 🟢.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado 🟢.md",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
-    "Luna/Backend/Help Desk/EDG-3180 - Bad HS Update bc of Duplicate.md",
+    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate.md",
     "Luna/Backend/Help Desk/021 - Prevent signing POC twice 🟢.md",
     "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
     "Otro_Espacio/Coshinema/NAS o DAS.md",
