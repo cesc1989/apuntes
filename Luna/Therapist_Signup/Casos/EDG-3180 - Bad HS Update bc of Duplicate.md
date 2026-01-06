@@ -120,3 +120,23 @@ Por lo que creo que me toca investigar qué pasó aquí.
 >
 > Al mezclar, el primer contacto que se elige es el que se mantiene/primario. El segundo contacto se mezcla en el primario.
 
+## Probando Mezclar Contactos
+
+Veo que para este caso en las propiedades problemáticas el detalle en _source_ siempre dice "Record Merged". En cambio para otras interacciones dice "CRM UI" o "Integration".
+
+Mi sospecha es que usaron la herramienta de Merge de HubSpot y eligieron el contacto sin tener en cuenta los valores necesarios.
+
+Necesito comprobar que "Record Merge" solo se asigna cuando se usa la herramienta o se hace una petición al API.
+
+### Intento Mezcla de Contactos
+
+Primario: 161691502868
+Secundario: 161671499930
+
+Me dio error:
+> Association configuration limits are exceeded in portal 7712148 when merging 161671499930 into 161691502868 of object type 0-1
+
+El bot de HS dice que se está excediendo algún límite configurado de las asociaciones.
+
+> [!Important]
+> El error era que ambos contactos tenían un Credentialing en Active Attesting. Al cambiar el del secundario a otra label pude mezclar.
