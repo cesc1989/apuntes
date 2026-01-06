@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1f38d8e3fd4e54db",
+        "id": "1aadc53a3f98d3c1",
         "type": "tabs",
         "children": [
           {
-            "id": "7f7d8766cd4d7150",
+            "id": "df74908d9b7d5be7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3180 - Bad HS Update bc of Duplicate.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "EDG-3180 - Bad HS Update bc of Duplicate"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3180 - Bad HS Update bc of Duplicate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3180 - Bad HS Update bc of Duplicate"
+              "title": "Outline"
             }
           }
         ],
@@ -164,8 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f7d8766cd4d7150",
+  "active": "df74908d9b7d5be7",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/007 - Campo state abreviado Rompe el Form 🟢.md",
+    "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA 🟢.md",
+    "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot 🟢.md",
+    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active 🟢.md",
+    "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues 🟢.md",
+    "Luna/Therapist_Signup/Casos/002 - License Object Duplicado 🟢.md",
+    "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
     "Luna/Backend/Help Desk/EDG-3180 - Bad HS Update bc of Duplicate.md",
     "Luna/Backend/Help Desk/021 - Prevent signing POC twice 🟢.md",
     "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
@@ -186,13 +188,6 @@
     "Luna/Grafana_Queries.md",
     "Luna/Backend/ERDs Notes/001 - Smart Validations.md",
     "Luna/Backend/ERDs Notes/003 - Consent Fee Improvements.md",
-    "DevAsPros/Puntapie/Para la version 1.14.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Temas_Variados_y_Proyectos_para_Ver_y_Aprender.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Recursividad_en_Elixir.md",
-    "Otro_Espacio/Todo_Software/Todo_Elixir/Estudiando_Elixir.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La Eficiencia es el Enemigo.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/002 - Clean code is downstream of clear thinking - Jason Swett.md",
     "Luna/Backend/Waitlist Availability",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
     "Canvas/Comanditos.canvas",

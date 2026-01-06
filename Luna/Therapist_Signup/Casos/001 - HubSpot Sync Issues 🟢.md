@@ -1,4 +1,4 @@
-# Propiedades que no se llenan en HubSpot ✅
+# Propiedades que no se llenan en HubSpot
 
 Tomadas del reporte donde varias propiedades no son actualizadas según lo que se llene en el formulario CF o AF.
 

@@ -1,4 +1,4 @@
-# HS License Object Duplicado en HS Contact ✅
+# HS License Object Duplicado en HS Contact
 
 Jose reportó un caso de License object duplicado.
 
