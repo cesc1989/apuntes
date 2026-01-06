@@ -52,7 +52,48 @@ license exp. date: 2025-08-31
 form_completed_at: 2024-04-09
 latest AF at: nil
 
+# Inspección
 
+Con estas queries pude comprobar el estado de ambos registros.
+
+Con esta encontré los dos registros. El original y duplicado.
+```sql
+select
+  t.id,
+  CONCAT(t.first_name,' ',t.last_name) as full_name,
+  t.email,
+  t.hubspot_id,
+  t.registered_from,
+  t.created_at,
+  t.updated_at,
+  t.physical_therapy_license_expiration_date,
+  t.form_completed_at,
+  t.latest_attestation_completed_at
+from tc_therapists t
+where t.email ilike '%tanya16aug%';
+```
+
+Con esta otra pude ver el estado de las asociaciones.
+```sql
+select
+ t.id,
+ CONCAT(t.first_name,' ',t.last_name) as full_name,
+ tci.updated_at as cred_info_updated,
+ ti.updated_at as immu_updated,
+ tph.updated_at  as prof_updated,
+ pref.updated_at as pref_updated,
+ tnaca.updated_at as npi_updated,
+ tp.updated_at as pay_updated
+from tc_therapists t
+left join tc_credentialing_informations tci on tci.tc_therapist_id = t.id
+left join tc_immunizations ti on ti.tc_therapist_id = t.id
+left join tc_professional_histories tph on tph.tc_therapist_id = t.id
+left join tc_preferences pref on pref.tc_therapist_id = t.id
+left join tc_npi_and_caqh_applications tnaca on tnaca.tc_therapist_id = t.id
+left join tc_payouts tp on tp.tc_therapist_id = t.id
+where t.email ilike '%tanya16aug%'
+;
+```
 
 # Pasos para la solución
 
