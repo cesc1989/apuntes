@@ -106,3 +106,17 @@ En HubSpot en el contacto Principal
 	- cambiar el tc_therapist_id
 	- del valor `710d1d63-2eca-4860-b3cf-c492c0bb4810`
 	- al valor `5dbf1a09-8feb-4df8-b8e3-4a5e6e2e71a0`
+
+
+# Replicación
+
+Ryan dijo esto cuando pedí la prod-op:
+> patches should always be followed by root cause fixes, or at least investigation to determine scope of the fix (and a card to follow up on later, if cannot be fixed in a reasonable time now)
+
+Por lo que creo que me toca investigar qué pasó aquí.
+
+> [!Note]
+> Docs de HubSpot sobre cómo mezclar registros -> https://knowledge.hubspot.com/records/merge-records
+>
+> Al mezclar, el primer contacto que se elige es el que se mantiene/primario. El segundo contacto se mezcla en el primario.
+

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1aadc53a3f98d3c1",
+        "id": "c139eda4b21f083d",
         "type": "tabs",
         "children": [
           {
-            "id": "df74908d9b7d5be7",
+            "id": "531f692281554a59",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df74908d9b7d5be7",
+  "active": "531f692281554a59",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate.md",
     "Luna/Therapist_Signup/Casos/007 - Campo state abreviado Rompe el Form 🟢.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA 🟢.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot 🟢.md",
@@ -173,7 +174,6 @@
     "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues 🟢.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado 🟢.md",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
-    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate.md",
     "Luna/Backend/Help Desk/021 - Prevent signing POC twice 🟢.md",
     "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
     "Otro_Espacio/Coshinema/NAS o DAS.md",
