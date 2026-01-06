@@ -128,10 +128,10 @@ Mi sospecha es que usaron la herramienta de Merge de HubSpot y eligieron el cont
 
 Necesito comprobar que "Record Merge" solo se asigna cuando se usa la herramienta o se hace una petición al API.
 
-### Intento Mezcla de Contactos
+### Intento #1 - Merge con API 🟢
 
-Primario: 161691502868
-Secundario: 161671499930
+Primario: 161691502868 - Akaza 01
+Secundario: 161671499930 - Akaza 03
 
 Me dio error:
 > Association configuration limits are exceeded in portal 7712148 when merging 161671499930 into 161691502868 of object type 0-1
@@ -140,3 +140,29 @@ El bot de HS dice que se está excediendo algún límite configurado de las asoc
 
 > [!Important]
 > El error era que ambos contactos tenían un Credentialing en Active Attesting. Al cambiar el del secundario a otra label pude mezclar.
+
+Luego de mezclar se generó el nuevo ID: 190889571199
+
+**El resultado es que la columna _source_ dice "Record Merge".**
+
+Quedó así el historial de la propiedad `attestation_form_url`:
+![[edg3180-merge-tries-01.png]]
+
+Donde el cuyo source dice "CRM UI" fue una actualización manual.
+
+### Intento #2 - Merge con Herramienta en la web 🟢
+
+Primario: 190889571199 - Akaza 01
+Secundario: 172913534310 - Akaza 05
+
+Luego de mezclar se generó nuevo ID: 190977879159
+
+Y así quedó el historial de la propiedad:
+![[edg3180-merge-tries-02.png]]
+
+De arriba hacía abajo:
+
+- URL del contacto Akaza 05 por Merge
+- URL en el contacto Akaza 05 actualizado manualmente (por mí previo a merge)
+
+**El resultado es que la columna _source_ dice "Record Merge".**
