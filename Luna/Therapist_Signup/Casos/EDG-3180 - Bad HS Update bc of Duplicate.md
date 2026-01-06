@@ -97,8 +97,11 @@ where t.email ilike '%tanya16aug%'
 
 # Pasos para la solución
 
-- Cambiar AF URL en el contacto principal a la que corresponde
-	- terminarla en: `5dbf1a09-8feb-4df8-b8e3-4a5e6e2e71a0`
+En HubSpot en el contacto Principal
+
+- Cambiar el valor de la propiedad `physical_therapy_license_expiration_date` para que termine en: `5dbf1a09-8feb-4df8-b8e3-4a5e6e2e71a0`
+	- Este sería el ID que corresponde con el correo del contacto
+- Cambiar el valor de la propiedad `credentialing_form_files` a `5dbf1a09-8feb-4df8-b8e3-4a5e6e2e71a0`
 - Reasociar immunization y prof history del contacto secundario
 	- cambiar el tc_therapist_id
 	- del valor `710d1d63-2eca-4860-b3cf-c492c0bb4810`
