@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "702e268294dff595",
+        "id": "1f38d8e3fd4e54db",
         "type": "tabs",
         "children": [
           {
-            "id": "7dcd74a44aa20770",
+            "id": "7f7d8766cd4d7150",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/EDG-3180 - Bad HS Update bc of Duplicate.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "001 - Estado_Actual_Discos_Duros_y_USBs"
-            }
-          },
-          {
-            "id": "75ad9eca6ca41db0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "NAS o DAS"
+              "title": "EDG-3180 - Bad HS Update bc of Duplicate"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
+                "file": "Luna/Backend/Help Desk/EDG-3180 - Bad HS Update bc of Duplicate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NAS o DAS"
+              "title": "Outline of EDG-3180 - Bad HS Update bc of Duplicate"
             }
           }
         ],
@@ -179,13 +164,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75ad9eca6ca41db0",
+  "active": "7f7d8766cd4d7150",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/EDG-3180 - Bad HS Update bc of Duplicate.md",
+    "Luna/Backend/Help Desk/021 - Prevent signing POC twice 🟢.md",
+    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
+    "Otro_Espacio/Coshinema/NAS o DAS.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
     "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
-    "Otro_Espacio/Coshinema/NAS o DAS.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Anotaciones del Libro.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Apuntes Libro Phoenix in Action.md",
     "Otro_Espacio/Todo_Software/Todo_Elixir/Phoenix in Action/Comandos para Pruebas en Consola.md",
@@ -205,9 +193,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La Eficiencia es el Enemigo.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/008 - One Thing at a Time.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/002 - Clean code is downstream of clear thinking - Jason Swett.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Jason Swett/003 - Risk Mitigation - Jason Swett.md",
-    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
     "Luna/Backend/Waitlist Availability",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
     "Canvas/Comanditos.canvas",
