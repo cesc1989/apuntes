@@ -38,10 +38,14 @@ Credentialing de Florida:
 - ID: 43321731866
 - Label: Processing for Move
 
+# Sospechas
 
+## Sospecha #1
+
+Creo que el sistema funciona como se espera...
 
 # Soluciones
 
-## Alternativa 1
+## Alternativa #1
 
 Asegurar que en todas las secciones del CA/AF se esté bajando el ID de cada objeto.
