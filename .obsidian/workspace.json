@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "87180636bb885166",
+        "id": "20cfa4e66ca17456",
         "type": "tabs",
         "children": [
           {
-            "id": "e69484992fecca67",
+            "id": "8d2f3dd131264529",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "003 - Dos Credentialing Active 🟢"
+            }
+          },
+          {
+            "id": "bfc6901d157bab76",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "EDG-3204 - Updating Incorrect Cred Object"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "switch",
+                "query": "relocation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e69484992fecca67",
+  "active": "bfc6901d157bab76",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active 🟢.md",
     "Luna/Therapist_Signup/Casos/EDG-3204 - Updating Incorrect Cred Object.md",
     "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot 🟢.md",
@@ -190,7 +206,6 @@
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
     "Luna/Therapist_Signup/Casos/007 - Campo state abreviado Rompe el Form 🟢.md",
     "Luna/Therapist_Signup/Casos/006 - Cred Object not Syncing from CA 🟢.md",
-    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active 🟢.md",
     "Luna/Therapist_Signup/Casos/001 - HubSpot Sync Issues 🟢.md",
     "Luna/Therapist_Signup/Casos/002 - License Object Duplicado 🟢.md",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",

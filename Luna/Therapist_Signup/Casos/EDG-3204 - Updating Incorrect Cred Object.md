@@ -38,13 +38,20 @@ Credentialing de Florida:
 - ID: 43321731866
 - Label: Processing for Move
 
-# Sospechas
+# Sospechas 👀
 
 ## Sospecha #1
 
-Creo que el sistema funciona como se espera...
+No se hace más syncs de Custom Object IDs porque el guard en las funciones de sincronización.
 
-# Soluciones
+Esto:
+```ruby
+return if therapist.credentialing_active_attested_id.present?
+```
+
+En la función `maybe_schedule_credentialing_object_ids_sync`. Ahora mismo el registro en la BD ya tiene un valor en `credentialing_active_attested_id` por lo tanto no se hace el resync.
+
+# Soluciones 🚧
 
 ## Alternativa #1
 
