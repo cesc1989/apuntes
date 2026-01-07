@@ -122,6 +122,8 @@ Por lo que creo que me toca investigar qué pasó aquí.
 
 ## Probando Mezclar Contactos
 
+Etiquetas: #hubspot_merge
+
 Veo que para este caso en las propiedades problemáticas el detalle en _source_ siempre dice "Record Merged". En cambio para otras interacciones dice "CRM UI" o "Integration".
 
 Mi sospecha es que usaron la herramienta de Merge de HubSpot y eligieron el contacto sin tener en cuenta los valores necesarios.
