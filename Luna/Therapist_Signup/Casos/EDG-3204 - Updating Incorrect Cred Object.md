@@ -22,7 +22,8 @@ Registro en la bd:
 - ID: `64a80c76-6c99-4633-bee2-16f01db4ab0d`
 - Correo: danielleg1105
 - HS ID: 141970001
-- Crede AA ID: *37142432423* <- apunta al Credentialing incorrecto
+- Crede AA ID: *37142432423* ❌
+	- apunta al Credentialing incorrecto
 
 > [!Note]
 > El HS ID es diferente pero porque el contacto pasó por varios merges. Al enviar peticiones se actualiza el Contacto actual.
