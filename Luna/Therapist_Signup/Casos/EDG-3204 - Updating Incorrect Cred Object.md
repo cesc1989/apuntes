@@ -51,6 +51,17 @@ return if therapist.credentialing_active_attested_id.present?
 
 En la función `maybe_schedule_credentialing_object_ids_sync`. Ahora mismo el registro en la BD ya tiene un valor en `credentialing_active_attested_id` por lo tanto no se hace el resync.
 
+## Sospecha #2 ❌
+
+Esta guard:
+```ruby
+return if therapist.moving_regions?
+```
+
+En `continue_extended_signup` impide que se encole el worker `Credentialing::ExtendedSignUp::ExtendedSignUpWorker`. Está descartado porque lo que hace ese worker es crear un nuevo objeto Credentialing Active Attested. Para cuando la guard se da el HS contact ya debe tener asociado el objeto con label Processing for Move.
+
+Esto funciona bien.
+
 # Soluciones 🚧
 
 ## Alternativa #1
