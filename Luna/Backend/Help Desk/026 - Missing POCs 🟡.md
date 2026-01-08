@@ -6,7 +6,7 @@ Caso: EDG-1309
 
 Sub casos:
 - EDG-3135: agregar logs 🟢
-- EDG-3137: probar generación en retry 🟡
+- EDG-3137: probar generación en retry ❌
 
 ## Contexto
 
