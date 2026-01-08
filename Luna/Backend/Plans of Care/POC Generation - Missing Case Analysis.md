@@ -3,11 +3,9 @@
 **Issue**: EDG-1309 - Missing auto-generated POCs since October
 **Date**: 2025-11-17
 
----
-
 ## Summary
 
-825+ POCs failed to auto-generate in January 2025 alone. Analysis reveals **10 silent failure points** in the POC generation system, with the most likely culprit being a **chart signing state bug** that prevents POC generation on worker retries.
+825+ POCs failed to auto-generate in January 2025 alone.
 
 ## Entry Point: TherapistSignedChartPdfGeneratorWorker
 
@@ -40,32 +38,16 @@ def perform(chart_id, force_generate = false)
 end
 ```
 
-## State Configuration
+## State Configuration ❌
+
+> [!Warning]
+> Esto tampoco parece ser un indicio porque he visto POCs generados para care plans en estados que no tienen la configuración de `plan_of_care_rules_config`.
+>
+> Además, de la lista de la hoja de auditoria, la mayoría (si no todos) son Medicare/Medicare Advantage.
 
 **Location**: `db/seeds/states/*.yml`
 
-### Example: Georgia
-
-```yaml
-plan_of_care_rules_config:
-  direct_access:
-    fax_rules:
-      anchor: initial_visit
-      trigger:
-        strategy: days_or_visits_elapsed
-        days: 10
-        visits: 4
-    violation_rules:
-      pending:
-        days_elapsed: 15
-        visits_elapsed: 6
-      violation:
-        days_elapsed: 21
-        visits_elapsed: 8
-    resolution_mode: referral  # "referral" | "plan_of_care" | "functional_progress"
-```
-
-###  🟡 States WITHOUT POC Config (10 states) 🟡
+###  States WITHOUT POC Config (10 states)
 
 - Arizona
 - Colorado
@@ -80,30 +62,11 @@ plan_of_care_rules_config:
 
 **Impact**: DirectAccess POCs will **NEVER** be generated for these states (returns `false` at `config.blank?` check).
 
----
-
 ## Message Calculators (5 Types)
 
 ### A. DirectAccess::MessageCalculator
 
 **File**: `app/services/plans_of_care/direct_access/message_calculator.rb:13-26`
-
-```ruby
-def should_message_physician?(chart, chart_just_signed: false)
-  appointment = chart.appointment
-  episode = chart.episode
-  physician = episode.physician
-
-  return false if config.blank?  # ⚠️ State has no POC config
-  return false unless contactable_physician?(physician)  # ⚠️ No fax/portal
-  return false if poc_already_generated_for_care_plan?(episode)  # ⚠️ Already has POC
-  return true if physician.fax_every_visit?  # Always send if enabled
-  return true if appointment.discharged?  # Always send on discharge
-  return false unless matching_appointment_type?(appointment)  # ⚠️ Not initial/progress
-
-  satisfies_trigger_strategy?(chart, chart_just_signed: chart_just_signed)
-end
-```
 
 #### Trigger Strategies
 
@@ -117,18 +80,6 @@ end
 ### B. Medicare::MessageCalculator
 
 **File**: `app/services/plans_of_care/medicare/message_calculator.rb:9-21`
-
-```ruby
-def should_message_physician?(chart, chart_just_signed: false)
-  return false unless chart.signed? && chart_just_signed == true  # ⚠️ Must be newly signed
-  return false unless contactable_physician?(physician)
-  return false if physician_already_notified?(chart, physician)
-  return true if physician.fax_every_visit?
-  return true if appointment.discharged?
-
-  matching_appointment_type?(appointment)  # initial, progress, or reevaluation
-end
-```
 
 **Key Difference**: Always requires `chart_just_signed == true` (not configurable)
 
@@ -149,7 +100,6 @@ Same logic as Medicare (requires newly signed chart).
 **File**: `app/services/plans_of_care/workers_comp/message_calculator.rb`
 
 Same as Medicare but does NOT automatically send on discharge.
-
 
 ## Failure Points
 
@@ -227,9 +177,7 @@ end
 - Progress visit (Chart 2) → POC NOT generated (episode already has POC)
 - Discharge visit (Chart 3) → POC NOT generated (episode already has POC)
 
----
-
-### 5. PHYSICIAN CONTACT REQUIREMENTS
+### 5. PHYSICIAN CONTACT REQUIREMENTS 🟡
 
 **File**: All MessageCalculators
 
@@ -258,8 +206,6 @@ end
 - `physician.fax_number.blank? && !physician.portal_active?`
 - No logging of WHY physician is not contactable
 
----
-
 ### 6. VISIT TYPE RESTRICTIONS
 
 **File**: All MessageCalculators
@@ -277,8 +223,6 @@ return false unless matching_appointment_type?(appointment)
 - Reassessment visits
 - Follow-up visits
 - Etc.
-
----
 
 ### 8. PDF GENERATION FAILURES
 
@@ -300,8 +244,6 @@ return false unless matching_appointment_type?(appointment)
 - Network failures
 - Transaction rollback (no logging)
 
----
-
 ### 9. FAXING SILENT EXITS
 
 **File**: `app/models/plan_of_care.rb:230-239`
@@ -320,8 +262,6 @@ end
 - Physician has active portal (should use portal instead)
 - Missing physician, fax number, or document
 - POC already faxed to this physician
-
----
 
 ### 10. NO MONITORING INFRASTRUCTURE
 
