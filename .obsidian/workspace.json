@@ -35,8 +35,7 @@
               "title": "POC Generation - Missing Case Analysis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "file": "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of POC Generation - Missing Case Analysis"
+              "title": "Outline of 026 - Missing POCs 🟡"
             }
           }
         ],
@@ -179,10 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e9246918a1e09b3",
+  "active": "94d8845c2f1f7ec0",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+    "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
     "Luna/Therapist_Signup/Casos/EDG-3204 - Updating Incorrect Cred Object 🟢.md",

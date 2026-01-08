@@ -37,11 +37,11 @@ Para poder inspeccionar y tener datos extra de cómo se da este proceso de tal f
 
 Esto no es la causa.
 
-## Comprobar si los missing POCs son de estados que no tienen configuración alguna
+## Comprobar si los missing POCs son de estados que no tienen configuración alguna ❌
 
-O si hay alguna mala configuración.
+Esto no es la causa. Ver [[POC Generation - Missing Case Analysis#State Configuration ❌]]
 
-Estados que no tienen configuración de POC son los listados en [[POC Generation - Missing Case Analysis#🟡 States WITHOUT POC Config (10 states) 🟡]]
+Revisar si los POCs no se generan por ser de care plans en estados sin configuración de Direct Access o si hay alguna mala configuración.
 
 # Detalles
 
