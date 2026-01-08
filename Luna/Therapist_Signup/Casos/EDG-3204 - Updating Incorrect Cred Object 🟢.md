@@ -64,6 +64,9 @@ Esto funciona bien.
 
 # Soluciones 🚧
 
-## Alternativa #1
+## Alternativa #1 🟢
 
 Asegurar que en todas las secciones del CA/AF se esté bajando el ID de cada objeto.
+
+> [!Note]
+> Esto fue lo que hice. Quité el guard y ahora en cada sección siempre se buscará actualizar los custom object IDs.
