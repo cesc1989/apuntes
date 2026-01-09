@@ -214,3 +214,65 @@ Breakdown:
 | Sidekiq Queue Wait         | 14.4 minutes | Job sat in queue waiting for worker             |
 | Marketplace Sync Execution | 1.9 minutes  | Actual work (syncing to Marketplace)            |
 | Total Backend Time         | 16.3 minutes | Before Marketplace can even start form creation |
+
+
+# Mejorando las queries
+
+## Queries de workers WiltedTree
+
+Caso EDG-3217.
+
+Los workers `WiltedTreeExercisesViaWebReminderWorker` y `WiltedTreeReminderWorker` corren queries con problema de N+1.
+
+Esta es la query culpable:
+```ruby
+exercise_programs = ExerciseProgram.includes(:workouts).where(checked_out: true)
+```
+
+La query por si sola está bien porque todos los exercise programs son `checked_out = true`. El detalle es los N+1 que hay después de la query.
+
+En una prueba que hice con un script que generó Claudio veo esto:
+```
+Test 5: N+1 Query Detection - BEFORE Optimization
+--------------------------------------------------------------------------------
+Testing first 14000 exercise programs with current code pattern...
+
+Queries executed: 15442
+Expected with proper eager loading: ~3-5 queries
+
+❌ SEVERE N+1 PROBLEM: 15442 queries for 14000 exercise programs!
+   Expected: ~5-10 queries
+   Actual: 15442 queries
+   Per-record overhead: ~1.1 queries/record
+
+Sample queries:
+1. SELECT "exercise_programs".* FROM "exercise_programs" WHERE "exercise_programs"."checked_out" = $1 LI...
+2. SELECT "workouts".* FROM "workouts" WHERE "workouts"."exercise_program_id" IN ($1, $2, $3, $4, $5, $6...
+3. SELECT "episodes".* FROM "episodes" WHERE "episodes"."status" != $1 AND "episodes"."id" = $2 LIMIT $3...
+4. SELECT "episodes".* FROM "episodes" WHERE "episodes"."status" != $1 AND "episodes"."id" = $2 LIMIT $3...
+5. SELECT "episodes".* FROM "episodes" WHERE "episodes"."status" != $1 AND "episodes"."id" = $2 LIMIT $3...
+```
+
+Se están corriendo muchísimas queries extras por cada EP. Eso es facilmente arregable con eager load como se ve en la siguiente parte del script:
+```
+Test 6: N+1 Query Detection - AFTER Optimization (Preview)
+--------------------------------------------------------------------------------
+Testing with proper eager loading...
+
+Queries executed: 6
+Improvement: 15436 fewer queries (100.0% reduction)
+
+✅ Excellent: Properly optimized query
+```
+
+Para probar en local pude hacerlo con el worker `WiltedTreeExercisesViaWebReminderWorker` ya que ese envía un correo.
+
+```ruby
+WiltedTreeExercisesViaWebReminderWorker.perform_async([1])
+```
+
+Para el worker `WiltedTreeReminderWorker` no pude probar porque ese intenta enviar notificación push al celular del usuario que instala la app:
+```ruby
+PushNotification::Patient.exercise_program_reminder_wilted_tree(patient, exercise_program: ep).deliver_now
+```
+

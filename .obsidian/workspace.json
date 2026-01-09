@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e1585eb383a5861f",
+        "id": "07a9b7cd0d1db56e",
         "type": "tabs",
         "children": [
           {
-            "id": "33f2352a55c35fa1",
+            "id": "478a9c1b5a1f2fad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comandos Sidekiq"
+              "title": "[EvW]_Entidades_para_Pruebas"
+            }
+          },
+          {
+            "id": "9fd6d0f609077d32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "024 - QA Forms Demoran en Crearse 🟡"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Comandos Sidekiq"
+              "title": "Backlinks for 024 - QA Forms Demoran en Crearse 🟡"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Comandos Sidekiq"
+              "title": "Outgoing links from 024 - QA Forms Demoran en Crearse 🟡"
             }
           },
           {
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comandos Sidekiq"
+              "title": "Outline of 024 - QA Forms Demoran en Crearse 🟡"
             }
           }
         ],
@@ -166,12 +181,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33f2352a55c35fa1",
+  "active": "9fd6d0f609077d32",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
-    "Luna/Backend/Comandos Sidekiq.md",
-    "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+    "Luna/Backend/Comandos Sidekiq.md",
+    "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+    "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
