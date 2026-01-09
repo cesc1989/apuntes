@@ -179,6 +179,8 @@ Definitivamente pasa algo aquí con Sidekiq.
 - En ocasiones Sidekiq tardaba varios segundos en tomar el worker
 - Veo que la cantidad de procesos puede llegar hasta los 23 y bajar hasta los 3
 
+Ver [[Comandos Sidekiq]] para saber como debuggear en Alpha desde una consola de Rails.
+
 ## Demora en tomar los jobs
 
 Para un caso que probé en la mañana, al revisar la cola de Sidekiq para el worker `MarketplaceSyncCarePlanWorker` veía esto:
