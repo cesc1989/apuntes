@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "247da99cb906b453",
+        "id": "83d9c9ed3c111d56",
         "type": "tabs",
         "children": [
           {
-            "id": "a54afddad8c625a5",
+            "id": "48798bf2588cd8e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟡.md",
+                "file": "Luna/Backend/Comandos Sidekiq.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "EDG-3180 - Bad HS Update bc of Duplicate 🟡"
+              "title": "Comandos Sidekiq"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟡.md",
+                "file": "Luna/Backend/Comandos Sidekiq.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EDG-3180 - Bad HS Update bc of Duplicate 🟡"
+              "title": "Backlinks for Comandos Sidekiq"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟡.md",
+                "file": "Luna/Backend/Comandos Sidekiq.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from EDG-3180 - Bad HS Update bc of Duplicate 🟡"
+              "title": "Outgoing links from Comandos Sidekiq"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟡.md",
+                "file": "Luna/Backend/Comandos Sidekiq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3180 - Bad HS Update bc of Duplicate 🟡"
+              "title": "Outline of Comandos Sidekiq"
             }
           }
         ],
@@ -166,11 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a54afddad8c625a5",
+  "active": "48798bf2588cd8e6",
   "lastOpenFiles": [
-    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
-    "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
     "Luna/Backend/Comandos Sidekiq.md",
+    "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
@@ -189,7 +190,6 @@
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
     "Luna/Therapist_Signup/Casos/EDG-3204 - Updating Incorrect Cred Object 🟢.md",
     "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active 🟢.md",
-    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟡.md",
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot 🟢.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
