@@ -16,6 +16,15 @@ Nota:
 - Solo cambiar el nombre del worker.
 - El `; nil` al final es para que la salida solo sean los puts.
 
+### Ver lo que ofrece `job`
+
+Para inspeccionar a fondo el objeto `job`:
+```ruby
+Sidekiq::Queue.new.select { |job| job.klass == "WiltedTreeExercisesViaWebReminderWorker" }.each do |job|
+  puts job.inspect
+end
+```
+
 ## Estados de Colas y Procesos
 
 Con una sola línea:
