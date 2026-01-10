@@ -10,7 +10,7 @@ En este documento desgloso todo aquello que considero crucial, cosas que debo co
 
 Sin ningún orden.
 
-**Sitio web de aterrizaje**
+### Sitio web de aterrizaje 🟡
 
 Para dar información, hacer que sea encontrable, poner precios, listar características.
 
@@ -18,7 +18,7 @@ Haría falta:
 - Logo
 - Diseño de la página
 
-**Habilitar Registro de Usuarios**
+### Habilitar Registro de Usuarios 🟡
 
 Esto incluye:
 - Habilitar página de registro
@@ -27,17 +27,22 @@ Esto incluye:
 - Permitir borrado de cuenta
 - Montar sistema de captcha para combatir spammers
 
-**Revisar modelo de Organización**
+### Revisar modelo de Organización 🟢
 
 Echar un vistazo y probar que esté todo en su lugar para que cuando haya registro de usuarios, esto se dé en el marco de Organización -> Usuarios.
 
 Además que en base a esto es que podré montar todo lo referente a pagos.
 
-**Diseñar modelo de Entitlements**
+### Diseñar modelo de Entitlements ❌
+
+> [!Note]
+> Actualización 10/1/2026
+>
+> Descartado. Hay que hacer menos.
 
 Para definir y gestionar todo con respecto a acceso a características premium una vez se suscriba el usuario.
 
-**Ruído en Redes Sociales**
+### Ruído en Redes Sociales 🟡
 
 Además toca hacer una campaña de largo plazo en redes sociales. Solo programar y ponerlo en línea no hará que llegue la gente. Tengo que planear qué actividades hacer para lograr llevar ojos al sitio web y hacer que se registren y usen el servicio.
 
@@ -70,7 +75,7 @@ Creo entonces que lo más importante sería:
 > [!Note]
 > Actualización 10/1/2026
 >
-> Descarto de momento el sistema de dominio personalizado. Tengo que quitar cosas al alcance del proyecto para estar más cerca de la meta. Eso lo veré después.
+> Descartado de momento el sistema de dominio personalizado. Tengo que quitar cosas al alcance del proyecto para estar más cerca de la meta. Eso lo veré después.
 
 Creo que lo anterior lo podría llamar MVP2. Cuando eso esté listo tendría que revisar si hay registros externos y ver qué tanta interacción ha habido en los enlaces en cada posteo de RR.SS.
 
