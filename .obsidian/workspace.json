@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "83d9c9ed3c111d56",
+        "id": "c8b0c3ed808835aa",
         "type": "tabs",
         "children": [
           {
-            "id": "48798bf2588cd8e6",
+            "id": "c209af3b4a8b1156",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comandos Sidekiq"
+              "title": "RFC 001 - Dominio Raíz o Subdominio"
+            }
+          },
+          {
+            "id": "39ffff8b5bbf42e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "RFC 002 - MVP2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Comandos Sidekiq"
+              "title": "Backlinks for RFC 002 - MVP2"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Comandos Sidekiq"
+              "title": "Outgoing links from RFC 002 - MVP2"
             }
           },
           {
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comandos Sidekiq"
+              "title": "Outline of RFC 002 - MVP2"
             }
           }
         ],
@@ -166,10 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48798bf2588cd8e6",
+  "active": "39ffff8b5bbf42e7",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
+    "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
     "Luna/Backend/Comandos Sidekiq.md",
+    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Comanditos Edge.md",
@@ -194,7 +210,6 @@
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Docker_Build_para_Credentialing_Frontend.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
     "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",

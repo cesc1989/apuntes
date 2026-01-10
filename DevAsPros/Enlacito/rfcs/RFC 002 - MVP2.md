@@ -61,11 +61,16 @@ Creo entonces que lo más importante sería:
 - Empezar la campaña en Redes Sociales
 - Diseñar un sistema de analítica que se asemeje al de Bitly/Lowerhot/Dub
 	- Un sistema que permita capturar muchos detalles al abrir un enlace.
-- Diseñar el sistema de dominio personalizado
-	- Esta característica la ofrecen todas las plataformas de pago
-	- Es crucial para campañas de mercadeo
+- ~~Diseñar el sistema de dominio personalizado~~
+	- ~~Esta característica la ofrecen todas las plataformas de pago~~
+	- ~~Es crucial para campañas de mercadeo~~
 - Diseñar página web y logo
 - Habilitar registro de usuarios
+
+> [!Note]
+> Actualización 10/1/2026
+>
+> Descarto de momento el sistema de dominio personalizado. Tengo que quitar cosas al alcance del proyecto para estar más cerca de la meta. Eso lo veré después.
 
 Creo que lo anterior lo podría llamar MVP2. Cuando eso esté listo tendría que revisar si hay registros externos y ver qué tanta interacción ha habido en los enlaces en cada posteo de RR.SS.
 
