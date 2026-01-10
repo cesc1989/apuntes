@@ -249,3 +249,7 @@ server {
     }
 }
 ```
+
+# Decisión
+
+A la fecha, 10 de Enero de 2026, el proyecto está corriendo bajo la opción A. Mantendré todo bajo el dominio raíz y usaré Rails para las páginas de mercadeo y aterrizaje.
