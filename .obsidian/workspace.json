@@ -14,29 +14,14 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "RFC 001 - Dominio Raíz o Subdominio"
             }
-          },
-          {
-            "id": "39ffff8b5bbf42e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "RFC 002 - MVP2"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RFC 002 - MVP2"
+              "title": "Backlinks for RFC 001 - Dominio Raíz o Subdominio"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RFC 002 - MVP2"
+              "title": "Outgoing links from RFC 001 - Dominio Raíz o Subdominio"
             }
           },
           {
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
+                "file": "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFC 002 - MVP2"
+              "title": "Outline of RFC 001 - Dominio Raíz o Subdominio"
             }
           }
         ],
@@ -181,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39ffff8b5bbf42e7",
+  "active": "c209af3b4a8b1156",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2.md",
     "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio.md",
     "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
@@ -209,7 +195,6 @@
     "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot 🟢.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Docker_Build_para_Credentialing_Frontend.md",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
     "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",

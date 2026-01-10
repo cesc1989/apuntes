@@ -178,7 +178,7 @@ Para esto se podría montar la página en Vercel, Netlify, GitHub Pages, S3, Clo
 - **Seguridad**: Aislamiento de componentes
 - **Performance**: Servir redirects es ultra rápido con Nginx directo
 
-### Conclusiones
+### Conclusión Opción B
 
 Después de consultar con DeepSeek esta alternativa se ve mucho más trabajosa.
 
