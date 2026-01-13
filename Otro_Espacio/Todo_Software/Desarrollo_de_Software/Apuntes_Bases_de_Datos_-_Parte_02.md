@@ -181,3 +181,8 @@ sudo make install
 ```
 
 Y debería quedar.
+
+Así se activa en la consola de postgresql:
+```sql
+CREATE EXTENSION IF NOT EXISTS pg_repack;
+```
