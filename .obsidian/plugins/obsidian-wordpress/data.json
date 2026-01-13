@@ -2,24 +2,26 @@
   "lang": "auto",
   "profiles": [
     {
-      "name": "Otro Espacio",
-      "apiType": "application-passwords",
+      "name": "Otro Espacio Blog",
+      "apiType": "WpComOAuth2",
       "endpoint": "https://otroespacioblog.wordpress.com/",
       "xmlRpcPath": "/xmlrpc.php",
       "saveUsername": false,
-      "savePassword": true,
+      "savePassword": false,
       "isDefault": true,
       "lastSelectedCategories": [
-        1
+        2636
       ],
-      "encryptedPassword": {
-        "key": "{\"alg\":\"A256GCM\",\"ext\":true,\"k\":\"Ei5cHfRNxYAUAr67KeIubKOouAfjfYszaXznGJ4Xz3U\",\"key_ops\":[\"encrypt\",\"decrypt\"],\"kty\":\"oct\"}",
-        "vector": "kZJXMxZysH5fO8bK",
-        "encrypted": "6XAl+yi+SJjIivWxUi/tDm+WHdH2pTovY27EOR44LsqL914="
+      "wpComOAuth2Token": {
+        "accessToken": "vMAz(A(p#3d0X@IbTe$&Rha#*IcxhXe%iUX4As2eXBhA3KmVaA59kg*Ud&g&Ea9k",
+        "tokenType": "bearer",
+        "blogId": "19229384",
+        "blogUrl": "http://otroespacioblog.wordpress.com",
+        "scope": "posts taxonomy media sites"
       }
     }
   ],
-  "showRibbonIcon": true,
+  "showRibbonIcon": false,
   "defaultPostStatus": "publish",
   "defaultCommentStatus": "open",
   "rememberLastSelectedCategories": true,
