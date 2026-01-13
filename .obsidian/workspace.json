@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c065e8d42554f0d7",
+        "id": "54070d55ee0f9c01",
         "type": "tabs",
         "children": [
           {
-            "id": "b9f76cec3094c4ae",
+            "id": "4d91308161375f9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probando desde Obsidian"
+              "title": "Apuntes_Bases_de_Datos_-_Parte_02"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "relocation",
+                "query": "extension",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Probando desde Obsidian"
+              "title": "Outline of Apuntes_Bases_de_Datos_-_Parte_02"
             }
           }
         ],
@@ -165,8 +165,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b9f76cec3094c4ae",
+  "active": "4d91308161375f9b",
   "lastOpenFiles": [
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
     "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "Otro_Espacio/Blog/posts",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
@@ -190,11 +194,7 @@
     "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_QA_Results.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Logic_&&_Files.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Discovery.md",
-    "Luna/Backend/Help Desk/026-missing-pocs/Delay o fallo y retry de missing POCs.md",
-    "Luna/Backend/Help Desk/026 - Missing POCs 🟡.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
-    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
     "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",

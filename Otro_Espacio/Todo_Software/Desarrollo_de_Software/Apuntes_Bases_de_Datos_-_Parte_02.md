@@ -168,3 +168,16 @@ FROM episodes
 INNER JOIN appointments ON appointments.episode_id = episodes.id
 ORDER BY appointments.scheduled_date DESC;
 ```
+
+# Instalar extensión pg_repack
+
+Hay que descargar de [aquí](https://pgxn.org/dist/pg_repack/) como indica el [repo](https://github.com/reorg/pg_repack?tab=readme-ov-file).
+
+Luego se siguen los comandos que dicen [los docs](https://reorg.github.io/pg_repack/):
+```
+cd pg_repack
+make
+sudo make install
+```
+
+Y debería quedar.

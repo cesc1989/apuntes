@@ -108,9 +108,11 @@ Me ocurrió un caso como [el que describo en este](https://github.com/rails/rail
 
 La cual arreglé con:
 
-    $ RAILS_ENV=test rails db:drop
-    $ RAILS_ENV=test rails db:create
-    $ RAILS_ENV=test rails db:schema:load
+```
+RAILS_ENV=test bundle exec rails db:drop
+RAILS_ENV=test bundle exec rails db:create
+RAILS_ENV=test bundle exec rails db:schema:load
+```
 
 ## Migración para remover llave foránea creada con `references`
 
