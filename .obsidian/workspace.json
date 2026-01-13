@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6a9890c85401ab15",
+        "id": "e1e3e63619973e77",
         "type": "tabs",
         "children": [
           {
-            "id": "f52d17d7106bfad4",
+            "id": "19176d159e1560a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
+                "file": "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RFC 002 - MVP2 🟡"
+              "title": "Probando desde Obsidian"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RFC 002 - MVP2 🟡"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RFC 002 - MVP2 🟡"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
+                "file": "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFC 002 - MVP2 🟡"
+              "title": "Outline of Probando desde Obsidian"
             }
           }
         ],
@@ -163,13 +161,21 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "f52d17d7106bfad4",
+  "active": "19176d159e1560a1",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio 🟢.md",
+    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
+    "Otro_Espacio/Blog/posts",
+    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
+    "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
+    "DevAsPros/Cinco Tokens de Esfuerzo.md",
+    "DevAsPros/Enlacito/001 - Nombre.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
+    "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio 🟢.md",
     "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
@@ -189,12 +195,6 @@
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
-    "Luna/Therapist_Signup/Casos/EDG-3204 - Updating Incorrect Cred Object 🟢.md",
-    "Luna/Therapist_Signup/Casos/003 - Dos Credentialing Active 🟢.md",
-    "Luna/Therapist_Signup/Casos/005 - Initial Form Date Offset en HubSpot 🟢.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Mover_archivos_de_una_carpeta_a_otra_en_el_mismo_b.md",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
     "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",
@@ -214,7 +214,6 @@
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
     "Otro_Espacio/Coshinema/untitled folder",
-    "Otro_Espacio/Coshinema",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",

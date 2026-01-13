@@ -1,0 +1,33 @@
+{
+  "lang": "auto",
+  "profiles": [
+    {
+      "name": "Otro Espacio",
+      "apiType": "application-passwords",
+      "endpoint": "https://otroespacioblog.wordpress.com/",
+      "xmlRpcPath": "/xmlrpc.php",
+      "saveUsername": false,
+      "savePassword": true,
+      "isDefault": true,
+      "lastSelectedCategories": [
+        1
+      ],
+      "encryptedPassword": {
+        "key": "{\"alg\":\"A256GCM\",\"ext\":true,\"k\":\"Ei5cHfRNxYAUAr67KeIubKOouAfjfYszaXznGJ4Xz3U\",\"key_ops\":[\"encrypt\",\"decrypt\"],\"kty\":\"oct\"}",
+        "vector": "kZJXMxZysH5fO8bK",
+        "encrypted": "6XAl+yi+SJjIivWxUi/tDm+WHdH2pTovY27EOR44LsqL914="
+      }
+    }
+  ],
+  "showRibbonIcon": true,
+  "defaultPostStatus": "publish",
+  "defaultCommentStatus": "open",
+  "rememberLastSelectedCategories": true,
+  "showWordPressEditConfirm": false,
+  "mathJaxOutputType": "svg",
+  "commentConvertMode": "ignore",
+  "enableHtml": false,
+  "replaceMediaLinks": false,
+  "version": "2",
+  "defaultPostType": "post"
+}
