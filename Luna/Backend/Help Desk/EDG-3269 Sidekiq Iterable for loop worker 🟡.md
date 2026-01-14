@@ -69,3 +69,6 @@ Sidekiq::ScheduledSet.new.each do |job|
 end
 ```
 
+### Resultados Pruebas en Alpha 🎉
+
+La cola estaba limpia, mandé a alpha y encolé el worker. Probé crear un nuevo care plan para un paciente sin uno. En menos de un minuto se creó el Form y apareció en Luxe.
