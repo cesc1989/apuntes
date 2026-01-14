@@ -6,6 +6,9 @@ Caso EDG-3112
 
 Reporte: Ivan me contacta porque los forms en alpha demoran en salir cuando QA hace las pruebas. Demoran hasta horas en reflejarse.
 
+> [!Important]
+> La solución a este problema está en [[EDG-3269 Sidekiq Iterable for loop worker 🟡]]
+
 ## Contexto
 
 Cuando se crea un nuevo Care Plan en Luxe se envía una petición a Marketplace para que se refleje y luego se cree el correspondiente Intake Form.
