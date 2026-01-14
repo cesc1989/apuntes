@@ -35,7 +35,7 @@ Antes de probar en Alpha quiero saber cómo revisar, desde la consola, la cantid
 
 Relacionado [[Comandos Sidekiq]]
 
-### ¿Cuántos jobs de la clase están encolados?
+### ¿Cuántos jobs de la clase están Programados?
 
 Lo pude saber con este comando:
 ```ruby
@@ -45,6 +45,15 @@ Sidekiq::ScheduledSet.new.count { |job| job.klass == "RefreshTherapistStripeTerm
 Retornó 12_432.
 
 Hay que limpiarlos antes de mezclar los cambios a Alpha.
+
+### ¿Cuántos jobs de la clase están Encolados?
+
+Lo pude saber con este comando:
+```ruby
+Sidekiq::Queue.new.count { |job| job.klass == "RefreshTherapistStripeTermsOfServiceAcceptanceWorker" }
+```
+
+Retornó 137.
 
 ### Borrar jobs encolados de la clase
 

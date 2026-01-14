@@ -14,11 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/EDG-3269 Sidekiq Iterable for loop worker 🟡.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "EDG-3269 Sidekiq Iterable for loop worker 🟡"
+            }
+          },
+          {
+            "id": "d42162d3c2a93bbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Comandos Sidekiq.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Comandos Sidekiq"
             }
           }
         ]

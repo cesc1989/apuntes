@@ -37,13 +37,19 @@ Saca algo como:
 15:45:36 - Queue: 1332 | Processing: 161 | Workers: 20
 ```
 
-## Conteo de Jobs encolados de una clase
+## Conteo de Jobs Programados de una Clase
 
 ```ruby
 Sidekiq::ScheduledSet.new.count { |job| job.klass == "RefreshTherapistStripeTermsOfServiceAcceptanceWorker" }
 ```
 
-## Eliminar Jobs encolados de una clase
+## Conteo de Jobs Encolados de una Clase
+
+```ruby
+Sidekiq::Queue.new.count { |job| job.klass == "RefreshTherapistStripeTermsOfServiceAcceptanceWorker" }
+```
+
+## Eliminar Jobs encolados de una Clase
 
 ```ruby
 Sidekiq::ScheduledSet.new.each do |job|
