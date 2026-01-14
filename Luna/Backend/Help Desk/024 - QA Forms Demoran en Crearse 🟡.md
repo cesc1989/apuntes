@@ -7,7 +7,7 @@ Caso EDG-3112
 Reporte: Ivan me contacta porque los forms en alpha demoran en salir cuando QA hace las pruebas. Demoran hasta horas en reflejarse.
 
 > [!Important]
-> La solución a este problema está en [[EDG-3269 Sidekiq Iterable for loop worker 🟡]]
+> La solución a este problema está en [[EDG-3269 Sidekiq Iterable for loop worker 🟢]]
 
 ## Contexto
 
