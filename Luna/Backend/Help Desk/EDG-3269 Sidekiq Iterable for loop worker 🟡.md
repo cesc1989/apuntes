@@ -33,6 +33,8 @@ Docs:
 
 Antes de probar en Alpha quiero saber cómo revisar, desde la consola, la cantidad de workers encolados de `RefreshTherapistStripeTermsOfServiceAcceptanceWorker`.
 
+Relacionado [[Comandos Sidekiq]]
+
 ### ¿Cuántos jobs de la clase están encolados?
 
 Lo pude saber con este comando:
