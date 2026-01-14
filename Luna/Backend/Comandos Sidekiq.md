@@ -59,3 +59,8 @@ Sidekiq::ScheduledSet.new.each do |job|
 	end
 end
 ```
+
+## Obtener Jobs en Retry
+```ruby
+Sidekiq::RetrySet.new.select { |j| j.klass == "RefreshTherapistsStripeTermsOfServiceAcceptanceWorker" }
+```
