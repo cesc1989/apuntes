@@ -101,21 +101,6 @@ Los modelos pertinentes son:
 - ShadowUser
 - PortalProviderEntity
 
-# Queries
-
-Encontrando *documents*  viejos en Alpha
-```ruby
-Document.order(created_at: :asc).first
-
-Document.order("RANDOM()").first
-```
-
-DocumentTags
-
-```ruby
-DocumentTag.find_by(name: 'other')
-```
-
 
 # Archivos env locales
 
