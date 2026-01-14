@@ -4,7 +4,7 @@ Etiquetas: #luna_help_desk
 
 Comandos varios para poder revisar qué pasa con los jobs o colas en Sidekiq desde una consola de Rails.
 
-## Ver encolados de un Job en específico
+## Inspeccionar un Job en específico
 
 ```ruby
 Sidekiq::Queue.new.select { |job| job.klass == "MarketplaceSyncCarePlanWorker" }.each do |job|
@@ -35,4 +35,21 @@ stats = Sidekiq::Stats.new; puts "#{Time.now.strftime('%H:%M:%S')} - Queue: #{st
 Saca algo como:
 ```
 15:45:36 - Queue: 1332 | Processing: 161 | Workers: 20
+```
+
+## Conteo de Jobs encolados de una clase
+
+```ruby
+Sidekiq::ScheduledSet.new.count { |job| job.klass == "RefreshTherapistStripeTermsOfServiceAcceptanceWorker" }
+```
+
+## Eliminar Jobs encolados de una clase
+
+```ruby
+Sidekiq::ScheduledSet.new.each do |job|
+	if job.klass == "RefreshTherapistStripeTermsOfServiceAcceptanceWorker"
+		job.delete
+		puts "Deleted job scheduled at #{Time.at(job.at)}"
+	end
+end
 ```
