@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "26f6991efd56e9ef",
+        "id": "3a4ca8e0d2cafd36",
         "type": "tabs",
         "children": [
           {
-            "id": "cc221201728b2ca7",
+            "id": "f88d917f089e5225",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configurando_Backend_Edge_en_Mac_M1"
+              "title": "Apuntes Sidekiq In Practice"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando_Backend_Edge_en_Mac_M1"
+              "title": "Outline of Apuntes Sidekiq In Practice"
             }
           }
         ],
@@ -165,8 +165,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "cc221201728b2ca7",
+  "active": "f88d917f089e5225",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Staff_Engineering/Staff_Eng_Guides_-_Apuntes.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
+    "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
@@ -189,11 +195,6 @@
     "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Comanditos Edge.md",
-    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_5.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_4.md",
-    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
-    "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
