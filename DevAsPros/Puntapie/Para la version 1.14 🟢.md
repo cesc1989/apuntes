@@ -1,5 +1,11 @@
 # Para la versión 1.14
 
+> [!Important]
+> Cambios liberados en https://github.com/devaspros/puntapie/releases/tag/v1.14
+
+> [!Note]
+> No hice los cambios de copiar `.bundle/config` porque esa carpeta está ignorada por defecto. Tendré que buscar la forma de corregir en otra versión.
+
 ## Configurar secrets con gh CLI
 
 Hay que configurar los secrets que las actions usan en los despliegues al VPS.
