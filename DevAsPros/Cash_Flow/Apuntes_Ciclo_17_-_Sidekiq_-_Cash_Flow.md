@@ -2,6 +2,8 @@
 
 # Correr Sidekiq en servidor Ubuntu
 
+Etiquetas: #sidekiq_cron 
+
 Tenía que instalarlo y había que ejecutarlo como demonio de servicio. Encontré un tutorial donde explican y me sirvió de punto de partida.
 
 Recursos:
