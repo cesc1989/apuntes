@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "85fe53bb26d57248",
+        "id": "e1ef2c708eeb8171",
         "type": "tabs",
         "children": [
           {
-            "id": "fc4df6951f4ee80f",
+            "id": "b3d1d2cc90607100",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+                "file": "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
-            }
-          },
-          {
-            "id": "734f70ebc1db4be9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
+              "title": "Apuntes Ciclo 10 - Sidekiq Demonio"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+                "file": "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
+              "title": "Outline of Apuntes Ciclo 10 - Sidekiq Demonio"
             }
           }
         ],
@@ -180,9 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "734f70ebc1db4be9",
+  "active": "b3d1d2cc90607100",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
@@ -208,8 +195,6 @@
     "DevAsPros/Enlacito/001 - Nombre.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
-    "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio 🟢.md",
-    "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
