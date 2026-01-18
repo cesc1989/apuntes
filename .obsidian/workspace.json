@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "daec614d7af58e9c",
+        "id": "85fe53bb26d57248",
         "type": "tabs",
         "children": [
           {
-            "id": "44abb8c67a7e8727",
+            "id": "fc4df6951f4ee80f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Para la version 1.14 🟢"
+              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
+            }
+          },
+          {
+            "id": "734f70ebc1db4be9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Para la version 1.14 🟢"
+              "title": "Outline of Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow"
             }
           }
         ],
@@ -165,8 +180,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "44abb8c67a7e8727",
+  "active": "734f70ebc1db4be9",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
@@ -194,7 +210,6 @@
     "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
     "DevAsPros/Enlacito/rfcs/RFC 001 - Dominio Raíz o Subdominio 🟢.md",
     "Luna/Therapist_Signup/Casos/EDG-3180 - Bad HS Update bc of Duplicate 🟢.md",
-    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",

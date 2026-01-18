@@ -1,4 +1,4 @@
-# Apuntes Ciclo 17 - Sidekiq - Cash Flow
+# Apuntes Ciclo 17 - Sidekiq como Demonio
 
 # Correr Sidekiq en servidor Ubuntu
 
@@ -51,32 +51,36 @@ Para este caso el archivo debe ubicarse en la carpeta `~.config/systemd/user/`.
 
 Una vez el archivo copiado a la carpeta esperada, se ejecutan estos comandos para activar el servicio:
 
-    systemctl --user daemon-reload
-    systemctl --user enable sidekiq.service
+```bash
+systemctl --user daemon-reload
+systemctl --user enable sidekiq.service
+```
 
 Y con este otro se verifica el estado del mismo. Así se puede ver si está ejecutando o si hay errores de configuración o ejecución.
 
-    systemctl --user status sidekiq.service
+```bash
+systemctl --user status sidekiq.service
+```
 
 Ejemplo:
-
-    systemctl --user status sidekiq
-            > ● sidekiq.service - sidekiq
-            > Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
-            > Active: inactive (dead)
-            > Jan 31 01:06:37 localhost systemd[3611161]: /home/ubuntu/.config/systemd/user/sidekiq.service:15: Executable "bundle" not found in path>
-            > Jan 31 01:06:37 localhost systemd[3611161]: sidekiq.service: Unit configuration has fatal error, unit will not be started.
-
+```bash
+systemctl --user status sidekiq
+> ● sidekiq.service - sidekiq
+> Loaded: loaded (/home/ubuntu/.config/systemd/user/sidekiq.service; enabled; vendor preset: enabled)
+> Active: inactive (dead)
+> Jan 31 01:06:37 localhost systemd[3611161]: /home/ubuntu/.config/systemd/user/sidekiq.service:15: Executable "bundle" not found in path>
+> Jan 31 01:06:37 localhost systemd[3611161]: sidekiq.service: Unit configuration has fatal error, unit will not be started.
+```
 
 ## Comandos de uso
 
 Estos son todos los comandos disponibles:
-
-    systemctl --user stop sidekiq.service
-    systemctl --user start sidekiq.service
-    systemctl --user restart sidekiq.service
-    systemctl --user status sidekiq.service
-
+```bash
+systemctl --user stop sidekiq.service
+systemctl --user start sidekiq.service
+systemctl --user restart sidekiq.service
+systemctl --user status sidekiq.service
+```
 
 ## Variables de Entorno
 
@@ -85,13 +89,15 @@ El comando de la directiva `ExecStart` necesita las variables de entorno normale
 Hay dos formas de pasarlas.
 
 En línea
-
-    ExecStart=sh -c 'export SECRET_KEY_BASE=supermegahypersecretsecretosuperyeahmaracueya && /opt/rubies/ruby-3.1.0/bin/bundle exec sidekiq -e production'
+```bash
+ExecStart=sh -c 'export SECRET_KEY_BASE=supermegahypersecretsecretosuperyeahmaracueya && /opt/rubies/ruby-3.1.0/bin/bundle exec sidekiq -e production'
+```
 
 O mediante directivas:
-
-    EnvironmentFile=/home/ubuntu/.sidekiq_envs
-    ExecStart=/opt/rubies/ruby-3.1.0/bin/bundle exec sidekiq -e production
+```bash
+EnvironmentFile=/home/ubuntu/.sidekiq_envs
+ExecStart=/opt/rubies/ruby-3.1.0/bin/bundle exec sidekiq -e production
+```
 
 Para esto preferí la forma mediante directivas porque es más limpia.
 
@@ -136,8 +142,9 @@ Failure/Error: <%= stylesheet_link_tag 'application', media: 'all' %>
 ```
 
 El problema era que tenía en uso dos
-
-    <%= stylesheet_link_tag 'name', media: 'all' %>
+```ruby
+<%= stylesheet_link_tag 'name', media: 'all' %>
+```
 
 en el layout de login. El que venía en el partial head y el de login. Mi sospecha es que el de “login” no se pasaba por el precompilado y por eso explotaba con ese error.
 
