@@ -1,6 +1,6 @@
 # Apuntes de Sidekiq in Practice de Nate Berkopec
 
-## How Sidekiq Works, and Why
+## Capítulo 1: How Sidekiq Works, and Why
 
 Sidekiq es una cola FIFO. Primero en entrar, primero en salir:
 > “The threads in a Sidekiq server pull jobs from one or more queues and perform the work. They pull they oldest job from the queues they are assigned to process; Sidekiq is “first in, first out” (FIFO).”
