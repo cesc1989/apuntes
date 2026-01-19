@@ -40,7 +40,7 @@ export REDIS_URL="redis://localhost:6379"
 ```
 
 En `sidekiq.rb`:
-```
+```ruby
 url: ENV["REDIS_URL"],
 ```
 
@@ -51,3 +51,22 @@ REDIS_URL="redis://localhost:6379/0"
 
 > [!Note]
 > Este archivo y ENV deberán pasar a llamarse con un sufijo de la aplicación. Para poder diferenciarlas de otras envs.
+
+### Cambios en Enlacito
+
+En Enlacito apunte a la base de datos cero (1).
+
+En el `.profile` del servidor:
+```bash
+export REDIS_URL_ENLACITO="redis://localhost:6379/1"
+```
+
+En `sidekiq.rb`:
+```ruby
+url: ENV.fetch("REDIS_URL_ENLACITO", "redis://127.0.0.1:6379/1"),
+```
+
+En el archivo de ENVs para el demonio de Sidekiq en el servidor:
+```bash
+REDIS_URL_ENLACITO="redis://localhost:6379/1"
+```
