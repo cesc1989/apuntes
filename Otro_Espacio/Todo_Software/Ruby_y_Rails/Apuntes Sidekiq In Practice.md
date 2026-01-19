@@ -13,3 +13,6 @@ El encolado que implica dos comandos de Redis tarda más que la opción de un so
 
 Clave las opciones de encolado que implican un solo comando de Reds:
 > “Because Redis is single-threaded and so can only run one command at a time, fewer Redis commands means less Redis load, which means more jobs per second.”
+
+## Capítulo 2: Understanding Queueing Systems
+
