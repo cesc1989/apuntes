@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e1ef2c708eeb8171",
+        "id": "68e1cea8ea4d899e",
         "type": "tabs",
         "children": [
           {
-            "id": "b3d1d2cc90607100",
+            "id": "f2e497c0a4c5b79a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Ciclo 10 - Sidekiq Demonio"
+              "title": "Para la version 1.15"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 10 - Sidekiq Demonio"
+              "title": "Outline of Para la version 1.15"
             }
           }
         ],
@@ -165,12 +165,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b3d1d2cc90607100",
+  "active": "f2e497c0a4c5b79a",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
+    "DevAsPros/Puntapie/Para la version 1.15.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Staff_Engineering/Staff_Eng_Guides_-_Apuntes.md",
@@ -194,7 +195,6 @@
     "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟡.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
