@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c34246dcb93ebebd",
+        "id": "35f75db9cbc77acc",
         "type": "tabs",
         "children": [
           {
-            "id": "db1a14d45b49a4ff",
+            "id": "de8752430c5bd469",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 10 - Sidekiq Demonio"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ciclo 10 - Sidekiq Demonio"
             }
           }
         ],
@@ -161,8 +165,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "db1a14d45b49a4ff",
+  "active": "de8752430c5bd469",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
@@ -170,7 +175,6 @@
     "Luna/Backend/Comanditos Edge.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Staff_Engineering/Staff_Eng_Guides_-_Apuntes.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
