@@ -122,16 +122,6 @@ Failure/Error: <%= stylesheet_link_tag 'application', media: 'all' %>
 				 //= link application.css
 
 			 and restart your server
-		 # /Users/francisco/.gem/ruby/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/helper.rb:372:in `raise_unless_precompiled_asset'
-		 # /Users/francisco/.gem/ruby/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/helper.rb:338:in `digest_path'
-		 # /Users/francisco/.gem/ruby/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/helper.rb:326:in `asset_path'
-
-		 # ./spec/system/sessions/user_sign_in_spec.rb:27:in `block (3 levels) in <top (required)>'
-		 # ./spec/support/database_cleaner.rb:9:in `block (3 levels) in <top (required)>'
-		 # /Users/francisco/.gem/ruby/3.1.0/gems/database_cleaner-core-2.0.1/lib/database_cleaner/strategy.rb:30:in `cleaning'
-		 # /Users/francisco/.gem/ruby/3.1.0/gems/database_cleaner-core-2.0.1/lib/database_cleaner/cleaners.rb:34:in `block (2 levels) in cleaning'
-		 # /Users/francisco/.gem/ruby/3.1.0/gems/database_cleaner-core-2.0.1/lib/database_cleaner/cleaners.rb:35:in `cleaning'
-		 # ./spec/support/database_cleaner.rb:8:in `block (2 levels) in <top (required)>'
 		 # ------------------
 		 # --- Caused by: ---
 		 # Sprockets::Rails::Helper::AssetNotPrecompiledError:
@@ -148,11 +138,12 @@ El problema era que tenía en uso dos
 <%= stylesheet_link_tag 'name', media: 'all' %>
 ```
 
-en el layout de login. El que venía en el partial head y el de login. Mi sospecha es que el de “login” no se pasaba por el precompilado y por eso explotaba con ese error.
+Borré lo de antes. El error no tiene sentido y solo parece arreglarse o irse con el comando:
+```
+bundle exec rake tmp:clear
+```
 
-Resolví incluyendo el archivo “login.css” en “application.scss” y solo usar un stylesheet_link_tag.
-
-> Nota: esto también me tocó hacerlo en Coshi Notes.
+Así es como descubrí en el ciclo 22. Ver [[Apuntes_Ciclo_22_-_Cron_Sidekiq#Asset was not declared to be precompiled in production]]
 
 # Desfase de fechas y Date.today con TimeZone
 
