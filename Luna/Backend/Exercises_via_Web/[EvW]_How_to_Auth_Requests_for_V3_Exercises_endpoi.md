@@ -1,4 +1,5 @@
 # [EvW] How to Auth Requests for V3 Exercises endpoints
+
 To get credentials, we need an Account record and run the `create_new_auth_token` method.
 
 # Notice
@@ -11,15 +12,15 @@ So to auth requests in `v3/patient` we’d need to find an `Account.find().patie
 
 Example with a test account in alpha
 ```ruby
-  Account.find("fff93dfc-1843-4ca2-a0fe-acb66635a904").create_new_auth_token
-    
-    {
-     "access-token"=>"S2El6SgrWKQHwESIi8WWZA",
-     "token-type"=>"Bearer",
-     "client"=>"GVHrPGCwFH-XszO1TPFUkA",
-     "expiry"=>"1756623625",
-     "uid"=>"ryan+mailmereceipt2@getluna.com"
-    }
+Account.find("fff93dfc-1843-4ca2-a0fe-acb66635a904").create_new_auth_token
+
+{
+ "access-token"=>"S2El6SgrWKQHwESIi8WWZA",
+ "token-type"=>"Bearer",
+ "client"=>"GVHrPGCwFH-XszO1TPFUkA",
+ "expiry"=>"1756623625",
+ "uid"=>"ryan+mailmereceipt2@getluna.com"
+}
 ```
 
 

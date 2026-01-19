@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "EDG-3284 Happiness Survey"
             }
+          },
+          {
+            "id": "681565bf03aca2d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "precompiled",
+                "query": "token",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
+                "file": "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3284 Happiness Survey"
+              "title": "Outline of [EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi"
             }
           }
         ],
@@ -165,9 +181,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "21b9f726832295c6",
+  "active": "681565bf03aca2d2",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
@@ -194,7 +211,6 @@
     "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "Otro_Espacio/Blog/posts",
     "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
