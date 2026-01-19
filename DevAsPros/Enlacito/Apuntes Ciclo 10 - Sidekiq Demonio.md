@@ -49,7 +49,7 @@ En el archivo de ENVs para el demonio de Sidekiq en el servidor:
 REDIS_URL="redis://localhost:6379/0"
 ```
 
-> [!Note]
+> [!Warning]
 > Este archivo y ENV deberán pasar a llamarse con un sufijo de la aplicación. Para poder diferenciarlas de otras envs.
 
 ### Cambios en Enlacito
