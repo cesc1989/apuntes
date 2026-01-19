@@ -20,6 +20,18 @@ Therapist con el correo `francisco.quintero+t@ideaware.co`
 t = Account.find_by(email: "francisco.quintero+t@ideaware.co").therapist
 ```
 
+Para ver las banderas y surveys:
+```ruby
+pp t.last_happiness_survey_prompted_at
+pp t.should_prompt_for_happiness_survey?
+pp t.happiness_surveys.count
+```
+
+Para generarle un token de Auth para Bruno:
+```ruby
+t.account.create_new_auth_token
+```
+
 ## ¿Cuándo se encuesta?
 
 En backend hay dos banderas para controlar cuándo mostrar la survey al therapist.
