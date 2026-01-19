@@ -141,6 +141,12 @@ Hace lo siguiente:
 bundle exec rake therapist:create_local_for_tests
 ```
 
+## Regenerar PDF de Medicare Requirement
+
+```ruby
+Credentialing::MedicarePdfAttachmentUploader.new(Credentialing::MedicareRequirement.find(MEDICARE_REQ_ID)).upload
+```
+
 # Crea objetos que se crean en el Sign Up
 
 Son:
@@ -169,6 +175,7 @@ O versión job:
 ```ruby
 Credentialing::SetupMedicareRequirementWorker.perform_async("034dcade-119c-4683-b394-0d09f35b9015")
 ```
+
 
 # Otros Comanditos
 

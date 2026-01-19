@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "68e1cea8ea4d899e",
+        "id": "a5412111a1143ba4",
         "type": "tabs",
         "children": [
           {
-            "id": "f2e497c0a4c5b79a",
+            "id": "4e99334b63ced0b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Para la version 1.15"
+              "title": "Comanditos para Therapist Signup"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Para la version 1.15"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -165,10 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "f2e497c0a4c5b79a",
+  "active": "4e99334b63ced0b0",
   "lastOpenFiles": [
-    "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
+    "Luna/Backend/Comanditos Edge.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
+    "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
@@ -194,7 +195,6 @@
     "DevAsPros/SuperAgenda/Apuntes Ciclo 02.md",
     "DevAsPros/Cinco Tokens de Esfuerzo.md",
     "DevAsPros/Enlacito/001 - Nombre.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
