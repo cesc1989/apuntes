@@ -8,6 +8,8 @@ Other References: [[Creación_de_intake_form en Marketplace]]
 
 After a new Care Plan is created, a job to create a new intake form is triggered.
 
+## Job
+
 This can be seen in [app/marketplace/forms/listeners.py](https://github.com/lunacare/marketplace/blob/omega/app/marketplace/forms/listeners.py#L21-L32)
 
 ```python
@@ -27,12 +29,16 @@ This can be seen in [app/marketplace/forms/listeners.py](https://github.com/luna
 
 The trigger is the signal `CASE_CREATED`.
 
+### Signal
+
 Signal definition: https://github.com/lunacare/marketplace/blob/omega/app/marketplace/signals.py#L24-L25
 
 ```python
     # New care plan has been created for a patient.
     CASE_CREATED = _signal_namespace.signal("case-created")
 ```
+
+## Events
 
 Care Plan Created event definition: https://github.com/lunacare/marketplace/blob/omega/app/marketplace/es/events/internal.py#L97-L109
 
@@ -77,6 +83,8 @@ Care Plan Created event: https://github.com/lunacare/marketplace/blob/omega/app/
             return instance
 ```
 
+## Blueprint
+
 Blueprint where care plan creation starts: https://github.com/lunacare/marketplace/blob/omega/app/marketplace/es/blueprint.py#L294-L340
 
 ```python
@@ -113,6 +121,8 @@ The `upsert_care_plan` is invoked in a function in the same file: https://github
         return {}
 ```
 
+## Services
+
 And here it’s where it seems to start. Backend call to Marketplace: https://github.com/lunacare/backend/blob/omega/app/services/marketplace.rb#L553-L564
 
 ```python
@@ -134,6 +144,8 @@ And here it’s where it seems to start. Backend call to Marketplace: https://gi
 # Progress Form
 
 A new progress form after a therapist visit finishes.
+
+## Listener
 
 This can be seen in https://github.com/lunacare/marketplace/blob/omega/app/marketplace/forms/listeners.py#L35-L52
 
@@ -158,7 +170,11 @@ This can be seen in https://github.com/lunacare/marketplace/blob/omega/app/marke
         )
 ```
 
+### Signal
+
 The trigger in this case is signal `VISIT_FINISHED`.
+
+## Events
 
 The event definition https://github.com/lunacare/marketplace/blob/omega/app/marketplace/es/events/internal.py#L315-L323
 
@@ -183,4 +199,79 @@ Here is the code that triggers the event https://github.com/lunacare/marketplace
             self.appointments[i] = attr.evolve(appointment, status=AppointmentStatus.THERAPIST_STARTED)
     
         @_apply.register(events.TherapistFinishedSession)
+```
+
+## Job
+
+At `app/marketplace/forms/jobs.py` triggers the Controller:
+```python
+@log_exceptions
+def create_progress_form(aggregate_id: str, appointment_id: str) -> None:
+    with database.session_scope() as session:
+        # (...)
+
+        forms_repository = repository.Repository(session)
+        forms_controller = controller.Controller(forms_repository, patient_form)
+        forms_controller.create_progress_form(pendulum.now(), patient_result, care_plan_result, appointment_id)
+```
+
+## Controller
+
+At `app/marketplace/forms/controller.py` triggers the Service:
+```python
+@log_exceptions
+    def create_progress_form(
+        self,
+        now: pendulum.DateTime,
+        patient_result: es_repository.PatientResult,
+        care_plan_result: es_repository.CarePlanResult,
+        completed_appointment_id: AppointmentID,
+        ignore_existing_count: bool = False,
+    ) -> Optional[models.Form]:
+        """Create a progress form for a patient and care plan."""
+        intake_form = self._repository.get_patient_latest_form(care_plan_result.aggregate_id, form_type="intake")
+        if ignore_existing_count:
+            progress_form_result = self._service.create_progress_form(intake_form)
+            
+        # (...)
+
+        progress_form_result = self._service.create_progress_form(intake_form)
+        progress_status_result = self._service.get_form_status(patient_result.patient, progress_form_result.status_id)
+
+        return self._repository.create_form(
+            now,
+            care_plan_result.aggregate_id,
+            progress_form_result,
+            progress_status_result,
+            triggering_appointment_id=completed_appointment_id,
+            trigger_type=trigger_kind,
+        )
+```
+
+
+## Service
+
+At `app/marketplace/services/patient_form.py` makes request to Backend to create form there:
+```python
+@log_exceptions
+def create_progress_form(intake_form: models.Form) -> entities.FormResponse:
+    endpoint = f"{settings.FORMS.API_BASE_URI}forms/{str(intake_form.form_id)}/request_progress_forms"
+    json_data = {"forms_attributes": {"type_name": MedicalFormType.from_body_part(intake_form.care_plan_index.affected_body_part)}}
+
+    log_request_debug("create_progress_form", endpoint, json_data)
+
+    with Session() as session:
+        create_form_response = session.post(endpoint, json=json_data)
+        if not create_form_response.ok:
+            raise PatientFormsUpstreamError(f"failed to create progress form: {create_form_response.reason}")
+
+        response_json = create_form_response.json()
+
+    log_response_debug("create_progress_form", endpoint, response_json)
+
+    progress_form_schema = schemas.CreateFormResponseSchema()
+    progress_form_schema.context = {"form_type": "progress"}
+    progress_form = progress_form_schema.load(response_json)
+
+    return progress_form
 ```

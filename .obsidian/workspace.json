@@ -34,26 +34,9 @@
               "icon": "lucide-file",
               "title": "Intake_Form_and_Progress_Form_creation_flow en Marketplace"
             }
-          },
-          {
-            "id": "b5973d6277a312f9",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas/Forms.canvas",
-                "viewState": {
-                  "x": 265,
-                  "y": -1174.7131810394058,
-                  "zoom": -0.799210416252928
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Forms"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/Forms.canvas",
+                "file": "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Forms"
+              "title": "Outline of Intake_Form_and_Progress_Form_creation_flow en Marketplace"
             }
           }
         ],
@@ -197,8 +180,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b5973d6277a312f9",
+  "active": "e7e47c7b2be67e3e",
   "lastOpenFiles": [
+    "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
@@ -226,7 +210,6 @@
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
     "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
-    "Luna/Backend/Help Desk/EDG-3269 Sidekiq Iterable for loop worker 🟢.md",
     "Luna/Backend/Help Desk/attachments/same.worker.multiple.schedules.png",
     "Otro_Espacio/Blog/posts",
     "Luna/Backend/Help Desk/026-missing-pocs",
@@ -246,7 +229,6 @@
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
-    "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
