@@ -34,9 +34,26 @@
               "icon": "lucide-file",
               "title": "Intake_Form_and_Progress_Form_creation_flow en Marketplace"
             }
+          },
+          {
+            "id": "b5973d6277a312f9",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas/Forms.canvas",
+                "viewState": {
+                  "x": 265,
+                  "y": -1174.7131810394058,
+                  "zoom": -0.799210416252928
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Forms"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+                "file": "Canvas/Forms.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intake_Form_and_Progress_Form_creation_flow en Marketplace"
+              "title": "Outline of Forms"
             }
           }
         ],
@@ -180,11 +197,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "e7e47c7b2be67e3e",
+  "active": "b5973d6277a312f9",
   "lastOpenFiles": [
+    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
