@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc4e78450a05f2bc",
+        "id": "c814ac593dab707d",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c418806c0c6ada",
+            "id": "23d3c7b8060692ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "DevAsPros/Mejoras del Servidor.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configurando_Marketplace"
+              "title": "Mejoras del Servidor"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
+                "file": "DevAsPros/Mejoras del Servidor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando_Marketplace"
+              "title": "Outline of Mejoras del Servidor"
             }
           }
         ],
@@ -165,11 +165,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c5c418806c0c6ada",
+  "active": "23d3c7b8060692ce",
   "lastOpenFiles": [
+    "DevAsPros/Mejoras del Servidor.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Canvas/Ruby.canvas",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
@@ -182,7 +184,6 @@
     "Luna/Chart CoPilot",
     "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
@@ -196,7 +197,6 @@
     "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
     "Luna/Backend/Lecciones/Configurando_Backend_Edge_en_Mac_M1.md",
     "Luna/Backend/Lecciones/Apuntes Ruby on Rails - Parte 1.md",
-    "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Backend/Help Desk/attachments/same.worker.multiple.schedules.png",
     "Otro_Espacio/Blog/posts",
     "Luna/Backend/Help Desk/026-missing-pocs",
