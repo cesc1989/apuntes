@@ -1,5 +1,7 @@
 # General Flow to Create Forms
 
+Etiquetas: #patient_forms_creation
+
 In this document I'll list all places I can find where intake forms are created and read from.
 
 ## Intake Form Creation
