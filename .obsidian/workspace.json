@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e3d49d95396cf2ff",
+        "id": "dc89409a320746e3",
         "type": "tabs",
         "children": [
           {
-            "id": "21b9f726832295c6",
+            "id": "34218a06c70a5801",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "EDG-3284 Happiness Survey"
+              "title": "Pro Lanzamiento"
+            }
+          },
+          {
+            "id": "b6c297e5127fea5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "002 - Planeacion"
             }
           }
         ]
@@ -74,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3284 Happiness Survey"
+              "title": "Outline of Pro Lanzamiento"
             }
           }
         ],
@@ -166,10 +179,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "21b9f726832295c6",
+  "active": "34218a06c70a5801",
   "lastOpenFiles": [
-    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
+    "Luna/Chart CoPilot",
     "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
@@ -192,10 +209,7 @@
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
-    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "Otro_Espacio/Blog/posts",
-    "DevAsPros/SuperAgenda/Apuntes Ciclo 01.md",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
@@ -214,7 +228,6 @@
     "DevAsPros/Super_Menú/attachments/active-storage-proxy-mode.webp",
     "Otro_Espacio/Coshinema/attachments",
     "Otro_Espacio/Coshinema/attachment",
-    "Otro_Espacio/Coshinema/untitled folder",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
     "Canvas/Ruby.canvas",

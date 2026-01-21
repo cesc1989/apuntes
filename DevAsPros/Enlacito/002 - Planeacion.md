@@ -82,6 +82,10 @@ Este milestone se ejecuta en parelelo a los demás. No hay que esperar a un punt
 
 Graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo lo que se pueda compartir en internet para ir haciendo ruido.
 
+Ver:
+- [[Plan Redes Sociales Enlacito]]
+- [[Pro Lanzamiento]]
+
 ## Lanzamiento
 
 Grabar algunas demos y publicar en redes. Es una continuación del ruido generado en el hito "*Ruido*".
