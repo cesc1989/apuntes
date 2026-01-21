@@ -35,7 +35,8 @@
               "title": "Intake_Form_and_Progress_Form_creation_flow en Marketplace"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
+                "file": "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of General Flow to Create Forms"
+              "title": "Outline of Intake_Form_and_Progress_Form_creation_flow en Marketplace"
             }
           }
         ],
@@ -179,11 +180,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "2fee035c8fbdcebb",
+  "active": "e7e47c7b2be67e3e",
   "lastOpenFiles": [
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
+    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",

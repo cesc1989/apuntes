@@ -1,5 +1,7 @@
 # Creación de Intake Form en Marketplace
 
+Etiquetas: #patient_forms_creation
+
 Relacionado: [[Intake_Form_and_Progress_Form_creation_flow en Marketplace]]
 
 No me queda claro si todo se crea a partir de la tarea programada en `rq_scheduler.py`

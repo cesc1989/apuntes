@@ -1,5 +1,7 @@
 # Intake Form and Progress Form creation flow in Marketplace
 
+Etiquetas: #patient_forms_creation
+
 Other References: [[Creación_de_intake_form en Marketplace]]
 
 # Intake Form
