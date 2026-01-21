@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dc89409a320746e3",
+        "id": "95c85eab6731c69a",
         "type": "tabs",
         "children": [
           {
-            "id": "34218a06c70a5801",
+            "id": "35e75698761f3f62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pro Lanzamiento"
-            }
-          },
-          {
-            "id": "b6c297e5127fea5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "002 - Planeacion"
+              "title": "Registro de Eventos de Usuarios"
             }
           }
         ]
@@ -154,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pro Lanzamiento"
+              "title": "Outline of Registro de Eventos de Usuarios"
             }
           }
         ],
@@ -179,10 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "34218a06c70a5801",
+  "active": "35e75698761f3f62",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/002 - Planeacion.md",
+    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "Luna/Chart CoPilot",
     "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
@@ -208,7 +195,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Grimoire/Configurando PostgreSQL para Grimoire.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_on_Rails_Parte_1.md",
     "Otro_Espacio/Blog/posts",
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
