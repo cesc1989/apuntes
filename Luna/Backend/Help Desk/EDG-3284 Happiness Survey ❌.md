@@ -72,3 +72,8 @@ Este llama a la función del modelo que está antes.
 Por su parte, el controlador solo se encarga de recibir parámetros y crear un nuevo resultado. Así que el cálculo de mostrar lo hace la app móvil según lo que le devuelva la bandera.
 
 El bug podría estar por ese lado.
+
+# Soluciones
+
+> [!Note]
+> De momento esto está del lado de Mobile. El problema no parece ser en backend.

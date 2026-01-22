@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aac1832540eae45e",
+        "id": "4f67f663c106b211",
         "type": "tabs",
         "children": [
           {
-            "id": "a71aa8687a0d2d10",
+            "id": "dbfc573f8637fd68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Puma como App Server.md",
-                "mode": "preview",
+                "file": "Luna/Backend/Help Desk/EDG-3284 Happiness Survey ❌.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Puma como App Server"
+              "title": "EDG-3284 Happiness Survey ❌"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Puma como App Server.md",
+                "file": "Luna/Backend/Help Desk/EDG-3284 Happiness Survey ❌.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Puma como App Server"
+              "title": "Outline of EDG-3284 Happiness Survey ❌"
             }
           }
         ],
@@ -165,8 +165,16 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "a71aa8687a0d2d10",
+  "active": "dbfc573f8637fd68",
   "lastOpenFiles": [
+    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
+    "Luna/Marketplace/MPF/From CA to MPF.md",
+    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
+    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
+    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
+    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+    "DevAsPros/Puntapie/Para la version 1.15.md",
     "DevAsPros/Coshi_Notes/Puma como App Server.md",
     "DevAsPros/Servidor/Mejoras del Servidor.md",
     "DevAsPros/Servidor/Passenger Status.md",
@@ -175,11 +183,9 @@
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
     "DevAsPros/Servidor",
-    "Luna/Marketplace/Configurando_Marketplace.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
-    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Canvas/Ruby.canvas",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
@@ -188,19 +194,13 @@
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Chart CoPilot",
-    "Luna/Backend/Help Desk/EDG-3284 Happiness Survey.md",
+    "Luna/Backend/Help Desk/EDG-3284 Happiness Survey ❌.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Sidekiq In Practice.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Comanditos Edge.md",
-    "DevAsPros/Puntapie/Para la version 1.15.md",
-    "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Seguridad_en_Rails.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Staff_Engineering/Staff_Eng_Guides_-_Apuntes.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
-    "Luna/Backend/Lecciones/Usando Wundergraph Cosmo CLI.md",
     "Luna/Backend/Help Desk/attachments/same.worker.multiple.schedules.png",
     "Otro_Espacio/Blog/posts",
     "Luna/Backend/Help Desk/026-missing-pocs",
