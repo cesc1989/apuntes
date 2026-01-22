@@ -100,3 +100,34 @@ Mem:          944Mi       668Mi       128Mi       0.0Ki       147Mi       135Mi
 Swap:         511Mi       392Mi       119Mi
 ```
 
+## Agregar Más Swap
+
+### ¿Para qué?
+
+Swap ayuda a que el servidor no explote (OOM).
+
+Según gepeto:
+
+Con poco swap:
+- el kernel mata procesos Rails/Sidekiq
+- Passenger/Puma “mueren” sin aviso
+
+Con más swap:
+- el sistema **sobrevive**
+- los procesos no se caen
+
+### Agregando más swap
+
+Para un VPS de 1GB de RAM lo ideal es un swap del doble.
+
+```bash
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+```
+
+Hacerlo persistente incluso después de reiniciar:
+```bash
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
