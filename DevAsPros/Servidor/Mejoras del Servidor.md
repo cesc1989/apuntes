@@ -38,6 +38,11 @@ Para estas aplicaciones no se recomienda un VPS tan pequeño. En todo caso no le
 
 Ese es su valor por defecto pero lo agrego al archivo para que sea explicito para mí.
 
+Explicación de los docs:
+> The maximum number of seconds that an application process may be idle. That is, if an application process hasn't received any traffic after the given number of seconds, then it will be shutdown in order to conserve memory.
+
+
+
 ### max_pool_size de 2
 
 El valor por defecto es 6.
