@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3292 CA Completed but no Answers for MedReq.md",
-                "mode": "source",
+                "file": "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "EDG-3292 CA Completed but no Answers for MedReq"
+              "title": "EDG-3292 CA Completed sin Answers for MedReq"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3292 CA Completed but no Answers for MedReq.md",
+                "file": "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3292 CA Completed but no Answers for MedReq"
+              "title": "Outline of EDG-3292 CA Completed sin Answers for MedReq"
             }
           }
         ],
@@ -167,7 +167,7 @@
   },
   "active": "430efdc0661aa802",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/EDG-3292 CA Completed but no Answers for MedReq.md",
+    "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq.md",
     "Luna/Backend/Help Desk/EDG-3284 Happiness Survey ❌.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
