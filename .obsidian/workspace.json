@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9657a5d6af0fe1ed",
+        "id": "9090d3e63ce37cbe",
         "type": "tabs",
         "children": [
           {
-            "id": "ef7095772470c20e",
+            "id": "95612ea2b6019670",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
-                "mode": "source",
+                "file": "DevAsPros/Servidor/Passenger Status.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mejoras del Servidor"
+              "title": "Passenger Status"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
+                "file": "DevAsPros/Servidor/Passenger Status.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mejoras del Servidor"
+              "title": "Outline of Passenger Status"
             }
           }
         ],
@@ -165,10 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "ef7095772470c20e",
+  "active": "95612ea2b6019670",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
+    "DevAsPros/Servidor/Passenger Status.md",
     "DevAsPros/Servidor/Mejoras del Servidor.md",
+    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
