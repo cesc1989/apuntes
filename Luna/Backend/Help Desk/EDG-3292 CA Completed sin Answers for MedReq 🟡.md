@@ -35,3 +35,8 @@ Esta es la query para encontrar los parametros relevantes:
   |= "[CREDENTIALING_DEBUG]"
 ```
 
+# Soluciones
+
+## Frontend
+
+Esto parece ser un problema de frontend. Encontré una petición PUT cuya respuesta fue 422. Los parámetros de esa petición iban sin los esperados IDs de cada answer. Por eso no se actualizó nada y se devolvió el 422.
