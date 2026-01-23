@@ -1,6 +1,6 @@
 # 024 - Forms para QA no aparecen en el perfil del paciente en Luxe
 
-Etiquetas: #luna_help_desk 
+Etiquetas: #luna_help_desk  #sidekiq
 
 Caso EDG-3112
 

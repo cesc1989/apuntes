@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c895bfac23a92f22",
+        "id": "de8646b0c51dbfe3",
         "type": "tabs",
         "children": [
           {
-            "id": "0cabb68c37fb3e43",
+            "id": "85829cc48a15bc9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟡.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "EDG-3303 Sync Additional Licenses from AF 🟡"
+              "title": "024 - QA Forms Demoran en Crearse 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟡.md",
+                "file": "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3303 Sync Additional Licenses from AF 🟡"
+              "title": "Outline of 024 - QA Forms Demoran en Crearse 🟡"
             }
           }
         ],
@@ -165,8 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0cabb68c37fb3e43",
+  "active": "85829cc48a15bc9c",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
+    "Luna/Backend/Help Desk/EDG-3269 Sidekiq Iterable for loop worker 🟢.md",
     "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_3.md",
     "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
@@ -198,9 +200,7 @@
     "Canvas/Forms.canvas",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "Luna/Chart CoPilot",
-    "Luna/Backend/Exercises_via_Web/[EvW]_How_to_Auth_Requests_for_V3_Exercises_endpoi.md",
     "Luna/Backend/Help Desk/attachments/same.worker.multiple.schedules.png",
     "Otro_Espacio/Blog/posts",
     "Luna/Backend/Help Desk/026-missing-pocs",
