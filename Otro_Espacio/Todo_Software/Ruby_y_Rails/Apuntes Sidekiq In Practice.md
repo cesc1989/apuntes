@@ -1,5 +1,7 @@
 # Apuntes de Sidekiq in Practice de Nate Berkopec
 
+Etiquetas: #sidekiq 
+
 ## Capítulo 1: How Sidekiq Works, and Why
 
 Sidekiq es una cola FIFO. Primero en entrar, primero en salir:
