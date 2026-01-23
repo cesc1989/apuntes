@@ -1,5 +1,7 @@
 # EDG-3269 - Usa Sidekiq Iterable para worker que itera en una colección ActiveRecord
 
+Etiquetas: #sidekiq 
+
 Siguiendo con el tema de Sidekiq demorando para tomar los workers encolados descrito en [[024 - QA Forms Demoran en Crearse 🟡]].
 
 En el standup del Martes comenté lo que seguía y Jeff dijo que Daulyn estaba haciendo algo similar. Hablé con Daulyn y resulta que por aquí es que puede ser el problema.
