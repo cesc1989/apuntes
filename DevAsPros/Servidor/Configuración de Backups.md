@@ -86,3 +86,5 @@ También da error similar el script de subida del backup:
 ##### Solución
 
 Toca usar el comando rclone con la bandera `--s3-no-check-bucket` para que no dé ese error.
+
+Esto porque creé los buckets manualmente. El comando normal sin este flag como que intenta crear el bucket o verificar que existe. Sin embargo, la API Token que creé solo tiene permisos para listar objetos en el bucket.
