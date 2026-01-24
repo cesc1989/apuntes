@@ -118,6 +118,16 @@ Funciona!
 =========================================
 ```
 
+## Crons de Dbs y Logs
+
+- [x] cron db cashflow
+- [ ] cron db coshinotes
+- [ ] cron db enlacito
+- [ ] cron logs cashflow
+- [ ] cron logs coshinotes
+- [ ] cron logs enlacito
+
 ### Ejecución en cron 🟢
 
-Hoy, 24 de Enero, comprobé el cron y sí funciona. Cargó el archivo al bucket en Cloudflare.
+Hoy, 24 de Enero, comprobé el cron y sí funciona. Cargó el archivo de la db de cashflow al bucket en Cloudflare.
+
