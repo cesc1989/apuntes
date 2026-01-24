@@ -90,7 +90,7 @@ Toca usar el comando rclone con la bandera `--s3-no-check-bucket` para que no d�
 Esto porque creé los buckets manualmente. El comando normal sin este flag como que intenta crear el bucket o verificar que existe. Sin embargo, la API Token que creé solo tiene permisos para listar objetos en el bucket.
 
 
-## Ejecución del script
+## Ejecución del script 🟢
 
 Funciona!
 ```bash
