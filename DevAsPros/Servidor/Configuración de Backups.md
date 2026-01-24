@@ -88,3 +88,32 @@ También da error similar el script de subida del backup:
 Toca usar el comando rclone con la bandera `--s3-no-check-bucket` para que no dé ese error.
 
 Esto porque creé los buckets manualmente. El comando normal sin este flag como que intenta crear el bucket o verificar que existe. Sin embargo, la API Token que creé solo tiene permisos para listar objetos en el bucket.
+
+
+## Ejecución del script
+
+Funciona!
+```bash
+ bash cashflow/app/scripts/backup_db.sh 
+[INFO] 2026-01-24 01:37:24 - Iniciando backup de la base de datos...
+[INFO] 2026-01-24 01:37:24 - Base de datos encontrada: 468K
+[INFO] 2026-01-24 01:37:24 - Creando backup con SQLite...
+[INFO] 2026-01-24 01:37:24 - ✓ Backup SQLite creado: /home/ubuntu/cashflow/backups/cashflowdb_20260124_013724.db
+[INFO] 2026-01-24 01:37:24 - Comprimiendo backup...
+[INFO] 2026-01-24 01:37:24 - ✓ Backup comprimido: /home/ubuntu/cashflow/backups/cashflowdb_20260124_013724.db.gz
+[INFO] 2026-01-24 01:37:24 - Tamaño: 128K
+[INFO] 2026-01-24 01:37:24 - Subiendo a Cloudflare R2...
+[INFO] 2026-01-24 01:37:25 - ✓ Backup subido exitosamente a Cloudflare R2
+[INFO] 2026-01-24 01:37:25 - Ruta: cloudflare_r2:cashflow-backups/databases/cashflowdb_20260124_013724.db.gz
+[INFO] 2026-01-24 01:37:25 - Verificando subida...
+[INFO] 2026-01-24 01:37:26 - ✓ Verificación exitosa: archivo encontrado en R2
+[INFO] 2026-01-24 01:37:26 - Limpiando archivos temporales...
+[INFO] 2026-01-24 01:37:26 - Limpieza completada
+=========================================
+[INFO] 2026-01-24 01:37:26 - ✅ BACKUP COMPLETADO EXITOSAMENTE
+[INFO] 2026-01-24 01:37:26 - Base de datos: cashflow_production.sqlite
+[INFO] 2026-01-24 01:37:26 - Backup creado: cashflowdb_20260124_013724.db.gz
+[INFO] 2026-01-24 01:37:26 - Destino: Cloudflare R2 (cloudflare_r2:cashflow-backups/databases/)
+[INFO] 2026-01-24 01:37:26 - Fecha: Sat Jan 24 01:37:26 UTC 2026
+=========================================
+```
