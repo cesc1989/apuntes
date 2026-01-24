@@ -117,3 +117,7 @@ Funciona!
 [INFO] 2026-01-24 01:37:26 - Fecha: Sat Jan 24 01:37:26 UTC 2026
 =========================================
 ```
+
+### Ejecución en cron 🟢
+
+Hoy, 24 de Enero, comprobé el cron y sí funciona. Cargó el archivo al bucket en Cloudflare.
