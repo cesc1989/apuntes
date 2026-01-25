@@ -131,3 +131,20 @@ Hacerlo persistente incluso después de reiniciar:
 ```bash
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
+
+# Desinstalar Mega
+
+Ya que iba a usar rclone + Cloudflare R2 decidí eliminar Mega por completo. Estos son todos los comandos:
+```bash
+rm -rf ./.megaCmd
+sudo apt remove --purge megacmd
+
+sudo apt purge megacmd
+
+grep -r "mega.nz" /etc/apt/sources.list /etc/apt/sources.list.d/
+
+sudo rm /etc/apt/sources.list.d/megasync.list /etc/apt/sources.list.d/megasync.list.save
+
+
+sudo rm /usr/share/keyrings/meganz-archive-keyring.gpg
+```
