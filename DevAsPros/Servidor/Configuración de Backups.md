@@ -129,5 +129,5 @@ Funciona!
 
 ### Ejecución en cron 🟢
 
-Hoy, 24 de Enero, comprobé el cron y sí funciona. Cargó el archivo de la db de cashflow al bucket en Cloudflare.
+Hoy, 24 de Enero, comprobé el cron y sí funciona. Cargó el archivo de la db de cashflow, coshinotes y enlacito a los respectivos buckets en Cloudflare.
 
