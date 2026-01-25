@@ -1,8 +1,6 @@
 # Registrar Eventos de Usuarios para Entender el Uso
 
-Esto lo sugirió Gepeto para saber si el producto lo usan o en qué momento podrían pasar a pagar o no.
-
-Copio y pego lo que me dijo.
+Esto lo sugirió Gepeto para saber si el producto lo usan o en qué momento podrían pasar a pagar o no. Copio y pego lo que me dijo.
 
 ### Regla de oro
 

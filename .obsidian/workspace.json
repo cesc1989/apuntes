@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "340c369797649d0f",
+        "id": "105ce68bce09e271",
         "type": "tabs",
         "children": [
           {
-            "id": "cb71213757e51862",
+            "id": "5478476c62a32945",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,9 +166,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "cb71213757e51862",
+  "active": "5478476c62a32945",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Servidor/Configuración de Backups.md",
@@ -194,7 +195,6 @@
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "DevAsPros/Coshi_Notes/Puma como App Server.md",
-    "DevAsPros/Servidor/Passenger Status.md",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
