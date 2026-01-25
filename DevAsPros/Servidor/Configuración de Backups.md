@@ -121,8 +121,8 @@ Funciona!
 ## Crons de Dbs y Logs
 
 - [x] cron db cashflow
-- [ ] cron db coshinotes
-- [ ] cron db enlacito
+- [x] cron db coshinotes
+- [x] cron db enlacito
 - [ ] cron logs cashflow
 - [ ] cron logs coshinotes
 - [ ] cron logs enlacito

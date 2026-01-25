@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3b181287ab84a359",
+        "id": "9033478df7fc560f",
         "type": "tabs",
         "children": [
           {
-            "id": "151e8d90c94f4e7d",
+            "id": "38016ae0dd9b7459",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,7 +166,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "151e8d90c94f4e7d",
+  "active": "38016ae0dd9b7459",
   "lastOpenFiles": [
     "DevAsPros/Servidor/Configuración de Backups.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
