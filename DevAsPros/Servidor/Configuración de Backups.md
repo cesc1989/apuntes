@@ -123,9 +123,9 @@ Funciona!
 - [x] cron db cashflow
 - [x] cron db coshinotes
 - [x] cron db enlacito
-- [ ] cron logs cashflow
-- [ ] cron logs coshinotes
-- [ ] cron logs enlacito
+- [x] cron logs cashflow
+- [x] cron logs coshinotes
+- [x] cron logs enlacito
 
 ### Ejecución en cron 🟢
 
