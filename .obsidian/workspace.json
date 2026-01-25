@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "105ce68bce09e271",
+        "id": "27453643918602d4",
         "type": "tabs",
         "children": [
           {
-            "id": "5478476c62a32945",
+            "id": "025ad5ee03029b3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Registro de Eventos de Usuarios 🟡"
+              "title": "Para la version 1.15"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Registro de Eventos de Usuarios 🟡"
+              "title": "Outgoing links from Para la version 1.15"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Registro de Eventos de Usuarios 🟡"
+              "title": "Outline of Para la version 1.15"
             }
           }
         ],
@@ -166,19 +166,25 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "5478476c62a32945",
+  "active": "025ad5ee03029b3f",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/Definicion/MVP - Enlacito.md",
+    "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
+    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
+    "DevAsPros/Servidor/Configuración de Backups.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
+    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Servidor/Configuración de Backups.md",
     "DevAsPros/Servidor/Mejoras del Servidor.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟢.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
     "Luna/Backend/Help Desk/EDG-3269 Sidekiq Iterable for loop worker 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_3.md",
@@ -189,12 +195,6 @@
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
-    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
-    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
-    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
-    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
-    "DevAsPros/Puntapie/Para la version 1.15.md",
-    "DevAsPros/Coshi_Notes/Puma como App Server.md",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",

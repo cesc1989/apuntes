@@ -7,3 +7,20 @@ Para que tenga soporte con redis-server versión 7.x.x
 ## Actualizar gema Sidekiq a la versión 7.3.0 o mayor
 
 Para compatibilidad con versiones más recientes de la gema redis
+
+## Aplicar cambios de registrations path
+
+Los últimos cambios hechos en enlacito para completar el registro.
+
+## Montar landing básica
+
+Tomando los cambios más recientes que haya en enlacito.
+
+Consideraciones de la landing básica:
+
+- Navbar con logotipo en la izquierda y botones en la derecha
+- Hero simple
+- Tres bloques de características
+- Bloque de CTA
+- Footer con ToS, Hecho en Barranquilla y el copy + año
+
