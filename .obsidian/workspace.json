@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f49d40726343a44c",
+        "id": "340c369797649d0f",
         "type": "tabs",
         "children": [
           {
-            "id": "5f2a51d8484f24b3",
+            "id": "cb71213757e51862",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Servidor/Configuración de Backups.md",
-                "mode": "source",
+                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configuración de Backups"
+              "title": "Registro de Eventos de Usuarios 🟡"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Servidor/Configuración de Backups.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Configuración de Backups"
+              "title": "Outgoing links from Registro de Eventos de Usuarios 🟡"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Servidor/Configuración de Backups.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuración de Backups"
+              "title": "Outline of Registro de Eventos de Usuarios 🟡"
             }
           }
         ],
@@ -166,10 +166,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "5f2a51d8484f24b3",
+  "active": "cb71213757e51862",
   "lastOpenFiles": [
-    "DevAsPros/Servidor/Mejoras del Servidor.md",
+    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
+    "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Servidor/Configuración de Backups.md",
+    "DevAsPros/Servidor/Mejoras del Servidor.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
@@ -192,13 +195,10 @@
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "DevAsPros/Coshi_Notes/Puma como App Server.md",
     "DevAsPros/Servidor/Passenger Status.md",
-    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
     "DevAsPros/Servidor",
-    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios.md",
-    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
     "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
