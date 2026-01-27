@@ -32,10 +32,26 @@ Credentialing::HubspotContactService.new(therapist: therapist).create
 
 Para dos casos ya. Ambos registros creados el mismo día del reporte.
 
-## Solución
+## La Causa
+
+Archivaron el día 26 de Enero la propiedad `employer_name`. Esa se usa en la clase de HubSpot y por eso explota al no estar.
+
+## Afectados
+
+26 de Enero:
+- `ljobrien@bellsouth.net` - 🟢
+- `rtknebel@gmail.com` - 🟢
+
+27 de Enero:
+- `rkowalin@gmail.com` - 
+- `tbartamian1@gmail.com` - 
+- `bjm11233211@gmail.com` - Es el mismo de abajo
+- `brianjohnmahalaris@gmail.com` - 
+
+
+### Solución los de Enero 26 🟢
 
 Actualizar el therapist en la base de datos para que tenga su HubSpot ID.
-
 
 Therapist ljobrien:
 ```ruby
@@ -43,9 +59,29 @@ t = Credentialing::Therapist.find_by(email: "ljobrien@bellsouth.net")
 t.update_column_with_audit(:hubspot_id, 193986940447, audit_comment: "Missing hubspot_id after initial signup")
 ```
 
-
 Therapist rtknebel:
 ```ruby
 t = Credentialing::Therapist.find_by(email: "rtknebel@gmail.com")
 t.update_column_with_audit(:hubspot_id, 45258701, audit_comment: "Missing hubspot_id after initial signup")
+```
+
+### Solución los de Enero 27
+
+Therapist rkowalin:
+```ruby
+t = Credentialing::Therapist.find_by(email: "rkowalin@gmail.com")
+t.update_column_with_audit(:hubspot_id, 149866301, audit_comment: "Missing hubspot_id after initial signup")
+```
+
+Therapist tbartamian1:
+```ruby
+t = Credentialing::Therapist.find_by(email: "tbartamian1@gmail.com")
+t.update_column_with_audit(:hubspot_id, 144356774433, audit_comment: "Missing hubspot_id after initial signup")
+```
+
+
+Therapist brianjohnmahalaris:
+```ruby
+t = Credentialing::Therapist.find_by(email: "brianjohnmahalaris@gmail.com")
+t.update_column_with_audit(:hubspot_id, 78460955, audit_comment: "Missing hubspot_id after initial signup")
 ```
