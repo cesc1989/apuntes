@@ -69,19 +69,19 @@ t.update_column_with_audit(:hubspot_id, 45258701, audit_comment: "Missing hubspo
 
 Therapist rkowalin:
 ```ruby
-t = Credentialing::Therapist.find_by(email: "rkowalin@gmail.com")
-t.update_column_with_audit(:hubspot_id, 149866301, audit_comment: "Missing hubspot_id after initial signup")
+t1 = Credentialing::Therapist.find_by(email: "rkowalin@gmail.com")
+t1.update_column_with_audit(:hubspot_id, 149866301, audit_comment: "Missing hubspot_id after initial signup")
 ```
 
 Therapist tbartamian1:
 ```ruby
-t = Credentialing::Therapist.find_by(email: "tbartamian1@gmail.com")
-t.update_column_with_audit(:hubspot_id, 144356774433, audit_comment: "Missing hubspot_id after initial signup")
+t2 = Credentialing::Therapist.find_by(email: "tbartamian1@gmail.com")
+t2.update_column_with_audit(:hubspot_id, 144356774433, audit_comment: "Missing hubspot_id after initial signup")
 ```
 
 
 Therapist brianjohnmahalaris:
 ```ruby
-t = Credentialing::Therapist.find_by(email: "brianjohnmahalaris@gmail.com")
-t.update_column_with_audit(:hubspot_id, 78460955, audit_comment: "Missing hubspot_id after initial signup")
+t3 = Credentialing::Therapist.find_by(email: "brianjohnmahalaris@gmail.com")
+t3.update_column_with_audit(:hubspot_id, 78460955, audit_comment: "Missing hubspot_id after initial signup")
 ```
