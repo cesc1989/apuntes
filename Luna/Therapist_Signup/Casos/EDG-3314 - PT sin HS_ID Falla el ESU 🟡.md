@@ -36,8 +36,16 @@ Para dos casos ya. Ambos registros creados el mismo día del reporte.
 
 Actualizar el therapist en la base de datos para que tenga su HubSpot ID.
 
+
+Therapist ljobrien:
 ```ruby
 t = Credentialing::Therapist.find_by(email: "ljobrien@bellsouth.net")
 t.update_column_with_audit(:hubspot_id, 193986940447, audit_comment: "Missing hubspot_id after initial signup")
 ```
 
+
+Therapist rtknebel:
+```ruby
+t = Credentialing::Therapist.find_by(email: "rtknebel@gmail.com")
+t.update_column_with_audit(:hubspot_id, 45258701, audit_comment: "Missing hubspot_id after initial signup")
+```
