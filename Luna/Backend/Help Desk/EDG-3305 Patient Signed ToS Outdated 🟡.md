@@ -28,7 +28,7 @@ En estas páginas se ven los ToS y Privacy al día para prod:
 
 Hacer que Claudio bajé los contenidos de la API y actualicé los archivos html.erb y pdf.erb de las vistas correspondientes.
 
-### Pacientes Alpha
+### Pacientes Alpha 🟢
 
 Enero 2026
 ```
