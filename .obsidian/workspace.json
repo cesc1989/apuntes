@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟡.md",
+                "file": "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "EDG-3314 - PT sin HS_ID Falla el ESU 🟡"
-            }
-          },
-          {
-            "id": "572f37f10e91722c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "EDG-3305 Patient Signed ToS Outdated 🟡"
+              "title": "EDG-3314 - PT sin HS_ID Falla el ESU 🟢"
             }
           }
         ]
@@ -126,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟡.md",
+                "file": "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from EDG-3314 - PT sin HS_ID Falla el ESU 🟡"
+              "title": "Outgoing links from EDG-3314 - PT sin HS_ID Falla el ESU 🟢"
             }
           },
           {
@@ -155,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟡.md",
+                "file": "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3314 - PT sin HS_ID Falla el ESU 🟡"
+              "title": "Outline of EDG-3314 - PT sin HS_ID Falla el ESU 🟢"
             }
           }
         ],
@@ -183,7 +169,7 @@
   "active": "10275a17b21dc806",
   "lastOpenFiles": [
     "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
-    "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟡.md",
+    "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
     "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Comanditos Edge.md",
