@@ -43,10 +43,10 @@ Archivaron el día 26 de Enero la propiedad `employer_name`. Esa se usa en la cl
 - `rtknebel@gmail.com` - 🟢
 
 27 de Enero:
-- `rkowalin@gmail.com` - 
-- `tbartamian1@gmail.com` - 
+- `rkowalin@gmail.com` - 🟢
+- `tbartamian1@gmail.com` - 🟢
 - `bjm11233211@gmail.com` - Es el mismo de abajo
-- `brianjohnmahalaris@gmail.com` - 
+- `brianjohnmahalaris@gmail.com` - 🟢
 
 
 ### Solución los de Enero 26 🟢
@@ -65,7 +65,7 @@ t = Credentialing::Therapist.find_by(email: "rtknebel@gmail.com")
 t.update_column_with_audit(:hubspot_id, 45258701, audit_comment: "Missing hubspot_id after initial signup")
 ```
 
-### Solución los de Enero 27
+### Solución los de Enero 27 🟢
 
 Therapist rkowalin:
 ```ruby
