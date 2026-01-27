@@ -28,6 +28,32 @@ En estas páginas se ven los ToS y Privacy al día para prod:
 
 Hacer que Claudio bajé los contenidos de la API y actualicé los archivos html.erb y pdf.erb de las vistas correspondientes.
 
+### Pacientes Alpha
+
+Enero 2026
+```
+https://luxe.alpha.getluna.com/admin/patients/b96f1d87-19b2-4410-89f4-f7cf157dc4c8
+https://luxe.alpha.getluna.com/admin/patients/b8f52480-d09b-48d9-ab42-4b23a59bfd53
+https://luxe.alpha.getluna.com/admin/patients/0138c282-1ef5-4754-9236-852af3c32e49
+```
+
+Octubre 2025
+```
+https://luxe.alpha.getluna.com/admin/patients/11b2c138-7ea1-425d-8b10-5a997ca9c1c2
+https://luxe.alpha.getluna.com/admin/patients/09428e34-929a-48cf-a712-a3e8dbdbb0f1
+https://luxe.alpha.getluna.com/admin/patients/69f06f00-6768-498e-8e87-09be301a5c52
+```
+
+### Pacientes Omega
+
+Enero 2026
+```
+```
+
+Octubre 2025
+```
+```
+
 ## Para el backfill
 
 Hay que actualizar los PDFs generados para todos esos pacientes que completaron Intake Forms después de la fecha de actualización.
