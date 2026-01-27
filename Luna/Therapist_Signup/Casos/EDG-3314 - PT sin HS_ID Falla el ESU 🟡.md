@@ -23,12 +23,14 @@ Luego de eso se revisa que el therapist tenga un hubspot_id en la base de datos.
 
 Aquí es donde falla el proceso. El therapist no tiene el hubspot_id y por eso el último error que se devuelve es el del email tomado.
 
-## Posible Causa
+# Posible Causa 🚨
 
 Esto del signup normal falló porque pasa de manera sincrona.
 ```ruby
 Credentialing::HubspotContactService.new(therapist: therapist).create
 ```
+
+Para dos casos ya. Ambos registros creados el mismo día del reporte.
 
 ## Solución
 
@@ -38,3 +40,4 @@ Actualizar el therapist en la base de datos para que tenga su HubSpot ID.
 t = Credentialing::Therapist.find_by(email: "ljobrien@bellsouth.net")
 t.update_column_with_audit(:hubspot_id, 193986940447, audit_comment: "Missing hubspot_id after initial signup")
 ```
+
