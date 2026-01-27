@@ -30,20 +30,6 @@ to_pdf.format "pdf"
 to_pdf.write("storage/photo_converted.pdf")
 ```
 
-## Crear References por defecto
-
-Estas son las que se cargan en la tabla de "Professional References" en la sección "Information for Credentialing":
-```ruby
-t1 = Credentialing::Therapist.find("1def494c-b0c2-4a4e-ba9b-b0ae2be9eb7d")
-c1 = t1.credentialing_information
-references = Array.new(3) do
- Credentialing::PersonalReference.new(
-   tc_credentialing_information_id: c1.id
- )
-end
-references.each { |pr| pr.save(validate: false) }
-```
-
 ## Quema el HS ID de un contact con custom objects.
 
 Para facilitar las pruebas de Attestation Form. Encuentra un HS Contact que ya tenga las asociaciones, copia su ID y quemalo en algún registro de la BD local.
@@ -162,6 +148,20 @@ Son:
 therapist = Credentialing::Therapist.find(ID)
 
 Credentialing::SetupCredentialingInformation.new(therapist).create
+```
+
+## Crear Personal/Professional References por defecto
+
+Estas son las que se cargan en la tabla de "Professional References" en la sección "Information for Credentialing":
+```ruby
+t1 = Credentialing::Therapist.find("1def494c-b0c2-4a4e-ba9b-b0ae2be9eb7d")
+c1 = t1.credentialing_information
+references = Array.new(3) do
+ Credentialing::PersonalReference.new(
+   tc_credentialing_information_id: c1.id
+ )
+end
+references.each { |pr| pr.save(validate: false) }
 ```
 
 ## Crear medicare_requirement & answers

@@ -35,8 +35,7 @@
               "title": "EDG-3305 Patient Signed ToS Outdated 🟡"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from EDG-3305 Patient Signed ToS Outdated 🟡"
+              "title": "Outgoing links from Comanditos para Therapist Signup"
             }
           },
           {
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
+                "file": "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3305 Patient Signed ToS Outdated 🟡"
+              "title": "Outline of Comanditos para Therapist Signup"
             }
           }
         ],
@@ -181,11 +180,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "ff682f02a3a169bc",
+  "active": "5f994a9035ab7629",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
-    "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
     "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Luna/Backend/Comanditos Edge.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
