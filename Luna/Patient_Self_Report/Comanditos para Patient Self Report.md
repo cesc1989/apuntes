@@ -44,28 +44,6 @@ PatientSelfReport::InitialAggravatingActivities.new(Form.find(1603)).create
 PatientSelfReport::InitialAnswers.new(Form.find(32314)).create
 ```
 
-## Buscar UserCommunicationMethod (UCM) para probar Email Verification
-
-Estos sirven para probar Portal Recipients y que cargue la página de verificar o de verificado.
-
-```ruby
-ucm = UserCommunicationMethod.email.find("291f69bb-a3d5-4dbd-ab41-64bec1cbe56d")
-ucm.update(
-  verification_code:nil,
-  verification_code_expires_at:nil,
-  verification_sent_at:nil,
-  verification_attempts: 0,
-  verification_status: :unverified
-)
-ucm.update(verification_status: :verified)
-```
-
-## Programa worker que envía email de Verificación a un UCM
-
-```ruby
-UserCommunicationMethods::EmailVerificationReminderWorker.perform_in(500, "291f69bb-a3d5-4dbd-ab41-64bec1cbe56d")
-```
-
 ## Variados para encontrar Pacientes del subdominio Patient Self Report
 
 ```ruby
