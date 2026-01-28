@@ -148,3 +148,11 @@ sudo rm /etc/apt/sources.list.d/megasync.list /etc/apt/sources.list.d/megasync.l
 
 sudo rm /usr/share/keyrings/meganz-archive-keyring.gpg
 ```
+
+## Mejoras de Consumo Post Desinstalación
+
+Después de desinstalar Mega, al revisar htop, me doy cuenta que el consumo de RAM no llega más al tope.
+
+¿Podría estar esto ligado? ¿Ayuda que haya incrementado el swap?
+
+![[002.htop.post.mega.remove.png]]

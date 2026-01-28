@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6e81a7b1326de3de",
+        "id": "69736d35d8c4de36",
         "type": "tabs",
         "children": [
           {
-            "id": "3f57ffe0ba224e28",
+            "id": "9dd01064fbe9509e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
-                "mode": "source",
+                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Para la version 1.15"
+              "title": "Mejoras del Servidor"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
+                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Para la version 1.15"
+              "title": "Outgoing links from Mejoras del Servidor"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
+                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Para la version 1.15"
+              "title": "Outline of Mejoras del Servidor"
             }
           }
         ],
@@ -166,14 +166,18 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "3f57ffe0ba224e28",
+  "active": "9dd01064fbe9509e",
   "lastOpenFiles": [
+    "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
+    "DevAsPros/Servidor/Mejoras del Servidor.md",
+    "DevAsPros/Servidor/Passenger Status.md",
+    "DevAsPros/Servidor/Configuración de Backups.md",
+    "DevAsPros/Puntapie/Para la version 1.15.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
     "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
     "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Luna/Backend/Comanditos Edge.md",
-    "DevAsPros/Puntapie/Para la version 1.15.md",
     "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Definicion/MVP - Enlacito.md",
     "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
@@ -181,20 +185,16 @@
     "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
     "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
-    "DevAsPros/Servidor/Configuración de Backups.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Servidor/Mejoras del Servidor.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟢.md",
     "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
     "Luna/Backend/Help Desk/EDG-3269 Sidekiq Iterable for loop worker 🟢.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Ruby_Parte_3.md",
-    "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
@@ -216,7 +216,6 @@
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Luna/Backend/Plans of Care/Fax and Violation Rules",
-    "Luna/Backend/Help Desk/attachments/patient.waitlist.status.png",
     "Canvas/GraphQL.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
