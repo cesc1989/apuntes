@@ -12,6 +12,8 @@ Para compatibilidad con versiones más recientes de la gema redis
 
 Los últimos cambios hechos en enlacito para completar el registro.
 
+Este pull request: https://github.com/cesc1989/enlacito/pull/14
+
 ## Montar landing básica
 
 Tomando los cambios más recientes que haya en enlacito.
