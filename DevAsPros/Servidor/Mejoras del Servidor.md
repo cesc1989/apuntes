@@ -158,3 +158,12 @@ Después de desinstalar Mega, al revisar htop, me doy cuenta que el consumo de R
 ![[002.htop.post.mega.remove.png]]
 
 Fue haber quitado mega-cmd. Esta programa tenía un servicio activo corriendo. Eso le restaba RAM al servidor.
+
+La mejor evidencia es ver la salida de `free -h` arriba [[Mejoras del Servidor#Prueba de `free -h`]] y comparar con esta salida de hoy, 28 de Enero:
+```
+              total        used        free      shared  buff/cache   available
+Mem:          944Mi       564Mi       144Mi       0.0Ki       235Mi       239Mi
+Swap:         2.5Gi       891Mi       1.6Gi
+```
+
+Hay más RAM disponible.
