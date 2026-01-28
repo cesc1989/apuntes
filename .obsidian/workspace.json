@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9dc2286f3696f3ae",
+        "id": "1fd07daa36fa61ce",
         "type": "tabs",
         "children": [
           {
-            "id": "0942cd42514dc456",
+            "id": "3c9eeee844e63d83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nuevo Enfoque para el Blog 💡"
             }
           }
         ]
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Nuevo Enfoque para el Blog 💡"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Nuevo Enfoque para el Blog 💡"
             }
           }
         ],
@@ -160,8 +166,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "3c9eeee844e63d83",
   "lastOpenFiles": [
+    "Luna/Backend/Notas sobre Logical Replication.md",
+    "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
+    "Luna/Backend/Image Magick and Alpine.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "DevAsPros/Proyectos-Archivados/SuperAgenda/Apuntes Ciclo 02.md",
     "DevAsPros/Proyectos-Archivados/SuperAgenda/Apuntes Ciclo 01.md",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
@@ -185,11 +195,7 @@
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
-    "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟢.md",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
