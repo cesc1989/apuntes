@@ -53,3 +53,5 @@ select count(f.id)
 from forms f
 where f.exclude_medical_information is true;
 ```
+
+**O sea que esto no está en uso. Nunca se ha usado.**

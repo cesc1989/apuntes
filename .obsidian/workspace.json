@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "1fd07daa36fa61ce",
+        "id": "ea10e7165d621380",
         "type": "tabs",
         "children": [
           {
-            "id": "3c9eeee844e63d83",
+            "id": "12dbd9185603bcac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
+                "file": "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Nuevo Enfoque para el Blog 💡"
+              "title": "EDG-3305 Patient Signed ToS Outdated 🟡"
+            }
+          },
+          {
+            "id": "e82429a7307236bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "EDG-3279 Multiple Intake Forms para Care Plan 🟡"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
+                "file": "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Nuevo Enfoque para el Blog 💡"
+              "title": "Outgoing links from EDG-3279 Multiple Intake Forms para Care Plan 🟡"
             }
           },
           {
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
+                "file": "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nuevo Enfoque para el Blog 💡"
+              "title": "Outline of EDG-3279 Multiple Intake Forms para Care Plan 🟡"
             }
           }
         ],
@@ -166,8 +181,20 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "3c9eeee844e63d83",
+  "active": "e82429a7307236bc",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Instalando y Desintalando AWS CLI.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
+    "Otro_Espacio/Coshinema/YTtoPlex.md",
+    "Otro_Espacio/Coshinema/NAS o DAS.md",
+    "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
+    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
     "Luna/Backend/Image Magick and Alpine.md",
@@ -181,20 +208,8 @@
     "DevAsPros/Servidor/Configuración de Backups.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
     "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
     "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
-    "Luna/Backend/Comanditos Edge.md",
-    "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
-    "DevAsPros/Enlacito/Definicion/MVP - Enlacito.md",
-    "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 08 - Organization.md",
-    "DevAsPros/Enlacito/Apuntes Ciclo 05 - Enlacito.md",
-    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
-    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
-    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
