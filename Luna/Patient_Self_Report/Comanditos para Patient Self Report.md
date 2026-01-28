@@ -94,4 +94,8 @@ having count(1) > 2;
 
 # Otros Comanditos
 
-El de Therapist Signup -> [[Comanditos para Therapist Signup]]
+El de Therapist Signup [[Comanditos para Therapist Signup]]
+
+El de Edge [[Comanditos Edge]]
+
+De Sidekiq [[Comandos Sidekiq]]

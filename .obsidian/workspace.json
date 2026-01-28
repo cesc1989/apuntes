@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
-                "mode": "preview",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "EDG-3279 Multiple Intake Forms para Care Plan 🟡"
+              "title": "Comanditos para Patient Self Report"
             }
           }
         ],
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from EDG-3279 Multiple Intake Forms para Care Plan 🟡"
+              "title": "Outgoing links from Comanditos para Patient Self Report"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3279 Multiple Intake Forms para Care Plan 🟡"
+              "title": "Outline of Comanditos para Patient Self Report"
             }
           }
         ],
@@ -183,6 +183,7 @@
   },
   "active": "e82429a7307236bc",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
     "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Terraform.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Migración_WordPress_de_Hosting_a_AWS.md",
@@ -209,7 +210,6 @@
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
-    "Luna/Therapist_Signup/Extended Sign Up/Extended Sign Up.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
