@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Comanditos Edge.md",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Comanditos Edge"
+              "title": "Outgoing links from Comanditos para Patient Self Report"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Comanditos Edge.md",
+                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos Edge"
+              "title": "Outline of Comanditos para Patient Self Report"
             }
           }
         ],
@@ -195,10 +195,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "82f09044b98fdad3",
+  "active": "e82429a7307236bc",
   "lastOpenFiles": [
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Comanditos Edge.md",
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
