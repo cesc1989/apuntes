@@ -1,9 +1,10 @@
 {
 	"nodes":[
-		{"id":"ac17c2f610e66b9b","x":-820,"y":-40,"width":440,"height":520,"type":"file","file":"Luna/Patient_Self_Report/Comanditos para Patient Self Report.md"},
-		{"id":"6f788e3fce6be809","x":-280,"y":-40,"width":440,"height":520,"type":"file","file":"Luna/Therapist_Signup/Comanditos para Therapist Signup.md"},
-		{"id":"de8919696d3eebdc","x":260,"y":-40,"width":440,"height":520,"type":"file","file":"Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md"},
-		{"id":"29df27b50ecdb1a9","x":-280,"y":-620,"width":440,"height":480,"type":"file","file":"Luna/Backend/Comanditos Edge.md"}
+		{"id":"ac17c2f610e66b9b","type":"file","file":"Luna/Patient_Self_Report/Comanditos para Patient Self Report.md","x":-820,"y":-40,"width":440,"height":520},
+		{"id":"6f788e3fce6be809","type":"file","file":"Luna/Therapist_Signup/Comanditos para Therapist Signup.md","x":-280,"y":-40,"width":440,"height":520},
+		{"id":"de8919696d3eebdc","type":"file","file":"Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md","x":260,"y":-40,"width":440,"height":520},
+		{"id":"29df27b50ecdb1a9","type":"file","file":"Luna/Backend/Comanditos Edge.md","x":-280,"y":-620,"width":440,"height":480},
+		{"id":"863bb871c546328d","x":-820,"y":-620,"width":440,"height":480,"type":"file","file":"Luna/Backend/Comandos Sidekiq.md"}
 	],
 	"edges":[]
 }

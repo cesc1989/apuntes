@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "EDG-3305 Patient Signed ToS Outdated 🟡"
             }
-          },
-          {
-            "id": "e82429a7307236bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comanditos para Patient Self Report"
-            }
-          },
-          {
-            "id": "82f09044b98fdad3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Comanditos Edge.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Comanditos Edge"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sidekiq",
+                "query": "tag:#comanditos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Comanditos para Patient Self Report"
+              "title": "Outgoing links from EDG-3305 Patient Signed ToS Outdated 🟡"
             }
           },
           {
@@ -170,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+                "file": "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos para Patient Self Report"
+              "title": "Outline of EDG-3305 Patient Signed ToS Outdated 🟡"
             }
           }
         ],
@@ -195,10 +166,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "e82429a7307236bc",
+  "active": "12dbd9185603bcac",
   "lastOpenFiles": [
-    "Luna/Backend/Comanditos Edge.md",
+    "Canvas/Comanditos.canvas",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Backend/Comanditos Edge.md",
     "Luna/Backend/Comandos Sidekiq.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟡.md",
@@ -223,7 +195,6 @@
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "DevAsPros/Servidor/Mejoras del Servidor.md",
     "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
-    "DevAsPros/Servidor/Passenger Status.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
@@ -241,7 +212,6 @@
     "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",
     "Luna/Backend/Waitlist Availability",
     "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
-    "Canvas/Comanditos.canvas",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
