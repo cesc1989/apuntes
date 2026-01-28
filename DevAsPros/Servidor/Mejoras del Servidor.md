@@ -156,3 +156,5 @@ Después de desinstalar Mega, al revisar htop, me doy cuenta que el consumo de R
 ¿Podría estar esto ligado? ¿Ayuda que haya incrementado el swap?
 
 ![[002.htop.post.mega.remove.png]]
+
+Fue haber quitado mega-cmd. Esta programa tenía un servicio activo corriendo. Eso le restaba RAM al servidor.
