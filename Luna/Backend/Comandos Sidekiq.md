@@ -1,6 +1,6 @@
 # Comandos para Revisar Colas en Sidekiq
 
-Etiquetas: #luna_help_desk 
+Etiquetas: #luna_help_desk  #comanditos 
 
 Comandos varios para poder revisar qué pasa con los jobs o colas en Sidekiq desde una consola de Rails.
 
