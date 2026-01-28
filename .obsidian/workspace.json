@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "69736d35d8c4de36",
+        "id": "9dc2286f3696f3ae",
         "type": "tabs",
         "children": [
           {
-            "id": "9dd01064fbe9509e",
+            "id": "0942cd42514dc456",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Mejoras del Servidor"
+              "title": "New tab"
             }
           }
         ]
@@ -112,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Mejoras del Servidor"
+              "title": "Outgoing links"
             }
           },
           {
@@ -141,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mejoras del Servidor"
+              "title": "Outline"
             }
           }
         ],
@@ -166,10 +160,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "9dd01064fbe9509e",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
+    "DevAsPros/Proyectos-Archivados/SuperAgenda/Apuntes Ciclo 02.md",
+    "DevAsPros/Proyectos-Archivados/SuperAgenda/Apuntes Ciclo 01.md",
+    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "DevAsPros/Servidor/Mejoras del Servidor.md",
+    "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
     "DevAsPros/Servidor/Passenger Status.md",
     "DevAsPros/Servidor/Configuración de Backups.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
@@ -193,8 +190,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟢.md",
-    "Luna/Backend/Help Desk/024 - QA Forms Demoran en Crearse 🟡.md",
-    "Luna/Backend/Help Desk/EDG-3269 Sidekiq Iterable for loop worker 🟢.md",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
     "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
