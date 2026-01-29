@@ -44,7 +44,7 @@ En la función `create_intake_form_existing_patient` es donde se hace la petici�
 
 La solución está por agregar una validación en el endpoint del 2do Intake Form para prevenir que se cree si ya existe uno para el `care_plan_id`.
 
-## Sobre el campo `exclude_medical_information`
+## Sobre el campo `exclude_medical_information` ℹ️
 
 Creí que habría problema por esto pero corrí una query para ver cuántos Intake Forms tienen este campo en true y resulta que no hay uno solo.
 
@@ -55,3 +55,45 @@ where f.exclude_medical_information is true;
 ```
 
 **O sea que esto no está en uso. Nunca se ha usado.**
+
+## Eliminar Intake Forms duplicados 🟢
+
+Forms duplicados son:
+```
+Axel Rappe
+652018 - borrable
+
+Shawn Percy
+651478 - borrable
+
+Lynda
+638158 - borrable
+
+Nancy
+651944 - Borrable
+
+Elaine
+650191 - borrable
+```
+
+Script para chequear:
+```ruby
+ids = [652018, 651478, 638158, 651944, 650191]
+forms = PatientSelfReport::Form.where(id: ids)
+forms.each do |f|
+  ap "Form ID: #{f.id}"
+  ap ""
+  ap "Inspect de Answers"
+  ap f.answers.pluck(:id, :content, :value)
+  ap ""
+  ap "Inspect de Aggr. Activities"
+  ap f.aggravating_activities.pluck(:id, :name, :ability)
+  ap ""
+end
+```
+
+Prod-op:
+```ruby
+ids = [652018, 651478, 638158, 651944, 650191]
+forms = PatientSelfReport::Form.where(id: ids).destroy_all
+```
