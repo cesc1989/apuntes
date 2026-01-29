@@ -11,10 +11,14 @@
             "id": "f065f565f9bfb272",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "NAS o DAS"
             }
           }
         ]
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from NAS o DAS"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Coshinema/NAS o DAS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of NAS o DAS"
             }
           }
         ],

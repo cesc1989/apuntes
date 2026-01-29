@@ -1,5 +1,8 @@
 # NAS o DAS para Coshinema
 
+> [!Info]
+> Elegí un DAS por simplicidad.
+
 ¿Qué es lo siguiente que necesito para Coshinema, una NAS o un DAS?
 
 ## Motivación
@@ -71,4 +74,3 @@ Con mergerfs creo un solo volumen para simplificar el manejo. Cada disco se mant
 
 - Hilo en r/plex donde descubrí acerca de los DAS -> https://www.reddit.com/r/PleX/comments/1o8p181/will_any_cheap_nas_do/
 - Hilo en r/datahoarder sobre la fiabilidad de SnapRAID. Tiene buenos comentarios -> https://www.reddit.com/r/DataHoarder/comments/8l5s1g/whats_the_snapraid_consensus_noob_discussion/
-- 
