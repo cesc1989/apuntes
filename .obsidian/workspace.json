@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e41e5dbcc12a0748",
+        "id": "deda711c725af33c",
         "type": "tabs",
         "children": [
           {
-            "id": "14e9fb9aa8689044",
+            "id": "9b98fcc6234e485f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           }
         ]
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           }
         ],
@@ -160,10 +166,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "9b98fcc6234e485f",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/attachments/gasto.explore.png",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_21_-_Correos.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_19_-_Pruebas.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Cilo_28_-_Flujos.md",
@@ -185,11 +198,6 @@
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
     "Otro_Espacio/Coshinema/YTtoPlex.md",
-    "Otro_Espacio/Coshinema/NAS o DAS.md",
-    "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
-    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
-    "Luna/Backend/Notas sobre Logical Replication.md",
-    "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
     "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
@@ -207,10 +215,8 @@
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
     "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",
     "Luna/Backend/Waitlist Availability",
-    "Luna/Backend/Help Desk/attachments/13.debug.cause.png",
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
-    "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
     "Canvas/GraphQL.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
