@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ef6139a27a24aa43",
+        "id": "e41e5dbcc12a0748",
         "type": "tabs",
         "children": [
           {
-            "id": "9f9dfb7c9294559e",
+            "id": "14e9fb9aa8689044",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "EDG-3292 CA Completed sin Answers for MedReq 🟢"
+              "title": "New tab"
             }
           }
         ]
@@ -112,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from EDG-3292 CA Completed sin Answers for MedReq 🟢"
+              "title": "Outgoing links"
             }
           },
           {
@@ -141,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EDG-3292 CA Completed sin Answers for MedReq 🟢"
+              "title": "Outline"
             }
           }
         ],
@@ -166,8 +160,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "9f9dfb7c9294559e",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/attachments/gasto.explore.png",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_19_-_Pruebas.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Cilo_28_-_Flujos.md",
+    "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
     "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟢.md",
@@ -190,11 +190,6 @@
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Backend/Notas sobre Logical Replication.md",
     "Luna/Backend/Notas de RFC para Estandarizar los Logs en Luna.md",
-    "Luna/Backend/Image Magick and Alpine.md",
-    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
-    "DevAsPros/Proyectos-Archivados/SuperAgenda/Apuntes Ciclo 02.md",
-    "DevAsPros/Proyectos-Archivados/SuperAgenda/Apuntes Ciclo 01.md",
-    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
@@ -216,7 +211,6 @@
     "Luna/Backend/Help Desk/020-therapist-dups",
     "Luna/Backend/ERDs Notes",
     "Luna/Backend/Athena Exports Notes/attachments/sdabackfill.check.png",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules",
     "Canvas/GraphQL.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
