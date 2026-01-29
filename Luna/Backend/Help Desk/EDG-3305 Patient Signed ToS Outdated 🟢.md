@@ -44,7 +44,7 @@ https://luxe.alpha.getluna.com/admin/patients/09428e34-929a-48cf-a712-a3e8dbdbb0
 https://luxe.alpha.getluna.com/admin/patients/69f06f00-6768-498e-8e87-09be301a5c52
 ```
 
-### Pacientes Omega
+### Pacientes Omega 🟢
 
 Enero 2026
 ```
