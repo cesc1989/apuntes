@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "899dbfefb917436d",
+        "id": "af89892deecb0be6",
         "type": "tabs",
         "children": [
           {
-            "id": "3d17dcb1af480f55",
+            "id": "c95f43dfc3aedaa2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "NAS o DAS 🟢"
+              "title": "New tab"
             }
           }
         ]
@@ -112,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from NAS o DAS 🟢"
+              "title": "Outgoing links"
             }
           },
           {
@@ -141,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NAS o DAS 🟢"
+              "title": "Outline"
             }
           }
         ],
@@ -166,8 +160,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "3d17dcb1af480f55",
+  "active": "c95f43dfc3aedaa2",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
+    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
+    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
     "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
@@ -195,10 +192,7 @@
     "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟢.md",
-    "Luna/Therapist_Signup/Casos/EDG-3314 - PT sin HS_ID Falla el ESU 🟢.md",
-    "Luna/Backend/Help Desk/EDG-3305 Patient Signed ToS Outdated 🟢.md",
     "Canvas/Comanditos.canvas",
-    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
     "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
