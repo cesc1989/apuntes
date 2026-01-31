@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2b3e87f62c1b48fe",
+        "id": "5bd818217f76d291",
         "type": "tabs",
         "children": [
           {
-            "id": "72b79809f515678f",
+            "id": "68a65a10d42a24c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
-                "mode": "preview",
+                "file": "DevAsPros/Servidor/Hardening de VPS.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mejoras del Servidor"
+              "title": "Hardening de VPS"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5
+    "width": 423.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Mejoras del Servidor"
+              "title": "Outgoing links from Hardening de VPS"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mejoras del Servidor"
+              "title": "Outline of Hardening de VPS"
             }
           }
         ],
@@ -166,10 +166,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "72b79809f515678f",
+  "active": "68a65a10d42a24c9",
   "lastOpenFiles": [
-    "DevAsPros/Servidor/Passenger Status.md",
+    "DevAsPros/Servidor/Hardening de VPS.md",
     "DevAsPros/Servidor/Mejoras del Servidor.md",
+    "DevAsPros/Servidor/Passenger Status.md",
     "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
@@ -193,7 +194,6 @@
     "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
     "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
     "DevAsPros/Coshi_Notes/rfcs/003_Comentario Como Tarea.md",
-    "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
