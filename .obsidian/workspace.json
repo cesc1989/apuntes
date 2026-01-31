@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "89c63846c3aa8e51",
+        "id": "2b3e87f62c1b48fe",
         "type": "tabs",
         "children": [
           {
-            "id": "72cd11d59ec82c74",
+            "id": "47bd4ff2261861e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
+                "file": "DevAsPros/Servidor/Passenger Status.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "YTtoPlex 🟡"
+              "title": "Passenger Status"
+            }
+          },
+          {
+            "id": "72b79809f515678f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mejoras del Servidor"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
+                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from YTtoPlex 🟡"
+              "title": "Outgoing links from Mejoras del Servidor"
             }
           },
           {
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
+                "file": "DevAsPros/Servidor/Mejoras del Servidor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of YTtoPlex 🟡"
+              "title": "Outline of Mejoras del Servidor"
             }
           }
         ],
@@ -166,8 +181,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "72cd11d59ec82c74",
+  "active": "72b79809f515678f",
   "lastOpenFiles": [
+    "DevAsPros/Servidor/Passenger Status.md",
+    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
+    "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
@@ -175,7 +196,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
     "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
@@ -189,12 +209,7 @@
     "DevAsPros/Coshi_Notes/rfcs/003_Comentario Como Tarea.md",
     "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md",
     "DevAsPros/Coshi_Notes/rfcs/001_Comentarios como Favoritos.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 05 - Enlacito.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 08 - Organization.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos",
