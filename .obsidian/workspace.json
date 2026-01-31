@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dfc6f4cda6282cb5",
+        "id": "89c63846c3aa8e51",
         "type": "tabs",
         "children": [
           {
-            "id": "ae86fcb2504b5e5c",
+            "id": "72cd11d59ec82c74",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "YTtoPlex 🟡"
             }
           }
         ]
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from YTtoPlex 🟡"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of YTtoPlex 🟡"
             }
           }
         ],
@@ -160,8 +166,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "72cd11d59ec82c74",
   "lastOpenFiles": [
+    "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
+    "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
+    "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
@@ -186,9 +195,6 @@
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 08 - Organization.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_21_-_Correos.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_19_-_Pruebas.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos",
