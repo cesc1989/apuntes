@@ -80,3 +80,50 @@ Finaliza reiniciando el servicio `ssh`:
 sudo systemctl restart sshd
 ```
 
+## Configura firewall con ufw
+
+Sencillo:
+```
+ufw default deny incoming
+ufw default allow outgoing
+
+ufw allow ssh
+ufw allow http
+ufw allow https
+```
+
+Activa con:
+```bash
+ufw --force enable
+```
+
+Revisa con:
+```bash
+ufw status verbose
+```
+
+## Configura fail2ban
+
+Instala
+```bash
+sudo apt install fail2ban
+```
+
+Configura para que quede así:
+```bash
+sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local
+
+[sshd]
+enabled = true
+port = ssh
+maxretry = 3
+bantime = 3600
+findtime = 600
+```
+
+Reinicia y activa:
+```bash
+sudo systemctl restart fail2ban
+sudo systemctl enable fail2ban
+```
