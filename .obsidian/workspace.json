@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47bd4ff2261861e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Servidor/Passenger Status.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Passenger Status"
-            }
-          },
-          {
             "id": "72b79809f515678f",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Mejoras del Servidor"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,6 +169,7 @@
   "active": "72b79809f515678f",
   "lastOpenFiles": [
     "DevAsPros/Servidor/Passenger Status.md",
+    "DevAsPros/Servidor/Mejoras del Servidor.md",
     "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
@@ -208,7 +194,6 @@
     "DevAsPros/Coshi_Notes/rfcs/004_estadísticas_fase_01.md",
     "DevAsPros/Coshi_Notes/rfcs/003_Comentario Como Tarea.md",
     "DevAsPros/Coshi_Notes/rfcs/002_Busqueda Mejorada.md",
-    "DevAsPros/Coshi_Notes/rfcs/001_Comentarios como Favoritos.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",

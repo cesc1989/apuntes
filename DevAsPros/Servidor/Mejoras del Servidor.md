@@ -41,9 +41,10 @@ Ese es su valor por defecto pero lo agrego al archivo para que sea explicito par
 Explicación de los docs:
 > The maximum number of seconds that an application process may be idle. That is, if an application process hasn't received any traffic after the given number of seconds, then it will be shutdown in order to conserve memory.
 
+### max_pool_size de 2 ❌
 
-
-### max_pool_size de 2
+> [!Warn]
+> Esta configuración no sirvió por que CoshiNotes necesita varios procesos.
 
 El valor por defecto es 6.
 
@@ -66,7 +67,10 @@ En palabras de Claudio:
 >
 > Con 3 procesos = 450-600MB → estás al límite
 
-### max_pool_size de 5
+### max_pool_size de 5 ❌
+
+> [!Warn]
+> Esta configuración no sirvió por que CoshiNotes necesita varios procesos.
 
 Lo cambio a 5 para que CoshiNotes funcione como corresponde.
 
@@ -101,6 +105,31 @@ free -h
 Mem:          944Mi       668Mi       128Mi       0.0Ki       147Mi       135Mi
 Swap:         511Mi       392Mi       119Mi
 ```
+
+### max_pool_size de 6 y lo demás como estaba 🟢
+
+Al final, para poder usar CoshiNotes con tranquilidad (abrir dos pestañas en escritorio y una en el móvil) me tocó dejar la configuración así:
+```bash
+cat /etc/nginx/conf.d/mod-http-passenger.conf
+### Begin automatically installed Phusion Passenger config snippet ###
+passenger_root /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini;
+passenger_ruby /usr/bin/passenger_free_ruby;
+
+passenger_instance_registry_dir /var/run/passenger-instreg;
+
+### End automatically installed Phusion Passenger config snippet ###
+
+passenger_max_pool_size 6;
+
+# Mantener 2 procesos siempre listos
+# passenger_min_instances 2;
+
+passenger_pool_idle_time 300;
+
+# Reciclar procesos para liberar memoria
+passenger_max_requests 500;
+```
+
 
 ## Agregar Más Swap
 
