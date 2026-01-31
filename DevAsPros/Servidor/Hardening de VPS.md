@@ -57,6 +57,9 @@ END
 
 ## Configura `/etc/ssh/ssd_config`
 
+> [!Info]
+> Docs de sshd https://linux.die.net/man/5/sshd_config
+
 > [!Warning]
 > Mantén la sesión de terminal abierta y prueba el acceso con `ubuntu` en otra pestaña. Si algo falla, quedaría afuera del servidor.
 
