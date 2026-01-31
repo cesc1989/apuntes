@@ -82,7 +82,9 @@ passenger_instance_registry_dir /var/run/passenger-instreg;
 ### End automatically installed Phusion Passenger config snippet ###
 
 passenger_max_pool_size 5;
-passenger_min_instances 2;  # Mantener 2 procesos siempre listos
+
+# Mantener 2 procesos siempre listos
+passenger_min_instances 2;
 
 passenger_pool_idle_time 300;
 
