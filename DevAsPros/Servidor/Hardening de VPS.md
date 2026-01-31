@@ -57,7 +57,7 @@ END
 
 ## Configura `/etc/ssh/ssd_config`
 
-> [!Warn]
+> [!Warning]
 > Mantén la sesión de terminal abierta y prueba el acceso con `ubuntu` en otra pestaña. Si algo falla, quedaría afuera del servidor.
 
 Aquí es donde quitamos el acceso al usuario `root`. Vamos a buscar que quede así:
