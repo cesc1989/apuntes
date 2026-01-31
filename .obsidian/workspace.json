@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "af89892deecb0be6",
+        "id": "ce94ec5939cff134",
         "type": "tabs",
         "children": [
           {
-            "id": "c95f43dfc3aedaa2",
+            "id": "3af66a39c2da254a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DevOps_&_Heroku"
             }
           }
         ]
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from DevOps_&_Heroku"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of DevOps_&_Heroku"
             }
           }
         ],
@@ -160,8 +166,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c95f43dfc3aedaa2",
+  "active": "3af66a39c2da254a",
   "lastOpenFiles": [
+    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
+    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
     "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
@@ -190,8 +198,6 @@
     "DevAsPros/Cash_Flow/Apuntes-Ciclos.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Cilo_28_-_Flujos.md",
     "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Backend/Help Desk/EDG-3279 Multiple Intake Forms para Care Plan 🟢.md",
     "Canvas/Comanditos.canvas",
     "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
