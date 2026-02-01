@@ -60,7 +60,7 @@ Host gh
 END
 ```
 
-## Configura `/etc/ssh/ssd_config` 🚨
+## Configura `/etc/ssh/ssh_config` 🚨
 
 > [!Info]
 > Docs de sshd https://linux.die.net/man/5/sshd_config
