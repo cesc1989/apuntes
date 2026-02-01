@@ -70,7 +70,7 @@ PermitRootLogin no
 PasswordAuthentication no
 PermitEmptyPasswords no
 MaxAuthTries 3
-AllowUsers deployer
+AllowUsers ubuntu
 ```
 
 Esta es una forma de lograrlo:
