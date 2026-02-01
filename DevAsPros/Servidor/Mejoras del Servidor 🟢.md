@@ -192,7 +192,7 @@ Fue haber quitado mega-cmd. Esta programa tenía un servicio activo corriendo. E
 
 ### free -h sin mega-cmd
 
-La mejor evidencia es ver la salida de `free -h` arriba [[Mejoras del Servidor#Prueba de `free -h`]] y comparar con esta salida de hoy, 28 de Enero:
+La mejor evidencia es ver la salida de `free -h` arriba [[Mejoras del Servidor 🟢#Prueba de `free -h`]] y comparar con esta salida de hoy, 28 de Enero:
 ```
               total        used        free      shared  buff/cache   available
 Mem:          944Mi       564Mi       144Mi       0.0Ki       235Mi       239Mi
