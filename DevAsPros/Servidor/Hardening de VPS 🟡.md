@@ -60,7 +60,7 @@ Host gh
 END
 ```
 
-## Configura `/etc/ssh/ssh_config` 🚨
+## Configura `/etc/ssh/sshd_config` 🚨
 
 > [!Info]
 > Docs de sshd https://linux.die.net/man/5/sshd_config
