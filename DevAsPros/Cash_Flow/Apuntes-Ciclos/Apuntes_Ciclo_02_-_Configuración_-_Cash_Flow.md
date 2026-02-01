@@ -90,7 +90,8 @@ Por otro lado…
 
 Así aparece en el archivo `.ssh/authorized_keys`
 ```bash
-ubuntu@localhost:~$ cat .ssh/authorized_keys 
+ubuntu@localhost:~$ cat .ssh/authorized_keys
+
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDhsvMg6pUEsWzYBEwTb89bKqGCU1sQlVB74xvjsCICzHNYGkYqWieCeFURRRqz2MruJHaCCsoB3SLfEQ1X+iMAipMPsTWVK9nq46gxAStewatMLtX1rfgK81LSTbywQ4dKWBQS4B824nnPEu82AW21+V4W3IFUuodc3uqmmEzp+2AjXE70GZwvCVxyz2q4UIjzfY9SV/ald6o5ZE6oChA97ZBRJQ06q2zA1fC78+Ob3JRCKDLRgkcr3kQ0kLQVF81yG1DiqpeaCIcK4lsg97uNixgrvdFuicRsNIMfSF/fsNx/nFAxTeycKSu5aQLufVQ/bPFe2iTMIia736ZYDaqxpVQBrF2EVUlf9LGLdkX9NB64R85aOwFSSIAZxUd3zeCBq1jJBWJRMycGMWT1cBXs5uyiNTS04LimWVv7L/8apDOy9l9jsTu6uY4nKtVWq0eREKGAD5EkrStcshwatPQOStw4o+qI2D/VGtFA9v67ngxrCZ/irB5raLEsVWOYoLs= github ubuntu server
 ```
 
