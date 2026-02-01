@@ -83,14 +83,16 @@ sed -re 's/^(PasswordAuthentication)([[:space:]]+)yes/\1\2no/' -i.`date -I` /etc
 sed -re 's/^(PermitRootLogin)([[:space:]]+)yes/\1\2no/' -i.`date -I` /etc/ssh/sshd_config
 ```
 
-Finaliza reiniciando el servicio `ssh`:
-```
-sudo service sshd restart
-```
+Ahora hay que reiniciar el servicio `sshd`.
 
-Para versiones de Ubuntu desde 22.10 en adelante:
+Para eso, en versiones de Ubuntu desde 22.10 en adelante, primero hay que activarlo:
 ```bash
 systemctl enable --now ssh.service
+```
+
+Finalmente podemos reiniciar el servicio `ssh`:
+```bash
+sudo systemctl restart sshd
 ```
 
 ## Configura firewall con ufw
