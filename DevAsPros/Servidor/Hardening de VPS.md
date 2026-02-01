@@ -85,7 +85,12 @@ sed -re 's/^(PermitRootLogin)([[:space:]]+)yes/\1\2no/' -i.`date -I` /etc/ssh/ss
 
 Finaliza reiniciando el servicio `ssh`:
 ```
-sudo systemctl restart sshd
+sudo service sshd restart
+```
+
+Para versiones de Ubuntu desde 22.10 en adelante:
+```bash
+systemctl enable --now ssh.service
 ```
 
 ## Configura firewall con ufw

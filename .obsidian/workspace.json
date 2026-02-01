@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Servidor/Hardening de VPS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -28,15 +28,14 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow"
+              "title": "Outgoing links from Hardening de VPS"
             }
           },
           {
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow"
+              "title": "Outline of Hardening de VPS"
             }
           }
         ],
@@ -181,10 +180,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "cff997b613691cb6",
+  "active": "68a65a10d42a24c9",
   "lastOpenFiles": [
-    "DevAsPros/Servidor/Hardening de VPS.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "DevAsPros/Servidor/Hardening de VPS.md",
     "DevAsPros/Servidor/Mejoras del Servidor.md",
     "DevAsPros/Servidor/Passenger Status.md",
     "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
