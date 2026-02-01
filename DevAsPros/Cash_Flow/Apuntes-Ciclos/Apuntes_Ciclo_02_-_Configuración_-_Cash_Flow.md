@@ -61,7 +61,8 @@ Esa es la llave pública previamente generada antes de crear la imagen.
 
 De esa forma cuando se crea el servidor nuevo a partir de la imagen, el archivo `authorized_keys` existirá con esa línea:
 ```bash
-ubuntu@localhost:~$ cat .ssh/authorized_keys 
+ubuntu@localhost:~$ cat .ssh/authorized_keys
+
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOsP7/b9+0xb4uVGvV7LqahhZmWFtuAf3xIpdF6HLMcq frajaquico@aol.com Linode
 ```
 
