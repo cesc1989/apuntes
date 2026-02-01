@@ -98,6 +98,24 @@ sudo sed -i 's/^#*AuthorizedKeysFile.*/AuthorizedKeysFile .ssh\/authorized_keys/
 sed -re 's/^(PermitRootLogin)([[:space:]]+)yes/\1\2no/' -i.`date -I` /etc/ssh/sshd_config
 ```
 
+### Servicio ssh para aceptar el cambio de puerto 🔑
+
+En Ubuntu 24.04 el servicio corre con socket y no permite cambio de puerto. Debo desactivarlo y arrancar el tradicional.
+
+Desactivar ssh.socket
+```bash
+systemctl stop ssh.socket
+systemctl disable ssh.socket
+systemctl mask ssh.socket
+```
+
+Activar ssh.service
+```bash
+systemctl unmask ssh.service
+systemctl enable ssh.service
+systemctl start ssh.service
+```
+
 ### Particular de Host Hatch
 
 En Host Hatch hay un archivo adicional que causa problema para la configuración de `PasswordAuthentication`. Se desactiva así:
