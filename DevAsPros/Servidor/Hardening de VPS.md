@@ -117,6 +117,15 @@ Revisa:
 sudo systemctl status sshd
 ```
 
+### Revisar que no haya intentos de acceder al VPS
+
+Luego de los cambios anteriores el VPS debería recibir menos ruido de afuera. Verificar con:
+```bash
+sudo tail -f /var/log/auth.log
+```
+
+Debería limitarse a mis ingresos al VPS.
+
 ## Configura firewall con ufw
 
 Sencillo:
@@ -131,8 +140,8 @@ ufw allow https
 
 Permite solo para el puerto elegido:
 ```bash
-sudo ufw allow 54321/tcp
-sudo ufw deny 22/tcp
+ufw allow 54321/tcp
+ufw deny 22/tcp
 ```
 
 Activa con:
@@ -142,7 +151,7 @@ ufw --force enable
 
 Revisa con:
 ```bash
-sudo ufw status numbered
+ufw status numbered
 ufw status verbose
 ```
 
