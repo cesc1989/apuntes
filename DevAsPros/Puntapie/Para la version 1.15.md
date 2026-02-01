@@ -31,3 +31,24 @@ Consideraciones de la landing básica:
 En vez de tener `deployments` y `deployment_logs` pasar a una estructura donde los logs quedan en `deployments/logs`. Así es más unificada la experiencia y tiene más sentido.
 
 Ya lo hice en CashFlow, CoshiNotes y Enlacito.
+
+Así quedaron las carpetas luego de este cambio:
+```bash
+tree -L 2 ./
+./
+├── cashflow
+│   ├── app
+│   ├── backups
+│   ├── db
+│   └── deployments
+├── coshinotes
+│   ├── app
+│   ├── backups
+│   ├── db
+│   └── deployments
+├── enlacito
+│   ├── app
+│   ├── backups
+│   ├── db
+│   └── deployments
+```
