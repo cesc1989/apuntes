@@ -60,7 +60,7 @@ Host gh
 END
 ```
 
-## Configura `/etc/ssh/ssd_config`
+## Configura `/etc/ssh/ssd_config` 🚨
 
 > [!Info]
 > Docs de sshd https://linux.die.net/man/5/sshd_config
@@ -68,24 +68,43 @@ END
 > [!Warning]
 > Mantén la sesión de terminal abierta y prueba el acceso con `ubuntu` en otra pestaña. Si algo falla, quedaría afuera del servidor.
 
+> [!Danger]
+> Este es un paso crucial. Hay bots pendientes a servidores nuevo. Es clave que esto quede bien configurado para alejar a actores maliciosos.
+
 Aquí es donde quitamos el acceso al usuario `root`. Vamos a buscar que quede así:
 ```bash
-PermitRootLogin no
 PasswordAuthentication no
-PermitEmptyPasswords no
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
+PermitRootLogin no
+
 MaxAuthTries 3
+
+PermitEmptyPasswords no
 AllowUsers ubuntu
 ```
 
 Esta es una forma de lograrlo:
 ```bash
-sed -re 's/^(PasswordAuthentication)([[:space:]]+)yes/\1\2no/' -i.`date -I` /etc/ssh/sshd_config
+sudo sed -i 's/^#*PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_config
+
+sudo sed -i 's/^#*PubkeyAuthentication.*/PubkeyAuthentication yes/' /etc/ssh/sshd_config
+
+sudo sed -i 's/^#*AuthorizedKeysFile.*/AuthorizedKeysFile .ssh\/authorized_keys/' /etc/ssh/sshd_config
+
 sed -re 's/^(PermitRootLogin)([[:space:]]+)yes/\1\2no/' -i.`date -I` /etc/ssh/sshd_config
 ```
 
-Ahora hay que reiniciar el servicio `sshd`.
+### Particular de Host Hatch
 
-Para eso, en versiones de Ubuntu desde 22.10 en adelante, primero hay que activarlo:
+En Host Hatch hay un archivo adicional que causa problema para la configuración de `PasswordAuthentication`. Se desactiva así:
+```bash
+sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config.d/50-cloud-init.conf
+```
+
+### Reiniciar `sshd`
+
+Ahora hay que reiniciar el servicio `sshd`. Para eso, en versiones de Ubuntu desde 22.10 en adelante, primero hay que activarlo:
 ```bash
 systemctl enable --now ssh.service
 ```
