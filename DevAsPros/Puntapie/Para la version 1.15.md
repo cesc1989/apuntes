@@ -26,3 +26,8 @@ Consideraciones de la landing básica:
 - Bloque de CTA
 - Footer con ToS, Hecho en Barranquilla y el copy + año
 
+## Logs de despliegues van a carpeta `deployments/logs`
+
+En vez de tener `deployments` y `deployment_logs` pasar a una estructura donde los logs quedan en `deployments/logs`. Así es más unificada la experiencia y tiene más sentido.
+
+Ya lo hice en CashFlow, CoshiNotes y Enlacito.

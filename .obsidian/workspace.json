@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e21b0232bc3e7f3d",
+        "id": "8a0e6ff1acb1a41c",
         "type": "tabs",
         "children": [
           {
-            "id": "cb5cd951b49375fb",
+            "id": "1a9012043bf222fa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Para la version 1.15"
             }
           }
         ]
@@ -108,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Para la version 1.15"
             }
           },
           {
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Para la version 1.15"
             }
           }
         ],
@@ -160,13 +166,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "cb5cd951b49375fb",
+  "active": "1a9012043bf222fa",
   "lastOpenFiles": [
+    "DevAsPros/Servidor/Hardening de VPS 🟡.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Servidor/Configuración de Backups 🟢.md",
     "DevAsPros/Servidor/Mejoras del Servidor 🟢.md",
-    "DevAsPros/Servidor/Hardening de VPS 🟡.md",
     "DevAsPros/Servidor/Passenger Status.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
@@ -178,7 +185,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
     "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
