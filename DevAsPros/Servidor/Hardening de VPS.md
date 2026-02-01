@@ -1,5 +1,7 @@
 # Asegurando el VPS Linux
 
+Etiquetas: #despliegue_vps 
+
 Todas las cosas que hay que hacer por seguridad básica.
 
 ## Recursos

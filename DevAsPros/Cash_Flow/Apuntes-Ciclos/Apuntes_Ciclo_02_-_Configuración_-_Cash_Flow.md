@@ -1,5 +1,7 @@
 # Apuntes Ciclo 02 - Configuración - Cash Flow
 
+Etiquetas: #despliegue_vps 
+
 # Permisos en Linode
 
 El token debe tener permisos para:
