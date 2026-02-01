@@ -107,14 +107,14 @@ sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/s
 
 ### Reiniciar `sshd`
 
-Ahora hay que reiniciar el servicio `sshd`. Para eso, en versiones de Ubuntu desde 22.10 en adelante, primero hay que activarlo:
-```bash
-systemctl enable --now ssh.service
-```
-
 Finalmente podemos reiniciar el servicio `ssh`:
 ```bash
 sudo systemctl restart sshd
+```
+
+Revisa:
+```bash
+sudo systemctl status sshd
 ```
 
 ## Configura firewall con ufw
