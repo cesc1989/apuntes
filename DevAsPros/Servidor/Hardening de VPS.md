@@ -5,6 +5,7 @@ Todas las cosas que hay que hacer por seguridad básica.
 ## Recursos
 
 - Branko en twitter: https://x.com/brankopetric00/status/2017283246254436501
+- Secure a compute instance - Linode: https://techdocs.akamai.com/cloud-computing/docs/set-up-and-secure-a-compute-instance
 
 # Hardening en Linux
 
