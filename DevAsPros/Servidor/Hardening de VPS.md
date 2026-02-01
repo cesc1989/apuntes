@@ -4,6 +4,7 @@ Todas las cosas que hay que hacer por seguridad básica.
 
 ## Recursos
 
+- Configuración que hice para CashFlow [[Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow]]
 - Branko en twitter: https://x.com/brankopetric00/status/2017283246254436501
 - Secure a compute instance - Linode: https://techdocs.akamai.com/cloud-computing/docs/set-up-and-secure-a-compute-instance
 - Using Fail2ban to Secure Your Server: https://www.linode.com/docs/guides/using-fail2ban-to-secure-your-server-a-tutorial/
