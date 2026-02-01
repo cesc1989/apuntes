@@ -73,6 +73,7 @@ END
 
 Aquí es donde quitamos el acceso al usuario `root`. Vamos a buscar que quede así:
 ```bash
+Port 54321
 PasswordAuthentication no
 PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
@@ -86,6 +87,8 @@ AllowUsers ubuntu
 
 Esta es una forma de lograrlo:
 ```bash
+sudo sed -i 's/^#*Port .*/Port 54321/' /etc/ssh/sshd_config
+
 sudo sed -i 's/^#*PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_config
 
 sudo sed -i 's/^#*PubkeyAuthentication.*/PubkeyAuthentication yes/' /etc/ssh/sshd_config
@@ -117,13 +120,19 @@ sudo systemctl restart sshd
 ## Configura firewall con ufw
 
 Sencillo:
-```
+```bash
 ufw default deny incoming
 ufw default allow outgoing
 
 ufw allow ssh
 ufw allow http
 ufw allow https
+```
+
+Permite solo para el puerto elegido:
+```bash
+sudo ufw allow 54321/tcp
+sudo ufw deny 22/tcp
 ```
 
 Activa con:
@@ -133,6 +142,7 @@ ufw --force enable
 
 Revisa con:
 ```bash
+sudo ufw status numbered
 ufw status verbose
 ```
 
