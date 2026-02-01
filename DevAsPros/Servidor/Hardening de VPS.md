@@ -135,7 +135,7 @@ Revisa:
 sudo systemctl status sshd
 ```
 
-### Revisar que no haya intentos de acceder al VPS
+### Revisar que no haya intentos de acceder al VPS 🔐
 
 Luego de los cambios anteriores el VPS debería recibir menos ruido de afuera. Verificar con:
 ```bash
