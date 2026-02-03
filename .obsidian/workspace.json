@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "af883c8e556aaf8c",
+        "id": "3523f2cf20eb5a39",
         "type": "tabs",
         "children": [
           {
-            "id": "829c64e3655d2960",
+            "id": "d5515630e702ded0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Servidor/Hardening de VPS 🟡.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hardening de VPS 🟡"
+              "title": "SnapRAID 🟡"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Servidor/Hardening de VPS 🟡.md",
+                "file": "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Hardening de VPS 🟡"
+              "title": "Outgoing links from SnapRAID 🟡"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Servidor/Hardening de VPS 🟡.md",
+                "file": "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hardening de VPS 🟡"
+              "title": "Outline of SnapRAID 🟡"
             }
           }
         ],
@@ -166,10 +166,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "829c64e3655d2960",
+  "active": "d5515630e702ded0",
   "lastOpenFiles": [
-    "DevAsPros/Puntapie/Para la version 1.15.md",
+    "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
     "DevAsPros/Servidor/Hardening de VPS 🟡.md",
+    "DevAsPros/Puntapie/Para la version 1.15.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Servidor/Configuración de Backups 🟢.md",
@@ -193,7 +194,6 @@
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
-    "Luna/Therapist_Signup/Casos/009 - Missing Med.Req && Pers.Ref 🟢.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",

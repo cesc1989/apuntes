@@ -79,9 +79,9 @@ PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
 PermitRootLogin no
 
+PermitEmptyPasswords no
 MaxAuthTries 3
 
-PermitEmptyPasswords no
 AllowUsers ubuntu
 ```
 
