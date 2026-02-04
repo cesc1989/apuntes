@@ -162,8 +162,7 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "obsidian-wordpress:WordPress Publish": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "d5515630e702ded0",
