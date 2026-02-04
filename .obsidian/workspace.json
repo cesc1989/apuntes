@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3523f2cf20eb5a39",
+        "id": "97ac80408cf5e334",
         "type": "tabs",
         "children": [
           {
-            "id": "d5515630e702ded0",
+            "id": "6c43c58a23f3e888",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
-                "mode": "preview",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SnapRAID 🟡"
+              "title": "Para la version 1.15"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SnapRAID 🟡"
+              "title": "Outgoing links from Para la version 1.15"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SnapRAID 🟡"
+              "title": "Outline of Para la version 1.15"
             }
           }
         ],
@@ -162,12 +162,15 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "d5515630e702ded0",
+  "active": "6c43c58a23f3e888",
   "lastOpenFiles": [
     "Otro_Espacio/Coshinema/SnapRAID 🟡.md",
+    "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
+    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "DevAsPros/Servidor/Hardening de VPS 🟡.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
@@ -179,7 +182,6 @@
     "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
-    "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
@@ -192,7 +194,6 @@
     "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
     "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
-    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",

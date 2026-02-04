@@ -1,5 +1,9 @@
 # Para la versión 1.15
 
+## Especificar el puerto del VPS en el github action
+
+Agregar `Port 54321` a la configuración del action de despliegue.
+
 ## Actualizar gema redis a la versión 5.4.1 o mayor
 
 Para que tenga soporte con redis-server versión 7.x.x
