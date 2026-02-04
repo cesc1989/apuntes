@@ -13,17 +13,17 @@ Todas las cosas que hay que hacer por seguridad básica.
 
 # Hardening en Linux
 
-## Actualizar el VPS
+## Actualizar el VPS 🟢
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Configura unattended-upgrades
+## Configura unattended-upgrades 🟡
 
 Ver [[Unattended Upgrades]]
 
-## Agregar usuario no-root
+## Agregar usuario no-root 🟢
 
 Hay que agregar un usuario de sistema para que este interactue con el VPS. Luego hay que quitar el acceso root al VPS.
 
@@ -31,7 +31,7 @@ Hay que agregar un usuario de sistema para que este interactue con el VPS. Luego
 useradd -m -p $(openssl passwd -1 Superman123.) -s /bin/bash -G sudo ubuntu
 ```
 
-## Configura acceso por ssh para el usuario no-root
+## Configura acceso por ssh para el usuario no-root 🟢
 
 Para ingresar sin usar la contraseña que es más insegura.
 
@@ -48,7 +48,7 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDhsvMg6pUEsWzYBEwTb89bKqGCU1sQlVB74x
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-## Crea archivo `~/.ssh/config` para atajos de interacción ssh
+## Crea archivo `~/.ssh/config` para atajos de interacción ssh 🟢
 
 Con esto el script de despliegue, en la parte de bajar el repo, funcionará sin problema:
 ```bash
@@ -60,7 +60,7 @@ Host gh
 END
 ```
 
-## Configura `/etc/ssh/sshd_config` 🚨
+## Configura `/etc/ssh/sshd_config` 🚨🟢
 
 > [!Info]
 > Docs de sshd https://linux.die.net/man/5/sshd_config
@@ -116,14 +116,14 @@ systemctl enable ssh.service
 systemctl start ssh.service
 ```
 
-### Particular de Host Hatch
+### Particular de Host Hatch 🟢
 
 En Host Hatch hay un archivo adicional que causa problema para la configuración de `PasswordAuthentication`. Se desactiva así:
 ```bash
 sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config.d/50-cloud-init.conf
 ```
 
-### Reiniciar `sshd`
+### Reiniciar `sshd` 🟢
 
 Finalmente podemos reiniciar el servicio `ssh`:
 ```bash
@@ -135,7 +135,7 @@ Revisa:
 sudo systemctl status sshd
 ```
 
-### Revisar que no haya intentos de acceder al VPS 🔐
+### Revisar que no haya intentos de acceder al VPS 🔐🟢
 
 Luego de los cambios anteriores el VPS debería recibir menos ruido de afuera. Verificar con:
 ```bash
@@ -144,7 +144,7 @@ sudo tail -f /var/log/auth.log
 
 Debería limitarse a mis ingresos al VPS.
 
-## Configura firewall con ufw
+## Configura firewall con ufw 🟢
 
 Sencillo:
 ```bash
@@ -173,7 +173,7 @@ ufw status numbered
 ufw status verbose
 ```
 
-## Configura fail2ban
+## Configura fail2ban 🟡
 
 Instala
 ```bash

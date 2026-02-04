@@ -57,6 +57,12 @@ data d2 content /media/cesc/Rapaz/
 
 Lo demás quedó según como está en el archivo copiado al bajar el software.
 
+### Claves Configuración SnapRAID
+
+- uno
+- dos
+- tres
+
 ## Prueba
 
 Comando `snapraid status`
