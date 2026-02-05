@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28bbc7c372c75ab4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "SnapRAID 🟢"
-            }
-          },
-          {
             "id": "81c3c8971e4559e7",
             "type": "leaf",
             "state": {
@@ -126,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS 🟡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SnapRAID 🟢"
+              "title": "Outgoing links from Hardening de VPS 🟡"
             }
           },
           {
@@ -155,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SnapRAID 🟢"
+              "title": "Outline of Hardening de VPS 🟡"
             }
           }
         ],
@@ -180,10 +166,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "28bbc7c372c75ab4",
+  "active": "81c3c8971e4559e7",
   "lastOpenFiles": [
-    "DevAsPros/Servidor/Hardening de VPS 🟡.md",
     "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
+    "DevAsPros/Servidor/Hardening de VPS 🟡.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",

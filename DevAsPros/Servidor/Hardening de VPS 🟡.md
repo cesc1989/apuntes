@@ -1,17 +1,13 @@
-# Asegurando el VPS Linux
+# Hardening en Linux
 
 Etiquetas: #despliegue_vps 
 
 Todas las cosas que hay que hacer por seguridad básica.
 
-## Recursos
-
-- Configuración que hice para CashFlow [[Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow]]
-- Branko en twitter: https://x.com/brankopetric00/status/2017283246254436501
-- Secure a compute instance - Linode: https://techdocs.akamai.com/cloud-computing/docs/set-up-and-secure-a-compute-instance
-- Using Fail2ban to Secure Your Server: https://www.linode.com/docs/guides/using-fail2ban-to-secure-your-server-a-tutorial/
-
-# Hardening en Linux
+> [!Info]
+> Todos los círculos verde son cosas que ya están cubiertas en el script en dap_cloud.
+>
+> Ver https://github.com/devaspros/dap_cloud/blob/main/setup_server.sh
 
 ## Actualizar el VPS 🟢
 
@@ -198,3 +194,10 @@ Reinicia y activa:
 sudo systemctl restart fail2ban
 sudo systemctl enable fail2ban
 ```
+
+## Recursos
+
+- Configuración que hice para CashFlow [[Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow]]
+- Branko en twitter: https://x.com/brankopetric00/status/2017283246254436501
+- Secure a compute instance - Linode: https://techdocs.akamai.com/cloud-computing/docs/set-up-and-secure-a-compute-instance
+- Using Fail2ban to Secure Your Server: https://www.linode.com/docs/guides/using-fail2ban-to-secure-your-server-a-tutorial/
