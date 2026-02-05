@@ -57,12 +57,6 @@ data d2 content /media/cesc/Rapaz/
 
 Lo demás quedó según como está en el archivo copiado al bajar el software.
 
-### Claves Configuración SnapRAID
-
-- uno
-- dos
-- tres
-
 ## Prueba
 
 Comando `snapraid status`
@@ -102,6 +96,28 @@ Saving state to /media/cesc/Rapaz/snapraid.content...
 
 Everything OK
 ```
+
+## Claves Uso y Configuración de SnapRAID
+
+### snapraid.parity
+
+- Los ==datos de paridad se guardan en un disco de paridad dedicado==. Este disco debe ser independiente de los discos de datos.
+- Cada que se agreguen más datos en los discos hay que correr `snapraid sync`.
+- A **mayor cantidad de discos de paridad, mayor cantidad de discos se pueden rescatar**.
+- Un disco de paridad puede proteger multiples discos de datos.
+- El disco de paridad debe tener suficiente espacio para contener la información de paridad.
+
+### snapraid.content
+
+- La configuración de *parity* y *content* van de la mano.
+	- Se pueden usar los mismos discos de datos como discos de `content`.
+- Se pueden usar los discos de datos como discos de `content`.
+
+### snapraid data
+
+- Estos son los discos duros o cualquier almacenamiento.
+- En el archivo conf hay que definir: *parity, content y data* para que snapraid trabaje como se debe.
+- Los datos/contenido debe estar separado en varios discos para mejor organización y redundancia.
 
 ## Recursos
 
