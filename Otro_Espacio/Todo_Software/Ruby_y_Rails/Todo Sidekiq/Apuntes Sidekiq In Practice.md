@@ -169,3 +169,7 @@ Por cada thread adicional que se agregue al proceso las mejoras se van reduciend
 | 75%        | 16          |
 | 90%        | 32          |
 | 95%        | 64          |
+
+
+## Capítulo 4: Why is My Queue So Long?
+
