@@ -107,3 +107,6 @@ La clave es que estas sean lo menor posible para que la capacidad se gaste en tr
 3. Los errores están al mínimo para que la capacidad se gaste en trabajo útil.
 4. El sistema puede responder rápidamente a los cambios drásticos de la cola.
 
+
+## Capítulo 3: Setting Concurrency
+
