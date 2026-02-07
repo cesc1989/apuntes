@@ -173,3 +173,29 @@ Por cada thread adicional que se agregue al proceso las mejoras se van reduciend
 
 ## Capítulo 4: Why is My Queue So Long?
 
+En este capítulo aprendí que hay varios factores de la infra sobre la cual se ejecuta Sidekiq que afectan a la utilización y saturación (latencia).
+
+### Location of Saturation in Sidekiq
+
+Arranca diciendo que idealmente encolamiento solo debe pasar en una parte en un sistema donde corre Sidekiq: en Redis. De esa forma solo sería una fuente de latencia.
+
+> “queueing should only happen at a single location in a Sidekiq install: in the Sidekiq queues on Redis! This is important to our system design, because it means increased latency can be controlled by a single “knob”
+
+Sin embargo, no se puede escapar de la omnipresencia de los sistemas de colas. Estos subsistemas pueden incrementar la latencia si están mal configurados. Se menciona:
+
+**Cola de recursos del sistema**. O sea RAM y CPU. Aquí si se usa CRuby (MRI) es correr solo un proceso Sidekiq por cada vCPU/CPU que tenga la máquina.
+
+**Cola de Redis**. Dice que:
+> “the amount of transactions that a Redis database can handle per-second is proportional to the size of the keys. (...) ==a Sidekiq system with smaller arguments will scale better, because small arguments mean small Redis keys, leading to more Redis operations per second.==”
+
+**Cola de la base de datos**. Aquí tiene que ver con el connection pool. Hay que usar [pgbouncer](https://www.pgbouncer.org/) y hay que mantener la configuración `pool` en `database.yml` igual al valor de `concurrency` de Sidekiq.
+
+**Cola de APIs Externas**. Esto sobre es sobre ser más consciente de los límites que ofrecen las APIs de terceros para hacer un esfuerzo en encolar jobs que se van a ejecutar.
+
+> “It would be far more efficient if we could only attempt jobs that had a possibility of succeeding.”
+
+La clave de este es usar Sidekiq Enterprise para tener la funcionalidad de los _locks_.
+
+
+## Capítulo 5: How Many Queues Should I Have?
+

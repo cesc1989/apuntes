@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3622764757003786",
+        "id": "6a5520d62205b974",
         "type": "tabs",
         "children": [
           {
-            "id": "3a8c51ad28581510",
+            "id": "7a54bcc5c6b3fb06",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,8 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a8c51ad28581510",
+  "active": "7a54bcc5c6b3fb06",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
+    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "DevAsPros/Servidor/Hardening de VPS 🟡.md",
     "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
@@ -187,11 +190,8 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
-    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
     "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
-    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
-    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
