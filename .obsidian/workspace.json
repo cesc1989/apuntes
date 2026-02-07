@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "564e850cfe0b3ac3",
+        "id": "3622764757003786",
         "type": "tabs",
         "children": [
           {
-            "id": "96b3ded7fbac5260",
+            "id": "3a8c51ad28581510",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Sidekiq In Practice"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Sidekiq In Practice"
             }
           }
         ],
@@ -156,11 +161,10 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "obsidian-wordpress:WordPress Publish": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "96b3ded7fbac5260",
+  "active": "3a8c51ad28581510",
   "lastOpenFiles": [
     "DevAsPros/Puntapie/Para la version 1.15.md",
     "DevAsPros/Servidor/Hardening de VPS 🟡.md",
