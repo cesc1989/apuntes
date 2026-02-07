@@ -110,3 +110,62 @@ La clave es que estas sean lo menor posible para que la capacidad se gaste en tr
 
 ## Capítulo 3: Setting Concurrency
 
+> [!Note]
+> Este capítulo tiene muy buenos detalles.
+
+---
+
+> “Using multiple threads in one process increases job throughput by a factor of 50% to 100% over single threaded processes for most workloads.”
+
+> “Higher concurrency means higher throughput, but can also lead to excessive latency and memory use.”
+
+> “Set concurrency too low, and you’re leaving additional throughput on the table”
+
+> “**fewer threads is often better.**”
+
+> “With Sidekiq 5.2.0, the default concurrency setting was changed from 25 to 10. Why? The community (and, then Mike) learned, in the meantime, about two major costs: memory and GVL contention.”
+
+> “only one thread can run Ruby code at a time. That is, _in order to run Ruby code, the thread must hold the Global VM Lock._”
+
+> “==When there is more than one thread in a process, multiple threads can be ready to run Ruby code, but only one can run it at a time==. **This creates queueing for the Global VM Lock, as threads wait for the GVL to free up.** As we covered in the previous chapter, queueing increases latency.”
+
+> “concurrency also interacts with database pools: **if concurrency is significantly higher than the size of one’s database pool, we can cause additional latency there as well** (...) If all of the connections are already checked out, queueing occurs, increasing latency. (...) ==Setting concurrency higher than your database pool setting can slow down your Sidekiq by 100x.==”
+
+### Costos en memoria
+
+> “A single Sidekiq process can slowly grow from 256MB of memory usage to 1GB in less than 24 hours. (...) this is actually memory fragmentation.”
+
+> “The more fragmented the memory heap, the more memory it will consume. This is because allocating an object requires the right size “hole” in the heap, and in a fragmented heap, those holes are too small, requiring the growth of the heap in order to satisfy the allocation.”
+
+> “==What we’ve learned since Sidekiq became popular is that memory fragmentation becomes much worse in a direct relationship with the number of Ruby threads.==”
+
+> “what usually limits Sidekiq throughput in the real world is contention for the Global VM Lock”
+
+### Disputa por el Global VM Lock
+
+Por cada thread adicional que se agregue al proceso las mejoras se van reduciendo:
+> “What we’re sure of is that there are greatly diminishing returns - in fact, we’re mathematically sure of it. The second thread adds more throughput than the third, which adds more throughput than the fourth, and so on.”
+
+> “But our threads perform other work which is not running Ruby code and does not require the Ruby Virtual Machine. The biggest task in this category is I/O: sending and receiving data, particularly across the network. This is because I/O in the CRuby runtime is implemented in C code, not in Ruby. We don’t need the Ruby VM or its lock to run C.”
+
+> “10 threads is a great default for most apps using Sidekiq, but 5 to 128 is a reasonable range. ”
+
+### Proceso para configurar `concurrency`
+
+1. “For each Sidekiq “worker type” (that is, a particular configuration of Sidekiq which pulls from a certain set of queues), determine the average % of time spent in I/O. Use your APM (New Relic, etc) for this. Be sure to exclude jobs from your calculation that this worker type does not process.”
+
+2. “Use the table at the end of this chapter to find a “starting point” based on I/O workload”
+
+3. “Deploy with this setting. If memory usage exceeds acceptable limits, adjust concurrency downward until it is acceptable, or change your server type to one with more memory available.”
+
+4. “If service time (latency observed in your APM) increases significantly as a result of the concurrency change, decrease concurrency until service times reach acceptable levels.”
+
+
+| I/O Wait   | Concurrency |
+| ---------- | ----------- |
+| 5% o menos | 1           |
+| 25%        | 5           |
+| 50%        | 10          |
+| 75%        | 16          |
+| 90%        | 32          |
+| 95%        | 64          |
