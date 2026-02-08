@@ -204,5 +204,44 @@ La clave aquí es que el sistema debe tener 4-5 colas donde cada una encola trab
 > “most Sidekiq queues should contain jobs with similar total latency requirements. This is a fancy way of saying something like “jobs you need done right now go in the critical queue”
 
 
+### Controlling Scheduling Influx
+
+Un problema es cuando hay jobs que encolan otros muchos jobs. Como el caso que veo en Alpha en Luna.
+
+> “if this job type is in a queue with many other job types, you will cause those other jobs to miss their latency requirements, as they cannot be processed until your 1 million invoice jobs are processed.”
+
+Es lo que pasa. Hay varios jobs que encolan tantas cosas que el job de hacer sync de Marketplace termina siendo afectado. Son de latencia diferente pero el que encola los miles afecta el que necesita correrse ya.
+
+La solución aquí es que cada cola tenga también una prioridad:
+```yaml
+:queues:
+  - ["default", 3]
+  - ["invoices", 1]
+```
+
+En este ejemplo, un proceso Sidekiq estará pendiente a la cola _default_ 3/4 veces. Mientras 1/4 del tiempo a la cola _invoices_.
+
 ## Capítulo 6: Maximizing Servers without running out of resources
 
+### Queue Weights and Ordering
+
+En esta sección explica que tanto el orden como el peso de cada cola importa.
+
+```yaml
+:queues:
+ - [asap, 10]
+ - [default, 5]
+ - [bulk, 1]
+```
+
+Nate explica que el peso de la cola ayuda a prevenir el caso donde un job ocupa todos los procesos porque encola miles de jobs.
+
+Hay otra forma y es por orden estricto de la cola:
+```yml
+:queues:
+  - critical
+  - default
+  - low
+```
+
+Sin ningún peso/prioridad, los procesos de Sidekiq tomaran los jobs según el orden de las colas. En este caso, solo tomará de _low_ cuando no haya nada en _default_ ni en _critical_.
