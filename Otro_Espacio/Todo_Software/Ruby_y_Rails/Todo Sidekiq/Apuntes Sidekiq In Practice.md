@@ -264,3 +264,8 @@ Recomiendo usar una de estas soluciones o combinarlas:
 
 ## Capítulo 8: How do I set database pool size?
 
+
+## Capítulo 9: Is my app thread-safe?
+
+
+## Capítulo 10: Making Sidekiq use less memory
