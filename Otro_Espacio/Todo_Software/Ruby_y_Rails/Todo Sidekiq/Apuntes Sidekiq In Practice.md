@@ -286,3 +286,17 @@ Habla mucho y explica lo de thread-safe. Al final dice que es mejor probar y ya.
 
 ## Capítulo 10: Making Sidekiq use less memory
 
+Ruby usa la memoria de manera ineficiente (por C) y complica el trabajo del Garbage Collector.
+
+1. Ruby’s heap is disorganized, and long-lived objects often are allocated right next to ones that won’t live through the next GC.
+2. Ruby cannot move objects around in the heap.
+3. The operating system needs a contiguous 4kb chunk of free memory to reclaim, otherwise the program keeps the memory.
+4. Ruby creates objects in a way that puts long-lived and short-lived objects right next to each other.
+5. We can move some parts of objects around with GC.compact, but most parts we can’t.
+6. The default Linux malloc will not release memory back to the OS unless it is at the end of the Ruby heap.
+
+El problema viene cuando en jobs se cargan miles de registros a la vez. Eso carga la memoria y luego Ruby nunca la suelta como es debido.
+
+La solución es usar `find_each` para no cargar tantos objetos en memoria.
+
+
