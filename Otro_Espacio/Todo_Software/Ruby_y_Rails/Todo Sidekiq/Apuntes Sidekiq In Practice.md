@@ -264,6 +264,22 @@ Recomiendo usar una de estas soluciones o combinarlas:
 
 ## Capítulo 8: How do I set database pool size?
 
+Un servidor de base de datos puede manejar 500 conexiones, más o menos.
+
+### ActiveRecord connection pool
+
+> “If a thread can’t get a free database connection within 5 seconds, you get a connection timeout error.”
+
+> “we don’t want our threads to spend time waiting for a free database connection at all - that’s wasted time”
+
+> “Most of the time, your ActiveRecord pool size should be exactly the same as your Sidekiq concurrency setting”
+
+> “Most of the time, your ActiveRecord pool size should be exactly the same as your Sidekiq concurrency setting”
+
+Dice Nate que se use el `pgbouncer` cuando ya se consuman más de las 500 conexiones que se tienen casi que por defecto. Y cierra con:
+> “(...) reducing Sidekiq concurrency would be better than increasing it in order to reduce database connection load, because each additional Sidekiq thread has less additional benefit than the one that came before it, but it still uses 1 more db connection.”
+
+
 
 ## Capítulo 9: Is my app thread-safe?
 
