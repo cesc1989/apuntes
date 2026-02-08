@@ -280,8 +280,9 @@ Dice Nate que se use el `pgbouncer` cuando ya se consuman más de las 500 conexi
 > “(...) reducing Sidekiq concurrency would be better than increasing it in order to reduce database connection load, because each additional Sidekiq thread has less additional benefit than the one that came before it, but it still uses 1 more db connection.”
 
 
-
 ## Capítulo 9: Is my app thread-safe?
 
+Habla mucho y explica lo de thread-safe. Al final dice que es mejor probar y ya. Verificar si el código o dependencias son thread-safe para saber si podemos montar Sidekiq multi hilo se comprueba mejor en pruebas o probando en producción.
 
 ## Capítulo 10: Making Sidekiq use less memory
+
