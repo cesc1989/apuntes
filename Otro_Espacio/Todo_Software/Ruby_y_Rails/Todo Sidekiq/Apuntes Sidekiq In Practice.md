@@ -199,3 +199,10 @@ La clave de este es usar Sidekiq Enterprise para tener la funcionalidad de los _
 
 ## Capítulo 5: How Many Queues Should I Have?
 
+La clave aquí es que el sistema debe tener 4-5 colas donde cada una encola trabajos que tienen una misma necesidad de tiempo de ejecución (latencia). Ejemplos de colas podrían ser: _asap_, _5_minutes_, _1_hour_, _1_day_. Donde en la cola _asap_ se encolan jobs que tengan que ejecutarse de manera inmediata.
+
+> “most Sidekiq queues should contain jobs with similar total latency requirements. This is a fancy way of saying something like “jobs you need done right now go in the critical queue”
+
+
+## Capítulo 6: Maximizing Servers without running out of resources
+
