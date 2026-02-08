@@ -245,3 +245,22 @@ Hay otra forma y es por orden estricto de la cola:
 ```
 
 Sin ningún peso/prioridad, los procesos de Sidekiq tomaran los jobs según el orden de las colas. En este caso, solo tomará de _low_ cuando no haya nada en _default_ ni en _critical_.
+
+## Capítulo 7: My Jobs are running twice
+
+> “Sidekiq is designed to be an “at least once” system. If you enqueue a Sidekiq job, it will be executed at least once, but it may be executed multiple times”
+
+Este capítulo habla sobre como se debe buscar hacer los jobs idempotentes para evitar encolar y causar retrabajo en la cola.
+
+Nate desaconseja usar plugins que hacen que el job sea único. Lo dice porque el plugin causa una verificación adicional en Redis (otro round-trip).
+
+Recomiendo usar una de estas soluciones o combinarlas:
+
+- campo para verificar que el job pasó
+	- ejemplo, envío de email: verificar con campo `delivered_at`
+- los lock de la base de datos
+	- mejor que un lock en Redis
+	- el lock solo vive durante el momento de la ejecución del mismo
+
+## Capítulo 8: How do I set database pool size?
+
