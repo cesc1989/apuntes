@@ -169,24 +169,53 @@ ufw status numbered
 ufw status verbose
 ```
 
-## Configura fail2ban 🟡
+## Configura fail2ban 🟢
 
 Instala
 ```bash
 sudo apt install fail2ban
 ```
 
-Configura para que quede así:
+Creamos el archivo `/etc/fail2ban/jail.local` para que sea leído por encima del resto:
 ```bash
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
+```
 
+Configura para que quede así:
+```ini
+[DEFAULT]
+# Ban hosts for 1 hour (3600 seconds)
+bantime = 3600
+
+# 10 minutos de ventana para intentos
+findtime = 600
+
+# Override /etc/fail2ban/jail.d/ defaults, if any
 [sshd]
 enabled = true
 port = ssh
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
 maxretry = 3
-bantime = 3600
-findtime = 600
+
+[sshd-ddos]
+enabled = true
+port = ssh
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
+
+# Este debe ser mayor que en los otros porque es para intentos que se rigen bajo
+# otras reglas
+maxretry = 10
+
+# Custom SSH port (54321) configuration
+[sshd-custom]
+enabled = true
+port = 54321
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
+maxretry = 2
 ```
 
 Reinicia y activa:
