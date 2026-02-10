@@ -15,7 +15,7 @@ Todas las cosas que hay que hacer por seguridad básica.
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Configura unattended-upgrades 🟡
+## Configura unattended-upgrades 🟢
 
 Ver [[Unattended Upgrades]]
 
