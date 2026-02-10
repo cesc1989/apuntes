@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b16052f4cae8bad",
+        "id": "aebc11496f42480a",
         "type": "tabs",
         "children": [
           {
-            "id": "4461d36c4ccd087e",
+            "id": "1e81d787a3c212a1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -159,8 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4461d36c4ccd087e",
+  "active": "1e81d787a3c212a1",
   "lastOpenFiles": [
+    "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
+    "DevAsPros/Coshi_Notes/Editores_de_Texto_Rico_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Puma como App Server.md",
+    "DevAsPros/Coshi_Notes/Devise_no_cierra_sesión_[Coshi_Notes].md",
+    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_01_-_Coshi_Notes.md",
+    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes.md",
+    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
+    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/attachments/coshinotes.favs.png",
     "DevAsPros/Servidor/Hardening de VPS 🟢.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
@@ -181,12 +189,6 @@
     "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
     "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/DevOps_&_Heroku.md",
-    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
-    "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
@@ -207,9 +209,7 @@
     "Luna/Backend/Help Desk/026-missing-pocs",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
     "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
-    "Otro_Espacio/Coshinema/attachments/carcasa.das.cenmate.4bahias.png",
     "Luna/Backend/Waitlist Availability",
-    "Luna/Backend/Help Desk/020-therapist-dups",
     "Canvas/GraphQL.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
