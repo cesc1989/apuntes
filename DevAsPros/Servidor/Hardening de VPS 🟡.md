@@ -195,6 +195,11 @@ sudo systemctl restart fail2ban
 sudo systemctl enable fail2ban
 ```
 
+Verificación:
+```bash
+systemctl status fail2ban --no-pager
+```
+
 ## Recursos
 
 - Configuración que hice para CashFlow [[Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow]]
