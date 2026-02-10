@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Servidor/Hardening de VPS 🟡.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hardening de VPS 🟡"
+              "title": "Hardening de VPS 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Servidor/Hardening de VPS 🟡.md",
+                "file": "DevAsPros/Servidor/Hardening de VPS 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hardening de VPS 🟡"
+              "title": "Outline of Hardening de VPS 🟢"
             }
           }
         ],
@@ -167,7 +167,7 @@
   "active": "d9e30a3eda9ee5cc",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-    "DevAsPros/Servidor/Hardening de VPS 🟡.md",
+    "DevAsPros/Servidor/Hardening de VPS 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
