@@ -81,6 +81,12 @@ Ganas cercanía. Compartes algo que *tú* usas o leíste:
 * “Llevo años usando esta extensión para evitar procrastinar. Es oro puro:
   [https://enlacito.co/focusExt”](https://enlacito.co/focusExt”)
 
+Aquí agrego:
+
+- Compartir aplicaciones respetuosas de la privacidad
+	- Ver lo que está en Pikapods o en nosubscription
+	- Puedo compartir incluso en IG en mi perfil??
+
 ---
 
 ## 📌 CONSEJOS ADICIONALES
