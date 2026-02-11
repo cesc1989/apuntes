@@ -12,11 +12,17 @@ Para que tenga soporte con redis-server versión 7.x.x
 
 Para compatibilidad con versiones más recientes de la gema redis
 
-## Aplicar cambios de registrations path
+## Aplicar cambios de registrations path 🟡
 
 Los últimos cambios hechos en enlacito para completar el registro.
 
 Este pull request: https://github.com/cesc1989/enlacito/pull/14
+
+Incluye:
+- Registro activado
+- Parámetros adicionales habilitados
+- Controlador de devise generado
+- Mínimo de contraseña desde 10
 
 ## Montar landing básica
 
