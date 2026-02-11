@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aebc11496f42480a",
+        "id": "1f727df13ebad9b6",
         "type": "tabs",
         "children": [
           {
-            "id": "1e81d787a3c212a1",
+            "id": "b727b4318039afbb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 11 - Registro de Usuarios"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ciclo 11 - Registro de Usuarios"
             }
           }
         ],
@@ -159,8 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e81d787a3c212a1",
+  "active": "b727b4318039afbb",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
+    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Coshi_Notes/Fallo_al_“recordar_me”_al_iniciar_sesión_-_Coshi_N.md",
     "DevAsPros/Coshi_Notes/Editores_de_Texto_Rico_-_Coshi_Notes.md",
     "DevAsPros/Coshi_Notes/Puma como App Server.md",
@@ -184,11 +194,6 @@
     "DevAsPros/Servidor/Passenger Status.md",
     "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/CI,_CD_Jenkins,_Rails_&_Bitbucket.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Configuration_Management_Ansible_y_Chef.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_Informativos.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_version_1.md",
-    "Otro_Espacio/Backed_Handbook/Apuntes_versión_2.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
