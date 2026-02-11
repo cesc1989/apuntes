@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3773de3556e0abd1",
+        "id": "02da5534bf148936",
         "type": "tabs",
         "children": [
           {
-            "id": "0e50ac6f034a41ad",
+            "id": "5dcb42bac00d8aee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Plan Redes Sociales Enlacito"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Plan Redes Sociales Enlacito"
             }
           }
         ],
@@ -159,10 +164,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e50ac6f034a41ad",
+  "active": "5dcb42bac00d8aee",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/001 - Nombre 🟢.md",
+    "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
+    "DevAsPros/Enlacito/Descubrimiento/tinyurl/TinyUrl.md.md",
+    "DevAsPros/Enlacito/Descubrimiento/tinyurl/attachments/005.plans.png",
+    "DevAsPros/Enlacito/Descubrimiento/tinyurl/attachments/006.free.links.png",
+    "DevAsPros/Enlacito/Descubrimiento/lowerhot/Lowerhot.md",
+    "DevAsPros/Enlacito/Descubrimiento/n9/n9.md",
+    "DevAsPros/Enlacito/Descubrimiento/dub/dub.md",
+    "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
+    "DevAsPros/Enlacito/001 - Nombre 🟢.md",
     "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
     "DevAsPros/Enlacito/Definicion/MVP - Enlacito 🟢.md",
@@ -183,12 +196,6 @@
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/attachments/coshinotes.favs.png",
-    "DevAsPros/Servidor/Hardening de VPS 🟢.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
-    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
-    "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
@@ -207,8 +214,6 @@
     "Luna/Backend/Help Desk/attachments/same.worker.multiple.schedules.png",
     "Otro_Espacio/Blog/posts",
     "Luna/Backend/Help Desk/026-missing-pocs",
-    "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-02.png",
-    "Luna/Therapist_Signup/Casos/attachments/edg3180-merge-tries-01.png",
     "Luna/Backend/Waitlist Availability",
     "Canvas/GraphQL.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
