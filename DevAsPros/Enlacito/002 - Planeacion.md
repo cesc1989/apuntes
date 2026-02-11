@@ -76,9 +76,9 @@ Esto es desarrollo puro y duro a partir de Puntapie. Las cosas a hacer para el M
 
 Detalles sobre lo que va para el 1er MVP en [[MVP - Enlacito 🟢#MVP 🌟]]
 
-## Ruido
+## Ruido 🟡
 
-Este milestone se ejecuta en parelelo a los demás. No hay que esperar a un punto exacto para ejecutarlo.
+Este milestone se ejecuta en paralelo a los demás. No hay que esperar a un punto exacto para ejecutarlo.
 
 Graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo lo que se pueda compartir en internet para ir haciendo ruido.
 
@@ -86,6 +86,6 @@ Ver:
 - [[Plan Redes Sociales Enlacito]]
 - [[Pro Lanzamiento]]
 
-## Lanzamiento
+## Lanzamiento 🚧
 
 Grabar algunas demos y publicar en redes. Es una continuación del ruido generado en el hito "*Ruido*".

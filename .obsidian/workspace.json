@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c30ccd860db4a454",
+        "id": "bd60049dbbfb803f",
         "type": "tabs",
         "children": [
           {
-            "id": "5da6373a301ec893",
+            "id": "82db5cf0a4991fe3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "002 - Planeacion"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 002 - Planeacion"
             }
           }
         ],
@@ -159,8 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5da6373a301ec893",
+  "active": "82db5cf0a4991fe3",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/001 - Nombre.md",
+    "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
     "DevAsPros/Enlacito/Definicion/MVP - Enlacito 🟢.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
@@ -186,9 +194,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Cosas de Sidekiq.md",
     "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
     "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
-    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
-    "DevAsPros/Servidor/Configuración de Backups 🟢.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
