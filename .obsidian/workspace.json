@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f4f11e6eff168810",
+        "id": "9601d30519c909a1",
         "type": "tabs",
         "children": [
           {
-            "id": "4a18a80237b5ca08",
+            "id": "78ca9d2046390d4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a18a80237b5ca08",
+  "active": "78ca9d2046390d4e",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",

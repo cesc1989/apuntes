@@ -15,3 +15,9 @@ Todos los sitios donde puedo poner los enlaces y/o postear sobre cosas para ir h
 
 - About Me: https://about.me/cescquintero
 - Gravatar: https://gravatar.com/cesc1989
+
+## Sitios para Comentar con Enlace
+
+- Blog de Fabio: https://www.fabio.com.ar/
+- Tecnovortex: https://tecnovortex.com/
+- Blog de Enrique Dans: https://www.enriquedans.com/
