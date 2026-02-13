@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5c2fd93961f606b2",
+        "id": "9865227f3c927c9b",
         "type": "tabs",
         "children": [
           {
-            "id": "49ae0696b8429cc6",
+            "id": "1840ed9dc16ba168",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Planning Sidekiq Queue - Judoscale.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Planning Sidekiq Queue - Judoscale"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Planning Sidekiq Queue - Judoscale.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Planning Sidekiq Queue - Judoscale"
+              "title": "Outline"
             }
           }
         ],
@@ -164,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49ae0696b8429cc6",
+  "active": "1840ed9dc16ba168",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments/sidekiq.dedicated.worker.per.queue.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Planning Sidekiq Queue - Judoscale.md",
+    "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments/sidekiq.dedicated.worker.per.queue.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments",
     "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
@@ -181,7 +177,6 @@
     "DevAsPros/Enlacito/Descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/Descubrimiento/n9/n9.md",
     "DevAsPros/Enlacito/Descubrimiento/dub/dub.md",
-    "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/001 - Nombre 🟢.md",
     "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
