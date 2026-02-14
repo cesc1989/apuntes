@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9865227f3c927c9b",
+        "id": "ed29b31475aab4b1",
         "type": "tabs",
         "children": [
           {
-            "id": "1840ed9dc16ba168",
+            "id": "c7e83b26a4228486",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lo_que_significa_ser_un_Dev_Senior"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Lo_que_significa_ser_un_Dev_Senior"
             }
           }
         ],
@@ -159,13 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1840ed9dc16ba168",
+  "active": "c7e83b26a4228486",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Planning Sidekiq Queue - Judoscale.md",
     "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments/sidekiq.dedicated.worker.per.queue.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments",
-    "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
