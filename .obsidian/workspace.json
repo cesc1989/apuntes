@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3cc07b18d668b637",
+        "id": "87416125dd91d9b4",
         "type": "tabs",
         "children": [
           {
-            "id": "3bec5703c6d015a5",
+            "id": "51e6be71c2f4a572",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Aprendizajes_de_los_Releases"
+              "title": "Trabajo Remoto es sobre encontrar el Balance"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
+                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Aprendizajes_de_los_Releases"
+              "title": "Outline of Trabajo Remoto es sobre encontrar el Balance"
             }
           }
         ],
@@ -164,8 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bec5703c6d015a5",
+  "active": "51e6be71c2f4a572",
   "lastOpenFiles": [
+    "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221711.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221306.png",
+    "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
     "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
     "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
@@ -194,24 +201,17 @@
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclo 002.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/attachments/coshinotes.favs.png",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/gasto.explore.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos",
     "Canvas/Comanditos.canvas",
-    "DevAsPros/Servidor/attachments/002.htop.post.mega.remove.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
-    "DevAsPros/Servidor/attachments/001.passenger.pool.2.png",
-    "DevAsPros/Servidor/attachments/000.init.dap_server.png",
     "DevAsPros/Servidor/attachments",
     "DevAsPros/Servidor",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
-    "Luna/Patient_Self_Report/attachments/50.intakeform.creation.flow.png",
     "Luna/Chart CoPilot",
     "Otro_Espacio/Blog/posts",
     "Luna/Backend/Help Desk/026-missing-pocs",
