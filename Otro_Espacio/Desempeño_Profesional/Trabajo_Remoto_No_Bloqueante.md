@@ -1,13 +1,12 @@
 # Trabajo Remoto No Bloqueante
+
 Un buen hábito para desarrollar cuando se trabaja remoto.
 
 Toma decisiones y comunicalas pero intenta no quedar bloqueado esperando respuesta de otros.
 
-
 > Esto me pasa mucho en Luna. Tal vez sea de las cosas que frustra a Jason: que me quede esperando respuesta por parte de Ryan.
 > 
 > Tengo que encontrar la forma de poder desbloquearme y luego sí hacer la pregunta.
-
 
 ## ¿Por qué hacerlo?
 
