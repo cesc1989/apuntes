@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e0c578d996b7b9d5",
+        "id": "39c4b1443661b70d",
         "type": "tabs",
         "children": [
           {
-            "id": "6861d66a4b02c4c4",
+            "id": "6bbf59873b6c23cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Permite comunicación mediocre pero no la practiques"
+              "title": "Trabajo_Remoto_No_Bloqueante"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Permite comunicación mediocre pero no la practiques"
+              "title": "Outline of Trabajo_Remoto_No_Bloqueante"
             }
           }
         ],
@@ -164,19 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6861d66a4b02c4c4",
+  "active": "6bbf59873b6c23cb",
   "lastOpenFiles": [
-    "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
+    "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
+    "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+    "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221306.png",
     "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
-    "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
-    "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
     "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
     "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Planning Sidekiq Queue - Judoscale.md",

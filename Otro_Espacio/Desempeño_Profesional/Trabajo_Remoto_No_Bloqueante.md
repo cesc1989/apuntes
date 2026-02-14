@@ -1,5 +1,7 @@
 # Trabajo Remoto No Bloqueante
 
+Etiquetas: #remote_work 
+
 Un buen hábito para desarrollar cuando se trabaja remoto.
 
 Toma decisiones y comunicalas pero intenta no quedar bloqueado esperando respuesta de otros.
