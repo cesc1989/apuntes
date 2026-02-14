@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "87416125dd91d9b4",
+        "id": "1fccc99bff50df8c",
         "type": "tabs",
         "children": [
           {
-            "id": "51e6be71c2f4a572",
+            "id": "e9ecb3b93b1ebe94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
+                "file": "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Trabajo Remoto es sobre encontrar el Balance"
+              "title": "Irradiar_Información_-_The_radiating_programmer"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
+                "file": "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trabajo Remoto es sobre encontrar el Balance"
+              "title": "Outline of Irradiar_Información_-_The_radiating_programmer"
             }
           }
         ],
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51e6be71c2f4a572",
+  "active": "e9ecb3b93b1ebe94",
   "lastOpenFiles": [
     "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
