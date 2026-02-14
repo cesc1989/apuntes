@@ -1,5 +1,7 @@
 # Permite recibir comunicación mediocre pero no la practiques
 
+Etiquetas: #remote_work 
+
 [Artículo original](https://thedailydeveloper.substack.com/p/accommodate-mediocre-communication).
 
 En el desarrollo de software existe el Principio de Robustez o Ley de Postel. Esta dice que:
@@ -22,4 +24,4 @@ Y esto lo veo en muchas ocasiones con J. Su forma de comunicación es muy clara 
 
 A mí también me causaba frustración en ocasiones cuando F no era muy claro en lo que me comunicaba. Luego de leer esto entiendo que debo hacer el esfuerzo yo por entender lo que me dice. Permitirle su forma (aunque cuando no se entiende sí pido aclaración) pero yo siempre me comunicaré de la mejor forma posible, clara y concisa.
 
-Al final, al permiter esa "mediocridad" de parte de ellos, hará que se sientan más cómodos comunicándome cosas y habrá más confianza.
+Al final, al permitir esa "mediocridad" de parte de ellos, hará que se sientan más cómodos comunicándome cosas y habrá más confianza.

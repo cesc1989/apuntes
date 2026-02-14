@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fccc99bff50df8c",
+        "id": "e0c578d996b7b9d5",
         "type": "tabs",
         "children": [
           {
-            "id": "e9ecb3b93b1ebe94",
+            "id": "6861d66a4b02c4c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Irradiar_Información_-_The_radiating_programmer"
+              "title": "Permite comunicación mediocre pero no la practiques"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
+                "file": "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Irradiar_Información_-_The_radiating_programmer"
+              "title": "Outline of Permite comunicación mediocre pero no la practiques"
             }
           }
         ],
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9ecb3b93b1ebe94",
+  "active": "6861d66a4b02c4c4",
   "lastOpenFiles": [
+    "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221711.png",
@@ -200,7 +201,6 @@
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 09 - Pruebas User Agents.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/attachments/coshinotes.favs.png",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
