@@ -1,4 +1,5 @@
 # Aprendizajes de los Releases
+
 Estos son apuntes variados de los aprendizajes ganados de hacer liberaciones (releases) en proyectos. Más que nada en Luna y más ahora que trabajamos mucho más en Edge.
 
 # Aprendizaje al lanzar Communication Preferences

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ac98c692497a8724",
+        "id": "3cc07b18d668b637",
         "type": "tabs",
         "children": [
           {
-            "id": "6af3ee970332110c",
+            "id": "3bec5703c6d015a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Aprendizajes_de_los_Releases"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Aprendizajes_de_los_Releases"
             }
           }
         ],
@@ -159,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6af3ee970332110c",
+  "active": "3bec5703c6d015a5",
   "lastOpenFiles": [
-    "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
     "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
+    "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
     "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
     "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
     "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
