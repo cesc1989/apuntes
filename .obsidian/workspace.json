@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "39c4b1443661b70d",
+        "id": "4632a3b71235f02c",
         "type": "tabs",
         "children": [
           {
-            "id": "6bbf59873b6c23cb",
+            "id": "694e4f299b063fcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
-                "mode": "source",
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Trabajo_Remoto_No_Bloqueante"
+              "title": "Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hardening",
+                "query": "ssh-add",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trabajo_Remoto_No_Bloqueante"
+              "title": "Outline of Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow"
             }
           }
         ],
@@ -164,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bbf59873b6c23cb",
+  "active": "694e4f299b063fcc",
   "lastOpenFiles": [
+    "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
     "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
     "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
@@ -176,7 +178,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221306.png",
     "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
-    "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
     "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
     "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Planning Sidekiq Queue - Judoscale.md",

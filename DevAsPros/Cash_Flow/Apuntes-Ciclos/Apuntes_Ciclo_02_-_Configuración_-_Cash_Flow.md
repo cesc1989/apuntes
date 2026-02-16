@@ -100,10 +100,25 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDhsvMg6pUEsWzYBEwTb89bKqGCU1sQlVB74xvjsCIC
 **Respuesta:** Está presente al configurar el acceso desde el servidor a github. Se agrega de manera automática.
 
 
-# Configuración GH
+# Configuración para hacer pull del repo GitHub desde el VPS
 
-1. Subí la llave privada al servidor
-2. Arranqué el agente ssh: `eval $(ssh-agent)`
-3. Agregué la llave privada al agente: `ssh-add ~/.ssh/gh_ubuntu`
-4. Probé la conexión a github: `ssh -T git@github.com`
+Primero, sube la llave privada al servidor
+```bash
+scp -i ~/.ssh/linode -P 54321 ~/.ssh/gh_ubuntu ubuntu@IP:~/.ssh/gh_ubuntu
+```
+
+Arranca el agente ssh
+```bash
+eval $(ssh-agent)
+```
+
+Agregar la llave privada al agente
+```bash
+ssh-add ~/.ssh/gh_ubuntu
+```
+
+Probar la conexión a github
+```bash
+ssh -T git@github.com
+```
 
