@@ -1,4 +1,4 @@
-# Apuntes Ciclo 02 - Configuración - Cash Flow
+# Apuntes Ciclo 02 - Configuración VPS - Cash Flow
 
 Etiquetas: #despliegue_vps 
 
