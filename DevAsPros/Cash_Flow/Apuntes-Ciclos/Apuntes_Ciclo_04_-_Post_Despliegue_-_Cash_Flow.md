@@ -7,36 +7,38 @@
 Algo está dañando el archivo al hacer rsync.
 
 Resulta que al ejecutar migraciones se está usando el archivo que está en
-
-    cashflow/deployments/api-release/db/cashflow_production.sqlite
+```
+cashflow/deployments/api-release/db/cashflow_production.sqlite
+```
 
 Y luego la app se ejecuta en otra carpeta que también tiene un archivo de base de datos
-
-    cashflow/app/db/cashflow_production.sqlite
+```
+cashflow/app/db/cashflow_production.sqlite
+```
 
 **Abrir bd en sqlite3**
-
-    sqlite3 cashflow/deployments/api-release/db/cashflow_production.sqlite
-
+```bash
+sqlite3 cashflow/deployments/api-release/db/cashflow_production.sqlite
+```
 
 ## ¿Qué hacer?
 
 - Procurar que ese archivo se sincronice
-- Cambiar la instrucción de rsync a --delete-after
-
+- Cambiar la instrucción de `rsync a --delete-after`
 
 ## Revisión
 
-En app/db/cashflow_production.sqlite:
-
-    sqlite> select count(1) from categories;
+En `app/db/cashflow_production.sqlite`:
+```sql
+sqlite> select count(1) from categories;
     81
+```
 
-En cashflow/deployments/api-release/db/cashflow_production.sqlite
-
-    sqlite> select count(1) from categories;
+En `cashflow/deployments/api-release/db/cashflow_production.sqlite`
+```sql
+sqlite> select count(1) from categories;
     0
-
+```
 
 ## Después de despliegue
 
@@ -44,16 +46,17 @@ Lo que va a pasar es que se está sincronizando el archivo de la carpeta de desp
 
 Veamos:
 
-En app/db/cashflow_production.sqlite:
-
-    sqlite> select count(1) from categories;
+En `app/db/cashflow_production.sqlite`:
+```sql
+sqlite> select count(1) from categories;
     0
+```
 
-En En cashflow/deployments/api-release/db/cashflow_production.sqlite
-
-    sqlite> select count(1) from categories;
+En En `cashflow/deployments/api-release/db/cashflow_production.sqlite`
+```sql
+sqlite> select count(1) from categories;
     0
-
+```
 
 ## ¿Solución?
 
@@ -166,23 +169,25 @@ If you like Certbot, please consider supporting our work by:
 Hay que instalar pip3
 
 Comandos:
-
-    sudo apt install -y python3-pip
-    pip3 --version
+```bash
+sudo apt install -y python3-pip
+pip3 --version
+```
 
 Comandos para el CLI:
+```bash
+pip3 install linode-cli --upgrade
 
-    pip3 install linode-cli --upgrade
-    
-    pip3 install boto3
-
+pip3 install boto3
+```
 
 ## Probar listar en el bucket
 
 El comando no es linode-cli object-storate sino
-
-    $ linode-cli obj ls
-    2023-07-14 21:18  cashflow-backups
+```
+$ linode-cli obj ls
+2023-07-14 21:18  cashflow-backups
+```
 
 El access token que se configure debe tener permisos de lectura en Account y de lecto-escritura para Object Storage.
 
