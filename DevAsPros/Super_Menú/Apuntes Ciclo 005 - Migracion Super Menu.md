@@ -18,6 +18,9 @@ Resumen de los pasos:
 	1. De AWS por carga de imágenes y el CDN
 9. Configurar el certificado SSL
 10. Comprobaciones de funcionalidad
+11. Desactivar todo lo del dap_node
+	1. Borrar carpeta supermenu
+	2. Borrar ENVs correspondientes
 
 # Detalles de la Migración
 
