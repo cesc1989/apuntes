@@ -74,6 +74,30 @@ fi
 
 Ver [[Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow#Uso de Certbot para generar certificados]]
 
+Me tocó desactivar la sección SSL del archivo nginx porque sino salía otra cosa en certbot. Lo dejé solo con el bloque http (puerto 80) y luego sí pude hacer el proceso como en el documento enlazado.
+
+```bash
+Which names would you like to activate HTTPS for?
+We recommend selecting either all domains, or all domains in a VirtualHost/server block.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: supermenu.devaspros.com
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+blank to select all options shown (Enter 'c' to cancel): 1
+Requesting a certificate for supermenu.devaspros.com
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/supermenu.devaspros.com/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/supermenu.devaspros.com/privkey.pem
+This certificate expires on 2026-05-18.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+Deploying certificate
+Successfully deployed certificate for supermenu.devaspros.com to /etc/nginx/sites-enabled/nginx.supermenu.production.conf
+Congratulations! You have successfully enabled HTTPS on https://supermenu.devaspros.com
+```
+
 ## Desactivar servicio en dap_node
 
 Hay que apagar el proceso de passenger para esta aplicación. ¿Hay que hacer algo o solo basta con borrar los archivos y el host de nginx?
