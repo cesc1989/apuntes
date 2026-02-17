@@ -211,7 +211,7 @@ Done.
 ```
 
 
-# Configurar acceso ssh en una GitHub Action
+# Configurar acceso ssh en una GitHub Action 🔑
 
 Etiquetas: #despliegue_vps
 
