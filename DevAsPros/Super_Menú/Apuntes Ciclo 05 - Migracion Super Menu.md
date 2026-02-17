@@ -101,6 +101,37 @@ Successfully deployed certificate for supermenu.devaspros.com to /etc/nginx/site
 Congratulations! You have successfully enabled HTTPS on https://supermenu.devaspros.com
 ```
 
+## Error de acceso de passenger + nginx 🐞
+
+Me dio este error luego que todo estuviera en orden e intenté acceder a la web:
+```bash
+tail log/nginx.error.log 
+
+2026/02/17 17:46:35 [alert] 27042
+27042: *4 Error opening '/home/ubuntu/supermenu/app/Passengerfile.json' for reading: Permission denied (errno=13); This error means that the Nginx worker process (PID 27042, running as UID 33) does not have permission to access this file. Please read this page to learn how to fix this problem: https://www.phusionpassenger.com/library/admin/nginx/troubleshooting/?a=upon-accessing-the-web-app-nginx-reports-a-permission-denied-error;
+Extra info, client: 176.65.148.161, server: supermenu.devaspros.com, request: "HEAD / HTTP/1.1", host: "supermenu.devaspros.com", referrer: "http://supermenu.devaspros.com"
+```
+
+La solución es relajar los permisos del usuario de sistema. En este caso `ubuntu`.
+Permisos malos:
+```bash
+ls -ld /home/ubuntu
+
+drwxr-x--- 12 ubuntu ubuntu 4096 Feb 17 17:46 /home/ubuntu
+```
+
+Comando para corregir:
+```bash
+sudo chmod 0755 /home/ubuntu
+```
+
+Permisos buenos:
+```bash
+ls -ld /home/ubuntu
+
+drwxr-xr-x 12 ubuntu ubuntu 4096 Feb 17 17:46 /home/ubuntu
+```
+
 ## Desactivar servicio en dap_node
 
 Hay que apagar el proceso de passenger para esta aplicación. ¿Hay que hacer algo o solo basta con borrar los archivos y el host de nginx?
