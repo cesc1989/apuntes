@@ -1,4 +1,4 @@
-# Apuntes Ciclo 002
+# Apuntes Ciclo 02
 
 ## Devise::SessionsController hereda de ApplicationController
 
