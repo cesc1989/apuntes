@@ -132,6 +132,21 @@ ls -ld /home/ubuntu
 drwxr-xr-x 12 ubuntu ubuntu 4096 Feb 17 17:46 /home/ubuntu
 ```
 
-## Desactivar servicio en dap_node
+# Desactivar servicio en dap_node 🚮
 
 Hay que apagar el proceso de passenger para esta aplicación. ¿Hay que hacer algo o solo basta con borrar los archivos y el host de nginx?
+
+Borrar archivo de nginx:
+```bash
+sudo rm /etc/nginx/sites-enabled/nginx.supermenu.production.conf
+```
+
+Borrar carpeta del proyecto:
+```bash
+rm -rf ./supermenu
+```
+
+Borrar certificado ssl:
+```bash
+sudo certbot delete --cert-name supermenu.devaspros.com
+```
