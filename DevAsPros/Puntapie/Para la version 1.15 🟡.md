@@ -62,3 +62,7 @@ tree -L 2 ./
 │   ├── db
 │   └── deployments
 ```
+
+## Actualizar README de carpeta de despliegues
+
+Para que se refleje la nueva estructura de carpetas y actualizar el comando de crear las carpetas del proyecto en el VPS.

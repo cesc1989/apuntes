@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
+              "title": "Para la version 1.15 🟡"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclo 005 - Migracion Super Menu.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 005 - Migracion Super Menu"
+              "title": "Outline of Para la version 1.15 🟡"
             }
           }
         ],
@@ -178,11 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a270c5e7af222172",
+  "active": "4ee487040b75af09",
   "lastOpenFiles": [
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 005 - Migracion Super Menu.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 004.md",
     "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
