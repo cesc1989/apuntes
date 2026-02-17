@@ -74,6 +74,8 @@ Luego, en el database.yml apunté a el archivo que será único.
 
 # Instalar certificados SSL con Certbot
 
+Etiquetas: #despliegue_vps 
+
 *NOTA: no enlaces los certificados en las directivas del archivo nginx o habrá error de configuración en el servidor.*
 
 Comandos instalación de Certbot:
