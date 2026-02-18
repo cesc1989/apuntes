@@ -26,8 +26,6 @@ Así también podemos salir de dos clases de servicios y de workers. Archivos a 
 - `app/workers/credentialing/hubspot_form_files_worker.rb`
 - `app/workers/credentialing/hubspot_form_url_worker.rb`
 
-
-
 ### Generar prod-op para Contactos desactualizados
 
 Contactos afectados:
@@ -41,3 +39,6 @@ Contactos afectados:
 | 113216005642 | travis@reachphysicaltherapy.com |        |
 | 120203084058 | mottola86@hotmail.com           |        |
 | 160147419431 | sandra.stuckey@earthlink.net    |        |
+
+> [!Note]
+> Ninguno de estos Contactos existe como registro en la tabla `tc_therapists`. O sea que nunca se registraron mediante la página de Credentialing.
