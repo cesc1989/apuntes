@@ -26,7 +26,7 @@ Así también podemos salir de dos clases de servicios y de workers. Archivos a 
 - `app/workers/credentialing/hubspot_form_files_worker.rb`
 - `app/workers/credentialing/hubspot_form_url_worker.rb`
 
-### Generar prod-op para Contactos desactualizados
+### Generar prod-op para Contactos desactualizados ❌
 
 Contactos afectados:
 
