@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica Propiedades de Signup en ContactService.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NEX-3370 Unifica Propiedades de Signup en ContactService"
+              "title": "NEX-3370 Unifica HS Props de Signup"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 430.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica Propiedades de Signup en ContactService.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NEX-3370 Unifica Propiedades de Signup en ContactService"
+              "title": "Outline of NEX-3370 Unifica HS Props de Signup"
             }
           }
         ],
@@ -166,7 +166,7 @@
   },
   "active": "d4682abd3e096066",
   "lastOpenFiles": [
-    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica Propiedades de Signup en ContactService.md",
+    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 05 - Migracion Super Menu.md",

@@ -1,4 +1,4 @@
-# NEX-3370 Unifica Propiedades en ContactService
+# NEX-3370 Unifica Propiedades en `HubspotContactService`
 
 Etiquetas: #luna_help_desk 
 
