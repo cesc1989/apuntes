@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3eaaee0c33ac848b",
+        "id": "24831803cd74229b",
         "type": "tabs",
         "children": [
           {
-            "id": "c2a93cfa8353aa73",
+            "id": "d4682abd3e096066",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica Propiedades de Signup en ContactService.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "NEX-3370 Unifica Propiedades de Signup en ContactService"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica Propiedades de Signup en ContactService.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of NEX-3370 Unifica Propiedades de Signup en ContactService"
             }
           }
         ],
@@ -159,8 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2a93cfa8353aa73",
+  "active": "d4682abd3e096066",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica Propiedades de Signup en ContactService.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
+    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 05 - Migracion Super Menu.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 04.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 02.md",
@@ -191,9 +199,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments/sidekiq.dedicated.worker.per.queue.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
-    "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
-    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
-    "DevAsPros/Enlacito/reddit.marketing.md",
     "DevAsPros/Enlacito/Descubrimiento/tinyurl/attachments/005.plans.png",
     "DevAsPros/Enlacito/Descubrimiento/tinyurl/attachments/006.free.links.png",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
