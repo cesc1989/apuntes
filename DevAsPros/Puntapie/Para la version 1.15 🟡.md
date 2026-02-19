@@ -20,6 +20,10 @@ Ver CashFlow y CoshiNotes.
 
 Ver CashFlow y CoshiNotes.
 
+## Actualizar FactoryBot a 6.5.0
+
+Para prevenir problema con la librería `observer` que fue removida en Ruby 3.4
+
 ## Aplicar cambios de registrations path 🟡
 
 Los últimos cambios hechos en enlacito para completar el registro.
