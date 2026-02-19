@@ -12,6 +12,14 @@ Para que tenga soporte con redis-server versión 7.x.x
 
 Para compatibilidad con versiones más recientes de la gema redis
 
+## Actualizar a Ruby 3.4.8
+
+Ver CashFlow y CoshiNotes.
+
+## Actualizar sqlite3 a 2.9.0
+
+Ver CashFlow y CoshiNotes.
+
 ## Aplicar cambios de registrations path 🟡
 
 Los últimos cambios hechos en enlacito para completar el registro.
