@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7377f29ededd86bb",
+        "id": "298d8ee5cd0edca7",
         "type": "tabs",
         "children": [
           {
-            "id": "fa330a2e7b87138a",
+            "id": "6546e7669e452036",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
+                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Therapist_Signup_Enabled_States"
+              "title": "Pasos_para_Agregar_un_nuevo_Estado"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
+                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Therapist_Signup_Enabled_States"
+              "title": "Outline of Pasos_para_Agregar_un_nuevo_Estado"
             }
           }
         ],
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa330a2e7b87138a",
+  "active": "6546e7669e452036",
   "lastOpenFiles": [
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
