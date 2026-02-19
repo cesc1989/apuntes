@@ -1,28 +1,34 @@
 # Para la versión 1.15
 
-## Especificar el puerto del VPS en el github action
+## Actualizaciones de Versiones
 
-Agregar `Port 54321` a la configuración del action de despliegue.
+### Subir Rails a 7.1.6
 
-## Actualizar gema redis a la versión 5.4.1 o mayor
+Para estar más cerca de 7.2
+
+### Actualizar gema redis a la versión 5.4.1 o mayor
 
 Para que tenga soporte con redis-server versión 7.x.x
 
-## Actualizar gema Sidekiq a la versión 7.3.0 o mayor
+### Actualizar gema Sidekiq a la versión 7.3.0 o mayor
 
 Para compatibilidad con versiones más recientes de la gema redis
 
-## Actualizar a Ruby 3.4.8
+### Actualizar a Ruby 3.4.8
 
 Ver CashFlow y CoshiNotes.
 
-## Actualizar sqlite3 a 2.9.0
+### Actualizar sqlite3 a 2.9.0
 
 Ver CashFlow y CoshiNotes.
 
-## Actualizar FactoryBot a 6.5.0
+### Actualizar FactoryBot a 6.5.0
 
 Para prevenir problema con la librería `observer` que fue removida en Ruby 3.4
+
+## Especificar el puerto del VPS en el github action
+
+Agregar `Port 54321` a la configuración del action de despliegue.
 
 ## Aplicar cambios de registrations path 🟡
 
