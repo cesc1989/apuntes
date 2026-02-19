@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "298d8ee5cd0edca7",
+        "id": "820ac218cc395a36",
         "type": "tabs",
         "children": [
           {
-            "id": "6546e7669e452036",
+            "id": "95f9e46c30206f2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Better fix for Medicare Req. Answers.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pasos_para_Agregar_un_nuevo_Estado"
+              "title": "NEX-3370 Better fix for Medicare Req. Answers"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Better fix for Medicare Req. Answers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasos_para_Agregar_un_nuevo_Estado"
+              "title": "Outline of NEX-3370 Better fix for Medicare Req. Answers"
             }
           }
         ],
@@ -164,8 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6546e7669e452036",
+  "active": "95f9e46c30206f2b",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/NEX-3370 Better fix for Medicare Req. Answers.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
@@ -195,8 +197,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/05.draft.process.2.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221306.png",
-    "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
-    "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments/sidekiq.dedicated.worker.per.queue.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments",
     "DevAsPros/Enlacito/Descubrimiento/tinyurl/attachments/005.plans.png",
