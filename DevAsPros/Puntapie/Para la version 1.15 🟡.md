@@ -74,3 +74,9 @@ La versión actual solo lo arranca pero no lo actualiza por lo tanto el código 
 Ver: https://github.com/cesc1989/enlacito/commit/aac18e7b94922c03be124920c33a5437c9622836
 
 Y: https://github.com/cesc1989/enlacito/commit/5928bb510c9255118e690af8c729570ea1a4ed73
+
+## Indica la versión de ruby esperada con chruby durante despliegue
+
+Ver: https://github.com/cesc1989/cashflow/commit/e031840a2ba76e80d9159633460c91900b41da17
+
+Para evitar problemas durante upgrades de Ruby es mejor siempre especificar. Así se limpia la elección de chruby en el `.profile`.
