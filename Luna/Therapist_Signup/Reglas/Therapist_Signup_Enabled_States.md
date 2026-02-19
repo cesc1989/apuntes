@@ -1,5 +1,7 @@
 # Therapist Signup: Enabled States
 
+última actualización: 2026-02-19
+
 1. Arizona
 2. California
 3. Colorado
@@ -9,25 +11,26 @@
 7. Florida
 8. Georgia
 9. Illinois
-10. Indiana: July 17th
-11. Kansas
-12. Maryland
-13. Massachusetts
-14. Michigan
-15. Minnesota
-16. Missouri
-17. Nevada
-18. New Jersey
-19. New York
-20. North Carolina
-21. Ohio
-22. Oklahoma
-23. Oregon
-24. Pennsylvania
-25. Tennessee
-26. Texas
-27. Utah
-28. Virginia
-29. Washington
-30. Wisconsin
+10. Indiana
+11. Iowa: agregado en Feb. 2026
+12. Kansas
+13. Maryland
+14. Massachusetts
+15. Michigan
+16. Minnesota
+17. Missouri
+18. Nevada
+19. New Jersey
+20. New York
+21. North Carolina
+22. Ohio
+23. Oklahoma
+24. Oregon
+25. Pennsylvania
+26. Tennessee
+27. Texas
+28. Utah
+29. Virginia
+30. Washington
+31. Wisconsin
 
