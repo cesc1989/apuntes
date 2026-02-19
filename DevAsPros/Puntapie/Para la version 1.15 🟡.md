@@ -73,6 +73,4 @@ La versión actual solo lo arranca pero no lo actualiza por lo tanto el código 
 
 Ver: https://github.com/cesc1989/enlacito/commit/aac18e7b94922c03be124920c33a5437c9622836
 
-## Mandar logs de Sidekiq a la carpeta log de la aplicación
-
-Ver: https://github.com/cesc1989/enlacito/commit/ea005f5c2c38d045e62f5b0d8cae30b22cf6d5c8
+Y: https://github.com/cesc1989/enlacito/commit/5928bb510c9255118e690af8c729570ea1a4ed73
