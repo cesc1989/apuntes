@@ -66,3 +66,13 @@ tree -L 2 ./
 ## Actualizar README de carpeta de despliegues
 
 Para que se refleje la nueva estructura de carpetas y actualizar el comando de crear las carpetas del proyecto en el VPS.
+
+## Actualiza script de despliegue para que reinicie Sidekiq
+
+La versión actual solo lo arranca pero no lo actualiza por lo tanto el código nuevo no se refleja en el job.
+
+Ver: https://github.com/cesc1989/enlacito/commit/aac18e7b94922c03be124920c33a5437c9622836
+
+## Mandar logs de Sidekiq a la carpeta log de la aplicación
+
+Ver: https://github.com/cesc1989/enlacito/commit/ea005f5c2c38d045e62f5b0d8cae30b22cf6d5c8

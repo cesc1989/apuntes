@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "24831803cd74229b",
+        "id": "4d7a4815b6e661e5",
         "type": "tabs",
         "children": [
           {
-            "id": "d4682abd3e096066",
+            "id": "fb22e2637c492ee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup.md",
-                "mode": "preview",
+                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NEX-3370 Unifica HS Props de Signup"
+              "title": "Para la version 1.15 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NEX-3370 Unifica HS Props de Signup"
+              "title": "Outline of Para la version 1.15 🟡"
             }
           }
         ],
@@ -164,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4682abd3e096066",
+  "active": "fb22e2637c492ee2",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
+    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟡.md",
     "Untitled.md",
-    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "DevAsPros/Super_Menú/Apuntes Ciclo 05 - Migracion Super Menu.md",
@@ -196,7 +197,6 @@
     "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
     "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Planning Sidekiq Queue - Judoscale.md",
-    "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments/sidekiq.dedicated.worker.per.queue.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments",
     "DevAsPros/Enlacito/Descubrimiento/tinyurl/attachments/005.plans.png",
