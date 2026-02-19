@@ -2,12 +2,22 @@
 
 Cuando quiero agregar un nuevo estado donde Luna va a estar disponible hay que montar el archivo PDF del acuerdo de terapeutas a S3 (uno por cada entorno).
 
-## Rake tasks a ejecutar
+## Crear nuevo registro de `Credentialing::ServiceState`
 
-Hay que ejecutar la siguiente rake task:
-```bash
-rake service_states:add_new_service_state[nuevo_estado]
+> [!Note]
+> Esto antes era una rake pero después del AppBlend se borraron las rakes. Ahora es solo correr una query active record.
+> 
+> La rake era esta: https://github.com/lunacare/therapist-credentialing-backend/blob/upgrade_ruby_to_316/lib/tasks/007_handle_service_states.rake
+
+Se crea así:
+```ruby
+ServiceState.create(
+  name: "Iowa",
+  enabled: true,
+  legal_name: "Iowa Luna Care Physical Therapy, LLC"
+)
 ```
+
 
 ## Archivos a subir a S3
 
