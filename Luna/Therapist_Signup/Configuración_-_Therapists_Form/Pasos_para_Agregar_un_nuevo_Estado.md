@@ -27,13 +27,13 @@ El texto del agreement, que normalmente lo entregan en documento word, hay que c
 > El nombre del archivo debería seguir la forma “[estado]_agreement.pdf”, ejemplo: “colorado_agreement.pdf”.
 
 Alpha
-```
-aws s3 cp ~/Documents/Documents/luna-dev-files/therapists-signup/agreements-pdf/massachusetts_agreement.pdf s3://luna-alpha-workloads-therapist-signup-agreement-pdfs/
+```bash
+aws s3 cp ~/Documents/Documents/luna-dev-files/therapists-signup/agreements-pdf/iowa_agreement.pdf s3://luna-alpha-workloads-therapist-signup-agreement-pdfs/
 ```
 
 Omega
 ```bash
-aws s3 cp ~/Documents/Documents/luna-dev-files/therapists-signup/agreements-pdf/massachusetts_agreement.pdf  s3://luna-omega-workloads-therapist-signup-agreement-pdfs/
+aws s3 cp ~/Documents/Documents/luna-dev-files/therapists-signup/agreements-pdf/iowa_agreement.pdf s3://luna-omega-workloads-therapist-signup-agreement-pdfs/
 ```
 
 ## Relacionados
