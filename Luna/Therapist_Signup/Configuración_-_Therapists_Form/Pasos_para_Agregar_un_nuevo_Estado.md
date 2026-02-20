@@ -28,12 +28,12 @@ El texto del agreement, que normalmente lo entregan en documento word, hay que c
 
 Alpha
 ```
-aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements.new.address/massachusetts_agreement.pdf s3://luna-staging-therapist-signup-agreement-pdfs/
+aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements-pdf/massachusetts_agreement.pdf s3://luna-staging-therapist-signup-agreement-pdfs/
 ```
 
 Omega
 ```bash
-aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements.new.address/massachusetts_agreement.pdf  s3://therapist-cred-agreements-pdfs/
+aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements-pdf/massachusetts_agreement.pdf  s3://therapist-cred-agreements-pdfs/
 ```
 
 ## Relacionados
