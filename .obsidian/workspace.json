@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f038a60ab64c004b",
+        "id": "d68ee1502313c222",
         "type": "tabs",
         "children": [
           {
-            "id": "2d049566805f7c10",
+            "id": "c025ba1c650043dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pasos_para_Agregar_un_nuevo_Estado"
+              "title": "NEX-3377 Better fix for Medicare Req. Answers 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasos_para_Agregar_un_nuevo_Estado"
+              "title": "Outline of NEX-3377 Better fix for Medicare Req. Answers 🟡"
             }
           }
         ],
@@ -164,11 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d049566805f7c10",
+  "active": "c025ba1c650043dd",
   "lastOpenFiles": [
-    "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
-    "Luna/Therapist_Signup/Casos/NEX-3370 Better fix for Medicare Req. Answers 🟡.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
+    "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
+    "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
