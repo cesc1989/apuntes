@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d68ee1502313c222",
+        "id": "5cc58aee4e118a3f",
         "type": "tabs",
         "children": [
           {
-            "id": "c025ba1c650043dd",
+            "id": "fcca3f1990ba768c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NEX-3377 Better fix for Medicare Req. Answers 🟡"
+              "title": "NEX-3370 Unifica HS Props de Signup 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
+                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NEX-3377 Better fix for Medicare Req. Answers 🟡"
+              "title": "Outline of NEX-3370 Unifica HS Props de Signup 🟢"
             }
           }
         ],
@@ -164,15 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c025ba1c650043dd",
+  "active": "fcca3f1990ba768c",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
-    "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟡.md",
+    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
     "Untitled.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
