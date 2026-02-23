@@ -20,6 +20,6 @@ Therapists afectados:
 
 Cambiar la generación de las answers para que deje de saltar validaciones y que vayan con el `content` en "No". Además que haga todo en una sola consulta.
 
-### Validar que las answers hayan sido respondidas antes del Submit 🟡
+### Validar que las answers hayan sido respondidas antes del Submit 🟢
 
 No había validación para esto en backend. Agregar las validaciones correspondientes para que si alguna answer no fue respondida con valores Yes/No, se marque el Medicare Req. como inválido.

@@ -11,10 +11,14 @@
             "id": "db4cd5c2d1f9763a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "NEX-3377 Better fix for Medicare Req. Answers 🟢"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of NEX-3377 Better fix for Medicare Req. Answers 🟢"
             }
           }
         ],
@@ -165,7 +170,7 @@
     "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
     "Otro_Espacio/Blog/posts/01 - Probando desde Obsidian.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
-    "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
+    "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟢.md",
     "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
