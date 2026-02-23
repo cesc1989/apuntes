@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f8ecf6202f60f6a9",
+        "id": "a738e98f57d7812c",
         "type": "tabs",
         "children": [
           {
-            "id": "4efb13c0f3facd5e",
+            "id": "db4cd5c2d1f9763a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,10 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "4efb13c0f3facd5e",
+  "active": "db4cd5c2d1f9763a",
   "lastOpenFiles": [
-    "Otro_Espacio/Blog/posts/Sidekiq como Demonio en VPS.md",
-    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
+    "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
+    "Otro_Espacio/Blog/posts/01 - Probando desde Obsidian.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
     "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
