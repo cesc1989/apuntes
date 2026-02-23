@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b5ba7e590a94cd19",
+        "id": "70e489cf80596392",
         "type": "tabs",
         "children": [
           {
-            "id": "627007a41f21caa2",
+            "id": "8a8e03a5fc015c84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
-                "mode": "source",
+                "file": "DevAsPros/Servidor/Configurando Bugsink.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Para la version 1.15 🟡"
+              "title": "Configurando Bugsink"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
+                "file": "DevAsPros/Servidor/Configurando Bugsink.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Para la version 1.15 🟡"
+              "title": "Outline of Configurando Bugsink"
             }
           }
         ],
@@ -165,15 +165,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "627007a41f21caa2",
+  "active": "8a8e03a5fc015c84",
   "lastOpenFiles": [
+    "DevAsPros/Servidor/attachments/bugsink.initial.setup.png",
+    "DevAsPros/Servidor/Configurando Bugsink.md",
+    "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟢.md",
     "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
     "Otro_Espacio/Blog/posts/01 - Probando desde Obsidian.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
-    "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
@@ -191,8 +193,6 @@
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
-    "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
-    "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
@@ -205,7 +205,6 @@
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/attachments/coshinotes.favs.png",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/attachments/001.crons.sidekiq.web.png",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos",
     "Canvas/Comanditos.canvas",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
