@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5cc58aee4e118a3f",
+        "id": "89b1c3d181dde33b",
         "type": "tabs",
         "children": [
           {
-            "id": "fcca3f1990ba768c",
+            "id": "6e276146610ab1ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
+                "file": "Otro_Espacio/Blog/posts/Sidekiq como Demonio en VPS.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NEX-3370 Unifica HS Props de Signup 🟢"
+              "title": "Sidekiq como Demonio en VPS"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
+                "file": "Otro_Espacio/Blog/posts/Sidekiq como Demonio en VPS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NEX-3370 Unifica HS Props de Signup 🟢"
+              "title": "Outline of Sidekiq como Demonio en VPS"
             }
           }
         ],
@@ -161,18 +161,22 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "fcca3f1990ba768c",
+  "active": "6e276146610ab1ee",
   "lastOpenFiles": [
+    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
+    "Otro_Espacio/Blog/posts/Sidekiq como Demonio en VPS.md",
+    "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
+    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
     "Luna/Therapist_Signup/Time Formats no Migrados.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
     "Untitled.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
@@ -189,9 +193,6 @@
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_06_-_Analítica_-_Cash_Flow.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo_Remoto_No_Bloqueante.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance.md",
-    "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
-    "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
-    "Otro_Espacio/Desempeño_Profesional/Irradiar_Información_-_The_radiating_programmer.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",

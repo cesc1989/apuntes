@@ -21,7 +21,7 @@
       }
     }
   ],
-  "showRibbonIcon": false,
+  "showRibbonIcon": true,
   "defaultPostStatus": "publish",
   "defaultCommentStatus": "open",
   "rememberLastSelectedCategories": true,
