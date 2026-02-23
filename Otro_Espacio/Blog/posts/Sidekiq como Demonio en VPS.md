@@ -1,6 +1,10 @@
 ---
 title: Configurar Sidekiq como demonio en un VPS
 profileName: Otro Espacio Blog
+postId: 5299
+postType: post
+categories:
+  - 6652
 ---
 
 Desde mis inicios en Ruby on Rails el application server que uso es Passenger. Siempre me pareció sencillo de usar y configurar porque se integra directo con Ngnix. Passenger es bueno pero hay muchas configuraciones que solo se pueden usar si se paga la licencia. Esta no es muy barata para proyectos hobby o empresas pequeñas. En ese caso la alternativa es Puma.
