@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "89b1c3d181dde33b",
+        "id": "f8ecf6202f60f6a9",
         "type": "tabs",
         "children": [
           {
-            "id": "6e276146610ab1ee",
+            "id": "4efb13c0f3facd5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Blog/posts/Sidekiq como Demonio en VPS.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sidekiq como Demonio en VPS"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Blog/posts/Sidekiq como Demonio en VPS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sidekiq como Demonio en VPS"
+              "title": "Outline"
             }
           }
         ],
@@ -165,10 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "6e276146610ab1ee",
+  "active": "4efb13c0f3facd5e",
   "lastOpenFiles": [
-    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "Otro_Espacio/Blog/posts/Sidekiq como Demonio en VPS.md",
+    "Otro_Espacio/Blog/posts/Probando desde Obsidian.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟡.md",
     "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
