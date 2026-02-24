@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "70e489cf80596392",
+        "id": "ccdb315f5d585434",
         "type": "tabs",
         "children": [
           {
-            "id": "8a8e03a5fc015c84",
+            "id": "a7f6aa45e509d03a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Servidor/Configurando Bugsink.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Configurando Bugsink"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Servidor/Configurando Bugsink.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando Bugsink"
+              "title": "Outline"
             }
           }
         ],
@@ -165,10 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8a8e03a5fc015c84",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "DevAsPros/Servidor/attachments/bugsink.initial.setup.png",
-    "DevAsPros/Servidor/Configurando Bugsink.md",
+    "DevAsPros/Infra/Configurando Bugsink.md",
+    "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟢.md",
     "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
@@ -208,8 +203,8 @@
     "DevAsPros/Cash_Flow/Apuntes-Ciclos",
     "Canvas/Comanditos.canvas",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
-    "DevAsPros/Servidor/attachments",
-    "DevAsPros/Servidor",
+    "DevAsPros/Infra/attachments",
+    "DevAsPros/Infra",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
     "Luna/Chart CoPilot",
