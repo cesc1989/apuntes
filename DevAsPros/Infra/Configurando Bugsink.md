@@ -10,6 +10,17 @@ Website: https://www.bugsink.com/
 
 Es hecho por un independientes. Está escrito en Python. Funciona con el mismo SDK de Sentry así que es breve usarlo. Solo hay que cambiar el DSN.
 
+### Recursos 🧾
+
+Según Pikapods necesita mínimo:
+
+- 1 cpu
+- 1gb de RAM
+
+### Costo 💰
+
+Febrero 23, 2026: 2.73 usd/mes
+
 ## Configuración
 
 Una vez lanzado el proyecto en Pikapods (siguiendo las [instrucciones](https://www.bugsink.com/docs/settings/) para las variables de entorno) no había mucho que hacer en la UI. Solo crear un proyecto y cambiar el DSN en el proyecto.
