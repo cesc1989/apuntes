@@ -39,12 +39,12 @@ Cuando hay que modificar varios al tiempo, lo mejor es subirlos al tiempo tambi√
 
 **En Alpha**
 ```
-aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements-pdf/ s3://luna-alpha-workloads-therapist-signup-agreement-pdfs/ --recursive
+aws s3 cp ~/Documents/Documents/luna-dev-files/therapists-signup/agreements-pdf/ s3://luna-alpha-workloads-therapist-signup-agreement-pdfs/ --recursive
 ```
 
 **En Omega**
 ```
-aws s3 cp ~/Documents/luna-dev-files/therapists-signup/agreements-pdf/ s3://luna-omega-workloads-therapist-signup-agreement-pdfs/ --recursive
+aws s3 cp ~/Documents/Documents/luna-dev-files/therapists-signup/agreements-pdf/ s3://luna-omega-workloads-therapist-signup-agreement-pdfs/ --recursive
 ```
 
 Documentaci√≥n del [comando cp](https://docs.aws.amazon.com/cli/latest/reference/s3/cp.html).
