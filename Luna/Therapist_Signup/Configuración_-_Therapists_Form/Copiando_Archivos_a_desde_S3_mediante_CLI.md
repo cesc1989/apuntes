@@ -6,14 +6,14 @@ Para el proyecto Therapist Signup, los archivos PDF de los *agreements* están e
 
 Primero, podemos listar archivos así:
 ```bash
-$ aws s3 ls # para ver los buckets
+aws s3 ls # para ver los buckets
 # 2021-03-17 10:48:42 luna-alpha-workloads-therapist-signup
 
-$ aws s3 ls [NOMBRE_DEL_BUCKET] # para ver contenido del bucket
-$ aws s3 ls luna-alpha-workloads-therapist-signup
+aws s3 ls [NOMBRE_DEL_BUCKET] # para ver contenido del bucket
+aws s3 ls luna-alpha-workloads-therapist-signup
 
 # para ver contenido de carpeta
-$ aws s3 ls luna-alpha-workloads-therapist-signup/quintero_kansas_fran_kansas_2021-05-14/
+aws s3 ls luna-alpha-workloads-therapist-signup/quintero_kansas_fran_kansas_2021-05-14/
 #                           PRE signup/
 # 2021-05-14 16:48:27          0 
 # 2021-05-14 17:07:38         54 Payout.txt

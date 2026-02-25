@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "Copiando_Archivos_a_desde_S3_mediante_CLI"
             }
-          },
-          {
-            "id": "bcaf01f75399b453",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Pasos_para_Agregar_un_nuevo_Estado"
-            }
-          },
-          {
-            "id": "04a67e28cf5a7542",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Therapist_Signup_Enabled_States"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
+                "file": "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Therapist_Signup_Enabled_States"
+              "title": "Outline of Copiando_Archivos_a_desde_S3_mediante_CLI"
             }
           }
         ],
@@ -194,11 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "04a67e28cf5a7542",
+  "active": "3a19645aa39eea87",
   "lastOpenFiles": [
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
     "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
+    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
