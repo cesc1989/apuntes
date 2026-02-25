@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4e8dc040689eafae",
+        "id": "bd8c64a01c7a3b70",
         "type": "tabs",
         "children": [
           {
-            "id": "cd1d072377af0f32",
+            "id": "ea9af064be84f7e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Infra/Configurando Bugsink.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lecciones Ruby - Therapist Signup"
+            }
+          },
+          {
+            "id": "10659684ef7e812c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configurando Bugsink"
+              "title": "Apuntes Rails Parte 1 - Therapist Signup"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Configurando Bugsink.md",
+                "file": "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configurando Bugsink"
+              "title": "Outline of Lecciones Ruby - Therapist Signup"
             }
           }
         ],
@@ -165,16 +179,22 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "cd1d072377af0f32",
+  "active": "ea9af064be84f7e3",
   "lastOpenFiles": [
-    "DevAsPros/Infra/Configurando Bugsink.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
+    "Luna/Therapist_Signup/Casos/NEX-3403 - Cambio en generación de Tempcanvas.md",
+    "DevAsPros/Infra/Configuración de Backups 🟢.md",
+    "Otro_Espacio/Blog/posts/01 - Probando desde Obsidian.md",
     "DevAsPros/Infra/Cronitor.md",
+    "DevAsPros/Infra/Passenger Status.md",
+    "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Luna/Therapist_Signup/Casos/NEX-3377 Better fix for Medicare Req. Answers 🟢.md",
     "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
-    "Otro_Espacio/Blog/posts/01 - Probando desde Obsidian.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
@@ -189,11 +209,6 @@
     "DevAsPros/Super_Menú/Apuntes Ciclo 02.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
-    "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_01_-_Backend_-_Cash_Flow.md",
-    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_04_-_Coshi_Notes_-_Despliegue.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_05_-_Pre_Lanzamiento_-_Cash_Flow.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",

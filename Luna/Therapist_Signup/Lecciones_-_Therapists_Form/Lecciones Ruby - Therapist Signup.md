@@ -1,16 +1,18 @@
 # Lecciones Ruby - Therapists
 
-# Reemplazar caracteres en un string por otra cosa
+## Reemplazar caracteres en un string por otra cosa
 
 Supongamos que quiero que en la siguiente cadena
-
-    "Alberto De la Espriella"
+```
+"Alberto De la Espriella"
+```
 
 los espacios sean cambiados por guiones medios o bajos:
+```
+"Alberto_De_la_Espriella"
 
-    "Alberto_De_la_Espriella"
-    
-    "Alberto-De-la-Espriella"
+"Alberto-De-la-Espriella"
+```
 
 Se puede hacer de dos formas. Una es con `[String#gsub](https://ruby-doc.org/core-2.5.3/String.html#method-i-gsub)` y la otra `[String#tr](https://ruby-doc.org/core-2.5.3/String.html#method-i-tr)`:
 ```ruby
@@ -19,7 +21,7 @@ Se puede hacer de dos formas. Una es con `[String#gsub](https://ruby-doc.org/cor
 ```
 
 
-# Creando un Digest MD5 para archivo en AWS
+## Creando un Digest MD5 para archivo en AWS
 
 Korey hizo un cambio en la clase `app/services/s3_attachments_folder_service.rb` donde quería crear un digest MD5 para la carpeta que contiene los archivos del terapeuta:
 ```ruby
@@ -34,8 +36,9 @@ end
 > Documentación sobre [Digest::MD5.file](https://ruby-doc.org/stdlib-2.7.1/libdoc/digest/rdoc/Digest/Instance.html#method-i-file)
 
 Sin embargo, esto da error porque `@folder_name` no existe como archivo. Es solo un string.
-
-    Errno::ENOENT (No such file or directory @ rb_sysopen - siete_serre_2023-01-04):
+```
+Errno::ENOENT (No such file or directory @ rb_sysopen - siete_serre_2023-01-04):
+```
 
 **¿Qué es un [Digest MD5](https://en.wikipedia.org/wiki/MD5)?**
 
@@ -63,7 +66,57 @@ Aws::S3::Errors::BadDigest (The Content-MD5 you specified did not match what we 
 
 La documentación de [put_object](https://docs.aws.amazon.com/sdk-for-ruby/v2/api/Aws/S3/Client.html#put_object-instance_method) sobre `content_md5`.
 
-    :content_md5 (String) — The base64-encoded 128-bit MD5 digest of the message (without the headers) according to RFC 1864. This header can be used as a message integrity check to verify that the data is the same data that was originally sent.
-    
-    Although it is optional, we recommend using the Content-MD5 mechanism as an end-to-end integrity check.
+```
+:content_md5 (String) — The base64-encoded 128-bit MD5 digest of the message (without the headers) according to RFC 1864. This header can be used as a message integrity check to verify that the data is the same data that was originally sent.
 
+Although it is optional, we recommend using the Content-MD5 mechanism as an end-to-end integrity check.
+```
+
+## Cambio en la generación de Tempcanvs con MiniMagick
+
+En la clase `Credentialing::SignatureGenerator` se genera un canvas temporal con esta instrucción:
+```ruby
+@tempcanvas = Tempfile.new(["canvas", ".png"], Rails.root.join("storage"))
+```
+
+Que luego se usa así:
+```ruby
+MiniMagick::Image.new(@tempcanvas.path, @tempcanvas)
+```
+
+Esto genera esta instancia:
+```ruby
+<MiniMagick::Image:0x0000000160950e00
+ @info=<MiniMagick::Image::Info:0x0000000160950dd8 @info={}, @path="/Users/francisco/projects/luna-project/backend/storage/canvas20260225-21012-w8cge7.png">,
+ @path="/Users/francisco/projects/luna-project/backend/storage/canvas20260225-21012-w8cge7.png",
+ @tempfile=<File:/Users/francisco/projects/luna-project/backend/storage/canvas20260225-21012-w8cge7.png>>
+```
+
+Por un error `Errno::ENOENT` causado por otra cosa Claudio sugirió pasar esa línea a lo siguiente:
+```diff
+- MiniMagick::Image.new(@tempcanvas.path, @tempcanvas)
++ MiniMagick::Image.new(@tempcanvas.path)
+```
+
+Lo cual genera esta instancia:
+```ruby
+<MiniMagick::Image:0x00000001607fa678
+ @info=<MiniMagick::Image::Info:0x00000001607fa5d8 @info={}, @path="/Users/francisco/projects/luna-project/backend/storage/canvas20260225-21012-w8cge7.png">,
+ @path="/Users/francisco/projects/luna-project/backend/storage/canvas20260225-21012-w8cge7.png",
+ @tempfile=nil>
+```
+
+¿Cuál es la diferencia?
+
+Según Claudio, el cambio es para evitar que se pierda el canvas cuando deje de usarse. El cambio completo fue:
+```ruby
+def generate_temporal_canvas
+	MiniMagick::Tool::Convert.new do |convert|
+		convert.size "#{IMAGE_WIDTH}x#{IMAGE_HEIGHT}"
+		convert.xc "white"
+		convert << @tempcanvas.path
+	end
+
+	@canvas_image = MiniMagick::Image.new(@tempcanvas.path)
+end
+```
