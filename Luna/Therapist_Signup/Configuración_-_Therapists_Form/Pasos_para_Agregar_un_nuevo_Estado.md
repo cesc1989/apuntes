@@ -39,3 +39,5 @@ aws s3 cp ~/Documents/Documents/luna-dev-files/therapists-signup/agreements-pdf/
 ## Relacionados
 
 Listado de estados activos [[Therapist_Signup_Enabled_States]]
+
+Carga masiva de Agreements [[Copiando_Archivos_a_desde_S3_mediante_CLI]]
