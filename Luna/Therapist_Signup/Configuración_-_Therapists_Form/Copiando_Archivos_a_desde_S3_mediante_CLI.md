@@ -1,5 +1,7 @@
 # Copiando Archivos a/desde S3 mediante CLI
 
+Etiquetas: #luna_agreements
+
 Para el proyecto Therapist Signup, los archivos PDF de los *agreements* están en un bucket en AWS S3. Para simplificar todo, accedo mediante CLI para revisar, descargar o subir los archivos.
 
 Primero, podemos listar archivos así:

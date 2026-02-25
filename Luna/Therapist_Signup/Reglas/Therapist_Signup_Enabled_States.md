@@ -1,5 +1,7 @@
 # Therapist Signup: Enabled States
 
+Etiquetas: #luna_agreements
+
 última actualización: 2026-02-19
 
 1. Arizona

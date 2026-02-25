@@ -1,5 +1,7 @@
 # Pasos para Agregar un nuevo Estado
 
+Etiquetas: #luna_agreements
+
 Cuando quiero agregar un nuevo estado donde Luna va a estar disponible hay que montar el archivo PDF del acuerdo de terapeutas a S3 (uno por cada entorno).
 
 ## Crear nuevo registro de `Credentialing::ServiceState`
