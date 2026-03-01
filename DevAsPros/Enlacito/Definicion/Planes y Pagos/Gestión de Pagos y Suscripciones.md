@@ -71,6 +71,10 @@ Por recibir el dinero al día siguiente hábil en cuenta Bold:
 - Tarjetas internacionales: **3.99% + 900 por transacción.**
 - PSE, Bancolombia y billeteras: **2.89% + 900 por transacción.**
 
+##### Cuenta Digital Bold
+
+En vez de abrir una cuenta bancaria en otro banco, se abre una en Bold por lo cual la plata de los cobros queda en este cuenta. Bold ofrece bolsillos y CDTs para hacer rendir ese dinero.
+
 ### Pasarelas Internacionales
 
 Encontré Rebill por recomendación de Kagi Assistant.
