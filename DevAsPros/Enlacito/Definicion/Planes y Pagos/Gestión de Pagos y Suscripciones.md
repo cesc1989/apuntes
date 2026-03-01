@@ -90,7 +90,7 @@ Encontré varias:
 - Dodo Payments: https://dodopayments.com/
 	- Disponible para Colombia???
 
-### Lemon Squeezy
+### Lemon Squeezy 🍋
 
 #### Tarifas x Cobros
 
@@ -110,7 +110,7 @@ Esto es la plata que recibe DevAsPros. En mí caso todo aplica a fuera de USA.
 
 ## Decisión Preliminar
 
-### Bold
+### Bold 💪🏾
 
 ### Lemon Squeezy
 
