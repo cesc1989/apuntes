@@ -53,10 +53,41 @@ Se cobra según cuándo se quiere tener disponible el dinero en la cuenta.
 - En 7 días: **2.99% + 800 COP + IVA**
 - En 14 días: **2.79% + 800 COP + IVA**
 
+### Pasarelas Internacionales
+
+Encontré Rebill por recomendación de Kagi Assistant.
+
+#### Rebill
+
+> Collect payments in local currencies across 10+ countries, with deep coverage in Latin America.
+
+Sitio web: https://www.rebill.com/en
+
+Se enfoca más en aceptar pagos en países de Latam pero parece que igual acepta pagos internacionales.
+
+##### Tarifas
+
+Para Colombia. No incluyen IVA ni otras retenciones.
+
+- TC, TD y PSE: **3.29% + 800 COP x Transacción.**
+- Tarjetas Internacionales: **4.29% + 800 COP x Transacción.**
 
 ## Merchant of Record
 
-## Preliminar
+Leyendo en Reddit descubrí que existen estos sistemas que son una plataforma encima de pasarelas de pagos. La principal diferencia es que estos se vuelven la cara del negocio en el proceso de pagos. Hacen todo: cobran, tasan impuestos, gestionan devoluciones y disputas, y más.
+
+Son más caras que una pasarela de pagos pero con la ventaja de que se encargan de todo lo fiscal y aceptan pagos internacionales.
+
+Encontré varias:
+
+- Polar: https://polar.sh/
+	- Disponible para Colombia: https://polar.sh/docs/merchant-of-record/supported-countries
+- Lemon Squeezy: https://www.lemonsqueezy.com/
+	- Disponible para Colombia: https://docs.lemonsqueezy.com/help/getting-started/supported-countries#supported-countries-for-merchants-and-affiliates
+- Dodo Payments: https://dodopayments.com/
+	- Disponible para Colombia???
+
+## Decisión Preliminar
 
 ### Bold
 
