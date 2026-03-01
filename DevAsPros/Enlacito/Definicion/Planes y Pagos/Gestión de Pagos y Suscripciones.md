@@ -1,6 +1,6 @@
 # Gestión de Pagos y Suscripciones
 
-> [!Importante]
+> [!Important]
 > Para todo esto es importante mantener a DevAsPros como SAS activa y con cuenta bancaria. No hacer nada de pagos a nombre propio.
 >
 > Por temas legales es mejor que todo sea por la SAS.
