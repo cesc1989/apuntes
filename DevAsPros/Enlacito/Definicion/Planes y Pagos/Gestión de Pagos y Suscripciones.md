@@ -11,6 +11,8 @@ Apenas empiece fuertemente a abrir enlacito al público voy a optar por dos capa
 	- Acortar hasta 5 enlaces
 - Plan Pago ilimitado
 
+Hay dos opciones para esto. Integrar una pasarela de pago (Payment Gateway) o un Merchant of Record. El primero solo se encarga de la parte donde se cobra el dinero dejando los impuestos a cargo del negocio. El segundo se encarga de cobrar y de gestionar los impuestos.
+
 Dado al alcance y esfuerzo limitado que le puedo dedicar al desarrollo tengo que buscar la solución más sencilla y eficiente del momento. Tal como mencionan en Getting Real esa opción puede ser procesar los pagos manualmente o integrar una pasarela de pagos de manera básica.
 
 Esa forma básica es usar Links de Pago. Tales como los ofrece PayPal o Bold.
