@@ -21,7 +21,7 @@ Hay muchas opciones para usar en Colombia. Sin embargo, por la naturaleza de Enl
 
 Por eso hay que optar por una pasarela que permita recibir pagos internacionales.
 
-Pensaba iniciar con una combinación de pasarela para pagos nacionales y otra para pagos internacionales. El aspecto nacional queda cubierto en la siguiente sección. Para lo internacional debo optar por una opción diferente o un Merchant of Record.
+Pensaba iniciar con una combinación de pasarela para pagos nacionales y otra para pagos internacionales.
 
 ### Pasarelas Nacionales
 
@@ -30,6 +30,7 @@ En primera instancia había pensado en combinar varias pasarelas. Para ello busc
 - ePayco: https://epayco.com/
 - Payu: https://corporate.payu.com/colombia/es/
 - Mercado Pago: https://www.mercadopago.com.co/herramientas-para-vender/check-out#benefits-checkout
+- Bold: https://bold.co/
 
 Podría elegir una de las anteriores y quedaría cubierto en Colombia. Sin embargo, por lo que explica Freddier, en Colombia hay poca capacidad de pago. Por eso no es conveniente cerrarme solo al mercado nacional.
 
