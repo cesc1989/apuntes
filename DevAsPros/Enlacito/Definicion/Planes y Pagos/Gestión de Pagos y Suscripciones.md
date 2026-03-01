@@ -56,6 +56,19 @@ Se cobra según cuándo se quiere tener disponible el dinero en la cuenta.
 - En 7 días: **2.99% + 800 COP + IVA**
 - En 14 días: **2.79% + 800 COP + IVA**
 
+#### Bold 💪🏾
+
+Sitio web: https://bold.co/pagos-en-linea/link-de-pago
+
+Este salió como sugerencia de Kagi Assistant. Sería una forma de empezar con una pasarela nacional que acepta pagos internacionales pero que no gestiona ningún tipo de impuesto ni retención.
+
+##### Tarifas x Cobros
+
+Por recibir el dinero al día siguiente hábil en cuenta Bold:
+- Tarjetas nacionales: **2.99% + 900 COP por transacción.**
+- Tarjetas internacionales: **3.99% + 900 por transacción.**
+- PSE, Bancolombia y billeteras: **2.89% + 900 por transacción.**
+
 ### Pasarelas Internacionales
 
 Encontré Rebill por recomendación de Kagi Assistant.
@@ -111,6 +124,11 @@ Esto es la plata que recibe DevAsPros. En mí caso todo aplica a fuera de USA.
 ## Decisión Preliminar
 
 ### Bold 💪🏾
+
+> [!Warning]
+> En este caso tendría que replantear el precio de Enlacito. O lo dejo como está y cubro el IVA o agrego el IVA en el checkout. En este último caso hay que agregar aclaraciones sobre impuestos y tasas.
+
+La implementación sería enviando enlaces de pago la fecha del mes que corresponda. Una vez se complete el pago crear un registro en la tabla `payments` y actualizar la bandera correspondiente en la organización.
 
 ### Lemon Squeezy
 
