@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9fa77219a4f17ffe",
+        "id": "60029f57277c76ad",
         "type": "tabs",
         "children": [
           {
-            "id": "ddf063efedd0d564",
+            "id": "54759b02c5910de7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
+                "file": "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entorno de Desarrollo Linux - Configuracion Inicial"
+              "title": "Gestión de Pagos y Suscripciones"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
+                "file": "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Entorno de Desarrollo Linux - Configuracion Inicial"
+              "title": "Outline of Gestión de Pagos y Suscripciones"
             }
           }
         ],
@@ -165,8 +165,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "ddf063efedd0d564",
+  "active": "54759b02c5910de7",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Definicion/Planes y Pagos",
+    "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
+    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
@@ -188,13 +195,6 @@
     "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
     "Otro_Espacio/Blog/Nuevo Enfoque para el Blog 💡.md",
     "Luna/Therapist_Signup/Casos/NEX-3370 Unifica HS Props de Signup 🟢.md",
-    "Luna/Therapist_Signup/Time Formats no Migrados.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
-    "Untitled.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill ✅.md",
-    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclo 04.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221711.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/04.writing.well.draft.process.png",
