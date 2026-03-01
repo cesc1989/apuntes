@@ -1,5 +1,10 @@
 # Gestión de Pagos y Suscripciones
 
+> [!Importante]
+> Para todo esto es importante mantener a DevAsPros como SAS activa y con cuenta bancaria. No hacer nada de pagos a nombre propio.
+>
+> Por temas legales es mejor que todo sea por la SAS.
+
 Apenas empiece fuertemente a abrir enlacito al público voy a optar por dos capaz de oferta:
 
 - Plan Gratuito limitado
@@ -32,20 +37,18 @@ Podría elegir una de las anteriores y quedaría cubierto en Colombia. Sin embar
 
 Enlacito debe arrancar con visión global.
 
-#### Tarifas de las pasarelas Nacionales
-
-##### ePayco
+#### ePayco
 
 - En el plan de ePayco + Davivienda: **2.68% + 900 COP x Transacción.**
 - En plan otros bancos: **3.29% + 700 COP x Transacción.**
 
 Se agrega un **0.8% para TCs internacionales.**
 
-##### PayU
+#### PayU
 
 Para personas o negocios en Colombia: **3.29% + 300 COP x Transacción.**
 
-##### Mercado Pago
+#### Mercado Pago
 
 Se cobra según cuándo se quiere tener disponible el dinero en la cuenta.
 
@@ -65,7 +68,7 @@ Sitio web: https://www.rebill.com/en
 
 Se enfoca más en aceptar pagos en países de Latam pero parece que igual acepta pagos internacionales.
 
-##### Tarifas
+##### Tarifas x Cobros
 
 Para Colombia. No incluyen IVA ni otras retenciones.
 
@@ -80,17 +83,35 @@ Son más caras que una pasarela de pagos pero con la ventaja de que se encargan 
 
 Encontré varias:
 
-- Polar: https://polar.sh/
-	- Disponible para Colombia: https://polar.sh/docs/merchant-of-record/supported-countries
 - Lemon Squeezy: https://www.lemonsqueezy.com/
 	- Disponible para Colombia: https://docs.lemonsqueezy.com/help/getting-started/supported-countries#supported-countries-for-merchants-and-affiliates
+- Polar: https://polar.sh/
+	- Disponible para Colombia: https://polar.sh/docs/merchant-of-record/supported-countries
 - Dodo Payments: https://dodopayments.com/
 	- Disponible para Colombia???
+
+### Lemon Squeezy
+
+#### Tarifas x Cobros
+
+Todo sobre las tarifas: https://docs.lemonsqueezy.com/help/getting-started/fees
+
+- Tarifa base: **5% + 0.50 centavos de dólar por transacción.**
+	- si el pago es fuera de USA: **+1.5%**
+	- si el pago es por PayPal: **+1.5%**
+	- si es una subscripción: **+0.5%**
+
+#### Tarifas x Pagos
+
+Esto es la plata que recibe DevAsPros. En mí caso todo aplica a fuera de USA.
+
+- Mediante Stripe: **1% por cada pago.**
+- Mediante PayPal: **3% máximo 30 USD por cada pago.**
 
 ## Decisión Preliminar
 
 ### Bold
 
-### Polar
+### Lemon Squeezy
 
 ## Definitivo al Detalle
