@@ -158,4 +158,29 @@ Internacionales:
 
 La implementación sería enviando enlaces de pago la fecha del mes que corresponda. Una vez se complete el pago crear un registro en la tabla `payments` y actualizar la bandera correspondiente en la organización.
 
-## Definitivo al Detalle
+## Definitivo al Detalle 🔑
+
+Hoy, creo que arrancar con Bold es una buena opción. Tendría que hacer cosas manuales pero para validar e ir arrancando está bien. No necesito automatizar todo de salida. Si es por los impuestos le pido ayuda a Lariana o busco un contador.
+
+A falta de bocetar y diseño de baja fidelidad, creo que el flujo sería así:
+
+- Cliente se registra con sus datos básicos
+- Cuando quiere usar Enlacito más allá de lo base o pagar va a Cuenta -> Facturación
+- En esa página mostrar el botón Cambiar a plan Pro
+- Se piden más datos para facturar:
+	- País, ciudad, dirección, teléfono, correo
+	- Lo del país es clave para tener en cuenta lo del IVA
+- Se muestra una página:
+	- explicando que va a ir al link de pago de Bold o al checkout
+	- que el pago tomará algunos minutos en efectuarse
+	- si hay demora contactar al correo X mostrando captura de ser posible
+
+En esta parte me toca probar o leer documentación sobre sí se devuelve a la página de origen o si hay webhooks o algo para obtener esa información.
+
+Con el pago confirmado tengo que hacer dos cosas en el sistema:
+- Crear un registro para el cliente en la tabla `payments`
+	- Esto será una tabla para llevar trazo de los pagos del cliente
+	- Así se puede mostrar en una página
+	- También para llevar control desde el sistema y no depender de Bold
+- Actualizar la bandera correspondiente en el registro de Organization
+	- Una bandera de campo tipo entero que indique que es Pro o similar
