@@ -158,6 +158,4 @@ Internacionales:
 
 La implementación sería enviando enlaces de pago la fecha del mes que corresponda. Una vez se complete el pago crear un registro en la tabla `payments` y actualizar la bandera correspondiente en la organización.
 
-### Lemon Squeezy
-
 ## Definitivo al Detalle
