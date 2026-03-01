@@ -68,7 +68,7 @@ Este salió como sugerencia de Kagi Assistant. Sería una forma de empezar con u
 
 Lo interesante de Bold es que puede cobrarse en USD. Ver: https://ayuda.bold.co/es/preguntas-frecuentes-de-cobro-en-dlares-multimoneda-By6_T2lB1l
 
-##### Tarifas x Cobros
+##### Tarifas x Desembolso
 
 Por recibir el dinero al día siguiente hábil en cuenta Bold:
 - Tarjetas nacionales: **2.99% + 900 COP por transacción.**
@@ -91,7 +91,7 @@ Sitio web: https://www.rebill.com/en
 
 Se enfoca más en aceptar pagos en países de Latam pero parece que igual acepta pagos internacionales.
 
-##### Tarifas x Cobros
+##### Tarifas x Desembolso
 
 Para Colombia. No incluyen IVA ni otras retenciones.
 
@@ -124,12 +124,30 @@ Todo sobre las tarifas: https://docs.lemonsqueezy.com/help/getting-started/fees
 	- si el pago es por PayPal: **+1.5%**
 	- si es una subscripción: **+0.5%**
 
-#### Tarifas x Pagos
+#### Tarifas x Desembolso
 
 Esto es la plata que recibe DevAsPros. En mí caso todo aplica a fuera de USA.
 
 - Mediante Stripe: **1% por cada pago.**
 - Mediante PayPal: **3% máximo 30 USD por cada pago.**
+
+### Polar
+
+#### Tarifas x Pagos
+
+- Tarifa base: **4% + 0.40 centavos de dólar por transacción.**
+	- si el pago es fuera de USA: **+1.5%**
+	- si es una subscripción: **+0.5%**
+
+#### Tarifas x Desembolso
+
+Stripe:
+- $2 per month of active payout(s)
+- 0.25% + $0.25 per payout
+
+Internacionales:
+- 0.25% (EU)
+- 1% in other countries
 
 ## Decisión Preliminar
 
