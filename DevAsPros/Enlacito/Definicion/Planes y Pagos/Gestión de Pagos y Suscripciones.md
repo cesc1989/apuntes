@@ -23,8 +23,6 @@ Por eso hay que optar por una pasarela que permita recibir pagos internacionales
 
 Pensaba iniciar con una combinación de pasarela para pagos nacionales y otra para pagos internacionales. El aspecto nacional queda cubierto en la siguiente sección. Para lo internacional debo optar por una opción diferente o un Merchant of Record.
 
-Trataré de explicar todas las opciones.
-
 ### Pasarelas Nacionales
 
 En primera instancia había pensado en combinar varias pasarelas. Para ello buscaría una que me permitiera aceptar pagos en Colombia y Latam. Podría ser alguna de estas:
