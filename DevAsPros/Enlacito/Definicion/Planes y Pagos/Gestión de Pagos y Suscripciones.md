@@ -17,6 +17,9 @@ Esa forma básica es usar Links de Pago. Tales como los ofrece PayPal o Bold.
 
 ## Pasarela de Pago (Payment Gateway)
 
+> [!Important]
+> Los payment gateways no gestionan impuestos ni retenciones. Queda a cargo del servicio/equipo de desarrollo.
+
 Hay muchas opciones para usar en Colombia. Sin embargo, por la naturaleza de Enlacito, no tiene sentido hacer marketing y SEO solo para Colombia. Debo pensar en global de salida.
 
 Por eso hay que optar por una pasarela que permita recibir pagos internacionales.
@@ -32,7 +35,7 @@ En primera instancia había pensado en combinar varias pasarelas. Para ello busc
 - Mercado Pago: https://www.mercadopago.com.co/herramientas-para-vender/check-out#benefits-checkout
 - Bold: https://bold.co/
 
-Podría elegir una de las anteriores y quedaría cubierto en Colombia. Sin embargo, por lo que explica Freddier, en Colombia hay poca capacidad de pago. Por eso no es conveniente cerrarme solo al mercado nacional.
+Podría elegir una de las anteriores y quedaría cubierto en Colombia. Sin embargo, por lo que explica Freddier, en Colombia (y Latam) hay poca capacidad de pago. Por eso no es conveniente cerrarme solo al mercado nacional.
 
 Enlacito debe arrancar con visión global.
 
@@ -59,7 +62,7 @@ Se cobra según cuándo se quiere tener disponible el dinero en la cuenta.
 
 Sitio web: https://bold.co/pagos-en-linea/link-de-pago
 
-Este salió como sugerencia de Kagi Assistant. Sería una forma de empezar con una pasarela nacional que acepta pagos internacionales pero que no gestiona ningún tipo de impuesto ni retención.
+Este salió como sugerencia de Kagi Assistant. Sería una forma de empezar con una pasarela nacional que acepta pagos internacionales.
 
 Lo interesante de Bold es que puede cobrarse en USD. Ver: https://ayuda.bold.co/es/preguntas-frecuentes-de-cobro-en-dlares-multimoneda-By6_T2lB1l
 
