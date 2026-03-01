@@ -62,6 +62,8 @@ Sitio web: https://bold.co/pagos-en-linea/link-de-pago
 
 Este salió como sugerencia de Kagi Assistant. Sería una forma de empezar con una pasarela nacional que acepta pagos internacionales pero que no gestiona ningún tipo de impuesto ni retención.
 
+Lo interesante de Bold es que puede cobrarse en USD. Ver: https://ayuda.bold.co/es/preguntas-frecuentes-de-cobro-en-dlares-multimoneda-By6_T2lB1l
+
 ##### Tarifas x Cobros
 
 Por recibir el dinero al día siguiente hábil en cuenta Bold:
