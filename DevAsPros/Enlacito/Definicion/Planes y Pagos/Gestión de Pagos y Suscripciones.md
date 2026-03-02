@@ -184,3 +184,7 @@ Con el pago confirmado tengo que hacer dos cosas en el sistema:
 	- También para llevar control desde el sistema y no depender de Bold
 - Actualizar la bandera correspondiente en el registro de Organization
 	- Una bandera de campo tipo entero que indique que es Pro o similar
+
+### Otros Detalles
+
+Cómo usar el ambiente de pruebas de Bold: https://developers.bold.co/pagos-en-linea/boton-de-pagos/ambiente-pruebas
