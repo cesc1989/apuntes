@@ -24,8 +24,3 @@
 
 [Según Kai Davis](https://paper.dropbox.com/doc/Lecciones-de-Kai-Davis-3GM7E74gOsb5PK565fGuo) y/o [según Philip Morgan](https://paper.dropbox.com/doc/Lecciones-de-Philip-Morgan-YZoPMyWUDIQKKC5xdZJSf). También lecciones del [framework de cómo posicionarse de Philip Morgan](https://paper.dropbox.com/doc/Como-Elegir-el-Mercado-para-Posicionarse--AXAx5h4QY4cm7Cy_VgVJGT2DAg-xkYLHJ1yuNEHAiz7YOdnK) y [cuantos competidores tener de David Baker](https://paper.dropbox.com/doc/Cuantos-Competidores-y-Prospectos-Deberia-Tener--AXCREBg_Yi85sov4A7bvCmj3Ag-DU29g0R2a9cSAvwCAcwyN).
 
-Ver resultado de aplicar el ejercicio en Drive
-
-https://docs.google.com/spreadsheets/d/1IJHLBdKPn_B3bWBSZSzTGsmpTKO9DZ4NlXQq1iD5tNU/edit?usp=drivesdk
-
-

@@ -1,7 +1,5 @@
 # ¿Cuántos Competidores y Prospectos Debería Tener?
 
-![David Baker](https://www.davidcbaker.com/stuff/contentmgr/files/0/71a67840bb8c45cbcf17b0ba90697371/files/_resized/80_4560_1840_businessofexpertise_illustration_1788u_16.jpg)
-
 > remember that your prospects get to decide who your competitors are—you can’t decide for them
 
 

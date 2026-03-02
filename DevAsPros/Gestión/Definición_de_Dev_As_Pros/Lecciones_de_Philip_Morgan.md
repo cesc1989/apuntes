@@ -39,10 +39,6 @@ Positioning fundamentally means defining a clear focus for your business. You ca
 - And when you know those two things *(where/how to reach clients, and what to say to them*), you **have the building blocks of a good marketing strategy**. The rest is details. Important details, for sure, but still it's details.
 
 Philip habla sobre posicionamiento horizontal(trabajar en muchas industrias) y posicionamiento vertical(trabajar en una industria o niche de mercado).
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_9AFE1D6555623CC2C1472884DE62BEA1BB656C4DE74EE8B1992B1C237B05F972_1549392440912_horizontal-niche.png)
-
-
 Ejemplos de estar horizontalmente:
 
 - PostgreSQL database performance tuning and optimization (this is the one shown in the picture above)
@@ -52,7 +48,6 @@ Ejemplos de estar horizontalmente:
 
 
 > The horizontal market position makes it harder to find clients, which makes it harder to market to them. Furthermore, whatever problem forms the foundation of your horizontal position has to be a really painful, urgent, or important problem, otherwise it won't motivate potential clients enough for them to seek you out.
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_9AFE1D6555623CC2C1472884DE62BEA1BB656C4DE74EE8B1992B1C237B05F972_1549392483806_vertical-niche.png)
 
 
 Ejemplos de estar verticalmente:
@@ -73,7 +68,7 @@ Ventaja de experticia
 > The expertise advantage of specialization is that, over time, less of your value becomes knowing how to use version x.yz of a given piece of technology and more of your value becomes helping your clients move the needle using technology.
 
 
-![Framework para decidir cómo specializarse https://philipmorganconsulting.com/a-framework-for-deciding-how-to-specialize/](https://d2mxuefqeaa7sj.cloudfront.net/s_9AFE1D6555623CC2C1472884DE62BEA1BB656C4DE74EE8B1992B1C237B05F972_1549392784421_posicionamiento.jpeg)
+![Framework para decidir cómo especializarse https://philipmorganconsulting.com/a-framework-for-deciding-how-to-specialize/](https://d2mxuefqeaa7sj.cloudfront.net/s_9AFE1D6555623CC2C1472884DE62BEA1BB656C4DE74EE8B1992B1C237B05F972_1549392784421_posicionamiento.jpeg)
 
 
 
