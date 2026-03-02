@@ -20,7 +20,13 @@
 - Finanzas(Brilla)
 - Gestión vehícular(Avanzza)
 - Restaurantes(Feed & Fit)
+
 ## Elegir un Mercado Objetivo y Como Posicionarse
 
-[Según Kai Davis](https://paper.dropbox.com/doc/Lecciones-de-Kai-Davis-3GM7E74gOsb5PK565fGuo) y/o [según Philip Morgan](https://paper.dropbox.com/doc/Lecciones-de-Philip-Morgan-YZoPMyWUDIQKKC5xdZJSf). También lecciones del [framework de cómo posicionarse de Philip Morgan](https://paper.dropbox.com/doc/Como-Elegir-el-Mercado-para-Posicionarse--AXAx5h4QY4cm7Cy_VgVJGT2DAg-xkYLHJ1yuNEHAiz7YOdnK) y [cuantos competidores tener de David Baker](https://paper.dropbox.com/doc/Cuantos-Competidores-y-Prospectos-Deberia-Tener--AXCREBg_Yi85sov4A7bvCmj3Ag-DU29g0R2a9cSAvwCAcwyN).
+Según Kai Davis [[Lecciones_de_Kai_Davis]]
 
+Según Philip Morgan [[Lecciones_de_Philip_Morgan]]
+
+Framework de cómo posicionarse de Philip Morgan [[Cómo_Elegir_el_Mercado_para_Posicionarse]]
+
+Cuántos competidores tener de David Baker [[¿Cuántos_Competidores_y_Prospectos_Debería_Tener]]

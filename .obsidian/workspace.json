@@ -35,7 +35,8 @@
               "title": "Definición_de_Mercado_Objetivo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+                "file": "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Definición_de_Mercado_Objetivo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Datos Miscelaneos - Dev As Pros"
+              "title": "Outline of Definición_de_Mercado_Objetivo"
             }
           }
         ],
@@ -179,10 +180,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "7cedaee9b24c4c95",
+  "active": "34e59d13d758026e",
   "lastOpenFiles": [
-    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Definición_de_Mercado_Objetivo.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
+    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Definición_de_Mercado_Objetivo.md",
     "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Playbooks_para_Inspiración.md",
     "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Lecciones_de_Philip_Morgan.md",
     "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
