@@ -3,7 +3,7 @@
 ## Datos de la Empresa
 
 Número de Matricula Mercantil: **693253**
-NIT: **901.146.981-6**
+NIT: **901146981-6**
 
 ## Otros
 
