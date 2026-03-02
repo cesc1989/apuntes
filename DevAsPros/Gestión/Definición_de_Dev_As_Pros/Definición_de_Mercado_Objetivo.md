@@ -7,8 +7,6 @@
 > Estos mercados o sectores pueden ser locales, nacionales o internacionales.
 > 
 > Averiguar y ver si hay algún producto/servicio que pueda ofertarse en empresas de un mismo sector. Ejemplo de esto puede ser un software contable, o similar al caso de Letom.
-> 
-> [Tarjeta en Trello](https://trello.com/c/sjxFQKXy/20-definir-mercado-o-sector-objetivo).
 
 **¿En qué sectores he trabajado?**
 
