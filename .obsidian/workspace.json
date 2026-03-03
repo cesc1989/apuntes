@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "951f7f79c320e3e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Marketplace/Configurando_Marketplace.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Configurando_Marketplace"
-            }
-          },
-          {
             "id": "84f1fab47e35bec4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "MPF Self Sync from Luxe 🟡"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

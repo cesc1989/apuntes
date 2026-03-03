@@ -20,7 +20,7 @@ Esto es una propuesta para permitirle a los miembros del equipo Credentialing di
 
 Mediante un botón en el perfil del therapist se hace una petición a un endpoint en Marketplace que encola un worker por cada archivo que tenga el therapist en su carpeta en S3.
 
-### Correr pruebas
+### Correr pruebas de cambios en Marketplace
 
 Con este comando corrí las pruebas:
 ```bash
