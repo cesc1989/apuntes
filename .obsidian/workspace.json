@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bf8cd25cce4ce76f",
+        "id": "143340a1d81c3a79",
         "type": "tabs",
         "children": [
           {
-            "id": "e620c40a18ba2705",
+            "id": "077e82346dc7a984",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Name_Collision_and_Missing_Files_in_Magic_Processe"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Playbook del Triage📙.md",
+                "file": "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Playbook del Triage📙"
+              "title": "Outline of Name_Collision_and_Missing_Files_in_Magic_Processe"
             }
           }
         ],
@@ -161,8 +165,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "077e82346dc7a984",
   "lastOpenFiles": [
+    "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
+    "Luna/Marketplace/MPF/From CA to MPF.md",
+    "Luna/Usando_Ngrok.md",
+    "Luna/Playbook del Triage📙.md",
     "Luna/Glosario.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Aprendizajes de los Lanzamientos.md",
@@ -178,7 +186,6 @@
     "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
     "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
-    "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
@@ -186,9 +193,6 @@
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
     "DevAsPros/Gestión/Lecciones_Dev_As_Pros/01_Lecciones_de_Comunicación.md",
-    "DevAsPros/Gestión/Lecciones_Dev_As_Pros/02_Lecciones_al_Estimar_con_Puntos_de_Esfuerzo.md",
-    "DevAsPros/Gestión/Lecciones_Dev_As_Pros/03_Lecciones_al_Priorizar_Tareas.md",
-    "DevAsPros/Gestión/Lecciones_Dev_As_Pros/04_Lecciones_de_Cotizaciones_no_Aceptadas.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
