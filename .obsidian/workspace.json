@@ -4,31 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "27c1106a93892ce3",
+        "id": "6a357ffe980751e7",
         "type": "tabs",
         "children": [
           {
-            "id": "db160618dbe2920d",
+            "id": "951f7f79c320e3e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
+                "file": "Luna/Marketplace/Configurando_Marketplace.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "014 - Therapist Sync en HS y MPF fallida 🟢"
+              "title": "Configurando_Marketplace"
             }
           },
           {
-            "id": "027b5af8b2c638b2",
+            "id": "84f1fab47e35bec4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "retrigger-s3-onboarding-files",
+                "query": "pytest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,16 +180,24 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "027b5af8b2c638b2",
+  "active": "84f1fab47e35bec4",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
+    "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
+    "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
+    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
+    "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
+    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
+    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
+    "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
-    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+    "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
+    "Luna/Marketplace/Python Shell Queries.md",
+    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
+    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
-    "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Usando_Ngrok.md",
     "Luna/Playbook del Triage📙.md",
     "Luna/Glosario.md",
@@ -200,14 +208,6 @@
     "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
     "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
-    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
-    "Luna/Patient_Self_Report/issues-and-debugging/Race_Condition_aún_usando_find_or_initialize_by.md",
-    "Luna/Patient_Self_Report/issues-and-debugging/Problema_ASES_Pain_Scale_en_API_V2.md",
-    "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
-    "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
-    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
-    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",

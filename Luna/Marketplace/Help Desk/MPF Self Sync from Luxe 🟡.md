@@ -20,7 +20,19 @@ Esto es una propuesta para permitirle a los miembros del equipo Credentialing di
 
 Mediante un botón en el perfil del therapist se hace una petición a un endpoint en Marketplace que encola un worker por cada archivo que tenga el therapist en su carpeta en S3.
 
-### Datos Clave
+### Correr pruebas
+
+Con este comando corrí las pruebas:
+```bash
+PIPENV_DOTENV_LOCATION='../.env.test' pipenv run pytest --disable-socket --include-functional tests/onboarding/test_onboarding_blueprint.py -v
+```
+
+Estos son los pasos totales:
+- Corrí `pipenv shell`
+- Luego moví a la carpeta `app`
+- Luego corrí el comando de las pruebas
+
+### Datos Clave 🔑
 
 #### ID del Credentialing::Therapist en Clinical y Marketplace
 
