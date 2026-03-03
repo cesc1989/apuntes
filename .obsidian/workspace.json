@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f3b856152f20968c",
+        "id": "bf8cd25cce4ce76f",
         "type": "tabs",
         "children": [
           {
-            "id": "986fbe8b9667fcda",
+            "id": "e620c40a18ba2705",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Gestión de Pagos y Suscripciones"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
+                "file": "Luna/Playbook del Triage📙.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gestión de Pagos y Suscripciones"
+              "title": "Outline of Playbook del Triage📙"
             }
           }
         ],
@@ -165,35 +161,35 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "986fbe8b9667fcda",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Glosario.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+    "Luna/Aprendizajes de los Lanzamientos.md",
+    "Luna/Patient_Self_Report/Usando_Ngrok.md",
+    "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
+    "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
+    "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
+    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Race_Condition_aún_usando_find_or_initialize_by.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Problema_ASES_Pain_Scale_en_API_V2.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
+    "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
+    "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
+    "Luna/Marketplace/MPF/From CA to MPF.md",
+    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
+    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
+    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
+    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
     "DevAsPros/Gestión/Lecciones_Dev_As_Pros/01_Lecciones_de_Comunicación.md",
     "DevAsPros/Gestión/Lecciones_Dev_As_Pros/02_Lecciones_al_Estimar_con_Puntos_de_Esfuerzo.md",
     "DevAsPros/Gestión/Lecciones_Dev_As_Pros/03_Lecciones_al_Priorizar_Tareas.md",
     "DevAsPros/Gestión/Lecciones_Dev_As_Pros/04_Lecciones_de_Cotizaciones_no_Aceptadas.md",
-    "DevAsPros/Gestión/Lecciones_Dev_As_Pros/05_Tener_en_cuenta_al_Proponer.md",
-    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
-    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Definición_de_Mercado_Objetivo.md",
-    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Playbooks_para_Inspiración.md",
-    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Lecciones_de_Philip_Morgan.md",
-    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Lecciones_de_Kai_Davis.md",
-    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/Cómo_Elegir_el_Mercado_para_Posicionarse.md",
-    "DevAsPros/Gestión/Definición_de_Dev_As_Pros/¿Cuántos_Competidores_y_Prospectos_Debería_Tener.md",
-    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
-    "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
-    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Copiando_Archivos_a_desde_S3_mediante_CLI.md",
-    "Luna/Therapist_Signup/Configuración_-_Therapists_Form/Pasos_para_Agregar_un_nuevo_Estado.md",
-    "Luna/Therapist_Signup/Reglas/Therapist_Signup_Enabled_States.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Apuntes Rails Parte 1 - Therapist Signup.md",
-    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Ruby - Therapist Signup.md",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/attachments/Pasted image 20240724221723.png",
