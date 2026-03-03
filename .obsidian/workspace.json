@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "143340a1d81c3a79",
+        "id": "7cc97ba1e7ceafc7",
         "type": "tabs",
         "children": [
           {
-            "id": "077e82346dc7a984",
+            "id": "e78a527fb542c209",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Name_Collision_and_Missing_Files_in_Magic_Processe"
+              "title": "MPF Self Sync from Luxe 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
+                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Name_Collision_and_Missing_Files_in_Magic_Processe"
+              "title": "Outline of MPF Self Sync from Luxe 🟡"
             }
           }
         ],
@@ -165,8 +165,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "077e82346dc7a984",
+  "active": "e78a527fb542c209",
   "lastOpenFiles": [
+    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
+    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
+    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
+    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
+    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Usando_Ngrok.md",
@@ -186,13 +191,8 @@
     "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
     "Luna/Backend/Help Desk/EDG-3292 CA Completed sin Answers for MedReq 🟢.md",
     "Luna/Backend/Help Desk/013 - Envío Manual de Form 🟢.md",
-    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
-    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
-    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
-    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
-    "DevAsPros/Gestión/Lecciones_Dev_As_Pros/01_Lecciones_de_Comunicación.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
