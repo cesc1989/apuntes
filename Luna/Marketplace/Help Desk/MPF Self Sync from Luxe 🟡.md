@@ -2,6 +2,12 @@
 
 Etiquetas: #luna_help_desk 
 
+Tarjetas en Linear:
+
+- NEX-3092
+- NEX-3307
+- NEX-3375
+
 ## Contexto
 
 El sync al MPF falla en muchas ocasiones. Puede ser por la lambda, puede ser error de conexión entre servicios, puede ser que RQ acaba todos los reintentos, puede ser que falle la conexión a Google.
@@ -15,6 +21,8 @@ Esto es una propuesta para permitirle a los miembros del equipo Credentialing di
 Mediante un botón en el perfil del therapist se hace una petición a un endpoint en Marketplace que encola un worker por cada archivo que tenga el therapist en su carpeta en S3.
 
 ### Datos Clave
+
+#### ID del Credentialing::Therapist en Clinical y Marketplace
 
 El ID del therapist que tienen en la tabla `tc_therapists` en Clinical es el mismo que está en la tabla `therapist_sign_up` en Marketplace.
 
@@ -33,3 +41,21 @@ def s3_folder_name
 end
 ```
 
+#### Click Command para resincronizar
+
+Existe un Click Command para hacer que se resincronice. Tiene trampa en todo caso. Lo que hace el script es modificar el timestamp de los archivos y así se dispara la lambda de nuevo.
+
+Ver [[014 - Therapist Sync en HS y MPF fallida 🟢]]
+
+Este comando está en `app/marketplace/commands/google_drive.py`. Esta es la parte donde hace la modificación del archivo para disparar la lambda:
+```python
+# Copy object to itself to generate new S3:ObjectCreated event
+copy_source = {"Bucket": bucket_name, "Key": object_key}
+
+s3_client.copy_object(
+		CopySource=copy_source,
+		Bucket=bucket_name,
+		Key=object_key,
+		MetadataDirective="REPLACE",  # Keep existing metadata
+)
+```
