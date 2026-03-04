@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6a357ffe980751e7",
+        "id": "23c0211aab6b2470",
         "type": "tabs",
         "children": [
           {
-            "id": "84f1fab47e35bec4",
+            "id": "9376e60aeda09170",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
+                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MPF Self Sync from Luxe 🟡"
+              "title": "MPF Self Sync from Luxe 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
+                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MPF Self Sync from Luxe 🟡"
+              "title": "Outline of MPF Self Sync from Luxe 🟢"
             }
           }
         ],
@@ -165,10 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "84f1fab47e35bec4",
+  "active": "9376e60aeda09170",
   "lastOpenFiles": [
+    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟡.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
