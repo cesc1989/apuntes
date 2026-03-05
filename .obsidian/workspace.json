@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a5b15557492a4be",
+        "id": "ce94adf650ca4a26",
         "type": "tabs",
         "children": [
           {
-            "id": "b2008069d14992e7",
+            "id": "c8937175f54d5b23",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Ubuntu Pro para Expanded Security Maintenance"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Ubuntu Pro para Expanded Security Maintenance"
             }
           }
         ],
@@ -160,13 +165,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b2008069d14992e7",
+  "active": "c8937175f54d5b23",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
+    "Luna/Patient_Self_Report/Copy Form/Missing Progress Forms after Copy in Luxe 🟡.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Patient_Self_Report/Copy Form/Copy Forms Logic.md",
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
-    "Luna/Patient_Self_Report/Copy Form/Missing Progress Forms after Copy in Luxe 🟡.md",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
@@ -186,8 +193,6 @@
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
     "Luna/Usando_Ngrok.md",
-    "Luna/Playbook del Triage📙.md",
-    "Luna/Glosario.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
