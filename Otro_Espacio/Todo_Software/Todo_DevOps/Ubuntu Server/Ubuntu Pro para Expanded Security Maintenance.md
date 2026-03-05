@@ -56,3 +56,16 @@ ros              yes       disabled     Security Updates for the Robot Operating
 ros-updates      yes       n/a          All Updates for the Robot Operating System
 usg              yes       disabled     Security compliance and audit tools
 ```
+
+## Aplicar actualizaciones de ESM
+
+Había casi 200 pendientes. Para aplicarlas corrí estos comandos:
+```bash
+sudo apt update && sudo unattended-upgrade --dry-run
+sudo apt upgrade
+```
+
+Si esto lista archivos, el servidor hará su reinicio a la hora configurada:
+```bash
+ls -la /var/run/reboot-required*
+```
