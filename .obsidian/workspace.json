@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23c0211aab6b2470",
+        "id": "d4e32e4ef23573f6",
         "type": "tabs",
         "children": [
           {
-            "id": "9376e60aeda09170",
+            "id": "7f32a32937251f58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
+                "file": "Luna/Patient_Self_Report/Copy Form/Copy Forms Logic.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MPF Self Sync from Luxe 🟢"
+              "title": "Copy Forms Logic"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
+                "file": "Luna/Patient_Self_Report/Copy Form/Copy Forms Logic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MPF Self Sync from Luxe 🟢"
+              "title": "Outline of Copy Forms Logic"
             }
           }
         ],
@@ -165,8 +165,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "9376e60aeda09170",
+  "active": "7f32a32937251f58",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Copy Form/Issues with Forms after Copying in Luxe.md",
+    "Luna/Patient_Self_Report/Copy Form/Copy Forms Logic.md",
+    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
+    "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
+    "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
     "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
@@ -188,11 +193,6 @@
     "Luna/Glosario.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Aprendizajes de los Lanzamientos.md",
-    "Luna/Patient_Self_Report/Usando_Ngrok.md",
-    "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
-    "Luna/Patient_Self_Report/Lista_de_Form_Types,_Injury_Types_y_MCIDs.md",
-    "Luna/Patient_Self_Report/Flujo_de_Onboarding_Form_y_Progress_Form.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
