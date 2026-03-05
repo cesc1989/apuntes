@@ -47,3 +47,11 @@ where pf.form_id = '6bfc64b5-d57f-4e55-830e-dfedcf680419'
 |form_type|form_id|created_at|completed_at|care_plan_aggregate_id|
 |---------|-------|----------|------------|----------------------|
 |intake|6bfc64b5-d57f-4e55-830e-dfedcf680419|2026-01-08 14:16:20.143 -0500||517a81ef-09ef-4be7-9308-be5b93a487e8|
+
+
+## 1st Solution: enqueue completed form webhook after copying Intake Form
+
+The change is to add this line to the end of `PatientSelfReport::PatientSelfReport#copy_form_data_from_form`:
+```ruby
+PatientSelfReport::CompletedFormWebhookWorker.perform_async(target_form.id) if target_form.onboarding?
+```

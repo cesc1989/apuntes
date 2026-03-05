@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f32a32937251f58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Patient_Self_Report/Copy Form/Copy Forms Logic.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Copy Forms Logic"
-            }
-          },
-          {
             "id": "5f4102862f7a7c1e",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Missing Progress Forms after Copy in Luxe"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
