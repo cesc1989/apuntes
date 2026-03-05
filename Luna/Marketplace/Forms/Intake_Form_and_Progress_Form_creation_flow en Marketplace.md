@@ -217,35 +217,45 @@ def create_progress_form(aggregate_id: str, appointment_id: str) -> None:
 
 ## Controller
 
+Related: [[Copy Forms Logic#**Data Copying Logic** (` copy_form_data_from_form`)]]
+
+> [!Important]
+> If Progress Forms are missing or not generated in the expected cadence, check whether the Intake Form has a value in `completed_at` field.
+
 At `app/marketplace/forms/controller.py` triggers the Service:
 ```python
 @log_exceptions
-    def create_progress_form(
-        self,
-        now: pendulum.DateTime,
-        patient_result: es_repository.PatientResult,
-        care_plan_result: es_repository.CarePlanResult,
-        completed_appointment_id: AppointmentID,
-        ignore_existing_count: bool = False,
-    ) -> Optional[models.Form]:
-        """Create a progress form for a patient and care plan."""
-        intake_form = self._repository.get_patient_latest_form(care_plan_result.aggregate_id, form_type="intake")
-        if ignore_existing_count:
-            progress_form_result = self._service.create_progress_form(intake_form)
-            
-        # (...)
+def create_progress_form(
+		self,
+		now: pendulum.DateTime,
+		patient_result: es_repository.PatientResult,
+		care_plan_result: es_repository.CarePlanResult,
+		completed_appointment_id: AppointmentID,
+		ignore_existing_count: bool = False,
+) -> Optional[models.Form]:
+		"""Create a progress form for a patient and care plan."""
+		intake_form = self._repository.get_patient_latest_form(care_plan_result.aggregate_id, form_type="intake")
+		if ignore_existing_count:
+				progress_form_result = self._service.create_progress_form(intake_form)
 
-        progress_form_result = self._service.create_progress_form(intake_form)
-        progress_status_result = self._service.get_form_status(patient_result.patient, progress_form_result.status_id)
+		# prevent creating a progress form if the patient still has an outstanding intake (these include the first progress form)
+		if intake_form.completed_at is None:
+				log.info(f"skipped progress form creation for appointment {appointment_id} because intake form is incomplete")
+				return None
 
-        return self._repository.create_form(
-            now,
-            care_plan_result.aggregate_id,
-            progress_form_result,
-            progress_status_result,
-            triggering_appointment_id=completed_appointment_id,
-            trigger_type=trigger_kind,
-        )
+		# (...)
+
+		progress_form_result = self._service.create_progress_form(intake_form)
+		progress_status_result = self._service.get_form_status(patient_result.patient, progress_form_result.status_id)
+
+		return self._repository.create_form(
+				now,
+				care_plan_result.aggregate_id,
+				progress_form_result,
+				progress_status_result,
+				triggering_appointment_id=completed_appointment_id,
+				trigger_type=trigger_kind,
+		)
 ```
 
 
