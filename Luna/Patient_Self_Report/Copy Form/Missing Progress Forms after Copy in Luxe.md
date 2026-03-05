@@ -49,7 +49,7 @@ where pf.form_id = '6bfc64b5-d57f-4e55-830e-dfedcf680419'
 |intake|6bfc64b5-d57f-4e55-830e-dfedcf680419|2026-01-08 14:16:20.143 -0500||517a81ef-09ef-4be7-9308-be5b93a487e8|
 
 
-## 1st Solution: enqueue completed form webhook after copying Intake Form
+### Solution: enqueue completed form webhook after copying Intake Form
 
 The change is to add this line to the end of `PatientSelfReport::PatientSelfReport#copy_form_data_from_form`:
 ```ruby
