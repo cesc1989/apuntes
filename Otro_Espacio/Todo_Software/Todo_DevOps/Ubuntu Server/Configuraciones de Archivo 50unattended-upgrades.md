@@ -1,5 +1,11 @@
 # Cómo está configurado el archivo 50unattended-upgrades según versión de Ubuntu
 
+Etiquetas: #despliegue_vps 
+
+Relacionado:
+- [[Unattended Upgrades]]
+- [[Ubuntu Pro para Expanded Security Maintenance]]
+
 ## En dap_node - Ubuntu 20.04
 
 ```
