@@ -622,7 +622,3 @@ Sep 01 15:48:11 localhost sidekiq[4038621]: 2024-09-01T15:48:11.102Z pid=4038621
 Sep 01 15:48:11 localhost sidekiq[4038621]: 2024-09-01T15:48:11.102Z pid=4038621 tid=2ewf5 INFO: Scheduling recurring_expenditures {"class"=>"RecurringExpendituresWorker", "cron"=>"0 0 1 * *", "queue"=>"default"}
 Sep 01 15:48:11 localhost sidekiq[4038621]: 2024-09-01T15:48:11.114Z pid=4038621 tid=2ewf5 INFO: Schedules Loaded
 ```
-
-## Estado de Mega CMD
-
-_Pendiente_
