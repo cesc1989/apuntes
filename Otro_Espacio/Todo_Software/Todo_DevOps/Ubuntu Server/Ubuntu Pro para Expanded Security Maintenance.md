@@ -69,3 +69,16 @@ Si esto lista archivos, el servidor hará su reinicio a la hora configurada:
 ```bash
 ls -la /var/run/reboot-required*
 ```
+
+Ya con todo esto cambia el mensaje al ingresar al VPS:
+```bash
+Expanded Security Maintenance for Infrastructure is enabled.
+
+0 updates can be applied immediately.
+
+New release '22.04.5 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+```
