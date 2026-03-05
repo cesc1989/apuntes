@@ -249,7 +249,7 @@ No /usr/bin/mail or /usr/sbin/sendmail, can not send mail. You probably want to 
 
 > Nota: me dice que instale `mailx`
 
-# Programa Ejecución diaria con un cron
+# Programa Ejecución diaria con un cron 🔑
 
 El comando `sudo unattended-upgrade -v -d` ejecutará el servicio enseguida y programara una actualización y reiniciada (si se configuró). Sin embargo, para que unattended-upgrades se ejecute a diario hay que ponerlo a correr en un cron.
 
@@ -378,7 +378,7 @@ Diagnostic-Code: X-Postfix; connect to smtp.gmail.com[172.253.63.108]:587:
 
 > Puedo también ver la lista con el [comando](https://superuser.com/questions/306163/what-is-the-you-have-new-mail-message-in-linux-unix) `mail` y luego presionando el número del correo de la lista.
 
-# Comprobando que se esté ejecutando unattended-upgrades
+# Comprobando que se esté ejecutando unattended-upgrades 👀
 
 ¿Cómo sé si está corriendo y haciendo su trabajo? Hay un par de formas.
 
