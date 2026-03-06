@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "629b3c0a827cdb7e",
+        "id": "9c633db044993579",
         "type": "tabs",
         "children": [
           {
-            "id": "7ef89662e8143aa4",
+            "id": "e03fcf68e466a63c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Ubuntu Pro para Expanded Security Maintenance"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Ubuntu Pro para Expanded Security Maintenance"
             }
           }
         ],
@@ -160,8 +165,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "7ef89662e8143aa4",
+  "active": "e03fcf68e466a63c",
   "lastOpenFiles": [
+    "Hogar/Contrato_MetLife.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Configuraciones de Archivo 50unattended-upgrades.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
@@ -187,7 +193,6 @@
     "Luna/Marketplace/Python Shell Queries.md",
     "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
     "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
-    "Luna/Marketplace/MPF/MPF_Issues_and_Replication.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",

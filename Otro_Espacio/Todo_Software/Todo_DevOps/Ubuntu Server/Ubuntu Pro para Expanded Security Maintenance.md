@@ -82,3 +82,12 @@ Run 'do-release-upgrade' to upgrade to it.
 
 *** System restart required ***
 ```
+
+### Servidor dap_node reinició después de aplicar ESM 🟢
+
+```bash
+last reboot
+reboot   system boot  6.14.3-x86_64-li Fri Mar  6 06:00   still running
+reboot   system boot  6.10.2-x86_64-li Thu May 29 06:01 - 06:00 (280+23:58)
+reboot   system boot  6.10.2-x86_64-li Sat May 17 06:01 - 06:00 (11+23:58)
+```
