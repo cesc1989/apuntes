@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e357385312460318",
+        "id": "0f278bf8c71e359a",
         "type": "tabs",
         "children": [
           {
-            "id": "435dc9e0e2617fe2",
+            "id": "27fb2656d2278e40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "UX con las Conversiones de TZ"
-            }
-          },
-          {
-            "id": "14599b99523deea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "027 - Waitlist Avail. Repeat mismo Dia 🟢"
+              "title": "New tab"
             }
           }
         ]
@@ -154,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UX con las Conversiones de TZ"
+              "title": "Outline"
             }
           }
         ],
@@ -179,10 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "435dc9e0e2617fe2",
+  "active": "27fb2656d2278e40",
   "lastOpenFiles": [
-    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
     "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
+    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
