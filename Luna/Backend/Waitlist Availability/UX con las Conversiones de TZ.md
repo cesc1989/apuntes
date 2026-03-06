@@ -1,5 +1,9 @@
 # Problema de UX con las zonas horarias en el calendario de Waitlist Availability
 
+Etiquetas: #luna_help_desk 
+
+Relacionado: [[027 - Waitlist Avail. Repeat mismo Dia 🟢]]
+
 Resumen de Claudio:
 > This is the fundamental UX problem with timezone conversion for availability calendars.
 

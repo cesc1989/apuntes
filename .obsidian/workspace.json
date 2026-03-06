@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1069ea5dbb2b9c87",
+        "id": "e357385312460318",
         "type": "tabs",
         "children": [
           {
-            "id": "657237d4ad0d7696",
+            "id": "435dc9e0e2617fe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Configs de Archivo 50unattended-upgrades.md",
+                "file": "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configs de Archivo 50unattended-upgrades"
+              "title": "UX con las Conversiones de TZ"
+            }
+          },
+          {
+            "id": "14599b99523deea0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "027 - Waitlist Avail. Repeat mismo Dia 🟢"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Configs de Archivo 50unattended-upgrades.md",
+                "file": "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configs de Archivo 50unattended-upgrades"
+              "title": "Outline of UX con las Conversiones de TZ"
             }
           }
         ],
@@ -165,12 +179,16 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "657237d4ad0d7696",
+  "active": "435dc9e0e2617fe2",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
-    "Hogar/Contrato_MetLife.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Configs de Archivo 50unattended-upgrades.md",
+    "Luna/Backend/Help Desk/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
+    "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
+    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
+    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Configs de Archivo 50unattended-upgrades.md",
+    "Hogar/Contrato_MetLife.md",
     "Luna/Patient_Self_Report/Copy Form/Missing Progress Forms after Copy in Luxe 🟡.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
@@ -178,7 +196,6 @@
     "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
-    "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
     "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
     "Luna/Marketplace/Configurando_Marketplace.md",
@@ -190,9 +207,6 @@
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "Luna/Marketplace/Librerias_Python_usadas_en_Marketplace.md",
-    "Luna/Marketplace/Python Shell Queries.md",
-    "Luna/Backend/Help Desk/014 - Therapist Sync en HS y MPF fallida 🟢.md",
-    "Luna/Marketplace/MPF/Rename MPF Folder Names.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
