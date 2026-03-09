@@ -125,7 +125,7 @@ Son:
 - Credentialing Information
 	- Tres Personal References
 - Medicare Requirement
-	- Diez answers
+	- 26 answers
 
 ## Crear credentialing_information & personal_references
 
