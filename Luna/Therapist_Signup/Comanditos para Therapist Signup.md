@@ -176,6 +176,23 @@ O versión job:
 Credentialing::SetupMedicareRequirementWorker.perform_async("034dcade-119c-4683-b394-0d09f35b9015")
 ```
 
+# Corrección de HubSpot ID
+
+Este valor suele quedar obsoleto cuando el Contacto en HS del PT pasa por varias mezclas en HubSpot (merges). Si se intenta buscar el registro `Credentialing::Therapist` por el `hubspot_id` no se encuentra porque tiene un valor diferente.
+
+Usa este script para arreglarlo:
+```ruby
+therapist_email = "[EMAIL]"
+new_hubspot_id = 111111111
+audit_comment = "HubSpot ID out of sync because of multiple Contact merges"
+therapist = Credentialing::Therapist.find_by(email: therapist_email)
+
+pp "Old hubspot_id in DB: #{therapist.hubspot_id}"
+
+therapist.update_column_with_audit(:hubspot_id, new_hubspot_id, audit_comment: audit_comment)
+
+pp "New hubspot_id in DB: #{therapist.hubspot_id}"
+```
 
 # Otros Comanditos ↗️
 
