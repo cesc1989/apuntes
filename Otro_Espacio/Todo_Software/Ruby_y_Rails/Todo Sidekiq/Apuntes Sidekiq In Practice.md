@@ -173,7 +173,8 @@ Por cada thread adicional que se agregue al proceso las mejoras se van reduciend
 
 ## Capítulo 4: Why is My Queue So Long?
 
-En este capítulo aprendí que hay varios factores de la infra sobre la cual se ejecuta Sidekiq que afectan a la utilización y saturación (latencia).
+> [!Note]
+> En este capítulo aprendí que hay varios factores de la infra sobre la cual se ejecuta Sidekiq que afectan a la utilización y saturación (latencia).
 
 ### Location of Saturation in Sidekiq
 
