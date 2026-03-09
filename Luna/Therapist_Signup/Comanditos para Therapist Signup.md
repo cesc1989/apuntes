@@ -187,11 +187,7 @@ new_hubspot_id = 111111111
 audit_comment = "HubSpot ID out of sync because of multiple Contact merges"
 therapist = Credentialing::Therapist.find_by(email: therapist_email)
 
-pp "Old hubspot_id in DB: #{therapist.hubspot_id}"
-
 therapist.update_column_with_audit(:hubspot_id, new_hubspot_id, audit_comment: audit_comment)
-
-pp "New hubspot_id in DB: #{therapist.hubspot_id}"
 ```
 
 # Otros Comanditos ↗️
