@@ -8,12 +8,6 @@ Reviewers en Alpha: [https://echo.alpha.getluna.com/reviewers/sign_in](https://e
 
 Reviewers en Local: [http://localhost:3000/reviewers/sign_in](http://localhost:3000/reviewers/sign_in)
 
-## Crear Reviewer en Local
-
-```ruby
-Reviewer.create(first_name: "Francisco", last_name: "Quintero", email: "francisco.quintero@ideaware.co")
-```
-
 ## Configuración de Entorno
 
 ### Frontend
@@ -53,3 +47,9 @@ ECHO_DOMAIN=http://localhost:5173
 Donde:
 - `REVIEWERS_GOOGLE_OAUTH_ID` es el mismo valor que en `VITE_GOOGLE_CLIENT_ID`
 - `ECHO_DOMAIN` apunta al servidor dev del cliente frontend
+
+#### Crear Reviewer en Local
+
+```ruby
+Reviewer.create(first_name: "Francisco", last_name: "Quintero", email: "francisco.quintero@ideaware.co")
+```
