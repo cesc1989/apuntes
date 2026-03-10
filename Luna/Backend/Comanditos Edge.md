@@ -68,6 +68,27 @@ Patient
 Patient.where.not(id: Episode.select(:patient_id).distinct)
 ```
 
+
+### Crear Reviewer
+
+Para acceder a Echo: https://luxe.alpha.getluna.com/reviewers
+
+```ruby
+Reviewer.create(
+  first_name: "Francisco",
+  last_name: "Quintero",
+  email: "francisco.quintero@ideaware.co"
+)
+```
+
+### Crear AdminUser
+
+Para acceder a Luxe: https://luxe.alpha.getluna.com/admin
+
+```ruby
+
+```
+
 ## Buscar UserCommunicationMethod (UCM) para probar Email Verification
 
 Estos sirven para probar Portal Recipients y que cargue la página de verificar o de verificado.
