@@ -86,7 +86,13 @@ Reviewer.create(
 Para acceder a Luxe: https://luxe.alpha.getluna.com/admin
 
 ```ruby
-
+password = SecureRandom.alphanumeric(12)
+User.create(
+  first_name: "Francisco",
+  last_name: "Quintero",
+  email: "francisco.quintero@ideaware.co",
+  password: password
+)
 ```
 
 ## Buscar UserCommunicationMethod (UCM) para probar Email Verification

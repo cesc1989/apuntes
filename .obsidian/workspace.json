@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Comanditos Edge.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pytest",
+                "query": "AdminUser",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,6 +168,8 @@
   },
   "active": "50ac79cf1df90bdf",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+    "Luna/Backend/Comanditos Edge.md",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
@@ -192,8 +195,6 @@
     "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "Luna/Marketplace/Forms/Creación_de_intake_form en Marketplace.md",
     "Luna/Marketplace/MPF/From CA to MPF.md",
-    "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
-    "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
