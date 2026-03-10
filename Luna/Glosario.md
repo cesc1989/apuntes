@@ -2,6 +2,10 @@
 
 Etiquetas: #luna_help_desk 
 
+## General
+
+PT: Physical Therapist o Therapist.
+
 ## En Luxe
 
 IV: Initial Visit.

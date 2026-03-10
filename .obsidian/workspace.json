@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ecc1848e42118954",
+        "id": "66bbff839ebb782e",
         "type": "tabs",
         "children": [
           {
-            "id": "0b2c5dfaf5cf7263",
+            "id": "547d3eb04c1f1bf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
+                "file": "Luna/Glosario.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾"
+              "title": "Glosario"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
+                "file": "Luna/Glosario.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾"
+              "title": "Outline of Glosario"
             }
           }
         ],
@@ -165,11 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0b2c5dfaf5cf7263",
+  "active": "547d3eb04c1f1bf3",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Backend/1Password.md",
