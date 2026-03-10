@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "323a5b58ff44b3f0",
+        "id": "ecc1848e42118954",
         "type": "tabs",
         "children": [
           {
-            "id": "78153ff438f415cb",
+            "id": "0b2c5dfaf5cf7263",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾"
             }
           }
         ],
@@ -160,8 +165,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "78153ff438f415cb",
+  "active": "0b2c5dfaf5cf7263",
   "lastOpenFiles": [
+    "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
+    "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
+    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
+    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Backend/1Password.md",
     "Luna/Backend/Comanditos Edge.md",
@@ -185,10 +194,6 @@
     "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "Luna/Backend/Backend to Marketplace Requests for Patient Forms.md",
-    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
-    "Luna/Marketplace/Configurando_Marketplace.md",
-    "Luna/Marketplace/Appointments/Appointment Statuses en Marketplace.md",
-    "Luna/Marketplace/Appointments/Envio de Reminders de Appointments.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
