@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8042064aa8d8a390",
+        "id": "58c0d32714da3a83",
         "type": "tabs",
         "children": [
           {
-            "id": "6d108f3b39bb2b87",
+            "id": "ee20d951a6243e87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
-                "mode": "source",
+                "file": "DevAsPros/Infra/Configurando Bugsink.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Para la version 1.15 🟡"
+              "title": "Configurando Bugsink"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
+                "file": "DevAsPros/Infra/Configurando Bugsink.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Para la version 1.15 🟡"
+              "title": "Outline of Configurando Bugsink"
             }
           }
         ],
@@ -165,8 +165,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "6d108f3b39bb2b87",
+  "active": "ee20d951a6243e87",
   "lastOpenFiles": [
+    "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
@@ -193,7 +194,6 @@
     "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
-    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",

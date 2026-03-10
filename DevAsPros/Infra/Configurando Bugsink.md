@@ -22,7 +22,7 @@ Según Pikapods necesita mínimo:
 > [!Note]
 > Por el costo elevado lo que puedo buscar es apagarlo por varias horas del día para ahorrar un poco.
 
-Febrero 23, 2026: 2.73 usd/mes
+Febrero 23, 2026: 2.73 usd/mes.
 
 ## Configuración
 
@@ -58,9 +58,15 @@ Y pude ver ambos errores:
 
 ## Proyectos Migrados a  Bugsink
 
-Estos son los proyectos que están en Bugins y los que debo migrar.
+Estado de los proyectos que tengo andando y cuáles están en Bugsink. Si están chuleados, ya usan el DSN de Bugsink.
 
 - [x] Cash Flow - [Commit](https://github.com/cesc1989/cashflow/commit/73861554a604d10fe05108ebf0bda63767cd9453)
 - [ ] Coshi Notes
 - [ ] Super Menu
-- [ ] Enlacito
+
+> [!Warning]
+> Enlacito no lo voy a migrar aún. Si empiezo a darle a Enlacito en la promoción y mercadeo tendré que prender Bugsink más seguido por si pasan cosas. Es un poco caro por lo que no es conveniente prenderlo todo el día.
+>
+> Con los proyectos personales lo puedo apagar porque casi que no explota nada.
+>
+> Esta decisión la reconsideraré más adelante.
