@@ -101,4 +101,4 @@ Para evitar problemas durante upgrades de Ruby es mejor siempre especificar. As�
 
 ## Trae clase ExceptionLogger
 
-Para simplificar el envío de errores a Sentry/Bugsink
+Para simplificar el envío de errores a Sentry/Bugsink. Commit en Cash Flow https://github.com/cesc1989/cashflow/commit/73861554a604d10fe05108ebf0bda63767cd9453
