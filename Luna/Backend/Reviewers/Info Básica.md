@@ -38,6 +38,10 @@ Donde:
 ### Backend
 
 Hay que configurar estas ENVs:
+
+> [!Warning]
+> Clave que `ECHO_DOMAIN` no termine en `/`. Sino podría haber problema de CORS.
+
 ```bash
 REVIEWERS_GOOGLE_OAUTH_ID=somekey-somekey.apps.googleusercontent.com
 REVIEWERS_GOOGLE_OAUTH_SECRET=somesecret
