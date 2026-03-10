@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "85dfdd61a4e2f8f3",
+        "id": "5dffbcca8a591c70",
         "type": "tabs",
         "children": [
           {
-            "id": "50ac79cf1df90bdf",
+            "id": "bea87de1680b24c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Comanditos Edge.md",
+                "file": "Luna/Backend/Reviewers/Info Básica.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Comanditos Edge"
+              "title": "Info Básica"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Comanditos Edge.md",
+                "file": "Luna/Backend/Reviewers/Info Básica.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Comanditos Edge"
+              "title": "Outline of Info Básica"
             }
           }
         ],
@@ -166,10 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "50ac79cf1df90bdf",
+  "active": "bea87de1680b24c9",
   "lastOpenFiles": [
-    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "Luna/Backend/Comanditos Edge.md",
+    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
