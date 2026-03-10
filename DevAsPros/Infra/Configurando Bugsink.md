@@ -55,3 +55,12 @@ ExceptionLogger.log(StandardError.new, StandardError.new("hola"))
 
 Y pude ver ambos errores:
 ![[bugsink.initial.setup.png]]
+
+## Proyectos Migrados a  Bugsink
+
+Estos son los proyectos que están en Bugins y los que debo migrar.
+
+- [x] Cash Flow - [Commit](https://github.com/cesc1989/cashflow/commit/73861554a604d10fe05108ebf0bda63767cd9453)
+- [ ] Coshi Notes
+- [ ] Super Menu
+- [ ] Enlacito
