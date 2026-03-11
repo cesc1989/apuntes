@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "be4c75b6ad3b5276",
+        "id": "b2e0ea9063e9b7a3",
         "type": "tabs",
         "children": [
           {
-            "id": "a492f4dd35218c3d",
+            "id": "63218500b2455e56",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,6 +162,8 @@
   },
   "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Help Desk/001 - Clinics no recibieron Link en Cadencia 🟢.md",
+    "Luna/Clinical_Dashboard/Help Desk/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
     "Luna/Backend/Help Desk/2025/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
     "Luna/Backend/Help Desk/2025/002 - Export Care Plan status to HubSpot 🟢.md",
     "Luna/Backend/Help Desk/2025",
@@ -188,8 +190,6 @@
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Canvas/Comanditos.canvas",
     "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
-    "Luna/Backend/Help Desk/2025/027 - Waitlist Avail. Repeat mismo Dia 🟢.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
