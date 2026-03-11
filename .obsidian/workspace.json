@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b2e0ea9063e9b7a3",
+        "id": "d6bb873e0fe0b2ac",
         "type": "tabs",
         "children": [
           {
-            "id": "63218500b2455e56",
+            "id": "5347eef00242f60c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,6 +162,9 @@
   },
   "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
+    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
+    "Luna/Clinical_Dashboard/Queries_for_Debugging/queries_varidas.md",
     "Luna/Clinical_Dashboard/Help Desk/001 - Clinics no recibieron Link en Cadencia 🟢.md",
     "Luna/Clinical_Dashboard/Help Desk/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
     "Luna/Backend/Help Desk/2025/010 - Tamper Detection Evidence for PCI DSS 🟢.md",
@@ -186,10 +189,7 @@
     "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/Apuntes Sidekiq In Practice.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "Canvas/Comanditos.canvas",
-    "Luna/Backend/Waitlist Availability/UX con las Conversiones de TZ.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
