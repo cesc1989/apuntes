@@ -24,35 +24,6 @@ See [[Copiando_Archivos_a_desde_S3_mediante_CLI]]
 
 See [[How_to_list_files_per_condition_in_S3_Bucket]]
 
-# Patient Forms
-
-## Create dev DB
-
-```bash
-luna rds create-dev-db -p alpha -d patient-self-report
-```
-
-## Find an incomplete Intake Form
-
-```bash
-# 1st log into a container using Luna CLI
-# Inside the container
-bundle exec rails c
-
-# Inside rails console
-Form.onboarding.uncompleted.order("RANDOM()").first.link
-```
-
-## Find an incomplete Progress Form
-
-```bash
-# 1st log into a container using Luna CLI
-# Inside the container
-bundle exec rails c
-
-# Inside rails console
-Form.progress.uncompleted.order("RANDOM()").first.link
-```
 
 # Edge
 

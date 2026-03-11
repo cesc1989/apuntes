@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d6bb873e0fe0b2ac",
+        "id": "a9f4adab5d9a862c",
         "type": "tabs",
         "children": [
           {
-            "id": "5347eef00242f60c",
+            "id": "72d85fa292c3a3b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Diccionario_de_Comandos_en_Luna_y_o_AWS"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Diccionario_de_Comandos_en_Luna_y_o_AWS"
             }
           }
         ],
@@ -160,8 +165,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "72d85fa292c3a3b2",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
+    "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
+    "Luna/Comandos y Configuración de Kubectl.md",
+    "Luna/Aprendizajes de los Lanzamientos.md",
     "Luna/Therapist_Signup/Help Desk/2025",
     "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
     "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
@@ -186,9 +195,6 @@
     "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
     "Luna/Backend/Reviewers/Info Básica.md",
     "Luna/Backend/1Password.md",
-    "Luna/Backend/Comanditos Edge.md",
-    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
-    "DevAsPros/Infra/Configurando Bugsink.md",
     "Canvas/Comanditos.canvas",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
@@ -210,7 +216,6 @@
     "DevAsPros/Infra",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
-    "Luna/Chart CoPilot",
     "Canvas/GraphQL.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
