@@ -11,10 +11,14 @@
             "id": "54bb3bb7bf8f1393",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "[EvW]_Entidades_para_Pruebas"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of [EvW]_Entidades_para_Pruebas"
             }
           }
         ],
@@ -162,6 +167,11 @@
   },
   "active": "54bb3bb7bf8f1393",
   "lastOpenFiles": [
+    "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
+    "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Logic_&&_Files.md",
+    "Luna/Backend/Exercises_via_Web/[EvW]_Logic_for_PatientDownloadAppSmsWorker.md",
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
     "Luna/Glosario.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
@@ -184,11 +194,6 @@
     "Hogar/Contrato_MetLife.md",
     "Luna/Patient_Self_Report/Copy Form/Missing Progress Forms after Copy in Luxe 🟡.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
-    "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
-    "Luna/Patient_Self_Report/Copy Form/Copy Forms Logic.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
-    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
-    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",

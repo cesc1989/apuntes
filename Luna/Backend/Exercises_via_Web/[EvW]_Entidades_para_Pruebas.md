@@ -10,22 +10,22 @@ group by exercise_program_id
 having count(1) > 6;
 ```
 
-Una vez se tenga un programa, se conserva el ID y se busca su `Episode` para obtener su `Patient`. Con ExerciseProgram y Patient se puede obtener el enlace usando el helper dispuesto para ello desde una consola de rails:
+Una vez se tenga un programa, se conserva el ID y se busca su `Episode` para obtener su `Patient`. Con ExerciseProgram y Patient se puede obtener el enlace desde una consola de rails:
 
 ```ruby
 ep = ExerciseProgram.find(UUID)
 patient = ep.episode.patient
 
-ExerciseProgramLinkHelper.generate_for(patient, ep)
+patient.recent_care_plan.exercise_program.web_link
 ```
 
 # Para el endpoint GET exercise_programs
 
 Es necesario el web_token que enlaza a la cuenta del `Patient` y el `exercise_program_id`:
 ```
-  GET /api/v1/external/exercise_programs/:exercise_program_id?web_token=[WEB_TOKEN]
-   
-  GET /api/v1/external/exercise_programs/6e10e37c-1a08-4dfb-be44-f307d09c6c56?web_token=34997dfbasdiaser
+GET /api/v1/external/exercise_programs/:exercise_program_id?web_token=[WEB_TOKEN]
+ 
+GET /api/v1/external/exercise_programs/6e10e37c-1a08-4dfb-be44-f307d09c6c56?web_token=34997dfbasdiaser
 ```
 
 
@@ -277,7 +277,12 @@ Se define mediante los valores del enum `status`:
 ```ruby
 # app/models/episode.rb
 
-enum status: { active: 0, auto_discharged: 1, treatment_completed: 2, draft: 666 }
+enum status: {
+  active: 0,
+  auto_discharged: 1,
+  treatment_completed: 2,
+  draft: 666
+}
 ```
 
 ## Ejecutar el worker
