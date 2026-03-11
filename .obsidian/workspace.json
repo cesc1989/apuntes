@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6f156dcef182d561",
+        "id": "85ebc2039c8fb465",
         "type": "tabs",
         "children": [
           {
-            "id": "c2e56a7d449d0194",
+            "id": "2a48394867da2d7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "Luna/Backend/Help Desk/NEX-3452 - Cred. Therapist sin registro en Marketplace 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Todos_los_enlaces_Todos_los_entornos"
+              "title": "NEX-3452 - Cred. Therapist sin registro en Marketplace 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Todos_los_enlaces_Todos_los_entornos.md",
+                "file": "Luna/Backend/Help Desk/NEX-3452 - Cred. Therapist sin registro en Marketplace 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Todos_los_enlaces_Todos_los_entornos"
+              "title": "Outline of NEX-3452 - Cred. Therapist sin registro en Marketplace 🟢"
             }
           }
         ],
@@ -165,8 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c2e56a7d449d0194",
+  "active": "2a48394867da2d7b",
   "lastOpenFiles": [
+    "Luna/Backend/Help Desk/NEX-3452 - Cred. Therapist sin registro en Marketplace 🟢.md",
+    "Luna/Backend/Usando Flipper.md",
+    "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Entidades_para_Pruebas.md",
     "Luna/Backend/Exercises_via_Web/Workout Completion Percent.md",
     "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
@@ -191,9 +194,6 @@
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Ubuntu Pro para Expanded Security Maintenance.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Configs de Archivo 50unattended-upgrades.md",
-    "Hogar/Contrato_MetLife.md",
-    "Luna/Patient_Self_Report/Copy Form/Missing Progress Forms after Copy in Luxe 🟡.md",
-    "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
     "DevAsPros/Infra/attachments/bugsink.initial.setup.png",
