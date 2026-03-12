@@ -1,4 +1,4 @@
-# Trabajo Remoto No Bloqueante
+# Trabajo Remoto No Bloqueante 🏡⚡
 
 Etiquetas: #remote_work 
 
