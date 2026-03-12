@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "277050b89f453d40",
+        "id": "073cfb26f7c0b986",
         "type": "tabs",
         "children": [
           {
-            "id": "3d3c7262ff404198",
+            "id": "102bbeb4be402511",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance 🏡⚖️.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Trabajo Remoto es sobre encontrar el Balance 🏡⚖️"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance 🏡⚖️.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trabajo Remoto es sobre encontrar el Balance 🏡⚖️"
+              "title": "Outline"
             }
           }
         ],
@@ -165,8 +160,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "3d3c7262ff404198",
+  "active": "102bbeb4be402511",
   "lastOpenFiles": [
+    "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
+    "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
+    "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance 🏡⚖️.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto No Bloqueante 🏡⚡.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
@@ -192,9 +190,6 @@
     "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
     "Luna/Glosario.md",
     "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
-    "Luna/Backend/Athena Exports Notes/002 - Export Therapist Booking Enabled ✅.md",
-    "Luna/Backend/Athena Exports Notes/004 - Backfill Service Assignments 🟢.md",
-    "Luna/Backend/Reviewers/Info Básica.md",
     "Canvas/Comanditos.canvas",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
