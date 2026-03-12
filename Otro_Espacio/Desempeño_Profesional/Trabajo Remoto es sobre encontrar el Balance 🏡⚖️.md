@@ -1,4 +1,4 @@
-# Trabajo Remoto: Encontrar el Balance
+# Trabajo Remoto: Encontrar el Balance 🏡⚖️
 
 Etiquetas: #remote_work
 
