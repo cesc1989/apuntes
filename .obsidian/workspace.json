@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "073cfb26f7c0b986",
+        "id": "56d327078adc8872",
         "type": "tabs",
         "children": [
           {
-            "id": "102bbeb4be402511",
+            "id": "930419e70b7326d6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,12 +160,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "102bbeb4be402511",
+  "active": "930419e70b7326d6",
   "lastOpenFiles": [
+    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+    "Luna/Backend/Help Desk/2025/026 - Missing POCs 🟡.md",
+    "Luna/Glosario.md",
+    "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto No Bloqueante 🏡⚡.md",
     "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
     "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
     "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto es sobre encontrar el Balance 🏡⚖️.md",
-    "Otro_Espacio/Desempeño_Profesional/Trabajo Remoto No Bloqueante 🏡⚡.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
     "Luna/Comandos y Configuración de Kubectl.md",
@@ -187,9 +190,6 @@
     "Luna/Backend/Exercises_via_Web/Exercises_and_Comms_Prefs_Errors_-_May_2024.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Notifications_Logic_&&_Files.md",
     "Luna/Backend/Exercises_via_Web/[EvW]_Logic_for_PatientDownloadAppSmsWorker.md",
-    "Luna/Backend/Athena Exports Notes/003 - Export TIR to Therapist-Forward-Fill 🟢💪🏾.md",
-    "Luna/Glosario.md",
-    "Luna/Backend/Athena Exports Notes/001 - Export Luxe Nottes aka Banners ✅.md",
     "Canvas/Comanditos.canvas",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
     "DevAsPros/Infra/attachments/cronitor.febrero.2026.png",
