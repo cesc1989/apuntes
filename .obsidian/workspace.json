@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e96ded4284dbd753",
+        "id": "4e028e3debb8e42b",
         "type": "tabs",
         "children": [
           {
-            "id": "40f4c5227324d9b5",
+            "id": "935380b76f2f1ecc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Rails_Proyectos_ver_y_aprender.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Rails_Proyectos_ver_y_aprender"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Open_Source_Contributions/Sobre_limpiar_HTML_que_viene_por_fuera_de_la_aplic.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Rails_Proyectos_ver_y_aprender.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sobre_limpiar_HTML_que_viene_por_fuera_de_la_aplic"
+              "title": "Outline of Rails_Proyectos_ver_y_aprender"
             }
           }
         ],
@@ -161,8 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "935380b76f2f1ecc",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Migrar_Rails_App_de_Heroku_a_AWS.md",
+    "Otro_Espacio/Todo_Software/Open_Source_Contributions/Sobre_limpiar_HTML_que_viene_por_fuera_de_la_aplic.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
@@ -189,8 +195,6 @@
     "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "Otro_Espacio/Desempeño_Profesional/Recuerda_Para_un_Buen_Desempeño_Profesional.md",
-    "Otro_Espacio/Desempeño_Profesional/Permite comunicación mediocre pero no la practiques.md",
-    "Otro_Espacio/Desempeño_Profesional/Lo_que_significa_ser_un_Dev_Senior.md",
     "Luna/Therapist_Signup/Help Desk/2025",
     "Luna/Backend/Help Desk/2025",
     "Canvas/Comanditos.canvas",
