@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "56d327078adc8872",
+        "id": "ff419a817a60c01b",
         "type": "tabs",
         "children": [
           {
-            "id": "930419e70b7326d6",
+            "id": "b1728d20c9fd732f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Desempeño_Profesional/Aprendizajes_de_los_Releases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Aprendizajes_de_los_Releases"
             }
           }
         ],
@@ -160,7 +161,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "930419e70b7326d6",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
     "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/2025/026 - Missing POCs 🟡.md",
