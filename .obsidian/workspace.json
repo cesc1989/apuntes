@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Temas_de_Ingeniería_de_Software.md",
+                "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Desarrollo_de_Requerimientos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Temas_de_Ingeniería_de_Software"
+              "title": "Outline of Desarrollo_de_Requerimientos"
             }
           }
         ],
@@ -163,6 +163,7 @@
   },
   "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Temas_de_Ingeniería_de_Software.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/erd.luna.status.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Heroku_Stack_y_Boring_Software.md",
@@ -191,7 +192,6 @@
     "Luna/Comandos y Configuración de Kubectl.md",
     "Luna/Aprendizajes de los Lanzamientos.md",
     "Luna/Therapist_Signup/Help Desk/2025",
-    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
     "Luna/Backend/Help Desk/2025",
     "Canvas/Comanditos.canvas",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
