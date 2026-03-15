@@ -100,22 +100,5 @@ Esto lo hace Jason en los documentos que tenemos
 
 Estos son planes que ya he escrito para diferentes proyectos en Luna. No aplican todo lo que se menciona anteriormente.
 
-## Credentialing to Symplr
-https://www.dropbox.com/scl/fi/zj6tgpynl5bmb0db67cbz/Technical_Plan_-_Therapist_to_Symplr_Integration.pdf?dl=0&rlkey=273umq9enb6atiurn87si68f6
-
-
-
-## Symplr to Hubspot
-https://www.dropbox.com/scl/fi/fxie74bgztg69uxe294ft/Technical_Plan_-_Symplr_to_Hubspot_Integration.pdf?dl=0&rlkey=8quixlbblrw5cjvuoved3a6az
-
-
-
-## Luxe to Symplr
-https://www.dropbox.com/scl/fi/wl7iu7of428h75t0r4mi8/Technical_Plan_-_Luxe_to_Symplr_Integration.pdf?dl=0&rlkey=hhfd6heplqk5qii4cje8wjavi
-
-
-
-## Bye Athena
-https://www.dropbox.com/scl/fi/9836b7te0h3w1jm6p03bo/23-08-29-Bye-AWS-Athena-Technical-Plan.pdf?dl=0&rlkey=64flnbwpe6a0yiumtcvn342ka
-
-
+> [!Note]
+> Buscar en la carpeta en Documentos
