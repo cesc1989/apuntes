@@ -11,10 +11,14 @@
             "id": "6bf9f3506959d051",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Para la version 1.15 🟡"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Para la version 1.15 🟡"
             }
           }
         ],
@@ -160,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "6bf9f3506959d051",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Ruby_Proyectos_ver_y_aprender.md",

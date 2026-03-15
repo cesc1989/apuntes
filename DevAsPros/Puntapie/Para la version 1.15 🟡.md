@@ -102,3 +102,7 @@ Para evitar problemas durante upgrades de Ruby es mejor siempre especificar. As√
 ## Trae clase ExceptionLogger
 
 Para simplificar el env√≠o de errores a Sentry/Bugsink. Commit en Cash Flow https://github.com/cesc1989/cashflow/commit/73861554a604d10fe05108ebf0bda63767cd9453
+
+## Cambiar clave de usuario Admin
+
+Todos los proyectos que he creado a partir de Puntapie tienen la misma clave. Hay que cambiar al generar uno nuevo o hacer que sea autogenerada.
