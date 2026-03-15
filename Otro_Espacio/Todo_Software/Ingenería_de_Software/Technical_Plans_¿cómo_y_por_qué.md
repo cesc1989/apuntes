@@ -1,26 +1,33 @@
 # Technical Plans: ¿cómo y por qué?
+
 En este documento pondré varias fuentes que explican cómo escribir planes técnicos, cómo escribirlos, qué tener en cuenta, algunos ejemplos y guías.
 
 ## Recursos
+
 - [Simple tricks to level up your technical design docs in 2024](https://careercutler.substack.com/p/simple-tricks-to-level-up-your-technical)
 - [Conversación con ChatGPT 3.5](https://chat.openai.com/share/9d369ac5-350e-4da5-bc70-b2cc7c0b80d9)
 
 
 # Why design docs / technical plans are useful and how they help you
+
 ## Reducir el riesgo
+
 > By identifying potential challenges and risks upfront, a technical plan allows for proactive mitigation strategies to be put in place.
 
 
 ## Alineamiento del equipo
+
 > It ensures that everyone involved in the project is on the same page regarding the approach, methodologies, and technologies to be used.
 
 
 ## Comunicación
+
 > It serves as a communication tool, (…) within the project team (…). A (…) technical plan clearly articulates the project scope, requirements, timelines, and deliverables.
 
 
 
 # Recomendaciones
+
 ## Mantenlo al grano
 
 Escribe solo lo necesario para tomar una decisión.
@@ -37,6 +44,7 @@ Incluye detalles de partes complejas o de mucho riesgo:
 
 
 ## Consigue primero retroalimentación de personas clave
+
 > You want to get feedback from the most vocal reviewers individually first.
 > 
 > Doing this gets those vocal reviewers bought in to your doc because you incorporate their feedback early on.
@@ -55,8 +63,7 @@ Sigue siempre una plantilla pero entiende porqué cada sección es necesario y a
 
 Esto lo hace Jason en los documentos que tenemos
 
-![](https://paper-attachments.dropboxusercontent.com/s_3F2726D0798B44D211A404EA87E9ACDC6312442303DBC4280E5539D7B33889D6_1706479406230_imagen.png)
-
+![[erd.luna.status.png]]
 
 **Context**
 

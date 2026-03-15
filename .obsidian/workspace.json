@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -167,6 +167,7 @@
   },
   "active": "145a7f588f2c37ae",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/erd.luna.status.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Heroku_Stack_y_Boring_Software.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/kamal.stack.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
@@ -194,7 +195,6 @@
     "Luna/Aprendizajes de los Lanzamientos.md",
     "Luna/Therapist_Signup/Help Desk/2025",
     "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
     "Luna/Backend/Help Desk/2025",
     "Canvas/Comanditos.canvas",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos",
