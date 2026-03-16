@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "bd9d190bf2a98d95",
+        "id": "578b1b9a44f7f64a",
         "type": "tabs",
         "children": [
           {
-            "id": "ab4330a51b72008a",
+            "id": "f31fb5ffccd9590a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Luna/Backend/Plans of Care/Configuración de Google Drive y API.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Configuración de Google Drive y API"
+            }
+          },
+          {
+            "id": "bee700519c474f55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Luna/Backend/Plans of Care/Configuración de Templates de Fax y Charts.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Configuración de Templates de Fax y Charts"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,8 +180,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "ab4330a51b72008a",
+  "active": "bee700519c474f55",
   "lastOpenFiles": [
+    "Luna/Backend/Plans of Care/Configuración de Google Drive y API.md",
     "Luna/Backend/Plans of Care/Configuración de Templates de Fax y Charts.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
     "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
@@ -195,7 +211,6 @@
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Heroku_Stack_y_Boring_Software.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/kamal.stack.png",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Estimación,_Estimación,_Estimación.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Design_Documents_-_Apuntes.md",
     "Luna/Therapist_Signup/Help Desk/2025",
     "Luna/Backend/Help Desk/2025",
     "Canvas/Comanditos.canvas",
