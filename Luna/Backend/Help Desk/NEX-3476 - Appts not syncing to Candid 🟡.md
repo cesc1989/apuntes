@@ -50,12 +50,13 @@ Claudio explica:
 6. CandidEncounter created/updated → appointment appears as synced in Candid
 ```
 
-If the chart was not yet eligible at signing time, the appointment is picked up later by the periodic batch job:
-```
-Candid::Egress::SyncAllEligibleAppointmentsWorker
-  → finds all candid_sync_eligible appointments not yet synced
-  → enqueues SyncAppointmentWorker for each
-```
+> [!Important]
+> If the chart was not yet eligible at signing time, the appointment is picked up later by the periodic batch job:
+> ```
+>  Candid::Egress::SyncAllEligibleAppointmentsWorker
+ >   → finds all candid_sync_eligible appointments not yet synced
+ >   → enqueues SyncAppointmentWorker for each
+ > ```
 
 ### ¿Qué hacen los checks?
 
