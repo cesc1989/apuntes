@@ -12,7 +12,7 @@ Sub casos:
 
 Se reporta que desde Enero ha estado fallando la creación de POCs. Hubo 825 casos en Enero. A Diciembre sigue habiendo casos.
 
-Todo empieza en `TherapistSignedChartPdfGeneratorWorker`. Este worker hace varias cosas. Ver [[POC Generation - Missing Case Analysis#Entry Point TherapistSignedChartPdfGeneratorWorker]]
+Todo empieza en `TherapistSignedChartPdfGeneratorWorker`. Este worker hace varias cosas. Ver [[POC Generation - Missing Case Analysis 🟡#Entry Point TherapistSignedChartPdfGeneratorWorker]]
 
 Comentario de Ryan:
 > Then you need to look at the state files to see the ruleset that applies, e.g. `georgia.yml` / `plan_of_care_rules_config`.
@@ -36,13 +36,13 @@ Para poder inspeccionar y tener datos extra de cómo se da este proceso de tal f
 
 ## Probar extraer generación del POC de generación del PDF ❌
 
-> Como se explica en [[POC Generation - Missing Case Analysis#2. CHART SIGNING STATE BUG ❌]]
+> Como se explica en [[POC Generation - Missing Case Analysis 🟡#2. CHART SIGNING STATE BUG ❌]]
 
 Esto no es la causa.
 
 ## Comprobar si los missing POCs son de estados que no tienen configuración alguna ❌
 
-Esto no es la causa. Ver [[POC Generation - Missing Case Analysis#State Configuration ❌]]
+Esto no es la causa. Ver [[POC Generation - Missing Case Analysis 🟡#State Configuration ❌]]
 
 Revisar si los POCs no se generan por ser de care plans en estados sin configuración de Direct Access o si hay alguna mala configuración.
 
