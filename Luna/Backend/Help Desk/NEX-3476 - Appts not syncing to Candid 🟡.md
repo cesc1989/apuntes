@@ -31,10 +31,9 @@ Claudio dice:
 
 El modelo `CandidEncounter` existe en `app/models/candid_encounter.rb`.
 
-#### The Sync Flow (Happy Path)
+### The Sync Flow (Happy Path)
 
 Claudio explica:
-
 ```
 1. Therapist signs chart
        ↓
@@ -58,6 +57,8 @@ Claudio explica:
  >   → enqueues SyncAppointmentWorker for each
  > ```
 
+El flow normal es cuando se firma el chart del appointment. El otro flow es lo que se describe en el callout anterior.
+
 #### ¿Qué hacen los checks a nivel de instancia?
 
 Esos son los que corren cuando se firma el chart y se dispara el callback `refresh_candid_encounter_via_chart_change`. Esta función está en el concern `CandidEncounterDataModifier`.
@@ -70,7 +71,7 @@ def refresh_candid_encounter_via_chart_change!
 end
 ```
 
-##### Los Checks
+##### Los métodos que hacen checks a la instancia
 
 ¿Qué hace `candid_synced?`?
 ```ruby
@@ -117,7 +118,57 @@ def candid_sync_eligible_patient_fee_visit?
 end
 ```
 
-Luego vemos estos:
+
+#### ¿Qué hacen los scopes para el sync general?
+
+Estos se usan cuando el flujo mediante la chart firmada no puede pasar porque el check de `candid_synced?` falla porque no hay registro en `CandidEncounter`.
+
+En el worker `Candid::Egress::SyncAllEligibleAppointmentsWorker` se usa el scope de Appointment `candid_sync_eligible`.
+
+```ruby
+def eligible_appointments
+	Appointment
+	.candid_sync_eligible
+	.where.not(
+		CandidEncounter
+		.where("candid_encounters.appointment_id = appointments.id")
+		.select(1)
+		.arel.exists
+	)
+end
+```
+
+Dicho scope se compone de dos más:
+```ruby
+scope :candid_sync_eligible, lambda {
+	union(
+		candid_sync_candidate_signed_visits,
+		candid_sync_candidate_patient_fee_visits
+	)
+}
+```
+
+Hacen bastantes cosas pero Claudio las resume en lo siguiente.
+
+##### Signed/Completed Visits (`candid_sync_candidate_signed_visits`)
+
+- Appointment state: `completed`
+- Chart: must be `signed` with a `signature_date`
+- Appointment's `scheduled_date` must fall within `candid_sync_eligible_documented_visits_scheduled_date_period`
+- Chart's `signature_date` must fall within `candid_sync_eligible_documented_visits_signature_date_period` (typically must be ≥24h after completion)
+- Patient and therapist must be "real" (not test/blacklisted)
+- Clinic must NOT be in `candid_ignored_clinic_keys` setting
+
+##### Patient-Fee Visits (`candid_sync_candidate_patient_fee_visits`)
+
+- Cancelled-by-patient or no-show visits with waived fees
+- Similar date window and patient/therapist requirements
+- Subject to `candid_patient_fee_sync_business_day_delay` (default 4 business days)
+
+
+#### Checks de Fecha a nivel de Appointment
+
+Estos:
 - `Appointment.candid_sync_eligible_documented_visits_scheduled_date_period`
 - `Appointment.candid_sync_eligible_documented_visits_signature_date_period`
 - `Appointment.candid_sync_eligible_patient_fee_visits_scheduled_date_period`
