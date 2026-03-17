@@ -31,7 +31,7 @@ Claudio dice:
 
 El modelo `CandidEncounter` existe en `app/models/candid_encounter.rb`.
 
-### The Sync Flow (Happy Path)
+#### The Sync Flow (Happy Path)
 
 Claudio explica:
 
@@ -58,7 +58,19 @@ Claudio explica:
  >   → enqueues SyncAppointmentWorker for each
  > ```
 
-### ¿Qué hacen los checks?
+#### ¿Qué hacen los checks a nivel de instancia?
+
+Esos son los que corren cuando se firma el chart y se dispara el callback `refresh_candid_encounter_via_chart_change`. Esta función está en el concern `CandidEncounterDataModifier`.
+
+```ruby
+def refresh_candid_encounter_via_chart_change!
+	return unless appointment.candid_sync_eligible? || appointment.candid_synced?
+
+	Candid::Egress::SyncAppointmentWorker.perform_async(appointment.id)
+end
+```
+
+##### Los Checks
 
 ¿Qué hace `candid_synced?`?
 ```ruby
@@ -68,7 +80,6 @@ end
 ```
 
 ¿Qué hace `candid_sync_eligible`?
-
 ```ruby
 def candid_sync_eligible?
 	candid_sync_eligible_documented_visit? || candid_sync_eligible_patient_fee_visit?
@@ -139,7 +150,6 @@ def self.candid_sync_eligible_documented_visits_signature_date_period
 	lower_bound..upper_bound
 end
 ```
-
 
 Y
 ```ruby
