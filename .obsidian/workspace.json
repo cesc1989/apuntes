@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c5224e4d4701e9cc",
+        "id": "a0162eaa6874817e",
         "type": "tabs",
         "children": [
           {
-            "id": "1b1f2dbc77c97e44",
+            "id": "cc20e56f2f62a8bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "file": "Luna/Clinical_Dashboard/Help Desk/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "POC Generation - Missing Case Analysis"
+              "title": "002 - Respuesta 422 de endpoint v1 sessions ✅"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
+                "file": "Luna/Clinical_Dashboard/Help Desk/002 - Respuesta 422 de endpoint v1 sessions ✅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of POC Generation - Missing Case Analysis"
+              "title": "Outline of 002 - Respuesta 422 de endpoint v1 sessions ✅"
             }
           }
         ],
@@ -165,14 +165,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "1b1f2dbc77c97e44",
+  "active": "cc20e56f2f62a8bc",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Help Desk/001 - Clinics no recibieron Link en Cadencia 🟢.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
+    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis 🟡.md",
+    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
     "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
     "Luna/Backend/Plans of Care/Configuración de Templates de Fax y Charts.md",
     "Luna/Backend/Plans of Care/Configuración de Google Drive y API.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Fax and Violation Rules per State Summary.md",
-    "Luna/Backend/Plans of Care/Fax and Violation Rules/Definiciones de Fax y Violation Rules.md",
-    "Luna/Backend/Plans of Care/POC Generation - Missing Case Analysis.md",
     "Luna/Backend/Help Desk/2025/026 - Missing POCs 🟡.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
@@ -194,7 +195,6 @@
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Temas_de_Ingeniería_de_Software.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/Technical_Plans_¿cómo_y_por_qué.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/erd.luna.status.png",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/Heroku_Stack_y_Boring_Software.md",
     "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/kamal.stack.png",
     "Luna/Therapist_Signup/Help Desk/2025",
     "Luna/Backend/Help Desk/2025",
