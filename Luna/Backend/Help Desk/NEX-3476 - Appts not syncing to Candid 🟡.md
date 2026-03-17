@@ -7,7 +7,7 @@ Reporte:
 
 En la vista XXXX en la columna "Why Unsynced?" aparece el texto "bug?".  El reporte indica que todo appointment con chart firmado debe aparecer en Candid.
 
-## Context
+## Contexto ℹ️
 
 ### Signed Visits
 
