@@ -75,7 +75,7 @@ tree -L 2 ./
 
 Para que se refleje la nueva estructura de carpetas y actualizar el comando de crear las carpetas del proyecto en el VPS.
 
-## Actualiza script de despliegue para que reinicie Sidekiq
+## Actualiza script de despliegue para que reinicie Sidekiq 
 
 La versión actual solo lo arranca pero no lo actualiza por lo tanto el código nuevo no se refleja en el job.
 
@@ -97,7 +97,7 @@ Para simplificar el envío de errores a Sentry/Bugsink. Commit en Cash Flow http
 
 Todos los proyectos que he creado a partir de Puntapie tienen la misma clave. Hay que cambiar al generar uno nuevo o hacer que sea auto generada.
 
-## Aplicar cambios de confirmación de correo
+## Aplicar cambios de confirmación de correo 📨
 
 Todo lo que se hizo para Enlacito.
 
