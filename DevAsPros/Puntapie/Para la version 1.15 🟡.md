@@ -1,6 +1,6 @@
 # Para la versión 1.15
 
-## Actualizaciones de Versiones
+## Actualizaciones de Versiones 🆙
 
 ### Subir Rails a 7.1.6
 
