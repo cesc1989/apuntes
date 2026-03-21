@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b85852e6a04c358c",
+        "id": "1ba9b81dd021ddba",
         "type": "tabs",
         "children": [
           {
-            "id": "ca7275808faa29f1",
+            "id": "22f67335289a5eaf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hogar/Destinos.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Destinos"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Hogar/Destinos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Destinos"
             }
           }
         ],
@@ -160,8 +165,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "ca7275808faa29f1",
+  "active": "22f67335289a5eaf",
   "lastOpenFiles": [
+    "Hogar/attachments/ronda.espana.png",
+    "Hogar/attachments/caminitodelrey.espana.png",
+    "Hogar/attachments/lauterbrunnen.suiza.png",
+    "Hogar/attachments/lago.brienz.suiza.png",
+    "Hogar/attachments/amalfi.italia.png",
+    "Hogar/attachments",
+    "Hogar/untitled folder",
+    "Hogar/Contrato_MetLife.md",
+    "Luna/Backend/Help Desk/2025/006 - Update MIPS data to 2025 for Healthmonix 🟢.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
     "DevAsPros/Enlacito/Descubrimiento/dub/attachments/005.plans.png",
@@ -170,9 +184,6 @@
     "DevAsPros/Enlacito/Descubrimiento/dub/attachments/002.dub.preview.png",
     "DevAsPros/Enlacito/Descubrimiento/dub/attachments/001.dub.acortando.png",
     "DevAsPros/Enlacito/Descubrimiento/bitly/attachments/008.bitly.plans.png",
-    "DevAsPros/Enlacito/Descubrimiento/bitly/attachments/001.bitly.startpage.png",
-    "DevAsPros/Enlacito/Descubrimiento/bitly/attachments/002.bitly.links.png",
-    "DevAsPros/Enlacito/Descubrimiento/bitly/attachments/003.bitly.link.detail.png",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
@@ -195,10 +206,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu_-_No_space_left_on_device_Is_it_a_lie_or_h.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Sistema_de_Archivos_y_Permisos_en_HDD_externo_para.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Particionando_SSD_y_HDD_para_LinuxMint_Thinkpad.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/HDD_en_Caddy_problemas_y_alternativas.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
-    "Otro_Espacio/Todo_Software/Ingenería_de_Software/attachments/erd.luna.status.png",
     "Luna/Therapist_Signup/Help Desk/2025",
     "Luna/Backend/Help Desk/2025",
     "Canvas/Comanditos.canvas",
@@ -207,8 +214,6 @@
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq",
-    "DevAsPros/Infra/attachments",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
