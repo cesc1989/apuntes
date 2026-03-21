@@ -50,11 +50,10 @@ Enlaces:
 
 Ronda es un municipio y localidad española perteneciente a Andalucía, situada en el noroeste de la provincia de Málaga, a unos 100 kilómetros de la ciudad de Málaga.
 
-Enlaces:
-- [Wikipedia](https://es.wikipedia.org/wiki/Ronda)
-- [Mapa en Google](https://www.google.com/maps/place/29400+Ronda,+M%C3%A1laga,+Spain/@36.7406517,-5.166914,3759m/data=!3m2!1e3!4b1!4m5!3m4!1s0xd0d3143e258a279:0x94358021349a5ba2!8m2!3d36.746209!4d-5.1612251).
-
 La ciudad se asienta sobre una meseta cortada por un profundo tajo excavado por el río Guadalevín, al que asoman los edificios de su centro histórico, lo que confiere a la ciudad una panorámica pintoresca que, unida a la variedad de monumentos que posee, a su entorno natural y a su cercanía a los grandes centros del turismo de masas de la Costa del Sol, ha convertido a Ronda en un centro turístico notable.
 
 La cornisa del tajo y el puente que lo salva son la imagen por antonomasia de la ciudad.
 
+Enlaces:
+- [Wikipedia](https://es.wikipedia.org/wiki/Ronda)
+- [Mapa en Google](https://www.google.com/maps/place/29400+Ronda,+M%C3%A1laga,+Spain/@36.7406517,-5.166914,3759m/data=!3m2!1e3!4b1!4m5!3m4!1s0xd0d3143e258a279:0x94358021349a5ba2!8m2!3d36.746209!4d-5.1612251)
