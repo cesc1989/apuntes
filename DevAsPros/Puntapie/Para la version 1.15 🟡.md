@@ -2,7 +2,7 @@
 
 ## Actualizaciones de Versiones 🆙
 
-- Subir Rails a 7.1.6: para estar más cerca de 7.2
+- Subir Rails a 7.2.3 para quedar cerca al 8.
 - Subir a Ruby 3.4.8: ver CashFlow y CoshiNotes.
 
 ### Gemas
