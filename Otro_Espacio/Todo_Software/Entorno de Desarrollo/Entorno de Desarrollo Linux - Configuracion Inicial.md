@@ -1,13 +1,13 @@
-# Todo lo que debo instalara Linux Mint 21.3 Virginia - PC de Trabajo
+# Todo lo que debo instalar a Linux Mint 21.3 Virginia - PC de Trabajo
 
 Esta version esta sobre Ubuntu 22.04.
 
 ## Primero
 
 - [x] Inicia sesión en Firefox Accounts y sincroniza el navegador
-- Descarga y ejecuta este script de provisionamiento inicial
+- Descarga y ejecuta este script de aprovisionamiento inicial
 	- [x] Script - [Gist](https://gist.github.com/cesc1989/5f538428d143d8e5427f#file-01_provision_linux_mint-sh-L46)
-- [x] Copia la configuracion de SSH config
+- [x] Copia la configuración de SSH config
 - [x] Crea llave SSH para Github
 - Descarga repos:
   - [x] dotfiles -> https://github.com/cesc1989/dotfiles
@@ -22,7 +22,6 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Brave
 - [x] Zoom
 - [x] VLC
-- [ ] Mega CMD
 - [x] Mega Sync
 
 ## Sistema
@@ -46,7 +45,6 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] chruby
 - [x] ruby-install
 - [x] NVM
-- [ ] Image Magick
 - [x] Sublime Text 4
 - [x] Sublime Text Sync settings from GitHub [https://github.com/cesc1989/sublime-configs](https://github.com/cesc1989/sublime-configs)
 - [x] DBeaver 
@@ -55,13 +53,10 @@ Con todo eso en su lugar, podemos empezar a configurar el resto de cosas del sis
 - [x] Redis
 - [x] Postman
 - [x] MySQL Workbench
-- [ ] Virtualbox
-- [ ] Docker
-- [ ] Python3
 
 ## Carpetas
 
 - [x] Carpeta projects
-- [x] Carpeta devaspros projects
+- [x] Carpeta devaspros-projects
 - [x] Copia carpeta música del HDD Mugiwara
 - [x] Sincroniza carpeta Documents con Mega Sync
