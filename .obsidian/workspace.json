@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "42b5f4050f946231",
+        "id": "86120cfd32e86ac3",
         "type": "tabs",
         "children": [
           {
-            "id": "e743bcd770d1c60b",
+            "id": "2a87dc2d85d9fa32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando_Tmux.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Usando_Tmux"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando_Tmux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Usando_Tmux"
+              "title": "Outline"
             }
           }
         ],
@@ -165,8 +160,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "e743bcd770d1c60b",
+  "active": "2a87dc2d85d9fa32",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando_Tmux.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/22.barra.estado.tmux.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/21.division.vertical.tmux.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/20.division.horizontal.tmux.png",
@@ -192,9 +191,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.1.4 - Notes ✅.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade to 7.0.8.4 ✅.md",
-    "Luna/Backend/AppBlend/Milestone 4 - Rails to 7.1.4/Upgrade Announcement.md",
     "Hogar/attachments/06.pagos.sura.iw.png",
     "Hogar/attachments/05.sura.certificado.png",
     "Hogar/attachments/04.suspendido.sura.png",
@@ -202,7 +198,6 @@
     "Hogar/attachments/002.suspendido.png",
     "Hogar/attachments/001.suspendido.png",
     "Hogar/attachments/02.aviso.sura.feb.2026.png",
-    "Hogar/attachments/01.aviso.sura.dic.2025.png",
     "Hogar/attachments",
     "Hogar/untitled folder",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
