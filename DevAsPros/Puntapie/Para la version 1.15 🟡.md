@@ -89,11 +89,11 @@ Ver: https://github.com/cesc1989/cashflow/commit/e031840a2ba76e80d9159633460c919
 
 Para evitar problemas durante upgrades de Ruby es mejor siempre especificar. Así se limpia la elección de chruby en el `.profile`.
 
-## Trae clase ExceptionLogger
+## Trae clase ExceptionLogger ✅
 
 Para simplificar el envío de errores a Sentry/Bugsink. Commit en Cash Flow https://github.com/cesc1989/cashflow/commit/73861554a604d10fe05108ebf0bda63767cd9453
 
-## Cambiar clave de usuario Admin
+## Cambiar clave de usuario Admin ✅
 
 Todos los proyectos que he creado a partir de Puntapie tienen la misma clave. Hay que cambiar al generar uno nuevo o hacer que sea auto generada.
 
