@@ -61,7 +61,7 @@ Y pude ver ambos errores:
 Estado de los proyectos que tengo andando y cuáles están en Bugsink. Si están chuleados, ya usan el DSN de Bugsink.
 
 - [x] Cash Flow - [Commit](https://github.com/cesc1989/cashflow/commit/73861554a604d10fe05108ebf0bda63767cd9453)
-- [ ] Coshi Notes
+- [x] Coshi Notes
 - [ ] Super Menu
 
 > [!Warning]
