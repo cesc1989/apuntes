@@ -1,11 +1,11 @@
 # Para la versión 1.15
 
-## Actualizaciones de Versiones 🆙
+## Actualizaciones de Versiones 🆙 ✅
 
 - Subir Rails a 7.2.3 para quedar cerca al 8. ✅
 - Subir a Ruby 3.4.8: ver CashFlow y CoshiNotes. ✅
 
-### Gemas
+### Gemas ✅
 
 - Actualizar gema redis a la versión 5.4.1 o mayor ✅
 	- Para que tenga soporte con redis-server versión 7.x.x
