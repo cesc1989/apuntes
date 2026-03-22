@@ -2,18 +2,18 @@
 
 ## Actualizaciones de Versiones 🆙
 
-- Subir Rails a 7.2.3 para quedar cerca al 8.
-- Subir a Ruby 3.4.8: ver CashFlow y CoshiNotes.
+- Subir Rails a 7.2.3 para quedar cerca al 8. ✅
+- Subir a Ruby 3.4.8: ver CashFlow y CoshiNotes. ✅
 
 ### Gemas
 
-- Actualizar gema redis a la versión 5.4.1 o mayor
+- Actualizar gema redis a la versión 5.4.1 o mayor ✅
 	- Para que tenga soporte con redis-server versión 7.x.x
-- Actualizar gema Sidekiq a la versión 7.3.0 o mayor
+- Actualizar gema Sidekiq a la versión 7.3.0 o mayor ✅
 	- Para compatibilidad con versiones más recientes de la gema redis
-- Actualizar sqlite3 a 2.9.0
+- Actualizar sqlite3 a 2.9.0 ✅
 	- Ver CashFlow y CoshiNotes.
-- Actualizar FactoryBot a 6.5.0
+- Actualizar FactoryBot a 6.5.0 ✅
 	- Para prevenir problema con la librería `observer` que fue removida en Ruby 3.4
 
 ## Especificar el puerto del VPS en el Github action
