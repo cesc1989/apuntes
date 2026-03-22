@@ -11,10 +11,14 @@
             "id": "70ec804d50198af0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Upgrade a Rails 7.2.3"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Upgrade a Rails 7.2.3"
             }
           }
         ],
@@ -162,6 +167,7 @@
   },
   "active": "70ec804d50198af0",
   "lastOpenFiles": [
+    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟡.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Ruby 3.1.0 - Notes ✅.md",
@@ -199,7 +205,6 @@
     "Luna/Marketplace/Forms/Intake_Form_and_Progress_Form_creation_flow en Marketplace.md",
     "Luna/Marketplace/Forms/Reglas Creación de Progress Forms - Marketplace.md",
     "Luna/Backend/Help Desk/NEX-3476 - Appts not syncing to Candid ❌.md",
-    "Luna/Backend/Edge Enums que Importan 🔑.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
     "Luna/Therapist_Signup/Help Desk/2025",
     "Luna/Backend/Help Desk/2025",
