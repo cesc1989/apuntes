@@ -35,7 +35,8 @@
               "title": "Para la version 1.15 🟢"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la versión 1.16.md",
+                "file": "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Para la versión 1.16"
+              "title": "Outline of Para la version 1.15 🟢"
             }
           }
         ],
@@ -179,10 +180,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0948ae6fc8314983",
+  "active": "7462a7b761231ab9",
   "lastOpenFiles": [
-    "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
     "DevAsPros/Puntapie/Para la versión 1.16.md",
+    "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Ruby 3.1.0 - Notes ✅.md",
