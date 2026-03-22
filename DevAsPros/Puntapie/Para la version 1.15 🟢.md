@@ -1,5 +1,8 @@
 # Para la versión 1.15
 
+> [!Important]
+> Cambios liberados en https://github.com/devaspros/puntapie/releases/tag/v1.15
+
 ## Actualizaciones de Versiones 🆙 ✅
 
 - Subir Rails a 7.2.3 para quedar cerca al 8. ✅
