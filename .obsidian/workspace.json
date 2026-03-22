@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2b28b4c53c933eae",
+        "id": "b5b8df988ffa1d6a",
         "type": "tabs",
         "children": [
           {
-            "id": "41fc2b83f0fb9449",
+            "id": "16afd2f237addef8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
-                "mode": "preview",
+                "file": "DevAsPros/Puntapie/Para la versión 1.16.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Para la version 1.15 🟢"
+              "title": "Para la versión 1.16"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
+                "file": "DevAsPros/Puntapie/Para la versión 1.16.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Para la version 1.15 🟢"
+              "title": "Outline of Para la versión 1.16"
             }
           }
         ],
@@ -165,10 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "41fc2b83f0fb9449",
+  "active": "16afd2f237addef8",
   "lastOpenFiles": [
-    "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
+    "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
     "DevAsPros/Puntapie/Para la versión 1.16.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
