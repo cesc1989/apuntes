@@ -10,7 +10,7 @@ En este documento desgloso todo aquello que considero crucial, cosas que debo co
 
 Sin ningún orden.
 
-### Sitio web de aterrizaje 🟡
+### Sitio web de aterrizaje 🟢
 
 Para dar información, hacer que sea encontrable, poner precios, listar características.
 
@@ -18,7 +18,7 @@ Haría falta:
 - Logo
 - Diseño de la página
 
-### Habilitar Registro de Usuarios 🟡
+### Habilitar Registro de Usuarios 🟢
 
 Esto incluye:
 - Habilitar página de registro
