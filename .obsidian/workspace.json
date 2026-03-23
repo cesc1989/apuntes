@@ -11,10 +11,14 @@
             "id": "2a87dc2d85d9fa32",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 14 - Integración con Bold"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ciclo 14 - Integración con Bold"
             }
           }
         ],
@@ -162,6 +167,7 @@
   },
   "active": "2a87dc2d85d9fa32",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
@@ -190,7 +196,6 @@
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes 2 ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Upgrade to Rails 7.0.x Notes ✅.md",
     "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/Pruebas de Rails 7.md",
-    "Luna/Backend/AppBlend/Milestone 2 - Rails & Ruby Upgrade/004 - Config Defaults.md",
     "Hogar/attachments/06.pagos.sura.iw.png",
     "Hogar/attachments/05.sura.certificado.png",
     "Hogar/attachments/04.suspendido.sura.png",
