@@ -6,8 +6,8 @@ Todo lo que aprendí de esta integración.
 
 Dos:
 ```bash
-BOLD_API_KEY="identity_key"
-APP_HOST="https://enlacito.co/pro"
+ENLACITO_BOLD_API_KEY="identity_key"
+ENLACITO_APP_HOST="https://enlacito.co/pro"
 ```
 
 ## La URL del POST debe terminar sin barra
