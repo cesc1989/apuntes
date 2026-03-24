@@ -11,10 +11,14 @@
             "id": "69018b0a7d75b43f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 14 - Integración con Bold"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ciclo 14 - Integración con Bold"
             }
           }
         ],
