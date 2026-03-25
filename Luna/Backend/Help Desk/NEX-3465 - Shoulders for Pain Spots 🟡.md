@@ -68,3 +68,7 @@ Frontend also needs a fix at `mapPainSpots.ts` because the pain spot name is har
 }),
 ```
 
+## Tests
+
+After frontend fix:
+![[nex3465.shoulder.fixed.png]]
