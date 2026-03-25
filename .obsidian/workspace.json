@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7191a076335348ca",
+        "id": "1d5141a45f02d150",
         "type": "tabs",
         "children": [
           {
-            "id": "060417a6beef49eb",
+            "id": "65a62becf38096a1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Patient_Self_Report/Access Existing Forms.md",
+                "file": "Luna/Clinical_Dashboard/Metrics/Error_tracking_for_Engagement_Metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Access Existing Forms"
+              "title": "Outline of Error_tracking_for_Engagement_Metrics"
             }
           }
         ],
@@ -163,6 +163,17 @@
   },
   "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Clinical_Dashboard/Metrics/Relationship_between_views_and_tracked_events.md",
+    "Luna/Clinical_Dashboard/Metrics/Error_tracking_for_Engagement_Metrics.md",
+    "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
+    "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
+    "Luna/Clinical_Dashboard/Queries_for_Debugging/queries_varidas.md",
+    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
+    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
+    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
+    "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
+    "Luna/Clinical_Dashboard/Pruebas en Alpha - CD y Edge.md",
+    "Luna/Patient_Self_Report/Access Existing Forms.md",
     "Luna/Patient_Self_Report/Change_Form_Type.md",
     "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
     "Luna/Patient_Self_Report/archive/Luna_Patients_Forms_June_14th_Release.md",
@@ -178,18 +189,7 @@
     "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
     "Luna/Patient_Self_Report/issues-and-debugging/Form_sigue_abierto_incluso_después_de_ser_submi.md",
     "Luna/Patient_Self_Report/issues-and-debugging/Debugging_Error_modal_after_submitting_Intake_Form.md",
-    "Luna/Patient_Self_Report/issues-and-debugging/Caso_Intercalado_en_Summary_Page.md",
-    "Luna/Patient_Self_Report/issues-and-debugging/Caso_Connection_Error_Forms.md",
-    "Luna/Patient_Self_Report/issues-and-debugging/[SOLVED]_Refactor_Caso_Preguntas_y_Respuestas_D.md",
-    "Luna/Patient_Self_Report/issues-and-debugging/[SOLVED]_Case_Order_of_Questions.md",
-    "DevAsPros/Puntapie/Para la versión 1.16.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
     "DevAsPros/Enlacito/enlacito.payments.png",
-    "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
-    "DevAsPros/Enlacito/rfcs/RFC 002 - MVP2 🟢.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "DevAsPros/Enlacito/Reddit Marketing.md",
-    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/22.barra.estado.tmux.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/21.division.vertical.tmux.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/20.division.horizontal.tmux.png",
