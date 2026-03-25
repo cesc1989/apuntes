@@ -30,7 +30,9 @@ PatientSelfReport::PainSpot.create!(name: "Back Right Shoulder")
 PatientSelfReport::PainSpot.create!(name: "Back Left Shoulder")
 ```
 
-Why a migration?
-
-- To track this change in the repository
-- To ease other dev dbs to have these records updated
+**Revert:**
+```ruby
+PatientSelfReport::PainSpot.find(3).update!(name: "Right Shoulder")
+PatientSelfReport::PainSpot.find(25).update!(name: "Left Shoulder")
+PatientSelfReport::PainSpot.where(name: ["Back Right Shoulder", "Back Left Shoulder"]).destroy_all
+```
