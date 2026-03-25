@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e11621ee24dbd46b",
+        "id": "33ee37b820d2ebf2",
         "type": "tabs",
         "children": [
           {
-            "id": "31451df7ddacf993",
+            "id": "7fb5fcb5eb591869",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,8 +160,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "7fb5fcb5eb591869",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/issues-and-debugging/Race_Condition_aún_usando_find_or_initialize_by.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Problema_ASES_Pain_Scale_en_API_V2.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Form_sigue_abierto_incluso_después_de_ser_submi.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Debugging_Error_modal_after_submitting_Intake_Form.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Caso_Intercalado_en_Summary_Page.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/Caso_Connection_Error_Forms.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/[SOLVED]_Refactor_Caso_Preguntas_y_Respuestas_D.md",
+    "Luna/Patient_Self_Report/issues-and-debugging/[SOLVED]_Case_Order_of_Questions.md",
     "DevAsPros/Puntapie/Para la versión 1.16.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
     "DevAsPros/Enlacito/enlacito.payments.png",
@@ -183,14 +192,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_VS_Code.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes de Zed.md",
-    "DevAsPros/Infra/Configurando Bugsink.md",
-    "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
-    "DevAsPros/Puntapie/Para la version 1.14 🟢.md",
     "Hogar/attachments/06.pagos.sura.iw.png",
     "Hogar/attachments/05.sura.certificado.png",
     "Hogar/attachments/04.suspendido.sura.png",
