@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "939ab034bf7ecc62",
+        "id": "7191a076335348ca",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b14b19f2702c6f",
+            "id": "060417a6beef49eb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Luna/Patient_Self_Report/Access Existing Forms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Access Existing Forms"
             }
           }
         ],
@@ -162,6 +163,14 @@
   },
   "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Change_Form_Type.md",
+    "Luna/Patient_Self_Report/Test Runs en Edge Pre Refactor.md",
+    "Luna/Patient_Self_Report/archive/Luna_Patients_Forms_June_14th_Release.md",
+    "Luna/Patient_Self_Report/archive/Surgery_Date_Fechas_Antiguas.md",
+    "Luna/Patient_Self_Report/archive/Progress_Forms_Mobile_API.md",
+    "Luna/Patient_Self_Report/archive/Patient_Forms_Drafts_Research.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/Resumen de la Info que recopiló Claude.md",
+    "Luna/Patient_Self_Report/Creacion de Forms/General Flow to Create Forms.md",
     "Luna/Patient_Self_Report/Spikes/Spike_Rename_patients_table_for_Logical_Replica.md",
     "Luna/Patient_Self_Report/Spikes/Spike_Collect_Physician_Contact_Information_[In.md",
     "Luna/Patient_Self_Report/issues-and-debugging/Race_Condition_aún_usando_find_or_initialize_by.md",
@@ -181,17 +190,9 @@
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Enlacito/Reddit Marketing.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner Hammerspoon y Hyper Key para Atajos en MacOS.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Karabiner/Karabiner desconecta el Hyper key.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Zed Editor - Atajos de Teclado.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando_Tmux.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/22.barra.estado.tmux.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/21.division.vertical.tmux.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/20.division.horizontal.tmux.png",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando Zellij.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Sublime_Text_-_Atajos_de_Teclado.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Hogar/attachments/06.pagos.sura.iw.png",
     "Hogar/attachments/05.sura.certificado.png",
     "Hogar/attachments/04.suspendido.sura.png",
