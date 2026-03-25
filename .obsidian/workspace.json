@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33ee37b820d2ebf2",
+        "id": "939ab034bf7ecc62",
         "type": "tabs",
         "children": [
           {
-            "id": "7fb5fcb5eb591869",
+            "id": "b0b14b19f2702c6f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,8 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "7fb5fcb5eb591869",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Luna/Patient_Self_Report/Spikes/Spike_Rename_patients_table_for_Logical_Replica.md",
+    "Luna/Patient_Self_Report/Spikes/Spike_Collect_Physician_Contact_Information_[In.md",
     "Luna/Patient_Self_Report/issues-and-debugging/Race_Condition_aún_usando_find_or_initialize_by.md",
     "Luna/Patient_Self_Report/issues-and-debugging/Problema_ASES_Pain_Scale_en_API_V2.md",
     "Luna/Patient_Self_Report/issues-and-debugging/Missing_Progress_Forms_in_Summary_Page.md",
@@ -190,8 +192,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
     "Hogar/attachments/06.pagos.sura.iw.png",
     "Hogar/attachments/05.sura.certificado.png",
     "Hogar/attachments/04.suspendido.sura.png",
