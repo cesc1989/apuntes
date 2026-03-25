@@ -36,3 +36,35 @@ PatientSelfReport::PainSpot.find(3).update!(name: "Right Shoulder")
 PatientSelfReport::PainSpot.find(25).update!(name: "Left Shoulder")
 PatientSelfReport::PainSpot.where(name: ["Back Right Shoulder", "Back Left Shoulder"]).destroy_all
 ```
+
+### Frontend Fix
+
+Frontend also needs a fix at `mapPainSpots.ts` because the pain spot name is hardcoded:
+```js
+'Right Shoulder': createPainSpotControl({
+	md: {
+		top: 'calc(25px + 70px)',
+		left: 'calc(50% + 50px)',
+		xCentered: true
+	},
+	xl: {
+		top: 'calc(25px + 67px)',
+		left: 'calc(50% + 50px)',
+		xCentered: true
+	}
+}),
+/** Left Shoulder */
+'Left Shoulder': createPainSpotControl({
+	md: {
+		top: 'calc(25px + 70px)',
+		left: 'calc(50% - 50px)',
+		xCentered: true
+	},
+	xl: {
+		top: 'calc(25px + 67px)',
+		left: 'calc(50% - 50px)',
+		xCentered: true
+	}
+}),
+```
+
