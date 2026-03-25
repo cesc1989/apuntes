@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Luna/Backend/Help Desk/NEX-3465 - Shoulders for Pain Spots.md",
+                "file": "Luna/Backend/Help Desk/NEX-3465 - Shoulders for Pain Spots 🟡.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "NEX-3465 - Shoulders for Pain Spots"
+              "title": "NEX-3465 - Shoulders for Pain Spots 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Luna/Backend/Help Desk/NEX-3465 - Shoulders for Pain Spots.md",
+                "file": "Luna/Backend/Help Desk/NEX-3465 - Shoulders for Pain Spots 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NEX-3465 - Shoulders for Pain Spots"
+              "title": "Outline of NEX-3465 - Shoulders for Pain Spots 🟡"
             }
           }
         ],
@@ -168,7 +168,7 @@
   "active": "65a62becf38096a1",
   "lastOpenFiles": [
     "Luna/Patient_Self_Report/Comanditos para Patient Self Report.md",
-    "Luna/Backend/Help Desk/NEX-3465 - Shoulders for Pain Spots.md",
+    "Luna/Backend/Help Desk/NEX-3465 - Shoulders for Pain Spots 🟡.md",
     "Luna/Backend/Help Desk/attachments/nex3465.should.error.png",
     "Luna/Clinical_Dashboard/Metrics/Error_tracking_for_Engagement_Metrics.md",
     "Luna/Clinical_Dashboard/Metrics/Relationship_between_views_and_tracked_events.md",
