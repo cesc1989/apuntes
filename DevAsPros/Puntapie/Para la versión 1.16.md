@@ -49,3 +49,5 @@ El borde del sidebar no llega hasta el fondo. La parte del navbar donde iría el
 Commits:
 - Quitar oscuridad a navbar brand: https://github.com/cesc1989/enlacito/commit/d44f2e66dff1531126a6cd426d5caf9a126b7a93
 - Borde del sidebar: https://github.com/cesc1989/enlacito/commit/a9e4a71de42798fc6e22e435b918a036cb05c808
+
+Resumido en Super Menú: https://github.com/devaspros/supermenu/commit/4edb657204236b5387d1632267e1ae6b08bea6c3
