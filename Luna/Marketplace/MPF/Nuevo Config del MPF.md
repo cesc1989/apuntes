@@ -42,7 +42,7 @@ Purpose: System-generated processed files
 
 Purpose: Human-friendly access for staff/admins
 
-- Organized by human-readable names: First Last [{uuid}]/
+- Organized by human-readable names: First Last `{uuid}/`
 - Contains shortcuts to files in other drives (not duplicates)
 - This is what Luna staff see when browsing for therapist documents
 - Think of it as: "The user-friendly interface"

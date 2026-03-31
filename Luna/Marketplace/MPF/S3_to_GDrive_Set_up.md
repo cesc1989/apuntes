@@ -3,19 +3,22 @@
 # Working on Onboarding GDrive Upload
 
 Setup these envs:
+```
+GOOGLE_API_KEY="SOME_KEY"
+GOOGLE_DRIVE_ROOT_ONBOARDING_FOLDER_ID="PARENT_FOLDER_IN_GOOGLE_DRIVE_ID"
+GOOGLE_SA_DOCUMENT_AGENT_1="BASE64_ENCODED_SERVICE_ACCOUNT_JSON"
 
-    GOOGLE_API_KEY="SOME_KEY"
-    GOOGLE_DRIVE_ROOT_ONBOARDING_FOLDER_ID="PARENT_FOLDER_IN_GOOGLE_DRIVE_ID"
-    ONBOARDING_MARKETPLACE_TOKEN="SOME_TOKEN"
-    GOOGLE_SA_DOCUMENT_AGENT_1="BASE64_ENCODED_SERVICE_ACCOUNT_JSON"
+ONBOARDING_MARKETPLACE_TOKEN="SOME_TOKEN"
+```
 
 To generate the `GOOGLE_API_KEY` follow [this guide](https://developers.google.com/drive/api/quickstart/python).
 
 To get the value for `GOOGLE_DRIVE_ROOT_ONBOARDING_FOLDER_ID`, create a folder in a Google Drive account, enter the folder and copy the ID in the URL.
 
 The URL looks like this one:
-
-    https://drive.google.com/drive/folders/1VMfs0B8owYFMaa0Fa04C-ytLzVlOt2Xp
+```
+https://drive.google.com/drive/folders/1VMfs0B8owYFMaa0Fa04C-ytLzVlOt2Xp
+```
 
 The last part is the folder's ID. Copy that one.
 
@@ -34,8 +37,9 @@ Use [this web site](https://www.base64encode.org/) to encode the service account
 ## Run the default scheduler for GDrive upload
 
 The background job that runs the GDrive upload runs in the default queue. Run that queue with this command:
-
-    rq worker -c marketplace.settings_rq_worker_default
+```
+rq worker -c marketplace.settings_rq_worker_default
+```
 
 # Sobre meter un JSON en una variable de entorno
 
