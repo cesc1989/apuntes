@@ -56,14 +56,15 @@ ACCOUNT_JSON: SimpleNamespace = SimpleNamespace(
 ## Prueba y Error
 
 Si trato de encodear usando [base64](https://docs.python.org/3/library/base64.html) pasa esto al pasar el JSON o una string con el JSON:
+```
+>>> s={}
+>>> encoded = base64.b64encode(s)
+>>> TypeError: a bytes-like object is required, not 'dict'
 
-    >>> s={}
-    >>> encoded = base64.b64encode(s)
-    >>> TypeError: a bytes-like object is required, not 'dict'
-    
-    >>> s='{}'
-    >>> encoded = base64.b64encode(s)
-    >>> TypeError: a bytes-like object is required, not 'str'
+>>> s='{}'
+>>> encoded = base64.b64encode(s)
+>>> TypeError: a bytes-like object is required, not 'str'
+```
 
 ## Avance
 
