@@ -1,5 +1,8 @@
 # Estado de mi Afiliación en SURA por pago de IW
 
+> [!Info]
+> NIT IW: 900434804
+
 ## Contexto
 
 El 5 de Enero de 2026 me llegó este correo al @aol:
@@ -43,7 +46,12 @@ Están pagando mes re-vencido.
 Ya para Abril aparezco de nuevo activo pero así aparecen los pagos:
 ![[07.pagos.febrero.reactivado.png]]
 
-Están esperando al último día del mes siguiente para pagar el mes anterior. Probablemente me vuelva a pasar esto en Abril.
+Están esperando al último día del mes siguiente para pagar el mes anterior.
+
+> [!Warning]
+> Probablemente me vuelva a pasar esto en Abril.
+> Según [gerencie punto com](https://www.gerencie.com/calendario-para-el-pago-de-la-seguridad-social-segun-el-nit.html) la fecha para pagar planilla de Marzo es hasta el 6 de Abril:
+> > El plazo para pagar la seguridad social de Marzo de 2026 es el **06 de Abril de 2026**.
 
 ## Resolución por parte de IW 🟡
 
