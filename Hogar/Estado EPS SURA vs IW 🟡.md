@@ -34,6 +34,17 @@ Vi que SURA deja ver los pagos que se han hecho a 2026. Efectivamente, a la fech
 
 ![[06.pagos.sura.iw.png]]
 
+## Actualizaciones
+
+### Abril: Febrero pagado 🚨
+
+Están pagando mes re-vencido.
+
+Ya para Abril aparezco de nuevo activo pero así aparecen los pagos:
+![[07.pagos.febrero.reactivado.png]]
+
+Están esperando al último día del mes siguiente para pagar el mes anterior. Probablemente me vuelva a pasar esto en Abril.
+
 ## Resolución por parte de IW 🟡
 
 El Martes 24 preguntaré de nuevo para ver qué me dicen.
