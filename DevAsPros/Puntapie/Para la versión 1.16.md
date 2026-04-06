@@ -1,5 +1,10 @@
 # Para la versión 1.16 de Puntapie
 
+## Subir versiones
+
+- Rails: subir a 7.2.3.1
+- Devise: subir a 5.0.3
+
 ## Aplicar cambios de registrations path
 
 Los últimos cambios hechos en enlacito para completar el registro.
