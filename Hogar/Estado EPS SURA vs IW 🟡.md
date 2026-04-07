@@ -66,3 +66,5 @@ El Martes 24 preguntaré de nuevo para ver qué me dicen.
 
 El Miércoles 1 de Abril pregunté de nuevo y Lina dijo:
 > Ya se están encargando de dejar todo eso al día. Tan pronto me den una actualización te cuento
+
+El Martes 7 de Abril volví a preguntar a Lina.
