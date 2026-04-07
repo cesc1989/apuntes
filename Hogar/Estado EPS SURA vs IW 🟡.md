@@ -39,7 +39,7 @@ Vi que SURA deja ver los pagos que se han hecho a 2026. Efectivamente, a la fech
 
 ## Actualizaciones
 
-### Abril: Febrero pagado 🚨
+### 3 de Abril: Febrero pagado 🚨
 
 Están pagando mes re-vencido.
 
@@ -53,6 +53,16 @@ Están esperando al último día del mes siguiente para pagar el mes anterior.
 > Según [gerencie punto com](https://www.gerencie.com/calendario-para-el-pago-de-la-seguridad-social-segun-el-nit.html) la fecha para pagar planilla de Marzo es hasta el 6 de Abril:
 > > El plazo para pagar la seguridad social de Marzo de 2026 es el **06 de Abril de 2026**.
 
+### 7 de abril: Nuevo aviso de SURA ❌
+
+Me llegó de nuevo este correo:
+![[40.aviso.marzo.png]]
+
+**O sea que sí debieron pagar Marzo ayer 6 de Abril.**
+
 ## Resolución por parte de IW 🟡
 
 El Martes 24 preguntaré de nuevo para ver qué me dicen.
+
+El Miércoles 1 de Abril pregunté de nuevo y Lina dijo:
+> Ya se están encargando de dejar todo eso al día. Tan pronto me den una actualización te cuento
