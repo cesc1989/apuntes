@@ -47,7 +47,7 @@ Todo lo que se hizo para Enlacito.
 
 Ver: https://github.com/cesc1989/enlacito/commit/a555bc57e92b95350c5c466abcfbb0701fe819ce
 
-## Corregir estilos del Sidebar
+## Corregir estilos del Sidebar 🟢
 
 El borde del sidebar no llega hasta el fondo. La parte del navbar donde iría el logo tiene más oscuridad.
 
