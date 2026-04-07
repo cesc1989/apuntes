@@ -1,11 +1,11 @@
 # Para la versión 1.16 de Puntapie
 
-## Subir versiones
+## Subir versiones 🟢
 
 - Rails: subir a 7.2.3.1
 - Devise: subir a 5.0.3
 
-## Aplicar cambios de registrations path
+## Aplicar cambios de registrations path 🟢
 
 Los últimos cambios hechos en enlacito para completar el registro.
 
@@ -17,7 +17,7 @@ Incluye:
 - Controlador de devise generado
 - Mínimo de contraseña desde 10
 
-## Montar landing básica
+## Montar landing básica 🟢
 
 Tomando los cambios más recientes que haya en enlacito.
 
@@ -43,7 +43,7 @@ Todo lo que se hizo para Enlacito.
 - Más ajustes: https://github.com/cesc1989/enlacito/commit/e367c09bbbcea4be0eece3b6ace4e7f60a5f9555
 - Finalmente, correo con buenos estilos y preview para revisar: https://github.com/cesc1989/enlacito/commit/37637121b2193cd1772b7f6d03930c4c73348aa6
 
-## Agregar todas las vistas de Devise para no joder más con esto
+## Agregar todas las vistas de Devise para no joder más con esto 🟢
 
 Ver: https://github.com/cesc1989/enlacito/commit/a555bc57e92b95350c5c466abcfbb0701fe819ce
 
