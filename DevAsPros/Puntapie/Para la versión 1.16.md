@@ -1,5 +1,8 @@
 # Para la versión 1.16 de Puntapie
 
+> [!Note]
+> Creo que esta será la última vez que le haga una versión. De ahora en adelante solo iré haciendo los cambios necesarios y listo.
+
 ## Subir versiones 🟢
 
 - Rails: subir a 7.2.3.1
