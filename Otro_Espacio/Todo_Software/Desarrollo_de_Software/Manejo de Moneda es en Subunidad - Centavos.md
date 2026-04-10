@@ -1,6 +1,11 @@
 # Manejo de Moneda en Base de datos es con la sub-unidad: centavos o centimos
 
-En vez de usar la denominación en decimales de la plata que se cobra o ingresa mediante aplicaciones web, es una práctica establecida y bien aceptada el usar enteros.
+Etiquetas: #dinero #plata
+
+En vez de usar la denominación en decimales de la plata que se cobra o ingresa mediante aplicaciones web, ==es una práctica establecida y bien aceptada el usar enteros==.
+
+> [!Important]
+> Esta web explica porqué no usar Floats: https://0.30000000000000004.com/
 
 Es decir, en lugar de almacenar 10 dólares se almacenan 1000 centavos.
 
