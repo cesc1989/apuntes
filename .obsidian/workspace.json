@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1601f6d19b42f49a",
+        "id": "1c5b724ecf3ee4cc",
         "type": "tabs",
         "children": [
           {
-            "id": "20b9cbd448d4a0a8",
+            "id": "094bc321dbb72724",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
+                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Los_Pull_Requests_no_son_para_sugerir_cambios"
+              "title": "MPF Self Sync from Luxe 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
+                "file": "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Los_Pull_Requests_no_son_para_sugerir_cambios"
+              "title": "Outline of MPF Self Sync from Luxe 🟢"
             }
           }
         ],
@@ -165,8 +165,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "20b9cbd448d4a0a8",
+  "active": "094bc321dbb72724",
   "lastOpenFiles": [
+    "Hogar/Estado EPS SURA vs IW 🟡.md",
+    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Nombrar_bien_las_cosas_y_su_importancia.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Los_Pull_Requests_no_son_para_sugerir_cambios.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/004.pull.requests.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/003.pull.requests.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/002.pull.requests.png",
@@ -174,7 +181,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Manejo de Moneda es en Subunidad - Centavos.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Staff_Engineering/Staff_Eng_Guides_-_Apuntes.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Staff_Engineering/StaffEng_Stories_-_Apuntes.md",
-    "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Puntapie/Para la versión 1.16.md",
     "Hogar/attachments/40.aviso.marzo.png",
     "Hogar/attachments/07.pagos.febrero.reactivado.png",
@@ -196,13 +202,7 @@
     "Luna/Clinical_Dashboard/Metrics/Relationship_between_views_and_tracked_events.md",
     "Luna/Clinical_Dashboard/Postmortems/Test Paths for Download Patient data per Provider.md",
     "Luna/Clinical_Dashboard/Postmortems/2025-06-09 Clinical Dashboard Patient Download Data Inaccurate.md",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/queries_varidas.md",
-    "Luna/Clinical_Dashboard/Queries_for_Debugging/Queries_y_Entidades_para_probar_posibles_duplicado.md",
-    "Luna/Clinical_Dashboard/Edge to Dashboard Link Generation.md",
-    "Luna/Clinical_Dashboard/Comanditos para Clinical Dashboard.md",
-    "Luna/Clinical_Dashboard/Todos los nombres de las queries.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/22.barra.estado.tmux.png",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/21.division.vertical.tmux.png",
     "Hogar/attachments",
     "Hogar/untitled folder",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
