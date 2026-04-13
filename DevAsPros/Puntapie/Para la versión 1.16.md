@@ -32,7 +32,7 @@ Consideraciones de la landing básica:
 - Bloque de CTA
 - Footer con ToS, Hecho en Barranquilla y el copy + año
 
-## Aplicar cambios de confirmación de correo 📨
+## Aplicar cambios de confirmación de correo 📨 🟢
 
 Todo lo que se hizo para Enlacito.
 
