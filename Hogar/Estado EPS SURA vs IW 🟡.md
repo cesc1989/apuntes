@@ -60,6 +60,12 @@ Me llegó de nuevo este correo:
 
 **O sea que sí debieron pagar Marzo ayer 6 de Abril.**
 
+### 13 de Abril: Marzo pagado 🟢
+
+Hasta aquí ya están a paz y salvo. Ahora queda saber si Abril lo van a pagar a finales de Mayo.
+
+![[08.pago.marzo.aldia.png]]
+
 ## Resolución por parte de IW 🟡
 
 El Martes 24 preguntaré de nuevo para ver qué me dicen.
