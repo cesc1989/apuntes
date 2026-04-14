@@ -20,7 +20,8 @@ systemctl --user status enlacito.sidekiq.service
 
 ## Comando para reiniciar Sidekiq de un servicio especifico
 
-Par enlacito:
+### Enlacito
+
 ```bash
 systemctl --user restart enlacito.sidekiq.service
 ```
