@@ -6,12 +6,14 @@ Relacionado [[Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow]]
 
 ## Comando para ver el estado cuando hay varios servicios Sidekiq en el mismo servidor
 
-Para el caso de Cashflow se ven así:
+### CashFlow
+
 ```bash
 systemctl --user status sidekiq.service
 ```
 
-Para el caso de Enlacito se ven así:
+### Enlacito
+
 ```bash
 systemctl --user status enlacito.sidekiq.service
 ```
