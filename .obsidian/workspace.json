@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3bdac46a737b7b00",
+        "id": "efef46f810f5943d",
         "type": "tabs",
         "children": [
           {
-            "id": "b8ab6ca79fc6b65e",
+            "id": "1bafaa895ddf0e3e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes Ciclo 15 - Gestion de ENVs"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
+                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 15 - Gestion de ENVs"
+              "title": "Outline of Registro_Civil_de_Defunción_Panzon"
             }
           }
         ],
@@ -165,12 +161,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b8ab6ca79fc6b65e",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Hogar/Registro_Civil_de_Defunción_Panzon.md",
+    "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
+    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
     "DevAsPros/Infra/Hardening de VPS 🟢.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
     "DevAsPros/Infra/Mejoras del Servidor 🟢.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 08 - Organization.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Puntapie/Para la versión 1.16 🟢.md",
@@ -199,8 +197,6 @@
     "DevAsPros/Enlacito/enlacito.payments.png",
     "Luna/Marketplace/MPF/S3_to_GDrive_Set_up.md",
     "Luna/Marketplace/MPF/Nuevo Config del MPF.md",
-    "Luna/Marketplace/MPF/Name_Collision_and_Missing_Files_in_Magic_Processe.md",
-    "Luna/Marketplace/MPF/From CA to MPF.md",
     "Luna/Backend/Help Desk/attachments/nex3465.shoulder.fixed.png",
     "Luna/Backend/Help Desk/attachments/nex3465.should.error.png",
     "Hogar/attachments",
