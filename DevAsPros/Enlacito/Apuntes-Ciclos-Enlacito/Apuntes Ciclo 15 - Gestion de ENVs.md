@@ -16,11 +16,11 @@ Creé el archivo `~/.enlacito.envs` que tiene las variables:
 ```bash
 SECRET_KEY_BASE="CHANGEME"
 
-export ENLACITO_REDIS_URL="redis://127.0.0.1:6379/1"
-export ENLACITO_RESEND_API_KEY="CHANGEME"
+ENLACITO_REDIS_URL="redis://127.0.0.1:6379/1"
+ENLACITO_RESEND_API_KEY="CHANGEME"
 
-export ENLACITO_BOLD_API_KEY="CHANGEME"
-export ENLACITO_APP_HOST="CHANGEME"
+ENLACITO_BOLD_API_KEY="CHANGEME"
+ENLACITO_APP_HOST="CHANGEME"
 ```
 
 Está en el repo para saber que existe y que debe crearse en el VPS.
