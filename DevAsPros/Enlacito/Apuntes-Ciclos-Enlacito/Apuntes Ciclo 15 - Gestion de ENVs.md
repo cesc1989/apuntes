@@ -49,3 +49,30 @@ Passenger lee las variables de Nginx, así que las lee del `~/.profile`. Por lo 
 
 . /home/ubuntu/.enlacito.envs
 ```
+
+## Errores 🐞
+
+### Ignoring invalid environment assignment
+
+Aún no doy para que con el mismo archivo puedan leer los tres servicios. El despliegue y el server corre con la configuración de arriba pero no Sidekiq. Veo este error al reiniciar el servicio:
+```bash
+-- Logs begin at Sat 2026-04-11 01:23:09 UTC, end at Wed 2026-04-15 13:58:28 UTC. --
+Apr 15 13:30:00 localhost systemd[635]: enlacito.sidekiq.service: Scheduled restart job, restart counter is at 33670.
+Apr 15 13:30:00 localhost systemd[635]: Stopped sidekiq.
+Apr 15 13:30:00 localhost systemd[635]: enlacito.sidekiq.service: Ignoring invalid environment assignment 'export ENLACITO_REDIS_URL=redis://localhost:6379/1': /home/ubuntu/.enlacito.envs
+Apr 15 13:30:00 localhost systemd[635]: enlacito.sidekiq.service: Ignoring invalid environment assignment 'export ENLACITO_RESEND_API_KEY=re_Prjax6mu_B2K5ZxCQSG2vm3s42RrK34qG': /home/ubuntu/.enlacito.envs
+Apr 15 13:30:00 localhost systemd[635]: enlacito.sidekiq.service: Ignoring invalid environment assignment 'export ENLACITO_BOLD_API_KEY=1v1Ulfra6XfFg835vshKyfREnKJHOOvTQHo6onUExN0': /home/ubuntu/.enlacito.envs
+Apr 15 13:30:00 localhost systemd[635]: enlacito.sidekiq.service: Ignoring invalid environment assignment 'export ENLACITO_APP_HOST=https://enlacito.co': /home/ubuntu/.enlacito.envs
+Apr 15 13:30:00 localhost systemd[635]: Started sidekiq.
+Apr 15 13:30:01 localhost enlacito_sidekiq[437919]: key not found: "ENLACITO_RESEND_API_KEY"
+Apr 15 13:30:01 localhost enlacito_sidekiq[437919]: /home/ubuntu/enlacito/app/config/initializers/resend.rb:1:in 'fetch'
+```
+
+Según Claudio, al usar `export` en el archivo systemd no lo reconoce. Al actualizar el archivo y reinicio el servicio de sidekiq:
+```bash
+systemctl --user daemon-reload && systemctl --user restart enlacito.sidekiq.service
+```
+
+El servicio corre de nuevo. O sea que por ahí es.
+
+Ahora queda resolver el tema con el despliegue y Passenger.
