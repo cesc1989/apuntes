@@ -66,7 +66,7 @@ Hasta aquí ya están a paz y salvo. Ahora queda saber si Abril lo van a pagar a
 
 ![[08.pago.marzo.aldia.png]]
 
-## Resolución por parte de IW 🟡
+## Resolución por parte de IW 🟢
 
 El Martes 24 preguntaré de nuevo para ver qué me dicen.
 

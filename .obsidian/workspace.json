@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "efef46f810f5943d",
+        "id": "bb3c4ff402675d6c",
         "type": "tabs",
         "children": [
           {
-            "id": "1bafaa895ddf0e3e",
+            "id": "5b5fb88987e79370",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hogar/Estado EPS SURA vs IW 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Estado EPS SURA vs IW 🟢"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hogar/Registro_Civil_de_Defunción_Panzon.md",
+                "file": "Hogar/Estado EPS SURA vs IW 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Registro_Civil_de_Defunción_Panzon"
+              "title": "Outline of Estado EPS SURA vs IW 🟢"
             }
           }
         ],
@@ -161,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "5b5fb88987e79370",
   "lastOpenFiles": [
     "Hogar/Registro_Civil_de_Defunción_Panzon.md",
     "Luna/Therapist_Signup/HubSpot/Associations HubSpot.md",
@@ -173,7 +177,7 @@
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 10 - Sidekiq Demonio.md",
     "DevAsPros/Puntapie/Para la versión 1.16 🟢.md",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
-    "Hogar/Estado EPS SURA vs IW 🟡.md",
+    "Hogar/Estado EPS SURA vs IW 🟢.md",
     "Hogar/attachments/08.pago.marzo.aldia.png",
     "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
     "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟢.md",
