@@ -59,6 +59,8 @@ set +a
 > Hay que usar `set -a` para que bash pueda cargar las variables como si se usara el export. Sino nginx + passenger no podrán leerlas.
 > 
 > Luego con `set +a` se desactivan nuevamente.
+> 
+> Docs sobre `set`: https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html
 
 ## Errores 🐞
 
