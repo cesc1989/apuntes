@@ -76,3 +76,9 @@ systemctl --user daemon-reload && systemctl --user restart enlacito.sidekiq.serv
 El servicio corre de nuevo. O sea que por ahí es.
 
 Ahora queda resolver el tema con el despliegue y Passenger.
+
+> [!Warning]
+> Sobre el archivo que lee `EnvironmentFile`:
+> > the file given in the `EnvironmentFile=` directive, is **not** a shell script. It is a simple list of assignments of the form variable=value. No `export`, no process substitution, no nothing. Just simple variable=value statements.
+> >
+> > De este comentario: https://unix.stackexchange.com/questions/766043/how-do-i-use-environment-variables-from-file-in-systemd#comment1460955_766048
