@@ -12,6 +12,9 @@ Será más cómodo tenerlas todas en un solo archivo por aplicación y luego sol
 
 ## El Archivo
 
+> [!Note]
+> El archivo debe ser plano. No puede llevar la palabra clave `export`. Esto porque systemd no leerá las variables si llevan el `export`.
+
 Creé el archivo `~/.enlacito.envs` que tiene las variables:
 ```bash
 SECRET_KEY_BASE="CHANGEME"
@@ -44,11 +47,18 @@ Esto fue lo que cambió para `scripts/enlacito.sidekiq.service`:
 ## Uso para Passenger (rails server)
 
 Passenger lee las variables de Nginx, así que las lee del `~/.profile`. Por lo tanto, y como quería quitar estas envs de ese archivo, toca referenciarlo así:
-```~/.profile
+```bash
 # (...)
 
+set -a
 . /home/ubuntu/.enlacito.envs
+set +a
 ```
+
+> [!Important]
+> Hay que usar `set -a` para que bash pueda cargar las variables como si se usara el export. Sino nginx + passenger no podrán leerlas.
+> 
+> Luego con `set +a` se desactivan nuevamente.
 
 ## Errores 🐞
 
