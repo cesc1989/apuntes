@@ -61,7 +61,7 @@ Tomar de SuperMenu: https://github.com/devaspros/supermenu/commit/aefb7da30e3283
 
 Tomar de Cashflow: https://github.com/cesc1989/cashflow/commit/183fb87e1aa5868dcafeac902c79d61ae03db814
 
-Ver [[adr-001-notificacion-de-estado-despliegues]]
+Ver [[adr-001-notificacion-de-estado-despliegues 🟢]]
 
 ## Configurar production.log
 

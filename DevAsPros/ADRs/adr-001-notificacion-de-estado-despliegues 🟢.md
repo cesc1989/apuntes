@@ -55,7 +55,7 @@ Cuesta 6 usd al mes si se paga mensual. 5 si es anual.
 
 1. Elige un nombre único para el tema.
 	1. Si no se paga la cuenta Pro el nombre no es reservado y si alguien lo encuentra puede escuchar los mensajes o enviar datos.
-	2. Elige un nombre largo o autogenera uno.
+	2. Elige un nombre largo o auto genera uno.
 2. Configura el nombre del tema como secreto en el repo llamado `NTFY_TOPIC`.
 	1. Desde el repo a configurar: `gh secret set NTFY_TOPIC --body "$CHANNEL_NAME"`
 3. Configura el action con el código anterior.
