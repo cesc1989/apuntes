@@ -21,14 +21,6 @@ Relacionado [[Estado y Ubicación de los Respaldos]]
 - Estado: Ocupado
 - Sistema de Archivos: ext4
 
-### Quebrantahuesos
-
-- Tipo Almacenamiento: HDD
-- Tamaño: 1 TB
-- Uso: Backup de Atronador
-- Estado: Ocupado
-- Sistema de Archivos: ext4
-
 ### Embestidor
 
 - Tipo Almacenamiento: HDD

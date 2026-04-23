@@ -23,7 +23,6 @@ Las cosas clave que necesitan respaldo son:
 | HDD Mugiwara    |     X       |   X   |      X       |   X    |           |   X    |
 | Mega            |     X       |   X   |              |   X    |           |   X    |
 | Atronador       |             |       |              |        |    X      |        |
-| Quebrantahuesos |             |       |              |        |    X      |        |
 | Ente            |             |   X   |              |        |           |        |
 | Ente Panzon     |             |       |      X       |        |           |        |
 
