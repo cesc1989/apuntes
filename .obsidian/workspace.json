@@ -11,10 +11,14 @@
             "id": "1218e54eb1785ef5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04 - CDN.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Ciclo 04 - CDN"
             }
           }
         ]
@@ -136,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 02.md",
+                "file": "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04 - CDN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Ciclo 02"
+              "title": "Outline of Apuntes Ciclo 04 - CDN"
             }
           }
         ],
@@ -161,12 +165,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "1218e54eb1785ef5",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 02.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 02.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04 - CDN.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
     "Otro_Espacio/Blog/posts/03 -  Dev Tools para Todos.md",
@@ -209,7 +213,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Todo Sidekiq/attachments",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
     "Canvas/GraphQL.canvas",
