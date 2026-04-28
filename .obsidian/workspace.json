@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1dfe3d51fa3848c9",
+        "id": "78232d2c799af990",
         "type": "tabs",
         "children": [
           {
-            "id": "4400ee854d867cd3",
+            "id": "1218e54eb1785ef5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cdn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Ciclo 02"
             }
           }
         ],
@@ -160,8 +161,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "4400ee854d867cd3",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 02.md",
+    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+    "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
     "Otro_Espacio/Blog/posts/03 -  Dev Tools para Todos.md",
     "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
@@ -183,12 +190,6 @@
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
     "Hogar/attachments/08.pago.marzo.aldia.png",
     "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
-    "Luna/Backend/Help Desk/EDG-3303 Sync Additional Licenses from AF 🟢.md",
-    "Luna/Therapist_Signup/Comanditos para Therapist Signup.md",
-    "Luna/Marketplace/Help Desk/MPF Self Sync from Luxe 🟢.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Nombrar_bien_las_cosas_y_su_importancia.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/004.pull.requests.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/003.pull.requests.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/002.pull.requests.png",

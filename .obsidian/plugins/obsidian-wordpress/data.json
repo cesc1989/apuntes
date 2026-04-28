@@ -22,7 +22,7 @@
     }
   ],
   "showRibbonIcon": true,
-  "defaultPostStatus": "publish",
+  "defaultPostStatus": "draft",
   "defaultCommentStatus": "open",
   "rememberLastSelectedCategories": true,
   "showWordPressEditConfirm": false,
