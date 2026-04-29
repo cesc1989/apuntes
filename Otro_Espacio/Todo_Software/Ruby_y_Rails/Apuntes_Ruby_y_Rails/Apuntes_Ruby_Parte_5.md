@@ -165,7 +165,9 @@ rubocop -a --only Style/StringLiterals
 rubocop --auto-gen-config
 ```
 
-# Actualizar gema no listada en Gemfile
+# Actualizar gema no listada en Gemfile 🔑
+
+Etiquetas: #gemfile
 
 Para parchar cosas de seguridad en gemas me tocó actualizar Nokogiri. Esta gema no está en el Gemfile así que, ¿cómo la actualizaba?
 
