@@ -31,5 +31,17 @@ El diff:
 ## Ser más preciso con la versión a Instalar
 
 > [!Important]
-> Se logra con las banderas `--major`, `--minor` o `--patch`
+> Se logra con las banderas `--major`, `--minor` o `--patch`.
+>
+> Ver: https://bundler.io/man/bundle-update.1.html#PATCH-LEVEL-OPTIONS
 
+En el caso anterior de addressable se actualizó por defecto a la siguiente versión. En este caso fue la minor.
+
+Así funca Semantic Versioning:
+> Given a version number MAJOR.MINOR.PATCH, increment the:
+>
+>  1. MAJOR version when you make incompatible API changes
+>  2. MINOR version when you add functionality in a backward compatible manner
+>  3. PATCH version when you make backward compatible bug fixes
+
+Sitio web: https://semver.org/
