@@ -14,11 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04 - CDN.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Apuntes Ciclo 04 - CDN"
+            }
+          },
+          {
+            "id": "6aa5ca33ebe66d5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "001 - Mejorar Carga de Fotos de Platos"
             }
           }
         ]
@@ -167,11 +181,11 @@
   },
   "active": "1218e54eb1785ef5",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04 - CDN.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 02.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04 - CDN.md",
-    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
     "Otro_Espacio/Blog/posts/03 -  Dev Tools para Todos.md",
     "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",

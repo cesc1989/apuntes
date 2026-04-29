@@ -2,7 +2,7 @@
 
 ## Cacheando la respuesta del controlador
 
-Ver [[001 - Mejorar Carga de Fotos de Platos#Cachear respuesta JSON del controlador]]
+Ver [[001 - Mejorar Carga de Fotos de Platos#Cachear respuesta JSON del controlador 🟢]]
 
 Voy a probar si esto sirve. Cuando pruebo una petición normal veo estas cabeceras:
 
