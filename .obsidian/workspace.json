@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "faf4c4f1401917a6",
+        "id": "e809931095ab1cc9",
         "type": "tabs",
         "children": [
           {
-            "id": "b7afa98b2336734e",
+            "id": "21fab38fcc1c8fd1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Guía de Timeouts en Ruby"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guía de Timeouts en Ruby"
+              "title": "Outline"
             }
           }
         ],
@@ -165,7 +160,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b7afa98b2336734e",
+  "active": "21fab38fcc1c8fd1",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_“Leyes”_al_gusto.md",
