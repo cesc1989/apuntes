@@ -52,3 +52,156 @@ Y usarse así:
 ```
 STATEMENT_TIMEOUT=90s rails db:migrate
 ```
+
+## Librerías
+
+Cómo configurar timeout en gemas que he usado.
+
+### net/http
+
+```ruby
+Net::HTTP.start(host, port, open_timeout: 1, read_timeout: 1, write_timeout: 1) do
+  # ...
+end
+```
+
+o de esta otra forma:
+```ruby
+http = Net::HTTP.new(host, port)
+http.open_timeout = 1
+http.read_timeout = 1
+http.write_timeout = 1
+```
+
+Levanta las excepciones:
+- `Net::OpenTimeout` on connect timeout
+- `Net::ReadTimeout` on read timeout
+- `Net::WriteTimeout` on write timeout
+
+### activerecord
+
+Cuando es con postgresql, en `config/database.yml`:
+```yaml
+production:
+  connect_timeout: 1
+  checkout_timeout: 1
+```
+
+Levanta las excepciones:
+- `ActiveRecord::ConnectionNotEstablished` on connect and read timeouts
+- `ActiveRecord::ConnectionTimeoutError` on checkout timeout
+
+### Faraday
+
+Así:
+```ruby
+Faraday.get(url) do |req|
+  req.options.open_timeout = 1
+  req.options.timeout = 1
+end
+```
+
+Levanta:
+- `Faraday::ConnectionFailed` on connect timeout
+- `Faraday::TimeoutError` on read timeout
+
+### http.rb
+
+```ruby
+HTTP.timeout(connect: 1, read: 1, write: 1).get(url)
+```
+
+Levanta:
+Raises
+
+- `HTTP::ConnectTimeoutError` on connect timeout
+- `HTTP::TimeoutError` on read timeout
+
+### httparty
+
+Así:
+```ruby
+HTTParty.get(url, timeout: 1)
+```
+
+O así:
+```ruby
+class Resource
+  include HTTParty
+
+  default_timeout 1
+  # or
+  open_timeout 1
+  read_timeout 1
+  write_timeout 1
+end
+```
+
+Levanta:
+- `Net::OpenTimeout` on connect timeout
+- `Net::ReadTimeout` on read timeout
+
+### aws-sdk
+
+Desde el initializer:
+```ruby
+Aws.config = {
+  http_open_timeout: 1,
+  http_read_timeout: 1
+}
+```
+
+o desde instancia:
+```ruby
+Aws::S3::Client.new(
+  http_open_timeout: 1,
+  http_read_timeout: 1
+)
+```
+
+Levanta: `Seahorse::Client::NetworkingError`
+
+### sentry-ruby
+
+```ruby
+Sentry.init do |config|
+  config.transport.open_timeout = 1
+  config.transport.timeout = 1
+end
+```
+
+Raises `Sentry::ExternalError` in [some cases](https://github.com/getsentry/sentry-ruby/issues/1290)
+
+### actionmailer
+
+```ruby
+ActionMailer::Base.smtp_settings = {
+  open_timeout: 1,
+  read_timeout: 1
+}
+```
+
+Levanta:
+- `Net::OpenTimeout` on connect timeout
+- `Net::ReadTimeout` on read timeout
+
+## Rescatar Excepciones de Timeouts
+
+En vez de hacer:
+```ruby
+rescue Net::OpenTimeout, Net::ReadTimeout
+```
+
+haz:
+```ruby
+rescue Timeout::Error
+```
+
+### Tips
+
+- `Timeout::Error` for both `Net::OpenTimeout` and `Net::ReadTimeout`
+- `Faraday::ClientError` for both `Faraday::ConnectionFailed` and `Faraday::TimeoutError`
+- `HTTPClient::TimeoutError` for both `HTTPClient::ConnectTimeoutError` and `HTTPClient::ReceiveTimeoutError`
+- `Redis::BaseConnectionError` for both `Redis::CannotConnectError` and `Redis::TimeoutError`
+- `Rack::Timeout::Error` for both `Rack::Timeout::RequestTimeoutError` and `Rack::Timeout::RequestExpiryError`
+- `RestClient::Exceptions::Timeout` for both `RestClient::Exceptions::OpenTimeout` and `RestClient::Exceptions::ReadTimeout`
