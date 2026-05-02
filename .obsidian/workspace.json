@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0d38e1325806428a",
+        "id": "ef6105da254292f1",
         "type": "tabs",
         "children": [
           {
-            "id": "52dc6b9cb2631a12",
+            "id": "c2746da870245e4a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes_Testing_en_Ruby_y_Rails_Parte_1"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Testing_en_Ruby_y_Rails_Parte_1"
+              "title": "Outline"
             }
           }
         ],
@@ -165,10 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "52dc6b9cb2631a12",
+  "active": "c2746da870245e4a",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
@@ -195,7 +190,7 @@
     "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Bundle y Gemas.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_5.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Ruby_y_Rails/Migración_de_Rails_6_a_Rails_7.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Migración_de_Rails_6_a_Rails_7.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
     "Hogar/attachments/08.pago.marzo.aldia.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/004.pull.requests.png",
