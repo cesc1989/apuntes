@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4ba7a81106435c97",
+        "id": "2bd1a949f99f0856",
         "type": "tabs",
         "children": [
           {
-            "id": "9afdf79d4a9e79d9",
+            "id": "334fd214626dfffd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted/Shlink - Self Hosted shortener.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Shlink - Self Hosted shortener"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted/Shlink - Self Hosted shortener.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Shlink - Self Hosted shortener"
+              "title": "Outline"
             }
           }
         ],
@@ -165,7 +160,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "9afdf79d4a9e79d9",
+  "active": "334fd214626dfffd",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted/Shlink - Self Hosted shortener.md",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
