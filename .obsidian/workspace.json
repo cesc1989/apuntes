@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2bd1a949f99f0856",
+        "id": "1a5b948828c836fa",
         "type": "tabs",
         "children": [
           {
-            "id": "334fd214626dfffd",
+            "id": "4aea67c7f7aaef5e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,8 +160,20 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "334fd214626dfffd",
+  "active": "4aea67c7f7aaef5e",
   "lastOpenFiles": [
+    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/The Plot Against America - Mike Brock.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_Curso_de_Engineering_Management.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Notas_“Confident_Ruby”_de_Avdi_Grimm.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Lies_of_Object_Oriented_Programming_-_Avdi_Grimm.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/La_Idealización_del_Código_-_Apuntes_de_artículos.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Inteligencia_Artificial_y_sus_Matices/Apuntes_y_Conclusiones_Paper_de_Open_AI_“GPTs_are.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Inteligencia_Artificial_y_sus_Matices/Apuntes_curso_Intro_a_la_IA_-_Platzi.md",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Inteligencia_Artificial_y_sus_Matices/Apuntes_curso_Generación_de_Imágenes_con_IA.md",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted/Shlink - Self Hosted shortener.md",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
     "DevAsPros/Enlacito/Reddit Marketing.md",
@@ -178,19 +190,7 @@
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 08 - Problemas CDN.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 04 - CDN.md",
-    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 02.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
-    "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
-    "Otro_Espacio/Blog/posts/03 -  Dev Tools para Todos.md",
-    "Otro_Espacio/Blog/posts/02 - Sidekiq como Demonio en VPS.md",
-    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/001 - Estado_Actual_Discos_Duros_y_USBs.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
-    "Luna/Grafana_Queries.md",
-    "Luna/Backend/Edge Enums que Importan 🔑.md",
-    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
-    "Hogar/Estado EPS SURA vs IW 🟢.md",
     "Hogar/attachments/08.pago.marzo.aldia.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/004.pull.requests.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/003.pull.requests.png",
