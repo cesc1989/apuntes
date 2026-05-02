@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7bf4f6858bd226f6",
+        "id": "faf4c4f1401917a6",
         "type": "tabs",
         "children": [
           {
-            "id": "872705a0209cc878",
+            "id": "b7afa98b2336734e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Guía de Timeouts en Ruby"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Guía de Timeouts en Ruby"
             }
           }
         ],
@@ -160,8 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "872705a0209cc878",
+  "active": "b7afa98b2336734e",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_“Leyes”_al_gusto.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Rails_Proyectos_ver_y_aprender.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Seguridad_en_Rails.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Migrar_Rails_App_de_Heroku_a_AWS.md",
@@ -189,8 +196,6 @@
     "DevAsPros/Enlacito/Reddit Marketing.md",
     "DevAsPros/Enlacito/enlacito.payments.png",
     "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
-    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
-    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
     "Hogar/attachments/08.pago.marzo.aldia.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/004.pull.requests.png",
