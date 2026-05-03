@@ -84,7 +84,7 @@ Graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo l
 
 Ver:
 - [[Plan Redes Sociales Enlacito 🟡]]
-- [[Pro Lanzamiento]]
+- [[Ideas Pro Lanzamiento 🟡]]
 
 ## Lanzamiento 🚧
 
