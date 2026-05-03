@@ -1,4 +1,4 @@
-# Plan de Posteo en Internet
+# Espacios de Posteo en Internet
 
 Todos los sitios donde puedo poner los enlaces y/o postear sobre cosas para ir haciendo bulla sobre lo que estoy haciendo, aprendo o voy a hacer.
 

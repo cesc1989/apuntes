@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Pro Lanzamiento"
             }
+          },
+          {
+            "id": "ca0476b121be6816",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Espacios de Posteo en Internet"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pro Lanzamiento"
+              "title": "Outline of Espacios de Posteo en Internet"
             }
           }
         ],
@@ -165,12 +180,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "f9f87c5febf65356",
+  "active": "ca0476b121be6816",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
-    "DevAsPros/Enlacito/Divulgacion/Plan de Posteo en Internet.md",
+    "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_“Leyes”_al_gusto.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Rails_Proyectos_ver_y_aprender.md",
