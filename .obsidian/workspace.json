@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
-                "mode": "preview",
+                "file": "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento 🟡.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pro Lanzamiento"
+              "title": "Ideas Pro Lanzamiento 🟡"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento 🟡.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pro Lanzamiento"
+              "title": "Outline of Ideas Pro Lanzamiento 🟡"
             }
           }
         ],
@@ -168,7 +168,7 @@
   "active": "f9f87c5febf65356",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
-    "DevAsPros/Enlacito/Divulgacion/Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
