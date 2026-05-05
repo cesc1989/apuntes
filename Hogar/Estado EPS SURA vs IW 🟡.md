@@ -1,5 +1,8 @@
 # Estado de mi Afiliación en SURA por pago de IW
 
+> [!Important]
+> Hasta que no empiece yo mismo a hacer mis aportes no podré tener paz con este tema. El último mes de aportes de IW debe ser Abril.
+
 > [!Info]
 > NIT IW: 900434804
 
@@ -66,7 +69,12 @@ Hasta aquí ya están a paz y salvo. Ahora queda saber si Abril lo van a pagar a
 
 ![[08.pago.marzo.aldia.png]]
 
-## Resolución por parte de IW 🟢
+### 5 de Mayo: Abril pendiente - Nuevo aviso de SURA ❌
+
+![[Pasted image 20260505105059.png]]
+
+
+## Resolución por parte de IW 🟡
 
 El Martes 24 preguntaré de nuevo para ver qué me dicen.
 
@@ -74,3 +82,5 @@ El Miércoles 1 de Abril pregunté de nuevo y Lina dijo:
 > Ya se están encargando de dejar todo eso al día. Tan pronto me den una actualización te cuento
 
 El Martes 7 de Abril volví a preguntar a Lina.
+
+Martes 5 de Mayo recibí nuevo correo de SURA donde dice que el empleador no ha pagado prestaciones.
