@@ -32,6 +32,9 @@ Al poner esa línea en el script `003_after_deploy.sh` da este error en github a
 /usr/local/share/chruby/chruby.sh: line 4: PREFIX: unbound variable
 ```
 
+> [!Important]
+> La solución fue no usar `-u` porque chruby no juega bien con eso.
+
 Se han probado varias cosas pero nada parece resultar. Probé todo esto.
 
 **Exportar PREFIX**
@@ -62,6 +65,8 @@ Set después de cargar el `.profile`
 
 set -eo pipefail
 ```
+
+### Detalle Importante: scripts no llegaban al servidor 🔑
 
 > [!Danger]
 > El problema es que todos los cambios que mandé nunca fueron ejecutados porque el servidor se quedó con los archivos donde el despliegue fallaba.
