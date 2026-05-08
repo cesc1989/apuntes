@@ -15,7 +15,7 @@ set -euo pipefail
 
 En cada script de despliegue.
 
-### Error de chruby `PREFIX: unbound variable`
+### Error de chruby `PREFIX: unbound variable` 🟢
 
 > [!Note]
 > Hay problema de chruby con `set -u`
