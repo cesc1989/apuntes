@@ -68,9 +68,12 @@ set -eo pipefail
 > 
 > Cada vez que se corría el action del despliegue, se estaban ejecutando los scripts dañados.
 
-Se agregó este paso al despliegue para copiar los scripts antes de ejecutar:
+Si agrego este paso al despliegue puedo copiar los scripts antes de ejecutarlos:
 ```yml
 - name: Upload scripts to VPS
 	run: |
 		scp -r scripts/* supermenu_cloud:~/supermenu/deployments/api-release/scripts/  
 ```
+
+> [!Warning]
+> Esto tiene un problema. Es que modifica los archivos y causa que el pull falle porque "hay cambios" en el repo git que tiene el servidor.
