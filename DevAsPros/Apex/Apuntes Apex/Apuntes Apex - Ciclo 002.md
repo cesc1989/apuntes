@@ -63,3 +63,14 @@ Set después de cargar el `.profile`
 set -eo pipefail
 ```
 
+> [!Danger]
+> El problema es que todos los cambios que mandé nunca fueron ejecutados porque el servidor se quedó con los archivos donde el despliegue fallaba.
+> 
+> Cada vez que se corría el action del despliegue, se estaban ejecutando los scripts dañados.
+
+Se agregó este paso al despliegue para copiar los scripts antes de ejecutar:
+```yml
+- name: Upload scripts to VPS
+	run: |
+		scp -r scripts/* supermenu_cloud:~/supermenu/deployments/api-release/scripts/  
+```
