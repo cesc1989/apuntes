@@ -13,7 +13,10 @@ DeepSeek recomendó esto:
 set -euo pipefail
 ```
 
-En cada script de despliegue.
+En cada script de despliegue. Pero después de varios problemas tocó solo dejarlo en:
+```bash
+set -eo pipefail
+```
 
 ### Error de chruby `PREFIX: unbound variable` 🟢
 
