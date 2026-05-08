@@ -17,6 +17,16 @@ En cada script de despliegue.
 
 ### Error de chruby `PREFIX: unbound variable`
 
+> [!Note]
+> Hay problema de chruby con `set -u`
+>
+> Ver: https://github.com/postmodern/chruby/issues/417
+
+> [!Important]
+> Esto podría arreglarse si se deja de cargar el `.profile`
+>
+> Así lo hace Enlacito.
+
 Al poner esa línea en el script `003_after_deploy.sh` da este error en github actions:
 ```
 /usr/local/share/chruby/chruby.sh: line 4: PREFIX: unbound variable
@@ -52,3 +62,4 @@ Set después de cargar el `.profile`
 
 set -eo pipefail
 ```
+
