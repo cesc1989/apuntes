@@ -1,4 +1,5 @@
 # Ubuntu - No space left on device? Is it a lie or have I run out of inodes?
+
 Yesterday one of my development servers decided it was going to do some very strange things. [Wordpress](http://web.archive.org/web/20150707135333/http:/wordpress.org/) and other websites stopped working properly, I got session errors when trying to use [PHPMyAdmin](http://web.archive.org/web/20150707135333/http:/www.phpmyadmin.net/), I couldn't upload files through web forms (the server complained there was no temporary directory). So I logged in to try and work out what was going on. The temporary directory was there and had the correct permissions, however if I tried to create a file in it I was told:
 
     $ touch /tmp/testfile
