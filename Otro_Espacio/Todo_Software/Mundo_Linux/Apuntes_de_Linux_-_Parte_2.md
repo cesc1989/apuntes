@@ -104,16 +104,19 @@ Si dice `x86_4`, está en modo Rosetta.
 
 Para instalar [chruby](https://github.com/postmodern/chruby) y [ruby-install](https://github.com/postmodern/ruby-install).
 
-    brew install chruby ruby-install
+```
+brew install chruby ruby-install
+```
 
 Luego para instalar una versión de Ruby:
-
-    ruby-install 2.7.7
+```
+ruby-install 2.7.7
+```
 
 Para que cargue por defecto en todas las ventanas de terminal (en vez de la versión por defecto de Mac):
-
-    echo "chruby ruby-2.7.7" >> ~/.bash_profile
-
+```
+echo "chruby ruby-2.7.7" >> ~/.bash_profile
+```
 
 > NOTA: en los chip M1 ya no es tan fácil instalar la versión 2.7.1
 > 
@@ -206,16 +209,18 @@ Enlaces:
 # Instalación fallida de Ruby 3.0.4 con ruby-install
 
 Concretamente este error:
-
-    !!! Compiling ruby 3.0.4 failed!
+```
+!!! Compiling ruby 3.0.4 failed!
+```
 
 Según [este tutorial](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#step-2-install-chruby-and-the-latest-ruby-with-ruby-install), la razón de la falla es que son versiones antiguas con poco soporte.
 
 > You’re trying to install a version of Ruby other than 3.2.0+, 3.1.3+, 3.0.5+, or 2.7.7+
 
 La solución la da en [esta sección](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#how-to-install-different-versions-of-ruby-and-switch-between-them) del mismo tutorial. Es la misma que para instalar Ruby 2.7.7
-
-    ruby-install 3.0.4 -- --enable-shared
+```
+ruby-install 3.0.4 -- --enable-shared
+```
 
 # Cómo listar elementos únicos de un archivo de texto
 
