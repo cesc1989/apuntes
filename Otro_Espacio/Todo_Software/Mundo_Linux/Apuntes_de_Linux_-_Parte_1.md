@@ -15,11 +15,11 @@ En [Stack Overflow](http://stackoverflow.com/questions/637827/redirect-stderr-an
 # Agregar repositorio APT sin confirmación del usuario
 
 Agregar repositorio apt no-interactivo:
-
-    sudo apt-add-repository -y ppa:[REPOSITORY-NAME]
-    sudo apt-add-repository -y ppa:ondrej/php
-    sudo apt-add-repository -y ppa:ansible/ansible
-
+```
+sudo apt-add-repository -y ppa:[REPOSITORY-NAME]
+sudo apt-add-repository -y ppa:ondrej/php
+sudo apt-add-repository -y ppa:ansible/ansible
+```
 
 # Argumentos en funciones Bash
 
@@ -199,12 +199,14 @@ Y se invoca así:
 Desinstalar paquetes instalados con `dpkg`
 
 Para buscar un paquete desinstalable con esta utilidad:
-
-    dpkg-query -l atom
+```
+dpkg-query -l atom
+```
 
 Para desinstalarlo:
-
-    sudo dpkg -P atom
+```
+sudo dpkg -P atom
+```
 
 - Limpiar `/var/cache`: [Ask Ubuntu](https://askubuntu.com/a/367619/167553)
 - Cómo desinstalar JDownloader 2: [Ask Ubuntu](https://askubuntu.com/questions/393181/how-to-uninstall-jdownloader-2-beta)
@@ -216,8 +218,7 @@ Correr programas *dettached* significa que el proceso no esté pegado a la termi
 - [Superuser 1](https://superuser.com/questions/177218/how-to-start-gui-linux-programs-from-the-command-line-but-separate-from-the-com)
 - [Superuser](https://superuser.com/questions/178587/how-do-i-detach-a-process-from-terminal-entirely)
 
-Ejemplo:
-`Postman &> /dev/null &`
+Ejemplo: `Postman &> /dev/null &`
 
 # Problema de transferencia a USB que se queda en el 99% por mucho tiempo
 
@@ -291,7 +292,7 @@ En ese caso `/dev/null` es un [mecanismo que envía nada al archivo objetivo](ht
 Donde al enviar texto con el operador `>` se indica que se eliminen los contenidos del archivo y luego se agregue el nuevo texto. En cambio con `>>` se agregan los nuevos contenidos al archivo sin borrar nada.
 
 Por lo tanto:
-```
+```bash
 cat /dev/null > /var/log/messages
 ```
 
@@ -301,7 +302,7 @@ En otra [respuesta](https://askubuntu.com/a/823708/167553) dicen que:
 > /dev/null is like a black hole. Writes made to the /dev/null are discarded
 
 Se usa para vaciar archivos. Otras formas de vaciar archivos son:
-```
+```bash
 > /var/log/messages
  
 truncate  -s  0  /var/log/messages
