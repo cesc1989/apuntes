@@ -11,9 +11,9 @@ Recursos:
 ## Solución: usando grep
 
 Así explican en esta respuesta
-
-    grep -Rnw '/path/to/somewhere/' -e 'pattern'
-
+```
+grep -Rnw '/path/to/somewhere/' -e 'pattern'
+```
 
 - `-r` or `-R` is recursive ; use `-R` to search entirely
 - `-n` is line number, and
@@ -24,17 +24,19 @@ Así explican en esta respuesta
 Along with these, `--exclude`, `--include`, `--exclude-dir` flags could be used for efficient searching:
 
 This will only search through those files which have .c or .h extensions:
-
-    grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
+```
+grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
+```
 
 This will exclude searching all the files ending with .o extension:
-
-    grep --exclude=\*.o -rnw '/path/to/somewhere/' -e "pattern"
+```
+grep --exclude=\*.o -rnw '/path/to/somewhere/' -e "pattern"
+```
 
 For directories it's possible to exclude one or more directories using the `--exclude-dir` parameter. For example, this will exclude the dirs `dir1/`, `dir2/` and all of them matching `*.dst/`:
-
-    grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/search/' -e "pattern"
-
+```
+grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/search/' -e "pattern"
+```
 
 ## Solución mega bacana: instala The Silver Searcher
 
@@ -43,12 +45,13 @@ The Silver Searcher https://github.com/ggreer/the_silver_searcher
 > A code searching tool similar to `ack`, with a focus on speed.
 
 Instalación:
+```
+# mac
+brew install the_silver_searcher
 
-    # mac
-    brew install the_silver_searcher
-    
-    # Ubuntu
-    apt-get install silversearcher-ag
+# Ubuntu
+apt-get install silversearcher-ag
+```
 
 Uso:
 ```bash
@@ -96,18 +99,20 @@ Está buenísimo.
 # ¿Cómo listar los contenidos de un archivo plano de abajo hacía arriba?
 
 En linux para listar los contenidos de archivos se puede usar el comando `cat`.
-
-    $ cat archivo.txt
-    uno
-    dos
-    tres
+```bash
+cat archivo.txt
+uno
+dos
+tres
+```
 
 Resulta que si necesito listar los contenidos de un archivo, en orden al revés, existe una herramienta que se llama tac:
-
-    $ tac archivo.txt
-    tres
-    dos
-    uno
+```bash
+tac archivo.txt
+tres
+dos
+uno
+```
 
 También se pueda lograr lo mismo con `tail -r` pero no parece no hay soporte para todos los sistemas operativos.
 
@@ -144,7 +149,7 @@ Le fui a preguntar a ChatGPT y aquí están los pasos de lo que hay que hacer.
 ## Encontrar el núcleo actual
 
 Para saber si es problema del núcleo necesitaba primero saber cual está en uso. Con este comando se puede saber:
-```
+```bash
 uname -r
 5.15.0-143-generic
 ```
@@ -177,21 +182,21 @@ Aquí elegí la primera que es donde todo estaba funcionando correctamente.
 Me tocó borrar varias cosa para poder borrar el 143.
 
 Con
-```
+```bash
 dpkg -l | grep 143
 ```
 
 Listé todos los paquetes relacionados a este núcleo.
 
 Intenté borrar con este comando:
-```
+```bash
 sudo dpkg --purge linux-image-5.15.0-143-generic linux-modules-5.15.0-143-generic
 ```
 
 Pero había dependencias que necesitaba borrar primero.
 
 Tuve que borrarlas así:
-```
+```bash
 sudo dpkg --purge linux-generic
 
 sudo dpkg --purge linux-image-generic
