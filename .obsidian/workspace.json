@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "86cd91a1b84386d5",
+        "id": "8f590639bde12e07",
         "type": "tabs",
         "children": [
           {
-            "id": "d130310e23a0411b",
+            "id": "0411f40519b1021d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Cómo soluciono un Kernel Panic en Ubuntu.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Cómo soluciono un Kernel Panic en Ubuntu"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conservative",
+                "query": "\"meta key\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Cómo soluciono un Kernel Panic en Ubuntu.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Cómo soluciono un Kernel Panic en Ubuntu"
             }
           }
         ],
@@ -160,16 +165,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "d130310e23a0411b",
+  "active": "0411f40519b1021d",
   "lastOpenFiles": [
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
+    "Hogar/Estado EPS SURA vs IW 🟡.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
     "DevAsPros/Apex/Apuntes Apex",
     "DevAsPros/Infra/Passenger Status.md",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Infra/Cronitor.md",
     "DevAsPros/Apex/¿Qué es Apex?.md",
-    "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Apex",
     "Hogar/attachments/Pasted image 20260505105059.png",
     "DevAsPros/Enlacito/Divulgacion/Reddit Marketing.md",
@@ -192,7 +198,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
-    "Otro_Espacio/El_Estado_de_las_Plataformas_de_Streaming.md",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
     "Hogar/attachments/08.pago.marzo.aldia.png",
