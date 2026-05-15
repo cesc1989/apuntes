@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e31c966575fdad7",
+        "id": "85bab4f86fe96973",
         "type": "tabs",
         "children": [
           {
-            "id": "d75de0bc5fb414ae",
+            "id": "6400f3989e16b980",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu - No space left on device.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ubuntu - No space left on device"
+              "title": "How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu - No space left on device.md",
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ubuntu - No space left on device"
+              "title": "Outline of How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a"
             }
           }
         ],
@@ -165,8 +165,21 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "d75de0bc5fb414ae",
+  "active": "6400f3989e16b980",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/07.dualboot.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/06.dualboot.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/05.dualboot.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/04.dualboot.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/03-dualboot.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/02.dualboot.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/01.dualboot.png",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/How_to_dual-boot_Linux_Mint_17_and_Windows_8_on_a.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu - No space left on device.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Cómo soluciono un Kernel Panic en Ubuntu.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
@@ -190,24 +203,11 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_“Leyes”_al_gusto.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Rails_Proyectos_ver_y_aprender.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Seguridad_en_Rails.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Migrar_Rails_App_de_Heroku_a_AWS.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Migración_de_Rails_6_a_Rails_7.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Finder_Objects_Form_Objects_y_Service_Objects.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Apuntes_Testing_en_Ruby_y_Rails_Parte_2.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
     "Hogar/attachments/08.pago.marzo.aldia.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/004.pull.requests.png",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/003.pull.requests.png",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/002.pull.requests.png",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/001.pull.requests.png",
-    "Hogar/attachments/40.aviso.marzo.png",
-    "Hogar/attachments/07.pagos.febrero.reactivado.png",
-    "Luna/Backend/Help Desk/attachments/nex3465.shoulder.fixed.png",
     "Hogar/attachments",
     "Hogar/untitled folder",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
