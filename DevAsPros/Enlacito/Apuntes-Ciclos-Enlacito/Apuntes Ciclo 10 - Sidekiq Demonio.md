@@ -4,27 +4,10 @@ Etiquetas: #sidekiq_cron
 
 Relacionado [[Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow]]
 
-## Comando para ver el estado cuando hay varios servicios Sidekiq en el mismo servidor
+## Comandos de servicio Sidekiq
 
-### CashFlow
+Ver [[Gestion de Sidekiq]]
 
-```bash
-systemctl --user status cashflow.sidekiq.service
-```
-
-### Enlacito
-
-```bash
-systemctl --user status enlacito.sidekiq.service
-```
-
-## Comando para reiniciar Sidekiq de un servicio especifico
-
-### Enlacito
-
-```bash
-systemctl --user restart enlacito.sidekiq.service
-```
 
 # Configuración de Redis y Sidekiq en un mismo servidor para diferentes aplicaciones
 
