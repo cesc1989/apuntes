@@ -9,7 +9,7 @@ Relacionado [[Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow]]
 ### CashFlow
 
 ```bash
-systemctl --user status sidekiq.service
+systemctl --user status cashflow.sidekiq.service
 ```
 
 ### Enlacito
