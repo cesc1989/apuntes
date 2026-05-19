@@ -203,3 +203,47 @@ sudo dpkg --purge linux-image-generic
 ```
 
 Después si pude borrar los paquetes mencionados antes. Al ejecutar `dpkg -l | grep 143` no había resultados.
+
+# Bash strict mode con `set` y `pipefail`
+
+Quería mejorar los scripts de los despliegues de mis apps Ruby on Rails de tal forma que los fallos detuvieran el proceso enseguida. Pasaba que había fallos pero el script seguía. Era exitoso pero al revisar los logs se veían los errores.
+
+Para eso DeepSeek recomendó usar esta combinación:
+```bash
+set -euxo pipefail
+```
+
+Al final, por cuestiones de chruby me tocó solo quedarme con `set -eo pipefail`. En todo caso quiero explicar qué hace cada opción.
+
+## Hacer que el script falle con la instrucción `set`
+
+Tomado de este gist: https://gist.github.com/akrasic/380bda362e0420be08709152c91ca1f9
+
+Usar `set` hace que el script falle. Ocurre cuando se usa con ciertas banderas que al detectar un error hacen que el script falle de manera inmediata y haciendo bulla. Esto es positivo justo por las razones que comentaba. Es mejor que el script explote a que complete con errores.
+
+Esto:
+```bash
+set -euxo pipefail
+```
+
+Es lo mismo que:
+```bash
+set -e
+set -u
+set -x
+set -o pipefail
+```
+
+Veamos.
+
+- La instrucción `set -e` le dice a bash que termine de manera inmediata si cualquier comando devuelve un estado que no sea cero (0)
+	- Este es muy util en scripts pero no en una shell.
+- La instrucción `set -x` activa un modo de la shell que hace que todos los comandos que se ejecuten sean imprimidos en la terminal.
+	- Claro uso para ayudar en el debuggeo.
+- La instrucción `set -u` afecta las variables. Cuando se define hace que el script falle si se intenta usar variables no definidas.
+	- Esta fue la que no pude usar por una variable de chruby que nunca pude definir.
+- La instrucción `set -o pipefail` previene que errores de un pipeline de comandos sean ocultados. Si cualquier comando en la cadena de instrucciones falla, el código de estado será el usado como la salida final del script.
+	- La clave de esto es que si alguno de los diferentes comandos devuelve un código que no sea cero, el script falla y se de por terminado.
+
+> [!Info]
+> Con más detalle: http://redsymbol.net/articles/unofficial-bash-strict-mode/
