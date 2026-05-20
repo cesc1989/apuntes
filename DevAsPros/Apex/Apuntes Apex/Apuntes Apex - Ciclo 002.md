@@ -80,3 +80,46 @@ Si agrego este paso al despliegue puedo copiar los scripts antes de ejecutarlos:
 
 > [!Warning]
 > Esto tiene un problema. Es que modifica los archivos y causa que el pull falle porque "hay cambios" en el repo git que tiene el servidor.
+
+
+# Usar Nested Form con Stimulus Component
+
+Etiquetas: #supermenu
+
+Este es el componente: https://www.stimulus-components.com/docs/stimulus-rails-nested-form/
+
+Las instrucciones de uso son sencillas y fácil de seguir. Todo funcionó normal excepto un detalle.
+
+## Quitar elemento existente del nested form
+
+Cuando se agrega un nuevo elemento y se clica el botón de quitar, este se quita de la vista.
+
+Sin embargo, cuando se clica el botón quitar de un elemento existente (cargado de la BD), no se quita. Esto pasa porque la funcionalidad del componente (`RailsNestedForm#remove`) trabaja de dos formas diferentes.
+
+Cuando el elemento es nuevo, busca leer el data attribute `newRecord`. Cuando no, tira a ocultar el elemento con `display: none`:
+```js
+if (wrapper.dataset.newRecord === "true") {
+      wrapper.remove()
+    } else {
+      wrapper.style.display = "none"
+```
+
+[Fuente](https://github.com/stimulus-components/stimulus-components/blob/master/components/rails-nested-form/src/index.ts#L32C5-L35C37)
+
+En el caso de Super Menú así se define el elemento:
+```html
+<div class="nested-form-wrapper variant-row d-flex gap-2 mb-2 align-items-end" data-new-record="<%= vf.object.new_record? %>">
+ # ...
+</div>
+```
+
+En el caso de Super Menú esto no funciona porque se usa la clase de Boostrap `d-flex`. Esta clase pone un `!important`:
+```css
+.d-flex {
+  display: flex !important;
+}
+```
+
+Dicho important invalida la clase inline que agrega RailsNestedForm así que no se oculta.
+
+La solución es extender el componente con un controlador Stimulus del proyecto y modificar el método `remove` para que haga algo con respecto a los elementos existentes.

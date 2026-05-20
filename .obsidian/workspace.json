@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bf88015ebd5731f6",
+        "id": "a881e47526bf9256",
         "type": "tabs",
         "children": [
           {
-            "id": "04429bf506db9a27",
+            "id": "522b796ca7a53d9f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Apex - Ciclo 002"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Apex - Ciclo 002"
             }
           }
         ],
@@ -160,8 +165,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "522b796ca7a53d9f",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Infra/Puma como App Server.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
@@ -198,7 +204,6 @@
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito 🟡.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟡.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
