@@ -123,3 +123,31 @@ En el caso de Super Menú esto no funciona porque se usa la clase de Boostrap `d
 Dicho important invalida la clase inline que agrega RailsNestedForm así que no se oculta.
 
 La solución es extender el componente con un controlador Stimulus del proyecto y modificar el método `remove` para que haga algo con respecto a los elementos existentes.
+
+### Extender RailsNestedForm
+
+Al final así lo resolví, con la ayuda de DeepSeek:
+```js
+import RailsNestedForm from "@stimulus-components/rails-nested-form"
+
+export default class extends RailsNestedForm {
+  remove(e) {
+    e.preventDefault()
+
+    const wrapper = e.target.closest(this.wrapperSelectorValue)
+
+    if (wrapper.dataset.newRecord === "true") {
+      wrapper.remove()
+    } else {
+      /* Esto es lo diferente al componente original */
+      wrapper.classList.add("d-none")
+
+      const input = wrapper.querySelector("input[name*='_destroy']")
+
+      if (input) input.value = "1"
+    }
+  }
+}
+```
+
+Funciona todo al pelo. Agregar y borrar elementos del formulario.
