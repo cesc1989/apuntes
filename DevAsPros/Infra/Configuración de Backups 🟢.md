@@ -8,6 +8,9 @@ Pasaré a usar Cloudflare R2 como hospedaje. El script correrá un comando de Rc
 
 ## Mejoras al backup de sqlite
 
+> [!Warning]
+> Pendiente
+
 ## Configuración de Cloudflare
 
 Guías:

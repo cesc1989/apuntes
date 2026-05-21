@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a881e47526bf9256",
+        "id": "b23d77f9b83842c0",
         "type": "tabs",
         "children": [
           {
-            "id": "522b796ca7a53d9f",
+            "id": "040f931a3ba81920",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
+                "file": "DevAsPros/Infra/Configuración de Backups 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Apex - Ciclo 002"
+              "title": "Configuración de Backups 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
+                "file": "DevAsPros/Infra/Configuración de Backups 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes Apex - Ciclo 002"
+              "title": "Outline of Configuración de Backups 🟢"
             }
           }
         ],
@@ -165,8 +165,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "522b796ca7a53d9f",
+  "active": "040f931a3ba81920",
   "lastOpenFiles": [
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "DevAsPros/Infra/Puma como App Server.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
@@ -190,7 +191,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Cómo soluciono un Kernel Panic en Ubuntu.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
     "DevAsPros/Apex/Apuntes Apex",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Infra/Cronitor.md",
