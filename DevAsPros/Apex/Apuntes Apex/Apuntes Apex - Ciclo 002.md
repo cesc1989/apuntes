@@ -154,16 +154,130 @@ Funciona todo al pelo. Agregar y borrar elementos del formulario.
 
 # Todos los pasos para agregar confirmación de correo en Super Menu 📧
 
-Estos son todos los commits de cuando se hizo en Enlacito:
+Estos son todos los commits de cuando se hizo en Enlacito.
 
-- Campos en la BD: https://github.com/cesc1989/enlacito/commit/709e5200f0b62a93eceeccf9e20355b331aaa303
-- Actualización de action mailer en environments: https://github.com/cesc1989/enlacito/commit/8fc7dac6006ad9709d8a850e63a84deab25361e4
-- Preparación de los factories: https://github.com/cesc1989/enlacito/commit/ef1854fac4a94e59a4f301bdd334defe33044a15
-- Configuración de Resend en el repo: https://github.com/cesc1989/enlacito/commit/09810c855a1def352b34bba03a986bfdcab7b047
-- Agregar archivo .env.test para que pasen las pruebas: https://github.com/cesc1989/enlacito/commit/69c5c5d2144ca961b8029ccfbb9796c127d3f7f1
-- Configuración de Devise: https://github.com/cesc1989/enlacito/commit/d906b5ab275a79bab8a5beab238bf3705ab0c3a2
-- Otras cosas más: https://github.com/cesc1989/enlacito/commit/e367c09bbbcea4be0eece3b6ace4e7f60a5f9555
-- Cargué todas las vistas de devise para no joder más con eso: https://github.com/cesc1989/enlacito/commit/a555bc57e92b95350c5c466abcfbb0701fe819ce
-- Usar el subdominio verificado en los mailers: https://github.com/cesc1989/enlacito/commit/efe4033b9c619f3d165dc31adf120e22faed2054
-- Mejoras visuales al mail de confirmation: https://github.com/cesc1989/enlacito/commit/37637121b2193cd1772b7f6d03930c4c73348aa6
-- 
+## Campos en la BD
+
+Commit: https://github.com/cesc1989/enlacito/commit/709e5200f0b62a93eceeccf9e20355b331aaa303
+
+Migración de campos de Devise:
+```ruby
+class AddConfirmableToUsers < ActiveRecord::Migration[7.1]
+  def up
+    add_column :users, :confirmation_token, :string
+    add_column :users, :confirmed_at, :datetime
+    add_column :users, :confirmation_sent_at, :datetime
+
+    # Este campo va de la mano de la opción reconfirmable del initializer
+    add_column :users, :unconfirmed_email, :string
+
+    add_index :users, :confirmation_token, unique: true
+
+    User.update_all confirmed_at: DateTime.now
+  end
+
+  def down
+    remove_index :users, :confirmation_token
+    remove_columns(
+      :users,
+      :confirmation_token,
+      :confirmed_at,
+      :confirmation_sent_at
+    )
+  end
+end
+```
+
+En el modelo User se agrega la línea `:confirmable` al macro `devise`.
+
+## Configuración de Resend en el repo
+
+Commit: https://github.com/cesc1989/enlacito/commit/09810c855a1def352b34bba03a986bfdcab7b047
+
+Agregar gema de resend:
+```ruby
+gem "resend", "1.0.1"
+```
+
+Agregar initializer en `config/initializers/resend.rb`
+```ruby
+Resend.api_key = ENV.fetch("SUPERMENU_RESEND_API_KEY", "")
+```
+
+Y archivo `.env.test` para las pruebas:
+```bash
+SUPERMENU_RESEND_API_KEY="loquesea"
+```
+
+## Actualización de ActionMailer en environments
+
+Commit: https://github.com/cesc1989/enlacito/commit/8fc7dac6006ad9709d8a850e63a84deab25361e4
+
+En `config/environments/development.rb`:
+```ruby
+config.action_mailer.default_url_options = { host: "localhost", port: 3006 }
+```
+
+En `config/environments/production.rb`:
+```ruby
+config.action_mailer.default_url_options = { host: "supermenu.devaspros.com" }
+config.action_mailer.delivery_method = :resend
+```
+
+En `config/environments/test.rb`:
+```ruby
+config.action_mailer.default_url_options = { host: "localhost:3000" }
+```
+
+## Preparación de los factories
+
+Commit: https://github.com/cesc1989/enlacito/commit/ef1854fac4a94e59a4f301bdd334defe33044a15
+
+En `spec/factories/users.rb`:
+```ruby
+trait :confirmed do
+	confirmed_at { DateTime.current }
+end
+```
+
+## Configuración de Devise
+
+Commit: https://github.com/cesc1989/enlacito/commit/d906b5ab275a79bab8a5beab238bf3705ab0c3a2
+
+Se cambia en `app/controllers/users/registrations_controller.rb` el método para que después de completar el registro se devuelva al login.
+```ruby
+  # The path used after sign up for inactive accounts.
+  def after_inactive_sign_up_path_for(resource)
+    # super(resource)
+    new_user_session_path
+  end
+```
+
+Verificar que la vista tenga lo necesario. Vista en `app/views/devise/mailer/confirmation_instructions.html.erb`.
+
+Y se configura para que el token de confirmación venza en 24 horas en el initializer:
+```ruby
+config.confirm_within = 24.hours
+```
+
+También usar el dominio verificado en Resend:
+```ruby
+config.mailer_sender = "noreply@resend.supermenu.devaspros.com"
+```
+
+## Cargar todas las vistas de Devise
+
+Para no joder más con eso. Commit: https://github.com/cesc1989/enlacito/commit/a555bc57e92b95350c5c466abcfbb0701fe819ce
+
+## Usar el subdominio verificado en los mailers
+
+Commit: https://github.com/cesc1989/enlacito/commit/efe4033b9c619f3d165dc31adf120e22faed2054
+
+En `app/mailers/application_mailer.rb`:
+```ruby
+default from: "noreply@resend.supermenu.devaspros.co"
+```
+
+## Mejoras visuales al mail de confirmation
+
+Commit: https://github.com/cesc1989/enlacito/commit/37637121b2193cd1772b7f6d03930c4c73348aa6
