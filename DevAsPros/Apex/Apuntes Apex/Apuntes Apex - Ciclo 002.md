@@ -275,9 +275,45 @@ Commit: https://github.com/cesc1989/enlacito/commit/efe4033b9c619f3d165dc31adf12
 
 En `app/mailers/application_mailer.rb`:
 ```ruby
-default from: "noreply@resend.supermenu.devaspros.co"
+default from: "noreply@resend.supermenu.devaspros.com"
 ```
 
-## Mejoras visuales al mail de confirmation
+## Adecuar Mailer y Vistas
 
 Commit: https://github.com/cesc1989/enlacito/commit/37637121b2193cd1772b7f6d03930c4c73348aa6
+
+Crear nuevo mailer que herede del devise para poder modificar valores.
+```ruby
+# app/mailers/super_menu_mailer.rb
+class SuperMenuMailer < Devise::Mailer
+  layout "mailer"
+  default from: "noreply@resend.supermenu.devaspros.com"
+end
+```
+
+Devise debe usar este nuevo mailer:
+```ruby
+# config/initializers/devise.rb
+
+config.mailer = "SuperMenuMailer"
+```
+
+En `config/environments/development.rb` configura las previews del mailer:
+```ruby
+config.action_mailer.preview_path = Rails.root.join("spec/mailers/previews")
+```
+
+Crea las previews en `spec/mailers/previews/devise_mailer_preview.rb`:
+```ruby
+class DeviseMailerPreview < ActionMailer::Preview
+  def confirmation_instructions
+    user = User.new(email: "usuario@ejemplo.com")
+    SuperMenuMailer.confirmation_instructions(user, "fake_token_para_preview")
+  end
+
+  def reset_password_instructions
+    user = User.new(email: "usuario@ejemplo.com")
+    SuperMenuMailer.reset_password_instructions(user, "fake_token_para_preview")
+  end
+end
+```
