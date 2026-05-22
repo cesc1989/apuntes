@@ -156,7 +156,7 @@ Funciona todo al pelo. Agregar y borrar elementos del formulario.
 
 Estos son todos los commits de cuando se hizo en Enlacito.
 
-## Campos en la BD
+## Campos en la BD 🟢
 
 Commit: https://github.com/cesc1989/enlacito/commit/709e5200f0b62a93eceeccf9e20355b331aaa303
 
@@ -190,7 +190,7 @@ end
 
 En el modelo User se agrega la línea `:confirmable` al macro `devise`.
 
-## Configuración de Resend en el repo
+## Configuración de Resend en el repo 🟢
 
 Commit: https://github.com/cesc1989/enlacito/commit/09810c855a1def352b34bba03a986bfdcab7b047
 
@@ -209,7 +209,7 @@ Y archivo `.env.test` para las pruebas:
 SUPERMENU_RESEND_API_KEY="loquesea"
 ```
 
-## Actualización de ActionMailer en environments
+## Actualización de ActionMailer en environments 🟢
 
 Commit: https://github.com/cesc1989/enlacito/commit/8fc7dac6006ad9709d8a850e63a84deab25361e4
 
@@ -229,7 +229,7 @@ En `config/environments/test.rb`:
 config.action_mailer.default_url_options = { host: "localhost:3000" }
 ```
 
-## Preparación de los factories
+## Preparación de los factories 🟢
 
 Commit: https://github.com/cesc1989/enlacito/commit/ef1854fac4a94e59a4f301bdd334defe33044a15
 
@@ -240,7 +240,7 @@ trait :confirmed do
 end
 ```
 
-## Configuración de Devise
+## Configuración de Devise 🟢
 
 Commit: https://github.com/cesc1989/enlacito/commit/d906b5ab275a79bab8a5beab238bf3705ab0c3a2
 
@@ -269,7 +269,7 @@ config.mailer_sender = "noreply@resend.supermenu.devaspros.com"
 
 Para no joder más con eso. Commit: https://github.com/cesc1989/enlacito/commit/a555bc57e92b95350c5c466abcfbb0701fe819ce
 
-## Usar el subdominio verificado en los mailers
+## Usar el subdominio verificado en los mailers 🟢
 
 Commit: https://github.com/cesc1989/enlacito/commit/efe4033b9c619f3d165dc31adf120e22faed2054
 
