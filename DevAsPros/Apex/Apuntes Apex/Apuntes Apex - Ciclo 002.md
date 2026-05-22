@@ -300,7 +300,7 @@ config.mailer = "SuperMenuMailer"
 
 En `config/environments/development.rb` configura las previews del mailer:
 ```ruby
-config.action_mailer.preview_path = Rails.root.join("spec/mailers/previews")
+config.action_mailer.preview_paths << Rails.root.join("spec/mailers/previews")
 ```
 
 Crea las previews en `spec/mailers/previews/devise_mailer_preview.rb`:
