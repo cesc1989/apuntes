@@ -151,3 +151,19 @@ export default class extends RailsNestedForm {
 ```
 
 Funciona todo al pelo. Agregar y borrar elementos del formulario.
+
+# Todos los pasos para agregar confirmación de correo en Super Menu 📧
+
+Estos son todos los commits de cuando se hizo en Enlacito:
+
+- Campos en la BD: https://github.com/cesc1989/enlacito/commit/709e5200f0b62a93eceeccf9e20355b331aaa303
+- Actualización de action mailer en environments: https://github.com/cesc1989/enlacito/commit/8fc7dac6006ad9709d8a850e63a84deab25361e4
+- Preparación de los factories: https://github.com/cesc1989/enlacito/commit/ef1854fac4a94e59a4f301bdd334defe33044a15
+- Configuración de Resend en el repo: https://github.com/cesc1989/enlacito/commit/09810c855a1def352b34bba03a986bfdcab7b047
+- Agregar archivo .env.test para que pasen las pruebas: https://github.com/cesc1989/enlacito/commit/69c5c5d2144ca961b8029ccfbb9796c127d3f7f1
+- Configuración de Devise: https://github.com/cesc1989/enlacito/commit/d906b5ab275a79bab8a5beab238bf3705ab0c3a2
+- Otras cosas más: https://github.com/cesc1989/enlacito/commit/e367c09bbbcea4be0eece3b6ace4e7f60a5f9555
+- Cargué todas las vistas de devise para no joder más con eso: https://github.com/cesc1989/enlacito/commit/a555bc57e92b95350c5c466abcfbb0701fe819ce
+- Usar el subdominio verificado en los mailers: https://github.com/cesc1989/enlacito/commit/efe4033b9c619f3d165dc31adf120e22faed2054
+- Mejoras visuales al mail de confirmation: https://github.com/cesc1989/enlacito/commit/37637121b2193cd1772b7f6d03930c4c73348aa6
+- 
