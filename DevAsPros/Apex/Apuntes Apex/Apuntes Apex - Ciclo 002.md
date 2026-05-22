@@ -265,7 +265,7 @@ También usar el dominio verificado en Resend:
 config.mailer_sender = "noreply@resend.supermenu.devaspros.com"
 ```
 
-## Cargar todas las vistas de Devise
+## Cargar todas las vistas de Devise 🟢
 
 Para no joder más con eso. Commit: https://github.com/cesc1989/enlacito/commit/a555bc57e92b95350c5c466abcfbb0701fe819ce
 
@@ -278,7 +278,7 @@ En `app/mailers/application_mailer.rb`:
 default from: "noreply@resend.supermenu.devaspros.com"
 ```
 
-## Adecuar Mailer y Vistas
+## Adecuar Mailer y Vistas 🟢
 
 Commit: https://github.com/cesc1989/enlacito/commit/37637121b2193cd1772b7f6d03930c4c73348aa6
 
