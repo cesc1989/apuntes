@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc6031aeb231d8c1",
+        "id": "ba003fa1115e431a",
         "type": "tabs",
         "children": [
           {
-            "id": "65db90217597112f",
+            "id": "9e777d72277a07af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Infra/Redis DBs en Uso.md",
-                "mode": "source",
+                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Redis DBs en Uso"
+              "title": "Bluesky API Notes"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Redis DBs en Uso.md",
+                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Redis DBs en Uso"
+              "title": "Outline of Bluesky API Notes"
             }
           }
         ],
@@ -165,8 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "65db90217597112f",
+  "active": "9e777d72277a07af",
   "lastOpenFiles": [
+    "DevAsPros/Postlane/Bluesky API Notes.md",
+    "DevAsPros/Postlane",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "DevAsPros/Infra/Redis DBs en Uso.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
@@ -201,9 +204,7 @@
     "DevAsPros/Apex/¿Qué es Apex?.md",
     "DevAsPros/Apex",
     "Hogar/attachments/Pasted image 20260505105059.png",
-    "DevAsPros/Enlacito/Divulgacion/Reddit Marketing.md",
     "DevAsPros/Enlacito/enlacito.payments.png",
-    "DevAsPros/Enlacito/002 - Planeacion 🟡.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
@@ -212,7 +213,6 @@
     "Hogar/untitled folder",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
     "Luna/Therapist_Signup/Help Desk/2025",
-    "Luna/Backend/Help Desk/2025",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
