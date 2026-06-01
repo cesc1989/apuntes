@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ba003fa1115e431a",
+        "id": "f936cc6efc7d9fcf",
         "type": "tabs",
         "children": [
           {
-            "id": "9e777d72277a07af",
+            "id": "c0cf7add19da8d7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Bluesky API Notes"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bluesky API Notes"
+              "title": "Outline"
             }
           }
         ],
@@ -165,7 +160,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "9e777d72277a07af",
+  "active": "c0cf7add19da8d7f",
   "lastOpenFiles": [
     "DevAsPros/Postlane/Bluesky API Notes.md",
     "DevAsPros/Postlane",
