@@ -14,3 +14,22 @@ curl --request POST \
   "password": "APP-PASSWORD"
 }'
 ```
+
+## Sobre Rate Limits
+
+Docs: https://docs.bsky.app/docs/advanced-guides/rate-limits
+
+### Resumen
+
+Las que interesan para Postlane.
+
+Overall API Requests (all endpoints)
+
+- Rate limited by IP
+- 3000 per 5 minutes
+
+`com.atproto.server.createSession`
+
+- Measured per account
+- 30 per 5 minutes
+- 300 per day
