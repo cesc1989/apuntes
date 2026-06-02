@@ -10,10 +10,13 @@ curl --request POST \
   --url https://bsky.social/xrpc/com.atproto.server.createSession \
   --header 'content-type: application/json' \
   --data '{
-  "identifier": "elcoshinita",
+  "identifier": "elcoshinita.bsky.social",
   "password": "APP-PASSWORD"
 }'
 ```
+
+> [!Important]
+> Hay que enviar el handle completo.
 
 ## Sobre Rate Limits
 
