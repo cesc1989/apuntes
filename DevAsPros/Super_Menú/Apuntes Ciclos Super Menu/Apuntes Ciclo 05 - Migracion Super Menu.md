@@ -39,6 +39,8 @@ Ver [[Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow#Configuración para hacer pu
 
 ## Configurar secrets en el repo en GitHub
 
+Ver [[Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow#Configurar acceso ssh en una GitHub Action 🔑]]
+
 Hay que modificar los valores previos de los secretos `TARGET_HOST` y `KNOWN_HOSTS`.
 
 El primero es solo actualizar poniendo la IP del nuevo VPS.

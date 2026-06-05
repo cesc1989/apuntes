@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f3bf228e05395a09",
+        "id": "b635f4c8f1ccaa7f",
         "type": "tabs",
         "children": [
           {
-            "id": "f5f2d1f922592871",
+            "id": "7a489a65f7dfbacb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
+                "file": "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bluesky API Notes"
+              "title": "Apuntes Ciclo 05 - Migracion Super Menu"
+            }
+          },
+          {
+            "id": "392ef092e7a5039f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crontab",
+                "query": "known hosts",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bluesky API Notes"
+              "title": "Outline of Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
             }
           }
         ],
@@ -165,8 +181,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "f5f2d1f922592871",
+  "active": "392ef092e7a5039f",
   "lastOpenFiles": [
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Postlane/Bluesky API Notes.md",
     "DevAsPros/Postlane",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
@@ -199,9 +218,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
     "DevAsPros/Apex/Apuntes Apex",
-    "DevAsPros/Infra/Configurando Bugsink.md",
-    "DevAsPros/Infra/Cronitor.md",
-    "DevAsPros/Apex/¿Qué es Apex?.md",
     "DevAsPros/Apex",
     "Hogar/attachments/Pasted image 20260505105059.png",
     "DevAsPros/Enlacito/enlacito.payments.png",
