@@ -12,39 +12,43 @@ Es muy molesto de configurar. Passenger es muchísimo más sencillo y queda demo
 No se pudo.
 
 En todo caso, comando para subir la llave privada manualmente:
-
-    scp -i /Users/francisco/.ssh/linode /Users/francisco/.ssh/gh_ubuntu ubuntu@139.144.196.192:~/.ssh/gh_ubuntu
+```bash
+scp -i /Users/francisco/.ssh/linode /Users/francisco/.ssh/gh_ubuntu ubuntu@139.144.196.192:~/.ssh/gh_ubuntu
+```
 
 
 # Haciendo despliegue manual
 
 Me tocó hacer el archivo de configuración ssh para poder tener acceso Github. Lo hice según [esta guía](https://gist.github.com/cesc1989/ce791228177867271147770629fe754b).
 
-    $ nano ~/.ssh/config
-    
-    $ cat ~/.ssh/config
-    Host gh
-    HostName github.com
-    User git
-    IdentityFile ~/.ssh/gh_ubuntu
+```bash
+$ nano ~/.ssh/config
+
+$ cat ~/.ssh/config
+Host gh
+HostName github.com
+User git
+IdentityFile ~/.ssh/gh_ubuntu
+```
 
 
 ## Estructura de carpetas
 
 Esta es la estructura final de carpetas para ejecutar la aplicación.
 
-    cashflow/
-    ├── app
-    │ └── vendor
-    ├── backups
-    ├── db
-    │ └── cashflow_production.sqlite # archivo master importante
-    └── deployments
-        ├── api-gems
-        └── api-release
+```
+cashflow/
+├── app
+│ └── vendor
+├── backups
+├── db
+│ └── cashflow_production.sqlite # archivo master importante
+└── deployments
+		├── api-gems
+		└── api-release
+```
 
 **En app tocó crear vendor porque al inicio está vacía.**
-
 
 ## NVM no se instala al provisionar con Packer
 
