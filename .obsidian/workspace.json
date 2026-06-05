@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b635f4c8f1ccaa7f",
+        "id": "578d251a61e4e59d",
         "type": "tabs",
         "children": [
           {
-            "id": "7a489a65f7dfbacb",
+            "id": "aac8e8e52aa7afe6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes Ciclo 05 - Migracion Super Menu"
-            }
-          },
-          {
-            "id": "392ef092e7a5039f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow"
-            }
-          },
-          {
-            "id": "2e69be53f9932eba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 003.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow"
+              "title": "Apuntes Apex - Ciclo 003"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 003.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow"
+              "title": "Outline of Apuntes Apex - Ciclo 003"
             }
           }
         ],
@@ -194,11 +165,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "2e69be53f9932eba",
+  "active": "aac8e8e52aa7afe6",
   "lastOpenFiles": [
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 003.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Postlane/Bluesky API Notes.md",
     "DevAsPros/Postlane",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
@@ -228,8 +201,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu - No space left on device.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Cómo soluciono un Kernel Panic en Ubuntu.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 15 - Gestion de ENVs.md",
     "DevAsPros/Apex/Apuntes Apex",
     "DevAsPros/Apex",
     "Hogar/attachments/Pasted image 20260505105059.png",
