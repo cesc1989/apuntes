@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "60ef59e839d00d87",
+        "id": "cf3326f92d27dbe5",
         "type": "tabs",
         "children": [
           {
-            "id": "6dd6d5a63a722246",
+            "id": "a71f0d9307d9fe70",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Apex - Ciclo 004"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes Apex - Ciclo 004"
             }
           }
         ],
@@ -160,11 +165,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "a71f0d9307d9fe70",
   "lastOpenFiles": [
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 003.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 003.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Postlane/Bluesky API Notes.md",
@@ -195,7 +201,6 @@
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/01.dualboot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Ubuntu - No space left on device.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Discos Duros y Archivos/Cómo soluciono un Kernel Panic en Ubuntu.md",
     "DevAsPros/Apex/Apuntes Apex",
     "DevAsPros/Apex",
     "Hogar/attachments/Pasted image 20260505105059.png",
