@@ -15,7 +15,7 @@ Es hecho por un independientes. Está escrito en Python. Funciona con el mismo S
 Según Pikapods necesita mínimo:
 
 - 1 cpu
-- 1gb de RAM
+- 1 gb de RAM
 
 ### Costo 💰
 
