@@ -62,7 +62,7 @@ Estado de los proyectos que tengo andando y cuáles están en Bugsink. Si están
 
 - [x] Cash Flow - [Commit](https://github.com/cesc1989/cashflow/commit/73861554a604d10fe05108ebf0bda63767cd9453)
 - [x] Coshi Notes - [Commit](https://github.com/cesc1989/coshinotes/commit/0059e1a67db560c4eae2473042ae6351d32ffc51)
-- [ ] Super Menu
+
 
 > [!Warning]
 > Enlacito no lo voy a migrar aún. Si empiezo a darle a Enlacito en la promoción y mercadeo tendré que prender Bugsink más seguido por si pasan cosas. Es un poco caro por lo que no es conveniente prenderlo todo el día.
