@@ -56,7 +56,7 @@ ExceptionLogger.log(StandardError.new, StandardError.new("hola"))
 Y pude ver ambos errores:
 ![[bugsink.initial.setup.png]]
 
-## Proyectos Migrados a  Bugsink
+# Proyectos Migrados a  Bugsink
 
 Estado de los proyectos que tengo andando y cuáles están en Bugsink. Si están chuleados, ya usan el DSN de Bugsink.
 
@@ -69,4 +69,4 @@ Estado de los proyectos que tengo andando y cuáles están en Bugsink. Si están
 >
 > Con los proyectos personales lo puedo apagar porque casi que no explota nada.
 >
-> Esta decisión la reconsideraré más adelante.
+> **Esta decisión la reconsideraré más adelante.**
