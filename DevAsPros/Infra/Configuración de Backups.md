@@ -11,7 +11,7 @@ Pasaré a usar Cloudflare R2 como hospedaje. El script correrá un comando de Rc
 > [!Warning]
 > Pendiente
 
-## Configuración de Cloudflare
+## Configuración de Cloudflare 🟢
 
 Guías:
 - Crear un API Token: https://developers.cloudflare.com/r2/api/tokens/
@@ -24,7 +24,7 @@ Cuando se crea el token se generan:
 - endpoint
 
 
-## Configuración de rclone
+## Configuración de rclone 🟢
 
 Guías:
 - Docs: https://rclone.org/downloads/
