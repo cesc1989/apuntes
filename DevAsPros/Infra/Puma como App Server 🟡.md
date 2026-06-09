@@ -1,72 +1,65 @@
 # Usar Puma como App Server
 
-Según gepeto sería así.
-
 ## config/puma.rb
 
 ```ruby
-# frozen_string_literal: true
+threads_count = ENV.fetch("RAILS_MAX_THREADS", 3)
+threads threads_count, threads_count
 
-environment ENV.fetch("RAILS_ENV") { "production" }
+port ENV.fetch("PORT", 3006)
 
-# VPS 1GB → 1 worker, pocos threads
-workers 1
-threads 3, 3
-
-# Bind por TCP (simple con nginx)
-bind "tcp://127.0.0.1:3001"
-
-preload_app!
-
-# Reduce fragmentación de memoria
-before_fork do
-  ENV["MALLOC_ARENA_MAX"] = "2"
-end
-
-on_worker_boot do
-  ActiveRecord::Base.establish_connection if defined?(ActiveRecord)
-end
-
+# Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
+
+# Specify the PID file. Defaults to tmp/pids/server.pid in development.
+# In other environments, only set the PID file if requested.
+pidfile ENV["PIDFILE"] if ENV["PIDFILE"]
 ```
 
-## coshinotes.puma.service
+## supermenu.puma.service
 
 ```bash
-~/.config/systemd/user/coshinotes.puma.service
+/etc/systemd/system/supermenu.puma.service
 ```
 
 Configuración:
 ```bash
 [Unit]
-Description=Coshinotes Puma
+Description=supermenu (puma)
 After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/ubuntu/coshinotes/app
 
-Environment=RAILS_ENV=production
+WorkingDirectory=/home/ubuntu/supermenu/app
+
+# Igual que Sidekiq: memoria más estable en Ruby
 Environment=MALLOC_ARENA_MAX=2
 
-ExecStart=/home/ubuntu/.rubies/ruby-3.2.5/bin/bundle exec puma -C config/puma.rb
+# Si tienes variables globales (DB, secrets, etc)
+EnvironmentFile=/home/ubuntu/.supermenu.envs
+
+ExecStart=/home/ubuntu/.rubies/ruby-3.4.8/bin/bundle exec puma -C config/puma.rb
+
+ExecReload=/bin/kill -USR2 $MAINPID
 
 Restart=on-failure
-RestartSec=2
+RestartSec=3
 
+# Logs igual que Sidekiq (consistencia del VPS)
 StandardOutput=syslog
 StandardError=syslog
-SyslogIdentifier=coshinotes_puma
+SyslogIdentifier=supermenu_puma
 
 [Install]
-WantedBy=default.target
+WantedBy=multi-user.target
 ```
 
 Se activa así:
 ```bash
-systemctl --user daemon-reload
-systemctl --user enable coshinotes.puma
-systemctl --user start coshinotes.puma
+sudo systemctl daemon-reload
+sudo systemctl enable supermenu.puma.service
+sudo systemctl restart supermenu.puma.service
 ```
 
 Comprobación:
@@ -74,48 +67,57 @@ Comprobación:
 systemctl --user status coshinotes.puma
 ```
 
-## configuración de nginx
+## Configuración de nginx de Super Menú
 
-Iría así:
+Así quedó el 9 de Junio:
 ```nginx
 server {
   listen 80;
-  server_name coshinotes.devaspros.com;
+  server_name supermenu.devaspros.com;
 
   return 301 https://$host$request_uri;
 }
 
 server {
   listen 443 ssl;
-  server_name coshinotes.devaspros.com;
+  server_name supermenu.devaspros.com;
 
-  ssl_certificate /etc/letsencrypt/live/coshinotes.devaspros.com/fullchain.pem;
-  ssl_certificate_key /etc/letsencrypt/live/coshinotes.devaspros.com/privkey.pem;
+  ssl_certificate /etc/letsencrypt/live/supermenu.devaspros.com/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/supermenu.devaspros.com/privkey.pem;
 
-  root /home/ubuntu/coshinotes/app/public;
-  access_log /home/ubuntu/coshinotes/app/log/nginx.access.log;
-  error_log /home/ubuntu/coshinotes/app/log/nginx.error.log info;
+  # Logs
+  access_log /var/log/nginx/supermenu.access.log;
+  error_log /var/log/nginx/supermenu.error.log info;
 
-  error_page 500 502 503 504 /500.html;
+  # Rails public assets
+  root /home/ubuntu/supermenu/app/public;
+
   client_max_body_size 10M;
   keepalive_timeout 5;
 
-  # Rails vía Puma
-  location / {
-    proxy_pass http://127.0.0.1:3001;
-    proxy_set_header Host $host;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forwarded-Proto $scheme;
+  # Static files directo por nginx
+  location ~ ^/(assets|packs|images|favicon.ico|robots.txt) {
+    expires max;
+    add_header Cache-Control public;
+    try_files $uri =404;
   }
 
-  # WebSockets / Turbo Streams
-  location /cable {
-    proxy_pass http://127.0.0.1:3001;
+  # App (Puma)
+  location / {
+    proxy_pass http://localhost:3006;
+
     proxy_http_version 1.1;
+
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto https;
+
+    # WebSockets / ActionCable (por si lo usas)
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
-    proxy_set_header Host $host;
-    proxy_read_timeout 60s;
   }
+
+  error_page 500 502 503 504 /500.html;
 }
 ```
