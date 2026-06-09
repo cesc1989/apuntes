@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Problema despues de Upgrade de Passenger"
             }
-          },
-          {
-            "id": "e92365f5386b05c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Infra/Puma como App Server 🟡.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Puma como App Server 🟡"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Puma como App Server 🟡.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Puma como App Server 🟡"
+              "title": "Outline of Problema despues de Upgrade de Passenger"
             }
           }
         ],
@@ -180,8 +165,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "e92365f5386b05c8",
+  "active": "3f6c4d9905a78f6b",
   "lastOpenFiles": [
+    "DevAsPros/Infra/Puma como App Server 🟡.md",
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
@@ -192,7 +178,6 @@
     "DevAsPros/Infra/attachments/101.kuma.ping.notif.png",
     "DevAsPros/Infra/attachments/100.kuma.monitor.png",
     "DevAsPros/Infra/Redis DBs en Uso.md",
-    "DevAsPros/Infra/Puma como App Server 🟡.md",
     "DevAsPros/Infra/Passenger Status.md",
     "DevAsPros/Infra/Mejoras del Servidor 🟢.md",
     "DevAsPros/Infra/Hardening de VPS 🟢.md",
