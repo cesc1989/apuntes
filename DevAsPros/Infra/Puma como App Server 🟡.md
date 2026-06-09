@@ -78,9 +78,6 @@ systemctl --user status coshinotes.puma
 
 Iría así:
 ```nginx
-# Passenger extra configs for security and/or performance
-passenger_show_version_in_header off;
-
 server {
   listen 80;
   server_name coshinotes.devaspros.com;
@@ -98,9 +95,6 @@ server {
   root /home/ubuntu/coshinotes/app/public;
   access_log /home/ubuntu/coshinotes/app/log/nginx.access.log;
   error_log /home/ubuntu/coshinotes/app/log/nginx.error.log info;
-
-  # ❌ NO Passenger para esta app
-  passenger_enabled off;
 
   error_page 500 502 503 504 /500.html;
   client_max_body_size 10M;
