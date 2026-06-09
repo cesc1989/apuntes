@@ -115,7 +115,7 @@ A crear un rango manualmente:
 
 Visto en https://rails.rubystyle.guide/#date-time-range
 
-# Arreglo correcto para gemas por defecto de Ruby 🔑
+# Arreglo correcto para gemas (base64, stringio) por defecto de Ruby 🔑
 
 Etiquetas: #passenger
 
