@@ -1,6 +1,6 @@
 # Super Menu y Postlane caídos después de upgrade de passenger
 
-## Versión de Passenger es 6.1.2
+## Versión de Passenger es 6.1.2 y nginx 1.24.0
 
 Lo puedo ver en el ping que tiré días antes:
 ```
