@@ -76,11 +76,13 @@ Hasta aquí ya están a paz y salvo. Ahora queda saber si Abril lo van a pagar a
 
 ## Resolución por parte de IW 🟡
 
-El Martes 24 preguntaré de nuevo para ver qué me dicen.
+**El Martes 24** preguntaré de nuevo para ver qué me dicen.
 
-El Miércoles 1 de Abril pregunté de nuevo y Lina dijo:
+**El Miércoles 1 de Abril** pregunté de nuevo y Lina dijo:
 > Ya se están encargando de dejar todo eso al día. Tan pronto me den una actualización te cuento
 
-El Martes 7 de Abril volví a preguntar a Lina.
+**El Martes 7 de Abril** volví a preguntar a Lina.
 
-Martes 5 de Mayo recibí nuevo correo de SURA donde dice que el empleador no ha pagado prestaciones.
+**Martes 5 de Mayo** recibí nuevo correo de SURA donde dice que el empleador no ha pagado prestaciones.
+
+**Martes 9 de Junio** volví a revisar y no han pagado Abril.
