@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_21_-_Correos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes"
+              "title": "Apuntes_Ciclo_21_-_Correos"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_21_-_Correos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes"
+              "title": "Outline of Apuntes_Ciclo_21_-_Correos"
             }
           }
         ],
@@ -168,6 +168,7 @@
   },
   "active": "d9ee9cb343c4788b",
   "lastOpenFiles": [
+    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Infra/Cronitor - Uptime Kuma.md",
     "DevAsPros/Infra/attachments/102.kuma.page.png",
