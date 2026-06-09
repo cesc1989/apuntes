@@ -1,3 +1,61 @@
+# Desinstalar del VPS
+
+Pasos.
+
+Primero: `dpkg -l | grep passenger`
+
+Debe mostrar:
+```
+ii  libnginx-mod-http-passenger     1:6.1.4-1~noble1                                 amd64        Nginx integration for Passenger application server
+ii  passenger                       1:6.1.4-1~noble1                                 amd64        Application server for Ruby, Node.js, Python, Meteor
+```
+
+Desinstalar con:
+```bash
+sudo apt remove --purge passenger libnginx-mod-http-passenger
+```
+
+Limpiar restos:
+```bash
+sudo apt autoremove --purge
+```
+
+Revisar que todo esté en orden:
+```
+nginx -T | grep -i passenger
+```
+
+## Error de modulo intentando ser cargado
+
+Este error:
+```bash
+2026/06/09 21:09:17 [warn] 228612#228612: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:1
+2026/06/09 21:09:17 [emerg] 228612#228612: open() "/etc/nginx/modules-enabled/50-mod-http-passenger.conf" failed (2: No such file or directory) in /etc/nginx/nginx.conf:5
+```
+
+Hay que revisar en:
+```
+ls -l /etc/nginx/modules-enabled/
+```
+
+Si sale algún archivo, se borra:
+```
+total 0
+lrwxrwxrwx 1 root root 58 Jun  9 14:57 50-mod-http-passenger.conf -> /usr/share/nginx/modules-available/mod-http-passenger.load
+```
+
+Borrar:
+```bash
+sudo rm /etc/nginx/modules-enabled/50-mod-http-passenger.conf
+```
+
+Luego se confirma que todo esté en orden y se recarga nginx:
+```bash
+sudo nginx -t
+
+sudo systemctl reload nginx
+```
+
 # Explicando el comando `passenger-status`
 
 Estaba usando este comando para revisar el estado de los diferentes procesos que están en el VPS básico. Tiene bastante información y quiero saber qué significa cada cosa.

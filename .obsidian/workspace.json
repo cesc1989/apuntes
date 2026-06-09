@@ -11,10 +11,14 @@
             "id": "c1b633d1df784eaf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Infra/Passenger Info y Comandos.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Passenger Info y Comandos"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Infra/Passenger Info y Comandos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Passenger Info y Comandos"
             }
           }
         ],
@@ -164,7 +169,7 @@
   "lastOpenFiles": [
     "DevAsPros/Infra/Puma como App Server.md",
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
-    "DevAsPros/Infra/Passenger Status.md",
+    "DevAsPros/Infra/Passenger Info y Comandos.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_10_-_E2E_-_Coshi_Notes.md",
