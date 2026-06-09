@@ -1,6 +1,8 @@
 # Usar Puma como App Server
 
-## config/puma.rb
+## Super Menú
+
+### config/puma.rb
 
 ```ruby
 threads_count = ENV.fetch("RAILS_MAX_THREADS", 3)
@@ -16,7 +18,7 @@ plugin :tmp_restart
 pidfile ENV["PIDFILE"] if ENV["PIDFILE"]
 ```
 
-## supermenu.puma.service
+### supermenu.puma.service
 
 ```bash
 /etc/systemd/system/supermenu.puma.service
@@ -64,10 +66,10 @@ sudo systemctl restart supermenu.puma.service
 
 Comprobación:
 ```bash
-systemctl --user status coshinotes.puma
+sudo systemctl status coshinotes.puma
 ```
 
-## Configuración de nginx de Super Menú
+### Configuración de Nginx
 
 Así quedó el 9 de Junio:
 ```nginx
