@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "007e65a05a2cce4c",
+        "id": "4c0ab0649499dbcb",
         "type": "tabs",
         "children": [
           {
-            "id": "1189b97dfd404ff3",
+            "id": "c49f78c0fcdf6f4a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes_de_Linux_-_Parte_2"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Apuntes_de_Linux_-_Parte_2"
             }
           }
         ],
@@ -160,8 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "1189b97dfd404ff3",
+  "active": "c49f78c0fcdf6f4a",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "DevAsPros/Infra/Passenger Info y Comandos.md",
     "DevAsPros/Infra/Puma como App Server.md",
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
@@ -189,9 +197,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
-    "Otro_Espacio/Todo_Software/Todo_DevOps/Ubuntu Server/Unattended Upgrades.md",
-    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/07.dualboot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/06.dualboot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/05.dualboot.png",

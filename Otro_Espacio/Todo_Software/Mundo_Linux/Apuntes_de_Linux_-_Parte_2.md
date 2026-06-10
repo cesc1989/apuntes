@@ -319,3 +319,12 @@ Path de sublime es:  + /usr/local/bin/subl
 Enlaces:
 - [Unix & Linux](https://unix.stackexchange.com/questions/16024/how-can-i-assign-the-output-of-a-command-to-a-shell-variable)
 - [Command substitution](http://tldp.org/LDP/abs/html/commandsub.html)
+
+# less/more leyendo desde el final del archivo
+
+Quería leer un archivo de log desde el final hacía arriba. Para hacerlo lo logré con
+```bash
+less +G ./filename
+```
+
+Visto en: https://serverfault.com/questions/151635/how-to-read-backward-from-the-end-of-file-in-less-or-more
