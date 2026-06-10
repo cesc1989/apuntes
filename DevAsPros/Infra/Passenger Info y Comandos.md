@@ -2,7 +2,10 @@
 
 Pasos.
 
-Primero: `dpkg -l | grep passenger`
+Primero:
+```bash
+dpkg -l | grep passenger
+```
 
 Debe mostrar:
 ```

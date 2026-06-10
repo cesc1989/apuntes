@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2c2f81afd57fa730",
+        "id": "1935b52c485f67d3",
         "type": "tabs",
         "children": [
           {
-            "id": "61aea7e9bace4aa8",
+            "id": "4bd790e69e808064",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Infra/Puma como App Server.md",
-                "mode": "preview",
+                "file": "DevAsPros/Infra/Passenger Info y Comandos.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Puma como App Server"
+              "title": "Passenger Info y Comandos"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Puma como App Server.md",
+                "file": "DevAsPros/Infra/Passenger Info y Comandos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Puma como App Server"
+              "title": "Outline of Passenger Info y Comandos"
             }
           }
         ],
@@ -165,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "61aea7e9bace4aa8",
+  "active": "4bd790e69e808064",
   "lastOpenFiles": [
     "DevAsPros/Infra/Puma como App Server.md",
     "OrderlyMeds",
