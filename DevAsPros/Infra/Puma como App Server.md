@@ -6,7 +6,7 @@
 > Hay que poner una instrucción que haga `nginx reload` al final del paso 4. Tiene que ser aquí porque es en este paso donde se copian los archivos nuevos a la carpeta de la app en el VPS.
 
 ```bash
-# Reload nginx para que tome cualquier cambio en la config
+# RELOAD nginx para que tome cualquier cambio en la config
 #
 echo "$(date '+%F %T') Reloading nginx" >> $LOG_DIR/211_nginx_reload.log 2>&1
 sudo systemctl reload nginx >> $LOG_DIR/211_nginx_reload.log 2>&1
