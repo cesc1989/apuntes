@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4c0ab0649499dbcb",
+        "id": "2ff0195329e7b092",
         "type": "tabs",
         "children": [
           {
-            "id": "c49f78c0fcdf6f4a",
+            "id": "47a462756391d0c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-                "mode": "source",
+                "file": "DevAsPros/Infra/Puma como App Server.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_de_Linux_-_Parte_2"
+              "title": "Puma como App Server"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
+                "file": "DevAsPros/Infra/Puma como App Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apuntes_de_Linux_-_Parte_2"
+              "title": "Outline of Puma como App Server"
             }
           }
         ],
@@ -165,13 +165,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c49f78c0fcdf6f4a",
+  "active": "47a462756391d0c5",
   "lastOpenFiles": [
+    "DevAsPros/Infra/Puma como App Server.md",
+    "OrderlyMeds",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_Linux_-_Parte_3.md",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "DevAsPros/Infra/Passenger Info y Comandos.md",
-    "DevAsPros/Infra/Puma como App Server.md",
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_21_-_Correos.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
@@ -196,7 +197,6 @@
     "DevAsPros/Postlane",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
-    "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 11 - Registro de Usuarios.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/07.dualboot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/06.dualboot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/05.dualboot.png",
@@ -212,7 +212,6 @@
     "Hogar/attachments",
     "Hogar/untitled folder",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Minitest",
-    "Luna/Therapist_Signup/Help Desk/2025",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
