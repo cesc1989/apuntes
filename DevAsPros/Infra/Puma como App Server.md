@@ -83,6 +83,9 @@ sudo systemctl status coshinotes.puma
 
 ### Configuración de Nginx
 
+> [!Warning]
+> Presta atención al puerto. Debe coincidir con lo que está en `config/puma.rb`
+
 Así quedó el 9 de Junio:
 ```nginx
 server {

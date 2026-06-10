@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2ff0195329e7b092",
+        "id": "2c2f81afd57fa730",
         "type": "tabs",
         "children": [
           {
-            "id": "47a462756391d0c5",
+            "id": "61aea7e9bace4aa8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "47a462756391d0c5",
+  "active": "61aea7e9bace4aa8",
   "lastOpenFiles": [
     "DevAsPros/Infra/Puma como App Server.md",
     "OrderlyMeds",
