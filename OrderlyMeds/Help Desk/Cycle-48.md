@@ -48,3 +48,30 @@ Esto:
 - Shipping Address
 
 No tiene nada de lo que piden en particular.
+
+## Caso OM-9214 - Reasignado a Jaime 🔵
+
+> [!Info]
+> La clave de este caso es que Beluga prescribió una medicina que no era la correcta o faltó agregar una recomendación.
+> 
+> (ver recomendaciones del MP en Salesforce en la sección "Med Picker Recommendation").
+>
+> Estos casos (hasta nuevo aviso) hay que escalar a Amber de Beluga para preguntar sobre dicho bundle. Se escala con el _master id_ del bundle.
+
+Dice:
+> The customer encountered a bundle issue with the order. The bundle has been rejected, and an error occurred while attempting to resubmit the order.
+
+> [!Important]
+> Cuando hagan referencia a un problema con el _bundle_ están haciendo referencia a algo que pasó con Beluga.
+>
+> Ver [[OrderlyMeds Glossary]] para ver qué es Beluga.
+
+En este caso, Jaime fue al perfil del CX en Success, copió el "Latest master id" y navegó a la sección "FlaggedRxWrittenBundles". En esa página hizo una búsqueda con el master id copiado y de los resultados elegir el más reciente.
+
+> [!Note]
+> Se puede constatar que sea el "latest master id" desde Salesforce yendo al MP más reciente y revisar la columna "Source System ID" en la sección "Clinical Encounters".
+
+Al entrar al detalle del `rx_written_bundles` se ven varias secciones. Para este caso, en la sección "All" había esto:
+![[om_9214.01.png]]
+
+Donde, al detallar, se ve que la prescripción no coincide o no incluye la recomendación hecha desde el Med Picker.
