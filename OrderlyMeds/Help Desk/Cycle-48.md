@@ -163,9 +163,6 @@ Después de esto el Care Validate Request cambia visiblemente a "needs resubmiss
 
 ### Resubmit en Ontraport
 
-> [!Important]
-> El indicador de que el resubmit funcionó es que el Outcome del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
-
 Pasos desde el script afectado.
 
 1. Cambiar el Outcome a "Active"
@@ -179,7 +176,8 @@ Pasos desde el script afectado.
 	3. Clica en "Mark Complete & Close"
 5. El script cambiará al estado "Active"
 
-### Indicadores de que el resubmit está trabajando
+### Indicadores de que el resubmit está trabajando ℹ️
 
 En el Case Overview en Success el Request que estaba en _waiting_for_prescription_ se habrá cancelado y habrá uno nuevo.
 
+Otro indicador de que el resubmit funcionó es que el **Outcome** del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
