@@ -79,3 +79,49 @@ Al entrar al detalle del `rx_written_bundles` se ven varias secciones. Para este
 ![[om_9214.01.png]]
 
 Donde, al detallar, se ve que la prescripción no coincide o no incluye la recomendación hecha desde el Med Picker.
+
+## Caso OM-9218 - New MP 🟢
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+> [!Info]
+> Esta es la forma de resolver los tickets cuando por alguna razón se necesita reiniciar el proceso para que el CX pueda obtener la prescripción.
+
+> [!Info]
+> Este se resuelve accediendo a la consola en prod mediante el Heroku CLI. Hay que correr un comando para crear el nuevo MP del CX.
+
+Al ingresar a la consola de Heroku:
+```
+```
+
+Se pega esta función para luego ejecutar con el correo del CX:
+```ruby
+def new_member_period(email, checkin_due_date: Date.today + 14.days)
+  account = Account.where(email:).sole.salesforce_account
+  previous_member_period = account.latest_member_period
+  checkin_deadline_date = checkin_due_date + Salesforce::MemberPeriod::CHECKIN_GRACE_PERIOD
+  new_lifecycle_stage = (previous_member_period.customer_type == "Employee") ? "NotApplicable" : "Existing"
+
+  Salesforce::MemberPeriod.create!(
+    account: previous_member_period.account,
+    status: "ReadyForCheckin",
+    customer_type: previous_member_period.customer_type,
+    customer_lifecycle_stage: new_lifecycle_stage,
+    loyalty_points: previous_member_period.loyalty_points,
+    checkin_due_date: checkin_due_date,
+    checkin_deadline_date: checkin_deadline_date
+  )
+end
+```
+
+Ejemplo de uso:
+```ruby
+new_member_period("correodelcx")
+```
+
+Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuando lo verifique respondo al ticket indicando que el "CX is ready for check-in" y se cierra el caso.
+
+## Caso OM-9337 - Stuck in submitted 🟡
+
+Etiquetas: #om_stuck_in_submitted
+
