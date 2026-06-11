@@ -12,7 +12,18 @@ Dicen esto:
 
 Al ver el perfil en OM se ve que es un cliente en Salesforce. Por esto, Jaime me explicó que hay un botón para reenviar un invoice al presionar "Create New Case" y elegir el Case Type.
 
-### Dudas
+### Sobre la fecha del Invoice
+
+En el ticket, Ronalie comentó:
+> please send the 4/27 invoice
+
+Cuando voy a ver los MPs en Salesforce no veo ninguna fecha que corresponda a la indicada.
+![[om_9224.01.png]]
+
+Al preguntar a Jaime me explica que es la fecha del Order. Se ve en el detalle del Member Period en Salesforce en la sección "Order Summaries".
+![[om_9224.02.png]]
+
+### Dudas sobre el Invoice reenviado
 
 Lo que pide el cliente es muy específico y no me queda claro si el mailer que indicó Jaime en el repo correspondo a esa acción que efectúa Salesforce.
 
