@@ -49,7 +49,7 @@ Esto:
 
 No tiene nada de lo que piden en particular.
 
-## Caso OM-9214 - Reasignado a Jaime 🔵
+## Caso OM-9214 - Bundle Issue 🔵
 
 > [!Info]
 > La clave de este caso es que Beluga prescribió una medicina que no era la correcta o faltó agregar una recomendación.
