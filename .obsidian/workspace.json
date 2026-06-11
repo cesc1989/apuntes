@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "611fa15dded7fa94",
+        "id": "0e186f9197110225",
         "type": "tabs",
         "children": [
           {
-            "id": "18b1d2dd5a32051c",
+            "id": "3d7f56fc8fcbb37d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Cycle-48.md",
+                "file": "OrderlyMeds/OrderlyMeds Glossary.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cycle-48"
+              "title": "OrderlyMeds Glossary"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Cycle-48.md",
+                "file": "OrderlyMeds/OrderlyMeds Glossary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cycle-48"
+              "title": "Outline of OrderlyMeds Glossary"
             }
           }
         ],
@@ -165,15 +165,16 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "18b1d2dd5a32051c",
+  "active": "3d7f56fc8fcbb37d",
   "lastOpenFiles": [
-    "OrderlyMeds/Enlaces y Notas.md",
+    "OrderlyMeds/Onboarding.md",
+    "OrderlyMeds/OrderlyMeds Glossary.md",
     "OrderlyMeds/Help Desk/Cycle-48.md",
+    "OrderlyMeds/Enlaces y Notas.md",
     "OrderlyMeds/Help Desk",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Infra/Cronitor & Uptime Kuma.md",
     "DevAsPros/Infra/Puma como App Server 🟢.md",
-    "OrderlyMeds/Onboarding.md",
     "DevAsPros/Infra/Passenger Info y Comandos.md",
     "OrderlyMeds",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
@@ -197,7 +198,6 @@
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_04_-_Post_Despliegue_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_02_-_Configuración_-_Cash_Flow.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_03_-_Despliegue_-_Cash_Flow.md",
-    "DevAsPros/Postlane/Bluesky API Notes.md",
     "DevAsPros/Postlane",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/07.dualboot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/06.dualboot.png",

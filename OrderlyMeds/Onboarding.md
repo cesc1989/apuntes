@@ -10,12 +10,6 @@ Apuntes de la reunión con Jaime y Fabian.
 >
 > Desde el perfil del Customer en Salesforce también se pueden dispara tareas de corrección.
 
-## Glosario
-
-- MP: Member Period
-- CX: Customer
-- Check-In Reset: Member Period
-
 ## Sobre Member Period
 
 - El equipo de Customer Support lo llama MP.
