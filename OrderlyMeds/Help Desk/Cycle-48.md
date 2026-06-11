@@ -178,6 +178,6 @@ Pasos desde el script afectado.
 
 ### Indicadores de que el resubmit está trabajando ℹ️
 
-En el Case Overview en Success el Request que estaba en _waiting_for_prescription_ se habrá cancelado y habrá uno nuevo.
+En el Case Overview el Request que estaba en _waiting_for_prescription_ se habrá cancelado y habrá uno nuevo.
 
 Otro indicador de que el resubmit funcionó es que el **Outcome** del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
