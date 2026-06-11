@@ -125,3 +125,54 @@ Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuand
 
 Etiquetas: #om_stuck_in_submitted
 
+En este caso vamos al perfil de CX en Ontraport. Cuando es "stuck in submitted" aparece es el enlace a Ontraport en el perfil en Success.
+
+En Ontraport, en la sección "Scripts" se puede ver el script que dice "*Submitted*" en la columna "Outcome".
+
+### Revisar Case Overview
+
+Con el correo nos vamos a la sección "Case Overview" en Success para ver el detalle de este CX.
+
+Aquí nos fijamos y en la pestaña "Care Validate Submissions" saldrá el estado _waiting_for_prescription_.
+
+Lo siguiente será en la consola de Heroku.
+
+### Cambiar el estado del Request en Consola
+
+> [!Warning]
+> Los cambios en Ontraport tardan en verse reflejados. La recomendación es dejar un comentario o un recordatorio en alguna parte sobre el ticket y continuar con el resto.
+>
+> El recordatorio servirá para volver y revisar el estado para ver si se completa como se espera.
+
+Copiamos el ID del request (antes de state que dice _waiting_for_prescription_). En la consola de Heroku:
+```ruby
+request = CareValidate::Request.find("019eb7a3-8817-79fd-b8d3-c1840b487f8c")
+```
+
+Y se cambia su campo `state` a `needs_resubmission`:
+```ruby
+request.update!(state: "needs_resubmission")
+```
+
+> [!Important]
+> Esto resulta en un nuevo webhook que creará un nuevo Request.
+> Así se ve en el detalle del Care Validate Request:
+> ![[om_9337.01.png]]
+
+Después de esto el Care Validate Request cambia visiblemente a "needs resubmission" en Success y hay que ir a Ontraport a hacer el resubmit.
+
+### Resubmit en Ontraport
+
+Pasos desde el script afectado.
+
+1. Cambiar el Outcome a "Active"
+2. Vamos al menú "Notes and Tasks" y ubicamos el "Task Manager"
+3. Se elige de la lista el indicado (puede haber más de uno) y del menú desplegable "Actions" se escoge _reopen_
+	1. Confirma en el modal
+4. De nuevo usamos el menú desplegable "Actions" y escoge "Mark complete"
+	1. Se abre un nuevo modal
+	2. Se espera a que salga el campo "What happened?"
+		1. Elige "Approved"
+	3. Clica en "Mark Complete & Close"
+5. El script cambiará al estado "Active"
+
