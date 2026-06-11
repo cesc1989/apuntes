@@ -1,6 +1,6 @@
 # Ciclo 48
 
-## Caso OM-9224 - Resend Invoice
+## Caso OM-9224 - Resend Invoice 🟡
 
 Dicen esto:
 > Customer request an invoice copy that clearly says 'invoice copy'. Details should be like this: (she's kinda irate)
