@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "da6de885a0e90cd4",
+        "id": "ae365a8179b18861",
         "type": "tabs",
         "children": [
           {
-            "id": "79a776888f825228",
+            "id": "7c38ec5c86c9896e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Onboarding.md",
+                "file": "DevAsPros/Infra/Puma como App Server 🟢.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Onboarding"
+              "title": "Puma como App Server 🟢"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Onboarding.md",
+                "file": "DevAsPros/Infra/Puma como App Server 🟢.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Onboarding"
+              "title": "Outline of Puma como App Server 🟢"
             }
           }
         ],
@@ -165,11 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "79a776888f825228",
+  "active": "7c38ec5c86c9896e",
   "lastOpenFiles": [
+    "DevAsPros/Infra/Puma como App Server 🟢.md",
     "OrderlyMeds/Onboarding.md",
     "DevAsPros/Infra/Passenger Info y Comandos.md",
-    "DevAsPros/Infra/Puma como App Server.md",
     "OrderlyMeds",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_1.md",

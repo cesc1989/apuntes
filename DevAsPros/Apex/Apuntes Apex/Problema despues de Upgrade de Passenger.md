@@ -3,7 +3,7 @@
 > [!Info]
 > Al final fue un problema con Passenger. Se desactivó todo lo de passenger y se hizo una petición http y nginx la respondía.
 > 
-> Empecé el cambio a Puma. Ver [[Puma como App Server]]
+> Empecé el cambio a Puma. Ver [[Puma como App Server 🟢]]
 
 ## Versión de Passenger es 6.1.2 y nginx 1.24.0
 
