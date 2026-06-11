@@ -2,6 +2,8 @@
 
 ## Caso OM-9224 - Resend Invoice 🟡
 
+Etiquetas: #om_resend_invoice
+
 Dicen esto:
 > Customer request an invoice copy that clearly says 'invoice copy'. Details should be like this: (she's kinda irate)
 > • Name of person who received the item or service  
@@ -50,6 +52,8 @@ Esto:
 No tiene nada de lo que piden en particular.
 
 ## Caso OM-9214 - Bundle Issue 🔵
+
+Etiquetas: #om_bundle_issue
 
 > [!Info]
 > La clave de este caso es que Beluga prescribió una medicina que no era la correcta o faltó agregar una recomendación.
