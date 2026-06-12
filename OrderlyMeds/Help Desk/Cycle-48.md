@@ -1,6 +1,6 @@
 # Ciclo 48
 
-## Caso OM-9224 - Resend Invoice 🟡
+## Caso OM-9224 - Resend Invoice 🟢
 
 Etiquetas: #om_resend_invoice
 
@@ -122,7 +122,7 @@ new_member_period("correodelcx")
 
 Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuando lo verifique respondo al ticket indicando que el "CX is ready for check-in" y se cierra el caso.
 
-## Caso OM-9337 - Stuck in submitted 🟡
+## Caso OM-9337 - Stuck in submitted 🟢
 
 Etiquetas: #om_stuck_in_submitted
 
