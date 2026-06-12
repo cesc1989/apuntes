@@ -59,7 +59,8 @@ Etiquetas: #om_bundle_issue
 > La clave de este caso es que Beluga prescribió una medicina que no era la correcta o faltó agregar una recomendación.
 > 
 > (ver recomendaciones del MP en Salesforce en la sección "Med Picker Recommendation").
->
+
+> [!Warning]
 > Estos casos (hasta nuevo aviso) hay que escalar a Amber de Beluga para preguntar sobre dicho bundle. Se escala con el _master id_ del bundle.
 
 Dice:
