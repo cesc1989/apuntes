@@ -123,7 +123,7 @@ new_member_period("correodelcx")
 
 Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuando lo verifique respondo al ticket indicando que el "CX is ready for check-in" y se cierra el caso.
 
-## Caso OM-9337 - Stuck in submitted 🟢
+## Caso OM-9337 - Stuck in submitted 🟢🟡
 
 Etiquetas: #om_stuck_in_submitted
 
@@ -184,6 +184,54 @@ En el Case Overview el Request que estaba en _waiting_for_prescription_ se habr�
 
 Otro indicador de que el resubmit funcionó es que el **Outcome** del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
 
-# Caso OM-9327 - New MP 🟡
+## Caso OM-9327 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
 
 Corrí el comando en la consola para crear el nuevo MP. Indiqué en el hilo del Linear y cerré el ticket.
+
+```ruby
+def new_member_period(email, checkin_due_date: Date.today + 14.days)
+  account = Account.where(email:).sole.salesforce_account
+  previous_member_period = account.latest_member_period
+  checkin_deadline_date = checkin_due_date + Salesforce::MemberPeriod::CHECKIN_GRACE_PERIOD
+  new_lifecycle_stage = (previous_member_period.customer_type == "Employee") ? "NotApplicable" : "Existing"
+
+  Salesforce::MemberPeriod.create!(
+    account: previous_member_period.account,
+    status: "ReadyForCheckin",
+    customer_type: previous_member_period.customer_type,
+    customer_lifecycle_stage: new_lifecycle_stage,
+    loyalty_points: previous_member_period.loyalty_points,
+    checkin_due_date: checkin_due_date,
+    checkin_deadline_date: checkin_deadline_date
+  )
+end
+
+new_member_period("lawrencebmarshall@gmail.com")
+```
+
+## Caso OM-933 - Reset Check-In 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+def new_member_period(email, checkin_due_date: Date.today + 14.days)
+  account = Account.where(email:).sole.salesforce_account
+  previous_member_period = account.latest_member_period
+  checkin_deadline_date = checkin_due_date + Salesforce::MemberPeriod::CHECKIN_GRACE_PERIOD
+  new_lifecycle_stage = (previous_member_period.customer_type == "Employee") ? "NotApplicable" : "Existing"
+
+  Salesforce::MemberPeriod.create!(
+    account: previous_member_period.account,
+    status: "ReadyForCheckin",
+    customer_type: previous_member_period.customer_type,
+    customer_lifecycle_stage: new_lifecycle_stage,
+    loyalty_points: previous_member_period.loyalty_points,
+    checkin_due_date: checkin_due_date,
+    checkin_deadline_date: checkin_deadline_date
+  )
+end
+
+new_member_period("anita@ctive.net")
+```
