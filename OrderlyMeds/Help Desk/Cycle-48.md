@@ -92,7 +92,8 @@ Etiquetas: #om_new_mp #om_checkin_reset
 > Este se resuelve accediendo a la consola en prod mediante el Heroku CLI. Hay que correr un comando para crear el nuevo MP del CX.
 
 Al ingresar a la consola de Heroku:
-```
+```bash
+heroku console -a orderlymeds-production
 ```
 
 Se pega esta función para luego ejecutar con el correo del CX:
