@@ -437,3 +437,14 @@ Salesforce::CustomerUser.create(
   local_account: account
 )
 ```
+
+
+## Caso OM-9345 - Oops Error 🟡
+
+Etiquetas: #om_oops_error 
+
+Todos:
+
+- [ ] Revisar el account
+- [ ] Actualizar el campo `workos_user_nk`
+- [ ] Sincronizar salesforce
