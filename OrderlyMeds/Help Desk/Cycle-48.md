@@ -386,13 +386,12 @@ account.workos_user_nk
 
 Si no lo tiene, esto es lo que causa el error en primera medida.
 
-### Actualizando workos_user_nk
+### Actualizando `workos_user_nk`
 
 Hay que ir al perfil en Success, hacer clic en "Impersonate" para llegar a su perfil en WorkOS. En la parte superior se encuentra el ID (debajo del nombre del CX). Es ese el que debemos usar para actualizar este campo.
 
 ```ruby
-account = Account.find_by(email: "algoalgo")
-account.update!(workos_user_nk: "someid")
+account.update!(workos_user_nk: "")
 ```
 
 ### Actualizar referencia de WorkOS en Salesforce
@@ -417,27 +416,11 @@ Issue should be resolved. Please confirm.
 
 Etiquetas: #om_oops_error 
 
-### Resumen de Comandos
+Todos:
 
-Revisar en consola el campo de workos:
-```ruby
-account = Account.find_by(email: "igarcia@kingdomlife.com")
-account.workos_user_nk
-```
-
-Actualizar el campo:
-```ruby
-account.update!(workos_user_nk: "")
-```
-
-Correr comando de sincronización a Salesforce:
-```ruby
-Salesforce::CustomerUser.create(
-  salesforce_person_account: account.salesforce_account,
-  local_account: account
-)
-```
-
+- [x] Revisar el account
+- [x] Actualizar el campo `workos_user_nk`
+- [x] Sincronizar salesforce
 
 ## Caso OM-9345 - Oops Error 🟡
 
@@ -445,6 +428,6 @@ Etiquetas: #om_oops_error
 
 Todos:
 
-- [ ] Revisar el account
-- [ ] Actualizar el campo `workos_user_nk`
-- [ ] Sincronizar salesforce
+- [x] Revisar el account
+- [x] Actualizar el campo `workos_user_nk`
+- [x] Sincronizar salesforce
