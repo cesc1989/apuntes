@@ -211,27 +211,27 @@ end
 new_member_period("lawrencebmarshall@gmail.com")
 ```
 
-## Caso OM-933 - Reset Check-In 🟡
+## Caso OM-9333 - Reset Check-In 🟡
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
 ```ruby
-def new_member_period(email, checkin_due_date: Date.today + 14.days)
-  account = Account.where(email:).sole.salesforce_account
-  previous_member_period = account.latest_member_period
-  checkin_deadline_date = checkin_due_date + Salesforce::MemberPeriod::CHECKIN_GRACE_PERIOD
-  new_lifecycle_stage = (previous_member_period.customer_type == "Employee") ? "NotApplicable" : "Existing"
-
-  Salesforce::MemberPeriod.create!(
-    account: previous_member_period.account,
-    status: "ReadyForCheckin",
-    customer_type: previous_member_period.customer_type,
-    customer_lifecycle_stage: new_lifecycle_stage,
-    loyalty_points: previous_member_period.loyalty_points,
-    checkin_due_date: checkin_due_date,
-    checkin_deadline_date: checkin_deadline_date
-  )
-end
-
 new_member_period("anita@ctive.net")
 ```
+
+## Caso OM-9328 - Reset Check-In 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("lenamoyle@gmail.com")
+```
+
+## Caso OM-9332 - Reset Check-In 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("ijoguike@gmail.com")
+```
+
