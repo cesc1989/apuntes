@@ -274,3 +274,16 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+## Caso OM-9359 - Reset Check-In 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("marcofalcioni@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
