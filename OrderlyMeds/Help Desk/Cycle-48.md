@@ -123,6 +123,15 @@ new_member_period("correodelcx")
 
 Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuando lo verifique respondo al ticket indicando que el "CX is ready for check-in" y se cierra el caso.
 
+## Caso OM-9202 - New MP en Ontraport 🟢
+
+Etiquetas: #om_new_mp #om_new_script
+
+> [!Important]
+> Este tiene dos formas de resolverse. Una es usando el API en Swagger (ver notas en Coshi Notes para acceso a ese servicio). La otra es creando un nuevo Script en Ontraport copiando detalles del Script anterior.
+
+
+
 ## Caso OM-9337 - Stuck in submitted 🟢🟡
 
 Etiquetas: #om_stuck_in_submitted
