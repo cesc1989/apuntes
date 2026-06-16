@@ -391,11 +391,19 @@ Si no lo tiene, esto es lo que causa el error en primera medida.
 Hay que ir al perfil en Success, hacer clic en "Impersonate" para llegar a su perfil en WorkOS. En la parte superior se encuentra el ID (debajo del nombre del CX). Es ese el que debemos usar para actualizar este campo.
 
 ```ruby
-account = Account.find_by(email: "")
-account.update!(workos_user_nk: "")
+account = Account.find_by(email: "algoalgo")
+account.update!(workos_user_nk: "someid")
 ```
 
-### Revisar con Impersonate
+### Actualizar referencia de WorkOS en Salesforce
+
+Finalmente, hay que correr este comando para sincronizar en el lado de Salesforce:
+```ruby
+Salesforce::CustomerUser.create(
+  salesforce_person_account: account.salesforce_account,
+  local_account: account
+)
+```
 
 ### Conclusión
 
