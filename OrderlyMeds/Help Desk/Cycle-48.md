@@ -427,7 +427,6 @@ account.workos_user_nk
 
 Actualizar el campo:
 ```ruby
-account = Account.find_by(email: "igarcia@kingdomlife.com")
 account.update!(workos_user_nk: "")
 ```
 
