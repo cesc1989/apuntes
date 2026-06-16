@@ -235,3 +235,29 @@ Etiquetas: #om_new_mp #om_checkin_reset
 new_member_period("ijoguike@gmail.com")
 ```
 
+## Caso OM-9217 - Reset Check-In 🟡ℹ️
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+> [!Note]
+> Este tiene la particularidad que el MP se quedó en `PharmacyOrderConfirmed`
+
+```ruby
+new_member_period("egriffin1789@gmail.com")
+```
+
+## Caso OM-9329 - Reset Check-In 🟡ℹ️
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+> [!Note]
+> Este tiene la particularidad que el MP se quedó en `ReadyForProductSelection`
+
+```ruby
+new_member_period("glenn.sylvan1@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
