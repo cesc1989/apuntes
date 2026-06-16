@@ -123,14 +123,60 @@ new_member_period("correodelcx")
 
 Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuando lo verifique respondo al ticket indicando que el "CX is ready for check-in" y se cierra el caso.
 
-## Caso OM-9202 - New MP en Ontraport 🟢
+## Caso OM-9220 - New MP en Ontraport 🟢
 
 Etiquetas: #om_new_mp #om_new_script #om_ontraport
 
 > [!Important]
 > Este tiene dos formas de resolverse. Una es usando el API en Swagger (ver notas en Coshi Notes para acceso a ese servicio). La otra es creando un nuevo Script en Ontraport copiando detalles del Script anterior.
 
+### Swagger
 
+Usa la URL en las notas + las credenciales. Busca el endpoint PUT de "Scripts". Hay dos así que toca mirar el campo "Prescriber".
+
+![[om_9220.01.png]]
+
+Si dice Care Validate, se usa el endpoint correspondiente. La otra opción es Beluga Health.
+
+La petición se hace con el ID del CX en Ontraport y el ID del Script anterior. Está en la URL.
+
+> [!Note]
+> Para encontrar el Script previo fijate en el consecutivo de los Scripts.
+
+### Nuevo Script en base al anterior
+
+Si lo anterior no funciona, se puede crear un Script manualmente usando datos de uno previo.
+
+Pasos a groso modo:
+
+- Copiar el email del CX en el perfil de Ontraport
+- Desplaza hacía la sección Scripts y clica en "New Script"
+- Clica New Script en el modal
+	- Eso nos lleva al form del Script
+- Llenar los campos siguientes en base al Script anterior
+	- Outcome: Check In
+	- Next Consult:
+	- Visit Type: weightlossfollowup
+	- Current Dosage
+	- Prev Length of Vial
+	- Prescriber
+
+Con eso en orden toca hacer otras cosas para activar los flujos de cuando se crea un Script en situaciones normales.
+
+#### Verificación con Impersonate
+
+Para confirmar hay que usar el Impersonate del CX. La idea es poder pasar del botón "Check In".
+
+> [!Info]
+> Si hay problema, revisa la fecha de Next Consult en el Script.
+
+#### Automations cuando hay errores al probar Impersonate
+
+Prueba primero "Reset Script". Sino funciona. Busca el que es "Create URLs" o algo similar.
+
+En la sección de Automations agrega el que se llama "Reset Script".
+
+xxx
 
 ## Caso OM-9337 - Stuck in submitted 🟢🟡
 
@@ -257,7 +303,7 @@ new_member_period("egriffin1789@gmail.com")
 
 ## Caso OM-9329 - Reset Check-In 🟡ℹ️
 
-Etiquetas: #om_new_mp #om_checkin_reset
+Etiquetas: #om_new_mp #om_checkin_reset #om_checkin_starter_pack
 
 > [!Note]
 > Este tiene la particularidad que el MP se quedó en `ReadyForProductSelection`
@@ -270,6 +316,24 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+> [!Important]
+> Aquí había que hacer lo del Starter Pack porque se quedó en el estado mencionado, incluso el nuevo MP
+
+### Reactivando el Starter Pack 🔑
+
+Así:
+```ruby
+mp = Salesforce::MemberPeriod.find_by(name: "MP-00508397")
+mp.update!(customer_lifecycle_stage: "Restarting")
+
+check_in = mp.patient_checkins.last
+check_in.update!(is_starter_plan_only: true)
+```
+
+Se hace un Impersonate y se revisa que cargue como Starter Pack:
+
+
 
 ## Caso OM-9330 - Reset Check-In 🟡
 
