@@ -287,3 +287,82 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+## Caso OM-9365 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("ibgoogey@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+## Caso OM-9364 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("simmyunlimited@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+## Caso OM-9363 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("brittisernia@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+## Caso OM-9344 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("dcorry73@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+## Caso OM-9331 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("vanweelden16@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+## Caso OM-9368 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("melissa.eagar@outlook.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
