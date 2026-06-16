@@ -411,3 +411,30 @@ Al terminar todo, responder en el hilo con:
 ```
 Issue Resolved. Pls confirm that everything is fine now.
 ```
+
+
+## Caso OM-9225 - Oops Error 🟡
+
+Etiquetas: #om_oops_error 
+
+### Resumen de Comandos
+
+Revisar en consola el campo de workos:
+```ruby
+account = Account.find_by(email: "igarcia@kingdomlife.com")
+account.workos_user_nk
+```
+
+Actualizar el campo:
+```ruby
+account = Account.find_by(email: "igarcia@kingdomlife.com")
+account.update!(workos_user_nk: "")
+```
+
+Correr comando de sincronización a Salesforce:
+```ruby
+Salesforce::CustomerUser.create(
+  salesforce_person_account: account.salesforce_account,
+  local_account: account
+)
+```
