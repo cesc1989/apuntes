@@ -125,7 +125,7 @@ Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuand
 
 ## Caso OM-9202 - New MP en Ontraport 🟢
 
-Etiquetas: #om_new_mp #om_new_script
+Etiquetas: #om_new_mp #om_new_script #om_ontraport
 
 > [!Important]
 > Este tiene dos formas de resolverse. Una es usando el API en Swagger (ver notas en Coshi Notes para acceso a ese servicio). La otra es creando un nuevo Script en Ontraport copiando detalles del Script anterior.
@@ -134,7 +134,7 @@ Etiquetas: #om_new_mp #om_new_script
 
 ## Caso OM-9337 - Stuck in submitted 🟢🟡
 
-Etiquetas: #om_stuck_in_submitted
+Etiquetas: #om_stuck_in_submitted #om_ontraport
 
 En este caso vamos al perfil de CX en Ontraport. Cuando es "stuck in submitted" aparece es el enlace a Ontraport en el perfil en Success.
 
