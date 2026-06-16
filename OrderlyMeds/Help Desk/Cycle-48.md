@@ -409,7 +409,7 @@ Salesforce::CustomerUser.create(
 
 Al terminar todo, responder en el hilo con:
 ```
-Issue Resolved. Pls confirm that everything is fine now.
+Issue should be resolved. Please confirm.
 ```
 
 
