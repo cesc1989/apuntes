@@ -183,3 +183,7 @@ Pasos desde el script afectado.
 En el Case Overview el Request que estaba en _waiting_for_prescription_ se habrá cancelado y habrá uno nuevo.
 
 Otro indicador de que el resubmit funcionó es que el **Outcome** del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
+
+# Caso OM-9327 - New MP 🟡
+
+Corrí el comando en la consola para crear el nuevo MP. Indiqué en el hilo del Linear y cerré el ticket.
