@@ -366,3 +366,40 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
+## Caso OM-9221 - Oops Error 🟢
+
+Etiquetas: #om_oops_error
+
+Pasa que los CXs intentan acceder al portal y les sale el error:
+> Oops! We encountered an error. Our bad.
+
+> [!Important]
+> La causa de esto es que el email de la cuenta no está asociado a la cuenta de WorkOS.
+>
+> Parece pasar más que nada en Salesforce.
+
+En estos casos hay que revisar en consola si la cuenta tiene el campo `workos_user_nk`:
+```ruby
+account = Account.find_by(email: "")
+account.workos_user_nk
+```
+
+Si no lo tiene, esto es lo que causa el error en primera medida.
+
+### Actualizando workos_user_nk
+
+Hay que ir al perfil en Success, hacer clic en "Impersonate" para llegar a su perfil en WorkOS. En la parte superior se encuentra el ID (debajo del nombre del CX). Es ese el que debemos usar para actualizar este campo.
+
+```ruby
+account = Account.find_by(email: "")
+account.update!(workos_user_nk: "")
+```
+
+### Revisar con Impersonate
+
+### Conclusión
+
+Al terminar todo, responder en el hilo con:
+```
+Issue Resolved. Pls confirm that everything is fine now.
+```
