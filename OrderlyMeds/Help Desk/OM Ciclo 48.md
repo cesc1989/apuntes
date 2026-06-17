@@ -616,7 +616,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟡
+## Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟢
 
 Etiquetas: #om_stuck_in_readytocreatevisit
 
@@ -648,6 +648,9 @@ Se manda un mensaje en el hilo del caso a @cs-lead mencionando el error. Ejemplo
 > cx completed and paid for the order, but it is now stuck in "Ready to Create Visit." When trying to create the visit, Beluga returns the error: _"Status 400: Patient not eligible for this visit."_ Please contact the provider to determine why the patient is not eligible for the visit.
 
 Esperar a que ellos solucionen con el proveedor (Beluga en este caso).
+
+> [!Warning]
+> Este caso en particular no tuve que llegar al paso 3 porque de CS me dijeron que ya lo atendieron y podía cerrar.
 
 ### Paso 3: Intentar crear la visita nuevamente
 
