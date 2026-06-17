@@ -587,3 +587,18 @@ Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
 ```
+
+## Caso OM-9338 - Stuck in Submitted 🟡
+
+Seguí los pasos del caso OM-9337:
+
+- [x] Cambiar estado a `needs_resubmission`
+- [x] Hacer resubmit en Ontraport
+- [ ] Comprobar nuevo CareValidate::Request se crea
+- [ ] Comprobar Script pasó a Pharmacy Selected
+- [ ] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
