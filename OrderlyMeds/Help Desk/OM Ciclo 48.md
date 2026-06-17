@@ -332,8 +332,9 @@ check_in.update!(is_starter_plan_only: true)
 ```
 
 Se hace un Impersonate y se revisa que cargue como Starter Pack:
+![[starter-pack.png]]
 
-
+Lo que aparece dentro del recuadro rojo. En la lista de selección debe aparecer alguna opción que sea "starter pack".
 
 ## Caso OM-9330 - Reset Check-In 🟡
 
