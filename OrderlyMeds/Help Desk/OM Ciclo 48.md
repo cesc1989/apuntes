@@ -199,7 +199,7 @@ Lo siguiente será en la consola de Heroku.
 #### Cambiar el estado del Request en Consola
 
 > [!Warning]
-> Los cambios en Ontraport tardan en verse reflejados. La recomendación es dejar un comentario o un recordatorio en alguna parte sobre el ticket y continuar con el resto.
+> Los cambios en Ontraport tardan en verse reflejados. La recomendación es dejar un comentario o un recordatorio en alguna parte sobre el ticket y continuar con el resto de casos.
 >
 > El recordatorio servirá para volver y revisar el estado para ver si se completa como se espera.
 
