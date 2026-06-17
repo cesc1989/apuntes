@@ -124,3 +124,6 @@ Salesforce::MedicationRequest.where(account:, member_period:).first_or_initializ
 	end
 end
 ```
+
+## Revisión de Resultados
+
