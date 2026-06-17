@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 442.5
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -168,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
