@@ -194,7 +194,7 @@ Aquí nos fijamos y en la pestaña "Care Validate Submissions" saldrá el estado
 
 Lo siguiente será en la consola de Heroku.
 
-### Cambiar el estado del Request en Consola
+#### Cambiar el estado del Request en Consola
 
 > [!Warning]
 > Los cambios en Ontraport tardan en verse reflejados. La recomendación es dejar un comentario o un recordatorio en alguna parte sobre el ticket y continuar con el resto.
@@ -233,7 +233,7 @@ Pasos desde el script afectado.
 	3. Clica en "Mark Complete & Close"
 5. El script cambiará al estado "Active"
 
-### Indicadores de que el resubmit está trabajando ℹ️
+#### Indicadores de que el resubmit está trabajando ℹ️
 
 En el Case Overview el Request que estaba en _waiting_for_prescription_ se habrá cancelado y habrá uno nuevo.
 
