@@ -301,7 +301,7 @@ Etiquetas: #om_new_mp #om_checkin_reset
 new_member_period("egriffin1789@gmail.com")
 ```
 
-## Caso OM-9329 - Reset Check-In 🟡ℹ️
+## Caso OM-9329 - Reset Check-In - Starter Pack 🟡ℹ️
 
 Etiquetas: #om_new_mp #om_checkin_reset #om_checkin_starter_pack
 
