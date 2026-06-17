@@ -233,7 +233,7 @@ Pasos desde el script afectado.
 	2. Se espera a que salga el campo "What happened?"
 		1. Elige "Approved"
 	3. Clica en "Mark Complete & Close"
-5. El script cambiará al estado "Active"
+5. El script cambiará al estado **"Pharmacy Selected"**
 
 #### Indicadores de que el resubmit está trabajando ℹ️
 
