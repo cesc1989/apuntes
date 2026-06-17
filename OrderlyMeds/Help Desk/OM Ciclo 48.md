@@ -239,7 +239,7 @@ En el Case Overview el Request que estaba en _waiting_for_prescription_ se habr�
 
 Otro indicador de que el resubmit funcionó es que el **Outcome** del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
 
-## Caso OM-9327 - New MP 🟡
+## Caso OM-9327 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -266,7 +266,7 @@ end
 new_member_period("lawrencebmarshall@gmail.com")
 ```
 
-## Caso OM-9333 - Reset Check-In 🟡
+## Caso OM-9333 - Reset Check-In 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -274,7 +274,7 @@ Etiquetas: #om_new_mp #om_checkin_reset
 new_member_period("anita@ctive.net")
 ```
 
-## Caso OM-9328 - Reset Check-In 🟡
+## Caso OM-9328 - Reset Check-In 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -282,7 +282,7 @@ Etiquetas: #om_new_mp #om_checkin_reset
 new_member_period("lenamoyle@gmail.com")
 ```
 
-## Caso OM-9332 - Reset Check-In 🟡
+## Caso OM-9332 - Reset Check-In 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -290,7 +290,7 @@ Etiquetas: #om_new_mp #om_checkin_reset
 new_member_period("ijoguike@gmail.com")
 ```
 
-## Caso OM-9217 - Reset Check-In 🟡ℹ️
+## Caso OM-9217 - Reset Check-In 🟢ℹ️
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -336,7 +336,7 @@ Se hace un Impersonate y se revisa que cargue como Starter Pack:
 
 Lo que aparece dentro del recuadro rojo. En la lista de selección debe aparecer alguna opción que sea "starter pack".
 
-## Caso OM-9330 - Reset Check-In 🟡
+## Caso OM-9330 - Reset Check-In 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -349,7 +349,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9359 - Reset Check-In 🟡
+## Caso OM-9359 - Reset Check-In 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -362,7 +362,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9365 - New MP 🟡
+## Caso OM-9365 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -375,7 +375,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9364 - New MP 🟡
+## Caso OM-9364 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -388,7 +388,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9363 - New MP 🟡
+## Caso OM-9363 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -401,7 +401,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9344 - New MP 🟡
+## Caso OM-9344 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -414,7 +414,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9331 - New MP 🟡
+## Caso OM-9331 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -427,7 +427,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9368 - New MP 🟡
+## Caso OM-9368 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -506,7 +506,7 @@ Todos:
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
 
-## Caso OM-9405 - New MP 🟡
+## Caso OM-9405 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -519,7 +519,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9403 - New MP 🟡
+## Caso OM-9403 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
@@ -532,7 +532,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9402 - New MP 🟡
+## Caso OM-9402 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
