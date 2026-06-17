@@ -505,3 +505,16 @@ Todos:
 - [x] Revisar el account
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
+
+## Caso OM-9405 - New MP 🟡
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("llpace@hotmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
