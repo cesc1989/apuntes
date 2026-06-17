@@ -186,7 +186,9 @@ En este caso vamos al perfil de CX en Ontraport. Cuando es "stuck in submitted" 
 
 En Ontraport, en la sección "Scripts" se puede ver el script que dice "*Submitted*" en la columna "Outcome".
 
-### Revisar Case Overview
+Esto lo solucionamos haciendo dos pasos.
+
+### Paso 1: Revisar Case Overview
 
 Con el correo nos vamos a la sección "Case Overview" en Success para ver el detalle de este CX.
 
@@ -218,7 +220,7 @@ request.update!(state: "needs_resubmission")
 
 Después de esto el Care Validate Request cambia visiblemente a "needs resubmission" en Success y hay que ir a Ontraport a hacer el resubmit.
 
-### Resubmit en Ontraport
+### Paso 2: Resubmit en Ontraport
 
 Pasos desde el script afectado.
 
