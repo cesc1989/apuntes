@@ -143,7 +143,7 @@ La petición se hace con el ID del CX en Ontraport y el ID del Script anterior. 
 > [!Note]
 > Para encontrar el Script previo fijate en el consecutivo de los Scripts.
 
-### Nuevo Script en base al anterior
+### Nuevo Script en base al anterior 🔑
 
 Si lo anterior no funciona, se puede crear un Script manualmente usando datos de uno previo.
 
