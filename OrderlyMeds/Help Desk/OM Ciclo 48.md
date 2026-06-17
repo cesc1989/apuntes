@@ -573,7 +573,7 @@ Jaime me explicó que en este caso revisar en Salesforce si el MP tiene "Medicat
 
 Ver el detalle de cómo resolver en [[OM - Med Requests Import Manual de Ontraport a Salesforce]]
 
-## Caso OM-9389 - Stuck in Submitted 🟡
+## Caso OM-9389 - Stuck in Submitted 🟢
 
 Seguí los pasos del caso OM-9337:
 
@@ -588,7 +588,7 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9338 - Stuck in Submitted 🟡
+## Caso OM-9338 - Stuck in Submitted 🟢
 
 Seguí los pasos del caso OM-9337:
 
