@@ -486,7 +486,7 @@ Issue should be resolved. Please confirm.
 ```
 
 
-## Caso OM-9225 - Oops Error 🟡
+## Caso OM-9225 - Oops Error 🟢
 
 Etiquetas: #om_oops_error 
 
@@ -496,7 +496,7 @@ Todos:
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
 
-## Caso OM-9345 - Oops Error 🟡
+## Caso OM-9345 - Oops Error 🟢
 
 Etiquetas: #om_oops_error 
 
