@@ -615,3 +615,48 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+## Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟡
+
+Etiquetas: #om_stuck_in_readytocreatevisit
+
+Hay instrucciones para esto en el Notion no oficial. Son estos tres pasos.
+
+Caso relacionado: [OM-7070](https://linear.app/orderlymeds/issue/OM-7070/rachel-reyes).
+
+### Paso 1: Intenta Crear la Visita
+
+Con esto:
+```ruby
+mp = Salesforce::MemberPeriod.find_by(omid: "MPOMID")
+ce = mp.clinical_encounters.last
+BelugaHealth::Scheduler::CreateVisitJob.new.perform(ce.id)
+```
+
+El omid se saca en el detalle del MP, pestaña "Details".
+
+Un error que puede dar es este:
+```
+'BelugaHealth::ApiClient#visit_form_submission': BelugaHealth#visit_form_submission failed with status 400: Patient not eligible for this visitType (BelugaHealth::ApiClient::Error)
+```
+
+En ese caso se sigue con el paso 2.
+
+### Paso 2: Escalar a CS
+
+Se manda un mensaje en el hilo del caso a @cs-lead mencionando el error. Ejemplo:
+> cx completed and paid for the order, but it is now stuck in "Ready to Create Visit." When trying to create the visit, Beluga returns the error: _"Status 400: Patient not eligible for this visit."_ Please contact the provider to determine why the patient is not eligible for the visit.
+
+Esperar a que ellos solucionen con el proveedor (Beluga en este caso).
+
+### Paso 3: Intentar crear la visita nuevamente
+
+Vuelve a correr el script:
+```ruby
+BelugaHealth::Scheduler::CreateVisitJob.new.perform(ce.id)
+```
+
+Resultados esperados:
+- Se crea la Visita
+- El Member Period avanza al siguiente estado
+	- Debería ser: `VisitCreated`
