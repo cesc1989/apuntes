@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f9cbb7ab8a88f389",
+        "id": "fd82d926bcbb952a",
         "type": "tabs",
         "children": [
           {
-            "id": "8e55ccd208b3d52d",
+            "id": "1496db062df7e5bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Cycle-48.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cycle-48"
+              "title": "OM Ciclo 48"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Cycle-48.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cycle-48"
+              "title": "Outline of OM Ciclo 48"
             }
           }
         ],
@@ -165,10 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8e55ccd208b3d52d",
+  "active": "1496db062df7e5bf",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_9220.01.png",
-    "OrderlyMeds/Help Desk/Cycle-48.md",
     "OrderlyMeds/Help Desk/attachments/om_9337.01.png",
     "Otro_Espacio/Blog/posts/03 - Dev Tools para Todos.md",
     "OrderlyMeds/OrderlyMeds Glossary.md",
@@ -206,7 +206,6 @@
     "DevAsPros/Postlane",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/07.dualboot.png",
     "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/06.dualboot.png",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/attachments/05.dualboot.png",
     "DevAsPros/Apex/Apuntes Apex",
     "DevAsPros/Apex",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
