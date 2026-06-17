@@ -594,9 +594,9 @@ Seguí los pasos del caso OM-9337:
 
 - [x] Cambiar estado a `needs_resubmission`
 - [x] Hacer resubmit en Ontraport
-- [ ] Comprobar nuevo CareValidate::Request creado
-- [ ] Comprobar Script pasó a Pharmacy Selected
-- [ ] Indicar a CS que el script fue resubmiteado
+- [x] Comprobar nuevo CareValidate::Request creado
+- [x] Comprobar Script pasó a Pharmacy Selected
+- [x] Indicar a CS que el script fue resubmiteado
 
 Mensaje para CS:
 ```
