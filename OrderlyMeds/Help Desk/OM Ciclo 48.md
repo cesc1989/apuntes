@@ -544,3 +544,18 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+## Caso OM-9215 - Script error - Beluga 🟢ℹ️
+
+Etiquetas: #om_script_error #om_beluga
+
+El caso dice:
+> BelugaService: Missing Values
+
+Para llevarlo adelante Pat comentó que:
+> Patient confirmed no sensitivity to additives. Resubmitted
+
+Al día siguiente, Yedwy dijo que:
+> order at the pharmacy
+
+Y cerró el caso.
