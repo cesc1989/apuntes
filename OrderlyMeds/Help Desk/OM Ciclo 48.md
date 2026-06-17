@@ -572,3 +572,12 @@ Dice:
 Jaime me explicó que en este caso revisar en Salesforce si el MP tiene "Medication Requests". Si no hay nada, quiere decir que ==hubo un problema en la migración de Ontraport a Salesforce.==
 
 Ver el detalle de cómo resolver en [[OM - Med Requests Import Manual de Ontraport a Salesforce]]
+
+## Caso OM-9389 - Stuck in Submitted 🟡
+
+Seguí los pasos del caso OM-9337:
+
+- [x] Cambiar estado a `needs_resubmission`
+- [x] Hacer resubmit en Ontraport
+- [x] Comprobar nuevo CareValidate::Request se crea
+- [x] Comprobar Script pasó a Pharmacy Selected
