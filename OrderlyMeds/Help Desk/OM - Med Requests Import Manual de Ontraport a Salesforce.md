@@ -2,7 +2,7 @@
 
 Para el caso OM-9334.
 
-### Trigger manual de partes de Salesforce::ImportAccountFromOntraportContactJob
+## Trigger manual de partes de Salesforce::ImportAccountFromOntraportContactJob
 
 Archivo en `app/sidekiq/salesforce/import_account_from_ontraport_contact_job.rb`.
 
@@ -45,11 +45,11 @@ Tenemos que preparar fragmentos de código para poder ejecutar este bloque.
 > [!Note]
 > Lo que se hace aquí es, manualmente, disparar sync de Ontraport a Salesforce.
 
-### Preparación del script Ruby manual
+## Preparación del script Ruby manual
 
 Hay varias funciones problemáticas así que lo mejor es copiar los valores directos y no usarlas.
 
-#### Las variables que hay que armar
+### Las variables que hay que armar
 
 Se necesitan tres variables:
 - `account`
@@ -92,7 +92,7 @@ member_period = 5555555
 
 Solo hay que reemplaza `IMPORTER_VERSION` por `"1"`.
 
-##### Bloque final
+## Bloque final
 
 Variables:
 ```ruby
