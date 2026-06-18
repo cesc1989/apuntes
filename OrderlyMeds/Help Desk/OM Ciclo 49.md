@@ -32,3 +32,32 @@ Según Jay:
 Para resolver el cliente debe completar esta parte (hacer una orden). Se debe ubicar el enlace que lleva a esta parte en Ontraport. Está en la sección "Activity" del perfil del CX. Buscar el campo "ShortUrl Healthscreening".
 
 Copiar e indicar a CS que deben pedirle al CX que complete esa etapa primero.
+
+## Caso OM-9473 - Oops Error 🟢
+
+Etiquetas: #om_oops_error 
+
+Todos:
+
+- [x] Revisar el account
+- [x] Actualizar el campo `workos_user_nk`
+- [x] Sincronizar salesforce
+
+## Caso OM-9419 - errr??
+
+xxx
+
+## Caso OM-9426 - Stuck in Submitted
+
+Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
+
+- [x] Cambiar estado a `needs_resubmission`
+- [x] Hacer resubmit en Ontraport
+- [x] Comprobar nuevo CareValidate::Request creado
+- [x] Comprobar Script pasó a Pharmacy Selected
+- [x] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
