@@ -47,7 +47,7 @@ Todos:
 
 xxx
 
-## Caso OM-9426 - Stuck in Submitted
+## Caso OM-9426 - Stuck in Submitted 🟡
 
 Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
 
@@ -60,4 +60,17 @@ Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]
 Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
+```
+
+## Caso OM-9489 - New MP 🟢
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("amandafalco11@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
 ```
