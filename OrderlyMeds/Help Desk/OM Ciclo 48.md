@@ -178,7 +178,7 @@ En la sección de Automations agrega el que se llama "Reset Script".
 
 xxx
 
-## Caso OM-9337 - Stuck in submitted 🚨
+## Caso OM-9337 - Stuck in submitted 🟡🚨
 
 Etiquetas: #om_stuck_in_submitted #om_ontraport
 
