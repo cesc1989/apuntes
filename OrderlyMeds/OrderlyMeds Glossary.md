@@ -13,11 +13,14 @@
 
 - Check-In Reset: Member Period
 
+## Partner Doctors 👩🏻‍⚕️
+
+- Beluga: Group of partner doctors responsible for sending prescriptions for OrderlyMeds patients.
+- Care Validate: Group of partner doctors responsible for sending prescriptions for OrderlyMeds patients.
+
 ## Otros
 
 - CX: Customer
 - Comm: Communication
 - HSR: Health Screening Review
-- Beluga: Group of partner doctors responsible for sending prescriptions for OrderlyMeds patients.
-- Care Validate: Group of partner doctors responsible for sending prescriptions for OrderlyMeds patients.
 - Prescription: _Consiste en la indicación formal, por parte de un profesional de la salud, de medicamentos, dosis y duración de un tratamiento, basado en el diagnóstico y las necesidades del paciente._
