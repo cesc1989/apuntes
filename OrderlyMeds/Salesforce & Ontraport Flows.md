@@ -2,8 +2,9 @@
 
 ## Flujo General
 
-```
-OrderlyMeds — General Application Flow                                                                                           
+OrderlyMeds — General Application Flow
+
+```                                                                              
                                                                                                                                  
   ┌──────────────────────────────────────────────────────────────┐                                                                 
   │                         PATIENT                              │                                                                 
@@ -21,11 +22,9 @@ OrderlyMeds — General Application Flow
      └──────┬──────┘         └──────┬──────┘
 ```
 
-## Salesforce
+### Salesforce Flow - MemberPeriod States
 
 ```
-SALESFORCE FLOW — MemberPeriod States
-
   #Health Screener
         │
         ▼
@@ -84,11 +83,9 @@ SALESFORCE FLOW — MemberPeriod States
 ```
 
 
-## Ontraport
+### Ontraport Flow - Sales Stage States
 
 ```
-ONTRAPORT FLOW — Sales Stage States
-
   #Health Screener
         │
         ▼
@@ -131,13 +128,11 @@ ONTRAPORT FLOW — Sales Stage States
   #OvershippedMeds
 ```
 
-## Prescription Services
+### Prescription Services
 
 Beluga Health y Care Validate.
 
 ```
-PRESCRIPTION SERVICES
-
   OrderlyMeds (Rails)
           │
           ├──────────────────────────────────────┐
@@ -175,11 +170,11 @@ PRESCRIPTION SERVICES
                 └─────────────────┘
 ```
 
-## Patient Portal
+### Patient Portal
+
+Success App
 
 ```
-PATIENT PORTAL (Success App)
-
   Patient logs in (WorkOS / AuthKit)
           │
           ▼
