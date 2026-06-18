@@ -74,3 +74,22 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+## Caso OM-9400 - Remove CC de Salesforce 🟢
+
+Etiquetas: #om_remove_credit_card
+
+Pasos:
+
+- Busca el `Account` del CX
+- Luego lee las CCs que tenga adjuntas con `account.salesforce_account.card_payment_methods`
+- Si solo es una, o a la que se necesite, la actualizas el campo `status` a `"Inactive"`
+
+```ruby
+account = Account.find("CHANGEME")
+
+sfacc = account.salesforce_account
+ccs = sfacc.card_payment_methods
+
+ccs.first.update!(status: "Inactive")
+```

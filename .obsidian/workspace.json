@@ -48,23 +48,9 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 49"
             }
-          },
-          {
-            "id": "056594af635f3136",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/OrderlyMeds Glossary.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OrderlyMeds Glossary"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/OrderlyMeds Glossary.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OrderlyMeds Glossary"
+              "title": "Outline of OM Ciclo 49"
             }
           }
         ],
@@ -208,9 +194,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "056594af635f3136",
+  "active": "3cc816acd5ab9044",
   "lastOpenFiles": [
+    "OrderlyMeds/Enlaces y Notas.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Onboarding.md",
+    "OrderlyMeds/OrderlyMeds Glossary.md",
     "OrderlyMeds/Help Desk/OM - Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/ontraport.medidprescribed.png",
@@ -220,13 +209,10 @@
     "OrderlyMeds/Help Desk/attachments/om_9220.01.png",
     "OrderlyMeds/Help Desk/attachments/om_9337.01.png",
     "Otro_Espacio/Blog/posts/03 - Dev Tools para Todos.md",
-    "OrderlyMeds/OrderlyMeds Glossary.md",
     "OrderlyMeds/Help Desk/attachments/om_9214.01.png",
-    "OrderlyMeds/Onboarding.md",
     "OrderlyMeds/Help Desk/attachments/om_9224.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9224.01.png",
     "OrderlyMeds/Help Desk/attachments",
-    "OrderlyMeds/Enlaces y Notas.md",
     "OrderlyMeds/Help Desk",
     "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Infra/Cronitor & Uptime Kuma.md",
