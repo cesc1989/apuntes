@@ -47,7 +47,7 @@ Todos:
 
 xxx
 
-## Caso OM-9426 - Stuck in Submitted 🟡
+## Caso OM-9426 - Stuck in Submitted 🟢
 
 Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
 
@@ -93,3 +93,16 @@ ccs = sfacc.card_payment_methods
 
 ccs.first.update!(status: "Inactive")
 ```
+
+## Caso OM-9347 - Script Error 🟡
+
+Etiquetas: #om_script_error 
+
+Cuando se revisa el Script en Ontraport el Outcome dice "Script Error". A pesar de hacer un resubmit sigue dando el mismo problema.
+
+### Sin solución? Cancel & Refund ℹ️
+
+> [!Warning]
+> Esperando confirmación de parte de Fabian.
+
+Este sería el caso para medicamentos de 3 meses. Fueron deshabilitados.
