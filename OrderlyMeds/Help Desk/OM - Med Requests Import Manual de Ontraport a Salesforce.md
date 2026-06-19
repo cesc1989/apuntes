@@ -85,7 +85,7 @@ member_period = member_periods_by_script_id.fetch(mapping.ontraport_script_id.to
 
 Por alguna razón hay algo que devuelve el script id como flotante. Usar esta parte manualmente dará error. Es mejor buscar el ID del script que corresponda.
 ```ruby
-member_period = 5555555
+member_period = shipped_or_oldest_ontraport_script_id
 ```
 
 ##### Sobre la constante IMPORTER_VERSION

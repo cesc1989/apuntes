@@ -562,7 +562,7 @@ Al día siguiente, Yedwy dijo que:
 
 Y cerró el caso.
 
-## Caso OM-9334 - Check In Error - hk connect 🟡ℹ️
+## Caso OM-9334 - Check In Error - Heroku Connect 🟢ℹ️
 
 Etiquetas: #om_checkin_error #om_heroku_connect_error
 
@@ -572,6 +572,9 @@ Dice:
 Jaime me explicó que en este caso revisar en Salesforce si el MP tiene "Medication Requests". Si no hay nada, quiere decir que ==hubo un problema en la migración de Ontraport a Salesforce.==
 
 Ver el detalle de cómo resolver en [[OM - Med Requests Import Manual de Ontraport a Salesforce]]
+
+> [!Important]
+> Sí se resolvió cómo explicó Jaime. Pasa que el día que me explicó había algún bug y no terminaba bien el proceso. Cuando Fabian probó días después, el modo manual funcionó.
 
 ## Caso OM-9389 - Stuck in Submitted 🟢
 
