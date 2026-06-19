@@ -107,3 +107,16 @@ Mensaje para CS:
 ```
 Currently, the 3-month option is no longer available. Therefore, a cancellation and full refund are required. The customer will then need to complete a new checkin and select either the 1-month or 2-month option.
 ```
+
+## Caso OM-9396 - Invalid Drug ID - SF 🟢
+
+Etiquetas: #om_invalid_drug_id
+
+> [!Note]
+> Este es lo mismo que el caso OM-9347. La inhabilitación del plan de 3 meses hace que este MP quede inválido. Se necesita hacer cancel & refund y nuevo MP.
+
+Le pregunté a Fabian y me dijo que es lo mismo que el OM-9347. Dejé el mensaje en el hilo y moví el caso a "waiting on support".
+
+### Verificación que está en la opción de tres meses
+
+Para esto fui a Salesforce y revisé el Member Period. Pude ver en la sección "Med Picker Recommendation" que dice en "Product" "3-month Tirzepatide (High Dosage)". Ahí queda claro lo que me dijo Fabian.
