@@ -13,7 +13,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9350 - Reset Check In CX en Prospect 🟡
+## Caso OM-9350 - Reset Check In CX en Prospect 🟢
 
 Etiquetas: #om_cx_in_prospect
 
@@ -94,7 +94,7 @@ ccs = sfacc.card_payment_methods
 ccs.first.update!(status: "Inactive")
 ```
 
-## Caso OM-9347 - Script Error 🟡
+## Caso OM-9347 - Script Error 🟢
 
 Etiquetas: #om_script_error 
 
