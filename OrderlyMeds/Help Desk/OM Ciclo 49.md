@@ -120,3 +120,18 @@ Le pregunté a Fabian y me dijo que es lo mismo que el OM-9347. Dejé el mensaje
 ### Verificación que está en la opción de tres meses
 
 Para esto fui a Salesforce y revisé el Member Period. Pude ver en la sección "Med Picker Recommendation" que dice en "Product" "3-month Tirzepatide (High Dosage)". Ahí queda claro lo que me dijo Fabian.
+
+## Caso OM-9426 - Stuck in Submitted 🟡
+
+Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
+
+- [x] Cambiar estado a `needs_resubmission`
+- [ ] Hacer resubmit en Ontraport
+- [ ] Comprobar nuevo CareValidate::Request creado
+- [ ] Comprobar Script pasó a Pharmacy Selected
+- [ ] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
