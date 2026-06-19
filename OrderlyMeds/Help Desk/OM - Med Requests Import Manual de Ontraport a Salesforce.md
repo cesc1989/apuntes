@@ -1,6 +1,6 @@
 # Importar manual Medication Requests de Ontraport a Salesforce
 
-Para el caso OM-9334.
+Para el caso [[OM Ciclo 48#Caso OM-9334 - Check In Error - hk connect 🟡ℹ️]]
 
 ## Trigger manual de partes de Salesforce::ImportAccountFromOntraportContactJob
 
