@@ -63,3 +63,16 @@ https://outbully-unmoldy-corrie.ngrok-free.dev/pro?bold-order-id=enlacito_pro_1_
 ```
 
 Con esos en la vista se puede trabajar para determinar si el pago fue exitoso.
+
+# Ambiente de Pruebas de Bold
+
+Docs: https://developers.bold.co/pagos-en-linea/boton-de-pagos/ambiente-pruebas
+
+## Datos de Prueba
+
+Usa cualquiera de estas tarjetas según el resultado que quieras obtener:
+
+- Pago **aprobado** con VISA: _4111111111111111_
+- Pago **aprobado** con MasterCard: _5100010000000015_
+- Pago **rechazado**: _4970110000000062_
+- Pago **fallido**: _5204730000008404_
