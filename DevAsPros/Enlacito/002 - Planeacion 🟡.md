@@ -83,8 +83,8 @@ Este milestone se ejecuta en paralelo a los demás. No hay que esperar a un punt
 Graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo lo que se pueda compartir en internet para ir haciendo ruido.
 
 Ver:
-- [[Plan Redes Sociales Enlacito 🟡]]
-- [[Ideas Pro Lanzamiento 🟡]]
+- [[Plan Redes Sociales Enlacito]]
+- [[Ideas Pro Lanzamiento]]
 
 ## Lanzamiento 🚧
 
