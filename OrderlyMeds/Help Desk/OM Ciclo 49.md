@@ -102,7 +102,12 @@ Cuando se revisa el Script en Ontraport el Outcome dice "Script Error". A pesar 
 
 ### Sin solución? Cancel & Refund ℹ️
 
-> [!Warning]
-> Esperando confirmación de parte de Fabian.
+> [!Info]
+> Esto como que fue una situación dada por el paso al plan de 2 meses. CS tiene que hacer cancel & refund.
 
 Este sería el caso para medicamentos de 3 meses. Fueron deshabilitados.
+
+Mensaje para CS:
+```
+Currently, the 3-month option is no longer available. Therefore, a cancellation and full refund are required. The customer will then need to complete a new checkin and select either the 1-month or 2-month option.
+```
