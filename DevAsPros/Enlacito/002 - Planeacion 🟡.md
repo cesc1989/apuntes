@@ -76,7 +76,7 @@ Esto es desarrollo puro y duro a partir de Puntapie. Las cosas a hacer para el M
 
 Detalles sobre lo que va para el 1er MVP en [[MVP - Enlacito 🟢#MVP 🌟]]
 
-## Ruido 🟡
+## Ruido 🔄
 
 Este milestone se ejecuta en paralelo a los demás. No hay que esperar a un punto exacto para ejecutarlo.
 
