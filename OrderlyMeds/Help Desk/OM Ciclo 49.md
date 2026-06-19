@@ -43,10 +43,6 @@ Todos:
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
 
-## Caso OM-9419 - errr??
-
-xxx
-
 ## Caso OM-9426 - Stuck in Submitted 🟢
 
 Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
