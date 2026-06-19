@@ -1,5 +1,8 @@
 # Registrar Eventos de Usuarios para Entender el Uso
 
+> [!Info]
+> Se completó esto sin usar ningún servicio de terceros. Se guardan los eventos en la misma base de datos.
+
 Esto lo sugirió Gepeto para saber si el producto lo usan o en qué momento podrían pasar a pagar o no. Copio y pego lo que me dijo.
 
 ### Regla de oro
