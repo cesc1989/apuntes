@@ -48,23 +48,9 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 49"
             }
-          },
-          {
-            "id": "931f2eebd9fc0125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "002 - Planeacion"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 002 - Planeacion"
+              "title": "Outline of OM Ciclo 49"
             }
           }
         ],
@@ -208,8 +194,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "931f2eebd9fc0125",
+  "active": "3cc816acd5ab9044",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/002 - Planeacion.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
@@ -225,7 +212,6 @@
     "OrderlyMeds/Enlaces y Notas.md",
     "OrderlyMeds/Onboarding.md",
     "OrderlyMeds/Help Desk/attachments/ontraport.medidprescribed.png",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
     "OrderlyMeds/Help Desk/attachments/starter-pack.png",
     "OrderlyMeds/Help Desk/attachments/om_9220.01.png",
     "OrderlyMeds/Help Desk/attachments/om_9337.01.png",
