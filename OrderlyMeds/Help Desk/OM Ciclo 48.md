@@ -562,7 +562,7 @@ Al día siguiente, Yedwy dijo que:
 
 Y cerró el caso.
 
-## Caso OM-9334 - Check In Error 🟡ℹ️
+## Caso OM-9334 - Check In Error - hk connect 🟡ℹ️
 
 Etiquetas: #om_checkin_error #om_heroku_connect_error
 
