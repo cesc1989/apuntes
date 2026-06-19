@@ -78,6 +78,13 @@ Si no lo hay, copia el mismo que tiene "MedIDSent". Muy probable que sea el mism
 
 ##### Para armar `member_period` copia manualmente el ID del Script
 
+> [!warning]
+> Esto se trata de traer datos de una importación. Por lo tanto hay que buscar el ID del Script que corresponda al Member Period de cuando se hizo la migración.
+>
+> Para encontrar el MP y Script relacionados se los MPs migrados de Ontraport. Estos tiene estado "Migrated from Ontraport".
+>
+> En este caso había dos pero solo uno tenía un Medical Encounter. Entonces ese es el que había que revisar. Dicho MP tiene el Script ID que nos sirve en el campo "Ontraport Script Id"
+
 Para armar esta línea:
 ```ruby
 member_period = member_periods_by_script_id.fetch(mapping.ontraport_script_id.to_i)
@@ -85,7 +92,7 @@ member_period = member_periods_by_script_id.fetch(mapping.ontraport_script_id.to
 
 Por alguna razón hay algo que devuelve el script id como flotante. Usar esta parte manualmente dará error. Es mejor buscar el ID del script que corresponda.
 ```ruby
-member_period = shipped_or_oldest_ontraport_script_id
+member_period = 802328
 ```
 
 ##### Sobre la constante IMPORTER_VERSION
@@ -102,7 +109,7 @@ account =
 		ontraport_contact_id: 515176
 	).first
 
-member_period = 5555555
+member_period = 802328
 mapping = contact_import.medication_request_mappings.first
 medication = Salesforce::Medication.find(mapping.med_id)
 ```
