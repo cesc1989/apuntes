@@ -24,6 +24,15 @@ La capa gratuita ofrece 3K correos al mes. Solo permite verificar un dominio.
 
 ## AWS S3 o Cloudflare
 
+Para hospedar imágenes, vídeos y/o archivos.
+
+### Cloudflare R2
+
+La capa gratuita da 10 GB/mes.
+
+### AWS S3
+
+
 
 ## Netlify o Vercel u otros
 
