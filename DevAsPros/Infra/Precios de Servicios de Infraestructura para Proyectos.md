@@ -22,7 +22,7 @@ La capa gratuita ofrece 3K correos al mes. Solo permite verificar un dominio.
 
 **Para más dominios y más correos son 20 USD/mes.**
 
-## AWS S3 o Cloudflare
+## AWS S3 o Cloudflare 🪣
 
 Para hospedar imágenes, vídeos y/o archivos.
 
@@ -32,9 +32,32 @@ La capa gratuita da 10 GB/mes.
 
 ### AWS S3
 
+Los primeros 50 TB/mes son a 0.023 USD por GB. O sea, 1 USD.
+
+## Netlify o Vercel u otros 🌏
+
+### Netlify
 
 
-## Netlify o Vercel u otros
+### Vercel
 
 
-## VPS: Linode o Host Hatch
+## VPS: Linode o Host Hatch 🖥️
+
+### Linode
+
+El VPS más barato cuesta 5 USD/mes. Incluye:
+
+- 1 GB de RAM
+- 1 CPU
+- 25 GB de espacio
+- 1 TB de transferencia
+
+### Host Hatch
+
+El VPS más barato cuesta 4 USD/mes. Incluye:
+
+- 2 GB RAM DDR4
+- 1 CPU
+- 10 GB espacio NVMe
+- 1 TB de transferencia
