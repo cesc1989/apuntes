@@ -11,10 +11,14 @@
             "id": "f73f614d461a9437",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Infra/Precios de Servicios de Infraestructura para Proyectos.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Precios de Servicios de Infraestructura para Proyectos"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Infra/Precios de Servicios de Infraestructura para Proyectos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Precios de Servicios de Infraestructura para Proyectos"
             }
           }
         ],
@@ -149,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 433.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,6 +168,7 @@
   },
   "active": "f73f614d461a9437",
   "lastOpenFiles": [
+    "DevAsPros/Infra/Precios de Servicios de Infraestructura para Proyectos.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/OM - Med Requests Import Manual de Ontraport a Salesforce.md",
