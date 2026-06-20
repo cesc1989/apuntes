@@ -18,6 +18,9 @@ La capa gratuita es más que suficiente para un proyecto en sus años iniciales.
 
 ## Resend 📧
 
+> [!Info]
+> Para proyectos pequeños con tráfico estos límites son difícil de alcanzar.
+
 La capa gratuita ofrece 3K correos al mes. Solo permite verificar un dominio.
 
 **Para más dominios y más correos son 20 USD/mes.**
@@ -28,9 +31,15 @@ Para hospedar imágenes, vídeos y/o archivos.
 
 ### Cloudflare R2
 
+> [!Info]
+> Para proyectos pequeños con tráfico estos límites son difícil de alcanzar.
+
 La capa gratuita da 10 GB/mes.
 
 ### AWS S3
+
+> [!Info]
+> Para proyectos pequeños con tráfico estos límites son difícil de alcanzar.
 
 Los primeros 50 TB/mes son a 0.023 USD por GB. O sea, 1 USD.
 
