@@ -91,9 +91,7 @@ Web: https://cronitor.io/pricing
 
 La capa gratuita da hasta 5 monitores. Más que suficiente.
 
-**Si se quiere tener más, cuesta 2 USD/mes.**
-
-**Además, cada usuario costaría 5 USD/mes.**
+**Si se quiere tener más, cuesta 2 USD/mes.** Además, **cada usuario costaría 5 USD/mes.**
 
 ### Uptime Kuma Self Hosted
 
