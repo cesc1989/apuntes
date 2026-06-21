@@ -43,13 +43,25 @@ La capa gratuita da 10 GB/mes.
 
 Los primeros 50 TB/mes son a 0.023 USD por GB. O sea, 1 USD.
 
-## Netlify o Vercel u otros 🌏
+## Hospedaje tipo Git Push 🌏
 
 ### Netlify
 
+Caro.
 
 ### Vercel
 
+Caro.
+
+### Heroku
+
+> [!Note]
+> No se puede usar SQLite.
+
+Lo más básico que sería web dyno + postgres serían 10 USD/mes.
+
+> [!Important]
+> El precio de 10 USD/mes sería usando Solid Trifecta para aprovechar la base de datos y no necesitar Redis.
 
 ## VPS: Linode o Host Hatch 🖥️
 
@@ -70,3 +82,21 @@ El VPS más barato cuesta 4 USD/mes. Incluye:
 - 1 CPU
 - 10 GB espacio NVMe
 - 1 TB de transferencia
+
+## Monitoreo
+
+### Cronitor
+
+Web: https://cronitor.io/pricing
+
+La capa gratuita da hasta 5 monitores. Más que suficiente.
+
+**Si se quiere tener más, cuesta 2 USD/mes.**
+
+**Además, cada usuario costaría 5 USD/mes.**
+
+### Uptime Kuma Self Hosted
+
+En Pikapods.
+
+**Costaría 4 USD/mes.** Sin ningún límite.
