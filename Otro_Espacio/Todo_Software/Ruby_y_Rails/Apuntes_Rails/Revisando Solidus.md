@@ -53,6 +53,42 @@ Pensé que solo lo hacía en Puntapie pero es algo general de la gema `solidus_s
     Overwrite /Users/francisco/projects/devaspros-projects/parcerito/app/javascript/controllers/index.js? (enter "h" for help) [Ynaqdhm] y
 ```
 
+# Errores
+
+## Could not open library 'vips.42': dlopen(vips.42, 0x0005): tried: 'vips.42' (no such file)
+
+```
+LoadError (Could not open library 'vips.42': dlopen(vips.42, 0x0005): tried: 'vips.42' (no such file), '/System/Volumes/Preboot/Cryptexes/OSvips.42' (no such file), '/usr/lib/vips.42' (no such file, not in dyld cache), 'vips.42' (no such file), '/usr/local/lib/vips.42' (no such file), '/usr/lib/vips.42' (no such file, not in dyld cache).
+Could not open library 'libvips.42.dylib': dlopen(libvips.42.dylib, 0x0005): tried: 'libvips.42.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibvips.42.dylib' (no such file), '/usr/lib/libvips.42.dylib' (no such file, not in dyld cache), 'libvips.42.dylib' (no such file), '/usr/local/lib/libvips.42.dylib' (no such file), '/usr/lib/libvips.42.dylib' (no such file, not in dyld cache).
+Searched in <system library path>, /opt/homebrew/lib, /opt/local/lib, /usr/local/lib, /usr/lib):
+  
+app/components/image_component.rb:15:in 'ImageComponent#call'
+app/views/products/_featured_product_card.html.erb:3
+app/views/home/_featured_products.html.erb:4
+app/views/home/index.html.erb:1
+```
+
+## ActiveStorage::Transformers::ImageProcessingTransformer::UnsupportedImageProcessingMethod (One or more of the provided transformation methods is not supported
+
+```
+ActionView::Template::Error (One or more of the provided transformation methods is not supported.):
+
+Causes:
+ActiveStorage::Transformers::ImageProcessingTransformer::UnsupportedImageProcessingMethod (One or more of the provided transformation methods is not supported.)
+    1: <div class="relative bg-black overflow-hidden rounded-lg md:rounded-xl lg:rounded-2xl">
+    2:   <% image = product.gallery.images.second || product.gallery.images.first %>
+    3:   <%= render(ImageComponent.new(
+    4:     image: image,
+    5:     size: size,
+    6:     class: 'w-full object-cover'
+  
+app/components/image_component.rb:15:in 'ImageComponent#call'
+app/views/products/_featured_product_card.html.erb:3
+app/views/home/_featured_products.html.erb:4
+app/views/home/index.html.erb:1
+```
+
 ## Enlaces Misc
 
 - Hilo en Reddit de hace 2 años: https://www.reddit.com/r/rails/comments/1g73kem/solidus_ecommerce_community/
+- Sobre error de vips: https://stackoverflow.com/questions/70849182/could-not-open-library-vips-42-could-not-open-library-libvips-42-dylib
