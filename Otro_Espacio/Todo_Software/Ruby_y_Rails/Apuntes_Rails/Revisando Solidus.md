@@ -1,5 +1,28 @@
 # Revisando Solidus - Ecommerce
 
+## vips o imagemagick
+
+### libvips
+
+Repo: https://github.com/libvips/libvips
+
+Para instalar vips
+```
+brew install vips
+```
+
+Para verificar:
+```
+vips --version
+```
+
+### imagemagick
+
+Para verificar:
+```
+identify --version
+```
+
 ## Sobre escribe algunos archivos
 
 Pensé que solo lo hacía en Puntapie pero es algo general de la gema `solidus_starter_frontend`:
