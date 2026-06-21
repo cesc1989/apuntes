@@ -29,3 +29,7 @@ Pensé que solo lo hacía en Puntapie pero es algo general de la gema `solidus_s
     Retrying...
     Overwrite /Users/francisco/projects/devaspros-projects/parcerito/app/javascript/controllers/index.js? (enter "h" for help) [Ynaqdhm] y
 ```
+
+## Enlaces Misc
+
+- Hilo en Reddit de hace 2 años: https://www.reddit.com/r/rails/comments/1g73kem/solidus_ecommerce_community/
