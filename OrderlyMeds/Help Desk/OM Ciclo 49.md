@@ -281,13 +281,18 @@ updated_data = existing_webhook.data.deep_dup
 updated_data["patientPreference"][0]["strength"] = "Semaglutide .25mg"
 ```
 
-Así  se completa la asignación:
+Ahora si procedemos a actualizar todo.
+
+#### Limpiar caché del método `IncomingWebhook#data`
+
+Hay que hacer esto para invalidar la caché ya que esa función hace memoization del valor.
 ```ruby
-# limpiar cache / reasignar
 existing_webhook.instance_variable_set(:@data, nil)
 ```
 
-Finalmente, se actualizar
+#### Actualizar payload de `IncomingWebhook`
+
+Y ahora reemplazamos el payload anterior con el nuevo corregido:
 ```ruby
 existing_webhook.payload.attach(                                
   io: StringIO.new(updated_data.to_json),
@@ -295,6 +300,8 @@ existing_webhook.payload.attach(
   content_type: "text/json"
 )
 ```
+
+Esto crea un nuevo blob y reemplaza el anterior.
 
 ### Botón Resubmit Latest Ontraport Webhook
 
