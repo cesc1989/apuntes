@@ -329,7 +329,7 @@ Salesforce::CustomerUser.create(
 
 ## Caso OM-9483 - Beluga Missing Values 🔵
 
-Etiquetas: #om_beluga 
+Etiquetas: #om_beluga  #om_script_error 
 
 Lo tenía pero lo pusieron urgente y Fili reasignó a Fabian. Lo primero que preguntó Fabian fue:
 > Can you please confirm whether the customer has any sensitivities? That seems to be what's causing the error to appear.
@@ -339,5 +339,7 @@ Y mostró captura de la parte en Ontraport donde están las sensitivities.
 > [!Info]
 > Las sensitivities están en el perfil en Ontraport. Hay que ir a la página "Health Info" que está en el menú de la izquierda.
 
-
 El Outcome del Script es "Script Error".
+
+> [!Note]
+> Lo mismo que pasó con [[OM Ciclo 48#Caso OM-9215 - Script error - Beluga 🟢ℹ️]]
