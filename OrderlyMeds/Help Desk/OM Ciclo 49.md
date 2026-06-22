@@ -164,3 +164,130 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+## Caso OM-9398 - Stuck in Active 🟢🔑
+
+Etiquetas: #om_stuck_in_active
+
+> [!Important]
+> La clave de esto es verificar el log del webhook en Ontraport. Revisar el flujo en Case Overview para detectar cualquier cosa que pueda impedir que no se complete.
+
+Para este caso lo que hizo Fabian fue verificar que al hacer el resubmit hubiera algún registro en la lista de logs. Para verlos se va a [esta página](https://app.ontraport.com/#!/webhook_log/listAll) y se busca por el ID del Script.
+
+> [!Info]
+> Sobre los webhooks de Ontraport:
+>
+> - Siempre se crea un webhook
+> - Los logs duran 24 horas
+>
+> Este caso tuvo  la particularidad que nunca generó el webhook. Eso fue el indicio para hacer lo a continuación.
+
+### Verificación de Dosage en Case Overview
+
+Como siempre se empezó revisando el detalle del submission en Case Overview. La pista que siguió Fabian fue que notó un cambio en el campo Dosage.
+
+Inicialmente era Semaglutide 1.5mg y en un punto cambió a necesitar ser .25mg. En Ontraport nunca se reflejó ese cambió lo que llevó a la sospecha que eso necesitaba cambiar.
+
+Para corregir entonces hizo los siguientes cambios en el `IncomingWebhook` del `CareValidate::Request`.
+
+### Actualización manual del payload del IncomingWebhook
+
+Lo primero que hizo fue ubicar el Request e inspeccionar que tuviera valor en `incoming_webhook_ids`:
+```ruby
+request = CareValidate::Request.find "019e9877-d0fd-7660-ad53-2793fd8301a3"
+```
+
+Después, se inspecciona dicho incoming webhook:
+```ruby
+existing_webhook = IncomingWebhook.find(request.incoming_webhook_ids.first)
+existing_webhook.data
+```
+
+> [!Important]
+> `data` es una función de `IncomingWebhook` que lee lo que se guardó en `payload`. Por su parte `payload` es un objeto de ActiveStorage.
+
+Esto es un ejemplo de `payload`:
+```ruby 
+{
+  "contactId" => "427226",
+  "scriptId" => "785154",
+  "photoFront" => "",
+  "photoBack" => "",
+  "fullSelfie" => "",
+  "scriptImage" => "",
+  "consentsSignedYesNo" => "Yes",
+
+  "firstName" => "Lalo",
+  "lastName" => "Landa",
+  "dob" => "",
+  "phone" => "",
+  "email" => "",
+  "address" => "",
+  "city" => "Cleveland Hts",
+  "state" => "Ohio",
+  "zip" => "12345",
+  "sex" => "",
+
+  "selfReportedMeds" => <<~MEDS,
+    Amlodipine Besylate 20mg
+    Atorvastatin 10mg
+    Carvedolil 12.5mg
+    Amphetamine Salts ER 15mg
+    Albuterol Inhaler
+    Qvar Inhaler
+  MEDS
+
+  "allergies" => "None",
+
+  "medicalConditions" => <<~CONDITIONS,
+    Rheumatoid Arthritis
+    ADHD
+  CONDITIONS
+
+  "contraindication" => "None",
+  "visitType" => "weightlossfollowup",
+  "2monthsstarter" => "No",
+
+  "patientPreference" => [
+    {
+      "name" => "OM Core: Semaglutide - $199/month - 4 Injections",
+      "numberMonths" => "1",
+      "strength" => "Semaglutide .25mg",
+      "change" => "Discuss Decreasing Dosage",
+      "ingredients" => "B3,B5",
+      "titrateup" => "I want multiple months of the same dose",
+      "medIdOverride" => "",
+      "refills" => "0"
+    }
+  ],
+
+  "Q1" => "What is your Height?",
+  "A1" => "5'4",
+}
+```
+
+Lo que había que actualizar es la llave `strength` dentro de `patientPreference`. Para eso había que copiar el contenido totalmente y luego reasignar:
+```ruby
+updated_data = existing_webhook.data.deep_dup
+
+updated_data["patientPreference"][0]["strength"] = "Semaglutide .25mg"
+```
+
+Así  se completa la asignación:
+```ruby
+# limpiar cache / reasignar
+existing_webhook.instance_variable_set(:@data, nil)
+```
+
+Finalmente, se actualizar
+```ruby
+existing_webhook.payload.attach(                                
+  io: StringIO.new(updated_data.to_json),
+  filename: "payload.json",
+  content_type: "text/json"
+)
+```
+
+### Botón Resubmit Latest Ontraport Webhook
+
+Está en la sección "Incoming Webhooks" en el detalle del CareValidate Request.
