@@ -124,7 +124,7 @@ Le pregunté a Fabian y me dijo que es lo mismo que el OM-9347. Dejé el mensaje
 
 Para esto fui a Salesforce y revisé el Member Period. Pude ver en la sección "Med Picker Recommendation" que dice en "Product" "3-month Tirzepatide (High Dosage)". Ahí queda claro lo que me dijo Fabian.
 
-## Caso OM-9426 - Stuck in Submitted 🟡
+## Caso OM-9426 - Stuck in Submitted 🟢
 
 Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
 
