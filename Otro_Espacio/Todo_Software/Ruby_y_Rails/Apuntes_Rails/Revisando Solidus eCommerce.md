@@ -3,6 +3,15 @@
 > [!Important]
 > En macos 13 no pude instalar vips. Me tocó usar Linux Mint para poder crear un nuevo Rails e instalar Solidus para poder probarlo.
 
+> [!Info]
+> Esto dice la wiki en el repo sobre cómo empezar:
+> 
+> Once you understand Rails, we suggest reading the `solidus_core` test suite. It should give you a good idea about what’s going on. Start with models, move onto controller tests, and so on.
+>
+> Take notes on the associations between models so that you understand how products, variants, options, properties, and taxons are related to each other.
+>
+> You should definitely do this before you start trying to model any real data.
+
 ## vips o imagemagick en Macos
 
 ### libvips
