@@ -267,7 +267,9 @@ def new_member_period(email, checkin_due_date: Date.today + 14.days)
     checkin_deadline_date: checkin_deadline_date
   )
 end
+```
 
+```ruby
 new_member_period("lawrencebmarshall@gmail.com")
 ```
 
