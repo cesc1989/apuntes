@@ -1,4 +1,7 @@
-# Revisando Solidus - Ecommerce
+# Revisando Solidus - eCommerce
+
+> [!Important]
+> En macos 13 no pude instalar vips. Me tocó usar Linux Mint para poder crear un nuevo Rails e instalar Solidus para poder probarlo.
 
 ## vips o imagemagick en Macos
 
@@ -23,7 +26,7 @@ Para verificar:
 identify --version
 ```
 
-## Sobre escribe algunos archivos
+## Sobrescribe algunos archivos
 
 Pensé que solo lo hacía en Puntapie pero es algo general de la gema `solidus_starter_frontend`:
 
@@ -53,7 +56,7 @@ Pensé que solo lo hacía en Puntapie pero es algo general de la gema `solidus_s
     Overwrite /Users/francisco/projects/devaspros-projects/parcerito/app/javascript/controllers/index.js? (enter "h" for help) [Ynaqdhm] y
 ```
 
-# Errores
+# Errores en Macos 🍏
 
 ## Could not open library 'vips.42': dlopen(vips.42, 0x0005): tried: 'vips.42' (no such file)
 
