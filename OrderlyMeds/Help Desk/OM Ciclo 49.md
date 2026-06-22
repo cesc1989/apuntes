@@ -289,3 +289,21 @@ Está en la sección "Incoming Webhooks" en el detalle del CareValidate Request.
 ### Comprobación Final
 
 Al revisar de nuevo el CareValidate Request en Success se ve que está en estado "Waiting For Prescription" y el Script en Ontraport está en "Pharmacy Selected".
+
+## Caso OM-9564 - Stuck in Submitted
+
+```ruby
+request = CareValidate::Request.find("")
+request.update!(state: "needs_resubmission")
+```
+
+- [ ] Cambiar estado a `needs_resubmission`
+- [ ] Hacer resubmit en Ontraport
+- [ ] Comprobar nuevo CareValidate::Request creado
+- [ ] Comprobar Script pasó a Pharmacy Selected
+- [ ] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
