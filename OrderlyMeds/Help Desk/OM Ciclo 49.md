@@ -184,7 +184,7 @@ Para este caso lo que hizo Fabian fue verificar que al hacer el resubmit hubiera
 
 ### Verificación de Dosage en Case Overview  🔎
 
-Como siempre se empezó revisando el detalle del submission en Case Overview. La pista que siguió Fabian fue que notó un cambio en el campo Dosage.
+Se empezó revisando el detalle del submission en Case Overview. La pista que siguió Fabian fue que notó un cambio en el campo Dosage.
 
 Inicialmente era ==Semaglutide 1.5mg y en un punto cambió a necesitar ser .25mg==. En Ontraport nunca se reflejó ese cambió lo que llevó a la sospecha que eso necesitaba cambiar.
 
@@ -199,7 +199,7 @@ Inicialmente era ==Semaglutide 1.5mg y en un punto cambió a necesitar ser .25mg
 
 Para corregir entonces hizo los siguientes cambios en el `IncomingWebhook` del `CareValidate::Request`.
 
-### Actualización manual del payload del IncomingWebhook
+### Paso 1: Actualización manual del payload del IncomingWebhook
 
 Lo primero que hizo fue ubicar el Request e inspeccionar que tuviera valor en `incoming_webhook_ids`:
 ```ruby
@@ -303,7 +303,7 @@ existing_webhook.payload.attach(
 
 Esto crea un nuevo blob y reemplaza el anterior.
 
-### Botón Resubmit Latest Ontraport Webhook
+### Paso 2: Botón Resubmit Latest Ontraport Webhook
 
 Está en la sección "Incoming Webhooks" en el detalle del CareValidate Request.
 
