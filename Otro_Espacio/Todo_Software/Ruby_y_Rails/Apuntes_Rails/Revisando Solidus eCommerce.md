@@ -1,4 +1,4 @@
-# Revisando Solidus - eCommerce
+# Revisando Solidus eCommerce en Rails
 
 > [!Important]
 > En macos 13 no pude instalar vips. Me tocó usar Linux Mint para poder crear un nuevo Rails e instalar Solidus para poder probarlo.
