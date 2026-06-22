@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stringio",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,8 +182,8 @@
   "active": "dcb3b8c9323744c7",
   "lastOpenFiles": [
     "OrderlyMeds/Onboarding.md",
-    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Revisando Solidus eCommerce.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",

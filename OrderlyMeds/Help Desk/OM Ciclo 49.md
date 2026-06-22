@@ -177,7 +177,7 @@ Para este caso lo que hizo Fabian fue verificar que al hacer el resubmit hubiera
 > [!Info]
 > Sobre los webhooks de Ontraport:
 >
-> - Siempre se crea un webhook
+> - Siempre se crea un webhook. Si hay fallo o éxito, eso no le importa a Ontraport.
 > - Los logs duran 24 horas
 >
 > Este caso tuvo  la particularidad que nunca generó el webhook. Eso fue el indicio para hacer lo a continuación.
