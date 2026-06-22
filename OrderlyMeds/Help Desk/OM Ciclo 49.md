@@ -220,38 +220,14 @@ Esto es un ejemplo de `payload`:
 {
   "contactId" => "427226",
   "scriptId" => "785154",
-  "photoFront" => "",
-  "photoBack" => "",
-  "fullSelfie" => "",
-  "scriptImage" => "",
-  "consentsSignedYesNo" => "Yes",
 
   "firstName" => "Lalo",
   "lastName" => "Landa",
   "dob" => "",
   "phone" => "",
   "email" => "",
-  "address" => "",
-  "city" => "Cleveland Hts",
-  "state" => "Ohio",
-  "zip" => "12345",
-  "sex" => "",
-
-  "selfReportedMeds" => <<~MEDS,
-    Amlodipine Besylate 20mg
-    Atorvastatin 10mg
-    Carvedolil 12.5mg
-    Amphetamine Salts ER 15mg
-    Albuterol Inhaler
-    Qvar Inhaler
-  MEDS
 
   "allergies" => "None",
-
-  "medicalConditions" => <<~CONDITIONS,
-    Rheumatoid Arthritis
-    ADHD
-  CONDITIONS
 
   "contraindication" => "None",
   "visitType" => "weightlossfollowup",
