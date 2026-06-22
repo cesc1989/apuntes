@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9a217079aa50bf98",
+        "id": "457db6bd34e3e75a",
         "type": "tabs",
         "children": [
           {
-            "id": "8ae30f0addb6ce1a",
+            "id": "3d08cf01e881e7ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OM Ciclo 49"
+              "title": "New tab"
             }
           }
         ]
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 49"
+              "title": "Outline"
             }
           }
         ],
@@ -165,10 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8ae30f0addb6ce1a",
+  "active": "3d08cf01e881e7ef",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Onboarding.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Revisando Solidus eCommerce.md",
