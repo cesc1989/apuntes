@@ -1,5 +1,8 @@
 # Ciclo 48 OrderlyMeds Support
 
+> [!Info]
+> Del Jueves 4 al Miércoles 17 de Junio.
+
 ## Caso OM-9224 - Resend Invoice 🟢
 
 Etiquetas: #om_resend_invoice
