@@ -277,6 +277,9 @@ existing_webhook.payload.attach(
 )
 ```
 
+> [!Note]
+> Aquí se hace lo mismo que en `IncomingWebhook.create_from_payload`. En vez de crear un nuevo incoming webhook solo se crea un nuevo blob y se relaciona.
+
 Esto crea un nuevo blob y reemplaza el anterior.
 
 ### Paso 2: Botón Resubmit Latest Ontraport Webhook
