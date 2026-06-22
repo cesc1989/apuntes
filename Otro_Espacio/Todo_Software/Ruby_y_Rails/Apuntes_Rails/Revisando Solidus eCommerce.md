@@ -104,3 +104,14 @@ app/views/home/index.html.erb:1
 
 - Hilo en Reddit de hace 2 años: https://www.reddit.com/r/rails/comments/1g73kem/solidus_ecommerce_community/
 - Sobre error de vips: https://stackoverflow.com/questions/70849182/could-not-open-library-vips-42-could-not-open-library-libvips-42-dylib
+
+# Admin
+
+Usuario y clave del admin por defecto:
+```
+Creating admin user with:
+
+  - email: admin@example.com
+
+  - password: test123
+```
