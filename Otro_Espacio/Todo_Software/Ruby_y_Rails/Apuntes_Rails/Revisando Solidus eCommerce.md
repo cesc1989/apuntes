@@ -4,7 +4,7 @@
 > En macos 13 no pude instalar vips. Me tocó usar Linux Mint para poder crear un nuevo Rails e instalar Solidus para poder probarlo.
 
 > [!Info]
-> Esto dice la wiki en el repo sobre cómo empezar:
+> Esto dice la [wiki](https://github.com/solidusio/solidus/wiki/FAQ) en el repo sobre cómo empezar:
 > 
 > Once you understand Rails, we suggest reading the `solidus_core` test suite. It should give you a good idea about what’s going on. Start with models, move onto controller tests, and so on.
 >
