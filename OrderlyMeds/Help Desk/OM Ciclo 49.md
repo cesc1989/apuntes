@@ -186,7 +186,16 @@ Para este caso lo que hizo Fabian fue verificar que al hacer el resubmit hubiera
 
 Como siempre se empezó revisando el detalle del submission en Case Overview. La pista que siguió Fabian fue que notó un cambio en el campo Dosage.
 
-Inicialmente era Semaglutide 1.5mg y en un punto cambió a necesitar ser .25mg. En Ontraport nunca se reflejó ese cambió lo que llevó a la sospecha que eso necesitaba cambiar.
+Inicialmente era ==Semaglutide 1.5mg y en un punto cambió a necesitar ser .25mg==. En Ontraport nunca se reflejó ese cambió lo que llevó a la sospecha que eso necesitaba cambiar.
+
+> [!Important]
+> Esto también se puede comprobar en la sección "Requested MedPicker Data" en el detalle del Care Validate Request. Para este caso ahí sale que esta es la dosis deseada:
+> ```ruby
+> "rxStrength": 0.25,
+> "opFieldDosage": "Semaglutide 0.25mg",
+> "productStrength": 0.25,
+> ```
+
 
 Para corregir entonces hizo los siguientes cambios en el `IncomingWebhook` del `CareValidate::Request`.
 
@@ -291,3 +300,7 @@ existing_webhook.payload.attach(
 ### Botón Resubmit Latest Ontraport Webhook
 
 Está en la sección "Incoming Webhooks" en el detalle del CareValidate Request.
+
+### Comprobación Final
+
+Al revisar de nuevo el CareValidate Request en Success se ve que está en estado "Waiting For Prescription" y el Script en Ontraport está en "Pharmacy Selected".
