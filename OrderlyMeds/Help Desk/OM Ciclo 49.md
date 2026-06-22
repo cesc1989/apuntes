@@ -1,5 +1,8 @@
 # Ciclo 49 de OrderlyMeds Support
 
+> [!Info]
+> Del Jueves 18 de Junio al Miércoles 1 de Julio.
+
 ## Caso OM-9481 - New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
