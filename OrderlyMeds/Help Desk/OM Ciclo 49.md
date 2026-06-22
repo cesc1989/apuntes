@@ -278,7 +278,6 @@ Esto es un ejemplo de `payload`:
 Lo que había que actualizar es la llave `strength` dentro de `patientPreference`. Para eso había que copiar el contenido totalmente y luego reasignar:
 ```ruby
 updated_data = existing_webhook.data.deep_dup
-
 updated_data["patientPreference"][0]["strength"] = "Semaglutide .25mg"
 ```
 
