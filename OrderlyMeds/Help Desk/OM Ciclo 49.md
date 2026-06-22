@@ -138,3 +138,16 @@ Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
 ```
+
+## Caso OM-9573 - New MP 🟢
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+```ruby
+new_member_period("nikki199043@gmail.com")
+```
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
