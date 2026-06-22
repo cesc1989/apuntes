@@ -1,6 +1,6 @@
 # Revisando Solidus - Ecommerce
 
-## vips o imagemagick
+## vips o imagemagick en Macos
 
 ### libvips
 
