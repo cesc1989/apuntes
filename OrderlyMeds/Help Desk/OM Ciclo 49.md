@@ -284,7 +284,7 @@ Esto crea un nuevo blob y reemplaza el anterior.
 
 ### Paso 2: Botón Resubmit Latest Ontraport Webhook
 
-Está en la sección "Incoming Webhooks" en el detalle del CareValidate Request.
+Está en la sección "Incoming Webhooks" en el detalle del CareValidate Request. Después de hacer esto hay que ir a esta sección y clicar este botón.
 
 ### Comprobación Final
 
