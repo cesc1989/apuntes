@@ -244,7 +244,7 @@ En el Case Overview el Request que estaba en _waiting_for_prescription_ se habr�
 
 Otro indicador de que el resubmit funcionó es que el **Outcome** del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
 
-## Caso OM-9327 - New MP 🟢
+## Caso OM-9327 - New MP Salesforce 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
