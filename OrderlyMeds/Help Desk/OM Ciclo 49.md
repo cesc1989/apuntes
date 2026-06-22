@@ -182,7 +182,7 @@ Para este caso lo que hizo Fabian fue verificar que al hacer el resubmit hubiera
 >
 > Este caso tuvo  la particularidad que nunca generó el webhook. Eso fue el indicio para hacer lo a continuación.
 
-### Verificación de Dosage en Case Overview
+### Verificación de Dosage en Case Overview  🔎
 
 Como siempre se empezó revisando el detalle del submission en Case Overview. La pista que siguió Fabian fue que notó un cambio en el campo Dosage.
 
