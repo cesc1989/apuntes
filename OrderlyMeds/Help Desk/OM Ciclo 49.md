@@ -302,3 +302,27 @@ No tuve que hacer nada porque ya la orden fue enviada.
 ## Caso OM-9562 - Stuck in Submitted 🟢
 
 Nada que hacer. Ya estaba el Script en "Order at Pharmacy".
+
+## Caso OM-9419 - Oops Error 🟡
+
+Etiquetas: #om_oops_error 
+
+- [ ] Revisar el account
+
+```ruby
+account = Account.find_by(email: "")
+account.workos_user_nk
+```
+
+- [ ] Actualizar el campo `workos_user_nk`
+```ruby
+account.update!(workos_user_nk: "")
+```
+
+- [ ] Sincronizar salesforce
+```ruby
+Salesforce::CustomerUser.create(
+  salesforce_person_account: account.salesforce_account,
+  local_account: account
+)
+```
