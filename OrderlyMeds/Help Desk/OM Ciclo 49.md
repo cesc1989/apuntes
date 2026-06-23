@@ -165,7 +165,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9398 - Stuck in Active 🟡🔑
+## Caso OM-9398 - Stuck in Active 🟢🔑
 
 Etiquetas: #om_stuck_in_active
 
