@@ -196,7 +196,6 @@ Inicialmente era ==Semaglutide 1.5mg y en un punto cambió a necesitar ser .25mg
 > "productStrength": 0.25,
 > ```
 
-
 Para corregir entonces hizo los siguientes cambios en el `IncomingWebhook` del `CareValidate::Request`.
 
 ### Paso 1: Actualización manual del payload del IncomingWebhook
