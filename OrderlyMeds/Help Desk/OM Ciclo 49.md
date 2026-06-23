@@ -508,3 +508,9 @@ Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
 ```
+
+## Caso OM-9398 - Fallo al crear el order 🟡
+
+> [!Important]
+> Esto es una continuación de [[OM Ciclo 49#Caso OM-9398 - Stuck in Active 🟢🔑]]. Lo descrito en el anterior bloque sí sirvió para desbloquear pero este Script tiene otro problema. Es el que se intentará resolver a continuación.
+
