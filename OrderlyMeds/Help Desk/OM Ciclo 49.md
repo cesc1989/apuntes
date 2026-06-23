@@ -490,6 +490,9 @@ Script resubmitted. Please check it out.
 
 ## Caso OM-9594 - Stuck in Submitted 🟡
 
+> [!Note]
+> El estado del request de este caso es `needs_prescriber_submission`.
+
 ```ruby
 request = CareValidate::Request.find("")
 request.update!(state: "needs_resubmission")
