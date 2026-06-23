@@ -165,7 +165,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9398 - Stuck in Active 🟢🔑
+## Caso OM-9398 - Stuck in Active 🟡🔑
 
 Etiquetas: #om_stuck_in_active
 
@@ -450,7 +450,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9569 - Prescribed but error in CV channel 🟡
+## Caso OM-9569 - Prescribed but error in CV channel 🟡ℹ️
 
 Etiquetas: #om_prescribed #om_care_validate_error
 
