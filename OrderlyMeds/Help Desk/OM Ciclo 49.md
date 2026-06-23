@@ -450,3 +450,22 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
+## Caso OM-9569 - Prescribed but error in CV channel 🟡
+
+Etiquetas: #om_prescribed #om_care_validate_error
+
+Dice:
+> Already prescribed but is showing an error in CV channel.
+
+En la captura que pasan dice:
+> We encountered an internal error. Please try again.
+
+![[om_9569.01.png]]
+
+Jaime me dijo que toca, desde Salesforce, que hagan un "Resubmit to MSO":
+![[om_9569.02.png]]
+
+> [!Note]
+> Hay que mirar bien cuál es el Member Period a hacer resubmit. Luego eso abre un formulario y hay que llenarlo bien. Mejor que lo haga CS.
+
+Jaime me dice que hay que hacer esto para que el sistema vuelva a hacer sync de la medicina con información nueva.
