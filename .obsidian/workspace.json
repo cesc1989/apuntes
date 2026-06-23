@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "457db6bd34e3e75a",
+        "id": "5ffc60c3615e0ec1",
         "type": "tabs",
         "children": [
           {
-            "id": "3d08cf01e881e7ef",
+            "id": "5a3c8d5ef7a4787b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Onboarding.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Onboarding"
+              "title": "OM Ciclo 49"
+            }
+          },
+          {
+            "id": "c3040394531b6d0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OM Ciclo 48"
             }
           }
         ]
@@ -140,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Onboarding.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Onboarding"
+              "title": "Outline of OM Ciclo 49"
             }
           }
         ],
@@ -165,10 +179,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "3d08cf01e881e7ef",
+  "active": "5a3c8d5ef7a4787b",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Onboarding.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Revisando Solidus eCommerce.md",
