@@ -487,3 +487,21 @@ Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
 ```
+
+## Caso OM-9594 - Stuck in Submitted 🟡
+
+```ruby
+request = CareValidate::Request.find("")
+request.update!(state: "needs_resubmission")
+```
+
+- [x] Cambiar estado a `needs_resubmission`
+- [x] Hacer resubmit en Ontraport
+- [ ] Comprobar nuevo CareValidate::Request creado
+- [ ] Comprobar Script pasó a Pharmacy Selected
+- [ ] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
