@@ -470,7 +470,7 @@ Jaime me dijo que toca, desde Salesforce, que hagan un "Resubmit to MSO":
 
 Jaime me dice que hay que hacer esto para que el sistema vuelva a hacer sync de la medicina con información nueva.
 
-## Caso OM-9593 - Stuck in Submitted 🟡
+## Caso OM-9593 - Stuck in Submitted 🟢
 
 ```ruby
 request = CareValidate::Request.find("")
@@ -479,9 +479,9 @@ request.update!(state: "needs_resubmission")
 
 - [x] Cambiar estado a `needs_resubmission`
 - [x] Hacer resubmit en Ontraport
-- [ ] Comprobar nuevo CareValidate::Request creado
-- [ ] Comprobar Script pasó a Pharmacy Selected
-- [ ] Indicar a CS que el script fue resubmiteado
+- [x] Comprobar nuevo CareValidate::Request creado
+- [x] Comprobar Script pasó a Pharmacy Selected
+- [x] Indicar a CS que el script fue resubmiteado
 
 Mensaje para CS:
 ```
