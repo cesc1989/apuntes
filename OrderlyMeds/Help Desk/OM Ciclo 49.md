@@ -202,7 +202,7 @@ Para corregir entonces hizo los siguientes cambios en el `IncomingWebhook` del `
 
 Lo primero que hizo fue ubicar el Request e inspeccionar que tuviera valor en `incoming_webhook_ids`:
 ```ruby
-request = CareValidate::Request.find "019e9877-d0fd-7660-ad53-2793fd8301a3"
+request = CareValidate::Request.find("019e9877-d0fd-7660-ad53-2793fd8301a3")
 ```
 
 Después, se inspecciona dicho incoming webhook:
