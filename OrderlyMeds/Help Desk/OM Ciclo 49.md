@@ -488,7 +488,7 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9594 - Stuck in Submitted 🟡
+## Caso OM-9594 - Stuck in Submitted 🟢
 
 > [!Note]
 > El estado del request de este caso es `needs_prescriber_submission`.
@@ -500,9 +500,9 @@ request.update!(state: "needs_resubmission")
 
 - [x] Cambiar estado a `needs_resubmission`
 - [x] Hacer resubmit en Ontraport
-- [ ] Comprobar nuevo CareValidate::Request creado
-- [ ] Comprobar Script pasó a Pharmacy Selected
-- [ ] Indicar a CS que el script fue resubmiteado
+- [x] Comprobar nuevo CareValidate::Request creado
+- [x] Comprobar Script pasó a Pharmacy Selected
+- [x] Indicar a CS que el script fue resubmiteado
 
 Mensaje para CS:
 ```
