@@ -219,16 +219,12 @@ Esto es un ejemplo de `payload`:
 {
   "contactId" => "427226",
   "scriptId" => "785154",
-
   "firstName" => "Lalo",
   "lastName" => "Landa",
   "dob" => "",
   "phone" => "",
   "email" => "",
 
-  "allergies" => "None",
-
-  "contraindication" => "None",
   "visitType" => "weightlossfollowup",
   "2monthsstarter" => "No",
 
