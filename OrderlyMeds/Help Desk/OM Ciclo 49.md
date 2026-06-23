@@ -527,6 +527,13 @@ Revisando en Care Overview, en la pestaña "Casa Pharmacy Orders" aparece esto:
 
 Nota el label amarillo que dice "pending_support_review". Esa es la pista que me dio Fabian.
 
+Esto denota un error del sync en `Casa::SubmitCasaOrder`. Snippet:
+```ruby
+if Casa::ClassifyOrderFailure.permanently_unorderable?(failure_reason)
+	casa_order.mark_pending_support_review!
+end
+```
+
 ##### ¿Por qué Casa y no PerfectRx?
 
 Porque cuando se revisa la pestaña "Orders" en Care Overview, para este caso, se ve que está pendiente la de Casa.
