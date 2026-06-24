@@ -594,25 +594,26 @@ Script resubmitted. Please check it out.
 
 Similar al caso OM-9621. El caso decía "Stuck in Submitted" pero cuando revisé estaba ya en "Order at Pharmacy."
 
-## Caso OM-9632 - New MP 🟢
+## Casos de Check in Reset o MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
+
+- OM-9632
+- OM-9640
+- OM-9669
+- OM-9672
+- OM-9674
+- OM-9675
+- OM-9677
+- OM-9678
+- OM-9679
 
 Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9640 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9642 - Oops Error 🟢
+## Casos de Oops Error 🟢
 
 Etiquetas: #om_oops_error 
 
@@ -636,11 +637,8 @@ Salesforce::CustomerUser.create(
 )
 ```
 
-## Caso OM-9669 - New MP 🟢
+Casos:
 
-Etiquetas: #om_new_mp #om_checkin_reset
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
+- OM-9642
+- OM-9671
+- OM-9676
