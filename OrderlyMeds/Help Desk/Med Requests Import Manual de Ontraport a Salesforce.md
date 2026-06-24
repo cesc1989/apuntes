@@ -1,6 +1,6 @@
 # Importar manual Medication Requests de Ontraport a Salesforce - OrderlyMeds
 
-Para el caso [[OM Ciclo 48#Caso OM-9334 - Check In Error - hk connect 🟡ℹ️]]
+Para el caso [[OM Ciclo 48#Caso OM-9334 - Check In Error - Heroku Connect 🟢ℹ️]]
 
 ## Trigger manual de partes de Salesforce::ImportAccountFromOntraportContactJob
 
