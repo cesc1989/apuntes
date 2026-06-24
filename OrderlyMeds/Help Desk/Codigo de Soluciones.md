@@ -23,5 +23,5 @@ end
 
 Después se ejecuta la función pasando el correo:
 ```ruby
-new_member_period("correodelcx")
+new_member_period("")
 ```
