@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "Fallo al crear Casa Order - OM-9398"
             }
-          },
-          {
-            "id": "c7cc3f515f551690",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 49"
-            }
           }
         ]
       }
