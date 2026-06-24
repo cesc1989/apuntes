@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 49"
             }
+          },
+          {
+            "id": "801e2ac435cf4b36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Codigo de Soluciones.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Codigo de Soluciones"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+                "file": "OrderlyMeds/Codigo de Soluciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 49"
+              "title": "Outline of Codigo de Soluciones"
             }
           }
         ],
@@ -165,15 +180,16 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "18920528d6174ee3",
+  "active": "801e2ac435cf4b36",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/attachments/om_9621.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9612.01.png",
     "OrderlyMeds/Help Desk/attachments/om_9398.05.png",
     "OrderlyMeds/Help Desk/attachments/om_9398.04.png",
     "OrderlyMeds/Help Desk/attachments/om_9398_03.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/attachments/om_9569.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9569.01.png",
     "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
@@ -196,7 +212,6 @@
     "OrderlyMeds/OrderlyMeds Glossary.md",
     "OrderlyMeds/Enlaces y Notas.md",
     "OrderlyMeds/Help Desk/attachments/ontraport.medidprescribed.png",
-    "OrderlyMeds/Help Desk/attachments/starter-pack.png",
     "Otro_Espacio/Blog/posts/03 - Dev Tools para Todos.md",
     "OrderlyMeds/Help Desk/attachments",
     "OrderlyMeds/Help Desk",
