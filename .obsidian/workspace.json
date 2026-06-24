@@ -35,8 +35,7 @@
               "title": "Codigo de Soluciones"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Codigo de Soluciones.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Codigo de Soluciones"
+              "title": "Outline of OM Ciclo 49"
             }
           }
         ],
@@ -180,11 +179,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "801e2ac435cf4b36",
+  "active": "18920528d6174ee3",
   "lastOpenFiles": [
+    "OrderlyMeds/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/attachments/om_9621.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9612.01.png",
     "OrderlyMeds/Help Desk/attachments/om_9398.05.png",
