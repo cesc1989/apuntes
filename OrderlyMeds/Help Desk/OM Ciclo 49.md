@@ -634,3 +634,27 @@ Corrí comando y respondí al Linear con:
 ```
 👋🏾 CX is ready for check-in.
 ```
+
+## Caso OM-9613 - Oops Error 🟢
+
+Etiquetas: #om_oops_error 
+
+- [x] Revisar el account
+
+```ruby
+account = Account.find_by(email: "")
+account.workos_user_nk
+```
+
+- [x] Actualizar el campo `workos_user_nk`
+```ruby
+account.update!(workos_user_nk: "")
+```
+
+- [x] Sincronizar salesforce
+```ruby
+Salesforce::CustomerUser.create(
+  salesforce_person_account: account.salesforce_account,
+  local_account: account
+)
+```
