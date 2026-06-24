@@ -595,3 +595,29 @@ casa_order = Casa::Order.find "019ef238-5739-74ce-88df-7ea6526aef27"
 casa_order.reset!
 Casa::SubmitCasaOrder.call(casa_order: casa_order, logger: Rails.logger)
 ```
+
+## Caso OM-9621 - Stuck in Submitted 🟢ℹ️
+
+```ruby
+request = CareValidate::Request.find("")
+request.update!(state: "needs_resubmission")
+```
+
+- [x] Cambiar estado a `needs_resubmission`
+- [x] Hacer resubmit en Ontraport
+- [x] Comprobar nuevo CareValidate::Request creado
+- [x] Comprobar Script pasó a Pharmacy Selected
+- [x] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
+
+### Sobre Script ya en Pharmacy Selected
+
+El caso decía que estaba "Stuck in Submitted" y me fue asignado. Cuando fui a ver el Script ya estaba en "Pharmacy Selected". Lucía así:
+![[om_9612.01.png]]
+
+En todo caso hice el resubmit y luego salió lo que esperaba ver del webhook:
+![[om_9621.02.png]]
