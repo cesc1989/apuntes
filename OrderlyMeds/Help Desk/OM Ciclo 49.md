@@ -340,110 +340,20 @@ El Outcome del Script es "Script Error".
 > Lo mismo que pasó con [[OM Ciclo 48#Caso OM-9215 - Script error - Beluga 🟢ℹ️]]
 
 
-## Caso OM-9582 - New MP 🟢
+## Casos de New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
-```ruby
-new_member_period("gaela87@yahoo.com")
-```
+Casos:
 
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9596 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("tpatel021@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9599 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("njlograsso@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-
-## Caso OM-9590 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("skhansen1962@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9598 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("ramimperry@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9600 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("trenton.holland@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9604 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("amandawilson1027@icloud.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9605 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("swcampbell33@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
+- OM-9582
+- OM-9596
+- OM-9599
+- OM-9590
+- OM-9598
+- OM-9600
+- OM-9604
+- OM-9605
 
 ## Caso OM-9569 - Prescribed but error in CV channel 🟡ℹ️
 
