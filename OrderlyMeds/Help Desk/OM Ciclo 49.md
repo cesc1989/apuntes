@@ -504,7 +504,7 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9398 - Fallo al crear el order 🟡🔑
+## Caso OM-9398 - Fallo al crear Casa Order 🟡🔑
 
 > [!Important]
 > Esto es una continuación de [[OM Ciclo 49#Caso OM-9398 - Stuck in Active 🟢🔑]]. Lo descrito en el anterior bloque sí sirvió para desbloquear pero este Script tiene otro problema. Es el que se intentará resolver a continuación.
@@ -518,7 +518,7 @@ Con esta captura de Ontraport:
 ![[om_9398_03.png]]
 
 Pregunté a Fabian y me dijo:
-> significa que ==esta prescrito pero que fallo a la hora de crear al orden==. Es un problema aparte.
+> significa que ==esta prescrito pero que falló a la hora de crear la orden==. Es un problema aparte.
 
 ### Pistas
 
