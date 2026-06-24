@@ -593,3 +593,45 @@ Script resubmitted. Please check it out.
 ```
 
 Similar al caso OM-9621. El caso decía "Stuck in Submitted" pero cuando revisé estaba ya en "Order at Pharmacy."
+
+## Caso OM-9632 - New MP 🟢
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+## Caso OM-9640 - New MP 🟢
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+## Caso OM-9642 - Oops Error 🟢
+
+Etiquetas: #om_oops_error 
+
+- [x] Revisar el account
+
+```ruby
+account = Account.find_by(email: "")
+account.workos_user_nk
+```
+
+- [x] Actualizar el campo `workos_user_nk`
+```ruby
+account.update!(workos_user_nk: "")
+```
+
+- [x] Sincronizar salesforce
+```ruby
+Salesforce::CustomerUser.create(
+  salesforce_person_account: account.salesforce_account,
+  local_account: account
+)
+```

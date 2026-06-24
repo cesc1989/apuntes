@@ -28,15 +28,14 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Codigo de Soluciones"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "9569",
+                "query": "tag:#om_checkin_reset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Codigo de Soluciones"
+              "title": "Outline of OM Ciclo 49"
             }
           }
         ],
@@ -180,15 +179,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "281178e5aff64482",
+  "active": "a39a78b6d20b88ad",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
     "DevAsPros/Infra/Puma como App Server 🟢.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_9621.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9612.01.png",
