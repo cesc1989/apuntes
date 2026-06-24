@@ -447,18 +447,6 @@ El caso decía que estaba "Stuck in Submitted" y me fue asignado. Cuando fui a v
 En todo caso hice el resubmit y luego salió lo que esperaba ver del webhook:
 ![[om_9621.02.png]]
 
-## Caso OM-9608 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("nicolemjk22@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
 
 ## Caso OM-9613 - Oops Error 🟢
 
@@ -504,10 +492,11 @@ Script resubmitted. Please check it out.
 
 Similar al caso OM-9621. El caso decía "Stuck in Submitted" pero cuando revisé estaba ya en "Order at Pharmacy."
 
-## Casos de Check in Reset o MP 🟢
+## Casos de Check in Reset o new MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
+- OM-9608
 - OM-9632
 - OM-9640
 - OM-9669

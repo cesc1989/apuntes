@@ -14,25 +14,11 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "OM Ciclo 49"
-            }
-          },
-          {
-            "id": "281178e5aff64482",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
             }
           }
         ]
@@ -183,12 +169,12 @@
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
     "DevAsPros/Infra/Puma como App Server 🟢.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_9621.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9612.01.png",
     "OrderlyMeds/Help Desk/attachments/om_9398.05.png",
