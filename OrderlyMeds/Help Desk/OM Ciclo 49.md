@@ -573,3 +573,23 @@ Salesforce::CustomerUser.create(
   local_account: account
 )
 ```
+
+## Caso OM-9602 - Stuck in Submitted 🟢ℹ️
+
+```ruby
+request = CareValidate::Request.find("")
+request.update!(state: "needs_resubmission")
+```
+
+- [x] Cambiar estado a `needs_resubmission`
+- [x] Hacer resubmit en Ontraport
+- [x] Comprobar nuevo CareValidate::Request creado
+- [x] Comprobar Script pasó a Pharmacy Selected
+- [x] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
+
+Similar al caso OM-9621. El caso decía "Stuck in Submitted" pero cuando revisé estaba ya en "Order at Pharmacy."
