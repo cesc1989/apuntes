@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "OM Ciclo 49"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+                "file": "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 49"
+              "title": "Outline of Fallo al crear Casa Order - OM-9398"
             }
           }
         ],
@@ -180,10 +179,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c7cc3f515f551690",
+  "active": "18920528d6174ee3",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",

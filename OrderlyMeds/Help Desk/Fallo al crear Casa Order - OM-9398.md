@@ -2,7 +2,7 @@
 
 Esto es la explicación al detalle de este caso y todo lo que involucra.
 
-### ¿Por qué se reabre?
+## ¿Por qué se reabre?
 
 Comentaron esto:
 > I know this has been just resubmitted. However, outcome is prescribed. Bellow is the error
@@ -13,7 +13,7 @@ Con esta captura de Ontraport:
 Pregunté a Fabian y me dijo:
 > significa que ==esta prescrito pero que falló a la hora de crear la orden==. Es un problema aparte.
 
-### Pistas
+## Pistas
 
 Revisando en Care Overview, en la pestaña "Casa Pharmacy Orders" aparece esto:
 ![[om_9398.04.png]]
@@ -27,13 +27,13 @@ if Casa::ClassifyOrderFailure.permanently_unorderable?(failure_reason)
 end
 ```
 
-##### ¿Por qué Casa y no PerfectRx?
+#### ¿Por qué Casa y no PerfectRx?
 
 Porque cuando se revisa la pestaña "Orders" en Care Overview, para este caso, se ve que está pendiente la de Casa.
 
 ![[om_9398.05.png]]
 
-### Revisando la Orden en la BD
+## Revisando la Orden en la BD
 
 > [!Note]
 > El ID de `Casa::Order` está en el registro que aparece en la pestaña "Casa Orders" en Care Overview. Está en fondo gris.
@@ -49,7 +49,7 @@ Eso da una razón del fallo. En este caso fue: `:case_closed`.
 > [!Info]
 > Si un case está cerrado la API no los acepta y rechaza la petición.
 
-### Pedir reabrir el case
+## Pedir reabrir el case
 
 > [!Note]
 > El ID del case está en la pestaña "Care Validate Submissions". El la columna "Case NK".
@@ -63,7 +63,7 @@ Case link: https://accommodations.carevalidate.com/accommodations/cases/fd46e3be
 Concern/Request: Please reopen case `fd46e3be-7d7c-4b9e-a753-6bb6220c8c20`. It needs to be resubmitted.
 ```
 
-### Comprobar case está abierto
+## Comprobar case está abierto
 
 Con este código se comprueba el estado:
 ```ruby
@@ -80,7 +80,7 @@ Debería devolver algún estado que no sea:
 
 Según como indica la clase `Casa::ClassifyOrderFailure`.
 
-### Reenviar el order
+## Reenviar el order
 
 Para que se pueda continuar el proceso:
 ```ruby
