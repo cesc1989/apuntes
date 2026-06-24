@@ -29,7 +29,7 @@ end
 
 #### ¿Por qué Casa y no PerfectRx?
 
-Porque cuando se revisa la pestaña "Orders" en Care Overview, para este caso, se ve que está pendiente la de Casa.
+Porque cuando se revisa la pestaña "Orders" en Care Overview se ve que está pendiente la de Casa.
 
 ![[om_9398.05.png]]
 
@@ -67,7 +67,7 @@ Concern/Request: Please reopen case `fd46e3be-7d7c-4b9e-a753-6bb6220c8c20`. It n
 
 Con este código se comprueba el estado:
 ```ruby
-casa_order = Casa::Order.find "019ef238-5739-74ce-88df-7ea6526aef27"
+casa_order = Casa::Order.find("019ef238-5739-74ce-88df-7ea6526aef27")
 failure_reason = Casa::ClassifyOrderFailure.call(casa_order: casa_order, logger: Logger.new($stdout))
 ```
 
@@ -84,7 +84,7 @@ Según como indica la clase `Casa::ClassifyOrderFailure`.
 
 Para que se pueda continuar el proceso:
 ```ruby
-casa_order = Casa::Order.find "019ef238-5739-74ce-88df-7ea6526aef27"
+casa_order = Casa::Order.find("019ef238-5739-74ce-88df-7ea6526aef27")
 casa_order.reset!
 Casa::SubmitCasaOrder.call(casa_order: casa_order, logger: Rails.logger)
 ```
