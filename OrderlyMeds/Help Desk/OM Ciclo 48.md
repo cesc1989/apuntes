@@ -576,7 +576,7 @@ Dice:
 
 Jaime me explicó que en este caso revisar en Salesforce si el MP tiene "Medication Requests". Si no hay nada, quiere decir que ==hubo un problema en la migración de Ontraport a Salesforce.==
 
-Ver el detalle de cómo resolver en [[OM - Med Requests Import Manual de Ontraport a Salesforce]]
+Ver el detalle de cómo resolver en [[Med Requests Import Manual de Ontraport a Salesforce]]
 
 > [!Important]
 > Sí se resolvió cómo explicó Jaime. Pasa que el día que me explicó había algún bug y no terminaba bien el proceso. Cuando Fabian probó días después, el modo manual funcionó.
