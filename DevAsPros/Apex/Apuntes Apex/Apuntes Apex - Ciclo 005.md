@@ -27,9 +27,12 @@ Por alguna razón el comando no la crea. Solo creó el archivo del Schema. Claud
 
 Ver commit: https://github.com/cesc1989/cashflow/commit/f6bb084314664e26f67c93f2cdb4e808c3c77783
 
-### cache config debe ser `migration_paths`
+### cache config debe ser `migrations_paths`
 
-Había escrito a mano `migration_path`. Era en plural.
+Había escrito a mano `migration_path`. Era en plural:
+```
+migrations_paths
+```
 
 ### Solucionado
 
