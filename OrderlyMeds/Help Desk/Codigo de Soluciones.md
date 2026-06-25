@@ -2,6 +2,8 @@
 
 ## Crear Nuevo Member Period
 
+Etiquetas: #om_new_mp 
+
 ```ruby
 def new_member_period(email, checkin_due_date: Date.today + 14.days)
   account = Account.where(email:).sole.salesforce_account
@@ -27,6 +29,8 @@ new_member_period("")
 ```
 
 ## Actualizar campo `workos_user_nk` para solucionar "Oops error"
+
+Etiquetas: #om_oops_error 
 
 ```ruby
 def fix_workos_user_nk(email:, workos_user_id:)
@@ -54,4 +58,44 @@ end
 Ejecuta pasando el correo y el id copiado desde WorkOS:
 ```ruby
 fix_workos_user_nk(email: "", workos_user_id: "")
+```
+
+## Resincronizar Account a Salesforce para resolver error de NO_ACCESS
+
+Etiquetas: #om_no_access_error 
+
+```ruby
+def fix_salesforce_customer_user(account_id:)
+  puts "Buscando account con id: #{account_id}"
+  account = Account.find(account_id)
+  puts "Account encontrado: id=#{account.id}, email=#{account.email}"
+
+  puts "salesforce_account: #{account.salesforce_account&.id}"
+  puts "Creando Salesforce::CustomerUser para account id=#{account.id}"
+  Salesforce::CustomerUser.create(
+    salesforce_person_account: account.salesforce_account,
+    local_account: account
+  )
+  puts "Salesforce::CustomerUser creado exitosamente"
+end
+```
+
+Correr con:
+```ruby
+fix_salesforce_customer_user(account_id: "ACCOUNT_ID")
+```
+
+## Crear cuenta en WorkOS - Error de one-time code
+
+Etiquetas: #om_one_time_code_error 
+
+Esta depende si el Account está ligado a Ontraport o Salesforce.
+
+Función:
+```ruby
+```
+
+Ejecuta con:
+```ruby
+
 ```
