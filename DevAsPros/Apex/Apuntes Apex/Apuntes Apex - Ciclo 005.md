@@ -78,7 +78,7 @@ La diferencia es que ahora activé caché en development con `:solid_cache_store
 
 Tampoco generé ni corrí migraciones. El comando `db:prepare` cargó correctamente la tabla como indica el schema de cache.
 
-### Comprobaciones
+### Comprobaciones en development
 
 Que la tabla `solid_cache_entries` existe:
 ```bash
@@ -89,4 +89,17 @@ ar_internal_metadata  schema_migrations     solid_cache_entries
 Que haya registros en la tabla:
 ```bash
 sqlite3 db/coshinotes_development_cache.sqlite "SELECT * FROM solid_cache_entries;"
+```
+
+### Comprobaciones en production
+
+Que la tabla `solid_cache_entries` existe:
+```bash
+sqlite3 /home/ubuntu/coshinotes/db/coshinotes_production_cache.sqlite ".tables"
+ar_internal_metadata  schema_migrations     solid_cache_entries
+```
+
+Que haya registros en la tabla:
+```bash
+sqlite3 /home/ubuntu/coshinotes/db/coshinotes_production_cache.sqlite "SELECT * FROM solid_cache_entries;"
 ```
