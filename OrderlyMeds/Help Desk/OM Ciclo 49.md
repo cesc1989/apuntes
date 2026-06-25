@@ -188,9 +188,14 @@ Lo primero que hizo fue ubicar el Request e inspeccionar que tuviera valor en `i
 request = CareValidate::Request.find("019e9877-d0fd-7660-ad53-2793fd8301a3")
 ```
 
+Ubica el webhook correspondiente:
+```ruby
+webhook_id = request.incoming_webhook_ids # first o last o copia manual
+existing_webhook = IncomingWebhook.find(webhook_id)
+```
+
 Después, se inspecciona dicho incoming webhook:
 ```ruby
-existing_webhook = IncomingWebhook.find(request.incoming_webhook_ids.first)
 existing_webhook.data
 ```
 
