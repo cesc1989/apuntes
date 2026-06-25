@@ -531,3 +531,47 @@ Salesforce::CustomerUser.create(
 ```
 
 Luego se Impersona para comprobar que se pueda completar la orden.
+
+## Caso OM-9618 - Error de one-time code 🟢
+
+Etiquetas: #om_one_time_code_error
+
+El error es porque el sistema no puede enviar el código único al intentar hacer login.
+
+> Failed to send one-time code. Please try again.
+
+Esto se da porque el Account no tiene `workos_user_nk`. Cuando intento impersonar veo que no se puede. Si busco el email en WorkOS no aparece. O sea que el CX no tiene cuenta en WorkOS. Hay que crearla.
+
+### Crear cuenta en WorkOS
+
+Hay que buscar la cuenta y darse cuenta si hay algún valor en `salesforce_account_nk`. Si no hay nada toca crearla usando los datos de Ontraport.
+
+Que es lo mismo que fijarse en el perfil del CX en Success si aparece el enlace a Salesforce o a Ontraport.
+
+Para crealo si está en Salesforce:
+```ruby
+account = Account.find("ACCOUNTID")
+
+workos_user = Workos::CreateCustomerUser.call(
+  email: account.salesforce_account.person_email,
+  first_name: account.salesforce_account.first_name,
+  last_name: account.salesforce_account.last_name
+)
+
+account.update!(workos_user_nk: workos_user.id)
+```
+
+Para crearlo si está en Ontraport:
+```ruby
+account = Account.find("ACCOUNTID")
+
+workos_user = Workos::CreateCustomerUser.call(
+	email: account.email,
+	first_name: account.contact.first_name,
+	last_name: account.contact.last_name
+)
+
+account.update!(workos_user_nk: workos_user.id)
+```
+
+Después de esto debe poderse Impersonar.
