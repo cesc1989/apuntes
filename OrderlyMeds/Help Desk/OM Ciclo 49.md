@@ -139,31 +139,14 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9573 - New MP 🟢
+## Casos de New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
-```ruby
-new_member_period("nikki199043@gmail.com")
-```
+Casos:
 
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9577 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("mbernar9@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
+- OM-9573
+- OM-9577
 
 ## Caso OM-9398 - Stuck in Active 🟢🔑
 
