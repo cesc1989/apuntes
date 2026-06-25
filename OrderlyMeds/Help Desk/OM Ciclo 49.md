@@ -360,11 +360,6 @@ Jaime me dice que hay que hacer esto para que el sistema vuelva a hacer sync de 
 
 ## Caso OM-9593 - Stuck in Submitted 🟢
 
-```ruby
-request = CareValidate::Request.find("")
-request.update!(state: "needs_resubmission")
-```
-
 - [x] Cambiar estado a `needs_resubmission`
 - [x] Hacer resubmit en Ontraport
 - [x] Comprobar nuevo CareValidate::Request creado
@@ -380,11 +375,6 @@ Script resubmitted. Please check it out.
 
 > [!Note]
 > El estado del request de este caso es `needs_prescriber_submission`.
-
-```ruby
-request = CareValidate::Request.find("")
-request.update!(state: "needs_resubmission")
-```
 
 - [x] Cambiar estado a `needs_resubmission`
 - [x] Hacer resubmit en Ontraport
@@ -405,11 +395,6 @@ Script resubmitted. Please check it out.
 Todo el detalle de esta segunda parte del caso está en [[Fallo al crear Casa Order - OM-9398]]
 
 ## Caso OM-9621 - Stuck in Submitted 🟢ℹ️
-
-```ruby
-request = CareValidate::Request.find("")
-request.update!(state: "needs_resubmission")
-```
 
 - [x] Cambiar estado a `needs_resubmission`
 - [x] Hacer resubmit en Ontraport
