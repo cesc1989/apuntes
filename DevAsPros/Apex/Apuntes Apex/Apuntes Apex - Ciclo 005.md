@@ -83,6 +83,10 @@ Tampoco generé ni corrí migraciones. El comando `db:prepare` cargó correctame
 Que la tabla `solid_cache_entries` existe:
 ```bash
 sqlite3 db/coshinotes_development_cache.sqlite ".tables"
+```
+
+Salida:
+```
 ar_internal_metadata  schema_migrations     solid_cache_entries
 ```
 
@@ -91,15 +95,34 @@ Que haya registros en la tabla:
 sqlite3 db/coshinotes_development_cache.sqlite "SELECT * FROM solid_cache_entries;"
 ```
 
+Salida:
+```
+1|development:views/channels/_channel_sidebar_link:c02afcda0bc5cfe9854e4ca149645001/channels/10||2026-06-25 15:19:00.986|1231452830542347237|552
+2|development:views/channels/_channel_sidebar_link:c02afcda0bc5cfe9854e4ca149645001/channels/11||2026-06-25 15:19:00.986|3557732115909629118|562
+3|development:views/channels/_channel_sidebar_link:c02afcda0bc5cfe9854e4ca149645001/channels/12||2026-06-25 15:19:00.986|-2205069113842622211|560
+4|development:views/channels/_channel_sidebar_link:c02afcda0bc5cfe9854e4ca149645001/channels/13||2026-06-25 15:19:00.986|8992826110138243640|549
+```
+
 ### Comprobaciones en production
 
 Que la tabla `solid_cache_entries` existe:
 ```bash
 sqlite3 /home/ubuntu/coshinotes/db/coshinotes_production_cache.sqlite ".tables"
+```
+
+Salida:
+```
 ar_internal_metadata  schema_migrations     solid_cache_entries
 ```
 
 Que haya registros en la tabla:
 ```bash
 sqlite3 /home/ubuntu/coshinotes/db/coshinotes_production_cache.sqlite "SELECT * FROM solid_cache_entries;"
+```
+
+Salida:
+```
+1|production:views/channels/_channel_sidebar_link:c02afcda0bc5cfe9854e4ca149645001/channels/19||2026-06-25 15:32:25.150|-390684936100095991|424
+2|production:views/channels/_channel_sidebar_link:c02afcda0bc5cfe9854e4ca149645001/channels/4||2026-06-25 15:32:25.150|4968869385513269673|435
+3|production:views/channels/_channel_sidebar_link:c02afcda0bc5cfe9854e4ca149645001/channels/3||2026-06-25 15:32:25.150|4439620222759468254|438
 ```
