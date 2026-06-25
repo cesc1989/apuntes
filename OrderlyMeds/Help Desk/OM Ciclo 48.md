@@ -244,58 +244,26 @@ En el Case Overview el Request que estaba en _waiting_for_prescription_ se habr�
 
 Otro indicador de que el resubmit funcionó es que el **Outcome** del script cambió a "Pharmacy Selected". También podría estar en "Order At Pharmacy".
 
-## Caso OM-9327 - New MP Salesforce 🟢
+## Casos de New MP / Check In Reset 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
-Corrí el comando en la consola para crear el nuevo MP. Indiqué en el hilo del Linear y cerré el ticket.
-
-```ruby
-def new_member_period(email, checkin_due_date: Date.today + 14.days)
-  account = Account.where(email:).sole.salesforce_account
-  previous_member_period = account.latest_member_period
-  checkin_deadline_date = checkin_due_date + Salesforce::MemberPeriod::CHECKIN_GRACE_PERIOD
-  new_lifecycle_stage = (previous_member_period.customer_type == "Employee") ? "NotApplicable" : "Existing"
-
-  Salesforce::MemberPeriod.create!(
-    account: previous_member_period.account,
-    status: "ReadyForCheckin",
-    customer_type: previous_member_period.customer_type,
-    customer_lifecycle_stage: new_lifecycle_stage,
-    loyalty_points: previous_member_period.loyalty_points,
-    checkin_due_date: checkin_due_date,
-    checkin_deadline_date: checkin_deadline_date
-  )
-end
-```
-
-```ruby
-new_member_period("lawrencebmarshall@gmail.com")
-```
-
-## Caso OM-9333 - Reset Check-In 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("anita@ctive.net")
-```
-
-## Caso OM-9328 - Reset Check-In 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("lenamoyle@gmail.com")
-```
-
-## Caso OM-9332 - Reset Check-In 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("ijoguike@gmail.com")
-```
+Casos:
+- OM-9327
+- OM-9333
+- OM-9328
+- OM-9332
+- OM-9330
+- OM-9359
+- OM-9365
+- OM-9364
+- OM-9363
+- OM-9344
+- OM-9331
+- OM-9368
+- OM-9405
+- OM-9403
+- OM-9402
 
 ## Caso OM-9217 - Reset Check-In 🟢ℹ️
 
@@ -342,110 +310,6 @@ Se hace un Impersonate y se revisa que cargue como Starter Pack:
 ![[starter-pack.png]]
 
 Lo que aparece dentro del recuadro rojo. En la lista de selección debe aparecer alguna opción que sea "starter pack".
-
-## Caso OM-9330 - Reset Check-In 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("brendaluvschance@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9359 - Reset Check-In 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("marcofalcioni@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9365 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("ibgoogey@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9364 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("simmyunlimited@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9363 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("brittisernia@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9344 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("dcorry73@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9331 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("vanweelden16@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9368 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("melissa.eagar@outlook.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
 
 ## Caso OM-9221 - Oops Error 🟢
 
@@ -512,45 +376,6 @@ Todos:
 - [x] Revisar el account
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
-
-## Caso OM-9405 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("llpace@hotmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9403 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("caitlynsabatino13@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
-
-## Caso OM-9402 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("wendylaird@verizon.net")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
 
 ## Caso OM-9215 - Script error - Beluga 🟢ℹ️
 

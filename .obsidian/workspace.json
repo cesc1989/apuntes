@@ -11,10 +11,14 @@
             "id": "d0e300d1af85ae4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "OM Ciclo 48"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of OM Ciclo 48"
             }
           }
         ],
