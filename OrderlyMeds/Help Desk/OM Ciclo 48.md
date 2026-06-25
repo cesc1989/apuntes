@@ -264,6 +264,7 @@ Casos:
 - OM-9405
 - OM-9403
 - OM-9402
+- OM-9385
 
 ## Caso OM-9217 - Reset Check-In 🟢ℹ️
 
@@ -436,18 +437,6 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9385 - Reset Check-In 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("becki2pup@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
 
 ## Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟢
 
