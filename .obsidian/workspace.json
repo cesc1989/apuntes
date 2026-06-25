@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d0e300d1af85ae4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 48"
-            }
-          },
-          {
             "id": "ea1d416fe0449e7a",
             "type": "leaf",
             "state": {
@@ -154,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 48"
+              "title": "Outline of Codigo de Soluciones"
             }
           }
         ],
@@ -179,10 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "d0e300d1af85ae4f",
+  "active": "ea1d416fe0449e7a",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",

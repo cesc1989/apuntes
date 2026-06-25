@@ -29,13 +29,29 @@ new_member_period("")
 ## Actualizar campo `workos_user_nk` para solucionar "Oops error"
 
 ```ruby
-account = Account.find_by(email: "")
-account.workos_user_nk
+def fix_workos_user_nk(email:, workos_user_id:)
+  puts "Buscando account con email: #{email}"
+  account = Account.find_by(email:)
+  raise "Account no encontrado para email: #{email}" unless account
 
-account.update!(workos_user_nk: "")
+  puts "Account encontrado: id=#{account.id}, email=#{account.email}"
+  puts "Valor actual de workos_user_nk: #{account.workos_user_nk.inspect}"
 
-Salesforce::CustomerUser.create(
-  salesforce_person_account: account.salesforce_account,
-  local_account: account
-)
+  puts "Actualizando workos_user_nk a: #{workos_user_id}"
+  account.update!(workos_user_nk: workos_user_id)
+  puts "workos_user_nk actualizado correctamente: #{account.reload.workos_user_nk}"
+
+  puts "Creando Salesforce::CustomerUser para account id=#{account.id}"
+  puts "  salesforce_account: #{account.salesforce_account&.id}"
+  Salesforce::CustomerUser.create(
+    salesforce_person_account: account.salesforce_account,
+    local_account: account
+  )
+  puts "Salesforce::CustomerUser creado exitosamente"
+end
+```
+
+Ejecuta pasando el correo y el id copiado desde WorkOS:
+```ruby
+fix_workos_user_nk(email: "", workos_user_id: "")
 ```
