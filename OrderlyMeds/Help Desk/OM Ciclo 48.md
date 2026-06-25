@@ -378,7 +378,7 @@ Todos:
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
 
-## Caso OM-9215 - Script error - Beluga 🟢ℹ️
+## Caso OM-9215 - Script error - Beluga Missing Values 🟢ℹ️
 
 Etiquetas: #om_script_error #om_beluga
 

@@ -25,3 +25,17 @@ Después se ejecuta la función pasando el correo:
 ```ruby
 new_member_period("")
 ```
+
+## Actualizar campo `workos_user_nk` para solucionar "Oops error"
+
+```ruby
+account = Account.find_by(email: "")
+account.workos_user_nk
+
+account.update!(workos_user_nk: "")
+
+Salesforce::CustomerUser.create(
+  salesforce_person_account: account.salesforce_account,
+  local_account: account
+)
+```
