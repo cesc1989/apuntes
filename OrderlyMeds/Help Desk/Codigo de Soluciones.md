@@ -93,9 +93,39 @@ Esta depende si el Account está ligado a Ontraport o Salesforce.
 
 Función:
 ```ruby
+def create_workos_user(account_id:, source:)
+  raise "source debe ser 'salesforce' o 'ontraport'" unless %w[salesforce ontraport].include?(source)
+
+  puts "Buscando account con id: #{account_id}"
+  account = Account.find(account_id)
+  puts "Account encontrado: id=#{account.id}, email=#{account.email}"
+
+  puts "Obteniendo datos desde: #{source}"
+  email, first_name, last_name = case source
+  when "salesforce"
+    sf = account.salesforce_account
+    puts "  salesforce_account id: #{sf&.id}"
+    [sf.person_email, sf.first_name, sf.last_name]
+  when "ontraport"
+    contact = account.contact
+    puts "  contact id: #{contact&.id}"
+    [account.email, contact.first_name, contact.last_name]
+  end
+
+  puts "Datos a usar — email: #{email}, first_name: #{first_name}, last_name: #{last_name}"
+
+  puts "Creando WorkOS user..."
+  workos_user = Workos::CreateCustomerUser.call(email:, first_name:, last_name:)
+  puts "WorkOS user creado: id=#{workos_user.id}"
+
+  puts "Actualizando workos_user_nk en account id=#{account.id}"
+  account.update!(workos_user_nk: workos_user.id)
+  puts "workos_user_nk actualizado correctamente: #{account.reload.workos_user_nk}"
+end
 ```
 
 Ejecuta con:
 ```ruby
-
+create_workos_user(account_id: "ACCOUNT_ID", source: "salesforce")
+# create_workos_user(account_id: "ACCOUNT_ID", source: "ontraport")
 ```
