@@ -509,3 +509,25 @@ Casos:
 - OM-9642
 - OM-9671
 - OM-9676
+
+## Caso OM-9673 - NO_ACCESS Error 🟢
+
+Etiquetas: #om_no_access_error
+
+El mensaje de error es:
+> We can't log you in because of the following error.
+> NO_ACCESS: Unable to find a user.
+
+Hay que resincronizar la cuenta con Salesforce.
+
+Se hace así:
+```ruby
+account = Account.find("ACCOUNT_ID")
+
+Salesforce::CustomerUser.create(
+  salesforce_person_account: account.salesforce_account,
+  local_account: account
+)
+```
+
+Luego se Impersona para comprobar que se pueda completar la orden.
