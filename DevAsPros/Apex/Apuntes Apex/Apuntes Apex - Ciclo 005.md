@@ -45,6 +45,13 @@ RAILS_ENV=production bundle exec rails db:prepare
 
 Uno para borrar y luego para recrear.
 
+### Revisar que la tabla `solid_cache_entries` existe
+
+Con este comando:
+```bash
+sqlite3 /home/ubuntu/cashflow/db/cashflow_production_cache.sqlite ".tables"
+```
+
 ### Revisando cache funciona
 
 Para comprobar que la caché funcionaba hice esto en la consola de Rails:
@@ -61,4 +68,25 @@ sqlite3 /home/ubuntu/cashflow/db/cashflow_production_cache.sqlite "SELECT * FROM
 1|production:rack::attack:29705469:req/ip:191.110.54.104||2026-06-24 19:09:35.468|5002972970595169618|213
 2|production:rack::attack:29705473:req/ip:191.110.54.104||2026-06-24 19:13:19.624|-4423181243717394209|213
 5|production:test_key||2026-06-24 19:15:13.839|-8663399159642937574|184
+```
+
+## Configurando Solid Cache en Coshi Notes
+
+Seguí las mismas instrucciones esta vez sin equivocarme 😄
+
+La diferencia es que ahora activé caché en development con `:solid_cache_store`.
+
+Tampoco generé ni corrí migraciones. El comando `db:prepare` cargó correctamente la tabla como indica el schema de cache.
+
+### Comprobaciones
+
+Que la tabla `solid_cache_entries` existe:
+```bash
+sqlite3 db/coshinotes_development_cache.sqlite ".tables"
+ar_internal_metadata  schema_migrations     solid_cache_entries
+```
+
+Que haya registros en la tabla:
+```bash
+sqlite3 db/coshinotes_development_cache.sqlite "SELECT * FROM solid_cache_entries;"
 ```
