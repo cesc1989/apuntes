@@ -343,7 +343,7 @@ Casos:
 - OM-9604
 - OM-9605
 
-## Caso OM-9569 - Prescribed but error in CV channel 🟡ℹ️
+## Caso OM-9569 - Prescribed but error in CV channel 🟢ℹ️
 
 Etiquetas: #om_prescribed #om_care_validate_error
 
@@ -580,3 +580,8 @@ account.update!(workos_user_nk: workos_user.id)
 ```
 
 Después de esto debe poderse Impersonar.
+
+## Caso OM-9520 - Script en Silent Cancel 🟡ℹ️
+
+Etiquetas: #om_checkin_error  #om_script_silent_cancel
+
