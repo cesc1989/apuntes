@@ -608,3 +608,11 @@ La solución fue dos cosas:
 	- Se agregó Beluga
 - Crear un nuevo Script en estado Checkin
 	- Lo hice desde Swagger
+
+## Caso OM-9697 - Oops Error 🟢
+
+Etiquetas: #om_oops_error 
+
+- [x] Revisar el account
+- [x] Actualizar el campo `workos_user_nk`
+- [x] Sincronizar salesforce

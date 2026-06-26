@@ -14,11 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "OM Ciclo 49"
+            }
+          },
+          {
+            "id": "6115a455e0674965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Codigo de Soluciones"
             }
           }
         ]
@@ -167,10 +181,10 @@
   },
   "active": "c9fa1a1ae91095c6",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
