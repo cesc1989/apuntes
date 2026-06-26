@@ -617,9 +617,17 @@ Etiquetas: #om_oops_error
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
 
-## Caso OM-9700 - new MP 🟢
+## Casos de new MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
+
+Casos:
+
+- OM-9700
+- OM-9725
+- OM-9723
+- OM-9724
+- OM-9718
 
 Corrí comando y respondí al Linear con:
 ```
