@@ -581,7 +581,30 @@ account.update!(workos_user_nk: workos_user.id)
 
 Después de esto debe poderse Impersonar.
 
-## Caso OM-9520 - Script en Silent Cancel 🟡ℹ️
+## Caso OM-9520 - Script en Silent Cancel 🟢ℹ️
 
 Etiquetas: #om_checkin_error  #om_script_silent_cancel
 
+Este caso es que el CX quería ordenar de nuevo pero tenía más de 60 días fuera del sistema. El issue dice que el CX intentaba completar el Health Screening pero siempre era devuelta al inicio.
+
+El Script estaba en el estado `Silen Cancel`. Que según `app/models/patient/connectors/ontraport/order_status.rb` es uno de los estados de cancelación:
+```ruby
+class Patient::Connectors::Ontraport::OrderStatus
+  STATUSES = {
+    canceled: [
+      :cancelled,
+      :churn,
+      :deleted_do_not_use_or_delete,
+      :patient_cancelled,
+      :silent_cancel
+    ],
+    checkin: [:check_in, :missed_checkin],
+end
+```
+
+La solución fue dos cosas:
+
+- Asignar un Prescriber en el perfil del CX en Ontraport
+	- Se agregó Beluga
+- Crear un nuevo Script en estado Checkin
+	- Lo hice desde Swagger
