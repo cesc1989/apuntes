@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d35ae7dfcc913d3b",
+        "id": "95009fd1836da32e",
         "type": "tabs",
         "children": [
           {
-            "id": "0cc1c7703282c6cc",
+            "id": "df0fcc0f2a69a5df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OM Ciclo 49"
-            }
-          },
-          {
-            "id": "92fef2b50f357bf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
+              "title": "New tab"
             }
           }
         ]
@@ -154,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 49"
+              "title": "Outline"
             }
           }
         ],
@@ -179,10 +160,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0cc1c7703282c6cc",
+  "active": "df0fcc0f2a69a5df",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
