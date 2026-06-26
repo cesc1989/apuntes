@@ -616,3 +616,14 @@ Etiquetas: #om_oops_error
 - [x] Revisar el account
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
+
+## Caso OM-9700 - new MP 🟢
+
+Etiquetas: #om_new_mp #om_checkin_reset
+
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
+
+
