@@ -28,6 +28,28 @@ Después se ejecuta la función pasando el correo:
 new_member_period("")
 ```
 
+## Cambiar CareValidate::Request a needs_resubmission
+
+Etiquetas: #om_stuck_in_submitted 
+
+```ruby
+def to_resubmit_ontraport_script(request_id:)
+  puts "Buscando CareValidate::Request con ID: #{request_id}"
+  request = CareValidate::Request.find(request_id)
+
+  puts "Request encontrado con state #{request.state}"
+
+  puts "\n"
+  puts "Actualizando Request a state needs_resubmission"
+  request.update!(state: "needs_resubmission")
+end
+```
+
+Ejecuta:
+```ruby
+to_resubmit_ontraport_script(request_id:)
+```
+
 ## Actualizar campo `workos_user_nk` para solucionar "Oops error"
 
 Etiquetas: #om_oops_error 

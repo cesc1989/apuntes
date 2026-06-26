@@ -35,7 +35,8 @@
               "title": "Codigo de Soluciones"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 49"
+              "title": "Outline of Codigo de Soluciones"
             }
           }
         ],
@@ -179,10 +180,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c9fa1a1ae91095c6",
+  "active": "6115a455e0674965",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
