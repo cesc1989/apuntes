@@ -91,7 +91,7 @@ Según como indica la clase `Casa::ClassifyOrderFailure`.
 
 ## Reenviar el order
 
-Para que se pueda continuar el proceso:
+Cuando lo anterior esté en buena forma se hace lo siguiente para que se pueda continuar el proceso:
 ```ruby
 casa_order = Casa::Order.find("019ef238-5739-74ce-88df-7ea6526aef27")
 casa_order.reset!
@@ -146,3 +146,86 @@ module Casa
 end
 ```
 
+# Cancelar Order y Hacer Resubmit
+
+El fix de esto no es actualizar el pharmacy_id correcto. Lo que toca hacer es cancelar la orden con problema y hacer un resubmit en Ontraport. Para ello hay que buscar el último webhook desde Ontraport y ejecutarlo de nuevo.
+
+Hay una clase que se llama `CareValidate::FixResubmitOntraportWebhook` que hace todo esto siempre y cuando el último `IncomingWebhook` sea `source_type: "ontraport"`. Si no lo es, toca ejecutar el código de manera manual.
+
+Así sería la cosa cuando el webhook más reciente no es de Ontraport:
+```ruby
+request = CareValidate::Request.find("019e9877-d0fd-7660-ad53-2793fd8301a3")
+icwhs = IncomingWebhook.where(id: request.incoming_webhook_ids)
+
+result = CareValidate::FixResubmitOntraportWebhook.call(
+  request_id: "019e9877-d0fd-7660-ad53-2793fd8301a3"
+)
+puts result
+# {error: "Latest incoming webhook must be from Ontraport"}
+```
+
+Entonces toca hacer la ejecución manual.
+
+## Correr FixResubmitOntraportWebhook manualmente
+
+Paso a paso.
+
+```ruby
+request = CareValidate::Request.find("019e9877-d0fd-7660-ad53-2793fd8301a3")
+
+ontraport_webhook = IncomingWebhook
+  .where(id: request.incoming_webhook_ids)
+  .where(source_type: "ontraport")
+  .order(created_at: :desc)
+  .first
+
+puts "Webhook ID: #{ontraport_webhook.id}"
+puts "Source event: #{ontraport_webhook.source_event}"
+puts "Source type: #{ontraport_webhook.source_type}"
+puts "Created at: #{ontraport_webhook.created_at}"
+
+# Confirma que es el correcto y luego replica lo que hace FixResubmitOntraportWebhook con ese webhook:
+
+# Reset del request
+request.update!(
+  decision: nil,
+  state: "needs_requested_medpicker_data",
+  requested_medpicker_data: nil,
+  prescribed_medpicker_data: nil
+)
+
+# Re-fetch MedPicker
+medpicker_api_payload = MedPicker::Ontraport::CreateApiData.call(
+  payload: ontraport_webhook.data,
+  source_event: ontraport_webhook.source_event
+)
+requested_medpicker_data =
+  Omfs::MedPickerApi
+    .new
+    .get_med_picker_recommendation_patient_preferences_cheapest_care_validate(
+      med_picker_patient_preferences_request_command: Omfs::MedPickerPatientPreferencesRequestCommand.new(medpicker_api_payload)
+    )
+
+puts "MedPicker pharmacy: #{requested_medpicker_data&.remote_pharmacy_name}"
+puts "MedPicker remoteProductIdentifierNk: #{requested_medpicker_data&.remote_product_identifier_nk}"
+
+# Verifica que remote_pharmacy_name sea EVO antes de continuar. Si es correcto:
+
+request.update!(requested_medpicker_data:)
+request.ready_for_care_validate_submission!
+
+CareValidate::SendCheckinJob.new.perform(ontraport_webhook.id, request.id, request.script_nk)
+```
+
+
+### Verification después de resubmit
+
+Tanto en Requested y Prescribed debe dar el mismo nombre.
+
+```ruby
+request.reload
+puts "State: #{request.state}"
+puts "Requested pharmacy: #{request.requested_medpicker_data&.dig("remotePharmacyName")}"
+puts "Prescribed pharmacy: #{request.prescribed_medpicker_data&.dig("remotePharmacyName")}"
+puts "Decision: #{request.decision}"
+```
