@@ -392,12 +392,15 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9398 - Fallo al crear Casa Order 🟡🔑
+## Caso OM-9398 - Fallo al crear Casa Order 🟢🔑
 
 > [!Important]
 > Esto es una continuación de [[OM Ciclo 49#Caso OM-9398 - Stuck in Active 🟢🔑]]. Lo descrito en el anterior bloque sí sirvió para desbloquear pero este Script tiene otro problema. Es el que se intentará resolver a continuación.
 
 Todo el detalle de esta segunda parte del caso está en [[Fallo al crear Casa Order - OM-9398]]
+
+> [!Info]
+> Fabian arregló manualmente. El error sí es lo que se detalla en el documento y sí tiene que ver con el problema del lado de Care Validate.
 
 ## Caso OM-9621 - Stuck in Submitted 🟢ℹ️
 
