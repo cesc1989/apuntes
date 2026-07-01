@@ -650,3 +650,28 @@ Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
 ```
+
+## Caso OM-9726 - Invalid Code 🟡
+
+Etiquetas: #om_invalid_code
+
+Dice:
+> The customer cannot log in to her patient portal because of an invalid code. received the code, but when tried to use it, it was invalid. We recommended basic troubleshooting steps. even tried using two devices but still can't access the portal.
+
+Al verificar tiene cuenta en Salesforce y en WorkOS:
+```ruby
+salesforce_account_nk: "019d5798-4774-70b0-ae20-95a12237a32a",
+workos_user_nk: "user_01KFGR62PC2MBNAS0ZSKR9F28Q",
+```
+
+Claudio me dice que revise si el usuario en workos está bien y sí lo está:
+```ruby
+WorkOS.client.user_management.get_user(id: "user_01KFGR62PC2MBNAS0ZSKR9F28Q")
+
+WorkOS::EmailChangeConfirmationUser
+object="user"
+id="user_01KFGR62PC2MBNAS0ZSKR9F28Q"
+
+email="MISMOEMAIL"
+email_verified=true
+```
