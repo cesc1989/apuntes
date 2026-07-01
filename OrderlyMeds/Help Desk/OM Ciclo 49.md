@@ -682,7 +682,10 @@ En el perfil del CX en WorkOS hay una pestaña llamada "Events". Ahí se puede v
 
 ![[om_9726.invalid.code.png]]
 
-### Pedir a CS que escale a WorkOS
+### Pedir a CS que escale a WorkOS ℹ️
+
+> [!Note]
+> En Customer Support no están tan familiarizados con WorkOS. Filib mencionó que hay un canal donde se les puede pedir que revisen el caso y corrijan de su lado.
 
 En este caso pedí que preguntaran en WorkOS porque parece un fallo del lado de ellos.
 
