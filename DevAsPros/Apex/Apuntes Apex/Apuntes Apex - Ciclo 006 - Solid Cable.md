@@ -31,7 +31,7 @@ production:
 
 Corrí `./bin/rails db:prepare` y vi la base de datos creada.
 
-### Comprobaciones
+### Comprobaciones en Development
 
 En desarrollo comprobé con los siguientes comandos.
 
@@ -51,6 +51,18 @@ sqlite3 db/cashflow_cable.sqlite "SELECT * FROM solid_cable_messages;"
 ```
 
 No devuelve nada.
+
+Una forma de confirmar que se está usando el adaptador de Solid Cable es correr esto en una consola de Rails:
+```ruby
+ActionCable.server.pubsub.class
+```
+
+La salida:
+```ruby
+ActionCable::SubscriptionAdapter::SolidCable
+```
+
+### Comprobaciones en Production
 
 Para prod son estos dos.
 
