@@ -651,7 +651,7 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9726 - Invalid Code 🟡
+## Caso OM-9726 - Invalid Code 🟡ℹ️
 
 Etiquetas: #om_invalid_code
 
@@ -675,3 +675,15 @@ id="user_01KFGR62PC2MBNAS0ZSKR9F28Q"
 email="MISMOEMAIL"
 email_verified=true
 ```
+
+### Revisión de Events en WorkOS
+
+En el perfil del CX en WorkOS hay una pestaña llamada "Events". Ahí se puede ver lo que va pasando con respecto a los códigos de auth, si se usan y las "suplantaciones". Eso sirvió para darme cuenta que el código se enviaba y expiraba al minuto o menos.
+
+![[om_9726.invalid.code.png]]
+
+### Pedir a CS que escale a WorkOS
+
+En este caso pedí que preguntaran en WorkOS porque parece un fallo del lado de ellos.
+
+## Caso OM-9794 - Resubmit to a different Address 🟢ℹ️
