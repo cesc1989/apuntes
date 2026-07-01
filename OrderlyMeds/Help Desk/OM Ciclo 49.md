@@ -777,3 +777,8 @@ Dicen que el cx se mudó temporalmente y necesitan actualizar la dirección. Jai
 
 Para que ellos actualicen deben crear un nuevo caso y elegir "Update Account Details". Después de eso es que puedo crear el nuevo Member Period.
 
+## Caso OM-9769 - Resubmit en Salesforce 🟢ℹ️
+
+Etiquetas: #om_salesforce_resubmit
+
+El resubmit en Salesforce se hace creando un nuevo caso y eligiendo "Resubmit to MSO". Luego de eso se llena el formulario.
