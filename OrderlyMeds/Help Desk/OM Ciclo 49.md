@@ -702,3 +702,26 @@ Fabian indicó que eso lo pueden hacer en Salesforce. Con un nuevo Case
 1. Create New Case
 2. Elegir "Update Account Details"
 3. Después hacer un nuevo Case "Resubmit to MSO"
+
+
+## Caso OM-9795 - Stuck in Submitted Especial 🟢ℹ️
+
+Etiquetas: #om_stuck_in_submitted 
+
+Veo este mensaje en la página de Case Overview:
+> Script 898650 submitted but never processed
+>
+> Ontraport script has 'Submitted' outcome but no CareValidate::Request exists. The checkin webhook may have failed or was never received.
+>
+> **Suggestion:** Check incoming webhooks for care_validate_checkin with scriptId 898650. May need to resubmit from Ontraport with a NEW script.
+
+Fabian me indicó que hiciera resubmit en Ontraport. Demoró siempre un rato en procesarse el webhook desde Ontraport.
+
+Como no tenía ni CareValidate::Request ni Beluga submission le hice solo el resubmit desde Ontraport normal:
+
+- Cambiar outcome a Active
+- Ir a Notes and Task
+	- Marcar como _reopen_
+	- Darle Complete con motivo "Approved"
+- Esperar
+
