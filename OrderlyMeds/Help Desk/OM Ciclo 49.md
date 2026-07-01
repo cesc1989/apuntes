@@ -686,4 +686,16 @@ En el perfil del CX en WorkOS hay una pestaña llamada "Events". Ahí se puede v
 
 En este caso pedí que preguntaran en WorkOS porque parece un fallo del lado de ellos.
 
-## Caso OM-9794 - Resubmit to a different Address 🟢ℹ️
+## Caso OM-9794 - Actualizar Dirección 🟢ℹ️
+
+Etiquetas: #om_address_change
+
+Dicen que durante la orden de Beluga se solicitó un cambio de dirección y Beluga actualizó pero al final se mandó a la dirección anterior.
+
+### Actualizar Dirección en Salesforce
+
+Fabian indicó que eso lo pueden hacer en Salesforce. Con un nuevo Case
+
+1. Create New Case
+2. Elegir "Update Account Details"
+3. Después hacer un nuevo Case "Resubmit to MSO"
