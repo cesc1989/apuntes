@@ -36,27 +36,13 @@
             }
           },
           {
-            "id": "92d67cfafda44a83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes Apex - Ciclo 005"
-            }
-          },
-          {
             "id": "3b46a9f526f306f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -64,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,7 +197,7 @@
   },
   "active": "3b46a9f526f306f1",
   "lastOpenFiles": [
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
