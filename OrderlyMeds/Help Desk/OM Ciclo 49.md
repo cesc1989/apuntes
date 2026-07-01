@@ -725,3 +725,43 @@ Como no tenía ni CareValidate::Request ni Beluga submission le hice solo el res
 	- Darle Complete con motivo "Approved"
 - Esperar
 
+## Caso OM-9716 - Not able to check in at this time 🟢ℹ️
+
+Etiquetas: #om_no_checkin_at_this_time
+
+Para resolver el error:
+> Sorry you are not able to check in at this time
+
+Aplica para las cuentas en Salesforce.
+
+> [!Info]
+> La razón de esto es una migración incompleta a Salesforce.
+
+La solución se da por este paso a paso.
+
+Hay que buscar la cuenta y verificar que `salesforce_account_nk` es nulo.
+```ruby
+account = Account.find("0195b6dc-cfc9-7843-a4dc-fe15bbf7c87d")
+account.salesforce_account_nk
+```
+
+Si es nulo, vamos a Salesforce y buscamos el Account con el correo. Si aparece, verificamos que al menos tengo un Member Period con estado "Pharmacy Order Delivered". Si vemos eso seguimos a buscar la cuenta:
+```ruby
+sf_account = Salesforce::PersonAccount.find_by(personemail: "ginzburgalena@gmail.com")
+sf_account.id
+```
+
+Luego buscamos la cuenta que se usó para la migración. Verificamos que el email incluya la palabara "OBSELETE":
+```ruby
+obsolete_account = Account.find_by(salesforce_account_nk: sf_account.id)
+obsolete_account.email
+```
+
+Si tiene esa palabra procedemos a limpiar y a reasignar:
+```ruby
+obsolete_account.update!(salesforce_account_nk:nil)
+
+account.update!(salesforce_account_nk: sf_account.id)
+```
+
+Después de eso suplantamos para comprobar que se cargue el check in y se avisa a CS.
