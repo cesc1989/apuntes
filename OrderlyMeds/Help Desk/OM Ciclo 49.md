@@ -689,9 +689,12 @@ En el perfil del CX en WorkOS hay una pestaña llamada "Events". Ahí se puede v
 
 En este caso pedí que preguntaran en WorkOS porque parece un fallo del lado de ellos.
 
-## Caso OM-9794 - Actualizar Dirección 🟢ℹ️
+## Caso OM-9794 - Actualizar Dirección 🔵ℹ️
 
 Etiquetas: #om_address_change
+
+> [!Info]
+> Este no lo resolví yo. Solo tomo los apuntes para una próxima ocasión.
 
 Dicen que durante la orden de Beluga se solicitó un cambio de dirección y Beluga actualizó pero al final se mandó a la dirección anterior.
 
