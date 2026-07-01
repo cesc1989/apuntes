@@ -768,3 +768,12 @@ account.update!(salesforce_account_nk: sf_account.id)
 ```
 
 Después de eso suplantamos para comprobar que se cargue el check in y se avisa a CS.
+
+## Caso OM-9730 - New MP + Cambio de Dirección 🟡ℹ️
+
+Etiquetas: #om_salesforce_address
+
+Dicen que el cx se mudó temporalmente y necesitan actualizar la dirección. Jaime me indica que eso lo puede hacer CS desde Salesforce.
+
+Para que ellos actualicen deben crear un nuevo caso y elegir "Update Account Details". Después de eso es que puedo crear el nuevo Member Period.
+
