@@ -20,48 +20,6 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 50"
             }
-          },
-          {
-            "id": "d198c626952dbdd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Fallo al crear Casa Order - OM-9398"
-            }
-          },
-          {
-            "id": "e92f8681e71b4d69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 49"
-            }
-          },
-          {
-            "id": "b02850dd2fb204a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Salesforce & Ontraport Flows.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Salesforce & Ontraport Flows"
-            }
           }
         ]
       }
@@ -210,10 +168,12 @@
   },
   "active": "2379fc723c200977",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/attachments/om_9839.01.png",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
+    "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
     "DevAsPros/Infra/Redis DBs en Uso.md",
@@ -223,7 +183,6 @@
     "OrderlyMeds/Help Desk/attachments/ontraport.medidprescribed.png",
     "OrderlyMeds/Help Desk/attachments/om_9224.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9334.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
@@ -245,7 +204,6 @@
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
     "DevAsPros/Enlacito/Apuntes-Ciclos-Enlacito/Apuntes Ciclo 14 - Integración con Bold.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
-    "OrderlyMeds/OrderlyMeds Member Period.md",
     "OrderlyMeds/Help Desk/attachments",
     "OrderlyMeds/Help Desk",
     "OrderlyMeds",

@@ -20,7 +20,13 @@ Había creado un nuevo MP pero, dicen, quedó con la misma dosis de 2.5mg.
 > Me dijo que:
 > > You don't have to do that. You should reset the checkin so that the customer reorder through the normal checkin process.
 
+### Nuevo MP y que el CX elija la dosis en el Check In
 
+Es como explica Wilkes. En el Check In hay una pregunta sobre medicina y dosis. Ahí se puede elegir la de 15mg.
+
+![[om_9839.01.png]]
+
+Así que hice un nuevo MP, revisé con la suplantación y luego informé en el hilo.
 
 ## Caso OM-9790 - Script error con `needs_requested_medpicker_data` 🟡ℹ️
 
