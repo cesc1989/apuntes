@@ -73,3 +73,28 @@ sqlite3 /home/ubuntu/cashflow/db/cashflow_cable.sqlite ".tables"
 ```bash
 sqlite3 /home/ubuntu/cashflow/db/cashflow_cable.sqlite "SELECT * FROM solid_cable_messages;"
 ```
+
+## Desinstalando Redis en Host Hatch
+
+Como Super Menu ni Postlane necesitan Redis (ni lo van a necesitar porque usaré Solid Trifecta) procedí a quitarlo.
+
+Estos son los comandos:
+
+```bash
+redis-cli ping                 # debe responder PONG si está corriendo
+redis-cli info clients         # ver conexiones activas
+
+sudo systemctl stop redis-server
+sudo systemctl disable redis-server
+sudo systemctl status redis-server   # confirma: inactive (dead)
+
+sudo apt remove --purge redis-server redis-tools
+sudo apt autoremove
+
+sudo rm -f /etc/apt/sources.list.d/redis.list
+sudo apt update
+
+sudo rm -rf /etc/redis
+sudo rm -rf /var/lib/redis
+sudo rm -rf /var/log/redis
+```
