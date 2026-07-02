@@ -32,6 +32,11 @@ Así que hice un nuevo MP, revisé con la suplantación y luego informé en el h
 
 Etiquetas: #om_needs_requested_medpicker_data
 
+> [!Important]
+> El problema fue porque el request más reciente no tenía el MedID esperado.
+>
+> Jaime lo corrigió asignando el ID del request cancelado que ya tenía el MedID prescrito.
+
 Caso de Stuck in Submitted que al hacer el resubmit el Script queda en Outcome "Script Error" y el CareValidate::Request en estado `needs_requested_medpicker_data`.
 
 En Ontraport, en la sección "OMFS Data" del Script dice:
