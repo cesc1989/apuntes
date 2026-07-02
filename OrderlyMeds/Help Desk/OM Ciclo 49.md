@@ -651,7 +651,7 @@ Mensaje para CS:
 Script resubmitted. Please check it out.
 ```
 
-## Caso OM-9726 - Invalid Code 🟡ℹ️
+## Caso OM-9726 - Invalid Code 🟢ℹ️
 
 Etiquetas: #om_invalid_code
 
