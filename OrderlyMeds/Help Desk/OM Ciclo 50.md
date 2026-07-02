@@ -28,7 +28,7 @@ Es como explica Wilkes. En el Check In hay una pregunta sobre medicina y dosis. 
 
 Así que hice un nuevo MP, revisé con la suplantación y luego informé en el hilo.
 
-## Caso OM-9790 - Script error con `needs_requested_medpicker_data` 🟡ℹ️
+## Caso OM-9790 - Script error con `needs_requested_medpicker_data` 🟢ℹ️
 
 Etiquetas: #om_needs_requested_medpicker_data
 
@@ -36,11 +36,19 @@ Etiquetas: #om_needs_requested_medpicker_data
 > El problema fue porque el request más reciente no tenía el MedID esperado.
 >
 > Jaime lo corrigió asignando el ID del request cancelado que ya tenía el MedID prescrito.
+>
+> El MedID es el campo `remoteProductIdenfitifierNK` que está en el hash que devuelve `request.requested_medpicker_data`. Ese valor lo ingresó en el campo que tiene el botón "Fix Medpicker Selection"
 
 Caso de Stuck in Submitted que al hacer el resubmit el Script queda en Outcome "Script Error" y el CareValidate::Request en estado `needs_requested_medpicker_data`.
 
 En Ontraport, en la sección "OMFS Data" del Script dice:
 > No matching recommendations for these patient preferences.
+
+La solución fue copiar el MedId y correr el "Fix Medpicker Selection" del Request.
+
+![[om_9790.01.png]]
+
+### Nada de esto sirvió
 
 Intenté correr:
 ```ruby
@@ -70,4 +78,5 @@ No matching recommendations for these patient preferences.
 ```
 
 > [!Note]
-> Para poder correr `CareValidate::GetMedpickerDataJob` el campo `source_event` del webhook debe ser `care_validate_checkin` para que al llamar a `CareValidate::ProcessRequestJob` se ejecute la parte en que se encola a `CareValidate::SendCheckinJob`. Job que también es llamado en el proceso `FixResubmitOntraportWebhook`. 
+> Para poder correr `CareValidate::GetMedpickerDataJob` el campo `source_event` del webhook debe ser `care_validate_checkin` para que al llamar a `CareValidate::ProcessRequestJob` se ejecute la parte en que se encola a `CareValidate::SendCheckinJob`. Job que también es llamado en el proceso `FixResubmitOntraportWebhook`.
+
