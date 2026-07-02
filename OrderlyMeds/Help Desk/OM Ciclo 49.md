@@ -769,7 +769,7 @@ account.update!(salesforce_account_nk: sf_account.id)
 
 Después de eso suplantamos para comprobar que se cargue el check in y se avisa a CS.
 
-## Caso OM-9730 - New MP + Cambio de Dirección 🟡ℹ️
+## Caso OM-9730 - New MP + Cambio de Dirección 🟢ℹ️
 
 Etiquetas: #om_salesforce_address
 
