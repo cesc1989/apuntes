@@ -14,6 +14,9 @@ Dice:
 
 Había creado un nuevo MP pero, dicen, quedó con la misma dosis de 2.5mg.
 
+> [!Note]
+> Hay instrucciones en el Notion sobre algo relacionado con el MedPicker Recommendations asociadas en Ontraport pero no me queda claro. Pregunté a Wilkes.
+
 ## Caso OM-9790 - Script error con `needs_requested_medpicker_data` 🟡ℹ️
 
 Etiquetas: #om_needs_requested_medpicker_data
