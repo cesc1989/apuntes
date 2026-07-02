@@ -14,8 +14,14 @@ Usa /2
 
 ## Super Menú
 
-Usa /3
+> [!Warning]
+> El 2 de Julio, 2026, quité redis del VPS que hospeda esta aplicación. Se usará Solid Trifecta.
+
+~~Usa /3~~
 
 ## Postlane
 
-Usa /4
+> [!Warning]
+> El 2 de Julio, 2026, quité redis del VPS que hospeda esta aplicación. Se usará Solid Trifecta.
+
+~~Usa /4~~
