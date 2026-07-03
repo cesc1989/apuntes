@@ -80,3 +80,11 @@ No matching recommendations for these patient preferences.
 > [!Note]
 > Para poder correr `CareValidate::GetMedpickerDataJob` el campo `source_event` del webhook debe ser `care_validate_checkin` para que al llamar a `CareValidate::ProcessRequestJob` se ejecute la parte en que se encola a `CareValidate::SendCheckinJob`. Job que también es llamado en el proceso `FixResubmitOntraportWebhook`.
 
+## Caso OM-9812 - MP Stuck on VisitCreated 🟡
+
+> [!Note]
+> De este son varios similares.
+
+> [!Info]
+> Vi que Fabian ubicó el Latest Master ID que es el mismo ID del Clinical Encounter más reciente. Con eso fue al canal de Beluga y preguntó sobre el estado de esos master ids.
+
