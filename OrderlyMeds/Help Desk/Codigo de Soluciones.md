@@ -28,6 +28,11 @@ Después se ejecuta la función pasando el correo:
 new_member_period("")
 ```
 
+Mensaje post:
+```
+👋🏾 CX is ready for check-in.
+```
+
 ## Cambiar CareValidate::Request a needs_resubmission
 
 Etiquetas: #om_stuck_in_submitted 
