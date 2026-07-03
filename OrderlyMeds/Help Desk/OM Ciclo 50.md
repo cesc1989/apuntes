@@ -83,8 +83,8 @@ No matching recommendations for these patient preferences.
 ## Caso OM-9812 - MP Stuck on VisitCreated 🟡
 
 > [!Note]
-> De este son varios similares.
+> De este son varios casos similares.
 
 > [!Info]
-> Vi que Fabian ubicó el Latest Master ID que es el mismo ID del Clinical Encounter más reciente. Con eso fue al canal de Beluga y preguntó sobre el estado de esos master ids.
+> Vi que Fabian ubicó el Latest Master ID que es el mismo ID del Clinical Encounter más reciente (cuando el cx está en Salesforce). Con eso fue al canal de Beluga y preguntó sobre el estado de esos master ids.
 
