@@ -47,7 +47,7 @@ end
 
 Ejecuta:
 ```ruby
-to_resubmit_ontraport_script(request_id:)
+to_resubmit_ontraport_script(request_id: "")
 ```
 
 ## Actualizar campo `workos_user_nk` para solucionar "Oops error"
