@@ -74,7 +74,7 @@ Corrí comando y respondí al Linear con:
 👋🏾 CX is ready for check-in.
 ```
 
-## Caso OM-9400 - Remove CC de Salesforce 🟢
+## Caso OM-9400 - Remove CC de Salesforce 🟢💳
 
 Etiquetas: #om_remove_credit_card
 
