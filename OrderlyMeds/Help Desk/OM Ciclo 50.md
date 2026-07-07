@@ -80,7 +80,7 @@ No matching recommendations for these patient preferences.
 > [!Note]
 > Para poder correr `CareValidate::GetMedpickerDataJob` el campo `source_event` del webhook debe ser `care_validate_checkin` para que al llamar a `CareValidate::ProcessRequestJob` se ejecute la parte en que se encola a `CareValidate::SendCheckinJob`. Job que también es llamado en el proceso `FixResubmitOntraportWebhook`.
 
-## Caso OM-9812 - MP Stuck on VisitCreated 🟡
+## Caso OM-9804 - MP Stuck on VisitCreated 🟡
 
 > [!Note]
 > De este son varios casos similares.
@@ -90,3 +90,15 @@ No matching recommendations for these patient preferences.
 
 > [!Info]
 > El código de done sale esto está en `Admin::ContactAdapter`. Es la función `latest_master_id`. Ahí se ve que sale de `clinical_encounters` cuando el contacto está en Salesforce.
+
+## Caso OM-9848 - Unable to find matching product 🔵ℹ️
+
+Etiquetas: #om_case_error
+
+> [!Info]
+> Este es una continuación de los casos donde tocaba hacer cancel & refund porque estaban con el plan de 3 meses. Hicieron el respectivo C&R pero hicieron resubmit del mismo MP.
+
+Este es el error:
+![[om_9848.png]]
+
+Fabian dijo que tenían que tenían que cancelar y devolver o dar créditos para luego crear un nuevo Member Period.
