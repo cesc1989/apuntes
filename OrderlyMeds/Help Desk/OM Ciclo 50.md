@@ -113,3 +113,10 @@ Caso en el que un CX iba a hacer el check in y respondía todo pero el botón de
 Hice la suplantación y pasaba igual. Pregunté a Fabian y me dijo que, en Ontraport, en la lista de sensitivities, marcara que "No". Eso desbloqueaba el botón.
 
 Eso hice y se desbloqueó al probar la suplantación de nuevo.
+
+## Caso OM-9875 - Not at the Pharmacy - Wegovy 🔵ℹ️
+
+> [!Info]
+> Este es un caso que le tocó a Fabian. Resulta que la medicina elegida fue Wegovy pero esa medicina solo la provee PharmacyHub. Dicha farmacia para estar desactivada en OrderlyMeds.
+>
+> La solución para ese caso parece será un Cancel & Refund.
