@@ -69,3 +69,19 @@ La solución para esto y para quitar el warning es correr los jobs en modo async
 ```bash
 ./bin/jobs --mode async
 ```
+
+## Error de `preview_path=` al correr un Job
+
+Pasó por la gema `rspec-rails`. Toca subirla a la versión 7.1.1 para quitar ese error.
+
+## Error de Translation
+
+Me dio este error al intentar correr de nuevo el job fallido anteriormente:
+```
+Translation missing: en.time.formats.next_time_at
+```
+
+La solución, según Claudio, fue agregar esta línea en `application.rb`:
+```ruby
+config.i18n.fallbacks = true
+```
