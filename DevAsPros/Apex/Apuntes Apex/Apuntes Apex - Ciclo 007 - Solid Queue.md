@@ -15,7 +15,7 @@ config.solid_queue.logger = ActiveSupport::Logger.new(STDOUT)
 
 Ya que decidí correr el servidor de jobs con el comando que ya trae en vez de integrarlo a Puma. Así:
 ```bash
-./bin/jobs start
+./bin/jobs
 ```
 
 ### Mission Control Jobs
@@ -57,3 +57,15 @@ Es un warning que se explica porque Solid Queue corre en modo fork como explican
 
 > [!Info]
 > Ver guías: https://github.com/rails/solid_queue?tab=readme-ov-file#fork-vs-async-mode
+
+## Error al cerrar foreman
+
+En development, al cerrar foreman salía este error:
+```bash
+SQLite3::BusyException: database is locked (ActiveRecord::StatementInvalid: SQLite3::BusyException: database is locked)
+```
+
+La solución para esto y para quitar el warning es correr los jobs en modo async:
+```bash
+./bin/jobs --mode async
+```
