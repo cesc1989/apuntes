@@ -3,7 +3,7 @@
 > [!Info]
 > Del Jueves 2 de Julio al Miércoles 15 de Julio.
 
-## Caso OM-9839 - New MP diferente dosis 🟡ℹ️
+## Caso OM-9839 - New MP diferente dosis 🟢ℹ️
 
 Etiquetas: #om_new_mp_different_dosage
 
