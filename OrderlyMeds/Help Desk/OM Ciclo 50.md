@@ -102,3 +102,14 @@ Este es el error:
 ![[om_9848.png]]
 
 Fabian dijo que tenían que tenían que cancelar y devolver o dar créditos para luego crear un nuevo Member Period.
+
+## Caso OM-9722 - Botón Continue bloqueado en Check In 🟡ℹ️
+
+Etiquetas: #om_checkin_blocked
+
+Caso en el que un CX iba a hacer el check in y respondía todo pero el botón de continuar quedaba bloqueado:
+![[om_9722.checkin.blocked.png]]
+
+Hice la suplantación y pasaba igual. Pregunté a Fabian y me dijo que, en Ontraport, en la lista de sensitivities, marcara que "No". Eso desbloqueaba el botón.
+
+Eso hice y se desbloqueó al probar la suplantación de nuevo.

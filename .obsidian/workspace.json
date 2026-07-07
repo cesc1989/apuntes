@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_no_access_error",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,6 +168,7 @@
   },
   "active": "f3fa0f7c3d040eb8",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/om_9722.checkin.blocked.png",
     "OrderlyMeds/Help Desk/attachments/om_9848.png",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
@@ -191,7 +192,6 @@
     "DevAsPros/Infra/Puma como App Server 🟢.md",
     "OrderlyMeds/Help Desk/attachments/om_9621.02.png",
     "OrderlyMeds/Help Desk/attachments/om_9612.01.png",
-    "OrderlyMeds/Help Desk/attachments/om_9398.05.png",
     "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
     "OrderlyMeds/Onboarding.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
