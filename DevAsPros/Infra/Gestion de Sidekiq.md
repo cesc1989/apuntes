@@ -8,6 +8,9 @@ Etiquetas: #sidekiq_cron
 
 ```bash
 systemctl --user status cashflow.sidekiq.service
+systemctl --user stop cashflow.sidekiq.service
+
+systemctl --user disable --now cashflow.sidekiq.service
 ```
 
 ### Enlacito

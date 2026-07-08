@@ -120,3 +120,11 @@ Eso hice y se desbloqueó al probar la suplantación de nuevo.
 > Este es un caso que le tocó a Fabian. Resulta que la medicina elegida fue Wegovy pero esa medicina solo la provee PharmacyHub. Dicha farmacia para estar desactivada en OrderlyMeds.
 >
 > La solución para ese caso parece será un Cancel & Refund.
+
+## Caso OM-9874 - CC anterior sale como principal el Portal 🟢💳
+
+Etiquetas: #om_remove_credit_card 
+
+El cliente tiene dos tarjetas. Una que ya había cancelado y una nueva. El portal del paciente estaba mostrando la cancelada como por defecto. La solicitud era corregir esto para que la nueva fuera la por defecto.
+
+La solución es ver que `account.salesforce_account.card_payment_methods` devuelve y marcar la errónea como "Inactive". Tal como se hizo en [[OM Ciclo 49#Caso OM-9400 - Remove CC de Salesforce 🟢💳]]
