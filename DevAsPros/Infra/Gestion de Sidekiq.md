@@ -1,4 +1,4 @@
-# Gestión de Sidekiq, Jobs y comandos systemctl
+# Gestión de Jobs con comandos systemctl
 
 Etiquetas: #sidekiq_cron 
 
@@ -7,11 +7,9 @@ General. Recargar demonio de systemd:
 systemctl --user daemon-reload
 ```
 
-## Comando para ver el estado cuando hay varios servicios Sidekiq en el mismo servidor
+## Cash Flow
 
-### Cash Flow
-
-#### Sidekiq
+### Sidekiq
 
 ```bash
 systemctl --user status cashflow.sidekiq.service
@@ -23,7 +21,7 @@ systemctl --user stop cashflow.sidekiq.service
 systemctl --user disable --now cashflow.sidekiq.service
 ```
 
-#### Jobs
+### Jobs
 
 Estado:
 ```bash
@@ -35,19 +33,22 @@ Reiniciar servicio jobs:
 systemctl --user restart cashflow.jobs.service
 ```
 
-### Enlacito
+## Enlacito
+
+### Sidekiq
 
 ```bash
 systemctl --user status enlacito.sidekiq.service
 ```
 
-## Comando para reiniciar Sidekiq de un servicio especifico
-
-### Enlacito
-
+Reiniciar:
 ```bash
 systemctl --user restart enlacito.sidekiq.service
 ```
+
+### Jobs
+
+
 
 # Comandos de verificación de servicio deshabilitado
 
