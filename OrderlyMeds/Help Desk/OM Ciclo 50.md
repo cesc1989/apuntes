@@ -103,7 +103,7 @@ Este es el error:
 
 Fabian dijo que tenían que tenían que cancelar y devolver o dar créditos para luego crear un nuevo Member Period.
 
-## Caso OM-9722 - Botón Continue bloqueado en Check In 🟡ℹ️
+## Caso OM-9722 - Botón Continue bloqueado en Check In 🟢ℹ️
 
 Etiquetas: #om_checkin_blocked
 
