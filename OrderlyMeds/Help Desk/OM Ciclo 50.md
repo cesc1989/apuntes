@@ -80,10 +80,13 @@ No matching recommendations for these patient preferences.
 > [!Note]
 > Para poder correr `CareValidate::GetMedpickerDataJob` el campo `source_event` del webhook debe ser `care_validate_checkin` para que al llamar a `CareValidate::ProcessRequestJob` se ejecute la parte en que se encola a `CareValidate::SendCheckinJob`. Job que también es llamado en el proceso `FixResubmitOntraportWebhook`.
 
-## Caso OM-9804 - MP Stuck on VisitCreated 🟡
+## Caso OM-9804 - Auto MP Stuck on VisitCreated 🔵
+
+> [!Important]
+> Ahora estos casos serán asignados automáticamente a Briggs porque se pueden solucionar por Salesforce.
 
 > [!Note]
-> De este son varios casos similares.
+> De este son varios casos similares porque son auto generados por el sistema.
 
 > [!Info]
 > Vi que Fabian ubicó el Latest Master ID que es el mismo ID del Clinical Encounter más reciente (cuando el cx está en Salesforce). Con eso fue al canal de Beluga y preguntó sobre el estado de esos master ids.
