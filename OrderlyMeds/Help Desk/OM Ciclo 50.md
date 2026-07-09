@@ -156,6 +156,7 @@ Casos:
 	- Hice resubmit pero se quedó en "waiting for prescription"
 	- Según Claudio, no hay un tiempo claro sobre cuándo esto debe pasar
 		- Solo hay controles por si se pasa de las 48 horas en este estado
+	- A este fue al que le hice "Resubmit Latest Ontraport Webhook" y también "Fix Medpicker Selection" pero sigue demorado en el estado Pharmacy Selected
 - **OM-9950** 🟡
 	- Resubmitted
 	- Ahora está en Pharmacy Selected

@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 50"
             }
-          },
-          {
-            "id": "709c157be76d061a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
-            }
           }
         ]
       }
