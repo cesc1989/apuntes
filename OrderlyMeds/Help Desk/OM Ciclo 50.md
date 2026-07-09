@@ -128,3 +128,11 @@ Etiquetas: #om_remove_credit_card
 El cliente tiene dos tarjetas. Una que ya había cancelado y una nueva. El portal del paciente estaba mostrando la cancelada como por defecto. La solicitud era corregir esto para que la nueva fuera la por defecto.
 
 La solución es ver que `account.salesforce_account.card_payment_methods` devuelve y marcar la errónea como "Inactive". Tal como se hizo en [[OM Ciclo 49#Caso OM-9400 - Remove CC de Salesforce 🟢💳]]
+
+## Caso OM-9949 - Beluga Missing Values
+
+Etiquetas: #om_beluga 
+
+Vi lo mismo que en el caso [[OM Ciclo 49#Caso OM-9483 - Beluga Missing Values 🔵]] (sin sensitivities) así que hice la misma pregunta.
+
+Estoy a la espera.
