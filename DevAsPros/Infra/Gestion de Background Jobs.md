@@ -46,6 +46,12 @@ Reiniciar:
 systemctl --user restart enlacito.sidekiq.service
 ```
 
+Otros:
+```bash
+systemctl --user stop cashflow.sidekiq.service
+systemctl --user disable --now cashflow.sidekiq.service
+```
+
 ### Jobs
 
 
