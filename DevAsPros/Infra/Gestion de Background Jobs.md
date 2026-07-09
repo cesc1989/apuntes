@@ -54,6 +54,15 @@ systemctl --user disable --now enlacito.sidekiq.service
 
 ### Jobs
 
+Estado:
+```bash
+systemctl --user status enlacito.jobs.service
+```
+
+Reiniciar servicio jobs:
+```bash
+systemctl --user restart enlacito.jobs.service
+```
 
 
 # Comandos de verificación de servicio deshabilitado
