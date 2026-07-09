@@ -1,10 +1,10 @@
 # Detalle de todo el flujo del fallo al intentar crear Casa Order
 
 > [!Warning]
-> Esto es sobre el problema que hubo con CareValidate y el payload que se enviaba con respecto al Pharmacy y el MedId
+> Esto es sobre el problema que hubo con CareValidate y el payload que se enviaba con respecto al Pharmacy y el MedId.
 
 > [!Important]
-> Este caso ha tenido de todo. Empezó en [[OM Ciclo 49#Caso OM-9398 - Stuck in Active 🟢🔑]] donde Fabian cambió el `strength` en el payload del IncomingWebhook.
+> Este caso empezó en [[OM Ciclo 49#Caso OM-9398 - Stuck in Active 🟢🔑]] donde Fabian cambió el `strength` en el payload del IncomingWebhook.
 > 
 > Luego pasó que el `Casa::Order` referenciaba a un `Pharmacy` incorrecto.
 > 

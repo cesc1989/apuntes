@@ -6,7 +6,7 @@ Relacionado [[Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow]]
 
 ## Comandos de servicio Sidekiq
 
-Ver [[Gestion de Sidekiq]]
+Ver [[Gestion de Background Jobs]]
 
 
 # Configuración de Redis y Sidekiq en un mismo servidor para diferentes aplicaciones
