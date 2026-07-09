@@ -156,7 +156,8 @@ Casos:
 	- Hice resubmit pero se quedó en "waiting for prescription"
 	- Según Claudio, no hay un tiempo claro sobre cuándo esto debe pasar
 		- Solo hay controles por si se pasa de las 48 horas en este estado
-- OM-9950 🟡
+- **OM-9950** 🟡
 	- Resubmitted
-- OM-9958 🟡
+	- Ahora está en Pharmacy Selected
+- **OM-9958** 🟡
 	- Resubmitted
