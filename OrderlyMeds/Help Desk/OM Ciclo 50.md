@@ -159,5 +159,11 @@ Casos:
 - **OM-9950** 🟡
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
-- **OM-9958** 🟡
+- **OM-9958** 🟢
+	- Resubmitted
+	- Ya está en Order At Pharmacy
+- **OM-9980** 🟡
+	- Resubmitted
+	- Ahora está en Pharmacy Selected
+- **OM10001** 🟡
 	- Resubmitted
