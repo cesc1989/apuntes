@@ -63,5 +63,5 @@ Para saber si el servicio fue deshabilitado.
 ```bash
 systemctl --user status cashflow.sidekiq.service
 ```
-> Debería responder algo como Unit cashflow.sidekiq.service could not be found. — eso confirma que se borró bien.
+> Debería responder algo como "Unit cashflow.sidekiq.service could not be found". Eso confirma que se borró bien.
 
