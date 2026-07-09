@@ -168,3 +168,4 @@ Casos:
 	- Ahora está en Pharmacy Selected
 - **OM10001** 🟡
 	- Resubmitted
+	- Ahora está en Pharmacy Selected
