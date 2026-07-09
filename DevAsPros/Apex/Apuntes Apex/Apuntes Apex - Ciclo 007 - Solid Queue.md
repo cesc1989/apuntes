@@ -85,3 +85,7 @@ La solución, según Claudio, fue agregar esta línea en `application.rb`:
 ```ruby
 config.i18n.fallbacks = true
 ```
+
+## Despliegue de Cash Flow con Solid Queue
+
+En términos generales, el despliegue fue muy normal. Hubo errores porque se cambió el archivo del servicio anterior de Sidekiq. Esto enseña que hay que tener ambos servicios en un despliegue para desactivar el actual. Después sí quitarlos en un despliegue posterior.
