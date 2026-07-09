@@ -48,8 +48,8 @@ systemctl --user restart enlacito.sidekiq.service
 
 Otros:
 ```bash
-systemctl --user stop cashflow.sidekiq.service
-systemctl --user disable --now cashflow.sidekiq.service
+systemctl --user stop enlacito.sidekiq.service
+systemctl --user disable --now enlacito.sidekiq.service
 ```
 
 ### Jobs
