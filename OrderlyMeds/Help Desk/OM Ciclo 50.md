@@ -129,10 +129,34 @@ El cliente tiene dos tarjetas. Una que ya había cancelado y una nueva. El porta
 
 La solución es ver que `account.salesforce_account.card_payment_methods` devuelve y marcar la errónea como "Inactive". Tal como se hizo en [[OM Ciclo 49#Caso OM-9400 - Remove CC de Salesforce 🟢💳]]
 
-## Caso OM-9949 - Beluga Missing Values
+## Caso OM-9949 - Beluga Missing Values 🟡
 
 Etiquetas: #om_beluga 
 
 Vi lo mismo que en el caso [[OM Ciclo 49#Caso OM-9483 - Beluga Missing Values 🔵]] (sin sensitivities) así que hice la misma pregunta.
 
 Estoy a la espera.
+
+## Casos de error de CV enviando el Med a una Farmacia incorrecta 🟡
+
+> [!Info]
+> Estos son lo mismo que pasó en el caso descrito en [[OM Ciclo 49#Caso OM-9398 - Fallo al crear Casa Order 🟢🔑]]
+
+> [!Important]
+> Cuando estos son solucionados es que el Script pasa a "Order at Pharmacy".
+
+Casos:
+- **OM-9966** 🟢
+	- Resultado final Script en "Order at Pharmacy"
+	- Para este solo hice el resubmit normal.
+	- Tanto _Requested Medpicker Data_ como _Prescribed Medpicker Data_ están en CasaPharmaRx
+	- El `CareValidate::Request` está en estado `written` con `decision` en "approved"
+	- La orden en Casa está con los estados Written, Sent y Received están chuleados en verde
+- **OM-9893** 🟡
+	- Hice resubmit pero se quedó en "waiting for prescription"
+	- Según Claudio, no hay un tiempo claro sobre cuándo esto debe pasar
+		- Solo hay controles por si se pasa de las 48 horas en este estado
+- OM-9950 🟡
+	- Resubmitted
+- OM-9958 🟡
+	- Resubmitted
