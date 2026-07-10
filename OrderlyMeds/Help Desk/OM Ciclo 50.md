@@ -204,7 +204,9 @@ Y así se indica al completar:
 
 Después del resubmit pude ver los siguientes cambios de estado del Member Period.
 
-- Pasó a ReadyToCreateVisit
-- A los minutos pasó a VisitCompleted
+- Pasó a `ReadyToCreateVisit`
+- A los minutos pasó a `VisitCompleted`
+- Ahora está en `PrescriptionWritten`
+- Para confirmar que quedó bien en algún momento del día debe pasar a `WaitingOnPharmacyConfirmation` o `PharmacyOrderConfirmed` y los siguientes.
 
 Además, el primer Clinical Encounter fue cancelado, se creó uno nuevo que pasó a estar en *Finished*. Lo mismo para Med Picker Recommendations. Se canceló el primero, se creó uno nuevo que quedó en estado *Recommendation Made*.
