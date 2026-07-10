@@ -152,9 +152,9 @@ Casos:
 - **OM-9966** 🟢
 	- Resultado final Script en "Order at Pharmacy"
 	- Para este solo hice el resubmit normal.
-	- Tanto _Requested Medpicker Data_ como _Prescribed Medpicker Data_ están en CasaPharmaRx
-	- El `CareValidate::Request` está en estado `written` con `decision` en "approved"
-	- La orden en Casa está con los estados Written, Sent y Received están chuleados en verde
+	- Tanto _Requested Medpicker Data_ como _Prescribed Medpicker Data_ están en CasaPharmaRx.
+	- El `CareValidate::Request` está en estado `written` con `decision` en "approved".
+	- La orden en Casa está con los estados Written, Sent y Received están chuleados en verde.
 - **OM-9893** 🟡
 	- Hice resubmit pero se quedó en "waiting for prescription"
 	- Según Claudio, no hay un tiempo claro sobre cuándo esto debe pasar
@@ -162,6 +162,7 @@ Casos:
 	- A este fue al que le hice "Resubmit Latest Ontraport Webhook" y también "Fix Medpicker Selection" pero sigue demorado en el estado Pharmacy Selected
 	- ==Volví a hacer el resubmit. Esta vez cuando quede en Pharmacy Selected voy a revisar el estado del CX y el estado de la farmacia del _Requested Medpicker Data_==
 	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
+	- Le hice "Resubmit Latest Ontraport Webhook" directo desde código.
 - **OM-9950** 🟡
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
