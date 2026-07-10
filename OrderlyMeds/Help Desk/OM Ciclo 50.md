@@ -160,15 +160,41 @@ Casos:
 	- Según Claudio, no hay un tiempo claro sobre cuándo esto debe pasar
 		- Solo hay controles por si se pasa de las 48 horas en este estado
 	- A este fue al que le hice "Resubmit Latest Ontraport Webhook" y también "Fix Medpicker Selection" pero sigue demorado en el estado Pharmacy Selected
+	- ==Volví a hacer el resubmit. Esta vez cuando quede en Pharmacy Selected voy a revisar el estado del CX y el estado de la farmacia del _Requested Medpicker Data_==
+	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
 - **OM-9950** 🟡
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
+	- Volví a hacer el resubmit.
+	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
 - **OM-9958** 🟢
 	- Resubmitted
 	- Ya está en Order At Pharmacy
 - **OM-9980** 🟡
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
+	- Volví a hacer el resubmit.
+	- De nuevo en Pharmacy Selected. CX en ND. MedId de Evoluciona en ND.
 - **OM10001** 🟡
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
+	- Volví a hacer el resubmit.
+	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
+
+## Caso OM-9998 - Prescrito en Beluga pero nada en Pharmacy 🟡ℹ️
+
+Etiquetas: #om_beluga_not_at_pharmacy
+
+Dice el caso:
+> Prescribed by Beluga on 7/4. All bundles were approved. Still, nothing at the pharmacy.
+
+Tengo que hacer Resubmit to MSO. Cuando voy a hacerlo veo que cambia el medicamento:
+![[om_9998.01.png]]
+
+Jaime me dice que en el campo override el formulario ponga el mismo MedID que ya está prescrito.
+
+Cuando lo hago así no cambia el medicamento:
+![[om_9998.02.png]]
+
+Y así se indica al completar:
+![[om_9998.03.png]]
