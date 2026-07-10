@@ -149,7 +149,7 @@ module Casa
 end
 ```
 
-# Cancelar Order y Hacer Resubmit
+# Cancelar Order y Hacer Resubmit 🔑
 
 El fix de esto no es actualizar el pharmacy_id correcto. Lo que toca hacer es cancelar la orden con problema y hacer un resubmit en Ontraport. Para ello hay que buscar el último webhook desde Ontraport y ejecutarlo de nuevo.
 
