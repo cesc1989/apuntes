@@ -151,7 +151,7 @@ end
 
 # Cancelar Order y Hacer Resubmit 🔑
 
-El fix de esto no es actualizar el pharmacy_id correcto. Lo que toca hacer es cancelar la orden con problema y hacer un resubmit en Ontraport. Para ello hay que buscar el último webhook desde Ontraport y ejecutarlo de nuevo.
+El fix de esto no es actualizar el `pharmacy_id` correcto. **Lo que toca hacer es cancelar la orden con problema y hacer un resubmit en Ontraport**. Para ello hay que buscar el último webhook desde Ontraport y ejecutarlo de nuevo.
 
 Hay una clase que se llama `CareValidate::FixResubmitOntraportWebhook` que hace todo esto siempre y cuando el último `IncomingWebhook` sea `source_type: "ontraport"`. Si no lo es, toca ejecutar el código de manera manual.
 

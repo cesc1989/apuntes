@@ -198,3 +198,12 @@ Cuando lo hago así no cambia el medicamento:
 
 Y así se indica al completar:
 ![[om_9998.03.png]]
+
+### Cambios de Estado del Member Period
+
+Después del resubmit pude ver los siguientes cambios de estado del Member Period.
+
+- Pasó a ReadyToCreateVisit
+- A los minutos pasó a VisitCompleted
+
+Además, el primer Clinical Encounter fue cancelado, se creó uno nuevo que pasó a estar en *Finished*. Lo mismo para Med Picker Recommendations. Se canceló el primero, se creó uno nuevo que quedó en estado *Recommendation Made*.
