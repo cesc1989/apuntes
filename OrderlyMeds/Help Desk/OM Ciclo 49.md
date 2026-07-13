@@ -72,21 +72,6 @@ Todos:
 - [x] Actualizar el campo `workos_user_nk`
 - [x] Sincronizar salesforce
 
-## Caso OM-9426 - Stuck in Submitted 🟢
-
-Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
-
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
-
 ## Caso OM-9400 - Remove CC de Salesforce 🟢💳
 
 Etiquetas: #om_remove_credit_card
@@ -136,21 +121,6 @@ Le pregunté a Fabian y me dijo que es lo mismo que el OM-9347. Dejé el mensaje
 ### Verificación que está en la opción de tres meses
 
 Para esto fui a Salesforce y revisé el Member Period. Pude ver en la sección "Med Picker Recommendation" que dice en "Product" "3-month Tirzepatide (High Dosage)". Ahí queda claro lo que me dijo Fabian.
-
-## Caso OM-9426 - Stuck in Submitted 🟢
-
-Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
-
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
 
 ## Caso OM-9398 - Stuck in Active 🟢🔑
 
@@ -279,7 +249,23 @@ Al revisar de nuevo el CareValidate Request en Success se ve que está en estado
 
 ## Casos de Stuck in Submitted 🟢
 
+Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]:
+
+- [x] Cambiar estado a `needs_resubmission`
+- [x] Hacer resubmit en Ontraport
+- [x] Comprobar nuevo CareValidate::Request creado
+- [x] Comprobar Script pasó a Pharmacy Selected
+- [x] Indicar a CS que el script fue resubmiteado
+
+Mensaje para CS:
+```
+Script resubmitted. Please check it out.
+```
+
 Casos:
+
+- OM-9426
+- OM-9426
 - OM-9564
 - OM-9593
 - OM-9594
