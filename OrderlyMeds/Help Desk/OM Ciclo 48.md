@@ -312,9 +312,16 @@ Se hace un Impersonate y se revisa que cargue como Starter Pack:
 
 Lo que aparece dentro del recuadro rojo. En la lista de selección debe aparecer alguna opción que sea "starter pack".
 
-## Caso OM-9221 - Oops Error 🟢
+## Casos de Oops Error 🟢
 
 Etiquetas: #om_oops_error
+
+Casos resueltos:
+- OM-9221
+- OM-9225
+- OM-9345
+
+### Descripción
 
 Pasa que los CXs intentan acceder al portal y les sale el error:
 > Oops! We encountered an error. Our bad.
@@ -358,26 +365,6 @@ Issue should be resolved. Please confirm.
 ```
 
 
-## Caso OM-9225 - Oops Error 🟢
-
-Etiquetas: #om_oops_error 
-
-Todos:
-
-- [x] Revisar el account
-- [x] Actualizar el campo `workos_user_nk`
-- [x] Sincronizar salesforce
-
-## Caso OM-9345 - Oops Error 🟢
-
-Etiquetas: #om_oops_error 
-
-Todos:
-
-- [x] Revisar el account
-- [x] Actualizar el campo `workos_user_nk`
-- [x] Sincronizar salesforce
-
 ## Caso OM-9215 - Script error - Beluga Missing Values 🟢ℹ️
 
 Etiquetas: #om_script_error #om_beluga
@@ -407,22 +394,11 @@ Ver el detalle de cómo resolver en [[Med Requests Import Manual de Ontraport a 
 > [!Important]
 > Sí se resolvió cómo explicó Jaime. Pasa que el día que me explicó había algún bug y no terminaba bien el proceso. Cuando Fabian probó días después, el modo manual funcionó.
 
-## Caso OM-9389 - Stuck in Submitted 🟢
+## Casos de Stuck in Submitted 🟢
 
-Seguí los pasos del caso OM-9337:
-
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
-
-## Caso OM-9338 - Stuck in Submitted 🟢
+Casos:
+- OM-9389
+- OM-9338
 
 Seguí los pasos del caso OM-9337:
 
