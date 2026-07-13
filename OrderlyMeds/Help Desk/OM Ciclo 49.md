@@ -95,7 +95,7 @@ ccs.first.update!(status: "Inactive")
 
 ## Caso OM-9347 - Script Error - 3-month option 🟢
 
-Etiquetas: #om_script_error 
+Etiquetas: #om_script_error #om_3_month_option
 
 Cuando se revisa el Script en Ontraport el Outcome dice "Script Error". A pesar de hacer un resubmit sigue dando el mismo problema.
 
@@ -113,7 +113,7 @@ Currently, the 3-month option is no longer available. Therefore, a cancellation 
 
 ## Caso OM-9396 - Invalid Drug ID - SF 🟢
 
-Etiquetas: #om_invalid_drug_id
+Etiquetas: #om_invalid_drug_id #om_3_month_option
 
 > [!Note]
 > Este es lo mismo que el caso OM-9347. La inhabilitación del plan de 3 meses hace que este MP quede inválido. Se necesita hacer cancel & refund y nuevo MP.
@@ -273,18 +273,15 @@ Está en la sección "Incoming Webhooks" en el detalle del CareValidate Request.
 
 Al revisar de nuevo el CareValidate Request en Success se ve que está en estado "Waiting For Prescription" y el Script en Ontraport está en "Pharmacy Selected".
 
-## Caso OM-9564 - Stuck in Submitted 🟢
+## Casos de Stuck in Submitted 🟢
 
-```ruby
-request = CareValidate::Request.find("")
-request.update!(state: "needs_resubmission")
-```
+Casos:
+- OM-9564
+- OM-9593
+- OM-9594
+- OM-9562
+	- Nada que hacer. Ya estaba el Script en "Order at Pharmacy".
 
-No tuve que hacer nada porque ya la orden fue enviada.
-
-## Caso OM-9562 - Stuck in Submitted 🟢
-
-Nada que hacer. Ya estaba el Script en "Order at Pharmacy".
 
 ## Caso OM-9419 - Oops Error 🟢
 
@@ -363,34 +360,7 @@ Jaime me dijo que toca, desde Salesforce, que hagan un "Resubmit to MSO":
 
 Jaime me dice que hay que hacer esto para que el sistema vuelva a hacer sync de la medicina con información nueva.
 
-## Caso OM-9593 - Stuck in Submitted 🟢
 
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
-
-## Caso OM-9594 - Stuck in Submitted 🟢
-
-> [!Note]
-> El estado del request de este caso es `needs_prescriber_submission`.
-
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
 
 ## Caso OM-9398 - Fallo al crear Casa Order 🟢🔑
 
