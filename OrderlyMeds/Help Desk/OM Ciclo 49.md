@@ -3,18 +3,30 @@
 > [!Info]
 > Del Jueves 18 de Junio al Miércoles 1 de Julio.
 
-## Caso OM-9481 - New MP 🟢
+## Casos de New MP 🟢
 
 Etiquetas: #om_new_mp #om_checkin_reset
 
-```ruby
-new_member_period("paigekaye@gmail.com")
-```
+Casos:
 
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
+- OM-9481
+- OM-9489
+- OM-9573
+- OM-9577
+- OM-9582
+- OM-9596
+- OM-9599
+- OM-9590
+- OM-9598
+- OM-9600
+- OM-9604
+- OM-9605
+- OM-9700
+- OM-9725
+- OM-9723
+- OM-9724
+- OM-9718
+
 
 ## Caso OM-9350 - Reset Check In CX en Prospect 🟢
 
@@ -59,19 +71,6 @@ Seguí los pasos del caso [[OM Ciclo 48#Caso OM-9337 - Stuck in submitted 🚨]]
 Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
-```
-
-## Caso OM-9489 - New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-```ruby
-new_member_period("amandafalco11@gmail.com")
-```
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
 ```
 
 ## Caso OM-9400 - Remove CC de Salesforce 🟢💳
@@ -138,15 +137,6 @@ Mensaje para CS:
 ```
 Script resubmitted. Please check it out.
 ```
-
-## Casos de New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-Casos:
-
-- OM-9573
-- OM-9577
 
 ## Caso OM-9398 - Stuck in Active 🟢🔑
 
@@ -324,26 +314,6 @@ El Outcome del Script es "Script Error".
 > [!Note]
 > Lo mismo que pasó con [[OM Ciclo 48#Caso OM-9215 - Script error - Beluga 🟢ℹ️]]
 
-
-## Casos de New MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-Casos:
-
-- OM-9582
-- OM-9596
-- OM-9599
-- OM-9590
-- OM-9598
-- OM-9600
-- OM-9604
-- OM-9605
-- OM-9700
-- OM-9725
-- OM-9723
-- OM-9724
-- OM-9718
 
 ## Caso OM-9569 - Prescribed but error in CV channel 🟢ℹ️
 
