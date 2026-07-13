@@ -93,7 +93,7 @@ ccs = sfacc.card_payment_methods
 ccs.first.update!(status: "Inactive")
 ```
 
-## Caso OM-9347 - Script Error 🟢
+## Caso OM-9347 - Script Error - 3-month option 🟢
 
 Etiquetas: #om_script_error 
 
