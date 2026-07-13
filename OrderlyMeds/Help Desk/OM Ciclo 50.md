@@ -150,7 +150,8 @@ Etiquetas: #om_not_at_pharmacy
 > Estos son lo mismo que pasó en el caso descrito en [[OM Ciclo 49#Caso OM-9398 - Fallo al crear Casa Order 🟢🔑]]
 
 > [!Important]
-> Cuando estos son solucionados es que el Script pasa a "Order at Pharmacy".
+> Cuando el Script pasa a "Pharmacy Selected" se puede dar por corregido.
+> Sin embargo, estos son solucionados definitivamente es que el Script pasa a "Order at Pharmacy".
 
 Casos:
 - **OM-9966** 🟢
@@ -167,24 +168,31 @@ Casos:
 	- ==Volví a hacer el resubmit. Esta vez cuando quede en Pharmacy Selected voy a revisar el estado del CX y el estado de la farmacia del _Requested Medpicker Data_==
 	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
 	- Le hice "Resubmit Latest Ontraport Webhook" directo desde código.
+	- Luego de la demora el mensaje de alerta dice:
+		- _CareValidate request awaiting prescription response. Request for script 794134 has been waiting for prescription for 2.9 days. CareValidate has not sent an ADD_CASE_DECISION webhook. Contact CareValidate to check case [ID]. The prescriber may not have reviewed the case, or there was a technical issue on their end._
 - **OM-9950** 🟡
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
 	- Volví a hacer el resubmit.
 	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
+	- Lo mismo que 9893.
 - **OM-9958** 🟢
 	- Resubmitted
 	- Ya está en Order At Pharmacy
-- **OM-9980** 🟡
+- **OM-9980** 🟢
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
 	- Volví a hacer el resubmit.
 	- De nuevo en Pharmacy Selected. CX en ND. MedId de Evoluciona en ND.
-- **OM10001** 🟡
+	- Ya aparece como "Order at Pharmacy" y la orden está pendiente de Shipping.
+- **OM10001** 🟢
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
 	- Volví a hacer el resubmit.
 	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
+	- Ya aparece como "Order at Pharmacy" y la orden está pendiente de Shipping.
+
+
 
 ## Caso OM-9998 - Prescrito en Beluga pero nada en Pharmacy 🟡ℹ️
 
