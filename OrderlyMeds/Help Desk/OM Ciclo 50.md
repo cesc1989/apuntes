@@ -142,7 +142,7 @@ Vi lo mismo que en el caso [[OM Ciclo 49#Caso OM-9483 - Beluga Missing Values �
 
 Estoy a la espera.
 
-## Casos de error de CV enviando el Med a una Farmacia incorrecta 🟡
+## Casos de error de CV enviando el Med a una Farmacia incorrecta 🟢
 
 Etiquetas: #om_not_at_pharmacy
 
@@ -160,7 +160,7 @@ Casos:
 	- Tanto _Requested Medpicker Data_ como _Prescribed Medpicker Data_ están en CasaPharmaRx.
 	- El `CareValidate::Request` está en estado `written` con `decision` en "approved".
 	- La orden en Casa está con los estados Written, Sent y Received están chuleados en verde.
-- **OM-9893** 🟡
+- **OM-9893** 🟢
 	- Hice resubmit pero se quedó en "waiting for prescription"
 	- Según Claudio, no hay un tiempo claro sobre cuándo esto debe pasar
 		- Solo hay controles por si se pasa de las 48 horas en este estado
@@ -170,12 +170,14 @@ Casos:
 	- Le hice "Resubmit Latest Ontraport Webhook" directo desde código.
 	- Luego de la demora el mensaje de alerta dice:
 		- _CareValidate request awaiting prescription response. Request for script 794134 has been waiting for prescription for 2.9 days. CareValidate has not sent an ADD_CASE_DECISION webhook. Contact CareValidate to check case [ID]. The prescriber may not have reviewed the case, or there was a technical issue on their end._
-- **OM-9950** 🟡
+	- Parece que "Pharmacy Selected" también es un buen estado. Briggs cerró el caso.
+- **OM-9950** 🟢
 	- Resubmitted
 	- Ahora está en Pharmacy Selected
 	- Volví a hacer el resubmit.
 	- De nuevo en Pharmacy Selected. CX en OH. MedId de Evoluciona en OH.
 	- Lo mismo que 9893.
+	- Parece que "Pharmacy Selected" también es un buen estado. Briggs cerró el caso.
 - **OM-9958** 🟢
 	- Resubmitted
 	- Ya está en Order At Pharmacy
