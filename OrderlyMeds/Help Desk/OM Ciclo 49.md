@@ -62,16 +62,6 @@ Para resolver el cliente debe completar esta parte (hacer una orden). Se debe ub
 
 Copiar e indicar a CS que deben pedirle al CX que complete esa etapa primero.
 
-## Caso OM-9473 - Oops Error 🟢
-
-Etiquetas: #om_oops_error 
-
-Todos:
-
-- [x] Revisar el account
-- [x] Actualizar el campo `workos_user_nk`
-- [x] Sincronizar salesforce
-
 ## Caso OM-9400 - Remove CC de Salesforce 🟢💳
 
 Etiquetas: #om_remove_credit_card
@@ -275,6 +265,7 @@ Casos:
 	- Ya estaba el Script en "Order at Pharmacy".
 - OM-9602
 	- Similar al caso OM-9621. El caso decía "Stuck in Submitted" pero cuando revisé estaba ya en "Order at Pharmacy."
+- OM-9693
 
 
 ### Sobre Script ya en Pharmacy Selected
@@ -284,31 +275,6 @@ El caso decía que estaba "Stuck in Submitted" y me fue asignado. Cuando fui a v
 
 En todo caso hice el resubmit y luego salió lo que esperaba ver del webhook:
 ![[om_9621.02.png]]
-
-
-## Caso OM-9419 - Oops Error 🟢
-
-Etiquetas: #om_oops_error 
-
-- [x] Revisar el account
-
-```ruby
-account = Account.find_by(email: "")
-account.workos_user_nk
-```
-
-- [x] Actualizar el campo `workos_user_nk`
-```ruby
-account.update!(workos_user_nk: "")
-```
-
-- [x] Sincronizar salesforce
-```ruby
-Salesforce::CustomerUser.create(
-  salesforce_person_account: account.salesforce_account,
-  local_account: account
-)
-```
 
 ## Caso OM-9483 - Beluga Missing Values 🔵
 
@@ -369,6 +335,8 @@ Casos:
 - OM-9676
 - OM-9613
 - OM-9697
+- OM-9473
+- OM-9419
 
 - [x] Revisar el account
 
@@ -485,19 +453,6 @@ La solución fue dos cosas:
 - Crear un nuevo Script en estado Checkin
 	- Lo hice desde Swagger
 
-
-## Caso OM-9693 - Stuck in Submitted 🟢
-
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
 
 ## Caso OM-9726 - Invalid Code 🟢ℹ️
 
