@@ -126,7 +126,7 @@ new_member_period("correodelcx")
 
 Minutos después aparecerá un nuevo MP en el perfil del CX en Salesforce. Cuando lo verifique respondo al ticket indicando que el "CX is ready for check-in" y se cierra el caso.
 
-## Caso OM-9220 - New MP en Ontraport 🟢
+## Caso OM-9220 - Nuevo Script en Ontraport 🟢
 
 Etiquetas: #om_new_mp #om_new_script #om_ontraport
 
