@@ -96,7 +96,7 @@ No matching recommendations for these patient preferences.
 
 ## Caso OM-9848 - Unable to find matching product 🔵ℹ️
 
-Etiquetas: #om_case_error
+Etiquetas: #om_case_error #om_unable_to_find_matching_product
 
 > [!Info]
 > Este es una continuación de los casos donde tocaba hacer cancel & refund porque estaban con el plan de 3 meses. Hicieron el respectivo C&R pero hicieron resubmit del mismo MP.
@@ -118,6 +118,8 @@ Hice la suplantación y pasaba igual. Pregunté a Fabian y me dijo que, en Ontra
 Eso hice y se desbloqueó al probar la suplantación de nuevo.
 
 ## Caso OM-9875 - Not at the Pharmacy - Wegovy 🔵ℹ️
+
+Etiquetas: #om_not_at_pharmacy 
 
 > [!Info]
 > Este es un caso que le tocó a Fabian. Resulta que la medicina elegida fue Wegovy pero esa medicina solo la provee PharmacyHub. Dicha farmacia para estar desactivada en OrderlyMeds.
@@ -141,6 +143,8 @@ Vi lo mismo que en el caso [[OM Ciclo 49#Caso OM-9483 - Beluga Missing Values �
 Estoy a la espera.
 
 ## Casos de error de CV enviando el Med a una Farmacia incorrecta 🟡
+
+Etiquetas: #om_not_at_pharmacy
 
 > [!Info]
 > Estos son lo mismo que pasó en el caso descrito en [[OM Ciclo 49#Caso OM-9398 - Fallo al crear Casa Order 🟢🔑]]
