@@ -26,7 +26,21 @@ Casos:
 - OM-9723
 - OM-9724
 - OM-9718
+- OM-9608
+- OM-9632
+- OM-9640
+- OM-9669
+- OM-9672
+- OM-9674
+- OM-9675
+- OM-9677
+- OM-9678
+- OM-9679
 
+Corrí comando y respondí al Linear con:
+```
+👋🏾 CX is ready for check-in.
+```
 
 ## Caso OM-9350 - Reset Check In CX en Prospect 🟢
 
@@ -271,6 +285,19 @@ Casos:
 - OM-9594
 - OM-9562
 	- Nada que hacer. Ya estaba el Script en "Order at Pharmacy".
+- OM-9621
+	- Ya estaba el Script en "Order at Pharmacy".
+- OM-9602
+	- Similar al caso OM-9621. El caso decía "Stuck in Submitted" pero cuando revisé estaba ya en "Order at Pharmacy."
+
+
+### Sobre Script ya en Pharmacy Selected
+
+El caso decía que estaba "Stuck in Submitted" y me fue asignado. Cuando fui a ver el Script ya estaba en "Pharmacy Selected". Lucía así:
+![[om_9612.01.png]]
+
+En todo caso hice el resubmit y luego salió lo que esperaba ver del webhook:
+![[om_9621.02.png]]
 
 
 ## Caso OM-9419 - Oops Error 🟢
@@ -335,8 +362,6 @@ Jaime me dijo que toca, desde Salesforce, que hagan un "Resubmit to MSO":
 
 Jaime me dice que hay que hacer esto para que el sistema vuelva a hacer sync de la medicina con información nueva.
 
-
-
 ## Caso OM-9398 - Fallo al crear Casa Order 🟢🔑
 
 > [!Important]
@@ -346,68 +371,6 @@ Todo el detalle de esta segunda parte del caso está en [[Fallo al crear Casa Or
 
 > [!Info]
 > Fabian arregló manualmente. El error sí es lo que se detalla en el documento y sí tiene que ver con el problema del lado de Care Validate.
-
-## Caso OM-9621 - Stuck in Submitted 🟢ℹ️
-
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
-
-### Sobre Script ya en Pharmacy Selected
-
-El caso decía que estaba "Stuck in Submitted" y me fue asignado. Cuando fui a ver el Script ya estaba en "Pharmacy Selected". Lucía así:
-![[om_9612.01.png]]
-
-En todo caso hice el resubmit y luego salió lo que esperaba ver del webhook:
-![[om_9621.02.png]]
-
-
-## Caso OM-9602 - Stuck in Submitted 🟢ℹ️
-
-```ruby
-request = CareValidate::Request.find("")
-request.update!(state: "needs_resubmission")
-```
-
-- [x] Cambiar estado a `needs_resubmission`
-- [x] Hacer resubmit en Ontraport
-- [x] Comprobar nuevo CareValidate::Request creado
-- [x] Comprobar Script pasó a Pharmacy Selected
-- [x] Indicar a CS que el script fue resubmiteado
-
-Mensaje para CS:
-```
-Script resubmitted. Please check it out.
-```
-
-Similar al caso OM-9621. El caso decía "Stuck in Submitted" pero cuando revisé estaba ya en "Order at Pharmacy."
-
-## Casos de Check in Reset o new MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-- OM-9608
-- OM-9632
-- OM-9640
-- OM-9669
-- OM-9672
-- OM-9674
-- OM-9675
-- OM-9677
-- OM-9678
-- OM-9679
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
 
 ## Casos de Oops Error 🟢
 
