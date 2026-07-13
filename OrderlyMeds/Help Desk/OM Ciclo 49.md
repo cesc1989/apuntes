@@ -523,7 +523,7 @@ Veo este mensaje en la página de Case Overview:
 
 Fabian me indicó que hiciera resubmit en Ontraport. Demoró siempre un rato en procesarse el webhook desde Ontraport.
 
-Como no tenía ni CareValidate::Request ni Beluga submission le hice solo el resubmit desde Ontraport normal:
+Como no tenía ni `CareValidate::Request` ni _Beluga Submissions_ le hice solo el resubmit desde Ontraport normal:
 
 - Cambiar outcome a Active
 - Ir a Notes and Task
