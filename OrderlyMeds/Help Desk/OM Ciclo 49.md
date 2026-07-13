@@ -339,6 +339,11 @@ Casos:
 - OM-9600
 - OM-9604
 - OM-9605
+- OM-9700
+- OM-9725
+- OM-9723
+- OM-9724
+- OM-9718
 
 ## Caso OM-9569 - Prescribed but error in CV channel 🟢ℹ️
 
@@ -394,30 +399,6 @@ En todo caso hice el resubmit y luego salió lo que esperaba ver del webhook:
 ![[om_9621.02.png]]
 
 
-## Caso OM-9613 - Oops Error 🟢
-
-Etiquetas: #om_oops_error 
-
-- [x] Revisar el account
-
-```ruby
-account = Account.find_by(email: "")
-account.workos_user_nk
-```
-
-- [x] Actualizar el campo `workos_user_nk`
-```ruby
-account.update!(workos_user_nk: "")
-```
-
-- [x] Sincronizar salesforce
-```ruby
-Salesforce::CustomerUser.create(
-  salesforce_person_account: account.salesforce_account,
-  local_account: account
-)
-```
-
 ## Caso OM-9602 - Stuck in Submitted 🟢ℹ️
 
 ```ruby
@@ -462,6 +443,14 @@ Corrí comando y respondí al Linear con:
 
 Etiquetas: #om_oops_error 
 
+Casos:
+
+- OM-9642
+- OM-9671
+- OM-9676
+- OM-9613
+- OM-9697
+
 - [x] Revisar el account
 
 ```ruby
@@ -482,11 +471,6 @@ Salesforce::CustomerUser.create(
 )
 ```
 
-Casos:
-
-- OM-9642
-- OM-9671
-- OM-9676
 
 ## Caso OM-9673 - NO_ACCESS Error 🟢
 
@@ -581,31 +565,6 @@ La solución fue dos cosas:
 	- Se agregó Beluga
 - Crear un nuevo Script en estado Checkin
 	- Lo hice desde Swagger
-
-## Caso OM-9697 - Oops Error 🟢
-
-Etiquetas: #om_oops_error 
-
-- [x] Revisar el account
-- [x] Actualizar el campo `workos_user_nk`
-- [x] Sincronizar salesforce
-
-## Casos de new MP 🟢
-
-Etiquetas: #om_new_mp #om_checkin_reset
-
-Casos:
-
-- OM-9700
-- OM-9725
-- OM-9723
-- OM-9724
-- OM-9718
-
-Corrí comando y respondí al Linear con:
-```
-👋🏾 CX is ready for check-in.
-```
 
 
 ## Caso OM-9693 - Stuck in Submitted 🟢
