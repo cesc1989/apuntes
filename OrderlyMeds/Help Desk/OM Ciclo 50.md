@@ -140,7 +140,15 @@ Etiquetas: #om_beluga
 
 Vi lo mismo que en el caso [[OM Ciclo 49#Caso OM-9483 - Beluga Missing Values 🔵]] (sin sensitivities) así que hice la misma pregunta.
 
-Estoy a la espera.
+### Comentarios de Fabian 🗣️
+
+Me dijo que en estos casos hay algunas opciones para solucionar:
+
+> 1. Cuando hayan las reuniones con Briggs debe preguntar si pueden confirmar eso sensitivities y una vez confirmado darle resubmit.
+> 2. Si por alguna razón le dicen que ellos no deben modificar esos campos desde OP, hablar con Jay (o inclusive la misma reunion con Briggs) y pedirles si pueden darle un refund or credits y que te envíen nuevamente el link del HS para que el cliente lo llene de nuevo.
+> 3. Hablar con Wilkes y preguntarle si es posible migrar ese cliente a Salesforce y desde allí hacer el checkin, también requiere refund o credits en salesforce después de migrarse.
+
+
 
 ## Casos de error de CV enviando el Med a una Farmacia incorrecta 🟢
 
@@ -223,5 +231,9 @@ Después del resubmit pude ver los siguientes cambios de estado del Member Perio
 - A los tres minutos pasó a `VisitCompleted`
 - A los 30 minutos pasó `PrescriptionWritten`
 - Para confirmar que quedó bien en algún momento del día debe pasar a `WaitingOnPharmacyConfirmation` o `PharmacyOrderConfirmed` y los siguientes.
+
+Actualizaciones:
+- 13 de Julio: seguía en `PrescriptionWritten`
+- 14 de Julio: pasó a `PharmacyOrderConfirmed`
 
 Además, el primer Clinical Encounter fue cancelado, se creó uno nuevo que pasó a estar en *Finished*. Lo mismo para Med Picker Recommendations. Se canceló el primero, se creó uno nuevo que quedó en estado *Recommendation Made*.
