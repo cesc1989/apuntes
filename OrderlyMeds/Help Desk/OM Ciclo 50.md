@@ -271,3 +271,20 @@ puts "GHL contact locationId: #{ghl_contact.dig("contact", "locationId").inspect
 ```
 
 - Si `account.email` y `ghl_contact.dig("contact","email")` no coinciden (mayúsculas, typo, email distinto), esa es la causa raíz — el job automático `Salesforce::BackfillGhlContactInfo` busca por email exacto (`email.downcase`, ver `lib/ghl/api_client.rb`), así que un mismatch hace que nunca los enlace.
+
+## Caso OM-10062 - Script Not at Pharmacy 🟢
+
+Etiquetas: #om_script_not_at_pharmacy
+
+En este caso el reporte decía que:
+> Prescribed by Beluga on 07/07. All bundle were approved. Still, no order reflects for the said date.
+
+Cuando revisé ya el Script estaba en Outcome "Shipped". Hice algunas verificaciones:
+
+- **Revisé el Script**. En la parte de "Script History", en el script log estaba el evento de Tipo email y con asunto: "OrderlyMeds: Medication has been shipped"
+- **Revisé en la sección "Beluga Health" en Success**. Usando el Master NK que está en la sección de Case Overview fui a esta página y comprobé el estado del Bundle.
+	- Incluye información de:
+		- Ontraport Script
+		- Prescription Written
+		- Order
+			- En esta es donde vi todos los timestamps.
