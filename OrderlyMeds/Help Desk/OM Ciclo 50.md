@@ -238,3 +238,34 @@ Actualizaciones:
 	- Ya pasó a `PharmacyOrderShipped`
 
 Además, el primer Clinical Encounter fue cancelado, se creó uno nuevo que pasó a estar en *Finished*. Lo mismo para Med Picker Recommendations. Se canceló el primero, se creó uno nuevo que quedó en estado *Recommendation Made*.
+
+## Caso OM-10040 - Success y GHL unlinked 🟢
+
+Etiquetas: #om_ghl_not_linked
+
+La cuenta de GHL no estaba enlazada al Account del CX. El enlace a este servicio se da con los campos:
+```ruby
+ghl_contact_nk: "",
+ghl_contact_url: "",
+```
+
+Para enlazarlos se corre el job que ya existe pasando el ID de la cuenta:
+```ruby
+Salesforce::BackfillGhlContactInfo.new.perform(account.id)
+```
+
+### Verificación
+
+Con esto verifico que existan ambas cuentas y que el correo coincida:
+```ruby
+account = Account.find("019f4865-3387-7121-9ba8-6c18d0f89c48")
+puts "Success email: #{account.email.inspect}"
+puts "Success ghl_contact_nk: #{account.ghl_contact_nk.inspect}"
+puts "Success ghl_contact_url: #{account.ghl_contact_url.inspect}"
+
+ghl_contact = Ghl.client.get_contact(id: "UVLGB6jqO280phI97Gul")
+puts "GHL contact email: #{ghl_contact.dig("contact", "email").inspect}"
+puts "GHL contact locationId: #{ghl_contact.dig("contact", "locationId").inspect}"
+```
+
+- Si `account.email` y `ghl_contact.dig("contact","email")` no coinciden (mayúsculas, typo, email distinto), esa es la causa raíz — el job automático `Salesforce::BackfillGhlContactInfo` busca por email exacto (`email.downcase`, ver `lib/ghl/api_client.rb`), así que un mismatch hace que nunca los enlace.
