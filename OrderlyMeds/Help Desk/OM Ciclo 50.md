@@ -204,7 +204,7 @@ Casos:
 
 
 
-## Caso OM-9998 - Prescrito en Beluga pero nada en Pharmacy 🟡ℹ️
+## Caso OM-9998 - Prescrito en Beluga pero nada en Pharmacy 🟢ℹ️
 
 Etiquetas: #om_beluga_not_at_pharmacy
 
@@ -235,5 +235,6 @@ Después del resubmit pude ver los siguientes cambios de estado del Member Perio
 Actualizaciones:
 - 13 de Julio: seguía en `PrescriptionWritten`
 - 14 de Julio: pasó a `PharmacyOrderConfirmed`
+	- Ya pasó a `PharmacyOrderShipped`
 
 Además, el primer Clinical Encounter fue cancelado, se creó uno nuevo que pasó a estar en *Finished*. Lo mismo para Med Picker Recommendations. Se canceló el primero, se creó uno nuevo que quedó en estado *Recommendation Made*.
