@@ -232,12 +232,14 @@ Después del resubmit pude ver los siguientes cambios de estado del Member Perio
 - A los 30 minutos pasó `PrescriptionWritten`
 - Para confirmar que quedó bien en algún momento del día debe pasar a `WaitingOnPharmacyConfirmation` o `PharmacyOrderConfirmed` y los siguientes.
 
+Además, el primer Clinical Encounter fue cancelado, se creó uno nuevo que pasó a estar en *Finished*. Lo mismo para Med Picker Recommendations. Se canceló el primero, se creó uno nuevo que quedó en estado *Recommendation Made*.
+
 Actualizaciones:
 - 13 de Julio: seguía en `PrescriptionWritten`
 - 14 de Julio: pasó a `PharmacyOrderConfirmed`
 	- Ya pasó a `PharmacyOrderShipped`
+	- Se completó.
 
-Además, el primer Clinical Encounter fue cancelado, se creó uno nuevo que pasó a estar en *Finished*. Lo mismo para Med Picker Recommendations. Se canceló el primero, se creó uno nuevo que quedó en estado *Recommendation Made*.
 
 ## Caso OM-10040 - Success y GHL unlinked 🟢
 
