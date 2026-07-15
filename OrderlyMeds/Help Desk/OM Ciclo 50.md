@@ -311,7 +311,7 @@ Revisé varias cosas con Claudio y no parece haber error según la máquina.
 > - 7/14/2026, 4:38 PM - Checkin Completed -> Ready For Product Selection
 > - 7/14/2026, 4:38 PM - Ready for Checkin -> Checkin Completed
 
-Actualizaciones:
+### Actualizaciones
 
 - 15 de Julio: comenté que pidan al cx probar. Si ve un error, compartirlo al completo.
 
