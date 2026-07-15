@@ -321,3 +321,16 @@ Etiquetas: #om_oops_missing_page
 
 El error al ir al Check In era:
 > Oops, the page you're looking for doesn't exist
+
+## Caso OM-10076 - Script Error - Validation Errors 🟡
+
+Etiquetas: #om_script_error  #om_validation_errors
+
+Dice:
+> OMFS data shows:
+> Validation Errors: |Pregnancy must be Yes or No| ||A9/Calculated BMI must be a valid numeral. Calculated BMI = None.| ||A9/Calculated BMI of a new user must be >= 25. Calculated BMI = 'None'. Weight = '212'.|
+
+Casos similares ya resueltos son:
+- OM-8602 - Mandour
+- OM-9686 - Osborne
+
