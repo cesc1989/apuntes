@@ -288,3 +288,22 @@ Cuando revisé ya el Script estaba en Outcome "Shipped". Hice algunas verificaci
 		- Prescription Written
 		- Order
 			- En esta es donde vi todos los timestamps.
+
+
+## Caso OM-9995 - Check In Error - Cannot Order New Med 🟡
+
+Etiquetas: #om_cannot_order_new_med
+
+Dice:
+> cannot order new medication - giving error saying she is not qualified for medication although there has been no changes.
+
+Revisé varias cosas con Claudio y no parece haber error según la máquina.
+
+> [!Note]
+> Cuando inicié este caso creí haber visto que empezaba en el Check In. Hoy (15/07/26) que volví a mirar está en el form de Compra.
+
+> [!Note]
+> Además, el reporte fue hecho el 8 de Julio. Cuando lo empecé fue el 14 de Julio y el 15 de Julio veo estos movimientos de estado del MP:
+> 
+> - 7/14/2026, 4:38 PM - Checkin Completed -> Ready For Product Selection
+> - 7/14/2026, 4:38 PM - Ready for Checkin -> Checkin Completed
