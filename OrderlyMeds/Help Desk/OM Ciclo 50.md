@@ -134,7 +134,7 @@ El cliente tiene dos tarjetas. Una que ya había cancelado y una nueva. El porta
 
 La solución es ver que `account.salesforce_account.card_payment_methods` devuelve y marcar la errónea como "Inactive". Tal como se hizo en [[OM Ciclo 49#Caso OM-9400 - Remove CC de Salesforce 🟢💳]]
 
-## Caso OM-9949 - Beluga Missing Values 🟡
+## Caso OM-9949 - Beluga Missing Values 🟢
 
 Etiquetas: #om_beluga 
 
@@ -148,7 +148,10 @@ Me dijo que en estos casos hay algunas opciones para solucionar:
 > 2. Si por alguna razón le dicen que ellos no deben modificar esos campos desde OP, hablar con Jay (o inclusive la misma reunion con Briggs) y pedirles si pueden darle un refund or credits y que te envíen nuevamente el link del HS para que el cliente lo llene de nuevo.
 > 3. Hablar con Wilkes y preguntarle si es posible migrar ese cliente a Salesforce y desde allí hacer el checkin, también requiere refund o credits en salesforce después de migrarse.
 
+### Actualizaciones
 
+- 15 de Julio: Briggs comentó que iban a comunicarse con el CX
+	- Más tarde Ronalie indicó que el CX mandó a pedir refund.
 
 ## Casos de error de CV enviando el Med a una Farmacia incorrecta 🟢
 
