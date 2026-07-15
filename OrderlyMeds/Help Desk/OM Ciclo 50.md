@@ -307,3 +307,17 @@ Revisé varias cosas con Claudio y no parece haber error según la máquina.
 > 
 > - 7/14/2026, 4:38 PM - Checkin Completed -> Ready For Product Selection
 > - 7/14/2026, 4:38 PM - Ready for Checkin -> Checkin Completed
+
+Actualizaciones:
+
+- 15 de Julio: comenté que pidan al cx probar. Si ve un error, compartirlo al completo.
+
+## Caso OM-10052 - Page does not exist - Oops missing page 🟢
+
+Etiquetas: #om_oops_missing_page
+
+> [!Note]
+> Esto ya está arreglado. No sé cómo. Cuando lo abrí por primer vez el cx estaba en Ontraport pero hoy, 15 de Julio, está en Salesforce y el MP ya está en "Pharmacy Order Confirmed".
+
+El error al ir al Check In era:
+> Oops, the page you're looking for doesn't exist
