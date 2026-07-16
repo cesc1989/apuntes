@@ -30,7 +30,7 @@ Así que hice un nuevo MP, revisé con la suplantación y luego informé en el h
 
 ## Caso OM-9790 - Script error con `needs_requested_medpicker_data` 🟢ℹ️
 
-Etiquetas: #om_needs_requested_medpicker_data
+Etiquetas: #om_needs_requested_medpicker_data #om_no_matching_recommendation
 
 > [!Important]
 > El problema fue porque el request más reciente no tenía el MedID esperado.
