@@ -325,7 +325,7 @@ Etiquetas: #om_oops_missing_page
 El error al ir al Check In era:
 > Oops, the page you're looking for doesn't exist
 
-## Caso OM-10076 - Script Error - Validation Errors 🟡
+## Caso OM-10076 - Script Error - Validation Errors 🟢
 
 Etiquetas: #om_script_error  #om_validation_errors
 
@@ -358,3 +358,13 @@ Como en esta oportunidad.
 Termina explicando que:
 > Si necesitas que quede en "weightloss", debes pedirle a Jay para que te ayude agregando créditos a la cuenta del cliente, reseteando el checkin para que sea "Initial Checkin" y que no genere ese problema.
 
+### Resolucíon
+
+Jay agregó los créditos. La cantidad se sabe al ver en el Script el campo "Related Invoice Amount".
+
+Luego le pedí lo del nuevo Check In que fuera Initial. Para eso tomó un Script que ya estaba en Active y le corrió la automation de nombre:
+```
+[LIVE] PROCESS: Initial Script Order
+```
+
+Y le cambió el Visit Type a "weightloss".
