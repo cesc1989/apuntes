@@ -337,11 +337,18 @@ Casos similares ya resueltos son:
 - OM-8602 - Mandour
 - OM-9686 - Osborne
 
-### Actualizaciones
+### ¿Por qué Visit Type es "weightloss"?
+
+Me pide Fabian que pregunte porque el Visit Type es "weightloss".
+
+Me dicen que:
+> As per Beluga, if it's the first visit with them, it should be submitted as weigthloss. Looking at all scripts in OP, all cases were assigned to CV except for this one `3450E453-9B78-4FFA-BA7D-4E359B3209EF`. Hence, the submission as weightloss, not as weightlossfollowup.
+
+### OP Visit Type: weightloss vs weightlossfollowup
 
 Me explica Fabian que este error se da porque el Script tiene por Visit Type el valor "weightloss" en lugar de "weightlossfollowup".
 
-> En teoria para que funcione deberia estar en "weightlossfollowup" y darle resubmit, pero se han presentado casos que piden que sea por "weightloss"
+> En teoría para que funcione deberia estar en "weightlossfollowup" y darle resubmit, pero se han presentado casos que piden que sea por "weightloss"
 
 Luego dice que si tiene que ser el segundo tipo:
 > Si necesitas que quede en "weightlossfollowup", debes preguntarle a Jay para que te ayude agregando créditos a la cuenta del cliente, reseteando el checkin para que sea "Initial Checkin" y que no genere ese problema.
