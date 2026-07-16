@@ -23,3 +23,33 @@ Fabian dice:
 > We are unable to recommend an alternative script at this time because both B6 and B12 were selected, and there are currently no medication options available without at least one of those ingredients.
 >
 > Please cancel the order and issue a refund. Then, ask the customer whether they are willing to receive a medication that includes either B6 or B12. If so, they can complete a new checkin and we can proceed with a new recommendation.
+
+### Sensitivities: B6 y B12
+
+Este caso también ambas están relacionadas:
+![[om_10057.png]]
+
+¿Qué pasa con eso?
+
+## Caso OM-10167 - Error de MedPicker 🟡
+
+Etiquetas: #om_care_validate_error #om_medpicker_issue #om_wrong_pharmacy
+
+El típico caso del problema que el MedPicker ofrece una farmacia en el estado equivocado.
+
+En el CV::Request que cancelé el MedId Requested fue OH para Evoluciona:
+```
+nwDdccjIgYP0Rpdl1UKC2eDSg7jcDTjk
+```
+
+Sin embargo, en el Prescribed dio este en ND para CasaPharmaRx
+```
+LZDRgy7jShPoP6d3yfqU8PUeww4f2iEi
+```
+
+Luego del resubmit tiraba el mismo MedId Requested pero el estado era ND. Lo cual era raro. Probé con el botón "Fix Medpicker Selection" pero no pasó nada.
+
+Luego probé con "Resubmit Latest Ontraport Webhook" y ese sí lo cambió a otro MedId en OH para Evoluciona:
+```
+tW3hmw2j6faAtjLD7jYAWhKLOHV61Jmz
+```
