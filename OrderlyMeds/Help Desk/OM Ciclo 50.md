@@ -337,3 +337,11 @@ Casos similares ya resueltos son:
 - OM-8602 - Mandour
 - OM-9686 - Osborne
 
+### Actualizaciones
+
+Me explica Fabian que este error se da porque el Script tiene por Visit Type el valor "weightloss" en lugar de "weightlossfollowup".
+
+> En teoria para que funcione deberia estar en "weightlossfollowup" y darle resubmit, pero se han presentado casos que piden que sea por "weightloss"
+
+Luego dice que si tiene que ser el segundo tipo:
+> Si necesitas que quede en "weightlossfollowup", debes preguntarle a Jay para que te ayude agregando créditos a la cuenta del cliente, reseteando el checkin para que sea "Initial Checkin" y que no genere ese problema.
