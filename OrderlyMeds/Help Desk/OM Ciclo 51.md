@@ -64,5 +64,5 @@ OM-10139 dice:
 Y OM-10092 dice:
 > Rx wasn't forwarded due to an error. OMFS data shows "No matching recommendations for these patient preferences."
 
-Iba a hacer lo que describe [[OM Ciclo 50#Caso OM-9790 - Script error con needs_requested_medpicker_data 🟢ℹ️]]
+Iba a hacer lo que describe [[OM Ciclo 50#Caso OM-9790 - Script error con needs_requested_medpicker_data 🟢ℹ️]] pero al revisar los Scripts veo que están en "Order at Pharmacy". Pensé que los encontraría en "Script Error".
 
