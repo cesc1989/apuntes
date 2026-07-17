@@ -102,7 +102,7 @@ El VPS más barato cuesta 4 USD/mes. Incluye:
 - 10 GB espacio NVMe
 - 1 TB de transferencia
 
-## Monitoreo
+## Monitoreo 👀
 
 ### Cronitor
 
