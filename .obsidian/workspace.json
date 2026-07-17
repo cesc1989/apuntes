@@ -20,34 +20,6 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 51"
             }
-          },
-          {
-            "id": "1198381871788de9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 50"
-            }
-          },
-          {
-            "id": "617720916f049534",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
-            }
           }
         ]
       }
@@ -199,6 +171,7 @@
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
@@ -207,7 +180,6 @@
     "OrderlyMeds/Help Desk/attachments/om_10057.png",
     "OrderlyMeds/Help Desk/attachments/om_10076.png",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "OrderlyMeds/OrderlyMeds Member Period.md",
     "OrderlyMeds/Help Desk/attachments/om_9998.03.png",
     "OrderlyMeds/Help Desk/attachments/om_9998.02.png",
