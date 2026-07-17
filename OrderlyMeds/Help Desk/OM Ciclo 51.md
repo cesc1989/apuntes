@@ -70,3 +70,80 @@ Iba a hacer lo que describe [[OM Ciclo 50#Caso OM-9790 - Script error con needs_
 
 Etiquetas: #om_missing_orders #om_migration_op_to_sf
 
+El reporte decía que no se veían las ordenes de un cx. Así se veía al impersonar:
+![[om_10105.00.png]]
+
+El Cliente tuvo su orden completa en Ontraport y cuando revisé el caso ya estaba en Salesforce. Algo quedó mal durante la migración.
+
+Después una revisión exhaustiva con Claudio me di cuenta el detalle. El Member Period que correspondía con el Script con Outcome "Delivered" no tenía dicho valor en el campo `ontraport_imported_outcome`.
+
+Esto hacía que el llamado a la función `is_a_valid_order?` en `Patient::Connectors::Salesforce::Script` no devolviera el valor correcto para enlazar dicha `Salesforce::Order` con la UI.
+
+### Las funciones y el MP en estado ImportedFromOntraport
+
+La función `is_a_valid_order?` en la clase en `app/models/patient/connectors/salesforce/script.rb`:
+```ruby
+def is_a_valid_order?
+	if imported_from_ontraport?
+		valid_shipped_order_from_ontraport?
+	else
+		true
+	end
+end
+```
+
+Por su parte `valid_shipped_order_from_ontraport?` hace una comparación del Outcome del Script para que sea "Shipped".
+
+El Member Period tiene estado `ImportedFromOntraport` así que la función entra al condicional de `imported_from_ontraport?` y ejecuta el código de esa otra función:
+```ruby
+def valid_shipped_order_from_ontraport?
+	outcome == "Shipped"
+end
+```
+
+`outcome` es una función:
+```ruby
+def outcome
+	return nil unless member_period
+	@outcome ||= Patient::Connectors::Salesforce::OrderStatus.new(member_period_status: member_period.status, ontraport_outcome: member_period.ontraport_imported_outcome).get_outcome
+end
+```
+
+Aquí es donde estuvo la solución. Cuando revisé `member_period.ontraport_imported_outcome` me daba nulo. Ahí supe que tenía que corregir ese campo.
+
+#### Actualizar ontraport_imported_outcome
+
+Quería probar si con actualizar:
+```ruby
+mp.update!(ontraport_imported_outcome: "Delivered)
+```
+
+Sería suficiente así que probé la salida de lo que pasa en `get_outcome` de `app/models/patient/connectors/salesforce/order_status.rb`. Vi este llamado:
+```ruby
+outcome = Patient::Connectors::Ontraport::OrderStatus.new(outcome: ontraport_outcome).name if ontraport_outcome.present?
+```
+
+Y probé entonces:
+```ruby
+Patient::Connectors::Ontraport::OrderStatus.new(outcome: "Delivered").name
+=> :medication_delivered
+```
+
+Ahí comprobé que esa sería la solución ya que ese era un valor que `get_outcome` tomaría como bueno para lograr el objetivo de `valid_shipped_order_from_ontraport?`.
+
+### La solución: actualizar el campo
+
+Así:
+```ruby
+member_period_omid = "019ef178-5c50-7c0a-82b4-099ed78acefe"
+correct_outcome = "Delivered"
+mp = Salesforce::MemberPeriod.find_by(omid__c: member_period_omid)
+
+mp.update!(ontraport_imported_outcome: correct_outcome)
+```
+
+Se refleja enseguida en la UI de Salesforce:
+![[om_10105.02.png]]
+
+Una vez hecho eso se puede ver la orden en la lista en el portal del cliente.
+![[om_10105.01.png]]

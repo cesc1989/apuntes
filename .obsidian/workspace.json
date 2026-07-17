@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -169,6 +169,9 @@
   },
   "active": "eea747a6225ff49c",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/om_10105.01.png",
+    "OrderlyMeds/Help Desk/attachments/om_10105.02.png",
+    "OrderlyMeds/Help Desk/attachments/om_10105.00.png",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
@@ -190,10 +193,8 @@
     "OrderlyMeds/Help Desk/attachments/om_9722.checkin.blocked.png",
     "OrderlyMeds/Help Desk/attachments/om_9848.png",
     "OrderlyMeds/Help Desk/attachments/om_9790.01.png",
-    "OrderlyMeds/Help Desk/attachments/om_9839.01.png",
     "DevAsPros/Infra/Redis DBs en Uso.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
-    "OrderlyMeds/Help Desk/attachments/om_9726.invalid.code.png",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
