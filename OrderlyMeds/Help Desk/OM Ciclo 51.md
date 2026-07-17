@@ -148,7 +148,7 @@ Se refleja enseguida en la UI de Salesforce:
 Una vez hecho eso se puede ver la orden en la lista en el portal del cliente.
 ![[om_10105.01.png]]
 
-## Caso OM-10203 - CV Request stuck en needs_prescriber_submission 🟡
+## Caso OM-10203 - CV Request stuck en needs_prescriber_submission 🟢
 
 Etiquetas: #om_needs_prescriber_submission
 
@@ -159,3 +159,25 @@ Al parecer el problema es que este nuevo ni el anterior tienen un valor en `case
 
 Comparado con lo mismo para otro CX el cual sí progresó normalmente el resubmit:
 ![[om_10203.02.png]]
+
+> Causa raíz: Este paciente **nunca tuvo un caso creado en CareValidate**. El primer request fue cancelado sin `case_nk`, y el segundo llegó como `care_validate_checkin` pero no hay caso al cual hacer checkin. El `SendCheckinJob` falló silenciosamente con `CaseIdNotFound`.
+
+### La Solución: CareValidate::FindOrCreateCaseJob
+
+La solución fue identificar los valores necesarios para correr el job `CareValidate::FindOrCreateCaseJob`:
+```ruby
+incoming_webhook_id = "019f708b-91c2-73f2-acbe-07bfdd2d9a9c"
+request_id = "019f708b-920e-7d2f-84b8-a2d35f3000b6"
+script_id = "860229"
+
+CareValidate::FindOrCreateCaseJob.new.perform(incoming_webhook_id, request_id, script_id)
+```
+
+Cuando terminó la ejecución el request ya tenía valores en los campos `nk` y `case_nk`:
+```ruby
+nk: "948efbc9-7190-43c3-9fa7-636863ae3716",
+case_nk: "3b83fc1e-006b-49ed-9b07-3e10bc8f1144",
+```
+
+Y ya se aprecia en la UI:
+![[om_10203.03.png]]

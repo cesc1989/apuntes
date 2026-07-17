@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Needs Prescriber Submission",
+                "query": "\"fix medpicker selection",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,6 +169,7 @@
   },
   "active": "dfd54f7261a23b21",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/om_10203.03.png",
     "OrderlyMeds/Help Desk/attachments/om_10203.02.png",
     "OrderlyMeds/Help Desk/attachments/om_10203.01.png",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
@@ -192,7 +193,6 @@
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
     "DevAsPros/Infra/Gestion de Background Jobs.md",
-    "OrderlyMeds/Help Desk/attachments/om_9722.checkin.blocked.png",
     "DevAsPros/Infra/Redis DBs en Uso.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
