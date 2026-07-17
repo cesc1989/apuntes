@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Coshinema/Sobre_caracteres_extraños_en_subtítulos_srt.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -165,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "78fdae697c11be0f",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/attachments/om_10203.03.png",
