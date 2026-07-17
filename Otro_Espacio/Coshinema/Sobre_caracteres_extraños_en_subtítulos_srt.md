@@ -19,7 +19,9 @@ Cuando intentaba pasarlo usando `iconv`, el archivo quedaba vacío:
 iconv -t MS-ANSI ~/Downloads/No.Time.To.Die.2021.1080p.BluRay.x264.AAC5.1-\[YTS.MX\].srt > ~/Downloads/No.Time.To.Die.2021.1080p.BluRay.x264.AAC5.1-\[YTS.MX\].srt
 ```
 
-Usando Sublime Text también se puede hacer la conversión yendo al submenú “Archivo → Guardar con Codificación” sin embargo, la opción “ANSI” no aparece (o no sé cual es). Para ello tuve que usar Windows, abrir y guardar el archivo usando Bloc de Notas.
+Usando Sublime Text también se puede hacer la conversión yendo al submenú “Archivo → Guardar con Codificación” sin embargo, la opción “ANSI” no aparece (o no sé cual es).
+
+Para lograrlo al final tuve que usar Windows, abrir y guardar el archivo usando Bloc de Notas.
 
 Finalmente, al pasarlo a ANSI, aparecieron bien los subs en el TV.
 
