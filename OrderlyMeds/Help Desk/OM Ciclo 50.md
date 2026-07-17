@@ -28,9 +28,9 @@ Es como explica Wilkes. En el Check In hay una pregunta sobre medicina y dosis. 
 
 Así que hice un nuevo MP, revisé con la suplantación y luego informé en el hilo.
 
-## Caso OM-9790 - Script error con `needs_requested_medpicker_data` 🟢ℹ️
+## Caso OM-9790 - Script error con needs_requested_medpicker_data 🟢ℹ️
 
-Etiquetas: #om_needs_requested_medpicker_data #om_no_matching_recommendation
+Etiquetas: #om_needs_requested_medpicker_data #om_no_matching_recommendations
 
 > [!Important]
 > El problema fue porque el request más reciente no tenía el MedID esperado.

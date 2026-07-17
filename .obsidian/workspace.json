@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "8839d64b25a04c60",
+        "id": "32bfc8e01dd0ba7d",
         "type": "tabs",
         "children": [
           {
-            "id": "069bd15077606124",
+            "id": "eea747a6225ff49c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Precios de Servicios para Proyectos"
+              "title": "OM Ciclo 51"
+            }
+          },
+          {
+            "id": "1198381871788de9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 50.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OM Ciclo 50"
+            }
+          },
+          {
+            "id": "617720916f049534",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Codigo de Soluciones"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 50.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Precios de Servicios para Proyectos"
+              "title": "Backlinks for OM Ciclo 50"
             }
           },
           {
@@ -113,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 50.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Precios de Servicios para Proyectos"
+              "title": "Outgoing links from OM Ciclo 50"
             }
           },
           {
@@ -142,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 50.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Precios de Servicios para Proyectos"
+              "title": "Outline of OM Ciclo 50"
             }
           }
         ],
@@ -167,12 +196,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "069bd15077606124",
+  "active": "1198381871788de9",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/attachments/om_10057.png",
@@ -197,7 +227,6 @@
     "Hogar/Estado EPS SURA vs IW 🟡.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
     "DevAsPros/Infra/Puma como App Server 🟢.md",
-    "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
     "OrderlyMeds/Onboarding.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Revisando Solidus eCommerce.md",

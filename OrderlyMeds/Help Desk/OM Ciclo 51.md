@@ -53,3 +53,15 @@ Luego probé con "Resubmit Latest Ontraport Webhook" y ese sí lo cambió a otro
 ```
 tW3hmw2j6faAtjLD7jYAWhKLOHV61Jmz
 ```
+
+## Casos de Script Error: No matching recommendations 🟡
+
+Etiquetas: #om_no_matching_recommendations 
+
+OM-10139 dice:
+> Rx wasn't process due to an error. OMFS data shows: "No matching recommendations for these patient preferences."
+
+Y OM-10092 dice:
+> Rx wasn't forwarded due to an error. OMFS data shows "No matching recommendations for these patient preferences."
+
+Iba a hacer lo que describe [[OM Ciclo 50#Caso OM-9790 - Script error con `needs_requested_medpicker_data` 🟢ℹ️]]
