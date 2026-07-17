@@ -11,10 +11,14 @@
             "id": "78fdae697c11be0f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Coshinema/Sobre_caracteres_extraños_en_subtítulos_srt.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Sobre_caracteres_extraños_en_subtítulos_srt"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"fix medpicker selection",
+                "query": "subt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Coshinema/Sobre_caracteres_extraños_en_subtítulos_srt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Sobre_caracteres_extraños_en_subtítulos_srt"
             }
           }
         ],
@@ -160,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "78fdae697c11be0f",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/attachments/om_10203.03.png",
