@@ -152,6 +152,9 @@ Una vez hecho eso se puede ver la orden en la lista en el portal del cliente.
 
 Etiquetas: #om_needs_prescriber_submission
 
+> [!Note]
+> Otro caso como este fue el OM-9981.
+
 Típico caso de hacer un resubmit a un Script en Ontraport que se quedó en "Submitted". Luego de hacer eso el `CareValidate::Request` se queda en `needs_prescriber_submission` y no progresa.
 
 Al parecer el problema es que este nuevo ni el anterior tienen un valor en `case_nk`:
@@ -166,11 +169,9 @@ Comparado con lo mismo para otro CX el cual sí progresó normalmente el resubmi
 
 La solución fue identificar los valores necesarios para correr el job `CareValidate::FindOrCreateCaseJob`:
 ```ruby
-incoming_webhook_id = "019f708b-91c2-73f2-acbe-07bfdd2d9a9c"
-request_id = "019f708b-920e-7d2f-84b8-a2d35f3000b6"
-script_id = "860229"
+request = CareValidate::Request.find("ID")
 
-CareValidate::FindOrCreateCaseJob.new.perform(incoming_webhook_id, request_id, script_id)
+CareValidate::FindOrCreateCaseJob.new.perform(request.incoming_webhook_ids.first, request.id, request.script_nk)
 ```
 
 Cuando terminó la ejecución el request ya tenía valores en los campos `nk` y `case_nk`:
