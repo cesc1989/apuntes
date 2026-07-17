@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "32bfc8e01dd0ba7d",
+        "id": "94e66a600f238f7c",
         "type": "tabs",
         "children": [
           {
-            "id": "eea747a6225ff49c",
+            "id": "dfd54f7261a23b21",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_care_validate_error",
+                "query": "Needs Prescriber Submission",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,22 +167,24 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "eea747a6225ff49c",
+  "active": "dfd54f7261a23b21",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/om_10203.02.png",
+    "OrderlyMeds/Help Desk/attachments/om_10203.01.png",
+    "OrderlyMeds/Salesforce & Ontraport Flows.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_10105.01.png",
     "OrderlyMeds/Help Desk/attachments/om_10105.02.png",
     "OrderlyMeds/Help Desk/attachments/om_10105.00.png",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
-    "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/attachments/om_10057.png",
     "OrderlyMeds/Help Desk/attachments/om_10076.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/OrderlyMeds Member Period.md",
     "OrderlyMeds/Help Desk/attachments/om_9998.03.png",
     "OrderlyMeds/Help Desk/attachments/om_9998.02.png",
@@ -191,8 +193,6 @@
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
     "DevAsPros/Infra/Gestion de Background Jobs.md",
     "OrderlyMeds/Help Desk/attachments/om_9722.checkin.blocked.png",
-    "OrderlyMeds/Help Desk/attachments/om_9848.png",
-    "OrderlyMeds/Help Desk/attachments/om_9790.01.png",
     "DevAsPros/Infra/Redis DBs en Uso.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",

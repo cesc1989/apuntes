@@ -147,3 +147,15 @@ Se refleja enseguida en la UI de Salesforce:
 
 Una vez hecho eso se puede ver la orden en la lista en el portal del cliente.
 ![[om_10105.01.png]]
+
+## Caso OM-10203 - CV Request stuck en needs_prescriber_submission 🟡
+
+Etiquetas: #om_needs_prescriber_submission
+
+Típico caso de hacer un resubmit a un Script en Ontraport que se quedó en "Submitted". Luego de hacer eso el `CareValidate::Request` se queda en `needs_prescriber_submission` y no progresa.
+
+Al parecer el problema es que este nuevo ni el anterior tienen un valor en `case_nk`:
+![[om_10203.01.png]]
+
+Comparado con lo mismo para otro CX el cual sí progresó normalmente el resubmit:
+![[om_10203.02.png]]
