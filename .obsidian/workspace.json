@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d1c6728ac3747b51",
+        "id": "8839d64b25a04c60",
         "type": "tabs",
         "children": [
           {
-            "id": "9807b95620bdae90",
+            "id": "069bd15077606124",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-                "mode": "preview",
+                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 51"
-            }
-          },
-          {
-            "id": "2f96ce05e19c6b34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
+              "title": "Precios de Servicios para Proyectos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Codigo de Soluciones"
+              "title": "Backlinks for Precios de Servicios para Proyectos"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Codigo de Soluciones"
+              "title": "Outgoing links from Precios de Servicios para Proyectos"
             }
           },
           {
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Codigo de Soluciones"
+              "title": "Outline of Precios de Servicios para Proyectos"
             }
           }
         ],
@@ -182,12 +167,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "2f96ce05e19c6b34",
+  "active": "069bd15077606124",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/attachments/om_10057.png",
