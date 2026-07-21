@@ -3,7 +3,7 @@
 > [!Info]
 > Del Jueves 16 de Julio al Miércoles 29 de Julio.
 
-## Caso OM-10057 - Unable to Recommend Script 🟡
+## Caso OM-10057 - Unable to Recommend Script 🟢
 
 Etiquetas: #om_unable_to_recommend_script
 
