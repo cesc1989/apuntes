@@ -37,7 +37,7 @@ Etiquetas: #om_care_validate_error #om_medpicker_issue #om_wrong_pharmacy
 
 El típico caso del problema que el MedPicker ofrece una farmacia en el estado equivocado.
 
-En el CV::Request que cancelé el MedId Requested fue OH para Evoluciona:
+En el `CareValidate::Request` que cancelé el MedId Requested fue OH para Evoluciona:
 ```
 nwDdccjIgYP0Rpdl1UKC2eDSg7jcDTjk
 ```
