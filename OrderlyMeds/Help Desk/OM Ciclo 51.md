@@ -66,6 +66,11 @@ Y OM-10092 dice:
 
 Iba a hacer lo que describe [[OM Ciclo 50#Caso OM-9790 - Script error con needs_requested_medpicker_data 🟢ℹ️]] pero al revisar los Scripts veo que están en "Order at Pharmacy". Pensé que los encontraría en "Script Error".
 
+**Actualizaciones**
+- No hice nada y el Script de 10139 el Viernes estaba en "Order at Pharmacy"
+	- Ya hoy, 21 de Julio, estaba en Shipped
+- El 10092 sigue en Order at Pharmacy pero no se ha enviado aún
+
 ## Caso OM-10105 - Missing Orders después de Import de OP a SF 🟢
 
 Etiquetas: #om_missing_orders #om_migration_op_to_sf
