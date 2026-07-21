@@ -382,7 +382,7 @@ Y cerró el caso.
 
 ## Caso OM-9334 - Check In Error - Heroku Connect 🟢ℹ️
 
-Etiquetas: #om_checkin_error #om_heroku_connect_error
+Etiquetas: #om_checkin_error #om_heroku_connect_error #om_previous_medication
 
 Dice:
 > We're having trouble finding your previous medication and are unable to proceed with your order. Please contact support for assistance.
