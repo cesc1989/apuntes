@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,6 +167,7 @@
   },
   "active": "d0d46a75362a6032",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/om_10121.png",
     "OrderlyMeds/Onboarding.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/OrderlyMeds Member Period.md",
@@ -202,7 +203,6 @@
     "DevAsPros/Infra/Puma como App Server 🟢.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Revisando Solidus eCommerce.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Multi Tenancy.md",
     "OrderlyMeds/Help Desk/attachments",
     "OrderlyMeds/Help Desk",
     "OrderlyMeds",

@@ -187,3 +187,29 @@ case_nk: "3b83fc1e-006b-49ed-9b07-3e10bc8f1144",
 
 Y ya se aprecia en la UI:
 ![[om_10203.03.png]]
+
+## Caso OM-10121 - connect ECONNREFUSED 🟡
+
+Etiquetas: #om_care_validate_error #om_connection_refused
+
+El error se ve es en el portal de Care Validate:
+```
+connect ECONNREFUSED 3.143.37.86:443
+```
+
+Y se ve así:
+![[om_10121.png]]
+
+Tiene un caso similar que es el OM-9927. Vi que Fabian hizo un resubmit así que hice lo mismo para este.
+
+### Cambios de Estado del Member Period después del resubmit
+
+Estos son todos los cambios que tuvo el campo status para llegar hasta donde nos interesa.
+
+- Después del resubmit pasó a VisitCreated
+	- Se quedó ahí varios días
+- El 17 de Julio hizo todos estos cambios:
+	- 7/17/2026, 2:57 PM: pasó a Visit Completed
+	- 7/17/2026, 3:27 PM: pasó a Prescription Written
+		- Después pasó a Waiting On Pharmacy Confirmation
+		- Y finalmente a Pharmacy Order Confirmed
