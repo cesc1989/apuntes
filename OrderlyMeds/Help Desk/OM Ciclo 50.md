@@ -293,7 +293,7 @@ Cuando revisé ya el Script estaba en Outcome "Shipped". Hice algunas verificaci
 			- En esta es donde vi todos los timestamps.
 
 
-## Caso OM-9995 - Check In Error - Cannot Order New Med 🟡
+## Caso OM-9995 - Check In Error - Cannot Order New Med 🟢
 
 Etiquetas: #om_cannot_order_new_med
 
@@ -310,6 +310,8 @@ Revisé varias cosas con Claudio y no parece haber error según la máquina.
 > 
 > - 7/14/2026, 4:38 PM - Checkin Completed -> Ready For Product Selection
 > - 7/14/2026, 4:38 PM - Ready for Checkin -> Checkin Completed
+
+No hubo más novedades así que puede que haya sido un error del momento o nada en absoluto.
 
 ### Actualizaciones
 
