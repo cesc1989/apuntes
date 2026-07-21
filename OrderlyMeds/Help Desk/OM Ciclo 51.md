@@ -31,7 +31,7 @@ Este caso también ambas están relacionadas:
 
 ¿Qué pasa con eso?
 
-## Caso OM-10167 - Error de MedPicker 🟡
+## Caso OM-10167 - Error de MedPicker 🟢
 
 Etiquetas: #om_care_validate_error #om_medpicker_issue #om_wrong_pharmacy
 
@@ -54,7 +54,10 @@ Luego probé con "Resubmit Latest Ontraport Webhook" y ese sí lo cambió a otro
 tW3hmw2j6faAtjLD7jYAWhKLOHV61Jmz
 ```
 
-## Casos de Script Error: No matching recommendations 🟡
+> [!Important]
+> La order se mantuvo en Farmacia sin ser enviada pero ahí ya no hay nada que hacer de nuestra parte. Entonces dejé un mensaje indicando el estado y diciendo que deben preguntar a la farmacia sobre el pedido.
+
+## Casos de Script Error: No matching recommendations 🟢
 
 Etiquetas: #om_no_matching_recommendations 
 
@@ -69,7 +72,8 @@ Iba a hacer lo que describe [[OM Ciclo 50#Caso OM-9790 - Script error con needs_
 **Actualizaciones**
 - No hice nada y el Script de 10139 el Viernes estaba en "Order at Pharmacy"
 	- Ya hoy, 21 de Julio, estaba en Shipped
-- El 10092 sigue en Order at Pharmacy pero no se ha enviado aún
+- El 10092 sigue en Order at Pharmacy pero no se ha enviado aún.
+	- Pregunté a Jaime y dijo que hay que pedir a CS que pregunten ellos a la farmacia.
 
 ## Caso OM-10105 - Missing Orders después de Import de OP a SF 🟢
 
@@ -188,7 +192,7 @@ case_nk: "3b83fc1e-006b-49ed-9b07-3e10bc8f1144",
 Y ya se aprecia en la UI:
 ![[om_10203.03.png]]
 
-## Caso OM-10121 - connect ECONNREFUSED 🟡
+## Caso OM-10121 - connect ECONNREFUSED 🟢
 
 Etiquetas: #om_care_validate_error #om_connection_refused
 
@@ -213,3 +217,6 @@ Estos son todos los cambios que tuvo el campo status para llegar hasta donde nos
 	- 7/17/2026, 3:27 PM: pasó a Prescription Written
 		- Después pasó a Waiting On Pharmacy Confirmation
 		- Y finalmente a Pharmacy Order Confirmed
+
+> [!Important]
+> La order se mantuvo en Farmacia sin ser enviada pero ahí ya no hay nada que hacer de nuestra parte. Entonces dejé un mensaje indicando el estado y diciendo que deben preguntar a la farmacia sobre el pedido.
