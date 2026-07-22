@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9bb30517daf81867",
+        "id": "1a4b9d9e75410491",
         "type": "tabs",
         "children": [
           {
-            "id": "edf8c9314d81e7b7",
+            "id": "60158300ad6f1b06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 48"
+              "title": "Precios de Servicios para Proyectos"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+                "file": "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 48"
+              "title": "Outline of Precios de Servicios para Proyectos"
             }
           }
         ],
@@ -165,15 +165,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "edf8c9314d81e7b7",
+  "active": "60158300ad6f1b06",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Salesforce & Ontraport Flows.md",
+    "OrderlyMeds/SU/Untitled",
+    "OrderlyMeds/SucccessPortalOptimization",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_10121.png",
     "OrderlyMeds/Onboarding.md",
-    "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/OrderlyMeds Member Period.md",
     "OrderlyMeds/OrderlyMeds Glossary.md",
     "OrderlyMeds/Enlaces y Notas.md",
@@ -210,8 +212,6 @@
     "DevAsPros/Apex",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
     "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
-    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu",
-    "Hogar/attachments",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",

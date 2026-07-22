@@ -30,7 +30,7 @@ Alrededor de 3.5 USD/mes en Pikapods. Sin límites de usuarios ni proyectos.
 
 ## Envío de Correos 📧
 
-## Resend
+### Resend
 
 > [!Important]
 > Por el precio, podría ser mejor hacer varias cuentas por cada servicio o reusar algún subdominio ya verificado.
