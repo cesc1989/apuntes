@@ -222,7 +222,7 @@ Estos son todos los cambios que tuvo el campo status para llegar hasta donde nos
 > La order se mantuvo en Farmacia sin ser enviada pero ahí ya no hay nada que hacer de nuestra parte. Entonces dejé un mensaje indicando el estado y diciendo que deben preguntar a la farmacia sobre el pedido.
 
 
-## Casos de Member Period not at pharmacy 🟡
+## Casos de Member Period not at pharmacy 🟡ℹ️
 
 Etiquetas: #om_member_period_not_at_pharmacy
 
