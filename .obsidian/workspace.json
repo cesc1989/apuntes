@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b142c120ea4ade25",
+        "id": "a885402d2ef0dfaf",
         "type": "tabs",
         "children": [
           {
-            "id": "ffbdd929b0e2f3d6",
+            "id": "d19560ce97487fd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
+                "file": "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "476686f4b08d0170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "4ed68b21824d3308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "e9f13ff8448da3b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "Configuración del Repo"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
+                "file": "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Configuración del Repo"
             }
           }
         ],
@@ -208,11 +165,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "e9f13ff8448da3b6",
+  "active": "d19560ce97487fd5",
   "lastOpenFiles": [
-    "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
+    "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
+    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
@@ -224,8 +185,6 @@
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_10121.png",
     "OrderlyMeds/Onboarding.md",
@@ -246,8 +205,6 @@
     "OrderlyMeds/Help Desk/attachments/om_10076.png",
     "OrderlyMeds/Help Desk/attachments/om_9998.03.png",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
-    "DevAsPros/Infra/Gestion de Background Jobs.md",
     "OrderlyMeds/Help Desk/attachments",
     "OrderlyMeds/Help Desk",
     "OrderlyMeds",
