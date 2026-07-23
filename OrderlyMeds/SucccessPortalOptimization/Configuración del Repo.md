@@ -24,6 +24,6 @@
 
 ## Dependencias del repo
 
-- [ ] Ruby 4.0.5
-- [ ] Node 24.13.0
+- [x] Ruby 4.0.5
+- [x] Node 24.13.0
 
