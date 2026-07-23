@@ -220,3 +220,21 @@ Estos son todos los cambios que tuvo el campo status para llegar hasta donde nos
 
 > [!Important]
 > La order se mantuvo en Farmacia sin ser enviada pero ahí ya no hay nada que hacer de nuestra parte. Entonces dejé un mensaje indicando el estado y diciendo que deben preguntar a la farmacia sobre el pedido.
+
+
+## Casos de Member Period not at pharmacy 🟡
+
+Etiquetas: #om_member_period_not_at_pharmacy
+
+Varios Member Periods se han quedado pegados en el estado:
+
+- PrescriptionWritten
+- WaitingOnPharmacyConfirmation
+
+Después de hacer el debido resubmit to MSO he notado como varios se mueven más rápido en todo el proceso en cambio otros no avanzan.
+
+Los casos más lentos que he visto son:
+
+- OM-10310
+- OM-10311
+- OM-10169
