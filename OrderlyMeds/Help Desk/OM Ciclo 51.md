@@ -226,6 +226,9 @@ Estos son todos los cambios que tuvo el campo status para llegar hasta donde nos
 
 Etiquetas: #om_member_period_not_at_pharmacy
 
+> [!Important]
+> Usualmente, cuando el Member Period será resuelto con éxito es cuando se crea un registro de tipo Medication Dispense. Este es el que determina el estado `PharmacyOrderConfirmed`.
+
 Varios Member Periods se han quedado pegados en el estado:
 
 - PrescriptionWritten
