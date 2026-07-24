@@ -285,7 +285,7 @@ account.person_mailing_postal_code
 
 Pedí a CS que confirmaran y corrigieran.
 
-### Redisparar Casa::Order
+#### Solucionar con: Redisparar Casa::ProcessCasaOrderJob
 
 > [!Warning]
 > Aún no lo he probado.
@@ -302,7 +302,7 @@ casa_order.can_submit_order? # debería dar true (case_nk ya está presente)
 Casa::ProcessCasaOrderJob.new.perform(casa_order.id)
 ```
 
-### Pista de caso OM-10311
+### Pista de caso OM-10311 - Practicioner
 
 Para este, usando el script de debuggeo, llegué a este error:
 ```
@@ -312,3 +312,33 @@ Order 019f76ec-de83-733a-8e26-be4e791a0ae9 (SmartPharma) -- no SmartPharma::Medi
 Order 019f8a8b-1fc5-7341-a12b-c598c6f26356 (SmartPharma) -- no SmartPharma::MedicationOrder found (never reached SmartPharma::FindOrCreateMedicationOrder)
 ```
 
+Con otro script llegamos al punto donde encontramos que el practicioner de SmartPharma no está en la base de datos:
+```
+--- prescriber NPI vs SmartPharma::Practitioner ---
+Order 019f76ec-de83-733a-8e26-be4e791a0ae9: prescriber=Matthew Abinante DO npi="1740685387" practitioner_found=false
+
+Order 019f8a8b-1fc5-7341-a12b-c598c6f26356: prescriber=Matthew Abinante DO npi="1740685387" practitioner_found=false
+```
+
+Con este script (ya incorporado en el script de debuggeo):
+```ruby
+puts "--- prescriber NPI vs SmartPharma::Practitioner ---"
+internal_orders.each do |o|
+  payload = JSON.parse(o.payload)
+  npi = payload.dig("prescriber", "npi")
+  practitioner = SmartPharma::Practitioner.find_by(npi: npi)
+  puts "Order #{o.id}: prescriber=#{payload.dig("prescriber", "first_name")} #{payload.dig("prescriber", "last_name")} npi=#{npi.inspect} practitioner_found=#{practitioner.present?}"
+end
+```
+
+> [!Note]
+> Pregunté a Jaime qué procede en este caso y dijo que no sabe. Que haga resubmit.
+>
+> Pregunté a Fabian. Espero respuesta...
+
+#### Solucionar con: redisparar SmartPharma::ProcessOrder
+
+Cuando exista el `SmartPharma::Practitioner.find_by(npi: npi)`, Claudio dice que ejecute:
+```ruby
+SmartPharma::ProcessOrder.call(order: internal_orders.last, logger: Rails.logger)
+```
