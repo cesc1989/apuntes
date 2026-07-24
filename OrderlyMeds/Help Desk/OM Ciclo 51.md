@@ -287,7 +287,7 @@ Pedí a CS que confirmaran y corrigieran.
 ### Redisparar Casa::Order
 
 > [!Warning]
-> Aún no lo pruebo.
+> Aún no lo he probado.
 
 ```ruby
 casa_order = Casa::Order.find("019f8b13-abcf-7669-aadd-332e62c545c5") # la última, la que sigue "failed"
