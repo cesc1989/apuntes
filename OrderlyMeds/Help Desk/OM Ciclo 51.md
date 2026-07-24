@@ -238,9 +238,10 @@ Después de hacer el debido resubmit to MSO he notado como varios se mueven más
 
 Los casos más lentos que he visto son:
 
-- OM-10310
-- OM-10311
-- OM-10169
+- OM-10310: 🟢
+	- Este se resolvió solo.
+- OM-10311: 🟡
+- OM-10169: 🟡
 
 ### Pista de caso OM-10169 - Zip code de 6 dígitos
 
@@ -300,3 +301,14 @@ casa_order.can_submit_order? # debería dar true (case_nk ya está presente)
 
 Casa::ProcessCasaOrderJob.new.perform(casa_order.id)
 ```
+
+### Pista de caso OM-10311
+
+Para este, usando el script de debuggeo, llegué a este error:
+```
+--- Pharmacy submission records per order ---
+Order 019f76ec-de83-733a-8e26-be4e791a0ae9 (SmartPharma) -- no SmartPharma::MedicationOrder found (never reached SmartPharma::FindOrCreateMedicationOrder)
+
+Order 019f8a8b-1fc5-7341-a12b-c598c6f26356 (SmartPharma) -- no SmartPharma::MedicationOrder found (never reached SmartPharma::FindOrCreateMedicationOrder)
+```
+
