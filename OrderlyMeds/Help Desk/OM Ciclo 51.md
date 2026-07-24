@@ -286,3 +286,17 @@ Pedí a CS que confirmaran y corrigieran.
 
 ### Redisparar Casa::Order
 
+> [!Warning]
+> Aún no lo pruebo.
+
+```ruby
+casa_order = Casa::Order.find("019f8b13-abcf-7669-aadd-332e62c545c5") # la última, la que sigue "failed"
+
+# Confirmar que ya sincronizó el ZIP correcto antes de reintentar:
+puts casa_order.order.account.person_mailing_postal_code rescue puts mp.account.person_mailing_postal_code
+
+casa_order.reset! # failed -> pending; limpia failure_message y timestamps
+casa_order.can_submit_order? # debería dar true (case_nk ya está presente)
+
+Casa::ProcessCasaOrderJob.new.perform(casa_order.id)
+```
