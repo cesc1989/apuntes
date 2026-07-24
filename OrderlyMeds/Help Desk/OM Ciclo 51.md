@@ -241,3 +241,48 @@ Los casos más lentos que he visto son:
 - OM-10310
 - OM-10311
 - OM-10169
+
+### Pista de caso OM-10169 - Zip code de 6 dígitos
+
+> [!Note]
+> En este caso ya había hecho dos veces ResubmitToMSO y no lograba que avanzara el Member Period. 
+
+Luego de probar un debuggeo con Claudio llegamos al punto donde descubrimos este error:
+```
+--- Casa::Order per internal order ---
+order=019f0071-6f43-7d78-a3a0-dc8a5bd101d6 | casa_order_id=019f0071-7107-7394-acf1-93998ce0c81c | status=failed | case_nk=4c0070ea-4cb2-4020-9355-02688be327d8 | sent_at= | failure_message={"status":400,"success":false,"message":"Invalid request","error":"data.postalCode, Postal code must be a valid US zip code (5 digits or 5 digits + hyphen + 4 digits)","code":"VALIDATION_ERROR"} | state_history=[{"state" => "failed", "timestamp" => "2026-06-26T21:21:13Z"}]
+
+order=019f6e83-f9d5-7121-9aba-60742a2e7de6 | casa_order_id=019f6e83-fbd5-7e89-a190-fefa2e6cbe3d | status=failed | case_nk=4c0070ea-4cb2-4020-9355-02688be327d8 | sent_at= | failure_message={"status":400,"success":false,"message":"Invalid request","error":"data.postalCode, Postal code must be a valid US zip code (5 digits or 5 digits + hyphen + 4 digits)","code":"VALIDATION_ERROR"} | state_history=[{"state" => "failed", "timestamp" => "2026-07-18T06:20:51Z"}]
+
+order=019f8b13-aa27-72be-a1e5-d332b7e30769 | casa_order_id=019f8b13-abcf-7669-aadd-332e62c545c5 | status=failed | case_nk=4c0070ea-4cb2-4020-9355-02688be327d8 | sent_at= | failure_message={"status":400,"success":false,"message":"Invalid request","error":"data.postalCode, Postal code must be a valid US zip code (5 digits or 5 digits + hyphen + 4 digits)","code":"VALIDATION_ERROR"} | state_history=[{"state" => "failed", "timestamp" => "2026-07-23T19:25:50Z"}]
+```
+
+con este script:
+```ruby
+sfid = "a0nPm00000nHXq4IAG"
+mp = Salesforce::MemberPeriod.find_by(sfid: sfid)
+internal_orders = Order.where(case_id: mp.omid).order(:created_at)
+
+internal_orders.each do |o|
+  co = Casa::Order.for_order(o).first
+  if co
+    puts "FOUND order=#{o.id} casa_order_id=#{co.id} status=#{co.status} sent_at=#{co.sent_at} failure_message=#{co.failure_message.inspect}"
+  else
+    puts "NO CASA ORDER for internal order #{o.id}"
+  end
+end
+nil
+```
+
+Al revisar en Salesforce, puedo ver que el zip code tiene 6 dígitos:
+```ruby
+# Esto es un Salesforce::Account
+account = mp.account
+account.person_mailing_postal_code
+=> "920054"
+```
+
+Pedí a CS que confirmaran y corrigieran.
+
+### Redisparar Casa::Order
+
