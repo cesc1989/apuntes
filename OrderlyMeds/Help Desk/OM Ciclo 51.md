@@ -287,8 +287,8 @@ Pedí a CS que confirmaran y corrigieran.
 
 #### Solucionar con: Redisparar Casa::ProcessCasaOrderJob
 
-> [!Warning]
-> Aún no lo he probado.
+> [!Important]
+> Esto funciona par este caso puntual. Después de correrlo pude ver que el MP pasó a `PharmacyOrderConfirmed`, no había error en la línea en la sección "Casa Pharmacy Orders", el registro tenía la etiqueta "delivered" y se creó el Medication Dispense.
 
 ```ruby
 casa_order = Casa::Order.find("019f8b13-abcf-7669-aadd-332e62c545c5") # la última, la que sigue "failed"
