@@ -89,3 +89,18 @@ config.i18n.fallbacks = true
 ## Despliegue de Cash Flow con Solid Queue
 
 En términos generales, el despliegue fue muy normal. Hubo errores porque se cambió el archivo del servicio anterior de Sidekiq. Esto enseña que hay que tener ambos servicios en un despliegue para desactivar el actual. Después sí quitarlos en un despliegue posterior.
+
+## Error de Redis en Super Menú aunque no se usa
+
+El error paso después de cargar una foto a un plato:
+> RedisClient::CannotConnectError
+> Connection refused - connect(2) for 127.0.0.1:6379 (redis://localhost:6379) (RedisClient::CannotConnectError)
+
+Pasa porque en el modelo Dish se tiene:
+```ruby
+has_one_attached :photo
+```
+
+Eso hace que se dispare un job. Como el active job adapter era Sidekiq y este a su vez estaba configurado para leer Redis, pues ahí el error.
+
+La solución fue pasar el adapter a Async. Eventualmente habrá que pasarlo a solid_queue.
