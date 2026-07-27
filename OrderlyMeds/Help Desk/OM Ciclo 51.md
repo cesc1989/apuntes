@@ -302,7 +302,7 @@ casa_order.can_submit_order? # debería dar true (case_nk ya está presente)
 Casa::ProcessCasaOrderJob.new.perform(casa_order.id)
 ```
 
-### Pista de caso OM-10311 - Practicioner
+### Pista de caso OM-10311 - Practitioner
 
 Para este, usando el script de debuggeo, llegué a este error:
 ```
@@ -331,10 +331,12 @@ internal_orders.each do |o|
 end
 ```
 
-> [!Note]
+> [!Important]
 > Pregunté a Jaime qué procede en este caso y dijo que no sabe. Que haga resubmit.
 >
-> Pregunté a Fabian. Espero respuesta...
+> Pregunté a Fabian y dice que generalmente hacer ResubmitToMSO puede arreglar porque se asigna otro prescriber. En este caso toca pedir que lo creen en SmartPharma para poder hacer el resubmit correctamente.
+>
+> Esto queda confirmado luego de que Rhystie hiciera el escalamiento y TK King respondiera que él lo puede crear.
 
 #### Solucionar con: redisparar SmartPharma::ProcessOrder
 
