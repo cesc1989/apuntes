@@ -42,11 +42,11 @@ Copiar el correo y buscarlo en la sección "Case Overview". En la pestaña "Care
 
 Es otro caso. Hay que revisar el flujo del state machine y los datos en la base de datos.
 
-Etiquetas: #om_beluga #om_stuck_in_submitted 
+Etiquetas: #om_routed_to_beluga #om_stuck_in_submitted 
 
 En Ontraport no suele haber muchas pistas. En este caso la pista es que el campo "Prescriber" (perfil del paciente) dice "Beluga Health".
 
-Revisamos en Care Validate Request y vemos el Submission que dice "routed_to_beluga". Si vemos esto tenemos que entender una pieza del código fuente.
+Revisamos en Care Validate Request y vemos el Submission que dice `routed_to_beluga`. Si vemos esto tenemos que entender una pieza del código fuente.
 
 El modelo `CareValidate::Request` tiene un state por donde empezamos a revisar. Es `send_to_beluga`. Buscamos dónde se usa ese cambio de estado y encontramos el job `CareValidate::FindOrCreateCaseJob` donde estas tres líneas del rescue llaman la atención:
 ```ruby

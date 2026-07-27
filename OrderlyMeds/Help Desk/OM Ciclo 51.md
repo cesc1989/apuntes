@@ -386,3 +386,31 @@ end
 ```
 
 Después revisé en Success y apuntan a las nuevas URLs.
+
+## Caso OM-10360 - routed to beluga 🟡
+
+Etiquetas: #om_routed_to_beluga 
+
+Un caso de stuck en active que el resubmit le cambió el estado al Request a `routed_to_beluga`.
+
+Traté las indicaciones que aprendí del onboarding en [[Onboarding#Si el estado es `routed_to_beluga`]]
+
+Ubiqué el webhook del request:
+```ruby
+request = CareValidate::Request.find("019f6160-1059-72fc-94f9-55127fd1f45a")
+incoming_webhook = IncomingWebhook.find(request.incoming_webhook_ids.first)
+```
+
+Luego inspeccioné sus valores de state, source_type y source_event:
+```ruby
+state: "delivered",
+source_type: "ontraport",
+source_event: "care_validate_checkin"
+```
+
+Lo cual coincide con la descripción del caso. Así que cambio el state a otra cosa que no sea `delivered` para que `ProcessIncomingWebhookJob` lo pueda reprocesar y ejecuto:
+```ruby
+incoming_webhook.update!(state: "processing")
+ProcessIncomingWebhookJob.new.perform(incoming_webhook.id)
+```
+
