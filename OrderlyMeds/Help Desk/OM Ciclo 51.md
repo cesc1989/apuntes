@@ -342,3 +342,47 @@ Cuando exista el `SmartPharma::Practitioner.find_by(npi: npi)`, Claudio dice que
 ```ruby
 SmartPharma::ProcessOrder.call(order: internal_orders.last, logger: Rails.logger)
 ```
+
+## Caso OM-10320 - Cuentas de GHL invertidas 🟢
+
+Etiquetas: #om_ghl_mixed
+
+Dice:
+> Rodney Hayden's Success account links to Sarah Hayden's GHL and Sarah's Success account links to Rodney's GHL.
+
+
+Rodney apuntaba a la URL de una cuenta que no existía y Sarah apuntaba a la de Rodney. El cambio es simple pero tocaba tener en cuenta que hay un índice único en la tabla `accounts` para el campo `ghl_contact_nk`. Entonces toca primer anular y después sí reasignar.
+
+Al final, este fue el script que me dio Claudio:
+```ruby
+ActiveRecord::Base.transaction do
+  rodney = Account.find("019e659d-9644-714d-995f-0a67615f6a36")
+  sarah  = Account.find("019eb73a-b4f2-73ba-80c7-bad588eb1dc3")
+
+  # Sanity check: bail out if the accounts have already changed since this was diagnosed
+  raise "Rodney's ghl_contact_nk changed, aborting" unless rodney.ghl_contact_nk == "NsFjVCmxGG4nOnGKtZIu"
+  raise "Sarah's ghl_contact_nk changed, aborting" unless sarah.ghl_contact_nk == "3cQHQvXkATV3yxfMNWCn"
+
+  location_id = "8f6SD0DNJY3JFNOepEBo"
+  rodney_ghl_id = "3cQHQvXkATV3yxfMNWCn"
+  sarah_ghl_id  = "5rTR1aphLpSCOdc2gjH8"
+
+  # Free up rodney_ghl_id (currently held by sarah) before reassigning it, to satisfy the unique index
+  sarah.update!(ghl_contact_nk: nil, ghl_contact_url: nil)
+
+  rodney.update!(
+    ghl_contact_nk: rodney_ghl_id,
+    ghl_contact_url: "https://app.gohighlevel.com/v2/location/#{location_id}/contacts/detail/#{rodney_ghl_id}"
+  )
+
+  sarah.update!(
+    ghl_contact_nk: sarah_ghl_id,
+    ghl_contact_url: "https://app.gohighlevel.com/v2/location/#{location_id}/contacts/detail/#{sarah_ghl_id}"
+  )
+
+  # Keep Rodney's Salesforce::PersonAccount in sync (Sarah has no salesforce_account_nk, nothing to sync there)
+  rodney.salesforce_account.update!(ghl_contact_id: rodney.ghl_contact_nk, ghl_contact_url: rodney.ghl_contact_url)
+end
+```
+
+Después revisé en Success y apuntan a las nuevas URLs.
