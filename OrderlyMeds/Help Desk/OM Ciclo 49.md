@@ -470,7 +470,10 @@ workos_user_nk: "user_01KFGR62PC2MBNAS0ZSKR9F28Q",
 Claudio me dice que revise si el usuario en workos está bien y sí lo está:
 ```ruby
 WorkOS.client.user_management.get_user(id: "user_01KFGR62PC2MBNAS0ZSKR9F28Q")
+```
 
+Que saca:
+```ruby
 WorkOS::EmailChangeConfirmationUser
 object="user"
 id="user_01KFGR62PC2MBNAS0ZSKR9F28Q"
