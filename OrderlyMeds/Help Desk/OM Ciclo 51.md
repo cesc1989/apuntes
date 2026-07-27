@@ -285,7 +285,7 @@ account.person_mailing_postal_code
 
 Pedí a CS que confirmaran y corrigieran.
 
-#### Solucionar con: Redisparar Casa::ProcessCasaOrderJob
+#### Solucionar con: Redisparar Casa::ProcessCasaOrderJob 🟢
 
 > [!Important]
 > Esto funciona par este caso puntual. Después de correrlo pude ver que el MP pasó a `PharmacyOrderConfirmed`, no había error en la línea en la sección "Casa Pharmacy Orders", el registro tenía la etiqueta "delivered" y se creó el Medication Dispense.
