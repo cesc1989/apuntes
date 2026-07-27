@@ -387,6 +387,22 @@ end
 
 Después revisé en Success y apuntan a las nuevas URLs.
 
+## Casos de nuevo MP para Starter Pack 🟡
+
+Etiquetas: #om_checkin_starter_pack 
+
+Casos:
+- OM-10443
+- OM-10435
+
+Pidieron nuevo MP y que fuera para el Starter Pack. Iba siguiendo las instrucciones de [[OM Ciclo 48#Caso OM-9329 - Reset Check-In - Starter Pack 🟢]] pero cuando llegué al paso de hacer esto:
+```ruby
+check_in = mp.patient_checkins.last
+check_in.update!(is_starter_plan_only: true)
+```
+
+resulta que el Member Period no tiene ningún registro para Patient Checkin. Significa que los CXs primero deben completar su Check In antes de poder pedir. Es en ese punto donde puedo activar el Starter Pack.
+
 ## Caso OM-10360 - routed to beluga 🟡
 
 Etiquetas: #om_routed_to_beluga 
