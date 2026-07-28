@@ -416,7 +416,7 @@ Script resubmitted. Please check it out.
 
 ## Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟢
 
-Etiquetas: #om_stuck_in_readytocreatevisit
+Etiquetas: #om_stuck_in_ready_to_create_visit
 
 Hay instrucciones para esto en el Notion no oficial. Son estos tres pasos.
 
