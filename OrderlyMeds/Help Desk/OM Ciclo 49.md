@@ -278,7 +278,7 @@ En todo caso hice el resubmit y luego salió lo que esperaba ver del webhook:
 
 ## Caso OM-9483 - Beluga Missing Values 🔵
 
-Etiquetas: #om_beluga  #om_script_error 
+Etiquetas: #om_beluga_missing_values  #om_script_error 
 
 Lo tenía pero lo pusieron urgente y Fili reasignó a Fabian. Lo primero que preguntó Fabian fue:
 > Can you please confirm whether the customer has any sensitivities? That seems to be what's causing the error to appear.

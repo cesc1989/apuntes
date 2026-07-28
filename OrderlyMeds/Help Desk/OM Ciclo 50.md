@@ -136,7 +136,7 @@ La solución es ver que `account.salesforce_account.card_payment_methods` devuel
 
 ## Caso OM-9949 - Beluga Missing Values 🟢
 
-Etiquetas: #om_beluga 
+Etiquetas: #om_beluga_missing_values
 
 Vi lo mismo que en el caso [[OM Ciclo 49#Caso OM-9483 - Beluga Missing Values 🔵]] (sin sensitivities) así que hice la misma pregunta.
 

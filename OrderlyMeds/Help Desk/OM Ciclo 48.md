@@ -367,7 +367,7 @@ Issue should be resolved. Please confirm.
 
 ## Caso OM-9215 - Script error - Beluga Missing Values 🟢ℹ️
 
-Etiquetas: #om_script_error #om_beluga
+Etiquetas: #om_script_error #om_beluga_missing_values
 
 El caso dice:
 > BelugaService: Missing Values
