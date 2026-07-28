@@ -252,10 +252,6 @@ Luego de probar un debuggeo con Claudio llegamos al punto donde descubrimos este
 ```
 --- Casa::Order per internal order ---
 order=019f0071-6f43-7d78-a3a0-dc8a5bd101d6 | casa_order_id=019f0071-7107-7394-acf1-93998ce0c81c | status=failed | case_nk=4c0070ea-4cb2-4020-9355-02688be327d8 | sent_at= | failure_message={"status":400,"success":false,"message":"Invalid request","error":"data.postalCode, Postal code must be a valid US zip code (5 digits or 5 digits + hyphen + 4 digits)","code":"VALIDATION_ERROR"} | state_history=[{"state" => "failed", "timestamp" => "2026-06-26T21:21:13Z"}]
-
-order=019f6e83-f9d5-7121-9aba-60742a2e7de6 | casa_order_id=019f6e83-fbd5-7e89-a190-fefa2e6cbe3d | status=failed | case_nk=4c0070ea-4cb2-4020-9355-02688be327d8 | sent_at= | failure_message={"status":400,"success":false,"message":"Invalid request","error":"data.postalCode, Postal code must be a valid US zip code (5 digits or 5 digits + hyphen + 4 digits)","code":"VALIDATION_ERROR"} | state_history=[{"state" => "failed", "timestamp" => "2026-07-18T06:20:51Z"}]
-
-order=019f8b13-aa27-72be-a1e5-d332b7e30769 | casa_order_id=019f8b13-abcf-7669-aadd-332e62c545c5 | status=failed | case_nk=4c0070ea-4cb2-4020-9355-02688be327d8 | sent_at= | failure_message={"status":400,"success":false,"message":"Invalid request","error":"data.postalCode, Postal code must be a valid US zip code (5 digits or 5 digits + hyphen + 4 digits)","code":"VALIDATION_ERROR"} | state_history=[{"state" => "failed", "timestamp" => "2026-07-23T19:25:50Z"}]
 ```
 
 con este script:
