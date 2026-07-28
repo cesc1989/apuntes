@@ -267,8 +267,7 @@ internal_orders.each do |o|
   else
     puts "NO CASA ORDER for internal order #{o.id}"
   end
-end
-nil
+end; nil
 ```
 
 Al revisar en Salesforce, puedo ver que el zip code tiene 6 dígitos:
