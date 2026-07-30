@@ -14,14 +14,29 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "OM Ciclo 51"
             }
+          },
+          {
+            "id": "687d802ed9b2dd19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OM Ciclo 52"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 51"
+              "title": "Outline of OM Ciclo 52"
             }
           }
         ],
@@ -166,8 +180,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "33968043143e3a68",
+  "active": "687d802ed9b2dd19",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/om_10287.png",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
@@ -193,7 +208,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
-    "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
     "OrderlyMeds/Help Desk/attachments/om_10121.png",
