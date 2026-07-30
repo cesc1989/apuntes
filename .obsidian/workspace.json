@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1263f8c78a0432a5",
+        "id": "84a4d6f75a51de57",
         "type": "tabs",
         "children": [
           {
-            "id": "33968043143e3a68",
+            "id": "f703750a6510e48b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OM Ciclo 51"
-            }
-          },
-          {
-            "id": "687d802ed9b2dd19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 52"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OM Ciclo 52"
+              "title": "Outline"
             }
           }
         ],
@@ -180,11 +160,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "687d802ed9b2dd19",
+  "active": "f703750a6510e48b",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/attachments/om_10287.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+    "OrderlyMeds/Help Desk/attachments/om_10287.png",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
@@ -219,7 +199,6 @@
     "OrderlyMeds/Help Desk/attachments/om_10105.00.png",
     "OrderlyMeds/Help Desk/attachments/om_10057.png",
     "OrderlyMeds/Help Desk/attachments/om_10076.png",
-    "OrderlyMeds/Help Desk/attachments/om_9998.03.png",
     "OrderlyMeds/Help Desk/attachments",
     "OrderlyMeds/Help Desk",
     "OrderlyMeds",
