@@ -222,12 +222,15 @@ Estos son todos los cambios que tuvo el campo status para llegar hasta donde nos
 > La order se mantuvo en Farmacia sin ser enviada pero ahí ya no hay nada que hacer de nuestra parte. Entonces dejé un mensaje indicando el estado y diciendo que deben preguntar a la farmacia sobre el pedido.
 
 
-## Casos de Member Period not at pharmacy 🟡ℹ️
+## Casos de Member Period not at pharmacy 🔵ℹ️
 
 Etiquetas: #om_member_period_not_at_pharmacy
 
 > [!Important]
 > Usualmente, cuando el Member Period será resuelto con éxito es cuando se crea un registro de tipo Medication Dispense. Este es el que determina el estado `PharmacyOrderConfirmed`.
+
+> [!Note]
+> Cuando el problema sea porque el prescriber no existe en el sistema la forma de corregir es creandolo en la tabla `SmartPharma::Practicioner`, la relación en `SmartPharma::PractitionerClinic` y también en el Admin de SmartPharma.
 
 Varios Member Periods se han quedado pegados en el estado:
 
@@ -240,8 +243,8 @@ Los casos más lentos que he visto son:
 
 - OM-10310: 🟢
 	- Este se resolvió solo.
-- OM-10311: 🟡
-- OM-10169: 🟡
+- OM-10311
+- OM-10169
 
 ### Pista de caso OM-10169 - Zip code de 6 dígitos
 
@@ -333,7 +336,7 @@ end
 >
 > Esto queda confirmado luego de que Rhystie hiciera el escalamiento y TK King respondiera que él lo puede crear.
 
-#### Solucionar con: redisparar SmartPharma::ProcessOrder
+#### Solucionar con: redisparar SmartPharma::ProcessOrder 🟢
 
 Cuando exista el `SmartPharma::Practitioner.find_by(npi: npi)`, Claudio dice que ejecute:
 ```ruby
