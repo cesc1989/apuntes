@@ -400,9 +400,12 @@ check_in.update!(is_starter_plan_only: true)
 
 resulta que el Member Period no tiene ningún registro para Patient Checkin. Significa que los CXs primero deben completar su Check In antes de poder pedir. Es en ese punto donde puedo activar el Starter Pack.
 
-## Caso OM-10360 - routed to beluga 🟡
+## Caso OM-10360 - routed to beluga 🔵
 
 Etiquetas: #om_routed_to_beluga 
+
+> [!Note]
+> No di con el problema por andar atendiendo otros casos. Al final el cliente canceló.
 
 Un caso de stuck en active que el resubmit le cambió el estado al Request a `routed_to_beluga`.
 
