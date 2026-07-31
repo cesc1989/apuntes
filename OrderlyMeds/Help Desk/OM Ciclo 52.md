@@ -32,3 +32,39 @@ Fabian explica que si el cliente sí quiere ordenar, entonces lo que toca hacer 
 
 > [!Warning]
 > Lo segundo no hay nada confirmado aún. Pendiente de Thomas de confirmar a Jay. Mientras tanto sigue haciendo lo mismo. Indica el problema y mandale el problema a CS.
+
+## Casos de blank screen cuando el CX iba a pagar 🟢
+
+Etiquetas: #om_http_error_400 
+
+Casos:
+
+- OM-10645
+- OM-10657
+
+Clientes que habían completado el Check In y en la página de pago se encontraban con una página en blanco. Cuando impersoné llegué a un error HTTP 400:
+```
+HTTP ERROR 400
+```
+
+Pedí a claudio ayuda y resulta que ese error, al intentar ir a la página:
+```
+https://patient.orderlymeds.com/logins/external_auth?external_auth_id=01KYWV2M894B4PA7178MDMA2WN
+```
+
+si el Account no tiene el campo `work_os_nk` se devuelve error 400. Eso se ve en `app/controllers/patient/logins_controller.rb`:
+```ruby
+def external_auth
+	external_auth_id = params[:external_auth_id]
+	return head(:bad_request) if external_auth_id.blank?
+	return head(:bad_request) if current_account.workos_user_nk.blank?
+
+	workos_user = WorkOS.client.user_management.get_user(id: current_account.workos_user_nk)
+
+	redirect_to response.redirect_uri, allow_other_host: true
+end
+```
+
+El parámetro sí estaba en la URL así que el error era el campo. Cuando revisé ambas cuentas ninguna tenía el valor correspondiente.
+
+El fix fue correr el mismo comando para el problema de "Oops Error".
