@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9aad2d6b0b784e93",
+        "id": "9e3173c5caa405f2",
         "type": "tabs",
         "children": [
           {
-            "id": "5a91c3e44a08f00f",
+            "id": "421637e09fb9c78b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Codigo de Soluciones"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Codigo de Soluciones"
             }
           }
         ],
@@ -160,17 +165,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "5a91c3e44a08f00f",
+  "active": "421637e09fb9c78b",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/attachments/om_10287.png",
-    "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Onboarding.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
     "OrderlyMeds/Member Period.md",

@@ -55,9 +55,9 @@ Ejecuta:
 to_resubmit_ontraport_script(request_id: "")
 ```
 
-## Actualizar campo `workos_user_nk` para solucionar "Oops error"
+## Actualizar campo `workos_user_nk` para solucionar "Oops error" o errro HTTP ERROR 400
 
-Etiquetas: #om_oops_error 
+Etiquetas: #om_oops_error  #om_http_error_400
 
 ```ruby
 def fix_workos_user_nk(email:, workos_user_id:)
