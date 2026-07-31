@@ -387,7 +387,7 @@ end
 
 Después revisé en Success y apuntan a las nuevas URLs.
 
-## Casos de nuevo MP para Starter Pack 🟡
+## Casos de nuevo MP para Starter Pack 🟢
 
 Etiquetas: #om_checkin_starter_pack 
 
@@ -402,6 +402,9 @@ check_in.update!(is_starter_plan_only: true)
 ```
 
 resulta que el Member Period no tiene ningún registro para Patient Checkin. Significa que los CXs primero deben completar su Check In antes de poder pedir. Es en ese punto donde puedo activar el Starter Pack.
+
+> [!Note]
+> Al final hicieron el pedido sin starter pack porque o no me di a entender o CS no me entendió y nunca hicieron el Check In y luego avisarme para habilitar el Starter Pack.
 
 ## Caso OM-10360 - routed to beluga 🔵
 
