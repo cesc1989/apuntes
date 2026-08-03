@@ -85,14 +85,13 @@ Si no lo hay, copia el mismo que tiene "MedIDSent". Muy probable que sea el mism
 >
 > En este caso había dos pero solo uno tenía un Medical Encounter. Entonces ese es el que había que revisar. Dicho MP tiene el Script ID que nos sirve en el campo "Ontraport Script Id"
 
-Para armar esta línea:
+Ubica el ID del Script y luego:
 ```ruby
-member_period = member_periods_by_script_id.fetch(mapping.ontraport_script_id.to_i)
-```
+member_periods_by_script_id = Salesforce::MemberPeriod
+	.where(account: account, ontraport_script_id: [485134])
+	.index_by { |mp| mp.ontraport_script_id.to_i }
 
-Por alguna razón hay algo que devuelve el script id como flotante. Usar esta parte manualmente dará error. Es mejor buscar el ID del script que corresponda.
-```ruby
-member_period = 802328
+member_period = member_periods_by_script_id.fetch(485134)
 ```
 
 ##### Sobre la constante IMPORTER_VERSION
