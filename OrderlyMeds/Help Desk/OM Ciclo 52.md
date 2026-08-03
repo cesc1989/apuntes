@@ -224,3 +224,53 @@ Eso es lo que termina de conectar todos los puntos para que el auth se dé.
 
 Casos:
 - OM-10658
+
+## Caso OM-10417 - Missing Previous Medication
+
+Etiquetas: #om_missing_previous_medication 
+
+Se resuelve tal y cómo se explica en [[OM Ciclo 48#Caso OM-9334 - Check In Error - Heroku Connect 🟢ℹ️]]
+
+En este caso, luego de reimportar así salía el Medication Request:
+```ruby
+<Salesforce::MedicationRequest:0x00007f093c3d6048
+  patientid: nil,
+  patient__omid__c: "019f911d-2525-7089-93db-1ca577f4bafc",
+  prescribeddate: "2026-05-18 16:19:14.000000000 +0000",
+  medicationid: nil,
+  omid__c: "019fc96f-61aa-758a-a23e-328dd28c8a82",
+  refillsallowed: 0,
+  name: nil,
+  memberperiodid__r__omid__c: "019f911d-2535-7397-be5d-af7ec8db0999",
+  status: "Unknown",
+  type: "Order",
+  sfid: "0kmPm000001SzmLIAS",
+  id: 641205,
+  _hc_lastop: "INSERTED",
+  _hc_err: nil,
+```
+
+Pero seguía apareciendo el error.
+
+Luego de varios minutos cambió a:
+```ruby
+Salesforce::MedicationRequest:0x00007f093c494390
+ patientid: "001Pm00001bnlpdIAA",
+ patient__omid__c: "019f911d-2525-7089-93db-1ca577f4bafc",
+ prescribeddate: "2026-05-18 16:19:14.000000000 +0000",
+ medicationid: "0itPm0000000BoNIAU",
+ omid__c: "019fc96f-61aa-758a-a23e-328dd28c8a82",
+ name: "MR-385609",
+ memberperiodid__c: "a0nPm00000qtyonIAA",
+ memberperiodid__r__omid__c: "019f911d-2535-7397-be5d-af7ec8db0999",
+ isdeleted: false,
+ systemmodstamp: "2026-08-03 21:02:28.000000000 +0000",
+ status: "Unknown",
+ filldurationunitid: nil,
+ createddate: "2026-08-03 21:02:28.000000000 +0000",
+ type: "Order",
+ sfid: "0kmPm000001SzmLIAS",
+ id: 641205,
+ _hc_lastop: "SYNCED",
+ _hc_err: nil,
+```
