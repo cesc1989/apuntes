@@ -160,3 +160,13 @@ Ontraport:
 ```ruby
 create_workos_user(account_id: "ACCOUNT_ID", source: "ontraport")
 ```
+
+## Para revisar el estado de un MemberPeriod que no llega a Pharmacy
+
+Relacionado con #om_member_period_not_at_pharmacy 
+
+```ruby
+bundle = RxWrittenBundle.find('019f6d9e-facb-70b1-a1af-f2597653bfb5')
+order = Order.find_by(case_id: bundle.case_id)
+SmartPharma::ProcessOrder.call(order:, logger: Rails.logger)
+```
