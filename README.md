@@ -1,4 +1,4 @@
-# Apuntes Personales de Todo
+# Apuntes Personales
 
 En este repo sincronizo todos mis apuntes. Uso Obsidian para escribir en local y sincronizo mediante Git.
 
@@ -6,8 +6,8 @@ En este repo sincronizo todos mis apuntes. Uso Obsidian para escribir en local y
 
 - [Dev As Pros](./DevAsPros/README.md)
 - Hogar
-- Luna
-- Juegos y variados
+- Trabajo
+- Juegos
 - Otro Espacio
 	- Aquí entra:
 		- Apuntes de Libros
@@ -24,3 +24,4 @@ En este repo sincronizo todos mis apuntes. Uso Obsidian para escribir en local y
 	- [Atajos de Sublime Text](Sublime_Text_-_Atajos_de_Teclado.md)
 	- Notas de lecturas de Internet
 	- Notas herramientas
+
