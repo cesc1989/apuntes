@@ -225,7 +225,7 @@ Eso es lo que termina de conectar todos los puntos para que el auth se dé.
 Casos:
 - OM-10658
 
-## Caso OM-10417 - Missing Previous Medication
+## Caso OM-10417 - Missing Previous Medication 🟢
 
 Etiquetas: #om_missing_previous_medication 
 
@@ -274,6 +274,8 @@ Salesforce::MedicationRequest:0x00007f093c494390
  _hc_lastop: "SYNCED",
  _hc_err: nil,
 ```
+
+### Error después del reimport ℹ️
 
 E igual seguía el error por cómo quedó el campo `status: "Unknown"`. Esto pasa porque el código no considera el Outcome "Delivered" del Script. Así que toca update manual:
 
