@@ -218,3 +218,9 @@ Eso es lo que termina de conectar todos los puntos para que el auth se dé.
 
 > [!Note]
 > Dale un par de minutos para que se refleje en los sistemas necesarios.
+
+
+### Otros casos
+
+Casos:
+- OM-10658
