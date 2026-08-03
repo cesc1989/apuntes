@@ -33,7 +33,7 @@ Mensaje post:
 👋🏾 CX is ready for check-in.
 ```
 
-## Cambiar CareValidate::Request a needs_resubmission
+## Cambiar CareValidate::Request a `needs_resubmission`
 
 Etiquetas: #om_stuck_in_submitted 
 
@@ -151,8 +151,12 @@ def create_workos_user(account_id:, source:)
 end
 ```
 
-Ejecuta con:
+Salesforce:
 ```ruby
 create_workos_user(account_id: "ACCOUNT_ID", source: "salesforce")
-# create_workos_user(account_id: "ACCOUNT_ID", source: "ontraport")
+```
+
+Ontraport:
+```ruby
+create_workos_user(account_id: "ACCOUNT_ID", source: "ontraport")
 ```

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eaae42bc2f8f26ae",
+        "id": "dfb0d85d245947ff",
         "type": "tabs",
         "children": [
           {
-            "id": "d39cd413eeaef0dd",
+            "id": "313855187fc03845",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Codigo de Soluciones"
             }
           }
         ]
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,8 +167,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "d39cd413eeaef0dd",
+  "active": "313855187fc03845",
   "lastOpenFiles": [
+    "README.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/attachments/om.mp.ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
