@@ -73,6 +73,12 @@ El fix fue correr el mismo comando para el problema de "Oops Error".
 
 Etiquetas: #om_mp_missing_medication_reference
 
+Otros casos de esto:
+
+- OM-10558
+
+### Contexto
+
 CX con Check In completo, valor correcto en `workos_user_nk`. Al navegar al Checkout da el error de "Oops error".
 
 La URL a la que se navega es:
