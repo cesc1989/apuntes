@@ -274,3 +274,10 @@ Salesforce::MedicationRequest:0x00007f093c494390
  _hc_lastop: "SYNCED",
  _hc_err: nil,
 ```
+
+E igual seguía el error por cómo quedó el campo `status: "Unknown"`. Esto pasa porque el código no considera el Outcome "Delivered" del Script. Así que toca update manual:
+
+```ruby
+mr = Salesforce::MedicationRequest.find_by(omid__c: "019fc96f-61aa-758a-a23e-328dd28c8a82")
+mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
+```
