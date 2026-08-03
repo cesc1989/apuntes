@@ -406,6 +406,17 @@ resulta que el Member Period no tiene ningún registro para Patient Checkin. Sig
 > [!Note]
 > Al final hicieron el pedido sin starter pack porque o no me di a entender o CS no me entendió y nunca hicieron el Check In y luego avisarme para habilitar el Starter Pack.
 
+### Solo cuando MP tiene Patient Check-in
+
+Sí es lo que dice Jaime. Cuando completan el Check In se crea un registro de "Patient Check-In" en Salesforce y ahí es cuando se puede activar el Starter Pack para que les salga en el formulario de Checkout
+
+![[om.mp.ReadyForProductSelection.Checkout.StarterPack.png]]
+
+### La Clave 🔑
+
+> [!Important]
+> Mencionar que completen el Check In ==pero que no completen el Checkout==. Cuando lleguen al Checkout que me avisen y ahí yo puedo habilitar el Starter Pack.
+
 ## Caso OM-10360 - routed to beluga 🔵
 
 Etiquetas: #om_routed_to_beluga 
