@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d79206d54149592",
+        "id": "0fdab5f70a68a450",
         "type": "tabs",
         "children": [
           {
-            "id": "5523ae892ac43312",
+            "id": "fed2cf59f1b42d92",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -37,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -160,8 +162,24 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "5523ae892ac43312",
+  "active": "fed2cf59f1b42d92",
   "lastOpenFiles": [
+    "OrderlyMeds/KB/001-member-period.md",
+    "OrderlyMeds/KB/starter-pack/starterpack.png",
+    "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
+    "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
+    "OrderlyMeds/KB/om-10105/2026.07.17_k_karl_case_summary.md",
+    "OrderlyMeds/KB/starter-pack",
+    "OrderlyMeds/KB/om-10105",
+    "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
+    "OrderlyMeds/KB/008-state-machine-care-validate-request.md",
+    "OrderlyMeds/KB/007-needs-prescriber-submission.md",
+    "OrderlyMeds/KB/006-care-validate-request.md",
+    "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
+    "OrderlyMeds/KB/004-med-id.md",
+    "OrderlyMeds/KB/003-casa-order.md",
+    "OrderlyMeds/KB/002-ontraport-script.md",
+    "OrderlyMeds/KB",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
@@ -176,18 +194,6 @@
     "OrderlyMeds/Member Period.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Revisando Solidus eCommerce.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
-    "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
-    "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
-    "Otro_Espacio/CheatSheets/postgresql/utilities/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/troubleshooting/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/terminal-commands/README.md",
-    "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_Variados_y_Programación.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_02.md",
-    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Apuntes_Bases_de_Datos_-_Parte_01.md",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
     "OrderlyMeds/Help Desk/attachments/om_10121.png",
@@ -198,15 +204,11 @@
     "OrderlyMeds/Help Desk/attachments/om_10105.02.png",
     "OrderlyMeds/Help Desk/attachments/om_10105.00.png",
     "OrderlyMeds/Help Desk/attachments/om_10057.png",
-    "OrderlyMeds/Help Desk/attachments/om_10076.png",
     "OrderlyMeds/Help Desk/attachments",
     "OrderlyMeds/Help Desk",
     "OrderlyMeds",
     "DevAsPros/Postlane",
     "DevAsPros/Apex/Apuntes Apex",
-    "DevAsPros/Apex",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby",
-    "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
