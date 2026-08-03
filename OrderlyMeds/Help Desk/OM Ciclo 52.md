@@ -194,3 +194,27 @@ Y el de "RxWritten Bundles" así:
 - State: automatically_approved
 
 Finalmente, el de "Beluga Submissions" decía "Sent to Pharmacy" y la fecha de hoy. En "Orders" los campos Written, Sent, Received estaban todos con el chulo verde.
+
+## Caso OM-10503 Error al acceder al Payment 🟢
+
+Etiquetas: #om_authentication_error #om_no_access_error #om_oops_error 
+
+Salió este error cuando intento acceder a la página para pagar:
+```
+Authentication Error
+
+We are unable to verify your account. Please try again later. If the problem persists, please contact support.
+```
+
+Esto se resuelve igual que el Oops Error. Más que nada con la parte:
+```ruby
+Salesforce::CustomerUser.create(
+	salesforce_person_account: account.salesforce_account,
+	local_account: account
+)
+```
+
+Eso es lo que termina de conectar todos los puntos para que el auth se dé.
+
+> [!Note]
+> Dale un par de minutos para que se refleje en los sistemas necesarios.
