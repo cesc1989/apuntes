@@ -292,7 +292,7 @@ mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
 
 ## Caso OM-10674 - Request en `needs_review` 🟡
 
-Etiquetas: #om_care_validate_needs_review
+Etiquetas: #om_care_validate_needs_review #om_multiple_rejections #om_no_medid
 
 Caso de Request stuck. Cuando revisé por primer vez estaba con estado `needs_review` y el OP Script estaba en Submitted. Hice el resubmit normal. Avanzó el Script a Pharmacy Selected pero el Request volvió a `needs_review`.
 
@@ -324,3 +324,18 @@ Ahora sí sale el Impersonate normal y puedo ver varias cosas en WorkOS:
 		- Ambos con fecha de hoy (4 de Agosto)
 - Email details:
 	- Status: Enabled
+
+
+## Caso OM-10450 - Request en `needs_review` por Medicamento con sensibilidad 🟡
+
+Etiquetas: #om_care_validate_needs_review #om_medicine_mismatch
+
+El paciente indica que no quiere medicina con B6 y la recomendación del MedPicker tiene B6.
+
+En Ontraport se puede ver que marca B6 y B12.
+![[om_10450.01.png]]
+
+Lo ofrecido por el MedId tiene B6:
+![[om_10450.02.png]]
+
+### Solución: 
