@@ -290,7 +290,7 @@ mr = Salesforce::MedicationRequest.find_by(omid__c: "019fc96f-61aa-758a-a23e-328
 mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
 ```
 
-## Caso OM-10674 - Request en needs_review
+## Caso OM-10674 - Request en `needs_review` 🟡
 
 Etiquetas: #om_care_validate_needs_review
 
@@ -305,3 +305,22 @@ Eso pertenece a la sección "Flagged Case Decisions". Si voy a esa sección, hay
 ![[om_10730.01.png]]
 
 El primero había fallado en los cuatro puntos de esa página. El segundo solo en uno.
+
+## Caso OM-10688 - CX no recibe magic code desde WorkOS 🟡
+
+Etiquetas: #om_works_code_error #om_cannot_impersonate 
+
+El CX no recibe código. Cuando revisé el perfil en Success vi el botón de impersonate con el texto "Cannot Impersonate". Es claro que no había cuenta de WorkOS.
+
+El CX está en Ontraport así que procedí a crear la cuenta con [[Codigo de Soluciones#Crear cuenta en WorkOS - Error de one-time code de WorkOS o Cannot Impersonate]]
+
+Ahora sí sale el Impersonate normal y puedo ver varias cosas en WorkOS:
+- Email address: Verified
+- Status: Inactive
+- Events:
+	- Solo dos:
+		- user.created
+		- organization_membership.created
+		- Ambos con fecha de hoy (4 de Agosto)
+- Email details:
+	- Status: Enabled

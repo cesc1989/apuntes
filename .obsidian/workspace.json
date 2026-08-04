@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7c0c2c8f1459eb90",
+        "id": "02b43e906b459da9",
         "type": "tabs",
         "children": [
           {
-            "id": "ea8f6c590922e794",
+            "id": "dee349ea34bff000",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 48"
-            }
-          },
-          {
-            "id": "412538732a1ca1c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
+              "title": "OM Ciclo 52"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,12 +167,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "412538732a1ca1c8",
+  "active": "dee349ea34bff000",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/attachments/om_10730.01.png",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/KB/om-10105/2026.07.17_k_karl_case_summary.md",
