@@ -289,3 +289,19 @@ E igual seguía el error por cómo quedó el campo `status: "Unknown"`. Esto pas
 mr = Salesforce::MedicationRequest.find_by(omid__c: "019fc96f-61aa-758a-a23e-328dd28c8a82")
 mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
 ```
+
+## Caso OM-10674 - Request en needs_review
+
+Etiquetas: #om_care_validate_needs_review
+
+Caso de Request stuck. Cuando revisé por primer vez estaba con estado `needs_review` y el OP Script estaba en Submitted. Hice el resubmit normal. Avanzó el Script a Pharmacy Selected pero el Request volvió a `needs_review`.
+
+Revisando en la sección "Case Monitor" hay una sección específica para los "needs review". Ahí busqué por el correo del CX y encontré un registro que me llevó a la página:
+```
+https://success.orderlymeds.com/admin/case_decision_approvals/019fb69d-cb38-7a93-bd5b-ec690bf3752f
+```
+
+Eso pertenece a la sección "Flagged Case Decisions". Si voy a esa sección, hay un buscador por el `case_nk` del Request y puedo ver el error anterior y el error actual.
+![[om_10730.01.png]]
+
+El primero había fallado en los cuatro puntos de esa página. El segundo solo en uno.
