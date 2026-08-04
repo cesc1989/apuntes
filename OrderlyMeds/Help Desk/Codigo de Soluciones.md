@@ -112,9 +112,9 @@ Correr con:
 fix_salesforce_customer_user(account_id: "ACCOUNT_ID")
 ```
 
-## Crear cuenta en WorkOS - Error de one-time code
+## Crear cuenta en WorkOS - Error de one-time code de WorkOS o Cannot Impersonate
 
-Etiquetas: #om_one_time_code_error 
+Etiquetas: #om_works_code_error #om_cannot_impersonate
 
 Esta depende si el Account está ligado a Ontraport o Salesforce.
 
@@ -134,7 +134,7 @@ def create_workos_user(account_id:, source:)
     puts "  salesforce_account id: #{sf&.id}"
     [sf.person_email, sf.first_name, sf.last_name]
   when "ontraport"
-    contact = account.contact
+    contact = account.ontraport_contact
     puts "  contact id: #{contact&.id}"
     [account.email, contact.first_name, contact.last_name]
   end
