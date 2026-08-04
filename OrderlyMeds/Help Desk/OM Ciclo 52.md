@@ -338,4 +338,8 @@ En Ontraport se puede ver que marca B6 y B12.
 Lo ofrecido por el MedId tiene B6:
 ![[om_10450.02.png]]
 
-### Solución: 
+### Solución: resubmit normal o indicar un MedId correct en Fix Medpicker Selection
+
+Jaime me comentó que hiciera un resubmit para que el sistema recomiende lo correcto. También dijo que hacer lo segundo sería válido pero mejor dejarlo como última opción.
+
+Por ahora, probé con un resubmit.
