@@ -71,7 +71,7 @@ El fix fue correr el mismo comando para el problema de "Oops Error".
 
 ## Caso OM-10722 - Oops Error al ir al Checkout 🟢
 
-Etiquetas: #om_mp_missing_medication_reference
+Etiquetas: #om_mp_missing_medication_reference #om_stuck_in_ready_for_product_selection
 
 Otros casos de esto:
 
