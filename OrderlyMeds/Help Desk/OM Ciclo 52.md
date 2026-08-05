@@ -73,9 +73,10 @@ El fix fue correr el mismo comando para el problema de "Oops Error".
 
 Etiquetas: #om_mp_missing_medication_reference #om_stuck_in_ready_for_product_selection
 
-Otros casos de esto:
+Otros casos:
 
 - OM-10558
+- OM-10771
 
 ### Contexto
 
