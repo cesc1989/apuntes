@@ -87,7 +87,7 @@ Etiquetas: #om_script_error #om_3_month_option
 
 Cuando se revisa el Script en Ontraport el Outcome dice "Script Error". A pesar de hacer un resubmit sigue dando el mismo problema.
 
-### Sin solución? Cancel & Refund ℹ️
+### Solución: Cancel & Refund ℹ️
 
 > [!Info]
 > Esto como que fue una situación dada por el paso al plan de 2 meses. CS tiene que hacer cancel & refund.
