@@ -306,7 +306,7 @@ Eso pertenece a la sección "Flagged Case Decisions". Si voy a esa sección, hay
 
 El primero había fallado en los cuatro puntos de esa página. El segundo solo en uno.
 
-## Caso OM-10688 - CX no recibe magic code desde WorkOS 🟡
+## Caso OM-10688 - CX no recibe magic code desde WorkOS 🟢
 
 Etiquetas: #om_works_code_error #om_cannot_impersonate 
 
@@ -325,6 +325,7 @@ Ahora sí sale el Impersonate normal y puedo ver varias cosas en WorkOS:
 - Email details:
 	- Status: Enabled
 
+**Actualización: después de que volviera a probar el código llegó y el status cambió a "Active".**
 
 ## Caso OM-10450 - Request en `needs_review` por Medicamento con sensibilidad 🟡
 
@@ -343,3 +344,7 @@ Lo ofrecido por el MedId tiene B6:
 Jaime me comentó que hiciera un resubmit para que el sistema recomiende lo correcto. También dijo que hacer lo segundo sería válido pero mejor dejarlo como última opción.
 
 Por ahora, probé con un resubmit.
+
+**Actualizaciones**
+- El resubmit no funcionó. Dio fue script error
+- Usé el Fix Medpicker Selection con un MedId que tiene el mismo medicamento pero con B12.
