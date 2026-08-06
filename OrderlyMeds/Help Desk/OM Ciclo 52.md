@@ -362,3 +362,11 @@ Invalid initial_signup payload from Ontraport in incoming_webhook_id: 019fc953-7
 Resulta que en Ontraport el campo City está vacío. Igual en el Account no hay valor para City.
 
 Actualización: cancelaron.
+
+## Caso OM-10785 - Missing Previous Medication ya importadas 🟢
+
+Etiquetas: #om_missing_previous_medication 
+
+Estaba revisando si tenía que hacer lo que en el caso general y vi que ya el Member Period tenía importado el Medication Request.
+
+Aquí el problema era que estaba en estado "Unknown". Se arregló una vez que lo cambié a "Completed".
