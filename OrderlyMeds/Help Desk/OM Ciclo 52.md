@@ -349,3 +349,14 @@ Por ahora, probé con un resubmit.
 **Actualizaciones**
 - El resubmit no funcionó. Dio fue script error
 - Usé el Fix Medpicker Selection con un MedId que tiene el mismo medicamento pero con B12.
+
+## Caso OM-10748 - Script Error por City vacía 🟡
+
+Etiquetas: #om_script_error #om_nil_city
+
+El Script queda con Validation Error. OMFS data dice:
+```
+Invalid initial_signup payload from Ontraport in incoming_webhook_id: 019fc953-7e5b-70a5-9b3e-66b2e0852715. Errors: string length at `/city` is less than: 1
+```
+
+Resulta que en Ontraport el campo City está vacío. Igual en el Account no hay valor para City.
