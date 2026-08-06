@@ -369,4 +369,4 @@ Etiquetas: #om_missing_previous_medication
 
 Estaba revisando si tenía que hacer lo que en el caso general y vi que ya el Member Period tenía importado el Medication Request.
 
-Aquí el problema era que estaba en estado "Unknown". Se arregló una vez que lo cambié a "Completed".
+==Aquí el problema era que estaba en estado "Unknown". Se arregló una vez que lo cambié a "Completed"==.
