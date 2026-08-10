@@ -231,6 +231,7 @@ Eso es lo que termina de conectar todos los puntos para que el auth se dé.
 
 Casos:
 - OM-10658
+- OM-10828
 
 ## Caso OM-10417 - Missing Previous Medication 🟢
 
