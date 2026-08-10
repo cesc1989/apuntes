@@ -87,9 +87,9 @@ Ejecuta pasando el correo y el id copiado desde WorkOS:
 fix_workos_user_nk(email: "", workos_user_id: "")
 ```
 
-## Resincronizar Account a Salesforce para resolver error de NO_ACCESS
+## Resincronizar Account a Salesforce para resolver error de NO_ACCESS o el Authentication Error
 
-Etiquetas: #om_no_access_error 
+Etiquetas: #om_no_access_error  #om_authentication_error
 
 ```ruby
 def fix_salesforce_customer_user(account_id:)
