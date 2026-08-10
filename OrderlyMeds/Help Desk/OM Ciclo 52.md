@@ -329,7 +329,7 @@ Ahora sí sale el Impersonate normal y puedo ver varias cosas en WorkOS:
 
 **Actualización: después de que volviera a probar el código llegó y el status cambió a "Active".**
 
-## Caso OM-10450 - Request en `needs_review` por Medicamento con sensibilidad 🟡
+## Caso OM-10450 - Request en `needs_review` por Medicamento con sensibilidad 🔵ℹ️
 
 Etiquetas: #om_care_validate_needs_review #om_medicine_mismatch
 
@@ -341,7 +341,7 @@ En Ontraport se puede ver que marca B6 y B12.
 Lo ofrecido por el MedId tiene B6:
 ![[om_10450.02.png]]
 
-### Solución: resubmit normal o indicar un MedId correct en Fix Medpicker Selection
+### Solución: resubmit normal o indicar un MedId correct en Fix Medpicker Selection ❌
 
 Jaime me comentó que hiciera un resubmit para que el sistema recomiende lo correcto. También dijo que hacer lo segundo sería válido pero mejor dejarlo como última opción.
 
@@ -350,6 +350,17 @@ Por ahora, probé con un resubmit.
 **Actualizaciones**
 - El resubmit no funcionó. Dio fue script error
 - Usé el Fix Medpicker Selection con un MedId que tiene el mismo medicamento pero con B12.
+
+### Resolución: cancelado porque SmartPharma es el que tiene  Semaglutide
+
+Pasa que la medicina que necesita el cliente solo la tiene SmartPharma.
+
+> [!Note]
+> El CX necesitaba Semaglutide de 1mg sin B6 ni B12.
+
+Al buscar en la sección "Compounding Procucts Catalog" se puede buscar según si tiene B3, B5, B6 o B12. Al buscar algún Semaglutide sin B6 ni B12, no se obtienen resultados para PerfectRx. Solo hay resultados para SmartPharmaRx. El problema es que SmartPharma no está habilitada para Texas la cual es la ubicación del cliente.
+
+La conclusión es que hay que cancelar y reembolsar.
 
 ## Caso OM-10748 - Script Error por City vacía 🟢
 
