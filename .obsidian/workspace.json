@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f1f0be396a5fed16",
+        "id": "5f94be84d04d4f23",
         "type": "tabs",
         "children": [
           {
-            "id": "512a5402d2b273a4",
+            "id": "570f23e0fd2002e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 53.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OM Ciclo 53"
+              "title": "New tab"
             }
           }
         ]
@@ -142,7 +138,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 53.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,7 +162,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "512a5402d2b273a4",
+  "active": "570f23e0fd2002e3",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
