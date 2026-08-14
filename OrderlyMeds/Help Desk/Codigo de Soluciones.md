@@ -171,3 +171,12 @@ order = Order.find_by(case_id: bundle.case_id)
 
 SmartPharma::ProcessOrder.call(order:, logger: Rails.logger)
 ```
+
+## Cambiar estado Unknown de Medication Request a Completed
+
+Relacionado con #om_missing_previous_medication 
+
+```ruby
+mr = Salesforce::MedicationRequest.find_by(omid__c: "")
+mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
+```

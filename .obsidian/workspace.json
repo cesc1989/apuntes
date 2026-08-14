@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5f94be84d04d4f23",
+        "id": "b1644bcc6150a13f",
         "type": "tabs",
         "children": [
           {
-            "id": "570f23e0fd2002e3",
+            "id": "c3b6472cf5a7f741",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Codigo de Soluciones"
             }
           }
         ]
@@ -138,6 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -162,14 +167,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "570f23e0fd2002e3",
+  "active": "c3b6472cf5a7f741",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_10450.02.png",
