@@ -172,11 +172,34 @@ order = Order.find_by(case_id: bundle.case_id)
 SmartPharma::ProcessOrder.call(order:, logger: Rails.logger)
 ```
 
-## Cambiar estado Unknown de Medication Request a Completed
+## Cambiar estado de Medication Request a Completed
 
 Relacionado con #om_missing_previous_medication 
 
+Para pasarlo de Unknown o Cancelled a Completed.
+
 ```ruby
-mr = Salesforce::MedicationRequest.find_by(omid__c: "")
-mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
+def complete_mr!(omid)
+  mr = Salesforce::MedicationRequest.find_by(omid__c: omid)
+
+  if mr.nil?
+    puts "❌ No se encontró MedicationRequest con omid__c=#{omid.inspect}"
+
+    return
+  end
+
+  puts "Estado actual: #{mr.status.inspect}"
+
+  if mr.status == Salesforce::MedicationRequest::STATUS_COMPLETED
+    puts "ℹ️ Ya está en #{Salesforce::MedicationRequest::STATUS_COMPLETED}, no se hace nada"
+
+    return
+  end
+
+  mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
+  puts "✅ Actualizado"
+
+  mr.reload
+  puts "Estado final: #{mr.status}"
+end
 ```
