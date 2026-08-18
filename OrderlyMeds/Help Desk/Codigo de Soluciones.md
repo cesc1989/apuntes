@@ -179,7 +179,7 @@ Relacionado con #om_missing_previous_medication
 Para pasarlo de Unknown o Cancelled a Completed.
 
 ```ruby
-def complete_mr!(omid)
+def complete_mr!(omid:)
   mr = Salesforce::MedicationRequest.find_by(omid__c: omid)
 
   if mr.nil?
