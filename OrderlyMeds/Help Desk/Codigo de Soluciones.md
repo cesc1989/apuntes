@@ -203,3 +203,8 @@ def complete_mr!(omid:)
   puts "Estado final: #{mr.status}"
 end
 ```
+
+Llamado con:
+```ruby
+complete_mr!(omid: "OMID")
+```
