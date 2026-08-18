@@ -292,7 +292,7 @@ mr = Salesforce::MedicationRequest.find_by(omid__c: "019fc96f-61aa-758a-a23e-328
 mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
 ```
 
-## Caso OM-10674 - Request en `needs_review` 🟡
+## Caso OM-10730 - Request en `needs_review` 🟡
 
 Etiquetas: #om_care_validate_needs_review #om_multiple_rejections #om_no_medid
 
