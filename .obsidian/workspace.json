@@ -11,10 +11,14 @@
             "id": "8d347ceb0c726d3b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/DAP & TOL Revision.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DAP & TOL Revision"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 442.5,
+    "collapsed": true
   },
   "right": {
     "id": "0cdac2dc7693ce2c",
@@ -138,6 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/DAP & TOL Revision.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -151,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 433.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,6 +171,7 @@
   },
   "active": "8d347ceb0c726d3b",
   "lastOpenFiles": [
+    "DevAsPros/DAP & TOL Revision.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "OrderlyMeds/Help Desk/attachments/OM_11055.png",
