@@ -88,6 +88,13 @@ Creo que las claves están en:
 - Político: porque hay muchas iniciativas del gobierno para aprovechar y hacer networking.
 - Social: porque las empresas buscan automatizar procesos y tener software pero ==aún hay barreras de de conocimiento porque las mipymes perciben el software como complejo o muy caro==.
 
+## Análisis DOFA
+
+tbc
+
+## Buyer Personas
+
+tbc
 
 ## SEO y SEM 🍊
 
@@ -97,3 +104,4 @@ Creo que las claves están en:
 ### Blog
 
 Sugieren un calendario de publicación mensual. Temas de negocio teniendo en cuenta las palabras clave según cada línea de DevAsPros.
+
