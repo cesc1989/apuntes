@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ea7b647812bed74a",
+        "id": "222e3230b7e87efd",
         "type": "tabs",
         "children": [
           {
-            "id": "8422b64f76d15384",
+            "id": "8d347ceb0c726d3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
-            }
-          },
-          {
-            "id": "aabf8f118520c099",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 53.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 53"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +138,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 53.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,17 +162,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "aabf8f118520c099",
+  "active": "8d347ceb0c726d3b",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/attachments/OM_11055.png",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
+    "OrderlyMeds/Help Desk/attachments/OM_11055.png",
     "Otro_Espacio/Blog/posts/03 - Dev Tools para Todos.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/attachments/om_9214.01.png",
     "OrderlyMeds/Help Desk/attachments/om_9220.01.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
@@ -221,7 +201,6 @@
     "OrderlyMeds/KB/002-ontraport-script.md",
     "OrderlyMeds/KB",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
-    "OrderlyMeds/Help Desk/attachments/om_10287.png",
     "OrderlyMeds/Onboarding.md",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
