@@ -22,22 +22,22 @@ TOL encontró que:
 ## Diagnóstico Sitio Web devaspros.com
 
 Resumen:
-- Cambiar palabras técnicas por beneficios de negocio
-- Implementar un Calendly para la llamada de 30 minutos o cambiar la estrategia de contacto
-- Agregar sección de Testimonios
+- [ ] Cambiar palabras técnicas por beneficios de negocio
+- [ ] Implementar un Calendly para la llamada de 30 minutos o cambiar la estrategia de contacto
+- [ ] Agregar sección de Testimonios
 	- Así sea una mezcla de lo real e inventado
-- Agregar un botón flotante de WhatsApp en todas las páginas.
+- [ ] Agregar un botón flotante de WhatsApp en todas las páginas.
 
 > [!Important]
 > Según TOL, en Barranquilla (y tal vez Colombia), WhatsApp es el medio favorito de comunicación.
 >
 > Había pensando la burbuja de Chatwoot pero con el WhatsApp les queda el contacto y el mensaje a los prospectos.
 
-- Definir mapa de palabras clave por línea de negocio (saas y software a la medida) para luego aplicarlo a páginas internas y blog 🍊
-- Adecuar el sitio para GEO para que cuando pregunten a las IA DAP aparezca.
-- Reactivar el blog con calendario fijo.
+- Definir mapa de palabras clave por línea de negocio (SaaS y software a la medida) para luego aplicarlo a páginas internas y blog 🍊
+- [ ] Adecuar el sitio para GEO para que cuando pregunten a las IA DAP aparezca.
+- Reactivar el blog con calendario fijo 🍊
 	- Los artículos deben cumplir con los textos mínimos para SEO e incluir palabras claves e imágenes
-- Crear páginas internas para los productos propios
+- [ ] Crear páginas internas para los productos propios
 
 ## Diagnóstico Instagram @devaspros 🍊
 
