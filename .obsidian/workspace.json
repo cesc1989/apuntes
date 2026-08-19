@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "bde12047aa3884b6",
+        "id": "ea7b647812bed74a",
         "type": "tabs",
         "children": [
           {
-            "id": "c26d882a31aec822",
+            "id": "8422b64f76d15384",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Codigo de Soluciones"
             }
+          },
+          {
+            "id": "aabf8f118520c099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 53.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OM Ciclo 53"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 53.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,16 +182,20 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c26d882a31aec822",
+  "active": "aabf8f118520c099",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
+    "OrderlyMeds/Help Desk/attachments/OM_11055.png",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "Otro_Espacio/Blog/posts/03 - Dev Tools para Todos.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/attachments/om_9214.01.png",
+    "OrderlyMeds/Help Desk/attachments/om_9220.01.png",
+    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/attachments/om_10450.02.png",
     "OrderlyMeds/Help Desk/attachments/om_10450.01.png",
     "Otro_Espacio/CheatSheets/postgresql/basics/README.md",
@@ -204,12 +223,8 @@
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/attachments/om_10287.png",
     "OrderlyMeds/Onboarding.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
-    "OrderlyMeds/Member Period.md",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
-    "OrderlyMeds/Help Desk/attachments/om_10121.png",
-    "OrderlyMeds/Help Desk/attachments/om_10203.03.png",
     "OrderlyMeds/Help Desk/attachments",
     "OrderlyMeds/Help Desk",
     "OrderlyMeds",
