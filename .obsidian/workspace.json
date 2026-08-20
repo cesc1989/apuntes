@@ -11,10 +11,14 @@
             "id": "602b8dccc7c164be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Temas_de_Git"
             }
           }
         ]
@@ -138,6 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -164,6 +169,7 @@
   },
   "active": "602b8dccc7c164be",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
@@ -201,7 +207,6 @@
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
     "OrderlyMeds/KB/004-med-id.md",
-    "OrderlyMeds/KB/003-casa-order.md",
     "OrderlyMeds/KB",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
