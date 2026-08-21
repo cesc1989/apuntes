@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,6 +169,7 @@
   },
   "active": "ef57cdaf1dd5cac7",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
@@ -207,7 +207,6 @@
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
-    "OrderlyMeds/KB/004-med-id.md",
     "OrderlyMeds/KB",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",

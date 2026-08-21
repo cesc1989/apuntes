@@ -114,3 +114,14 @@ CTRL & P + R => a la derecha
 
 CTRL & P + D => hacia abajo
 ```
+
+# Tecla Líder: CTRL o ALT
+
+Desde que empecé a usar Zellij tengo a CTRL como la tecla principal. Eso quiere decir que el cambio de paneles, tabs y otros los disparo con CTRL.
+
+Si llegado el caso, estas no funcionan, puedo revisar esa configuración presionando `CTRL O + C`. Abrirá este panel:
+![[zellij.configuration.leader.png]]
+
+Ahí puedo confirmar o cambiar la tecla que quiero que funcione como principal y la secundaria.
+
+Documentación: https://zellij.dev/documentation/keybinding-presets.html
