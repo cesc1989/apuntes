@@ -22,7 +22,7 @@ TOL encontró que:
 ## Diagnóstico Sitio Web devaspros.com
 
 Resumen:
-- [ ] Cambiar palabras técnicas por beneficios de negocio
+- [x] Cambiar palabras técnicas por beneficios de negocio
 - [ ] Implementar un Calendly para la llamada de 30 minutos o cambiar la estrategia de contacto
 - [ ] Agregar sección de Testimonios
 	- Así sea una mezcla de lo real e inventado
@@ -34,7 +34,7 @@ Resumen:
 > Había pensando la burbuja de Chatwoot pero con el WhatsApp les queda el contacto y el mensaje a los prospectos.
 
 - Definir mapa de palabras clave por línea de negocio (SaaS y software a la medida) para luego aplicarlo a páginas internas y blog 🍊
-- [ ] Adecuar el sitio para GEO para que cuando pregunten a las IA DAP aparezca.
+- [x] Adecuar el sitio para GEO para que cuando pregunten a las IA DAP aparezca.
 - Reactivar el blog con calendario fijo 🍊
 	- Los artículos deben cumplir con los textos mínimos para SEO e incluir palabras claves e imágenes
 - [ ] Crear páginas internas para los productos propios
