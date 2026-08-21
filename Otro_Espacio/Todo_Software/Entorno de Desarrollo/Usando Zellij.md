@@ -8,7 +8,7 @@ Documentación: https://zellij.dev/documentation/overview
 
 ## Paneles
 
-Crear un panel es sencillo. Una vez lanzado zellij, presionamos CTRL + P -> N
+Crear un panel es sencillo. Una vez lanzado zellij, presionamos `CTRL + P -> N`.
 ![[zellij_panes.png]]
 
 ## Layouts
