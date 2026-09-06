@@ -1,10 +1,10 @@
-# Principios y “Leyes” al gusto
+# Principios y Leyes al gusto
+
 En el libro POODR, Sandy Metz hace un buen trabajo tratando de adecuar los principios SOLID a código Ruby. En general, hay cosas muy buenas pero no recuerdo nada de muchos principios SOLID.
 
 En su libro SOLID is not solid de Dave Coopeland saca a relucir los defectos de los principios SOLID.
 
 En general, Dave Coopeland, ha escrito variado sobre el mal uso que le dan algunos devs a tales principios o leyes:
-
 
 - [Ley de Demeter](https://naildrivin5.com/blog/2020/01/22/law-of-demeter-creates-more-problems-than-it-solves.html)
 - [Responsabilidad Única](https://naildrivin5.com/blog/2019/11/11/solid-is-not-solid-rexamining-the-single-responsibility-principle.html)
