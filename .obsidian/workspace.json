@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3e11f7457793aefe",
+        "id": "e0dcc1ed834a4763",
         "type": "tabs",
         "children": [
           {
-            "id": "efae7bee41da73be",
+            "id": "4ab20dfbf4735111",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_Leyes_al_gusto.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Principios_y_Leyes_al_gusto"
+              "title": "OM Ciclo 52"
             }
           }
         ]
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_Leyes_al_gusto.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,8 +167,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "efae7bee41da73be",
+  "active": "4ab20dfbf4735111",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Principios_y_Leyes_al_gusto.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "DevAsPros/DAP & TOL Revision.md",
@@ -177,7 +181,6 @@
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/Temas_de_Git.md",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
     "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
     "OrderlyMeds/Help Desk/attachments/OM_11055.png",
@@ -202,11 +205,8 @@
     "OrderlyMeds/Help Desk/attachments/OM_10722.01.png",
     "README.md",
     "OrderlyMeds/KB/001-member-period.md",
-    "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
-    "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
-    "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
     "OrderlyMeds/KB",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
