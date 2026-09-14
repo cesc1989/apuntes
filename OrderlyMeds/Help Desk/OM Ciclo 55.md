@@ -27,11 +27,17 @@ Sin embargo, el MP de este caso es de Care Validate. Hice resubmit normal.
 
 - Después del Resubmit to MSO cambió el estado a "VisitCreated"
 
-## Caso OM-11346 - Stuck in Submitted que pasa Script Error 🟡
+## Caso OM-11346 - Stuck in Submitted que pasa Script Error 🟢
 
-Etiquetas: #om_stuck_in_submitted #om_script_error #om_no_matching_recommendations 
+Etiquetas: #om_stuck_in_submitted #om_script_error #om_no_matching_recommendations #om_needs_requested_medpicker_data 
 
 Típico caso de Stuck in Submitted, sin embargo, después de hacer el resubmit pasó a Script error:
 > No matching recommendations for these patient preferences.
 
 Cuando reviso el CareValidate::Request en la parte de MedPicker data no hay nada.
+
+Caso similar es [[OM Ciclo 50#Caso OM-9790 - Script error con needs_requested_medpicker_data 🟢ℹ️]]
+
+### Solución: copiar medid de CV Request en cancelada
+
+Hice lo mismo que en el caso OM-9790. Fui al request cancelado y copié el MedId y luego corrí "Fix Medpicker Selection". Luego revisé y el Script cambió a "Pharmacy Selected".
