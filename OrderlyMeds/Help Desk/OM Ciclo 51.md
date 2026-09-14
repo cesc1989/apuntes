@@ -389,7 +389,7 @@ Después revisé en Success y apuntan a las nuevas URLs.
 
 ## Casos de nuevo MP para Starter Pack 🟢
 
-Etiquetas: #om_checkin_starter_pack 
+Etiquetas: #om_starter_pack_checkin 
 
 Casos:
 - OM-10443

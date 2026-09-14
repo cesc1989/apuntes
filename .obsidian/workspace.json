@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "037dfe7611624035",
+        "id": "625a27ddc8785a08",
         "type": "tabs",
         "children": [
           {
-            "id": "e0b238509edd823a",
+            "id": "8b3cc2c4995ac56d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 55"
             }
-          },
-          {
-            "id": "79346c2aa74f2a36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 48"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ReadyToCreateVisit",
+                "query": "tag:#om_needs_requested_medpicker_data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -182,16 +168,18 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "79346c2aa74f2a36",
+  "active": "8b3cc2c4995ac56d",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Member Period.md",
     "OrderlyMeds/KB/001-member-period.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
     "OrderlyMeds/KB/008-state-machine-care-validate-request.md",
@@ -209,8 +197,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Manipulación_de_PDFs_en_Ruby.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Descubriendo_Rails_a_Fondo.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Dockerizar_Ruby_on_Rails_app.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
     "OrderlyMeds/Help Desk/attachments/OM_11055.png",
