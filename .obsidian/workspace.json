@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "OM Ciclo 55"
             }
-          },
-          {
-            "id": "e0b1283d6ec7da84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 48"
-            }
           }
         ]
       }
@@ -183,11 +169,12 @@
   },
   "active": "e0b238509edd823a",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Member Period.md",
     "OrderlyMeds/KB/001-member-period.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
@@ -209,7 +196,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Manipulación_de_PDFs_en_Ruby.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Descubriendo_Rails_a_Fondo.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Dockerizar_Ruby_on_Rails_app.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Rails_Proyectos_ver_y_aprender.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
     "OrderlyMeds/Help Desk/attachments/OM_11055.png",

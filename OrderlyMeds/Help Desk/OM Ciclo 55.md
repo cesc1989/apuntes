@@ -14,8 +14,11 @@ Casos con el mismo problema (no necesariamente misma solución):
 
 ### Paso 1: intentar crear la visita
 
+Esto es lo que sugiere el Notion:
 ```ruby
 mp = Salesforce::MemberPeriod.find_by(omid: "019fe9b0-61ae-7e3a-b805-15b3df930ac2")
 ce = mp.clinical_encounters.last
 BelugaHealth::Scheduler::CreateVisitJob.new.perform(ce.id)
 ```
+
+Sin embargo, el MP de este caso es de Care Validate. Hice resubmit normal.
