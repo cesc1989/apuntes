@@ -3,7 +3,7 @@
 > [!Info]
 > Del Jueves 10 al Miércoles 23 de Septiembre.
 
-## Caso OM-11347 - MP Stuck at ReadyToCreateVisit 🟡
+## Caso OM-11347 - MP Stuck at ReadyToCreateVisit 🟢
 
 Etiquetas: #om_stuck_in_ready_to_create_visit
 
