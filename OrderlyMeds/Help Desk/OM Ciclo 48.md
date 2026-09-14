@@ -279,7 +279,7 @@ new_member_period("egriffin1789@gmail.com")
 
 ## Caso OM-9329 - Reset Check-In - Starter Pack 🟢
 
-Etiquetas: #om_new_mp #om_checkin_reset #om_checkin_starter_pack
+Etiquetas: #om_new_mp #om_checkin_reset #om_starter_pack_checkin
 
 > [!Note]
 > Este tiene la particularidad que el MP se quedó en `ReadyForProductSelection`
