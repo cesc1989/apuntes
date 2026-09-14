@@ -41,3 +41,14 @@ Caso similar es [[OM Ciclo 50#Caso OM-9790 - Script error con needs_requested_me
 ### Solución: copiar medid de CV Request en cancelada
 
 Hice lo mismo que en el caso OM-9790. Fui al request cancelado y copié el MedId y luego corrí "Fix Medpicker Selection". Luego revisé y el Script cambió a "Pharmacy Selected".
+
+## Caso OM-11414 - Stuck in ReadyToCreateVisit de Beluga 🟡
+
+Etiquetas: #om_stuck_in_ready_to_create_visit
+
+Al contrario que OM-11347 al inicio de este doc, este como sí es de Beluga intenté el troubleshoot pero dio el mismo problema del status 400.
+
+Así que mandé el mensaje tal cual hice en OM-9396 -> [[OM Ciclo 48#Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟢]]
+
+Mensaje:
+> When trying to create the visit, Beluga returns the error: _"Status 400: Patient not eligible for this visit."_ Please contact the provider to determine why the patient is not eligible for the visit.
