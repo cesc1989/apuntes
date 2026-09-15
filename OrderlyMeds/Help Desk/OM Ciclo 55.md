@@ -33,7 +33,7 @@ Caso similar es [[OM Ciclo 50#Caso OM-9790 - Script error con needs_requested_me
 
 Hice lo mismo que en el caso OM-9790. Fui al request cancelado y copié el MedId y luego corrí "Fix Medpicker Selection". Luego revisé y el Script cambió a "Pharmacy Selected".
 
-## Caso OM-11414 - Stuck in ReadyToCreateVisit de Beluga 🟡
+## Caso OM-11414 - Stuck in ReadyToCreateVisit de Beluga 🟢
 
 Etiquetas: #om_stuck_in_ready_to_create_visit
 
@@ -55,3 +55,23 @@ pero devolvió el mensaje:
 
 El mensaje enviado a CS:
 > When trying to create the visit, Beluga returns the error: _"Status 400: Patient not eligible for this visit."_ Please contact the provider to determine why the patient is not eligible for the visit.
+
+
+## Caso OM-11407 - Starter Pack 🟢
+
+Etiquetas: #om_starter_pack_checkin 
+
+Un CX que necesita el Starter Pack. El MP estaba en "Ready For Product Selection" y el Checkin completo. Sin embargo, cuando lo activé con:
+```ruby
+mp = Salesforce::MemberPeriod.find_by(name: "MP-00664447")
+mp.update!(customer_lifecycle_stage: "Restarting")
+
+check_in = mp.patient_checkins.last
+check_in.update!(is_starter_plan_only: true)
+```
+
+E iba a seleccionar el producto salía un mensaje de que el CX no era elegible. Luego volví a revisar y se hizo otro Checkin que no tiene el starter pack activado pero sale la opción de 2 meses...
+
+![[OM_11407.png]]
+
+
