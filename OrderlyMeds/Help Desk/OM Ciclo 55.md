@@ -12,16 +12,7 @@ Casos con el mismo problema (no necesariamente misma solución):
 - OM-9396 -> [[OM Ciclo 48#Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟢]]
 - OM-7070
 
-### Paso 1: intentar crear la visita
-
-Esto es lo que sugiere el Notion:
-```ruby
-mp = Salesforce::MemberPeriod.find_by(omid: "019fe9b0-61ae-7e3a-b805-15b3df930ac2")
-ce = mp.clinical_encounters.last
-BelugaHealth::Scheduler::CreateVisitJob.new.perform(ce.id)
-```
-
-Sin embargo, el MP de este caso es de Care Validate. Hice resubmit normal.
+Iba a hacer lo del caso relacionado, sin embargo, el MP de este caso es de Care Validate. Lo que hice fue un resubmit normal.
 
 ### Actualizaciones
 
@@ -50,5 +41,17 @@ Al contrario que OM-11347 al inicio de este doc, este como sí es de Beluga inte
 
 Así que mandé el mensaje tal cual hice en OM-9396 -> [[OM Ciclo 48#Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟢]]
 
-Mensaje:
+### Paso 1: intentar crear la visita
+
+Esto es lo que sugiere el Notion:
+```ruby
+mp = Salesforce::MemberPeriod.find_by(omid: "OMID")
+ce = mp.clinical_encounters.last
+BelugaHealth::Scheduler::CreateVisitJob.new.perform(ce.id)
+```
+
+pero devolvió el mensaje:
+> BelugaHealth#visit_form_submission failed with status 400: Patient not eligible for this visitType
+
+El mensaje enviado a CS:
 > When trying to create the visit, Beluga returns the error: _"Status 400: Patient not eligible for this visit."_ Please contact the provider to determine why the patient is not eligible for the visit.
