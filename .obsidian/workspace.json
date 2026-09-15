@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1255c1b4e7bde10a",
+        "id": "0fcb5f47eaf0bf61",
         "type": "tabs",
         "children": [
           {
-            "id": "c9294757376064da",
+            "id": "dd3c2b0894dcce7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 55"
+              "title": "Use the Index, Luke - Markus Winand"
             }
           }
         ]
@@ -137,12 +137,12 @@
             }
           },
           {
-            "id": "0e54cb74656d51e7",
+            "id": "27ec300d0b90b00f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+                "file": "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -167,11 +167,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c9294757376064da",
+  "active": "dd3c2b0894dcce7f",
   "lastOpenFiles": [
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
@@ -195,7 +196,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Riffing_on_Rails_y_Super_Menú.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Manipulación_de_PDFs_en_Ruby.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
     "OrderlyMeds/Help Desk/attachments/OM_11055.png",
