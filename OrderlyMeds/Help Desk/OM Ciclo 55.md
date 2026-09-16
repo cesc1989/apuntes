@@ -75,3 +75,39 @@ E iba a seleccionar el producto salía un mensaje de que el CX no era elegible. 
 ![[OM_11407.png]]
 
 
+## Caso OM-11427 - Reroute to Beluga ℹ️
+
+Etiquetas: #om_reroute_to_beluga 
+
+Necesito cambiar el prescriber de un CX a Beluga y hacer el resubmit.
+
+Hay que hacer esto:
+```ruby
+script = ::Ontraport::Meta::Script.get_by_id(950674)
+request = CareValidate::Request.find("01a082b8-e322-799a-bea5-8bc8d40a49c2")
+icwhs = IncomingWebhook.where(id: request.incoming_webhook_ids)
+wh = icwhs.first
+wh.update!(state: "pending")
+
+request.send_to_beluga!
+CareValidate.retry_via_beluga(contact: ::Ontraport::Meta::Contact.get_by_id(script.contact))
+ProcessIncomingWebhookJob.new.perform(wh.id)
+```
+
+- Ubicar el script para poder cambiar el prescriber del Contacto en Ontraport
+- Ubicar la Request de Care Validate
+	- Y el webhook que sea de tipo "ontraport"
+- Cambiar el estado del webhook a "pending"
+
+Luego estos:
+```ruby
+request.send_to_beluga!
+CareValidate.retry_via_beluga(contact: ::Ontraport::Meta::Contact.get_by_id(script.contact))
+```
+
+Lo que hacen es:
+
+1. cambiar el estado del request a `routed_to_beluga`
+2. cambiar el prescriber del contacto en Ontraport a "Beluga"
+
+Se corre el job en sincrono para tener una ejecución inmediata.

@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "d62c31a35fdcaad3",
+        "id": "1e20c6dc1739bbc6",
         "type": "tabs",
         "children": [
           {
-            "id": "a92edd78054eb5ec",
+            "id": "400c98d86d2d812f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "OrderlyMeds/Onboarding.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
+              "title": "Onboarding"
             }
           },
           {
-            "id": "7292e5bc11c1bf7e",
+            "id": "0a9cd76605d5e8df",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_needs_requested_medpicker_data",
+                "query": "tag:#om_routed_to_beluga",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,18 +182,19 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "7292e5bc11c1bf7e",
+  "active": "0a9cd76605d5e8df",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/attachments/OM_11407.png",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
+    "OrderlyMeds/Onboarding.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/attachments/OM_11407.png",
+    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Member Period.md",
     "OrderlyMeds/KB/001-member-period.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
@@ -220,7 +221,6 @@
     "OrderlyMeds/Help Desk/attachments/om_10450.01.png",
     "OrderlyMeds/Help Desk/attachments/om_10730.01.png",
     "OrderlyMeds/Help Desk/attachments/OM_10722.02.png",
-    "OrderlyMeds/Help Desk/attachments/OM_10722.01.png",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB",
