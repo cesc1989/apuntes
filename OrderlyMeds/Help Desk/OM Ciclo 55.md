@@ -127,3 +127,26 @@ Estos dos casos:
 - OM-11394
 - OM-11450
 
+Para el caso OM-11394 Fabian me explicó que había que revisar las respuestas del Checkin en Ontraport. Particular énfasis en la respuesta a la pregunta _When did you last take your prescribed weight loss medication?_.
+
+En este caso, el cx respondió _Within past month_. Según las reglas, ==el Starter Pack se activa cuando el CX pasó más de dos meses desde la última vez que el cx tomó la medicina.==
+
+Según la IA de Slack:
+> if the customer says it's been more than 1 month (but less than 2), the Starter Pack option won't be enabled through the normal check-in flow, and per policy agents shouldn't coach them to pick the 2-month answer if that's not actually true.
+
+
+### Solución
+
+Fabian me indicó estos pasos que debe seguir CS y luego yo:
+
+1. First check if the current case has been put in on hold.
+	1. Copia a Sarah Gray si es necesario
+2. Ask to CS to add credits/refund to cx account. Tier 3 is not able to resubmit this request for stater because this depends on cx checkin answers.
+3. Reset Checkin and ask cx to complete a new one.
+
+El paso 3 es el que yo completo. Para completarlo debo ir al Script en Ontraport y activar los Automations:
+
+- [LIVE] Reset Script
+- [LIVE CLICKFIX] URL Generation Redirect - Cookie
+
+Hacer un impersonate y revisar que la pregunta de los meses se pueda responder.
