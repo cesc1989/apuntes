@@ -118,7 +118,7 @@ Se corre el job en sincrono para tener una ejecución inmediata. Una vez revisar
 
 
 
-## Casos de Starter Pack en Ontraport 🟡
+## Casos de Starter Pack en Ontraport 🟡ℹ️
 
 Etiquetas: #om_starter_pack_ontraport
 
@@ -158,3 +158,24 @@ Hacer un impersonate y revisar que la pregunta de los meses se pueda responder.
 En este el cx sí contestó como se espera para que se habilite el Starter Pack. Respondió _It has been over 2 months_. Así que procedí y apliqué los Automations en Ontraport. Vi que se pudo acceder de nuevo al Checkin pero tenía respuestas seleccionadas.
 
 Informé al equipo de Tier 2. Estaré esperando...
+
+## Caso OM-11464 - Stuck en PrescriptionWritten y PerfectRx 🟡ℹ️
+
+Etiquetas: #om_stuck_in_prescription_written #om_perfect_rx
+
+Típico caso de Member Period que no pasa de PrescriptionWritten. Hice ResubmitToMSO y se quedó pegado de nuevo. Corrí el script de debuggeo y hubo que actualizar la rama de PerfectRx. Al actualizar obtuve esto:
+```
+--> patient linked but never transmitted. CreatePrescriptionJob is the transmitter.
+    prescriber_name: "Beluga Health" | practice_id: resolvable
+```
+
+Revisando más con Claudio llegamos al punto donde se corrió esto:
+```ruby
+client = PerfectRx::Client.new(config: PerfectRx.config, logger: Rails.logger)
+PerfectRx::FetchPatient.by_external_nk!(client:, nk: "019307c8-4887-7ca3-aed1-5ffd4cdf64b9")
+```
+
+Que nos dio el mensaje:
+```
+app/services/perfect_rx/fetch_patient.rb:60:in 'PerfectRx::FetchPatient.handle_patient_result!': Could not find patient with that ID in system. (PerfectRx::FetchPatient::ApiError)
+```
