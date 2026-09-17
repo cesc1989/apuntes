@@ -182,4 +182,4 @@ Procedimiento: marcar el flag → pedirle al CX que vuelva a seleccionar tratami
 | `app/models/salesforce/patient_checkin.rb:45` | `alias_attribute :is_starter_plan_only` |
 | `config/routes/patient.rb:36-46` | Rutas de checkin y purchases |
 
-Ver también: [`001-member-period.md`](001-member-period.md)
+Ver también: [001-member-period.md](001-member-period.md)
