@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a13a454a48bc10b7",
+        "id": "434244cb7c28b821",
         "type": "tabs",
         "children": [
           {
-            "id": "89ffd75b43bb75e1",
+            "id": "52300cc87bcc90c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "003-mostrar-starter-pack"
+              "title": "New tab"
             }
           }
         ]
@@ -142,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
+                "file": "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,10 +163,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "89ffd75b43bb75e1",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
+    "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
+    "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
     "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
@@ -205,7 +202,6 @@
     "OrderlyMeds/Help Desk/attachments/om_10450.02.png",
     "OrderlyMeds/Help Desk/attachments/om_10450.01.png",
     "OrderlyMeds/Help Desk/attachments/om_10730.01.png",
-    "OrderlyMeds/Help Desk/attachments/OM_10722.02.png",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB",
