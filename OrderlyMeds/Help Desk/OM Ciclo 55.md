@@ -127,6 +127,8 @@ Estos dos casos:
 - OM-11394
 - OM-11450
 
+### Caso OM-11394
+
 Para el caso OM-11394 Fabian me explicó que había que revisar las respuestas del Checkin en Ontraport. Particular énfasis en la respuesta a la pregunta _When did you last take your prescribed weight loss medication?_.
 
 En este caso, el cx respondió _Within past month_. Según las reglas, ==el Starter Pack se activa cuando el CX pasó más de dos meses desde la última vez que el cx tomó la medicina.==
@@ -135,7 +137,7 @@ Según la IA de Slack:
 > if the customer says it's been more than 1 month (but less than 2), the Starter Pack option won't be enabled through the normal check-in flow, and per policy agents shouldn't coach them to pick the 2-month answer if that's not actually true.
 
 
-### Solución
+#### Solución para OM-11394
 
 Fabian me indicó estos pasos que debe seguir CS y luego yo:
 
@@ -150,3 +152,9 @@ El paso 3 es el que yo completo. Para completarlo debo ir al Script en Ontraport
 - [LIVE CLICKFIX] URL Generation Redirect - Cookie
 
 Hacer un impersonate y revisar que la pregunta de los meses se pueda responder.
+
+### Caso OM-11450
+
+En este el cx sí contestó como se espera para que se habilite el Starter Pack. Respondió _It has been over 2 months_. Así que procedí y apliqué los Automations en Ontraport. Vi que se pudo acceder de nuevo al Checkin pero tenía respuestas seleccionadas.
+
+Informé al equipo de Tier 2. Estaré esperando...
