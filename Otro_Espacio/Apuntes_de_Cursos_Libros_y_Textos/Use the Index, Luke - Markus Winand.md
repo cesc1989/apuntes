@@ -167,3 +167,84 @@ Predicate Information (identified by operation id):
 
 
 > Usar un índice no implica necesariamente que la sentencia se ejecute de la mejor manera posible.
+
+### Funciones
+
+#### Sin distinción entre mayúscula y minúscula usando UPPER o LOWER
+
+Esta query:
+```sql
+SELECT first_name, last_name, phone_number
+  FROM employees
+ WHERE UPPER(last_name) = UPPER('winand')
+```
+
+Da este plan de ejecución:
+```
+----------------------------------------------------
+| Id | Operation         | Name      | Rows | Cost |
+----------------------------------------------------
+|  0 | SELECT STATEMENT  |           |   10 |  477 |
+|* 1 |  TABLE ACCESS FULL| EMPLOYEES |   10 |  477 |
+----------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+   1 - filter(UPPER("LAST_NAME")='WINAND')
+```
+
+Hace un full table scan a pesar de tener un índice:
+> Esto es el regreso de nuestro viejo amigo FULL TABLE SCAN. Aunque existe un índice sobre la columna `LAST_NAME`, es inutilizable -porque la búsqueda _no_ es sobre `LAST_NAME` sino sobre `UPPER(LAST_NAME)`. ==Desde el punto de vista de la base de datos, es algo _completamente diferente_.==
+
+
+> Es una trampa en la cual es fácil caer. Reconocemos al instante la relación entre `LAST_NAME` y `UPPER(LAST_NAME)` y esperemos que la base de datos “vea” lo mismo. En realidad, la visión del optimizador es más como esto otro:
+
+```sql
+SELECT first_name, last_name, phone_number
+  FROM employees
+ WHERE BLACKBOX(...) = 'WINAND'
+```
+
+> La función `UPPER` es solamente una caja negra. ==Los parámetros hacia la función no son pertinentes porque no existe una relación general entre los parámetros de las funciones y el resultado.==
+
+
+> Para soportar esta sentencia, se requiere un índice adicional para cubrir la expresión de la búsqueda actual. ==Eso significa que no se necesita un índice sobre `LAST_NAME` sino uno sobre `UPPER(LAST_NAME)`:==
+
+```sql
+CREATE INDEX emp_up_name 
+    ON employees (UPPER(last_name))
+```
+
+
+> [!Note]
+> SQL Server y MySQL no soportan los índices basados en funciones como se ha descrito pero ambos dan la posibilidad de usar, en su lugar, las columnas virtuales. Para utilizarlas, se debe agregar primero una columna virtual a la tabla para poder indexarla más tarde.
+
+
+#### Funciones definidas por usuario
+
+Capítulo: https://use-the-index-luke.com/es/sql/where/funciones/definidas-por-el-usuario
+
+Aclara que solo las funciones deterministas pueden ser indexadas. Sino son cajas negras para el optimizador del motor de la base de datos:
+> Solamente las funciones que devuelven siempre el mismo resultado con los mismos parámetros pueden ser indexadas.
+
+
+### Sentencias con variables
+
+El capítulo me pareció algo confuso así que le pedí un resumen al asistente de Kagi. Esto dijo:
+
+> Las variables bind permiten reutilizar el plan de ejecución, así que la base de datos no reconstruye el plan cada vez que cambia un valor. Eso ahorra recursos .
+>
+> **El problema** es que, al no conocer el valor concreto, ==el optimizador asume que los datos están distribuidos de forma uniforme. Siempre calcula el mismo número estimado de registros y elige el mismo plan==, aunque con ciertos valores un índice sería genial y con otros sería una mala opción .
+>
+> **La clave del artículo:** usalas por defecto, excepto cuando el valor concreto sí pueda cambiar el plan de ejecución (p.ej., valores muy comunes vs. muy raros). En esos casos puntuales, un literal es mejor
+
+Resumen: bind por defecto, literal solo cuando el valor real importe para el índice.
+
+> [!Important]
+> Esto aclara el capítulo sobre lo de "valores muy comunes vs muy raros":
+> > Consideremos por ejemplo los valores para los estados “hecho” y “por hacer”, que típicamente están distribuidos de manera desigual. El número de entradas “hecho” excede generalmente los registros “por hacer” por una gran magnitud. Usar un índice tiene sentido sólo cuando se busca entre las entradas “por hacer”.
+
+### Búsqueda por rangos
+
+#### Mayor que, menor que y BETWEEN
+
