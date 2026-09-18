@@ -88,6 +88,7 @@ request = CareValidate::Request.find("01a082b8-e322-799a-bea5-8bc8d40a49c2")
 icwhs = IncomingWebhook.where(id: request.incoming_webhook_ids)
 wh = icwhs.first
 wh.update!(state: "pending")
+request.update!(state: "needs_crm_update")
 
 request.send_to_beluga!
 CareValidate.retry_via_beluga(contact: ::Ontraport::Meta::Contact.get_by_id(script.contact))
