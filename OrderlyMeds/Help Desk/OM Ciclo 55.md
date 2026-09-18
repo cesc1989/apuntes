@@ -178,3 +178,75 @@ Que nos dio el mensaje:
 ```
 app/services/perfect_rx/fetch_patient.rb:60:in 'PerfectRx::FetchPatient.handle_patient_result!': Could not find patient with that ID in system. (PerfectRx::FetchPatient::ApiError)
 ```
+
+## Caso OM-11447 - Resubmit de WeightLossFollowup a WeightLoss 🟡ℹ️
+
+Etiquetas: #om_salesforce_resubmit_to_weightloss
+
+Dice el reporte:
+> beluga merge chart issue and now they want this resubmitted as weightloss instead of weightlossfollowup on SF
+
+En Ontraport eso se logra de otra forma así que ni idea. Le pregunté a Jaime pero no sabía tampoco. Así que le seguí la corriente a Claudio.
+
+Dijo que había que hacer esto:
+```ruby
+mp   = Salesforce::Account.find_by(person_email: "CorreodelCX").latest_member_period
+pend = mp.clinical_encounters.where(status: "Pending").order(:startdate).last
+
+# esperado: true
+pend.med_picker_recommendation.id == mp.latest_med_picker_recommendation.id
+
+original = mp.slice(:customer_lifecycle_stage, :loyalty_points)
+forced   = {customer_lifecycle_stage: "NewNonTransfer"}
+forced[:loyalty_points] = "Zero" if mp.customer_type.in?(%w[B2C B2B])
+
+begin
+  mp.update!(forced)
+  
+  # imprime anterior vs nuevo y espera 'y'
+  Salesforce::ResubmitToMso.call(clinical_encounter: pend)
+ensure
+  mp.reload.update!(original)
+end
+
+new_ce = mp.reload.clinical_encounters.order(:startdate).last
+new_ce.slice(:id, :status, :visit_type, :source_system_identifier)
+```
+
+Explico lo que pasa:
+- Obtenemos el Member Period y el Clinical Encounter en "Pending"
+- Comprobamos el estado de la recomendación de MedPicker
+- Copiamos los valores `customer_lifecycle_stage` y `loyalty_points`
+	- Se copian porque necesitan restaurarse al final
+- Se preparan los nuevos valores para esos dos campos:
+	- `NewNonTransfer`
+	- y `Zero` para loyalty points
+- En el bloque begin/ensure:
+	- Se actualiza el Member Period con los valores modificados
+	- Se ejecuta un ResubmitToMso para el Clinical Encounter anterior (en pending)
+	- Cuando se complete, se restaura el Member Period con los valores originales
+- En la verificación:
+	- Se busca el Clinical Encounter más reciente y se comprueba que salgan los valores que nos interesan:
+
+```ruby
+{"id" => "01a0b643-edde-73fe-bc26-69353973df61", "status" => "Pending", "visit_type" => "WeightLoss", "source_system_identifier" => "01A0B643-EDEF-7FF9-BD9A-283DD82D86DA"}
+```
+
+
+Al verificar:
+- Se creó un nuevo Clinical Encounter en estado `Scheduled` y con Service Type "Weight Loss"
+- El Clinical Encounter anterior se canceló
+- El Member Period estaba trabado en "Ready to Create Visit" y pasó a "Visit Created"
+- El Member Period volvió a sus valores originales
+
+La verificación es con:
+```ruby
+mp.reload.slice(:status, :customer_lifecycle_stage, :loyalty_points)
+=> {"status" => "VisitCreated", "customer_lifecycle_stage" => "Existing", "loyalty_points" => "Three"}
+
+pend.reload.status
+=> "Cancelled"
+
+mp.latest_med_picker_recommendation.slice(:id, :status)
+=> {"id" => "01a0b643-d50a-77f3-9f53-b577ddb75184", "status" => "RecommendationMade"}
+```
