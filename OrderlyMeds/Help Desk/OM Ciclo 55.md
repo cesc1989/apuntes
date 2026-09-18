@@ -75,7 +75,7 @@ E iba a seleccionar el producto salía un mensaje de que el CX no era elegible. 
 ![[OM_11407.png]]
 
 
-## Caso OM-11427 - Reroute to Beluga 🟡ℹ️
+## Caso OM-11427 - Reroute to Beluga 🟢ℹ️
 
 Etiquetas: #om_reroute_to_beluga 
 
