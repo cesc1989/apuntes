@@ -250,3 +250,24 @@ pend.reload.status
 mp.latest_med_picker_recommendation.slice(:id, :status)
 => {"id" => "01a0b643-d50a-77f3-9f53-b577ddb75184", "status" => "RecommendationMade"}
 ```
+
+## Caso OM-11496 - Stuck in Submitted migrado a Salesforce 🟢ℹ️
+
+Etiquetas: #om_stuck_in_submitted #om_migration_op_to_sf 
+
+Típico caso de cx migrado de Salesforce a Ontraport pero con un Script en curso. El Script quedó trabado en Submitted pero cuando fui a revisar el cx ya había sido migrado a Salesforce.
+
+La forma que Jaime me explicó proceder aquí es:
+- Limpiar el campo `salesforce_account_nk` del Account
+- En Ontraport, deschulear el campo "Migrated To Salesforce?"
+	- O correr el comando desde consola cambiando a false:
+
+```ruby
+contact = Ontraport::Meta::Contact.get_by_id(ontraport_contact_id)
+contact.update_all(migrated_to_salesforce: 1) # Set "Migrated To Salesforce?" to true
+```
+
+Después de eso se puede hacer el resubmit normal.
+
+> [!Note]
+> Tengo dudas de si esto es necesario ya que vi que el Script pasó "Order at Pharmacy" sin yo hacer nada.
