@@ -117,7 +117,7 @@ Se corre el job en sincrono para tener una ejecución inmediata. Una vez revisar
 - Preguntar a CS si se creó una visita en Beluga
 
 
-## Casos de Starter Pack en Ontraport 🟡ℹ️
+## Casos de Starter Pack en Ontraport 🟢ℹ️
 
 Etiquetas: #om_starter_pack_ontraport
 
@@ -179,7 +179,7 @@ Que nos dio el mensaje:
 app/services/perfect_rx/fetch_patient.rb:60:in 'PerfectRx::FetchPatient.handle_patient_result!': Could not find patient with that ID in system. (PerfectRx::FetchPatient::ApiError)
 ```
 
-## Caso OM-11447 - Resubmit de WeightLossFollowup a WeightLoss 🟡ℹ️
+## Caso OM-11447 - Resubmit de WeightLossFollowup a WeightLoss 🟢ℹ️
 
 Etiquetas: #om_salesforce_resubmit_to_weightloss
 
