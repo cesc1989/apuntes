@@ -171,13 +171,50 @@ Típico caso de Member Period que no pasa de PrescriptionWritten. Hice ResubmitT
 Revisando más con Claudio llegamos al punto donde se corrió esto:
 ```ruby
 client = PerfectRx::Client.new(config: PerfectRx.config, logger: Rails.logger)
-PerfectRx::FetchPatient.by_external_nk!(client:, nk: "019307c8-4887-7ca3-aed1-5ffd4cdf64b9")
+PerfectRx::Api::Patient.fetch(client:, external_patient_nk: p.external_nk)
 ```
 
 Que nos dio el mensaje:
 ```
-app/services/perfect_rx/fetch_patient.rb:60:in 'PerfectRx::FetchPatient.handle_patient_result!': Could not find patient with that ID in system. (PerfectRx::FetchPatient::ApiError)
+Could not find patient with that ID in system. (PerfectRx::FetchPatient::ApiError)
 ```
+
+### Solución: external_nk no coincidia entre PerfectRx y Local BD
+
+La llamada al API de PerfectRx fallaba porque en la base de datos el registro en `PerfectRx::Patient` se creó con el ID:
+```
+019307c8-4896-72d1-9610-5d649c6eb16b
+```
+
+En cambio en PerfectRx quedó con el ID:
+```
+019307c8-4896-72d1-9610-5d649c6eb16b
+```
+
+No coincidía. Para corregir se actualizó el valor y luego se invocó el job.
+
+Primero buscamos el paciente en PerfectRx usando el valor en el campo `smart_scripts_patient_nk`
+```ruby
+b = PerfectRx::Api::Patient.fetch(client:, smart_scripts_patient_nk: p.smart_scripts_nk)
+```
+
+Si hay resultado, usamos es valor para comparar. Si todo coincide, actualizamos el registro de la base de datos:
+```ruby
+p = PerfectRx::Patient.find("0194e107-6504-73eb-8f10-7fec21ba6be8")
+p.update!(external_nk: b.external_id)
+```
+
+Luego encolamos el job pasando el ID de la prescripción más reciente:
+```ruby
+PerfectRx::ProcessPrescriptionJob.new.perform("01a0a745-ab27-77c6-a930-d17b10bcd64b")
+```
+
+Se deben ver varias cosas actualizadas:
+- El Member Period trabado debe pasar a `WaitingOnPharmacyConfirmation`
+- En Orders, la correspondiente debe tener el chulo verde en "Sent"
+- En PerfectRx Orders, el estado pasa a `awaiting_confirmation`
+
+
 
 ## Caso OM-11447 - Resubmit de WeightLossFollowup a WeightLoss 🟢ℹ️
 
