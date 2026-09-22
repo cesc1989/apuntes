@@ -158,7 +158,7 @@ En este el cx sí contestó como se espera para que se habilite el Starter Pack.
 
 Informé al equipo de Tier 2. Estaré esperando...
 
-## Caso OM-11464 - Stuck en PrescriptionWritten y PerfectRx 🟡ℹ️
+## Caso OM-11464 - Stuck en PrescriptionWritten y PerfectRx 🟢ℹ️
 
 Etiquetas: #om_stuck_in_prescription_written #om_perfect_rx
 
@@ -181,12 +181,12 @@ Could not find patient with that ID in system. (PerfectRx::FetchPatient::ApiErro
 
 ### Solución: external_nk no coincidia entre PerfectRx y Local BD
 
-La llamada al API de PerfectRx fallaba porque en la base de datos el registro en `PerfectRx::Patient` se creó con el ID:
+La llamada al API de PerfectRx fallaba porque en la base de datos el registro en `PerfectRx::Patient` se creó con el `external_nk`:
 ```
-019307c8-4896-72d1-9610-5d649c6eb16b
+019307c8-4887-7ca3-aed1-5ffd4cdf64b9
 ```
 
-En cambio en PerfectRx quedó con el ID:
+En cambio en PerfectRx quedó con el `external_nk`:
 ```
 019307c8-4896-72d1-9610-5d649c6eb16b
 ```
