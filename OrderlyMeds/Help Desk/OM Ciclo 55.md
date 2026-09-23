@@ -308,3 +308,16 @@ Después de eso se puede hacer el resubmit normal.
 
 > [!Note]
 > Tengo dudas de si esto es necesario ya que vi que el Script pasó "Order at Pharmacy" sin yo hacer nada.
+
+## Caso OM-11581 - Stuck in ReadtyToCreateVisit de Beluga 🟢
+
+Etiquetas: #om_stuck_in_ready_to_create_visit
+
+Lo mismo pero esta vez ejecutar:
+```ruby
+mp = Salesforce::MemberPeriod.find_by(omid: "01a0551d-cd7c-7ecd-83c9-5400ba5cb252")
+ce = mp.clinical_encounters.last
+BelugaHealth::Scheduler::CreateVisitJob.new.perform(ce.id)
+```
+
+Sí movió el MP al siguiente estado: VisitCreated.
