@@ -48,34 +48,6 @@ La solución fue copiar el MedId y correr el "Fix Medpicker Selection" del Reque
 
 ![[om_9790.01.png]]
 
-### Nada de esto sirvió
-
-Intenté correr:
-```ruby
-result = CareValidate::FixResubmitOntraportWebhook.call(
-  request_id: "019f23ba-6d29-7dac-818a-af2c6b672855"
-)
-```
-
-pero devolvió el error que aparece en Success:
-```ruby
-{error:
-  "No MedPicker recommendation found for CareValidate for patientPreference: [{\"name\" => \"OM Ultra: Tirzepatide - $399/month - 4 Injections\", \"numberMonths\" => \"1\", \"strength\" => \"None\", \"change\" => \"Weight Loss is Going Great\", \"ingredients\" => \"B3,B5\", \"titrateup\" => \"I want to increase dosage every month\", \"medIdOverride\" => \"\", \"refills\" => \"0\"}]"}
-```
-
-Luego intenté correr:
-```ruby
-CareValidate::GetMedpickerDataJob.new.perform(
-  webhook.id,
-  request.id,
-  request.script_nk
-)
-```
-
-Pero también dio error:
-```
-No matching recommendations for these patient preferences.
-```
 
 > [!Note]
 > Para poder correr `CareValidate::GetMedpickerDataJob` el campo `source_event` del webhook debe ser `care_validate_checkin` para que al llamar a `CareValidate::ProcessRequestJob` se ejecute la parte en que se encola a `CareValidate::SendCheckinJob`. Job que también es llamado en el proceso `FixResubmitOntraportWebhook`.
