@@ -326,3 +326,13 @@ BelugaHealth::Scheduler::CreateVisitJob.new.perform(ce.id)
 ```
 
 Sí movió el MP al siguiente estado: VisitCreated.
+
+## Caso OM-11586 - No MedPicker Recommendation 🟡
+
+Etiquetas: #om_no_matching_recommendations 
+
+Caso con problema de Script Error con no matching recommendations. Le hice resubmit y dio el mismo error. Luego probé con el botón "Resubmit Latest Ontraport Webhook" y me dio este mensaje:
+```
+**No MedPicker recommendation found for CareValidate for patientPreference: [{"name" => "OM Core: Semaglutide - $199/month - 4 Injections", "strength" => "Tirzepatide 15mg", "change" => "I Want to Change Medication", "ingredients" => "B3,B5", "titrateup" => "I want to increase dosage every month", "numberMonths" => "2", "medIdOverride" => ""}]**
+```
+
