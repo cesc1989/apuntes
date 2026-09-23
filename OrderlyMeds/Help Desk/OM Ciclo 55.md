@@ -300,8 +300,13 @@ La forma que Jaime me explicó proceder aquí es:
 	- O correr el comando desde consola cambiando a false:
 
 ```ruby
-contact = Ontraport::Meta::Contact.get_by_id(ontraport_contact_id)
-contact.update_all(migrated_to_salesforce: 1) # Set "Migrated To Salesforce?" to true
+account = Account.find_by(email: "someemail@gmail.com")
+account.update!(salesforce_account_nk: nil)
+
+contact = Ontraport::Meta::Contact.get_by_id(430666)
+
+# Set "Migrated To Salesforce?" to false
+contact.update_all(migrated_to_salesforce: false)
 ```
 
 Después de eso se puede hacer el resubmit normal.
