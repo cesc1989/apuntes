@@ -1,7 +1,6 @@
 # Activación del Starter Pack
 
-## TL;DR para Customer Support
-
+> [!Important]
 > **El CX debe completar el check-in ANTES de que podamos activar el starter pack.**
 >
 > El registro de "Patient Check In" en Salesforce **no existe** hasta que el CX termina el check-in. Sin ese registro no hay dónde marcar el flag.
@@ -10,20 +9,16 @@
 
 **Ventana correcta de activación:** después de que el CX envía el check-in y **antes** de que envíe la selección de tratamiento.
 
----
-
 ## El flag
 
 `Salesforce::PatientCheckin#is_starter_plan_only` → alias de `isstarterplanonly__c`
 (`app/models/salesforce/patient_checkin.rb:45`)
 
-Ningún código de Rails escribe este campo. `CheckinDataMapper` no lo toca — el único lugar donde aparece en el modelo es el `alias_attribute`. Se setea desde Salesforce o manualmente vía consola.
-
----
+Ningún código de Rails escribe este campo. `CheckinDataMapper` no lo toca. El único lugar donde aparece en el modelo es el `alias_attribute`. Se setea desde Salesforce o manualmente vía consola.
 
 ## Flujo: Check-in → Select Treatment
 
-### Paso 1 — Check-in
+### Paso 1: Check-in
 
 | | |
 |---|---|
@@ -42,7 +37,7 @@ Ningún código de Rails escribe este campo. `CheckinDataMapper` no lo toca — 
 
 Luego el controller redirige a `new_checkin_purchases_path` (`checkin_controller.rb:112-114`).
 
-### Paso 2 — Select Treatment
+### Paso 2: Select Treatment
 
 No existe un controller llamado "treatment". Es `Patient::Checkin::PurchasesController`.
 
@@ -61,11 +56,9 @@ En el `POST` (`purchases_controller.rb:35-67`), dentro de una transacción:
    - **Requiere pago** → `mark_ready_for_order_payment!` → `ReadyForOrderPayment` → redirige al payment link (Stripe)
    - **No requiere pago** → `mark_order_payment_submitted!` → `OrderPaymentSubmitted` → redirige a confirmación
 
-### Paso 3 — Pago
+### Paso 3: Pago
 
 Fuera de la app (Stripe payment link) o confirmación directa. De ahí, Salesforce Flow mueve el MP a `ReadyToCreateVisit` **out-of-band** (ver comentario en `member_period.rb:13-14`).
-
----
 
 ## Estados del Member Period
 
@@ -80,18 +73,19 @@ Fuera de la app (Stripe payment link) o confirmación directa. De ahí, Salesfor
 | `reset_ready_for_checkin` | `CheckinCompleted`, `ReadyForProductSelection` → `ReadyForCheckin` | `checkin_controller.rb:109` |
 | `reset_ready_for_product_selection` | `ReadyForOrderPayment` → `ReadyForProductSelection` | `checkin_controller.rb:108`, `purchases_controller.rb:83` |
 
-**Nota:** `HealthScreeningCompleted` puede ir directo a `ReadyForOrderPayment` (`member_period.rb:55`). El check-in es solo para ciclos de renovación, **no** para la primera orden de un cliente nuevo — ese pasa por el health screening hosteado en Salesforce.
-
----
+> [!Note]
+> `HealthScreeningCompleted` puede ir directo a `ReadyForOrderPayment` (`member_period.rb:55`). El check-in es solo para ciclos de renovación, **no** para la primera orden de un cliente nuevo. Ese pasa por el health screening hosteado en Salesforce.
 
 ## Dónde se lee el flag
 
 El flag se consume **en el paso 2**, cuando el CX envía la selección de tratamiento. Por eso hay que marcarlo antes.
 
 ### 1. `PurchaseForm#starter_plan?`
+
 `app/forms/patient/checkin/purchase_form.rb:61-63` → usado por la vista `app/views/patient/checkin/purchases/new.html.erb:20`
 
 ### 2. `MedPickerRecommendationBuilder#conditional_fields`
+
 `app/services/patient/checkin/med_picker_recommendation_builder.rb:40-50`
 
 ```ruby
@@ -111,9 +105,8 @@ end
 Si es starter plan, la `MedPickerRecommendation` se crea **sin** dosis previa ni feedback de dosificación — que es exactamente el punto del starter pack. Si el flag se marca *después* del submit, la recomendación ya salió con la dosis previa.
 
 ### 3. Productos starter
-`ProductPicker#product_options` etiqueta con `" (starter)"` los productos donde `product.is_starter_pack` (`product_picker.rb:45-46`). Ese es un campo distinto, del producto (`Salesforce::Commerce::Product#is_starter_pack` → `isstarterpack__c`), no del check-in.
 
----
+`ProductPicker#product_options` etiqueta con `" (starter)"` los productos donde `product.is_starter_pack` (`product_picker.rb:45-46`). Ese es un campo distinto, del producto (`Salesforce::Commerce::Product#is_starter_pack` → `isstarterpack__c`), no del check-in.
 
 ## Código de activación
 
@@ -137,11 +130,9 @@ mp.status                    # esperado: "ReadyForProductSelection"
 mp.patient_checkin.present?  # debe ser true
 ```
 
----
-
 ## Trampas
 
-### Trampa #1 — `Restarting` puesto antes del check-in se revierte
+### Trampa #1: `Restarting` puesto antes del check-in se revierte
 
 `app/services/patient/checkin.rb:47-51`:
 
@@ -155,19 +146,17 @@ end
 
 El `patient_checkin` recién creado nace sin `is_starter_plan_only` (nada en Rails lo setea al crearlo). Entonces cae en el `elsif` y **pisa `Restarting` → `Existing`**.
 
-### Trampa #2 — Si el CX rehace el check-in, el flag se pierde
+### Trampa #2: Si el CX rehace el check-in, el flag se pierde
 
 `perform_reset_ready_for_checkin` (`app/models/salesforce/member_period.rb:122-128`) hace `patient_checkin&.cancel!` y luego `process_form` crea uno **nuevo**, sin heredar el flag. Hay que volver a marcarlo.
 
 El `PatientCheckin` viejo queda con `status: "Canceled"`, accesible vía `mp.canceled_patient_checkins` (`member_period.rb:242`). La asociación `mp.patient_checkin` excluye los cancelados (`member_period.rb:241`).
 
-### Trampa #3 — Si ya seleccionó tratamiento, sí se puede corregir
+### Trampa #3: Si ya seleccionó tratamiento, sí se puede corregir
 
 No hace falta rehacer el check-in. Al volver a `/checkin/purchases`, `reset_order_if_updated` (`purchases_controller.rb:81-86`) devuelve el MP a `ReadyForProductSelection`, desactiva el payment link y regenera la `MedPickerRecommendation` en el nuevo submit.
 
 Procedimiento: marcar el flag → pedirle al CX que vuelva a seleccionar tratamiento.
-
----
 
 ## Referencias
 
