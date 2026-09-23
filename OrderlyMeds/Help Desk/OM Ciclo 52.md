@@ -5,7 +5,7 @@
 
 ## Caso OM-10287 - Unable to recommend script 🟢
 
-Etiquetas: #om_unable_to_recommend_script #om_sensitivities_detail
+Etiquetas: #om_unable_to_recommend_script #om_sensitivities_detail #om_no_matching_recommendations 
 
 > [!Important]
 > Lo primero a hacer en estos casos es revisar las sensitivities marcadas en Ontraport. Si están todas, eso puede ser el problema ya que no se vende el medicamento puro.
