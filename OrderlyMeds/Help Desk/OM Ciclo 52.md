@@ -294,7 +294,7 @@ mr.update!(status: Salesforce::MedicationRequest::STATUS_COMPLETED)
 
 ## Caso OM-10730 - Request en `needs_review` 🔵
 
-Etiquetas: #om_care_validate_needs_review #om_multiple_rejections #om_no_medid
+Etiquetas: #om_care_validate_needs_review #om_multiple_rejections #om_no_medid #om_needs_review
 
 Caso de Request stuck. Cuando revisé por primer vez estaba con estado `needs_review` y el OP Script estaba en Submitted. Hice el resubmit normal. Avanzó el Script a Pharmacy Selected pero el Request volvió a `needs_review`.
 
