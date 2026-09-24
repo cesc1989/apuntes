@@ -12,8 +12,9 @@ Esto es una continuación de [[OM Ciclo 55#Casos de Starter Pack en Ontraport �
 Para este caso, agregué los automations descritos pero el Checkin no mostraba la pregunta sobre la última vez que tomó medicina.
 
 Así se veía el Checkin:
-![[om.incomplete.checkin.png]]
 
 > [!Warning]
 > Nota como el diseño se ve diferente al checkin habitual.
+
+![[om.incomplete.checkin.png]]
 
