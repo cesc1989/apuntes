@@ -18,3 +18,7 @@ Así se veía el Checkin:
 
 ![[om.incomplete.checkin.png]]
 
+### Solución: Fabian migró el cx a Salesforce
+
+Y ahora sí carga el Checkin que se espera. Mira lo diferente que es con respecto al de OP:
+![[om.correct.checkin.png]]
