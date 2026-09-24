@@ -124,7 +124,7 @@ Aquí es donde estuvo la solución. Cuando revisé `member_period.ontraport_impo
 
 Quería probar si con actualizar:
 ```ruby
-mp.update!(ontraport_imported_outcome: "Delivered)
+mp.update!(ontraport_imported_outcome: "Delivered")
 ```
 
 Sería suficiente así que probé la salida de lo que pasa en `get_outcome` de `app/models/patient/connectors/salesforce/order_status.rb`. Vi este llamado:
