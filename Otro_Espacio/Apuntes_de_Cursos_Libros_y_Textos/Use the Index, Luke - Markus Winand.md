@@ -442,10 +442,77 @@ tbc
 
 ### Ordenar y Agrupar
 
+> Ordenar es una operación intensiva en recursos. Se necesita una buena cantidad de tiempo CPU, pero el mayor problema es que la base de datos debe guardar en memoria temporalmente los resultados.
+
+> el índice ordena según se definió durante la creación del índice con la cláusula `order by`. Por lo tanto, no debería sorprender saber que se puedan utilizar los índices para prescindir de la operación de ordenación ante una una cláusula `order by`.
+
+> [!Important]
+> El recorrido del B-Tree es el primer poder de la indexación.
+> La agrupación es el segundo poder de la indexación.
+> `Order by` en pipeline es el tercer poder de la indexación.
+
+#### Indexar Order By
+
+> Las sentencias SQL con el filtro `order by` no necesitan ordenar el resultado de manera explícita si el índice relevante entrega las filas en el orden requerido. Eso significa que el mismo índice que es utilizado para el filtro `where` debe también cubrir la clausula `order by`.
+
+> A pesar de que el nuevo plan de ejecución tiene pocas operaciones, el coste se ha incrementado considerablemente porque el factor de agrupación del nuevo índice es peor. En ese momento, hay que señalar que el coste no es siempre un buen indicador del esfuerzo de ejecución.
+
+> [!Note]
+> Usar la declaración completa del índice dentro de la cláusula `order by` para encontrar la razón de una operación de ordenación explícita.
+
+
+#### Indexar ASC, DESC y NULLS FIRST/LAST
+
+> Para casos como este, la mayoría de las bases de datos ofrecen un método sencillo para ajustar el orden del índice a la cláusula `order by`. Concretamente, eso significa que se pueden utilizar los modificadores `ASC` y `DESC` dentro de la declaración del índice:
+
+```sql
+  DROP INDEX sales_dt_pr
+```
+
+```sql
+CREATE INDEX sales_dt_pr
+    ON sales (sale_date ASC, product_id DESC)
+```
+
+
+#### Indexar Group By
+
+tbc
 
 
 ### Resultados Parciales
 
+#### Seleccionar registros Top-N
+
+> Hace mucho tiempo, el estándar SQL excluía esta funcionalidad. La extensión correspondiente (`fetch first`) se presentó con SQL 2008 y actualmente solamente está disponible en IBM Db2, PostgreSQL, SQL Server 2012 y Oracle 12c. Esto es así porque la característica es una extensión “non-core”, y porque cada base de datos ha ofrecido su propia solución desde hace varios años.
+
+> El siguiente ejemplo muestra el uso de esas extensiones bien conocidas para seleccionar las diez ventas más recientes. El fundamento es siempre el mismo: recuperar _todas_ las ventas, empezando por las más recientes. La sintaxis respectiva top-N aborta la ejecución después de devolver los diez registros.
+
+> [!Important]
+> `LIMIT` no es del estándar de SQL. Sí lo es `fetch first`.
+> 
+> Al respecto:
+>  - Post 1: [https://www.cybertec-postgresql.com/en/postgresql-limit-vs-fetch-first-rows-with-ties/](https://www.cybertec-postgresql.com/en/postgresql-limit-vs-fetch-first-rows-with-ties/)
+>  - Post 2: [https://antonz.org/sql-fetch/](https://antonz.org/sql-fetch/)
+>  - dba exchange [https://dba.stackexchange.com/questions/231050/difference-between-limit-n-and-fetch-next-n-rows](https://dba.stackexchange.com/questions/231050/difference-between-limit-n-and-fetch-next-n-rows)
 
 
-### Inser, Delete, Update
+### Insert, Delete, Update
+
+#### Insert
+
+> El número de índices sobre una tabla es el factor más predominante para el rendimiento de los `insert`. Cuantos más índices tiene una tabla, más lenta llegará a ser la ejecución. El comando `insert` es la única operación que no se puede beneficiar directamente de la indexación porque no tiene filtro `where`.
+
+
+> Si existen índices sobre una tabla, la base de datos debe asegurarse de que la nueva entrada también pueda encontrarse a través de dichos índices. Por este motivo, se tiene que agregar la nueva entrada a cada uno de los índices de esta tabla. Por lo tanto, el número de índices es un multiplicador del coste del comando `insert`.
+
+
+> Considerando solamente los comandos `insert`, sería mejor olvidar por completo los índices; es la única manera para obtener los mejores rendimientos para `insert`. Sin embargo, las tablas sin índices son bastante irreales en el mundo real de las aplicaciones.
+
+
+> Sin embargo, el rendimiento sin índice es tan bueno que puede tener sentido borrar temporalmente todos los índices mientras se realicen cargas masivas mientras los índices no sean necesarios para ningún otro comando SQL. Eso puede proporcionar una aceleración espectacular que es visible en la gráfica, y de hecho es una práctica muy común en los almacenes de datos
+
+
+#### Delete
+
+> A diferencia del comando `insert`, el comando `delete` tiene una cláusula que puede utilizar todos los métodos descritos en el [Capítulo 2, “_El filtro where_”](https://use-the-index-luke.com/es/sql/where) para beneficiarse directamente de la indexación. De hecho, el comando `delete` trabaja como un `select` seguido por una etapa adicional borrando todos los registros identificados.
