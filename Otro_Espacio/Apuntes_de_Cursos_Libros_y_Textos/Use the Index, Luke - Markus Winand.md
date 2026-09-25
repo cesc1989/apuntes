@@ -248,3 +248,204 @@ Resumen: bind por defecto, literal solo cuando el valor real importe para el ín
 
 #### Mayor que, menor que y BETWEEN
 
+tbc
+
+#### Indexar Filtros LIKE SQL
+
+> El operador SQL `LIKE` puede dar lugar a un comportamiento inesperado en el rendimiento porque algunos criterios de búsqueda previenen de manera eficiente el uso del índice. ==Eso significa que existen criterios de búsqueda que pueden ser muy bien indexados, pero otros no lo permiten. Es la posición del comodín el cual provoca la diferencia.==
+
+> [!Important]
+> Evitar las expresiones `LIKE` con el comodín como primer renglón (p.ej., `'%TERM'`).
+
+
+> Para la base de datos PostgreSQL, el problema es diferente porque Post­greSQL asume que _existe_ un comodín como primer renglón cuando se usa una variable Bind con una expresión `LIKE`. En este caso, PostgreSQL no podrá usar índices.
+
+#### Índice Combinado
+
+> ¿es mejor crear un índice por cada columna o un único índice con todas las columnas del filtro `where`? ==La respuesta es muy sencilla en muchos casos: un índice con múltiples columnas es mejor, es un índice concatenado o compuesto.==
+
+
+> Los data warehouses usan un tipo de índice especial para resolver ese problema: el llamado _indice bitmap_. La ventaja de los índices bitmap es que es posible mezclarlos con bastante facilidad. Eso significa que obtienes un rendimiento aceptable cuando se indexa cada columna de manera individual.
+
+
+### Índices Parciales
+
+> Un índice parcial es muy útil para los filtros `where` comúnmente usados, que usan valores constantes, como un código de estado en el siguiente ejemplo:
+
+```sql
+SELECT message
+  FROM messages
+ WHERE processed = 'N'
+   AND receiver  = ?
+```
+
+> Con un índice parcial, se puede limitar el índice para incluir solamente los mensajes no procesados. La sintaxis para este índice es sorprendentemente sencilla: un filtro `where`.
+
+```sql
+CREATE INDEX messages_todo
+          ON messages (receiver)
+       WHERE processed = 'N'
+```
+
+
+> El filtro `where` de un índice parcial puede llegar a ser arbitrariamente complejo. ==La única limitación esencial está en las funciones: se pueden usar solamente las funciones deterministas, al igual que sucede en las otras partes de la definición del índice.==
+
+
+### NULL en la base de datos Oracle
+
+> El estándar SQL no define `NULL` como un valor, sino más bien como un marcador de posición para un valor ausente o desconocido. Por consiguiente, ningún valor puede ser `NULL`.
+
+
+#### NULL dentro de los índices
+
+> Se puede extender este concepto para la sentencia original con el fin de encontrar todos los registros donde `DATE_OF_BIRTH` `IS NULL`. ==Para eso, la columna `DATE_OF_BIRTH` tiene que ser la que esté más a la izquierda dentro del índice, así puede ser usada como predicado de acceso. Aunque no se necesita el segundo índice para esta sentencia, agregamos otra columna que nunca podrá ser `NULL` para asegurarnos de que el índice tenga todos los registros.==
+
+
+> [!Important]
+> Agregar una columna que no puede ser `NULL` para indexar `NULL` como un valor.
+
+
+#### Restricciones NOT NULL
+
+> Para indexar una condición `IS NULL` en la base de datos Oracle, el índice debe tener una columna que nunca ha de ser `NULL`.
+
+> [!Note]
+> Una restricción `NOT NULL` eliminada puede prevenir el uso de un índice dentro de la base de datos.
+
+
+#### Emulando índices parciales en la base de datos Oracle
+
+tbc
+
+
+### Condiciones complicadas
+
+#### Fechas
+
+Esto:
+```sql
+SELECT ...
+  FROM sales
+ WHERE TRUNC(sale_date) = TRUNC(sysdate - INTERVAL '1' DAY)
+```
+
+Es una sentencia perfectamente válida y correcta pero no se puede usar correctamente el índice sobre `SALE_DATE`. Es como lo explicado en la sección [“_Sin distinción entre mayúscula y minúscula usando `UPPER` o `LOWER`_”](https://use-the-index-luke.com/es/sql/where/funciones/case-insensitive); ==`TRUNC(sale_date)` es algo completamente diferente de `SALE_DATE`. Las funciones son una caja negra para la base de datos.==
+
+> Existe una solución bastante sencilla para este problema: un [índices sobre expresiones](https://use-the-index-luke.com/es/sql/where/funciones).
+
+```sql
+CREATE INDEX index_name
+          ON sales (TRUNC(sale_date))
+```
+
+...
+
+> La alternativa es usar una condición de rango explícita. Esta solución genérica funciona con todas las bases de datos:
+
+```sql
+SELECT ...
+  FROM sales
+ WHERE sale_date BETWEEN quarter_begin(?) 
+                     AND quarter_end(?)
+```
+
+
+#### Números
+
+tbc
+
+#### Columnas combinadas
+
+tbc
+
+#### Lógica inteligente
+
+tbc
+
+#### Matemáticas
+
+tbc
+
+
+### La operación de unión (join)
+
+> Aunque el orden de la unión no tiene impacto sobre el resultado final, afecta al rendimiento. Por lo tanto, el optimizador evaluará todas las combinaciones de orden posibles de la unión y seleccionará la mejor. Eso significa que el mero hecho de optimizar una sentencia compleja podría convertirse en un problema de rendimiento. Cuantas más tablas tenga la unión, más variantes de planes de ejecución hay que evaluar.
+
+#### Loops anidados
+
+tbc
+
+#### Hash join
+
+tbc
+
+#### Soft-merge join
+
+tbc
+
+### Agrupación de datos
+
+#### Filtros de predicados usados intencionalmente sobre índices
+
+...
+
+> Para aplicar este concepto sobre la sentencia anterior, se debe extender el índice para cubrir todas las columnas del filtro `where`, incluso aunque el rango escaneado del índice no se reduzca:
+
+```sql
+CREATE INDEX empsubupnam ON employees
+       (subsidiary_id, UPPER(last_name))
+```
+
+> La columna `SUBSIDIARY_ID` es la primera columna del índice así que se puede usar como predicado de acceso. La expresión `UPPER(last_name)` cubre el filtro `LIKE` como _predicado de filtro del índice_. Indexando los datos con mayúsculas ahorraría algunos ciclos de CPU durante la ejecución, pero un índice “directo” sobre `LAST_NAME` funcionaría también bien. Se explicará con más detalle en la siguiente sección.
+
+
+> [!Important]
+> No se debe introducir un nuevo índice con el único propósito de tener predicados de filtro. En su lugar, extender un índice existente para conservar el [esfuerzo de mantenimiento](https://use-the-index-luke.com/es/sql/dml) bajo. Incluso con algunas bases de datos, se deben agregar columnas al índice de la clave primaria que no son parte de la clave primaria.
+
+
+#### Escaneado limitado al índice: Evitar el acceso a la tabla
+
+> Para cubrir una sentencia completa, un índice debe contener _todas_ las columnas de la sentencia SQL; especialmente las columnas de la cláusula `select` como se muestra en el siguiente ejemplo:
+
+```sql
+CREATE INDEX sales_sub_eur
+    ON sales
+     ( subsidiary_id, eur_value )
+```
+
+```sql
+SELECT SUM(eur_value)
+  FROM sales
+ WHERE subsidiary_id = ?
+```
+
+Por supuesto, indexar el filtro `where` prevalece sobre las otras cláusulas. Por lo tanto, la columna `SUBSIDIARY_ID` está en primera posición así que cumple los requisitos para realizar un predicado de acceso.
+
+> El escaneo de sólo índice es una estrategia de indexación agresiva. No se diseña un índice para “sólo escanear el índice” únicamente “por si acaso”, porque sino se usaría sin necesidad la memoria y se incrementaría el esfuerzo de mantenimiento necesario para las sentencias `update`.
+
+
+> El acceso a la tabla incrementa el tiempo de respuesta a pesar de que la sentencia selecciona pocas filas. El factor pertinente no es cuántas filas devolverá la sentencia, sino cuántas filas deberá examinar la base de datos para encontrar lo que se busca.
+
+> Combinar las sentencias `LIKE` en una sola, como se ha visto anteriormente, genera buenos candidatos para el escaneado limitado al índice. De este modo, se consultan muchas filas pero pocas columnas, lo que genera un índice pequeño y suficiente para soportar esta técnica. Cuantas más columnas se consultan, más columnas se tienen que agregar al índice para soportar el escaneado de sólo índice índice. Como desarrollador, se deben seleccionar solamente las columnas que sean realmente necesarias.
+
+
+> [!Note]
+> Evitar `select *` y buscar solamente las columnas que se necesitan.
+
+
+> Indexar muchas filas requiere mucho espacio y, además, se puede alcanzar el límite de la base de datos. La mayoría de las bases de datos imponen un límite estático para el número de columnas dentro de un índice y para el tamaño total de entradas dentro de un índice. Eso significa que no pueden indexar un número caprichoso de columnas ni columnas de tamaño arbitrario.
+
+
+#### Índices Organizados en Tablas (IOT)
+
+tbc
+
+### Ordenar y Agrupar
+
+
+
+### Resultados Parciales
+
+
+
+### Inser, Delete, Update
