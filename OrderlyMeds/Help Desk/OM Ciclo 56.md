@@ -79,9 +79,12 @@ Así se ve en un caso que sí tiene este payload completo (caso es OM-11449):
 
 Mandé mensaje en el hilo del caso. Esperando a ver qué dicen.
 
-## Caso OM-11594 - Orden faltante luego de Import desde Ontraport a Salesforce 🟡
+## Caso OM-11594 - Orden faltante luego de Import desde Ontraport a Salesforce 🟢
 
 Etiquetas: #om_missing_orders 
 
 Mismo caso de ordenes faltantes. Al Member Period le faltaba el Medication Request. Luego de reimportar seguía sin mostrarse la orden. Faltaba un OrderSummary por crear.
 
+### Solución: reimportar OrderSummary
+
+Con este código sacado y ajustado desde `Salesforce::OntraportAccountImporter`.
