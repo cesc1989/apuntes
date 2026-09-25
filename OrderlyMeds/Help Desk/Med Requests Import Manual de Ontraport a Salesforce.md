@@ -108,7 +108,12 @@ account =
 		ontraport_contact_id: 515176
 	).first
 
-member_period = 802328
+member_periods_by_script_id = Salesforce::MemberPeriod
+	.where(account: account, ontraport_script_id: [485134])
+	.index_by { |mp| mp.ontraport_script_id.to_i }
+
+member_period = member_periods_by_script_id.fetch(485134)
+
 mapping = contact_import.medication_request_mappings.first
 medication = Salesforce::Medication.find(mapping.med_id)
 ```
