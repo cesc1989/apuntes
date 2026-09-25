@@ -1,4 +1,4 @@
-# Importar manual Medication Requests de Ontraport a Salesforce - OrderlyMeds
+# Importar manual Medication Requests de Ontraport a Salesforce
 
 Para el caso [[OM Ciclo 48#Caso OM-9334 - Check In Error - Heroku Connect 🟢ℹ️]]
 
