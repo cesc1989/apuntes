@@ -206,7 +206,7 @@ Había clicado el botón "Migrate to Salesforce" del perfil en Success pero no p
 
 Le actualicé el valor con el `omid` y ya quedó enlazada.
 
-# Casos de resubmit en Salesforce que dan "Unable to find matching product" 🟡ℹ️
+## Casos de resubmit en Salesforce que dan "Unable to find matching product" 🟡ℹ️
 
 Etiquetas: #om_unable_to_find_matching_product 
 
@@ -227,5 +227,9 @@ Esto dijo Slackbot sobre el problema:
 Y dice que se puede resolver:
 > Pick one of the products actually listed as "Available" in the error message (closest match to what the customer needs)
 
-
+Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuáles son las opciones para el resubmit al ver el texto de "Available":
 ![[unable.to.find.matching.product.png]]
+
+### Cómo resubmit de este caso?
+
+tbc
