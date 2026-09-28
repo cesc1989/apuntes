@@ -205,3 +205,17 @@ Había clicado el botón "Migrate to Salesforce" del perfil en Success pero no p
 > - Hacer un recorrido manual de `import_account_from_ontraport` hasta encontrar un posible error
 
 Le actualicé el valor con el `omid` y ya quedó enlazada.
+
+# Casos de resubmit en Salesforce que dan "Unable to find matching product" 🟡ℹ️
+
+Etiquetas: #om_unable_to_find_matching_product 
+
+Similar como en [[OM Ciclo 50#Caso OM-9848 - Unable to find matching product 🔵ℹ️]]
+
+Los casos:
+
+- OM-11543
+- OM-11617
+
+> [!Note]
+> Jaime me dijo que revisara si el MedId estaba disponible en el estado del CX.
