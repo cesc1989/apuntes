@@ -221,7 +221,7 @@ Los casos:
 > Jaime me dijo que revisara si el MedId estaba disponible en el estado del CX.
 
 Esto dijo Slackbot sobre el problema:
-> comes from Salesforce's MSO resubmission logic. It's trying to match a treatment order (form, weeks of supply, titrate-up, starter pack, BMI category) against the pharmacy's available product catalog, and none of the listed available products satisfy the requested combination (e.g. requesting 12 weeks of supply with titrate up: false when only titrate-up or shorter-supply variants exist).
+> comes from Salesforce's MSO resubmission logic. ==It's trying to match a treatment order (form, weeks of supply, titrate-up, starter pack, BMI category) against the pharmacy's available product catalog, and none of the listed available products satisfy the requested combination== (e.g. requesting 12 weeks of supply with titrate up: false when only titrate-up or shorter-supply variants exist).
 
 
 Y dice que se puede resolver:
@@ -230,14 +230,18 @@ Y dice que se puede resolver:
 Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuáles son las opciones para el resubmit al ver el texto de "Available":
 ![[unable.to.find.matching.product.png]]
 
-### Detalle OM-11543
+### Detalle de OM-11543
 
-El buscar el MedId en la nueva página en el MedPicker no hay resultado. No hay 8 semanas con Titrate.
+Al buscar el MedId en la nueva página en el MedPicker no hay resultado. No hay 8 semanas con Titrate.
 
 > [!Warning]
 > Esto de abajo lo hice revisando la página "Legacy MedIds". Esa página ya no está vigente.
 > 
 > El MedId recomendado es `VHULlgKyzEVvkJOOJeICTmyMxsffAorV`. El cual está activo y es de `CasaPharmaRx`. Farmacia que está habilitada en el estado de NC.
+
+### Detalle de OM-11617
+
+No hay resultado al revisar la variante de 20MG para el MedId seleccionado.
 
 ### Cómo se hace el resubmit de este caso?
 
