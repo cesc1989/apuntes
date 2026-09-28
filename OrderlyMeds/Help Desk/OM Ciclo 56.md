@@ -230,6 +230,15 @@ Y dice que se puede resolver:
 Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuáles son las opciones para el resubmit al ver el texto de "Available":
 ![[unable.to.find.matching.product.png]]
 
-### Cómo resubmit de este caso?
+### Detalle OM-11543
+
+El buscar el MedId en la nueva página en el MedPicker no hay resultado. No hay 8 semanas con Titrate.
+
+> [!Warning]
+> Esto de abajo lo hice revisando la página "Legacy MedIds". Esa página ya no está vigente.
+> 
+> El MedId recomendado es `VHULlgKyzEVvkJOOJeICTmyMxsffAorV`. El cual está activo y es de `CasaPharmaRx`. Farmacia que está habilitada en el estado de NC.
+
+### Cómo se hace el resubmit de este caso?
 
 tbc
