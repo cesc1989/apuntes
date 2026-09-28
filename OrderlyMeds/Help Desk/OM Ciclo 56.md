@@ -187,3 +187,21 @@ Tarda varios minutos mientras se replica en Salesforce. Cuando esta ultima verif
 ```ruby
 acct.order_summaries.includes(:member_period).map { o = Patient::Connectors::Salesforce::Order.new(order_summary: it); {os: it.order_number, mp: it.member_period&.omid, outcome: o.outcome, valid: o.is_a_valid_order?} }
 ```
+
+## Caso OM-11531 - Migrar a Salesforce después de rollback a Ontraport 🟢
+
+Etiquetas: #om_migration_op_to_sf 
+
+Esto fue una cuenta que se le hizo el "rollback" manual a Salesforce. Para solucionar estos casos se tomó la decisión de otorgar créditos en Salesforce y crear un nuevo Member Period. Así que necesitaba llevar la cuenta de nuevo a Salesforce.
+
+Había clicado el botón "Migrate to Salesforce" del perfil en Success pero no pasaba nada. Así que la otra alternativa fue llenar manualmente el valor de `salesforce_account_nk`.
+
+> [!Note]
+> Cómo migrar a Salesforce
+> 
+> Estas son las opciones que me dio Fabian:
+> - Clicar el botón en el perfil en Success y esperar
+> - Buscar la cuenta en Salesforce, copiar el `omid` y actualizar `salesforce_account_nk`
+> - Hacer un recorrido manual de `import_account_from_ontraport` hasta encontrar un posible error
+
+Le actualicé el valor con el `omid` y ya quedó enlazada.
