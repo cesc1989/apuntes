@@ -230,7 +230,7 @@ Y dice que se puede resolver:
 Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuáles son las opciones para el resubmit al ver el texto de "Available":
 ![[unable.to.find.matching.product.png]]
 
-### Detalle de OM-11543 - Stuck in Ready to Create Visit
+### Detalle de OM-11543 - Stuck in Ready to Create Visit 🟡
 
 > [!Info]
 > CX de CareValidate.
@@ -256,11 +256,8 @@ sp = rec&.selected_products&.first
 med = sp&.recommended_medication
 
 puts "MP: #{mp.status} | CE: #{ce.omid} #{ce.status} visit_type=#{ce.visit_type} ssi=#{ce.source_system_identifier.inspect}"
-
 puts "REC: #{rec&.omid} #{rec&.status}"
-
 puts "MED: #{med&.med_id} | #{med&.name} | #{med&.rx_strength} -> #{med&.titration_final_rx_strength} | #{med&.status} | qty=#{sp&.recommended_quantity}"
-
 puts "CV request: #{CareValidate::Request.where(clinical_encounter_id: ce.omid).map { [it.id, it.state, it.nk, it.case_nk] }.inspect}"
 ```
 
@@ -278,7 +275,7 @@ Si todo está en orden, se ejecuta el job directamente para mover al Member Peri
 CareValidate::Scheduler::CreateVisitJob.perform_async(ce.omid)
 ```
 
-### Detalle de OM-11617 - Not at the Pharmacy
+### Detalle de OM-11617 - Not at the Pharmacy 🟡
 
 > [!Info]
 > CX de Beluga.
