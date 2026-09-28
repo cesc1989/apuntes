@@ -294,6 +294,9 @@ Etiquetas: #om_stuck_in_submitted #om_migration_op_to_sf
 
 Típico caso de cx migrado de Salesforce a Ontraport pero con un Script en curso. El Script quedó trabado en Submitted pero cuando fui a revisar el cx ya había sido migrado a Salesforce.
 
+> [!Warning]
+> Ya no se recomienda hacer esto. Se recomienda pedir que den créditos en Salesforce y crear nuevo Member Period.
+
 La forma que Jaime me explicó proceder aquí es:
 - Limpiar el campo `salesforce_account_nk` del Account
 - En Ontraport, deschulear el campo "Migrated To Salesforce?"
