@@ -232,15 +232,14 @@ Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuál
 
 ### Detalle de OM-11543 - Stuck in Ready to Create Visit
 
+> [!Info]
+> CX de CareValidate.
+
 Al buscar el MedId en la nueva página en el MedPicker no hay resultado. No hay 8 semanas con Titrate.
 
-Lo importante en este caso es que estaba stuck en ReadyToCreateVisit. Lo que recomendó el MedPicker no importa. Ya el prescriber verá que le ofrece al cx.
+Lo importante en este caso es que estaba *stuck en ReadyToCreateVisit*. Lo que recomendó el MedPicker no importa. Ya el prescriber verá que le ofrece al cx.
 
-### Detalle de OM-11617
-
-No hay resultado al revisar la variante de 20MG para el MedId seleccionado.
-
-### ¿Cómo se procede de este caso?
+#### ¿Cómo se procede?
 
 Pregunté a Fabian cómo se hacía resubmit en este caso dijo que:
 > Trata de no darle resubmit, porque eso vuelve a iniciar el proceso desde un estado anterior al error que estás viendo en imagen que pones, y probablemente haya un bug en ese flujo.
@@ -266,6 +265,51 @@ puts "CV request: #{CareValidate::Request.where(clinical_encounter_id: ce.omid).
 ```
 
 Se espera que:
-- **MP** en `ReadyToCreateVisit` y CE en `Pending`, con `source_system_identifier` vacío, porque todavía no se envió.
-- **REC** con `selected_products` y MED = `VHULlg…`, en `Active` y con recommended_quantity.
+- **MP** en `ReadyToCreateVisit` y **CE** en `Pending`, con `source_system_identifier` vacío, porque todavía no se envió.
+- **REC** con `selected_products` y **MED** = `VHULlg…`, en `Active` y con `recommended_quantity`.
 - **CV request**: nada, o una en un estado previo a `waiting_for_prescription`.
+
+> [!Note]
+> Se recomienda que el CV Request esté en `needs_requested_medpicker_data`.
+
+
+Si todo está en orden, se ejecuta el job directamente para mover al Member Period:
+```ruby
+CareValidate::Scheduler::CreateVisitJob.perform_async(ce.omid)
+```
+
+### Detalle de OM-11617 - Not at the Pharmacy
+
+> [!Info]
+> CX de Beluga.
+
+No hay resultado al revisar la variante de 20MG para el MedId seleccionado. El Member Period está en *VisitCompleted*.
+
+#### Validación de fallo del Bundle
+
+```ruby
+b = RxWrittenBundle.find("01a0b6eb-4726-788b-9f6b-b19c8ba0b4ff")
+b.validation_runs.each do |run|
+  puts "RUN #{run.test_suite}: #{run.state}"
+  run.check_records.reject(&:passed?).each { puts "  FAIL #{it.name.demodulize}: #{it.message}\n    #{it.support_context.to_json}" }
+end; nil
+```
+
+Salida:
+```
+RUN all_prescriptions_in_bundle: passed
+RUN glp1: passed
+RUN nadplus: passed
+RUN sermorelin: failed
+  FAIL QuantityMatch: RxWrittenBundle prescribed quantities do NOT match MedPicker remote quantities
+```
+
+La clave está en el mensaje:
+> QuantityMatch: RxWrittenBundle prescribed quantities do NOT match MedPicker remote quantities
+
+#### ¿Cómo se procede?
+
+Hacer el resubmit to MSO mediante consola:
+```ruby
+Salesforce::ResubmitToMso.call(clinical_encounter: ce)
+```
