@@ -214,8 +214,8 @@ Similar como en [[OM Ciclo 50#Caso OM-9848 - Unable to find matching product �
 
 Los casos:
 
-- OM-11543
-- OM-11617
+- OM-11543: stuck in ReadyToCreateVisit
+- OM-11617: not at the pharmacy
 
 > [!Note]
 > Jaime me dijo que revisara si el MedId estaba disponible en el estado del CX.
@@ -230,19 +230,42 @@ Y dice que se puede resolver:
 Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuáles son las opciones para el resubmit al ver el texto de "Available":
 ![[unable.to.find.matching.product.png]]
 
-### Detalle de OM-11543
+### Detalle de OM-11543 - Stuck in Ready to Create Visit
 
 Al buscar el MedId en la nueva página en el MedPicker no hay resultado. No hay 8 semanas con Titrate.
 
-> [!Warning]
-> Esto de abajo lo hice revisando la página "Legacy MedIds". Esa página ya no está vigente.
-> 
-> El MedId recomendado es `VHULlgKyzEVvkJOOJeICTmyMxsffAorV`. El cual está activo y es de `CasaPharmaRx`. Farmacia que está habilitada en el estado de NC.
+Lo importante en este caso es que estaba stuck en ReadyToCreateVisit. Lo que recomendó el MedPicker no importa. Ya el prescriber verá que le ofrece al cx.
 
 ### Detalle de OM-11617
 
 No hay resultado al revisar la variante de 20MG para el MedId seleccionado.
 
-### Cómo se hace el resubmit de este caso?
+### ¿Cómo se procede de este caso?
 
-tbc
+Pregunté a Fabian cómo se hacía resubmit en este caso dijo que:
+> Trata de no darle resubmit, porque eso vuelve a iniciar el proceso desde un estado anterior al error que estás viendo en imagen que pones, y probablemente haya un bug en ese flujo.
+> En su lugar, intenta buscar el job que ejecuta el `visit_created`, que ocurre posteriormente a ese estado, y revisa si de esa forma funciona. Anteriormente me funcionó hacerlo de esa manera.
+
+Y eso hice con ayuda de Claudio.
+
+Comprobaciones:
+```ruby
+mp = Salesforce::MemberPeriod.find_by!(omid: "01a03111-6109-7bc0-bd43-cbb063899692")
+ce = mp.clinical_encounters.last
+rec = ce.med_picker_recommendation
+sp = rec&.selected_products&.first
+med = sp&.recommended_medication
+
+puts "MP: #{mp.status} | CE: #{ce.omid} #{ce.status} visit_type=#{ce.visit_type} ssi=#{ce.source_system_identifier.inspect}"
+
+puts "REC: #{rec&.omid} #{rec&.status}"
+
+puts "MED: #{med&.med_id} | #{med&.name} | #{med&.rx_strength} -> #{med&.titration_final_rx_strength} | #{med&.status} | qty=#{sp&.recommended_quantity}"
+
+puts "CV request: #{CareValidate::Request.where(clinical_encounter_id: ce.omid).map { [it.id, it.state, it.nk, it.case_nk] }.inspect}"
+```
+
+Se espera que:
+- **MP** en `ReadyToCreateVisit` y CE en `Pending`, con `source_system_identifier` vacío, porque todavía no se envió.
+- **REC** con `selected_products` y MED = `VHULlg…`, en `Active` y con recommended_quantity.
+- **CV request**: nada, o una en un estado previo a `waiting_for_prescription`.
