@@ -68,7 +68,7 @@ La solución fue copiar el MedId y correr el "Fix Medpicker Selection" del Reque
 
 ## Caso OM-9848 - Unable to find matching product 🔵ℹ️
 
-Etiquetas: #om_case_error #om_unable_to_find_matching_product
+Etiquetas: #om_unable_to_find_matching_product
 
 > [!Info]
 > Este es una continuación de los casos donde tocaba hacer cancel & refund porque estaban con el plan de 3 meses. Hicieron el respectivo C&R pero hicieron resubmit del mismo MP.
