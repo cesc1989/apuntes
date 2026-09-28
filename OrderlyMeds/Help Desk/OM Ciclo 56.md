@@ -219,3 +219,13 @@ Los casos:
 
 > [!Note]
 > Jaime me dijo que revisara si el MedId estaba disponible en el estado del CX.
+
+Esto dijo Slackbot sobre el problema:
+> comes from Salesforce's MSO resubmission logic. It's trying to match a treatment order (form, weeks of supply, titrate-up, starter pack, BMI category) against the pharmacy's available product catalog, and none of the listed available products satisfy the requested combination (e.g. requesting 12 weeks of supply with titrate up: false when only titrate-up or shorter-supply variants exist).
+
+
+Y dice que se puede resolver:
+> Pick one of the products actually listed as "Available" in the error message (closest match to what the customer needs)
+
+
+![[unable.to.find.matching.product.png]]

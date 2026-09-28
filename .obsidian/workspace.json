@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0c38f04f8835f0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 50"
-            }
-          },
-          {
             "id": "a7967ed231e720ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "OM Ciclo 56"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,6 +172,7 @@
   },
   "active": "a7967ed231e720ef",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/unable.to.find.matching.product.png",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
