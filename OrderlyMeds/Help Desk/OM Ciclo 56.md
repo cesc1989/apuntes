@@ -269,7 +269,6 @@ Se espera que:
 > [!Note]
 > Se recomienda que el CV Request esté en `needs_requested_medpicker_data`.
 
-
 Si todo está en orden, se ejecuta el job directamente para mover al Member Period:
 ```ruby
 CareValidate::Scheduler::CreateVisitJob.perform_async(ce.omid)
@@ -310,3 +309,58 @@ Hacer el resubmit to MSO mediante consola:
 ```ruby
 Salesforce::ResubmitToMso.call(clinical_encounter: ce)
 ```
+
+## Caso OM-11606 - Stuck in PrescriptionWritten de PerfectRx 🟢
+
+Etiquetas: #om_stuck_in_prescription_written #om_perfect_rx 
+
+Lo mismo del caso [[OM Ciclo 55#Caso OM-11464 - Stuck en PrescriptionWritten y PerfectRx 🟢ℹ️]]
+
+```ruby
+client = PerfectRx::Client.new(config: PerfectRx.config, logger: Rails.logger)
+p = PerfectRx::Patient.find("0194b953-d726-7e16-afcf-992ba9ffca22")
+```
+
+Luego la comparación:
+```ruby
+a = PerfectRx::Api::Patient.fetch(client:, external_patient_nk: p.external_nk)
+b = PerfectRx::Api::Patient.fetch(client:, smart_scripts_patient_nk: p.smart_scripts_nk)
+```
+
+Salidas:
+```ruby
+#<PerfectRx::Api::Error:0x00007f964a558da8
+ @data=nil,
+ @message="Could not find patient with that ID in system.",
+ @raw={"status" => "FAILURE", "message" => "Could not find patient with that ID in system.", "data" => nil},
+ @status="FAILURE">
+ 
+ #<PerfectRx::Api::Patient:0x00007f9646848710
+ @conditions=[],
+ @contact=
+  {name: "Client Name",
+   phone_number: "xxxxxxxx",
+   email_address: {email: "correo@me.com", tags: ["DEFAULT"]},
+   address: {line1: "address", line2: nil, city: "Cypress", state: "TX", zip: "77433"}},
+ @date_of_birth=Wed, 16 Nov 1983,
+ @external_id="0192fece-fb3f-7cd4-b050-d262a850a3f2",
+ @first_name="Client",
+ @gender=:female,
+ @last_name="Name",
+ @medications=[],
+ @primary_insurance={},
+ @secondary_insurance={},
+ @smart_scripts_patient_id="1579d6e4-4299-4990-a5a9-1f000162dc43">
+```
+
+Solución:
+
+> [!Note]
+> El ID del prescription se toma de la pestaña de PerfectRx del Case Overview. El más reciente.
+
+```ruby
+p.update!(external_nk: b.external_id)
+
+PerfectRx::ProcessPrescriptionJob.perform_async("01a0e94e-f01c-7a66-b1ec-f359cf2cfb83")
+```
+
