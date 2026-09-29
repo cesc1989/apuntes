@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e1b4624f41fc32f0",
+        "id": "e1e10e4c117aeb73",
         "type": "tabs",
         "children": [
           {
-            "id": "747dad90c1683cc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 55"
-            }
-          },
-          {
-            "id": "5c57b6ee017b4923",
+            "id": "5b8c326900946fad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "OM Ciclo 56"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +170,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "5c57b6ee017b4923",
+  "active": "5b8c326900946fad",
   "lastOpenFiles": [
+    "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-    "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
     "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",

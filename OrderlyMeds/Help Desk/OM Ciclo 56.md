@@ -368,3 +368,10 @@ p.update!(external_nk: b.external_id)
 PerfectRx::ProcessPrescriptionJob.perform_async("01a0e94e-f01c-7a66-b1ec-f359cf2cfb83")
 ```
 
+## Caso OM-11637 - Fallo de Beluga por Ondansetron 🟡
+
+Etiquetas: #om_prescription_requires_review #om_ondansetron
+
+Prescripción que no está en la farmacia porque falla porque no hay MedId para la pastilla Ondansetron.
+
+Pregunté a CS Leads.
