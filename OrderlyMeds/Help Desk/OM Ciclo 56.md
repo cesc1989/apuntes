@@ -230,7 +230,7 @@ Y dice que se puede resolver:
 Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuáles son las opciones para el resubmit al ver el texto de "Available":
 ![[unable.to.find.matching.product.png]]
 
-### Detalle de OM-11543 - Stuck in Ready to Create Visit 🟡
+### Detalle de OM-11543 - Stuck in Ready to Create Visit 🟢
 
 > [!Info]
 > CX de CareValidate.
@@ -273,6 +273,10 @@ Si todo está en orden, se ejecuta el job directamente para mover al Member Peri
 ```ruby
 CareValidate::Scheduler::CreateVisitJob.perform_async(ce.omid)
 ```
+
+#### Conclusión
+
+El Member Period hizo todo el recorrido y ya la orden llegó a la farmacia.
 
 ### Detalle de OM-11617 - Not at the Pharmacy 🟡
 

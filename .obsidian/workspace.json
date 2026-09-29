@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "68ef50b9d678d167",
+        "id": "e1b4624f41fc32f0",
         "type": "tabs",
         "children": [
           {
-            "id": "509d970c3158859e",
+            "id": "747dad90c1683cc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Variados de las Guias"
+              "title": "OM Ciclo 55"
+            }
+          },
+          {
+            "id": "5c57b6ee017b4923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OM Ciclo 56"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_stuck_in_prescription_written",
+                "query": "OM-11594",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,15 +185,16 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "509d970c3158859e",
+  "active": "5c57b6ee017b4923",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-    "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
-    "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
+    "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
+    "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
     "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
     "OrderlyMeds/KB/006-care-validate-request.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
@@ -204,12 +220,10 @@
     "OrderlyMeds/Onboarding.md",
     "OrderlyMeds/Help Desk/attachments/OM_11407.png",
     "OrderlyMeds/KB/001-member-period.md",
-    "OrderlyMeds/KB/008-state-machine-care-validate-request.md",
     "OrderlyMeds/LaunchHealthcare",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
     "OrderlyMeds/Help Desk/attachments/OM_11055.png",
-    "OrderlyMeds/Help Desk/attachments/om_9214.01.png",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB",
