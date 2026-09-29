@@ -28,15 +28,14 @@ El entrypoint por defecto es `app/assets/js/app.js`. Viene así al arrancar una 
 import "../css/app.css";
 ```
 
-> [!Warning]
-> Q: ¿Hay que incluir siempre el CSS en el entrypoint?
-> A: tbc
-
-
 > [!Importante]
 > La guía dice:
 > Solo los archivos JS y CSS referenciados en un entrypoint serán incluídos en el bundle luego de compilar.
 
+
+#### ¿Hay que incluir siempre el CSS en el entrypoint? 🟡🚨
+
+Respuesta:???
 
 #### Múltiples Entrypoints
 
