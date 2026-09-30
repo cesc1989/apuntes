@@ -23,7 +23,10 @@ Así se veía el Checkin:
 Y ahora sí carga el Checkin que se espera. Mira lo diferente que es con respecto al de OP:
 ![[om.correct.checkin.png]]
 
-## Caso OM-11599 - CV Request con 5 validaciones Flagged 🟡
+## Caso OM-11599 - CV Request con 5 validaciones Flagged 🟢
+
+> [!Note]
+> Conclusión: reiniciaron el Checkin.
 
 Etiquetas: #om_care_validate_needs_review #om_care_validate_flagged
 
