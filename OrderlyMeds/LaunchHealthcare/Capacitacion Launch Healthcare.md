@@ -99,9 +99,7 @@ Cuando se hace esta configuración se sigue la forma siguiente:
 TBC
 
 
-## Taxonomía
-
-### De Catálogos
+## Catálogos
 
 El catálogo es en lo que se organizan los productos y sus variantes. Es lo que al final venden a los pacientes.
 
