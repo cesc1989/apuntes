@@ -8,6 +8,10 @@
 > > _Start a new brand/client is a configuration in the Admin side of the platform_.
 >
 > > _==Ahora OrderlyMeds va es atender a Empresas. Pasa de ser B2C a ser B2B==_.
+>
+>> La primera línea de verificación es el Admin Portal. Revisar el Catalog y las Variantes.
+>
+>> 
 
 ## Personas de Contacto
 
@@ -112,3 +116,16 @@ La taxonomía es:
 
 > [!Note]
 > Cada Variant es lo que es un MedId en el MedPicker.
+
+### Datos Sueltos
+
+- Product attributes come from MedPicker
+- Variant SKU es el mismo MedId
+- Price in a Variant is what is charged to the CX
+- Price in Product is what is displayed in the Checkout
+
+
+## Pruebas en QA
+
+Apuntes sueltos:
+- Enlazar un practitioner es la única forma en que quede habilitado en Launch.
