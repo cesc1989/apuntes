@@ -87,3 +87,20 @@ Cuando se hace esta configuración se sigue la forma siguiente:
 			- El Clinic es el que otorga los accesos
 			- El Client es de solo lectura.
 	- 2 Apps
+
+
+## Taxonomía
+
+### De Catálogos
+
+El catálogo es en lo que se organizan los productos y sus variantes. Es lo que al final venden a los pacientes.
+
+La taxonomía es:
+
+- Catalog
+	- Categories
+		- Products
+			- Variants
+
+> [!Note]
+> Cada Variant es lo que es un MedId en el MedPicker.
