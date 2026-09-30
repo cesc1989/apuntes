@@ -17,8 +17,6 @@
 - Varun Nehra
 	- Arquitecto y Desarrollador
 
-> [!Important]
-> A pesar de que ellos dicen la palabra "Tenant" este sistema no es multitenan en el sentido de una base de datos por cada cliente de la plataforma.
 
 ## Nombres que ha tenido la plataforma
 
@@ -29,6 +27,9 @@ Nombres que ha tenido. El nombre definitivo es **Launch Healthcare**.
 - Launch Healthcare
 
 ## Nomenclatura 📚
+
+> [!Important]
+> A pesar de que ellos dicen la palabra "Tenant" este sistema no es multitenant en el sentido de una base de datos por cada cliente de la plataforma.
 
 - **Partner**: el cliente principal
 - **Tenant / Affiliate**: un afiliado del cliente/partner
