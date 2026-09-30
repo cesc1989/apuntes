@@ -68,6 +68,12 @@ Es cuando el Partner no tiene equipo de tecnología ni website ni nada. En ese c
 >
 > Por defecto, todo Partner tiene acceso al API. En los casos de Partner con configuración Web App se tiene todo por defecto con una sola app.
 
+Cuando se hace esta configuración se sigue la forma siguiente:
+
+- 1 Partner
+	- 1 Tenants / Affiliates
+		- Posiblemente de Rol Client.
+	- 1 Apps
 
 #### Configuración API o Headless 🚨
 
@@ -87,6 +93,10 @@ Cuando se hace esta configuración se sigue la forma siguiente:
 			- El Clinic es el que otorga los accesos
 			- El Client es de solo lectura.
 	- 2 Apps
+
+#### Enlazar App a Tenant
+
+TBC
 
 
 ## Taxonomía
