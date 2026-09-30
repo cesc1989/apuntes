@@ -1,2 +1,88 @@
 # Apuntes Capacitación Plataforma Launch Healthcare
 
+> [!Important]
+> La claves de esta plataforma:
+> 
+> > _Anyone attending patients can send patients to a send patients to a website to buy GLP1_.
+>
+> > _Start a new brand/client is a configuration in the Admin side of the platform_.
+>
+> > _Ahora OrderlyMeds va es atender a Empresas. Pasa de ser B2C a ser B2B_.
+
+## Personas de Contacto
+
+- Jeff Carroll
+	- Power User
+	- Encargado y más cercano al Sistema / Negocio
+- Varun Nehra
+	- Arquitecto y Desarrollador
+
+> [!Important]
+> A pesar de que ellos dicen la palabra "Tenant" este sistema no es multitenan en el sentido de una base de datos por cada cliente de la plataforma.
+
+## Nombres que ha tenido la plataforma
+
+Nombres que ha tenido. El nombre definitivo es **Launch Healthcare**.
+
+- Health as a Service
+- Health Grid
+- Launch Healthcare
+
+## Nomenclatura 📚
+
+- **Partner**: el cliente principal
+- **Tenant / Affiliate**: un afiliado del cliente/partner
+- **Clinic**:
+	- MSO. Puede enviar prescripciones.
+	- Es un grupo de doctores.
+- **Client**:
+	- Individuo que quiere vender pero no puede prescribir.
+	- Tiene acceso solo lectura al Admin Portal.
+- **Questionnaire**: Health Assessment
+
+## Portales 🌎
+
+Al configurar Partners en esta plataforma se pueden activar varios portales según el tipo de cliente.
+
+- **Patient Portal**: Eligibility y Screening + Checkout
+- **Admin Portal**: Donde se pueden configurar Partners
+- **Provider Portal**: donde pueden gestionar pacientes, screenings, consults, etc
+
+### Tipos de Configuraciones
+
+Son dos:
+
+- Web App
+- API o Headless
+
+#### Configuración Web App
+
+Es cuando el Partner no tiene equipo de tecnología ni website ni nada. En ese caso Launch le da todo.
+
+- Portales de pacientes para que abran y completen el Eligibility y el Screening + Checkout.
+- Admin Portal para gestionar todo con respecto a pacientes, screening, consults, etc.
+
+> [!Warning]
+> Cuando se configura un Partner tipo Web app se debe crear solo una App.
+>
+> Por defecto, todo Partner tiene acceso al API. En los casos de Partner con configuración Web App se tiene todo por defecto con una sola app.
+
+
+#### Configuración API o Headless 🚨
+
+Es cuando el Partner sí tiene equipo de tecnología y solo le interesa integrarse con Launch. En este caso solo se le ofrece acceso web al Admin Portal.
+
+> [!Warning]
+> Cuando se configura un Partner tipo API/Headless se deben crear dos Apps.
+>
+> Esto es porque una ==App será de tipo API para dar acceso con secrets==. La otra App será para el acceso al Admin Portal.
+
+
+Cuando se hace esta configuración se sigue la forma siguiente:
+
+- 1 Partner
+	- 2 Tenants / Affiliates
+		- 1 tenant será Clinic y otro Client.
+			- El Clinic es el que otorga los accesos
+			- El Client es de solo lectura.
+	- 2 Apps
