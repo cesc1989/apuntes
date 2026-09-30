@@ -7,7 +7,7 @@
 >
 > > _Start a new brand/client is a configuration in the Admin side of the platform_.
 >
-> > _Ahora OrderlyMeds va es atender a Empresas. Pasa de ser B2C a ser B2B_.
+> > _==Ahora OrderlyMeds va es atender a Empresas. Pasa de ser B2C a ser B2B==_.
 
 ## Personas de Contacto
 
