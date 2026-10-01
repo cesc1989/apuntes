@@ -111,3 +111,53 @@ También tiene los similares que hay en Rails:
 ## Sobre Containers y Componentes
 
 Esto parece ser un tema clave en Hanami.
+
+## Migraciones
+
+### Llaves Primarias 🔑
+
+Se puede crear una llave primaria normalmente así:
+```ruby
+create_table :clubes do
+	primary_key :id
+end
+```
+
+En el FC Manager, cuando iba a crear `player_traits` me di cuenta en la [documentación de Sequel](https://sequel.jeremyevans.net/rdoc/files/doc/schema_modification_rdoc.html#label-create_join_table) que podía definir la llave primaria así:
+```ruby
+ROM::SQL.migration do
+  change do
+    create_table :player_traits do
+      foreign_key :player_id, :players
+      foreign_key :trait_id, :traits
+
+      primary_key [:player_id, :trait_id] # <= esto
+    end
+  end
+end
+```
+
+**Una llave compuesta.**
+
+Según DeepSeek, esto se puede porque Sequel lo permite. En cambio en Rails no se puede eso nativamente. Por eso siempre vi todo con `:id` en Rails.
+
+> [!Note]
+> Sin embargo, Deep Seek explica que, para el caso de esta tabla, tiene más sentido usar `:id` como llave primaria porque no es solamente una _join table_ sino una entidad (porque está la columna `value`).
+
+Finalmente, DeepSeek sugirió más bien agregar una [restricción única](https://sequel.jeremyevans.net/rdoc/files/doc/schema_modification_rdoc.html#label-unique) con la combinación de las columnas para prevenir crear el mismo trait más de una vez para el mismo jugador. Quedando la migración así:
+```ruby
+ROM::SQL.migration do
+  change do
+    create_table :player_traits do
+      primary_key :id
+
+      foreign_key :player_id, :players
+      foreign_key :trait_id, :traits
+
+      column :value, :integer, default: 0, null: false
+
+      unique [:player_id, :trait_id]
+    end
+  end
+end
+```
