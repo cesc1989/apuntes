@@ -161,3 +161,38 @@ ROM::SQL.migration do
   end
 end
 ```
+
+## Relaciones
+
+### Enums
+
+Así se define un enum:
+```ruby
+module Fcmanager
+  module Relations
+    class Traits < Fcmanager::DB::Relation
+      schema :traits, infer: true do
+        attribute(
+          :kind,
+          Types::Integer,
+          read: Types::String.enum(
+            "fisicos" => 0,
+            "mentales" => 1,
+            "tecnicos" => 2,
+            "arqueria" => 3
+          )
+        )
+      end
+    end
+  end
+end
+```
+
+La clave está en que se puede [definir tipos de salida y entrada](https://hanakai.org/learn/rom/v5.0/core-concepts/schemas#using-read-types) para forzar la conversión del dato.
+
+En este caso queremos que la salida al ver un registro el valor que numérico pase a ser la representación en el enum. Así se ve en la consola:
+```ruby
+pp["relations.traits"].one
+[fcmanager] [DEBUG] [2026-09-30 20:55:20 -0500] SQL sqlite 1ms SELECT `traits`.`kind`, `traits`.`id`, `traits`.`name` FROM `traits` ORDER BY `traits`.`id`
+=> {kind: "fisicos", id: 1, name: "Aceleración"}
+```
