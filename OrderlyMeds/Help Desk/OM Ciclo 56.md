@@ -378,3 +378,22 @@ Etiquetas: #om_prescription_requires_review #om_ondansetron
 Prescripción que no está en la farmacia porque falla porque no hay MedId para la pastilla Ondansetron.
 
 Pregunté a CS Leads.
+
+## Caso OM-11593 - Script reiniciar to Starter Pack - Parte 2? 🟡
+
+Etiquetas: #om_starter_pack_ontraport 
+
+Caso de Script que necesitaba ser reiniciado para que el CX pueda responder adecuadamente para habilitar el Starter Pack. **CX en Ontraport**.
+
+Estaba en Salesforce así que hice lo pertinente para devolverlo a Ontraport. Le dieron los créditos pero no le hice reset al Script porque iba a generar el form que está mal. El cual detallo en [[OM Ciclo 56#Caso OM-11571 - Reiniciar Script para Starter Pack 🟢]]
+
+La solución en el caso OM-11571 fue devolverlo a Salesforce, migrar los créditos a Salesforce y crear un nuevo Member Period.
+
+Toca hacer esto mismo porque:
+
+- Creé un nuevo Script mediante Swagger y no le cargó el botón en el portal
+- En el script anterior, agregué el Automation de regenerar la URL pero no salía el botón
+- Con Claudio me doy cuenta que el problema es que el Script nuevo tiene "Next Consult" en Octubre 15 y por eso no se mostraba el botón
+- Cambié la fecha a 10/1, salió el botón pero manda es al Checkin de Ontraport el cual está incompleto
+
+Por eso creo que debo devolver a Salesforce. Y eso haré.
