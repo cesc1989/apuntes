@@ -108,9 +108,144 @@ También tiene los similares que hay en Rails:
 - `audio_tag`
 
 
-## Sobre Containers y Componentes
+## Sobre Containers y Componentes 🟡🚨
 
-Esto parece ser un tema clave en Hanami.
+[Docs](https://hanakai.org/learn/hanami/v3.0/app/container-and-components)
+
+El código que se agrega a la carpeta `app/` se organiza automaticamente en un Container. Los Containers son la unidad base del Component Management System que usa Hanami.
+
+Un Componente es un objeto que se crea para completar tareas dentro del sistema.
+
+> [!Importante]
+> Es clave que cada componente solo haga una tarea. Se mezclan componentes mediante Inyección de Dependencias (_Dependency Injection_)
+
+> [!Note]
+> > Hanami is designed to make it easy to create applications that are systems of well-formed components with clear dependencies.
+
+Dan este ejemplo de un objeto que se vuelve componente:
+```ruby
+# app/slugifier.rb
+
+module Bookshelf
+  class Slugifier
+    def call(title)
+      title.downcase.gsub(/\s+/, "-")
+    end
+  end
+end
+```
+
+La instancia de `Bookshelf::Slugifier` estará disponible como la key `"slugifier"` en `app` Container:
+```ruby
+bookshelf[development]> Hanami.app["slugifier"]
+=> #<Bookshelf::Slugifier:0x000000010577afc8>
+```
+
+> [!Warning]
+> En development, hay que correr `Bookshelf::App.boot` para que se puedan cargar todos los componentes en el contenedor `app`. Lo dice la misma consola:
+> > Warning: Bookshelf::App is not booted. Run `Bookshelf::App.boot` to load all components, or launch the console with `--boot`.
+
+### Dependency Injection en Hanami
+
+Dan este ejemplo de como lograrlo en PORO:
+```ruby
+# app/books/create.rb
+
+module Bookshelf
+  module Books
+    class Create
+      attr_reader :book_repo
+      attr_reader :slugifier
+
+      def initialize(book_repo:, slugifier:)
+        @book_repo = book_repo
+        @slugifier = slugifier
+      end
+
+      def call(title:, author:)
+        book_repo.create(
+          title: title,
+          author: author,
+          slug: slugifier.call(title)
+        )
+      end
+    end
+  end
+end
+```
+
+Se le pasa `book_repo` y `slugifier` al componente `books.create` así no necesita saber cómo instanciar ni qué funciones usar.
+
+Hanami mejora esto mediante el mixin `Deps`:
+```ruby
+# app/books/create.rb
+
+module Bookshelf
+  module Books
+    class Create
+      include Deps[
+        "repos.book_repo",
+        "slugifier"
+      ]
+
+      def call(title:, author:)
+        book_repo.create(
+          title: title,
+          author: author,
+          slug: slugifier.call(title)
+        )
+      end
+    end
+  end
+end
+```
+
+### Mixin Deps
+
+Se usa incluyendolo en la clase: `include Deps["key"]`. Esto nos ahorra el setter/getter y la inicialización.
+
+La `key` que recibe es la `key` con la que el componente se hace disponible en el contenedor (en este caso `app`).
+
+Ejemplo, así se ven los componentes del Bookshelf de aprendizaje de las guías:
+```ruby
+Bookshelf::App.boot
+app.keys
+
+[# (... omito los por defecto)
+ "repos.book_repo",
+ "actions.books.create",
+ "actions.books.destroy",
+ "actions.books.edit",
+ "actions.books.index",
+ "actions.books.new",
+ "actions.books.show",
+ "actions.books.update",
+ "actions.home.index",
+ "views.books.edit",
+ "views.books.index",
+ "views.books.new",
+ "views.books.show",
+ "views.home.index"]
+```
+
+Y así fue como en la View usé el componente del repositorio:
+```ruby
+# frozen_string_literal: true
+
+module Bookshelf
+  module Views
+    module Books
+      class Edit < Bookshelf::View
+        include Deps["repos.book_repo"]
+
+        expose :book do |id:|
+          book_repo.get(id)
+        end
+      end
+    end
+  end
+end
+```
 
 ## Migraciones
 

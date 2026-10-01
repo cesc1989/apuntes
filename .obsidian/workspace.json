@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f141e66fc029c0e3",
+        "id": "87ccc6f6d7db9c0a",
         "type": "tabs",
         "children": [
           {
-            "id": "80a8f9ec70d646fd",
+            "id": "578145c35c48b61a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 56"
+              "title": "Apuntes Variados de las Guias"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,7 +170,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "80a8f9ec70d646fd",
+  "active": "578145c35c48b61a",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
