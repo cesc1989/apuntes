@@ -397,3 +397,10 @@ Toca hacer esto mismo porque:
 - Cambié la fecha a 10/1, salió el botón pero manda es al Checkin de Ontraport el cual está incompleto
 
 Por eso creo que debo devolver a Salesforce. Y eso haré.
+
+### Migrar cx a Salesforce
+
+Cliqué el botón y esta vez sí se completó sin yo intervenir. También se le generó el MP en Salesforce y cuando suplanté pude ver el Checkin correcto.
+
+Le dije a Jifrel que:
+> Please have cx only complete Check In form and stop once they arrive to the Check Out page. When they're in Check Out page is when Starter Pack can be activated.
