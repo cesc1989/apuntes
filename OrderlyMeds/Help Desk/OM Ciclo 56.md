@@ -417,3 +417,11 @@ Le dije a Jifrel que:
 > Please have cx only complete Check In form and stop once they arrive to the Check Out page. When they're in Check Out page is when Starter Pack can be activated.
 
 Ahora espero para activarle el Starter Pack.
+
+## Caso OM-11666 - Missing Orders from Portal 🟢
+
+Etiquetas: #om_missing_orders 
+
+Le faltaban varias ordenes aunque el CX solo reportó una. El fallo fue que encontré varios Member Periods del CX sin el valor esperado en el campo `ontraport_imported_outcome`.
+
+La solución fue ponerle el valor `Delivered`. Con eso salieron.
