@@ -283,12 +283,14 @@ El Member Period hizo todo el recorrido y ya la orden llegó a la farmacia.
 
 ### Detalle de OM-11617 - Not at the Pharmacy 🟡
 
+Etiquetas: #om_bundle_issue #om_bundle_manually_rejected 
+
 > [!Info]
 > CX de Beluga.
 
 No hay resultado al revisar la variante de 20MG para el MedId seleccionado. El Member Period está en *VisitCompleted*.
 
-#### Validación de fallo del Bundle
+#### Fallo en la validación del Bundle
 
 ```ruby
 b = RxWrittenBundle.find("01a0b6eb-4726-788b-9f6b-b19c8ba0b4ff")
@@ -310,7 +312,10 @@ RUN sermorelin: failed
 La clave está en el mensaje:
 > QuantityMatch: RxWrittenBundle prescribed quantities do NOT match MedPicker remote quantities
 
-#### ¿Cómo se procede?
+Así se ve el error en la página del Bundle:
+![[OM_11617.png]]
+
+#### ¿Cómo se le hace el resubmit?
 
 Hacer el resubmit to MSO mediante consola:
 ```ruby

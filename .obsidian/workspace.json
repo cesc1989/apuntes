@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 56"
+              "title": "OM Ciclo 52"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_mp_missing_medication_reference",
+                "query": "tag:#om_bundle_manually_rejected",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 52.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -155,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -172,8 +173,9 @@
   },
   "active": "9685233d095b1bd9",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "OrderlyMeds/Help Desk/attachments/OM_11617.png",
+    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
@@ -208,7 +210,6 @@
     "OrderlyMeds/LaunchHealthcare",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "Otro_Espacio/Todo_Software/Desarrollo_de_Software/attachments/githubsignature.png",
-    "OrderlyMeds/Help Desk/attachments/OM_11055.png",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB",

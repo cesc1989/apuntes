@@ -188,17 +188,17 @@ Y que al hacer el impersonate e ir a la página no explote sino que cargue el Ch
 
 Etiquetas: #om_bundle_manually_rejected #om_bundle_issue 
 
-CX en Ontraport con Beluga como prescriber. La orden no llegaba a la farmacia porque el bundle decía "manually_rejected". Había que hacer un resubmit al Script.
+CX en Ontraport con Beluga como prescriber. La orden no llegaba a la farmacia porque el bundle decía _manually_rejected_. Había que hacer un resubmit al Script.
 
 Fui a Ontraport e hice el resubmit normal. Vi que los registros en la pestaña "Incoming Webhooks" desapareció mientras se procesaba. Igual que en "RxWritten Bundles" y "Beluga Submissions".
 
 Cuando el proceso se completó el registro en "Incoming Webhooks" quedó así:
-- Source: beluga_health
-- Event: prescription_written
-- State: delivered
+- Source: `beluga_health`
+- Event: `prescription_written`
+- State: `delivered`
 
 Y el de "RxWritten Bundles" así:
-- State: automatically_approved
+- State: `automatically_approved`
 
 Finalmente, el de "Beluga Submissions" decía "Sent to Pharmacy" y la fecha de hoy. En "Orders" los campos Written, Sent, Received estaban todos con el chulo verde.
 
