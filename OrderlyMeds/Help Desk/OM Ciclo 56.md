@@ -425,3 +425,68 @@ Etiquetas: #om_missing_orders
 Le faltaban varias ordenes aunque el CX solo reportó una. El fallo fue que encontré varios Member Periods del CX sin el valor esperado en el campo `ontraport_imported_outcome`.
 
 La solución fue ponerle el valor `Delivered`. Con eso salieron.
+
+## Caso OM-11710 - MedChat error - No se ven los chats 🟢
+
+Etiquetas: #om_medchat 
+
+Cuando clica en el enlace "MedChat" en el portal se redirige al dashboard.
+
+> [!Note]
+> Resumen por Claudio:
+> 
+> **Causa:** la cuenta se migró de Ontraport a Salesforce el 17/09 a las 20:13 UTC, cuando el script 953182 todavía estaba en `Pharmacy Selected` y sin `date_of_visit`. Por eso el importer no creó el `ClinicalEncounter`. La visita de CareValidate ocurrió después (18/09 03:58) y quedó registrada solo en Ontraport.
+>
+> A las 04:04 llegó el mensaje de la Dra. Carr (webhook `ADD_CASE_COMMENT`). Como no había encounter, el handler tomó la ruta de Ontraport, `FindOrCreateChat` devolvió `nil` para la cuenta migrada y `chat.messages.create!` falló. El webhook quedó en `failed` y el mensaje nunca se guardó. Al no tener chat, `/medchat` redirige al dashboard sin mostrar error.
+>
+> **Arreglo:** crear a mano el `ClinicalEncounter` (CareValidate, `e151861f-2a0d-44b3-815b-84afd0029576`) en el MemberPeriod importado `a0nPm00000uio0rIAA` y reprocesar el webhook `01a0b2b0-1146-7c5d-9b9b-62b8a17eac8e`.
+>
+> **Riesgo sistémico:** puede afectar a cualquier paciente que se haya migrado en medio de una visita. Hay 54 webhooks `ADD_CASE_COMMENT` en `failed` y 43 en `processing` desde el 18/09, pero no sé cuántos tienen esta misma causa.
+
+
+El código de solución:
+```ruby
+a  = Account.find("01a0a0b5-bea6-731d-84b8-1bb1ae0802bd")
+sfa = a.salesforce_account
+mp = Salesforce::MemberPeriod.find_by!(sfid: "a0nPm00000uio0rIAA")
+
+ce = Salesforce::ClinicalEncounter.where(patient: sfa, member_period: mp, ontraport_script_id: 953182).first_or_initialize
+ce.assign_attributes(
+  start_date: Time.utc(2026, 9, 18, 3, 58, 24),
+  status: "Finished",
+  category: "Home Health",
+  source_system: "CareValidate",
+  source_system_identifier: "e151861f-2a0d-44b3-815b-84afd0029576",
+  visit_type: "GLP1",
+  imported_from_ontraport_at: Time.current,
+  ontraport_importer_version: Salesforce::OntraportAccountImporter::IMPORTER_VERSION
+)
+puts({new: ce.new_record?, valid: ce.valid?, errors: ce.errors.full_messages}.inspect)
+```
+
+Si la salida es como esta:
+```ruby
+{new: true, valid: true, errors: []}
+```
+
+Guarda y reprocesa el webhook:
+```ruby
+ce.save!
+puts Salesforce::ClinicalEncounter.latest_for_account(account: sfa)&.source_system_identifier
+```
+
+Reprocesar el webhook:
+```ruby
+w = IncomingWebhook.find("01a0b2b0-1146-7c5d-9b9b-62b8a17eac8e")
+w.update!(state: "pending")
+ProcessIncomingWebhookJob.new.perform(w.id)
+puts w.reload.state  # => "delivered"
+```
+
+Verificación final:
+```ruby
+a.chats.reload.map { [it.id, it.master_id, it.messages.count] }
+
+[["01a0fe6d-694e-7dd2-a860-d2d53382bc24", "e151861f-2a0d-44b3-815b-84afd0029576", 1]]
+```
+
