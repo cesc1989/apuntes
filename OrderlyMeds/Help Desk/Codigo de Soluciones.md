@@ -208,3 +208,47 @@ Llamado con:
 ```ruby
 complete_mr!(omid: "OMID")
 ```
+
+## Activar Starter Pack en Member Period
+
+```ruby
+def restart_member_period(name)
+  puts "\n=== Restart Member Period ==="
+  puts "Buscando MemberPeriod: #{name}"
+
+  mp = Salesforce::MemberPeriod.find_by(name: name)
+
+  unless mp
+    puts "❌ No se encontró el MemberPeriod: #{name}"
+    return
+  end
+
+  puts "✓ MemberPeriod encontrado: #{mp.name}"
+
+  mp.update!(customer_lifecycle_stage: "Restarting")
+  puts "✓ customer_lifecycle_stage → Restarting"
+
+  check_in = mp.patient_checkins.last
+
+  unless check_in
+    puts "⚠️ No hay patient_checkin asociado. No se realizó ninguna actualización."
+    return
+  end
+
+  puts "✓ Check-in encontrado: #{check_in.id}"
+
+  check_in.update!(is_starter_plan_only: true)
+  puts "✓ is_starter_plan_only → true"
+
+  puts "=== Proceso completado ===\n"
+end
+```
+
+Uso:
+```ruby
+restart_member_period("MP-00700678")
+```
+
+> [!Note]
+> Mensaje importante para poder activar el Starter Pack:
+> > Please have cx only complete Check In form and stop once they arrive to the Check Out page. When they're in Check Out page is when Starter Pack can be activated.
