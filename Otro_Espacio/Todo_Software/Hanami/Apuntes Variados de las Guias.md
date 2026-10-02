@@ -331,3 +331,68 @@ pp["relations.traits"].one
 [fcmanager] [DEBUG] [2026-09-30 20:55:20 -0500] SQL sqlite 1ms SELECT `traits`.`kind`, `traits`.`id`, `traits`.`name` FROM `traits` ORDER BY `traits`.`id`
 => {kind: "fisicos", id: 1, name: "Aceleración"}
 ```
+
+### Asociaciones
+
+Esto es nada como en Rails. En Hanami (ROM) solo se trae la data que se pide.
+
+Así definí las asociaciones para `clubs->players`:
+```ruby
+module Fcmanager
+  module Relations
+    class Players < Fcmanager::DB::Relation
+      schema :players, infer: true do
+        associations do
+          belongs_to :club
+        end
+      end
+    end
+  end
+end
+
+module Fcmanager
+  module Relations
+    class Clubs < Fcmanager::DB::Relation
+      schema :clubs, infer: true do
+        associations do
+          has_many :players
+        end
+      end
+    end
+  end
+end
+```
+
+##### Combines
+
+Ver [docs](https://hanakai.org/learn/rom/v5.0/core-concepts/combines)
+
+> [!Important]
+> ROM will **never** load associated data unless it is explicitly told to do so.
+
+Hasta aquí nada raro. Lo raro es cuando voy a probar en la consola de Hanami. Para poder traer el Club de un Player (como haría en Rails) toca usar `combine` en la relación.
+
+```ruby
+players = app["relations.players"]
+player = players.combine(:club).by_pk(1).one
+
+{role: "rotación",
+ dominant_foot: "izquierdo",
+ primary_position: "cam",
+ id: 1,
+ name: "Yeims Rodriguez",
+ age: 35,
+ overall: 67,
+ comment: nil,
+ height: "1.40 cms",
+ club_id: 1,
+ secondary_positions: "cm",
+ club: {id: 1, name: "Atletico Naciopan"}}
+```
+
+Y para acceder al club toca la sintaxis de hash:
+```ruby
+player[:club]
+
+{id: 1, name: "Atletico Naciopan"}
+```
