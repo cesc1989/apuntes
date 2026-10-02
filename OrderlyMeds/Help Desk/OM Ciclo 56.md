@@ -379,6 +379,11 @@ Prescripción que no está en la farmacia porque falla porque no hay MedId para 
 
 Pregunté a CS Leads.
 
+### Actualizaciones
+
+- 10/1: Rhystie preguntó si se podía mandar sin la Ondansetron.
+
+
 ## Caso OM-11593 - Script reiniciar to Starter Pack - Parte 2? 🟡
 
 Etiquetas: #om_starter_pack_ontraport 
@@ -404,3 +409,5 @@ Cliqué el botón y esta vez sí se completó sin yo intervenir. También se le 
 
 Le dije a Jifrel que:
 > Please have cx only complete Check In form and stop once they arrive to the Check Out page. When they're in Check Out page is when Starter Pack can be activated.
+
+Ahora espero para activarle el Starter Pack.
