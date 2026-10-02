@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2d8c43db5073718d",
+        "id": "9607918e1c4a8e7f",
         "type": "tabs",
         "children": [
           {
-            "id": "b0c91c1403fe18c2",
+            "id": "9685233d095b1bd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
+              "title": "OM Ciclo 56"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#om_mp_missing_medication_reference",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +133,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "om_st"
+                "searchQuery": "om_"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,13 +170,16 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b0c91c1403fe18c2",
+  "active": "9685233d095b1bd9",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "OrderlyMeds/LaunchHealthcare/Capacitacion Launch Healthcare.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
@@ -188,10 +191,7 @@
     "OrderlyMeds/Help Desk/attachments/unable.to.find.matching.product.png",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "Otro_Espacio/Todo_Software/Hanami.md",
     "Otro_Espacio/Todo_Software/Hanami",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",

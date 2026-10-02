@@ -371,7 +371,7 @@ p.update!(external_nk: b.external_id)
 PerfectRx::ProcessPrescriptionJob.perform_async("01a0e94e-f01c-7a66-b1ec-f359cf2cfb83")
 ```
 
-## Caso OM-11637 - Fallo de Beluga por Ondansetron 🟡
+## Caso OM-11637 - Fallo de Beluga por Ondansetron 🟢
 
 Etiquetas: #om_prescription_requires_review #om_ondansetron
 
@@ -382,6 +382,7 @@ Pregunté a CS Leads.
 ### Actualizaciones
 
 - 10/1: Rhystie preguntó si se podía mandar sin la Ondansetron.
+- 10/2: Devin cerró. Rhystie dijo que tienen que hacer resubmit sin la pastilla.
 
 
 ## Caso OM-11593 - Script reiniciar to Starter Pack - Parte 2? 🟡
