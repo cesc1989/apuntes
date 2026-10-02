@@ -252,3 +252,37 @@ restart_member_period("MP-00700678")
 > [!Note]
 > Mensaje importante para poder activar el Starter Pack:
 > > Please have cx only complete Check In form and stop once they arrive to the Check Out page. When they're in Check Out page is when Starter Pack can be activated.
+
+
+## Aplica "Delivered" a Member Period de Missing Orders
+
+```ruby
+def update_imported_outcome(member_period_omid, correct_outcome)
+  puts "\n=== Update Member Period Outcome ==="
+  puts "Buscando MemberPeriod por OMID: #{member_period_omid}"
+
+  mp = Salesforce::MemberPeriod.find_by(omid__c: member_period_omid)
+
+  unless mp
+    puts "❌ No se encontró el MemberPeriod con OMID: #{member_period_omid}"
+    return
+  end
+
+  puts "✓ MemberPeriod encontrado: #{mp.name}"
+  puts "  Outcome actual: #{mp.ontraport_imported_outcome.inspect}"
+  puts "  Nuevo outcome: #{correct_outcome}"
+
+  mp.update!(ontraport_imported_outcome: correct_outcome)
+
+  puts "✓ ontraport_imported_outcome actualizado correctamente"
+  puts "=== Proceso completado ===\n"
+end
+```
+
+Ejecuta:
+```ruby
+update_imported_outcome(
+  "019fc547-66af-7cb7-9371-1355c5a48abe",
+  "Delivered"
+)
+```
