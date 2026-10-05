@@ -110,9 +110,11 @@ Cuando se hace esta configuración se sigue la forma siguiente:
 			- El Client es de solo lectura.
 	- 2 Apps
 
-#### Enlazar App a Tenant
+#### Enlazar App a Tenant 🔗
 
-TBC
+Es la forma de decirle al sistema que una App va a trabajar con un Tenant/Affiliate. Multiples Tenants pueden estar enlazados a una misma App. O cada uno estar enlazado a diferentes Apps.
+
+En resumen, es la forma de decir esta App va a trabajar con X o Y Tenant. No es automático.
 
 
 ## Catálogos
