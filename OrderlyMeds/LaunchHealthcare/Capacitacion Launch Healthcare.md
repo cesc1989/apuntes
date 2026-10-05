@@ -117,6 +117,9 @@ TBC
 
 ## Catálogos
 
+> [!Important]
+> Se pueden reusar entre diferentes Apps.
+
 El catálogo es en lo que se organizan los productos y sus variantes. Es lo que al final venden a los pacientes.
 
 La taxonomía es:
