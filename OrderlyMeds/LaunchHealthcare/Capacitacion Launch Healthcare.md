@@ -138,6 +138,9 @@ La taxonomía es:
 
 - Product attributes come from MedPicker
 - ==Variant SKU es el mismo MedId==
+
+#### Sobre Price 💵
+
 - Price in a Variant is what is charged to the CX
 - Price in Product is what is displayed in the Checkout
 

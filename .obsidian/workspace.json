@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/LaunchHealthcare/Capacitacion Launch Healthcare.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -223,3 +223,4 @@
     "Canvas/GraphQL.canvas",
     "DevAsPros/Enlacito/Untitled.canvas"
   ]
+}
