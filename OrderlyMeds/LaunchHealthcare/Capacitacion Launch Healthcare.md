@@ -146,6 +146,15 @@ La taxonomía es:
 - Price in a Variant is what is charged to the CX
 - Price in Product is what is displayed in the Checkout
 
+## Configuración de Atributos de Apps
+
+- `ENABLE_PREPAID_CHECKOUT`: Poner en `true` si el Partner se encarga de cobrar al paciente.
+- `DISABLE_GUEST_CHECKOUT`: En `false` para que los pacientes creen una cuenta.
+- `DISABLE_IS_ON_GLP`: Si está en `false`, muestra la pregunta de la dosis (Dosage Selection).
+- `NEXT_PUBLIC_DISABLE_TENANT_SITE`: Si está en `false`, se muestra la web genérica de Launch. Si no, se redirige al sign in.
+- `NEXT_PUBLIC_PASSWORDLESS_AUTH_ENABLED`: Se pone en `false` para que los pacientes se registren.
+
+
 
 ## Pruebas en QA/Local
 
