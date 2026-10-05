@@ -41,7 +41,7 @@ Nombres que ha tenido. El nombre definitivo es **Launch Healthcare**.
 	- MSO. Puede enviar prescripciones.
 	- Es un grupo de doctores.
 - **Client**:
-	- Individuo que quiere vender pero no puede prescribir.
+	- ==Individuo que quiere vender pero no puede prescribir.==
 	- Tiene acceso solo lectura al Admin Portal.
 - **Questionnaire**: Health Assessment
 
@@ -76,8 +76,20 @@ Cuando se hace esta configuración se sigue la forma siguiente:
 
 - 1 Partner
 	- 1 Tenants / Affiliates
-		- Posiblemente de Rol Client.
+		- Para determinar el rol:
+			- ==Si el Partner está necesitando una Web App, el rol es Client.==
+			- ==Si el Partner está necesitando una API, el rol es Clinic.==
 	- 1 Apps
+
+> [!Warning]
+> En una llamada, Jeff dijo que:
+> > Cuando es Web App la propiedad `disable_provider_portal` debe ir en `true`, sin embargo, cuando se está probando en QA debe estar en `false`.
+> 
+> Esto lo veo en el caso de HappyGLP. El cambio que hice de lo de ocultar el botón de Refill lo hice en QA y estaba habilitado el Provider Portal.
+> 
+> Creo que debe deshabilitarse en prod es porque cualquier puede llegar y registrarse.
+
+
 
 #### Configuración API o Headless 🚨
 
