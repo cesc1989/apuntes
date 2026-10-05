@@ -41,7 +41,7 @@ Nombres que ha tenido. El nombre definitivo es **Launch Healthcare**.
 	- MSO. Puede enviar prescripciones.
 	- Es un grupo de doctores.
 - **Client**:
-	- ==Individuo que quiere vender pero no puede prescribir.==
+	- ==Individuo o marca que quiere vender pero no puede prescribir.==
 	- Tiene acceso solo lectura al Admin Portal.
 - **Questionnaire**: Health Assessment
 
