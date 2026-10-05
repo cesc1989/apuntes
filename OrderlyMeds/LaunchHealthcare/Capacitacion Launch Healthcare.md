@@ -129,8 +129,10 @@ La taxonomía es:
 		- Products
 			- Variants
 
-> [!Note]
+> [!Info]
 > Cada Variant es lo que es un MedId en el MedPicker.
+>
+> MedPicker y HealthGrid/Launch trabajan por separado.
 
 ### Datos Sueltos
 
