@@ -140,7 +140,8 @@ La taxonomía es:
 - Price in Product is what is displayed in the Checkout
 
 
-## Pruebas en QA
+## Pruebas en QA/Local
 
 Apuntes sueltos:
 - Enlazar un practitioner es la única forma en que quede habilitado en Launch.
+- En local/dev para poder completar Screening/Consult/Prescription hay que desactivar el `stub_mode` que aparece en el botón "Dev" en la esquina inferior derecha.
