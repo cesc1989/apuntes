@@ -249,8 +249,10 @@ Uso:
 restart_member_period("MP-00700678")
 ```
 
-> [!Note]
-> Mensaje importante para poder activar el Starter Pack:
+
+### Mensaje importante para poder activar el Starter Pack
+
+> [!Important]
 > > Please have cx only complete Check In form and stop once they arrive to the Check Out page. When they're in Check Out page is when Starter Pack can be activated.
 
 
