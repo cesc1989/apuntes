@@ -209,7 +209,7 @@ Había clicado el botón "Migrate to Salesforce" del perfil en Success pero no p
 
 Le actualicé el valor con el `omid` y ya quedó enlazada.
 
-## Casos de resubmit en Salesforce que dan "Unable to find matching product" 🟡ℹ️
+## Casos de resubmit en Salesforce que dan "Unable to find matching product" 🟢ℹ️
 
 Etiquetas: #om_unable_to_find_matching_product 
 
@@ -281,7 +281,7 @@ CareValidate::Scheduler::CreateVisitJob.perform_async(ce.omid)
 
 El Member Period hizo todo el recorrido y ya la orden llegó a la farmacia.
 
-### Detalle de OM-11617 - Not at the Pharmacy 🟡
+### Detalle de OM-11617 - Not at the Pharmacy - Bundle Rejected 🟢
 
 Etiquetas: #om_bundle_issue #om_bundle_manually_rejected 
 
@@ -315,12 +315,19 @@ La clave está en el mensaje:
 Así se ve el error en la página del Bundle:
 ![[OM_11617.png]]
 
-#### ¿Cómo se le hace el resubmit?
+#### ¿Cómo se le hace ResubmitToMSO si no se puede en Salesforce?
+
+> [!Info]
+> Esto solo es para casos donde no falle el Automation. Si falla, es por otra cosa y esto tampoco hará nad.
 
 Hacer el resubmit to MSO mediante consola:
 ```ruby
 Salesforce::ResubmitToMso.call(clinical_encounter: ce)
 ```
+
+#### Solución: MedId no estaba activo en MedPicker
+
+Esto es lo que parece. Ya lo está y pude continuar con el ResubmitToMSO en Salesforce.
 
 ## Caso OM-11606 - Stuck in PrescriptionWritten de PerfectRx 🟢
 
@@ -390,7 +397,7 @@ Pregunté a CS Leads.
 - 10/2: Devin cerró. Rhystie dijo que tienen que hacer resubmit sin la pastilla.
 
 
-## Caso OM-11593 - Script reiniciar to Starter Pack - Parte 2? 🟡
+## Caso OM-11593 - Script reiniciar to Starter Pack - Parte 2 🟢
 
 Etiquetas: #om_starter_pack_ontraport 
 
@@ -490,3 +497,66 @@ a.chats.reload.map { [it.id, it.master_id, it.messages.count] }
 [["01a0fe6d-694e-7dd2-a860-d2d53382bc24", "e151861f-2a0d-44b3-815b-84afd0029576", 1]]
 ```
 
+
+## Caso OM-11730 - Resubmit de Bundle en Ontraport - Bundle Rejected 🟢
+
+Etiquetas: #om_beluga_not_at_pharmacy #om_bundle_manually_rejected
+
+Caso de prescripción que no llega a la farmacia. Cuenta en Ontraport pero que fue migrada a Salesforce aún estando en curso.
+
+El problema fue que el bundle quedó en `manually_rejected` por esto:
+![[om_11730.png]]
+
+El MedId estaba desactivado. Una vez reactivado se puede hacer el resubmit. Aquí el tema es ¿cómo le hacía resubmit a en este caso?
+
+Claudio a la ayuda.
+
+### Resubmit de Bundle Rejected
+
+#### Se verificó que el MedId estuviera activo
+
+```ruby
+med = "K7S0MA7LfhsjT3Skfkw0Qqydr7ZFO9RY"
+pp Medpicker.get_fulfillment_data(med_id: med, provider_id: Prescriber::BELUGA_HEALTH_PROVIDER_ID).provider_script_products_is_active
+```
+
+Para este caso devolvió `true`.
+
+#### Encontrar el Bundle
+
+Claudio hizo esta query:
+```ruby
+b = RxWrittenBundle.where(state: "manually_rejected", created_at: Time.zone.parse("2026-09-09")..Time.zone.parse("2026-09-14"))
+  .find { |x| x.incoming_webhooks.any? { it.data.to_s.include?(med) } }
+```
+
+Pero igual lo podría encontrar usando el ID que está en Success:
+```ruby
+b = RxWrittenBundle.find("01a08be7-28dd-7187-b966-da9eabebd0e9")
+```
+
+#### Resubmit
+
+> [!Warning]
+> Debe hacerse siempre que se cumpla lo siguiente:
+> - MedId activo
+> - No haya otro bundle activo para el mismo `master_id`
+> - Que no exista ya una orden
+>
+> Si pasa alguna, pues preguntarle a Claudio si se cancelan o que.
+
+Se hace así:
+```ruby
+b.update_columns(state: "held")
+CloseRxWrittenBundleJob.new.perform(b.id, hold_rx_written_bundles: false)
+b.reload.state # esperado: "automatically_approved"
+```
+
+Comprobación:
+```ruby
+pp b.latest_validation_run_by_suite.transform_values(&:state)
+
+{"glp1" => "passed", "all_prescriptions_in_bundle" => "passed"}
+```
+
+Después de esto el Script pasó a "Order at Pharmacy" y se creó una orden.
