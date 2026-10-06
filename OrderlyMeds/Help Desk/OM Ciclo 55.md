@@ -7,6 +7,9 @@
 
 Etiquetas: #om_stuck_in_ready_to_create_visit
 
+> [!Info]
+> Se resuelve con un ResubmitToMSO
+
 Casos con el mismo problema (no necesariamente misma solución):
 
 - OM-9396 -> [[OM Ciclo 48#Caso OM-9361 - MP Stuck in ReadyToCreateVisit 🟢]]
