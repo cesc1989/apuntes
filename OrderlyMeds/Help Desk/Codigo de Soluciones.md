@@ -288,3 +288,27 @@ update_imported_outcome(
   "Delivered"
 )
 ```
+
+## Migrar Contacto de Ontraport a Salesforce
+
+```ruby
+a = Account.find("ID")
+cid = a.ontraport_contact.nk
+ci = OntraportMigration.fetch_contact(cid)
+
+ci.valid?
+```
+
+Si es válido:
+```ruby
+Ontraport::Meta.with_rate_limiting(limiter: Sidekiq::Limiter.unlimited) do
+  Salesforce::OntraportAccountImporter.call(
+    ontraport_contact_id: cid,
+    contact_import: ci,
+    local_account: a,
+    logger: Logger.new($stdout)
+  )
+end
+```
+
+Si fue exitoso, la salida sería `:imported`.
