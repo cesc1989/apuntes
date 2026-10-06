@@ -253,7 +253,7 @@ restart_member_period("MP-00700678")
 ### Mensaje importante para poder activar el Starter Pack
 
 > [!Important]
-> > Please have cx only complete Check In form and stop once they arrive to the Check Out page. When they're in Check Out page is when Starter Pack can be activated.
+> > Please have cx only complete Check In and **stop once they arrive to the Check Out page**. When they're in Check Out page is when Starter Pack can be activated. Let me know so I can proceed. Thanks.
 
 
 ## Aplica "Delivered" a Member Period de Missing Orders
