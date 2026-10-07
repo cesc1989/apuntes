@@ -560,3 +560,87 @@ pp b.latest_validation_run_by_suite.transform_values(&:state)
 ```
 
 Después de esto el Script pasó a "Order at Pharmacy" y se creó una orden.
+
+## Caso OM-11774 - Oops Error después de Purchase 🟡
+
+Etiquetas: #om_oops_error 
+
+> [!Info]
+> Caso particular de Oops Error. Me salía cuando iba a "Select Treatment". Lo arreglé siguiendo los pasos normales. Enlazar usuario de WorkOS y crear Salesforce::CustomerUser. Sin embargo, reportaron que cuando clicaban el botón "Purchase" seguía saliendo el mismo mensaje.
+>
+> Viendo con Claudio la causa es el MedId de un MedRequest Importado. Estaba en modo uuid separado con guiones. Sin embargo, Claudio dice que los MedIds no siguen ese patrón.
+
+Este es el resumen que me dio Claudio.
+
+### Resumen del caso por Claudio 🤖
+
+**Síntomas**
+- Primero no podía hacer el check-in. Lo arreglaste el 6/oct con lo estándar: asociar la cuenta de WorkOS, crear el Salesforce customer user y corregir MPs importados de OP.
+- El 7/oct CX reportó un error nuevo: la página "Oops" al dar Purchase en /checkin/purchases. El total era $0 porque un crédito CS de $298 cubre los $269.10.
+
+**Causa**
+- `create_medpicker_recommendation` falla con `ActiveRecord::ValueTooLong` (varchar(32)), así que el Purchase hace rollback y no se crea nada.
+- El último MR de GLP-1 de la paciente apunta a una medicación cuyo `medid` es un UUID de 36 caracteres (`05787c05-`…).
+- En producción, `medication.medid__c` acepta 50, pero las columnas `*__r__medid__c` de `medpickerrecommendation__c` siguen en 32. Es un desfase del mapeo de Heroku Connect.
+- `db/heroku_connect_schema.rb` dice 50 y no refleja producción.
+
+**Descartado**: créditos (cuadran en $298), estado del MP (el activo está en `ReadyForProductSelection`) y datos de entrega (completos).
+
+#### Comando de debug (dry run del Purchase, siempre hace rollback)
+
+Reproduce exactamente lo que hace el botón Purchase y muestra el paso, el SQL y los valores que fallan. Sirve para cualquier paciente: solo cambia el ID de la cuenta.
+
+```ruby
+sa = Account.find("019d1b7c-6d74-7d4b-be6f-e714de89e5e2").salesforce_account
+form = Patient::Checkin::PurchaseForm.new(salesforce_account: sa)
+form.populate_previous_selections
+form.treatment ||= form.treatment_picker.default_treatment
+puts "valid=#{form.valid?} #{form.errors.full_messages.inspect} product=#{form.product} total=#{form.total}"
+
+step = nil
+Salesforce::Base.transaction do
+  begin
+    step = "medpicker_recommendation"; form.create_medpicker_recommendation
+    step = "create_order";             r = form.create_order
+    step = "state_transition";         r.needs_payment? ? form.member_period.mark_ready_for_order_payment! : form.member_period.mark_order_payment_submitted!
+    puts "OK needs_payment=#{r.needs_payment?}"
+  rescue => e
+    err = e.is_a?(ActiveRecord::StatementInvalid) ? e : (e.cause if e.cause.is_a?(ActiveRecord::StatementInvalid)) || e
+    puts "STEP=#{step}"
+    puts "#{err.class}: #{err.message}"
+    puts "SQL: #{err.try(:sql)}"
+    puts "BINDS: #{err.try(:binds)&.map { |b| b.respond_to?(:name) ? "#{b.name}=#{b.value_before_type_cast.to_s.truncate(80)} (#{b.value_before_type_cast.to_s.length})" : b.inspect }&.inspect}"
+    puts e.backtrace.grep(%r{/app/(app|lib)/}).first(10)
+  ensure
+    raise ActiveRecord::Rollback
+  end
+end
+```
+
+Esta fue la salida del dry-run:
+```ruby
+valid=true [] product=0198c32e-8319-7eba-856a-10621bd78d27 total=0.0
+OK needs_payment=false
+```
+
+#### Comando de corrección (cambiar la medicación del MR)
+
+Mismo nombre y producto, con medid de 32. Corre antes el dry run de arriba con este update! dentro de la transacción para confirmar que sale OK, y pide aprobación porque toca un MR Completed.
+
+```ruby
+mr = Salesforce::MedicationRequest.find_by(omid__c: "01a0b4ca-b9b6-767d-909b-61e465766b89")
+mr.update!(medication__omid__c: "019b03fb-f9c6-7461-9dd2-a3609030031f")  # antes: 019b03fb-f457-7871-aac9-14f68f90892f
+mr.reload.medication.medid__c  # => "5NuaScOPVmaE68Gi5D9b0RdPYspSnM8g"
+
+# Revert:
+# mr.update!(medication__omid__c: "019b03fb-f457-7871-aac9-14f68f90892f")
+
+Limpieza de MemberPeriods viejos (después de que compre)
+Cancela los 3 MPs viejos en ReadyForProductSelection. El activo es 01a0e92f… y no se toca.
+
+%w[01a0cb22-7333-7111-a376-a9179e6df114 01a0d9af-cb61-7ea6-a6b0-07215967b93d 01a0da5a-b2a5-787e-b459-d50ca8cecbf8].each do |id|
+  mp = Salesforce::MemberPeriod.find_by(omid__c: id)
+  next puts("#{id} tiene #{mp.orders.count} órdenes, revisar") if mp.orders.exists?
+  puts "#{id} #{mp.status} -> #{mp.cancel ? 'Canceled' : "FAILED #{mp.errors.full_messages}"}"
+end
+```
