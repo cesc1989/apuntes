@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8cc30378888f5252",
+        "id": "f2797f481e2c0a69",
         "type": "tabs",
         "children": [
           {
-            "id": "0c6bf744d7668a6f",
+            "id": "072fddf5a5f2dc56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes de Hanami con FC Manager"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "072fddf5a5f2dc56",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
+    "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
@@ -184,7 +191,6 @@
     "OrderlyMeds/LaunchHealthcare/Capacitacion Launch Healthcare.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/attachments/OM_11617.png",
-    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
@@ -203,7 +209,6 @@
     "OrderlyMeds/Help Desk/attachments/om.incomplete.checkin.png",
     "OrderlyMeds/KB/007-needs-prescriber-submission.md",
     "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
-    "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
