@@ -4,49 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d6da3a733bcb93e7",
+        "id": "8cc30378888f5252",
         "type": "tabs",
         "children": [
           {
-            "id": "bee31d3b808cb0ff",
+            "id": "0c6bf744d7668a6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OM Ciclo 57"
-            }
-          },
-          {
-            "id": "9cfae42456179262",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "NAS o DAS 🟢"
-            }
-          },
-          {
-            "id": "846fd5add38cafa7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OM Ciclo 56"
+              "title": "New tab"
             }
           }
         ]
@@ -173,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -198,10 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "bee31d3b808cb0ff",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/attachments/OM-11779.png",
     "OrderlyMeds/Help Desk/attachments/OM-11638.png",
@@ -236,7 +204,6 @@
     "OrderlyMeds/KB/007-needs-prescriber-submission.md",
     "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
     "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
-    "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
