@@ -325,7 +325,7 @@ Hacer el resubmit to MSO mediante consola:
 Salesforce::ResubmitToMso.call(clinical_encounter: ce)
 ```
 
-#### Solución: MedId no estaba activo en MedPicker
+#### Solución: MedId no estaba activo en MedPicker 🔑
 
 Esto es lo que parece. Ya lo está y pude continuar con el ResubmitToMSO en Salesforce.
 
