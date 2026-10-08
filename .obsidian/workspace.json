@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e082fdb0640eac29",
+        "id": "9fe3c6dcedcc5e4b",
         "type": "tabs",
         "children": [
           {
-            "id": "77692b72595eac7d",
+            "id": "68320d19d67c2ed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 56"
+              "title": "OM Ciclo 57"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,13 +170,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "77692b72595eac7d",
+  "active": "68320d19d67c2ed7",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
@@ -207,7 +208,6 @@
     "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "OrderlyMeds/Onboarding.md",
     "OrderlyMeds/Help Desk/attachments/OM_11407.png",
-    "OrderlyMeds/KB/001-member-period.md",
     "OrderlyMeds/LaunchHealthcare",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "OrderlyMeds/KB/starter-pack",
