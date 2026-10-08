@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "9cfae42456179262",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "NAS o DAS 🟢"
+            }
+          },
+          {
             "id": "846fd5add38cafa7",
             "type": "leaf",
             "state": {
@@ -35,8 +49,7 @@
               "title": "OM Ciclo 56"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_oops_error",
+                "query": "caption",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,11 +198,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "846fd5add38cafa7",
+  "active": "bee31d3b808cb0ff",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "OrderlyMeds/Help Desk/attachments/OM-11779.png",
+    "OrderlyMeds/Help Desk/attachments/OM-11638.png",
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
@@ -221,10 +237,7 @@
     "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
     "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
     "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
-    "OrderlyMeds/Onboarding.md",
-    "OrderlyMeds/Help Desk/attachments/OM_11407.png",
     "OrderlyMeds/LaunchHealthcare",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/zellij.configuration.leader.png",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB",
