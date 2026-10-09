@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a9cd120613351a44",
+        "id": "e2d034f676878807",
         "type": "tabs",
         "children": [
           {
-            "id": "3d2eced6754132c4",
+            "id": "860577680f997849",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OM Ciclo 57"
+              "title": "New tab"
             }
           }
         ]
@@ -145,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,10 +165,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "3d2eced6754132c4",
+  "active": "860577680f997849",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/attachments/OM_11848.png",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "OrderlyMeds/Help Desk/attachments/OM_11848.png",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando Zellij.md",
@@ -208,7 +203,6 @@
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/attachments/om.correct.checkin.png",
-    "OrderlyMeds/Help Desk/attachments/om.incomplete.checkin.png",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
