@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e2d034f676878807",
+        "id": "7c9e76e7d7c3b83f",
         "type": "tabs",
         "children": [
           {
-            "id": "860577680f997849",
+            "id": "1b1357e805cc94ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes de Hanami con FC Manager"
-            }
-          },
-          {
-            "id": "1f984a7e733b4b22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes Variados de las Guias"
+              "title": "New tab"
             }
           }
         ]
@@ -159,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "860577680f997849",
+  "active": "1b1357e805cc94ed",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
