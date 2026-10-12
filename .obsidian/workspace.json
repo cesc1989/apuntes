@@ -11,10 +11,28 @@
             "id": "860577680f997849",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes de Hanami con FC Manager"
+            }
+          },
+          {
+            "id": "1f984a7e733b4b22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes Variados de las Guias"
             }
           }
         ]
@@ -141,6 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,13 +186,13 @@
   },
   "active": "860577680f997849",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/attachments/OM_11848.png",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando Zellij.md",
-    "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
-    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
     "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",

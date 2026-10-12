@@ -5,8 +5,8 @@ La parte inicial del modelo de datos, migraciones y relaciones lo hice yo. Luego
 Esto es lo que quiero revisar:
 
 - [x] Contracts en create action
-- [ ] PlayerForm en edit action
-- [ ] handle(*, response) en new action
+- [x] PlayerForm en edit action
+- [x] handle(*, response) en new action
 - [ ] upsert de ROM en PlayerRepo
 - [ ] Forms:
     - [ ] se pasa values en el partial
@@ -16,8 +16,8 @@ Esto es lo que quiero revisar:
     - [ ] expose sin usar repos     
 - [ ] Helpers:
     - [ ] Hay bastante codigo. Revisar para tener claridad.
-- [ ] Lib:
-    - [ ] PlayerCatalog y TraitsCatalog
+- [x] Lib:
+    - [x] PlayersCatalog y TraitsCatalog
 
 
 ## Contracts::PlayerParams
@@ -137,3 +137,142 @@ Los predicados son las opciones que usa el macro. Sirven para verificar la valid
 - `gteq?`
 - `lteq?`
 
+## Clase PlayerForm
+
+Está en `lib/fcmanager/player_form.rb`. Es básicamente un espacio para poner código que ayuda a cargar/convertir valores en el form de Player.
+
+En Hanami se usa el Relation para definir la conexión con la base de datos y el repo para definir las consultas. El código en está clase no tiene cabida en otro lugar. Se puede poner el action pero como se va a reusar supongo que DipSik tomó la decisión de agruparlo.
+
+Por ejemplo, la función `attributes(params)` sirve para preparar los valores ingresados en el form para ser guardados en la BD.
+
+La función `values(player)` hace lo contrario. Toma los valores de la base de datos y los prepara para el form.
+
+## Sobre handle con y sin splat
+
+En algunas partes de los docs lo ponen así:
+```ruby
+handle(*, response)
+```
+
+Y en otras así:
+```ruby
+handle(*, response)
+```
+
+¿por qué?
+
+La explicación al final me la dio claudio:
+> `*` es un splat *anónimo*: recoge cero o más argumentos posicionales en un array sin nombre, que no se puede usar dentro del método.
+>
+> Cuando hay parámetros obligatorios después de un splat, Ruby los llena primero desde el final, y el splat se queda con lo que sobre al principio. Por eso `response` siempre recibe el último argumento.
+
+Esto porque había probado creando este método en el Laboratorio con varias ejecuciones:
+```ruby
+def handle(*, response)
+  puts(response)
+end
+
+handle(response: "hola")
+handle(request: "que", response: "mundo")
+handle("que", "mundo")
+```
+
+que me dieron estas salidas:
+```ruby
+{response: "hola"}
+{request: "que", response: "mundo"}
+mundo
+```
+
+La explicación es que el parámetro `response` está recibiendo todo lo que le pase y por eso la salida es un hash en los llamados que son un hash (no son keyword arguments).
+
+## PlayersCatalog
+
+> [!Note]
+> Esto me parece mucho trabajo pero al parecer, por lo que leo de Hanami, es lo que toca hacer. Hanami no da las cosas tan listas para solo usar como Rails.
+
+Los Enums en Hanami no funcionan como en Rails. Así definí varios enums en la relation de Player:
+```ruby
+attribute(
+	:role,
+	Types::Integer,
+	read: Types::String.enum(
+		"promesa" => 0,
+		"esporádico" => 1,
+		"rotación" => 2,
+		"importante" => 3,
+		"esencial" => 4
+	)
+)
+```
+
+De esta forma se le dice que cuando se _lee_ el dato haga lo conversión. El tema es que aquí lo estoy usando mediante `read` types. Como estoy aprendiendo no me queda claro.
+
+Lo que hizo DipSik en esta clase fue armar varios hashes que definen cómo se lee el valor de la base de datos, cómo se guarda, cómo se muestra en el form y una llave con la que se accede.
+
+Para ello definió varias funciones según lo que se necesite.
+
+Para cargar las opciones de los forms:
+```ruby
+module Fcmanager
+  module PlayersCatalog
+    module_function
+
+    def position_options
+      POSITIONS.map { |position| [position[:label], position[:value]] }
+    end
+
+    def role_options
+      ROLES.map { |role| [role[:label], role[:value]] }
+    end
+
+    def foot_options
+      FEET.map { |foot| [foot[:label], foot[:value]] }
+    end
+  end
+end
+```
+
+Para guardar del form a la bd:
+```ruby
+module Fcmanager
+  module PlayersCatalog
+    module_function
+
+    # Valor de formulario → entero para la DB.
+    def position_db(value)
+      POSITION_DB.fetch(value, 6)
+    end
+
+    def role_db(value)
+      ROLE_DB.fetch(value, 1)
+    end
+
+    def foot_db(value)
+      FOOT_DB.fetch(value, 0)
+    end
+	end
+end
+```
+
+Y para leer de la BD y cargar en el form:
+```ruby
+module Fcmanager
+  module PlayersCatalog
+    module_function
+    
+		# Clave de la relación → valor de formulario (para precargar la edición).
+    def position_value(key)
+      POSITION_VALUE.fetch(key.to_s, "MC")
+    end
+
+    def role_value(key)
+      ROLE_VALUE.fetch(key.to_s, "Esporadico")
+    end
+
+    def foot_value(key)
+      FOOT_VALUE.fetch(key.to_s, "derecho")
+    end
+  end
+end
+```
