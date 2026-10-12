@@ -12,7 +12,7 @@ Esto es lo que quiero revisar:
     - [ ] se pasa values en el partial
     - [ ] se pasa el method y el cancel paths
 - [ ] Views:
-    - [ ] layout = app
+    - [x] layout = app
     - [ ] expose sin usar repos     
 - [ ] Helpers:
     - [ ] Hay bastante codigo. Revisar para tener claridad.
@@ -276,3 +276,12 @@ module Fcmanager
   end
 end
 ```
+
+## Views
+
+### config.layout = app
+
+Por alguna razón DipSik puso eso en todas las vistas. Se me hizo raro porque en el Getting Started no mencionan nada de eso. Reviso los docs y dice que por defecto es  `app`:
+
+[Docs](https://hanakai.org/learn/hanami/v3.0/views/templates-and-partials)
+> views use an `app` layout by default.
