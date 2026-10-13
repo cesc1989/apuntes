@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "62b45255b37a37a5",
+        "id": "7654943c289456b7",
         "type": "tabs",
         "children": [
           {
-            "id": "abe0fba7d85962be",
+            "id": "57cd57d3bbdfbf61",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "OM Ciclo 57"
+            }
+          },
+          {
+            "id": "364054d59b22f095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Codigo de Soluciones"
             }
           }
         ]
@@ -55,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"current medication\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,17 +184,18 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "abe0fba7d85962be",
+  "active": "57cd57d3bbdfbf61",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
     "OrderlyMeds/Help Desk/attachments/OM_11828.png",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
-    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
-    "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/attachments/OM_11848.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando Zellij.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
     "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
@@ -190,7 +205,6 @@
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/attachments/om_11730.png",
     "OrderlyMeds/LaunchHealthcare/Capacitacion Launch Healthcare.md",
@@ -203,7 +217,6 @@
     "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
     "OrderlyMeds/KB/006-care-validate-request.md",
     "OrderlyMeds/Member Period.md",
-    "OrderlyMeds/Help Desk/attachments/unable.to.find.matching.product.png",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "Otro_Espacio/Todo_Software/Hanami.md",
     "Otro_Espacio/Todo_Software/Hanami",

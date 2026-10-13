@@ -202,3 +202,111 @@ La salida es algo como esto:
 ```
 
 donde ya vemos al `01a1122b` ya en estado Cancelled.
+
+## Migraciones manuales de OP a Salesforce
+
+Etiquetas: #om_migration_op_to_sf 
+
+> [!Info]
+> Ver también [[Codigo de Soluciones#Código para solucionar casos en Orderlymeds#Migrar Contacto de Ontraport a Salesforce]]
+
+Casos:
+- OM-11741
+- OM-11757
+
+Al clicar el botón "Migrate to Salesforce" no pasaba nada al tiempo. Así que toca manual. Estos son los pasos para hacerlo desde consola.
+
+### Diagnóstico
+
+```ruby
+a = Account.find("019adcd9-b070-73fb-8ec3-f9f1a46322b4")
+cid = a.ontraport_contact.nk
+
+[a.migrated_to_salesforce?, a.salesforce_account_nk, a.prescriber]
+```
+
+Salida de ese caso:
+```ruby
+[false,
+ nil,
+ #<Prescriber:0x00007fe5851ede68
+  id: "0196abf9-1e99-7c04-b77c-48563cde35aa",
+  name: "Care Validate",
+  created_at: "2025-05-07 18:19:12.409560000 +0000",
+  updated_at: "2025-05-27 17:20:19.649489000 +0000",
+  nk: "733">]
+```
+
+Luego se valida el grupo de prescribers y la flag correspondiente:
+```ruby
+group_id, flag = a.prescriber.care_validate? ?
+  [Salesforce::CareValidateMigrationRolloutJob::CARE_VALIDATE_GROUP_ID, :enable_care_validate_salesforce_migrations] :
+  [Salesforce::BelugaHealthMigrationRolloutJob::BELUGA_HEALTH_GROUP_ID, :enable_salesforce_migrations]
+
+[group_id, flag, Features.enabled?(flag)]
+```
+
+Salida de esto:
+```ruby
+[987, :enable_care_validate_salesforce_migrations, true]
+```
+
+Luego miramos si al cuenta está en ese grupo (esto suele ser la causa que no funcione el botón en Success)
+```ruby
+client = RateLimited::OntraportApiClient.new(limiter: Sidekiq::Limiter.unlimited)
+client.get_contacts_by_group(group_id, ids: cid.to_s, perform_all: 1).any?
+```
+
+Salida:
+```ruby
+false
+```
+
+Finalmente, verificamos que no haya errores al preparar la clase que hace la migración:
+```ruby
+ci = OntraportMigration.fetch_contact(cid)
+ci.valid?
+```
+
+Que debe sacar: `true`
+
+Además este saca errores si los hubiere:
+```ruby
+pp ci.validation_errors
+```
+
+Salida:
+```ruby
+{by_instance: [], by_class: {}}
+```
+
+Este último lista los Member Periods que se crearían:
+```ruby
+ci.member_period_mappings.map { s = it.ontraport_script; [s.id, s.outcome, s.next_consult, s.case_id] }
+```
+
+```ruby
+[[690892, "Cancelled", 2026-10-01 16:00:00 UTC, nil],
+ [696836, "Shipped", 2025-12-01 17:00:00 UTC, "1d374095-7de6-4ed2-b195-802f592592f2"],
+ [701881, nil, 2026-02-25 02:07:47 UTC, "1d374095-7de6-4ed2-b195-802f592592f2"],
+ [851853, "Delivered", 2026-05-13 03:52:05 UTC, "1d374095-7de6-4ed2-b195-802f592592f2"],
+ [942547, nil, nil, nil],
+ [942548, nil, nil, nil],
+ [942645, "Active", 2026-10-01 16:00:00 UTC, nil]]
+```
+
+### Migrar
+
+Si no hubo errores, se corre este comando (usa las variables de los comandos anteriores):
+```ruby
+Ontraport::Meta.with_rate_limiting(limiter: Sidekiq::Limiter.unlimited) do
+  Salesforce::OntraportAccountImporter.call(
+    ontraport_contact_id: cid,
+    contact_import: ci,
+    local_account: a,
+    logger: Logger.new($stdout)
+  )
+end
+```
+
+La salida que se espera es `:imported`.
