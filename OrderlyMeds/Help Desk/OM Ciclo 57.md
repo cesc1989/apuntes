@@ -148,3 +148,57 @@ Cuando volví a correr la query inicial de verificación dio esto:
 ```
 
 Los tres MedIds como `Salesforce::Medication`.
+
+## Caso OM-11828 - Error de Scheduled Clinical Encounter en Salesforce 🟢
+
+Etiquetas: #om_scheduled_clinical_encounter_exists 
+
+El error cuando intenté hacer un ResubmitToMSO:
+![[OM_11828.png]]
+
+> `Patient::Checkin::ClinicalEncounterScheduler::NotSchedulable` A scheduled clinical encounter already exists
+
+
+El problema es que el Member Period tenía dos Clinical Encounters creados casi que al mismo tiempo:
+![[OM_11828.b.png]]
+
+Donde el CE con omid `"01a1122b-c571-7e67-b8f5-a652e9d40626"` era el que necesitaba cancelarse pero el sistema estaba agarrando el que aparece después. Que ya estaba cancelado.
+
+Entonces el fix fue hacer el resubmit desde consola pasando este omid (el del CE en scheduled). Así.
+
+Primero se confirma que se devuelve lo que se quiere. Este era un caso de cambio de medicamento entonces queríamos...
+```ruby
+ce = Salesforce::ClinicalEncounter.find("01a1122b-c571-7e67-b8f5-a652e9d40626")
+p = Salesforce::ResubmitToMso.preview(clinical_encounter: ce, overrides: {prescription_strength: 10, weeks_of_supply: 4})
+
+pp p.validation_errors, p.matching_product&.name, p.recommended_medication&.then { {med_id: it.med_id, rx_strength: it.rx_strength, weeks: it.weeks_of_supply} }
+```
+
+...esta salida
+```ruby
+[]
+"1-month Tirzepatide (High Dosage)"
+{med_id: "EwS6VvRRwnBZhvdE775hKexfka4kKTwm", rx_strength: 10.0, weeks: 4.0}
+```
+
+Luego se ejecuta manualmente pasando el Clinical Encounter que nos interesa:
+```ruby
+r = Salesforce::ResubmitToMso.execute(clinical_encounter: ce, overrides: {prescription_strength: 10, weeks_of_supply: 4})
+```
+
+Verificación posterior:
+```ruby
+mp = ce.member_period.reload
+puts mp.status
+
+mp.clinical_encounters.order(:start_date).last(3).each { puts [it.omid, it.status, it.source_system_identifier].join(" | ") }; nil
+```
+
+La salida es algo como esto:
+```
+01a1122b-c571-7e67-b8f5-a652e9d40626 | Cancelled | 37ef5b8c-2ca3-43d4-b88f-2ff0d29bceaa
+01a1122c-55ed-7410-8112-4274ef9d50c7 | Cancelled |
+01a135e9-f491-73c4-b557-ee9e84e68605 | Scheduled | bd9425e5-f961-44b9-b1ce-5cd3e4785d05
+```
+
+donde ya vemos al `01a1122b` ya en estado Cancelled.

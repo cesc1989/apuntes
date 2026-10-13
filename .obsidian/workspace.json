@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -172,6 +172,8 @@
   },
   "active": "abe0fba7d85962be",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
+    "OrderlyMeds/Help Desk/attachments/OM_11828.png",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
@@ -207,7 +209,6 @@
     "Otro_Espacio/Todo_Software/Hanami",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
     "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
-    "OrderlyMeds/Help Desk/attachments/om.correct.checkin.png",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
