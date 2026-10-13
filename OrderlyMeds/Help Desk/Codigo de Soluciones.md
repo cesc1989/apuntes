@@ -377,5 +377,5 @@ Si fue exitoso, la salida sería `:imported`.
 Cómo funciona:
 - **Se detiene sin migrar** en cuatro casos: si la cuenta ya está migrada, si no tiene contacto de OP, si el flag del prescriber está apagado, o si `contact_import` es inválido (en ese caso imprime los `validation_errors`).
 - **El grupo (859 o 987) solo se muestra** en la salida y no bloquea nada.
-- Si el `sfid` tarda en llegar, reintenta hasta 3 veces cada 30s. Se puede hacer porque el importer es idempotente.
-- Al terminar imprime el omid, el sfid, la URL de Lightning y los MemberPeriods. Si algo falla, devuelve nil; si sale bien, devuelve la Salesforce::PersonAccount.
+- **Si el `sfid` tarda en llegar**, reintenta hasta 3 veces cada 30s. Se puede hacer porque el importer es idempotente.
+- **Al terminar** imprime el omid, el sfid, la URL de Lightning y los MemberPeriods. Si algo falla, devuelve `nil`; si sale bien, devuelve la `Salesforce::PersonAccount`.
