@@ -292,23 +292,90 @@ update_imported_outcome(
 ## Migrar Contacto de Ontraport a Salesforce
 
 ```ruby
-a = Account.find("ID")
-cid = a.ontraport_contact.nk
-ci = OntraportMigration.fetch_contact(cid)
+def migrate_op_to_sf(account_id)
+  log = ->(label, value) { puts "  #{label.to_s.ljust(22)} #{value.inspect}" }
+  abort_with = ->(reason) { puts "\n❌ ABORTADO: #{reason}"; return nil }
 
-ci.valid?
-```
+  a = Account.find(account_id)
+  puts "\n== Cuenta #{a.id} (#{a.email})"
 
-Si es válido:
-```ruby
-Ontraport::Meta.with_rate_limiting(limiter: Sidekiq::Limiter.unlimited) do
-  Salesforce::OntraportAccountImporter.call(
-    ontraport_contact_id: cid,
-    contact_import: ci,
-    local_account: a,
-    logger: Logger.new($stdout)
-  )
+  if a.migrated_to_salesforce?
+    log.(:salesforce_account_nk, a.salesforce_account_nk)
+    return abort_with.("ya está migrada a Salesforce")
+  end
+
+  contact = a.ontraport_contact
+  return abort_with.("no tiene contacto de Ontraport") if contact.blank? || contact.nk.blank?
+  cid = contact.nk
+  log.(:ontraport_contact_id, cid)
+
+  prescriber = a.prescriber
+  group_id, flag = if prescriber.care_validate?
+    [Salesforce::CareValidateMigrationRolloutJob::CARE_VALIDATE_GROUP_ID, :enable_care_validate_salesforce_migrations]
+  else
+    [Salesforce::BelugaHealthMigrationRolloutJob::BELUGA_HEALTH_GROUP_ID, :enable_salesforce_migrations]
+  end
+  log.(:prescriber, prescriber)
+  log.(:feature_flag, flag)
+  log.(:flag_enabled, Features.enabled?(flag))
+  return abort_with.("flag #{flag} está apagado") unless Features.enabled?(flag)
+
+  # Informativo: el job lo usa como filtro, aquí no bloquea
+  in_group = begin
+    RateLimited::OntraportApiClient.new(limiter: Sidekiq::Limiter.unlimited)
+      .get_contacts_by_group(group_id, ids: cid.to_s, perform_all: 1).any?
+  rescue => e
+    "error: #{e.class}: #{e.message}"
+  end
+  log.(:"in_group_#{group_id}", in_group)
+
+  ci = OntraportMigration.fetch_contact(cid)
+  puts "\n== Scripts [id, outcome, next_consult, case_id]"
+  ci.member_period_mappings.each { s = it.ontraport_script; puts "  #{[s.id, s.outcome, s.next_consult, s.case_id].inspect}" }
+
+  unless ci.valid?
+    pp ci.validation_errors
+    return abort_with.("contact_import inválido (ver validation_errors arriba)")
+  end
+  log.(:contact_import_valid, true)
+
+  puts "\n== Migrando..."
+  attempts = 0
+  begin
+    attempts += 1
+    Ontraport::Meta.with_rate_limiting(limiter: Sidekiq::Limiter.unlimited) do
+      Salesforce::OntraportAccountImporter.call(
+        ontraport_contact_id: cid,
+        contact_import: ci,
+        local_account: a,
+        logger: Logger.new($stdout)
+      )
+    end
+  rescue RuntimeError => e
+    raise unless e.message.include?("sfid is not available yet") && attempts < 4
+    puts "  sfid aún no sincroniza (intento #{attempts}/3), reintentando en 30s..."
+    sleep 30
+    retry
+  end
+
+  a.reload
+  return abort_with.("el importer terminó pero salesforce_account_nk sigue vacío") unless a.migrated_to_salesforce?
+
+  sa = a.salesforce_account
+  puts "\n✅ Migrada"
+  log.(:omid, sa.omid)
+  log.(:sfid, sa.sfid)
+  log.(:lightning_url, sa.lightning_url)
+  puts "\n== MemberPeriods [status, checkin_due_date, ontraport_script_id]"
+  Salesforce::MemberPeriod.where(account: sa).pluck(:status, :checkin_due_date, :ontraport_script_id).each { puts "  #{it.inspect}" }
+  sa
 end
 ```
 
 Si fue exitoso, la salida sería `:imported`.
+
+Cómo funciona:
+- **Se detiene sin migrar** en cuatro casos: si la cuenta ya está migrada, si no tiene contacto de OP, si el flag del prescriber está apagado, o si `contact_import` es inválido (en ese caso imprime los `validation_errors`).
+- **El grupo (859 o 987) solo se muestra** en la salida y no bloquea nada.
+- Si el `sfid` tarda en llegar, reintenta hasta 3 veces cada 30s. Se puede hacer porque el importer es idempotente.
+- Al terminar imprime el omid, el sfid, la URL de Lightning y los MemberPeriods. Si algo falla, devuelve nil; si sale bien, devuelve la Salesforce::PersonAccount.
