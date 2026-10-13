@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7c9e76e7d7c3b83f",
+        "id": "62b45255b37a37a5",
         "type": "tabs",
         "children": [
           {
-            "id": "1b1357e805cc94ed",
+            "id": "abe0fba7d85962be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "OM Ciclo 57"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "1b1357e805cc94ed",
+  "active": "abe0fba7d85962be",
   "lastOpenFiles": [
+    "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
@@ -194,7 +200,6 @@
     "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
     "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
     "OrderlyMeds/KB/006-care-validate-request.md",
-    "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Member Period.md",
     "OrderlyMeds/Help Desk/attachments/unable.to.find.matching.product.png",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
