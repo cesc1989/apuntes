@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7103a7b688e36e6c",
+        "id": "ff82c5a3d4a13921",
         "type": "tabs",
         "children": [
           {
-            "id": "58f76a81bcba3836",
+            "id": "8e6265e5778e631c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_de_Sublime_Text"
+              "title": "Configuracion de Solargraph para Sublime en Macos"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,15 +170,18 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "58f76a81bcba3836",
+  "active": "8e6265e5778e631c",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Zed Editor - Atajos de Teclado.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Sublime_Text_-_Atajos_de_Teclado.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_VS_Code.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
@@ -201,10 +204,7 @@
     "OrderlyMeds/Help Desk/attachments/OM-11638.png",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/attachments/om_11730.png",
-    "OrderlyMeds/LaunchHealthcare/Capacitacion Launch Healthcare.md",
     "OrderlyMeds/Help Desk/attachments/OM_11617.png",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
