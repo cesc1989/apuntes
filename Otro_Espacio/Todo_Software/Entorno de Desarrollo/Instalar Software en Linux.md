@@ -11,17 +11,17 @@ Sitio web: https://github.com/dandavison/delta/
 Hay que descargar el archivo .deb en https://github.com/dandavison/delta/releases
 
 Es el que tiene nombre similar a:
-```
+```bash
 git-delta_0.18.2_amd64.deb
 ```
 
 Una vez descargado el comando para instalar es:
-```
+```bash
 sudo dpkg -i git-delta_0.18.2_amd64.deb
 ```
 
 Se puede comprobar con:
-```
+```bash
 which delta
 /usr/bin/delta
 

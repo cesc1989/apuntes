@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a9fc45a0842fb320",
+        "id": "edb10aef13dc7a88",
         "type": "tabs",
         "children": [
           {
-            "id": "dece1ed3c88a8a98",
+            "id": "f64d9f20f63ca937",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-                "mode": "preview",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Codigo de Soluciones"
+              "title": "Instalar Software en Linux"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,10 +170,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "dece1ed3c88a8a98",
+  "active": "f64d9f20f63ca937",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Instalar Software en Linux.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Macos - Configs.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
@@ -204,10 +208,7 @@
     "OrderlyMeds/KB/006-care-validate-request.md",
     "OrderlyMeds/Member Period.md",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
-    "Otro_Espacio/Todo_Software/Hanami.md",
     "Otro_Espacio/Todo_Software/Hanami",
-    "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Use the Index, Luke - Markus Winand.md",
-    "OrderlyMeds/Help Desk/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
