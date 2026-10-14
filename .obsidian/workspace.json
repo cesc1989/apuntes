@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a2fd987c389a954",
+        "id": "d0c91476b4c46211",
         "type": "tabs",
         "children": [
           {
-            "id": "e760fb4949a53b41",
+            "id": "678793bcdaec1b6c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes_de_Sublime_Text"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "was not declared",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "e760fb4949a53b41",
+  "active": "678793bcdaec1b6c",
   "lastOpenFiles": [
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Probando Bruno - Cliente API.md",
@@ -202,7 +208,6 @@
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
     "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
-    "OrderlyMeds/KB/005-prescriptores-y-farmacias.md",
     "Otro_Espacio/Todo_Software/Hanami",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",

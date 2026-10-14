@@ -184,6 +184,14 @@ Está la gema [solargraph-rails](https://github.com/iftheshoefritz/solargraph-ra
 
 ![error de solargraph](error.solargraph.png)
 
+> [!Note]
+> Texto para copiar y pegar:
+> > Failed to start ruby-lsp - disabling for this window for the duration of the current session.
+Re-enable by running "LSP: Enable Language Server In Project" from the Command Palette.
+> >
+> > --- Error: ---
+> > [Errno 2] No such file or directory: 'ruby-lsp'
+
 Enlaces:
 
 - [Guía de configuración](https://solargraph.org/guides/configuration) de Solargraph
