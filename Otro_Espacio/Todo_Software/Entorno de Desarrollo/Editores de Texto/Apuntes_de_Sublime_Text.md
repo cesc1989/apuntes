@@ -182,6 +182,9 @@ Está la gema [solargraph-rails](https://github.com/iftheshoefritz/solargraph-ra
 
 ### Problema con Solargraph luego de reiniciar el equipo
 
+> [!Info]
+> Esto fue solucionado en [[Configuracion de Solargraph para Sublime en Macos]]
+
 ![error de solargraph](error.solargraph.png)
 
 > [!Note]

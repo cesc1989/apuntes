@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff82c5a3d4a13921",
+        "id": "3c4d777706f97e6c",
         "type": "tabs",
         "children": [
           {
-            "id": "8e6265e5778e631c",
+            "id": "5c0025bb899edf98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configuracion de Solargraph para Sublime en Macos"
+              "title": "Apuntes_de_Sublime_Text"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,7 +170,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8e6265e5778e631c",
+  "active": "5c0025bb899edf98",
   "lastOpenFiles": [
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Zed Editor - Atajos de Teclado.md",
