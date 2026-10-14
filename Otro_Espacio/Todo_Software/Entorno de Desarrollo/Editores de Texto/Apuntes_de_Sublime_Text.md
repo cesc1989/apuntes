@@ -90,9 +90,9 @@ Siguiendo los pasos de [esta respuesta](https://stackoverflow.com/a/38694182/140
 
 En el mac anterior, crea un repo vacío en la carpeta de Sublime
 ```bash
-$ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
-$ git init
+git init
 ```
 
 y luego crea un archivo `.gitignore` con este contenido:

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d8c74f88bc9e1340",
+        "id": "7103a7b688e36e6c",
         "type": "tabs",
         "children": [
           {
-            "id": "e53e735bced620e2",
+            "id": "58f76a81bcba3836",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes_de_Sublime_Text"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "58f76a81bcba3836",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
