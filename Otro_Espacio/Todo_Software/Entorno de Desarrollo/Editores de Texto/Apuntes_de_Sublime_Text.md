@@ -227,31 +227,16 @@ Building native extensions. This could take a while...
 Restored strscan-3.1.0
 ```
 
-### ¿Está usando la versión correcta de Ruby?
+### Pista: ¿Está usando la versión correcta de Ruby?
+
+> [!Danger]
+> No lo estaba.
 
 Al ver el log anterior parece que no está usando la versión correcta de Ruby sino la que viene por defecto en el sistema (esta no hay que usarla nunca):
 ```bash
 ruby: /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
 ```
 
-
-## Con Ruby LSP de Shopify
-
-Decidí cambiar de gema. Desinstalé todo lo de solargraph porque igual no me está funcionando y me fio con ruby-lsp pero obtengo el mismo error.
-
-Enlaces:
-- [Ruby LSP](https://shopify.github.io/ruby-lsp/editors.html)
-- Configuración con [Sublime LSP](https://lsp.sublimetext.io/language_servers/#ruby-lsp)
-
-Sobre el último error que obtuve, en [este issue](https://github.com/Shopify/ruby-lsp/issues/2842#issuecomment-2484052337) arrojan algo de luz. Puede ser con algo de chruby no cargando en el mismo entorno que Sublime Text. Por eso es que se ve que intenta cargar la versión del sistema.
-
-### Problema de crashed 5 times
-
-```
-**The ruby-lsp server has crashed 5 times in the last 180 seconds.**
-
-**You can try to Restart it or you can choose Cancel to disable it for this window for the duration of the current session. Re-enable by running "LSP: Enable Language Server In Project" from the Command Palette.**
-```
 
 # Ocultar carpeta de resultados de búsqueda
 
