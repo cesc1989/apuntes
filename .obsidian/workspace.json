@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -172,6 +172,8 @@
   },
   "active": "678793bcdaec1b6c",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Apuntes_de_Sublime_Text.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Teclados.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Sublime_Text_-_Atajos_de_Teclado.md",
@@ -181,7 +183,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
@@ -207,7 +208,6 @@
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
-    "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
     "Otro_Espacio/Todo_Software/Hanami",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
