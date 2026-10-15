@@ -203,7 +203,7 @@ La salida es algo como esto:
 
 donde ya vemos al `01a1122b` ya en estado Cancelled.
 
-## Migraciones manuales de OP a Salesforce
+## Migraciones manuales de OP a Salesforce 🟢
 
 Etiquetas: #om_migration_op_to_sf 
 
@@ -310,3 +310,86 @@ end
 ```
 
 La salida que se espera es `:imported`.
+
+## Caso OM-11930 - Order not at pharmacy because of Prescriber not in system 🟡🔑
+
+Etiquetas: #om_practitioner_not_in_system 
+
+Caso de CX en Ontraport con Beluga como prescriber. La orden no estaba en farmacia pero no había fallo de bundle. Probé hacer el resubmit com dice en [[OM Ciclo 56#Caso OM-11730 - Resubmit de Bundle en Ontraport - Bundle Rejected 🟢]]
+
+Relacionado con lo que pasó de SmartPharma en [[OM Ciclo 51#Pista de caso OM-10311 - Practitioner]]
+
+Una vez más tocaba crear el practicioner en el sistema. Lo hice con el código que hay. No sé si tocaba pedir para que lo crearan en SmartPharma pero me dio igual. Quería avanzar.
+
+Apuntes que me da claudio.
+
+> [!Info]
+> El pedido no llegaba a SmartPharma porque la médica que lo recetó (Dra. Mamta Singh, NPI `xxxxxxxxx`) no estaba registrada como `SmartPharma::Practitioner`. Se dio de alta a mano y se reprocesó el Order.
+
+### Por qué el resubmit del bundle no hacía nada
+
+- Al cargar el bundle, su estado ya era `automatically_approved`, con `updated_at` del **5 oct**. Ese día ya había pasado la validación y había encolado los jobs posteriores. El resubmit solo repitió lo mismo, con el mismo resultado.
+- El `CloseRxWrittenBundleJob` devolvió un `jid`, así que los jobs sí se encolaron. El bundle no era el problema.
+- `Orders::CreateOrder` **reutiliza el Order existente** si ya hay uno para ese `master_id` (`app/services/orders/create_order.rb:52-54`). Por eso reintentar desde el bundle nunca arregla un Order atorado.
+
+### Por qué el fallo estaba en el Order
+
+- En Success, la columna **Pharmacy** de la tabla de Orders **no** muestra la farmacia asignada al Order. Muestra si existe el registro del lado de la farmacia (`Admin::Overview::DataLoader#build_order_pharmacy_map`):
+  - `PerfectRx::OrderPrescription` → "PerfectRx"
+  - `Casa::OrderOrder` → "Casa" / "Evoluciona"
+  - `SmartPharma::MedicationOrdersOrder` → "SmartPharma"
+- **`-` = el Order existe pero nunca se creó el pedido en ninguna farmacia.**
+- Datos del Order (`01a10e55-c70a-77e4-b045-682974545169`):
+  - farmacia asignada = SmartPharma (coincide con el webhook), no cancelado
+  - **tiene `payload`**: eso solo lo escribe `Orders::ProcessOrder`, así que `ProcessOrder` sí corrió el 5 oct
+  - `sent_to_pharmacy_at` = nil y `updated_at` sigue del 5 oct: el resubmit de hoy ni lo tocó
+- Descarte dentro de `SmartPharma::ProcessOrder`:
+  - flag `PROCESS_SMART_PHARMA_ORDERS` = `true`, así que no lo estaba saltando
+  - `SmartPharma::MedicationOrdersOrder` para el Order = `[]`, así que nunca se creó el MedicationOrder
+  - `JSON.parse(o.payload)` parsea bien y trae los datos del medicamento y del prescriptor
+- Lo único que falla **antes** de crear el MedicationOrder es `find_practitioner!` (`app/services/smart_pharma/find_or_create_medication_order.rb:162`). Busca `SmartPharma::Practitioner.find_by(npi:)` con el NPI de `payload["prescriber"]["npi"]` y lanza `NoPractitionerFound` si no lo encuentra.
+- Verificación: `SmartPharma::Practitioner.find_by(npi: "1891031522")` → `nil`.
+
+### Cómo encontré cómo dar de alta al practitioner
+
+- Ningún código de la app crea practitioners. Existe `SmartPharma::CreatePractitioner` (`app/services/smart_pharma/create_practitioner.rb`) para correrlo a mano, pero **está roto**.
+- Así que se replicó el servicio a mano usando sus piezas: `SmartPharma::Api::Encoder::Practitioner`, `SmartPharma::Api::Practitioner.create` (`lib/smart_pharma/api/practitioner.rb`), el modelo `SmartPharma::Practitioner` y su `has_one :clinic`.
+- Para saber qué datos poner, se revisaron los médicos de Beluga que ya existen:
+  - clínica: **Beluga Health PA** (`019aea71-2963-7cf7-bfe0-47401a615507`, external_nk `b26d2639`...)
+  - email: `Nombre.Apellido@orderlymeds.com`
+  - `dea`: `nil`
+  - apellido sin "MD": Beluga lo manda como `"Singh MD"`, y el "MD" va en `credential`
+- La API de Pharmetika no tiene búsqueda, así que hay que confirmar con SmartPharma que no exista ya antes de crearla.
+
+### Comandos ejecutados
+
+```ruby
+# Preparar y verificar
+# Beluga Health PA
+clinic = SmartPharma::Clinic.find("019aea71-2963-7cf7-bfe0-47401a615507")
+data = {"npi" => "1891031522", "first_name" => "Mamta", "last_name" => "Singh", "credential" => "MD",
+        "email" => "Mamta.Singh@orderlymeds.com", "dea" => nil,
+        "username" => SecureRandom.uuid_v7, "password" => SecureRandom.uuid_v7}
+
+SmartPharma::Practitioner.where(npi: data["npi"]).or(SmartPharma::Practitioner.where(email: data["email"])).pluck(:id)
+# => []
+
+# Crear en Pharmetika (si devuelve error, parar y no reintentar)
+client = SmartPharma::Api::Client.new(logger: Rails.logger)
+resp = SmartPharma::Api::Practitioner.create(client:, practitioner_data: SmartPharma::Api::Encoder::Practitioner.encode(practitioner_data: data), clinic_identifier: clinic.external_nk)
+
+# Guardar localmente y asociar a la clínica
+pr = ActiveRecord::Base.transaction do
+  SmartPharma::Practitioner.create!(data.except("credential").merge("external_nk" => resp["practitioner_identifier"])).tap { it.create_practitioner_clinic!(clinic:) }
+end
+
+# Reprocesar el Order
+o = Order.find("01a10e55-c70a-77e4-b045-682974545169")
+Orders::ProcessOrder.call(order: o, payload: o.payload, logger: Rails.logger)
+```
+
+### Lecciones
+
+- Si en Success un Order dice **Pharmacy `-`**, no hagas resubmit del bundle. Revisa por qué falló `ProcessOrder` en la farmacia de ese Order.
+- Para SmartPharma, lo primero que hay que revisar es si existe el NPI del prescriptor en `SmartPharma::Practitioner`.
+- Si un médico nuevo de Beluga no está registrado, **todos** sus pacientes de SmartPharma quedan atorados. Hay que buscar otros Orders con el mismo NPI.
