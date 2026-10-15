@@ -302,6 +302,8 @@ Casa::ProcessCasaOrderJob.new.perform(casa_order.id)
 
 ### Pista de caso OM-10311 - Practitioner
 
+Etiquetas: #om_practitioner_not_in_system
+
 Para este, usando el script de debuggeo, llegué a este error:
 ```
 --- Pharmacy submission records per order ---

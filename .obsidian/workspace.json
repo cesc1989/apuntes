@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3c4d777706f97e6c",
+        "id": "efc9736045d3209d",
         "type": "tabs",
         "children": [
           {
-            "id": "5c0025bb899edf98",
+            "id": "3768e12f582c4ef7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_de_Sublime_Text"
+              "title": "OM Ciclo 51"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "was not declared",
+                "query": "prescriber",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 51.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,13 +171,19 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "5c0025bb899edf98",
+  "active": "3768e12f582c4ef7",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/Fallo al crear Casa Order - OM-9398.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Zed Editor - Atajos de Teclado.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Sublime_Text_-_Atajos_de_Teclado.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_VS_Code.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
@@ -188,8 +195,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo Linux - Configuracion Inicial.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Entorno de Desarrollo - Parte 1.md",
     "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
@@ -198,12 +203,8 @@
     "OrderlyMeds/Help Desk/attachments/OM_11848.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando Zellij.md",
     "DevAsPros/Gestión/Datos Miscelaneos - Dev As Pros.md",
-    "OrderlyMeds/SucccessPortalOptimization/Configuración del Repo.md",
-    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
     "OrderlyMeds/Help Desk/attachments/OM-11779.png",
     "OrderlyMeds/Help Desk/attachments/OM-11638.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/attachments/om_11730.png",
     "OrderlyMeds/Help Desk/attachments/OM_11617.png",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
