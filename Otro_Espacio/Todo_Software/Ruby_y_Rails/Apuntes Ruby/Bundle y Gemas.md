@@ -45,3 +45,37 @@ Así funca Semantic Versioning:
 >  3. PATCH version when you make backward compatible bug fixes
 
 Sitio web: https://semver.org/
+
+## Warning de constantes al correr comandos de bundle
+
+Esto me salía en varios proyectos luego de haber actualizado Ruby Gems:
+```bash
+warning: previous definition of X64_MINGW was here
+warning: already initialized constant Gem::Platform::WINDOWS
+warning: already initialized constant Gem::Platform::X64_LINUX_MUSL
+```
+
+El problema es la versión de bundle que está en el Gemfile:
+```ruby
+BUNDLED WITH
+   2.4.22
+```
+
+la cual es muy vieja para la versión de Bundle a la que pasé (4.0.21). Para corregir hay que correr:
+```bash
+bundle update --bundler
+```
+
+Lo que cambiará la versión de bundler en el Gemfile:
+```diff
+BUNDLED WITH
+-   2.4.22
++   4.1.0.beta2
+```
+
+Además, cambié platfform de la gema byebug para que use las correctas:
+```ruby
+gem "byebug", platforms: %i[mri windows]
+```
+
+porque había un warning de depreciación sobre eso.
