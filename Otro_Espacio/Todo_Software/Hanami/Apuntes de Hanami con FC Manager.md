@@ -8,14 +8,14 @@ Esto es lo que quiero revisar:
 - [x] PlayerForm en edit action
 - [x] handle(*, response) en new action
 - [ ] upsert de ROM en PlayerRepo
-- [ ] Forms:
-    - [ ] se pasa values en el partial
-    - [ ] se pasa el method y el cancel paths
-- [ ] Views:
+- [x] Forms:
+    - [x] se pasa values en el partial
+    - [x] se pasa el method y el cancel paths
+- [x] Views:
     - [x] layout = app
-    - [ ] expose sin usar repos     
+    - [x] exposures
 - [ ] Helpers:
-    - [ ] Hay bastante codigo. Revisar para tener claridad.
+    - [ ] Hay bastante código. Revisar para tener claridad.
 - [x] Lib:
     - [x] PlayersCatalog y TraitsCatalog
 
@@ -285,3 +285,134 @@ Por alguna razón DipSik puso eso en todas las vistas. Se me hizo raro porque en
 
 [Docs](https://hanakai.org/learn/hanami/v3.0/views/templates-and-partials)
 > views use an `app` layout by default.
+
+
+### Exposures
+
+Este es el mecanismo en que la View le pasa valores que vienen del Action al Template. No es tan automático como en Rails.
+
+El ejemplo más claro es pasar los `traits` hasta el form. Todo el viaje empieza en la action edit:
+```ruby
+module Fcmanager
+  module Actions
+    module Squad
+      class Edit < Fcmanager::Action
+        include Deps["repos.player_repo", "repos.trait_repo"]
+
+        def handle(request, response)
+          # (...)
+          response[:traits] = trait_repo.all
+        end
+      end
+    end
+  end
+end
+```
+
+> [!Important]
+> Lo que está en `response[:traits]` es guardado en `response.exposures` y es pasado tal cual a la View.
+
+Luego en la View tenemos acceso a ese valor:
+```ruby
+module Fcmanager
+  module Views
+    module Squad
+      class Edit < Fcmanager::View
+        include Deps["routes"]
+
+        expose :traits
+        # (...)
+      end
+    end
+  end
+end
+```
+
+
+En el template de edit no hay necesidad de pasarle el local `traits` al form. Eso se pasa de manera automática al partial:
+```ruby
+# template
+<main>
+  <section class="form-page">
+    <div class="form-panel">
+      <%= render "squad/form" %>
+    </div>
+  </section>
+</main>
+
+# partial
+<h4 class="card-subtitle">Características</h4>
+  <div class="traits">
+    <% grouped_traits(traits).each do |group| %>
+    <% end %>
+  </div>
+```
+
+## Forms y el partial que pasa muchos locals
+
+Esto hizo DipSik en los templates new y edit.
+
+new:
+```ruby
+<%= render "squad/form",
+            action: routes.path(:squad),
+            form_method: :post,
+            values: {
+              name: "",
+              age: 20,
+              position: "MC",
+              role: "Esporadico",
+              overall: 65,
+              height: 180,
+              foot: "derecho",
+              comment: ""
+            },
+            traits: traits,
+            cancel_path: routes.path(:squad),
+            submit_label: "Guardar" %>
+```
+
+Edit:
+```ruby
+<%= render "squad/form",
+            action: routes.path(:update_squad, id: player_id),
+            form_method: :patch,
+            values: player_values,
+            traits: traits,
+            cancel_path: routes.path(:squad),
+            submit_label: "Guardar cambios" %>
+```
+
+Hay cosas que sí toca pasar y otras que tal vez DipSik no usó bien.
+
+### Lo que sí toca pasar
+
+> [!Info]
+> Claudio dice:
+> > Hanami no tiene `form_with model:` ni rutas polimórficas, así que la URL, el método y el texto del botón sí hay que pasarlos.
+
+Eso explica que haya que pasar:
+- `action`
+- `form_method`
+- `submit_label`
+
+Claudio explica por lo siguiente:
+> No hay objeto modelo con `persisted?`, así que no puede deducir POST o PATCH, la URL ni "Crear" o "Guardar cambios". `action` y `form_method` hay que pasarlos sí o sí.
+
+
+> Los errores no van pegados al modelo. Viven en `request.params.errors`, y de ahí salen los helpers `field_errors` y `error_messages`.
+
+Por lo anterior es que tenemos esto en el partial del form. Justo al comienzo:
+```ruby
+<% errors = request.params.errors %>
+```
+
+### Lo que sobró
+
+Sobraba el local `cancel_path`. Se está llamando a la misma ruta.
+
+### Refactor con Claudio
+
+Claudio notó que se podía refactorizar para no tener que pasar tantos locals. Quedó mucho mejor. Más "Hanami Way" usando exposures para pasar los locals automáticamente al template/partial.
+
+Ver en este commit: https://github.com/cesc1989/fcmanager/commit/6be69c50dc98a045cb2bbed9c96f664c15352a14
