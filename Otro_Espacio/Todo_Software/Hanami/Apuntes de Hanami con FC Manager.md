@@ -7,15 +7,15 @@ Esto es lo que quiero revisar:
 - [x] Contracts en create action
 - [x] PlayerForm en edit action
 - [x] handle(*, response) en new action
-- [ ] upsert de ROM en PlayerRepo
+- [x] upsert de ROM en PlayerRepo
 - [x] Forms:
     - [x] se pasa values en el partial
     - [x] se pasa el method y el cancel paths
 - [x] Views:
     - [x] layout = app
     - [x] exposures
-- [ ] Helpers:
-    - [ ] Hay bastante código. Revisar para tener claridad.
+- [x] Helpers:
+    - [x] Hay bastante código. Revisar para tener claridad.
 - [x] Lib:
     - [x] PlayersCatalog y TraitsCatalog
 
@@ -416,3 +416,55 @@ Sobraba el local `cancel_path`. Se está llamando a la misma ruta.
 Claudio notó que se podía refactorizar para no tener que pasar tantos locals. Quedó mucho mejor. Más "Hanami Way" usando exposures para pasar los locals automáticamente al template/partial.
 
 Ver en este commit: https://github.com/cesc1989/fcmanager/commit/6be69c50dc98a045cb2bbed9c96f664c15352a14
+
+## upsert de ROM Relation
+
+Docs al respecto:
+
+- rom-sql: https://github.com/hanakai-rb/rom-sql/blob/v3.7.0/lib/rom/sql/relation/writing.rb
+- Sequel: http://sequel.jeremyevans.net/rdoc-adapters/classes/Sequel/Postgres/DatasetMethods.html#method-i-insert_conflict
+
+La explicación que me da claudio y me ayuda a entender.
+
+### Resumen
+
+Para este caso:
+```ruby
+traits.upsert(
+	{name: name, kind: kind},
+	{target: :name, update: {kind: kind}}
+)
+```
+
+`upsert` recibe dos hashes.
+
+El primero:
+```ruby
+{name: name, kind: kind},
+```
+
+son los valores con los que se quiere inserter o actualizar.
+
+El segundo:
+```ruby
+{target: :name, update: {kind: kind}}
+```
+
+Indica con qué valor se resuelve el conflicto y qué valor se actualiza si hay conflicto.
+
+- `target: name`: es la columna a vigilar si hay conflicto en el campo `name`. Normalmente tiene un índice único o es clave primaria.
+
+Para la tabla `traits` se creó uno:
+```sql
+CREATE UNIQUE INDEX `traits_name_index` ON `traits`(`name`);
+```
+
+- `update: {kind: kind}`: es el valor que se actualiza si hubo conflicto. Es decir, se encontró un registro existente.
+
+> [!Info]
+> Claudio completa con este ejemplo:
+> > ```
+> > INSERT INTO traits (name, kind) VALUES ('Barridas', 2)
+ON CONFLICT (name) DO UPDATE SET kind = 2
+> > ```
+> > Es decir: si no existe un trait con ese `name`, lo crea; si ya existe, le actualiza el `kind`.
