@@ -315,6 +315,10 @@ La salida que se espera es `:imported`.
 
 Etiquetas: #om_practitioner_not_in_system 
 
+> [!Info]
+> Otros casos:
+> - OM-12036
+
 Caso de CX en Ontraport con Beluga como prescriber. La orden no estaba en farmacia pero no había fallo de bundle. Probé hacer el resubmit com dice en [[OM Ciclo 56#Caso OM-11730 - Resubmit de Bundle en Ontraport - Bundle Rejected 🟢]]
 
 Relacionado con lo que pasó de SmartPharma en [[OM Ciclo 51#Pista de caso OM-10311 - Practitioner]]

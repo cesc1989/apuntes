@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "bedc7592bce74633",
+        "id": "8bdf2e2173be38b5",
         "type": "tabs",
         "children": [
           {
-            "id": "7a4b9988eb6bae17",
+            "id": "507565a56a7077aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
+                "file": "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes de Hanami con FC Manager"
+              "title": "Codigo de Soluciones"
+            }
+          },
+          {
+            "id": "15d84724ddd89bd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OM Ciclo 57"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +185,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "7a4b9988eb6bae17",
+  "active": "15d84724ddd89bd3",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "file:/Users/francisco/projects/agents-artifacts/om/om9520-tamatha-case-summary.md",
     "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
@@ -182,10 +200,8 @@
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
     "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
-    "OrderlyMeds/Help Desk/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Bundle y Gemas.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
@@ -198,7 +214,6 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_VS_Code.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
     "OrderlyMeds/Help Desk/attachments/OM_11828.png",
     "OrderlyMeds/Help Desk/attachments/OM_11848.png",
