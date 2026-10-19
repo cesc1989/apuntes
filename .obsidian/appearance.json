@@ -6,5 +6,6 @@
     "style.block.code",
     "style.inline.code"
   ],
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "showRibbon": true
 }
