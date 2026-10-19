@@ -397,3 +397,46 @@ Orders::ProcessOrder.call(order: o, payload: o.payload, logger: Rails.logger)
 - Si en Success un Order dice **Pharmacy `-`**, no hagas resubmit del bundle. Revisa por qué falló `ProcessOrder` en la farmacia de ese Order.
 - Para SmartPharma, lo primero que hay que revisar es si existe el NPI del prescriptor en `SmartPharma::Practitioner`.
 - Si un médico nuevo de Beluga no está registrado, **todos** sus pacientes de SmartPharma quedan atorados. Hay que buscar otros Orders con el mismo NPI.
+
+## Casos de ResubmitToMSO pero con MP en PharmacyOrderConfirmed 🟢
+
+Etiquetas: #om_mp_pharmacy_order_confirmed_resubmit
+
+Casos:
+
+- OM-11951
+- OM-12089
+
+### Solución: Hacer ResubmitToMSO desde consola
+
+Así.
+
+1. Revisar el estado actual
+```ruby
+mp = Account.find_by!(email: "cyndyhahn@yahoo.com").salesforce_account.latest_member_period
+mp.status  # => "PharmacyOrderConfirmed"
+mp.clinical_encounters.order(:createddate).map { [it.omid, it.status, it.med_picker_recommendation&.omid] }
+
+ce = mp.clinical_encounters.last   # o el CE que tenga la recomendación correcta
+```
+
+2. Preview (sin efectos): confirma que MedPicker devuelve un producto equivalente que no sea el vial de 30mg/ml de Smart
+```ruby
+pv = Salesforce::ResubmitToMso.preview(clinical_encounter: ce)
+
+pv.validation_errors
+pv.previous_medication&.description
+pv.recommended_medication&.description
+pv.possible_medications.map { [it.med_id, it.description] }
+```
+
+
+3. Ejecutar. call muestra el producto anterior y el nuevo y pide y antes de seguir:
+```ruby
+r = Salesforce::ResubmitToMso.call(clinical_encounter: ce)
+r.slice(:previous_status, :clinical_encounter_scheduled)
+r[:new_recommendation].omid
+mp.reload.status  # => "ReadyToCreateVisit"
+```
+
+Todo esto queda en un módulo para pegar en la consola: [[Resubmit Member Period]]
