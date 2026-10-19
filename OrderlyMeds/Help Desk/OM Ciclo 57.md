@@ -441,9 +441,17 @@ mp.reload.status  # => "ReadyToCreateVisit"
 
 Todo esto queda en un módulo para pegar en la consola: [[Resubmit Member Period]]
 
-## Caso OM-12085 - MP en Stuck at ReadyToCreateVisit de CareValidate 🟡
+## Casos de MP en Stuck at ReadyToCreateVisit de CareValidate 🟡
 
 Etiquetas: #om_stuck_in_ready_to_create_visit 
+
+Casos:
+- OM-12085:
+	- Job disparado y pasó a visit created
+- OM-12064
+	- Hice resubmit antes de darme cuenta
+	- No puedo redisparar el job
+	- Tengo que cancelar el CE en curso o pasarlo a pending
 
 Similar que en [[OM Ciclo 56#Detalle de OM-11543 - Stuck in Ready to Create Visit 🟢]]
 
