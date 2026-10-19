@@ -2,24 +2,6 @@
 
 La parte inicial del modelo de datos, migraciones y relaciones lo hice yo. Luego le cedí más control a Deep Seek para migrar la maquetación y estilos desde el prototipo al proyecto. Ha hecho varias cosas raras entonces aquí apunto lo que aprendo de todo eso.
 
-Esto es lo que quiero revisar:
-
-- [x] Contracts en create action
-- [x] PlayerForm en edit action
-- [x] handle(*, response) en new action
-- [x] upsert de ROM en PlayerRepo
-- [x] Forms:
-    - [x] se pasa values en el partial
-    - [x] se pasa el method y el cancel paths
-- [x] Views:
-    - [x] layout = app
-    - [x] exposures
-- [x] Helpers:
-    - [x] Hay bastante código. Revisar para tener claridad.
-- [x] Lib:
-    - [x] PlayersCatalog y TraitsCatalog
-
-
 ## Contracts::PlayerParams
 
 Pasan varias cosas aquí. Esto es lo que generó DipSik en la ruta `lib/fcmanager/contracts/player_params.rb`:
@@ -468,3 +450,71 @@ CREATE UNIQUE INDEX `traits_name_index` ON `traits`(`name`);
 ON CONFLICT (name) DO UPDATE SET kind = 2
 > > ```
 > > Es decir: si no existe un trait con ese `name`, lo crea; si ya existe, le actualiza el `kind`.
+
+
+## Cómo Listar Jugadores y algunos atributos
+
+Quería ver el listado total de jugadores pero con solo unos atributos. Lo hice así:
+```ruby
+players = app["relations.players"]
+players.select(:id, :name, :club_id).to_a
+```
+
+La salida:
+```ruby
+[{id: 1, name: "Williams Obi", club_id: 1},
+ {id: 2, name: "Brayan Medina", club_id: 2},
+ {id: 4, name: "Lucas Hogsberg", club_id: 3},
+ {id: 6, name: "Domink Franz", club_id: 3},
+ {id: 7, name: "Jude Soonsup-Bell", club_id: 3},
+ {id: 9, name: "Udoka Godwin-Malifé", club_id: 3},
+ {id: 10, name: "Mattheo Xantippe", club_id: 3},
+ {id: 11, name: "Lucien Mahovo", club_id: 3},
+ {id: 12, name: "Eusebio Medina", club_id: 3},
+ {id: 13, name: "Angelo Montanari", club_id: 3},
+ {id: 14, name: "Neo Eccleston", club_id: 3},
+ {id: 15, name: "William Neal", club_id: 3},
+ {id: 16, name: "Kilian Toscano", club_id: 3},
+ {id: 17, name: "Ayyoub Bouaddi", club_id: 3},
+ {id: 18, name: "Yan Diomande", club_id: 3},
+ {id: 19, name: "Augustus Kargbo", club_id: 3},
+ {id: 20, name: "Theo Corbeanu", club_id: 3},
+ {id: 21, name: "Jason Dadi Svanporsson", club_id: 3},
+ {id: 22, name: "Nestory Irankunda", club_id: 3},
+ {id: 23, name: "Sinclair Armstrong", club_id: 3},
+ {id: 24, name: "Cesar Miño", club_id: 3},
+ {id: 25, name: "Melker Widell", club_id: 3},
+ {id: 26, name: "Adama Vallet", club_id: 3},
+ {id: 27, name: "David Freitas", club_id: 3},
+ {id: 28, name: "Dani Bustos", club_id: 3},
+ {id: 29, name: "Andreas Brandstatter", club_id: 3},
+ {id: 30, name: "Chaparron Bonaparte", club_id: 3}]
+```
+
+Y con eso me pude dar cuenta que algunos ya tenían `club_id` con otro valor.
+
+## Actualizar varios jugadores con un mismo valor
+
+Quería actualizar todos los players que no tuvieran `club_id: 3`. Para eso tocó usar los Commands de ROM.
+
+En específico el Command update: https://hanakai.org/learn/rom/v5.0/core-concepts/commands#update
+
+Lo hice así:
+```ruby
+players = app["relations.players"]
+update_players = players.where(club_id: nil).command(:update)
+update_players.call(club_id: 3)
+```
+
+### Con Complex Condition
+
+Me di cuenta que algunos players ya tenían un valor en `club_id` así que no fueron cubiertos por esa consulta. Tocó hacer otra.
+
+Esta vez necesitaba buscar los jugadores cuyo `club_id` no fuera 3. Lo hice de esta forma con las complex conditions: https://hanakai.org/learn/rom/v5.0/sql/queries#complex-conditions
+
+La clave es que toca usar el bloque de `where`.
+```ruby
+update_juanchos = players.where { club_id.not(3) }.command(:update)
+update_juanchos.call(club_id: 3)
+```
+
