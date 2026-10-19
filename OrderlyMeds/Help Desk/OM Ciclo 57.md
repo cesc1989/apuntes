@@ -440,3 +440,33 @@ mp.reload.status  # => "ReadyToCreateVisit"
 ```
 
 Todo esto queda en un módulo para pegar en la consola: [[Resubmit Member Period]]
+
+## Caso OM-12085 - MP en Stuck at ReadyToCreateVisit de CareValidate 🟡
+
+Etiquetas: #om_stuck_in_ready_to_create_visit 
+
+Similar que en [[OM Ciclo 56#Detalle de OM-11543 - Stuck in Ready to Create Visit 🟢]]
+
+- MP en ReadyToCreateVisit
+- CE pending
+- CV Request en estado `needs_prescriber_submission` sin `nk` ni `case_nk`
+
+### Solución: no es hacer resubmit sino disparar el job
+
+```ruby
+ce = Salesforce::ClinicalEncounter.find("01a09d3b-b501-7f02-911e-e7350a17b2bd")
+req = CareValidate::Request.find_by(clinical_encounter_id: ce.id)
+
+req.reset_to_initial_state!
+CareValidate::Scheduler::CreateVisitJob.new.perform(ce.omid)
+```
+
+Se espera que:
+
+- El Member Period pase a `VisitCreated`
+- El Clinical Encounter pase a `Scheduled`
+- Y que el Request tenga los valores faltantes:
+```ruby
+{"state" => "waiting_for_prescription", "nk" => "f9bdfb06-056e-43a0-82a0-380d0e5af9a5", "case_nk" => "d759bd2a-8edc-40af-99fc-e18da9ba78b1"}
+```
+
