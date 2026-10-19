@@ -235,6 +235,8 @@ Slackbot me ayudó a entender el error porque veía mucho texto. Ahora sé cuál
 
 ### Detalle de OM-11543 - Stuck in Ready to Create Visit 🟢
 
+Etiquetas: #om_stuck_in_ready_to_create_visit 
+
 > [!Info]
 > CX de CareValidate.
 
