@@ -439,7 +439,7 @@ r[:new_recommendation].omid
 mp.reload.status  # => "ReadyToCreateVisit"
 ```
 
-Todo esto queda en un módulo para pegar en la consola: [[Resubmit Member Period]]
+Todo esto queda en un módulo para pegar en la consola: [[Resubmit Member Period desde Consola]]
 
 ## Casos de MP en Stuck at ReadyToCreateVisit de CareValidate 🟡
 

@@ -11,10 +11,14 @@
             "id": "44478f665e185f07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Resubmit Member Period desde Consola"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,12 +170,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "44478f665e185f07",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/Soluciones",
     "OrderlyMeds/Help Desk/Soluciones/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
-    "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period.md",
+    "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Help Desk/Soluciones/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
