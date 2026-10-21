@@ -446,7 +446,7 @@ Todo esto queda en un módulo para pegar en la consola: [[Resubmit Member Period
 Etiquetas: #om_stuck_in_ready_to_create_visit 
 
 Casos:
-- OM-12085:
+- OM-12085: 🟢
 	- Job disparado y pasó a visit created
 - OM-12064
 	- Hice resubmit antes de darme cuenta
