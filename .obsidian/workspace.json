@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6950930544c6780d",
+        "id": "51aef5552dffa6a1",
         "type": "tabs",
         "children": [
           {
-            "id": "ccfbdff859c0bdf6",
+            "id": "4f395714b51aa494",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
+                "file": "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes de Jekyll"
+              "title": "009-visit-created-stuck-detection"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jekyll",
+                "query": "VisitCreated",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
+                "file": "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,17 +171,19 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "ccfbdff859c0bdf6",
+  "active": "4f395714b51aa494",
   "lastOpenFiles": [
-    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
+    "OrderlyMeds/KB/001-member-period.md",
+    "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
+    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Soluciones/Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment.md",
     "OrderlyMeds/Help Desk/Soluciones/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
@@ -198,8 +200,6 @@
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
     "DevAsPros/Infra/Puma como App Server 🟢.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
-    "DevAsPros/Super_Menú/rfcs/001 - Mejorar Carga de Fotos de Platos.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
     "OrderlyMeds/Help Desk/attachments/OM_11828.png",
