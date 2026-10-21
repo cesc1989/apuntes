@@ -532,6 +532,8 @@ pp mp.order_summaries.map { it.slice(:sfid, :originalorderid, :status, :createdd
 pp mp.clinical_encounters.map { it.slice(:omid, :status) }
 ```
 
+Explicación en [[Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment]]
+
 ### Corrección
 
 Condiciones previas: mismos productos, dosis y precio; el OrderSummary es de la orden pagada; no hay encounters.
