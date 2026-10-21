@@ -562,3 +562,24 @@ mp.reload
 pp status: mp.status, encounters: mp.clinical_encounters.map { it.slice(:omid, :status) }
 # Si no avanza: Patient::Checkin::ClinicalEncounterScheduler.new(member_period: mp).schedule!
 ```
+
+
+## Caso OM-12169 - Eliminar TC en Salesforce pero no aparecen 🟢
+
+Etiquetas: #om_remove_credit_card 
+
+El cliente pidió eliminar una tarjeta. Cuando reviso con el código de siempre aparecen otras. En Salesforce si aparece la que dice el cliente en la sección "Saved Payment Methods" pero nunca aparecen mediante `account.salesforce_account.card_payment_methods`.
+
+Con Claudio se revisaron mediante una consulta directa a Salesforce y aparecen pero no se sabe si son del cliente u otras:
+```ruby
+api = Salesforce::ApiClient.new
+api.query("SELECT Id, AccountId, CardHolderName, CardLastFour, Status, CreatedDate FROM CardPaymentMethod WHERE CardLastFour IN (4804, 7073) ORDER BY CreatedDate DESC")
+  .map { it.to_h.except("attributes", "Account") }
+```
+
+Salida:
+```ruby
+[{"Id" => "03OPm000006dXS5MAM", "AccountId" => nil, "CardHolderName" => "undefined undefined", "CardLastFour" => 4804, "Status" => "InActive", "CreatedDate" => "2026-10-13T00:50:21.000+0000"},
+```
+
+Se asume que el Inactive es real y solo se notificó en el ticket.
