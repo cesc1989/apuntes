@@ -2,7 +2,9 @@
 
 ## Qué significa
 
-`VisitCreated` es un estado de la state machine de [[001-member-period|Member Period]] (`Salesforce::MemberPeriod`, `app/models/salesforce/member_period.rb`). Significa que la visita (telesalud/async) ya fue enviada al proveedor médico (Beluga Health o CareValidate) y **está esperando la decisión del prescriptor** (prescribir o referir/rechazar).
+`VisitCreated` es un estado de la state machine de [[001-member-period|Member Period]] (`Salesforce::MemberPeriod`, `app/models/salesforce/member_period.rb`).
+
+==Significa que la visita (telesalud/async) ya fue enviada al proveedor médico (Beluga Health o CareValidate) y **está esperando la decisión del prescriptor** (prescribir o referir/rechazar).==
 
 ## Cómo se entra y se sale del estado
 
