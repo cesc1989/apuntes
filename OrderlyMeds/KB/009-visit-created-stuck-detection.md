@@ -23,7 +23,7 @@ Ambos llaman a `Patient::Visit.record_outcome` (`app/services/patient/visit.rb:1
 - Prescrito → `clinical_encounter.status = "Finished"` + `member_period.complete_visit!` → `VisitCompleted`
 - Referido → `clinical_encounter.status = "Referred"` + `member_period.refer!` → `Referred`
 
-## ¿Cuánto tiempo debería durar?
+## ¿Cuánto tiempo debería durar? ⏲️
 
 ==Es tiempo de espera por revisión humana de un prescriptor licenciado==, **no** un timeout técnico. El propio sistema define el SLA en `app/services/member_periods/stuck_detection.rb:3`:
 
@@ -47,7 +47,7 @@ Unas horas de espera dentro del mismo día hábil son normales. Pasadas **48 hor
 > [!Warning]
 > El cron solo corre en días hábiles: algo atascado un viernes por la tarde no genera ticket hasta el lunes.
 
-## Qué revisar si un caso lleva varias horas atascado
+## Qué revisar si un caso lleva varias horas atascado 🔎
 
 1. **¿El `CreateVisitJob` tuvo éxito?** Revisar reintentos/fallos en Sidekiq.
 2. **Estado del caso directamente en Beluga/CareValidate**: es lo primero que sugiere el propio ticket automático.
