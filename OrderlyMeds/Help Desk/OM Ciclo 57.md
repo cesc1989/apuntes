@@ -478,3 +478,85 @@ Se espera que:
 {"state" => "waiting_for_prescription", "nk" => "f9bdfb06-056e-43a0-82a0-380d0e5af9a5", "case_nk" => "d759bd2a-8edc-40af-99fc-e18da9ba78b1"}
 ```
 
+
+## Caso OM-12120 - Stuck in ReadyForOrderPayment 🟢
+
+Etiquetas: #om_stuck_in_ready_for_order_payment
+
+**Fecha:** 2026-10-20 ·
+
+**Resultado:** VisitCreated, CE `01a15b39-0380-75c6-80e6-de951d41fbfa` Scheduled.
+
+### Qué pasó
+
+- **14/10 23:37:50 UTC**: orden #1 + link #1 ($149), MP → ReadyForOrderPayment
+- **23:41:38**: PaymentIntent Succeeded → Payment Processed → PNP `ProcessingComplete` → link #1 Disabled → OrderSummary creado (orden #1)
+- **23:42:16**: segundo `purchases#create` → orden #2 + link #2 (Active, sin pagar) → MP de nuevo en ReadyForOrderPayment
+- La guarda `already_paid?` depende de la caché del webhook o de la sync de Heroku Connect, que aún no habían llegado
+- Pendiente: `reset_order_if_updated` aparentemente no corrió (la recomendación #1 no se canceló). Revisar logs.
+
+### Lecciones
+
+- Buscar el PaymentIntent por `Guid` (`payment.paymentintentguid`), no por el link actual
+- **Los omid son UUIDv7**: su prefijo da la fecha de creación y sirve para armar la línea de tiempo
+- **No** usar "Reset Check-in" de admin en este caso: desactiva links y pierde el pago
+- ==🟠Los crons de reconciliación de PNP están apagados (OM-7948)==
+
+### Verificación (solo lectura)
+
+```ruby
+acct = Account.find("ID_ACCOUNT").salesforce_account
+mp   = acct.latest_member_period
+
+pp mp.slice(:omid, :sfid, :status, :checkin_deadline_date)
+pp mp.orders.map { |o| {order: o.omid, sfid: o.sfid, status: o.status, link: o.payment_link&.slice(:omid, :sfid, :status, :amount)} }
+pp acct.payments.order(:createddate).last(5).map { it.slice(:sfid, :status, :amount, :createddate, :paymentintentguid) }
+
+client = Salesforce::ApiClient.new
+pi = client.query(<<~SOQL).first
+  SELECT Id, Guid, Status, IsCaptureComplete, CapturedAmount, CreatedDate, PaymentLinkId
+  FROM PaymentIntent WHERE Guid = '<paymentintentguid>'
+SOQL
+
+pp pi&.to_h
+pp client.query("SELECT Id, Status__c, RetryCount__c, CreatedDate, PaymentLinkId__c FROM PaymentNeedingProcessing__c WHERE PaymentIntentId__c = '#{pi.Id}'").map(&:to_h)
+pp Salesforce::PaymentLink.find_by(sfid: pi.PaymentLinkId)&.slice(:omid, :sfid, :status, :amount, :orderid__r__omid__c)
+
+# Comparar órdenes y recomendaciones
+items = ->(o) { o.order_items.map { it.slice(:product2__omid__c, :quantity, :unitprice, :totallineamount) } }
+prods = ->(rec) { rec.selected_products.map { it.attributes.select { |k, _| k.match?(/product|med|quantity|strength/i) } } }
+
+mp.orders.each { pp(it.omid => [it.sfid, it.status, items.(it)]) }
+mp.med_picker_recommendations.order(:createddate).each { pp(it.omid => [it.status, prods.(it)]) }
+pp mp.order_summaries.map { it.slice(:sfid, :originalorderid, :status, :createddate) }
+pp mp.clinical_encounters.map { it.slice(:omid, :status) }
+```
+
+### Corrección
+
+Condiciones previas: mismos productos, dosis y precio; el OrderSummary es de la orden pagada; no hay encounters.
+
+```ruby
+mp   = Salesforce::MemberPeriod.find("01a0a245-8d79-78c7-95c0-d749499b09d3")
+
+# link duplicado sin pagar
+pl2  = Salesforce::PaymentLink.find("01a13ccb-9258-7361-a2e5-4c6e7e4903d3")
+
+# recomendación duplicada (la más vieja)
+rec1 = Salesforce::MedPickerRecommendation.find("01a13cc7-83c1-7308-b3bc-a5e9aebc010e")
+
+pp mp.ready_for_order_payment?, mp.clinical_encounters.none?, pl2.status == "Active",
+   mp.latest_med_picker_recommendation.omid == "01a13ccb-91cd-75d8-b175-2db1fda2c5fd"
+
+Salesforce::MemberPeriod.transaction do
+  pl2.update!(status: Salesforce::PaymentLink::STATUS_DISABLED)
+  mp.update!(status: "ReadyToCreateVisit")
+end
+
+rec1.update!(status: Salesforce::MedPickerRecommendation::STATUS_CANCELED)
+
+# Pasados unos 5 min (ScheduleVisitsForReadyMemberPeriods):
+mp.reload
+pp status: mp.status, encounters: mp.clinical_encounters.map { it.slice(:omid, :status) }
+# Si no avanza: Patient::Checkin::ClinicalEncounterScheduler.new(member_period: mp).schedule!
+```

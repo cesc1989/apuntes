@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+                "file": "OrderlyMeds/Help Desk/Soluciones/Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 57"
+              "title": "Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+                "file": "OrderlyMeds/Help Desk/Soluciones/Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,6 +172,9 @@
   },
   "active": "7f7765f5a431dc37",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "OrderlyMeds/Help Desk/Soluciones/Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment.md",
+    "OrderlyMeds/Help Desk/Soluciones/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
@@ -179,10 +182,8 @@
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Help Desk/Soluciones",
-    "OrderlyMeds/Help Desk/Soluciones/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Soluciones/Med Requests Import Manual de Ontraport a Salesforce.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
@@ -198,7 +199,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Bundle y Gemas.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes_de_Sublime_Text.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Configuracion de Solargraph para Sublime en Macos.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
     "OrderlyMeds/Help Desk/attachments/OM_11828.png",
