@@ -398,7 +398,7 @@ Orders::ProcessOrder.call(order: o, payload: o.payload, logger: Rails.logger)
 - Para SmartPharma, lo primero que hay que revisar es si existe el NPI del prescriptor en `SmartPharma::Practitioner`.
 - Si un médico nuevo de Beluga no está registrado, **todos** sus pacientes de SmartPharma quedan atorados. Hay que buscar otros Orders con el mismo NPI.
 
-## Casos de ResubmitToMSO pero con MP en PharmacyOrderConfirmed 🟢
+## Casos de ResubmitToMSO pero con MP en PharmacyOrderConfirmed 🟢ℹ️
 
 Etiquetas: #om_mp_pharmacy_order_confirmed_resubmit
 
