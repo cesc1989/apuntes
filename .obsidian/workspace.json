@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e9206108c41e729b",
+        "id": "2c88cb3101746fe9",
         "type": "tabs",
         "children": [
           {
-            "id": "0146e49b7f1e5653",
+            "id": "20fabacbad7cd814",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 57"
+              "title": "Estado y Ubicación de los Respaldos"
+            }
+          },
+          {
+            "id": "8012c8a79145fc93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "001 - Estado_Actual_Discos_Duros_y_USBs"
             }
           }
         ]
@@ -55,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VisitCreated",
+                "query": "tag:#om_needs_requested_medpicker_data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +147,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "payment"
+                "searchQuery": "needs_requested_medpicker_data"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -145,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -155,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -170,12 +184,26 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0146e49b7f1e5653",
+  "active": "20fabacbad7cd814",
   "lastOpenFiles": [
+    "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
+    "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
+    "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
+    "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
+    "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
+    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Bundle y Gemas.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
+    "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "OrderlyMeds/Help Desk/OM Ciclo 58.md",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
@@ -184,21 +212,7 @@
     "DevAsPros/Enlacito/Divulgacion/Reddit Marketing.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
     "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
-    "OrderlyMeds/KB/001-member-period.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes de Jekyll.md",
-    "Otro_Espacio/Todo_Software/Mundo_JavaScript/Temas_de_NodeJS.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
-    "OrderlyMeds/Help Desk/Soluciones/Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment.md",
-    "OrderlyMeds/Help Desk/Soluciones/Fallo al crear Casa Order - OM-9398.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Help Desk/Soluciones",
-    "OrderlyMeds/Help Desk/Soluciones/Med Requests Import Manual de Ontraport a Salesforce.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
     "OrderlyMeds/Help Desk/attachments/OM_11828.png",
