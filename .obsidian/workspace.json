@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2c88cb3101746fe9",
+        "id": "e34d2fdd50116cb0",
         "type": "tabs",
         "children": [
           {
-            "id": "20fabacbad7cd814",
+            "id": "8383fab7250b2448",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Estado y Ubicación de los Respaldos"
-            }
-          },
-          {
-            "id": "88d8d9140b028962",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "001 - Estado_Actual_Discos_Duros_y_USBs"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,7 +165,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "88d8d9140b028962",
+  "active": "8383fab7250b2448",
   "lastOpenFiles": [
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
