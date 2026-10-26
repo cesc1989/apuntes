@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e34d2fdd50116cb0",
+        "id": "efc8659ef20bb2e9",
         "type": "tabs",
         "children": [
           {
-            "id": "8383fab7250b2448",
+            "id": "ab1186cf4c807d49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Ideas Pro Lanzamiento"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8383fab7250b2448",
+  "active": "ab1186cf4c807d49",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
+    "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
+    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
+    "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 58.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
@@ -181,18 +192,12 @@
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 58.md",
     "OrderlyMeds/Help Desk/OM Ciclo 53.md",
-    "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
-    "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/Divulgacion/Reddit Marketing.md",
-    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
-    "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
     "OrderlyMeds/Help Desk/Soluciones",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",

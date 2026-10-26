@@ -2,10 +2,10 @@
 
 Tengo claro que no haré muchas características. Ahora mismo solo será:
 
-- Acortar
-- Personalizar half-end
-- Personalizar Imagen open-graph 
-- Analítica
+- Acortar ✅
+- Personalizar half-end ✅
+- Personalizar Imagen open-graph ✅
+- Analítica ✅
 
 Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Estas son algunas cosas que hacer.
 
