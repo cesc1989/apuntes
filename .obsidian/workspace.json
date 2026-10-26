@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Plan General de Lanzamiento.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ideas Pro Lanzamiento"
+              "title": "Plan General de Lanzamiento"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Plan General de Lanzamiento.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,7 +173,7 @@
   "active": "ab1186cf4c807d49",
   "lastOpenFiles": [
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
-    "DevAsPros/Enlacito/Divulgacion/Ideas Pro Lanzamiento.md",
+    "DevAsPros/Enlacito/Divulgacion/Plan General de Lanzamiento.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
