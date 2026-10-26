@@ -10,7 +10,7 @@ Esto lo sugirió Gepeto para saber si el producto lo usan o en qué momento podr
 > **Cada métrica debe responder una pregunta clara.**  
 > Si no sabes qué decisión tomarías según el número, no la midas.
 
-### Qué medir (lo mínimo imprescindible)
+### Qué medir
 
 No intentes medir todo. Solo lo que te ayuda a decidir.
 
@@ -44,16 +44,7 @@ Con 6–8 eventos basta:
 - `payment_completed`
 - (opcional) `link_clicked`
 
-### Herramientas simples (no te compliques)
-
-- **Plausible / Umami** → métricas de tráfico y eventos simples.
-- **PostHog** → funnels y sesiones (muy útil al inicio).
-- **Stripe Dashboard** → ingresos y churn (no reinventes esto).
-
-> [!Important]
-> Aquí la ganadora es Umami que tiene plan gratuito y además la puedo auto hospedar con Pikapods.
-
-### Cómo usar esos datos (lo importante)
+### Cómo usar esos datos
 
 - Si muchos **llegan al límite pero no pagan** → problema de precio o propuesta.
 - Si pocos **crean el segundo link** → el producto no engancha.
