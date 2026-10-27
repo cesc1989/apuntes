@@ -103,4 +103,4 @@ has_one_attached :photo
 
 Eso hace que se dispare un job. Como el active job adapter era Sidekiq y este a su vez estaba configurado para leer Redis, pues ahí el error.
 
-La solución fue pasar el adapter a Async. Eventualmente habrá que pasarlo a solid_queue.
+==🔴La solución fue pasar el adapter a Async. Eventualmente habrá que pasarlo a solid_queue.==

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "843123aadb382aeb",
+        "id": "dd8790289164d72f",
         "type": "tabs",
         "children": [
           {
-            "id": "95c83c2c25bf5eb7",
+            "id": "bd377ddd7a09f827",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Apex - Ciclo 007 - Solid Queue"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "95c83c2c25bf5eb7",
+  "active": "bd377ddd7a09f827",
   "lastOpenFiles": [
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/Reddit Marketing.md",
@@ -193,8 +200,6 @@
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
     "OrderlyMeds/Help Desk/OM Ciclo 58.md",
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
-    "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
-    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
     "OrderlyMeds/Help Desk/Soluciones",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
