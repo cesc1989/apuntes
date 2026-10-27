@@ -85,3 +85,9 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 
 > [!Info]
 > Esto es lo que voy a hacer en dos o tres semanas mientras la situación en OrderlyMeds se va definiendo, al mismo tiempo que le voy sacando provecho a Claudio.
+
+
+> [!Important]
+> Continuar haciendo lo que vengo haciendo según lo definido en [[Plan Redes Sociales Enlacito]].
+>
+> Ajusta la ejecución para seguir más las ideas expuestas en el Plan de Redes Sociales.

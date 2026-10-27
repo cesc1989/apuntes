@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c7249ce8b950eaf7",
+        "id": "843123aadb382aeb",
         "type": "tabs",
         "children": [
           {
-            "id": "5b0912963504866a",
+            "id": "95c83c2c25bf5eb7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01-Plan General de Mercadeo 🔑"
+              "title": "New tab"
             }
           }
         ]
@@ -145,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,11 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "5b0912963504866a",
+  "active": "95c83c2c25bf5eb7",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Reddit Marketing.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Reddit Marketing.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
     "DevAsPros/Enlacito/Descubrimiento/tinyurl/TinyUrl.md.md",
