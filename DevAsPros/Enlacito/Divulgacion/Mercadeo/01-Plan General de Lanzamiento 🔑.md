@@ -10,7 +10,7 @@ Tengo claro que no haré muchas características. Ahora mismo solo será:
 Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Estas son algunas cosas que hacer.
 
 > [!Important]
-> Lo clave: ==🟢**la distribución importa más que el producto** al inicio.==
+> Lo clave: ==🟣**la distribución importa más que el producto** al inicio.==
 >
 > **Enfócate primero en un nicho** (ej: pequeños negocios) y resuelve sus problemas específicos. La confiabilidad y velocidad son clave para que recomienden.
 
