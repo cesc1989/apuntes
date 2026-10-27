@@ -79,3 +79,9 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 - **Ofrece integración simple**: plugin para WordPress, extensión navegador.
 - **Integraciones**: publica en Zapier, Pabbly y n8n
 	- los flujos “acortar → spreadsheet → notificación” captan SaaS users.
+
+
+## Plan de 2 o 3 semanas 🔑
+
+> [!Info]
+> Esto es lo que voy a hacer en dos o tres semanas mientras la situación en OrderlyMeds se va definiendo, al mismo tiempo que le voy sacando provecho a Claudio.
