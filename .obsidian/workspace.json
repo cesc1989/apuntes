@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9924ad0d8e6f5b9a",
+        "id": "cc2c75310b992bc1",
         "type": "tabs",
         "children": [
           {
-            "id": "bda42d63c7fb7d8b",
+            "id": "cc5a73282ba33ad1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Lanzamiento 🔑.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01-Plan General de Lanzamiento 🔑"
-            }
-          },
-          {
-            "id": "74434fd25a0af29e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Plan Redes Sociales Enlacito"
+              "title": "New tab"
             }
           }
         ]
@@ -159,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Lanzamiento 🔑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,16 +165,23 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "bda42d63c7fb7d8b",
+  "active": "cc5a73282ba33ad1",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
+    "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
+    "DevAsPros/Enlacito/Descubrimiento/tinyurl/TinyUrl.md.md",
+    "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted/Shlink - Self Hosted shortener.md",
+    "DevAsPros/Enlacito/Descubrimiento/n9/n9.md",
+    "DevAsPros/Enlacito/Descubrimiento/lowerhot/Lowerhot.md",
+    "DevAsPros/Enlacito/Descubrimiento/dub/dub.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Lanzamiento 🔑.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+    "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
     "DevAsPros/Enlacito/Definicion/MVP - Enlacito 🟢.md",
     "DevAsPros/Enlacito/002 - Planeacion.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/enlacito.payments.png",
-    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
     "DevAsPros/DAP & TOL Revision.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
@@ -207,12 +195,6 @@
     "Otro_Espacio/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
-    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
-    "Otro_Espacio/Coshinema/MiPlex_Un_Netflix_con_contenido_propio.md",
-    "Otro_Espacio/Coshinema/YTtoPlex 🟡.md",
-    "Otro_Espacio/Coshinema/SnapRAID 🟢.md",
-    "Otro_Espacio/Coshinema/NAS o DAS 🟢.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/Soluciones",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",

@@ -8,7 +8,7 @@
 Apenas empiece fuertemente a abrir enlacito al público voy a optar por dos capaz de oferta:
 
 - Plan Gratuito limitado
-	- Acortar hasta 5 enlaces
+	- Acortar hasta ~~5~~ 25 enlaces
 - Plan Pago ilimitado
 
 Hay dos opciones para esto. Integrar una pasarela de pago (Payment Gateway) o un Merchant of Record. El primero solo se encarga de la parte donde se cobra el dinero dejando los impuestos a cargo del negocio. El segundo se encarga de cobrar y de gestionar los impuestos.
