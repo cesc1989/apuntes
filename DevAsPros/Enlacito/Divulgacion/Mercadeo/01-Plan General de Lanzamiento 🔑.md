@@ -17,23 +17,6 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 
 ## Las Ideas
 
-### Integraciones mediante API ❌
-
-> [!Warning]
-> No por ahora porque esto es desarrollo. A no ser que llegue algo que si al hacer esto signifique un negocio para el servicio.
-
-- **Ofrece integración simple**: plugin para WordPress, extensión navegador.
-- **Integraciones**: publica en Zapier, Pabbly y n8n
-	- los flujos “acortar → spreadsheet → notificación” captan SaaS users.
-
-### Marketing de Influencers / Referidos 🟡
-
-> [!Note]
-> El primero es más sencillo de hacer. El 2do necesita más configuración, incluso desarrollo.
-
-1. **Contacta a creadores de contenido pequeños/medianos** y ofréceles cuenta Pro gratis a cambio de feedback o mención.
-2. **Programa de referidos**: 1 mes extra de Pro por cada usuario que traiga; automatiza con webhooks.
-
 ### Growth Marketing 🟡
 
 - **Participa en foros** (Reddit, Stack Overflow, comunidades técnicas) donde se hable de productividad o herramientas, aportando valor y mencionando tu solución cuando sea relevante.
@@ -75,3 +58,20 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
     - Un feedback link visible: _“¿Qué te falta?”_.
 
 
+### Marketing de Influencers / Referidos 🟡
+
+> [!Note]
+> El primero es más sencillo de hacer. El 2do necesita más configuración, incluso desarrollo.
+
+1. **Contacta a creadores de contenido pequeños/medianos** y ofréceles cuenta Pro gratis a cambio de feedback o mención.
+2. **Programa de referidos**: 1 mes extra de Pro por cada usuario que traiga; automatiza con webhooks.
+
+
+### Integraciones mediante API ❌
+
+> [!Warning]
+> No por ahora porque esto es desarrollo. A no ser que llegue algo que si al hacer esto signifique un negocio para el servicio.
+
+- **Ofrece integración simple**: plugin para WordPress, extensión navegador.
+- **Integraciones**: publica en Zapier, Pabbly y n8n
+	- los flujos “acortar → spreadsheet → notificación” captan SaaS users.
