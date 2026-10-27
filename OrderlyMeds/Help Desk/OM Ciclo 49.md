@@ -536,7 +536,7 @@ Como no tenía ni `CareValidate::Request` ni _Beluga Submissions_ le hice solo e
 
 ## Caso OM-9716 - Not able to check in at this time 🟢ℹ️
 
-Etiquetas: #om_no_checkin_at_this_time
+Etiquetas: #om_no_checkin_at_this_time #om_incompleted_op_to_sf_migration
 
 Para resolver el error:
 > Sorry you are not able to check in at this time
