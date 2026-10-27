@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "15baf454c38fc110",
+        "id": "f307ba2185911e7a",
         "type": "tabs",
         "children": [
           {
-            "id": "43ad2e64e8c5fdc4",
+            "id": "88bcf289950702b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "002 - Planeacion"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/002 - Planeacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "43ad2e64e8c5fdc4",
+  "active": "88bcf289950702b2",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/Reddit Marketing.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
@@ -177,7 +183,6 @@
     "DevAsPros/Enlacito/Definicion/MVP - Enlacito 🟢.md",
     "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
-    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
