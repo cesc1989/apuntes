@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "efc8659ef20bb2e9",
+        "id": "b06dce124807202c",
         "type": "tabs",
         "children": [
           {
-            "id": "ab1186cf4c807d49",
+            "id": "6de435539437afc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Plan General de Lanzamiento 🔑.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan General de Lanzamiento 🔑.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Plan General de Lanzamiento 🔑"
             }
-          },
-          {
-            "id": "04d24b8a772abc6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Registro de Eventos de Usuarios 🟢"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan General de Lanzamiento 🔑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,9 +170,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "04d24b8a772abc6e",
+  "active": "6de435539437afc8",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Plan General de Lanzamiento 🔑.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo",
+    "DevAsPros/Enlacito/Divulgacion/Reddit Marketing.md",
+    "DevAsPros/Apex/¿Qué es Apex?.md",
+    "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
+    "DevAsPros/Enlacito/Definicion/MVP - Enlacito 🟢.md",
+    "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
+    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan General de Lanzamiento 🔑.md",
+    "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
@@ -205,14 +198,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Bundle y Gemas.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-    "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
-    "DevAsPros/Enlacito/002 - Planeacion.md",
-    "DevAsPros/Enlacito/Divulgacion/Plan Redes Sociales Enlacito.md",
-    "DevAsPros/Enlacito/Divulgacion/Reddit Marketing.md",
     "OrderlyMeds/Help Desk/Soluciones",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
