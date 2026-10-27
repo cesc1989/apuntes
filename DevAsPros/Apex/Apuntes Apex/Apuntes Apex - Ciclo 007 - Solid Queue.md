@@ -90,7 +90,7 @@ config.i18n.fallbacks = true
 
 En términos generales, el despliegue fue muy normal. Hubo errores porque se cambió el archivo del servicio anterior de Sidekiq. Esto enseña que hay que tener ambos servicios en un despliegue para desactivar el actual. Después sí quitarlos en un despliegue posterior.
 
-## Error de Redis en Super Menú aunque no se usa
+## Error de Redis en Super Menú aunque no se usa 🟡
 
 El error paso después de cargar una foto a un plato:
 > RedisClient::CannotConnectError
