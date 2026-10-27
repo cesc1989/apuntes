@@ -84,7 +84,7 @@ Graba demos, postear descubrimientos, comparte capturas de pantalla, etc. Todo l
 
 Ver:
 - [[Plan Redes Sociales Enlacito]]
-- [[Plan General de Lanzamiento 🔑]]
+- [[01-Plan General de Lanzamiento 🔑]]
 
 ## Lanzamiento 🚧
 

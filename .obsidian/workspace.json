@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b06dce124807202c",
+        "id": "15baf454c38fc110",
         "type": "tabs",
         "children": [
           {
-            "id": "6de435539437afc8",
+            "id": "43ad2e64e8c5fdc4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan General de Lanzamiento 🔑.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Plan General de Lanzamiento 🔑"
+              "title": "New tab"
             }
           }
         ]
@@ -145,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan General de Lanzamiento 🔑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,19 +165,20 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "6de435539437afc8",
+  "active": "43ad2e64e8c5fdc4",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Reddit Marketing.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Lanzamiento 🔑.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo",
-    "DevAsPros/Enlacito/Divulgacion/Reddit Marketing.md",
     "DevAsPros/Apex/¿Qué es Apex?.md",
     "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
     "DevAsPros/Enlacito/Definicion/MVP - Enlacito 🟢.md",
     "DevAsPros/Enlacito/Definicion/Modelo y Arquitectura - Enlacito.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan General de Lanzamiento 🔑.md",
     "DevAsPros/Enlacito/Divulgacion/Registro de Eventos de Usuarios 🟢.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
-    "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
     "DevAsPros/Apex/Apuntes Apex/Problema despues de Upgrade de Passenger.md",
     "OrderlyMeds/Help Desk/OM Ciclo 58.md",
@@ -217,7 +213,6 @@
     "OrderlyMeds/KB",
     "OrderlyMeds/SU/Untitled",
     "OrderlyMeds/SucccessPortalOptimization",
-    "OrderlyMeds/Help Desk/attachments",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
