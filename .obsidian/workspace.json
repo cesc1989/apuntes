@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6850e0820c7c89cf",
+        "id": "c7249ce8b950eaf7",
         "type": "tabs",
         "children": [
           {
-            "id": "c6786cc6f5af21ce",
+            "id": "5b0912963504866a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Plan Redes Sociales Enlacito"
-            }
-          },
-          {
-            "id": "747269378014697d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Lanzamiento 🔑.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "01-Plan General de Lanzamiento 🔑"
+              "title": "01-Plan General de Mercadeo 🔑"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Lanzamiento 🔑.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,8 +170,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "747269378014697d",
+  "active": "5b0912963504866a",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
@@ -195,7 +181,6 @@
     "DevAsPros/Enlacito/Descubrimiento/n9/n9.md",
     "DevAsPros/Enlacito/Descubrimiento/lowerhot/Lowerhot.md",
     "DevAsPros/Enlacito/Descubrimiento/dub/dub.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Lanzamiento 🔑.md",
     "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",

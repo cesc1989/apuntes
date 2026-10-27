@@ -1,5 +1,10 @@
 # Plan General de Lanzamiento
 
+> [!Info]
+> Estrategias complementarias:
+> - [[Plan Redes Sociales Enlacito]]
+> - [[Reddit Marketing]]
+
 Tengo claro que no haré muchas características. Ahora mismo solo será:
 
 - Acortar ✅
