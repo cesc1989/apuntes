@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc2c75310b992bc1",
+        "id": "6850e0820c7c89cf",
         "type": "tabs",
         "children": [
           {
-            "id": "cc5a73282ba33ad1",
+            "id": "c6786cc6f5af21ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Plan Redes Sociales Enlacito"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,7 +170,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "cc5a73282ba33ad1",
+  "active": "c6786cc6f5af21ce",
   "lastOpenFiles": [
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
     "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
