@@ -1,6 +1,6 @@
 # Apuntes Apex Ciclo 012 - Seguridad en Super Menú
 
-## Proteger Super Menú de bots y escaneres
+## Proteger Super Menú de bots y escaneres 🛡️
 
 Estaba haciendo un cambio sencillo y al revisar el log de supermenu veo esto:
 ```
@@ -289,7 +289,7 @@ Started GET "/firebase-key.json" for 34.85.70.203
 
 Así que le pedí a Claudio revisar y armar un plan para cubrir eso.
 
-### rack-attack
+### rack-attack ⚔
 
 Se hicieron los cambios en este PR: https://github.com/devaspros/supermenu/pull/24
 
