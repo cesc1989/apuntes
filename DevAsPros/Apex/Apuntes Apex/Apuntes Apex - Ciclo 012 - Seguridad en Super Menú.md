@@ -322,6 +322,38 @@ W, [2026-10-30T18:47:55.625263 #129414]  WARN -- : [0e25b599-0398-4d37-be7b-f859
 ```
 
 
+### nginx 🔫
 
-### nginx
+PR de nginx: https://github.com/devaspros/supermenu/pull/25
 
+
+#### Pruebas para confirmar que protege
+
+##### Prueba #1
+
+Petición
+```
+curl -sSI https://supermenu.devaspros.com/zend/.env
+curl: (52) Empty reply from server
+```
+
+Sin log.
+
+##### Prueba #2
+
+Petición
+```
+curl -sI https://supermenu.devaspros.com/.well-known/acme-challenge/x
+HTTP/1.1 404 Not Found
+```
+
+Log:
+```
+Started HEAD "/.well-known/acme-challenge/x" for 191.110.52.188 at 2026-10-30 19:12:23 +0000
+E, [2026-10-30T19:12:23.383880 #130460] ERROR -- : [a7afbcfb-7fee-4443-a073-f2e8e4145b55]
+[a7afbcfb-7fee-4443-a073-f2e8e4145b55] ActionController::RoutingError (No route matches [HEAD] "/.well-known/acme-challenge/x"):
+[a7afbcfb-7fee-4443-a073-f2e8e4145b55]
+I, [2026-10-30T19:12:23.386641 #130460]  INFO -- : [a7afbcfb-7fee-4443-a073-f2e8e4145b55] Processing by ExceptionHandler::ExceptionsController#show as */*
+I, [2026-10-30T19:12:23.393597 #130460]  INFO -- : [a7afbcfb-7fee-4443-a073-f2e8e4145b55]   Rendered layout layouts/4xx.html.erb (Duration: 3.0ms | GC: 0.0ms)
+I, [2026-10-30T19:12:23.394367 #130460]  INFO -- : [a7afbcfb-7fee-4443-a073-f2e8e4145b55] Completed 404 Not Found in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+```
