@@ -291,6 +291,37 @@ Así que le pedí a Claudio revisar y armar un plan para cubrir eso.
 
 ### rack-attack
 
+Se hicieron los cambios en este PR: https://github.com/devaspros/supermenu/pull/24
+
+#### Pruebas para confirmar que protege
+
+##### Prueba #1
+
+Petición
+```
+curl https://supermenu.devaspros.com/newsletter/.env
+Forbidden
+```
+
+Log:
+```
+W, [2026-10-30T18:47:55.625263 #129414]  WARN -- : [0e25b599-0398-4d37-be7b-f8594ed89a6b] [Rack::Attack] blocklist scanners 191.110.52.188 GET /newsletter/.env
+```
+
+##### Prueba #2
+
+Petición
+```
+curl https://supermenu.devaspros.com/.env.local
+Forbidden
+```
+
+Log:
+```
+W, [2026-10-30T18:47:55.625263 #129414]  WARN -- : [0e25b599-0398-4d37-be7b-f8594ed89a6b] [Rack::Attack] blocklist scanners 191.110.52.188 GET /.env.local
+```
+
+
 
 ### nginx
 
