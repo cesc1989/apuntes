@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "389b3c65160bdbed",
+        "id": "b3575f75628ae39f",
         "type": "tabs",
         "children": [
           {
-            "id": "0263107ff868c5fb",
+            "id": "6bf570209d1bd768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 012 - Seguridad en Super Menú.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 49"
+              "title": "Apuntes Apex - Ciclo 012 - Seguridad en Super Menú"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsolete",
+                "query": "awk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +79,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -134,7 +133,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "needs_requested_medpicker_data"
+                "searchQuery": "ready"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 012 - Seguridad en Super Menú.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,34 +170,37 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0263107ff868c5fb",
+  "active": "6bf570209d1bd768",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 012 - Seguridad en Super Menú.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011.md",
+    "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
+    "OrderlyMeds/Salesforce & Ontraport Flows.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 58.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
+    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_25_-_Email_Spam.md",
+    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Cilo_28_-_Flujos.md",
+    "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
+    "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
+    "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
+    "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
+    "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
+    "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 53.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 52.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Reddit Marketing.md",
-    "DevAsPros/Enlacito/Definicion/Planes y Pagos/Gestión de Pagos y Suscripciones.md",
-    "DevAsPros/Enlacito/Descubrimiento/tinyzap/TinyZap.md",
-    "DevAsPros/Enlacito/Descubrimiento/tinyurl/TinyUrl.md.md",
-    "DevAsPros/Enlacito/Descubrimiento/shlink - self hosted/Shlink - Self Hosted shortener.md",
-    "DevAsPros/Enlacito/Descubrimiento/n9/n9.md",
-    "DevAsPros/Enlacito/Descubrimiento/lowerhot/Lowerhot.md",
-    "DevAsPros/Enlacito/Descubrimiento/dub/dub.md",
-    "DevAsPros/Enlacito/Descubrimiento/bitly/Bitly.md",
-    "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
-    "DevAsPros/Enlacito/Definicion/Otros Acortadores.md",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/enlacito.payments.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo",
     "OrderlyMeds/Help Desk/Soluciones",
@@ -209,9 +211,6 @@
     "OrderlyMeds/Help Desk/attachments/OM-11779.png",
     "OrderlyMeds/Help Desk/attachments/OM-11638.png",
     "OrderlyMeds/Help Desk/attachments/om_11730.png",
-    "OrderlyMeds/Help Desk/attachments/OM_11617.png",
-    "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
-    "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "Otro_Espacio/Todo_Software/Hanami",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
