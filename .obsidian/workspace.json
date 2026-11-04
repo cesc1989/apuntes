@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f94b719948ef164a",
+        "id": "f540db17161a23eb",
         "type": "tabs",
         "children": [
           {
-            "id": "df3d0871abef9813",
+            "id": "49f7af6a43a2d740",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "awk",
+                "query": "tag:#om_stuck_in_ready_to_create_visit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,20 +170,23 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "df3d0871abef9813",
+  "active": "49f7af6a43a2d740",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
+    "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
+    "OrderlyMeds/Salesforce & Ontraport Flows.md",
+    "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
+    "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
+    "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
+    "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
     "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/Reddit Marketing.md",
-    "OrderlyMeds/Salesforce & Ontraport Flows.md",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/LaunchHealthcare/Rollbar Config.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 012 - Seguridad en Super Menú.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/OM Ciclo 58.md",
-    "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
-    "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "OrderlyMeds/KB/009-visit-created-stuck-detection.md",
     "OrderlyMeds/KB/001-member-period.md",
     "OrderlyMeds/KB/002-ontraport-script.md",
@@ -197,10 +200,7 @@
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_25_-_Email_Spam.md",
-    "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Cilo_28_-_Flujos.md",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
-    "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
-    "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/enlacito.payments.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo",
     "OrderlyMeds/Help Desk/Soluciones",

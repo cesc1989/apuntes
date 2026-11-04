@@ -1,6 +1,6 @@
 # Plan General de Lanzamiento
 
-> [!Info]
+> [!Note]
 > Estrategias complementarias:
 > - [[Plan Redes Sociales Enlacito]]
 > - [[Reddit Marketing]]
@@ -34,7 +34,7 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 
 ### Medir y Pedir Retroalimentación 🚨
 
-> [!Info]
+> [!Note]
 > Ya tenemos Umami configurado para la landing y también está el modelo `UserEvent` para seguir el paso de los usuarios en el servicio.
 
 - **Mide desde el día 1**
@@ -64,7 +64,7 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
     - ==🟠Un post claro: problema → solución → link.==
 - **ProductHunt + Betalist**: lanza el día 1 con captura de 30 s; regala 1 mes Pro a quien comente.
 
-> [!Info]
+> [!Note]
 > También en Shelv: https://www.shelv.io/
 > 
 > Aquí ya hice el post sobre enlacito.
@@ -84,7 +84,7 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 
 ## Plan de 2 o 3 semanas 🔑
 
-> [!Info]
+> [!Note]
 > Esto es lo que voy a hacer en dos o tres semanas mientras la situación en OrderlyMeds se va definiendo, al mismo tiempo que le voy sacando provecho a Claudio.
 
 > [!Important]
