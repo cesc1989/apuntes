@@ -107,3 +107,26 @@ Como es lo más fácil de hacer porque los contenidos los puedo sacar de mis lec
 
 > [!Warning]
 > En Twitter recuerda el 1er post debe ser una imagen. La primera respuesta del hilo que sea el enlace.
+
+
+### Nuevas Páginas Individuales y Nuevo Footer
+
+Hay que cambiar el footer para que se parezca al de DAP, TinyURL o Tinny. La idea es que pueda haber columnas de enlaces a diferentes subpaginas. Entonces podría haber una columna "Características" con enlaces a subpáginas de cada característica.
+
+Esto sería una oportunidad para tener más enlaces, más paginas rankeables y más contenido indexable.
+
+> [!Note]
+> Hacerlo como hace TinyURL o Tinny.
+>
+> ![[footer.tinyurl.png]]
+>
+> ![[footer.tinny.png]]
+
+
+### Landing Pages de Casos de Uso
+
+Que sean como ejemplos de cómo usar y para qué se puede usar Enlacito. Creo que de primerazo se pueden hacer landings para:
+
+- Enlaces en descripción de vídeos de YT
+- Hacer publicaciones en Redes Sociales
+- Campañas por WhatsApp
