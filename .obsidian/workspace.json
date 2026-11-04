@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "09c79a3a4a6e0ace",
+        "id": "5ac1c6247c114831",
         "type": "tabs",
         "children": [
           {
-            "id": "c93390090e7f5450",
+            "id": "df6f69a9c652b4b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
-                "mode": "source",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "01-Plan General de Mercadeo 🔑"
+              "title": "Plan Redes Sociales Enlacito"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/Plan Redes Sociales Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +170,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "c93390090e7f5450",
+  "active": "df6f69a9c652b4b3",
   "lastOpenFiles": [
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/LaunchHealthcare/Rollbar Config.md",
@@ -188,7 +189,6 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",

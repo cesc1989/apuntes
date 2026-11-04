@@ -105,6 +105,6 @@ No es muy común ver esto como estrategia declarada, pero existen prácticas par
 ## Otras Ideas 🟡
 
 - Crear un bot que publique estos enlaces con texto generado.
-- ==🟢Hacer una cuenta que "curaduría" artículos de actualidad (tech, ciencia, cultura).==
+- ==🟢Hacer una cuenta de "curaduría" de artículos de actualidad (tech, ciencia, cultura).==
 - Hacer colaboración con otras cuentas pequeñas para intercambiar menciones o RTs.
 - Detectar tendencias y publicar enlaces relacionados con esas temáticas.
