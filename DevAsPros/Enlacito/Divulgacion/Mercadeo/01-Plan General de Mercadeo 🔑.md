@@ -21,21 +21,6 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 
 ## Ideas
 
-### Growth Marketing 🟡
-
-- **Participa en foros** (Reddit, Stack Overflow, comunidades técnicas) donde se hable de productividad o herramientas, aportando valor y mencionando tu solución cuando sea relevante.
-- **Distribución antes que features** 🌟
-    - Publica en: Product Hunt, Indie Hackers, Reddit (subreddits de devs/marketing), X.
-    - ==🟠Un post claro: problema → solución → link.==
-- **ProductHunt + Betalist**: lanza el día 1 con captura de 30 s; regala 1 mes Pro a quien comente.
-
-> [!Info]
-> También en Shelv: https://www.shelv.io/
-> 
-> Aquí ya hice el post sobre enlacito.
-
-- **Reddit + Foros**: aporta scripts o plantillas gratis en r/marketing, r/startups, BlackHatWorld; firma con tu link.
-
 ### Landing Pages para Posicionamiento 🚨
 
 > [!Important]
@@ -56,7 +41,7 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
     - Analytics + eventos (crear link, llegar al límite, click en upgrade) ✅
 
 > [!Important]
-> Creo que esto vale la pena hacerlo.
+> Creo que esto vale la pena hacerlo. Un botón o algo para que cualquiera pueda dar feedback.
 
 - **Itera con usuarios, no en silencio**
     - Un feedback link visible: _“¿Qué te falta?”_.
@@ -69,6 +54,22 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 
 1. **Contacta a creadores de contenido pequeños/medianos** y ofréceles cuenta Pro gratis a cambio de feedback o mención.
 2. **Programa de referidos**: 1 mes extra de Pro por cada usuario que traiga; automatiza con webhooks.
+
+
+### Growth Marketing 🟡
+
+- **Participa en foros** (Reddit, Stack Overflow, comunidades técnicas) donde se hable de productividad o herramientas, aportando valor y mencionando tu solución cuando sea relevante.
+- **Distribución antes que features** 🌟
+    - Publica en: Product Hunt, Indie Hackers, Reddit (subreddits de devs/marketing), X.
+    - ==🟠Un post claro: problema → solución → link.==
+- **ProductHunt + Betalist**: lanza el día 1 con captura de 30 s; regala 1 mes Pro a quien comente.
+
+> [!Info]
+> También en Shelv: https://www.shelv.io/
+> 
+> Aquí ya hice el post sobre enlacito.
+
+- **Reddit + Foros**: aporta scripts o plantillas gratis en r/marketing, r/startups, BlackHatWorld; firma con tu link.
 
 
 ### Integraciones mediante API ❌

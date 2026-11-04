@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e9f6341a911f330",
+        "id": "09c79a3a4a6e0ace",
         "type": "tabs",
         "children": [
           {
-            "id": "28695d2c3544cc01",
+            "id": "c93390090e7f5450",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/LaunchHealthcare/Rollbar Config.md",
-                "mode": "preview",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Rollbar Config"
+              "title": "01-Plan General de Mercadeo 🔑"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/LaunchHealthcare/Rollbar Config.md",
+                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +170,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "28695d2c3544cc01",
+  "active": "c93390090e7f5450",
   "lastOpenFiles": [
+    "OrderlyMeds/Salesforce & Ontraport Flows.md",
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/LaunchHealthcare/Rollbar Config.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 012 - Seguridad en Super Menú.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
@@ -186,8 +188,6 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "OrderlyMeds/Salesforce & Ontraport Flows.md",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
