@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f540db17161a23eb",
+        "id": "8410164f5a25960d",
         "type": "tabs",
         "children": [
           {
-            "id": "49f7af6a43a2d740",
+            "id": "a8a7eeb53952e8c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 58.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "01-Plan General de Mercadeo 🔑"
+              "title": "OM Ciclo 58"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 58.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,10 +170,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "49f7af6a43a2d740",
+  "active": "a8a7eeb53952e8c7",
   "lastOpenFiles": [
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
+    "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
