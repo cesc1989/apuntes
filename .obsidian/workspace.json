@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "47c2ff95b502a53f",
+        "id": "a250cd0f31abc4e5",
         "type": "tabs",
         "children": [
           {
-            "id": "0c471f5f088b6c8e",
+            "id": "f23d1223c72c46ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "OM Ciclo 59"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_stuck_in_ready_to_create_visit",
+                "query": "tag:#om_stuck_in_prescription_written",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +133,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "ready"
+                "searchQuery": "written"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,14 +170,17 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "0c471f5f088b6c8e",
+  "active": "f23d1223c72c46ce",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
@@ -193,8 +201,6 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
     "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
