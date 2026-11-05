@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a250cd0f31abc4e5",
+        "id": "706374baf9fb1c0e",
         "type": "tabs",
         "children": [
           {
-            "id": "f23d1223c72c46ce",
+            "id": "40e99cd614d3c513",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 59"
+              "title": "Apuntes_Ruby_Parte_5"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,10 +170,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "f23d1223c72c46ce",
+  "active": "40e99cd614d3c513",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes de Hanami con FC Manager.md",
+    "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
@@ -201,8 +203,6 @@
     "Luna/Therapist_Signup/Lecciones_-_Therapists_Form/Lecciones Desarrollo - Therapists Signup.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011.md",
     "DevAsPros/Super_Menú/Apuntes Ciclos Super Menu/Apuntes Ciclo 05 - Migracion Super Menu.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 006 - Solid Cable.md",
-    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Upgrade a Rails 7.2.3.md",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/enlacito.payments.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo",

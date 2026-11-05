@@ -339,3 +339,23 @@ Did you mean?  DidYouMean::SpellChecker
 El problema es que el Gemfile anterior estaba construido con bundler 2.2.33 y al pasar a Ruby 3.4.8 se volvió incompatible la versión.
 
 La solución fue eliminar el archivo Gemfile.lock porque sino siempre forzaría hacer el bundle install con la versión anterior de bundler.
+
+# Control server address 'tcp://localhost:9293' is already in use al usar Hanami
+
+Había corrido `./bin/hanami dev` con normalidad y de repente el servidor de Puma empezó a quejarse y se quedó caído.
+
+Resulta que Guard se cayó y no volvió a levantarse. Entonces quedó el servidor caído.
+
+Para encontrarlo y poder ubicar el PID toca correr:
+```bash
+lsof -nP -iTCP:9293 -sTCP:LISTEN
+```
+
+Que da algo como esto:
+```bash
+COMMAND   PID      USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+ruby    45459 francisco    8u  IPv4 0x518b4c04e04332db      0t0  TCP 127.0.0.1:9293 (LISTEN)
+ruby    45459 francisco    9u  IPv6 0xf0455d9a931bf76a      0t0  TCP [::1]:9293 (LISTEN)
+```
+
+Ya con eso puedo sacar el PID para el puerto 9293. En este ejemplo sería `45459`. Con eso puedo correr `kill -9 45459` y se arregla para lanzar de nuevo el servidor de Hanami.
