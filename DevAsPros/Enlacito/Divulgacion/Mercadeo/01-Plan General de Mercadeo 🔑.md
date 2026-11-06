@@ -2,7 +2,7 @@
 
 > [!Note]
 > Estrategias complementarias:
-> - [[Plan Redes Sociales Enlacito]]
+> - [[02-Plan Redes Sociales Enlacito]]
 > - [[Reddit Marketing]]
 
 Tengo claro que no haré muchas características. Ahora mismo solo será:
@@ -88,7 +88,7 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 > Esto es lo que voy a hacer en dos o tres semanas mientras la situación en OrderlyMeds se va definiendo, al mismo tiempo que le voy sacando provecho a Claudio.
 
 > [!Important]
-> Continuar haciendo lo que vengo haciendo según lo definido en [[Plan Redes Sociales Enlacito]].
+> Continuar haciendo lo que vengo haciendo según lo definido en [[02-Plan Redes Sociales Enlacito]].
 >
 > Ajusta la ejecución para seguir más las ideas expuestas en el Plan de Redes Sociales.
 
@@ -98,7 +98,7 @@ Una vez abra el registro al público, ¿cómo hago para que la gente llegue? Est
 > [!Important]
 > La clave aquí es dedicarle tiempo a los posts para que sean más a consciencia y con ganas.
 
-Como es lo más fácil de hacer porque los contenidos los puedo sacar de mis lecturas en Feeder debo continuar con lo detallado en [[Plan Redes Sociales Enlacito#Plan de Contenidos y Ejemplos]]. Con un giro. Así:
+Como es lo más fácil de hacer porque los contenidos los puedo sacar de mis lecturas en Feeder debo continuar con lo detallado en [[02-Plan Redes Sociales Enlacito#Plan de Contenidos y Ejemplos]]. Con un giro. Así:
 
 - **Bluesky**: posts de todo lo que lea.
 - **Mastodon**: posts de temas anti-IA y programación. También de cultura general.
