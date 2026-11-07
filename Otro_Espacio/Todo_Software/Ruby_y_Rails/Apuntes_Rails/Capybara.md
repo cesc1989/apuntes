@@ -56,3 +56,21 @@ Y este fue el HTML de la lista de selección:
   <div class="select__option css-yt9ioa-option" id="react-select-2-option-6" tabindex="-1">Other</div>
 </div>
 ```
+
+## Cómo encontrar un checkbox disabled
+
+Para Cash Flow quería escribir pruebas del checkbox de los gastos recurrentes. Lo hice así para poder encontrar el checkbox cuando el gasto está pagado.
+
+```ruby
+within("table.table-striped") do
+	within("tr#expenditure_#{exp1.id}") do |h|
+		expect(h).to have_text("Linode")
+
+		checkbox = find_field(name: "paid", type: "checkbox", disabled: true)
+		expect(checkbox).to be_checked
+	end
+end
+```
+
+Visto en: https://tahahusain.net/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/
+

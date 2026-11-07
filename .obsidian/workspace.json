@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "806d4d920dd4a9c6",
+        "id": "2bed615e2bb996b1",
         "type": "tabs",
         "children": [
           {
-            "id": "54f1180bdabfa1f9",
+            "id": "8cf38d838e293235",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Capybara.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Capybara"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_stuck_in_prescription_written",
+                "query": "capybara",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,6 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Capybara.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +171,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "54f1180bdabfa1f9",
+  "active": "8cf38d838e293235",
   "lastOpenFiles": [
+    "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Capybara.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/02-Plan Redes Sociales Enlacito.md",
     "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
@@ -196,8 +204,6 @@
     "OrderlyMeds/KB/starter-pack/ReadyForProductSelection.Checkout.StarterPack.png",
     "OrderlyMeds/KB/starter-pack/starterpack-flow.png",
     "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-    "DevAsPros/Enlacito/Divulgacion/Espacios de Posteo en Internet.md",
     "OrderlyMeds/KB/starter-pack/starter-pack-tirze.png",
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/enlacito.payments.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo",
