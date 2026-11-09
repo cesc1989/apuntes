@@ -30,7 +30,7 @@ dig +short A franciscoquintero.com
 >
 > Dado a que el subdominio `www` es el que apunta a la página en github pages (`cesc1989.github.io`).
 
-#### Registro TXT
+#### Registro TXT ❌
 
 > [!Note]
 > Esto existe porque está configurado el Email Forwarding. Al desactivarlo se borra y se hace innecesario copiarlo a DNSimple.
