@@ -65,7 +65,7 @@ coshiapuntes.pikapod.net.
 ```
 
 
-### devaspros.com
+### devaspros.com 🟢
 
 #### Registro A
 
@@ -175,23 +175,35 @@ franciscoquintero.com.  3600    IN      NS      ns4.dnsimple-edge.org.
 - [x] Carga desde dominio raíz
 - [x] Carga desde subdominio www
 
-### devaspros.com
+### devaspros.com 🟢
 
-- [ ] Comando dig lista los nuevos NS
+- [x] Comando dig lista los nuevos NS
 
 ```bash
 dig NS devaspros.com
+
+; <<>> DiG 9.10.6 <<>> NS devaspros.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16031
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; ANSWER SECTION:
+devaspros.com.          3590    IN      NS      ns1.dnsimple-edge.com.
+devaspros.com.          3590    IN      NS      ns2.dnsimple-edge.net.
+devaspros.com.          3590    IN      NS      ns3.dnsimple-edge.io.
+devaspros.com.          3590    IN      NS      ns4.dnsimple-edge.org.
 ```
 
-- [ ] Carga cashflow
-- [ ] Carga coshinotes
-- [ ] Carga supermenu
-- [ ] Carga postlane
-- [ ] Carga intrati
-- [ ] Carga sitio web desde dominio raíz
-- [ ] Carga sitio web desde subdominio www
-- [ ] Verificación de DNS en Resend sigue verde
-- [ ] Verificación de propiedad en Google Search Console sigue correcta
+- [x] Carga cashflow
+- [x] Carga coshinotes
+- [x] Carga supermenu
+- [x] Carga postlane
+- [x] Carga intrati
+- [x] Carga sitio web desde dominio raíz
+- [x] Carga sitio web desde subdominio www
+- [x] Verificación de DNS en Resend sigue verde
+- [x] Verificación de propiedad en Google Search Console sigue correcta
 
 
 ### enlacito
