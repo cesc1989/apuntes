@@ -149,6 +149,35 @@ Si faltan más registros de los retornados, se pueden ingresar subdominios en el
 
 Finalmente, se clica en "Import DNS Records".
 
+## Verificaciones luego de importar
+
+### franciscoquintero.com
+
+- [x] Comando dig lista los nuevos NS
+
+```bash
+dig NS franciscoquintero.com
+
+; <<>> DiG 9.10.6 <<>> NS franciscoquintero.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42709
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; ANSWER SECTION:
+franciscoquintero.com.  3600    IN      NS      ns1.dnsimple-edge.com.
+franciscoquintero.com.  3600    IN      NS      ns2.dnsimple-edge.net.
+franciscoquintero.com.  3600    IN      NS      ns3.dnsimple-edge.io.
+franciscoquintero.com.  3600    IN      NS      ns4.dnsimple-edge.org.
+```
+
+- [x] Carga sitio de lecturas
+- [x] Carga desde dominio raíz
+- [x] Carga desde subdominio www
+
+
+
+
 ## Enlaces
 
 - Configuración de dominio o subdominio en Github Pages: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#dns-records-for-your-custom-domain
