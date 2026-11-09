@@ -129,7 +129,6 @@ dig +short send.resend.enlacito.co MX
 10 feedback-smtp.us-east-1.amazonses.com.
 ```
 
-
 #### Registro TXT
 
 ```bash
@@ -139,6 +138,16 @@ dig +short send.resend.enlacito.co TXT
 dig +short resend._domainkey.resend.enlacito.co TXT
 "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+ZnZyPahBwY/IWf1L8c9owagbjaHrymzJKnI2MdkspiHX7HX8uKt3vpyrHNpKUubbro0uKxSpgpzvnRekcM077gueLumQ1lfVl8wNpfKy/35GmmXi7MGqzaQdWMXyo7RcUEmnNsUXLeA611KvgM6DM2f5+xkR9rPpMYsh8a30oQIDAQAB"
 ```
+
+## Cómo importar a DNSimple
+
+La primera forma es copiarlos manualmente. Yendo de Namecheap a DNSimple creando los registros. La otra opción es más práctica. En DNSimple se pueden auto importar.
+
+En el Record Editor está el dropdown "Import/Export". Ahí aparece la opción "Auto Import DNS". Al ir a esa página DNSimple hace su mejor esfuerzo por traer los registros obvios.
+
+Si faltan más registros de los retornados, se pueden ingresar subdominios en el campo justo debajo y clicar en "Add". Esto buscará y cargara los registros DNS correspondientes.
+
+Finalmente, se clica en "Import DNS Records".
 
 ## Enlaces
 
