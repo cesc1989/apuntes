@@ -214,6 +214,9 @@ devaspros.com.          3590    IN      NS      ns4.dnsimple-edge.org.
 dig NS enlacito.co
 ```
 
+- [ ] Carga sitio web
+- [ ] Funcionan los redirects
+- [ ] Verificación de DNS en Resend sigue verde
 
 
 ## Enlaces
