@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6deed5fbd35732b2",
+        "id": "3b139cb5aa0c7ac5",
         "type": "tabs",
         "children": [
           {
-            "id": "11ae74046f83c085",
+            "id": "63a3ee64d75416f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Postlane/Revsion Noviembre 2026.md",
+                "file": "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Revsion Noviembre 2026"
+              "title": "adr-002-user-ns-de-dnsimple"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Postlane/Revsion Noviembre 2026.md",
+                "file": "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +170,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "11ae74046f83c085",
+  "active": "63a3ee64d75416f9",
   "lastOpenFiles": [
+    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues 🟢.md",
+    "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
     "DevAsPros/Postlane/Revsion Noviembre 2026.md",
     "DevAsPros/Postlane/Bluesky API Notes.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Capybara.md",
@@ -196,8 +198,6 @@
     "Otro_Espacio/Todo_Software/Hanami/Apuntes Variados de las Guias.md",
     "OrderlyMeds/Help Desk/OM Ciclo 59.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 010 - Super Menu.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
