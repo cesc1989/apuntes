@@ -16,9 +16,58 @@ En este documento quedará registrado cada registro de todos los dominios y la f
 
 ### franciscoquintero.com
 
+#### Registro A
+
 ```bash
 dig +short A franciscoquintero.com
 162.255.119.64
+```
+
+> [!Important]
+> ¿Por qué sale este registro si no está creado por mí?
+>
+> Es por Github Pages y el redirect que hay de `franciscoquintero.com` a `www.franciscoquintero.com`.
+>
+> Dado a que el subdominio `www` es el que apunta a la página en github pages (`cesc1989.github.io`).
+
+#### Registro TXT
+
+> [!Note]
+> Esto existe porque está configurado el Email Forwarding. Al desactivarlo se borra y se hace innecesario copiarlo a DNSimple.
+
+```bash
+dig +short franciscoquintero.com TXT
+"v=spf1 include:spf.efwd.registrar-servers.com ~all"
+```
+
+#### Registros CNAME
+
+> [!Important]
+> Sobre los CNAMEs
+> 
+> Hacer esto:
+> ```bash
+> dig +short franciscoquintero.com CNAME
+> ```
+>
+> No devuelve nada porque los registros CNAME no se asigna, normalmente, a la raíz del dominio (`@`) sino a subdominio.
+
+```bash
+dig +short www.franciscoquintero.com CNAME
+cesc1989.github.io.
+```
+
+```bash
+dig +short lecturas.franciscoquintero.com CNAME
+coshiapuntes.pikapod.net.
+```
+
+#### URL Redirect
+
+Hay una:
+```
+host Value
+@    http://www.franciscoquintero.com unmasked
 ```
 
 ### devaspros.com
