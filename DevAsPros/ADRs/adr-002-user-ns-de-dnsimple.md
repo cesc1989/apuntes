@@ -175,6 +175,32 @@ franciscoquintero.com.  3600    IN      NS      ns4.dnsimple-edge.org.
 - [x] Carga desde dominio raíz
 - [x] Carga desde subdominio www
 
+### devaspros.com
+
+- [ ] Comando dig lista los nuevos NS
+
+```bash
+dig NS devaspros.com
+```
+
+- [ ] Carga cashflow
+- [ ] Carga coshinotes
+- [ ] Carga supermenu
+- [ ] Carga postlane
+- [ ] Carga intrati
+- [ ] Carga sitio web desde dominio raíz
+- [ ] Carga sitio web desde subdominio www
+- [ ] Verificación de DNS en Resend sigue verde
+- [ ] Verificación de propiedad en Google Search Console sigue correcta
+
+
+### enlacito
+
+- [ ] Comando dig lista los nuevos NS
+
+```bash
+dig NS enlacito.co
+```
 
 
 
