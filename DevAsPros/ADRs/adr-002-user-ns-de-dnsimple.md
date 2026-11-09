@@ -14,7 +14,7 @@ En este documento quedará registrado cada registro de todos los dominios y la f
 
 ## Registros DNS
 
-### franciscoquintero.com
+### franciscoquintero.com 🟢
 
 #### Registro A ❌
 

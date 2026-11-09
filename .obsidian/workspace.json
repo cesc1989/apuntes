@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "84d59753f9cdb9fb",
+        "id": "ee0f5eb1f5ddfa56",
         "type": "tabs",
         "children": [
           {
-            "id": "cbf322d040a2e685",
+            "id": "064a6d8bca57b2c2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "adr-002-user-ns-de-dnsimple"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,10 +170,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "cbf322d040a2e685",
+  "active": "064a6d8bca57b2c2",
   "lastOpenFiles": [
-    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
+    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "DevAsPros/Postlane/Revsion Noviembre 2026.md",
     "DevAsPros/Postlane/Bluesky API Notes.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Capybara.md",
