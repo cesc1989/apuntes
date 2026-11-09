@@ -108,12 +108,36 @@ dig +short devaspros.com TXT
 
 dig +short send.resend.devaspros.com TXT
 "v=spf1 include:amazonses.com ~all"
+
+dig +short resend._domainkey.resend.devaspros.com TXT
+"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDs4UMBIJS5mmB/vrGvo/A/rv4YAiurJ2rzEw6jbY/V9xA4UxH6VoXEVvApxsQkD28Ox3wWeRVxI8iEY2fqnI4fpkz0e1/J8AORN0vYh1MusT+ckE2u0ucA2Q2feXCyuZ7RWZbO96x1KYGmRH9h0Mfky4WqBSLnzMHwhuob6aO3uwIDAQAB"
 ```
 
 ### enlacito.co
 
-```bash
+#### Registro A
 
+```bash
+dig +short enlacito.co A
+139.144.196.192
+```
+
+#### Registro MX
+
+```bash
+dig +short send.resend.enlacito.co MX
+10 feedback-smtp.us-east-1.amazonses.com.
+```
+
+
+#### Registro TXT
+
+```bash
+dig +short send.resend.enlacito.co TXT
+"v=spf1 include:amazonses.com ~all"
+
+dig +short resend._domainkey.resend.enlacito.co TXT
+"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+ZnZyPahBwY/IWf1L8c9owagbjaHrymzJKnI2MdkspiHX7HX8uKt3vpyrHNpKUubbro0uKxSpgpzvnRekcM077gueLumQ1lfVl8wNpfKy/35GmmXi7MGqzaQdWMXyo7RcUEmnNsUXLeA611KvgM6DM2f5+xkR9rPpMYsh8a30oQIDAQAB"
 ```
 
 ## Enlaces
