@@ -113,7 +113,7 @@ dig +short resend._domainkey.resend.devaspros.com TXT
 "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDs4UMBIJS5mmB/vrGvo/A/rv4YAiurJ2rzEw6jbY/V9xA4UxH6VoXEVvApxsQkD28Ox3wWeRVxI8iEY2fqnI4fpkz0e1/J8AORN0vYh1MusT+ckE2u0ucA2Q2feXCyuZ7RWZbO96x1KYGmRH9h0Mfky4WqBSLnzMHwhuob6aO3uwIDAQAB"
 ```
 
-### enlacito.co
+### enlacito.co 🟢
 
 #### Registro A
 
@@ -206,17 +206,29 @@ devaspros.com.          3590    IN      NS      ns4.dnsimple-edge.org.
 - [x] Verificación de propiedad en Google Search Console sigue correcta
 
 
-### enlacito
+### enlacito 🟢
 
-- [ ] Comando dig lista los nuevos NS
+- [x] Comando dig lista los nuevos NS
 
 ```bash
 dig NS enlacito.co
+
+; <<>> DiG 9.10.6 <<>> NS enlacito.co
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35236
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; ANSWER SECTION:
+enlacito.co.            3600    IN      NS      ns1.dnsimple-edge.com.
+enlacito.co.            3600    IN      NS      ns2.dnsimple-edge.net.
+enlacito.co.            3600    IN      NS      ns3.dnsimple-edge.io.
+enlacito.co.            3600    IN      NS      ns4.dnsimple-edge.org.
 ```
 
-- [ ] Carga sitio web
-- [ ] Funcionan los redirects
-- [ ] Verificación de DNS en Resend sigue verde
+- [x] Carga sitio web
+- [x] Funcionan los redirects
+- [x] Verificación de DNS en Resend sigue verde
 
 
 ## Enlaces
