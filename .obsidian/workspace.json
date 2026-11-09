@@ -14,11 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "adr-002-user-ns-de-dnsimple"
+            }
+          },
+          {
+            "id": "46804b69779ad9b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Codigo de Soluciones"
             }
           }
         ]
@@ -172,6 +186,7 @@
   },
   "active": "a9ee18223a345124",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
     "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "DevAsPros/Postlane/Revsion Noviembre 2026.md",
@@ -189,7 +204,6 @@
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
     "Luna/Usando_Ngrok.md",
     "Luna/AWS_Single_Sign-On_-_Apuntes.md",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "Luna/Backend/Help Desk/2025/005 - Recordatorio de Form Vencido 🟢.md",
     "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
     "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",

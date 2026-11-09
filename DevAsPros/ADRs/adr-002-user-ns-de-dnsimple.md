@@ -151,7 +151,7 @@ Finalmente, se clica en "Import DNS Records".
 
 ## Verificaciones luego de importar
 
-### franciscoquintero.com
+### franciscoquintero.com 🟢
 
 - [x] Comando dig lista los nuevos NS
 
