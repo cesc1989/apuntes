@@ -8,7 +8,7 @@
 > En el Ciclo 58 no hice anotaciones.
 
 
-## Caso OM-12437 - Stuck at PrescriptionWritten SmartPharma
+## Caso OM-12437 - Stuck at PrescriptionWritten SmartPharma 🟡
 
 Etiquetas: #om_stuck_in_prescription_written #om_smart_pharma
 
@@ -159,4 +159,57 @@ SmartPharma::CreatePatientForMedicationOrderJob.new.perform(mo.id)
 salida:
 ```ruby
 'SmartPharma::Api::Response#initialize': Invalid response: No access to that resource. (SmartPharma::Api::InvalidResponseError)
+```
+
+
+## Caso OM-12504 - Unable with Current Medication 🟡
+
+Etiquetas: #om_unable_to_continue_with_current_medication 
+
+Mismo mensaje que en [[OM Ciclo 57#Caso OM-11848 - Unable with Current Medication 🟢]] pero distinta causa.
+
+En este caso la causa son los sensitivities. El CX marcó:
+```
+B3 Sensitivity;B5 Sensitivity;Methionine Sensitivity;Choline Sensitivity;Inositol Sensitivity;B6 Sensitivity;B12 Sensitivity
+```
+
+### ¿Cómo ver las sensitivities en Salesforce?
+
+Yendo al detalle del Patient Check In. Hay un campo _Contraindications_.
+
+Para verlo por código:
+```ruby
+a = Account.find("019ae6d4-c4e1-797b-bbc6-fa83edd96cd7")
+sa = a.salesforce_account
+mp = sa.latest_member_period
+pc = mp.patient_checkin
+
+pc&.slice(
+  :omid,
+  :status,
+  :completed_at,
+  :bmi_category,
+  :is_starter_plan_only,
+  :contraindications,
+  :dosage_feedback,
+  :side_effects,
+  :sensitivities,
+  :allergic_to_shellfish
+)
+```
+
+Salida de `pc`:
+```ruby
+{"omid" => "01a1b1f2-e7bf-7ee9-a030-2102ce2c5745",
+ "status" => "Complete",
+ "completed_at" => 2026-11-06 17:40:48.000000000 UTC +00:00,
+ "bmi_category" => "WeightLoss",
+ "is_starter_plan_only" => false,
+ "contraindications" =>
+  #<data Salesforce::MultiselectPicklist values=["B3 Sensitivity", "B5 Sensitivity", "Methionine Sensitivity", "Choline Sensitivity", "Inositol Sensitivity", "B6 Sensitivity", "B12 Sensitivity"]>,
+ "dosage_feedback" => "IncreaseDosage",
+ "side_effects" => #<data Salesforce::MultiselectPicklist values=["NONE"]>,
+ "sensitivities" =>
+  #<data Salesforce::MultiselectPicklist values=["B3 Sensitivity", "B5 Sensitivity", "Methionine Sensitivity", "Choline Sensitivity", "Inositol Sensitivity", "B12 Sensitivity", "B6 Sensitivity"]>,
+ "allergic_to_shellfish" => nil}
 ```
