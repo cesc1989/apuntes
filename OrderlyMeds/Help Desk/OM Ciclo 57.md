@@ -313,7 +313,7 @@ La salida que se espera es `:imported`.
 
 ## Caso OM-11930 - Order not at pharmacy because of Prescriber not in system 🟢🔑
 
-Etiquetas: #om_practitioner_not_in_system 
+Etiquetas: #om_practitioner_not_in_system  #om_beluga_not_at_pharmacy 
 
 > [!Info]
 > Otros casos:
