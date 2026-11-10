@@ -8,7 +8,7 @@
 > En el Ciclo 58 no hice anotaciones.
 
 
-## Caso OM-12437 - Stuck at PrescriptionWritten SmartPharma 🟡
+## Caso OM-12437 - Stuck at PrescriptionWritten SmartPharma 🟢
 
 Etiquetas: #om_stuck_in_prescription_written #om_smart_pharma
 
@@ -160,6 +160,12 @@ salida:
 ```ruby
 'SmartPharma::Api::Response#initialize': Invalid response: No access to that resource. (SmartPharma::Api::InvalidResponseError)
 ```
+
+
+### Solución
+
+Está en: https://pharmetika.gitbook.io/practitioner-portal-apis/8nkHebKbCO3fmPolF1Hv/patient#handling-duplicates-on-creation
+
 
 
 ## Caso OM-12504 - Unable with Current Medication 🟡
