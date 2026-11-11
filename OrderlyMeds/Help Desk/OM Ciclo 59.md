@@ -3,14 +3,16 @@
 > [!Info]
 > Del Jueves 5 hasta el Miércoles 18 de Noviembre.
 
-
 > [!Note]
 > En el Ciclo 58 no hice anotaciones.
 
 
-## Caso OM-12437 - Stuck at PrescriptionWritten SmartPharma 🟢
+## Caso OM-12437 - Stuck at PrescriptionWritten SmartPharma 🟢 ⚠️
 
 Etiquetas: #om_stuck_in_prescription_written #om_smart_pharma
+
+> [!Important]
+> Esto fue un tema de jefe encubierto. Jason tiene cuentas para probar la atención y funcionamiento del sistema.
 
 Caso típico donde el MP queda en PrescriptionWritten y no avanza. Corrí el script de debuggeo y salió así:
 ```
@@ -165,6 +167,56 @@ salida:
 ### Solución
 
 Está en: https://pharmetika.gitbook.io/practitioner-portal-apis/8nkHebKbCO3fmPolF1Hv/patient#handling-duplicates-on-creation
+
+> [!Important]
+> Si hay problema con paciente duplicado en SmartPharma, la documentación tiene una forma de gestionar los duplicados.
+
+Preparación
+```ruby
+c    = SmartPharma::Api::Client.new
+mo   = SmartPharma::MedicationOrder.find("01a1a843-3523-72e2-bb6c-8bae560c359e")
+prov = mo.order.provider
+prac = mo.practitioner
+
+data = {
+  first_name: prov.first_name,
+  last_name: prov.last_name,
+  email: prov.email,
+  phone_number: prov.sms_number,
+  date_of_birth: prov.date_of_birth.to_date.to_fs(:iso8601),
+  gender: prov.sex_assigned_at_birth,
+  address_line1: prov.address,
+  address_line2: prov.address2,
+  city: prov.city,
+  state: prov.state,
+  zip: prov.zip,
+  account_id: mo.account.id,
+  practitioner_identifier_nk: prac.external_nk
+}
+
+dup = SmartPharma::Api::Patient.create(client: c,
+  patient_data: SmartPharma::Api::Encoder::Patient.encode(patient_data: data))
+entry = dup.duplicate_entries.find { it["patient_id"] == 11299422 }
+pp entry&.slice("patient_id", "access_key")
+
+r = SmartPharma::Api::Response.parse(
+  c.put("/api/v5/provider_portal/patient_access/11299422/add",
+    body: { access_key: entry["access_key"], practitioner_identifier: prac.external_nk })
+)
+pp r.code, r.parsed_response
+```
+
+Si la respuesta es:
+```ruby
+[200, {"messages" => [{"message" => "Patient access added!", "type" => "success"}], "success" => true}]
+```
+
+Se puede correr el job para mandar la order a farmacia:
+```ruby
+pp SmartPharma::Api::Patient.show(client: c, patient_id: 11299422).code
+SmartPharma::CreatePatientForMedicationOrderJob.new.perform(mo.id)
+mo.reload; pp mo.status, mo.patient&.id
+```
 
 
 
