@@ -371,9 +371,16 @@ Apuntes que me da claudio.
 # Preparar y verificar
 # Beluga Health PA
 clinic = SmartPharma::Clinic.find("019aea71-2963-7cf7-bfe0-47401a615507")
-data = {"npi" => "1891031522", "first_name" => "Mamta", "last_name" => "Singh", "credential" => "MD",
-        "email" => "Mamta.Singh@orderlymeds.com", "dea" => nil,
-        "username" => SecureRandom.uuid_v7, "password" => SecureRandom.uuid_v7}
+data = {
+  "npi" => "1891031522",
+  "first_name" => "Mamta",
+  "last_name" => "Singh",
+  "credential" => "MD",
+  "email" => "Mamta.Singh@orderlymeds.com",
+  "dea" => nil,
+  "username" => SecureRandom.uuid_v7,
+  "password" => SecureRandom.uuid_v7
+}
 
 SmartPharma::Practitioner.where(npi: data["npi"]).or(SmartPharma::Practitioner.where(email: data["email"])).pluck(:id)
 # => []
