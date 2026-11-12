@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b244016067163feb",
+        "id": "e61c4ea86b83e957",
         "type": "tabs",
         "children": [
           {
-            "id": "34bd402124aa8eac",
+            "id": "77e48c6e099df009",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011 - IP Spoof Enlacito.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 59"
+              "title": "Apuntes Apex - Ciclo 011 - IP Spoof Enlacito"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011 - IP Spoof Enlacito.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,14 +170,19 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "34bd402124aa8eac",
+  "active": "77e48c6e099df009",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 49.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
+    "OrderlyMeds/Help Desk/Soluciones/Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment.md",
+    "OrderlyMeds/Help Desk/Soluciones/Fallo al crear Casa Order - OM-9398.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 59.md",
     "DevAsPros/Postlane/Revision Noviembre 2026.md",
     "DevAsPros/Postlane/Bluesky API Notes.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-    "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Member Period.md",
     "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
@@ -193,11 +198,6 @@
     "Luna/Glosario.md",
     "Luna/Grafana_Queries.md",
     "Luna/Todos_los_enlaces_Todos_los_entornos.md",
-    "Luna/Usando_Ngrok.md",
-    "Luna/AWS_Single_Sign-On_-_Apuntes.md",
-    "Luna/Backend/Help Desk/2025/005 - Recordatorio de Form Vencido 🟢.md",
-    "OrderlyMeds/KB/starter-pack/003-mostrar-starter-pack.md",
-    "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
