@@ -11,10 +11,14 @@
             "id": "27017979c244ef25",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/ADRs/adr-003-rubocop-y-herb-ci.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "adr-003-rubocop-y-herb-ci"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/ADRs/adr-003-rubocop-y-herb-ci.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,6 +172,9 @@
   },
   "active": "27017979c244ef25",
   "lastOpenFiles": [
+    "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
+    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
+    "DevAsPros/ADRs/adr-003-rubocop-y-herb-ci.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011 - IP Spoof Enlacito.md",
     "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
@@ -181,8 +189,6 @@
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Salesforce & Ontraport Flows.md",
     "OrderlyMeds/Member Period.md",
-    "DevAsPros/ADRs/adr-002-user-ns-de-dnsimple.md",
-    "DevAsPros/ADRs/adr-001-notificacion-de-estado-despliegues.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Capybara.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
@@ -192,7 +198,6 @@
     "Luna/Troubleshooting/Install_Uninstall_aws_cli_in_MacOS.md",
     "Luna/Diccionario_de_Comandos_en_Luna_y_o_AWS.md",
     "Luna/Glosario.md",
-    "Luna/Grafana_Queries.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
