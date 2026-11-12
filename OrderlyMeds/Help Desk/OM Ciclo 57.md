@@ -387,11 +387,20 @@ SmartPharma::Practitioner.where(npi: data["npi"]).or(SmartPharma::Practitioner.w
 
 # Crear en Pharmetika (si devuelve error, parar y no reintentar)
 client = SmartPharma::Api::Client.new(logger: Rails.logger)
-resp = SmartPharma::Api::Practitioner.create(client:, practitioner_data: SmartPharma::Api::Encoder::Practitioner.encode(practitioner_data: data), clinic_identifier: clinic.external_nk)
+resp = SmartPharma::Api::Practitioner.create(
+  client:,
+  practitioner_data: SmartPharma::Api::Encoder::Practitioner.encode(practitioner_data: data),
+  clinic_identifier: clinic.external_nk
+)
 
 # Guardar localmente y asociar a la clínica
 pr = ActiveRecord::Base.transaction do
-  SmartPharma::Practitioner.create!(data.except("credential").merge("external_nk" => resp["practitioner_identifier"])).tap { it.create_practitioner_clinic!(clinic:) }
+  SmartPharma::Practitioner.create!(
+    data
+    .except("credential")
+    .merge("external_nk" => resp["practitioner_identifier"])
+  )
+  .tap { it.create_practitioner_clinic!(clinic:) }
 end
 
 # Reprocesar el Order
