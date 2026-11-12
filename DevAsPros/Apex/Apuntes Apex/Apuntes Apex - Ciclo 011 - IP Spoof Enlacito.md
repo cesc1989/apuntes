@@ -2,6 +2,9 @@
 
 ## Sentry IpSpoofAttackError
 
+> [!Note]
+> Commit donde se corrigió: https://github.com/cesc1989/enlacito/commit/4f2f2cbb6e47a38076c5c954d1f92a9b1999027c
+
 ### Qué pasó
 
 - **Error:** `ActionDispatch::RemoteIp::IpSpoofAttackError: IP spoofing attack?!`
