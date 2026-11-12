@@ -311,7 +311,7 @@ end
 
 La salida que se espera es `:imported`.
 
-## Caso OM-11930 - Order not at pharmacy because of Prescriber not in system 🟢🔑
+## Caso OM-11930 - Order not at pharmacy because of Prescriber not in system - SmartPharma 🟢🔑
 
 Etiquetas: #om_practitioner_not_in_system  #om_beluga_not_at_pharmacy 
 
