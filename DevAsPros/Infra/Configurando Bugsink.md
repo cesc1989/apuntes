@@ -80,3 +80,14 @@ Docs: https://www.bugsink.com/docs/settings/
 
 Hay que poner la variable `SINGLE_USER` en `False` en la config de Pikapods. Con esto se habilita todo lo de multi usuario. Luego, en la variable `USER_REGISTRATION` se pone el valor `CB_ADMINS` para que solo yo pueda invitar a gente.
 
+## Envío de Correo
+
+Configuré las variables que habilita el pod:
+
+- `EMAIL_HOST`
+- `EMAIL_HOST_USER`
+- `EMAIL_HOST_PASSWORD`
+
+Las variables `EMAIL_PORT`, `EMAIL_USE_TLS` y `EMAIL_USE_SSL` llevan los valores por defecto.
+
+Sin embargo, al usar unas credenciales de Resend como [explican en los docs](https://resend.com/docs/send-with-smtp#send-emails-with-smtp), nunca he recibido email de Bugsink.
