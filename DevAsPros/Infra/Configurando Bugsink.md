@@ -70,3 +70,13 @@ Estado de los proyectos que tengo andando y cuáles están en Bugsink. Si están
 > Con los proyectos personales lo puedo apagar porque casi que no explota nada.
 >
 > **Esta decisión la reconsideraré más adelante.**
+
+
+## Variables de Entorno
+
+Docs: https://www.bugsink.com/docs/settings/
+
+### Habilitar Invitar Usuarios
+
+Hay que poner la variable `SINGLE_USER` en `False` en la config de Pikapods. Con esto se habilita todo lo de multi usuario. Luego, en la variable `USER_REGISTRATION` se pone el valor `CB_ADMINS` para que solo yo pueda invitar a gente.
+
