@@ -20,7 +20,7 @@ Según Pikapods necesita mínimo:
 ### Costo 💰
 
 > [!Note]
-> Por el costo elevado lo que puedo buscar es apagarlo por varias horas del día para ahorrar un poco.
+> Para ahorrar lo que puedo hacer es apagarlo por varias horas del día.
 
 Febrero 23, 2026: 2.73 usd/mes.
 
