@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "adb64374cacd4ec3",
+        "id": "171ca1b1315e7f90",
         "type": "tabs",
         "children": [
           {
-            "id": "3cc14b36bc93e479",
+            "id": "d913f33721129a1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Infra/Configurando Bugsink.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 013 - Page Speed.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Configurando Bugsink"
+              "title": "Apuntes Apex - Ciclo 013 - Page Speed"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Configurando Bugsink.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 013 - Page Speed.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,11 +170,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "3cc14b36bc93e479",
+  "active": "d913f33721129a1f",
   "lastOpenFiles": [
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 013 - Page Speed.md",
+    "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Infra/Precios de Servicios para Proyectos.md",
     "DevAsPros/Puntapie/Para la version 1.15 🟢.md",
-    "DevAsPros/Infra/Configurando Bugsink.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
@@ -196,8 +198,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Capybara.md",
     "Luna/Therapist_Signup/HubSpot Two-Way Data Sync/Notas de Desarrollo - Two Way Data Sync.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/01-Plan General de Mercadeo 🔑.md",
-    "DevAsPros/Enlacito/Divulgacion/Mercadeo/02-Plan Redes Sociales Enlacito.md",
-    "Luna/Troubleshooting/Apuntes_de_Docker_-_Parte_1.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
