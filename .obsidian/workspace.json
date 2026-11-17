@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e3de557f24953f81",
+        "id": "eae04578d2c7f698",
         "type": "tabs",
         "children": [
           {
-            "id": "dba922f6a7ebfebd",
+            "id": "856e73623a8aaf13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Buscando un Lector de Artículos (Read it Later)"
+              "title": "New tab"
             }
           }
         ]
@@ -145,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +165,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "dba922f6a7ebfebd",
+  "active": "856e73623a8aaf13",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando_una_Mac_con_Chip_M1.md",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/001.teclado.latam.png",
+    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/002.teclado.alt.gr.dead.keys.png",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
+    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
+    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
@@ -193,11 +195,6 @@
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 48.md",
-    "OrderlyMeds/Help Desk/Soluciones/Verificacion de Caso OM-12120 - Stuck in ReadyForOrderPayment.md",
-    "OrderlyMeds/Help Desk/Soluciones/Fallo al crear Casa Order - OM-9398.md",
-    "DevAsPros/Postlane/Bluesky API Notes.md",
-    "OrderlyMeds/Salesforce & Ontraport Flows.md",
-    "OrderlyMeds/Member Period.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
@@ -210,14 +207,11 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
     "OrderlyMeds/Help Desk/attachments/OM_11828.png",
-    "OrderlyMeds/Help Desk/attachments/OM_11848.png",
-    "OrderlyMeds/Help Desk/attachments/OM-11779.png",
     "Otro_Espacio/Todo_Software/Hanami",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
     "OrderlyMeds/KB/om-10105",
     "OrderlyMeds/KB",
-    "OrderlyMeds/SU/Untitled",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
