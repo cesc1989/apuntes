@@ -1,7 +1,9 @@
 # Dive into Docker Course
+
 Lecciones del curso de Nick Janetakis.
 
 ## General
+
 - [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 - set `COMPOSE_PROJECT_NAME=` env var so that docker-compose doesn't prepend containers, images, networks, volumes, etc, with folder name but with the value in the variable
 - [docker-compose.yml file reference](https://docs.docker.com/compose/compose-file/)
@@ -9,6 +11,7 @@ Lecciones del curso de Nick Janetakis.
 
 
 ## Virtual Machines are like houses. Docker Containers are like an apartment building
+
 - [Docker Website What is a Container section](https://www.docker.com/what-container)
 
 
@@ -22,13 +25,16 @@ In terms of POO, an image is a class and a container is an instance of that clas
     - one image can launch many containers
 - **docker container**:
     - are immutable: change made during runtime are lost when stopped
+
 # Difference between cloud.docker.io and hub.docker.io
+
 - [Quora](https://www.quora.com/unanswered/Whats-the-difference-between-Docker-Cloud-and-Docker-Hub)
 - [cloud.docker.io](http://cloud.docker.io) is a Cloud Provider for managing **docker containers**
 - [hub.docker.io](http://hub.docker.io) is a repository for sharing **docker images**
 
 
 ## Error response from daemon
+
     Error response from daemon: Get https://registry-1.docker.io/v2/: unauthorized: incorrect username or password
 
 Respuesta en [Stack Overflow](https://stackoverflow.com/questions/40872558/just-created-docker-hub-account-credentials-do-not-work-for-docker-login).
