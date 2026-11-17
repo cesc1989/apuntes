@@ -11,10 +11,14 @@
             "id": "4ed32a60f7e65475",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Otro_Espacio/Self Hosting/Usando Homer para Dashboard Personal.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Usando Homer para Dashboard Personal"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Otro_Espacio/Self Hosting/Usando Homer para Dashboard Personal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +170,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "4ed32a60f7e65475",
   "lastOpenFiles": [
+    "Otro_Espacio/Self Hosting/attachments/Pasted image 20261117163639.png",
+    "Otro_Espacio/Self Hosting/Usando Homer para Dashboard Personal.md",
     "Otro_Espacio/CheatSheets/mysql/README.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Instalacion&Config/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Instalacion&Config",
@@ -196,8 +203,6 @@
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 011 - IP Spoof Enlacito.md",
     "OrderlyMeds/Help Desk/Soluciones/Resubmit Member Period desde Consola.md",
     "OrderlyMeds/Help Desk/OM Ciclo 49.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 48.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
