@@ -1,6 +1,8 @@
 # Buscando un Lector de Artículos (Read it Later)
 
 > [!Important]
+> **Actualización: 17/11/2026**
+> 
 > Readeck es la alternativa que uso y usaré. Hospedad en Pikapods y frecuentemente actualizada. Ya uso la app móvil y además exporto bastante ebooks.
 
 ## Conclusiones
