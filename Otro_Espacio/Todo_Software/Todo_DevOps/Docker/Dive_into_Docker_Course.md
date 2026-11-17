@@ -199,70 +199,79 @@ docker exec -it alpine sh
 ```
 
 
-## `docker volume` for a data storage commands
+## docker volume for a data storage commands
 
 For a normal docker container a volume can be assigned by setting it using the `-v` flag to the current working directory as in:
-
-    docker container run --rm -itd -p 5000:5000 -e FLASK_APP=app.py \
-    -e FLASK_DEBUG=1 --name web2 --net firstnetwork -v $PWD:/app web2
+```bash
+docker container run --rm -itd -p 5000:5000 -e FLASK_APP=app.py \
+	-e FLASK_DEBUG=1 --name web2 --net firstnetwork -v $PWD:/app web2
+```
 
 but for a data storage this is somewhat different. You'd still need to create a volume but the linking process is quite different. Using named volumes:
-
-    docker volume create web2_redis
+```bash
+docker volume create web2_redis
     
-    docker container run --rm -itd -p 6379:6379 --name redis \
-    --net firstnetwork -v web2_redis:/data redis:3.2-alpine
+docker container run --rm -itd -p 6379:6379 --name redis \
+--net firstnetwork -v web2_redis:/data redis:3.2-alpine
+```
 
 By inspecting the created volume you can see where in the docker host the data is going to be saved in the `Mountpoint` key.
 
 The location in the docker container is defined by the image. Always check data storage image README to know where or how to set the volume for the container.
 
-
 > Note: persistent storage databases such as PostgreSQL or MySQL do save data but Redis is an in-memory data store and that's why it looses data on container restart
 
-
-    docker exec redis redis-cli SAVE
+```bash
+docker exec redis redis-cli SAVE
+```
 
 When dumping data from a data storage, it is saved in the docker host volume mountpoint.
 
-## `CMD` & `ENTRYPOINT`
+## CMD & ENTRYPOINT
 
 `CMD` instructions are always send as arguments to `ENTRYPOINT`. `/bin/sh -c` is the default `ENTRYPOINT` for every container.
 
 `ENTRYPOINT` executes custom scripts and do not add image layers.
 
-
 ## Tips and Tricks
 
 Stop all containers at once
-
-    docker container stop $(docker container ls -a -q)
+```bash
+docker container stop $(docker container ls -a -q)
+```
 
 Clean images, containers, so on
-
-    docker system prune
+```bash
+docker system prune
+```
 
 Remove all stopped containers - [Coderwall](https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers)
 
-    docker stop $(docker ps -a -q)
-    docker rm $(docker ps -a -q)
+```bash
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+```
 
 Remove all images without tag and/or repository - [Quora](https://www.quora.com/How-do-I-automatically-remove-all-docker-images-without-a-tag-or-a-repository)
 
-    docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+```bash
+docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
     
-    docker rmi $(docker images | grep "<none>" | awk "{print $3}")
+docker rmi $(docker images | grep "<none>" | awk "{print $3}")
+```
 
 
 ## Ejecutar comandos que normalmente correría fuera del contenedor
 
-Ingresar a la consola de postgres
+Ingresar a la consola de postgres:
+```bash
+docker container exec -it [CONTAINER-NAME] psql -U bucket
+docker container exec -it bucket_postgres_1 psql -U bucket
+```
 
-    docker container exec -it [CONTAINER-NAME] psql -U bucket
-    docker container exec -it bucket_postgres_1 psql -U bucket
-
-Ingresar a la consola de rails
-
-    docker container exec -it [CONTAINER-NAME] rails c
-    docker container exec -it bucket_api_1 rails c
+Ingresar a la consola de rails:
+```
+docker container exec -it [CONTAINER-NAME] rails c
+docker container exec -it bucket_api_1 rails c
+```
 
