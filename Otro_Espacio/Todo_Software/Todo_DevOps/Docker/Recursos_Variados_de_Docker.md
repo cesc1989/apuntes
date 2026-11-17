@@ -1,16 +1,18 @@
 # Recursos Variados de Docker
 
 ## General
+
 - [Tutorial Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 - Qué es Docker: [Docker](http://docs.docker.com/engine/introduction/understanding-docker/)
 - Instalación Ubuntu: [Docker docs](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 - Ubuntu friendly for docker: [github](https://github.com/jeckhart/baseimage-docker) and [phusion original](https://hub.docker.com/r/phusion/baseimage/)
 - [Mejores prácticas al escribir un Dockerfile](http://docs.docker.com/engine/articles/dockerfile_best-practices/)
 - Aprender Docker: [Curso](http://training.docker.com/introduction-to-docker) - [Labs](http://training.play-with-docker.com/dev-landing/)
-- [Difference between](https://stackoverflow.com/questions/35832095/difference-between-links-and-depends-on-in-docker-compose-yml) `[links](https://stackoverflow.com/questions/35832095/difference-between-links-and-depends-on-in-docker-compose-yml)` [and](https://stackoverflow.com/questions/35832095/difference-between-links-and-depends-on-in-docker-compose-yml) `[depends_on](https://stackoverflow.com/questions/35832095/difference-between-links-and-depends-on-in-docker-compose-yml)`
+- Difference between `links` and `depends_on` [SO](https://stackoverflow.com/questions/35832095/difference-between-links-and-depends-on-in-docker-compose-yml)
 
 
 ## Docker Compose
+
 - Qué es docker compose: [Official Docs](http://docs.docker.com/compose/)
 - Instalar docker compose: [Docker docs](http://docs.docker.com/compose/install/)
 - [Docker Compose GitHub](https://github.com/docker/compose)
@@ -58,6 +60,7 @@ With help of [Stack Overflow](https://stackoverflow.com/a/43880563/1407371)
 
 
 ## Errores y Soluciones
+
 - Error `Couldn't connect to Docker daemon at http+unix://var/run/docker.sock - is it running?`: [GitHub](https://github.com/docker/compose/issues/1214)
 - `[invalid byte sequence in US-ASCII (Argument Error)](https://stackoverflow.com/questions/17031651/invalid-byte-sequence-in-us-ascii-argument-error-when-i-run-rake-dbseed-in-ra#17031697)` [al arrancar el comando foreman start](https://stackoverflow.com/questions/17031651/invalid-byte-sequence-in-us-ascii-argument-error-when-i-run-rake-dbseed-in-ra#17031697)
 
@@ -77,7 +80,6 @@ Answer: [Stack Overflow](https://stackoverflow.com/a/33301782/1407371)
 
 Cuando se intenta conectar a MySQL (versión 8) desde PHP (versión 7).
 Solución:
-
 
 - sha2 usa encriptación
 - es incompatible
