@@ -35,7 +35,9 @@ In terms of POO, an image is a class and a container is an instance of that clas
 
 ## Error response from daemon
 
-    Error response from daemon: Get https://registry-1.docker.io/v2/: unauthorized: incorrect username or password
+```bash
+Error response from daemon: Get https://registry-1.docker.io/v2/: unauthorized: incorrect username or password
+```
 
 Respuesta en [Stack Overflow](https://stackoverflow.com/questions/40872558/just-created-docker-hub-account-credentials-do-not-work-for-docker-login).
 
@@ -71,45 +73,50 @@ docker image build -t pruebados --build-arg SIDEKIQ_LICENSE_KEY=xxxxx:bbbbb -f D
 ```
 
 That image can be uploaded to the Docker registry. But remember to tag it with the namespace format for the Docker Hub:
-
-    DOCKER-HUB-USERNAME/IMAGE-NAME[:TAG]
-    cesc1989/bucket_api:latest
+```bash
+DOCKER-HUB-USERNAME/IMAGE-NAME[:TAG]
+cesc1989/bucket_api:latest
+```
 
 Tagging commands:
-
-    docker image tag \[IMAGE-NAME\] [TAG]
-    docker image tag base cesc1989/bucket_api:latest
+```bash
+docker image tag \[IMAGE-NAME\] [TAG]
+docker image tag base cesc1989/bucket_api:latest
+```
 
 You can see a list of all images with `docker images` command; a list of all running containers with `docker container ls` or a list of all containers, running or not with `docker container ls -a`.
 
-
 ## `docker container` commands annotations
 
-> Taken from Dive into Docker course
-
-    docker container run [OPTIONS] IMAGE
-    docker container run -it -p 5000:5000 -e FLASK_APP=app.py web1
+Taken from Dive into Docker course:
+```bash
+docker container run [OPTIONS] IMAGE
+docker container run -it -p 5000:5000 -e FLASK_APP=app.py web1
+```
 
 `-e` is for environment vars; `-it` is for interactive console; `-p` indicates host port and docker container(guest) port in the form of `HOST-PORT:GUEST-PORT`
 
-Delete the container after it's stopped
-
-    docker container run -it -p 5000:5000 -e FLASK_APP=app.py \
-     --rm --name web1 web1
+Delete the container after it's stopped:
+```bash
+docker container run -it -p 5000:5000 -e FLASK_APP=app.py \
+	--rm --name web1 web1
+```
 
 `--rm` flag indicates to delete it after being stopped; `--name` assigns a name for better identifying the container
 
-Run it on detached mode
-
-    docker container run -it -p 5000:5000 -e FLASK_APP=app.py \
-     --rm --name web1 -d web1
+Run it on detached mode:
+```bash
+docker container run -it -p 5000:5000 -e FLASK_APP=app.py \
+  --rm --name web1 -d web1
+```
 
 `-d` flag indicates the container to run on detach mode
 
-Run it so that it restarts itself after a system failure
-
-    docker container run -it -p 5000 -e FLASK_APP=app.py \
-     --rm --name web1_2 -d --restart on-failure web1
+Run it so that it restarts itself after a system failure:
+```bash
+docker container run -it -p 5000 -e FLASK_APP=app.py \
+	 --rm --name web1_2 -d --restart on-failure web1
+```
 
 Notice that when only passing a value to `-p` docker assigns a random port to HOST.
 
