@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "eae04578d2c7f698",
+        "id": "5c12d20cd34e5795",
         "type": "tabs",
         "children": [
           {
-            "id": "856e73623a8aaf13",
+            "id": "a64994c7c9c50ced",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,14 +165,15 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "a64994c7c9c50ced",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Instalacion&Config/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
+    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Instalacion&Config",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Migraciones de Rails",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Usando_una_Mac_con_Chip_M1.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/001.teclado.latam.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/002.teclado.alt.gr.dead.keys.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
-    "Otro_Espacio/Todo_Software/Mundo_Linux/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
     "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
@@ -211,8 +212,6 @@
     "Otro_Espacio/Todo_Software/Hanami",
     "OrderlyMeds/LaunchHealthcare",
     "OrderlyMeds/KB/starter-pack",
-    "OrderlyMeds/KB/om-10105",
-    "OrderlyMeds/KB",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
