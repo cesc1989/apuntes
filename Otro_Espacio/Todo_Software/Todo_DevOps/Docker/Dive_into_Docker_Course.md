@@ -121,12 +121,13 @@ docker container run -it -p 5000 -e FLASK_APP=app.py \
 Notice that when only passing a value to `-p` docker assigns a random port to HOST.
 
 You can run many containers based of the same docker image. Do it by changing their name so they're unique from each other
+```bash
+docker container run -it -p 5000 -e FLASK_APP=app.py \
+ --rm --name web1_2 -d --restart on-failure web1
 
-    docker container run -it -p 5000 -e FLASK_APP=app.py \
-     --rm --name web1_2 -d --restart on-failure web1
-    
-    docker container run -it -p 5000 -e FLASK_APP=app.py \
-     --name web1_3 -d --restart on-failure web1
+docker container run -it -p 5000 -e FLASK_APP=app.py \
+ --name web1_3 -d --restart on-failure web1
+```
 
 
 ## `docker container` with volumes annotations
@@ -135,21 +136,23 @@ Docker containers have ephemeral storage, meaning every file created while the c
 
 Another case scenario for volumes is live reloading of code. Without a volume, there's no synchronization between the docker host and the docker container.
 
-Run a docker container with a volume
-
-    docker container run -it -p 5000:5000 -e FLASK_APP=app.py \
-    -e FLASK_DEBUG=1 --rm --name web1 -v $PWD:/app web1
+Run a docker container with a volume:
+```bash
+docker container run -it -p 5000:5000 -e FLASK_APP=app.py \
+	-e FLASK_DEBUG=1 --rm --name web1 -v $PWD:/app web1
+```
 
 The `-e` flag defines `FLASK_DEBUG=1` environment variable used by the framework to show a debug log of every request and trace; the `-v` flag indicates a volume to be created at in the form of:
+```bash
+HOST:GUEST
+$PWD:/app
+```
 
-    HOST:GUEST
-    $PWD:/app
-
-Create a file in the volume
-
-    docker container exec -it --user "$(id -u):$(id -g)" \
-    web1 touch hi.txt
-
+Create a file in the volume:
+```bash
+docker container exec -it --user "$(id -u):$(id -g)" \
+	web1 touch hi.txt
+```
 
 > Note: there's a command called: `id`
 > Note: the `exec` needs a running container
@@ -162,33 +165,38 @@ Networking commands are under the `network` management command. By default, all 
 With `docker network inspect bridge` you can see the JSON object representing the network data. That object contains a `containers` key which references all containers inside that network.
 
 One can see a container IP address (required for networking different containers) with the `ifconfig` command:
-
-    docker exec redis ifconfig # 172.17.0.2 look for the IP in the output of eth0
-    docker exec web2 ifconfig # 172.17.0.3
+```bash
+docker exec redis ifconfig # 172.17.0.2 look for the IP in the output of eth0
+docker exec web2 ifconfig # 172.17.0.3
+```
 
 And you can even `ping` a container from another one by `ping`ing its IP address:
-
-    docker exec web2 ping 172.17.0.3
+```bash
+docker exec web2 ping 172.17.0.3
+```
 
 
 > Note: you can see a container hosts file: `docker exec redis cat /etc/hosts` and notice it contains a reference of the container's IP address and the container ID (the hash)
 
-Now, if you want to control more aspects of the network or create containers in a different one, you can create a `docker network` and then tied containers to it
+Now, if you want to control more aspects of the network or create containers in a different one, you can create a `docker network` and then tied containers to it:
+```bash
+docker network create --driver bridge firstnetwork
+```
 
-    docker network create --driver bridge firstnetwork
+Now, you can specified a network where to launch containers:
+```bash
+docker container run --rm -itd -p 6379:6379 --name redis \
+--net firstnetwork redis:3.2-alpine
 
-Now, you can specified a network where to launch containers
-
-    docker container run --rm -itd -p 6379:6379 --name redis \
-    --net firstnetwork redis:3.2-alpine
-    
-    docker container run --rm -itd -p 5000:5000 -e FLASK_APP=app.py \
-    -e FLASK_DEBUG=1 --name web2 --net firstnetwork -v $PWD:/app web2
+docker container run --rm -itd -p 5000:5000 -e FLASK_APP=app.py \
+-e FLASK_DEBUG=1 --name web2 --net firstnetwork -v $PWD:/app web2
+```
 
 Notice how you can issue technology-specific commands with the `exec` command:
-
-    docker exec -it redis redis-cli
-    docker exec -it alpine sh
+```bash
+docker exec -it redis redis-cli
+docker exec -it alpine sh
+```
 
 
 ## `docker volume` for a data storage commands
