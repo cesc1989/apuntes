@@ -1,5 +1,8 @@
 # Buscando un Lector de Artículos (Read it Later)
 
+> [!Important]
+> Readeck es la alternativa que uso y usaré. Hospedad en Pikapods y frecuentemente actualizada. Ya uso la app móvil y además exporto bastante ebooks.
+
 ## Conclusiones
 
 No estoy del todo convencido en pasarme a Readeck o a Wallabag por las limitaciones para resaltar en móvil. Sin embargo, en Omnivore el resalto en móvil también funciona algo chueco a veces.
