@@ -42,3 +42,16 @@ Para borrar, en caso de que se necesite reconstruir:
 ```bash
 docker rm homer
 ```
+
+## Acceso mediante Tailscale
+
+Una vez corriendo lo puedo acceder con cualquier de estas formas.
+
+> [!Warning]
+> El servidor debe correr sobre 0.0.0.0 para que se pueda acceder desde otras máquinas de la red.
+
+IP: [http://100.116.129.35:8080/](http://100.116.129.35:8080/)
+
+DNS largo: [http://coshinema.bambino-cordylus.ts.net:8080/](http://coshinema.bambino-cordylus.ts.net:8080/)
+
+DNS Corto: [http://coshinema:8080/](http://coshinema:8080/)
