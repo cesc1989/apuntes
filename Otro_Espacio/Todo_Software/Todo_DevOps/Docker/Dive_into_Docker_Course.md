@@ -270,7 +270,7 @@ docker container exec -it bucket_postgres_1 psql -U bucket
 ```
 
 Ingresar a la consola de rails:
-```
+```bash
 docker container exec -it [CONTAINER-NAME] rails c
 docker container exec -it bucket_api_1 rails c
 ```
