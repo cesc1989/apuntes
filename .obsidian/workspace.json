@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5c12d20cd34e5795",
+        "id": "c2387d9a247d34f6",
         "type": "tabs",
         "children": [
           {
-            "id": "a64994c7c9c50ced",
+            "id": "4ed32a60f7e65475",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "a64994c7c9c50ced",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "Otro_Espacio/CheatSheets/mysql/README.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Instalacion&Config/Instalando_Ruby_en_Linux_Mint_-_Ubuntu_22_04.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Instalacion&Config",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes_Rails/Migraciones de Rails",
@@ -174,9 +175,9 @@
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/001.teclado.latam.png",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/attachments/002.teclado.alt.gr.dead.keys.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/attachments/Advanced.Database.Programming.with.Rails.pdf",
-    "Otro_Espacio/Todo_Software/Self Hosting/Usando Pikapods.md",
-    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
-    "Otro_Espacio/Todo_Software/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
+    "Otro_Espacio/Self Hosting/Usando Pikapods.md",
+    "Otro_Espacio/Self Hosting/Buscando un Lector de Artículos (Read it Later).md",
+    "Otro_Espacio/Self Hosting/Buscando un gestor de Marcadores (Bookmarks).md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Dive_into_Docker_Course.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
