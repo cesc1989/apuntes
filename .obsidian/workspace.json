@@ -11,10 +11,14 @@
             "id": "6395ae55670f19a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Bluesky API Notes"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Postlane/Bluesky API Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,7 +170,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "6395ae55670f19a1",
   "lastOpenFiles": [
     "Luna/Archive.zip",
     "Luna/Backend/Image Magick and Alpine.md",

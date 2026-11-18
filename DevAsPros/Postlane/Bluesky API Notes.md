@@ -4,6 +4,9 @@
 
 Docs: https://docs.bsky.app/docs/api/com-atproto-server-create-session
 
+> [!Important]
+> Hay que enviar el handle completo.
+
 Petición:
 ```bash
 curl --request POST \
@@ -15,8 +18,6 @@ curl --request POST \
 }'
 ```
 
-> [!Important]
-> Hay que enviar el handle completo.
 
 La respuesta incluye:
 ```json
