@@ -137,7 +137,7 @@ sudo sysctl -w net.netfilter.nf_conntrack_tcp_timeout_time_wait=30
 
 #### 1. Hacerlo permanente 🟢
 
-`sysctl -w` se pierde al reiniciar, y `unattended-upgrades` reinicia los miércoles a las 06:01 UTC.
+`sysctl -w` se pierde al reiniciar, y `unattended-upgrades` reinicia cuando hay upgrades de kernel.
 
 ```bash
 echo nf_conntrack | sudo tee /etc/modules-load.d/conntrack.conf
