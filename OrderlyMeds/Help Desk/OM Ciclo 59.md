@@ -271,3 +271,16 @@ Salida de `pc`:
   #<data Salesforce::MultiselectPicklist values=["B3 Sensitivity", "B5 Sensitivity", "Methionine Sensitivity", "Choline Sensitivity", "Inositol Sensitivity", "B12 Sensitivity", "B6 Sensitivity"]>,
  "allergic_to_shellfish" => nil}
 ```
+
+## Caso OM-12585 - Pago fallido - Ontraport
+
+Etiquetas: #om_ontraport #om_payment_failed
+
+Caso en que el CX no pudo completar el pago. Cuando suplanto identidad y voy al checkin me lleva a esta página hospedada en Ontraport:
+![[OM_12585.png]]
+
+No hay nada evidente de qué sea el fallo así que Claudio sugirió al CS team lo siguiente:
+
+- Agregar la nueva tarjeta directamente con el CX en una llamada teléfonica.
+
+Ya.
