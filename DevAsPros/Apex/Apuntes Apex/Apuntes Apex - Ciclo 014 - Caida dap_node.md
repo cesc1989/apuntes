@@ -135,7 +135,7 @@ sudo sysctl -w net.netfilter.nf_conntrack_tcp_timeout_time_wait=30
 
 ### Pendientes
 
-#### 1. Hacerlo permanente (antes del miércoles 2026-11-25) 🟡
+#### 1. Hacerlo permanente (antes del miércoles 2026-11-25) 🟢
 
 `sysctl -w` se pierde al reiniciar, y `unattended-upgrades` reinicia los miércoles a las 06:01 UTC.
 
