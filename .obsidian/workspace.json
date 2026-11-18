@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5ad358e3bf0ed78a",
+        "id": "38ea31ef449935ed",
         "type": "tabs",
         "children": [
           {
-            "id": "79577ec9bf11dadf",
+            "id": "612e361ea693a764",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Postlane/Modelo de Datos/Diagrama Entidad Relación.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Diagrama Entidad Relación"
+              "title": "New tab"
             }
           }
         ]
@@ -145,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Postlane/Modelo de Datos/Diagrama Entidad Relación.md",
+                "file": "DevAsPros/Infra/Redis DBs en Uso.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,10 +166,10 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "79577ec9bf11dadf",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
-    "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos/Diagrama Entidad Relación.md",
+    "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
@@ -217,7 +213,6 @@
     "OrderlyMeds/Help Desk/Soluciones",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "OrderlyMeds/Help Desk/attachments/OM_11828.b.png",
-    "Otro_Espacio/Todo_Software/Hanami",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
