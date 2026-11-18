@@ -11,10 +11,14 @@
             "id": "79577ec9bf11dadf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Postlane/Modelo de Datos/Diagrama Entidad Relación.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Diagrama Entidad Relación"
             }
           }
         ]
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Postlane/Modelo de Datos/Diagrama Entidad Relación.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -154,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,7 +170,7 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "79577ec9bf11dadf",
   "lastOpenFiles": [
     "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos/Diagrama Entidad Relación.md",

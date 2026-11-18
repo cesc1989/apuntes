@@ -1,5 +1,7 @@
 # Diagrama Entidad Relación
 
+## Diagrama
+
 ```mermaid
 erDiagram
 	direction TB
@@ -116,3 +118,53 @@ erDiagram
 	User ||--}o Membership : ""
 	Invitation o|--|o Membership : ""
 ```
+
+## Modelos y Explicación
+
+### Invitation
+
+Invitación pendiente para que un usuario se una a una organización. Al aceptarla se crea un `Membership`.
+
+### Membership
+
+Join table que vincula un usuario con una organización y le asigna un rol. Define qué puede hacer cada persona dentro de una organización.
+
+### Organization
+
+Una organización (equipo/empresa) que agrupa usuarios, cuentas sociales y posts. ==Es la unidad multi-tenant del sistema.==
+
+### Plan
+
+Planes de suscripción del sistema (Free, Pro, Business). Define límites y capacidades generales por plan.
+
+### PlanProviderEntitlement
+
+Por cada plan + proveedor, qué capacidades están habilitadas y cuántas cuentas se pueden conectar. Ej: Free puede conectar 1 cuenta de Bluesky con post.publish, Business puede 3 con media.upload.
+
+### Post
+
+Una publicación creada por un usuario. Puede ser draft, programada o publicada. El contenido se envía a las cuentas sociales a través de PostSocialAccount.
+
+### PostSocialAccount
+
+Join table que trackea el estado individual de una publicación en cada red social. Un Post se envía a N SocialAccounts; cada una puede fallar o publicar independientemente.
+
+### Role
+
+Roles predefinidos del sistema: admin, member, viewer. Se asignan a través de Membership para controlar permisos dentro de una organización.
+
+### SocialAccount
+
+Una cuenta de red social conectada por un usuario dentro de una organización. Guarda los tokens de acceso encriptados para publicar en nombre de la cuenta.
+
+### SocialMediaProvider
+
+_TBD_
+
+### Subscription
+
+Vincula una organización con un plan de suscripción. Determina si la organización puede usar el sistema y qué plan tiene activo.
+
+### User
+
+Usuario del sistema. Pertenece a organizaciones a través de memberships. Puede conectar cuentas sociales y crear posts dentro de su organización activa.
