@@ -220,7 +220,7 @@ mo.reload; pp mo.status, mo.patient&.id
 
 
 
-## Caso OM-12504 - Unable with Current Medication 🟡
+## Caso OM-12504 - Unable with Current Medication 🟢
 
 Etiquetas: #om_unable_to_continue_with_current_medication 
 
