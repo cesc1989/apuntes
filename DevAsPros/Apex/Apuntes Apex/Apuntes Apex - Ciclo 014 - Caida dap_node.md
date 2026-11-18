@@ -151,7 +151,7 @@ sudo sysctl --system | grep conntrack
 
 El `modules-load.d` es necesario: sin él, al arrancar los sysctl se aplican antes de que cargue `nf_conntrack` y se pierden en silencio.
 
-#### 2. Vigilar y ver quién llena la tabla 🟡
+#### 2. Vigilar y ver quién llena la tabla 🟢
 
 ```bash
 # Entradas ocupadas (si sube sin parar hacia 65536, hay abuso)
@@ -164,6 +164,8 @@ sudo grep -oE "src=[0-9.]+" /proc/net/nf_conntrack | awk 'NR%2==1' | sort | uniq
 sudo awk '$3=="tcp"{print $6}' /proc/net/nf_conntrack | sort | uniq -c | sort -rn
 ```
 
+Ver abajo.
+
 #### 3. Cambios en el repo de enlacito 🟡
 
 - **Geocoder fuera del request:** `AnalyticsService` llama a `Geocoder.search` dos veces, en vivo, en cada redirección. Si la API externa se pone lenta, ocupa los 3 threads de Puma. Moverlo a `ProcessAnalyticsJob`, con una sola llamada y un timeout corto.
@@ -174,5 +176,39 @@ sudo awk '$3=="tcp"{print $6}' /proc/net/nf_conntrack | sort | uniq -c | sort -r
 Revisar primero:
 ```bash
 sudo dmesg -T | grep -i conntrack | tail
+
 cat /proc/sys/net/netfilter/nf_conntrack_count /proc/sys/net/netfilter/nf_conntrack_max
 ```
+
+## Culpable de la caída encontrado y bloqueado 🟢
+
+`sudo grep -oE "src=[0-9.]+" /proc/net/nf_conntrack | awk 'NR%2==1' | sort | uniq -c | sort -rn | head`
+→ `40.160.226.237` ==tenía 2862 de 4366 entradas==, casi todas en `TIME_WAIT`, al puerto 443.
+
+`sudo grep -c "40.160.226.237" /var/log/nginx/*access.log`
+→ Solo en `cashflow.access.log`: `Go-http-client/1.1` pidiendo `GET /`, cashflow respondía `403`.
+
+> [!Info]
+> **Por qué tumbó al servidor**
+> 
+> Abría ~90 conexiones TLS por segundo (la mayoría sin hacer requests). Con el `TIME_WAIT` original de 120 s, eso son ~10.800 entradas, más que el límite de 7680.
+> 
+> El `403` no ayudaba: la entrada en conntrack se crea al aceptar la conexión, antes de responder.
+> 
+> Una app personal tumbó a enlacito porque las tres comparten la misma tabla del kernel.
+
+**Bloqueo:**
+```bash
+sudo ufw insert 1 deny from 40.160.226.237
+```
+→ `nf_conntrack_count` bajó de 4366 a 16.
+
+> [!Note]
+> La instrucción `insert 1` hace que la regla se ponga de primera. Esto es para evitar que cualquier `allow` impida que esta regla de bloqueo haga efecto.
+
+**Para vigilar de vez en cuando:**
+```bash
+cat /proc/sys/net/netfilter/nf_conntrack_count
+```
+
+Si sube a miles, repetir el análisis por IP y bloquear.
