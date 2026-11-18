@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "38ea31ef449935ed",
+        "id": "83b7db4e724e60af",
         "type": "tabs",
         "children": [
           {
-            "id": "612e361ea693a764",
+            "id": "6b70615296a34d94",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Apex - Ciclo 014 - Caida dap_node"
             }
           }
         ]
@@ -141,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Redis DBs en Uso.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -166,8 +170,12 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "8f41a7b7135580f3",
+  "active": "6b70615296a34d94",
   "lastOpenFiles": [
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
+    "DevAsPros/Infra/Passenger Info y Comandos.md",
+    "DevAsPros/Infra/Redis DBs en Uso.md",
     "DevAsPros/Postlane/Modelo de Datos/Diagrama Entidad Relación.md",
     "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos",
@@ -199,9 +207,6 @@
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Todo_DevOps/Docker/Recursos_Variados_de_Docker.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 013 - Page Speed.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 005 - Solid Cache.md",
-    "DevAsPros/Infra/Configurando Bugsink.md",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinyurl.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments/footer.tinny.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo/attachments",
