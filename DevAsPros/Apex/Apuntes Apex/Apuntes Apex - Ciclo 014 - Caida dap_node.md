@@ -166,7 +166,7 @@ sudo awk '$3=="tcp"{print $6}' /proc/net/nf_conntrack | sort | uniq -c | sort -r
 
 Ver abajo.
 
-#### 3. Cambios en el repo de enlacito 🟡
+#### 3. Cambios en el repo de enlacito 🟢
 
 - **Geocoder fuera del request:** `AnalyticsService` llama a `Geocoder.search` dos veces, en vivo, en cada redirección. Si la API externa se pone lenta, ocupa los 3 threads de Puma. Moverlo a `ProcessAnalyticsJob`, con una sola llamada y un timeout corto.
 - **nginx con `127.0.0.1` en vez de `localhost`** (las tres apps): `proxy_pass http://localhost:PUERTO` hace que nginx trate `127.0.0.1` y `[::1]` como dos servidores. Puma solo escucha en IPv4, y basta un fallo en cada uno para que nginx devuelva "no live upstreams", o sea 502 para todos durante 10 s. Cambiar a `proxy_pass http://127.0.0.1:PUERTO;`.
