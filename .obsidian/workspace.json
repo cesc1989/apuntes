@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e46652e28ad77dd",
+        "id": "ecbad8b3049c9096",
         "type": "tabs",
         "children": [
           {
-            "id": "728f14434988355c",
+            "id": "230d4cf265ed68a1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,11 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "728f14434988355c",
+  "active": "230d4cf265ed68a1",
   "lastOpenFiles": [
+    "Otro_Espacio/Todo_Software/Discos y Almacenamiento/001 - Estado_Actual_Discos_Duros_y_USBs.md",
+    "Otro_Espacio/Todo_Software/Discos y Almacenamiento/Estado y Ubicación de los Respaldos.md",
+    "Otro_Espacio/Todo_Software/Discos y Almacenamiento",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - mise en Prod.md",
@@ -191,9 +194,6 @@
     "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
     "OrderlyMeds/Help Desk/attachments/OM_12585.png",
-    "OrderlyMeds/Help Desk/OM Ciclo 50.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 51.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 56.md",
     "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos",
     "Luna/Archive.zip",
@@ -212,7 +212,6 @@
     "DevAsPros/Enlacito/Definicion/Planes y Pagos/enlacito.payments.png",
     "DevAsPros/Enlacito/Divulgacion/Mercadeo",
     "OrderlyMeds/Help Desk/Soluciones",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto",
     "Canvas/Comanditos.canvas",
     "Canvas/Ruby.canvas",
     "Canvas/Forms.canvas",
