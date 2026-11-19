@@ -10,8 +10,9 @@ La exposición es grave en el sentido de que hay posibilidad de ejecución remot
 - **Subir a Ruby 4.0.x**: para estar más cerca de las versiones recientes y más actualizadas.
 - **Mantenerme al día en seguridad**: en esta era de IA que saca vulnerabilidades a cada rato hay que estar en la juega.
 
-Así que procederé a cambiar chruby por mise en todas las máquinas. Locales y remotas. Esto hay que hacerlo con cuidado porque no es un cambio sencillo. Por lo tanto iré paso a paso así:
+Así que procederé a cambiar chruby por mise en todas las máquinas. Locales y remotas. Esto hay que hacerlo con cuidado porque no es un cambio sencillo. Por lo tanto iré paso a paso.
 
+### Checklist
 
 MBP
 - [x] Instalar y configurar
