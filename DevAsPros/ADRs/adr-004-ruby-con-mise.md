@@ -12,33 +12,6 @@ La exposición es grave en el sentido de que hay posibilidad de ejecución remot
 
 Así que procederé a cambiar chruby por mise en todas las máquinas. Locales y remotas. Esto hay que hacerlo con cuidado porque no es un cambio sencillo. Por lo tanto iré paso a paso.
 
-### Checklist
-
-**MBP**
-- [x] Instalar y configurar
-- [x] Usar mise en el MBP y que los proyectos corran normalmente
-	- [x] Cash Flow
-	- [x] Coshi Notes
-	- [x] Enlacito
-	- [x] Postlane
-	- [x] Super Menú
-	- [x] Website DAP
-	- [x] Website FQ
-- [ ] Eliminar chruby, rubies y ruby-install del MBP
-
-**dap_node**
-- [ ] Instalar y configurar
-- [ ] Despliegue exitoso de cashflow
-- [ ] Despliegue exitoso de coshinotes
-- [ ] Despliegue exitoso de enlacito
-- [ ] Eliminar chruby, rubies y ruby-install de dap_node
-
-**dap_hatch**
-- [ ] Instalar y configurar
-- [ ] Despliegue exitoso de supermenu
-- [ ] Despliegue exitoso de postlane
-- [ ] Eliminar chruby, rubies y ruby-install de dap_hatch
-
 
 ## Instalación y Configuración
 
@@ -161,3 +134,30 @@ mise use ruby@3.4.8
 ```
 
 Escribe al archivo `mise.toml` e instala esa versión de Ruby.
+
+# Checklist
+
+**MBP**
+- [x] Instalar y configurar
+- [x] Usar mise en el MBP y que los proyectos corran normalmente
+	- [x] Cash Flow
+	- [x] Coshi Notes
+	- [x] Enlacito
+	- [x] Postlane
+	- [x] Super Menú
+	- [x] Website DAP
+	- [x] Website FQ
+- [x] Eliminar chruby, rubies y ruby-install del MBP
+
+**dap_node**
+- [ ] Instalar y configurar
+- [ ] Despliegue exitoso de cashflow
+- [ ] Despliegue exitoso de coshinotes
+- [ ] Despliegue exitoso de enlacito
+- [ ] Eliminar chruby, rubies y ruby-install de dap_node
+
+**dap_hatch**
+- [ ] Instalar y configurar
+- [ ] Despliegue exitoso de supermenu
+- [ ] Despliegue exitoso de postlane
+- [ ] Eliminar chruby, rubies y ruby-install de dap_hatch
