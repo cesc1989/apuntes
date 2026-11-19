@@ -1,5 +1,19 @@
 # Usar Puma como App Server
 
+## Comandos de servicio puma para cada proyecto
+
+### Cash Flow
+
+Reiniciar
+```bash
+sudo systemctl restart cashflow.puma
+```
+
+Verificar estado:
+```bash
+systemctl status cashflow.puma
+```
+
 ## Notas
 
 > [!Importante]
