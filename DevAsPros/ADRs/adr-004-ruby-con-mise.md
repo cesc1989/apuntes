@@ -98,7 +98,10 @@ También el comando `gem env home` debería apuntar a:
 ```
 
 
-### Warnings por mezcla con chruby
+### Warnings por mezcla con chruby ⚠️
+
+> [!Warning]
+> Corre este comando primero antes de hacer bundle install
 
 Antes de haber desactivado chruby corrí las pruebas y me salían estos mensajes:
 ```bash
