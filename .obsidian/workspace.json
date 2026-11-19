@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
-                "mode": "source",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "adr-004-ruby-con-mise"
+              "title": "Apuntes_Ruby_Parte_4"
             }
           },
           {
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_stuck_in_ready_to_create_visit",
+                "query": "eventmachine",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
+                "file": "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,8 +187,8 @@
   },
   "active": "f3ce2d91249fae81",
   "lastOpenFiles": [
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
     "DevAsPros/ADRs/adr-003-rubocop-y-herb-ci.md",
     "DevAsPros/Postlane/API/Bluesky API Notes.md",

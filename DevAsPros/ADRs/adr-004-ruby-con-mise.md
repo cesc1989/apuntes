@@ -17,6 +17,13 @@ Así que procederé a cambiar chruby por mise en todas las máquinas. Locales y 
 **MBP**
 - [x] Instalar y configurar
 - [ ] Usar mise en el MBP y que los proyectos corran normalmente
+	- [x] Cash Flow
+	- [x] Coshi Notes
+	- [x] Enlacito
+	- [x] Postlane
+	- [x] Super Menú
+	- [ ] Website DAP
+	- [ ] Website FQ
 - [ ] Eliminar chruby, rubies y ruby-install del MBP
 
 **dap_node**

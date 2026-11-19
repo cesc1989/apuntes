@@ -260,58 +260,62 @@ Idea por haber visto [este artículo.](https://www.leighhalliday.com/ruby-struct
 # Instalando eventmachine 1.2.7 en Mac M1
 
 Necesitaba actualizar Jekyll para el proyecto de mi sitio web y tenía este error de Event Machine:
-
-    An error occurred while installing eventmachine (1.2.7), and Bundler cannot continue.
-    
-    In Gemfile:
-      minima was resolved to 2.5.1, which depends on
-        jekyll-feed was resolved to 0.12.1, which depends on
-          jekyll was resolved to 4.1.1, which depends on
-            em-websocket was resolved to 0.5.3, which depends on
-              eventmachine
+```bash
+ An error occurred while installing eventmachine (1.2.7), and Bundler cannot continue.
+	
+	In Gemfile:
+		minima was resolved to 2.5.1, which depends on
+			jekyll-feed was resolved to 0.12.1, which depends on
+				jekyll was resolved to 4.1.1, which depends on
+					em-websocket was resolved to 0.5.3, which depends on
+						eventmachine
+```
 
 Probé, según mencionan en [este issue](https://github.com/eventmachine/eventmachine/issues/932#issuecomment-864392814) este comando
+```bash
+gem install eventmachine -- --with-openssl-dir=/usr/local/opt/openssl@1.1
 
-    gem install eventmachine -- --with-openssl-dir=/usr/local/opt/openssl@1.1
-    
-    4 warnings generated.
-    linking shared-object rubyeventmachine.bundle
-    ld: warning: directory not found for option '-L/usr/local/opt/openssl@1.1/lib'
-    Undefined symbols for architecture arm64:
-      "_SSL_get1_peer_certificate", referenced from:
-          SslBox_t::GetPeerCert() in ssl.o
-    ld: symbol(s) not found for architecture arm64
-    clang: error: linker command failed with exit code 1 (use -v to see invocation)
-    make: *** [rubyeventmachine.bundle] Error 1
-    
-    make failed, exit code 2
+4 warnings generated.
+linking shared-object rubyeventmachine.bundle
+ld: warning: directory not found for option '-L/usr/local/opt/openssl@1.1/lib'
+Undefined symbols for architecture arm64:
+	"_SSL_get1_peer_certificate", referenced from:
+			SslBox_t::GetPeerCert() in ssl.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [rubyeventmachine.bundle] Error 1
+
+make failed, exit code 2
+```
 
 Que no sirvió. Ni este otro:
+```bash
+gem install eventmachine -- --with-openssl-dir=/opt/homebrew/opt/openssl@1.1
 
-    gem install eventmachine -- --with-openssl-dir=/opt/homebrew/opt/openssl@1.1
-    
-    4 warnings generated.
-    linking shared-object rubyeventmachine.bundle
-    Undefined symbols for architecture arm64:
-      "_SSL_get1_peer_certificate", referenced from:
-          SslBox_t::GetPeerCert() in ssl.o
-    ld: symbol(s) not found for architecture arm64
-    clang: error: linker command failed with exit code 1 (use -v to see invocation)
-    make: *** [rubyeventmachine.bundle] Error 1
-    
-    make failed, exit code 2
+4 warnings generated.
+linking shared-object rubyeventmachine.bundle
+Undefined symbols for architecture arm64:
+	"_SSL_get1_peer_certificate", referenced from:
+			SslBox_t::GetPeerCert() in ssl.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [rubyeventmachine.bundle] Error 1
+
+make failed, exit code 2
+```
 
 Finalmente, con lo que comparten [este artículo](https://www.jessesquires.com/blog/2023/01/18/eventmachine-failure-on-macos-ventura/), fue que pude instalarlo la gema:
-
-    gem install eventmachine -v '1.2.7' -- --with-ldflags="-Wl,-undefined,dynamic_lookup"
-    
-    Building native extensions with: '--with-ldflags=-Wl,-undefined,dynamic_lookup'
-    This could take a while...
-    Successfully installed eventmachine-1.2.7
-    Parsing documentation for eventmachine-1.2.7
-    Installing ri documentation for eventmachine-1.2.7
-    Done installing documentation for eventmachine after 2 seconds
-    1 gem installed
+```bash
+gem install eventmachine -v '1.2.7' -- --with-ldflags="-Wl,-undefined,dynamic_lookup"
+	
+	Building native extensions with: '--with-ldflags=-Wl,-undefined,dynamic_lookup'
+	This could take a while...
+	Successfully installed eventmachine-1.2.7
+	Parsing documentation for eventmachine-1.2.7
+	Installing ri documentation for eventmachine-1.2.7
+	Done installing documentation for eventmachine after 2 seconds
+	1 gem installed
+```
 
 
 # Diferencia entre tap y yield_self
