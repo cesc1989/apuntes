@@ -150,8 +150,8 @@ Escribe al archivo `mise.toml` e instala esa versión de Ruby.
 - [x] Eliminar chruby, rubies y ruby-install del MBP
 
 **dap_node**
-- [ ] Instalar y configurar
-- [ ] Despliegue exitoso de cashflow
+- [x] Instalar y configurar
+- [x] Despliegue exitoso de cashflow
 - [ ] Despliegue exitoso de coshinotes
 - [ ] Despliegue exitoso de enlacito
 - [ ] Eliminar chruby, rubies y ruby-install de dap_node

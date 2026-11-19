@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Infra/Puma como App Server 🟢.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - m'ise en Prod.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Puma como App Server 🟢"
+              "title": "Apuntes Apex - m'ise en Prod"
             }
           }
         ],
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Infra/Puma como App Server 🟢.md",
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - m'ise en Prod.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,8 +187,11 @@
   },
   "active": "b2e51f3561378e6b",
   "lastOpenFiles": [
-    "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "DevAsPros/Infra/Puma como App Server 🟢.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - m'ise en Prod.md",
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
+    "Untitled.md",
+    "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 003.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
@@ -210,10 +213,7 @@
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
     "OrderlyMeds/Help Desk/OM Ciclo 56.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
     "Otro_Espacio/Self Hosting/Usando Homer para Dashboard Personal.md",
-    "DevAsPros/Infra/Cronitor & Uptime Kuma.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
     "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos",
     "Luna/Archive.zip",
