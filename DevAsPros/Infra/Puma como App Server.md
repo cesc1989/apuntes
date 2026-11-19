@@ -4,38 +4,38 @@
 
 ### Cash Flow
 
-Reiniciar
-```bash
-sudo systemctl restart cashflow.puma
-```
-
 Verificar estado:
 ```bash
 systemctl status cashflow.puma
 ```
 
-### Coshi Notes
-
 Reiniciar
 ```bash
-sudo systemctl restart coshinotes.puma
+sudo systemctl restart cashflow.puma
 ```
+
+### Coshi Notes
 
 Verificar estado:
 ```bash
 systemctl status coshinotes.puma
 ```
 
-### Enlacito
-
 Reiniciar
 ```bash
-sudo systemctl restart enlacito.puma
+sudo systemctl restart coshinotes.puma
 ```
+
+### Enlacito
 
 Verificar estado:
 ```bash
 systemctl status enlacito.puma
+```
+
+Reiniciar
+```bash
+sudo systemctl restart enlacito.puma
 ```
 
 ## Notas
