@@ -158,6 +158,6 @@ Escribe al archivo `mise.toml` e instala esa versión de Ruby.
 
 **dap_hatch**
 - [x] Instalar y configurar
-- [ ] Despliegue exitoso de supermenu
+- [x] Despliegue exitoso de supermenu
 - [x] Despliegue exitoso de postlane
-- [ ] Eliminar chruby, rubies y ruby-install de dap_hatch
+- [x] Eliminar chruby, rubies y ruby-install de dap_hatch
