@@ -259,6 +259,8 @@ Idea por haber visto [este artículo.](https://www.leighhalliday.com/ruby-struct
 
 # Instalando eventmachine 1.2.7 en Mac M1
 
+#jekyll #bundle_install
+
 Necesitaba actualizar Jekyll para el proyecto de mi sitio web y tenía este error de Event Machine:
 ```bash
  An error occurred while installing eventmachine (1.2.7), and Bundler cannot continue.
@@ -307,16 +309,36 @@ make failed, exit code 2
 Finalmente, con lo que comparten [este artículo](https://www.jessesquires.com/blog/2023/01/18/eventmachine-failure-on-macos-ventura/), fue que pude instalarlo la gema:
 ```bash
 gem install eventmachine -v '1.2.7' -- --with-ldflags="-Wl,-undefined,dynamic_lookup"
-	
-	Building native extensions with: '--with-ldflags=-Wl,-undefined,dynamic_lookup'
-	This could take a while...
-	Successfully installed eventmachine-1.2.7
-	Parsing documentation for eventmachine-1.2.7
-	Installing ri documentation for eventmachine-1.2.7
-	Done installing documentation for eventmachine after 2 seconds
-	1 gem installed
 ```
 
+Salida:
+```bash
+Building native extensions with: '--with-ldflags=-Wl,-undefined,dynamic_lookup'
+This could take a while...
+Successfully installed eventmachine-1.2.7
+Parsing documentation for eventmachine-1.2.7
+Installing ri documentation for eventmachine-1.2.7
+Done installing documentation for eventmachine after 2 seconds
+1 gem installed
+```
+
+
+## Actualización 2026: reinstalando
+
+Me volvió a pasar y ninguno de los de arriba funcionó. El compilador de C++ se rompió en la subida a Sequoia, supongo.
+
+El arreglo:
+```bash
+sudo mv /Library/Developer/CommandLineTools/usr/include/c++ /Library/Developer/CommandLineTools/usr/include/c++.bak
+```
+
+Probar:
+```bash
+echo '#include <iostream>
+int main(){}' | c++ -x c++ - -o /dev/null && echo OK
+```
+
+Si sale OK, entonces se puede continuar el bundle install.
 
 # Diferencia entre tap y yield_self
 
