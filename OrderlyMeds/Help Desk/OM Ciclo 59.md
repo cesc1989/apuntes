@@ -272,7 +272,8 @@ Salida de `pc`:
  "allergic_to_shellfish" => nil}
 ```
 
-## Caso OM-12585 - Pago fallido - Ontraport
+
+## Caso OM-12585 - Pago fallido - Ontraport 🟢
 
 Etiquetas: #om_ontraport #om_payment_failed
 
