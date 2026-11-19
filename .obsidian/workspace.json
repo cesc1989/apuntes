@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 60.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 59"
+              "title": "OM Ciclo 60"
             }
           }
         ],
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 60.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,6 +187,8 @@
   },
   "active": "eb2db47b128ab0ce",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 59.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 60.md",
     "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
@@ -199,7 +201,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Guía de Timeouts en Ruby.md",
     "OrderlyMeds/KB/starter-pack/001-activacion-starter-pack.md",
     "OrderlyMeds/Help Desk/OM Ciclo 57.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 59.md",
     "OrderlyMeds/Help Desk/attachments/OM_12585.png",
     "OrderlyMeds/Help Desk/OM Ciclo 50.md",
     "OrderlyMeds/Help Desk/OM Ciclo 51.md",
@@ -215,7 +216,6 @@
     "DevAsPros/Postlane/Modelo de Datos",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Teams should be an MVP feature.md",
     "Otro_Espacio/Apuntes_de_Cursos_Libros_y_Textos/Separa Facturación de Características.md",
-    "OrderlyMeds/KB/starter-pack/002-diagrama-flujo.md",
     "Luna/Archive.zip",
     "Otro_Espacio/Self Hosting/attachments/Pasted image 20261117163639.png",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Instalacion&Config",
