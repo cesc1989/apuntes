@@ -14,7 +14,7 @@ Así que procederé a cambiar chruby por mise en todas las máquinas. Locales y 
 
 
 MBP
-- [ ] Instalar y configurar
+- [x] Instalar y configurar
 - [ ] Usar mise en el MBP y que los proyectos corran normalmente
 - [ ] Eliminar chruby, rubies y ruby-install del MBP
 
@@ -127,3 +127,12 @@ La segunda es para que siempre use binarios precompilados.
 ### Carpetas
 
 Las versiones de los tools quedan instaladas en `~/.local/share/mise/installs/`.
+
+## Uso e instalación de rubies
+
+Para instalar una versión de ruby:
+```bash
+mise use ruby@3.4.8
+```
+
+Escribe al archivo `mise.toml` e instala esa versión de Ruby.
