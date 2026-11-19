@@ -14,6 +14,18 @@ Verificar estado:
 systemctl status cashflow.puma
 ```
 
+### Coshi Notes
+
+Reiniciar
+```bash
+sudo systemctl restart coshinotes.puma
+```
+
+Verificar estado:
+```bash
+systemctl status coshinotes.puma
+```
+
 ## Notas
 
 > [!Importante]
