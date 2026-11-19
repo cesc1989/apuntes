@@ -16,14 +16,14 @@ Así que procederé a cambiar chruby por mise en todas las máquinas. Locales y 
 
 **MBP**
 - [x] Instalar y configurar
-- [ ] Usar mise en el MBP y que los proyectos corran normalmente
+- [x] Usar mise en el MBP y que los proyectos corran normalmente
 	- [x] Cash Flow
 	- [x] Coshi Notes
 	- [x] Enlacito
 	- [x] Postlane
 	- [x] Super Menú
-	- [ ] Website DAP
-	- [ ] Website FQ
+	- [x] Website DAP
+	- [x] Website FQ
 - [ ] Eliminar chruby, rubies y ruby-install del MBP
 
 **dap_node**
@@ -84,6 +84,16 @@ No pueden convivir en un mismo sistema. Por eso es mejor desactivar chruby antes
 Para los equipos locales toca quitarlo del `.bash_profile` en dotfiles.
 
 Para los VPS toca quitarlo del `.profile` y de los scripts de despliegue en el paso 003.
+
+#### Desinstalación en macos
+
+Para quitar ruby-install:
+1. `brew uninstall ruby-install`
+2. `rm -rf ~/.cache/ruby-install`
+3. Borrar carpeta `rm -rf ./.rubies`
+4. Borrar carpeta `rm -rf ./src`
+
+Para quitar chruby: `brew uninstall chruby`
 
 ### Verificación que sistema usa Ruby de mise
 
