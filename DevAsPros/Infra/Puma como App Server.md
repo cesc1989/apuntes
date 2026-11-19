@@ -26,6 +26,18 @@ Verificar estado:
 systemctl status coshinotes.puma
 ```
 
+### Enlacito
+
+Reiniciar
+```bash
+sudo systemctl restart enlacito.puma
+```
+
+Verificar estado:
+```bash
+systemctl status enlacito.puma
+```
+
 ## Notas
 
 > [!Importante]

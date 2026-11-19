@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "DevAsPros/Infra/Puma como App Server.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -203,9 +203,9 @@
   "lastOpenFiles": [
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - mise en Prod.md",
     "DevAsPros/Infra/Puma como App Server.md",
+    "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "DevAsPros/Infra/Mejoras del Servidor.md",
     "DevAsPros/Infra/Hardening de VPS.md",
-    "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
     "Untitled.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",

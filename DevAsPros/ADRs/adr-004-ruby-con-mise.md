@@ -152,7 +152,7 @@ Escribe al archivo `mise.toml` e instala esa versión de Ruby.
 **dap_node**
 - [x] Instalar y configurar
 - [x] Despliegue exitoso de cashflow
-- [ ] Despliegue exitoso de coshinotes
+- [x] Despliegue exitoso de coshinotes
 - [ ] Despliegue exitoso de enlacito
 - [ ] Eliminar chruby, rubies y ruby-install de dap_node
 
