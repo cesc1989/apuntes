@@ -31,12 +31,11 @@ mise exec -- gem install bundler -v 4.1.0
 El despliegue completó con éxito pero al abrir la página daba 502 bad gateway. Es por Puma estar compilado con el OpenSSL de Ubuntu 20.04.
 
 ```bash
-find ~/cashflow/deployments/api-gems/bundle/ruby/3.4.0 -name '*.so' -exec sh -c
+find ~/cashflow/deployments/api-gems/bundle/ruby/3.4.0 -name '*.so' -exec sh -c 'ldd "$1" | grep -E "libssl|libcrypto" | sed "s|^|$1: |"' _ {} \;
 ```
 
 Salida:
 ```bash
-'ldd "$1" | grep -E "libssl|libcrypto" | sed "s|^|$1: |"' _ {} \;
 .../puma-7.2.1/puma/puma_http11.so: libssl.so.1.1 => /lib/x86_64-linux-gnu/libssl.so.1.1
 (solo puma enlaza el OpenSSL 1.1 del sistema)
 ```
