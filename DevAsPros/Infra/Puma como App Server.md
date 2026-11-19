@@ -50,6 +50,18 @@ Reiniciar
 sudo systemctl restart postlane.puma
 ```
 
+### Super Menú
+
+Verificar estado:
+```bash
+systemctl status supermenu.puma
+```
+
+Reiniciar
+```bash
+sudo systemctl restart supermenu.puma
+```
+
 ## Notas
 
 > [!Importante]
