@@ -14,19 +14,19 @@ Así que procederé a cambiar chruby por mise en todas las máquinas. Locales y 
 
 ### Checklist
 
-MBP
+**MBP**
 - [x] Instalar y configurar
 - [ ] Usar mise en el MBP y que los proyectos corran normalmente
 - [ ] Eliminar chruby, rubies y ruby-install del MBP
 
-dap_node
+**dap_node**
 - [ ] Instalar y configurar
 - [ ] Despliegue exitoso de cashflow
 - [ ] Despliegue exitoso de coshinotes
 - [ ] Despliegue exitoso de enlacito
 - [ ] Eliminar chruby, rubies y ruby-install de dap_node
 
-dap_hatch
+**dap_hatch**
 - [ ] Instalar y configurar
 - [ ] Despliegue exitoso de supermenu
 - [ ] Despliegue exitoso de postlane
