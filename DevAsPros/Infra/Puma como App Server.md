@@ -38,6 +38,18 @@ Reiniciar
 sudo systemctl restart enlacito.puma
 ```
 
+### Postlane
+
+Verificar estado:
+```bash
+systemctl status postlane.puma
+```
+
+Reiniciar
+```bash
+sudo systemctl restart postlane.puma
+```
+
 ## Notas
 
 > [!Importante]
