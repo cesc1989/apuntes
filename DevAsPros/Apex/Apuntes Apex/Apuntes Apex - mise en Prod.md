@@ -62,3 +62,23 @@ mise exec -- bundle exec ruby -e 'require "puma"; p Puma.ssl?'
 # false
 ```
 
+## Eliminando chruby y ruby-install
+
+> [!Important]
+> Primero borra cualquier entrada de `~/.bashrc`, `~/.bash_profile` y/o `~/.profile`.
+
+Se borra así en Linux:
+```bash
+sudo rm -rf /usr/local/share/chruby \
+  /usr/local/bin/ruby-install \
+  /usr/local/share/ruby-install
+```
+
+### Confirmación que mise es el que manda
+
+Corre los comandos:
+- `mise doctor`
+- `ruby -v`
+- `which ruby`
+
+Deben dar salidas satisfactorias apuntando a mise.
