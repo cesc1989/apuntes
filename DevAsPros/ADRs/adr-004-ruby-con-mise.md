@@ -123,9 +123,13 @@ idiomatic_version_file_enable_tools = ["ruby"]
 compile = false
 ```
 
-La primera es para que lea el archivo `.ruby-version` de cada repo.
+- La primera es para que lea el archivo `.ruby-version` de cada repo.
+- La segunda es para que siempre use binarios precompilados.
 
-La segunda es para que siempre use binarios precompilados.
+La ruta del archivo es:
+```bash
+~/.config/mise/config.toml
+```
 
 ### Carpetas
 
