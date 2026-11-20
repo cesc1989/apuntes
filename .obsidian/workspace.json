@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ecbad8b3049c9096",
+        "id": "ed00343908e68f54",
         "type": "tabs",
         "children": [
           {
-            "id": "230d4cf265ed68a1",
+            "id": "07205beb27992151",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,13 +165,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "230d4cf265ed68a1",
+  "active": "07205beb27992151",
   "lastOpenFiles": [
+    "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
+    "README.md",
     "Otro_Espacio/Todo_Software/Discos y Almacenamiento/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Discos y Almacenamiento/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/Todo_Software/Discos y Almacenamiento",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
-    "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - mise en Prod.md",
     "DevAsPros/Infra/Puma como App Server.md",
     "OrderlyMeds/Help Desk/OM Ciclo 59.md",
