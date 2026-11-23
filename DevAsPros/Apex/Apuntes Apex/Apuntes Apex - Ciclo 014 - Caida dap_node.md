@@ -253,3 +253,9 @@ Ver los commits de Postlane:
 
 - Hay que correr `bundle exec rails db:prepare`
 - Hay que crear la carpeta `~/.config/systemd/user` si no existe
+
+### Revisar Linger de usuario de sistema si es VPS nuevo
+
+En dap_hatch primer vez que se configura systemd así que tocaba cambiarle el Linger al usuario ubuntu.
+
+Ver [[Apuntes_Ciclo_22_-_Cron_Sidekiq#systemd como usuario solo mientras el usuario está loggeado]]
