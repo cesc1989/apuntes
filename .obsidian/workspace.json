@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes Apex - Ciclo 014 - Caida dap_node"
+              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Linger",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
+                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,11 +172,11 @@
   },
   "active": "a6cabc0a7660515b",
   "lastOpenFiles": [
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
     "DevAsPros/Infra/Puma como App Server.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - mise en Prod.md",
     "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "README.md",

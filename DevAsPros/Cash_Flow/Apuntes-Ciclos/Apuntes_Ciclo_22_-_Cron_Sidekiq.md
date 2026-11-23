@@ -304,7 +304,7 @@ Vuelve a reiniciar.
 
 ### systemd como usuario solo mientras el usuario está loggeado
 
-El error de esto es porque configuré Sidekiq como demonio systemd pero solo se ejecuta mientras estoy loggeado.
+==🟢El error de esto es porque configuré Sidekiq como demonio systemd pero solo se ejecuta mientras estoy loggeado==.
 
 Así lo dice el [artículo de donde saqué la configuración](https://dev.to/kevinluo201/start-sidekiq-6-as-daemon-in-production-environment-on-ubuntu-20-04-4m7b):
 > User-wise systemd actually only allows logged-in user to execute the services.  
@@ -366,6 +366,6 @@ Y también se puede notar en la web cuando reviso el proceso:
 
 Esto es un buen indicador de que hay algo muy diferente a mí configuración inicial. Esperemos que esta vez sí funcione de verdad.
 
-## 🟡 Los despliegues también reinician Sidekiq 🟡
+## Los despliegues también reinician Sidekiq
 
 Esto es esperado ya que se necesita que Sidekiq recargue para que coja el código nuevo.
