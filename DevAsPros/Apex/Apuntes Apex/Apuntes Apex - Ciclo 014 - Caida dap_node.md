@@ -231,6 +231,8 @@ Enlaces:
 
 ## Pasos para la configuración y despliegue de Solid Queue
 
+Etiquetas: #solid_queue
+
 Estos fueron a groso modo los pasos que tomé para completar esto en Postlane.
 
 En general:
