@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ed00343908e68f54",
+        "id": "f5b5cd274a538fb8",
         "type": "tabs",
         "children": [
           {
-            "id": "07205beb27992151",
+            "id": "2ab78d974faca149",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apuntes Apex - Ciclo 014 - Caida dap_node"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#om_stuck_in_prescription_written",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +133,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "written"
+                "searchQuery": "visit"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -141,6 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -160,20 +165,19 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "07205beb27992151",
+  "active": "2ab78d974faca149",
   "lastOpenFiles": [
+    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - mise en Prod.md",
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "README.md",
     "Otro_Espacio/Todo_Software/Discos y Almacenamiento/001 - Estado_Actual_Discos_Duros_y_USBs.md",
     "Otro_Espacio/Todo_Software/Discos y Almacenamiento/Estado y Ubicación de los Respaldos.md",
     "Otro_Espacio/Todo_Software/Discos y Almacenamiento",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
-    "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - mise en Prod.md",
     "DevAsPros/Infra/Puma como App Server.md",
     "OrderlyMeds/Help Desk/OM Ciclo 59.md",
     "DevAsPros/Infra/Mejoras del Servidor.md",

@@ -212,3 +212,19 @@ cat /proc/sys/net/netfilter/nf_conntrack_count
 ```
 
 Si sube a miles, repetir el análisis por IP y bloquear.
+
+## Cambiar proxy_pass de localhost a 127.0.0.1
+
+A raíz de esta caída Claudio recomendó este cambio:
+```diff
+- proxy_pass http://localhost:3000;
++ proxy_pass http://127.0.0.1:3000;
+```
+
+La explicación es que al usar `localhost` nginx primero resuelve con IPV6 (`::1`). Ya que no está soportado ni se espera entonces falla la petición. Eso ayudaba a llenar el archivo `nf_conntrack_count`. Era un bot haciendo peticiones que fallaban y entonces se llenó muy rápido ese archivo.
+
+La idea detrás de usar `127.0.0.1` es que se es más específico sobre la intención de responder con IPV4.
+
+Enlaces:
+
+- [Reverse proxies must not point at localhost](https://nimblegate.com/docs/frames/no-localhost-in-proxy-config)
