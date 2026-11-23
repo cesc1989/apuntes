@@ -228,3 +228,28 @@ La idea detrás de usar `127.0.0.1` es que se es más específico sobre la inten
 Enlaces:
 
 - [Reverse proxies must not point at localhost](https://nimblegate.com/docs/frames/no-localhost-in-proxy-config)
+
+## Pasos para la configuración y despliegue de Solid Queue
+
+Estos fueron a groso modo los pasos que tomé para completar esto en Postlane.
+
+En general:
+
+- Instalar gema y mission-control-jobs
+- Correr el comando `bin/rails solid_queue:install`
+- Configurar database.yml
+	- para prod y development
+- Configurar routes.rb con lo de mission-control
+	- También application.rb para que deje el acceso con creds
+- Configurar production.rb y development.rb
+- Configurar scripts de despliegue 003 y 004 con las partes del symlink del servicio de jobs
+- Crear archivo servicio de job el cual es symlinkeado en el servidor
+
+Ver los commits de Postlane:
+
+- Configuración: https://github.com/devaspros/postlane-backend/commit/6d348982eae1e8d3aeedb33bda17f48829ca30a4
+
+### Causas Despliegue fallido
+
+- Hay que correr `bundle exec rails db:prepare`
+- Hay que crear la carpeta `~/.config/systemd/user` si no existe
