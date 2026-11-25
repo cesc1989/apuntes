@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "29c922ce997f91ad",
+        "id": "7d448dbd8477997d",
         "type": "tabs",
         "children": [
           {
-            "id": "d262bd9ae06b8ee2",
+            "id": "d1264e1bcc78e2fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 60.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OM Ciclo 60"
+              "title": "New tab"
             }
           }
         ]
@@ -145,7 +141,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 60.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -169,8 +164,13 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "d262bd9ae06b8ee2",
+  "active": "8f41a7b7135580f3",
   "lastOpenFiles": [
+    "DevAsPros/Zesty/NSAC/Lecciones_Ciclo_4_-_Stimulus_y_Formularios.md",
+    "DevAsPros/Zesty/NSAC/Cómo_Enviar_emails_con_Sidekiq,_ActionMailer_y_Mai.md",
+    "DevAsPros/Zesty/NSAC/Cómo_Agregar_Vistas_Dummy.md",
+    "DevAsPros/Zesty/Cinco Tokens de Esfuerzo.md",
+    "OrderlyMeds/Help Desk/OM Ciclo 60.md",
     "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
@@ -191,13 +191,8 @@
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 002.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 003.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 004.md",
-    "OrderlyMeds/Help Desk/OM Ciclo 60.md",
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_5.md",
     "Otro_Espacio/Todo_Software/Mundo_Linux/Apuntes_de_Linux_-_Parte_2.md",
-    "DevAsPros/Coshi_Notes/Apuntes Ciclos CoshiNotes/Apuntes_Ciclo_16_-_Ruby_y_Rails_Upgrade.md",
-    "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
-    "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
-    "DevAsPros/ADRs/adr-003-rubocop-y-herb-ci.md",
     "OrderlyMeds/Help Desk/attachments/OM_12585.png",
     "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos",
