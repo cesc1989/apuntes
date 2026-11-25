@@ -80,7 +80,7 @@ E iba a seleccionar el producto salía un mensaje de que el CX no era elegible. 
 
 ## Caso OM-11427 - Reroute to Beluga 🟢ℹ️
 
-Etiquetas: #om_reroute_to_beluga 
+Etiquetas: #om_reroute_to_beluga #om_reroute_to_beluga_ontraport
 
 Necesito cambiar el prescriber de un CX a Beluga y hacer el resubmit.
 

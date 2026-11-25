@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "90743aba74916bf5",
+        "id": "f103358d8c570c15",
         "type": "tabs",
         "children": [
           {
-            "id": "a6cabc0a7660515b",
+            "id": "aa847dad5797bf39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Apuntes_Ciclo_22_-_Cron_Sidekiq"
-            }
-          },
-          {
-            "id": "b9611c3e483bd14c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Apuntes Apex - Ciclo 014 - Caida dap_node"
+              "title": "OM Ciclo 55"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Linger",
+                "query": "tag:#om_reroute_to_beluga",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,7 +134,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "visit"
+                "searchQuery": "reroute"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -160,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -184,14 +170,14 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "b9611c3e483bd14c",
+  "active": "aa847dad5797bf39",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_17_-_Sidekiq_-_Cash_Flow.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 007 - Solid Queue.md",
     "DevAsPros/Infra/Puma como App Server.md",
-    "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - mise en Prod.md",
     "DevAsPros/ADRs/adr-004-ruby-con-mise.md",
     "README.md",
