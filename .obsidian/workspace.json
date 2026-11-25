@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f103358d8c570c15",
+        "id": "29c922ce997f91ad",
         "type": "tabs",
         "children": [
           {
-            "id": "aa847dad5797bf39",
+            "id": "d262bd9ae06b8ee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 60.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OM Ciclo 55"
+              "title": "OM Ciclo 60"
             }
           }
         ]
@@ -79,8 +79,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OrderlyMeds/Help Desk/OM Ciclo 55.md",
+                "file": "OrderlyMeds/Help Desk/OM Ciclo 60.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -156,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,8 +169,9 @@
       "obsidian-wordpress:WordPress Publish": false
     }
   },
-  "active": "aa847dad5797bf39",
+  "active": "d262bd9ae06b8ee2",
   "lastOpenFiles": [
+    "OrderlyMeds/Help Desk/OM Ciclo 55.md",
     "OrderlyMeds/Help Desk/Soluciones/Codigo de Soluciones.md",
     "DevAsPros/Cash_Flow/Apuntes-Ciclos/Apuntes_Ciclo_22_-_Cron_Sidekiq.md",
     "DevAsPros/Apex/Apuntes Apex/Apuntes Apex - Ciclo 014 - Caida dap_node.md",
@@ -198,7 +198,6 @@
     "Otro_Espacio/Todo_Software/Ruby_y_Rails/Apuntes Ruby/Apuntes_Ruby_Parte_4.md",
     "Otro_Espacio/Todo_Software/Entorno de Desarrollo/Editores de Texto/Apuntes de Zed.md",
     "DevAsPros/ADRs/adr-003-rubocop-y-herb-ci.md",
-    "DevAsPros/Postlane/API/Bluesky API Notes.md",
     "OrderlyMeds/Help Desk/attachments/OM_12585.png",
     "DevAsPros/Postlane/API",
     "DevAsPros/Postlane/Modelo de Datos",
