@@ -1,7 +1,7 @@
 # Detalles de los endpoints para publicar/programar
 
 > [!Note]
-> Fecha 25/11/2026.
+> Fecha: 25/11/2026.
 
 
 ## Relación endpoints y funcionalidad
