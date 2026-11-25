@@ -20,3 +20,10 @@
 Se podría simplificar pero se volvería un _merecumbé_. Habría que gestionar diferentes respuestas. Tanto del API como del provider.
 
 De esta forma (con dos llamados) si el post falla en ser posteado, al menos va a quedar en `draft`. O sea, existente en la base de dato. Así se da cabida para avisar al usuario y que tome acciones.
+
+## Formato de fecha para programar post
+
+Además de ser una fecha en el futuro, debe ser así:
+```ruby
+"2026-11-23T17:00:00-05:00"
+```
